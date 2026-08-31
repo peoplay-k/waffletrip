@@ -15,6 +15,7 @@
 모든 태스크의 요구사항에 아래가 암묵적으로 포함된다.
 
 - **비용 0원** — 유료 API·유료 호스팅·유료 서비스를 도입하지 않는다. 무료 티어 한도를 넘는 설계를 하지 않는다.
+- **Python 3.9 호환** — CI 는 3.11 을 쓰지만 사용자의 로컬 파이썬은 3.9.6 이다. 사용자가 로컬에서 사이트를 미리 보려면 3.9 에서 돌아야 한다. 모든 모듈 맨 위에 `from __future__ import annotations` 를 넣고, `str | None` 같은 3.10+ 표기는 **어노테이션에서만** 쓴다(런타임 평가 자리에 쓰지 않는다). `match` 문을 쓰지 않는다.
 - **지역 키 7개 고정** — `guam`, `saipan`, `hawaii`, `vietnam`, `kota`, `laos`, `jeju`. 이 외의 값은 검증에서 거부한다.
 - **소스 설정에서만 추가 허용되는 두 값** — `all`(전 지역 공통 데이터, 예: 환율)과 `auto`(기사 내용에서 지역을 추론). 항목(`Item`)의 `region`은 항상 7개 중 하나로 확정된다.
 - **등급 3종** — `A`(사실 데이터), `B`(큐레이션), `C`(해설 기사). 이 외의 값은 거부한다.
@@ -515,6 +516,7 @@ git commit -m "feat: 소스 레지스트리와 실측 조사 결과
   - `src.models.jaccard(a: set[str], b: set[str]) -> float`
   - `src.models.item_to_dict(item: Item) -> dict` / `src.models.item_from_dict(d: dict) -> Item`
   - `src.region_tag.REGION_KEYWORDS: dict[str, tuple[str, ...]]`
+  - `src.region_tag.SINGLE_CHAR_ALLOWED: frozenset[str]` — 한 글자 키워드 허용 목록
   - `src.region_tag.tag_region(text: str) -> str | None` — 지역 키 또는 `None`(우리가 다루지 않는 목적지)
 
 - [ ] **Step 1: 실패하는 테스트 작성**
@@ -732,7 +734,7 @@ Expected: PASS (12 passed)
 
 `tests/test_region_tag.py`:
 ```python
-from src.region_tag import tag_region, REGION_KEYWORDS
+from src.region_tag import tag_region, REGION_KEYWORDS, SINGLE_CHAR_ALLOWED
 from src.models import REGIONS
 
 
@@ -797,10 +799,24 @@ def test_every_keyword_bucket_is_a_real_region():
     assert set(REGION_KEYWORDS) == set(REGIONS)
 
 
-def test_no_keyword_is_a_single_character():
-    """한 글자 키워드는 오탐을 부른다."""
-    for words in REGION_KEYWORDS.values():
-        assert all(len(w) > 1 for w in words)
+def test_single_character_keywords_come_from_an_explicit_allowlist():
+    """한 글자 키워드는 오탐을 부르므로 명시 허용 목록에 있는 것만 쓴다.
+
+    '괌'은 한국어에서 다른 단어의 부분문자열로 거의 나타나지 않아 안전하다.
+    새 한 글자 키워드를 넣으려면 허용 목록에 추가하고 근거를 남겨야 한다.
+    """
+    for region, words in REGION_KEYWORDS.items():
+        for w in words:
+            assert len(w) > 1 or w in SINGLE_CHAR_ALLOWED, (
+                f"{region} 의 한 글자 키워드 '{w}' 가 허용 목록에 없다")
+
+
+def test_common_non_target_destinations_are_not_mistagged():
+    """길이 규칙보다 이쪽이 진짜 방어선이다. 오탐이 곧 오보다."""
+    for text in ("오사카 벚꽃 명소", "파리 올림픽 특수", "도쿄 여행 수요",
+                 "방콕 호텔 요금", "세부 리조트 개장", "유류할증료 인상",
+                 "여권 발급 수수료 변경", "발리 우기 정보"):
+        assert tag_region(text) is None, text
 ```
 
 - [ ] **Step 6: 테스트가 실패하는지 확인**
@@ -824,6 +840,11 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.region_tag'`
 지명이 아니라 도시·섬 이름으로만 매칭한다.
 """
 from src.models import REGIONS
+
+# 한 글자 키워드는 오탐을 부르므로 여기 적힌 것만 허용한다.
+# '괌'은 한국어에서 다른 단어의 부분문자열로 거의 나타나지 않아 안전하다
+# (오사카·파리·도쿄·방콕·세부·유류할증료·여권·발리 에서 오탐 없음을 실측 확인).
+SINGLE_CHAR_ALLOWED = frozenset({"괌"})
 
 # 순서가 동점 처리 순서다. REGIONS 와 같은 순서로 유지한다.
 REGION_KEYWORDS: dict[str, tuple[str, ...]] = {
@@ -869,7 +890,7 @@ def tag_region(text: str) -> str | None:
 ```bash
 .venv/bin/python -m pytest tests/test_models.py tests/test_region_tag.py -v
 ```
-Expected: PASS (25 passed)
+Expected: PASS (27 passed)
 
 - [ ] **Step 9: 커밋**
 
