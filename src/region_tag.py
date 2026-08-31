@@ -22,7 +22,7 @@ REGION_KEYWORDS: dict[str, tuple[str, ...]] = {
     "saipan": ("사이판", "saipan", "티니안", "tinian", "북마리아나",
                "마나가하", "managaha", "마리아나"),
     "hawaii": ("하와이", "hawaii", "호놀룰루", "honolulu", "와이키키",
-               "waikiki", "마우이", "maui", "오아부", "oahu", "빅아일랜드"),
+               "waikiki", "마우이", "maui", "오아후", "oahu", "빅아일랜드"),
     "vietnam": ("베트남", "vietnam", "다낭", "danang", "da nang", "호이안",
                 "hoi an", "나트랑", "냐짱", "nha trang", "푸꾸옥", "phu quoc",
                 "하노이", "hanoi", "호치민", "ho chi minh", "달랏"),

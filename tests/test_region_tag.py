@@ -81,3 +81,10 @@ def test_common_non_target_destinations_are_not_mistagged():
                  "방콕 호텔 요금", "세부 리조트 개장", "유류할증료 인상",
                  "여권 발급 수수료 변경", "발리 우기 정보"):
         assert tag_region(text) is None, text
+
+
+def test_tags_hawaii_from_island_names():
+    """섬 이름 철자가 틀리면 조용히 아무것도 안 잡는다. 철자를 고정한다."""
+    assert tag_region("오아후 해변 여행 특집") == "hawaii"
+    assert tag_region("마우이 산불 복구 현황") == "hawaii"
+    assert tag_region("와이키키 호텔 요금 인상") == "hawaii"
