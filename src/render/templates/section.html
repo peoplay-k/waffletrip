@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ section_title }} — {{ site_name }}{% endblock %}
+{% block description %}{{ section_desc }}{% endblock %}
+{% block content %}
+<h1>{{ section_title }}</h1>
+<p class="meta">{{ section_desc }}</p>
+{% if items %}
+  {% for item in items %}
+  <article class="row">
+    <h3>{% if item.grade == 'A' %}{{ item.title }}{% else %}<a href="{{ article_urls[item.id] }}">{{ item.title }}</a>{% endif %}</h3>
+    <div class="meta">{{ region_names.get(item.region, item.region) }} · {{ item.source_name }} · {{ item.published_at[:10] }}</div>
+    {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
+  </article>
+  {% endfor %}
+{% else %}
+  <p class="meta">아직 모인 소식이 없습니다.</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}{{ region_name }} 여행 소식 — {{ site_name }}{% endblock %}
+{% block description %}{{ region_name }} 여행 뉴스·항공·환율·날씨를 매일 정리합니다.{% endblock %}
+{% block content %}
+<h1>{{ region_name }}</h1>
+{% if panel %}
+<div class="panel">
+  {% for fact in panel %}<div class="fact"><b>{{ fact.title }}</b> · {{ fact.summary }}</div>{% endfor %}
+</div>
+{% endif %}
+{% if articles %}
+  {% for item in articles %}
+  <article class="row">
+    <h3><a href="{{ article_urls[item.id] }}">{{ item.title }}</a></h3>
+    <div class="meta">{{ item.source_name }} · {{ item.published_at[:10] }}</div>
+    {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
+  </article>
+  {% endfor %}
+{% else %}
+  <p class="meta">오늘 {{ region_name }} 소식은 아직 없습니다.</p>
+{% endif %}
+<a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>
+{% endblock %}
+{# 상품 링크가 이 사이트를 만드는 사업적 이유다. 모든 지역 페이지에 넣는다. #}

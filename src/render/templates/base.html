@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site_name }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ site_tagline }} — 괌·사이판·하와이·베트남·코타키나발루·라오스·제주{% endblock %}">
+<link rel="alternate" type="application/rss+xml" title="{{ site_name }}" href="/rss.xml">
+<style>
+  :root{
+    --bg:#FDFBF7; --card:#FFFFFF; --ink:#2B2118; --muted:#7A6A57;
+    --gold:#C98A2E; --line:#E8DFD0;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#1A1512; --card:#231C17; --ink:#F2EAE0; --muted:#A6957F;
+           --gold:#E0A648; --line:#3A2F26; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",
+                   "Malgun Gothic",sans-serif;line-height:1.65}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  header{border-bottom:3px solid var(--gold);padding:28px 0 20px}
+  .brand{font-size:30px;font-weight:800;letter-spacing:-.02em;
+         text-decoration:none;color:var(--ink)}
+  .tagline{color:var(--muted);font-size:14px;margin-top:4px}
+  .date{color:var(--gold);font-size:13px;font-weight:600;margin-top:10px}
+  nav{margin:18px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+  nav a{font-size:14px;padding:5px 12px;border:1px solid var(--line);
+        border-radius:999px;text-decoration:none;color:var(--muted)}
+  nav a:hover{border-color:var(--gold);color:var(--gold)}
+  h1{font-size:24px;margin:32px 0 4px}
+  h2{font-size:18px;margin:28px 0 10px}
+  /* 와플 격자 */
+  .waffle{display:grid;gap:14px;margin:20px 0;
+          grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+  .cell{background:var(--card);border:1px solid var(--line);border-radius:10px;
+        padding:16px}
+  .cell a.cell-title{font-weight:700;text-decoration:none;color:var(--ink)}
+  .panel{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0;padding:14px;
+         background:var(--card);border:1px solid var(--line);border-radius:10px}
+  .panel .fact{font-size:14px}
+  .panel .fact b{color:var(--gold)}
+  article.row{padding:16px 0;border-bottom:1px solid var(--line)}
+  article.row h3{margin:0 0 6px;font-size:17px}
+  article.row h3 a{text-decoration:none;color:var(--ink)}
+  article.row h3 a:hover{color:var(--gold)}
+  .meta{font-size:12px;color:var(--muted)}
+  .summary{margin:6px 0 0;color:var(--ink)}
+  .cta{display:block;margin:28px 0;padding:16px;border-radius:10px;
+       background:var(--gold);color:#fff;text-decoration:none;font-weight:700;
+       text-align:center}
+  footer{margin:48px 0 32px;padding-top:18px;border-top:1px solid var(--line);
+         font-size:13px;color:var(--muted)}
+  .src{font-size:13px}
+  .src a{color:var(--gold)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/">{{ site_name }}</a>
+  <div class="tagline">{{ site_tagline }}</div>
+  <div class="date">{{ today }}</div>
+  <nav>
+    {% for key, name in region_names.items() %}<a href="/{{ key }}/">{{ name }}</a>{% endfor %}
+    <a href="/flight/">항공</a><a href="/data/">데이터</a><a href="/about/">소개</a>
+  </nav>
+</div></header>
+<main class="wrap">{% block content %}{% endblock %}</main>
+<footer><div class="wrap">
+  {{ site_name }} · {{ site_tagline }}<br>
+  기사 요약은 원문 출처를 표기하고 링크로 연결합니다. 저작권은 각 매체에 있습니다.
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>오늘의 여행 소식</h1>
+<div class="waffle">
+{% for key, name in region_names.items() %}
+  <div class="cell">
+    <a class="cell-title" href="/{{ key }}/">{{ name }}</a>
+    <div class="meta">{{ counts.get(key, 0) }}건</div>
+    {% for item in top_by_region.get(key, []) %}
+      <div style="margin-top:8px">
+        <a href="{{ article_urls[item.id] }}" style="font-size:14px;text-decoration:none;color:var(--muted)">{{ item.title }}</a>
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ item.title }} — {{ site_name }}{% endblock %}
+{% block description %}{{ item.summary or item.title }}{% endblock %}
+{% block content %}
+<h1>{{ item.title }}</h1>
+<div class="meta">{{ region_name }} · {{ item.source_name }} · {{ item.published_at[:10] }}</div>
+{% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
+{% if item.body_md %}<div>{{ item.body_md }}</div>{% endif %}
+{% if item.source_url %}
+<p class="src">원문 보기: <a href="{{ item.source_url }}" rel="nofollow noopener" target="_blank">{{ item.source_name }}</a></p>
+{% endif %}
+{% if related %}
+<h2>관련 보도</h2>
+<ul class="src">{% for r in related %}<li><a href="{{ r.source_url }}" rel="nofollow noopener" target="_blank">{{ r.source_name }}</a></li>{% endfor %}</ul>
+{% endif %}
+<a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>
+{% endblock %}
