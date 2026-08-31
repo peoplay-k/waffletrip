@@ -77,6 +77,31 @@ def test_write_drafts_creates_one_markdown_per_candidate(tmp_path):
     assert "status: draft" in text
 
 
+def test_draft_front_matter_survives_a_colon_in_the_title(tmp_path):
+    """제목의 콜론이 프런트매터를 깨뜨리면 검수 워크플로가 파일을 못 읽는다.
+
+    실측 351건 중 37건이 콜론을 담은 제목이었다.
+    """
+    import yaml
+    title = "DPS: 76-year-old man died of natural causes"
+    candidates = [(make("abc", title), "3개 매체가 보도")]
+    path = write_drafts(str(tmp_path), candidates, "2026-08-31")[0]
+    front = Path(path).read_text(encoding="utf-8").split("---")[1]
+    parsed = yaml.safe_load(front)
+    assert parsed["title"] == title
+    assert parsed["status"] == "draft"
+    assert parsed["reason"] == "3개 매체가 보도"
+
+
+def test_draft_front_matter_keeps_korean_readable(tmp_path):
+    """한글이 \\uXXXX 로 깨지면 사람이 검수할 수 없다."""
+    candidates = [(make("abc", "괌 신규 취항 확정"), "항공 노선 변동")]
+    path = write_drafts(str(tmp_path), candidates, "2026-08-31")[0]
+    text = Path(path).read_text(encoding="utf-8")
+    assert "괌 신규 취항 확정" in text
+    assert "\\u" not in text
+
+
 def test_write_drafts_filename_carries_date_and_id(tmp_path):
     candidates = [(make("abc", "제목"), "사유")]
     paths = write_drafts(str(tmp_path), candidates, "2026-08-31")

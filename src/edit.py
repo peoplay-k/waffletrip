@@ -16,6 +16,8 @@ import re
 import sys
 from datetime import date, timedelta
 
+import yaml
+
 from src.grade import apply_grades, pick_c_candidates
 from src.guards.copyright_guard import filter_items
 from src.guards.dup_guard import (PublishedIndex, cluster_batch,
@@ -41,27 +43,38 @@ def write_drafts(review_dir: str, candidates: list[tuple[Item, str]],
                  day: str) -> list[str]:
     """검수 대기 초안을 마크다운으로 남긴다.
 
-    본문은 비워둔다. 사람(또는 클로드 예약작업)이 채우고 status 를 approved
-    로 바꿔야 발행된다.
+    프런트매터는 f-string 이 아니라 yaml.safe_dump 로 쓴다. 제목에 콜론이 들어가면
+    ("DPS: 76-year-old man died...") 직접 쓴 YAML 이 깨진다 — 실측 351건 중 37건이
+    그런 제목이었다. 이 파일을 읽는 쪽(검수 워크플로)이 표준 파서를 쓸 것이므로
+    쓰는 쪽도 표준으로 맞춘다.
+
+    본문은 비워둔다. 사람(또는 클로드 예약작업)이 채우고 status 를 approved 로
+    바꿔야 발행된다.
     """
     os.makedirs(review_dir, exist_ok=True)
     paths = []
     for item, reason in candidates:
         path = os.path.join(review_dir, f"{day}_{item.id}.md")
+        front_matter = yaml.safe_dump(
+            {
+                "id": item.id,
+                "region": item.region,
+                "section": item.section,
+                "title": item.title,
+                "source_name": item.source_name,
+                "source_url": item.source_url,
+                "reason": reason,
+                "status": "draft",
+            },
+            allow_unicode=True,      # 한글을 \uXXXX 로 깨뜨리지 않는다
+            sort_keys=False,         # 사람이 읽는 파일이라 순서를 유지한다
+            default_flow_style=False,
+        )
         with open(path, "w", encoding="utf-8") as f:
             f.write(
-                f"---\n"
-                f"id: {item.id}\n"
-                f"region: {item.region}\n"
-                f"section: {item.section}\n"
-                f"title: {item.title}\n"
-                f"source_name: {item.source_name}\n"
-                f"source_url: {item.source_url}\n"
-                f"reason: {reason}\n"
-                f"status: draft\n"
-                f"---\n\n"
-                f"<!-- 여기에 해설을 쓴 뒤 위 status 를 approved 로 바꾼다. -->\n"
-                f"<!-- 48시간 안에 승인하지 않으면 자동 폐기된다. -->\n"
+                "---\n" + front_matter + "---\n\n"
+                "<!-- 여기에 해설을 쓴 뒤 위 status 를 approved 로 바꾼다. -->\n"
+                "<!-- 48시간 안에 승인하지 않으면 자동 폐기된다. -->\n"
             )
         paths.append(path)
     return paths

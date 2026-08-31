@@ -142,6 +142,8 @@ def test_item_qualifying_twice_appears_once():
                   related=["2", "3"])]
     picked = pick_c_candidates(items, trending=["괌"])
     assert len(picked) == 1
+    # 사유까지 본다. 개수만 보면 우선순위가 바뀌어도 통과한다.
+    assert "매체" in picked[0][1]
 
 
 def test_grade_a_items_are_never_c_candidates():
