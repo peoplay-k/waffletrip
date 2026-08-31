@@ -1,0 +1,12 @@
+{
+  "result": "success",
+  "base_code": "KRW",
+  "time_last_update_utc": "Sun, 30 Aug 2026 00:00:01 +0000",
+  "rates": {
+    "KRW": 1,
+    "USD": 0.00072,
+    "VND": 18.9,
+    "MYR": 0.0032,
+    "LAK": 15.6
+  }
+}
