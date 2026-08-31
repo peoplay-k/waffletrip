@@ -565,6 +565,16 @@ def test_title_tokens_drops_one_character_words():
     assert title_tokens("괌 에 신규 취항") == {"신규", "취항"}
 
 
+def test_title_tokens_keeps_single_digits():
+    """한 자리 숫자를 버리면 "Update 1" 과 "Update 5" 가 같은 글이 된다.
+
+    실측에서 태풍 속보 5·4·3·1호가 하나로 병합됐다. 두 자리인 11·12호는
+    분리되던 것과 비일관이라 더 나빴다.
+    """
+    assert title_tokens("Storm Update 5") == {"storm", "update", "5"}
+    assert title_tokens("Storm Update 5") != title_tokens("Storm Update 1")
+
+
 def test_jaccard_identical_is_one():
     assert jaccard({"a", "b"}, {"a", "b"}) == 1.0
 
@@ -696,8 +706,14 @@ def title_hash(title: str) -> str:
 
 
 def title_tokens(title: str) -> set[str]:
-    """유사도 비교용 토큰. 조사·한 글자 단어는 잡음이라 버린다."""
-    return {t for t in _PUNCT.split(title.lower()) if len(t) > 1}
+    """유사도 비교용 토큰. 조사·한 글자 단어는 잡음이라 버린다.
+
+    ★한 자리 숫자는 예외로 남긴다. 버리면 "Update 1" 과 "Update 5" 의 토큰이
+    완전히 같아져 순차 속보가 한 건으로 병합된다. 실측에서 태풍 속보 5·4·3·1호가
+    하나로 묶였고, 두 자리인 11·12호는 멀쩡히 분리되는 비일관이 드러났다.
+    """
+    return {t for t in _PUNCT.split(title.lower())
+            if len(t) > 1 or t.isdigit()}
 
 
 def jaccard(a: set[str], b: set[str]) -> float:
@@ -1920,11 +1936,31 @@ def test_b_summary_of_exactly_200_chars_passes():
 
 
 def test_b_summary_over_two_sentences_is_rejected():
-    assert any("문장" in v for v in violations(make(summary="A. B. C.")))
+    """실제 단어로 쓴다. "A. B. C." 는 이니셜 마스킹에 걸려 1문장으로 세어진다."""
+    text = "One fact. Two facts. Three facts."
+    assert any("문장" in v for v in violations(make(summary=text)))
 
 
 def test_b_summary_of_exactly_two_sentences_passes():
-    assert violations(make(summary="A. B.")) == []
+    """경계를 진짜로 본다. "A. B." 는 이니셜로 가려져 1문장이 되므로 못 쓴다."""
+    assert violations(make(summary="One fact. Two facts.")) == []
+
+
+def test_abbreviations_are_not_counted_as_sentence_ends():
+    """약어의 마침표를 문장 끝으로 세면 멀쩡한 기사가 폐기된다.
+
+    실측 데이터에 U.S.·Sept. 같은 약어를 담은 기사가 9건 있었다.
+    """
+    for text in ("The U.S. Embassy issued a statement today. Details follow.",
+                 "Flights resume Sept. 3. Officials confirmed the schedule.",
+                 "Dr. Kim visited Guam. He met the governor."):
+        assert violations(make(summary=text)) == [], text
+
+
+def test_real_three_sentence_summary_is_still_rejected():
+    """약어 처리가 진짜 3문장까지 통과시키면 안 된다."""
+    text = "The U.S. team arrived. They met officials. Talks continue."
+    assert any("문장" in v for v in violations(make(summary=text)))
 
 
 def test_empty_summary_is_allowed():
@@ -2011,6 +2047,18 @@ MAX_SUMMARY_CHARS = 200
 MAX_SUMMARY_SENTENCES = 2
 
 _SENTENCE_END = re.compile(r"(?<=[.!?。？！])\s+")
+
+# 약어의 마침표를 문장 끝으로 세면 멀쩡한 기사가 인용 한도 초과로 폐기된다.
+# "The U.S. Embassy issued a statement today. Details follow." 는 2문장인데
+# 3문장으로 세어 버려졌다. 세기 전에 약어의 마침표를 가린다.
+_INITIAL = re.compile(r"\b([A-Z])\.")
+_ABBREVS = (
+    "U.S.", "U.K.", "U.N.", "a.m.", "p.m.", "Mr.", "Mrs.", "Ms.", "Dr.",
+    "Prof.", "St.", "Jr.", "Sr.", "Inc.", "Ltd.", "Co.", "Corp.", "vs.",
+    "etc.", "No.", "approx.", "Jan.", "Feb.", "Mar.", "Apr.", "Jun.",
+    "Jul.", "Aug.", "Sept.", "Sep.", "Oct.", "Nov.", "Dec.",
+)
+
 _IMAGE_PATTERNS = (
     re.compile(r"<img\b", re.I),
     re.compile(r"!\[[^\]]*\]\("),
@@ -2019,10 +2067,19 @@ _IMAGE_PATTERNS = (
 
 
 def _sentence_count(text: str) -> int:
+    """문장 수를 센다. 약어의 마침표는 문장 끝으로 세지 않는다.
+
+    가리는 방식(치환)을 쓰는 이유는 파이썬 정규식이 가변 길이 lookbehind 를
+    지원하지 않아 "약어가 아닌 마침표"를 한 패턴으로 표현할 수 없기 때문이다.
+    목록은 완전하지 않다 — 놓치면 기사가 폐기되는 쪽으로 틀리므로 안전한 방향이다.
+    """
     stripped = text.strip()
     if not stripped:
         return 0
-    return len([p for p in _SENTENCE_END.split(stripped) if p.strip()])
+    masked = _INITIAL.sub(lambda m: m.group(1) + "\x00", stripped)
+    for abbrev in _ABBREVS:
+        masked = masked.replace(abbrev, abbrev.replace(".", "\x00"))
+    return len([p for p in _SENTENCE_END.split(masked) if p.strip()])
 
 
 def _has_image(text: str) -> bool:
@@ -2077,7 +2134,7 @@ def filter_items(
 ```bash
 .venv/bin/python -m pytest tests/test_copyright_guard.py -v
 ```
-Expected: PASS (18 passed)
+Expected: PASS (20 passed)
 
 - [ ] **Step 5: 커밋**
 
@@ -2206,6 +2263,17 @@ def test_missing_index_file_is_treated_as_first_run(tmp_path):
 def test_corrupt_index_file_raises_fail_closed(tmp_path):
     path = tmp_path / "published_index.json"
     path.write_text("{ this is not json", encoding="utf-8")
+    with pytest.raises(IndexUnavailable):
+        PublishedIndex.load(str(path))
+
+
+def test_index_with_wrong_types_is_fail_closed(tmp_path):
+    """JSON 은 멀쩡한데 타입이 틀린 경우도 발행을 멈춰야 한다.
+
+    문자열을 set() 에 넣으면 글자 단위로 쪼개져 중복 판정이 조용히 무의미해진다.
+    """
+    path = tmp_path / "idx.json"
+    path.write_text('{"ids": "not-a-list", "recent": []}', encoding="utf-8")
     with pytest.raises(IndexUnavailable):
         PublishedIndex.load(str(path))
 
@@ -2345,7 +2413,13 @@ class PublishedIndex:
         try:
             with open(path, encoding="utf-8") as f:
                 data = json.load(f)
-            return cls(set(data.get("ids") or []), list(data.get("recent") or []))
+            ids = data.get("ids") or []
+            recent = data.get("recent") or []
+            # 타입이 틀리면 조용히 이상하게 해석된다. 문자열을 set() 에 넣으면
+            # 글자 단위로 쪼개져 중복 판정이 무의미해진다. 발행을 멈춘다.
+            if not isinstance(ids, list) or not isinstance(recent, list):
+                raise TypeError("ids·recent 는 리스트여야 한다")
+            return cls(set(ids), list(recent))
         except Exception as e:
             raise IndexUnavailable(
                 f"발행 이력을 읽지 못했다 ({path}): {type(e).__name__}: {e}. "
@@ -2429,7 +2503,7 @@ def filter_unpublished(items: list[Item],
 ```bash
 .venv/bin/python -m pytest tests/test_dup_guard.py -v
 ```
-Expected: PASS (16 passed)
+Expected: PASS (17 passed)
 
 - [ ] **Step 5: 커밋**
 
