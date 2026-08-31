@@ -1,0 +1,23 @@
+# 와플트립 소스 후보 — Step 4 조사 대상 (스펙 8절 후보를 실측)
+# 형식: id<TAB>url
+# --- guam ---
+guam_post	https://www.postguam.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc&k%5B%5D=%23topstory
+guam_kuam	https://www.kuam.com/feed
+guam_pacific_island_times	https://www.pacificislandtimes.com/blog-feed.xml
+# --- saipan ---
+saipan_variety	https://www.mvariety.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc&k%5B%5D=%23topstory
+saipan_tribune	https://www.saipantribune.com/index.php/feed/
+# --- hawaii ---
+hawaii_news_now	https://www.hawaiinewsnow.com/arc/outboundfeeds/rss/
+hawaii_beatofhawaii	https://beatofhawaii.com/feed/
+# --- vietnam ---
+vietnam_vnexpress	https://e.vnexpress.net/rss/travel.rss
+# --- kota (Kota Kinabalu / Sabah) ---
+kota_borneopost	https://www.theborneopost.com/feed/
+kota_dailyexpress	https://www.dailyexpress.com.my/feed/
+# --- laos ---
+laos_vientianetimes	https://www.vientianetimes.org.la/feed
+laos_laotiantimes	https://laotiantimes.com/feed/
+# --- jeju ---
+jeju_jejusori	https://cdn.jejusori.net/rss/gn_rss_allArticle.xml
+jeju_headline	https://www.headlinejeju.co.kr/rss/allArticle.xml

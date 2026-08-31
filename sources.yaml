@@ -1,0 +1,83 @@
+# 와플트립 소스 레지스트리
+# type: rss | json
+# section: flight | news | data | promo
+# 죽은 소스는 지우지 말고 enabled: false 로 남긴다 (재조사 방지)
+#
+# 이 파일은 docs/source-survey-2026-08-31.md 의 실측 조사 결과만 반영한다.
+# 살아있는 것으로 확인되지 않은 후보는 넣지 않았다 (survey 문서에 사유와 함께 기록됨).
+
+sources:
+  - id: exchange_rate
+    region: all
+    section: data
+    name: 환율
+    type: json
+    url: https://open.er-api.com/v6/latest/KRW
+    lang: en
+    enabled: true
+
+  # --- 아래는 Step 4 조사에서 살아남은 것만 채운다 ---
+
+  - id: guam_pacific_island_times
+    region: guam
+    section: news
+    name: Pacific Island Times
+    type: rss
+    url: https://www.pacificislandtimes.com/blog-feed.xml
+    lang: en
+    enabled: true
+
+  - id: hawaii_news_now
+    region: hawaii
+    section: news
+    name: Hawaii News Now
+    type: rss
+    url: https://www.hawaiinewsnow.com/arc/outboundfeeds/rss/
+    lang: en
+    enabled: true
+
+  - id: hawaii_beatofhawaii
+    region: hawaii
+    section: news
+    name: Beat of Hawaii
+    type: rss
+    url: https://beatofhawaii.com/feed/
+    lang: en
+    enabled: true
+
+  - id: vietnam_vnexpress
+    region: vietnam
+    section: news
+    name: VnExpress International - Travel
+    type: rss
+    url: https://e.vnexpress.net/rss/travel.rss
+    lang: en
+    enabled: true
+
+  - id: laos_laotiantimes
+    region: laos
+    section: news
+    name: Laotian Times
+    type: rss
+    url: https://laotiantimes.com/feed/
+    lang: en
+    enabled: true
+
+  - id: jeju_jejusori
+    region: jeju
+    section: news
+    name: 제주의소리
+    type: rss
+    url: https://cdn.jejusori.net/rss/gn_rss_allArticle.xml
+    lang: ko
+    enabled: true
+
+  # --- saipan, kota 지역: 이번 조사에서 살아있는 소스를 찾지 못함 ---
+  # saipan_variety (mvariety.com) - robots.txt 전면 차단 (Disallow: /)
+  # saipan_tribune (saipantribune.com) - 연결 불안정, ReadTimeout 반복
+  # kota_borneopost (theborneopost.com) - HTTP 403 (봇 차단)
+  # kota_dailyexpress (dailyexpress.com.my) - HTTP 403 (Cloudflare 봇 차단)
+  # 상세 사유는 docs/source-survey-2026-08-31.md 참고. 강제로 채우지 않았다.
+
+  # --- guam_post (postguam.com): HTTP 429 (레이트리밋 추정) 로 보류, 아직 미확인 ---
+  # 상세 사유는 docs/source-survey-2026-08-31.md "postguam.com 참고" 참고.
