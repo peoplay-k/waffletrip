@@ -95,6 +95,17 @@ def test_corrupt_index_file_raises_fail_closed(tmp_path):
         PublishedIndex.load(str(path))
 
 
+def test_index_with_wrong_types_is_fail_closed(tmp_path):
+    """JSON 은 멀쩡한데 타입이 틀린 경우도 발행을 멈춰야 한다.
+
+    문자열을 set() 에 넣으면 글자 단위로 쪼개져 중복 판정이 조용히 무의미해진다.
+    """
+    path = tmp_path / "idx.json"
+    path.write_text('{"ids": "not-a-list", "recent": []}', encoding="utf-8")
+    with pytest.raises(IndexUnavailable):
+        PublishedIndex.load(str(path))
+
+
 def test_previously_published_id_is_filtered_out(tmp_path):
     path = str(tmp_path / "idx.json")
     index = PublishedIndex.load(path)

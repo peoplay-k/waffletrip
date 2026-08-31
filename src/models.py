@@ -84,8 +84,14 @@ def title_hash(title: str) -> str:
 
 
 def title_tokens(title: str) -> set[str]:
-    """유사도 비교용 토큰. 조사·한 글자 단어는 잡음이라 버린다."""
-    return {t for t in _PUNCT.split(title.lower()) if len(t) > 1}
+    """유사도 비교용 토큰. 조사·한 글자 단어는 잡음이라 버린다.
+
+    ★한 자리 숫자는 예외로 남긴다. 버리면 "Update 1" 과 "Update 5" 의 토큰이
+    완전히 같아져 순차 속보가 한 건으로 병합된다. 실측에서 태풍 속보 5·4·3·1호가
+    하나로 묶였고, 두 자리인 11·12호는 멀쩡히 분리되는 비일관이 드러났다.
+    """
+    return {t for t in _PUNCT.split(title.lower())
+            if len(t) > 1 or t.isdigit()}
 
 
 def jaccard(a: set[str], b: set[str]) -> float:

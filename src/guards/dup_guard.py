@@ -47,7 +47,13 @@ class PublishedIndex:
         try:
             with open(path, encoding="utf-8") as f:
                 data = json.load(f)
-            return cls(set(data.get("ids") or []), list(data.get("recent") or []))
+            ids = data.get("ids") or []
+            recent = data.get("recent") or []
+            # 타입이 틀리면 조용히 이상하게 해석된다. 문자열을 set() 에 넣으면
+            # 글자 단위로 쪼개져 중복 판정이 무의미해진다. 발행을 멈춘다.
+            if not isinstance(ids, list) or not isinstance(recent, list):
+                raise TypeError("ids·recent 는 리스트여야 한다")
+            return cls(set(ids), list(recent))
         except Exception as e:
             raise IndexUnavailable(
                 f"발행 이력을 읽지 못했다 ({path}): {type(e).__name__}: {e}. "

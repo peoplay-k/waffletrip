@@ -16,6 +16,18 @@ MAX_SUMMARY_CHARS = 200
 MAX_SUMMARY_SENTENCES = 2
 
 _SENTENCE_END = re.compile(r"(?<=[.!?。？！])\s+")
+
+# 약어의 마침표를 문장 끝으로 세면 멀쩡한 기사가 인용 한도 초과로 폐기된다.
+# "The U.S. Embassy issued a statement today. Details follow." 는 2문장인데
+# 3문장으로 세어 버려졌다. 세기 전에 약어의 마침표를 가린다.
+_INITIAL = re.compile(r"\b([A-Z])\.")
+_ABBREVS = (
+    "U.S.", "U.K.", "U.N.", "a.m.", "p.m.", "Mr.", "Mrs.", "Ms.", "Dr.",
+    "Prof.", "St.", "Jr.", "Sr.", "Inc.", "Ltd.", "Co.", "Corp.", "vs.",
+    "etc.", "No.", "approx.", "Jan.", "Feb.", "Mar.", "Apr.", "Jun.",
+    "Jul.", "Aug.", "Sept.", "Sep.", "Oct.", "Nov.", "Dec.",
+)
+
 _IMAGE_PATTERNS = (
     re.compile(r"<img\b", re.I),
     re.compile(r"!\[[^\]]*\]\("),
@@ -24,10 +36,19 @@ _IMAGE_PATTERNS = (
 
 
 def _sentence_count(text: str) -> int:
+    """문장 수를 센다. 약어의 마침표는 문장 끝으로 세지 않는다.
+
+    가리는 방식(치환)을 쓰는 이유는 파이썬 정규식이 가변 길이 lookbehind 를
+    지원하지 않아 "약어가 아닌 마침표"를 한 패턴으로 표현할 수 없기 때문이다.
+    목록은 완전하지 않다 — 놓치면 기사가 폐기되는 쪽으로 틀리므로 안전한 방향이다.
+    """
     stripped = text.strip()
     if not stripped:
         return 0
-    return len([p for p in _SENTENCE_END.split(stripped) if p.strip()])
+    masked = _INITIAL.sub(lambda m: m.group(1) + "\x00", stripped)
+    for abbrev in _ABBREVS:
+        masked = masked.replace(abbrev, abbrev.replace(".", "\x00"))
+    return len([p for p in _SENTENCE_END.split(masked) if p.strip()])
 
 
 def _has_image(text: str) -> bool:

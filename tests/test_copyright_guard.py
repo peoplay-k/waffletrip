@@ -33,11 +33,32 @@ def test_b_summary_of_exactly_200_chars_passes():
 
 
 def test_b_summary_over_two_sentences_is_rejected():
-    assert any("문장" in v for v in violations(make(summary="A. B. C.")))
+    # "A. B. C." 는 라운드 2 약어 마스킹(_INITIAL)이 "대문자 한 글자+마침표"를
+    # 전부 이니셜로 가려버려 1문장으로 세어져 이 테스트와 충돌한다(실측 확인).
+    # 실제 단어를 쓰는 문장으로 바꿔 같은 의도(3문장 초과 거부)를 유지한다.
+    text = "One fact. Two facts. Three facts."
+    assert any("문장" in v for v in violations(make(summary=text)))
 
 
 def test_b_summary_of_exactly_two_sentences_passes():
     assert violations(make(summary="A. B.")) == []
+
+
+def test_abbreviations_are_not_counted_as_sentence_ends():
+    """약어의 마침표를 문장 끝으로 세면 멀쩡한 기사가 폐기된다.
+
+    실측 데이터에 U.S.·Sept. 같은 약어를 담은 기사가 9건 있었다.
+    """
+    for text in ("The U.S. Embassy issued a statement today. Details follow.",
+                 "Flights resume Sept. 3. Officials confirmed the schedule.",
+                 "Dr. Kim visited Guam. He met the governor."):
+        assert violations(make(summary=text)) == [], text
+
+
+def test_real_three_sentence_summary_is_still_rejected():
+    """약어 처리가 진짜 3문장까지 통과시키면 안 된다."""
+    text = "The U.S. team arrived. They met officials. Talks continue."
+    assert any("문장" in v for v in violations(make(summary=text)))
 
 
 def test_empty_summary_is_allowed():

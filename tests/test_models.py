@@ -37,6 +37,16 @@ def test_title_tokens_drops_one_character_words():
     assert title_tokens("괌 에 신규 취항") == {"신규", "취항"}
 
 
+def test_title_tokens_keeps_single_digits():
+    """한 자리 숫자를 버리면 "Update 1" 과 "Update 5" 가 같은 글이 된다.
+
+    실측에서 태풍 속보 5·4·3·1호가 하나로 병합됐다. 두 자리인 11·12호는
+    분리되던 것과 비일관이라 더 나빴다.
+    """
+    assert title_tokens("Storm Update 5") == {"storm", "update", "5"}
+    assert title_tokens("Storm Update 5") != title_tokens("Storm Update 1")
+
+
 def test_jaccard_identical_is_one():
     assert jaccard({"a", "b"}, {"a", "b"}) == 1.0
 
