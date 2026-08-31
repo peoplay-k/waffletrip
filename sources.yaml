@@ -1,10 +1,13 @@
 # 와플트립 소스 레지스트리
 # type: rss | json
 # section: flight | news | data | promo
-# 죽은 소스는 지우지 말고 enabled: false 로 남긴다 (재조사 방지)
+# region: guam | saipan | hawaii | vietnam | kota | laos | jeju | all | auto
+#   auto = 기사 내용에서 지역을 추론한다 (지역 추론기는 Task 2 에서 구현, src/region_tag.py).
+#          국내 여행 전문 매체처럼 여러 지역이 섞인 피드에 쓴다.
+# 죽은 소스는 지우지 말고 enabled: false 로 남긴다 (재조사 방지) — 이 규칙을 실제로 지킨다:
+#   탈락·보류 후보도 전부 아래 항목으로 등록하고 사유를 한 줄 주석으로 남긴다.
 #
-# 이 파일은 docs/source-survey-2026-08-31.md 의 실측 조사 결과만 반영한다.
-# 살아있는 것으로 확인되지 않은 후보는 넣지 않았다 (survey 문서에 사유와 함께 기록됨).
+# 실측 조사 전체 기록: docs/source-survey-2026-08-31.md (판정표·robots.txt 원문·재시도 이력)
 
 sources:
   - id: exchange_rate
@@ -16,7 +19,7 @@ sources:
     lang: en
     enabled: true
 
-  # --- 아래는 Step 4 조사에서 살아남은 것만 채운다 ---
+  # ============ guam ============
 
   - id: guam_pacific_island_times
     region: guam
@@ -26,6 +29,92 @@ sources:
     url: https://www.pacificislandtimes.com/blog-feed.xml
     lang: en
     enabled: true
+
+  # guam_post (The Guam Daily Post): robots 허용, RSS 링크도 정상이지만 조사 내내(2회
+  # 공식 실행 + 수동 재시도 다수, 약 40분에 걸쳐) HTTP 429만 반환. 죽은 게 아니라 우리
+  # 조사 트래픽이 레이트리밋을 건드렸을 가능성이 높음 — 시간을 두고 단독 재조사 필요.
+  - id: guam_post
+    region: guam
+    section: news
+    name: The Guam Daily Post
+    type: rss
+    url: https://www.postguam.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc&k%5B%5D=%23topstory
+    lang: en
+    enabled: false
+
+  # guam_kuam (KUAM News): React/SPA — 정적 HTML 어디에도 RSS 없음, 흔한 경로 전부
+  # 앱 셸 HTML 200 반환.
+  - id: guam_kuam
+    region: guam
+    section: news
+    name: KUAM News
+    type: rss
+    url: https://www.kuam.com/feed
+    lang: en
+    enabled: false
+
+  # guam_pdn (Pacific Daily News): postguam.com과 동일 TNCMS 플랫폼, RSS 구조 자체는
+  # 정상이지만 "#topstory" 키워드 태그에 현재 걸리는 기사가 0건 (RSS 항목 0개).
+  - id: guam_pdn
+    region: guam
+    section: news
+    name: Pacific Daily News
+    type: rss
+    url: https://www.guampdn.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc&k%5B%5D=%23topstory
+    lang: en
+    enabled: false
+
+  # guam_visitguam (Guam Visitors Bureau): RSS 링크 태그 없음, 흔한 경로(/feed/, /rss,
+  # /?feed=rss2 등) 전부 404 또는 홈페이지로 리다이렉트. RSS 자체가 없는 것으로 판단.
+  - id: guam_visitguam
+    region: guam
+    section: news
+    name: Guam Visitors Bureau
+    type: rss
+    url: https://www.visitguam.com/feed/
+    lang: en
+    enabled: false
+
+  # ============ saipan ============
+
+  # saipan_tribune: RSS는 정상이지만(WordPress, /index.php/feed/) 서버가 매우 불안정
+  # 하다 — 이번 조사에서 성공 2회, 완전 타임아웃 4회를 관측했다(10~25초 범위에서 혼재).
+  # 이번 최종 실행(check_sources.py, 10초 타임아웃)에서는 성공(10건)해서 살려뒀지만
+  # 수집 파이프라인에서 실패를 정상 상황으로 다뤄야 한다. 상세: source-survey 문서.
+  - id: saipan_tribune
+    region: saipan
+    section: news
+    name: Saipan Tribune
+    type: rss
+    url: https://www.saipantribune.com/index.php/feed/
+    lang: en
+    enabled: true
+
+  # saipan_variety (Marianas Variety): robots.txt 가 `User-agent: * / Disallow: /` 로
+  # 사이트 전체를 모든 크롤러에게 차단. RSS 자체는 postguam.com과 동일 CMS라 살아있을
+  # 가능성이 높지만 robots 규칙상 시도하지 않는다.
+  - id: saipan_variety
+    region: saipan
+    section: news
+    name: Marianas Variety
+    type: rss
+    url: https://www.mvariety.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc&k%5B%5D=%23topstory
+    lang: en
+    enabled: false
+
+  # saipan_mva (Marianas Visitors Authority): httpx 연결 자체가 TLS 프로토콜 버전
+  # 불일치로 실패(TLSV1_ALERT_PROTOCOL_VERSION). curl로는 접속되지만 /feed/ 등
+  # 모든 흔한 경로가 홈페이지로 리다이렉트될 뿐 실제 RSS가 없음을 별도 확인함.
+  - id: saipan_mva
+    region: saipan
+    section: news
+    name: Marianas Visitors Authority
+    type: rss
+    url: https://www.mymarianas.com/feed/
+    lang: en
+    enabled: false
+
+  # ============ hawaii ============
 
   - id: hawaii_news_now
     region: hawaii
@@ -45,6 +134,28 @@ sources:
     lang: en
     enabled: true
 
+  # 원래 후보 URL(hawaiitourismauthority.org)은 hta.hawaii.gov 로 301 리다이렉트된다.
+  # 실제 살아있는 URL(.gov 정식 도메인)을 등록했다.
+  - id: hawaii_hta
+    region: hawaii
+    section: news
+    name: Hawaii Tourism Authority
+    type: rss
+    url: https://hta.hawaii.gov/feed/
+    lang: en
+    enabled: true
+
+  - id: hawaii_staradvertiser
+    region: hawaii
+    section: news
+    name: Honolulu Star-Advertiser
+    type: rss
+    url: https://www.staradvertiser.com/feed/
+    lang: en
+    enabled: true
+
+  # ============ vietnam ============
+
   - id: vietnam_vnexpress
     region: vietnam
     section: news
@@ -53,6 +164,67 @@ sources:
     url: https://e.vnexpress.net/rss/travel.rss
     lang: en
     enabled: true
+
+  # vietnam_vietnamnews (Vietnam News): /rss/travel.rss 존재는 확인했으나(카테고리별
+  # RSS 색인 페이지에서 발견) 서버가 Content-Type 인코딩을 잘못 선언해(UTF-16 선언,
+  # BOM 없음) 응답 디코딩 자체가 실패한다(UnicodeError). check_sources.py 를 이 경우도
+  # 죽지 않고 계속 진행하도록 고쳤다(A-4 관련 견고성 수정, 아래 참고).
+  - id: vietnam_vietnamnews
+    region: vietnam
+    section: news
+    name: Vietnam News
+    type: rss
+    url: https://vietnamnews.vn/rss/travel.rss
+    lang: en
+    enabled: false
+
+  # vietnam_danangtoday (Da Nang Today): TLS 핸드셰이크 자체가 실패(SSL_ERROR_SYSCALL),
+  # DNS가 Google IP 대역(216.239.32.21)을 가리켜 파킹된/만료된 도메인으로 추정.
+  - id: vietnam_danangtoday
+    region: vietnam
+    section: news
+    name: Da Nang Today
+    type: rss
+    url: https://danangtoday.vn/feed/
+    lang: en
+    enabled: false
+
+  # ============ kota (Kota Kinabalu / Sabah) ============
+
+  # kota_nst (New Straits Times): 1라운드 리뷰에서 kota 지역 소스가 0개였던 문제를
+  # 해결한 소스. robots.txt 는 `User-agent: * / Disallow:` (공백 = 전체 허용)이고
+  # 지명된 봇(GPTBot 등)만 개별 차단 — WaffleTripBot 은 해당 없음.
+  - id: kota_nst
+    region: kota
+    section: news
+    name: New Straits Times
+    type: rss
+    url: https://www.nst.com.my/feed
+    lang: en
+    enabled: true
+
+  # kota_borneopost (The Borneo Post): HTTP 403, 재시도 시 홈페이지까지 차단됨(WAF).
+  - id: kota_borneopost
+    region: kota
+    section: news
+    name: The Borneo Post
+    type: rss
+    url: https://www.theborneopost.com/feed/
+    lang: en
+    enabled: false
+
+  # kota_dailyexpress (Daily Express Sabah): Cloudflare 봇 차단, robots.txt 조회조차
+  # 챌린지 페이지로 막힘.
+  - id: kota_dailyexpress
+    region: kota
+    section: news
+    name: Daily Express (Sabah)
+    type: rss
+    url: https://www.dailyexpress.com.my/feed/
+    lang: en
+    enabled: false
+
+  # ============ laos ============
 
   - id: laos_laotiantimes
     region: laos
@@ -63,6 +235,19 @@ sources:
     lang: en
     enabled: true
 
+  # laos_vientianetimes (Vientiane Times): 홈페이지 전체를 뒤져도 feed/rss 언급이
+  # 전혀 없음. RSS 자체를 제공하지 않는 것으로 판단.
+  - id: laos_vientianetimes
+    region: laos
+    section: news
+    name: Vientiane Times
+    type: rss
+    url: https://www.vientianetimes.org.la/feed
+    lang: en
+    enabled: false
+
+  # ============ jeju ============
+
   - id: jeju_jejusori
     region: jeju
     section: news
@@ -72,12 +257,109 @@ sources:
     lang: ko
     enabled: true
 
-  # --- saipan, kota 지역: 이번 조사에서 살아있는 소스를 찾지 못함 ---
-  # saipan_variety (mvariety.com) - robots.txt 전면 차단 (Disallow: /)
-  # saipan_tribune (saipantribune.com) - 연결 불안정, ReadTimeout 반복
-  # kota_borneopost (theborneopost.com) - HTTP 403 (봇 차단)
-  # kota_dailyexpress (dailyexpress.com.my) - HTTP 403 (Cloudflare 봇 차단)
-  # 상세 사유는 docs/source-survey-2026-08-31.md 참고. 강제로 채우지 않았다.
+  - id: jeju_ilbo
+    region: jeju
+    section: news
+    name: 제주일보
+    type: rss
+    url: https://www.jejunews.com/rss/allArticle.xml
+    lang: ko
+    enabled: true
 
-  # --- guam_post (postguam.com): HTTP 429 (레이트리밋 추정) 로 보류, 아직 미확인 ---
-  # 상세 사유는 docs/source-survey-2026-08-31.md "postguam.com 참고" 참고.
+  # jeju_headline (헤드라인제주): 피드 자체는 정상 응답(HTTP 200, RSS 유효)하지만
+  # robots.txt 가 `Disallow: /rss/` 로 명시 차단 — 스펙 5절 규칙 4에 따라 제외.
+  - id: jeju_headline
+    region: jeju
+    section: news
+    name: 헤드라인제주
+    type: rss
+    url: https://www.headlinejeju.co.kr/rss/allArticle.xml
+    lang: ko
+    enabled: false
+
+  # jeju_ijto (제주관광공사 보도자료): RSS 없음 — 게시판형 HTML 페이지만 반환, 흔한
+  # RSS 경로 전부 404.
+  - id: jeju_ijto
+    region: jeju
+    section: news
+    name: 제주관광공사 보도자료
+    type: rss
+    url: https://ijto.or.kr/korean/Bd/list.php?btable=report_info
+    lang: ko
+    enabled: false
+
+  # ============ auto (국내 여행 전문 매체 — 스펙 8.2, 주력 소스) ============
+  # 전 세계 목적지가 섞인 피드라 지역을 고정할 수 없다. region: auto 로 등록하고
+  # 기사마다 지역을 추론한다(src/region_tag.py, Task 2). 여기서는 값만 통과시킨다.
+
+  - id: kr_traveltimes
+    region: auto
+    section: news
+    name: 여행신문
+    type: rss
+    url: https://www.traveltimes.co.kr/rss/allArticle.xml
+    lang: ko
+    enabled: true
+
+  - id: kr_traveldaily
+    region: auto
+    section: news
+    name: 트래블데일리
+    type: rss
+    url: https://www.traveldaily.co.kr/rss/allArticle.xml
+    lang: ko
+    enabled: true
+
+  - id: kr_tournews21
+    region: auto
+    section: news
+    name: 투어코리아
+    type: rss
+    url: https://www.tournews21.com/rss/allArticle.xml
+    lang: ko
+    enabled: true
+
+  - id: kr_travelnbike
+    region: auto
+    section: news
+    name: 트래블바이크뉴스
+    type: rss
+    url: https://www.travelnbike.com/rss/allArticle.xml
+    lang: ko
+    enabled: true
+
+  - id: kr_ttlnews
+    region: auto
+    section: news
+    name: TTL뉴스
+    type: rss
+    url: https://www.ttlnews.com/rss/allArticle.xml
+    lang: ko
+    enabled: true
+
+  - id: kr_ktsketch
+    region: auto
+    section: news
+    name: 여행스케치
+    type: rss
+    url: https://www.ktsketch.co.kr/rss/allArticle.xml
+    lang: ko
+    enabled: true
+
+  - id: kr_travie
+    region: auto
+    section: news
+    name: 트래비
+    type: rss
+    url: https://www.travie.com/rss/allArticle.xml
+    lang: ko
+    enabled: true
+
+  - id: kr_tourtoctoc
+    region: auto
+    section: news
+    name: 투어톡톡
+    type: rss
+    url: https://www.tourtoctoc.com/rss/allArticle.xml
+    lang: ko
+    enabled: true

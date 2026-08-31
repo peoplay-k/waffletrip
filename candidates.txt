@@ -1,23 +1,42 @@
-# 와플트립 소스 후보 — Step 4 조사 대상 (스펙 8절 후보를 실측)
+# 와플트립 소스 후보 — Step 4 조사 대상 (스펙 8.2-b 지역별 현지 매체 22개 전부 + 8.2 국내 여행 전문 매체 8개)
 # 형식: id<TAB>url
-# --- guam ---
+# --- guam (스펙 5개: Pacific Daily News, Guam Daily Post, KUAM News, Pacific Island Times, Guam Visitors Bureau) ---
 guam_post	https://www.postguam.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc&k%5B%5D=%23topstory
 guam_kuam	https://www.kuam.com/feed
 guam_pacific_island_times	https://www.pacificislandtimes.com/blog-feed.xml
-# --- saipan ---
+guam_pdn	https://www.guampdn.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc&k%5B%5D=%23topstory
+guam_visitguam	https://www.visitguam.com/feed/
+# --- saipan (스펙 3개: Marianas Variety, Saipan Tribune, Marianas Visitors Authority) ---
 saipan_variety	https://www.mvariety.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc&k%5B%5D=%23topstory
 saipan_tribune	https://www.saipantribune.com/index.php/feed/
-# --- hawaii ---
+saipan_mva	https://www.mymarianas.com/feed/
+# --- hawaii (스펙 3개: Hawaii News Now, Beat of Hawaii, Hawaii Tourism Authority) + 리뷰 추가(Star-Advertiser) ---
 hawaii_news_now	https://www.hawaiinewsnow.com/arc/outboundfeeds/rss/
 hawaii_beatofhawaii	https://beatofhawaii.com/feed/
-# --- vietnam ---
+hawaii_hta	https://hta.hawaii.gov/feed/
+hawaii_staradvertiser	https://www.staradvertiser.com/feed/
+# --- vietnam (스펙 3개: VnExpress International, Vietnam News, Da Nang Today) ---
 vietnam_vnexpress	https://e.vnexpress.net/rss/travel.rss
-# --- kota (Kota Kinabalu / Sabah) ---
+vietnam_vietnamnews	https://vietnamnews.vn/rss/travel.rss
+vietnam_danangtoday	https://danangtoday.vn/feed/
+# --- kota (스펙 3개: Daily Express, The Borneo Post, New Straits Times) ---
 kota_borneopost	https://www.theborneopost.com/feed/
 kota_dailyexpress	https://www.dailyexpress.com.my/feed/
-# --- laos ---
+kota_nst	https://www.nst.com.my/feed
+# --- laos (스펙 2개: Vientiane Times, The Laotian Times — 이미 전수 조사됨) ---
 laos_vientianetimes	https://www.vientianetimes.org.la/feed
 laos_laotiantimes	https://laotiantimes.com/feed/
-# --- jeju ---
+# --- jeju (스펙 3개: 제주의소리, 헤드라인제주, 제주관광공사 보도자료) + 리뷰 추가(제주일보) ---
 jeju_jejusori	https://cdn.jejusori.net/rss/gn_rss_allArticle.xml
 jeju_headline	https://www.headlinejeju.co.kr/rss/allArticle.xml
+jeju_ijto	https://ijto.or.kr/korean/Bd/list.php?btable=report_info
+jeju_ilbo	https://www.jejunews.com/rss/allArticle.xml
+# --- 국내 여행 전문 매체 (스펙 8.2, region: auto — 기사별 지역 추론은 Task 2) ---
+kr_traveltimes	https://www.traveltimes.co.kr/rss/allArticle.xml
+kr_traveldaily	https://www.traveldaily.co.kr/rss/allArticle.xml
+kr_tournews21	https://www.tournews21.com/rss/allArticle.xml
+kr_travelnbike	https://www.travelnbike.com/rss/allArticle.xml
+kr_ttlnews	https://www.ttlnews.com/rss/allArticle.xml
+kr_ktsketch	https://www.ktsketch.co.kr/rss/allArticle.xml
+kr_travie	https://www.travie.com/rss/allArticle.xml
+kr_tourtoctoc	https://www.tourtoctoc.com/rss/allArticle.xml

@@ -73,6 +73,37 @@ sources:
         load_sources(path)
 
 
+def test_rejects_unknown_type(tmp_path):
+    path = write(tmp_path, """
+sources:
+  - id: bad
+    region: guam
+    section: news
+    name: Guam Podcast
+    type: podcast
+    url: https://example.com/rss
+    lang: en
+    enabled: true
+""")
+    with pytest.raises(SourceConfigError, match="type"):
+        load_sources(path)
+
+
+def test_rejects_missing_required_field(tmp_path):
+    path = write(tmp_path, """
+sources:
+  - id: bad
+    region: guam
+    section: news
+    name: Guam Missing Type
+    url: https://example.com/rss
+    lang: en
+    enabled: true
+""")
+    with pytest.raises(SourceConfigError, match="필수 항목 누락"):
+        load_sources(path)
+
+
 def test_rejects_duplicate_id(tmp_path):
     path = write(tmp_path, """
 sources:

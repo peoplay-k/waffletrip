@@ -6,7 +6,8 @@ from dataclasses import dataclass
 
 import yaml
 
-REGIONS = ("guam", "saipan", "hawaii", "vietnam", "kota", "laos", "jeju", "all")
+REGIONS = ("guam", "saipan", "hawaii", "vietnam", "kota", "laos", "jeju",
+           "all", "auto")
 SECTIONS = ("flight", "news", "data", "promo")
 TYPES = ("rss", "json")
 REQUIRED = ("id", "region", "section", "name", "type", "url", "lang", "enabled")

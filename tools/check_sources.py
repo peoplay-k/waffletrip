@@ -5,6 +5,7 @@ candidates.txt 는 한 줄에 하나씩 "id<TAB>url" 형식.
 결과를 표로 출력하고 살아있는 것만 stdout 마지막에 yaml 스니펫으로 낸다.
 """
 import sys
+import time
 import urllib.robotparser
 from urllib.parse import urlsplit, urlunsplit
 
@@ -13,6 +14,7 @@ import feedparser
 
 UA = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
 TIMEOUT = 10.0
+DELAY = 1.0  # 요청 간 지연(초) — 같은 호스트에 연속 요청하지 않는다 (스펙 5절 규칙 4)
 
 
 def robots_allows(url: str) -> tuple[bool, str]:
@@ -38,15 +40,20 @@ def robots_allows(url: str) -> tuple[bool, str]:
 
 
 def probe(url: str) -> tuple[bool, str]:
-    """(살아있는가, 사유). RSS면 항목 수까지 확인한다."""
+    """(살아있는가, 사유). RSS면 항목 수까지 확인한다.
+
+    요청 자체뿐 아니라 응답 디코딩(r.text)도 실패할 수 있다 — 일부 서버는
+    Content-Type 인코딩을 잘못 선언한다(예: UTF-16이라 선언하고 BOM 없이 보냄).
+    한 후보의 디코딩 실패로 전체 배치 조사가 죽지 않도록 함께 감싼다.
+    """
     try:
         r = httpx.get(url, timeout=TIMEOUT, follow_redirects=True,
                       headers={"User-Agent": UA})
+        if r.status_code >= 400:
+            return False, f"HTTP {r.status_code}"
+        body = r.text
     except Exception as e:
         return False, f"연결실패: {type(e).__name__}"
-    if r.status_code >= 400:
-        return False, f"HTTP {r.status_code}"
-    body = r.text
     if "<rss" in body[:2000].lower() or "<feed" in body[:2000].lower():
         parsed = feedparser.parse(body)
         n = len(parsed.entries)
@@ -67,10 +74,13 @@ def main(path: str) -> None:
         if not allowed:
             rows.append((sid, url, False, robots_why))
             print(f"X   {sid:24s} {robots_why:34s} {url}")
+            time.sleep(DELAY)  # 다음 후보로 넘어가기 전 지연
             continue
+        time.sleep(DELAY)  # robots 조회와 본 요청 사이 지연
         ok, why = probe(url)
         rows.append((sid, url, ok, why))
         print(f"{'OK ' if ok else 'X  '} {sid:24s} {why:34s} {url}")
+        time.sleep(DELAY)  # 다음 후보로 넘어가기 전 지연
     alive = [r for r in rows if r[2]]
     print(f"\n=== 사용 가능 {len(alive)}/{len(rows)} ===")
     print("robots 금지로 걸린 소스는 sources.yaml 에 넣지 않는다.")
