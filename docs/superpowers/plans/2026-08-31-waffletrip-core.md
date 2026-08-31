@@ -404,6 +404,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.sources'`
 
 이 모듈은 네트워크를 모른다. 파일을 읽고 스키마를 검증할 뿐이다.
 """
+from __future__ import annotations
+
 from dataclasses import dataclass
 
 import yaml
@@ -613,6 +615,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.models'`
 이 모듈은 아무것도 import 하지 않는다(표준 라이브러리 제외).
 수집·편집·렌더가 전부 여기에 의존하므로 의존성이 한 방향으로만 흐른다.
 """
+from __future__ import annotations
+
 import hashlib
 import re
 from dataclasses import dataclass, field
@@ -812,6 +816,17 @@ def test_single_character_keywords_come_from_an_explicit_allowlist():
                 f"{region} 의 한 글자 키워드 '{w}' 가 허용 목록에 없다")
 
 
+def test_tags_hawaii_from_island_names():
+    """섬 이름 철자가 틀리면 조용히 아무것도 안 잡는다. 철자를 고정한다.
+
+    실제로 "오아후"를 "오아부"로 잘못 옮겨 하와이 기사를 통째로 놓친 적이 있고,
+    테스트 27개가 전부 통과하는데도 아무도 잡지 못했다.
+    """
+    assert tag_region("오아후 해변 여행 특집") == "hawaii"
+    assert tag_region("마우이 산불 복구 현황") == "hawaii"
+    assert tag_region("와이키키 호텔 요금 인상") == "hawaii"
+
+
 def test_airline_name_containing_a_region_is_not_the_destination():
     """제주항공은 제주가 아니라 전 세계로 날아가는 항공사다.
 
@@ -858,6 +873,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.region_tag'`
 우리 신문이 사실을 틀리는 것이고, 그건 놓치는 것보다 나쁘다. 그래서 광역
 지명이 아니라 도시·섬 이름으로만 매칭한다.
 """
+from __future__ import annotations
+
 from src.models import REGIONS
 
 # 지역 이름을 품고 있지만 그 지역 기사가 아닌 표현. 세기 전에 먼저 지운다.
@@ -1167,6 +1184,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.fetch'`
 parse_feed 는 순수 함수다(네트워크를 모른다). fetch 만 네트워크를 안다.
 덕분에 파싱 규칙 전체를 저장된 픽스처로 테스트할 수 있다.
 """
+from __future__ import annotations
+
 import html
 import re
 from datetime import datetime, timezone
@@ -1428,6 +1447,8 @@ API 마다 응답 모양이 다르므로 공통 파서를 만들 수 없다.
 소스 id 로 핸들러를 찾는 레지스트리를 두고, 모르는 id 는 조용히 넘기지 않고
 예외를 던진다 — sources.yaml 에 소스를 추가하고 핸들러를 잊는 사고를 막는다.
 """
+from __future__ import annotations
+
 from src.models import Item, make_id, title_hash
 from src.region_tag import tag_region
 from src.sources import Source
@@ -1662,6 +1683,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.collect'`
 설계 원칙: 개별 소스의 실패는 격리된다. 하나가 죽어도 나머지로 신문을 낸다.
 실패는 삼키지 않고 _errors.json 에 남겨 3일 연속 실패를 감시할 수 있게 한다.
 """
+from __future__ import annotations
+
 import json
 import os
 import sys
@@ -1908,6 +1931,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.guards'`
 
 이 모듈은 파일시스템을 모른다. 항목 하나만 보고 판정한다.
 """
+from __future__ import annotations
+
 import re
 
 from src.models import Item
@@ -2180,6 +2205,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.guards.dup_guard'`
 인덱스 파일이 깨져 있으면 예외를 던진다. 읽기 실패를 '중복 없음'으로
 해석하면 재발행 사고가 난다.
 """
+from __future__ import annotations
+
 import json
 import os
 from datetime import date, timedelta
@@ -2466,6 +2493,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.grade'`
 C등급 후보 상한(5건)이 있는 이유: 검수량이 하루 감당 가능한 양을 넘으면
 검수 자체가 중단된다. 상한이 없는 검수 큐는 곧 아무도 안 보는 큐가 된다.
 """
+from __future__ import annotations
+
 from src.models import Item
 
 MAX_C_PER_DAY = 5
@@ -2728,6 +2757,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.edit'`
 이 모듈은 발행 이력을 읽기만 하고 쓰지 않는다. 인덱스 갱신은 build 가
 실제로 페이지를 만든 뒤에 한다 — 안 나간 것을 발행됨으로 기록하지 않기 위해서다.
 """
+from __future__ import annotations
+
 import json
 import os
 import re
@@ -3290,6 +3321,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.render'`
 이 모듈은 수집 과정을 모른다. 항목 리스트와 출력 경로만 받는다.
 디자인 컨셉은 와플 격자 — 7개 지역이 격자 칸에 놓인다.
 """
+from __future__ import annotations
+
 import os
 import re
 
@@ -3598,6 +3631,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.render.feeds'`
 RSS 는 문자열 조립 대신 ElementTree 로 만든다. 제목에 & 나 < 가 들어와도
 깨지지 않게 하려면 이스케이프를 직접 하지 않는 편이 안전하다.
 """
+from __future__ import annotations
+
 import os
 import xml.etree.ElementTree as ET
 from email.utils import format_datetime
@@ -3825,6 +3860,8 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.build'`
 - 발행 이력은 사이트를 실제로 만든 뒤에 갱신한다. 안 나간 것을
   발행됨으로 기록하면 그 기사는 영영 못 나간다.
 """
+from __future__ import annotations
+
 import json
 import os
 import sys
