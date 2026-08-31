@@ -1826,6 +1826,18 @@ def test_save_prunes_titles_older_than_thirty_days(tmp_path):
     assert set(data["ids"]) == {"old", "new"}
 
 
+def test_save_folds_duplicate_ids_in_recent(tmp_path):
+    """같은 날 빌드를 두 번 돌려도 recent 가 부풀지 않아야 한다."""
+    path = str(tmp_path / "idx.json")
+    index = PublishedIndex.load(path)
+    item = make("dup", "같은 기사 제목")
+    index.add(item, "2026-08-30")
+    index.add(item, "2026-08-30")
+    index.save(path)
+    data = json.loads(open(path, encoding="utf-8").read())
+    assert len(data["recent"]) == 1
+
+
 def test_permanently_kept_id_still_blocks_old_story(tmp_path):
     path = str(tmp_path / "idx.json")
     index = PublishedIndex.load(path)
@@ -1918,7 +1930,9 @@ class PublishedIndex:
 
     def save(self, path: str) -> None:
         cutoff = (date.today() - timedelta(days=RECENT_DAYS)).isoformat()
-        pruned = [r for r in self.recent if r.get("date", "") >= cutoff]
+        # 같은 날 빌드를 두 번 돌리면 같은 id 가 recent 에 두 번 쌓인다. id 로 접는다.
+        by_id = {r["id"]: r for r in self.recent if r.get("date", "") >= cutoff}
+        pruned = list(by_id.values())
         os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
         with open(path, "w", encoding="utf-8") as f:
             json.dump({"ids": sorted(self.ids), "recent": pruned}, f,
@@ -1958,7 +1972,7 @@ def filter_unpublished(items: list[Item],
 ```bash
 .venv/bin/python -m pytest tests/test_dup_guard.py -v
 ```
-Expected: PASS (13 passed)
+Expected: PASS (14 passed)
 
 - [ ] **Step 5: 커밋**
 
@@ -2388,7 +2402,7 @@ import json
 import os
 import re
 import sys
-from datetime import date, datetime, timedelta
+from datetime import date, timedelta
 
 from src.grade import apply_grades, pick_c_candidates
 from src.guards.copyright_guard import filter_items
