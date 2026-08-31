@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample Guam News</title>
+    <item>
+      <title>United adds third daily Guam-Tokyo flight</title>
+      <link>https://example.com/news/united-guam?utm_source=rss</link>
+      <description>&lt;p&gt;United Airlines will add a third daily flight. The new service starts in October. Officials expect higher demand from Japan.&lt;/p&gt;</description>
+      <pubDate>Sat, 30 Aug 2026 09:00:00 +1000</pubDate>
+    </item>
+    <item>
+      <title>Tumon beach cleanup draws 300 volunteers</title>
+      <link>https://example.com/news/cleanup</link>
+      <description>Volunteers gathered at dawn.</description>
+      <pubDate>Fri, 29 Aug 2026 22:30:00 +1000</pubDate>
+    </item>
+  </channel>
+</rss>
