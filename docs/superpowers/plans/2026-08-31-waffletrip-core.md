@@ -2150,6 +2150,38 @@ def test_similar_titles_collapse_and_record_related():
     assert sorted(result[0].related) == ["2", "3"]
 
 
+def test_grade_a_items_with_identical_titles_are_not_merged():
+    """지역별 환율은 제목이 같아도 서로 다른 항목이다.
+
+    실측에서 이걸 묶는 바람에 사이판·하와이의 환율 패널이 통째로 사라졌다.
+    A등급은 우리가 만든 사실 데이터이지 남의 보도가 아니다.
+    """
+    fx = []
+    for n, region in enumerate(("guam", "saipan", "hawaii"), start=1):
+        item = make(str(n), "오늘의 환율 — 1 USD")
+        item.grade, item.region, item.section = "A", region, "data"
+        fx.append(item)
+    result = cluster_batch(fx)
+    assert [i.region for i in result] == ["guam", "saipan", "hawaii"]
+
+
+def test_same_title_in_different_regions_is_not_merged():
+    """다른 곳 이야기는 제목이 같아도 같은 사건일 수 없다."""
+    a = make("1", "신규 취항 노선 확정 발표")
+    b = make("2", "신규 취항 노선 확정 발표")
+    b.region = "jeju"
+    assert len(cluster_batch([a, b])) == 2
+
+
+def test_same_region_still_clusters_after_the_guard():
+    """지역·등급 제한이 진짜 중복까지 막으면 안 된다."""
+    a = make("1", "괌 신규 취항 노선 확정 발표")
+    b = make("2", "괌 신규 취항 노선 확정")
+    result = cluster_batch([a, b])
+    assert len(result) == 1
+    assert result[0].related == ["2"]
+
+
 def test_different_titles_are_kept_separately():
     items = [make("1", "괌 신규 취항 확정"), make("2", "제주 해수욕장 개장 연기")]
     assert len(cluster_batch(items)) == 2
@@ -2346,19 +2378,39 @@ class PublishedIndex:
 
 def cluster_batch(items: list[Item],
                   threshold: float = SIMILARITY_THRESHOLD) -> list[Item]:
-    """배치 안의 같은 사건을 묶는다. 먼저 온 항목이 대표가 된다."""
+    """배치 안의 같은 사건을 묶는다. 먼저 온 항목이 대표가 된다.
+
+    두 가지는 묶지 않는다.
+    - **A등급(사실 데이터)** — 우리가 공공데이터로 만든 값이지 남의 보도가 아니다.
+      지역별 "오늘의 환율 — 1 USD" 는 제목이 같아도 서로 다른 항목이다. 실측에서
+      이걸 묶는 바람에 사이판·하와이의 환율 패널이 통째로 사라졌다.
+    - **지역이 다른 항목** — 다른 곳 이야기는 같은 사건일 수 없다.
+
+    새 항목은 대표의 원제목뿐 아니라 그 클러스터에 이미 흡수된 제목들과도 비교한다
+    (연쇄 비교). 대표하고만 비교하면 A~B 유사·B~C 유사인데 A~C 는 임계값 미만인
+    사슬형 사건을 놓친다.
+    """
     representatives: list[Item] = []
-    rep_tokens: list[set[str]] = []
+    # None 은 '이 대표는 클러스터를 받지 않는다'(A등급)는 뜻이다.
+    cluster_tokens: list[list[set[str]] | None] = []
 
     for item in items:
+        if item.grade == "A":
+            representatives.append(item)
+            cluster_tokens.append(None)
+            continue
+
         tokens = title_tokens(item.title)
-        for rep, known in zip(representatives, rep_tokens):
-            if jaccard(tokens, known) >= threshold:
+        for rep, known_list in zip(representatives, cluster_tokens):
+            if known_list is None or rep.region != item.region:
+                continue
+            if any(jaccard(tokens, known) >= threshold for known in known_list):
                 rep.related.append(item.id)
+                known_list.append(tokens)
                 break
         else:
             representatives.append(item)
-            rep_tokens.append(tokens)
+            cluster_tokens.append([tokens])
 
     return representatives
 
@@ -2377,7 +2429,7 @@ def filter_unpublished(items: list[Item],
 ```bash
 .venv/bin/python -m pytest tests/test_dup_guard.py -v
 ```
-Expected: PASS (14 passed)
+Expected: PASS (16 passed)
 
 - [ ] **Step 5: 커밋**
 
