@@ -11,6 +11,12 @@ from __future__ import annotations
 
 from src.models import REGIONS
 
+# 지역 이름을 품고 있지만 그 지역 기사가 아닌 표현. 세기 전에 먼저 지운다.
+# '제주항공'은 제주가 아니라 전 세계로 날아가는 항공사다 — 실측에서
+# "제주항공, 부산~구이린 노선 취항"(중국 계림 기사)과 "노랑풍선 일본 나고야 상품"이
+# 제주로 잘못 태깅됐다. 항공사명이 목적지를 뜻하지 않는다.
+REGION_EXCLUSIONS = ("제주항공",)
+
 # 한 글자 키워드는 오탐을 부르므로 여기 적힌 것만 허용한다.
 # '괌'은 한국어에서 다른 단어의 부분문자열로 거의 나타나지 않아 안전하다
 # (오사카·파리·도쿄·방콕·세부·유류할증료·여권·발리 에서 오탐 없음을 실측 확인).
@@ -43,6 +49,9 @@ def tag_region(text: str) -> str | None:
         return None
 
     lowered = text.lower()
+    for phrase in REGION_EXCLUSIONS:
+        lowered = lowered.replace(phrase.lower(), " ")
+
     best_region: str | None = None
     best_hits = 0
 

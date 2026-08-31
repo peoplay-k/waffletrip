@@ -113,11 +113,47 @@ def test_auto_source_drops_destinations_we_do_not_cover():
     assert all("오사카" not in i.title for i in items)
 
 
-def test_auto_source_uses_summary_when_title_has_no_place_name():
+def test_auto_source_ignores_regions_that_appear_only_in_the_summary():
+    """요약에 스쳐 지나간 지명으로 지역을 정하지 않는다.
+
+    실측 근거: 요약까지 보고 판정했더니 8건 중 5건이 오탐이었다.
+    "티웨이항공 타고 싱가포르 가면…"이 제주로, 여행 기사도 아닌
+    "신복위-나주시 금융취약계층 지원"이 제주로 잡혔다.
+    """
     xml = """<?xml version="1.0"?><rss version="2.0"><channel>
     <item><title>신규 취항 소식</title><link>https://example.com/x</link>
     <description>제주 노선이 늘어난다.</description></item></channel></rss>"""
-    assert parse_feed(AUTO_SOURCE, xml, NOW)[0].region == "jeju"
+    assert parse_feed(AUTO_SOURCE, xml, NOW) == []
+
+
+def test_korean_sentences_split_without_a_space_after_the_period():
+    """한국어 기사는 마침표 뒤에 공백이 없는 경우가 흔하다.
+
+    못 자르면 문단 전체가 한 문장이 되어 인용 한도를 넘긴다. 실측에서
+    국내 매체 기사의 70%가 200자 초과로 전량 폐기됐다.
+    """
+    assert first_sentences("개최한다.열린 페스타는 무장애 여행이다.잘 된다.", 2) == (
+        "개최한다. 열린 페스타는 무장애 여행이다.")
+
+
+def test_two_sentences_glued_together_do_not_leak_a_third():
+    """종결부호 뒤 공백이 없으면 두 문장이 한 조각으로 붙어 n 을 무력화한다.
+
+    이 함수가 원문 전재를 막는 장치인데 정확히 그 지점에서 샜다.
+    n=2 를 요청했는데 실제 문장 3개가 나오면 안 된다.
+    """
+    text = "First one.Second one attached tightly. Third real one. Fourth."
+    assert first_sentences(text, 2) == "First one. Second one attached tightly."
+
+
+def test_abbreviation_periods_split_conservatively():
+    """'U.S.' 뒤 공백에서도 잘린다. 원래 규칙부터 그랬고 그대로 둔다.
+
+    요약이 의도보다 짧아질 뿐 인용 한도를 넘기지는 않는다. 보수적으로 짧은 쪽으로
+    틀리는 것은 저작권 관점에서 안전한 방향이라 잡지 않는다.
+    """
+    assert first_sentences("The U.S. Navy arrived. Next one.", 2) == (
+        "The U.S. Navy arrived.")
 
 
 def test_static_region_source_is_not_retagged():

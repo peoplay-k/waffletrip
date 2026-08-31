@@ -75,6 +75,24 @@ def test_single_character_keywords_come_from_an_explicit_allowlist():
                 f"{region} 의 한 글자 키워드 '{w}' 가 허용 목록에 없다")
 
 
+def test_airline_name_containing_a_region_is_not_the_destination():
+    """제주항공은 제주가 아니라 전 세계로 날아가는 항공사다.
+
+    실측에서 이 한 단어가 중국 계림·일본 나고야·오사카 기사를 제주로 잘못
+    태깅했다. 항공사명은 목적지가 아니다.
+    """
+    assert tag_region("제주항공, 부산~구이린 노선 취항") is None
+    assert tag_region("제주항공, 오사카 노선 증편") is None
+    assert tag_region("노랑풍선, 일본 나고야 상품 — 제주항공 나고야 4일") is None
+
+
+def test_real_jeju_articles_still_tag_after_the_exclusion():
+    """제외 규칙이 진짜 제주 기사까지 잡아먹으면 안 된다."""
+    assert tag_region("제주 렌터카 요금 인하") == "jeju"
+    assert tag_region("모두를 위한 제주, 열린 관광 페스타") == "jeju"
+    assert tag_region("에어서울, 제주 노선 탑승률 96.6%") == "jeju"
+
+
 def test_common_non_target_destinations_are_not_mistagged():
     """길이 규칙보다 이쪽이 진짜 방어선이다. 오탐이 곧 오보다."""
     for text in ("오사카 벚꽃 명소", "파리 올림픽 특수", "도쿄 여행 수요",
