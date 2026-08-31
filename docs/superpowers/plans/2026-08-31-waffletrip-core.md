@@ -1332,7 +1332,7 @@ def fetch(source: Source, client, collected_at: str) -> list[Item]:
 ```bash
 .venv/bin/python -m pytest tests/test_fetch_rss.py -v
 ```
-Expected: PASS (20 passed)
+Expected: PASS (22 passed)
 
 - [ ] **Step 6: 커밋**
 
@@ -2134,7 +2134,7 @@ def filter_items(
 ```bash
 .venv/bin/python -m pytest tests/test_copyright_guard.py -v
 ```
-Expected: PASS (20 passed)
+Expected: PASS (22 passed)
 
 - [ ] **Step 5: 커밋**
 
@@ -2601,6 +2601,29 @@ def test_is_flight_event_detects_english_terms():
     assert is_flight_event("Korean Air to launch Guam service")
 
 
+def test_english_keywords_need_word_boundaries():
+    """"launch" 가 부분일치하면 군사 기사의 "launchers" 에 걸린다.
+
+    실측에서 "U.S. forces strike two Iranian launchers" 가 항공 섹션으로
+    올라오고 검수 후보까지 됐다. 여행 신문에 군사 기사가 실릴 뻔했다.
+    """
+    assert not is_flight_event("U.S. forces strike two Iranian launchers")
+    assert not is_flight_event("New product launcher for travel agencies")
+
+
+def test_english_verb_endings_still_match():
+    """단어 경계를 걸어도 "launched a new route" 는 잡아야 한다."""
+    assert is_flight_event("Korean Air launched a new route to Guam")
+    assert is_flight_event("United launches Guam service in October")
+    assert is_flight_event("Jeju Air to launch Saipan flights")
+
+
+def test_korean_keywords_still_match_with_particles():
+    """한국어는 조사가 붙어 오므로 부분일치를 유지한다."""
+    assert is_flight_event("진에어가 괌 노선에 신규 취항한다")
+    assert is_flight_event("대한항공이 괌 노선을 증편했다")
+
+
 def test_is_flight_event_ignores_unrelated_titles():
     assert not is_flight_event("투몬 해변 청소 행사")
 
@@ -2691,10 +2714,16 @@ C등급 후보 상한(5건)이 있는 이유: 검수량이 하루 감당 가능�
 """
 from __future__ import annotations
 
+import re
+
 from src.models import Item
 
 MAX_C_PER_DAY = 5
 MIN_OUTLETS_FOR_CLUSTER = 3  # 대표 1 + related 2 = 3개 매체
+
+# 영문 키워드에 붙여 허용할 어미. launch/launches/launched/launching 은 잡고
+# launcher/launchers 는 잡지 않는다.
+_INFLECTION = r"(?:e?[sd]|ing)?"
 
 FLIGHT_KEYWORDS = (
     "취항", "증편", "감편", "신규 노선", "노선 확대", "운항 중단", "직항",
@@ -2719,8 +2748,26 @@ def apply_grades(items: list[Item]) -> list[Item]:
 
 
 def is_flight_event(title: str) -> bool:
+    """제목이 항공 노선 변동을 말하는가.
+
+    영문 키워드는 **단어 경계**로 맞춘다. 부분일치를 허용하면 "launch" 가
+    군사 기사의 "launchers" 에 걸린다 — 실측에서 이란 관련 기사가 항공 섹션으로
+    올라오고 검수 후보까지 됐다. 대신 흔한 어미(-s/-es/-ed/-ing)는 허용한다.
+    "launched a new route" 를 놓치면 안 되기 때문이다.
+
+    한글 키워드는 부분일치 그대로 둔다. 한국어는 조사가 붙어 오므로
+    ("취항한다", "증편했다") 단어 경계를 요구하면 대부분을 놓친다.
+    """
     lowered = title.lower()
-    return any(k.lower() in lowered for k in FLIGHT_KEYWORDS)
+    for keyword in FLIGHT_KEYWORDS:
+        lowered_keyword = keyword.lower()
+        if lowered_keyword.isascii():
+            pattern = r"\b" + re.escape(lowered_keyword) + _INFLECTION + r"\b"
+            if re.search(pattern, lowered):
+                return True
+        elif lowered_keyword in lowered:
+            return True
+    return False
 
 
 def pick_c_candidates(items: list[Item], trending: list[str],
@@ -2762,7 +2809,7 @@ def pick_c_candidates(items: list[Item], trending: list[str],
 ```bash
 .venv/bin/python -m pytest tests/test_grade.py -v
 ```
-Expected: PASS (20 passed)
+Expected: PASS (22 passed)
 
 - [ ] **Step 5: 커밋**
 
@@ -3091,7 +3138,7 @@ if __name__ == "__main__":
 ```bash
 .venv/bin/python -m pytest tests/test_edit.py -v
 ```
-Expected: PASS (20 passed)
+Expected: PASS (22 passed)
 
 - [ ] **Step 5: 실제 수집 결과로 돌려본다**
 
