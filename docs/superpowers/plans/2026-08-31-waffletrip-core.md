@@ -749,7 +749,7 @@ def item_from_dict(d: dict) -> Item:
 ```bash
 .venv/bin/python -m pytest tests/test_models.py -v
 ```
-Expected: PASS (13 passed)
+Expected: PASS (16 passed)
 
 - [ ] **Step 5: 지역 태거의 실패하는 테스트 작성**
 
@@ -1623,7 +1623,7 @@ def fetch(source: Source, client, collected_at: str) -> list[Item]:
 ```bash
 .venv/bin/python -m pytest tests/test_fetch_json.py -v
 ```
-Expected: PASS (13 passed)
+Expected: PASS (16 passed)
 
 - [ ] **Step 6: 실제 API 가 픽스처와 같은 모양인지 한 번 확인**
 
@@ -3215,6 +3215,7 @@ git commit -m "feat: 편집 오케스트레이터
   - `src.render.site.SITE_NAME: str` (= "와플트립"), `SITE_TAGLINE: str` (= "매일 아침 여행 뉴스"), `SITE_URL: str` (= "https://waffletrip.com")
   - `src.render.site.REGION_NAMES: dict[str, str]`, `PRODUCT_LINKS: dict[str, str]`
   - `src.render.site.slugify(text: str) -> str`
+  - `src.render.site.safe_url(url: str) -> str` — http/https 만 통과, 그 외는 빈 문자열
   - `src.render.site.article_url(item: Item) -> str` — 선행 슬래시로 시작하고 슬래시로 끝나는 경로
   - `src.render.site.group_by_region(items: list[Item]) -> dict[str, list[Item]]`
   - `src.render.site.split_panel(items: list[Item]) -> tuple[list[Item], list[Item]]` — `(A등급 데이터, 나머지 기사)`
@@ -3230,7 +3231,8 @@ from pathlib import Path
 
 from src.models import Item
 from src.render.site import (slugify, article_url, group_by_region,
-                             split_panel, render_site, REGION_NAMES)
+                             split_panel, render_site, safe_url,
+                             REGION_NAMES)
 
 NOW = "2026-08-31T05:00:00+09:00"
 TODAY = "2026-08-31"
@@ -3330,6 +3332,48 @@ def test_region_page_links_to_the_product_site(tmp_path):
     render_site([make("1", "괌 소식")], str(tmp_path), TODAY)
     html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
     assert PRODUCT_LINKS["guam"] in html
+
+
+def test_scraped_titles_are_html_escaped(tmp_path):
+    """제목은 남의 사이트에서 긁어온 텍스트다. 그대로 렌더하면 안 된다."""
+    item = make("1", "<script>alert(1)</script>")
+    render_site([item], str(tmp_path), TODAY)
+    html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
+    assert "<script>alert(1)</script>" not in html
+    assert "&lt;script&gt;" in html
+
+
+def test_javascript_scheme_links_are_dropped(tmp_path):
+    """수집한 링크는 남의 사이트가 준 값이다. autoescape 는 스킴을 막지 않는다."""
+    item = make("abcdef1234567890", "괌 소식")
+    item.source_url = "javascript:alert(1)"
+    render_site([item], str(tmp_path), TODAY)
+    html = (tmp_path / "guam" / "abcdef12-괌-소식" /
+            "index.html").read_text(encoding="utf-8")
+    assert "javascript:" not in html
+    assert "Guam Post" in html   # 출처 이름은 링크가 없어도 남는다
+
+
+def test_outbound_links_are_marked_nofollow(tmp_path):
+    """원문 링크는 남의 사이트다. 검색엔진에 우리 신뢰를 넘기지 않는다."""
+    item = make("abcdef1234567890", "괌 소식")
+    render_site([item], str(tmp_path), TODAY)
+    html = (tmp_path / "guam" / "abcdef12-괌-소식" /
+            "index.html").read_text(encoding="utf-8")
+    assert 'rel="nofollow noopener"' in html
+
+
+def test_path_traversal_in_id_cannot_escape_the_output_dir(tmp_path):
+    """id·region 은 슬러그와 달리 정제되지 않은 채 경로에 들어간다.
+
+    지금은 id 가 sha1 이라 도달할 수 없지만, 방어가 없는 것과 도달 못 하는 것은 다르다.
+    """
+    item = make("../../../../evil", "제목")
+    item.region = "../../etc"
+    out = tmp_path / "site"
+    render_site([item], str(out), TODAY)
+    written = [q for q in tmp_path.rglob('*') if q.is_file()]
+    assert all(str(q).startswith(str(out)) for q in written), written
 
 
 def test_render_site_returns_every_path_it_wrote(tmp_path):
@@ -3532,12 +3576,13 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.render'`
 <div class="meta">{{ region_name }} · {{ item.source_name }} · {{ item.published_at[:10] }}</div>
 {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
 {% if item.body_md %}<div>{{ item.body_md }}</div>{% endif %}
-{% if item.source_url %}
-<p class="src">원문 보기: <a href="{{ item.source_url }}" rel="nofollow noopener" target="_blank">{{ item.source_name }}</a></p>
+{% set source_href = item.source_url|safe_url %}
+{% if item.source_name %}
+<p class="src">원문 보기: {% if source_href %}<a href="{{ source_href }}" rel="nofollow noopener" target="_blank">{{ item.source_name }}</a>{% else %}{{ item.source_name }}{% endif %}</p>
 {% endif %}
 {% if related %}
 <h2>관련 보도</h2>
-<ul class="src">{% for r in related %}<li><a href="{{ r.source_url }}" rel="nofollow noopener" target="_blank">{{ r.source_name }}</a></li>{% endfor %}</ul>
+<ul class="src">{% for r in related %}{% set h = r.source_url|safe_url %}<li>{% if h %}<a href="{{ h }}" rel="nofollow noopener" target="_blank">{{ r.source_name }}</a>{% else %}{{ r.source_name }}{% endif %}</li>{% endfor %}</ul>
 {% endif %}
 <a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>
 {% endblock %}
@@ -3635,14 +3680,33 @@ PRODUCT_LINKS = {
 
 TOP_PER_REGION = 3
 _SLUG_STRIP = re.compile(r"[^\w가-힣]+", re.UNICODE)
+# 경로 조각에 쓸 수 있는 문자. id·region 이 오염돼도 out_dir 밖으로 못 나가게 한다.
+_SAFE_SEGMENT = re.compile(r"[^A-Za-z0-9_-]")
+# href 에 넣어도 되는 스킴. 남의 사이트에서 긁어온 URL 을 그대로 쓰면
+# javascript: 링크가 만들어진다.
+_ALLOWED_SCHEMES = ("http://", "https://")
 _TEMPLATE_DIR = os.path.join(os.path.dirname(__file__), "templates")
 
 
+def safe_url(url: str) -> str:
+    """href 에 넣어도 되는 URL 만 통과시킨다. 아니면 빈 문자열.
+
+    수집한 링크는 남의 사이트가 준 값이다. Jinja 의 autoescape 는 HTML 특수문자만
+    막고 URI 스킴은 거르지 않아서, javascript: 링크가 그대로 클릭 가능해진다.
+    """
+    stripped = (url or "").strip()
+    if stripped.lower().startswith(_ALLOWED_SCHEMES):
+        return stripped
+    return ""
+
+
 def _env() -> Environment:
-    return Environment(
+    env = Environment(
         loader=FileSystemLoader(_TEMPLATE_DIR),
         autoescape=select_autoescape(["html"]),
     )
+    env.filters["safe_url"] = safe_url
+    return env
 
 
 def slugify(text: str) -> str:
@@ -3651,7 +3715,16 @@ def slugify(text: str) -> str:
 
 
 def article_url(item: Item) -> str:
-    return f"/{item.region}/{item.id[:8]}-{slugify(item.title)}/"
+    """기사 경로. id·region 도 정제한다.
+
+    제목은 slugify 가 이미 정제하지만 id·region 은 그대로 경로에 들어간다.
+    둘 중 하나에 "../" 가 섞이면 출력 디렉터리 밖에 파일이 써진다. 지금은
+    id 가 sha1 이고 region 이 검증된 값이라 도달할 수 없지만, 방어가 없는 것과
+    도달 못 하는 것은 다르다.
+    """
+    region = _SAFE_SEGMENT.sub("", item.region) or "etc"
+    ident = _SAFE_SEGMENT.sub("", item.id)[:8] or "0"
+    return f"/{region}/{ident}-{slugify(item.title)}/"
 
 
 def group_by_region(items: list[Item]) -> dict[str, list[Item]]:
@@ -3762,7 +3835,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
 ```bash
 .venv/bin/python -m pytest tests/test_render_site.py -v
 ```
-Expected: PASS (23 passed)
+Expected: PASS (27 passed)
 
 - [ ] **Step 6: 커밋**
 
@@ -3803,6 +3876,7 @@ from pathlib import Path
 from src.models import Item
 from src.render.feeds import (render_rss, render_sitemap, render_robots,
                               render_cname, RSS_MAX_ITEMS)
+from src.render.site import safe_url
 
 NOW = "2026-08-31T05:00:00+09:00"
 TODAY = "2026-08-31"
@@ -3861,6 +3935,32 @@ def test_rss_with_no_items_is_still_valid(tmp_path):
     assert ET.parse(path).getroot().tag == "rss"
 
 
+def test_control_characters_do_not_break_the_feed(tmp_path):
+    """XML 1.0 이 못 받는 제어문자 하나가 피드 전체를 재파싱 불가로 만든다."""
+    path = render_rss([make("1", "Bad\x00Title\x07Here")], str(tmp_path), NOW)
+    root = ET.parse(path).getroot()
+    assert root.find("./channel/item/title").text == "BadTitleHere"
+
+
+def test_non_string_published_at_does_not_kill_the_feed(tmp_path):
+    """None 이면 fromisoformat 이 TypeError 를 던져 피드 전체가 죽었다."""
+    item = make("1", "괌 소식")
+    item.published_at = None
+    path = render_rss([item], str(tmp_path), NOW)
+    assert ET.parse(path).getroot().tag == "rss"
+
+
+def test_safe_url_only_allows_http_schemes():
+    """링크 스킴 화이트리스트. 이게 뚫리면 javascript: 링크가 클릭된다."""
+    assert safe_url("https://example.com/a") == "https://example.com/a"
+    assert safe_url("http://x.kr") == "http://x.kr"
+    assert safe_url("  https://ok.com  ") == "https://ok.com"
+    assert safe_url("javascript:alert(1)") == ""
+    assert safe_url("JavaScript:alert(1)") == ""
+    assert safe_url("data:text/html,<script>") == ""
+    assert safe_url("") == ""
+
+
 def test_sitemap_is_wellformed_and_lists_home(tmp_path):
     path = render_sitemap([make("1", "괌 소식")], str(tmp_path), TODAY)
     text = Path(path).read_text(encoding="utf-8")
@@ -3917,6 +4017,7 @@ RSS 는 문자열 조립 대신 ElementTree 로 만든다. 제목에 & 나 < 가
 from __future__ import annotations
 
 import os
+import re
 import xml.etree.ElementTree as ET
 from email.utils import format_datetime
 from datetime import datetime
@@ -3928,11 +4029,25 @@ from src.render.site import (REGION_NAMES, SITE_NAME, SITE_TAGLINE, SITE_URL,
 RSS_MAX_ITEMS = 50
 
 
+# XML 1.0 이 허용하지 않는 제어문자. 남기면 ElementTree 가 그대로 직렬화해
+# rss.xml 전체가 재파싱 불가능해진다 — 한 항목이 피드 전부를 죽인다.
+_CONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+
+
+def _xml_safe(text: str) -> str:
+    return _CONTROL.sub("", text or "")
+
+
 def _rfc822(iso: str) -> str:
+    """날짜를 RFC822 로. 못 읽으면 원문 그대로 둔다.
+
+    TypeError 도 잡는 이유: published_at 이 None 이면 fromisoformat 이
+    ValueError 가 아니라 TypeError 를 던져서 피드 전체가 죽는다.
+    """
     try:
         return format_datetime(datetime.fromisoformat(iso))
-    except ValueError:
-        return iso
+    except (ValueError, TypeError):
+        return str(iso)
 
 
 def _write(path: str, text: str) -> str:
@@ -3957,12 +4072,13 @@ def render_rss(items: list[Item], out_dir: str, built_at: str) -> str:
     for item in articles:
         node = ET.SubElement(channel, "item")
         link = SITE_URL + article_url(item)
-        ET.SubElement(node, "title").text = item.title
+        ET.SubElement(node, "title").text = _xml_safe(item.title)
         ET.SubElement(node, "link").text = link
         ET.SubElement(node, "guid", {"isPermaLink": "true"}).text = link
-        ET.SubElement(node, "description").text = item.summary or item.title
+        ET.SubElement(node, "description").text = _xml_safe(
+            item.summary or item.title)
         ET.SubElement(node, "pubDate").text = _rfc822(item.published_at)
-        ET.SubElement(node, "source").text = item.source_name
+        ET.SubElement(node, "source").text = _xml_safe(item.source_name)
 
     xml = ET.tostring(rss, encoding="unicode")
     return _write(os.path.join(out_dir, "rss.xml"),
@@ -4003,7 +4119,7 @@ def render_cname(out_dir: str, domain: str = "waffletrip.com") -> str:
 ```bash
 .venv/bin/python -m pytest tests/test_render_feeds.py -v
 ```
-Expected: PASS (13 passed)
+Expected: PASS (16 passed)
 
 - [ ] **Step 5: 커밋**
 
