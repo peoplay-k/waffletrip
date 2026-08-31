@@ -6,12 +6,13 @@
 <div class="meta">{{ region_name }} · {{ item.source_name }} · {{ item.published_at[:10] }}</div>
 {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
 {% if item.body_md %}<div>{{ item.body_md }}</div>{% endif %}
-{% if item.source_url %}
-<p class="src">원문 보기: <a href="{{ item.source_url }}" rel="nofollow noopener" target="_blank">{{ item.source_name }}</a></p>
+{% set source_href = item.source_url|safe_url %}
+{% if item.source_name %}
+<p class="src">원문 보기: {% if source_href %}<a href="{{ source_href }}" rel="nofollow noopener" target="_blank">{{ item.source_name }}</a>{% else %}{{ item.source_name }}{% endif %}</p>
 {% endif %}
 {% if related %}
 <h2>관련 보도</h2>
-<ul class="src">{% for r in related %}<li><a href="{{ r.source_url }}" rel="nofollow noopener" target="_blank">{{ r.source_name }}</a></li>{% endfor %}</ul>
+<ul class="src">{% for r in related %}{% set h = r.source_url|safe_url %}<li>{% if h %}<a href="{{ h }}" rel="nofollow noopener" target="_blank">{{ r.source_name }}</a>{% else %}{{ r.source_name }}{% endif %}</li>{% endfor %}</ul>
 {% endif %}
 <a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>
 {% endblock %}

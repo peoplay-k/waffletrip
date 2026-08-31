@@ -4,6 +4,7 @@ from pathlib import Path
 from src.models import Item
 from src.render.feeds import (render_rss, render_sitemap, render_robots,
                               render_cname, RSS_MAX_ITEMS)
+from src.render.site import safe_url
 
 NOW = "2026-08-31T05:00:00+09:00"
 TODAY = "2026-08-31"
@@ -60,6 +61,32 @@ def test_rss_escapes_special_characters_in_titles(tmp_path):
 def test_rss_with_no_items_is_still_valid(tmp_path):
     path = render_rss([], str(tmp_path), NOW)
     assert ET.parse(path).getroot().tag == "rss"
+
+
+def test_control_characters_do_not_break_the_feed(tmp_path):
+    """XML 1.0 이 못 받는 제어문자 하나가 피드 전체를 재파싱 불가로 만든다."""
+    path = render_rss([make("1", "Bad\x00Title\x07Here")], str(tmp_path), NOW)
+    root = ET.parse(path).getroot()
+    assert root.find("./channel/item/title").text == "BadTitleHere"
+
+
+def test_non_string_published_at_does_not_kill_the_feed(tmp_path):
+    """None 이면 fromisoformat 이 TypeError 를 던져 피드 전체가 죽었다."""
+    item = make("1", "괌 소식")
+    item.published_at = None
+    path = render_rss([item], str(tmp_path), NOW)
+    assert ET.parse(path).getroot().tag == "rss"
+
+
+def test_safe_url_only_allows_http_schemes():
+    """링크 스킴 화이트리스트. 이게 뚫리면 javascript: 링크가 클릭된다."""
+    assert safe_url("https://example.com/a") == "https://example.com/a"
+    assert safe_url("http://x.kr") == "http://x.kr"
+    assert safe_url("  https://ok.com  ") == "https://ok.com"
+    assert safe_url("javascript:alert(1)") == ""
+    assert safe_url("JavaScript:alert(1)") == ""
+    assert safe_url("data:text/html,<script>") == ""
+    assert safe_url("") == ""
 
 
 def test_sitemap_is_wellformed_and_lists_home(tmp_path):

@@ -34,14 +34,33 @@ PRODUCT_LINKS = {
 
 TOP_PER_REGION = 3
 _SLUG_STRIP = re.compile(r"[^\w가-힣]+", re.UNICODE)
+# 경로 조각에 쓸 수 있는 문자. id·region 이 오염돼도 out_dir 밖으로 못 나가게 한다.
+_SAFE_SEGMENT = re.compile(r"[^A-Za-z0-9_-]")
+# href 에 넣어도 되는 스킴. 남의 사이트에서 긁어온 URL 을 그대로 쓰면
+# javascript: 링크가 만들어진다.
+_ALLOWED_SCHEMES = ("http://", "https://")
 _TEMPLATE_DIR = os.path.join(os.path.dirname(__file__), "templates")
 
 
+def safe_url(url: str) -> str:
+    """href 에 넣어도 되는 URL 만 통과시킨다. 아니면 빈 문자열.
+
+    수집한 링크는 남의 사이트가 준 값이다. Jinja 의 autoescape 는 HTML 특수문자만
+    막고 URI 스킴은 거르지 않아서, javascript: 링크가 그대로 클릭 가능해진다.
+    """
+    stripped = (url or "").strip()
+    if stripped.lower().startswith(_ALLOWED_SCHEMES):
+        return stripped
+    return ""
+
+
 def _env() -> Environment:
-    return Environment(
+    env = Environment(
         loader=FileSystemLoader(_TEMPLATE_DIR),
         autoescape=select_autoescape(["html"]),
     )
+    env.filters["safe_url"] = safe_url
+    return env
 
 
 def slugify(text: str) -> str:
@@ -50,7 +69,16 @@ def slugify(text: str) -> str:
 
 
 def article_url(item: Item) -> str:
-    return f"/{item.region}/{item.id[:8]}-{slugify(item.title)}/"
+    """기사 경로. id·region 도 정제한다.
+
+    제목은 slugify 가 이미 정제하지만 id·region 은 그대로 경로에 들어간다.
+    둘 중 하나에 "../" 가 섞이면 출력 디렉터리 밖에 파일이 써진다. 지금은
+    id 가 sha1 이고 region 이 검증된 값이라 도달할 수 없지만, 방어가 없는 것과
+    도달 못 하는 것은 다르다.
+    """
+    region = _SAFE_SEGMENT.sub("", item.region) or "etc"
+    ident = _SAFE_SEGMENT.sub("", item.id)[:8] or "0"
+    return f"/{region}/{ident}-{slugify(item.title)}/"
 
 
 def group_by_region(items: list[Item]) -> dict[str, list[Item]]:

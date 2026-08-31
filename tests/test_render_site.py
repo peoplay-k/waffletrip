@@ -2,7 +2,8 @@ from pathlib import Path
 
 from src.models import Item
 from src.render.site import (slugify, article_url, group_by_region,
-                             split_panel, render_site, REGION_NAMES)
+                             split_panel, render_site, safe_url,
+                             REGION_NAMES)
 
 NOW = "2026-08-31T05:00:00+09:00"
 TODAY = "2026-08-31"
@@ -102,6 +103,48 @@ def test_region_page_links_to_the_product_site(tmp_path):
     render_site([make("1", "괌 소식")], str(tmp_path), TODAY)
     html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
     assert PRODUCT_LINKS["guam"] in html
+
+
+def test_scraped_titles_are_html_escaped(tmp_path):
+    """제목은 남의 사이트에서 긁어온 텍스트다. 그대로 렌더하면 안 된다."""
+    item = make("1", "<script>alert(1)</script>")
+    render_site([item], str(tmp_path), TODAY)
+    html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
+    assert "<script>alert(1)</script>" not in html
+    assert "&lt;script&gt;" in html
+
+
+def test_javascript_scheme_links_are_dropped(tmp_path):
+    """수집한 링크는 남의 사이트가 준 값이다. autoescape 는 스킴을 막지 않는다."""
+    item = make("abcdef1234567890", "괌 소식")
+    item.source_url = "javascript:alert(1)"
+    render_site([item], str(tmp_path), TODAY)
+    html = (tmp_path / "guam" / "abcdef12-괌-소식" /
+            "index.html").read_text(encoding="utf-8")
+    assert "javascript:" not in html
+    assert "Guam Post" in html   # 출처 이름은 링크가 없어도 남는다
+
+
+def test_outbound_links_are_marked_nofollow(tmp_path):
+    """원문 링크는 남의 사이트다. 검색엔진에 우리 신뢰를 넘기지 않는다."""
+    item = make("abcdef1234567890", "괌 소식")
+    render_site([item], str(tmp_path), TODAY)
+    html = (tmp_path / "guam" / "abcdef12-괌-소식" /
+            "index.html").read_text(encoding="utf-8")
+    assert 'rel="nofollow noopener"' in html
+
+
+def test_path_traversal_in_id_cannot_escape_the_output_dir(tmp_path):
+    """id·region 은 슬러그와 달리 정제되지 않은 채 경로에 들어간다.
+
+    지금은 id 가 sha1 이라 도달할 수 없지만, 방어가 없는 것과 도달 못 하는 것은 다르다.
+    """
+    item = make("../../../../evil", "제목")
+    item.region = "../../etc"
+    out = tmp_path / "site"
+    render_site([item], str(out), TODAY)
+    written = [q for q in tmp_path.rglob('*') if q.is_file()]
+    assert all(str(q).startswith(str(out)) for q in written), written
 
 
 def test_render_site_returns_every_path_it_wrote(tmp_path):

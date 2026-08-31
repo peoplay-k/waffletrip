@@ -6,6 +6,7 @@ RSS 는 문자열 조립 대신 ElementTree 로 만든다. 제목에 & 나 < 가
 from __future__ import annotations
 
 import os
+import re
 import xml.etree.ElementTree as ET
 from email.utils import format_datetime
 from datetime import datetime
@@ -17,11 +18,25 @@ from src.render.site import (REGION_NAMES, SITE_NAME, SITE_TAGLINE, SITE_URL,
 RSS_MAX_ITEMS = 50
 
 
+# XML 1.0 이 허용하지 않는 제어문자. 남기면 ElementTree 가 그대로 직렬화해
+# rss.xml 전체가 재파싱 불가능해진다 — 한 항목이 피드 전부를 죽인다.
+_CONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+
+
+def _xml_safe(text: str) -> str:
+    return _CONTROL.sub("", text or "")
+
+
 def _rfc822(iso: str) -> str:
+    """날짜를 RFC822 로. 못 읽으면 원문 그대로 둔다.
+
+    TypeError 도 잡는 이유: published_at 이 None 이면 fromisoformat 이
+    ValueError 가 아니라 TypeError 를 던져서 피드 전체가 죽는다.
+    """
     try:
         return format_datetime(datetime.fromisoformat(iso))
-    except ValueError:
-        return iso
+    except (ValueError, TypeError):
+        return str(iso)
 
 
 def _write(path: str, text: str) -> str:
@@ -46,12 +61,13 @@ def render_rss(items: list[Item], out_dir: str, built_at: str) -> str:
     for item in articles:
         node = ET.SubElement(channel, "item")
         link = SITE_URL + article_url(item)
-        ET.SubElement(node, "title").text = item.title
+        ET.SubElement(node, "title").text = _xml_safe(item.title)
         ET.SubElement(node, "link").text = link
         ET.SubElement(node, "guid", {"isPermaLink": "true"}).text = link
-        ET.SubElement(node, "description").text = item.summary or item.title
+        ET.SubElement(node, "description").text = _xml_safe(
+            item.summary or item.title)
         ET.SubElement(node, "pubDate").text = _rfc822(item.published_at)
-        ET.SubElement(node, "source").text = item.source_name
+        ET.SubElement(node, "source").text = _xml_safe(item.source_name)
 
     xml = ET.tostring(rss, encoding="unicode")
     return _write(os.path.join(out_dir, "rss.xml"),
