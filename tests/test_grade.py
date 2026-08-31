@@ -60,6 +60,29 @@ def test_is_flight_event_detects_english_terms():
     assert is_flight_event("Korean Air to launch Guam service")
 
 
+def test_english_keywords_need_word_boundaries():
+    """"launch" 가 부분일치하면 군사 기사의 "launchers" 에 걸린다.
+
+    실측에서 "U.S. forces strike two Iranian launchers" 가 항공 섹션으로
+    올라오고 검수 후보까지 됐다. 여행 신문에 군사 기사가 실릴 뻔했다.
+    """
+    assert not is_flight_event("U.S. forces strike two Iranian launchers")
+    assert not is_flight_event("New product launcher for travel agencies")
+
+
+def test_english_verb_endings_still_match():
+    """단어 경계를 걸어도 "launched a new route" 는 잡아야 한다."""
+    assert is_flight_event("Korean Air launched a new route to Guam")
+    assert is_flight_event("United launches Guam service in October")
+    assert is_flight_event("Jeju Air to launch Saipan flights")
+
+
+def test_korean_keywords_still_match_with_particles():
+    """한국어는 조사가 붙어 오므로 부분일치를 유지한다."""
+    assert is_flight_event("진에어가 괌 노선에 신규 취항한다")
+    assert is_flight_event("대한항공이 괌 노선을 증편했다")
+
+
 def test_is_flight_event_ignores_unrelated_titles():
     assert not is_flight_event("투몬 해변 청소 행사")
 

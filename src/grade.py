@@ -5,10 +5,16 @@ C등급 후보 상한(5건)이 있는 이유: 검수량이 하루 감당 가능�
 """
 from __future__ import annotations
 
+import re
+
 from src.models import Item
 
 MAX_C_PER_DAY = 5
 MIN_OUTLETS_FOR_CLUSTER = 3  # 대표 1 + related 2 = 3개 매체
+
+# 영문 키워드에 붙여 허용할 어미. launch/launches/launched/launching 은 잡고
+# launcher/launchers 는 잡지 않는다.
+_INFLECTION = r"(?:e?[sd]|ing)?"
 
 FLIGHT_KEYWORDS = (
     "취항", "증편", "감편", "신규 노선", "노선 확대", "운항 중단", "직항",
@@ -33,8 +39,26 @@ def apply_grades(items: list[Item]) -> list[Item]:
 
 
 def is_flight_event(title: str) -> bool:
+    """제목이 항공 노선 변동을 말하는가.
+
+    영문 키워드는 **단어 경계**로 맞춘다. 부분일치를 허용하면 "launch" 가
+    군사 기사의 "launchers" 에 걸린다 — 실측에서 이란 관련 기사가 항공 섹션으로
+    올라오고 검수 후보까지 됐다. 대신 흔한 어미(-s/-es/-ed/-ing)는 허용한다.
+    "launched a new route" 를 놓치면 안 되기 때문이다.
+
+    한글 키워드는 부분일치 그대로 둔다. 한국어는 조사가 붙어 오므로
+    ("취항한다", "증편했다") 단어 경계를 요구하면 대부분을 놓친다.
+    """
     lowered = title.lower()
-    return any(k.lower() in lowered for k in FLIGHT_KEYWORDS)
+    for keyword in FLIGHT_KEYWORDS:
+        lowered_keyword = keyword.lower()
+        if lowered_keyword.isascii():
+            pattern = r"\b" + re.escape(lowered_keyword) + _INFLECTION + r"\b"
+            if re.search(pattern, lowered):
+                return True
+        elif lowered_keyword in lowered:
+            return True
+    return False
 
 
 def pick_c_candidates(items: list[Item], trending: list[str],
