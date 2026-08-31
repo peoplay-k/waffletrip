@@ -838,6 +838,17 @@ def test_airline_name_containing_a_region_is_not_the_destination():
     assert tag_region("노랑풍선, 일본 나고야 상품 — 제주항공 나고야 4일") is None
 
 
+def test_hawaiian_airlines_is_not_a_hawaii_destination():
+    """하와이안항공은 나리타(일본) 노선도 다닌다. 항공사명은 목적지가 아니다."""
+    assert tag_region("하와이안항공, 나리타 노선 신규 취항") is None
+
+
+def test_hawaiian_airlines_article_about_hawaii_still_tags():
+    """진짜 하와이 기사는 지명이 따로 나온다. 제외 규칙이 그것까지 먹으면 안 된다."""
+    assert tag_region("하와이안항공, 인천~호놀룰루 증편") == "hawaii"
+    assert tag_region("하와이안항공, 하와이 노선 확대") == "hawaii"
+
+
 def test_real_jeju_articles_still_tag_after_the_exclusion():
     """제외 규칙이 진짜 제주 기사까지 잡아먹으면 안 된다."""
     assert tag_region("제주 렌터카 요금 인하") == "jeju"
@@ -878,10 +889,15 @@ from __future__ import annotations
 from src.models import REGIONS
 
 # 지역 이름을 품고 있지만 그 지역 기사가 아닌 표현. 세기 전에 먼저 지운다.
-# '제주항공'은 제주가 아니라 전 세계로 날아가는 항공사다 — 실측에서
+# 항공사명은 목적지가 아니다. '제주항공'은 제주가 아니라 전 세계로 날아가고,
+# '하와이안항공'은 나리타(일본) 노선도 다닌다. 실측에서
 # "제주항공, 부산~구이린 노선 취항"(중국 계림 기사)과 "노랑풍선 일본 나고야 상품"이
 # 제주로 잘못 태깅됐다. 항공사명이 목적지를 뜻하지 않는다.
-REGION_EXCLUSIONS = ("제주항공",)
+REGION_EXCLUSIONS = ("제주항공", "하와이안항공")
+
+# 국적 항공사(베트남항공·라오항공)는 일부러 넣지 않았다. 그 항공사 소식은 거의 항상
+# 자국 관련이라 지우면 진짜 기사를 잃는다. 제주항공은 전 세계로 날아가는 한국 LCC 라,
+# 하와이안항공은 일본 노선도 있어 각각 실측 오탐이 확인됐다.
 
 # 한 글자 키워드는 오탐을 부르므로 여기 적힌 것만 허용한다.
 # '괌'은 한국어에서 다른 단어의 부분문자열로 거의 나타나지 않아 안전하다
@@ -935,7 +951,7 @@ def tag_region(text: str) -> str | None:
 ```bash
 .venv/bin/python -m pytest tests/test_models.py tests/test_region_tag.py -v
 ```
-Expected: PASS (30 passed)
+Expected: PASS (32 passed)
 
 - [ ] **Step 9: 커밋**
 
