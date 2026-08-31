@@ -35,6 +35,38 @@ def test_similar_titles_collapse_and_record_related():
     assert sorted(result[0].related) == ["2", "3"]
 
 
+def test_grade_a_items_with_identical_titles_are_not_merged():
+    """지역별 환율은 제목이 같아도 서로 다른 항목이다.
+
+    실측에서 이걸 묶는 바람에 사이판·하와이의 환율 패널이 통째로 사라졌다.
+    A등급은 우리가 만든 사실 데이터이지 남의 보도가 아니다.
+    """
+    fx = []
+    for n, region in enumerate(("guam", "saipan", "hawaii"), start=1):
+        item = make(str(n), "오늘의 환율 — 1 USD")
+        item.grade, item.region, item.section = "A", region, "data"
+        fx.append(item)
+    result = cluster_batch(fx)
+    assert [i.region for i in result] == ["guam", "saipan", "hawaii"]
+
+
+def test_same_title_in_different_regions_is_not_merged():
+    """다른 곳 이야기는 제목이 같아도 같은 사건일 수 없다."""
+    a = make("1", "신규 취항 노선 확정 발표")
+    b = make("2", "신규 취항 노선 확정 발표")
+    b.region = "jeju"
+    assert len(cluster_batch([a, b])) == 2
+
+
+def test_same_region_still_clusters_after_the_guard():
+    """지역·등급 제한이 진짜 중복까지 막으면 안 된다."""
+    a = make("1", "괌 신규 취항 노선 확정 발표")
+    b = make("2", "괌 신규 취항 노선 확정")
+    result = cluster_batch([a, b])
+    assert len(result) == 1
+    assert result[0].related == ["2"]
+
+
 def test_different_titles_are_kept_separately():
     items = [make("1", "괌 신규 취항 확정"), make("2", "제주 해수욕장 개장 연기")]
     assert len(cluster_batch(items)) == 2

@@ -82,16 +82,30 @@ def cluster_batch(items: list[Item],
                   threshold: float = SIMILARITY_THRESHOLD) -> list[Item]:
     """배치 안의 같은 사건을 묶는다. 먼저 온 항목이 대표가 된다.
 
-    새 항목은 대표의 원제목뿐 아니라 그 클러스터에 이미 흡수된 항목들의
-    제목과도 비교한다(연쇄 비교). 대표의 원제목하고만 비교하면 A-B 유사·
-    B-C 유사인데 A-C 는 임계값 미만인 사슬형 사건을 놓친다.
+    두 가지는 묶지 않는다.
+    - **A등급(사실 데이터)** — 우리가 공공데이터로 만든 값이지 남의 보도가 아니다.
+      지역별 "오늘의 환율 — 1 USD" 는 제목이 같아도 서로 다른 항목이다. 실측에서
+      이걸 묶는 바람에 사이판·하와이의 환율 패널이 통째로 사라졌다.
+    - **지역이 다른 항목** — 다른 곳 이야기는 같은 사건일 수 없다.
+
+    새 항목은 대표의 원제목뿐 아니라 그 클러스터에 이미 흡수된 제목들과도 비교한다
+    (연쇄 비교). 대표하고만 비교하면 A~B 유사·B~C 유사인데 A~C 는 임계값 미만인
+    사슬형 사건을 놓친다.
     """
     representatives: list[Item] = []
-    cluster_tokens: list[list[set[str]]] = []
+    # None 은 '이 대표는 클러스터를 받지 않는다'(A등급)는 뜻이다.
+    cluster_tokens: list[list[set[str]] | None] = []
 
     for item in items:
+        if item.grade == "A":
+            representatives.append(item)
+            cluster_tokens.append(None)
+            continue
+
         tokens = title_tokens(item.title)
         for rep, known_list in zip(representatives, cluster_tokens):
+            if known_list is None or rep.region != item.region:
+                continue
             if any(jaccard(tokens, known) >= threshold for known in known_list):
                 rep.related.append(item.id)
                 known_list.append(tokens)
