@@ -15,6 +15,10 @@ TIMEOUT = 15.0
 # 저액면 통화는 1단위 환율이 1원에 못 미쳐 그대로 쓰면 "1 VND = 약 0원"이 된다.
 # 실제로 1 VND ≈ 0.053원, 1 LAK ≈ 0.062원이다. 은행 고시 방식대로 100단위로 묶는다.
 QUOTE_UNIT = {"USD": 1, "MYR": 1, "VND": 100, "LAK": 100}
+# CURRENCY_BY_REGION 에 통화를 추가하고 여기를 잊으면 KeyError 가 난다. 일부러
+# .get(currency, 1) 같은 조용한 기본값을 두지 않는다 — 그러면 미래의 저액면 통화가
+# 1단위로 표시되어 "1 VND = 약 0원" 오보를 그대로 되풀이한다. 어긋남은 테스트가
+# 개발 시점에 잡는다(test_every_currency_has_a_quote_unit).
 
 # 제주는 원화권이라 환율 항목이 없다.
 CURRENCY_BY_REGION = {

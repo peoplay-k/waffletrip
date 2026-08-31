@@ -3,7 +3,8 @@ from pathlib import Path
 
 import pytest
 
-from src.fetch.json_api import parse_json, UnknownJsonSource, CURRENCY_BY_REGION
+from src.fetch.json_api import (parse_json, UnknownJsonSource,
+                                CURRENCY_BY_REGION, QUOTE_UNIT)
 from src.sources import Source
 
 FIXTURE = Path(__file__).parent / "fixtures" / "exchange_rate.json"
@@ -69,6 +70,10 @@ def test_normal_currencies_keep_the_single_unit_quote():
     kota = next(i for i in items if i.region == "kota")
     assert guam.title == "오늘의 환율 — 1 USD"
     assert kota.title == "오늘의 환율 — 1 MYR"
+    # 환산 숫자까지 본다. 제목만 보면 계산이 틀려도 통과한다 — 이번 태스크의
+    # "1 VND = 0원" 버그가 정확히 그렇게 살아남았다.
+    assert "312원" in kota.summary   # 1 / 0.0032 = 312.5, 픽스처 기준
+
 
 
 def test_ids_are_unique_per_region_and_day():
@@ -96,6 +101,15 @@ def test_unknown_source_id_raises():
                      enabled=True)
     with pytest.raises(UnknownJsonSource, match="mystery"):
         parse_json(unknown, {}, NOW)
+
+
+def test_every_currency_has_a_quote_unit():
+    """새 지역을 넣으며 고시 단위를 잊으면 그 소스의 수집이 통째로 죽는다.
+
+    조용한 기본값으로 때우지 않기로 했으므로(주석 참고) 이 어긋남을 잡는 것은
+    이 테스트뿐이다. 개발 시점에 잡히는 것이 운영에서 환율 패널이 사라지는 것보다 낫다.
+    """
+    assert set(CURRENCY_BY_REGION.values()) <= set(QUOTE_UNIT)
 
 
 def test_currency_map_covers_every_non_krw_region():
