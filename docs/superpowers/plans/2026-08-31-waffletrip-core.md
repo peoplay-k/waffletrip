@@ -1120,6 +1120,16 @@ def test_korean_sentences_split_without_a_space_after_the_period():
         "개최한다. 열린 페스타는 무장애 여행이다.")
 
 
+def test_two_sentences_glued_together_do_not_leak_a_third():
+    """종결부호 뒤 공백이 없으면 두 문장이 한 조각으로 붙어 n 을 무력화한다.
+
+    이 함수가 원문 전재를 막는 장치인데 정확히 그 지점에서 샜다.
+    n=2 를 요청했는데 실제 문장 3개가 나오면 안 된다.
+    """
+    text = "First one.Second one attached tightly. Third real one. Fourth."
+    assert first_sentences(text, 2) == "First one. Second one attached tightly."
+
+
 def test_abbreviation_periods_split_conservatively():
     """'U.S.' 뒤 공백에서도 잘린다. 원래 규칙부터 그랬고 그대로 둔다.
 
@@ -1175,9 +1185,18 @@ _WS = re.compile(r"\s+")
 # 한국어 기사 본문은 마침표 뒤에 공백이 없는 경우가 흔하다("개최한다.열린 관광 페스타는").
 # 종결부호+공백으로만 자르면 문단 전체가 한 문장이 되어 인용 한도를 넘긴다 — 실측에서
 # 국내 매체 기사의 70%가 200자를 넘겨 전량 폐기됐다. 그래서 두 자리에서 자른다.
-#   (1) 종결부호 뒤 공백   (2) 한글 바로 뒤에 붙은 종결부호(공백이 없어도)
-# (2)는 앞이 한글일 때만 걸리므로 "U.S. Navy" 같은 영문 약어는 잘리지 않는다.
-_SENTENCE_END = re.compile(r"(?<=[.!?。？！])\s+|(?<=[가-힣][.!?。？！])")
+# 그리고 이 함수는 "정규식 조각 수"를 세지 "실제 문장 수"를 세지 않는다. 종결부호 뒤에
+# 공백이 없으면 두 문장이 한 조각으로 붙어, n=2 를 요청해도 실제 문장 3개가 통과한다.
+# 원문 전재를 막는 장치가 바로 그 지점에서 새므로 세 규칙 모두 필요하다.
+#   (1) 종결부호 뒤 공백
+#   (2) 한글에 붙은 종결부호 — 공백이 없어도 자른다
+#   (3) 소문자/숫자에 붙은 종결부호 뒤에 대문자가 오면 자른다
+# (3)의 앞이 소문자여야 하므로 "U.S." 처럼 대문자 뒤의 마침표는 걸리지 않는다.
+_SENTENCE_END = re.compile(
+    r"(?<=[.!?。？！])\s+"          # (1) 종결부호 뒤 공백
+    r"|(?<=[가-힣][.!?。？！])"      # (2) 한글에 붙은 종결부호(공백 없어도)
+    r"|(?<=[a-z0-9][.!?])(?=[A-Z])"  # (3) 소문자/숫자 뒤 종결부호 + 대문자
+)
 
 
 def strip_html(text: str) -> str:
@@ -1262,7 +1281,7 @@ def fetch(source: Source, client, collected_at: str) -> list[Item]:
 ```bash
 .venv/bin/python -m pytest tests/test_fetch_rss.py -v
 ```
-Expected: PASS (19 passed)
+Expected: PASS (20 passed)
 
 - [ ] **Step 6: 커밋**
 
@@ -2845,7 +2864,7 @@ if __name__ == "__main__":
 ```bash
 .venv/bin/python -m pytest tests/test_edit.py -v
 ```
-Expected: PASS (19 passed)
+Expected: PASS (20 passed)
 
 - [ ] **Step 5: 실제 수집 결과로 돌려본다**
 
