@@ -33,15 +33,14 @@ def test_b_summary_of_exactly_200_chars_passes():
 
 
 def test_b_summary_over_two_sentences_is_rejected():
-    # "A. B. C." 는 라운드 2 약어 마스킹(_INITIAL)이 "대문자 한 글자+마침표"를
-    # 전부 이니셜로 가려버려 1문장으로 세어져 이 테스트와 충돌한다(실측 확인).
-    # 실제 단어를 쓰는 문장으로 바꿔 같은 의도(3문장 초과 거부)를 유지한다.
+    """실제 단어로 쓴다. "A. B. C." 는 이니셜 마스킹에 걸려 1문장으로 세어진다."""
     text = "One fact. Two facts. Three facts."
     assert any("문장" in v for v in violations(make(summary=text)))
 
 
 def test_b_summary_of_exactly_two_sentences_passes():
-    assert violations(make(summary="A. B.")) == []
+    """경계를 진짜로 본다. "A. B." 는 이니셜로 가려져 1문장이 되므로 못 쓴다."""
+    assert violations(make(summary="One fact. Two facts.")) == []
 
 
 def test_abbreviations_are_not_counted_as_sentence_ends():
