@@ -517,6 +517,7 @@ git commit -m "feat: 소스 레지스트리와 실측 조사 결과
   - `src.models.item_to_dict(item: Item) -> dict` / `src.models.item_from_dict(d: dict) -> Item`
   - `src.region_tag.REGION_KEYWORDS: dict[str, tuple[str, ...]]`
   - `src.region_tag.SINGLE_CHAR_ALLOWED: frozenset[str]` — 한 글자 키워드 허용 목록
+  - `src.region_tag.REGION_EXCLUSIONS: tuple[str, ...]` — 지역명을 품었지만 그 지역이 아닌 표현
   - `src.region_tag.tag_region(text: str) -> str | None` — 지역 키 또는 `None`(우리가 다루지 않는 목적지)
 
 - [ ] **Step 1: 실패하는 테스트 작성**
@@ -811,6 +812,24 @@ def test_single_character_keywords_come_from_an_explicit_allowlist():
                 f"{region} 의 한 글자 키워드 '{w}' 가 허용 목록에 없다")
 
 
+def test_airline_name_containing_a_region_is_not_the_destination():
+    """제주항공은 제주가 아니라 전 세계로 날아가는 항공사다.
+
+    실측에서 이 한 단어가 중국 계림·일본 나고야·오사카 기사를 제주로 잘못
+    태깅했다. 항공사명은 목적지가 아니다.
+    """
+    assert tag_region("제주항공, 부산~구이린 노선 취항") is None
+    assert tag_region("제주항공, 오사카 노선 증편") is None
+    assert tag_region("노랑풍선, 일본 나고야 상품 — 제주항공 나고야 4일") is None
+
+
+def test_real_jeju_articles_still_tag_after_the_exclusion():
+    """제외 규칙이 진짜 제주 기사까지 잡아먹으면 안 된다."""
+    assert tag_region("제주 렌터카 요금 인하") == "jeju"
+    assert tag_region("모두를 위한 제주, 열린 관광 페스타") == "jeju"
+    assert tag_region("에어서울, 제주 노선 탑승률 96.6%") == "jeju"
+
+
 def test_common_non_target_destinations_are_not_mistagged():
     """길이 규칙보다 이쪽이 진짜 방어선이다. 오탐이 곧 오보다."""
     for text in ("오사카 벚꽃 명소", "파리 올림픽 특수", "도쿄 여행 수요",
@@ -840,6 +859,12 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.region_tag'`
 지명이 아니라 도시·섬 이름으로만 매칭한다.
 """
 from src.models import REGIONS
+
+# 지역 이름을 품고 있지만 그 지역 기사가 아닌 표현. 세기 전에 먼저 지운다.
+# '제주항공'은 제주가 아니라 전 세계로 날아가는 항공사다 — 실측에서
+# "제주항공, 부산~구이린 노선 취항"(중국 계림 기사)과 "노랑풍선 일본 나고야 상품"이
+# 제주로 잘못 태깅됐다. 항공사명이 목적지를 뜻하지 않는다.
+REGION_EXCLUSIONS = ("제주항공",)
 
 # 한 글자 키워드는 오탐을 부르므로 여기 적힌 것만 허용한다.
 # '괌'은 한국어에서 다른 단어의 부분문자열로 거의 나타나지 않아 안전하다
@@ -873,6 +898,9 @@ def tag_region(text: str) -> str | None:
         return None
 
     lowered = text.lower()
+    for phrase in REGION_EXCLUSIONS:
+        lowered = lowered.replace(phrase.lower(), " ")
+
     best_region: str | None = None
     best_hits = 0
 
@@ -890,7 +918,7 @@ def tag_region(text: str) -> str | None:
 ```bash
 .venv/bin/python -m pytest tests/test_models.py tests/test_region_tag.py -v
 ```
-Expected: PASS (27 passed)
+Expected: PASS (30 passed)
 
 - [ ] **Step 9: 커밋**
 
@@ -1069,11 +1097,37 @@ def test_auto_source_drops_destinations_we_do_not_cover():
     assert all("오사카" not in i.title for i in items)
 
 
-def test_auto_source_uses_summary_when_title_has_no_place_name():
+def test_auto_source_ignores_regions_that_appear_only_in_the_summary():
+    """요약에 스쳐 지나간 지명으로 지역을 정하지 않는다.
+
+    실측 근거: 요약까지 보고 판정했더니 8건 중 5건이 오탐이었다.
+    "티웨이항공 타고 싱가포르 가면…"이 제주로, 여행 기사도 아닌
+    "신복위-나주시 금융취약계층 지원"이 제주로 잡혔다.
+    """
     xml = """<?xml version="1.0"?><rss version="2.0"><channel>
     <item><title>신규 취항 소식</title><link>https://example.com/x</link>
     <description>제주 노선이 늘어난다.</description></item></channel></rss>"""
-    assert parse_feed(AUTO_SOURCE, xml, NOW)[0].region == "jeju"
+    assert parse_feed(AUTO_SOURCE, xml, NOW) == []
+
+
+def test_korean_sentences_split_without_a_space_after_the_period():
+    """한국어 기사는 마침표 뒤에 공백이 없는 경우가 흔하다.
+
+    못 자르면 문단 전체가 한 문장이 되어 인용 한도를 넘긴다. 실측에서
+    국내 매체 기사의 70%가 200자 초과로 전량 폐기됐다.
+    """
+    assert first_sentences("개최한다.열린 페스타는 무장애 여행이다.잘 된다.", 2) == (
+        "개최한다. 열린 페스타는 무장애 여행이다.")
+
+
+def test_abbreviation_periods_split_conservatively():
+    """'U.S.' 뒤 공백에서도 잘린다. 원래 규칙부터 그랬고 그대로 둔다.
+
+    요약이 의도보다 짧아질 뿐 인용 한도를 넘기지는 않는다. 보수적으로 짧은 쪽으로
+    틀리는 것은 저작권 관점에서 안전한 방향이라 잡지 않는다.
+    """
+    assert first_sentences("The U.S. Navy arrived. Next one.", 2) == (
+        "The U.S. Navy arrived.")
 
 
 def test_static_region_source_is_not_retagged():
@@ -1118,8 +1172,12 @@ TIMEOUT = 15.0
 
 _TAG = re.compile(r"<[^>]+>")
 _WS = re.compile(r"\s+")
-# 문장 끝 뒤의 공백에서만 자른다. 약어의 마침표는 뒤에 공백이 없으므로 살아남는다.
-_SENTENCE_END = re.compile(r"(?<=[.!?。？！])\s+")
+# 한국어 기사 본문은 마침표 뒤에 공백이 없는 경우가 흔하다("개최한다.열린 관광 페스타는").
+# 종결부호+공백으로만 자르면 문단 전체가 한 문장이 되어 인용 한도를 넘긴다 — 실측에서
+# 국내 매체 기사의 70%가 200자를 넘겨 전량 폐기됐다. 그래서 두 자리에서 자른다.
+#   (1) 종결부호 뒤 공백   (2) 한글 바로 뒤에 붙은 종결부호(공백이 없어도)
+# (2)는 앞이 한글일 때만 걸리므로 "U.S. Navy" 같은 영문 약어는 잘리지 않는다.
+_SENTENCE_END = re.compile(r"(?<=[.!?。？！])\s+|(?<=[가-힣][.!?。？！])")
 
 
 def strip_html(text: str) -> str:
@@ -1163,7 +1221,11 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
         # 국내 여행 전문 매체는 목적지가 섞여 오므로 기사마다 지역을 정한다.
         region = source.region
         if region == "auto":
-            region = tag_region(f"{title} {summary}")
+            # 제목에서만 판정한다. 요약까지 봤더니 실측에서 요약전용 매칭 8건 중
+            # 5건이 오탐이었다 — "티웨이항공 타고 싱가포르"가 제주로, 여행 기사도
+            # 아닌 "금융취약계층 생필품 지원"이 제주로 잡혔다. 요약에는 다른 목적지가
+            # 스쳐 지나가고, 소스에 따라 아예 다른 기사 본문이 실려 오기도 한다.
+            region = tag_region(title)
             if region is None:
                 continue  # 우리가 다루지 않는 목적지
 
@@ -1200,7 +1262,7 @@ def fetch(source: Source, client, collected_at: str) -> list[Item]:
 ```bash
 .venv/bin/python -m pytest tests/test_fetch_rss.py -v
 ```
-Expected: PASS (17 passed)
+Expected: PASS (19 passed)
 
 - [ ] **Step 6: 커밋**
 
@@ -2783,7 +2845,7 @@ if __name__ == "__main__":
 ```bash
 .venv/bin/python -m pytest tests/test_edit.py -v
 ```
-Expected: PASS (17 passed)
+Expected: PASS (19 passed)
 
 - [ ] **Step 5: 실제 수집 결과로 돌려본다**
 
