@@ -7,11 +7,14 @@ API 마다 응답 모양이 다르므로 공통 파서를 만들 수 없다.
 from __future__ import annotations
 
 from src.models import Item, make_id, title_hash
-from src.region_tag import tag_region
 from src.sources import Source
 
 USER_AGENT = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
 TIMEOUT = 15.0
+
+# 저액면 통화는 1단위 환율이 1원에 못 미쳐 그대로 쓰면 "1 VND = 약 0원"이 된다.
+# 실제로 1 VND ≈ 0.053원, 1 LAK ≈ 0.062원이다. 은행 고시 방식대로 100단위로 묶는다.
+QUOTE_UNIT = {"USD": 1, "MYR": 1, "VND": 100, "LAK": 100}
 
 # 제주는 원화권이라 환율 항목이 없다.
 CURRENCY_BY_REGION = {
@@ -44,9 +47,12 @@ def _parse_exchange_rate(source: Source, payload: dict,
         if not rate:  # 없거나 0 — 0 이면 나눌 수 없다
             continue
 
-        krw = 1 / rate
-        title = f"오늘의 환율 — 1 {currency}"
-        summary = f"{day} 기준 1 {currency} = 약 {krw:,.0f}원"
+        unit = QUOTE_UNIT[currency]
+        krw = unit / rate
+        # 100원 밑이면 소수 한 자리까지 보여준다. 반올림해서 0원이 되면 정보가 아니다.
+        shown = f"{krw:,.0f}" if krw >= 100 else f"{krw:,.1f}"
+        title = f"오늘의 환율 — {unit} {currency}"
+        summary = f"{day} 기준 {unit} {currency} = 약 {shown}원"
 
         items.append(Item(
             id=make_id("", f"fx|{region}|{currency}", day),

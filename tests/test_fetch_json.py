@@ -43,6 +43,34 @@ def test_title_names_the_currency_pair():
     assert guam.title == "오늘의 환율 — 1 USD"
 
 
+def test_low_value_currencies_are_quoted_per_hundred_units():
+    """1 VND 는 0.05원이라 1단위로 쓰면 반올림해서 '0원'이 된다.
+
+    0원은 정보가 아니라 오보다. 은행 고시처럼 100단위로 묶어 보여준다.
+    """
+    items = parse_json(FX, payload(), NOW)
+    vietnam = next(i for i in items if i.region == "vietnam")
+    assert vietnam.title == "오늘의 환율 — 100 VND"
+    assert "0원" != vietnam.summary.split("약 ")[1]
+    assert "5.3원" in vietnam.summary   # 100 / 18.9
+
+
+def test_low_value_currency_shows_one_decimal():
+    """100원 밑에서는 소수 한 자리를 보여준다. 6원과 6.2원은 다르다."""
+    items = parse_json(FX, payload(), NOW)
+    laos = next(i for i in items if i.region == "laos")
+    assert "6.4원" in laos.summary   # 100 / 15.6
+
+
+def test_normal_currencies_keep_the_single_unit_quote():
+    """달러·링깃은 1단위 그대로다. 100단위로 바꾸면 오히려 읽기 어렵다."""
+    items = parse_json(FX, payload(), NOW)
+    guam = next(i for i in items if i.region == "guam")
+    kota = next(i for i in items if i.region == "kota")
+    assert guam.title == "오늘의 환율 — 1 USD"
+    assert kota.title == "오늘의 환율 — 1 MYR"
+
+
 def test_ids_are_unique_per_region_and_day():
     items = parse_json(FX, payload(), NOW)
     assert len({i.id for i in items}) == len(items)
