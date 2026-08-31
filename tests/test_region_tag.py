@@ -1,4 +1,4 @@
-from src.region_tag import tag_region, REGION_KEYWORDS
+from src.region_tag import tag_region, REGION_KEYWORDS, SINGLE_CHAR_ALLOWED
 from src.models import REGIONS
 
 
@@ -63,7 +63,21 @@ def test_every_keyword_bucket_is_a_real_region():
     assert set(REGION_KEYWORDS) == set(REGIONS)
 
 
-def test_no_keyword_is_a_single_character():
-    """한 글자 키워드는 오탐을 부른다."""
-    for words in REGION_KEYWORDS.values():
-        assert all(len(w) > 1 for w in words)
+def test_single_character_keywords_come_from_an_explicit_allowlist():
+    """한 글자 키워드는 오탐을 부르므로 명시 허용 목록에 있는 것만 쓴다.
+
+    '괌'은 한국어에서 다른 단어의 부분문자열로 거의 나타나지 않아 안전하다.
+    새 한 글자 키워드를 넣으려면 허용 목록에 추가하고 근거를 남겨야 한다.
+    """
+    for region, words in REGION_KEYWORDS.items():
+        for w in words:
+            assert len(w) > 1 or w in SINGLE_CHAR_ALLOWED, (
+                f"{region} 의 한 글자 키워드 '{w}' 가 허용 목록에 없다")
+
+
+def test_common_non_target_destinations_are_not_mistagged():
+    """길이 규칙보다 이쪽이 진짜 방어선이다. 오탐이 곧 오보다."""
+    for text in ("오사카 벚꽃 명소", "파리 올림픽 특수", "도쿄 여행 수요",
+                 "방콕 호텔 요금", "세부 리조트 개장", "유류할증료 인상",
+                 "여권 발급 수수료 변경", "발리 우기 정보"):
+        assert tag_region(text) is None, text

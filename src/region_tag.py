@@ -11,6 +11,11 @@ from __future__ import annotations
 
 from src.models import REGIONS
 
+# 한 글자 키워드는 오탐을 부르므로 여기 적힌 것만 허용한다.
+# '괌'은 한국어에서 다른 단어의 부분문자열로 거의 나타나지 않아 안전하다
+# (오사카·파리·도쿄·방콕·세부·유류할증료·여권·발리 에서 오탐 없음을 실측 확인).
+SINGLE_CHAR_ALLOWED = frozenset({"괌"})
+
 # 순서가 동점 처리 순서다. REGIONS 와 같은 순서로 유지한다.
 REGION_KEYWORDS: dict[str, tuple[str, ...]] = {
     "guam": ("괌", "guam", "투몬", "tumon", "하갓냐", "데데도"),
