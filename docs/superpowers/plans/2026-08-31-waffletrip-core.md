@@ -1343,6 +1343,7 @@ A등급(사실 데이터)의 첫 소스를 붙인다. JSON API 는 저마다 응
 - Consumes: `src.models.Item`, `src.models.make_id`, `src.models.title_hash`; `src.sources.Source`
 - Produces:
   - `src.fetch.json_api.CURRENCY_BY_REGION: dict[str, str]`
+  - `src.fetch.json_api.QUOTE_UNIT: dict[str, int]` — 통화별 고시 단위(저액면 통화는 100)
   - `src.fetch.json_api.UnknownJsonSource(Exception)`
   - `src.fetch.json_api.parse_json(source: Source, payload: dict, collected_at: str) -> list[Item]`
   - `src.fetch.json_api.fetch(source: Source, client, collected_at: str) -> list[Item]`
@@ -1414,6 +1415,34 @@ def test_title_names_the_currency_pair():
     assert guam.title == "오늘의 환율 — 1 USD"
 
 
+def test_low_value_currencies_are_quoted_per_hundred_units():
+    """1 VND 는 0.05원이라 1단위로 쓰면 반올림해서 '0원'이 된다.
+
+    0원은 정보가 아니라 오보다. 은행 고시처럼 100단위로 묶어 보여준다.
+    """
+    items = parse_json(FX, payload(), NOW)
+    vietnam = next(i for i in items if i.region == "vietnam")
+    assert vietnam.title == "오늘의 환율 — 100 VND"
+    assert "0원" != vietnam.summary.split("약 ")[1]
+    assert "5.3원" in vietnam.summary   # 100 / 18.9
+
+
+def test_low_value_currency_shows_one_decimal():
+    """100원 밑에서는 소수 한 자리를 보여준다. 6원과 6.2원은 다르다."""
+    items = parse_json(FX, payload(), NOW)
+    laos = next(i for i in items if i.region == "laos")
+    assert "6.4원" in laos.summary   # 100 / 15.6
+
+
+def test_normal_currencies_keep_the_single_unit_quote():
+    """달러·링깃은 1단위 그대로다. 100단위로 바꾸면 오히려 읽기 어렵다."""
+    items = parse_json(FX, payload(), NOW)
+    guam = next(i for i in items if i.region == "guam")
+    kota = next(i for i in items if i.region == "kota")
+    assert guam.title == "오늘의 환율 — 1 USD"
+    assert kota.title == "오늘의 환율 — 1 MYR"
+
+
 def test_ids_are_unique_per_region_and_day():
     items = parse_json(FX, payload(), NOW)
     assert len({i.id for i in items}) == len(items)
@@ -1472,6 +1501,10 @@ from src.sources import Source
 USER_AGENT = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
 TIMEOUT = 15.0
 
+# 저액면 통화는 1단위 환율이 1원에 못 미쳐 그대로 쓰면 "1 VND = 약 0원"이 된다.
+# 실제로 1 VND ≈ 0.053원, 1 LAK ≈ 0.062원이다. 은행 고시 방식대로 100단위로 묶는다.
+QUOTE_UNIT = {"USD": 1, "MYR": 1, "VND": 100, "LAK": 100}
+
 # 제주는 원화권이라 환율 항목이 없다.
 CURRENCY_BY_REGION = {
     "guam": "USD",
@@ -1503,9 +1536,12 @@ def _parse_exchange_rate(source: Source, payload: dict,
         if not rate:  # 없거나 0 — 0 이면 나눌 수 없다
             continue
 
-        krw = 1 / rate
-        title = f"오늘의 환율 — 1 {currency}"
-        summary = f"{day} 기준 1 {currency} = 약 {krw:,.0f}원"
+        unit = QUOTE_UNIT[currency]
+        krw = unit / rate
+        # 100원 밑이면 소수 한 자리까지 보여준다. 반올림해서 0원이 되면 정보가 아니다.
+        shown = f"{krw:,.0f}" if krw >= 100 else f"{krw:,.1f}"
+        title = f"오늘의 환율 — {unit} {currency}"
+        summary = f"{day} 기준 {unit} {currency} = 약 {shown}원"
 
         items.append(Item(
             id=make_id("", f"fx|{region}|{currency}", day),
@@ -1553,7 +1589,7 @@ def fetch(source: Source, client, collected_at: str) -> list[Item]:
 ```bash
 .venv/bin/python -m pytest tests/test_fetch_json.py -v
 ```
-Expected: PASS (9 passed)
+Expected: PASS (12 passed)
 
 - [ ] **Step 6: 실제 API 가 픽스처와 같은 모양인지 한 번 확인**
 
