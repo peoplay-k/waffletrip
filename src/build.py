@@ -49,7 +49,18 @@ def load_recent_items(items_dir: str, today: str,
                     items.append(item_from_dict(json.loads(line)))
 
     items.sort(key=lambda i: i.published_at, reverse=True)
-    return items
+
+    # 같은 기사가 여러 날 파일에 들어있을 수 있다 — 발행 이력이 초기화됐거나
+    # 하루에 편집을 두 번 돌린 경우다. 목록에 같은 기사가 두 번 실리면 안 된다.
+    # 정렬을 먼저 했으므로 남는 것은 가장 최근 판본이다.
+    seen: set[str] = set()
+    unique: list[Item] = []
+    for item in items:
+        if item.id in seen:
+            continue
+        seen.add(item.id)
+        unique.append(item)
+    return unique
 
 
 def site_has_content(out_dir: str) -> bool:

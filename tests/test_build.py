@@ -41,6 +41,29 @@ def test_ignores_items_outside_the_window(tmp_path):
     assert load_recent_items(str(tmp_path), TODAY) == []
 
 
+def test_same_article_in_two_days_appears_once(tmp_path):
+    """14일 윈도우라 같은 기사가 여러 날 파일에 있을 수 있다.
+
+    실측에서 이걸 안 걸러 지역 페이지마다 모든 기사가 두 번씩 실렸다
+    (괌 페이지 20줄 = 고유 10건 x 2).
+    """
+    write_day(tmp_path, "2026-08-30", [make("same", "같은 기사",
+                                            published="2026-08-30T05:00:00+09:00")])
+    write_day(tmp_path, TODAY, [make("same", "같은 기사",
+                                     published="2026-08-31T05:00:00+09:00")])
+    items = load_recent_items(str(tmp_path), TODAY)
+    assert len(items) == 1
+
+
+def test_deduplication_keeps_the_newest_copy(tmp_path):
+    """제목이 수정됐으면 최신 판본이 남아야 한다."""
+    write_day(tmp_path, "2026-08-30", [make("same", "예전 제목",
+                                            published="2026-08-30T05:00:00+09:00")])
+    write_day(tmp_path, TODAY, [make("same", "고친 제목",
+                                     published="2026-08-31T09:00:00+09:00")])
+    assert load_recent_items(str(tmp_path), TODAY)[0].title == "고친 제목"
+
+
 def test_sorts_newest_first(tmp_path):
     write_day(tmp_path, TODAY, [
         make("old", "예전", published="2026-08-28T05:00:00+09:00"),
