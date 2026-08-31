@@ -16,6 +16,7 @@
 
 - **비용 0원** — 유료 API·유료 호스팅·유료 서비스를 도입하지 않는다. 무료 티어 한도를 넘는 설계를 하지 않는다.
 - **지역 키 7개 고정** — `guam`, `saipan`, `hawaii`, `vietnam`, `kota`, `laos`, `jeju`. 이 외의 값은 검증에서 거부한다.
+- **소스 설정에서만 추가 허용되는 두 값** — `all`(전 지역 공통 데이터, 예: 환율)과 `auto`(기사 내용에서 지역을 추론). 항목(`Item`)의 `region`은 항상 7개 중 하나로 확정된다.
 - **등급 3종** — `A`(사실 데이터), `B`(큐레이션), `C`(해설 기사). 이 외의 값은 거부한다.
 - **섹션 4종** — `flight`, `news`, `data`, `promo`. 이 외의 값은 거부한다.
 - **인용 상한** — B등급 `summary`는 최대 **200자** 그리고 최대 **2문장**. 초과 시 절단하지 않고 **항목을 폐기**한다.
@@ -406,7 +407,8 @@ from dataclasses import dataclass
 
 import yaml
 
-REGIONS = ("guam", "saipan", "hawaii", "vietnam", "kota", "laos", "jeju", "all")
+REGIONS = ("guam", "saipan", "hawaii", "vietnam", "kota", "laos", "jeju",
+           "all", "auto")
 SECTIONS = ("flight", "news", "data", "promo")
 TYPES = ("rss", "json")
 REQUIRED = ("id", "region", "section", "name", "type", "url", "lang", "enabled")
@@ -494,9 +496,13 @@ git commit -m "feat: 소스 레지스트리와 실측 조사 결과
 
 파이프라인 전체가 주고받는 단 하나의 자료형을 정의한다. 이후 모든 태스크가 이 타입에 의존한다.
 
+국내 여행 전문 매체의 피드는 목적지가 섞여 있으므로 **기사에서 지역을 추론하는 태거**도 여기서 만든다. 태거는 모델과 마찬가지로 순수 함수이고 아무것에도 의존하지 않으므로 같은 태스크에 둔다.
+
 **Files:**
 - Create: `src/models.py`
+- Create: `src/region_tag.py`
 - Create: `tests/test_models.py`
+- Create: `tests/test_region_tag.py`
 
 **Interfaces:**
 - Consumes: 없음
@@ -508,6 +514,8 @@ git commit -m "feat: 소스 레지스트리와 실측 조사 결과
   - `src.models.title_tokens(title: str) -> set[str]`
   - `src.models.jaccard(a: set[str], b: set[str]) -> float`
   - `src.models.item_to_dict(item: Item) -> dict` / `src.models.item_from_dict(d: dict) -> Item`
+  - `src.region_tag.REGION_KEYWORDS: dict[str, tuple[str, ...]]`
+  - `src.region_tag.tag_region(text: str) -> str | None` — 지역 키 또는 `None`(우리가 다루지 않는 목적지)
 
 - [ ] **Step 1: 실패하는 테스트 작성**
 
@@ -720,11 +728,154 @@ def item_from_dict(d: dict) -> Item:
 ```
 Expected: PASS (12 passed)
 
-- [ ] **Step 5: 커밋**
+- [ ] **Step 5: 지역 태거의 실패하는 테스트 작성**
+
+`tests/test_region_tag.py`:
+```python
+from src.region_tag import tag_region, REGION_KEYWORDS
+from src.models import REGIONS
+
+
+def test_tags_guam_from_korean_title():
+    assert tag_region("진에어, 괌 노선 증편 결정") == "guam"
+
+
+def test_tags_from_english_name():
+    assert tag_region("United adds Guam service") == "guam"
+
+
+def test_is_case_insensitive():
+    assert tag_region("HAWAII tourism rebounds") == "hawaii"
+
+
+def test_tags_vietnam_from_city_name():
+    assert tag_region("다낭 신규 리조트 오픈") == "vietnam"
+    assert tag_region("나트랑 직항 재개") == "vietnam"
+
+
+def test_tags_saipan_from_landmark():
+    assert tag_region("마나가하 섬 입장료 인상") == "saipan"
+
+
+def test_tags_kota_only_on_the_full_city_name():
+    """'말레이시아'나 '사바'만으로 코타키나발루라고 단정하지 않는다.
+
+    쿠알라룸푸르 기사를 코타키나발루로 태깅하면 우리 신문이 사실을 틀리는 것이다.
+    재현율보다 정확도를 택한다."""
+    assert tag_region("코타키나발루 신규 취항") == "kota"
+    assert tag_region("말레이시아 관광객 증가") is None
+
+
+def test_tags_laos():
+    assert tag_region("루앙프라방 야시장 재개장") == "laos"
+
+
+def test_tags_jeju():
+    assert tag_region("제주 렌터카 요금 인하") == "jeju"
+
+
+def test_returns_none_for_destinations_we_do_not_cover():
+    assert tag_region("오사카 벚꽃 명소 총정리") is None
+    assert tag_region("파리 올림픽 관광 특수") is None
+
+
+def test_returns_none_for_empty_text():
+    assert tag_region("") is None
+
+
+def test_picks_the_region_with_more_hits():
+    """여러 지역이 언급되면 더 많이 언급된 쪽으로 정한다."""
+    assert tag_region("괌 여행 인기, 괌 호텔 만실 — 하와이도 회복세") == "guam"
+
+
+def test_ties_break_by_fixed_region_order():
+    """동점이면 항상 같은 결과가 나와야 한다. 실행마다 달라지면 안 된다."""
+    assert tag_region("괌·사이판 공동 프로모션") == "guam"
+
+
+def test_every_keyword_bucket_is_a_real_region():
+    assert set(REGION_KEYWORDS) == set(REGIONS)
+
+
+def test_no_keyword_is_a_single_character():
+    """한 글자 키워드는 오탐을 부른다."""
+    for words in REGION_KEYWORDS.values():
+        assert all(len(w) > 1 for w in words)
+```
+
+- [ ] **Step 6: 테스트가 실패하는지 확인**
 
 ```bash
-git add src/models.py tests/test_models.py
-git commit -m "feat: Item 자료형과 URL 정규화·해시 유틸
+.venv/bin/python -m pytest tests/test_region_tag.py -v
+```
+Expected: FAIL — `ModuleNotFoundError: No module named 'src.region_tag'`
+
+- [ ] **Step 7: 지역 태거 구현**
+
+`src/region_tag.py`:
+```python
+"""기사 텍스트에서 우리가 다루는 7개 지역 중 하나를 추론한다.
+
+국내 여행 전문 매체의 피드는 전 세계 목적지가 섞여 들어온다. 소스에 지역을
+고정으로 붙일 수 없으므로 기사마다 판단해야 한다.
+
+원칙은 재현율보다 **정확도**다. '말레이시아' 기사를 코타키나발루로 태깅하면
+우리 신문이 사실을 틀리는 것이고, 그건 놓치는 것보다 나쁘다. 그래서 광역
+지명이 아니라 도시·섬 이름으로만 매칭한다.
+"""
+from src.models import REGIONS
+
+# 순서가 동점 처리 순서다. REGIONS 와 같은 순서로 유지한다.
+REGION_KEYWORDS: dict[str, tuple[str, ...]] = {
+    "guam": ("괌", "guam", "투몬", "tumon", "하갓냐", "데데도"),
+    "saipan": ("사이판", "saipan", "티니안", "tinian", "북마리아나",
+               "마나가하", "managaha", "마리아나"),
+    "hawaii": ("하와이", "hawaii", "호놀룰루", "honolulu", "와이키키",
+               "waikiki", "마우이", "maui", "오아후", "oahu", "빅아일랜드"),
+    "vietnam": ("베트남", "vietnam", "다낭", "danang", "da nang", "호이안",
+                "hoi an", "나트랑", "냐짱", "nha trang", "푸꾸옥", "phu quoc",
+                "하노이", "hanoi", "호치민", "ho chi minh", "달랏"),
+    "kota": ("코타키나발루", "코타키나바루", "코타 키나발루", "kota kinabalu"),
+    "laos": ("라오스", "laos", "비엔티안", "vientiane", "루앙프라방",
+             "luang prabang", "방비엥", "vang vieng"),
+    "jeju": ("제주", "jeju", "서귀포"),
+}
+
+
+def tag_region(text: str) -> str | None:
+    """가장 많이 언급된 지역을 돌려준다. 하나도 없으면 None.
+
+    None 은 오류가 아니라 '우리가 다루지 않는 목적지'라는 정상 판정이다.
+    호출자는 그 항목을 버린다.
+    """
+    if not text:
+        return None
+
+    lowered = text.lower()
+    best_region: str | None = None
+    best_hits = 0
+
+    # REGIONS 순서로 도므로 동점이면 항상 앞선 지역이 이긴다 (결정적).
+    for region in REGIONS:
+        hits = sum(lowered.count(k.lower()) for k in REGION_KEYWORDS[region])
+        if hits > best_hits:
+            best_region, best_hits = region, hits
+
+    return best_region
+```
+
+- [ ] **Step 8: 테스트 통과 확인**
+
+```bash
+.venv/bin/python -m pytest tests/test_models.py tests/test_region_tag.py -v
+```
+Expected: PASS (25 passed)
+
+- [ ] **Step 9: 커밋**
+
+```bash
+git add src/models.py src/region_tag.py tests/test_models.py tests/test_region_tag.py
+git commit -m "feat: Item 자료형과 지역 태거
 
 URL 정규화로 추적 파라미터만 다른 같은 기사를 한 항목으로 묶고,
 id 를 URL 기준으로 정해 제목이 수정돼도 재발행되지 않게 한다."
@@ -743,8 +894,10 @@ RSS/Atom 피드를 `Item` 목록으로 바꾼다. 네트워크 호출과 파싱�
 - Create: `tests/fixtures/sample_feed.xml`
 - Create: `tests/test_fetch_rss.py`
 
+국내 여행 전문 매체 피드는 `region: auto` 로 등록되므로, 이 수집기가 **기사마다 지역을 확정**한다. 지역을 못 정한 기사는 우리가 다루지 않는 목적지이므로 버린다.
+
 **Interfaces:**
-- Consumes: `src.models.Item`, `src.models.make_id`, `src.models.title_hash`; `src.sources.Source`
+- Consumes: `src.models.Item`, `src.models.make_id`, `src.models.title_hash`; `src.region_tag.tag_region`; `src.sources.Source`
 - Produces:
   - `src.fetch.rss.strip_html(text: str) -> str`
   - `src.fetch.rss.first_sentences(text: str, n: int = 2) -> str`
@@ -865,6 +1018,50 @@ def test_parse_feed_skips_entry_without_title():
 
 def test_parse_feed_on_garbage_returns_empty():
     assert parse_feed(SOURCE, "not xml at all", NOW) == []
+
+
+# --- region: auto (국내 여행 전문 매체) ---
+
+AUTO_SOURCE = Source(id="traveltimes", region="auto", section="news",
+                     name="여행신문", type="rss",
+                     url="https://example.com/rss", lang="ko", enabled=True)
+
+AUTO_FEED = """<?xml version="1.0"?><rss version="2.0"><channel>
+<item><title>진에어, 괌 노선 증편 결정</title><link>https://example.com/g</link>
+<description>10월부터 주 7회로 늘린다.</description></item>
+<item><title>오사카 벚꽃 명소 총정리</title><link>https://example.com/o</link>
+<description>봄 시즌 추천 코스.</description></item>
+<item><title>다낭 신규 리조트 오픈</title><link>https://example.com/d</link>
+<description>5성급이 문을 연다.</description></item>
+</channel></rss>"""
+
+
+def test_auto_source_assigns_region_per_article():
+    items = parse_feed(AUTO_SOURCE, AUTO_FEED, NOW)
+    assert [(i.title[:2], i.region) for i in items] == [
+        ("진에", "guam"), ("다낭", "vietnam")]
+
+
+def test_auto_source_drops_destinations_we_do_not_cover():
+    """오사카 기사는 버린다. 우리가 다루는 7개 지역이 아니다."""
+    items = parse_feed(AUTO_SOURCE, AUTO_FEED, NOW)
+    assert all("오사카" not in i.title for i in items)
+
+
+def test_auto_source_uses_summary_when_title_has_no_place_name():
+    xml = """<?xml version="1.0"?><rss version="2.0"><channel>
+    <item><title>신규 취항 소식</title><link>https://example.com/x</link>
+    <description>제주 노선이 늘어난다.</description></item></channel></rss>"""
+    assert parse_feed(AUTO_SOURCE, xml, NOW)[0].region == "jeju"
+
+
+def test_static_region_source_is_not_retagged():
+    """region 이 고정된 소스는 기사 내용과 무관하게 그 지역을 쓴다."""
+    xml = """<?xml version="1.0"?><rss version="2.0"><channel>
+    <item><title>Hawaii tourism note</title><link>https://example.com/h</link>
+    <description>Body.</description></item></channel></rss>"""
+    # SOURCE 는 region="guam" 고정이다
+    assert parse_feed(SOURCE, xml, NOW)[0].region == "guam"
 ```
 
 - [ ] **Step 3: 테스트가 실패하는지 확인**
@@ -892,6 +1089,7 @@ from datetime import datetime, timezone
 import feedparser
 
 from src.models import Item, make_id, title_hash
+from src.region_tag import tag_region
 from src.sources import Source
 
 USER_AGENT = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
@@ -941,10 +1139,17 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
         summary = first_sentences(strip_html(raw_summary), 2)
         published = _published_at(entry, collected_at)
 
+        # 국내 여행 전문 매체는 목적지가 섞여 오므로 기사마다 지역을 정한다.
+        region = source.region
+        if region == "auto":
+            region = tag_region(f"{title} {summary}")
+            if region is None:
+                continue  # 우리가 다루지 않는 목적지
+
         items.append(Item(
             id=make_id(link, title, published),
             grade="B",              # Task 8 에서 재분류된다
-            region=source.region,
+            region=region,
             section=source.section,
             title=title,
             summary=summary,
@@ -974,7 +1179,7 @@ def fetch(source: Source, client, collected_at: str) -> list[Item]:
 ```bash
 .venv/bin/python -m pytest tests/test_fetch_rss.py -v
 ```
-Expected: PASS (13 passed)
+Expected: PASS (17 passed)
 
 - [ ] **Step 6: 커밋**
 
@@ -1122,6 +1327,7 @@ API 마다 응답 모양이 다르므로 공통 파서를 만들 수 없다.
 예외를 던진다 — sources.yaml 에 소스를 추가하고 핸들러를 잊는 사고를 막는다.
 """
 from src.models import Item, make_id, title_hash
+from src.region_tag import tag_region
 from src.sources import Source
 
 USER_AGENT = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
@@ -2041,6 +2247,24 @@ def test_apply_grades_mutates_in_place():
     assert [i.grade for i in items] == ["A", "B"]
 
 
+def test_apply_grades_moves_flight_stories_to_the_flight_section():
+    items = [make("1", "진에어 괌 노선 신규 취항")]
+    apply_grades(items)
+    assert items[0].section == "flight"
+
+
+def test_apply_grades_leaves_ordinary_news_in_news():
+    items = [make("1", "투몬 해변 청소 행사")]
+    apply_grades(items)
+    assert items[0].section == "news"
+
+
+def test_apply_grades_does_not_move_data_items():
+    items = [make("1", "오늘의 환율 — 1 USD 신규 취항", section="data")]
+    apply_grades(items)
+    assert items[0].section == "data"
+
+
 def test_is_flight_event_detects_korean_terms():
     assert is_flight_event("진에어 괌 노선 신규 취항")
     assert is_flight_event("대한항공 괌 노선 증편")
@@ -2160,6 +2384,10 @@ def classify(item: Item) -> str:
 def apply_grades(items: list[Item]) -> list[Item]:
     for item in items:
         item.grade = classify(item)
+        # 항공 노선 변동 기사는 항공 섹션으로 옮긴다. 전 지역 항공 페이지의 재료가
+        # 되고, 여행객이 예약 결정에 직접 쓰는 정보라 따로 모을 값어치가 있다.
+        if item.section == "news" and is_flight_event(item.title):
+            item.section = "flight"
     return items
 
 
@@ -2207,7 +2435,7 @@ def pick_c_candidates(items: list[Item], trending: list[str],
 ```bash
 .venv/bin/python -m pytest tests/test_grade.py -v
 ```
-Expected: PASS (17 passed)
+Expected: PASS (20 passed)
 
 - [ ] **Step 5: 커밋**
 
@@ -2562,7 +2790,7 @@ git commit -m "feat: 편집 오케스트레이터
 
 **Files:**
 - Create: `src/render/__init__.py`, `src/render/site.py`
-- Create: `src/render/templates/base.html`, `index.html`, `region.html`, `article.html`
+- Create: `src/render/templates/base.html`, `index.html`, `region.html`, `article.html`, `section.html`, `about.html`
 - Create: `tests/test_render_site.py`
 
 **Interfaces:**
@@ -2575,6 +2803,8 @@ git commit -m "feat: 편집 오케스트레이터
   - `src.render.site.group_by_region(items: list[Item]) -> dict[str, list[Item]]`
   - `src.render.site.split_panel(items: list[Item]) -> tuple[list[Item], list[Item]]` — `(A등급 데이터, 나머지 기사)`
   - `src.render.site.render_site(items: list[Item], out_dir: str, today: str) -> list[str]` — 생성한 파일 경로들
+
+스펙 9절이 요구하는 페이지를 전부 만든다: 홈 `/`, 지역 7개 `/<region>/`, 기사 `/<region>/<slug>/`, 항공 모음 `/flight/`, 데이터 대시보드 `/data/`, 매체 소개 `/about/`. **`/about/` 은 선택이 아니다** — 우리 수집 봇의 User-Agent 가 `(+https://waffletrip.com/about/)` 로 자기를 밝히고 있어서, 그 주소가 404 면 우리가 다른 사이트에 거짓 신원을 제시하는 셈이 된다.
 
 - [ ] **Step 1: 실패하는 테스트 작성**
 
@@ -2697,6 +2927,41 @@ def test_render_site_with_no_items_still_writes_index(tmp_path):
     assert (tmp_path / "index.html").exists()
 
 
+def test_render_site_writes_flight_page(tmp_path):
+    item = make("1", "진에어 괌 노선 신규 취항", section="flight")
+    render_site([item], str(tmp_path), TODAY)
+    html = (tmp_path / "flight" / "index.html").read_text(encoding="utf-8")
+    assert "진에어 괌 노선 신규 취항" in html
+
+
+def test_flight_page_excludes_ordinary_news(tmp_path):
+    render_site([make("1", "투몬 해변 청소")], str(tmp_path), TODAY)
+    html = (tmp_path / "flight" / "index.html").read_text(encoding="utf-8")
+    assert "투몬 해변 청소" not in html
+
+
+def test_render_site_writes_data_page(tmp_path):
+    item = make("1", "오늘의 환율 — 1 USD", grade="A", section="data")
+    render_site([item], str(tmp_path), TODAY)
+    html = (tmp_path / "data" / "index.html").read_text(encoding="utf-8")
+    assert "오늘의 환율" in html
+
+
+def test_render_site_writes_about_page(tmp_path):
+    """봇의 User-Agent 가 이 주소를 가리킨다. 404 면 거짓 신원이 된다."""
+    render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "about" / "index.html").read_text(encoding="utf-8")
+    assert "저작권" in html
+    assert "robots.txt" in html
+
+
+def test_nav_links_to_flight_data_and_about(tmp_path):
+    render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "index.html").read_text(encoding="utf-8")
+    for href in ('href="/flight/"', 'href="/data/"', 'href="/about/"'):
+        assert href in html
+
+
 def test_every_region_key_has_a_korean_name_and_product_link():
     from src.render.site import PRODUCT_LINKS
     from src.models import REGIONS
@@ -2780,6 +3045,7 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.render'`
   <div class="date">{{ today }}</div>
   <nav>
     {% for key, name in region_names.items() %}<a href="/{{ key }}/">{{ name }}</a>{% endfor %}
+    <a href="/flight/">항공</a><a href="/data/">데이터</a><a href="/about/">소개</a>
   </nav>
 </div></header>
 <main class="wrap">{% block content %}{% endblock %}</main>
@@ -2858,6 +3124,56 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.render'`
 <ul class="src">{% for r in related %}<li><a href="{{ r.source_url }}" rel="nofollow noopener" target="_blank">{{ r.source_name }}</a></li>{% endfor %}</ul>
 {% endif %}
 <a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>
+{% endblock %}
+```
+
+`src/render/templates/section.html`:
+```html
+{% extends "base.html" %}
+{% block title %}{{ section_title }} — {{ site_name }}{% endblock %}
+{% block description %}{{ section_desc }}{% endblock %}
+{% block content %}
+<h1>{{ section_title }}</h1>
+<p class="meta">{{ section_desc }}</p>
+{% if items %}
+  {% for item in items %}
+  <article class="row">
+    <h3>{% if item.grade == 'A' %}{{ item.title }}{% else %}<a href="{{ article_urls[item.id] }}">{{ item.title }}</a>{% endif %}</h3>
+    <div class="meta">{{ region_names.get(item.region, item.region) }} · {{ item.source_name }} · {{ item.published_at[:10] }}</div>
+    {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
+  </article>
+  {% endfor %}
+{% else %}
+  <p class="meta">아직 모인 소식이 없습니다.</p>
+{% endif %}
+{% endblock %}
+```
+
+`src/render/templates/about.html`:
+```html
+{% extends "base.html" %}
+{% block title %}매체 소개 — {{ site_name }}{% endblock %}
+{% block description %}{{ site_name }} 소개와 저작권·수집 정책{% endblock %}
+{% block content %}
+<h1>{{ site_name }} 소개</h1>
+<p>{{ site_name }}은 괌·사이판·하와이·베트남·코타키나발루·라오스·제주 일곱 곳의 여행 정보를 매일 아침 정리해 전하는 여행 정보 매체입니다.</p>
+
+<h2>기사를 만드는 방식</h2>
+<p>세 종류의 글을 싣습니다.</p>
+<ul>
+  <li><b>사실 데이터</b> — 환율·날씨·여행경보처럼 공공기관과 공식 발표에서 받아 그대로 전하는 값입니다.</li>
+  <li><b>큐레이션</b> — 다른 매체가 보도한 소식의 제목과 짧은 요약에 <b>원문 링크</b>를 답니다. 전문은 옮기지 않습니다.</li>
+  <li><b>해설</b> — 저희가 직접 쓴 정리와 분석입니다.</li>
+</ul>
+
+<h2>저작권</h2>
+<p>인용한 기사의 저작권은 각 매체에 있습니다. 저희는 제목과 두 문장 이내의 요약만 인용하고 반드시 출처를 밝혀 원문으로 연결합니다. 원문 이미지는 사용하지 않습니다. 삭제나 수정을 원하시는 매체는 아래로 연락 주시면 확인 후 조치하겠습니다.</p>
+
+<h2>수집 정책</h2>
+<p>저희 수집 봇은 <code>WaffleTripBot/1.0</code> 으로 자기를 밝히고, 각 사이트의 <code>robots.txt</code> 를 확인해 금지된 경로는 수집하지 않습니다. 공개된 RSS 피드만 읽습니다.</p>
+
+<h2>연락처</h2>
+<p><a href="mailto:peoplay@thepeoplay.com">peoplay@thepeoplay.com</a></p>
 {% endblock %}
 ```
 
@@ -2978,6 +3294,33 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             written,
         )
 
+    # 항공 모음 — 지역을 가로지른다. 예약 결정에 직접 쓰는 정보라 따로 모은다.
+    _write(
+        os.path.join(out_dir, "flight", "index.html"),
+        env.get_template("section.html").render(
+            section_title="항공 소식",
+            section_desc="일곱 개 지역의 신규취항·증편·감편을 한자리에 모았습니다.",
+            items=[i for i in items if i.section == "flight"], **common),
+        written,
+    )
+
+    # 데이터 대시보드 — 매일 값이 바뀌는 사실 데이터만 모은다.
+    _write(
+        os.path.join(out_dir, "data", "index.html"),
+        env.get_template("section.html").render(
+            section_title="여행 데이터",
+            section_desc="환율을 비롯한 오늘의 여행 실용 데이터입니다.",
+            items=[i for i in items if i.grade == "A"], **common),
+        written,
+    )
+
+    # 매체 소개 — 우리 봇의 User-Agent 가 이 주소를 가리키므로 반드시 존재해야 한다.
+    _write(
+        os.path.join(out_dir, "about", "index.html"),
+        env.get_template("about.html").render(**common),
+        written,
+    )
+
     # 기사 페이지 — A등급은 패널에만 나오므로 개별 페이지를 만들지 않는다.
     for item in items:
         if item.grade == "A":
@@ -3001,7 +3344,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
 ```bash
 .venv/bin/python -m pytest tests/test_render_site.py -v
 ```
-Expected: PASS (18 passed)
+Expected: PASS (23 passed)
 
 - [ ] **Step 6: 커밋**
 
@@ -3114,6 +3457,13 @@ def test_sitemap_lists_every_region(tmp_path):
         assert f"https://waffletrip.com/{region}/" in text
 
 
+def test_sitemap_lists_the_standing_pages(tmp_path):
+    path = render_sitemap([], str(tmp_path), TODAY)
+    text = Path(path).read_text(encoding="utf-8")
+    for page in ("flight", "data", "about"):
+        assert f"https://waffletrip.com/{page}/" in text
+
+
 def test_sitemap_lists_article_urls(tmp_path):
     path = render_sitemap([make("abcdef1234", "괌 소식")], str(tmp_path), TODAY)
     assert "/guam/abcdef12-" in Path(path).read_text(encoding="utf-8")
@@ -3202,6 +3552,7 @@ def render_rss(items: list[Item], out_dir: str, built_at: str) -> str:
 def render_sitemap(items: list[Item], out_dir: str, today: str) -> str:
     urls = [SITE_URL + "/"]
     urls += [f"{SITE_URL}/{key}/" for key in REGION_NAMES]
+    urls += [f"{SITE_URL}/{page}/" for page in ("flight", "data", "about")]
     urls += [SITE_URL + article_url(i) for i in items if i.grade != "A"]
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
@@ -3232,7 +3583,7 @@ def render_cname(out_dir: str, domain: str = "waffletrip.com") -> str:
 ```bash
 .venv/bin/python -m pytest tests/test_render_feeds.py -v
 ```
-Expected: PASS (12 passed)
+Expected: PASS (13 passed)
 
 - [ ] **Step 5: 커밋**
 
