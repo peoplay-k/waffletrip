@@ -93,6 +93,17 @@ def test_real_jeju_articles_still_tag_after_the_exclusion():
     assert tag_region("에어서울, 제주 노선 탑승률 96.6%") == "jeju"
 
 
+def test_hawaiian_airlines_is_not_a_hawaii_destination():
+    """하와이안항공은 나리타(일본) 노선도 다닌다. 항공사명은 목적지가 아니다."""
+    assert tag_region("하와이안항공, 나리타 노선 신규 취항") is None
+
+
+def test_hawaiian_airlines_article_about_hawaii_still_tags():
+    """진짜 하와이 기사는 지명이 따로 나온다. 제외 규칙이 그것까지 먹으면 안 된다."""
+    assert tag_region("하와이안항공, 인천~호놀룰루 증편") == "hawaii"
+    assert tag_region("하와이안항공, 하와이 노선 확대") == "hawaii"
+
+
 def test_common_non_target_destinations_are_not_mistagged():
     """길이 규칙보다 이쪽이 진짜 방어선이다. 오탐이 곧 오보다."""
     for text in ("오사카 벚꽃 명소", "파리 올림픽 특수", "도쿄 여행 수요",
