@@ -5,6 +5,7 @@
 """
 from __future__ import annotations
 
+import json
 import os
 import re
 
@@ -50,6 +51,8 @@ PRODUCT_LINKS = {
     "laos": "https://laosplay.com",
     "jeju": "",
 }
+
+CONTACT_EMAIL = "peoplay@thepeoplay.com"
 
 TOP_PER_REGION = 3
 
@@ -162,6 +165,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "site_name": SITE_NAME, "site_tagline": SITE_TAGLINE,
         "site_url": SITE_URL, "region_names": REGION_NAMES,
         "today": today, "article_urls": urls,
+        "contact_email": CONTACT_EMAIL,
     }
 
     # 홈 — 국내 여행 전문지 지면 구성을 따른다.
@@ -233,6 +237,28 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         env.get_template("about.html").render(**common),
         written,
     )
+
+    # 국내 여행 전문지 8곳을 전수 조사한 결과, 아래 넷은 8곳 중 7~8곳이
+    # 갖춘 사실상의 규범이었다. 매체로 보이려면 있어야 한다.
+    for slug, template in (("contact", "contact.html"),
+                           ("privacy", "privacy.html"),
+                           ("youth", "youth.html"),
+                           ("search", "search.html")):
+        _write(
+            os.path.join(out_dir, slug, "index.html"),
+            env.get_template(template).render(**common),
+            written,
+        )
+
+    # 검색은 8/8 이 갖추고 있다. 정적 사이트라 서버가 없으므로 색인을 내려
+    # 브라우저에서 찾는다. 색인에는 제목·지역·부문만 넣는다 — 본문을 넣으면
+    # 남의 기사 요약을 통째로 배포하는 셈이 된다.
+    index = [{"t": i.title, "u": urls[i.id], "k": i.region,
+              "r": REGION_NAMES.get(i.region, i.region),
+              "g": i.grade, "d": i.published_at[:10]}
+             for i in items if i.grade != "A"]
+    _write(os.path.join(out_dir, "search.json"),
+           json.dumps(index, ensure_ascii=False, separators=(",", ":")), written)
 
     # 기사 페이지 — A등급은 패널에만 나오므로 개별 페이지를 만들지 않는다.
     for item in items:
