@@ -33,9 +33,17 @@ def web_path(baked_file: str) -> str:
 
 
 def photos_for(manifest: dict, region: str) -> list[str]:
-    entries = manifest.get(region) or []
-    return [web_path(e["file"]) for e in entries
-            if isinstance(e, dict) and e.get("file")]
+    """지역의 사진 목록. **풍경(hero)이 앞에 온다.**
+
+    1면 사진은 그 매체의 인상을 결정한다. 해시로만 고르면 양념치킨
+    클로즈업이 톱기사에 걸린다 — 실제로 그랬다. 풍경으로 표시된 사진을
+    먼저 쓰고, 모자라면 나머지로 채운다.
+    """
+    entries = [e for e in (manifest.get(region) or [])
+               if isinstance(e, dict) and e.get("file")]
+    heroes = [e for e in entries if e.get("hero")]
+    rest = [e for e in entries if not e.get("hero")]
+    return [web_path(e["file"]) for e in heroes + rest]
 
 
 def assign(manifest: dict, region: str, seeds: list[str]) -> dict:
@@ -53,7 +61,11 @@ def assign(manifest: dict, region: str, seeds: list[str]) -> dict:
         return {}
     used: set[str] = set()
     out: dict[str, str] = {}
-    for seed in seeds:
+    # 첫 기사(톱)는 풍경 사진을 받는다. 나머지는 해시로 흩는다.
+    if seeds:
+        out[seeds[0]] = pool[0]
+        used.add(pool[0])
+    for seed in seeds[1:]:
         start = sum(ord(c) for c in seed) % len(pool)
         for step in range(len(pool)):
             candidate = pool[(start + step) % len(pool)]
