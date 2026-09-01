@@ -99,10 +99,20 @@ def test_region_page_shows_data_panel(tmp_path):
 
 
 def test_region_page_links_to_the_product_site(tmp_path):
+    """확인된 링크가 있는 지역(괌)으로 한정한다. 다른 지역은 빈 값이다."""
     from src.render.site import PRODUCT_LINKS
-    render_site([make("1", "괌 소식")], str(tmp_path), TODAY)
+    render_site([make("1", "괌 소식", region="guam")], str(tmp_path), TODAY)
     html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
     assert PRODUCT_LINKS["guam"] in html
+
+
+def test_regions_without_a_product_site_show_no_button(tmp_path):
+    """다른 지역 페이지에 괌 여행사를 붙이면 브랜드가 섞인다."""
+    item = make("1", "제주 소식", region="jeju")
+    render_site([item], str(tmp_path), TODAY)
+    html = (tmp_path / "jeju" / "index.html").read_text(encoding="utf-8")
+    assert "guamplay.com" not in html
+    assert "여행 상품 보러가기" not in html
 
 
 def test_scraped_titles_are_html_escaped(tmp_path):
@@ -193,7 +203,7 @@ def test_nav_links_to_flight_data_and_about(tmp_path):
         assert href in html
 
 
-def test_every_region_key_has_a_korean_name_and_product_link():
+def test_every_region_key_is_present_in_both_maps():
     from src.render.site import PRODUCT_LINKS
     from src.models import REGIONS
     assert set(REGION_NAMES) == set(REGIONS)

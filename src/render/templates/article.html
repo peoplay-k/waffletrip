@@ -14,5 +14,5 @@
 <h2>관련 보도</h2>
 <ul class="src">{% for r in related %}{% set h = r.source_url|safe_url %}<li>{% if h %}<a href="{{ h }}" rel="nofollow noopener" target="_blank">{{ r.source_name }}</a>{% else %}{{ r.source_name }}{% endif %}</li>{% endfor %}</ul>
 {% endif %}
-<a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>
+{% if product_link %}<a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>{% endif %}
 {% endblock %}

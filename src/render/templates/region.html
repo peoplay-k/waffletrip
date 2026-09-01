@@ -19,6 +19,6 @@
 {% else %}
   <p class="meta">오늘 {{ region_name }} 소식은 아직 없습니다.</p>
 {% endif %}
-<a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>
+{% if product_link %}<a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>{% endif %}
 {% endblock %}
-{# 상품 링크가 이 사이트를 만드는 사업적 이유다. 모든 지역 페이지에 넣는다. #}
+{# 상품 링크가 이 사이트를 만드는 사업적 이유다. 확인된 지역에만 넣는다 — 다른 지역 페이지에 엉뚱한 브랜드를 붙이면 브랜드가 섞인다. #}

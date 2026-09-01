@@ -22,14 +22,16 @@ REGION_NAMES = {
     "jeju": "제주",
 }
 
+# 지역별 상품 사이트. 확인된 것만 넣는다 — 다른 지역 페이지에 엉뚱한 브랜드를
+# 붙이면 브랜드가 섞인다. 빈 값이면 상품 버튼을 그리지 않는다.
 PRODUCT_LINKS = {
     "guam": "https://guamplay.com",
-    "saipan": "https://guamplay.com",
-    "hawaii": "https://guamplay.com",
-    "vietnam": "https://guamplay.com",
-    "kota": "https://guamplay.com",
-    "laos": "https://guamplay.com",
-    "jeju": "https://guamplay.com",
+    "saipan": "",
+    "hawaii": "",
+    "vietnam": "",
+    "kota": "",
+    "laos": "",
+    "jeju": "",
 }
 
 TOP_PER_REGION = 3

@@ -13,12 +13,14 @@ from __future__ import annotations
 
 import json
 import os
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 
 from src.models import Item, jaccard, title_tokens
 
 SIMILARITY_THRESHOLD = 0.7
 RECENT_DAYS = 30
+# 러너는 UTC 로 돈다. date.today() 를 쓰면 하루 어긋난 컷오프가 생긴다.
+KST = timezone(timedelta(hours=9))
 
 
 class IndexUnavailable(Exception):
@@ -37,7 +39,7 @@ class PublishedIndex:
         self.ids = ids
         self.recent = recent
         self._token_cache = [
-            (r["id"], title_tokens(r["title"])) for r in recent
+            (r["id"], title_tokens(r["title"]), r.get("region")) for r in recent
         ]
 
     @classmethod
@@ -60,21 +62,36 @@ class PublishedIndex:
                 f"중복 판정이 불가능하므로 발행을 중단한다.") from e
 
     def contains(self, item: Item) -> bool:
+        """이미 낸 것인가.
+
+        A등급(사실 데이터)은 **id 로만** 판정한다. 제목이 매일 같기 때문이다
+        ("오늘의 환율 — 1 USD"). 제목 유사도로 보면 2일차부터 전 지역 환율이
+        중복 판정돼 데이터 패널이 영구히 빈다 — 실제로 그랬다.
+
+        제목 비교는 같은 지역끼리만 한다. 다른 곳 이야기는 같은 사건일 수 없다.
+        (지역이 기록되지 않은 옛 항목은 비교 대상에 그대로 둔다.)
+        """
         if item.id in self.ids:
             return True
+        if item.grade == "A":
+            return False
+
         tokens = title_tokens(item.title)
-        return any(
-            jaccard(tokens, known) >= SIMILARITY_THRESHOLD
-            for _, known in self._token_cache
-        )
+        for _, known, region in self._token_cache:
+            if region is not None and region != item.region:
+                continue
+            if jaccard(tokens, known) >= SIMILARITY_THRESHOLD:
+                return True
+        return False
 
     def add(self, item: Item, day: str) -> None:
         self.ids.add(item.id)
-        self.recent.append({"id": item.id, "title": item.title, "date": day})
-        self._token_cache.append((item.id, title_tokens(item.title)))
+        self.recent.append({"id": item.id, "title": item.title, "date": day,
+                            "region": item.region, "grade": item.grade})
+        self._token_cache.append((item.id, title_tokens(item.title), item.region))
 
     def save(self, path: str) -> None:
-        cutoff = (date.today() - timedelta(days=RECENT_DAYS)).isoformat()
+        cutoff = (datetime.now(KST).date() - timedelta(days=RECENT_DAYS)).isoformat()
         # 같은 날 빌드를 두 번 돌리면 같은 id 가 recent 에 두 번 쌓인다. id 로 접는다.
         by_id = {r["id"]: r for r in self.recent if r.get("date", "") >= cutoff}
         pruned = list(by_id.values())

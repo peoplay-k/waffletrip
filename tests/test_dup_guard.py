@@ -179,3 +179,43 @@ def test_permanently_kept_id_still_blocks_old_story(tmp_path):
     fresh, seen = filter_unpublished(
         [make("old", "아주 오래된 소식 제목")], reloaded)
     assert fresh == []
+
+
+# --- A등급·지역 스코프 ---
+
+def test_grade_a_is_matched_by_id_only(tmp_path):
+    """환율 제목은 매일 같다. 제목으로 보면 2일차부터 전 지역이 사라진다."""
+    index = PublishedIndex(set(), [])
+    yesterday = make("fx-0831", "오늘의 환율 — 1 USD")
+    yesterday.grade, yesterday.region, yesterday.section = "A", "guam", "data"
+    index.add(yesterday, "2026-08-31")
+
+    today = make("fx-0901", "오늘의 환율 — 1 USD")
+    today.grade, today.region, today.section = "A", "guam", "data"
+    assert index.contains(today) is False
+
+
+def test_grade_a_same_id_is_still_blocked():
+    """같은 id 면 A등급이라도 재발행이다."""
+    index = PublishedIndex(set(), [])
+    item = make("fx-1", "오늘의 환율 — 1 USD")
+    item.grade = "A"
+    index.add(item, "2026-08-31")
+    assert index.contains(item) is True
+
+
+def test_title_similarity_is_scoped_to_the_same_region():
+    """다른 곳 이야기는 제목이 같아도 같은 사건이 아니다."""
+    index = PublishedIndex(set(), [])
+    guam = make("g1", "신규 취항 노선 확정 발표")
+    index.add(guam, "2026-08-31")
+    jeju = make("j1", "신규 취항 노선 확정 발표")
+    jeju.region = "jeju"
+    assert index.contains(jeju) is False
+
+
+def test_same_region_duplicate_is_still_caught():
+    """지역 스코프가 진짜 중복까지 놓치면 안 된다."""
+    index = PublishedIndex(set(), [])
+    index.add(make("g1", "괌 신규 취항 노선 확정 발표"), "2026-08-31")
+    assert index.contains(make("g2", "괌 신규 취항 노선 확정")) is True

@@ -1,8 +1,11 @@
 """최근 항목을 모아 정적 사이트를 만든다.
 
 두 가지를 지킨다.
-- 수집이 0건인 날에 기존 사이트를 지우지 않는다. 빈 사이트를 배포하면
-  어제까지 색인된 페이지가 전부 사라진다.
+- 수집이 0건인 날에는 사이트를 만들지 않고 0이 아닌 종료 코드로 멈춘다.
+  (public/ 은 gitignore 라 러너 체크아웃에 없으므로 "기존 사이트가 있으면
+  건너뛴다"는 판정 자체가 CI 에서 불가능하다.) 워크플로가 여기서 멎으면
+  Pages 배포 단계가 실행되지 않아 직전 배포가 그대로 유지된다 — 빈 사이트를
+  올려 어제까지 색인된 페이지를 지우는 사고를 막는다.
 - 발행 이력은 사이트를 실제로 만든 뒤에 갱신한다. 안 나간 것을
   발행됨으로 기록하면 그 기사는 영영 못 나간다.
 """
@@ -83,10 +86,11 @@ def main(data_dir: str = "data", out_dir: str = "public") -> int:
 
     items = load_recent_items(os.path.join(data_dir, "items"), today)
 
-    if not items and site_has_content(out_dir):
-        print("경고: 최근 항목이 0건이다. 기존 사이트를 그대로 둔다.",
+    if not items:
+        print("경고: 최근 항목이 0건이다. 사이트를 만들지 않고 멈춘다 — "
+              "빈 사이트를 배포하면 색인된 페이지가 전부 사라진다.",
               file=sys.stderr)
-        return 0
+        return 1
 
     written = build(items, out_dir, today, built_at)
 

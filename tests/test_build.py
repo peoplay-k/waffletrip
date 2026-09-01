@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from src.build import (load_recent_items, site_has_content, build,
+from src.build import (load_recent_items, site_has_content, build, main,
                        SITE_WINDOW_DAYS)
 from src.models import Item, item_to_dict
 
@@ -105,3 +105,14 @@ def test_build_with_no_items_still_produces_a_site(tmp_path):
     build([], str(tmp_path), TODAY, NOW)
     assert (tmp_path / "index.html").exists()
     assert (tmp_path / "guam" / "index.html").exists()
+
+
+def test_main_refuses_to_build_an_empty_site(tmp_path):
+    """빈 사이트를 배포하면 색인된 페이지가 전부 사라진다.
+
+    CI 에서는 public/ 이 gitignore 라 체크아웃에 없다. 기존 사이트 존재 여부로
+    판단하던 방어선이 러너에서는 항상 거짓이었다.
+    """
+    out = tmp_path / "public"
+    assert main(data_dir=str(tmp_path), out_dir=str(out)) == 1
+    assert not out.exists()

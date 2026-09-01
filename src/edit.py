@@ -14,7 +14,7 @@ import json
 import os
 import re
 import sys
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 
 import yaml
 
@@ -28,6 +28,9 @@ from src.sources import load_sources
 
 DRAFT_NAME = re.compile(r"^(\d{4}-\d{2}-\d{2})_(.+)\.md$")
 DRAFT_MAX_AGE_DAYS = 2  # 48시간
+
+# 러너는 UTC 로 돈다. date.today() 를 쓰면 collect(KST)가 만든 디렉터리를 못 찾는다.
+KST = timezone(timedelta(hours=9))
 
 
 def edit_items(raw_items: list[Item], index: PublishedIndex,
@@ -110,6 +113,14 @@ def purge_stale_drafts(review_dir: str, today: str,
             continue  # 우리가 만든 초안이 아니다
         if m.group(1) < cutoff:
             path = os.path.join(review_dir, name)
+            try:
+                with open(path, encoding="utf-8") as f:
+                    front = yaml.safe_load(f.read().split("---")[1]) or {}
+            except Exception:
+                front = {}
+            # 승인된 초안은 오래돼도 지우지 않는다. 지우는 것은 방치된 초안뿐이다.
+            if front.get("status") == "approved":
+                continue
             os.remove(path)
             removed.append(path)
     return removed
@@ -132,7 +143,7 @@ def load_trending(data_dir: str) -> list[str]:
 
 def main(data_dir: str = "data", review_dir: str = "content/review",
          sources_path: str = "sources.yaml") -> int:
-    today = date.today().isoformat()
+    today = datetime.now(KST).date().isoformat()
     raw_path = os.path.join(data_dir, "raw", today, "items.json")
     if not os.path.exists(raw_path):
         print(f"수집 결과가 없다: {raw_path}. collect 를 먼저 돌려라.",

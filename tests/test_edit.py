@@ -131,6 +131,21 @@ def test_purge_on_missing_directory_is_not_an_error(tmp_path):
     assert purge_stale_drafts(str(tmp_path / "nope"), "2026-08-31") == []
 
 
+def test_purge_keeps_approved_drafts(tmp_path):
+    """승인해둔 초안이 48시간 뒤 사라지면 검수한 일이 헛수고가 된다."""
+    old = tmp_path / "2026-08-25_approved.md"
+    old.write_text("---\nid: x\nstatus: approved\n---\n\n본문", encoding="utf-8")
+    assert purge_stale_drafts(str(tmp_path), "2026-08-31") == []
+    assert old.exists()
+
+
+def test_purge_still_removes_stale_unapproved_drafts(tmp_path):
+    old = tmp_path / "2026-08-25_draft.md"
+    old.write_text("---\nid: x\nstatus: draft\n---\n\n", encoding="utf-8")
+    assert len(purge_stale_drafts(str(tmp_path), "2026-08-31")) == 1
+    assert not old.exists()
+
+
 # --- 급상승 키워드 이음매 ---
 
 def test_trending_file_missing_yields_empty_list(tmp_path):
@@ -180,3 +195,22 @@ def test_grade_a_data_always_passes():
     item = make("1", "오늘의 환율 — 1 USD", section="data")
     result = edit_items([item], empty_index(), [], set())
     assert len(result["publish"]) == 1
+
+
+# --- 타임존 ---
+
+def test_main_uses_kst_not_runner_timezone(tmp_path, monkeypatch):
+    """러너는 UTC 로 돈다. UTC 날짜를 쓰면 collect 가 만든 디렉터리를 못 찾는다.
+
+    실측: cron 20:00 UTC 는 05:00 KST(익일)이라 두 날짜가 항상 하루 어긋났고,
+    예약 실행이 100% 편집 단계에서 죽었다.
+    """
+    import src.edit as edit_mod
+    from datetime import datetime, timezone, timedelta
+    kst_today = datetime.now(edit_mod.KST).date().isoformat()
+    utc_today = datetime.now(timezone.utc).date().isoformat()
+    raw = tmp_path / "raw" / kst_today
+    raw.mkdir(parents=True)
+    (raw / "items.json").write_text("[]", encoding="utf-8")
+    assert edit_mod.main(str(tmp_path), str(tmp_path / "review")) == 0, (
+        f"KST={kst_today} UTC={utc_today} — KST 디렉터리를 찾아야 한다")
