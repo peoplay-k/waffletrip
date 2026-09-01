@@ -13,7 +13,18 @@
     --bar:#241C14;        /* 네비바. 국내 여행 전문지의 짙은 상단 띠를 따른다 */
     --bar-ink:#F3EEE4;
     --rule:#D8CCB8;
+    --shade:#F7F3EB;
     --w:1180px;
+  }
+  /* 조사한 국내 여행 전문지 8곳 중 다크모드를 지원하는 곳은 0곳이었다.
+     밤에 읽는 사람이 있고, 비용이 토큰 몇 줄이라 우리는 한다.
+     색은 뒤집지 않고 다시 고른다 — 크림을 그냥 반전하면 탁해진다. */
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#17130E; --card:#1F1A14; --ink:#EDE6DA; --muted:#A79379;
+      --gold:#E0A64B; --line:#332B21;
+      --bar:#0F0C09; --bar-ink:#EDE6DA; --rule:#4A3F31; --shade:#241E17;
+    }
   }
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%}
@@ -127,14 +138,24 @@
   .body li{margin-bottom:.35rem}
   .body blockquote{margin:1.2rem 0;padding:.7rem 1rem;border-left:3px solid var(--rule);color:var(--muted)}
   .body hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
-  .body code{background:#F2EFE9;padding:1px 5px;border-radius:2px;font-size:.9em}
+  .body code{background:var(--shade);padding:1px 5px;border-radius:2px;font-size:.9em}
   /* 실측값 표. 좁은 화면에서 본문이 아니라 표만 스크롤되게 감싼다. */
   .tw{overflow-x:auto;margin:1.2rem 0;border:1px solid var(--line)}
   .tw table{border-collapse:collapse;width:100%;font-size:.95rem}
   .tw th,.tw td{padding:.5rem .8rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
-  .tw th{background:#F7F3EB;font-weight:700;white-space:nowrap}
+  .tw th{background:var(--shade);font-weight:700;white-space:nowrap}
   .tw td{font-variant-numeric:tabular-nums}
   .tw tr:last-child td{border-bottom:none}
+
+  /* 검색 */
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .searchbox{margin:18px 0 10px}
+  .searchbox input{width:100%;max-width:520px;padding:12px 14px;font:inherit;
+    font-size:16px;border:1px solid var(--rule);background:var(--card);color:var(--ink)}
+  .lead-note{color:var(--muted);max-width:60ch}
+  .hitlist{display:flex;flex-direction:column}
+  .hit{border-top:1px solid var(--line);padding:13px 0}
+  .hit h3{font-size:16px;margin:4px 0 5px;font-weight:600;line-height:1.45}
 
   /* 매체정보 */
   .foot{border-top:3px solid var(--ink);background:var(--card);margin-top:40px;
@@ -169,6 +190,7 @@
   <a class="minor" href="/flight/">항공</a>
   <a class="minor" href="/data/">데이터</a>
   <a class="minor" href="/about/">소개</a>
+  <a class="minor" href="/search/">검색</a>
   <a class="minor" href="/rss.xml">RSS</a>
 </div></nav>
 
@@ -176,8 +198,10 @@
 
 <footer class="foot" id="foot"><div class="wrap">
   <div class="links">
-    <a href="/about/">매체소개</a><a href="/data/">데이터</a>
-    <a href="/rss.xml">RSS</a><a href="/sitemap.xml">사이트맵</a>
+    <a href="/about/">매체소개</a><a href="/contact/">기사제보·광고문의</a>
+    <a href="/privacy/">개인정보처리방침</a><a href="/youth/">청소년보호정책</a>
+    <a href="/search/">검색</a><a href="/rss.xml">RSS</a>
+    <a href="/sitemap.xml">사이트맵</a>
   </div>
   <p class="name">{{ site_name }}</p>
   <p>{{ site_tagline }}</p>
