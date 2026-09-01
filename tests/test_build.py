@@ -89,10 +89,20 @@ def test_site_has_content_is_true_when_index_exists(tmp_path):
     assert site_has_content(str(tmp_path)) is True
 
 
-def test_build_writes_index_rss_sitemap_robots_cname(tmp_path):
+def test_build_writes_index_rss_sitemap_robots(tmp_path):
     build([make("1", "괌 소식")], str(tmp_path), TODAY, NOW)
-    for name in ("index.html", "rss.xml", "sitemap.xml", "robots.txt", "CNAME"):
+    for name in ("index.html", "rss.xml", "sitemap.xml", "robots.txt"):
         assert (tmp_path / name).exists(), name
+
+
+def test_build_does_not_write_cname_yet(tmp_path):
+    """CNAME 이 있으면 Pages 가 waffletrip.com 으로 301 을 보낸다.
+
+    그 도메인에 A레코드가 없어서 사이트가 통째로 안 열렸다. DNS 가 붙기
+    전까지는 CNAME 을 만들지 않는다 — github.io 주소로 볼 수 있어야 한다.
+    """
+    build([make("1", "괌 소식")], str(tmp_path), TODAY, NOW)
+    assert not (tmp_path / "CNAME").exists()
 
 
 def test_build_returns_the_paths_it_wrote(tmp_path):
