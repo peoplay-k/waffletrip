@@ -9,11 +9,13 @@
 """
 from __future__ import annotations
 
+import re
+
 TRAVEL_KEYWORDS: tuple[str, ...] = (
     # 이동·항공
     "항공", "취항", "노선", "증편", "감편", "직항", "공항", "비행", "결항",
     "수하물", "항공권",
-    "flight", "airline", "airport", "airfare", "nonstop", "aviation",
+    "flight", "airline", "airport", "airfare", "nonstop", "aviation", "route",
     # 숙박
     "호텔", "리조트", "숙소", "숙박", "펜션", "게스트하우스", "객실",
     "hotel", "resort", "accommodation", "lodging", "hostel",
@@ -35,10 +37,36 @@ TRAVEL_KEYWORDS: tuple[str, ...] = (
 # 일부러 넣지 않은 것: "park"(주차된 차 사고·공원 민원이 통과했다),
 # "trip"(외교 순방 "a 10-day trip" 이 통과했다), "fair"(공정성 기사).
 
+# 여행 단어를 품고 있지만 여행 기사가 아닌 표현. 세기 전에 지운다.
+# 실측 오탐: "여권통문"(1898년 여성인권선언)이 여권으로, "제2공항"·"한국공항공사"가
+# 공항으로 잡혀 정치·행정 기사가 통과했다.
+TRAVEL_EXCLUSIONS: tuple[str, ...] = ("여권통문", "제2공항", "한국공항공사", "공항공사")
+
+# 영문 키워드에 붙여 허용할 어미. travel/travels/travelled/travelling 은 잡고
+# 부분일치 오탐은 막는다. 항공 키워드에서 쓴 것과 같은 방식이다.
+_INFLECTION = r"(?:e?[sd]|ing)?"
+
 
 def is_travel_related(text: str) -> bool:
-    """여행자에게 쓸모 있는 기사인가. 빈 문자열·None 은 아니다."""
+    """여행자에게 쓸모 있는 기사인가. 빈 문자열·None 은 아니다.
+
+    영문 키워드는 단어 경계로 맞춘다 — 부분일치를 허용하면 "travel" 이
+    "travelling" 을 넘어 엉뚱한 곳까지 걸린다. 한글은 조사가 붙어 오므로
+    부분일치를 유지하되, 실측으로 확인된 오탐 표현만 미리 지운다.
+    """
     if not text:
         return False
+
     lowered = text.lower()
-    return any(keyword in lowered for keyword in TRAVEL_KEYWORDS)
+    for phrase in TRAVEL_EXCLUSIONS:
+        lowered = lowered.replace(phrase.lower(), " ")
+
+    for keyword in TRAVEL_KEYWORDS:
+        lowered_keyword = keyword.lower()
+        if lowered_keyword.isascii():
+            pattern = r"\b" + re.escape(lowered_keyword) + _INFLECTION + r"\b"
+            if re.search(pattern, lowered):
+                return True
+        elif lowered_keyword in lowered:
+            return True
+    return False

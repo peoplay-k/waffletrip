@@ -12,6 +12,30 @@ def test_travel_articles_pass():
         assert is_travel_related(text), text
 
 
+def test_words_containing_travel_terms_are_not_travel():
+    """여행 단어를 품었다고 여행 기사는 아니다.
+
+    실측 오탐: "여권통문"(1898년 여성인권선언)이 여권으로, "제2공항"이 공항으로
+    잡혀 정치·행정 기사가 여행 신문에 실렸다.
+    """
+    assert not is_travel_related("제주 양성평등주간 여권통문의 날 기념")
+    assert not is_travel_related("제2공항 건설 '도민 결정권'...출발부터 '삐걱'")
+    assert not is_travel_related("[사설] 한국공항공사 제주로 이전해야")
+
+
+def test_real_airport_and_passport_articles_still_pass():
+    """제외 규칙이 진짜 기사까지 먹으면 안 된다."""
+    assert is_travel_related("인천공항 3터미널 개장 일정 확정")
+    assert is_travel_related("여권 발급 수수료 인하")
+
+
+def test_english_keywords_use_word_boundaries():
+    """부분일치를 허용하면 "travel" 이 엉뚱한 단어에 걸린다."""
+    assert is_travel_related("Korean Air launched a new route to Guam")
+    assert is_travel_related("The couple travelled across Vietnam")
+    assert not is_travel_related("Local council approves new budget")
+
+
 def test_known_misses_are_documented():
     """알면서 놓치는 것들. 이 필터는 완벽하지 않다.
 

@@ -1,7 +1,7 @@
 """수집 원본을 발행 가능한 항목으로 만든다.
 
 순서가 중요하다.
-  등급 → 저작권 가드 → 배치 클러스터 → 발행이력 대조 → C후보 선정
+  등급 → **여행 관련성 필터** → 저작권 가드 → 배치 클러스터 → 발행이력 대조 → C후보
 저작권 가드를 클러스터보다 먼저 두는 이유: 위반 항목이 대표가 되면
 클러스터 전체가 사라진다.
 
@@ -35,13 +35,13 @@ def edit_items(raw_items: list[Item], index: PublishedIndex,
     apply_grades(raw_items)
 
     # 여행 전용 소스는 그대로 통과시킨다. 거기에 필터를 걸면 멀쩡한 기사를 잃는다.
-    relevant = [
-        item for item in raw_items
-        if item.grade == "A"
-        or item.source_name in curated_sources
-        or is_travel_related(f"{item.title} {item.summary}")
-    ]
-    off_topic = [i for i in raw_items if i not in relevant]
+    relevant: list[Item] = []
+    off_topic: list[Item] = []
+    for item in raw_items:
+        keep = (item.grade == "A"
+                or item.source_name in curated_sources
+                or is_travel_related(f"{item.title} {item.summary}"))
+        (relevant if keep else off_topic).append(item)
 
     kept, dropped = filter_items(relevant)
     clustered = cluster_batch(kept)
