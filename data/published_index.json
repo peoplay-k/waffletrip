@@ -45,6 +45,7 @@
     "1d535e01fc89cef01cc78c32d29fc3929d020e4a",
     "1f710d8e2fe2bce768a02c2aa5ff196a552acb72",
     "1fe8e9fdb3166080b74576c67979278fe192d7dc",
+    "203e4889a6cc78f6e8bdbf323da0d67e7139f74a",
     "217c838f5eee58dbf21fd37e7fb3b992a1c39146",
     "2426b087007436aa008447bdbbce1d3037870cfc",
     "246799c85138d8418f1a59e1e88600a81b8904e6",
@@ -2047,6 +2048,13 @@
       "date": "2026-09-02",
       "region": "saipan",
       "grade": "C"
+    },
+    {
+      "id": "203e4889a6cc78f6e8bdbf323da0d67e7139f74a",
+      "title": "Victoria Bridge access partly closed after child's fatal fall",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
     }
   ]
 }
