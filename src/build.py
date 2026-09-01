@@ -76,7 +76,11 @@ def build(items: list[Item], out_dir: str, today: str,
     written.append(render_rss(items, out_dir, built_at))
     written.append(render_sitemap(items, out_dir, today))
     written.append(render_robots(out_dir))
-    written.append(render_cname(out_dir))
+    # 커스텀 도메인은 DNS 가 붙은 뒤에 건다. CNAME 파일이 있으면 Pages 가
+    # 그쪽으로 301 을 보내는데, DNS 가 없으면 사이트가 통째로 안 열린다.
+    # 실제로 그 상태로 며칠 있었다. waffletrip.com 의 A레코드가 GitHub 을
+    # 가리키면 아래 주석을 풀고 Pages 설정에서도 도메인을 다시 지정한다.
+    # written.append(render_cname(out_dir))
     return written
 
 
