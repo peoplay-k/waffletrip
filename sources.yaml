@@ -133,6 +133,7 @@ sources:
     url: https://beatofhawaii.com/feed/
     lang: en
     enabled: true
+    curated: true
 
   # 원래 후보 URL(hawaiitourismauthority.org)은 hta.hawaii.gov 로 301 리다이렉트된다.
   # 실제 살아있는 URL(.gov 정식 도메인)을 등록했다.
@@ -145,6 +146,9 @@ sources:
     lang: en
     enabled: true
 
+  # hawaii_staradvertiser (Honolulu Star-Advertiser): 하와이 종합지인데 여행 기사가
+  # 17%뿐이다. 하와이는 Beat of Hawaii(92%, curated)·Hawaii News Now·Hawaii Tourism
+  # Authority 로 이미 덮인다 (Task 14, 여행 관련성 필터).
   - id: hawaii_staradvertiser
     region: hawaii
     section: news
@@ -152,7 +156,7 @@ sources:
     type: rss
     url: https://www.staradvertiser.com/feed/
     lang: en
-    enabled: true
+    enabled: false
 
   # ============ vietnam ============
 
@@ -164,6 +168,7 @@ sources:
     url: https://e.vnexpress.net/rss/travel.rss
     lang: en
     enabled: true
+    curated: true
 
   # vietnam_vietnamnews (Vietnam News): /rss/travel.rss 존재는 확인했으나(카테고리별
   # RSS 색인 페이지에서 발견) 서버가 Content-Type 인코딩을 잘못 선언해(UTF-16 선언,
@@ -300,6 +305,7 @@ sources:
     url: https://www.traveltimes.co.kr/rss/allArticle.xml
     lang: ko
     enabled: true
+    curated: true
 
   - id: kr_traveldaily
     region: auto
@@ -309,6 +315,7 @@ sources:
     url: https://www.traveldaily.co.kr/rss/allArticle.xml
     lang: ko
     enabled: true
+    curated: true
 
   - id: kr_tournews21
     region: auto
@@ -318,6 +325,7 @@ sources:
     url: https://www.tournews21.com/rss/allArticle.xml
     lang: ko
     enabled: true
+    curated: true
 
   - id: kr_travelnbike
     region: auto
@@ -327,6 +335,7 @@ sources:
     url: https://www.travelnbike.com/rss/allArticle.xml
     lang: ko
     enabled: true
+    curated: true
 
   - id: kr_ttlnews
     region: auto
@@ -336,6 +345,7 @@ sources:
     url: https://www.ttlnews.com/rss/allArticle.xml
     lang: ko
     enabled: true
+    curated: true
 
   - id: kr_ktsketch
     region: auto
@@ -345,6 +355,7 @@ sources:
     url: https://www.ktsketch.co.kr/rss/allArticle.xml
     lang: ko
     enabled: true
+    curated: true
 
   - id: kr_travie
     region: auto
@@ -354,6 +365,7 @@ sources:
     url: https://www.travie.com/rss/allArticle.xml
     lang: ko
     enabled: true
+    curated: true
 
   - id: kr_tourtoctoc
     region: auto
@@ -363,3 +375,4 @@ sources:
     url: https://www.tourtoctoc.com/rss/allArticle.xml
     lang: ko
     enabled: true
+    curated: true

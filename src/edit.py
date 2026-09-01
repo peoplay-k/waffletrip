@@ -23,20 +23,33 @@ from src.guards.copyright_guard import filter_items
 from src.guards.dup_guard import (PublishedIndex, cluster_batch,
                                   filter_unpublished)
 from src.models import Item, item_from_dict, item_to_dict
+from src.relevance import is_travel_related
+from src.sources import load_sources
 
 DRAFT_NAME = re.compile(r"^(\d{4}-\d{2}-\d{2})_(.+)\.md$")
 DRAFT_MAX_AGE_DAYS = 2  # 48시간
 
 
 def edit_items(raw_items: list[Item], index: PublishedIndex,
-               trending: list[str]) -> dict:
+               trending: list[str], curated_sources: set[str]) -> dict:
     apply_grades(raw_items)
-    kept, dropped = filter_items(raw_items)
+
+    # 여행 전용 소스는 그대로 통과시킨다. 거기에 필터를 걸면 멀쩡한 기사를 잃는다.
+    relevant = [
+        item for item in raw_items
+        if item.grade == "A"
+        or item.source_name in curated_sources
+        or is_travel_related(f"{item.title} {item.summary}")
+    ]
+    off_topic = [i for i in raw_items if i not in relevant]
+
+    kept, dropped = filter_items(relevant)
     clustered = cluster_batch(kept)
     fresh, duplicates = filter_unpublished(clustered, index)
     candidates = pick_c_candidates(fresh, trending)
     return {"publish": fresh, "c_candidates": candidates,
-            "dropped": dropped, "duplicates": duplicates}
+            "dropped": dropped, "duplicates": duplicates,
+            "off_topic": off_topic}
 
 
 def write_drafts(review_dir: str, candidates: list[tuple[Item, str]],
@@ -117,7 +130,8 @@ def load_trending(data_dir: str) -> list[str]:
         return []
 
 
-def main(data_dir: str = "data", review_dir: str = "content/review") -> int:
+def main(data_dir: str = "data", review_dir: str = "content/review",
+         sources_path: str = "sources.yaml") -> int:
     today = date.today().isoformat()
     raw_path = os.path.join(data_dir, "raw", today, "items.json")
     if not os.path.exists(raw_path):
@@ -129,7 +143,8 @@ def main(data_dir: str = "data", review_dir: str = "content/review") -> int:
         raw_items = [item_from_dict(d) for d in json.load(f)]
 
     index = PublishedIndex.load(os.path.join(data_dir, "published_index.json"))
-    result = edit_items(raw_items, index, load_trending(data_dir))
+    curated_sources = {s.name for s in load_sources(sources_path) if s.curated}
+    result = edit_items(raw_items, index, load_trending(data_dir), curated_sources)
 
     out_dir = os.path.join(data_dir, "items")
     os.makedirs(out_dir, exist_ok=True)
@@ -143,7 +158,8 @@ def main(data_dir: str = "data", review_dir: str = "content/review") -> int:
 
     print(f"편집 완료: 발행대상 {len(result['publish'])}건, "
           f"검수초안 {len(drafts)}건, 폐기 {len(result['dropped'])}건, "
-          f"중복 {len(result['duplicates'])}건, 만료초안 삭제 {len(purged)}건")
+          f"중복 {len(result['duplicates'])}건, 주제밖 {len(result['off_topic'])}건, "
+          f"만료초안 삭제 {len(purged)}건")
     for item, reasons in result["dropped"]:
         print(f"  폐기 [{item.source_name}] {item.title[:40]} — "
               f"{'; '.join(reasons)}", file=sys.stderr)

@@ -27,6 +27,7 @@ class Source:
     url: str
     lang: str
     enabled: bool
+    curated: bool = False
 
 
 def load_sources(path: str) -> list[Source]:
@@ -64,6 +65,7 @@ def load_sources(path: str) -> list[Source]:
         result.append(Source(
             id=sid, region=e["region"], section=e["section"], name=e["name"],
             type=e["type"], url=e["url"], lang=e["lang"], enabled=True,
+            curated=bool(e.get("curated", False)),
         ))
 
     return result

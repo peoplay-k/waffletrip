@@ -132,3 +132,35 @@ def test_real_sources_yaml_is_valid():
     """실제 sources.yaml 이 항상 로드 가능해야 한다."""
     sources = load_sources("sources.yaml")
     assert len(sources) > 0
+
+
+def test_curated_defaults_to_false(tmp_path):
+    """기존 소스를 전부 고치지 않아도 되게 선택 필드로 둔다."""
+    path = write(tmp_path, """
+sources:
+  - id: plain
+    region: guam
+    section: news
+    name: Plain
+    type: rss
+    url: https://example.com/rss
+    lang: en
+    enabled: true
+""")
+    assert load_sources(path)[0].curated is False
+
+
+def test_curated_can_be_set(tmp_path):
+    path = write(tmp_path, """
+sources:
+  - id: travelmag
+    region: auto
+    section: news
+    name: 여행신문
+    type: rss
+    url: https://example.com/rss
+    lang: ko
+    enabled: true
+    curated: true
+""")
+    assert load_sources(path)[0].curated is True

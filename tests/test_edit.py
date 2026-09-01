@@ -21,27 +21,27 @@ def empty_index():
 
 
 def test_clean_items_reach_publish():
-    result = edit_items([make("1", "괌 소식 하나")], empty_index(), [])
+    result = edit_items([make("1", "괌 여행 소식 하나")], empty_index(), [], set())
     assert [i.id for i in result["publish"]] == ["1"]
 
 
 def test_copyright_violation_is_dropped_not_published():
-    bad = make("1", "괌 소식", summary="가" * 300)
-    result = edit_items([bad], empty_index(), [])
+    bad = make("1", "괌 여행 소식", summary="가" * 300)
+    result = edit_items([bad], empty_index(), [], set())
     assert result["publish"] == []
     assert len(result["dropped"]) == 1
 
 
 def test_data_section_gets_grade_a():
     item = make("1", "오늘의 환율 — 1 USD", section="data")
-    result = edit_items([item], empty_index(), [])
+    result = edit_items([item], empty_index(), [], set())
     assert result["publish"][0].grade == "A"
 
 
 def test_same_story_from_two_outlets_collapses():
     items = [make("1", "괌 신규 취항 노선 확정"),
              make("2", "괌 신규 취항 노선 확정")]
-    result = edit_items(items, empty_index(), [])
+    result = edit_items(items, empty_index(), [], set())
     assert len(result["publish"]) == 1
     assert result["publish"][0].related == ["2"]
 
@@ -49,7 +49,7 @@ def test_same_story_from_two_outlets_collapses():
 def test_previously_published_item_is_filtered():
     index = empty_index()
     index.add(make("1", "괌 신규 취항 노선 확정"), "2026-08-30")
-    result = edit_items([make("1", "괌 신규 취항 노선 확정")], index, [])
+    result = edit_items([make("1", "괌 신규 취항 노선 확정")], index, [], set())
     assert result["publish"] == []
     assert len(result["duplicates"]) == 1
 
@@ -57,14 +57,14 @@ def test_previously_published_item_is_filtered():
 def test_c_candidates_are_selected():
     items = [make("1", "괌 호텔 요금 인상", related=[])]
     items[0].related = ["2", "3"]
-    result = edit_items(items, empty_index(), [])
+    result = edit_items(items, empty_index(), [], set())
     assert len(result["c_candidates"]) == 1
 
 
 def test_empty_input_produces_empty_result():
-    result = edit_items([], empty_index(), [])
+    result = edit_items([], empty_index(), [], set())
     assert result == {"publish": [], "c_candidates": [], "dropped": [],
-                      "duplicates": []}
+                      "duplicates": [], "off_topic": []}
 
 
 def test_write_drafts_creates_one_markdown_per_candidate(tmp_path):
@@ -151,7 +151,32 @@ def test_corrupt_trending_file_does_not_break_the_build(tmp_path):
 
 
 def test_trending_keyword_produces_a_candidate_end_to_end():
-    item = make("1", "사이판 마나가하 입장료 인상")
-    result = edit_items([item], empty_index(), ["마나가하"])
+    item = make("1", "사이판 마나가하 관광 입장료 인상")
+    result = edit_items([item], empty_index(), ["마나가하"], set())
     assert len(result["c_candidates"]) == 1
     assert "마나가하" in result["c_candidates"][0][1]
+
+
+# --- 여행 관련성 필터 ---
+
+def test_off_topic_articles_are_dropped():
+    """여행 신문 1면에 살인 사건이 실리던 것을 막는다."""
+    item = make("1", "Teen shot and killed by her ex-boyfriend, police say")
+    result = edit_items([item], empty_index(), [], set())
+    assert result["publish"] == []
+    assert len(result["off_topic"]) == 1
+
+
+def test_curated_sources_skip_the_relevance_filter():
+    """여행 전용 매체는 그대로 통과시킨다. 필터를 걸면 멀쩡한 기사를 잃는다."""
+    item = make("1", "노랑풍선 신상품 3종 출시")
+    item.source_name = "여행신문"
+    result = edit_items([item], empty_index(), [], {"여행신문"})
+    assert len(result["publish"]) == 1
+
+
+def test_grade_a_data_always_passes():
+    """환율은 여행 키워드가 없어도 실려야 한다."""
+    item = make("1", "오늘의 환율 — 1 USD", section="data")
+    result = edit_items([item], empty_index(), [], set())
+    assert len(result["publish"]) == 1
