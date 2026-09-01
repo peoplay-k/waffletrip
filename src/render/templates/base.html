@@ -6,6 +6,8 @@
 <title>{% block title %}{{ site_name }}{% endblock %}</title>
 <meta name="description" content="{% block description %}{{ site_tagline }} — 괌·사이판·하와이·베트남·코타키나발루·라오스·제주{% endblock %}">
 <link rel="alternate" type="application/rss+xml" title="{{ site_name }}" href="/rss.xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
   :root{
     --bg:#FFFFFF; --card:#FFFFFF; --shade:#F7F8F9; --line:#E5E8EB; --rule:#CFD4DA;
@@ -26,8 +28,8 @@
   html{-webkit-text-size-adjust:100%}
   body{
     margin:0;background:var(--bg);color:var(--ink);
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",
-      "Pretendard","Malgun Gothic",sans-serif;
+    font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,
+      "Apple SD Gothic Neo","Malgun Gothic",sans-serif;
     font-size:16px;line-height:1.65;letter-spacing:-.01em;
     -webkit-font-smoothing:antialiased;
   }
@@ -43,7 +45,9 @@
 
   /* 제호 */
   .mast .wrap{position:relative;padding:20px 24px 16px;text-align:center}
-  .brand{font-size:38px;font-weight:800;letter-spacing:-.045em;line-height:1}
+  .brand{font-size:40px;font-weight:800;letter-spacing:-.055em;line-height:1;
+    display:inline-block}
+  .brand em{font-style:normal;color:var(--accent)}
   .brand:hover{text-decoration:none}
   .tagline{font-size:13px;color:var(--dim);margin-top:7px}
   .edited{position:absolute;right:24px;top:30px;font-size:12px;color:var(--dim);
