@@ -268,6 +268,7 @@
     "d532952dc48a9fd79e00749e999a062a1f4c3f7d",
     "d619fbfb156675ff24910947d6c87ff6ddf8fc42",
     "d6746f5928347707af727033b01bd47a865d9f41",
+    "d6ed70f4386d8db1f900e20b55908dca2585defa",
     "d7c328c2c9066fbd68a55147e5086b7fda012aa0",
     "d841eba0d12e0b9a5903b9727bf41ce1af59f67e",
     "d913d65272bb2b76bfa5b9040803b7818f821370",
@@ -2068,6 +2069,13 @@
     {
       "id": "be58d8da4f0a9d192053404d7cb46a765cc5fb40",
       "title": "Sheriff: Tracking device wasn’t with girl found dead near popular beach",
+      "date": "2026-09-02",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "d6ed70f4386d8db1f900e20b55908dca2585defa",
+      "title": "Is Hawaii too expensive? Spotlight Now looks at tourism trends, cooling Waikiki economy",
       "date": "2026-09-02",
       "region": "hawaii",
       "grade": "B"
