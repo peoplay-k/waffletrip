@@ -1859,7 +1859,7 @@ if __name__ == "__main__":
 ```bash
 .venv/bin/python -m pytest tests/test_collect.py -v
 ```
-Expected: PASS (5 passed)
+Expected: PASS (6 passed)
 
 - [ ] **Step 5: 실제 소스로 한 번 돌려본다**
 
@@ -4197,6 +4197,29 @@ def test_ignores_items_outside_the_window(tmp_path):
     assert load_recent_items(str(tmp_path), TODAY) == []
 
 
+def test_same_article_in_two_days_appears_once(tmp_path):
+    """14일 윈도우라 같은 기사가 여러 날 파일에 있을 수 있다.
+
+    실측에서 이걸 안 걸러 지역 페이지마다 모든 기사가 두 번씩 실렸다
+    (괌 페이지 20줄 = 고유 10건 x 2).
+    """
+    write_day(tmp_path, "2026-08-30", [make("same", "같은 기사",
+                                            published="2026-08-30T05:00:00+09:00")])
+    write_day(tmp_path, TODAY, [make("same", "같은 기사",
+                                     published="2026-08-31T05:00:00+09:00")])
+    items = load_recent_items(str(tmp_path), TODAY)
+    assert len(items) == 1
+
+
+def test_deduplication_keeps_the_newest_copy(tmp_path):
+    """제목이 수정됐으면 최신 판본이 남아야 한다."""
+    write_day(tmp_path, "2026-08-30", [make("same", "예전 제목",
+                                            published="2026-08-30T05:00:00+09:00")])
+    write_day(tmp_path, TODAY, [make("same", "고친 제목",
+                                     published="2026-08-31T09:00:00+09:00")])
+    assert load_recent_items(str(tmp_path), TODAY)[0].title == "고친 제목"
+
+
 def test_sorts_newest_first(tmp_path):
     write_day(tmp_path, TODAY, [
         make("old", "예전", published="2026-08-28T05:00:00+09:00"),
@@ -4302,7 +4325,18 @@ def load_recent_items(items_dir: str, today: str,
                     items.append(item_from_dict(json.loads(line)))
 
     items.sort(key=lambda i: i.published_at, reverse=True)
-    return items
+
+    # 같은 기사가 여러 날 파일에 들어있을 수 있다 — 발행 이력이 초기화됐거나
+    # 하루에 편집을 두 번 돌린 경우다. 목록에 같은 기사가 두 번 실리면 안 된다.
+    # 정렬을 먼저 했으므로 남는 것은 가장 최근 판본이다.
+    seen: set[str] = set()
+    unique: list[Item] = []
+    for item in items:
+        if item.id in seen:
+            continue
+        seen.add(item.id)
+        unique.append(item)
+    return unique
 
 
 def site_has_content(out_dir: str) -> bool:
@@ -4354,7 +4388,7 @@ if __name__ == "__main__":
 ```bash
 .venv/bin/python -m pytest tests/test_build.py -v
 ```
-Expected: PASS (11 passed)
+Expected: PASS (13 passed)
 
 - [ ] **Step 5: 전체 파이프라인을 한 번에 돌려 눈으로 확인**
 
@@ -4577,6 +4611,359 @@ cd ~/여행신문 && ~/bin/gh run list --limit 5
 1. `https://waffletrip.com` 이 열리고 오늘 날짜가 찍혀 있다.
 2. 7개 지역 페이지가 전부 열리고 링크가 깨지지 않는다.
 3. 다음 날 다시 열었을 때 **어제와 다른 기사**가 보인다. (같으면 수집이 멈춘 것이다.)
+
+---
+
+---
+
+## Task 14: 여행 관련성 필터
+
+완성된 사이트를 열어보니 **여행 신문 1면에 살인과 화재 기사가 실렸다.** 실측: 발행 247건 중
+여행 관련이 19%뿐이었다. 원인은 현지 종합지가 그 지역 **주민**을 위한 신문이지 여행자를
+위한 신문이 아니라는 것이다. 괌 신문에 괌 선거 기사가 나오는 건 당연하다.
+
+| 소스 유형 | 여행 기사 비율 |
+|---|---|
+| 국내 여행 전문매체 8곳 | 100% |
+| Beat of Hawaii | 92% |
+| VnExpress Travel | 81% |
+| Hawaii Tourism Authority | 30% |
+| Hawaii News Now | 29% |
+| 제주일보·제주의소리 | 13~16% |
+| Pacific Island Times · Saipan Tribune | 20% |
+| Honolulu Star-Advertiser | 17% |
+| New Straits Times | 3% |
+
+**Files:**
+- Create: `src/relevance.py`
+- Create: `tests/test_relevance.py`
+- Modify: `src/sources.py` — `Source` 에 `curated` 필드 추가
+- Modify: `sources.yaml` — 여행 전용 소스에 `curated: true`, Honolulu Star-Advertiser 를 `enabled: false`
+- Modify: `src/edit.py` — 비큐레이티드 소스 항목에 관련성 필터 적용
+- Modify: `tests/test_sources.py`, `tests/test_edit.py`
+
+**Interfaces:**
+- Consumes: `src.models.Item`, `src.sources.load_sources`
+- Produces:
+  - `src.relevance.TRAVEL_KEYWORDS: tuple[str, ...]`
+  - `src.relevance.is_travel_related(text: str) -> bool`
+  - `src.sources.Source.curated: bool` (기본 `False`)
+  - `src.edit.edit_items(raw_items, index, trending, curated_sources: set[str]) -> dict` — 시그니처에 인자 하나 추가
+
+**필터를 어디에 거는가가 핵심이다.** 여행 전용 소스(국내 여행매체·VnExpress Travel·Beat of Hawaii)에
+걸면 멀쩡한 기사를 잃는다 — VnExpress Travel 은 81%가 통과하지만 나머지 19%도 진짜 여행 기사다.
+그래서 `curated: true` 인 소스는 필터를 건너뛴다.
+
+- [ ] **Step 1: 실패하는 테스트 작성**
+
+`tests/test_relevance.py`:
+```python
+from src.relevance import is_travel_related, TRAVEL_KEYWORDS
+
+
+def test_travel_articles_pass():
+    for text in (
+        "진에어 괌 노선 신규 취항",
+        "다낭 신규 리조트 오픈",
+        "괌 투몬 해변 스노클링 명소 정리",
+        "First Alert Forecast: Tropical Storm Lowell strengthening",
+        "제주 해수욕장 순찰·계도요원 배치",
+    ):
+        assert is_travel_related(text), text
+
+
+def test_known_misses_are_documented():
+    """알면서 놓치는 것들. 이 필터는 완벽하지 않다.
+
+    "Guam Micronesia Island Fair" 는 관광객이 갈 만한 행사인데 여행 단어가 없다.
+    "fair" 를 키워드로 넣으면 공정성·박람회 기사가 함께 통과해서 넣지 않았다.
+    1차 방어선은 소스 선정이고 이 필터는 그 뒤를 받는 그물이라, 이런 건 놓친다.
+    놓치는 쪽으로 틀리는 것이 살인 기사를 싣는 것보다 낫다.
+    """
+    assert not is_travel_related(
+        "Guam Micronesia Island Fair to celebrate Pacific cultures")
+
+
+def test_local_politics_and_crime_are_dropped():
+    """여행 신문 1면에 살인과 선거가 실리던 것을 막는 장치다."""
+    for text in (
+        "Teen shot and killed by her ex-boyfriend, police say",
+        "Man suffers burns as fire spreads to nine factory lots",
+        "Guam Republicans up the ante; former governors join campaign",
+        "Autonomous salary structure proposed for Guam education department",
+        "Kennedy reappointed as federal magistrate judge",
+    ):
+        assert not is_travel_related(text), text
+
+
+def test_park_does_not_match_parked_or_parks():
+    """"park" 를 키워드로 두면 주차된 차 사고와 공원 민원이 통과한다.
+
+    실측에서 정확히 그렇게 샜다: "Woman in parked vehicle injured in hit-and-run",
+    "Letter: Stop feeding feral cats, return parks to people".
+    """
+    assert not is_travel_related("Woman, 54, in parked vehicle injured in hit-and-run")
+    assert not is_travel_related("Letter: Stop feeding feral cats, return parks to people")
+
+
+def test_empty_text_is_not_travel():
+    assert not is_travel_related("")
+    assert not is_travel_related(None)
+
+
+def test_no_keyword_is_a_bare_english_word_prone_to_substring_hits():
+    """"park" 같은 단어를 다시 넣지 못하게 고정한다."""
+    assert "park" not in TRAVEL_KEYWORDS
+    assert "trip" not in TRAVEL_KEYWORDS   # "a 10-day trip" (외교 순방) 오탐
+```
+
+- [ ] **Step 2: 테스트가 실패하는지 확인**
+
+```bash
+.venv/bin/python -m pytest tests/test_relevance.py -v
+```
+Expected: FAIL — `ModuleNotFoundError: No module named 'src.relevance'`
+
+- [ ] **Step 3: 관련성 판별기 구현**
+
+`src/relevance.py`:
+```python
+"""기사가 여행자에게 쓸모 있는가.
+
+현지 종합지는 그 지역 **주민**을 위한 신문이다. 선거·범죄·행정 기사가 대부분이고,
+그대로 실으면 여행 신문 1면에 살인 사건이 올라간다(실제로 그랬다).
+
+이 필터는 완벽하지 않다. 키워드 방식이라 양방향 오류가 난다. 그래서 **1차 방어선은
+소스 선정**이고 이건 그 뒤를 받는 그물이다. 놓치는 쪽(기사를 버리는 쪽)으로 틀리게
+만들었다 — 여행 신문에 살인 기사가 실리는 것보다 여행 기사 몇 건을 놓치는 게 낫다.
+"""
+from __future__ import annotations
+
+TRAVEL_KEYWORDS: tuple[str, ...] = (
+    # 이동·항공
+    "항공", "취항", "노선", "증편", "감편", "직항", "공항", "비행", "결항",
+    "수하물", "항공권",
+    "flight", "airline", "airport", "airfare", "nonstop", "aviation",
+    # 숙박
+    "호텔", "리조트", "숙소", "숙박", "펜션", "게스트하우스", "객실",
+    "hotel", "resort", "accommodation", "lodging", "hostel",
+    # 여행 일반
+    "여행", "관광", "투어", "패키지", "명소", "여행객", "관광객", "입국",
+    "비자", "여권", "성수기",
+    "travel", "tourism", "tourist", "vacation", "holiday", "itinerary",
+    "destination", "visa", "passport", "sightseeing",
+    # 활동·현지
+    "해변", "해수욕", "스노클", "다이빙", "크루즈", "요트", "골프", "면세",
+    "맛집", "레스토랑", "카페", "축제",
+    "beach", "snorkel", "diving", "cruise", "yacht", "golf", "duty-free",
+    "festival", "dining", "restaurant", "attraction", "museum",
+    # 여행에 영향을 주는 정보
+    "환율", "날씨", "태풍", "수온", "여행경보",
+    "weather", "typhoon", "forecast", "advisory",
+)
+
+# 일부러 넣지 않은 것: "park"(주차된 차 사고·공원 민원이 통과했다),
+# "trip"(외교 순방 "a 10-day trip" 이 통과했다), "fair"(공정성 기사).
+
+
+def is_travel_related(text: str) -> bool:
+    """여행자에게 쓸모 있는 기사인가. 빈 문자열·None 은 아니다."""
+    if not text:
+        return False
+    lowered = text.lower()
+    return any(keyword in lowered for keyword in TRAVEL_KEYWORDS)
+```
+
+- [ ] **Step 4: 테스트 통과 확인**
+
+```bash
+.venv/bin/python -m pytest tests/test_relevance.py -v
+```
+Expected: PASS (6 passed)
+
+- [ ] **Step 5: `Source` 에 `curated` 필드 추가**
+
+`src/sources.py` 의 `Source` 데이터클래스 맨 끝에 필드를 더한다:
+
+```python
+    curated: bool = False
+```
+
+`load_sources` 가 그 값을 읽되 **없어도 되게** 한다 (`REQUIRED` 에 넣지 마라 — 기존
+소스 33개를 전부 고치게 된다):
+
+```python
+            curated=bool(e.get("curated", False)),
+```
+
+`tests/test_sources.py` 에 테스트를 더한다:
+
+```python
+def test_curated_defaults_to_false(tmp_path):
+    """기존 소스를 전부 고치지 않아도 되게 선택 필드로 둔다."""
+    path = write(tmp_path, """
+sources:
+  - id: plain
+    region: guam
+    section: news
+    name: Plain
+    type: rss
+    url: https://example.com/rss
+    lang: en
+    enabled: true
+""")
+    assert load_sources(path)[0].curated is False
+
+
+def test_curated_can_be_set(tmp_path):
+    path = write(tmp_path, """
+sources:
+  - id: travelmag
+    region: auto
+    section: news
+    name: 여행신문
+    type: rss
+    url: https://example.com/rss
+    lang: ko
+    enabled: true
+    curated: true
+""")
+    assert load_sources(path)[0].curated is True
+```
+
+- [ ] **Step 6: `sources.yaml` 갱신**
+
+아래 **여행 전용 소스에 `curated: true` 를 추가**한다 (`enabled` 다음 줄):
+
+| id | 매체 | 여행 비율 |
+|---|---|---|
+| `kr_traveltimes` | 여행신문 | 100% |
+| `kr_traveldaily` | 트래블데일리 | 100% |
+| `kr_tournews21` | 투어코리아 | 100% |
+| `kr_travelnbike` | 트래블바이크뉴스 | 100% |
+| `kr_ttlnews` | TTL뉴스 | 100% |
+| `kr_ktsketch` | 여행스케치 | 100% |
+| `kr_travie` | 트래비 | 100% |
+| `kr_tourtoctoc` | 투어톡톡 | 100% |
+| `vietnam_vnexpress` | VnExpress Travel | 81% |
+| `hawaii_beatofhawaii` | Beat of Hawaii | 92% |
+
+그리고 **Honolulu Star-Advertiser 를 `enabled: false`** 로 바꾸고 사유 주석을 붙인다:
+하와이 종합지인데 여행 기사가 17%뿐이고, 하와이는 Beat of Hawaii(92%)·Hawaii News Now·
+Hawaii Tourism Authority 로 이미 덮인다.
+
+**다른 소스는 끄지 마라.** Pacific Island Times·Saipan Tribune·New Straits Times·
+Laotian Times 를 끄면 괌·사이판·코타·라오스가 기사 0건이 된다. 걸러 쓰는 게 낫다.
+
+- [ ] **Step 7: `edit.py` 에 필터 연결**
+
+`edit_items` 시그니처에 인자를 더한다:
+
+```python
+def edit_items(raw_items: list[Item], index: PublishedIndex,
+               trending: list[str], curated_sources: set[str]) -> dict:
+```
+
+등급 부여 **다음**, 저작권 가드 **앞**에 필터 단계를 넣는다. 순서가 그런 이유는 관련 없는
+기사를 먼저 걷어내야 뒤 단계가 헛일을 안 하기 때문이다:
+
+```python
+    apply_grades(raw_items)
+
+    # 여행 전용 소스는 그대로 통과시킨다. 거기에 필터를 걸면 멀쩡한 기사를 잃는다.
+    relevant = [
+        item for item in raw_items
+        if item.grade == "A"
+        or item.source_name in curated_sources
+        or is_travel_related(f"{item.title} {item.summary}")
+    ]
+    off_topic = [i for i in raw_items if i not in relevant]
+
+    kept, dropped = filter_items(relevant)
+```
+
+반환 dict 에 `off_topic` 키를 더한다:
+
+```python
+    return {"publish": fresh, "c_candidates": candidates,
+            "dropped": dropped, "duplicates": duplicates,
+            "off_topic": off_topic}
+```
+
+`main` 이 큐레이티드 소스 이름 집합을 만들어 넘긴다:
+
+```python
+    curated_sources = {s.name for s in load_sources(sources_path) if s.curated}
+    result = edit_items(raw_items, index, load_trending(data_dir), curated_sources)
+```
+
+`main` 시그니처에 `sources_path: str = "sources.yaml"` 를 더하고 `from src.sources import load_sources` 를 임포트한다.
+완료 메시지에 `주제밖 {len(result['off_topic'])}건` 을 더한다.
+
+- [ ] **Step 8: `edit` 테스트 갱신**
+
+기존 `edit_items` 호출에 네 번째 인자 `set()` 를 더한다. 그리고 테스트를 더한다:
+
+```python
+def test_off_topic_articles_are_dropped():
+    """여행 신문 1면에 살인 사건이 실리던 것을 막는다."""
+    item = make("1", "Teen shot and killed by her ex-boyfriend, police say")
+    result = edit_items([item], empty_index(), [], set())
+    assert result["publish"] == []
+    assert len(result["off_topic"]) == 1
+
+
+def test_curated_sources_skip_the_relevance_filter():
+    """여행 전용 매체는 그대로 통과시킨다. 필터를 걸면 멀쩡한 기사를 잃는다."""
+    item = make("1", "노랑풍선 신상품 3종 출시")
+    item.source_name = "여행신문"
+    result = edit_items([item], empty_index(), [], {"여행신문"})
+    assert len(result["publish"]) == 1
+
+
+def test_grade_a_data_always_passes():
+    """환율은 여행 키워드가 없어도 실려야 한다."""
+    item = make("1", "오늘의 환율 — 1 USD", section="data")
+    result = edit_items([item], empty_index(), [], set())
+    assert len(result["publish"]) == 1
+```
+
+- [ ] **Step 9: 전체 테스트와 실물 확인**
+
+```bash
+.venv/bin/python -m pytest -q
+.venv/bin/python -m src.edit
+.venv/bin/python -m src.build
+```
+
+그리고 지역별로 헤드라인을 눈으로 보라:
+
+```bash
+.venv/bin/python -c "
+import json, collections
+from src.models import item_from_dict
+items=[item_from_dict(json.loads(l)) for l in open('data/items/2026-09-01.jsonl',encoding='utf-8') if l.strip()]
+c=collections.Counter(i.region for i in items)
+for r in ('guam','saipan','hawaii','vietnam','kota','laos','jeju'):
+    xs=[i for i in items if i.region==r and i.grade!='A']
+    print(f'{r:8s} {c.get(r,0):3d}건 | {xs[0].title[:58] if xs else \"(환율만)\"}')
+"
+```
+
+**살인·화재·선거 기사가 하나도 없어야 한다.** 남아 있으면 보고하라.
+
+- [ ] **Step 10: 커밋**
+
+```bash
+git add src/relevance.py tests/test_relevance.py src/sources.py sources.yaml \
+        src/edit.py tests/test_sources.py tests/test_edit.py \
+        data/items data/published_index.json content/review
+git commit -m "feat: 여행 관련성 필터
+
+완성된 사이트 1면에 살인·화재 기사가 실리는 것을 확인하고 넣었다.
+현지 종합지는 그 지역 주민을 위한 신문이라 여행 기사가 3~20%뿐이다.
+여행 전용 소스(curated)는 필터를 건너뛴다 — 걸면 멀쩡한 기사를 잃는다."
+```
 
 ---
 
