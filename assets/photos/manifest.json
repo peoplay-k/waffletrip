@@ -96,6 +96,89 @@
       "bytes": 8304,
       "baked_at": "2026-09-02T01:09:45+09:00",
       "overrode": "같은 장면(e26_3)이 걸림 — 얼굴 5건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/e18_3b_hi.jpg",
+      "file": "assets/photos/guam/e18_3b_hi.webp",
+      "bytes": 33962,
+      "baked_at": "2026-09-02T06:34:00+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/e24_3_hi.jpg",
+      "file": "assets/photos/guam/e24_3_hi.webp",
+      "bytes": 71164,
+      "baked_at": "2026-09-02T06:34:00+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/e25_2_hi.jpg",
+      "file": "assets/photos/guam/e25_2_hi.webp",
+      "bytes": 113664,
+      "baked_at": "2026-09-02T06:34:00+09:00",
+      "overrode": "얼굴 7건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/e25_3_hi.jpg",
+      "file": "assets/photos/guam/e25_3_hi.webp",
+      "bytes": 82062,
+      "baked_at": "2026-09-02T06:34:01+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/e26_1_hi.jpg",
+      "file": "assets/photos/guam/e26_1_hi.webp",
+      "bytes": 69114,
+      "baked_at": "2026-09-02T06:34:01+09:00"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/e26_2_hi.jpg",
+      "file": "assets/photos/guam/e26_2_hi.webp",
+      "bytes": 50422,
+      "baked_at": "2026-09-02T06:34:02+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/f18_1_hi.jpg",
+      "file": "assets/photos/guam/f18_1_hi.webp",
+      "bytes": 37624,
+      "baked_at": "2026-09-02T06:34:02+09:00",
+      "overrode": "얼굴 4건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/f18_2_hi.jpg",
+      "file": "assets/photos/guam/f18_2_hi.webp",
+      "bytes": 54352,
+      "baked_at": "2026-09-02T06:34:02+09:00",
+      "overrode": "얼굴 4건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/f20_1_hi.jpg",
+      "file": "assets/photos/guam/f20_1_hi.webp",
+      "bytes": 121872,
+      "baked_at": "2026-09-02T06:34:03+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/f20_2_hi.jpg",
+      "file": "assets/photos/guam/f20_2_hi.webp",
+      "bytes": 117412,
+      "baked_at": "2026-09-02T06:34:03+09:00",
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/f26_2_hi.jpg",
+      "file": "assets/photos/guam/f26_2_hi.webp",
+      "bytes": 83420,
+      "baked_at": "2026-09-02T06:34:03+09:00",
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/원본/f26_3_hi.jpg",
+      "file": "assets/photos/guam/f26_3_hi.webp",
+      "bytes": 72626,
+      "baked_at": "2026-09-02T06:34:04+09:00",
+      "overrode": "얼굴 2건 검출"
     }
   ]
 }
