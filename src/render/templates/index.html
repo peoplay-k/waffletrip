@@ -1,62 +1,53 @@
 {% extends "base.html" %}
 {% block content %}
 
-{# ── 톱기사 + 오늘의 데이터 ── #}
+{# ── 첫 화면: 사진 셋 + 데이터 띠 + 헤드라인 2열 ──
+   조사한 여행매체 10곳은 첫 화면 사진 면적이 18~23% 였는데 우리는 2% 였다.
+   큰 제목 하나가 화면을 다 먹고 정보량이 13개뿐이었다. #}
 <div class="top-zone">
   <section class="lead-box">
     {% if lead %}
       <a class="eyebrow" href="/{{ lead_topic }}/">{{ topic_names.get(lead_topic, '') }}</a>
+      {% if lead.photo %}<a href="{{ article_urls[lead.id] }}"><img class="lead-photo" src="{{ lead.photo }}" alt="{{ lead.title }}" loading="eager"></a>{% endif %}
       <h1 class="lead-title"><a href="{{ article_urls[lead.id] }}">{{ lead.title }}</a></h1>
-      {% if lead.photo %}<a href="{{ article_urls[lead.id] }}"><img class="lead-photo" src="{{ lead.photo }}" alt="{{ lead.title }}" loading="lazy"></a>{% endif %}
       {% if lead.summary %}<p class="lead-sum">{{ lead.summary }}</p>{% endif %}
       <div class="byline">{{ lead.source_name }} · {{ lead.published_at[:10] }}</div>
     {% else %}
       <p class="empty">오늘 실을 기사가 아직 없습니다.</p>
     {% endif %}
-
-    {% if sub_leads %}
-    <ul class="sub-leads">
-      {% for it in sub_leads %}
-      <li>
-        <a class="t" href="{{ article_urls[it.id] }}">{{ it.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-    {% endif %}
   </section>
 
-  {# 국내 매체는 여기에 '많이 본 뉴스'를 둔다. 우리는 조회수가 없어
-     지어내지 않고, 대신 매일 우리가 직접 만드는 사실 데이터를 싣는다. #}
-  <aside class="data-box">
-    <h2>오늘의 데이터</h2>
-    {% if data_panel %}
-      <ul class="facts">
-        {% for row in data_panel %}
-        <li>
-          <a class="rg" href="/{{ row.region }}/">{{ row.name }}</a>
-          {% for f in row.facts %}<span class="f">{{ f }}</span>{% endfor %}
-        </li>
-        {% endfor %}
-      </ul>
-      <p class="note">환율·날씨는 매일 아침 자동으로 갱신됩니다.</p>
-    {% else %}
-      <p class="empty">데이터를 아직 받지 못했습니다.</p>
-    {% endif %}
-  </aside>
+  <div class="side-leads">
+    {% for it in sub_leads[:2] %}
+    <article class="side-lead">
+      {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="eager"></a>{% endif %}
+      <a class="rg" href="/{{ it.region }}/">{{ region_names.get(it.region, it.region) }}</a>
+      <h3><a href="{{ article_urls[it.id] }}">{{ it.title }}</a></h3>
+      <div class="byline">{{ it.source_name }}</div>
+    </article>
+    {% endfor %}
+  </div>
 </div>
 
-{# ── 최신 헤드라인 띠 ── #}
-{% if headlines %}
-<div class="ticker">
-  <span class="tag">최신</span>
-  <div class="roll">
-    {% for it in headlines %}<a href="{{ article_urls[it.id] }}">{{ it.title }}</a>{% endfor %}
+{# 데이터는 가로 띠로. 세로 사이드바로 두면 첫 화면을 통째로 차지했다. #}
+{% if data_panel %}
+<div class="data-strip">
+  {% for row in data_panel %}
+  <div class="d">
+    <a class="rg" href="/{{ row.region }}/">{{ row.name }}</a>
+    {% for f in row.facts %}<span class="f">{{ f }}</span>{% endfor %}
   </div>
+  {% endfor %}
 </div>
 {% endif %}
 
-{# 주요뉴스 블록은 뺐다. 부문 블록이 생기면서 같은 기사가 세 번
-   (주요뉴스·부문·지역면) 나왔고 지면이 4,400px 로 늘어졌다. #}
+{% if headlines %}
+<div class="headline-grid">
+  {% for it in headlines %}
+  <a href="{{ article_urls[it.id] }}"><span class="n">{{ loop.index }}</span>{{ it.title }}</a>
+  {% endfor %}
+</div>
+{% endif %}
 
 {# ── 부문별 ── #}
 {% for tid, tname, _ in topics %}

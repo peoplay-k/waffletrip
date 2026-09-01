@@ -10,16 +10,16 @@
   :root{
     --bg:#FFFFFF; --card:#FFFFFF; --shade:#F7F8F9; --line:#E5E8EB; --rule:#CFD4DA;
     --ink:#16191D; --muted:#5C636A; --dim:#868E96;
-    --nav:#123A5E; --nav-ink:#FFFFFF;
-    --accent:#1665B8; --accent-2:#C0392B;
+    --nav:#0E6B5A; --nav-ink:#FFFFFF;
+    --accent:#0B6252; --accent-2:#D4573A;
     --w:1200px;
   }
   @media (prefers-color-scheme: dark){
     :root{
       --bg:#0F1216; --card:#161A1F; --shade:#1B2027; --line:#252B33; --rule:#39414B;
       --ink:#E9ECEF; --muted:#A8B0B8; --dim:#7A828B;
-      --nav:#0B1B2B; --nav-ink:#E9ECEF;
-      --accent:#69A8E0; --accent-2:#E07A6E;
+      --nav:#0A3D34; --nav-ink:#E9ECEF;
+      --accent:#5FC4AC; --accent-2:#E88A72;
     }
   }
   *{box-sizing:border-box}
@@ -42,7 +42,7 @@
     color:var(--bg);padding:10px 16px}
 
   /* 제호 */
-  .mast .wrap{position:relative;padding:26px 24px 20px;text-align:center}
+  .mast .wrap{position:relative;padding:20px 24px 16px;text-align:center}
   .brand{font-size:38px;font-weight:800;letter-spacing:-.045em;line-height:1}
   .brand:hover{text-decoration:none}
   .tagline{font-size:13px;color:var(--dim);margin-top:7px}
@@ -61,18 +61,49 @@
   .gnb .sep{flex:1;min-width:24px}
   .gnb .minor{font-size:13.5px;font-weight:500;opacity:.8;padding:15px 12px}
 
-  main{padding:30px 0 64px}
+  main{padding:22px 0 64px}
 
-  /* 톱기사 + 사이드 */
-  .top-zone{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:36px;
-    padding-bottom:28px;border-bottom:1px solid var(--rule)}
+  /* 첫 화면 — 사진 셋 + 헤드라인. 조사한 매체들은 첫 화면 사진 면적이
+     18~23% 였는데 우리는 2% 였다. 큰 제목 하나가 화면을 다 먹고 있었다. */
+  .top-zone{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);
+    gap:28px;padding-bottom:20px;border-bottom:1px solid var(--rule)}
+  .side-leads{display:flex;flex-direction:column;gap:16px}
+  .side-lead img{width:100%;aspect-ratio:2/1;max-height:112px;object-fit:cover;
+    border-radius:6px;margin-bottom:8px}
+  .side-lead h3{font-size:17px;line-height:1.34;margin:0 0 5px;font-weight:700;
+    letter-spacing:-.025em}
+
+  /* 데이터 — 세로 사이드바에서 가로 띠로. 세로로 길게 두면 첫 화면을
+     통째로 차지해 기사가 밀려난다. */
+  .data-strip{display:flex;gap:0;overflow-x:auto;margin:16px 0 0;
+    background:var(--shade);border-radius:8px;scrollbar-width:none}
+  .data-strip::-webkit-scrollbar{display:none}
+  .data-strip .d{flex:1 0 auto;min-width:128px;padding:10px 14px;
+    border-right:1px solid var(--line)}
+  .data-strip .d:last-child{border-right:none}
+  .data-strip .rg{display:block;margin-bottom:3px}
+  .data-strip .f{display:block;font-size:12px;color:var(--muted);
+    font-variant-numeric:tabular-nums;line-height:1.45}
+
+  /* 최신 헤드라인 — 2열. 첫 화면 정보량을 올린다. */
+  .headline-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));
+    gap:0 32px;margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}
+  .headline-grid a{display:flex;gap:9px;align-items:baseline;padding:7px 0;
+    border-bottom:1px solid var(--line);font-size:14.5px;line-height:1.4}
+  .headline-grid a:hover{text-decoration:none;color:var(--accent)}
+  .headline-grid .n{flex:0 0 auto;font-size:12px;font-weight:700;color:var(--accent-2);
+    font-variant-numeric:tabular-nums}
   .eyebrow{display:inline-block;font-size:13px;font-weight:700;color:var(--accent);
     margin-bottom:12px;letter-spacing:-.01em}
-  .lead-title{font-size:clamp(27px,3.6vw,40px);line-height:1.24;font-weight:800;
-    letter-spacing:-.035em;margin:0 0 16px;text-wrap:balance}
-  .lead-photo{width:100%;border-radius:6px;margin:0 0 16px}
-  .lead-sum{margin:0 0 12px;color:var(--muted);font-size:16px;max-width:62ch;
-    line-height:1.6}
+  /* 제목을 40px 에서 줄이고 그 자리를 사진에 준다. */
+  .lead-title{font-size:clamp(23px,2.5vw,30px);line-height:1.28;font-weight:800;
+    letter-spacing:-.035em;margin:0 0 12px;text-wrap:balance}
+  /* 사진 높이를 묶는다. 16:9 로 두었더니 첫 화면 사진 면적이 38% 가 되어
+     헤드라인이 접힌 아래로 밀려났다. 목표는 조사 매체 평균인 18~23% 다. */
+  .lead-photo{width:100%;aspect-ratio:2/1;max-height:240px;object-fit:cover;
+    border-radius:6px;margin:0 0 13px}
+  .lead-sum{margin:0 0 10px;color:var(--muted);font-size:15px;max-width:62ch;
+    line-height:1.55}
   .byline{font-size:12.5px;color:var(--dim)}
   .sub-leads{list-style:none;margin:22px 0 0;padding:18px 0 0;
     border-top:1px solid var(--line);display:flex;flex-direction:column;gap:11px}
@@ -183,7 +214,6 @@
 
   @media (max-width:900px){
     .top-zone{grid-template-columns:1fr;gap:26px}
-    .data-box{order:2}
     .brand{font-size:30px}
     .edited{position:static;display:block;margin-top:8px}
   }

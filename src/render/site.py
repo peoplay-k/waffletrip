@@ -209,7 +209,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             top_by_region=top_by_region, lead=lead, sub_leads=sub_leads,
             main_news=main_news, data_panel=data_panel, by_topic=by_topic,
             lead_topic=topic_of(lead) if lead else '',
-            headlines=articles[:8], **common),
+            headlines=articles[2:14], **common),
         written,
     )
 
