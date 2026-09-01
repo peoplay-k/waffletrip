@@ -1,17 +1,101 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>오늘의 여행 소식</h1>
-<div class="waffle">
-{% for key, name in region_names.items() %}
-  <div class="cell">
-    <a class="cell-title" href="/{{ key }}/">{{ name }}</a>
-    <div class="meta">{{ counts.get(key, 0) }}건</div>
-    {% for item in top_by_region.get(key, []) %}
-      <div style="margin-top:8px">
-        <a href="{{ article_urls[item.id] }}" style="font-size:14px;text-decoration:none;color:var(--muted)">{{ item.title }}</a>
-      </div>
+
+{# ── 톱기사 + 오늘의 데이터 ── #}
+<div class="top-zone">
+  <section class="lead-box">
+    {% if lead %}
+      <a class="eyebrow" href="/{{ lead.region }}/">{{ region_names.get(lead.region, lead.region) }}</a>
+      <h1 class="lead-title"><a href="{{ article_urls[lead.id] }}">{{ lead.title }}</a></h1>
+      {% if lead.photo %}<a href="{{ article_urls[lead.id] }}"><img class="lead-photo" src="{{ lead.photo }}" alt="{{ lead.title }}" loading="lazy"></a>{% endif %}
+      {% if lead.summary %}<p class="lead-sum">{{ lead.summary }}</p>{% endif %}
+      <div class="byline">{{ lead.source_name }} · {{ lead.published_at[:10] }}</div>
+    {% else %}
+      <p class="empty">오늘 실을 기사가 아직 없습니다.</p>
+    {% endif %}
+
+    {% if sub_leads %}
+    <ul class="sub-leads">
+      {% for it in sub_leads %}
+      <li>
+        <a class="rg" href="/{{ it.region }}/">{{ region_names.get(it.region, it.region) }}</a>
+        <a class="t" href="{{ article_urls[it.id] }}">{{ it.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+
+  {# 국내 매체는 여기에 '많이 본 뉴스'를 둔다. 우리는 조회수가 없어
+     지어내지 않고, 대신 매일 우리가 직접 만드는 사실 데이터를 싣는다. #}
+  <aside class="data-box">
+    <h2>오늘의 데이터</h2>
+    {% if data_panel %}
+      <ul class="facts">
+        {% for row in data_panel %}
+        <li>
+          <a class="rg" href="/{{ row.region }}/">{{ row.name }}</a>
+          {% for f in row.facts %}<span class="f">{{ f }}</span>{% endfor %}
+        </li>
+        {% endfor %}
+      </ul>
+      <p class="note">환율·날씨는 매일 아침 자동으로 갱신됩니다.</p>
+    {% else %}
+      <p class="empty">데이터를 아직 받지 못했습니다.</p>
+    {% endif %}
+  </aside>
+</div>
+
+{# ── 최신 헤드라인 띠 ── #}
+{% if headlines %}
+<div class="ticker">
+  <span class="tag">최신</span>
+  <div class="roll">
+    {% for it in headlines %}<a href="{{ article_urls[it.id] }}">{{ it.title }}</a>{% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{# ── 주요뉴스 ── #}
+{% if main_news %}
+<section class="block">
+  <h2 class="block-title">주요뉴스</h2>
+  <div class="cards">
+    {% for it in main_news %}
+    {# 사진이 없으면 빈 상자를 그리지 않는다. 아직 사진이 거의 없는데
+       회색 자리표시자를 깔면 지면이 텅 비어 보인다. #}
+    <article class="card{% if not it.photo %} text-only{% endif %}">
+      {% if it.photo %}
+      <a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="lazy"></a>
+      {% endif %}
+      <a class="rg" href="/{{ it.region }}/">{{ region_names.get(it.region, it.region) }}</a>
+      <h3><a href="{{ article_urls[it.id] }}">{{ it.title }}</a></h3>
+      <div class="byline">{{ it.source_name }}</div>
+    </article>
     {% endfor %}
   </div>
-{% endfor %}
-</div>
+</section>
+{% endif %}
+
+{# ── 지역면 ── #}
+<section class="block">
+  <h2 class="block-title">지역면</h2>
+  <div class="regions">
+    {% for key, name in region_names.items() %}
+    <div class="rcol">
+      <a class="rhead" href="/{{ key }}/">{{ name }}<span>{{ counts.get(key, 0) }}건</span></a>
+      {% if top_by_region.get(key) %}
+        <ul>
+          {% for it in top_by_region.get(key, []) %}
+          <li><a href="{{ article_urls[it.id] }}">{{ it.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="empty-s">오늘 소식이 없습니다</p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
 {% endblock %}
