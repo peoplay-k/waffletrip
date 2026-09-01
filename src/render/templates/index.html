@@ -56,28 +56,29 @@
 </div>
 {% endif %}
 
-{# ── 주요뉴스 ── #}
-{% if main_news %}
-<section class="block">
-  <h2 class="block-title">주요뉴스</h2>
-  <div class="cards">
-    {% for it in main_news %}
-    {# 사진이 없으면 빈 상자를 그리지 않는다. 아직 사진이 거의 없는데
-       회색 자리표시자를 깔면 지면이 텅 비어 보인다. #}
-    <article class="card{% if not it.photo %} text-only{% endif %}">
-      {% if it.photo %}
-      <a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="lazy"></a>
-      {% endif %}
-      <a class="rg" href="/{{ it.region }}/">{{ region_names.get(it.region, it.region) }}</a>
-      <h3><a href="{{ article_urls[it.id] }}">{{ it.title }}</a></h3>
-      <div class="byline">{{ it.source_name }}</div>
-    </article>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
+{# 주요뉴스 블록은 뺐다. 부문 블록이 생기면서 같은 기사가 세 번
+   (주요뉴스·부문·지역면) 나왔고 지면이 4,400px 로 늘어졌다. #}
 
-{# ── 지역면 ── #}
+{# ── 부문별 ── #}
+{% for tid, tname, _ in topics %}
+  {% if by_topic.get(tid) %}
+  <section class="block">
+    <h2 class="block-title"><a href="/{{ tid }}/">{{ tname }}</a></h2>
+    <div class="cards">
+      {% for it in by_topic[tid][:4] %}
+      <article class="card{% if not it.photo %} text-only{% endif %}">
+        {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="lazy"></a>{% endif %}
+        <a class="rg" href="/{{ it.region }}/">{{ region_names.get(it.region, it.region) }}</a>
+        <h3>{% if it.grade == 'A' %}{{ it.title }}{% else %}<a href="{{ article_urls[it.id] }}">{{ it.title }}</a>{% endif %}</h3>
+        <div class="byline">{{ it.source_name }}</div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+{% endfor %}
+
+{# ── 지역면 인덱스 ── #}
 <section class="block">
   <h2 class="block-title">지역면</h2>
   <div class="regions">

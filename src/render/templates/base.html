@@ -61,6 +61,14 @@
   .gnb .sep{flex:1}
   .gnb .minor{font-size:13px;opacity:.72}
 
+  /* 2차 네비 — 지역면 */
+  .lnb{background:var(--card);border-bottom:1px solid var(--line)}
+  .lnb .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:0 2px;overflow-x:auto}
+  .lnb-label{font-size:11.5px;font-weight:700;color:var(--gold);
+    letter-spacing:.08em;padding:9px 12px 9px 0;white-space:nowrap}
+  .lnb a{font-size:13.5px;color:var(--muted);padding:9px 11px;white-space:nowrap}
+  .lnb a:hover{color:var(--ink);text-decoration:none}
+
   main{padding:26px 0 60px}
 
   /* ── 톱기사 + 오늘의 데이터 ── */
@@ -203,19 +211,28 @@
   <div class="edited">편집 {{ today }}</div>
 </div></header>
 
-<nav class="gnb" aria-label="주요 메뉴"><div class="wrap">
-  {% for key, name in region_names.items() %}<a href="/{{ key }}/">{{ name }}</a>{% endfor %}
+{# 1차는 편집 부문. 지역명만 늘어놓으면 신문이 아니라 목적지 디렉터리로 보인다. #}
+<nav class="gnb" aria-label="부문"><div class="wrap">
+  {% for tid, tname, _ in topics %}<a href="/{{ tid }}/">{{ tname }}</a>{% endfor %}
   <span class="sep"></span>
-  <a class="minor" href="/flight/">항공</a>
-  <a class="minor" href="/data/">데이터</a>
   <a class="minor" href="/about/">소개</a>
   <a class="minor" href="/search/">검색</a>
   <a class="minor" href="/rss.xml">RSS</a>
 </div></nav>
 
+{# 2차는 지역면. 상품 링크가 지역 페이지에 걸려 있어 없앨 수 없고,
+   독자도 '괌 소식'을 한자리에서 보고 싶어 한다. #}
+<nav class="lnb" aria-label="지역면"><div class="wrap">
+  <span class="lnb-label">지역</span>
+  {% for key, name in region_names.items() %}<a href="/{{ key }}/">{{ name }}</a>{% endfor %}
+</div></nav>
+
 <main id="main" class="wrap">{% block content %}{% endblock %}</main>
 
 <footer class="foot" id="foot"><div class="wrap">
+  <div class="links">
+    {% for tid, tname, _ in topics %}<a href="/{{ tid }}/">{{ tname }}</a>{% endfor %}
+  </div>
   <div class="links">
     <a href="/about/">매체소개</a><a href="/contact/">기사제보·광고문의</a>
     <a href="/privacy/">개인정보처리방침</a><a href="/youth/">청소년보호정책</a>

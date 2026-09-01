@@ -14,6 +14,7 @@ from markupsafe import Markup
 
 from src.photos import assign as assign_photos, copy_into, load_manifest
 from src.render.md import render as md_render
+from src.topics import TOPIC_DESCS, TOPIC_NAMES, TOPICS, group_by_topic
 
 from src.models import Item
 
@@ -139,6 +140,7 @@ def group_by_region(items: list[Item]) -> dict[str, list[Item]]:
 def split_panel(items: list[Item]) -> tuple[list[Item], list[Item]]:
     """A등급(사실 데이터)은 상단 패널로, 나머지는 기사 목록으로."""
     panel = [i for i in items if i.grade == "A"]
+    by_topic = group_by_topic(items)
     articles = [i for i in items if i.grade != "A"]
     return panel, articles
 
@@ -173,6 +175,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "site_name": SITE_NAME, "site_tagline": SITE_TAGLINE,
         "site_url": SITE_URL, "region_names": REGION_NAMES,
         "today": today, "article_urls": urls,
+        "topics": TOPICS, "topic_names": TOPIC_NAMES,
         "contact_email": CONTACT_EMAIL,
     }
 
@@ -182,6 +185,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         key: [i for i in group if i.grade != "A"][:TOP_PER_REGION]
         for key, group in grouped.items()
     }
+    by_topic = group_by_topic(items)
     articles = [i for i in items if i.grade != "A"]
     lead = articles[0] if articles else None
     sub_leads = articles[1:5]
@@ -203,7 +207,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         env.get_template("index.html").render(
             counts={k: len(v) for k, v in grouped.items()},
             top_by_region=top_by_region, lead=lead, sub_leads=sub_leads,
-            main_news=main_news, data_panel=data_panel,
+            main_news=main_news, data_panel=data_panel, by_topic=by_topic,
             headlines=articles[:8], **common),
         written,
     )
@@ -220,24 +224,16 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         )
 
     # 항공 모음 — 지역을 가로지른다. 예약 결정에 직접 쓰는 정보라 따로 모은다.
-    _write(
-        os.path.join(out_dir, "flight", "index.html"),
-        env.get_template("section.html").render(
-            section_title="항공 소식",
-            section_desc="일곱 개 지역의 신규취항·증편·감편을 한자리에 모았습니다.",
-            items=[i for i in items if i.section == "flight"], **common),
-        written,
-    )
-
-    # 데이터 대시보드 — 매일 값이 바뀌는 사실 데이터만 모은다.
-    _write(
-        os.path.join(out_dir, "data", "index.html"),
-        env.get_template("section.html").render(
-            section_title="여행 데이터",
-            section_desc="환율을 비롯한 오늘의 여행 실용 데이터입니다.",
-            items=[i for i in items if i.grade == "A"], **common),
-        written,
-    )
+    # 부문 페이지. 지역면만으로 나누면 목적지 디렉터리로 보인다 —
+    # 국내 여행 전문지는 전부 편집 축으로 나눈다.
+    for topic_id, topic_name, topic_desc in TOPICS:
+        _write(
+            os.path.join(out_dir, topic_id, "index.html"),
+            env.get_template("section.html").render(
+                section_title=topic_name, section_desc=topic_desc,
+                items=by_topic[topic_id], **common),
+            written,
+        )
 
     # 매체 소개 — 우리 봇의 User-Agent 가 이 주소를 가리키므로 반드시 존재해야 한다.
     _write(
