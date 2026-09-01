@@ -2,17 +2,24 @@
 {% block title %}{{ section_title }} — {{ site_name }}{% endblock %}
 {% block description %}{{ section_desc }}{% endblock %}
 {% block content %}
-<h1>{{ section_title }}</h1>
-<p class="meta">{{ section_desc }}</p>
+<div class="page-head">
+  <h1>{{ section_title }}</h1>
+  <p class="note">{{ section_desc }}</p>
+</div>
+
 {% if items %}
+<div class="cards">
   {% for item in items %}
-  <article class="row">
+  <article class="card{% if not item.photo %} text-only{% endif %}">
+    {% if item.photo and item.grade != 'A' %}<a href="{{ article_urls[item.id] }}"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy"></a>{% endif %}
+    <a class="rg" href="/{{ item.region }}/">{{ region_names.get(item.region, item.region) }}</a>
     <h3>{% if item.grade == 'A' %}{{ item.title }}{% else %}<a href="{{ article_urls[item.id] }}">{{ item.title }}</a>{% endif %}</h3>
-    <div class="meta">{{ region_names.get(item.region, item.region) }} · {{ item.source_name }} · {{ item.published_at[:10] }}</div>
-    {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
+    {% if item.grade == 'A' and item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
+    <div class="byline">{{ item.source_name }} · {{ item.published_at[:10] }}</div>
   </article>
   {% endfor %}
+</div>
 {% else %}
-  <p class="meta">아직 모인 소식이 없습니다.</p>
+  <p class="empty">아직 모인 소식이 없습니다.</p>
 {% endif %}
 {% endblock %}

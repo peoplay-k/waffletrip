@@ -38,6 +38,34 @@ def photos_for(manifest: dict, region: str) -> list[str]:
             if isinstance(e, dict) and e.get("file")]
 
 
+def assign(manifest: dict, region: str, seeds: list[str]) -> dict:
+    """한 지역면의 기사들에 사진을 겹치지 않게 배정한다.
+
+    pick() 만 쓰면 해시가 충돌해 같은 사진이 한 화면에 두 번 나온다.
+    실제로 톱기사와 카드에 같은 스테이크 접시가 걸렸다.
+
+    기사 고유의 자리(pick)를 먼저 잡고, 이미 쓰인 사진이면 다음 것으로 밀어
+    비어 있는 자리를 찾는다. 같은 입력이면 결과가 같다 — 빌드마다 사진이
+    바뀌면 어제 본 기사가 오늘 달라 보인다.
+    """
+    pool = photos_for(manifest, region)
+    if not pool:
+        return {}
+    used: set[str] = set()
+    out: dict[str, str] = {}
+    for seed in seeds:
+        start = sum(ord(c) for c in seed) % len(pool)
+        for step in range(len(pool)):
+            candidate = pool[(start + step) % len(pool)]
+            if candidate not in used:
+                used.add(candidate)
+                out[seed] = candidate
+                break
+        else:
+            out[seed] = pool[start]      # 사진보다 기사가 많으면 돌려 쓴다
+    return out
+
+
 def pick(manifest: dict, region: str, seed: str) -> str:
     """지역 사진 하나를 고른다. 같은 기사는 항상 같은 사진을 받는다.
 
