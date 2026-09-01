@@ -14,7 +14,7 @@ from markupsafe import Markup
 
 from src.photos import assign as assign_photos, copy_into, load_manifest
 from src.render.md import render as md_render
-from src.topics import TOPIC_DESCS, TOPIC_NAMES, TOPICS, group_by_topic
+from src.topics import TOPIC_DESCS, TOPIC_NAMES, TOPICS, group_by_topic, topic_of
 
 from src.models import Item
 
@@ -208,6 +208,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             counts={k: len(v) for k, v in grouped.items()},
             top_by_region=top_by_region, lead=lead, sub_leads=sub_leads,
             main_news=main_news, data_panel=data_panel, by_topic=by_topic,
+            lead_topic=topic_of(lead) if lead else '',
             headlines=articles[:8], **common),
         written,
     )

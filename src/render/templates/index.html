@@ -5,7 +5,7 @@
 <div class="top-zone">
   <section class="lead-box">
     {% if lead %}
-      <a class="eyebrow" href="/{{ lead.region }}/">{{ region_names.get(lead.region, lead.region) }}</a>
+      <a class="eyebrow" href="/{{ lead_topic }}/">{{ topic_names.get(lead_topic, '') }}</a>
       <h1 class="lead-title"><a href="{{ article_urls[lead.id] }}">{{ lead.title }}</a></h1>
       {% if lead.photo %}<a href="{{ article_urls[lead.id] }}"><img class="lead-photo" src="{{ lead.photo }}" alt="{{ lead.title }}" loading="lazy"></a>{% endif %}
       {% if lead.summary %}<p class="lead-sum">{{ lead.summary }}</p>{% endif %}
@@ -18,7 +18,6 @@
     <ul class="sub-leads">
       {% for it in sub_leads %}
       <li>
-        <a class="rg" href="/{{ it.region }}/">{{ region_names.get(it.region, it.region) }}</a>
         <a class="t" href="{{ article_urls[it.id] }}">{{ it.title }}</a>
       </li>
       {% endfor %}
@@ -68,7 +67,6 @@
       {% for it in by_topic[tid][:4] %}
       <article class="card{% if not it.photo %} text-only{% endif %}">
         {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="lazy"></a>{% endif %}
-        <a class="rg" href="/{{ it.region }}/">{{ region_names.get(it.region, it.region) }}</a>
         <h3>{% if it.grade == 'A' %}{{ it.title }}{% else %}<a href="{{ article_urls[it.id] }}">{{ it.title }}</a>{% endif %}</h3>
         <div class="byline">{{ it.source_name }}</div>
       </article>
@@ -77,26 +75,5 @@
   </section>
   {% endif %}
 {% endfor %}
-
-{# ── 지역면 인덱스 ── #}
-<section class="block">
-  <h2 class="block-title">지역면</h2>
-  <div class="regions">
-    {% for key, name in region_names.items() %}
-    <div class="rcol">
-      <a class="rhead" href="/{{ key }}/">{{ name }}<span>{{ counts.get(key, 0) }}건</span></a>
-      {% if top_by_region.get(key) %}
-        <ul>
-          {% for it in top_by_region.get(key, []) %}
-          <li><a href="{{ article_urls[it.id] }}">{{ it.title }}</a></li>
-          {% endfor %}
-        </ul>
-      {% else %}
-        <p class="empty-s">오늘 소식이 없습니다</p>
-      {% endif %}
-    </div>
-    {% endfor %}
-  </div>
-</section>
 
 {% endblock %}

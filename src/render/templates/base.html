@@ -8,22 +8,18 @@
 <link rel="alternate" type="application/rss+xml" title="{{ site_name }}" href="/rss.xml">
 <style>
   :root{
-    --bg:#FDFBF7; --card:#FFFFFF; --ink:#2B2118; --muted:#7A6A57;
-    --gold:#C98A2E; --line:#E8DFD0;
-    --bar:#241C14;        /* 네비바. 국내 여행 전문지의 짙은 상단 띠를 따른다 */
-    --bar-ink:#F3EEE4;
-    --rule:#D8CCB8;
-    --shade:#F7F3EB;
-    --w:1180px;
+    --bg:#FFFFFF; --card:#FFFFFF; --shade:#F7F8F9; --line:#E5E8EB; --rule:#CFD4DA;
+    --ink:#16191D; --muted:#5C636A; --dim:#868E96;
+    --nav:#123A5E; --nav-ink:#FFFFFF;
+    --accent:#1665B8; --accent-2:#C0392B;
+    --w:1200px;
   }
-  /* 조사한 국내 여행 전문지 8곳 중 다크모드를 지원하는 곳은 0곳이었다.
-     밤에 읽는 사람이 있고, 비용이 토큰 몇 줄이라 우리는 한다.
-     색은 뒤집지 않고 다시 고른다 — 크림을 그냥 반전하면 탁해진다. */
   @media (prefers-color-scheme: dark){
     :root{
-      --bg:#17130E; --card:#1F1A14; --ink:#EDE6DA; --muted:#A79379;
-      --gold:#E0A64B; --line:#332B21;
-      --bar:#0F0C09; --bar-ink:#EDE6DA; --rule:#4A3F31; --shade:#241E17;
+      --bg:#0F1216; --card:#161A1F; --shade:#1B2027; --line:#252B33; --rule:#39414B;
+      --ink:#E9ECEF; --muted:#A8B0B8; --dim:#7A828B;
+      --nav:#0B1B2B; --nav-ink:#E9ECEF;
+      --accent:#69A8E0; --accent-2:#E07A6E;
     }
   }
   *{box-sizing:border-box}
@@ -31,170 +27,165 @@
   body{
     margin:0;background:var(--bg);color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",
-      "Malgun Gothic","맑은 고딕",sans-serif;
-    font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased;
+      "Pretendard","Malgun Gothic",sans-serif;
+    font-size:16px;line-height:1.65;letter-spacing:-.01em;
+    -webkit-font-smoothing:antialiased;
   }
-  .wrap{max-width:var(--w);margin:0 auto;padding:0 20px}
+  .wrap{max-width:var(--w);margin:0 auto;padding:0 24px}
   a{color:inherit;text-decoration:none}
-  a:hover{text-decoration:underline;text-underline-offset:2px}
+  a:hover{text-decoration:underline;text-underline-offset:3px}
   img{max-width:100%;height:auto;display:block}
-  :focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-
-  /* 접근성 바로가기 — 국내 뉴스 사이트의 표준 관례 */
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
   .skips a{position:absolute;left:-9999px}
   .skips a:focus{left:12px;top:12px;z-index:99;background:var(--ink);
-    color:#fff;padding:10px 16px}
+    color:var(--bg);padding:10px 16px}
 
-  /* 제호 — 가운데 정렬, 오른쪽에 편집 시각 */
-  .mast{border-bottom:1px solid var(--line);background:var(--card)}
-  .mast .wrap{position:relative;padding-top:22px;padding-bottom:16px;text-align:center}
-  .brand{font-size:34px;font-weight:800;letter-spacing:-.02em;color:var(--ink)}
+  /* 제호 */
+  .mast .wrap{position:relative;padding:26px 24px 20px;text-align:center}
+  .brand{font-size:38px;font-weight:800;letter-spacing:-.045em;line-height:1}
   .brand:hover{text-decoration:none}
-  .tagline{font-size:13px;color:var(--muted);margin-top:4px}
-  .edited{position:absolute;right:20px;bottom:18px;font-size:12px;color:var(--muted)}
+  .tagline{font-size:13px;color:var(--dim);margin-top:7px}
+  .edited{position:absolute;right:24px;top:30px;font-size:12px;color:var(--dim);
+    font-variant-numeric:tabular-nums}
 
-  /* 네비바 */
-  .gnb{background:var(--bar)}
-  .gnb .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:0}
-  .gnb a{color:var(--bar-ink);font-size:14.5px;padding:12px 14px;white-space:nowrap}
-  .gnb a:hover{background:rgba(255,255,255,.09);text-decoration:none}
-  .gnb .sep{flex:1}
-  .gnb .minor{font-size:13px;opacity:.72}
+  /* 네비 */
+  .gnb{background:var(--nav)}
+  .gnb .wrap{display:flex;align-items:center;gap:0;overflow-x:auto;
+    scrollbar-width:none}
+  .gnb .wrap::-webkit-scrollbar{display:none}
+  .gnb a{color:var(--nav-ink);font-size:15.5px;font-weight:600;
+    padding:15px 18px;white-space:nowrap;letter-spacing:-.02em}
+  .gnb a:first-child{padding-left:0}
+  .gnb a:hover{background:rgba(255,255,255,.10);text-decoration:none}
+  .gnb .sep{flex:1;min-width:24px}
+  .gnb .minor{font-size:13.5px;font-weight:500;opacity:.8;padding:15px 12px}
 
-  /* 2차 네비 — 지역면 */
-  .lnb{background:var(--card);border-bottom:1px solid var(--line)}
-  .lnb .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:0 2px;overflow-x:auto}
-  .lnb-label{font-size:11.5px;font-weight:700;color:var(--gold);
-    letter-spacing:.08em;padding:9px 12px 9px 0;white-space:nowrap}
-  .lnb a{font-size:13.5px;color:var(--muted);padding:9px 11px;white-space:nowrap}
-  .lnb a:hover{color:var(--ink);text-decoration:none}
+  main{padding:30px 0 64px}
 
-  main{padding:26px 0 60px}
-
-  /* ── 톱기사 + 오늘의 데이터 ── */
-  .top-zone{display:grid;grid-template-columns:1fr 320px;gap:28px;
-    padding-bottom:22px;border-bottom:2px solid var(--ink)}
-  .eyebrow{display:inline-block;font-size:13px;font-weight:700;color:var(--gold);
-    border-bottom:2px solid var(--gold);padding-bottom:2px;margin-bottom:12px}
-  .lead-title{font-size:clamp(25px,3.6vw,38px);line-height:1.28;font-weight:800;
-    letter-spacing:-.025em;margin:0 0 14px;text-wrap:balance}
-  .lead-photo{width:100%;border:1px solid var(--line);margin:0 0 14px}
-  .lead-sum{margin:0 0 10px;color:var(--muted);font-size:15.5px;max-width:60ch}
-  .byline{font-size:12.5px;color:var(--muted)}
-  .sub-leads{list-style:none;margin:20px 0 0;padding:16px 0 0;
-    border-top:1px solid var(--line);display:flex;flex-direction:column;gap:9px}
+  /* 톱기사 + 사이드 */
+  .top-zone{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:36px;
+    padding-bottom:28px;border-bottom:1px solid var(--rule)}
+  .eyebrow{display:inline-block;font-size:13px;font-weight:700;color:var(--accent);
+    margin-bottom:12px;letter-spacing:-.01em}
+  .lead-title{font-size:clamp(27px,3.6vw,40px);line-height:1.24;font-weight:800;
+    letter-spacing:-.035em;margin:0 0 16px;text-wrap:balance}
+  .lead-photo{width:100%;border-radius:6px;margin:0 0 16px}
+  .lead-sum{margin:0 0 12px;color:var(--muted);font-size:16px;max-width:62ch;
+    line-height:1.6}
+  .byline{font-size:12.5px;color:var(--dim)}
+  .sub-leads{list-style:none;margin:22px 0 0;padding:18px 0 0;
+    border-top:1px solid var(--line);display:flex;flex-direction:column;gap:11px}
   .sub-leads li{display:flex;gap:10px;align-items:baseline}
-  .sub-leads .t{font-size:15px;font-weight:600;line-height:1.45}
+  .sub-leads .t{font-size:15.5px;font-weight:600;line-height:1.4}
+  .rg{font-size:12px;font-weight:700;color:var(--accent);white-space:nowrap}
 
-  .rg{font-size:11.5px;font-weight:700;color:var(--gold);white-space:nowrap}
-
-  .data-box{background:var(--card);border:1px solid var(--line);padding:18px 18px 14px;
-    align-self:start}
-  .data-box h2{font-size:16px;margin:0 0 12px;padding-bottom:9px;
-    border-bottom:2px solid var(--ink)}
-  .facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px}
-  .facts li{display:grid;grid-template-columns:62px 1fr;gap:2px 8px;font-size:12.5px;
-    padding-bottom:8px;border-bottom:1px dotted var(--line)}
-  .facts .rg{grid-row:span 2;align-self:center}
+  .data-box{background:var(--shade);border-radius:8px;padding:20px;align-self:start}
+  .data-box h2{font-size:15px;margin:0 0 14px;letter-spacing:-.02em}
+  .facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+  .facts li{display:grid;grid-template-columns:58px 1fr;gap:2px 8px;font-size:12.5px;
+    padding-bottom:11px;border-bottom:1px solid var(--line)}
   .facts li:last-child{border-bottom:none;padding-bottom:0}
-  .facts .f{color:var(--muted);line-height:1.5;font-variant-numeric:tabular-nums}
-  .note{font-size:11.5px;color:var(--muted);margin:12px 0 0}
+  .facts .rg{grid-row:span 2;align-self:center}
+  .facts .f{color:var(--muted);font-variant-numeric:tabular-nums;line-height:1.45}
+  .note{font-size:11.5px;color:var(--dim);margin:14px 0 0}
 
-  /* ── 최신 헤드라인 띠 ── */
-  .ticker{display:flex;align-items:center;gap:12px;margin:18px 0 0;
-    background:var(--card);border:1px solid var(--line);padding:9px 12px;overflow:hidden}
-  .ticker .tag{flex:0 0 auto;background:var(--gold);color:#fff;font-size:11.5px;
-    font-weight:700;padding:3px 9px}
-  .roll{display:flex;gap:26px;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+  /* 헤드라인 띠 */
+  .ticker{display:flex;align-items:center;gap:14px;margin:20px 0 0;
+    background:var(--shade);border-radius:6px;padding:11px 14px;overflow:hidden}
+  .ticker .tag{flex:0 0 auto;background:var(--accent-2);color:#fff;font-size:11.5px;
+    font-weight:700;padding:3px 9px;border-radius:3px}
+  .roll{display:flex;gap:28px;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
   .roll::-webkit-scrollbar{display:none}
-  .roll a{font-size:13.5px;color:var(--muted)}
+  .roll a{font-size:14px;color:var(--muted)}
 
-  /* ── 블록 ── */
-  .block{margin-top:36px}
-  .block-title{font-size:19px;margin:0 0 16px;padding-bottom:9px;
-    border-bottom:2px solid var(--ink)}
-
-  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:22px}
-  .card img{width:100%;aspect-ratio:16/10;object-fit:cover;border:1px solid var(--line);
-    margin-bottom:9px}
-  /* 사진 없는 카드는 위쪽 괘선으로 구분한다. 신문 지면의 텍스트 기사와 같다. */
-  .card.text-only{border-top:1px solid var(--rule);padding-top:11px}
-  .card h3{font-size:15.5px;line-height:1.45;margin:5px 0 6px;font-weight:600}
+  /* 블록 */
+  .block{margin-top:44px}
+  .block-title{font-size:20px;margin:0 0 18px;padding-bottom:11px;font-weight:800;
+    letter-spacing:-.03em;border-bottom:2px solid var(--ink)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:26px}
+  .card img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:6px;
+    margin-bottom:11px}
+  .card.text-only{border-top:1px solid var(--line);padding-top:13px}
+  .card h3{font-size:16px;line-height:1.4;margin:6px 0 7px;font-weight:600;
+    letter-spacing:-.02em}
   .card .byline{font-size:12px}
+  .card .summary{color:var(--muted);font-size:13.5px;margin:4px 0 6px}
 
-  .regions{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:22px}
-  .rcol{border-top:1px solid var(--rule);padding-top:11px}
-  .rhead{display:flex;justify-content:space-between;align-items:baseline;
-    font-weight:700;font-size:15px;margin-bottom:9px}
-  .rhead span{font-size:11.5px;color:var(--muted);font-weight:400}
-  .rcol ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
-  .rcol li a{font-size:13.5px;color:var(--muted);line-height:1.5}
-  .empty,.empty-s{color:var(--muted)}
+  /* 지역·부문 페이지 */
+  .page-head{border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:26px}
+  .page-head h1{font-size:clamp(26px,3.4vw,34px);margin:0 0 8px;
+    letter-spacing:-.035em;font-weight:800}
+  .panel{display:flex;flex-wrap:wrap;gap:6px 20px}
+  .panel .fact{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .panel .fact b{color:var(--ink);font-weight:600}
+  .sec-lead{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;
+    padding-bottom:26px;margin-bottom:26px;border-bottom:1px solid var(--line)}
+  .sec-lead:has(img){grid-template-columns:minmax(0,440px) minmax(0,1fr)}
+  .sec-lead img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:6px}
+  .sec-lead h2{font-size:clamp(21px,2.6vw,27px);line-height:1.3;margin:0 0 11px;
+    letter-spacing:-.03em;font-weight:700;text-wrap:balance}
+  .sec-lead .summary{color:var(--muted);font-size:15px;margin:0 0 11px;max-width:58ch}
+  .cta-box{margin-top:36px;padding:20px 22px;background:var(--shade);border-radius:8px}
+  .cta{font-weight:700;color:var(--accent);font-size:16px}
+  .cta-box .note{margin:6px 0 0}
+  .empty,.empty-s{color:var(--dim)}
   .empty-s{font-size:12.5px}
+  .regions{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:24px}
+  .rcol{border-top:1px solid var(--line);padding-top:12px}
+  .rhead{display:flex;justify-content:space-between;align-items:baseline;
+    font-weight:700;font-size:15px;margin-bottom:10px;letter-spacing:-.02em}
+  .rhead span{font-size:11.5px;color:var(--dim);font-weight:400}
+  .rcol ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+  .rcol li a{font-size:13.5px;color:var(--muted);line-height:1.45}
 
-  /* 사진 — 직접 촬영한 것만 실린다 */
-  .hero{margin:1.2rem 0;padding:0}
-  .hero img{width:100%;height:auto;display:block;border:1px solid var(--line)}
-  .hero figcaption{font-size:.8rem;color:var(--muted);margin-top:.35rem}
-
-  /* 해설 기사 본문 */
-  .body{margin:1.2rem 0}
-  .body h2{font-size:1.25rem;margin:2rem 0 .6rem}
-  .body h3{font-size:1.1rem;margin:1.5rem 0 .5rem}
-  .body p{margin:0 0 1rem}
-  .body ul,.body ol{margin:0 0 1rem;padding-left:1.4rem}
-  .body li{margin-bottom:.35rem}
-  .body blockquote{margin:1.2rem 0;padding:.7rem 1rem;border-left:3px solid var(--rule);color:var(--muted)}
-  .body hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
-  .body code{background:var(--shade);padding:1px 5px;border-radius:2px;font-size:.9em}
-  /* 실측값 표. 좁은 화면에서 본문이 아니라 표만 스크롤되게 감싼다. */
-  .tw{overflow-x:auto;margin:1.2rem 0;border:1px solid var(--line)}
+  /* 기사 */
+  .hero{margin:1.4rem 0;padding:0}
+  .hero img{width:100%;border-radius:6px}
+  .hero figcaption{font-size:.8rem;color:var(--dim);margin-top:.4rem}
+  .body{margin:1.4rem 0;font-size:17px;line-height:1.8}
+  .body h2{font-size:1.3rem;margin:2.2rem 0 .7rem;letter-spacing:-.03em}
+  .body h3{font-size:1.12rem;margin:1.6rem 0 .5rem;letter-spacing:-.02em}
+  .body p{margin:0 0 1.1rem}
+  .body ul,.body ol{margin:0 0 1.1rem;padding-left:1.4rem}
+  .body li{margin-bottom:.4rem}
+  .body blockquote{margin:1.4rem 0;padding:.9rem 1.1rem;background:var(--shade);
+    border-radius:6px;color:var(--muted)}
+  .body hr{border:none;border-top:1px solid var(--line);margin:2.2rem 0}
+  .body code{background:var(--shade);padding:1px 6px;border-radius:4px;font-size:.9em}
+  .tw{overflow-x:auto;margin:1.4rem 0;border:1px solid var(--line);border-radius:6px}
   .tw table{border-collapse:collapse;width:100%;font-size:.95rem}
-  .tw th,.tw td{padding:.5rem .8rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  .tw th,.tw td{padding:.6rem .9rem;border-bottom:1px solid var(--line);
+    text-align:left;vertical-align:top}
   .tw th{background:var(--shade);font-weight:700;white-space:nowrap}
   .tw td{font-variant-numeric:tabular-nums}
   .tw tr:last-child td{border-bottom:none}
 
-  /* 지역면·부문 페이지 */
-  .page-head{border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:22px}
-  .page-head h1{font-size:clamp(24px,3.4vw,32px);margin:0 0 8px;letter-spacing:-.02em}
-  .panel{display:flex;flex-wrap:wrap;gap:6px 18px}
-  .panel .fact{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
-  .panel .fact b{color:var(--ink);font-weight:600}
-  .sec-lead{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;
-    padding-bottom:22px;margin-bottom:22px;border-bottom:1px solid var(--rule)}
-  .sec-lead:has(img){grid-template-columns:minmax(0,420px) minmax(0,1fr)}
-  .sec-lead img{width:100%;aspect-ratio:16/10;object-fit:cover;border:1px solid var(--line)}
-  .sec-lead h2{font-size:clamp(20px,2.6vw,26px);line-height:1.35;margin:0 0 10px;
-    letter-spacing:-.02em;text-wrap:balance}
-  .sec-lead .summary{color:var(--muted);font-size:15px;margin:0 0 10px;max-width:58ch}
-  .card .summary{color:var(--muted);font-size:13.5px;margin:4px 0 6px}
-  .cta-box{margin-top:32px;padding:18px 20px;background:var(--card);
-    border:1px solid var(--line);border-left:3px solid var(--gold)}
-  .cta{font-weight:700;color:var(--gold);font-size:16px}
-  .cta-box .note{margin:6px 0 0}
-
   /* 검색 */
-  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-  .searchbox{margin:18px 0 10px}
-  .searchbox input{width:100%;max-width:520px;padding:12px 14px;font:inherit;
-    font-size:16px;border:1px solid var(--rule);background:var(--card);color:var(--ink)}
+  .searchbox{margin:20px 0 12px}
+  .searchbox input{width:100%;max-width:540px;padding:13px 15px;font:inherit;
+    font-size:16px;border:1px solid var(--rule);border-radius:6px;
+    background:var(--card);color:var(--ink)}
   .lead-note{color:var(--muted);max-width:60ch}
   .hitlist{display:flex;flex-direction:column}
-  .hit{border-top:1px solid var(--line);padding:13px 0}
-  .hit h3{font-size:16px;margin:4px 0 5px;font-weight:600;line-height:1.45}
+  .hit{border-top:1px solid var(--line);padding:14px 0}
+  .hit h3{font-size:16px;margin:5px 0 5px;font-weight:600;letter-spacing:-.02em}
 
   /* 매체정보 */
-  .foot{border-top:3px solid var(--ink);background:var(--card);margin-top:40px;
-    padding:24px 0 40px}
-  .foot .links{display:flex;flex-wrap:wrap;gap:0 18px;font-size:13px;
-    padding-bottom:14px;border-bottom:1px solid var(--line);margin-bottom:14px}
-  .foot p{margin:0 0 6px;font-size:12.5px;color:var(--muted);line-height:1.75}
-  .foot .name{font-weight:800;font-size:15px;color:var(--ink);margin-bottom:8px}
+  .foot{border-top:1px solid var(--rule);background:var(--shade);margin-top:52px;
+    padding:28px 0 44px}
+  .foot .links{display:flex;flex-wrap:wrap;gap:0 20px;font-size:13.5px;
+    padding-bottom:14px;margin-bottom:14px;border-bottom:1px solid var(--line)}
+  .foot .links:last-of-type{border-bottom:none}
+  .foot p{margin:0 0 6px;font-size:12.5px;color:var(--muted);line-height:1.7}
+  .foot .name{font-weight:800;font-size:16px;color:var(--ink);margin-bottom:8px;
+    letter-spacing:-.03em}
 
-  @media (max-width:860px){
-    .top-zone{grid-template-columns:1fr;gap:22px}
+  @media (max-width:900px){
+    .top-zone{grid-template-columns:1fr;gap:26px}
     .data-box{order:2}
+    .brand{font-size:30px}
+    .edited{position:static;display:block;margin-top:8px}
   }
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
@@ -211,20 +202,12 @@
   <div class="edited">편집 {{ today }}</div>
 </div></header>
 
-{# 1차는 편집 부문. 지역명만 늘어놓으면 신문이 아니라 목적지 디렉터리로 보인다. #}
-<nav class="gnb" aria-label="부문"><div class="wrap">
+<nav class="gnb" aria-label="주요 메뉴"><div class="wrap">
   {% for tid, tname, _ in topics %}<a href="/{{ tid }}/">{{ tname }}</a>{% endfor %}
   <span class="sep"></span>
-  <a class="minor" href="/about/">소개</a>
+  <a class="minor" href="/rss.xml">구독신청</a>
+  <a class="minor" href="/contact/">광고문의</a>
   <a class="minor" href="/search/">검색</a>
-  <a class="minor" href="/rss.xml">RSS</a>
-</div></nav>
-
-{# 2차는 지역면. 상품 링크가 지역 페이지에 걸려 있어 없앨 수 없고,
-   독자도 '괌 소식'을 한자리에서 보고 싶어 한다. #}
-<nav class="lnb" aria-label="지역면"><div class="wrap">
-  <span class="lnb-label">지역</span>
-  {% for key, name in region_names.items() %}<a href="/{{ key }}/">{{ name }}</a>{% endfor %}
 </div></nav>
 
 <main id="main" class="wrap">{% block content %}{% endblock %}</main>
