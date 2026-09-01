@@ -126,6 +126,11 @@ def _env() -> Environment:
     env.filters["md"] = lambda text: Markup(md_render(text))
     # 지역면 패널에서도 같은 압축을 쓴다. 항목명은 템플릿이 따로 보여준다.
     env.filters["compact"] = compact_fact
+    # 샘플 표시는 제목에서 떼어 배지로 보낸다. 헤드라인마다 "[샘플]" 이 붙어
+    # 있으면 지면이 통째로 미완성으로 보인다. 표시 자체는 없애지 않는다 —
+    # 사이트가 공개돼 있어 실제 취재로 오인되면 안 된다.
+    env.filters["clean_title"] = lambda t: (t or "").replace("[샘플] ", "", 1)
+    env.tests["sample"] = lambda t: (t or "").startswith("[샘플]")
     return env
 
 

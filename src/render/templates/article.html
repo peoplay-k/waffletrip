@@ -2,7 +2,7 @@
 {% block title %}{{ item.title }} — {{ site_name }}{% endblock %}
 {% block description %}{{ item.summary or item.title }}{% endblock %}
 {% block content %}
-<h1>{{ item.title }}</h1>
+<div class="post-head"><h1>{% if item.title is sample %}<span class="badge">샘플</span>{% endif %}{{ item.title|clean_title }}</h1></div>
 <div class="meta">{{ region_name }} · {{ item.source_name }} · {{ item.published_at[:10] }}</div>
 {% if item.photo %}<figure class="hero"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy" decoding="async"><figcaption>직접 촬영</figcaption></figure>{% endif %}
 {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}

@@ -9,7 +9,7 @@
     {% if lead %}
       <a class="eyebrow" href="/{{ lead_topic }}/">{{ topic_names.get(lead_topic, '') }}</a>
       {% if lead.photo %}<a href="{{ article_urls[lead.id] }}"><img class="lead-photo" src="{{ lead.photo }}" alt="{{ lead.title }}" loading="eager"></a>{% endif %}
-      <h1 class="lead-title"><a href="{{ article_urls[lead.id] }}">{{ lead.title }}</a></h1>
+      <h1 class="lead-title">{% if lead.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[lead.id] }}">{{ lead.title|clean_title }}</a></h1>
       {% if lead.summary %}<p class="lead-sum">{{ lead.summary }}</p>{% endif %}
       <div class="byline">{{ lead.source_name }} · {{ lead.published_at[:10] }}</div>
     {% else %}
@@ -22,7 +22,7 @@
     <article class="side-lead">
       {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="eager"></a>{% endif %}
       <a class="rg" href="/{{ it.region }}/">{{ region_names.get(it.region, it.region) }}</a>
-      <h3><a href="{{ article_urls[it.id] }}">{{ it.title }}</a></h3>
+      <h3>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[it.id] }}">{{ it.title|clean_title }}</a></h3>
       <div class="byline">{{ it.source_name }}</div>
     </article>
     {% endfor %}
@@ -44,7 +44,7 @@
 {% if headlines %}
 <div class="headline-grid">
   {% for it in headlines %}
-  <a href="{{ article_urls[it.id] }}"><span class="n">{{ loop.index }}</span>{{ it.title }}</a>
+  <a href="{{ article_urls[it.id] }}"><span class="n">{{ "%02d"|format(loop.index) }}</span><span>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}{{ it.title|clean_title }}</span></a>
   {% endfor %}
 </div>
 {% endif %}
@@ -58,7 +58,7 @@
       {% for it in by_topic[tid][:4] %}
       <article class="card{% if not it.photo %} text-only{% endif %}">
         {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="lazy"></a>{% endif %}
-        <h3>{% if it.grade == 'A' %}{{ it.title }}{% else %}<a href="{{ article_urls[it.id] }}">{{ it.title }}</a>{% endif %}</h3>
+        <h3>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}{% if it.grade == 'A' %}{{ it.title }}{% else %}<a href="{{ article_urls[it.id] }}">{{ it.title|clean_title }}</a>{% endif %}</h3>
         <div class="byline">{{ it.source_name }}</div>
       </article>
       {% endfor %}
