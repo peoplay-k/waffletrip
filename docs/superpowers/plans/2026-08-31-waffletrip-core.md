@@ -478,7 +478,7 @@ def load_sources(path: str) -> list[Source]:
 ```bash
 .venv/bin/python -m pytest tests/test_sources.py -v
 ```
-Expected: PASS (6 passed)
+Expected: PASS (9 passed)
 
 - [ ] **Step 10: 커밋**
 
@@ -1859,7 +1859,7 @@ if __name__ == "__main__":
 ```bash
 .venv/bin/python -m pytest tests/test_collect.py -v
 ```
-Expected: PASS (6 passed)
+Expected: PASS (9 passed)
 
 - [ ] **Step 5: 실제 소스로 한 번 돌려본다**
 
@@ -4646,6 +4646,7 @@ cd ~/여행신문 && ~/bin/gh run list --limit 5
 - Consumes: `src.models.Item`, `src.sources.load_sources`
 - Produces:
   - `src.relevance.TRAVEL_KEYWORDS: tuple[str, ...]`
+  - `src.relevance.TRAVEL_EXCLUSIONS: tuple[str, ...]` — 여행 단어를 품었지만 여행 기사가 아닌 표현
   - `src.relevance.is_travel_related(text: str) -> bool`
   - `src.sources.Source.curated: bool` (기본 `False`)
   - `src.edit.edit_items(raw_items, index, trending, curated_sources: set[str]) -> dict` — 시그니처에 인자 하나 추가
@@ -4670,6 +4671,32 @@ def test_travel_articles_pass():
         "제주 해수욕장 순찰·계도요원 배치",
     ):
         assert is_travel_related(text), text
+
+
+def test_words_containing_travel_terms_are_not_travel():
+    """여행 단어를 품었다고 여행 기사는 아니다.
+
+    실측 오탐: "여권통문"(1898년 여성인권선언)이 여권으로, "제2공항"이 공항으로
+    잡혀 정치·행정 기사가 여행 신문에 실렸다.
+    """
+    assert not is_travel_related("제주 양성평등주간 여권통문의 날 기념")
+    assert not is_travel_related("제2공항 건설 '도민 결정권'...출발부터 '삐걱'")
+    assert not is_travel_related("[사설] 한국공항공사 제주로 이전해야")
+
+
+def test_real_airport_and_passport_articles_still_pass():
+    """제외 규칙이 진짜 기사까지 먹으면 안 된다."""
+    assert is_travel_related("인천공항 3터미널 개장 일정 확정")
+    assert is_travel_related("여권 발급 수수료 인하")
+
+
+def test_english_keywords_use_word_boundaries():
+    """부분일치를 허용하면 "travel" 이 엉뚱한 단어에 걸린다."""
+    assert is_travel_related("Korean Air launched a new route to Guam")
+    assert is_travel_related("The couple travelled across Vietnam")   # 영국식
+    assert is_travel_related("The couple traveled across Vietnam")    # 미국식
+    assert is_travel_related("Travelling to Guam next month")
+    assert not is_travel_related("Local council approves new budget")
 
 
 def test_known_misses_are_documented():
@@ -4739,11 +4766,13 @@ Expected: FAIL — `ModuleNotFoundError: No module named 'src.relevance'`
 """
 from __future__ import annotations
 
+import re
+
 TRAVEL_KEYWORDS: tuple[str, ...] = (
     # 이동·항공
     "항공", "취항", "노선", "증편", "감편", "직항", "공항", "비행", "결항",
     "수하물", "항공권",
-    "flight", "airline", "airport", "airfare", "nonstop", "aviation",
+    "flight", "airline", "airport", "airfare", "nonstop", "aviation", "route",
     # 숙박
     "호텔", "리조트", "숙소", "숙박", "펜션", "게스트하우스", "객실",
     "hotel", "resort", "accommodation", "lodging", "hostel",
@@ -4765,13 +4794,40 @@ TRAVEL_KEYWORDS: tuple[str, ...] = (
 # 일부러 넣지 않은 것: "park"(주차된 차 사고·공원 민원이 통과했다),
 # "trip"(외교 순방 "a 10-day trip" 이 통과했다), "fair"(공정성 기사).
 
+# 여행 단어를 품고 있지만 여행 기사가 아닌 표현. 세기 전에 지운다.
+# 실측 오탐: "여권통문"(1898년 여성인권선언)이 여권으로, "제2공항"·"한국공항공사"가
+# 공항으로 잡혀 정치·행정 기사가 통과했다.
+TRAVEL_EXCLUSIONS: tuple[str, ...] = ("여권통문", "제2공항", "한국공항공사", "공항공사")
+
+# 영문 키워드에 붙여 허용할 어미. travel/travels/traveled 뿐 아니라 겹자음 형태인
+# travelled·travelling 도 잡아야 한다 — 영국식 철자가 말레이시아·싱가포르·호주
+# 영어권 소스의 표준이라, 안 잡으면 그쪽 기사를 통째로 놓친다.
+_INFLECTION = r"(?:l?e?[sd]|l?ing)?"
+
 
 def is_travel_related(text: str) -> bool:
-    """여행자에게 쓸모 있는 기사인가. 빈 문자열·None 은 아니다."""
+    """여행자에게 쓸모 있는 기사인가. 빈 문자열·None 은 아니다.
+
+    영문 키워드는 단어 경계로 맞춘다 — 부분일치를 허용하면 "travel" 이
+    "travelling" 을 넘어 엉뚱한 곳까지 걸린다. 한글은 조사가 붙어 오므로
+    부분일치를 유지하되, 실측으로 확인된 오탐 표현만 미리 지운다.
+    """
     if not text:
         return False
+
     lowered = text.lower()
-    return any(keyword in lowered for keyword in TRAVEL_KEYWORDS)
+    for phrase in TRAVEL_EXCLUSIONS:
+        lowered = lowered.replace(phrase.lower(), " ")
+
+    for keyword in TRAVEL_KEYWORDS:
+        lowered_keyword = keyword.lower()
+        if lowered_keyword.isascii():
+            pattern = r"\b" + re.escape(lowered_keyword) + _INFLECTION + r"\b"
+            if re.search(pattern, lowered):
+                return True
+        elif lowered_keyword in lowered:
+            return True
+    return False
 ```
 
 - [ ] **Step 4: 테스트 통과 확인**
@@ -4779,7 +4835,7 @@ def is_travel_related(text: str) -> bool:
 ```bash
 .venv/bin/python -m pytest tests/test_relevance.py -v
 ```
-Expected: PASS (6 passed)
+Expected: PASS (9 passed)
 
 - [ ] **Step 5: `Source` 에 `curated` 필드 추가**
 
@@ -4871,13 +4927,13 @@ def edit_items(raw_items: list[Item], index: PublishedIndex,
     apply_grades(raw_items)
 
     # 여행 전용 소스는 그대로 통과시킨다. 거기에 필터를 걸면 멀쩡한 기사를 잃는다.
-    relevant = [
-        item for item in raw_items
-        if item.grade == "A"
-        or item.source_name in curated_sources
-        or is_travel_related(f"{item.title} {item.summary}")
-    ]
-    off_topic = [i for i in raw_items if i not in relevant]
+    relevant: list[Item] = []
+    off_topic: list[Item] = []
+    for item in raw_items:
+        keep = (item.grade == "A"
+                or item.source_name in curated_sources
+                or is_travel_related(f"{item.title} {item.summary}"))
+        (relevant if keep else off_topic).append(item)
 
     kept, dropped = filter_items(relevant)
 ```
