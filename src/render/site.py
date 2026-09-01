@@ -55,6 +55,23 @@ PRODUCT_LINKS = {
 
 CONTACT_EMAIL = "peoplay@thepeoplay.com"
 
+# 하위 경로 배포용 접두사. GitHub Pages 는 커스텀 도메인이 없으면
+# https://<user>.github.io/<repo>/ 에서 서비스한다. 우리 링크는 전부 "/..." 로
+# 시작하므로 브라우저가 그것을 **도메인 루트**에서 찾아 전부 404 가 난다.
+# 사진도 기사 링크도 CSS 도 통째로 깨진다 — localhost 는 루트라 멀쩡해 보였다.
+# 커스텀 도메인이 붙으면 빈 값으로 두면 된다.
+BASE_PATH = os.environ.get("WAFFLE_BASE_PATH", "").rstrip("/")
+
+# href="/..." src="/..." 만 바꾼다. "//cdn" 같은 프로토콜 상대 URL 은 건드리지 않는다.
+_ABS_LINK = re.compile(r'(href|src)="/(?!/)')
+
+
+def with_base(html: str, base: str = None) -> str:
+    base = BASE_PATH if base is None else base.rstrip("/")
+    if not base:
+        return html
+    return _ABS_LINK.sub(rf'\1="{base}/', html)
+
 TOP_PER_REGION = 3
 
 # 데이터 패널을 짧게 줄인다. 요약문은 우리가 만든 것이라 형식을 안다
@@ -146,7 +163,14 @@ def split_panel(items: list[Item]) -> tuple[list[Item], list[Item]]:
 
 
 def _write(path: str, html: str, written: list[str]) -> None:
+    """한 곳에서만 접두사를 붙인다.
+
+    템플릿마다 필터를 걸면 새 링크를 추가할 때마다 빠뜨리게 된다.
+    실제로 사진·기사·CSS 링크가 통째로 깨진 채 배포됐다.
+    """
     os.makedirs(os.path.dirname(path), exist_ok=True)
+    if path.endswith(".html"):
+        html = with_base(html)
     with open(path, "w", encoding="utf-8") as f:
         f.write(html)
     written.append(path)

@@ -299,3 +299,42 @@ def test_compact_fact_falls_back_to_original():
 def test_compact_fact_handles_negative_temperature():
     from src.render.site import compact_fact
     assert compact_fact("2026-01-02 제주 눈, 최고 -1°C · 최저 -7°C") == "-1° / -7°  눈"
+
+
+# ── 하위 경로 배포 ────────────────────────────────────────────────
+def test_with_base_prefixes_absolute_links():
+    """GitHub Pages 는 커스텀 도메인이 없으면 /<repo>/ 하위에서 서비스한다.
+
+    "/img/..." 를 그대로 두면 브라우저가 도메인 루트에서 찾아 전부 404 가
+    난다. 실제로 사진 7장과 모든 기사 링크가 깨진 채 배포됐다.
+    """
+    from src.render.site import with_base
+    html = '<a href="/guam/">괌</a><img src="/img/guam/a.webp">'
+    got = with_base(html, "/waffletrip")
+    assert 'href="/waffletrip/guam/"' in got
+    assert 'src="/waffletrip/img/guam/a.webp"' in got
+
+
+def test_with_base_leaves_external_and_relative_links_alone():
+    from src.render.site import with_base
+    html = ('<a href="https://guamplay.com">상품</a>'
+            '<a href="//cdn.example.com/x">프로토콜상대</a>'
+            '<a href="rss.xml">상대</a>')
+    got = with_base(html, "/waffletrip")
+    assert got == html
+
+
+def test_with_base_is_a_noop_when_empty():
+    """커스텀 도메인이 붙으면 접두사가 없어야 한다."""
+    from src.render.site import with_base
+    html = '<a href="/guam/">괌</a>'
+    assert with_base(html, "") == html
+
+
+def test_rendered_pages_get_the_prefix(tmp_path, monkeypatch):
+    import src.render.site as site
+    monkeypatch.setattr(site, "BASE_PATH", "/waffletrip")
+    site.render_site([make("1", "괌 소식")], str(tmp_path), TODAY)
+    html = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert 'href="/waffletrip/' in html
+    assert 'href="//' not in html.replace('href="//waffletrip', '')

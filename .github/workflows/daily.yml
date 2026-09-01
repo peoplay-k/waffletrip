@@ -50,8 +50,13 @@ jobs:
       - name: 해설 발행
         run: python -m src.publish_drafts
 
+      # 커스텀 도메인이 붙기 전까지 사이트는 /<repo>/ 하위에서 서비스된다.
+      # 접두사를 안 주면 모든 링크가 도메인 루트를 가리켜 통째로 깨진다.
+      # DNS 가 붙으면 이 env 를 지운다.
       - name: 빌드
         run: python -m src.build
+        env:
+          WAFFLE_BASE_PATH: /waffletrip
 
       # 조용한 실패를 잡는다. 이상하면 exit 1 로 죽어 Actions 실패 메일이 간다.
       # 빌드 뒤에 두는 이유 — 오늘치 사이트는 일단 내보내고 나서 경보를 울린다.
