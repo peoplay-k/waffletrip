@@ -5,6 +5,97 @@
       "file": "assets/photos/guam/e19.webp",
       "bytes": 8634,
       "baked_at": "2026-09-01T23:55:37+09:00"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e17_2.jpg",
+      "file": "assets/photos/guam/e17_2.webp",
+      "bytes": 9698,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e18_2.jpg",
+      "file": "assets/photos/guam/e18_2.webp",
+      "bytes": 9164,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "같은 장면(e18_2)이 걸림 — 얼굴 1건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e18_3.jpg",
+      "file": "assets/photos/guam/e18_3.webp",
+      "bytes": 11482,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "같은 장면(e18_3)이 걸림 — 얼굴 6건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e19_2.jpg",
+      "file": "assets/photos/guam/e19_2.webp",
+      "bytes": 14988,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e19_3.jpg",
+      "file": "assets/photos/guam/e19_3.webp",
+      "bytes": 18632,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "같은 장면(e19_3)이 걸림 — 얼굴 7건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e20_2.jpg",
+      "file": "assets/photos/guam/e20_2.webp",
+      "bytes": 11416,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "같은 장면(e20_2)이 걸림 — 얼굴 1건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e21_2.jpg",
+      "file": "assets/photos/guam/e21_2.webp",
+      "bytes": 15342,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e22_2.jpg",
+      "file": "assets/photos/guam/e22_2.webp",
+      "bytes": 15640,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "같은 장면(e22_2)이 걸림 — 얼굴 3건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e23_2.jpg",
+      "file": "assets/photos/guam/e23_2.webp",
+      "bytes": 21108,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e24_2.jpg",
+      "file": "assets/photos/guam/e24_2.webp",
+      "bytes": 16624,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e25_2.jpg",
+      "file": "assets/photos/guam/e25_2.webp",
+      "bytes": 13916,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "같은 장면(e25_2)이 걸림 — 얼굴 5건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e26_2.jpg",
+      "file": "assets/photos/guam/e26_2.webp",
+      "bytes": 10008,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "같은 장면(e26_2)이 걸림 — 얼굴 4건 검출"
+    },
+    {
+      "src": "/Users/peoplay/과미발행/선별_식당/e26_3.jpg",
+      "file": "assets/photos/guam/e26_3.webp",
+      "bytes": 8304,
+      "baked_at": "2026-09-02T01:09:45+09:00",
+      "overrode": "같은 장면(e26_3)이 걸림 — 얼굴 5건 검출"
     }
   ]
 }

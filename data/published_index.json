@@ -228,6 +228,14 @@
     "bdb979abacccebd40f215345b63e45c5932d31c4",
     "be69ceaf952ac807f9b35f9c8fcf0ec0e4b02c96",
     "be6b8c84df823272f41bd1849ee039527cdbc5f3",
+    "c-1588f487344bf941fafb218b097c04ad38658b6a",
+    "c-19436534f55318dda081330aee410c1c764c9f09",
+    "c-235e6f5f0a7274dc33a05562d14e4a2d663bec1b",
+    "c-2ccdf87770442f44947cb96be104f193d4a3854a",
+    "c-46f969de7e104a2a2663d3e764d46ed0d643a6f9",
+    "c-5149b14bd37255bf7ac3ad6e761c81c83f204c77",
+    "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
+    "c-b5c568d4df0deabf534e6ae1f072e9c092e81421",
     "c004847cd194009d8257ad4f87af5f5629d9ed01",
     "c02481c5dd612623d73174508b05ce040b0c997b",
     "c0ac53450083b4cd494490fdc8ed6593a23c5012",
@@ -1983,6 +1991,62 @@
       "date": "2026-09-02",
       "region": "kota",
       "grade": "B"
+    },
+    {
+      "id": "c-235e6f5f0a7274dc33a05562d14e4a2d663bec1b",
+      "title": "[샘플] 괌 PIC 리조트, 물놀이 시설과 객실 실측 기록",
+      "date": "2026-09-02",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "c-5149b14bd37255bf7ac3ad6e761c81c83f204c77",
+      "title": "[샘플] 괌 3박4일, 2인이 실제로 낸 돈",
+      "date": "2026-09-02",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "c-46f969de7e104a2a2663d3e764d46ed0d643a6f9",
+      "title": "[샘플] 괌 돌고래 투어, 배 타는 시간과 실제 동선",
+      "date": "2026-09-02",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "c-2ccdf87770442f44947cb96be104f193d4a3854a",
+      "title": "[샘플] 코타키나발루 숙소, 시내와 리조트 중 어디에 묵나",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "C"
+    },
+    {
+      "id": "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
+      "title": "[샘플] 코타키나발루 석양, 시간과 자리",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "C"
+    },
+    {
+      "id": "c-19436534f55318dda081330aee410c1c764c9f09",
+      "title": "[샘플] 라오스 이동, 구간별로 실제 걸린 시간",
+      "date": "2026-09-02",
+      "region": "laos",
+      "grade": "C"
+    },
+    {
+      "id": "c-1588f487344bf941fafb218b097c04ad38658b6a",
+      "title": "[샘플] 사이판 3박4일, 반복 운영으로 다듬은 일정표",
+      "date": "2026-09-02",
+      "region": "saipan",
+      "grade": "C"
+    },
+    {
+      "id": "c-b5c568d4df0deabf534e6ae1f072e9c092e81421",
+      "title": "[샘플] 사이판 날씨와 준비물, 문의가 가장 많았던 것",
+      "date": "2026-09-02",
+      "region": "saipan",
+      "grade": "C"
     }
   ]
 }

@@ -71,3 +71,31 @@ def test_copy_into_only_copies_files_that_exist(tmp_path, monkeypatch):
     out = tmp_path / "public"
     assert copy_into(str(out)) == 1
     assert (out / "img" / "guam" / "real.webp").exists()
+
+
+def test_assign_does_not_repeat_within_a_region():
+    """톱기사와 카드에 같은 사진이 걸리면 지면이 성의 없어 보인다."""
+    from src.photos import assign
+    manifest = {"guam": [{"file": f"assets/photos/guam/{c}.webp"} for c in "abcde"]}
+    got = assign(manifest, "guam", [f"id-{i}" for i in range(5)])
+    assert len(set(got.values())) == 5
+
+
+def test_assign_is_stable_for_the_same_input():
+    from src.photos import assign
+    manifest = {"guam": [{"file": f"assets/photos/guam/{c}.webp"} for c in "abcde"]}
+    seeds = ["a1", "b2", "c3"]
+    assert assign(manifest, "guam", seeds) == assign(manifest, "guam", seeds)
+
+
+def test_assign_reuses_when_articles_outnumber_photos():
+    """사진보다 기사가 많아도 배정이 비지 않아야 한다."""
+    from src.photos import assign
+    manifest = {"guam": [{"file": "assets/photos/guam/only.webp"}]}
+    got = assign(manifest, "guam", ["a", "b", "c"])
+    assert len(got) == 3 and set(got.values()) == {"/img/guam/only.webp"}
+
+
+def test_assign_without_photos_returns_empty():
+    from src.photos import assign
+    assert assign({}, "guam", ["a"]) == {}

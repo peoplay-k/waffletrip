@@ -303,12 +303,21 @@ def main() -> int:
     # 검출기가 통과시켰다고 굽지 않는다. **사람이 고른 것만 굽는다.**
     # 실측에서 거의 같은 사진의 보정본끼리 판정이 갈렸다 — 통과는 신뢰할 수 없다.
     to_bake = [results[i - 1] for i in approved_ix]
-    refused = [v for v in to_bake if not v["ok"]]
-    if refused:
-        print("\n검출기가 막은 컷은 승인해도 굽지 않는다:", file=sys.stderr)
-        for v in refused:
+
+    # 검출기에 거부권을 주지 않는다. 실측이 그렇게 하라고 말한다 —
+    # 66장 중 62장을 막았고 그 안에 로브스터 접시가 있었다. 거부권을 주면
+    # 사람이 승인해도 아무것도 못 굽는다. 반대로 검출기의 '통과'도 믿을 수
+    # 없다(사람이 서 있는 로비를 통과시켰다).
+    #
+    # 그래서 **사람 승인이 최종이고, 재정의한 사실을 기록에 남긴다.**
+    # 실수로 넘어가지 않도록 무엇을 왜 재정의하는지 크게 찍는다.
+    overridden = [v for v in to_bake if not v["ok"]]
+    if overridden:
+        print(f"\n검출기 판정을 재정의한다 — {len(overridden)}장", file=sys.stderr)
+        for v in overridden:
             print(f"    {os.path.basename(v['src'])} — {v['reason']}", file=sys.stderr)
-        to_bake = [v for v in to_bake if v["ok"]]
+        print("    승인한 사람이 시트를 봤다고 보고 굽는다. 매니페스트에 남긴다.",
+              file=sys.stderr)
 
     if args.commit and to_bake:
         manifest = {}
@@ -326,8 +335,12 @@ def main() -> int:
             out_path = os.path.join(OUT_ROOT, args.region, f"{safe}.webp")
             size = bake(src, out_path)
             total_bytes += size
-            entries.append({"src": src, "file": out_path, "bytes": size,
-                            "baked_at": datetime.now(KST).isoformat(timespec="seconds")})
+            entry = {"src": src, "file": out_path, "bytes": size,
+                     "baked_at": datetime.now(KST).isoformat(timespec="seconds")}
+            if not verdict["ok"]:
+                # 나중에 문제가 생기면 무엇을 재정의했는지 되짚을 수 있어야 한다.
+                entry["overrode"] = verdict["reason"]
+            entries.append(entry)
         os.makedirs(os.path.dirname(MANIFEST), exist_ok=True)
         with open(MANIFEST, "w", encoding="utf-8") as f:
             json.dump(manifest, f, ensure_ascii=False, indent=2)

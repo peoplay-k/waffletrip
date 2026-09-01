@@ -147,6 +147,25 @@
   .tw td{font-variant-numeric:tabular-nums}
   .tw tr:last-child td{border-bottom:none}
 
+  /* 지역면·부문 페이지 */
+  .page-head{border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:22px}
+  .page-head h1{font-size:clamp(24px,3.4vw,32px);margin:0 0 8px;letter-spacing:-.02em}
+  .panel{display:flex;flex-wrap:wrap;gap:6px 18px}
+  .panel .fact{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .panel .fact b{color:var(--ink);font-weight:600}
+  .sec-lead{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;
+    padding-bottom:22px;margin-bottom:22px;border-bottom:1px solid var(--rule)}
+  .sec-lead:has(img){grid-template-columns:minmax(0,420px) minmax(0,1fr)}
+  .sec-lead img{width:100%;aspect-ratio:16/10;object-fit:cover;border:1px solid var(--line)}
+  .sec-lead h2{font-size:clamp(20px,2.6vw,26px);line-height:1.35;margin:0 0 10px;
+    letter-spacing:-.02em;text-wrap:balance}
+  .sec-lead .summary{color:var(--muted);font-size:15px;margin:0 0 10px;max-width:58ch}
+  .card .summary{color:var(--muted);font-size:13.5px;margin:4px 0 6px}
+  .cta-box{margin-top:32px;padding:18px 20px;background:var(--card);
+    border:1px solid var(--line);border-left:3px solid var(--gold)}
+  .cta{font-weight:700;color:var(--gold);font-size:16px}
+  .cta-box .note{margin:6px 0 0}
+
   /* 검색 */
   .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
   .searchbox{margin:18px 0 10px}

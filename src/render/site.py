@@ -12,7 +12,7 @@ import re
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
 
-from src.photos import copy_into, load_manifest, pick as pick_photo
+from src.photos import assign as assign_photos, copy_into, load_manifest
 from src.render.md import render as md_render
 
 from src.models import Item
@@ -106,6 +106,8 @@ def _env() -> Environment:
     env.filters["safe_url"] = safe_url
     # 해설 기사 본문. md.render 가 이스케이프를 먼저 하므로 안전하다.
     env.filters["md"] = lambda text: Markup(md_render(text))
+    # 지역면 패널에서도 같은 압축을 쓴다. 항목명은 템플릿이 따로 보여준다.
+    env.filters["compact"] = compact_fact
     return env
 
 
@@ -152,9 +154,15 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 승인된 사진만 붙는다. 매니페스트가 없으면 조용히 사진 없이 간다.
     manifest = load_manifest()
     if manifest:
+        # 지역면 단위로 배정한다. 한 화면에 같은 사진이 두 번 걸리지 않게.
+        by_region: dict[str, list] = {}
         for item in items:
             if not item.photo and item.grade != "A":
-                item.photo = pick_photo(manifest, item.region, item.id) or None
+                by_region.setdefault(item.region, []).append(item)
+        for region, group in by_region.items():
+            mapping = assign_photos(manifest, region, [i.id for i in group])
+            for item in group:
+                item.photo = mapping.get(item.id) or None
     env = _env()
     written: list[str] = []
     urls = {i.id: article_url(i) for i in items}
