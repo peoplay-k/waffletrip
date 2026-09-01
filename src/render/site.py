@@ -52,6 +52,28 @@ PRODUCT_LINKS = {
 }
 
 TOP_PER_REGION = 3
+
+# 데이터 패널을 짧게 줄인다. 요약문은 우리가 만든 것이라 형식을 안다
+# (src/fetch/json_api.py). 형식이 안 맞으면 원문을 그대로 쓴다 —
+# 줄이려다 정보를 잃는 것보다 길게 나오는 편이 낫다.
+_WEATHER_RE = re.compile(
+    r"\S+\s+(?P<city>\S+)\s+(?P<sky>[^,]+),\s*최고\s*(?P<hi>-?\d+)°C"
+    r"\s*·\s*최저\s*(?P<lo>-?\d+)°C(?:\s*·\s*강수확률\s*(?P<rain>\d+)%)?")
+_FX_RE = re.compile(r"기준\s+(?P<unit>[\d,]+)\s+(?P<cur>[A-Z]{3})\s*=\s*약\s*(?P<krw>[\d,.]+)원")
+
+
+def compact_fact(summary: str) -> str:
+    """긴 사실 문장을 패널 한 줄로 줄인다."""
+    m = _WEATHER_RE.search(summary or "")
+    if m:
+        out = f"{m['hi']}° / {m['lo']}°  {m['sky'].strip()}"
+        if m["rain"]:
+            out += f"  ·  비 {m['rain']}%"
+        return out
+    m = _FX_RE.search(summary or "")
+    if m:
+        return f"{m['unit']} {m['cur']}  {m['krw']}원"
+    return summary or ""
 _SLUG_STRIP = re.compile(r"[^\w가-힣]+", re.UNICODE)
 # 경로 조각에 쓸 수 있는 문자. id·region 이 오염돼도 out_dir 밖으로 못 나가게 한다.
 _SAFE_SEGMENT = re.compile(r"[^A-Za-z0-9_-]")
@@ -142,16 +164,35 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "today": today, "article_urls": urls,
     }
 
-    # 홈 — 와플 격자
+    # 홈 — 국내 여행 전문지 지면 구성을 따른다.
+    # 톱기사 / 오늘의 데이터 / 최신 헤드라인 띠 / 주요뉴스 / 지역면 블록
     top_by_region = {
         key: [i for i in group if i.grade != "A"][:TOP_PER_REGION]
         for key, group in grouped.items()
     }
+    articles = [i for i in items if i.grade != "A"]
+    lead = articles[0] if articles else None
+    sub_leads = articles[1:5]
+    main_news = articles[5:17]
+
+    # "많이 본 뉴스" 자리에는 조회수를 쓰지 않는다 — 우리는 그 숫자가 없고,
+    # 없는 숫자로 순위를 만들면 그건 지어낸 것이다. 대신 우리가 실제로 가진
+    # 사실 데이터(환율·날씨)를 놓는다.
+    data_panel = []
+    for key, name in REGION_NAMES.items():
+        facts = [compact_fact(i.summary)
+                 for i in grouped.get(key, []) if i.grade == "A"]
+        facts = [f for f in facts if f]
+        if facts:
+            data_panel.append({"region": key, "name": name, "facts": facts})
+
     _write(
         os.path.join(out_dir, "index.html"),
         env.get_template("index.html").render(
             counts={k: len(v) for k, v in grouped.items()},
-            top_by_region=top_by_region, **common),
+            top_by_region=top_by_region, lead=lead, sub_leads=sub_leads,
+            main_news=main_news, data_panel=data_panel,
+            headlines=articles[:8], **common),
         written,
     )
 

@@ -247,3 +247,40 @@ def test_no_product_link_uses_an_unowned_domain():
     forbidden = ("jejuplay.com", "hawaiiplay.com", "vietnamplay.com")
     for region, url in PRODUCT_LINKS.items():
         assert not any(bad in url for bad in forbidden), region
+
+
+# ── 데이터 패널 압축 ──────────────────────────────────────────────
+def test_compact_fact_shortens_weather():
+    from src.render.site import compact_fact
+    got = compact_fact("2026-09-02 하갓냐 뇌우, 최고 31°C · 최저 25°C · 강수확률 100%")
+    assert got == "31° / 25°  뇌우  ·  비 100%"
+
+
+def test_compact_fact_handles_weather_without_rain():
+    from src.render.site import compact_fact
+    got = compact_fact("2026-09-02 하갓냐 맑음, 최고 31°C · 최저 25°C")
+    assert got == "31° / 25°  맑음"
+
+
+def test_compact_fact_shortens_exchange_rate():
+    from src.render.site import compact_fact
+    assert compact_fact("2026-09-02 기준 1 USD = 약 1,377원") == "1 USD  1,377원"
+
+
+def test_compact_fact_keeps_low_denomination_unit():
+    """100 단위로 묶은 저액면 통화가 1 단위로 잘못 보이면 안 된다."""
+    from src.render.site import compact_fact
+    assert compact_fact("2026-09-02 기준 100 VND = 약 5.3원") == "100 VND  5.3원"
+
+
+def test_compact_fact_falls_back_to_original():
+    """줄이려다 정보를 잃는 것보다 길게 나오는 편이 낫다."""
+    from src.render.site import compact_fact
+    assert compact_fact("모르는 형식입니다") == "모르는 형식입니다"
+    assert compact_fact("") == ""
+    assert compact_fact(None) == ""
+
+
+def test_compact_fact_handles_negative_temperature():
+    from src.render.site import compact_fact
+    assert compact_fact("2026-01-02 제주 눈, 최고 -1°C · 최저 -7°C") == "-1° / -7°  눈"

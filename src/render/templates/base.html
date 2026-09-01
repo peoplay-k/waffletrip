@@ -10,89 +10,179 @@
   :root{
     --bg:#FDFBF7; --card:#FFFFFF; --ink:#2B2118; --muted:#7A6A57;
     --gold:#C98A2E; --line:#E8DFD0;
-  }
-  @media (prefers-color-scheme: dark){
-    :root{ --bg:#1A1512; --card:#231C17; --ink:#F2EAE0; --muted:#A6957F;
-           --gold:#E0A648; --line:#3A2F26; }
+    --bar:#241C14;        /* 네비바. 국내 여행 전문지의 짙은 상단 띠를 따른다 */
+    --bar-ink:#F3EEE4;
+    --rule:#D8CCB8;
+    --w:1180px;
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);
-       font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",
-                   "Malgun Gothic",sans-serif;line-height:1.65}
-  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
-  header{border-bottom:3px solid var(--gold);padding:28px 0 20px}
-  .brand{font-size:30px;font-weight:800;letter-spacing:-.02em;
-         text-decoration:none;color:var(--ink)}
-  .tagline{color:var(--muted);font-size:14px;margin-top:4px}
-  .date{color:var(--gold);font-size:13px;font-weight:600;margin-top:10px}
-  nav{margin:18px 0 0;display:flex;flex-wrap:wrap;gap:8px}
-  nav a{font-size:14px;padding:5px 12px;border:1px solid var(--line);
-        border-radius:999px;text-decoration:none;color:var(--muted)}
-  nav a:hover{border-color:var(--gold);color:var(--gold)}
-  h1{font-size:24px;margin:32px 0 4px}
-  h2{font-size:18px;margin:28px 0 10px}
-  /* 와플 격자 */
-  .waffle{display:grid;gap:14px;margin:20px 0;
-          grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
-  .cell{background:var(--card);border:1px solid var(--line);border-radius:10px;
-        padding:16px}
-  .cell a.cell-title{font-weight:700;text-decoration:none;color:var(--ink)}
-  .panel{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0;padding:14px;
-         background:var(--card);border:1px solid var(--line);border-radius:10px}
-  .panel .fact{font-size:14px}
-  .panel .fact b{color:var(--gold)}
-  article.row{padding:16px 0;border-bottom:1px solid var(--line)}
-  article.row h3{margin:0 0 6px;font-size:17px}
-  article.row h3 a{text-decoration:none;color:var(--ink)}
-  article.row h3 a:hover{color:var(--gold)}
-  .meta{font-size:12px;color:var(--muted)}
-  .summary{margin:6px 0 0;color:var(--ink)}
-  .cta{display:block;margin:28px 0;padding:16px;border-radius:10px;
-       background:var(--gold);color:#fff;text-decoration:none;font-weight:700;
-       text-align:center}
-  footer{margin:48px 0 32px;padding-top:18px;border-top:1px solid var(--line);
-         font-size:13px;color:var(--muted)}
-  .src{font-size:13px}
-  .src a{color:var(--gold)}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",
+      "Malgun Gothic","맑은 고딕",sans-serif;
+    font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--w);margin:0 auto;padding:0 20px}
+  a{color:inherit;text-decoration:none}
+  a:hover{text-decoration:underline;text-underline-offset:2px}
+  img{max-width:100%;height:auto;display:block}
+  :focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 
-/* 사진 — 직접 촬영한 것만 실린다 */
-.hero{margin:1.2rem 0;padding:0}
-.hero img{width:100%;height:auto;display:block;border:1px solid #ddd}
-.hero figcaption{font-size:.8rem;color:#777;margin-top:.35rem}
+  /* 접근성 바로가기 — 국내 뉴스 사이트의 표준 관례 */
+  .skips a{position:absolute;left:-9999px}
+  .skips a:focus{left:12px;top:12px;z-index:99;background:var(--ink);
+    color:#fff;padding:10px 16px}
 
-/* 해설 기사 본문 */
-.body{margin:1.2rem 0}
-.body h2{font-size:1.25rem;margin:2rem 0 .6rem}
-.body h3{font-size:1.1rem;margin:1.5rem 0 .5rem}
-.body p{margin:0 0 1rem}
-.body ul,.body ol{margin:0 0 1rem;padding-left:1.4rem}
-.body li{margin-bottom:.35rem}
-.body blockquote{margin:1.2rem 0;padding:.7rem 1rem;border-left:3px solid #ccc;color:#555}
-.body hr{border:none;border-top:1px solid #ddd;margin:2rem 0}
-.body code{background:#f2f2f0;padding:1px 5px;border-radius:2px;font-size:.9em}
-/* 실측값 표. 좁은 화면에서 본문이 아니라 표만 스크롤되게 감싼다. */
-.tw{overflow-x:auto;margin:1.2rem 0;border:1px solid #ddd}
-.tw table{border-collapse:collapse;width:100%;font-size:.95rem}
-.tw th,.tw td{padding:.5rem .8rem;border-bottom:1px solid #eee;text-align:left;vertical-align:top}
-.tw th{background:#f7f7f5;font-weight:700;white-space:nowrap}
-.tw td{font-variant-numeric:tabular-nums}
-.tw tr:last-child td{border-bottom:none}
+  /* 제호 — 가운데 정렬, 오른쪽에 편집 시각 */
+  .mast{border-bottom:1px solid var(--line);background:var(--card)}
+  .mast .wrap{position:relative;padding-top:22px;padding-bottom:16px;text-align:center}
+  .brand{font-size:34px;font-weight:800;letter-spacing:-.02em;color:var(--ink)}
+  .brand:hover{text-decoration:none}
+  .tagline{font-size:13px;color:var(--muted);margin-top:4px}
+  .edited{position:absolute;right:20px;bottom:18px;font-size:12px;color:var(--muted)}
+
+  /* 네비바 */
+  .gnb{background:var(--bar)}
+  .gnb .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:0}
+  .gnb a{color:var(--bar-ink);font-size:14.5px;padding:12px 14px;white-space:nowrap}
+  .gnb a:hover{background:rgba(255,255,255,.09);text-decoration:none}
+  .gnb .sep{flex:1}
+  .gnb .minor{font-size:13px;opacity:.72}
+
+  main{padding:26px 0 60px}
+
+  /* ── 톱기사 + 오늘의 데이터 ── */
+  .top-zone{display:grid;grid-template-columns:1fr 320px;gap:28px;
+    padding-bottom:22px;border-bottom:2px solid var(--ink)}
+  .eyebrow{display:inline-block;font-size:13px;font-weight:700;color:var(--gold);
+    border-bottom:2px solid var(--gold);padding-bottom:2px;margin-bottom:12px}
+  .lead-title{font-size:clamp(25px,3.6vw,38px);line-height:1.28;font-weight:800;
+    letter-spacing:-.025em;margin:0 0 14px;text-wrap:balance}
+  .lead-photo{width:100%;border:1px solid var(--line);margin:0 0 14px}
+  .lead-sum{margin:0 0 10px;color:var(--muted);font-size:15.5px;max-width:60ch}
+  .byline{font-size:12.5px;color:var(--muted)}
+  .sub-leads{list-style:none;margin:20px 0 0;padding:16px 0 0;
+    border-top:1px solid var(--line);display:flex;flex-direction:column;gap:9px}
+  .sub-leads li{display:flex;gap:10px;align-items:baseline}
+  .sub-leads .t{font-size:15px;font-weight:600;line-height:1.45}
+
+  .rg{font-size:11.5px;font-weight:700;color:var(--gold);white-space:nowrap}
+
+  .data-box{background:var(--card);border:1px solid var(--line);padding:18px 18px 14px;
+    align-self:start}
+  .data-box h2{font-size:16px;margin:0 0 12px;padding-bottom:9px;
+    border-bottom:2px solid var(--ink)}
+  .facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px}
+  .facts li{display:grid;grid-template-columns:62px 1fr;gap:2px 8px;font-size:12.5px;
+    padding-bottom:8px;border-bottom:1px dotted var(--line)}
+  .facts .rg{grid-row:span 2;align-self:center}
+  .facts li:last-child{border-bottom:none;padding-bottom:0}
+  .facts .f{color:var(--muted);line-height:1.5;font-variant-numeric:tabular-nums}
+  .note{font-size:11.5px;color:var(--muted);margin:12px 0 0}
+
+  /* ── 최신 헤드라인 띠 ── */
+  .ticker{display:flex;align-items:center;gap:12px;margin:18px 0 0;
+    background:var(--card);border:1px solid var(--line);padding:9px 12px;overflow:hidden}
+  .ticker .tag{flex:0 0 auto;background:var(--gold);color:#fff;font-size:11.5px;
+    font-weight:700;padding:3px 9px}
+  .roll{display:flex;gap:26px;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+  .roll::-webkit-scrollbar{display:none}
+  .roll a{font-size:13.5px;color:var(--muted)}
+
+  /* ── 블록 ── */
+  .block{margin-top:36px}
+  .block-title{font-size:19px;margin:0 0 16px;padding-bottom:9px;
+    border-bottom:2px solid var(--ink)}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:22px}
+  .card img{width:100%;aspect-ratio:16/10;object-fit:cover;border:1px solid var(--line);
+    margin-bottom:9px}
+  /* 사진 없는 카드는 위쪽 괘선으로 구분한다. 신문 지면의 텍스트 기사와 같다. */
+  .card.text-only{border-top:1px solid var(--rule);padding-top:11px}
+  .card h3{font-size:15.5px;line-height:1.45;margin:5px 0 6px;font-weight:600}
+  .card .byline{font-size:12px}
+
+  .regions{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:22px}
+  .rcol{border-top:1px solid var(--rule);padding-top:11px}
+  .rhead{display:flex;justify-content:space-between;align-items:baseline;
+    font-weight:700;font-size:15px;margin-bottom:9px}
+  .rhead span{font-size:11.5px;color:var(--muted);font-weight:400}
+  .rcol ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
+  .rcol li a{font-size:13.5px;color:var(--muted);line-height:1.5}
+  .empty,.empty-s{color:var(--muted)}
+  .empty-s{font-size:12.5px}
+
+  /* 사진 — 직접 촬영한 것만 실린다 */
+  .hero{margin:1.2rem 0;padding:0}
+  .hero img{width:100%;height:auto;display:block;border:1px solid var(--line)}
+  .hero figcaption{font-size:.8rem;color:var(--muted);margin-top:.35rem}
+
+  /* 해설 기사 본문 */
+  .body{margin:1.2rem 0}
+  .body h2{font-size:1.25rem;margin:2rem 0 .6rem}
+  .body h3{font-size:1.1rem;margin:1.5rem 0 .5rem}
+  .body p{margin:0 0 1rem}
+  .body ul,.body ol{margin:0 0 1rem;padding-left:1.4rem}
+  .body li{margin-bottom:.35rem}
+  .body blockquote{margin:1.2rem 0;padding:.7rem 1rem;border-left:3px solid var(--rule);color:var(--muted)}
+  .body hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+  .body code{background:#F2EFE9;padding:1px 5px;border-radius:2px;font-size:.9em}
+  /* 실측값 표. 좁은 화면에서 본문이 아니라 표만 스크롤되게 감싼다. */
+  .tw{overflow-x:auto;margin:1.2rem 0;border:1px solid var(--line)}
+  .tw table{border-collapse:collapse;width:100%;font-size:.95rem}
+  .tw th,.tw td{padding:.5rem .8rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  .tw th{background:#F7F3EB;font-weight:700;white-space:nowrap}
+  .tw td{font-variant-numeric:tabular-nums}
+  .tw tr:last-child td{border-bottom:none}
+
+  /* 매체정보 */
+  .foot{border-top:3px solid var(--ink);background:var(--card);margin-top:40px;
+    padding:24px 0 40px}
+  .foot .links{display:flex;flex-wrap:wrap;gap:0 18px;font-size:13px;
+    padding-bottom:14px;border-bottom:1px solid var(--line);margin-bottom:14px}
+  .foot p{margin:0 0 6px;font-size:12.5px;color:var(--muted);line-height:1.75}
+  .foot .name{font-weight:800;font-size:15px;color:var(--ink);margin-bottom:8px}
+
+  @media (max-width:860px){
+    .top-zone{grid-template-columns:1fr;gap:22px}
+    .data-box{order:2}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<div class="skips">
+  <a href="#main">본문 바로가기</a>
+  <a href="#foot">매체정보 바로가기</a>
+</div>
+
+<header class="mast"><div class="wrap">
   <a class="brand" href="/">{{ site_name }}</a>
   <div class="tagline">{{ site_tagline }}</div>
-  <div class="date">{{ today }}</div>
-  <nav>
-    {% for key, name in region_names.items() %}<a href="/{{ key }}/">{{ name }}</a>{% endfor %}
-    <a href="/flight/">항공</a><a href="/data/">데이터</a><a href="/about/">소개</a>
-  </nav>
+  <div class="edited">편집 {{ today }}</div>
 </div></header>
-<main class="wrap">{% block content %}{% endblock %}</main>
-<footer><div class="wrap">
-  {{ site_name }} · {{ site_tagline }}<br>
-  기사 요약은 원문 출처를 표기하고 링크로 연결합니다. 저작권은 각 매체에 있습니다.
+
+<nav class="gnb" aria-label="주요 메뉴"><div class="wrap">
+  {% for key, name in region_names.items() %}<a href="/{{ key }}/">{{ name }}</a>{% endfor %}
+  <span class="sep"></span>
+  <a class="minor" href="/flight/">항공</a>
+  <a class="minor" href="/data/">데이터</a>
+  <a class="minor" href="/about/">소개</a>
+  <a class="minor" href="/rss.xml">RSS</a>
+</div></nav>
+
+<main id="main" class="wrap">{% block content %}{% endblock %}</main>
+
+<footer class="foot" id="foot"><div class="wrap">
+  <div class="links">
+    <a href="/about/">매체소개</a><a href="/data/">데이터</a>
+    <a href="/rss.xml">RSS</a><a href="/sitemap.xml">사이트맵</a>
+  </div>
+  <p class="name">{{ site_name }}</p>
+  <p>{{ site_tagline }}</p>
+  <p>기사 요약은 원문 출처를 표기하고 링크로 연결합니다. 저작권은 각 매체에 있습니다.<br>
+  직접 취재하고 촬영한 기사와 사진에는 그 사실을 밝힙니다.</p>
 </div></footer>
 </body>
 </html>
