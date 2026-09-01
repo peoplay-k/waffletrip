@@ -99,3 +99,35 @@ def test_assign_reuses_when_articles_outnumber_photos():
 def test_assign_without_photos_returns_empty():
     from src.photos import assign
     assert assign({}, "guam", ["a"]) == {}
+
+
+def test_hero_photos_come_first():
+    """1면 사진이 매체의 인상을 결정한다.
+
+    해시로만 고르면 음식 클로즈업이 톱기사에 걸린다 — 실제로 양념치킨이
+    여행신문 1면에 올라갔다. 풍경으로 표시한 사진을 먼저 쓴다.
+    """
+    from src.photos import photos_for
+    manifest = {"guam": [
+        {"file": "assets/photos/guam/food.webp"},
+        {"file": "assets/photos/guam/beach.webp", "hero": True},
+    ]}
+    assert photos_for(manifest, "guam")[0] == "/img/guam/beach.webp"
+
+
+def test_lead_article_gets_the_hero_photo():
+    from src.photos import assign
+    manifest = {"guam": [
+        {"file": "assets/photos/guam/food.webp"},
+        {"file": "assets/photos/guam/beach.webp", "hero": True},
+    ]}
+    got = assign(manifest, "guam", ["lead", "second"])
+    assert got["lead"] == "/img/guam/beach.webp"
+    assert got["second"] == "/img/guam/food.webp"
+
+
+def test_without_hero_flags_nothing_breaks():
+    from src.photos import assign, photos_for
+    manifest = {"guam": [{"file": f"assets/photos/guam/{c}.webp"} for c in "abc"]}
+    assert len(photos_for(manifest, "guam")) == 3
+    assert len(set(assign(manifest, "guam", ["a", "b", "c"]).values())) == 3

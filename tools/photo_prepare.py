@@ -263,6 +263,8 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--approve", default="",
                     help="콘택트시트를 눈으로 본 뒤 구울 번호. 예: 1,4,7-9")
+    ap.add_argument("--hero", action="store_true",
+                    help="1면에 쓸 풍경 사진으로 표시한다.")
     ap.add_argument("--commit", action="store_true",
                     help="--approve 로 고른 것만 굽는다.")
     args = ap.parse_args()
@@ -337,6 +339,8 @@ def main() -> int:
             total_bytes += size
             entry = {"src": src, "file": out_path, "bytes": size,
                      "baked_at": datetime.now(KST).isoformat(timespec="seconds")}
+            if args.hero:
+                entry["hero"] = True
             if not verdict["ok"]:
                 # 나중에 문제가 생기면 무엇을 재정의했는지 되짚을 수 있어야 한다.
                 entry["overrode"] = verdict["reason"]
