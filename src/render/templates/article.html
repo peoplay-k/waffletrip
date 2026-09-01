@@ -4,6 +4,7 @@
 {% block content %}
 <h1>{{ item.title }}</h1>
 <div class="meta">{{ region_name }} · {{ item.source_name }} · {{ item.published_at[:10] }}</div>
+{% if item.photo %}<figure class="hero"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy" decoding="async"><figcaption>직접 촬영</figcaption></figure>{% endif %}
 {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
 {% if item.body_md %}<div class="body">{{ item.body_md|md }}</div>{% endif %}
 {% set source_href = item.source_url|safe_url %}

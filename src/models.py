@@ -37,6 +37,7 @@ class Item:
     status: str
     title_hash: str
     body_md: str | None = None
+    photo: str | None = None          # /img/... 웹 경로. 승인된 사진만 들어온다
     related: list[str] = field(default_factory=list)
 
 
@@ -106,7 +107,7 @@ def item_to_dict(item: Item) -> dict:
         "section": item.section, "title": item.title, "summary": item.summary,
         "source_name": item.source_name, "source_url": item.source_url,
         "published_at": item.published_at, "collected_at": item.collected_at,
-        "status": item.status, "title_hash": item.title_hash,
+        "status": item.status, "title_hash": item.title_hash, "photo": item.photo,
         "body_md": item.body_md, "related": list(item.related),
     }
 
@@ -118,5 +119,6 @@ def item_from_dict(d: dict) -> Item:
         source_url=d["source_url"], published_at=d["published_at"],
         collected_at=d["collected_at"], status=d["status"],
         title_hash=d["title_hash"], body_md=d.get("body_md"),
+        photo=d.get("photo"),
         related=list(d.get("related") or []),
     )
