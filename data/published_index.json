@@ -102,6 +102,7 @@
     "522448019882c955477498465b04d396404e3bbc",
     "5451ef94f9dce6ec0915b9063d73b9432c0eb8da",
     "5455306572f4b6c4725ec2ac2c826ae65d5d047b",
+    "55649f7ceb17393c328072ae0f2792de20868799",
     "55be4ab1fe507960bbe8cbd654d2e92b4d9f535e",
     "57c882014ed74e4244f611c62fede65259f05548",
     "58a36a4e05002a0918a665175aecf5959aa19173",
@@ -2052,6 +2053,13 @@
     {
       "id": "203e4889a6cc78f6e8bdbf323da0d67e7139f74a",
       "title": "Victoria Bridge access partly closed after child's fatal fall",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "55649f7ceb17393c328072ae0f2792de20868799",
+      "title": "Thailand shortens visa-free stays for dozens of nations from Sept 15",
       "date": "2026-09-02",
       "region": "kota",
       "grade": "B"
