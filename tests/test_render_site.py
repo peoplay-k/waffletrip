@@ -168,17 +168,18 @@ def test_render_site_with_no_items_still_writes_index(tmp_path):
     assert (tmp_path / "index.html").exists()
 
 
-def test_render_site_writes_flight_page(tmp_path):
+def test_biz_page_collects_airline_news(tmp_path):
+    """항공 노선 소식은 여행BIZ 로 간다."""
     item = make("1", "진에어 괌 노선 신규 취항", section="flight")
     render_site([item], str(tmp_path), TODAY)
-    html = (tmp_path / "flight" / "index.html").read_text(encoding="utf-8")
+    html = (tmp_path / "biz" / "index.html").read_text(encoding="utf-8")
     assert "진에어 괌 노선 신규 취항" in html
 
 
-def test_flight_page_excludes_ordinary_news(tmp_path):
-    render_site([make("1", "투몬 해변 청소")], str(tmp_path), TODAY)
-    html = (tmp_path / "flight" / "index.html").read_text(encoding="utf-8")
-    assert "투몬 해변 청소" not in html
+def test_biz_page_excludes_unrelated_news(tmp_path):
+    render_site([make("1", "바다거북 산란지 발견")], str(tmp_path), TODAY)
+    html = (tmp_path / "biz" / "index.html").read_text(encoding="utf-8")
+    assert "바다거북 산란지 발견" not in html
 
 
 def test_render_site_writes_data_page(tmp_path):
@@ -196,11 +197,25 @@ def test_render_site_writes_about_page(tmp_path):
     assert "robots.txt" in html
 
 
-def test_nav_links_to_flight_data_and_about(tmp_path):
+def test_nav_links_to_every_topic(tmp_path):
+    """네비의 부문 링크가 실제 페이지와 어긋나면 404 로 간다."""
+    from src.topics import TOPICS
     render_site([], str(tmp_path), TODAY)
     html = (tmp_path / "index.html").read_text(encoding="utf-8")
-    for href in ('href="/flight/"', 'href="/data/"', 'href="/about/"'):
-        assert href in html
+    for tid, _, _ in TOPICS:
+        assert f'href="/{tid}/"' in html, tid
+        assert (tmp_path / tid / "index.html").exists(), tid
+
+
+def test_region_names_are_not_in_the_top_nav(tmp_path):
+    """지역명을 상단에 늘어놓으면 신문이 아니라 목적지 디렉터리로 보인다."""
+    import re
+    render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "index.html").read_text(encoding="utf-8")
+    nav = re.search(r'<nav class="gnb".*?</nav>', html, re.S)
+    assert nav, "네비를 찾지 못했다"
+    for name in REGION_NAMES.values():
+        assert name not in nav.group(0), name
 
 
 def test_every_region_key_is_present_in_both_maps():
