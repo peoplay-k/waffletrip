@@ -76,8 +76,112 @@ def _parse_exchange_rate(source: Source, payload: dict,
     return items
 
 
+# ── 날씨 ──────────────────────────────────────────────────────────
+# Open-Meteo 는 인증키가 필요 없다. 공공데이터포털 키를 기다리느라 A등급이
+# 환율 하나로 남아 있던 것을 메운다. 기사가 하루 1~2건인 사이판·코타·라오스
+# 페이지가 특히 이걸로 산다.
+#
+# 응답은 요청한 좌표 순서대로 배열이 온다. 그런데 **순서에 의존하지 않는다** —
+# sources.yaml 의 URL 을 누가 고치면 지역이 통째로 뒤바뀌고, 그 오보를 아무도
+# 눈치채지 못한다. 응답이 돌려주는 좌표로 지역을 되찾는다.
+WEATHER_SITES = (
+    ("guam", "하갓냐", 13.4443, 144.7937),
+    ("saipan", "사이판", 15.1850, 145.7467),
+    ("hawaii", "호놀룰루", 21.3069, -157.8583),
+    ("vietnam", "다낭", 16.0544, 108.2022),
+    ("kota", "코타키나발루", 5.9804, 116.0735),
+    ("laos", "비엔티안", 17.9757, 102.6331),
+    ("jeju", "제주", 33.4996, 126.5312),
+)
+
+# 좌표는 API 가 격자에 맞춰 반올림해 돌려준다. 0.5도면 이웃 지역과 섞이지 않으면서
+# 반올림 오차를 흡수한다 (가장 가까운 두 지점이 8도 이상 떨어져 있다).
+_COORD_TOLERANCE = 0.5
+
+# WMO 기상 코드. 없는 코드는 그대로 두지 않고 "기타"로 흘린다 — 날씨 한 칸 때문에
+# 그날 데이터 패널 전체가 빠지는 것이 더 나쁘다.
+_WMO = {
+    0: "맑음", 1: "대체로 맑음", 2: "구름 조금", 3: "흐림",
+    45: "안개", 48: "짙은 안개",
+    51: "약한 이슬비", 53: "이슬비", 55: "강한 이슬비",
+    56: "어는 이슬비", 57: "강한 어는 이슬비",
+    61: "약한 비", 63: "비", 65: "강한 비",
+    66: "어는 비", 67: "강한 어는 비",
+    71: "약한 눈", 73: "눈", 75: "강한 눈", 77: "싸락눈",
+    80: "소나기", 81: "강한 소나기", 82: "매우 강한 소나기",
+    85: "소낙눈", 86: "강한 소낙눈",
+    95: "뇌우", 96: "우박 동반 뇌우", 99: "강한 우박 동반 뇌우",
+}
+
+
+def _site_for(lat: float, lon: float):
+    """응답 좌표로 지역을 되찾는다. 배열 순서를 믿지 않는다."""
+    for region, city, site_lat, site_lon in WEATHER_SITES:
+        if (abs(site_lat - lat) <= _COORD_TOLERANCE
+                and abs(site_lon - lon) <= _COORD_TOLERANCE):
+            return region, city
+    return None
+
+
+def _parse_weather(source: Source, payload, collected_at: str) -> list[Item]:
+    """Open-Meteo 일별 예보를 지역별 A등급 항목으로 바꾼다."""
+    entries = payload if isinstance(payload, list) else [payload]
+    day = collected_at[:10]
+    items: list[Item] = []
+
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        site = _site_for(entry.get("latitude"), entry.get("longitude"))
+        if site is None:
+            continue                      # 모르는 좌표는 조용히 버린다
+        region, city = site
+
+        daily = entry.get("daily") or {}
+        try:
+            high = daily["temperature_2m_max"][0]
+            low = daily["temperature_2m_min"][0]
+        except (KeyError, IndexError, TypeError):
+            continue                      # 기온이 없으면 날씨 항목이 아니다
+        if high is None or low is None:
+            continue
+
+        rain = _first(daily.get("precipitation_probability_max"))
+        sky = _WMO.get(_first(daily.get("weather_code")), "기타")
+
+        title = f"오늘의 날씨 — {city}"
+        summary = f"{day} {city} {sky}, 최고 {high:.0f}°C · 최저 {low:.0f}°C"
+        if rain is not None:
+            summary += f" · 강수확률 {rain:.0f}%"
+
+        items.append(Item(
+            id=make_id("", f"wx|{region}", day),
+            grade="A",
+            region=region,
+            section="data",
+            title=title,
+            summary=summary,
+            source_name=source.name,
+            source_url=source.url,
+            published_at=collected_at,
+            collected_at=collected_at,
+            status="draft",
+            title_hash=title_hash(f"{title}|{region}|{day}"),
+        ))
+
+    return items
+
+
+def _first(seq):
+    try:
+        return seq[0]
+    except (TypeError, IndexError):
+        return None
+
+
 HANDLERS = {
     "exchange_rate": _parse_exchange_rate,
+    "weather": _parse_weather,
 }
 
 

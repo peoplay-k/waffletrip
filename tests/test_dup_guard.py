@@ -219,3 +219,29 @@ def test_same_region_duplicate_is_still_caught():
     index = PublishedIndex(set(), [])
     index.add(make("g1", "괌 신규 취항 노선 확정 발표"), "2026-08-31")
     assert index.contains(make("g2", "괌 신규 취항 노선 확정")) is True
+
+
+def test_commentary_is_judged_by_id_only():
+    """해설은 원본 사건을 일부러 다시 다룬다. 제목이 겹치는 것이 정상이다.
+
+    유사도로 판정하면 우리가 쓴 해설이 우리가 실은 원문에 막혀 영영 못 나간다.
+    """
+    from src.guards.dup_guard import PublishedIndex
+    from src.models import Item, title_hash
+
+    title = "하와이 직항 노선 재개된다"
+    index = PublishedIndex(set(), [])
+    original = Item(id="abc123", grade="B", region="hawaii", section="flight",
+                    title=title, summary="", source_name="s", source_url="",
+                    published_at="2026-09-02", collected_at="2026-09-02",
+                    status="published", title_hash=title_hash(title))
+    index.add(original, "2026-09-02")
+
+    commentary = Item(id="c-xyz", grade="C", region="hawaii", section="flight",
+                      title=title, summary="", source_name="s", source_url="",
+                      published_at="2026-09-02", collected_at="2026-09-02",
+                      status="published", title_hash=title_hash(title))
+    assert index.contains(commentary) is False      # 제목이 같아도 통과
+
+    index.add(commentary, "2026-09-02")
+    assert index.contains(commentary) is True       # id 가 같으면 막힌다

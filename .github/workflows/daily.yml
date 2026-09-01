@@ -37,11 +37,26 @@ jobs:
       - name: 수집
         run: python -m src.collect
 
+      # 급상승 키워드. 해설 기사 후보 선정의 세 경로 중 하나라 편집 앞에 둔다.
+      # 실패해도 죽지 않는다 — 키워드는 보조 신호다.
+      - name: 급상승 키워드
+        run: python -m src.trending
+
       - name: 편집
         run: python -m src.edit
 
+      # 승인된 해설 초안을 내보낸다. edit 가 쓴 오늘자 jsonl 에 이어쓰므로
+      # 반드시 편집 뒤, 빌드 앞이어야 한다.
+      - name: 해설 발행
+        run: python -m src.publish_drafts
+
       - name: 빌드
         run: python -m src.build
+
+      # 조용한 실패를 잡는다. 이상하면 exit 1 로 죽어 Actions 실패 메일이 간다.
+      # 빌드 뒤에 두는 이유 — 오늘치 사이트는 일단 내보내고 나서 경보를 울린다.
+      - name: 건강검진
+        run: python -m src.health
 
       - name: 발행 이력 커밋
         run: |

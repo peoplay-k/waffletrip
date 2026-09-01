@@ -214,3 +214,22 @@ def test_main_uses_kst_not_runner_timezone(tmp_path, monkeypatch):
     (raw / "items.json").write_text("[]", encoding="utf-8")
     assert edit_mod.main(str(tmp_path), str(tmp_path / "review")) == 0, (
         f"KST={kst_today} UTC={utc_today} — KST 디렉터리를 찾아야 한다")
+
+
+def test_purge_keeps_published_drafts(tmp_path):
+    """발행된 기사의 원고가 48시간 뒤 사라지면 안 된다."""
+    import os
+    import yaml
+    from src.edit import purge_stale_drafts
+    review = tmp_path / "review"
+    review.mkdir()
+    for status in ("draft", "approved", "published"):
+        p = review / f"2026-08-01_{status}aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.md"
+        p.write_text("---\n" + yaml.safe_dump({"status": status}) + "---\n본문",
+                     encoding="utf-8")
+
+    removed = purge_stale_drafts(str(review), "2026-09-02")
+    names = {os.path.basename(p) for p in removed}
+    assert any("draft" in n for n in names)
+    assert not any("approved" in n for n in names)
+    assert not any("published" in n for n in names)

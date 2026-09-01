@@ -30,7 +30,10 @@ def classify(item: Item) -> str:
 
 def apply_grades(items: list[Item]) -> list[Item]:
     for item in items:
-        item.grade = classify(item)
+        # 이미 C(해설)인 항목은 건드리지 않는다. classify 는 A/B 만 판정하므로
+        # 덮어쓰면 우리가 쓴 해설 기사가 매 실행 B 로 강등된다.
+        if item.grade != "C":
+            item.grade = classify(item)
         # 항공 노선 변동 기사는 항공 섹션으로 옮긴다. 전 지역 항공 페이지의 재료가
         # 되고, 여행객이 예약 결정에 직접 쓰는 정보라 따로 모을 값어치가 있다.
         if item.section == "news" and is_flight_event(item.title):

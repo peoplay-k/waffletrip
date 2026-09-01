@@ -9,6 +9,9 @@ import os
 import re
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from markupsafe import Markup
+
+from src.render.md import render as md_render
 
 from src.models import Item
 
@@ -24,13 +27,26 @@ REGION_NAMES = {
 
 # 지역별 상품 사이트. 확인된 것만 넣는다 — 다른 지역 페이지에 엉뚱한 브랜드를
 # 붙이면 브랜드가 섞인다. 빈 값이면 상품 버튼을 그리지 않는다.
+# 지역별 자사 상품 사이트.
+#
+# **소유가 확인된 곳만 넣는다.** 2026-09-01 에 사업자등록번호(220-88-17836)·
+# 대표자명·여행업등록번호(제2015-33호)로 대조해 4곳을 확인했다.
+#
+# 빈 값 3개는 몰라서 비운 게 아니라 **일부러 비운 것이다.**
+#   hawaii   — hawaiiplay.com 은 도메인 판매 안내 페이지다 (우리 것이 아니다)
+#   vietnam  — vietnamplay.com 은 빈 사이트다
+#   jeju     — jejuplay.com 은 제주 유흥 정보 사이트로, 전혀 다른 사업자다.
+#              여기에 링크를 걸면 여행 신문이 유흥 사이트를 홍보하는 꼴이 된다.
+#
+# 나중에 실제 사이트가 생기면 그때 채운다. 확인 없이 채우지 않는다 —
+# 예전에 전부 guamplay.com 으로 채워져 하와이 페이지에 괌 여행사가 붙어 있었다.
 PRODUCT_LINKS = {
     "guam": "https://guamplay.com",
-    "saipan": "",
+    "saipan": "https://saipanplay.com",
     "hawaii": "",
     "vietnam": "",
-    "kota": "",
-    "laos": "",
+    "kota": "https://kotaplay.com",
+    "laos": "https://laosplay.com",
     "jeju": "",
 }
 
@@ -62,6 +78,8 @@ def _env() -> Environment:
         autoescape=select_autoescape(["html"]),
     )
     env.filters["safe_url"] = safe_url
+    # 해설 기사 본문. md.render 가 이스케이프를 먼저 하므로 안전하다.
+    env.filters["md"] = lambda text: Markup(md_render(text))
     return env
 
 

@@ -208,3 +208,42 @@ def test_every_region_key_is_present_in_both_maps():
     from src.models import REGIONS
     assert set(REGION_NAMES) == set(REGIONS)
     assert set(PRODUCT_LINKS) == set(REGIONS)
+
+
+# ── 자사 상품 링크 ────────────────────────────────────────────────
+def test_product_links_cover_every_region():
+    """지역이 늘었는데 키를 빠뜨리면 KeyError 로 빌드가 죽는다."""
+    from src.models import REGIONS
+    from src.render.site import PRODUCT_LINKS
+    assert set(PRODUCT_LINKS) == set(REGIONS)
+
+
+def test_product_links_point_at_their_own_region():
+    """하와이 페이지에 괌 여행사를 붙이는 브랜드 격리 위반을 막는다.
+
+    실제로 예전에 전부 guamplay.com 으로 채워져 있었다.
+    """
+    from src.render.site import PRODUCT_LINKS
+    expected_host = {"guam": "guamplay.com", "saipan": "saipanplay.com",
+                     "kota": "kotaplay.com", "laos": "laosplay.com"}
+    for region, host in expected_host.items():
+        assert PRODUCT_LINKS[region].endswith(host), region
+
+
+def test_regions_without_a_verified_site_stay_empty():
+    """소유가 확인되지 않은 도메인은 비워 둔다.
+
+    jejuplay.com 은 제주 유흥 정보 사이트이고, hawaiiplay.com 은 도메인 판매
+    페이지다. 이름이 비슷하다는 이유로 붙이면 사고가 난다.
+    """
+    from src.render.site import PRODUCT_LINKS
+    assert PRODUCT_LINKS["jeju"] == ""
+    assert PRODUCT_LINKS["hawaii"] == ""
+    assert PRODUCT_LINKS["vietnam"] == ""
+
+
+def test_no_product_link_uses_an_unowned_domain():
+    from src.render.site import PRODUCT_LINKS
+    forbidden = ("jejuplay.com", "hawaiiplay.com", "vietnamplay.com")
+    for region, url in PRODUCT_LINKS.items():
+        assert not any(bad in url for bad in forbidden), region

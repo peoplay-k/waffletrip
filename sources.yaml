@@ -19,6 +19,19 @@ sources:
     lang: en
     enabled: true
 
+  # 날씨. 인증키가 필요 없는 Open-Meteo 를 쓴다. 공공데이터포털 키를 기다리느라
+  # A등급이 환율 하나로 남아 있던 것을 메운다.
+  # 좌표 순서는 src/fetch/json_api.py 의 WEATHER_SITES 와 같지만, 파서는 순서가
+  # 아니라 응답 좌표로 지역을 되찾으므로 이 URL 을 고쳐도 지역이 뒤바뀌지 않는다.
+  - id: weather
+    region: all
+    section: data
+    name: 날씨
+    type: json
+    url: https://api.open-meteo.com/v1/forecast?latitude=13.4443,15.1850,21.3069,16.0544,5.9804,17.9757,33.4996&longitude=144.7937,145.7467,-157.8583,108.2022,116.0735,102.6331,126.5312&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&timezone=auto&forecast_days=1
+    lang: en
+    enabled: true
+
   # ============ guam ============
 
   - id: guam_pacific_island_times

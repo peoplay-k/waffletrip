@@ -115,3 +115,95 @@ def test_every_currency_has_a_quote_unit():
 def test_currency_map_covers_every_non_krw_region():
     assert set(CURRENCY_BY_REGION) == {
         "guam", "saipan", "hawaii", "vietnam", "kota", "laos"}
+
+
+# ── 날씨 ──────────────────────────────────────────────────────────
+def _weather_source():
+    from src.sources import Source
+    return Source(id="weather", region="all", section="data", name="날씨",
+                  type="json", url="https://api.open-meteo.com/x", lang="en",
+                  enabled=True)
+
+
+def _entry(lat, lon, high=30.0, low=25.0, rain=80, code=61):
+    return {"latitude": lat, "longitude": lon,
+            "daily": {"time": ["2026-09-02"], "temperature_2m_max": [high],
+                      "temperature_2m_min": [low],
+                      "precipitation_probability_max": [rain],
+                      "weather_code": [code]}}
+
+
+def test_weather_maps_every_configured_region():
+    """7개 지역이 전부 살아 나와야 한다. 하나라도 빠지면 그 페이지가 빈다."""
+    from src.fetch.json_api import WEATHER_SITES, parse_json
+    payload = [_entry(lat, lon) for _, _, lat, lon in WEATHER_SITES]
+    items = parse_json(_weather_source(), payload, "2026-09-02T05:00:00+09:00")
+    assert {i.region for i in items} == {r for r, _, _, _ in WEATHER_SITES}
+    assert all(i.grade == "A" and i.section == "data" for i in items)
+
+
+def test_weather_region_survives_reordered_response():
+    """sources.yaml 의 좌표 순서를 누가 바꿔도 지역이 뒤바뀌면 안 된다.
+
+    순서에 의존하면 하와이 날씨가 괌 페이지에 실리고 아무도 눈치채지 못한다.
+    """
+    from src.fetch.json_api import WEATHER_SITES, parse_json
+    payload = [_entry(lat, lon) for _, _, lat, lon in reversed(WEATHER_SITES)]
+    items = parse_json(_weather_source(), payload, "2026-09-02T05:00:00+09:00")
+    by_region = {i.region: i for i in items}
+    guam_lat = next(lat for r, _, lat, _ in WEATHER_SITES if r == "guam")
+    assert abs(guam_lat - 13.4443) < 0.01
+    assert "하갓냐" in by_region["guam"].summary
+    assert "호놀룰루" in by_region["hawaii"].summary
+
+
+def test_weather_tolerates_grid_rounding():
+    """API 는 좌표를 격자에 맞춰 반올림해 돌려준다."""
+    from src.fetch.json_api import parse_json
+    items = parse_json(_weather_source(), [_entry(13.5, 144.75)],
+                       "2026-09-02T05:00:00+09:00")
+    assert items[0].region == "guam"
+
+
+def test_weather_skips_unknown_coordinates():
+    from src.fetch.json_api import parse_json
+    assert parse_json(_weather_source(), [_entry(48.85, 2.35)],
+                      "2026-09-02T05:00:00+09:00") == []
+
+
+def test_weather_skips_entry_without_temperature():
+    from src.fetch.json_api import parse_json
+    broken = {"latitude": 13.4443, "longitude": 144.7937, "daily": {}}
+    assert parse_json(_weather_source(), [broken],
+                      "2026-09-02T05:00:00+09:00") == []
+
+
+def test_weather_summary_reads_as_korean_sentence():
+    from src.fetch.json_api import parse_json
+    items = parse_json(_weather_source(),
+                       [_entry(13.4443, 144.7937, 31.4, 25.2, 100, 95)],
+                       "2026-09-02T05:00:00+09:00")
+    assert items[0].summary == "2026-09-02 하갓냐 뇌우, 최고 31°C · 최저 25°C · 강수확률 100%"
+
+
+def test_unknown_weather_code_does_not_drop_the_item():
+    """날씨 표현 한 칸 때문에 그날 데이터 패널이 빠지면 안 된다."""
+    from src.fetch.json_api import parse_json
+    items = parse_json(_weather_source(),
+                       [_entry(13.4443, 144.7937, code=9999)],
+                       "2026-09-02T05:00:00+09:00")
+    assert len(items) == 1 and "기타" in items[0].summary
+
+
+def test_missing_rain_probability_is_omitted_not_zero():
+    from src.fetch.json_api import parse_json
+    entry = _entry(13.4443, 144.7937)
+    entry["daily"]["precipitation_probability_max"] = [None]
+    items = parse_json(_weather_source(), [entry], "2026-09-02T05:00:00+09:00")
+    assert "강수확률" not in items[0].summary
+
+
+def test_every_weather_site_region_is_a_known_region():
+    from src.fetch.json_api import WEATHER_SITES
+    from src.models import REGIONS
+    assert all(r in REGIONS for r, _, _, _ in WEATHER_SITES)

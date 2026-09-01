@@ -118,8 +118,9 @@ def purge_stale_drafts(review_dir: str, today: str,
                     front = yaml.safe_load(f.read().split("---")[1]) or {}
             except Exception:
                 front = {}
-            # 승인된 초안은 오래돼도 지우지 않는다. 지우는 것은 방치된 초안뿐이다.
-            if front.get("status") == "approved":
+            # 승인·발행된 초안은 오래돼도 지우지 않는다. 지우는 것은 방치된 초안뿐이다.
+            # published 를 함께 지키지 않으면 낸 기사의 원고가 48시간 뒤 사라진다.
+            if front.get("status") in ("approved", "published"):
                 continue
             os.remove(path)
             removed.append(path)

@@ -155,3 +155,20 @@ def test_grade_a_items_are_never_c_candidates():
 
 def test_empty_input_yields_no_candidates():
     assert pick_c_candidates([], trending=["괌"]) == []
+
+
+def test_apply_grades_does_not_downgrade_commentary():
+    """승인된 해설(C)이 다음 실행에 B 로 강등되면 우리가 쓴 기사가 사라진다."""
+    from src.grade import apply_grades
+    from src.models import Item, title_hash
+    c = Item(id="c-1", grade="C", region="guam", section="news",
+             title="해설 기사", summary="", source_name="s", source_url="",
+             published_at="2026-09-02", collected_at="2026-09-02",
+             status="published", title_hash=title_hash("해설 기사"))
+    b = Item(id="2", grade="B", region="guam", section="news",
+             title="일반 기사", summary="", source_name="s", source_url="",
+             published_at="2026-09-02", collected_at="2026-09-02",
+             status="draft", title_hash=title_hash("일반 기사"))
+    apply_grades([c, b])
+    assert c.grade == "C"
+    assert b.grade == "B"

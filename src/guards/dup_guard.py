@@ -73,7 +73,10 @@ class PublishedIndex:
         """
         if item.id in self.ids:
             return True
-        if item.grade == "A":
+        # C(해설)도 id 로만 본다. 해설은 원본 사건을 **일부러** 다시 다루므로
+        # 제목이 겹치는 것이 정상이다. 유사도로 보면 우리가 쓴 글이 우리가 실은
+        # 원문에 막혀 영원히 못 나간다.
+        if item.grade in ("A", "C"):
             return False
 
         tokens = title_tokens(item.title)
