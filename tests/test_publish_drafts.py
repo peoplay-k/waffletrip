@@ -106,19 +106,27 @@ def test_main_appends_and_does_not_clobber_edit_output(tmp_path, monkeypatch):
     assert json.loads(lines[0])["id"] == "기존"
 
 
-def test_already_published_id_is_skipped(tmp_path, monkeypatch):
-    review, _ = _draft(tmp_path)
+def test_published_draft_is_not_reissued_on_another_day(tmp_path, monkeypatch):
+    """어제 낸 해설이 오늘 지면에 다시 실리면 안 된다.
+
+    유실 복구는 '오늘 발행했는데 오늘 파일에서 사라진' 경우로만 한정한다.
+    날짜가 다르면 그건 유실이 아니라 지난 기사다.
+    """
+    import yaml as _yaml
+    review, path = _draft(tmp_path, status="published")
+    front = _yaml.safe_load(path.read_text(encoding="utf-8").split("---")[1])
+    front["published_on"] = "2026-09-01"          # 어제 발행
+    body = path.read_text(encoding="utf-8").split("---", 2)[2]
+    path.write_text("---\n" + _yaml.safe_dump(front, allow_unicode=True,
+                                              sort_keys=False) + "---" + body,
+                    encoding="utf-8")
+
     data = tmp_path / "data"
     (data / "items").mkdir(parents=True)
-    index = PublishedIndex(set(), [])
-    from src.models import Item
-    from src.publish_drafts import commentary_id as cid
-    index.ids.add(cid(SOURCE_ID, DAY))
-    index.save(str(data / "published_index.json"))
 
     import src.publish_drafts as pd
     monkeypatch.setattr(pd, "datetime", _FixedDatetime)
-    main(str(data), str(review))
+    assert main(str(data), str(review)) == 0
     assert not (data / "items" / f"{DAY}.jsonl").exists()
 
 
@@ -144,3 +152,46 @@ def test_draft_with_trade_price_is_blocked(tmp_path):
 def test_clean_draft_still_passes(tmp_path):
     review, _ = _draft(tmp_path, body="실제 결제가는 180,000원이었다.")
     assert len(collect_approved(str(review), DAY)) == 1
+
+
+def test_republishes_when_edit_wiped_todays_file(tmp_path, monkeypatch):
+    """edit 가 그날 jsonl 을 덮어쓰면 해설 기사가 통째로 사라진다.
+
+    실제로 그랬다. 로컬에서 발행하고 커밋했더니 CI 의 edit 가 파일을 다시
+    쓰면서 샘플 8건이 전부 지워졌고, 발행 이력에 id 가 남아 있어 중복
+    검사에도 걸리지 않아 아무도 몰랐다.
+    """
+    review, path = _draft(tmp_path, status="published")
+    import yaml as _yaml
+    front = _yaml.safe_load(path.read_text(encoding="utf-8").split("---")[1])
+    front["published_on"] = DAY
+    body = path.read_text(encoding="utf-8").split("---", 2)[2]
+    path.write_text("---\n" + _yaml.safe_dump(front, allow_unicode=True,
+                                              sort_keys=False) + "---" + body,
+                    encoding="utf-8")
+
+    data = tmp_path / "data"
+    (data / "items").mkdir(parents=True)
+    (data / "items" / f"{DAY}.jsonl").write_text("", encoding="utf-8")  # edit 가 비웠다
+
+    import src.publish_drafts as pd
+    monkeypatch.setattr(pd, "datetime", _FixedDatetime)
+    assert main(str(data), str(review)) == 0
+
+    lines = (data / "items" / f"{DAY}.jsonl").read_text(encoding="utf-8").splitlines()
+    assert len(lines) == 1
+    assert json.loads(lines[0])["grade"] == "C"
+
+
+def test_does_not_duplicate_when_already_in_todays_file(tmp_path, monkeypatch):
+    review, _ = _draft(tmp_path)
+    data = tmp_path / "data"
+    (data / "items").mkdir(parents=True)
+    import src.publish_drafts as pd
+    from src.publish_drafts import commentary_id
+    (data / "items" / f"{DAY}.jsonl").write_text(
+        json.dumps({"id": commentary_id(SOURCE_ID, DAY)}) + "\n", encoding="utf-8")
+    monkeypatch.setattr(pd, "datetime", _FixedDatetime)
+    main(str(data), str(review))
+    lines = (data / "items" / f"{DAY}.jsonl").read_text(encoding="utf-8").splitlines()
+    assert len(lines) == 1

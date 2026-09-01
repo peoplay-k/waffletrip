@@ -88,7 +88,14 @@ def collect_approved(review_dir: str, day: str) -> list[tuple[str, Item]]:
                   file=sys.stderr)
             continue
 
-        if front.get("status") != "approved":
+        # 오늘 발행했는데 오늘 파일에서 사라진 기사는 다시 낸다.
+        # edit 가 그날 jsonl 을 'w' 로 덮어쓰기 때문에, 로컬에서 발행한 뒤
+        # CI 에서 edit 가 다시 돌면 해설 기사가 통째로 지워진다. 발행 이력에는
+        # id 가 남아 있어 아래 중복 검사에도 걸리지 않아 조용히 사라졌다.
+        status = front.get("status")
+        if status == "published" and front.get("published_on") == day:
+            pass                      # 아래에서 오늘 파일에 있는지 확인한다
+        elif status != "approved":
             continue
         text = _body_text(body)
         if not text:
@@ -129,11 +136,12 @@ def collect_approved(review_dir: str, day: str) -> list[tuple[str, Item]]:
     return out
 
 
-def _mark_published(path: str, item_id: str) -> None:
+def _mark_published(path: str, item_id: str, day: str) -> None:
     with open(path, encoding="utf-8") as f:
         front, body = _split(f.read())
     front["status"] = "published"
     front["published_id"] = item_id
+    front["published_on"] = day
     with open(path, "w", encoding="utf-8") as f:
         f.write("---\n")
         yaml.safe_dump(front, f, allow_unicode=True, sort_keys=False)
@@ -151,10 +159,22 @@ def main(data_dir: str = "data", review_dir: str = "content/review") -> int:
     index_path = os.path.join(data_dir, "published_index.json")
     index = PublishedIndex.load(index_path)
 
+    # 오늘 파일에 이미 들어 있는 id
+    items_path = os.path.join(data_dir, "items", f"{today}.jsonl")
+    present: set[str] = set()
+    if os.path.exists(items_path):
+        with open(items_path, encoding="utf-8") as f:
+            for raw in f:
+                if raw.strip():
+                    try:
+                        present.add(json.loads(raw)["id"])
+                    except Exception:
+                        pass
+
     published: list[tuple[str, Item]] = []
     for path, item in approved:
-        if item.id in index.ids:
-            print(f"  이미 발행됨, 건너뛴다: {os.path.basename(path)}")
+        if item.id in present:
+            print(f"  오늘 지면에 이미 있다, 건너뛴다: {os.path.basename(path)}")
             continue
         published.append((path, item))
 
@@ -171,7 +191,7 @@ def main(data_dir: str = "data", review_dir: str = "content/review") -> int:
 
     for path, item in published:
         index.add(item, today)
-        _mark_published(path, item.id)
+        _mark_published(path, item.id, today)
     index.save(index_path)
 
     print(f"해설 기사 발행: {len(published)}건")
