@@ -3,3 +3,14 @@ __pycache__/
 .venv/
 public/
 data/raw/
+
+# 사진 작업 산출물
+# .gitignore 는 줄 끝 주석을 지원하지 않는다. 주석은 반드시 제 줄에 쓴다 —
+# "data/photos/sheets/  # 설명" 으로 썼다가 규칙이 통째로 무효가 됐고,
+# 얼굴이 잡힌 콘택트시트가 공개 저장소에 올라갈 뻔했다.
+
+# NAS 인덱스 — 로컬 작업 파일
+data/photos/index.json
+
+# 콘택트시트 — 사람 얼굴이 그대로 들어 있다. 저장소가 공개라 절대 올리지 않는다.
+data/photos/sheets/

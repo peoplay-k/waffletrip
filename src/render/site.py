@@ -11,6 +11,7 @@ import re
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
 
+from src.photos import copy_into, load_manifest, pick as pick_photo
 from src.render.md import render as md_render
 
 from src.models import Item
@@ -123,6 +124,12 @@ def _write(path: str, html: str, written: list[str]) -> None:
 
 
 def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
+    # 승인된 사진만 붙는다. 매니페스트가 없으면 조용히 사진 없이 간다.
+    manifest = load_manifest()
+    if manifest:
+        for item in items:
+            if not item.photo and item.grade != "A":
+                item.photo = pick_photo(manifest, item.region, item.id) or None
     env = _env()
     written: list[str] = []
     urls = {i.id: article_url(i) for i in items}
@@ -200,5 +207,9 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
                 **common),
             written,
         )
+
+    copied = copy_into(out_dir)
+    if copied:
+        print(f"  사진 {copied}장 복사 → {out_dir}/img/")
 
     return written

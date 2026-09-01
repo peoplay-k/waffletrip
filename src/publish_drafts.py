@@ -124,6 +124,7 @@ def collect_approved(review_dir: str, day: str) -> list[tuple[str, Item]]:
             status="published",
             title_hash=title_hash(title),
             body_md=text,
+            photo=(str(front.get("photo") or "") or None),
         )))
     return out
 
