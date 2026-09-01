@@ -109,8 +109,7 @@
       "file": "assets/photos/guam/e24_3_hi.webp",
       "bytes": 71164,
       "baked_at": "2026-09-02T06:34:00+09:00",
-      "overrode": "얼굴 2건 검출",
-      "hero": true
+      "overrode": "얼굴 2건 검출"
     },
     {
       "src": "/Users/peoplay/과미발행/원본/e25_2_hi.jpg",
@@ -217,15 +216,13 @@
       "src": "/Users/peoplay/과미발행/선별_식당/e24_3.jpg",
       "file": "assets/photos/guam/e24_3.webp",
       "bytes": 5864,
-      "baked_at": "2026-09-02T06:49:48+09:00",
-      "hero": true
+      "baked_at": "2026-09-02T06:49:48+09:00"
     },
     {
       "src": "/Users/peoplay/과미발행/선별_식당/e24_3_hi.jpg",
       "file": "assets/photos/guam/e24_3_hi.webp",
       "bytes": 59254,
-      "baked_at": "2026-09-02T06:49:48+09:00",
-      "hero": true
+      "baked_at": "2026-09-02T06:49:48+09:00"
     }
   ]
 }

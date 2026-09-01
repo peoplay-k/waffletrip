@@ -19,7 +19,7 @@
   <article class="sec-lead">
     {% if head.photo %}<a href="{{ article_urls[head.id] }}"><img src="{{ head.photo }}" alt="{{ head.title }}" loading="lazy"></a>{% endif %}
     <div class="sec-lead-txt">
-      <h2><a href="{{ article_urls[head.id] }}">{{ head.title }}</a></h2>
+      <h2>{% if head.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[head.id] }}">{{ head.title|clean_title }}</a></h2>
       {% if head.summary %}<p class="summary">{{ head.summary }}</p>{% endif %}
       <div class="byline">{{ head.source_name }} · {{ head.published_at[:10] }}</div>
     </div>
@@ -30,7 +30,7 @@
     {% for item in articles[1:] %}
     <article class="card{% if not item.photo %} text-only{% endif %}">
       {% if item.photo %}<a href="{{ article_urls[item.id] }}"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy"></a>{% endif %}
-      <h3><a href="{{ article_urls[item.id] }}">{{ item.title }}</a></h3>
+      <h3>{% if item.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[item.id] }}">{{ item.title|clean_title }}</a></h3>
       <div class="byline">{{ item.source_name }} · {{ item.published_at[:10] }}</div>
     </article>
     {% endfor %}
