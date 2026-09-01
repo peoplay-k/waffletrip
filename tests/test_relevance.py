@@ -32,7 +32,9 @@ def test_real_airport_and_passport_articles_still_pass():
 def test_english_keywords_use_word_boundaries():
     """부분일치를 허용하면 "travel" 이 엉뚱한 단어에 걸린다."""
     assert is_travel_related("Korean Air launched a new route to Guam")
-    assert is_travel_related("The couple travelled across Vietnam")
+    assert is_travel_related("The couple travelled across Vietnam")   # 영국식
+    assert is_travel_related("The couple traveled across Vietnam")    # 미국식
+    assert is_travel_related("Travelling to Guam next month")
     assert not is_travel_related("Local council approves new budget")
 
 

@@ -42,9 +42,10 @@ TRAVEL_KEYWORDS: tuple[str, ...] = (
 # 공항으로 잡혀 정치·행정 기사가 통과했다.
 TRAVEL_EXCLUSIONS: tuple[str, ...] = ("여권통문", "제2공항", "한국공항공사", "공항공사")
 
-# 영문 키워드에 붙여 허용할 어미. travel/travels/travelled/travelling 은 잡고
-# 부분일치 오탐은 막는다. 항공 키워드에서 쓴 것과 같은 방식이다.
-_INFLECTION = r"(?:e?[sd]|ing)?"
+# 영문 키워드에 붙여 허용할 어미. travel/travels/traveled 뿐 아니라 겹자음 형태인
+# travelled·travelling 도 잡아야 한다 — 영국식 철자가 말레이시아·싱가포르·호주
+# 영어권 소스의 표준이라, 안 잡으면 그쪽 기사를 통째로 놓친다.
+_INFLECTION = r"(?:l?e?[sd]|l?ing)?"
 
 
 def is_travel_related(text: str) -> bool:
