@@ -20,7 +20,7 @@ import yaml
 
 from src.grade import apply_grades, pick_c_candidates
 from src.guards.copyright_guard import filter_items
-from src.autowrite import build_daily
+from src.autowrite import build_daily, build_roundup
 from src.guards.dup_guard import (PublishedIndex, cluster_batch,
                                   filter_unpublished)
 from src.models import Item, item_from_dict, item_to_dict
@@ -143,6 +143,21 @@ def load_trending(data_dir: str) -> list[str]:
         return []
 
 
+def load_recent_for_roundup(data_dir: str, today: str, days: int = 7) -> list[Item]:
+    """지난 이레 발행분. 주간 브리핑의 재료다."""
+    import glob as _g
+    out: list[Item] = []
+    for path in sorted(_g.glob(os.path.join(data_dir, "items", "*.jsonl")))[-(days + 1):]:
+        try:
+            with open(path, encoding="utf-8") as f:
+                for raw in f:
+                    if raw.strip():
+                        out.append(item_from_dict(json.loads(raw)))
+        except Exception:
+            continue
+    return out
+
+
 def main(data_dir: str = "data", review_dir: str = "content/review",
          sources_path: str = "sources.yaml") -> int:
     today = datetime.now(KST).date().isoformat()
@@ -168,6 +183,16 @@ def main(data_dir: str = "data", review_dir: str = "content/review",
     if daily and not index.contains(daily):
         publish.append(daily)
         print(f"데이터 기사: {daily.title}")
+
+    # 주간 지역 브리핑. 지난 이레치 발행분에서 만든다.
+    # 같은 주에 두 번 나가지 않도록 발행 이력이 막는다.
+    recent = load_recent_for_roundup(data_dir, today)
+    from src.models import REGIONS
+    for region in REGIONS:
+        art = build_roundup(recent, region, today)
+        if art and not index.contains(art):
+            publish.append(art)
+            print(f"주간 브리핑: {art.title}")
 
     out_dir = os.path.join(data_dir, "items")
     os.makedirs(out_dir, exist_ok=True)

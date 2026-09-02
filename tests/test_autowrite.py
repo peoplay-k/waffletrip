@@ -73,3 +73,54 @@ def test_same_day_produces_the_same_id(tmp_path):
     a = build_daily([WEATHER], DAY, str(tmp_path))
     b = build_daily([WEATHER], DAY, str(tmp_path))
     assert a.id == b.id
+
+
+# ── 주간 지역 브리핑 ──────────────────────────────────────────────
+def curated(region, title, day="2026-09-01", outlet="여행신문"):
+    return Item(id=f"b-{title}", grade="B", region=region, section="news",
+                title=title, summary=f"{title} 요약", source_name=outlet,
+                source_url="https://example.com/a", published_at=day,
+                collected_at=day, status="published", title_hash=title_hash(title))
+
+
+def test_roundup_needs_enough_material():
+    """두 건짜리 '브리핑'은 브리핑이 아니다."""
+    from src.autowrite import build_roundup
+    assert build_roundup([curated("guam", "가")], "guam", DAY) is None
+    two = [curated("guam", "가"), curated("guam", "나")]
+    assert build_roundup(two, "guam", DAY) is None
+
+
+def test_roundup_is_built_from_three_or_more():
+    from src.autowrite import build_roundup
+    items = [curated("hawaii", f"소식 {i}") for i in range(4)]
+    art = build_roundup(items, "hawaii", DAY)
+    assert art is not None
+    assert "이번 주 하와이" in art.title
+    assert art.grade == "C"
+
+
+def test_roundup_credits_every_outlet():
+    """남의 보도를 묶는 것이므로 출처를 빠짐없이 밝힌다."""
+    from src.autowrite import build_roundup
+    items = [curated("jeju", "가", outlet="제주의소리"),
+             curated("jeju", "나", outlet="제주일보"),
+             curated("jeju", "다", outlet="TTL뉴스")]
+    art = build_roundup(items, "jeju", DAY)
+    for outlet in ("제주의소리", "제주일보", "TTL뉴스"):
+        assert outlet in art.body_md
+
+
+def test_roundup_ignores_other_regions_and_our_own_articles():
+    from src.autowrite import build_roundup
+    items = [curated("guam", f"괌 {i}") for i in range(3)]
+    items += [curated("hawaii", f"하와이 {i}") for i in range(5)]
+    art = build_roundup(items, "guam", DAY)
+    assert "하와이" not in art.body_md.replace("하와이 지역면", "")
+
+
+def test_roundup_skips_stale_items():
+    """지난 이레만 본다. 한 달 전 소식이 '이번 주'로 나가면 안 된다."""
+    from src.autowrite import build_roundup
+    old = [curated("guam", f"옛 {i}", day="2026-07-01") for i in range(5)]
+    assert build_roundup(old, "guam", "2026-09-02") is None
