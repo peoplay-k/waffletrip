@@ -504,3 +504,32 @@ def test_admin_config_points_at_the_right_repo():
     assert cfg["backend"]["repo"] == "peoplay-k/waffletrip"
     assert cfg["backend"]["branch"] == "main"
     assert cfg["collections"][0]["folder"] == "content/review"
+
+
+# ── 로컬 편집실 ───────────────────────────────────────────────────
+def test_admin_round_trip_preserves_content(tmp_path, monkeypatch):
+    """편집실에서 저장한 내용이 그대로 파일에 남아야 한다."""
+    import sys as _s, os as _o
+    _s.path.insert(0, _o.path.join(_o.path.dirname(_o.path.dirname(
+        _o.path.abspath(__file__))), "tools"))
+    import admin
+    monkeypatch.setattr(admin, "REVIEW", str(tmp_path))
+    path = str(tmp_path / "t.md")
+    admin.write(path, {"title": "제목", "region": "guam", "status": "draft"},
+                "## 소제목\n\n본문 | 파이프 포함")
+    front, body = admin.read(path)
+    assert front["title"] == "제목" and front["region"] == "guam"
+    assert "## 소제목" in body and "파이프 포함" in body
+
+
+def test_admin_write_keeps_korean_readable(tmp_path):
+    """YAML 이 한글을 이스케이프하면 사람이 못 읽는다."""
+    import sys as _s, os as _o
+    _s.path.insert(0, _o.path.join(_o.path.dirname(_o.path.dirname(
+        _o.path.abspath(__file__))), "tools"))
+    import admin
+    path = str(tmp_path / "t.md")
+    admin.write(path, {"title": "괌 리조트", "region": "guam"}, "본문")
+    raw = open(path, encoding="utf-8").read()
+    assert "괌 리조트" in raw
+    assert "\\u" not in raw
