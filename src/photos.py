@@ -32,6 +32,12 @@ def web_path(baked_file: str) -> str:
     return f"/{PUBLIC_DIR}/{rel}"
 
 
+def hero_photos(manifest: dict, region: str) -> list[str]:
+    """풍경으로 표시된 사진만."""
+    return [web_path(e["file"]) for e in (manifest.get(region) or [])
+            if isinstance(e, dict) and e.get("file") and e.get("hero")]
+
+
 def photos_for(manifest: dict, region: str) -> list[str]:
     """지역의 사진 목록. **풍경(hero)이 앞에 온다.**
 
@@ -61,11 +67,14 @@ def assign(manifest: dict, region: str, seeds: list[str]) -> dict:
         return {}
     used: set[str] = set()
     out: dict[str, str] = {}
-    # 첫 기사(톱)는 풍경 사진을 받는다. 나머지는 해시로 흩는다.
-    if seeds:
-        out[seeds[0]] = pool[0]
-        used.add(pool[0])
-    for seed in seeds[1:]:
+    # 첫 화면(톱 + 사이드 둘)은 풍경 사진으로 채운다. 거기에 음식 클로즈업이
+    # 걸리면 여행신문으로 안 보인다. 나머지는 해시로 흩는다.
+    heroes = hero_photos(manifest, region)
+    lead_count = min(3, len(heroes), len(seeds))
+    for i in range(lead_count):
+        out[seeds[i]] = heroes[i]
+        used.add(heroes[i])
+    for seed in seeds[lead_count:]:
         start = sum(ord(c) for c in seed) % len(pool)
         for step in range(len(pool)):
             candidate = pool[(start + step) % len(pool)]
