@@ -625,5 +625,23 @@
       "hero": true,
       "overrode": "얼굴 7건 검출"
     }
+  ],
+  "jeju": [
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#제주도/기타/제주도_일상사진_4/DSC01484.JPG",
+      "file": "assets/photos/jeju/DSC01484.webp",
+      "bytes": 205610,
+      "baked_at": "2026-09-02T11:24:43+09:00",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#제주도/기타/제주도_일상사진_4/DSC01622.JPG",
+      "file": "assets/photos/jeju/DSC01622.webp",
+      "bytes": 204472,
+      "baked_at": "2026-09-02T11:24:43+09:00",
+      "hero": true,
+      "overrode": "얼굴 4건 검출"
+    }
   ]
 }
