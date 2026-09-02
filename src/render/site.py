@@ -8,6 +8,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import shutil
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
@@ -21,7 +22,9 @@ from src.models import Item
 
 SITE_NAME = "와플트립"
 SITE_TAGLINE = "매일 아침 여행 뉴스"
-SITE_URL = "https://waffletrip.com"
+# 정식 주소. 커스텀 도메인이 붙기 전에는 실제로 열리는 곳을 가리켜야 한다 —
+# canonical 이 안 열리는 도메인을 가리키면 검색엔진이 색인을 못 한다.
+SITE_URL = os.environ.get("WAFFLE_SITE_URL", "https://waffletrip.com").rstrip("/")
 
 REGION_NAMES = {
     "guam": "괌", "saipan": "사이판", "hawaii": "하와이",
@@ -127,6 +130,9 @@ def _env() -> Environment:
     env.filters["md"] = lambda text: Markup(md_render(text))
     # 지역면 패널에서도 같은 압축을 쓴다. 항목명은 템플릿이 따로 보여준다.
     env.filters["compact"] = compact_fact
+    # JSON-LD 는 이스케이프하면 &#34; 가 되어 파싱이 통째로 깨진다.
+    # json.dumps 가 이미 안전한 문자열을 만든다.
+    env.filters["ld"] = lambda t: Markup(t)
     # 샘플 표시는 제목에서 떼어 배지로 보낸다. 헤드라인마다 "[샘플]" 이 붙어
     # 있으면 지면이 통째로 미완성으로 보인다. 표시 자체는 없애지 않는다 —
     # 사이트가 공개돼 있어 실제 취재로 오인되면 안 된다.
@@ -168,6 +174,18 @@ def split_panel(items: list[Item]) -> tuple[list[Item], list[Item]]:
     return panel, articles
 
 
+_OUT_DIR = ""      # render_site 가 설정한다. _write 한 곳에서만 쓴다.
+
+
+def _page_url(path: str) -> str:
+    """출력 파일 경로 → 정식 주소."""
+    rel = os.path.relpath(path, _OUT_DIR) if _OUT_DIR else os.path.basename(path)
+    rel = rel.replace(os.sep, "/")
+    if rel.endswith("index.html"):
+        rel = rel[: -len("index.html")]
+    return f"{SITE_URL}{BASE_PATH}/{rel}"
+
+
 def _write(path: str, html: str, written: list[str]) -> None:
     """한 곳에서만 접두사를 붙인다.
 
@@ -177,12 +195,43 @@ def _write(path: str, html: str, written: list[str]) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     if path.endswith(".html"):
         html = with_base(html)
+        # canonical 과 og:url 은 페이지마다 달라야 한다. 템플릿은 홈 주소를
+        # 기본값으로 넣고, 실제 주소는 여기서 한 번에 바로잡는다.
+        url = _page_url(path)
+        home = f"{SITE_URL}{BASE_PATH}/"
+        if url != home:
+            html = html.replace(f'rel="canonical" href="{home}"',
+                                f'rel="canonical" href="{url}"')
+            html = html.replace(f'property="og:url" content="{home}"',
+                                f'property="og:url" content="{url}"')
     with open(path, "w", encoding="utf-8") as f:
         f.write(html)
     written.append(path)
 
 
+def _article_ld(item, urls: dict) -> str:
+    """기사 구조화 데이터. 검색엔진과 AI 가 읽는다."""
+    data = {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": (item.title or "").replace("[샘플] ", ""),
+        "datePublished": item.published_at,
+        "dateModified": item.published_at,
+        "inLanguage": "ko",
+        "url": f"{SITE_URL}{BASE_PATH}{urls.get(item.id, '/')}",
+        "publisher": {"@type": "NewsMediaOrganization", "name": SITE_NAME},
+        "author": {"@type": "Organization", "name": item.source_name or SITE_NAME},
+    }
+    if item.summary:
+        data["description"] = item.summary
+    if item.photo:
+        data["image"] = f"{SITE_URL}{BASE_PATH}{item.photo}"
+    return json.dumps(data, ensure_ascii=False)
+
+
 def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
+    global _OUT_DIR
+    _OUT_DIR = out_dir
     # 승인된 사진만 붙는다. 매니페스트가 없으면 조용히 사진 없이 간다.
     # 서명. 사람 이름을 지어내지 않고 부서로 나눈다.
     for item in items:
@@ -211,6 +260,19 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "today": today, "article_urls": urls,
         "topics": TOPICS, "topic_names": TOPIC_NAMES,
         "contact_email": CONTACT_EMAIL, "desk_duties": DESK_DUTIES,
+        "canonical": SITE_URL + BASE_PATH + "/",
+        "site_base": SITE_URL + BASE_PATH,
+        "site_ld": json.dumps({
+            "@context": "https://schema.org",
+            "@type": "NewsMediaOrganization",
+            "name": SITE_NAME,
+            "url": SITE_URL + BASE_PATH + "/",
+            "logo": SITE_URL + BASE_PATH + "/og-default.jpg",
+            "description": SITE_TAGLINE,
+            # 자동 생성 기사가 있다는 사실을 기계도 읽을 수 있게 밝힌다.
+            "publishingPrinciples": SITE_URL + BASE_PATH + "/about/",
+            "email": CONTACT_EMAIL,
+        }, ensure_ascii=False),
     }
 
     # 홈 — 국내 여행 전문지 지면 구성을 따른다.
@@ -309,11 +371,24 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             os.path.join(out_dir, urls[item.id].strip("/"), "index.html"),
             env.get_template("article.html").render(
                 item=item, related=related,
+                article_ld=_article_ld(item, urls),
                 region_name=REGION_NAMES.get(item.region, item.region),
                 product_link=PRODUCT_LINKS.get(item.region, SITE_URL),
                 **common),
             written,
         )
+
+    _write(
+        os.path.join(out_dir, "404.html"),
+        env.get_template("404.html").render(**common),
+        written,
+    )
+
+    # 파비콘·기본 OG 이미지
+    for name in ("favicon.svg", "og-default.jpg"):
+        src = os.path.join("static", name)
+        if os.path.exists(src):
+            shutil.copy2(src, os.path.join(out_dir, name))
 
     copied = copy_into(out_dir)
     if copied:

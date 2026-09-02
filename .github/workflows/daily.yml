@@ -57,6 +57,9 @@ jobs:
         run: python -m src.build
         env:
           WAFFLE_BASE_PATH: /waffletrip
+          # canonical·OG 가 실제로 열리는 주소를 가리켜야 한다.
+          # DNS 가 붙으면 두 줄 다 지운다.
+          WAFFLE_SITE_URL: https://peoplay-k.github.io
 
       # 조용한 실패를 잡는다. 이상하면 exit 1 로 죽어 Actions 실패 메일이 간다.
       # 빌드 뒤에 두는 이유 — 오늘치 사이트는 일단 내보내고 나서 경보를 울린다.

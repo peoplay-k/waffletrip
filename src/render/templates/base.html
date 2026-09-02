@@ -5,7 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}{{ site_name }}{% endblock %}</title>
 <meta name="description" content="{% block description %}{{ site_tagline }} — 괌·사이판·하와이·베트남·코타키나발루·라오스·제주{% endblock %}">
+<link rel="canonical" href="{{ canonical }}">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate" type="application/rss+xml" title="{{ site_name }}" href="/rss.xml">
+
+{# 카톡·페북·X 로 링크를 보냈을 때 나오는 카드. 없으면 제목도 썸네일도
+   안 뜨고 죽은 링크처럼 보인다. #}
+<meta property="og:type" content="{% block og_type %}website{% endblock %}">
+<meta property="og:site_name" content="{{ site_name }}">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:title" content="{% block og_title %}{{ site_name }}{% endblock %}">
+<meta property="og:description" content="{% block og_desc %}{{ site_tagline }}{% endblock %}">
+<meta property="og:image" content="{% block og_image %}{{ site_base }}/og-default.jpg{% endblock %}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% block tw_title %}{{ site_name }}{% endblock %}">
+<meta name="twitter:description" content="{% block tw_desc %}{{ site_tagline }}{% endblock %}">
+<meta name="twitter:image" content="{% block tw_image %}{{ site_base }}/og-default.jpg{% endblock %}">
+{% block head_extra %}{% endblock %}
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
