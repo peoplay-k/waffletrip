@@ -2,6 +2,7 @@
   "ids": [
     "0083a919ca34752bd13e414d2b5e26b90ecf72e2",
     "01311c523ffaa422fc95bbadd2e244877b19c80f",
+    "029f2224a67d1edf8d0511ae245cddee43658e2b",
     "035909cc105b633dcfe6210158bb9f1345708858",
     "0398366a3a89ce642070bcedd187eae2c9ca1b76",
     "0510b7abd9c0e081227049f6ca74d8cfad25df89",
@@ -2116,6 +2117,13 @@
     {
       "id": "4a15207887f68bf9d1e2ffd1ad4ec84cceb76c71",
       "title": "Ipoh festival to celebrate diverse coffee cultures",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "029f2224a67d1edf8d0511ae245cddee43658e2b",
+      "title": "Dortmund cruise past fifth-tier opponents in German Cup opener",
       "date": "2026-09-02",
       "region": "kota",
       "grade": "B"
