@@ -137,6 +137,7 @@
     "6a780f6a71132c99df4112fa248e3124dded0363",
     "6a84a909117a562bc16cf7c2cad38c500a82c69e",
     "6abd076df74b4a75d0255b48ab44c7c27a9e7c78",
+    "6b9082ddc6cea5c527079cb4801e1fb954e51241",
     "6c55a40929dc89ca3049a7941ce76d37522f9c39",
     "6d2c1ebf25bd95d9ce2e9921701b9d0e4749cf2b",
     "6d4e7fb0f70d532b00f9f045e61b824bce0908f1",
@@ -310,6 +311,7 @@
     "ecc5fdf1d10faa00c35c20b5bfddeeabda5ddce7",
     "ed66c5c1b7a7b59682ddb80dbc7e77e032991e54",
     "ee088198006568ba23b2f28ab180b1914a586a94",
+    "ee0f30fb72d1581c1114d1b7646bff79929576b8",
     "ee2a0af0c84a5db078e6fe0ccff79e7fc75c087e",
     "eee73e49721427c8e5ae71d61995db90ae22e6d9",
     "ef1da3916cdf44d226c7e3dbf593510cce209da6",
@@ -2142,6 +2144,20 @@
       "title": "제주 ‘씨앗문고 시즌3’ 바우처 지원사업 ‘인기 만점’",
       "date": "2026-09-02",
       "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "ee0f30fb72d1581c1114d1b7646bff79929576b8",
+      "title": "고베·광저우·하노이·워싱턴까지…항공사들 가을 하늘길 경쟁 더 뜨거워졌다",
+      "date": "2026-09-02",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "6b9082ddc6cea5c527079cb4801e1fb954e51241",
+      "title": "Four missing, two rescued after Tanjung Lompat beach incident",
+      "date": "2026-09-02",
+      "region": "kota",
       "grade": "B"
     }
   ]
