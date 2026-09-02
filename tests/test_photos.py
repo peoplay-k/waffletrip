@@ -131,3 +131,31 @@ def test_without_hero_flags_nothing_breaks():
     manifest = {"guam": [{"file": f"assets/photos/guam/{c}.webp"} for c in "abc"]}
     assert len(photos_for(manifest, "guam")) == 3
     assert len(set(assign(manifest, "guam", ["a", "b", "c"]).values())) == 3
+
+
+def test_first_three_slots_get_scenery():
+    """첫 화면은 톱과 사이드 둘이다. 거기에 음식 클로즈업이 걸리면
+    여행신문으로 보이지 않는다."""
+    from src.photos import assign
+    manifest = {"guam": [
+        {"file": "assets/photos/guam/food1.webp"},
+        {"file": "assets/photos/guam/food2.webp"},
+        {"file": "assets/photos/guam/beach1.webp", "hero": True},
+        {"file": "assets/photos/guam/beach2.webp", "hero": True},
+        {"file": "assets/photos/guam/beach3.webp", "hero": True},
+    ]}
+    got = assign(manifest, "guam", ["a", "b", "c", "d", "e"])
+    first_three = [got["a"], got["b"], got["c"]]
+    assert all("beach" in p for p in first_three), first_three
+    assert len(set(got.values())) == 5
+
+
+def test_fewer_heroes_than_slots_still_works():
+    from src.photos import assign
+    manifest = {"guam": [
+        {"file": "assets/photos/guam/beach.webp", "hero": True},
+        {"file": "assets/photos/guam/food.webp"},
+    ]}
+    got = assign(manifest, "guam", ["a", "b"])
+    assert got["a"] == "/img/guam/beach.webp"
+    assert got["b"] == "/img/guam/food.webp"

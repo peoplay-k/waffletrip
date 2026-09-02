@@ -185,32 +185,28 @@
       "file": "assets/photos/guam/e17_3.webp",
       "bytes": 10872,
       "baked_at": "2026-09-02T06:49:48+09:00",
-      "overrode": "같은 장면(e17_3)이 걸림 — 얼굴 6건 검출",
-      "hero": true
+      "overrode": "같은 장면(e17_3)이 걸림 — 얼굴 6건 검출"
     },
     {
       "src": "/Users/peoplay/과미발행/선별_식당/e17_3_hi.jpg",
       "file": "assets/photos/guam/e17_3_hi.webp",
       "bytes": 101948,
       "baked_at": "2026-09-02T06:49:48+09:00",
-      "overrode": "얼굴 6건 검출",
-      "hero": true
+      "overrode": "얼굴 6건 검출"
     },
     {
       "src": "/Users/peoplay/과미발행/선별_식당/e23_1.jpg",
       "file": "assets/photos/guam/e23_1.webp",
       "bytes": 26226,
       "baked_at": "2026-09-02T06:49:48+09:00",
-      "overrode": "얼굴 1건 검출",
-      "hero": true
+      "overrode": "얼굴 1건 검출"
     },
     {
       "src": "/Users/peoplay/과미발행/선별_식당/e23_1_hi.jpg",
       "file": "assets/photos/guam/e23_1_hi.webp",
       "bytes": 262986,
       "baked_at": "2026-09-02T06:49:48+09:00",
-      "overrode": "얼굴 8건 검출",
-      "hero": true
+      "overrode": "얼굴 8건 검출"
     },
     {
       "src": "/Users/peoplay/과미발행/선별_식당/e24_3.jpg",
@@ -223,6 +219,131 @@
       "file": "assets/photos/guam/e24_3_hi.webp",
       "bytes": 59254,
       "baked_at": "2026-09-02T06:49:48+09:00"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075644959_03.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_075644959_03.webp",
+      "bytes": 61994,
+      "baked_at": "2026-09-02T10:09:24+09:00",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075644959_04.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_075644959_04.webp",
+      "bytes": 78430,
+      "baked_at": "2026-09-02T10:09:27+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075807081.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_075807081.webp",
+      "bytes": 83190,
+      "baked_at": "2026-09-02T10:09:29+09:00",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075807081_01.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_075807081_01.webp",
+      "bytes": 106722,
+      "baked_at": "2026-09-02T10:09:30+09:00",
+      "hero": true,
+      "overrode": "얼굴 4건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075807081_02.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_075807081_02.webp",
+      "bytes": 162696,
+      "baked_at": "2026-09-02T10:09:33+09:00",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075807081_03.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_075807081_03.webp",
+      "bytes": 115904,
+      "baked_at": "2026-09-02T10:09:35+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_080636135_01.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_080636135_01.webp",
+      "bytes": 195710,
+      "baked_at": "2026-09-02T10:09:38+09:00",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_080636135_02.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_080636135_02.webp",
+      "bytes": 168164,
+      "baked_at": "2026-09-02T10:09:38+09:00",
+      "hero": true,
+      "overrode": "얼굴 7건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_085349968.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_085349968.webp",
+      "bytes": 242250,
+      "baked_at": "2026-09-02T10:09:39+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_085349968_01.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_085349968_01.webp",
+      "bytes": 206700,
+      "baked_at": "2026-09-02T10:09:39+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_085349968_02.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_085349968_02.webp",
+      "bytes": 314914,
+      "baked_at": "2026-09-02T10:09:40+09:00",
+      "hero": true,
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_085349968_04.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250403_085349968_04.webp",
+      "bytes": 271672,
+      "baked_at": "2026-09-02T10:09:40+09:00",
+      "hero": true,
+      "overrode": "얼굴 4건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086_06.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250404_072316086_06.webp",
+      "bytes": 279628,
+      "baked_at": "2026-09-02T10:09:41+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086_07.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250404_072316086_07.webp",
+      "bytes": 301610,
+      "baked_at": "2026-09-02T10:09:41+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086_09.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250404_072316086_09.webp",
+      "bytes": 250978,
+      "baked_at": "2026-09-02T10:09:42+09:00",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086_10.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250404_072316086_10.webp",
+      "bytes": 243388,
+      "baked_at": "2026-09-02T10:09:42+09:00",
+      "hero": true,
+      "overrode": "얼굴 3건 검출"
     }
   ]
 }
