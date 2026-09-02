@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import os
+import shutil
 import sys
 from datetime import date, datetime, timedelta, timezone
 
@@ -72,6 +73,12 @@ def site_has_content(out_dir: str) -> bool:
 
 def build(items: list[Item], out_dir: str, today: str,
           built_at: str) -> list[str]:
+    # 지난 빌드의 찌꺼기를 지운다. CI 는 매번 새 체크아웃이라 public/ 이
+    # 비어 시작하지만 로컬은 쌓인다. 내려간 기사의 쪽이 로컬에만 남아
+    # 라이브와 다른 상태를 보게 되고, 사진 중복 같은 점검이 오염된다.
+    if os.path.isdir(out_dir):
+        shutil.rmtree(out_dir)
+
     written = render_site(items, out_dir, today)
     written.append(render_rss(items, out_dir, built_at))
     written.append(render_sitemap(items, out_dir, today))
