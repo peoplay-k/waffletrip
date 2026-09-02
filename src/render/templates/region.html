@@ -5,6 +5,7 @@
 
 <div class="page-head">
   <h1>{{ region_name }}</h1>
+  {% if desk %}<p class="desk">이 지역면은 <b>{{ desk }}</b>가 맡습니다.</p>{% endif %}
   {% if panel %}
   <div class="panel">
     {# 항목명을 지우지 않는다. 값만 남기면 무슨 숫자인지 알 수 없다. #}

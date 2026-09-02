@@ -377,3 +377,18 @@ def test_curated_article_keeps_its_source(tmp_path):
     for p in _g.glob(str(tmp_path / "guam" / "*" / "index.html")):
         html = open(p, encoding="utf-8").read()
     assert "제주의소리" in html
+
+
+def test_about_page_states_no_invented_reporters(tmp_path):
+    """편집국 구성을 공개하고, 실재하지 않는 기자를 쓰지 않는다고 밝힌다."""
+    render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "about" / "index.html").read_text(encoding="utf-8")
+    assert "편집국 구성" in html
+    assert "실재하지 않는 기자 이름을 쓰지 않습니다" in html
+    assert "와플트립 괌 데스크" in html
+
+
+def test_region_page_names_its_desk(tmp_path):
+    render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
+    assert "와플트립 괌 데스크" in html

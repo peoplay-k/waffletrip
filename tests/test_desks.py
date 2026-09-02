@@ -39,3 +39,19 @@ def test_no_desk_looks_like_a_personal_name():
     for name in list(REGION_DESKS.values()) + [DATA_DESK]:
         assert name.startswith(BRAND)
         assert name.endswith(("데스크", "데이터팀", "편집팀"))
+
+
+def test_every_desk_declares_how_it_makes_articles():
+    """자동인지 사람이 쓰는지 밝힌다. 독자가 알 수 있어야 한다."""
+    from src.desks import DESK_DUTIES
+    assert len(DESK_DUTIES) == 9
+    for name, duty, how in DESK_DUTIES:
+        assert how in ("자동", "사람"), (name, how)
+        assert duty.strip()
+
+
+def test_desk_list_covers_every_region():
+    from src.desks import DESK_DUTIES, REGION_DESKS
+    listed = {n for n, _, _ in DESK_DUTIES}
+    for desk in REGION_DESKS.values():
+        assert desk in listed, desk
