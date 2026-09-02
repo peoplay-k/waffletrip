@@ -199,6 +199,7 @@
     "99cc124e90f015f05622136710686215ecb14d2b",
     "9bf7942523a9907e83f3439cec91f9840c8d6bc3",
     "9ce09c1d8fe6cdce3127c5b737a14475d4d28e68",
+    "9de8bc542f839cfe79f9182bdfc1ce84f9b73837",
     "9e201d01ab852b083c69bd3c8ba7072b16facc51",
     "9e34d106e5251d99f296053f4df1ec385b41e6e4",
     "9fb330d08a5b1ffb0133ba98764da244ae615f85",
@@ -280,6 +281,7 @@
     "d953a82faf16c662869639de5901840e61fff0ee",
     "d982a8b0775b418c45c5863ffe70e5d362df8599",
     "d999fad3aa05e0c2614c931aed178c569df2adf3",
+    "da33990f2c98266de7ae10411e3a256b5bb43213",
     "da738e3898737d13710f678e87a4bad32c66ed32",
     "daddde3b97ee17c2f37a56b615482a9f7e2b5dc1",
     "daf617e4dabc376df8d2d8a1e1d8600407223a22",
@@ -2126,6 +2128,20 @@
       "title": "Dortmund cruise past fifth-tier opponents in German Cup opener",
       "date": "2026-09-02",
       "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "da33990f2c98266de7ae10411e3a256b5bb43213",
+      "title": "Honolulu Zoo Unveils Upgraded Exhibits, Targets Giant Pandas from China",
+      "date": "2026-09-02",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "9de8bc542f839cfe79f9182bdfc1ce84f9b73837",
+      "title": "제주 ‘씨앗문고 시즌3’ 바우처 지원사업 ‘인기 만점’",
+      "date": "2026-09-02",
+      "region": "jeju",
       "grade": "B"
     }
   ]
