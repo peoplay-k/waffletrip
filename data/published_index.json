@@ -133,6 +133,7 @@
     "6241c8333e6e60d3b6cb7d5a70cbe7ae2b906a6e",
     "6298df82c0c73d963ff9c4efe79bd81b80ca1c2b",
     "64ac2437ecd6c0974647faa635930798fc32554c",
+    "6697ae9d9d2045b0c1e7687291c6b8d15dbf993c",
     "6766d53f19e1d22df1f70c13609b4b296509f167",
     "67891dccaed66cfaea744a6ecf7c4cf1fb4197b6",
     "67d3ec5792ddcd7f49084fc00c4a91699156710b",
@@ -2231,6 +2232,13 @@
       "date": "2026-09-02",
       "region": "jeju",
       "grade": "B"
+    },
+    {
+      "id": "6697ae9d9d2045b0c1e7687291c6b8d15dbf993c",
+      "title": "09월 2일 여행 데이터 — 베트남 35°C",
+      "date": "2026-09-02",
+      "region": "guam",
+      "grade": "C"
     }
   ]
 }
