@@ -82,6 +82,7 @@
     "3d572ad638a69584aee6d4375b03c04667661668",
     "3df27c9d6c4f11ce299c6149c2e26c738da6ba87",
     "3f475670765751e2df27da42fc2031fa4839d7bf",
+    "3f65607b3a9ecc7137d88ef23fc750cf3d45f9d8",
     "3fa6a88ea26016594906d7519ec22bec9d43458d",
     "3fda7301d0e70b7e0ae8e1f30c7f2561c5043f0e",
     "404f858a2da4a9ffcaf948ccabf401bd7e97cfd7",
@@ -261,6 +262,7 @@
     "c0ac53450083b4cd494490fdc8ed6593a23c5012",
     "c0ae7eb5319670a740d706282f257effadaa8551",
     "c1684965baaf57da70e24cdbc8f4a412f2afc5b4",
+    "c231aff6452f8a467191c150b805a3578145a4ab",
     "c328f751d3cd583e2fd62860ee15dce3fea9f9cf",
     "c5704dca061fcc5798902bcee5079eb93f8073fb",
     "c70874289b0e8f81f57fa8a3aeb14df625b8da68",
@@ -303,6 +305,7 @@
     "dd2cf08077ac3ca114fe8bd15078d3bca2c8a75d",
     "dd77b6bfa8f3492a87dec557e661d68cba286fc4",
     "de888903e1aa1cdaa257d014cda78e920b3708f5",
+    "df03f1a03a575afdcfc5125633f940ff76975d55",
     "e047ca2b2210b2854cb29480267dbeb91b4910f0",
     "e0e0c0948409ee6a562b977d605f57ba027014b7",
     "e23559f661bc3327c41d6e455f3cf0fbb052257c",
@@ -2254,6 +2257,27 @@
       "title": "송영훈 의장도 ‘안전’ 강조, “제주도의회가 앞장”",
       "date": "2026-09-02",
       "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "3f65607b3a9ecc7137d88ef23fc750cf3d45f9d8",
+      "title": "Strong waves raise beach danger as search continues for four teens",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "c231aff6452f8a467191c150b805a3578145a4ab",
+      "title": "US encourages tourists to visit Sabah as security improves",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "df03f1a03a575afdcfc5125633f940ff76975d55",
+      "title": "Teen drowns as search continues for three missing at Tanjung Lompat",
+      "date": "2026-09-02",
+      "region": "kota",
       "grade": "B"
     }
   ]
