@@ -1,0 +1,102 @@
+# 와플트립 편집실 설정
+#
+# 사진은 여기서 올리지 않는다. CMS 업로드는 얼굴 검사(person_scan)를
+# 건너뛰기 때문이다. 사진은 tools/photo_prepare.py 로만 들여온다.
+# 기사에 붙는 사진은 지역별로 자동 배정된다.
+
+backend:
+  name: github
+  repo: peoplay-k/waffletrip
+  branch: main
+  # GitHub 로그인을 중개하는 주소. tools/oauth-worker.js 를 배포하고
+  # 그 주소를 여기에 넣는다. 넣기 전에는 로그인이 되지 않는다.
+  base_url: https://REPLACE-ME.workers.dev
+  auth_endpoint: auth
+
+# 로컬에서 시험할 때: npx decap-server 를 띄우고 아래를 true 로.
+local_backend: false
+
+locale: ko
+publish_mode: simple
+media_folder: ""
+public_folder: ""
+
+collections:
+  - name: articles
+    label: 기사
+    label_singular: 기사
+    folder: content/review
+    create: true
+    slug: "{{year}}{{month}}{{day}}_{{slug}}"
+    identifier_field: title
+    summary: "{{status}} · {{region}} · {{title}}"
+    sortable_fields: [title, region, status]
+    view_filters:
+      - { label: 작성중, field: status, pattern: draft }
+      - { label: 발행대기, field: status, pattern: approved }
+      - { label: 발행됨, field: status, pattern: published }
+    fields:
+      - label: 제목
+        name: title
+        widget: string
+        hint: 지면에 그대로 나갑니다. 어절 단위로 끊어 읽히게 씁니다.
+
+      - label: 지역면
+        name: region
+        widget: select
+        options:
+          - { label: 괌, value: guam }
+          - { label: 사이판, value: saipan }
+          - { label: 하와이, value: hawaii }
+          - { label: 베트남, value: vietnam }
+          - { label: 코타키나발루, value: kota }
+          - { label: 라오스, value: laos }
+          - { label: 제주, value: jeju }
+
+      - label: 부문
+        name: section
+        widget: select
+        default: news
+        options:
+          - { label: 일반 소식·해설, value: news }
+          - { label: 항공·노선, value: flight }
+          - { label: 데이터·통계, value: data }
+          - { label: 안내, value: promo }
+
+      - label: 요약
+        name: summary
+        widget: text
+        required: false
+        hint: 목록과 검색 결과, 카톡 공유 카드에 나옵니다. 한두 문장.
+
+      - label: 필자
+        name: source_name
+        widget: string
+        required: false
+        default: ""
+        hint: >-
+          비워두면 지역 데스크 이름이 붙습니다(예 와플트립 괌 데스크).
+          실제로 쓴 사람이 있을 때만 그 이름을 넣습니다.
+          실재하지 않는 이름은 넣지 않습니다.
+
+      - label: 원문 링크
+        name: source_url
+        widget: string
+        required: false
+        hint: 다른 매체 보도를 정리한 경우에만 넣습니다.
+
+      - label: 상태
+        name: status
+        widget: select
+        default: draft
+        options:
+          - { label: 작성중 (지면에 안 나감), value: draft }
+          - { label: 발행대기 (다음 발행 때 나감), value: approved }
+          - { label: 발행됨, value: published }
+
+      - label: 본문
+        name: body
+        widget: markdown
+        hint: >-
+          표를 적극적으로 씁니다. 실측값은 문장으로 풀지 말고 표로 놓습니다.
+          공개하는 가격은 소비자가와 실제 결제가뿐입니다.

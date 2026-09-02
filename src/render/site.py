@@ -404,6 +404,14 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         if os.path.exists(src):
             shutil.copy2(src, os.path.join(out_dir, name))
 
+    # 편집실(CMS). 색인은 막는다 — 검색 결과에 나올 이유가 없다.
+    admin_src = os.path.join("static", "admin")
+    if os.path.isdir(admin_src):
+        admin_dst = os.path.join(out_dir, "admin")
+        shutil.rmtree(admin_dst, ignore_errors=True)
+        shutil.copytree(admin_src, admin_dst)
+        written.append(admin_dst)
+
     copied = copy_into(out_dir)
     if copied:
         print(f"  사진 {copied}장 복사 → {out_dir}/img/")

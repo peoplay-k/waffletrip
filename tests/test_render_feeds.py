@@ -104,10 +104,12 @@ def test_sitemap_lists_every_region(tmp_path):
 
 
 def test_sitemap_lists_the_standing_pages(tmp_path):
+    """부문이 flight/data 에서 일곱 개로 바뀌었다. 사이트맵도 따라가야 한다."""
     path = render_sitemap([], str(tmp_path), TODAY)
     text = Path(path).read_text(encoding="utf-8")
-    for page in ("flight", "data", "about"):
-        assert f"https://waffletrip.com/{page}/" in text
+    for page in ("data", "about", "biz", "issue", "feature"):
+        assert f"/{page}/</loc>" in text, page
+    assert "/flight/</loc>" not in text
 
 
 def test_sitemap_lists_article_urls(tmp_path):
@@ -124,3 +126,35 @@ def test_robots_allows_crawling_and_points_at_sitemap(tmp_path):
 def test_cname_holds_the_bare_domain(tmp_path):
     text = Path(render_cname(str(tmp_path))).read_text(encoding="utf-8")
     assert text.strip() == "waffletrip.com"
+
+
+# ── 사이트맵이 실제 페이지와 어긋나지 않는지 ───────────────────────
+def test_sitemap_lists_every_topic_page(tmp_path):
+    """부문을 손으로 적어두면 바뀔 때마다 어긋난다.
+
+    실제로 사라진 /flight/ 를 계속 가리키고 새 부문 일곱 개가 빠져 있었다.
+    """
+    from src.render.feeds import render_sitemap
+    from src.topics import TOPICS
+    render_sitemap([], str(tmp_path), "2026-09-02")
+    xml = (tmp_path / "sitemap.xml").read_text(encoding="utf-8")
+    for tid, _, _ in TOPICS:
+        assert f"/{tid}/</loc>" in xml, tid
+
+
+def test_sitemap_lists_policy_pages(tmp_path):
+    from src.render.feeds import render_sitemap
+    render_sitemap([], str(tmp_path), "2026-09-02")
+    xml = (tmp_path / "sitemap.xml").read_text(encoding="utf-8")
+    for page in ("about", "contact", "privacy", "youth", "search"):
+        assert f"/{page}/</loc>" in xml, page
+
+
+def test_sitemap_urls_carry_the_base_path(tmp_path, monkeypatch):
+    """하위 경로 배포에서 사이트맵이 없는 주소를 가리키면 색인이 안 된다."""
+    import src.render.feeds as feeds
+    monkeypatch.setattr(feeds, "BASE_PATH", "/waffletrip")
+    feeds.render_sitemap([], str(tmp_path), "2026-09-02")
+    xml = (tmp_path / "sitemap.xml").read_text(encoding="utf-8")
+    for loc in [l for l in xml.splitlines() if "<loc>" in l]:
+        assert "/waffletrip/" in loc, loc
