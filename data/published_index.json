@@ -347,6 +347,7 @@
     "f6b3c6f7582bfcdde4f512de8c36408f5df1d5f8",
     "f78086d1ed1da1d4924062642b0aaa788e82097d",
     "f7af7e251084affc1fc0f9efd99d65670a0ea7d3",
+    "f8ff3d1b15df7dc93832e2547a9c2f3f1ca78743",
     "fa1343ca34db8aad65bf0041f84ee4c23f6c2a81",
     "fa228687e61ffca00161e551eea968a3ddd71cde",
     "fa3e6919d7786941d2ef158927c38de4c81161ac",
@@ -2303,6 +2304,13 @@
       "date": "2026-09-02",
       "region": "vietnam",
       "grade": "C"
+    },
+    {
+      "id": "f8ff3d1b15df7dc93832e2547a9c2f3f1ca78743",
+      "title": "Two arrested after newborn found in sanitary bin at Penang airport",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
     }
   ]
 }
