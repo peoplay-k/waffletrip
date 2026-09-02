@@ -48,6 +48,7 @@
     "1f710d8e2fe2bce768a02c2aa5ff196a552acb72",
     "1fe8e9fdb3166080b74576c67979278fe192d7dc",
     "203e4889a6cc78f6e8bdbf323da0d67e7139f74a",
+    "2094d528882dc4ad4afd877931da89083275d889",
     "217c838f5eee58dbf21fd37e7fb3b992a1c39146",
     "2426b087007436aa008447bdbbce1d3037870cfc",
     "246799c85138d8418f1a59e1e88600a81b8904e6",
@@ -118,6 +119,7 @@
     "5a837d00b1d5a8eb126e6d0068a9f38c63c088e5",
     "5adf073c8c46a4701df74e4cb0f16bc291e87d4d",
     "5b7e40be841b0f89d00d3590ee92151250a7164f",
+    "5bba6aba156860e5c6f7fd2cd39027c7282a0088",
     "5bff7a6ef61a031a6fbf16d45fb3b196f6f4c2d3",
     "5c20ccb22b27f6695d04a77194f9e10109614bb8",
     "5d94338fe823a257ed04b2bd97f4c89e88c0c05f",
@@ -2239,6 +2241,20 @@
       "date": "2026-09-02",
       "region": "guam",
       "grade": "C"
+    },
+    {
+      "id": "5bba6aba156860e5c6f7fd2cd39027c7282a0088",
+      "title": "14-year-old beaten with golf club during fight near bus stop; 2 teens, mother arrested",
+      "date": "2026-09-02",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "2094d528882dc4ad4afd877931da89083275d889",
+      "title": "송영훈 의장도 ‘안전’ 강조, “제주도의회가 앞장”",
+      "date": "2026-09-02",
+      "region": "jeju",
+      "grade": "B"
     }
   ]
 }
