@@ -48,6 +48,7 @@
     "1f710d8e2fe2bce768a02c2aa5ff196a552acb72",
     "1fe8e9fdb3166080b74576c67979278fe192d7dc",
     "203e4889a6cc78f6e8bdbf323da0d67e7139f74a",
+    "2094d528882dc4ad4afd877931da89083275d889",
     "217c838f5eee58dbf21fd37e7fb3b992a1c39146",
     "2426b087007436aa008447bdbbce1d3037870cfc",
     "246799c85138d8418f1a59e1e88600a81b8904e6",
@@ -118,6 +119,7 @@
     "5a837d00b1d5a8eb126e6d0068a9f38c63c088e5",
     "5adf073c8c46a4701df74e4cb0f16bc291e87d4d",
     "5b7e40be841b0f89d00d3590ee92151250a7164f",
+    "5bba6aba156860e5c6f7fd2cd39027c7282a0088",
     "5bff7a6ef61a031a6fbf16d45fb3b196f6f4c2d3",
     "5c20ccb22b27f6695d04a77194f9e10109614bb8",
     "5d94338fe823a257ed04b2bd97f4c89e88c0c05f",
@@ -246,9 +248,14 @@
     "be58d8da4f0a9d192053404d7cb46a765cc5fb40",
     "be69ceaf952ac807f9b35f9c8fcf0ec0e4b02c96",
     "be6b8c84df823272f41bd1849ee039527cdbc5f3",
-    "c-2967626cfd6c4403a784d2d7f73ab7a55317d0bf",
-    "c-b3493629870f2884069f87f1af2adc800cdf65ec",
-    "c-f858426d92f6fe21b440696997346a65f743e70e",
+    "c-1588f487344bf941fafb218b097c04ad38658b6a",
+    "c-19436534f55318dda081330aee410c1c764c9f09",
+    "c-235e6f5f0a7274dc33a05562d14e4a2d663bec1b",
+    "c-2ccdf87770442f44947cb96be104f193d4a3854a",
+    "c-46f969de7e104a2a2663d3e764d46ed0d643a6f9",
+    "c-5149b14bd37255bf7ac3ad6e761c81c83f204c77",
+    "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
+    "c-b5c568d4df0deabf534e6ae1f072e9c092e81421",
     "c004847cd194009d8257ad4f87af5f5629d9ed01",
     "c02481c5dd612623d73174508b05ce040b0c997b",
     "c0ac53450083b4cd494490fdc8ed6593a23c5012",
@@ -2012,6 +2019,62 @@
       "grade": "B"
     },
     {
+      "id": "c-235e6f5f0a7274dc33a05562d14e4a2d663bec1b",
+      "title": "[샘플] 괌 PIC 리조트, 물놀이 시설과 객실 실측 기록",
+      "date": "2026-09-02",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "c-5149b14bd37255bf7ac3ad6e761c81c83f204c77",
+      "title": "[샘플] 괌 3박4일, 2인이 실제로 낸 돈",
+      "date": "2026-09-02",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "c-46f969de7e104a2a2663d3e764d46ed0d643a6f9",
+      "title": "[샘플] 괌 돌고래 투어, 배 타는 시간과 실제 동선",
+      "date": "2026-09-02",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "c-2ccdf87770442f44947cb96be104f193d4a3854a",
+      "title": "[샘플] 코타키나발루 숙소, 시내와 리조트 중 어디에 묵나",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "C"
+    },
+    {
+      "id": "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
+      "title": "[샘플] 코타키나발루 석양, 시간과 자리",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "C"
+    },
+    {
+      "id": "c-19436534f55318dda081330aee410c1c764c9f09",
+      "title": "[샘플] 라오스 이동, 구간별로 실제 걸린 시간",
+      "date": "2026-09-02",
+      "region": "laos",
+      "grade": "C"
+    },
+    {
+      "id": "c-1588f487344bf941fafb218b097c04ad38658b6a",
+      "title": "[샘플] 사이판 3박4일, 반복 운영으로 다듬은 일정표",
+      "date": "2026-09-02",
+      "region": "saipan",
+      "grade": "C"
+    },
+    {
+      "id": "c-b5c568d4df0deabf534e6ae1f072e9c092e81421",
+      "title": "[샘플] 사이판 날씨와 준비물, 문의가 가장 많았던 것",
+      "date": "2026-09-02",
+      "region": "saipan",
+      "grade": "C"
+    },
+    {
       "id": "203e4889a6cc78f6e8bdbf323da0d67e7139f74a",
       "title": "Victoria Bridge access partly closed after child's fatal fall",
       "date": "2026-09-02",
@@ -2180,25 +2243,18 @@
       "grade": "C"
     },
     {
-      "id": "c-f858426d92f6fe21b440696997346a65f743e70e",
-      "title": "하와이로 향하는 열대성 폭풍 둘, 지금까지 나온 것",
+      "id": "5bba6aba156860e5c6f7fd2cd39027c7282a0088",
+      "title": "14-year-old beaten with golf club during fight near bus stop; 2 teens, mother arrested",
       "date": "2026-09-02",
       "region": "hawaii",
-      "grade": "C"
+      "grade": "B"
     },
     {
-      "id": "c-b3493629870f2884069f87f1af2adc800cdf65ec",
-      "title": "가을 황금연휴 김포~제주, 마일리지 특별기 20편 뜬다",
+      "id": "2094d528882dc4ad4afd877931da89083275d889",
+      "title": "송영훈 의장도 ‘안전’ 강조, “제주도의회가 앞장”",
       "date": "2026-09-02",
       "region": "jeju",
-      "grade": "C"
-    },
-    {
-      "id": "c-2967626cfd6c4403a784d2d7f73ab7a55317d0bf",
-      "title": "썬푸꾸옥항공, 인천~하노이·호치민 동시 취항",
-      "date": "2026-09-02",
-      "region": "vietnam",
-      "grade": "C"
+      "grade": "B"
     }
   ]
 }
