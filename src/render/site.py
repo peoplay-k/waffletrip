@@ -12,6 +12,7 @@ import re
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
 
+from src.desks import byline_for
 from src.photos import assign as assign_photos, copy_into, load_manifest
 from src.render.md import render as md_render
 from src.topics import TOPIC_DESCS, TOPIC_NAMES, TOPICS, group_by_topic, topic_of
@@ -183,6 +184,10 @@ def _write(path: str, html: str, written: list[str]) -> None:
 
 def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 승인된 사진만 붙는다. 매니페스트가 없으면 조용히 사진 없이 간다.
+    # 서명. 사람 이름을 지어내지 않고 부서로 나눈다.
+    for item in items:
+        item.source_name = byline_for(item)
+
     manifest = load_manifest()
     if manifest:
         # 지역면 단위로 배정한다. 한 화면에 같은 사진이 두 번 걸리지 않게.

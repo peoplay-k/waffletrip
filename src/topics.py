@@ -66,6 +66,10 @@ def topic_of(item) -> str:
     """
     if getattr(item, "grade", "") == "A":
         return "data"
+    # 우리가 만든 데이터 기사는 등급이 C(자체 생산)지만 성격은 통계·리포트다.
+    # section 이 data 면 그쪽으로 보낸다.
+    if getattr(item, "section", "") == "data":
+        return "data"
     if getattr(item, "grade", "") == "C":
         return "feature"
     if getattr(item, "section", "") == "flight":

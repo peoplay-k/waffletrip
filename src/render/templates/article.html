@@ -8,8 +8,12 @@
 {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
 {% if item.body_md %}<div class="body">{{ item.body_md|md }}</div>{% endif %}
 {% set source_href = item.source_url|safe_url %}
-{% if item.source_name %}
-<p class="src">원문 보기: {% if source_href %}<a href="{{ source_href }}" rel="nofollow noopener" target="_blank">{{ item.source_name }}</a>{% else %}{{ item.source_name }}{% endif %}</p>
+{# 원문 링크가 있을 때만 출처를 단다. 우리가 쓴 기사에 "원문 보기: 와플트립
+   괌 데스크" 가 붙으면 무슨 말인지 알 수 없다. #}
+{% if source_href %}
+<p class="src">원문 보기: <a href="{{ source_href }}" rel="nofollow noopener" target="_blank">{{ item.source_name }}</a></p>
+{% elif item.grade == 'B' and item.source_name %}
+<p class="src">출처: {{ item.source_name }}</p>
 {% endif %}
 {% if related %}
 <h2>관련 보도</h2>
