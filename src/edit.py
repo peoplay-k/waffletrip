@@ -20,6 +20,7 @@ import yaml
 
 from src.grade import apply_grades, pick_c_candidates
 from src.guards.copyright_guard import filter_items
+from src.autowrite import build_daily
 from src.guards.dup_guard import (PublishedIndex, cluster_batch,
                                   filter_unpublished)
 from src.models import Item, item_from_dict, item_to_dict
@@ -158,11 +159,21 @@ def main(data_dir: str = "data", review_dir: str = "content/review",
     curated_sources = {s.name for s in load_sources(sources_path) if s.curated}
     result = edit_items(raw_items, index, load_trending(data_dir), curated_sources)
 
+    # 오늘 받은 값으로 데이터 기사를 만든다. **여기서 만드는 이유** —
+    # A등급(환율·날씨)은 하루 한 번만 발행되므로 재실행하면 중복 가드가
+    # 걸러내 그날 파일에서 사라진다. 값 자체는 방금 받은 오늘 것이므로
+    # 걸러지기 전인 이 자리에서 기사를 만드는 것이 옳다.
+    publish = list(result["publish"])
+    daily = build_daily(raw_items, today, data_dir)
+    if daily and not index.contains(daily):
+        publish.append(daily)
+        print(f"데이터 기사: {daily.title}")
+
     out_dir = os.path.join(data_dir, "items")
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, f"{today}.jsonl"), "w",
               encoding="utf-8") as f:
-        for item in result["publish"]:
+        for item in publish:
             f.write(json.dumps(item_to_dict(item), ensure_ascii=False) + "\n")
 
     purged = purge_stale_drafts(review_dir, today)

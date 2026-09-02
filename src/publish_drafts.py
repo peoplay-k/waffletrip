@@ -191,7 +191,8 @@ def main(data_dir: str = "data", review_dir: str = "content/review") -> int:
 
     for path, item in published:
         index.add(item, today)
-        _mark_published(path, item.id, today)
+        if path:                      # 자동 생성 기사는 초안 파일이 없다
+            _mark_published(path, item.id, today)
     index.save(index_path)
 
     print(f"해설 기사 발행: {len(published)}건")

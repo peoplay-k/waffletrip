@@ -350,3 +350,30 @@ def test_search_page_uses_a_relative_index_path(tmp_path):
     html = (tmp_path / "search" / "index.html").read_text(encoding="utf-8")
     assert "'../search.json'" in html
     assert "'/search.json'" not in html
+
+
+def test_our_own_article_has_no_source_link(tmp_path):
+    """우리가 쓴 기사에 '원문 보기: 와플트립 괌 데스크' 가 붙으면 안 된다."""
+    item = make("1", "괌 데이터 정리", grade="C")
+    item.source_url = ""
+    render_site([item], str(tmp_path), TODAY)
+    html = (tmp_path / "guam" / "1-괌-데이터-정리" / "index.html").read_text(
+        encoding="utf-8") if (tmp_path / "guam").exists() else ""
+    import glob as _g
+    for p in _g.glob(str(tmp_path / "guam" / "*" / "index.html")):
+        html = open(p, encoding="utf-8").read()
+        break
+    assert "원문 보기" not in html
+
+
+def test_curated_article_keeps_its_source(tmp_path):
+    """남의 기사는 출처를 반드시 밝힌다."""
+    item = make("1", "제주 소식", grade="B")
+    item.source_name = "제주의소리"
+    item.source_url = "https://example.com/a"
+    render_site([item], str(tmp_path), TODAY)
+    import glob as _g
+    html = ""
+    for p in _g.glob(str(tmp_path / "guam" / "*" / "index.html")):
+        html = open(p, encoding="utf-8").read()
+    assert "제주의소리" in html

@@ -93,3 +93,9 @@ def test_topics_match_the_reference_masthead():
     assert [name for _, name, _ in TOPICS] == [
         "여행BIZ", "이슈·동향", "관광정책", "기획·연재", "국제",
         "피플·오피니언", "통계·리포트"]
+
+
+def test_our_data_article_goes_to_statistics_not_features():
+    """자동 생성 데이터 기사는 등급이 C 지만 성격은 통계·리포트다."""
+    assert topic_of(make("09월 2일 여행 데이터", grade="C", section="data")) == "data"
+    assert topic_of(make("괌 답사 기록", grade="C", section="news")) == "feature"
