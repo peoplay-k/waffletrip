@@ -436,3 +436,44 @@ def test_favicon_and_og_image_are_deployed(tmp_path):
     render_site([], str(tmp_path), TODAY)
     assert (tmp_path / "favicon.svg").exists()
     assert (tmp_path / "og-default.jpg").exists()
+
+
+# ── 분석 도구와 방침이 어긋나지 않는지 ─────────────────────────────
+def test_no_tracking_scripts_when_unconfigured(tmp_path, monkeypatch):
+    import src.render.site as site
+    monkeypatch.setattr(site, "ANALYTICS", {})
+    monkeypatch.setattr(site, "load_analytics", lambda *_a, **_k: {})
+    site.render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert "googletagmanager" not in html
+    assert "cloudflareinsights" not in html
+    privacy = (tmp_path / "privacy" / "index.html").read_text(encoding="utf-8")
+    assert "분석 도구나 광고 추적기를 심지 않습니다" in privacy
+
+
+def test_privacy_policy_follows_the_config(tmp_path, monkeypatch):
+    """추적기를 붙이면 방침이 자동으로 바뀌어야 한다.
+
+    따로 관리하면 "추적기를 심지 않습니다"라고 써둔 채 추적기를 붙이는
+    사고가 난다. 가장 흔한 개인정보 사고다.
+    """
+    import src.render.site as site
+    monkeypatch.setattr(site, "load_analytics", lambda *_a, **_k: {"ga4": "G-TEST123"})
+    site.render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert "G-TEST123" in html
+    privacy = (tmp_path / "privacy" / "index.html").read_text(encoding="utf-8")
+    assert "구글 애널리틱스" in privacy
+    assert "쿠키를 사용" in privacy
+    assert "분석 도구나 광고 추적기를 심지 않습니다" not in privacy
+
+
+def test_search_console_verification_is_injected(tmp_path, monkeypatch):
+    import src.render.site as site
+    monkeypatch.setattr(site, "load_analytics",
+                        lambda *_a, **_k: {"google_site_verification": "abc",
+                                           "naver_site_verification": "xyz"})
+    site.render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert 'name="google-site-verification" content="abc"' in html
+    assert 'name="naver-site-verification" content="xyz"' in html

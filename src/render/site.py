@@ -66,6 +66,17 @@ CONTACT_EMAIL = "peoplay@thepeoplay.com"
 # 커스텀 도메인이 붙으면 빈 값으로 두면 된다.
 BASE_PATH = os.environ.get("WAFFLE_BASE_PATH", "").rstrip("/")
 
+
+def load_analytics(path: str = "analytics.yaml") -> dict:
+    """방문 분석·검색 노출 설정. 없거나 깨져도 빌드는 돈다."""
+    import yaml
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = yaml.safe_load(f) or {}
+    except Exception:
+        return {}
+    return {k: str(v).strip() for k, v in data.items() if v}
+
 # href="/..." src="/..." 만 바꾼다. "//cdn" 같은 프로토콜 상대 URL 은 건드리지 않는다.
 _ABS_LINK = re.compile(r'(href|src)="/(?!/)')
 
@@ -175,6 +186,7 @@ def split_panel(items: list[Item]) -> tuple[list[Item], list[Item]]:
 
 
 _OUT_DIR = ""      # render_site 가 설정한다. _write 한 곳에서만 쓴다.
+ANALYTICS: dict = {}
 
 
 def _page_url(path: str) -> str:
@@ -230,7 +242,8 @@ def _article_ld(item, urls: dict) -> str:
 
 
 def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
-    global _OUT_DIR
+    global _OUT_DIR, ANALYTICS
+    ANALYTICS = load_analytics()
     _OUT_DIR = out_dir
     # 승인된 사진만 붙는다. 매니페스트가 없으면 조용히 사진 없이 간다.
     # 서명. 사람 이름을 지어내지 않고 부서로 나눈다.
@@ -260,6 +273,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "today": today, "article_urls": urls,
         "topics": TOPICS, "topic_names": TOPIC_NAMES,
         "contact_email": CONTACT_EMAIL, "desk_duties": DESK_DUTIES,
+        "analytics": ANALYTICS,
         "canonical": SITE_URL + BASE_PATH + "/",
         "site_base": SITE_URL + BASE_PATH,
         "site_ld": json.dumps({
