@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 {% block title %}{{ item.title }} — {{ site_name }}{% endblock %}
 {% block description %}{{ item.summary or item.title }}{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ item.title|clean_title }}{% endblock %}
+{% block og_desc %}{{ item.summary or item.title }}{% endblock %}
+{% block og_image %}{% if item.photo %}{{ site_base }}{{ item.photo }}{% else %}{{ site_base }}/og-default.jpg{% endif %}{% endblock %}
+{% block tw_title %}{{ item.title|clean_title }}{% endblock %}
+{% block tw_desc %}{{ item.summary or item.title }}{% endblock %}
+{% block tw_image %}{% if item.photo %}{{ site_base }}{{ item.photo }}{% else %}{{ site_base }}/og-default.jpg{% endif %}{% endblock %}
+{% block head_extra %}<script type="application/ld+json">{{ article_ld|ld }}</script>{% endblock %}
 {% block content %}
 <div class="post-head"><h1>{% if item.title is sample %}<span class="badge">샘플</span>{% endif %}{{ item.title|clean_title }}</h1></div>
 <div class="meta">{{ region_name }} · {{ item.source_name }} · {{ item.published_at[:10] }}</div>

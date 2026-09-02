@@ -392,3 +392,47 @@ def test_region_page_names_its_desk(tmp_path):
     render_site([], str(tmp_path), TODAY)
     html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
     assert "와플트립 괌 데스크" in html
+
+
+# ── 런칭 필수 항목 ────────────────────────────────────────────────
+def test_pages_carry_share_card_metadata(tmp_path):
+    """카톡·SNS 로 링크를 보냈을 때 제목과 썸네일이 나와야 한다."""
+    render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "index.html").read_text(encoding="utf-8")
+    for tag in ('property="og:title"', 'property="og:image"', 'property="og:url"',
+                'name="twitter:card"', 'rel="canonical"', 'rel="icon"'):
+        assert tag in html, tag
+
+
+def test_canonical_differs_per_page(tmp_path):
+    """모든 쪽이 홈을 가리키면 검색엔진이 중복으로 본다."""
+    import re
+    render_site([], str(tmp_path), TODAY)
+    def canon(p):
+        h = (tmp_path / p).read_text(encoding="utf-8")
+        return re.search(r'rel="canonical" href="([^"]+)"', h).group(1)
+    assert canon("index.html") != canon("guam/index.html")
+    assert canon("guam/index.html").endswith("/guam/")
+
+
+def test_article_json_ld_is_valid_json(tmp_path):
+    """이스케이프되면 &#34; 가 되어 파싱이 통째로 깨진다."""
+    import glob as _g, json as _j, re
+    render_site([make("1", "괌 소식")], str(tmp_path), TODAY)
+    page = _g.glob(str(tmp_path / "guam" / "*" / "index.html"))[0]
+    html = open(page, encoding="utf-8").read()
+    raw = re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.S).group(1)
+    data = _j.loads(raw)
+    assert data["@type"] == "NewsArticle"
+    assert data["headline"]
+
+
+def test_404_page_exists(tmp_path):
+    render_site([], str(tmp_path), TODAY)
+    assert (tmp_path / "404.html").exists()
+
+
+def test_favicon_and_og_image_are_deployed(tmp_path):
+    render_site([], str(tmp_path), TODAY)
+    assert (tmp_path / "favicon.svg").exists()
+    assert (tmp_path / "og-default.jpg").exists()
