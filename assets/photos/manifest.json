@@ -345,5 +345,285 @@
       "hero": true,
       "overrode": "얼굴 3건 검출"
     }
+  ],
+  "hawaii": [
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0343.JPG",
+      "file": "assets/photos/hawaii/DJI_0343.webp",
+      "bytes": 119334,
+      "baked_at": "2026-09-02T10:29:33+09:00",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0345.JPG",
+      "file": "assets/photos/hawaii/DJI_0345.webp",
+      "bytes": 243654,
+      "baked_at": "2026-09-02T10:29:36+09:00",
+      "hero": true,
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0347.JPG",
+      "file": "assets/photos/hawaii/DJI_0347.webp",
+      "bytes": 236682,
+      "baked_at": "2026-09-02T10:29:39+09:00",
+      "hero": true,
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0352.JPG",
+      "file": "assets/photos/hawaii/DJI_0352.webp",
+      "bytes": 137706,
+      "baked_at": "2026-09-02T10:29:41+09:00",
+      "hero": true,
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0356.JPG",
+      "file": "assets/photos/hawaii/DJI_0356.webp",
+      "bytes": 254510,
+      "baked_at": "2026-09-02T10:29:43+09:00",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0357.JPG",
+      "file": "assets/photos/hawaii/DJI_0357.webp",
+      "bytes": 209770,
+      "baked_at": "2026-09-02T10:29:46+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0361.JPG",
+      "file": "assets/photos/hawaii/DJI_0361.webp",
+      "bytes": 172278,
+      "baked_at": "2026-09-02T10:29:49+09:00",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0362.JPG",
+      "file": "assets/photos/hawaii/DJI_0362.webp",
+      "bytes": 150014,
+      "baked_at": "2026-09-02T10:29:52+09:00",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0365.JPG",
+      "file": "assets/photos/hawaii/DJI_0365.webp",
+      "bytes": 130366,
+      "baked_at": "2026-09-02T10:29:55+09:00",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0367.JPG",
+      "file": "assets/photos/hawaii/DJI_0367.webp",
+      "bytes": 120996,
+      "baked_at": "2026-09-02T10:29:57+09:00",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0368.JPG",
+      "file": "assets/photos/hawaii/DJI_0368.webp",
+      "bytes": 205876,
+      "baked_at": "2026-09-02T10:30:00+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    }
+  ],
+  "saipan": [
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250404_165634993_01.jpg",
+      "file": "assets/photos/saipan/KakaoTalk_20250404_165634993_01.webp",
+      "bytes": 311242,
+      "baked_at": "2026-09-02T10:34:58+09:00",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250409_105531626.jpg",
+      "file": "assets/photos/saipan/KakaoTalk_20250409_105531626.webp",
+      "bytes": 74614,
+      "baked_at": "2026-09-02T10:34:58+09:00",
+      "hero": true,
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250409_105531626_03.jpg",
+      "file": "assets/photos/saipan/KakaoTalk_20250409_105531626_03.webp",
+      "bytes": 180322,
+      "baked_at": "2026-09-02T10:34:58+09:00",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250411_134734529.jpg",
+      "file": "assets/photos/saipan/KakaoTalk_20250411_134734529.webp",
+      "bytes": 341478,
+      "baked_at": "2026-09-02T10:34:59+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250411_134734529_01.jpg",
+      "file": "assets/photos/saipan/KakaoTalk_20250411_134734529_01.webp",
+      "bytes": 437778,
+      "baked_at": "2026-09-02T10:35:00+09:00",
+      "hero": true,
+      "overrode": "얼굴 5건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250411_134734529_02.jpg",
+      "file": "assets/photos/saipan/KakaoTalk_20250411_134734529_02.webp",
+      "bytes": 248772,
+      "baked_at": "2026-09-02T10:35:00+09:00",
+      "hero": true,
+      "overrode": "얼굴 7건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250411_134734529_03.jpg",
+      "file": "assets/photos/saipan/KakaoTalk_20250411_134734529_03.webp",
+      "bytes": 198736,
+      "baked_at": "2026-09-02T10:35:00+09:00",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250411_134734529_04.jpg",
+      "file": "assets/photos/saipan/KakaoTalk_20250411_134734529_04.webp",
+      "bytes": 196906,
+      "baked_at": "2026-09-02T10:35:01+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250415_140235819_03.jpg",
+      "file": "assets/photos/saipan/KakaoTalk_20250415_140235819_03.webp",
+      "bytes": 167704,
+      "baked_at": "2026-09-02T10:35:01+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    }
+  ],
+  "kota": [
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/기타/날씨/KakaoTalk_20250403_112825584_01.jpg",
+      "file": "assets/photos/kota/KakaoTalk_20250403_112825584_01.webp",
+      "bytes": 146002,
+      "baked_at": "2026-09-02T10:41:55+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/기타/날씨/KakaoTalk_20250403_112825584_02.jpg",
+      "file": "assets/photos/kota/KakaoTalk_20250403_112825584_02.webp",
+      "bytes": 165692,
+      "baked_at": "2026-09-02T10:41:56+09:00",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/기타/날씨/KakaoTalk_20250409_104422835.jpg",
+      "file": "assets/photos/kota/KakaoTalk_20250409_104422835.webp",
+      "bytes": 57412,
+      "baked_at": "2026-09-02T10:41:56+09:00",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/기타/날씨/KakaoTalk_20250409_104422835_01.jpg",
+      "file": "assets/photos/kota/KakaoTalk_20250409_104422835_01.webp",
+      "bytes": 38552,
+      "baked_at": "2026-09-02T10:41:56+09:00",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/기타/날씨/KakaoTalk_20250409_104422835_04.jpg",
+      "file": "assets/photos/kota/KakaoTalk_20250409_104422835_04.webp",
+      "bytes": 120346,
+      "baked_at": "2026-09-02T10:41:58+09:00",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/기타/날씨/KakaoTalk_20250415_103340775.jpg",
+      "file": "assets/photos/kota/KakaoTalk_20250415_103340775.webp",
+      "bytes": 46748,
+      "baked_at": "2026-09-02T10:42:00+09:00",
+      "hero": true,
+      "overrode": "얼굴 4건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/기타/날씨/KakaoTalk_20250415_103340775_03.jpg",
+      "file": "assets/photos/kota/KakaoTalk_20250415_103340775_03.webp",
+      "bytes": 68214,
+      "baked_at": "2026-09-02T10:42:02+09:00",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
+    }
+  ],
+  "vietnam": [
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3317.JPG",
+      "file": "assets/photos/vietnam/PEO_3317.webp",
+      "bytes": 275746,
+      "baked_at": "2026-09-02T10:49:36+09:00",
+      "hero": true,
+      "overrode": "얼굴 8건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3318.JPG",
+      "file": "assets/photos/vietnam/PEO_3318.webp",
+      "bytes": 213768,
+      "baked_at": "2026-09-02T10:49:40+09:00",
+      "hero": true,
+      "overrode": "얼굴 6건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3319.JPG",
+      "file": "assets/photos/vietnam/PEO_3319.webp",
+      "bytes": 149084,
+      "baked_at": "2026-09-02T10:49:43+09:00",
+      "hero": true,
+      "overrode": "얼굴 4건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3322.JPG",
+      "file": "assets/photos/vietnam/PEO_3322.webp",
+      "bytes": 249780,
+      "baked_at": "2026-09-02T10:49:47+09:00",
+      "hero": true,
+      "overrode": "얼굴 7건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3327.JPG",
+      "file": "assets/photos/vietnam/PEO_3327.webp",
+      "bytes": 59858,
+      "baked_at": "2026-09-02T10:49:50+09:00",
+      "hero": true,
+      "overrode": "얼굴 5건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3329.JPG",
+      "file": "assets/photos/vietnam/PEO_3329.webp",
+      "bytes": 236464,
+      "baked_at": "2026-09-02T10:49:54+09:00",
+      "hero": true,
+      "overrode": "얼굴 18건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3330.JPG",
+      "file": "assets/photos/vietnam/PEO_3330.webp",
+      "bytes": 189540,
+      "baked_at": "2026-09-02T10:49:58+09:00",
+      "hero": true,
+      "overrode": "얼굴 6건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3331.JPG",
+      "file": "assets/photos/vietnam/PEO_3331.webp",
+      "bytes": 117868,
+      "baked_at": "2026-09-02T10:50:01+09:00",
+      "hero": true,
+      "overrode": "얼굴 7건 검출"
+    }
   ]
 }
