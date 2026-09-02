@@ -477,3 +477,30 @@ def test_search_console_verification_is_injected(tmp_path, monkeypatch):
     html = (tmp_path / "index.html").read_text(encoding="utf-8")
     assert 'name="google-site-verification" content="abc"' in html
     assert 'name="naver-site-verification" content="xyz"' in html
+
+
+def test_admin_is_deployed_but_not_indexed(tmp_path):
+    """편집실은 배포하되 검색에 노출하지 않는다."""
+    render_site([], str(tmp_path), TODAY)
+    assert (tmp_path / "admin" / "index.html").exists()
+    assert (tmp_path / "admin" / "config.yml").exists()
+    html = (tmp_path / "admin" / "index.html").read_text(encoding="utf-8")
+    assert 'name="robots" content="noindex, nofollow"' in html
+
+
+def test_admin_config_does_not_allow_media_upload():
+    """CMS 업로드는 얼굴 검사를 건너뛴다. 사진은 승인 도구로만 들여온다."""
+    import yaml
+    cfg = yaml.safe_load(open("static/admin/config.yml", encoding="utf-8"))
+    assert cfg.get("media_folder") == ""
+    for col in cfg["collections"]:
+        widgets = {f["widget"] for f in col["fields"]}
+        assert "image" not in widgets and "file" not in widgets
+
+
+def test_admin_config_points_at_the_right_repo():
+    import yaml
+    cfg = yaml.safe_load(open("static/admin/config.yml", encoding="utf-8"))
+    assert cfg["backend"]["repo"] == "peoplay-k/waffletrip"
+    assert cfg["backend"]["branch"] == "main"
+    assert cfg["collections"][0]["folder"] == "content/review"

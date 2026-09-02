@@ -12,7 +12,7 @@ from email.utils import format_datetime
 from datetime import datetime
 
 from src.models import Item
-from src.render.site import (REGION_NAMES, SITE_NAME, SITE_TAGLINE, SITE_URL,
+from src.render.site import (BASE_PATH, REGION_NAMES, SITE_NAME, SITE_TAGLINE, SITE_URL,
                              article_url)
 
 RSS_MAX_ITEMS = 50
@@ -50,7 +50,7 @@ def render_rss(items: list[Item], out_dir: str, built_at: str) -> str:
     rss = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(rss, "channel")
     ET.SubElement(channel, "title").text = SITE_NAME
-    ET.SubElement(channel, "link").text = SITE_URL + "/"
+    ET.SubElement(channel, "link").text = SITE_URL + BASE_PATH + "/"
     ET.SubElement(channel, "description").text = SITE_TAGLINE
     ET.SubElement(channel, "language").text = "ko"
     ET.SubElement(channel, "lastBuildDate").text = _rfc822(built_at)
@@ -60,7 +60,7 @@ def render_rss(items: list[Item], out_dir: str, built_at: str) -> str:
 
     for item in articles:
         node = ET.SubElement(channel, "item")
-        link = SITE_URL + article_url(item)
+        link = SITE_URL + BASE_PATH + article_url(item)
         ET.SubElement(node, "title").text = _xml_safe(item.title)
         ET.SubElement(node, "link").text = link
         ET.SubElement(node, "guid", {"isPermaLink": "true"}).text = link
@@ -75,10 +75,18 @@ def render_rss(items: list[Item], out_dir: str, built_at: str) -> str:
 
 
 def render_sitemap(items: list[Item], out_dir: str, today: str) -> str:
-    urls = [SITE_URL + "/"]
-    urls += [f"{SITE_URL}/{key}/" for key in REGION_NAMES]
-    urls += [f"{SITE_URL}/{page}/" for page in ("flight", "data", "about")]
-    urls += [SITE_URL + article_url(i) for i in items if i.grade != "A"]
+    # 부문은 src/topics.py 가 정본이다. 여기에 손으로 적어두면 부문이
+    # 바뀔 때마다 어긋난다 — 실제로 사라진 /flight/ 를 계속 가리키고
+    # 새 부문 일곱 개가 통째로 빠져 있었다.
+    from src.topics import TOPICS
+
+    base = SITE_URL + BASE_PATH
+    urls = [base + "/"]
+    urls += [f"{base}/{key}/" for key in REGION_NAMES]
+    urls += [f"{base}/{tid}/" for tid, _, _ in TOPICS]
+    urls += [f"{base}/{page}/" for page in
+             ("about", "contact", "privacy", "youth", "search")]
+    urls += [base + article_url(i) for i in items if i.grade != "A"]
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -89,8 +97,9 @@ def render_sitemap(items: list[Item], out_dir: str, today: str) -> str:
 
 
 def render_robots(out_dir: str) -> str:
-    text = (f"User-agent: *\nAllow: /\n\n"
-            f"Sitemap: {SITE_URL}/sitemap.xml\n")
+    # 편집실은 색인하지 않는다. 검색 결과에 나올 이유가 없다.
+    text = (f"User-agent: *\nAllow: /\nDisallow: /admin/\n\n"
+            f"Sitemap: {SITE_URL}{BASE_PATH}/sitemap.xml\n")
     return _write(os.path.join(out_dir, "robots.txt"), text)
 
 
