@@ -49,6 +49,7 @@
     "1fe8e9fdb3166080b74576c67979278fe192d7dc",
     "203e4889a6cc78f6e8bdbf323da0d67e7139f74a",
     "2094d528882dc4ad4afd877931da89083275d889",
+    "20eef3bc84ee301940caf8d4438e935becc45a6d",
     "217c838f5eee58dbf21fd37e7fb3b992a1c39146",
     "2426b087007436aa008447bdbbce1d3037870cfc",
     "246799c85138d8418f1a59e1e88600a81b8904e6",
@@ -61,6 +62,7 @@
     "29579ba9f90e653269eb751cbb2af917fbac9ec1",
     "29d1c0118a456fe1825c83a8c4e9fab1c09fab6f",
     "2bc606a16bcf826413c847e0c9084d9cfd02f916",
+    "2f2eedbb95d45bef57df1334191fa23bfb3351e5",
     "2fb2288b78f7f6a9e8fca16c2b5e661193e3219c",
     "303ad797da6a1eb8d9eed93c4d6ab9883ce392be",
     "30c41599a656beacf55d2c187c5d326911ca6691",
@@ -133,6 +135,7 @@
     "60bb59a1cca5353d7d8851ea672b5bedd1850a61",
     "611a6f43d860ff3c3fef13e685927fa1646d6218",
     "612a3e5ac23dcb50ec698f8d1d7f452decdf8dca",
+    "613c6dc315727fa3254325ab9eeb6f39d8d19f78",
     "6241c8333e6e60d3b6cb7d5a70cbe7ae2b906a6e",
     "6298df82c0c73d963ff9c4efe79bd81b80ca1c2b",
     "64ac2437ecd6c0974647faa635930798fc32554c",
@@ -158,7 +161,9 @@
     "703559defb14405fc7cf88917dd7dfecc220d814",
     "7208d2bec772d7453659803f21d980a0dfea3c6b",
     "722c9574cd7062b6f1380a7addc8251499ae9b35",
+    "7343c9216d3ee1cb90c69753874d318459e3a377",
     "73add775efc0e65cd45144797556c7ce97544f81",
+    "74a17223d23094dcf632de7d9fca54a6f77b368b",
     "7541637fcc6ede7fcc225a80d1e568f2df370fa9",
     "756a9cd6bffa47781076b86ea037a89260f4d982",
     "758645e38adbbb46f2830b1c64dd6c81587729fc",
@@ -181,6 +186,7 @@
     "832ca7377cf1d28489a3422d4427f7c21ed1e59c",
     "84403d3c6b72d4a7325c7d48d5a27ded73bb354a",
     "845b00e0e372783c007422e4a941a4d32f1bfdda",
+    "845b260d74e3cef40360539f00926e29797ecda3",
     "85e269c2689efc7cc8b4c9be5dbca4596a77c7c1",
     "8816305702b491e28d5a314443a92823a49a5765",
     "887a572807b1bbece8bc7ceafe8bd9b3b243db70",
@@ -197,6 +203,7 @@
     "932902ab5b26103a4de481efb873e8c32f5870d7",
     "9518c47d320550ea08f4fc0c001116fdad49dc63",
     "953bdb2bf16e246cacdbe808b55f7d13c74dfc18",
+    "95b6a8dbdc2391e6c7f0c7cea4da0ec1de91f49f",
     "95fbd0e26fe86324ec5012db5422f1f1ad1775f0",
     "962f9af25fe02ef0151cf23425a272c2584fc37b",
     "9681f78d256ea04c28c26fcfa5b69cf320c2164c",
@@ -213,6 +220,7 @@
     "9de8bc542f839cfe79f9182bdfc1ce84f9b73837",
     "9e201d01ab852b083c69bd3c8ba7072b16facc51",
     "9e34d106e5251d99f296053f4df1ec385b41e6e4",
+    "9f3f154d6618533068d0de8f0c85046bc1c1da2a",
     "9fb330d08a5b1ffb0133ba98764da244ae615f85",
     "9fbef1c87d9dbf77e075bfc7dbbb5102b9da431a",
     "a122d141d5ab6630ffde0e4a24a74cea1cbc486b",
@@ -225,6 +233,7 @@
     "a74b11b2b401774ce8b72f0b4cea91c72b21bc2a",
     "a8167285e1ddd3f79147758b74bacd8cf0afcc8b",
     "a83ef6b078c9c9e1e9c1f1b7a2d6da185e91afef",
+    "a86c592dc86fa82bec313b5378e3d70331536254",
     "a969749d71f367fdb16c41b770f3dd834562d965",
     "aa9375cb5f4a2efca15fbc28ef206d874068d364",
     "aab51cfb9c28553a77a8357a7606cbda05cc281b",
@@ -269,13 +278,16 @@
     "c328f751d3cd583e2fd62860ee15dce3fea9f9cf",
     "c5704dca061fcc5798902bcee5079eb93f8073fb",
     "c70874289b0e8f81f57fa8a3aeb14df625b8da68",
+    "c71418e7743f26bec3f9eb48a03d01cd1dc6de72",
     "c7cebb141d945ca765f5bb969ac32e90c9070f72",
     "c84801cf2eb6d73ac5e32b59acc79aac6d04b1fa",
+    "c87458815fdcfb633e389453cd5e9340cc3d07ec",
     "ca6f29e67ba94d83d911fc9f50d07df67e8aecac",
     "cb1783abcfd6de23ab12a8487c1aa728c02c6770",
     "cbe997aa850acb30f65beb392ebccd89759a2f64",
     "cc28273cf941a20e8c1b8da589209e531db6a9c3",
     "cc883ac7e7d674491902a4215d8dcdf00aed55e7",
+    "ccaa38f9547e40dd9f97b10f4d1152857c196996",
     "ce12de3f3c39fc1e686b69a61d83fabfb53b4fa0",
     "ce54893198393240798fa51d1d8bd3c5fa83662d",
     "cfd0c72bee2448c2eee7a831f31ab53f9fa7e795",
@@ -346,6 +358,7 @@
     "f68d3d8b0dd90537a7e6bed5e0c0841a334238e8",
     "f6b3c6f7582bfcdde4f512de8c36408f5df1d5f8",
     "f78086d1ed1da1d4924062642b0aaa788e82097d",
+    "f7a0dc2236e30d426bd2be0b8445a05da74e18c0",
     "f7af7e251084affc1fc0f9efd99d65670a0ea7d3",
     "f8ff3d1b15df7dc93832e2547a9c2f3f1ca78743",
     "fa1343ca34db8aad65bf0041f84ee4c23f6c2a81",
@@ -2310,6 +2323,97 @@
       "title": "Two arrested after newborn found in sanitary bin at Penang airport",
       "date": "2026-09-02",
       "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "9f3f154d6618533068d0de8f0c85046bc1c1da2a",
+      "title": "이번 주 하와이에서 나온 소식 8건",
+      "date": "2026-09-02",
+      "region": "hawaii",
+      "grade": "C"
+    },
+    {
+      "id": "f7a0dc2236e30d426bd2be0b8445a05da74e18c0",
+      "title": "이번 주 베트남에서 나온 소식 8건",
+      "date": "2026-09-02",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "ccaa38f9547e40dd9f97b10f4d1152857c196996",
+      "title": "이번 주 제주에서 나온 소식 8건",
+      "date": "2026-09-02",
+      "region": "jeju",
+      "grade": "C"
+    },
+    {
+      "id": "a86c592dc86fa82bec313b5378e3d70331536254",
+      "title": "둥지서 떨어진 어린 소쩍새 4마리 자연의 품으로",
+      "date": "2026-09-02",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "c87458815fdcfb633e389453cd5e9340cc3d07ec",
+      "title": "흙으로 목욕하는 참새",
+      "date": "2026-09-02",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "c71418e7743f26bec3f9eb48a03d01cd1dc6de72",
+      "title": "햇볕에는 양산이 필수",
+      "date": "2026-09-02",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "74a17223d23094dcf632de7d9fca54a6f77b368b",
+      "title": "Deadly rough seas: Three beach incidents in Kota Tinggi in four days",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "95b6a8dbdc2391e6c7f0c7cea4da0ec1de91f49f",
+      "title": "‘경기 보고 돈도 쓰고’ 제주 스포츠관광 쏠쏠",
+      "date": "2026-09-02",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "845b260d74e3cef40360539f00926e29797ecda3",
+      "title": "Friends swept away while trying to save drowning teen",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "613c6dc315727fa3254325ab9eeb6f39d8d19f78",
+      "title": "AirAsia, Pegasus link up to bridge Asia and Europe",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "7343c9216d3ee1cb90c69753874d318459e3a377",
+      "title": "[기고] ‘관광객 착시’라는 제주도의 비겁한 변명",
+      "date": "2026-09-02",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "20eef3bc84ee301940caf8d4438e935becc45a6d",
+      "title": "[날씨] 3일 제주 동부 중심 가끔 비…4일부터 태풍급 강풍",
+      "date": "2026-09-02",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "2f2eedbb95d45bef57df1334191fa23bfb3351e5",
+      "title": "제주 원도심 탑동의 상징 ‘오리엔탈호텔’ 새단장",
+      "date": "2026-09-02",
+      "region": "jeju",
       "grade": "B"
     }
   ]

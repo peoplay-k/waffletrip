@@ -14,7 +14,8 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
 
 from src.desks import DESK_DUTIES, REGION_DESKS, byline_for
-from src.photos import assign as assign_photos, copy_into, load_manifest
+from src.photos import (assign as assign_photos, copy_into, load_manifest,
+                        load_used, save_used)
 from src.render.md import render as md_render
 from src.topics import TOPIC_DESCS, TOPIC_NAMES, TOPICS, group_by_topic, topic_of
 
@@ -257,10 +258,13 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         for item in items:
             if not item.photo and item.grade != "A":
                 by_region.setdefault(item.region, []).append(item)
+        # 사용 이력을 이어받는다. 한 번 쓴 사진은 다시 배정되지 않는다.
+        used = load_used()
         for region, group in by_region.items():
-            mapping = assign_photos(manifest, region, [i.id for i in group])
+            mapping = assign_photos(manifest, region, [i.id for i in group], used)
             for item in group:
                 item.photo = mapping.get(item.id) or None
+        save_used(used)
     env = _env()
     written: list[str] = []
     urls = {i.id: article_url(i) for i in items}

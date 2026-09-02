@@ -14,7 +14,24 @@ import os
 import shutil
 
 MANIFEST = "assets/photos/manifest.json"
+USED = "data/photos/used.json"      # 사진 사용 이력. 재사용을 막는 유일한 장치.
 PUBLIC_DIR = "img"          # public/ 아래 경로
+
+
+def load_used(path: str = USED) -> dict:
+    """사진 → 그 사진을 쓴 기사 id."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def save_used(used: dict, path: str = USED) -> None:
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(used, f, ensure_ascii=False, indent=2, sort_keys=True)
 
 
 def load_manifest(path: str = MANIFEST) -> dict:
@@ -52,38 +69,42 @@ def photos_for(manifest: dict, region: str) -> list[str]:
     return [web_path(e["file"]) for e in heroes + rest]
 
 
-def assign(manifest: dict, region: str, seeds: list[str]) -> dict:
-    """한 지역면의 기사들에 사진을 겹치지 않게 배정한다.
+def assign(manifest: dict, region: str, seeds: list[str],
+           used: dict | None = None) -> dict:
+    """한 지역면의 기사들에 사진을 배정한다.
 
-    pick() 만 쓰면 해시가 충돌해 같은 사진이 한 화면에 두 번 나온다.
-    실제로 톱기사와 카드에 같은 스테이크 접시가 걸렸다.
+    **한 번 쓴 사진은 다시 쓰지 않는다.** 같은 사진이 여러 기사에 반복되면
+    유사문서로 처리돼 검색에서 손해를 보고, 매체가 성의 없어 보인다.
+    사진이 모자라면 재사용하는 대신 **사진 없이 내보낸다.**
 
-    기사 고유의 자리(pick)를 먼저 잡고, 이미 쓰인 사진이면 다음 것으로 밀어
-    비어 있는 자리를 찾는다. 같은 입력이면 결과가 같다 — 빌드마다 사진이
-    바뀌면 어제 본 기사가 오늘 달라 보인다.
+    used 는 사진 → 기사 id 기록이다. 같은 기사는 늘 같은 사진을 유지하고
+    (빌드마다 바뀌면 어제 본 기사가 오늘 달라 보인다), 다른 기사가 쓴
+    사진은 후보에서 빠진다.
     """
+    used = {} if used is None else used
     pool = photos_for(manifest, region)
     if not pool:
         return {}
-    used: set[str] = set()
+
     out: dict[str, str] = {}
-    # 첫 화면(톱 + 사이드 둘)은 풍경 사진으로 채운다. 거기에 음식 클로즈업이
-    # 걸리면 여행신문으로 안 보인다. 나머지는 해시로 흩는다.
-    heroes = hero_photos(manifest, region)
-    lead_count = min(3, len(heroes), len(seeds))
-    for i in range(lead_count):
-        out[seeds[i]] = heroes[i]
-        used.add(heroes[i])
-    for seed in seeds[lead_count:]:
-        start = sum(ord(c) for c in seed) % len(pool)
-        for step in range(len(pool)):
-            candidate = pool[(start + step) % len(pool)]
-            if candidate not in used:
-                used.add(candidate)
-                out[seed] = candidate
-                break
-        else:
-            out[seed] = pool[start]      # 사진보다 기사가 많으면 돌려 쓴다
+    # ① 이미 이 기사에 배정된 사진은 그대로 둔다.
+    mine = {aid: ph for ph, aid in used.items()}
+    for seed in seeds:
+        if seed in mine and mine[seed] in pool:
+            out[seed] = mine[seed]
+
+    # ② 남은 기사에는 아직 아무도 쓰지 않은 사진만 준다.
+    free = [p for p in pool if p not in used]
+    heroes = [p for p in hero_photos(manifest, region) if p in free]
+    rest = [p for p in free if p not in heroes]
+    queue = heroes + rest          # 첫 화면은 풍경이 먼저
+
+    for seed in seeds:
+        if seed in out or not queue:
+            continue               # 남은 사진이 없으면 사진 없이 간다
+        out[seed] = queue.pop(0)
+        used[out[seed]] = seed
+
     return out
 
 

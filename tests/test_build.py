@@ -126,3 +126,18 @@ def test_main_refuses_to_build_an_empty_site(tmp_path):
     out = tmp_path / "public"
     assert main(data_dir=str(tmp_path), out_dir=str(out)) == 1
     assert not out.exists()
+
+
+def test_build_clears_stale_pages(tmp_path):
+    """내려간 기사의 쪽이 남아 있으면 안 된다.
+
+    CI 는 새 체크아웃이라 문제가 없지만 로컬은 쌓인다. 로컬과 라이브가
+    달라지면 점검 결과를 믿을 수 없다.
+    """
+    stale = tmp_path / "guam" / "내려간-기사"
+    stale.mkdir(parents=True)
+    (stale / "index.html").write_text("옛 기사", encoding="utf-8")
+
+    build([make("1", "괌 소식")], str(tmp_path), TODAY, NOW)
+    assert not stale.exists()
+    assert (tmp_path / "index.html").exists()

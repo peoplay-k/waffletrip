@@ -88,12 +88,16 @@ def test_assign_is_stable_for_the_same_input():
     assert assign(manifest, "guam", seeds) == assign(manifest, "guam", seeds)
 
 
-def test_assign_reuses_when_articles_outnumber_photos():
-    """사진보다 기사가 많아도 배정이 비지 않아야 한다."""
+def test_assign_never_reuses_even_when_short():
+    """사진보다 기사가 많으면 사진 없이 낸다. 재사용이 우선순위보다 먼저 금지다.
+
+    (예전에는 모자라면 돌려 썼다. 그 동작을 금지로 바꿨다.)
+    """
     from src.photos import assign
     manifest = {"guam": [{"file": "assets/photos/guam/only.webp"}]}
     got = assign(manifest, "guam", ["a", "b", "c"])
-    assert len(got) == 3 and set(got.values()) == {"/img/guam/only.webp"}
+    assert len(got) == 1
+    assert list(got.values()) == ["/img/guam/only.webp"]
 
 
 def test_assign_without_photos_returns_empty():
@@ -159,3 +163,67 @@ def test_fewer_heroes_than_slots_still_works():
     got = assign(manifest, "guam", ["a", "b"])
     assert got["a"] == "/img/guam/beach.webp"
     assert got["b"] == "/img/guam/food.webp"
+
+
+# ── 사진 재사용 금지 ──────────────────────────────────────────────
+def _m(n, heroes=0):
+    return {"guam": [{"file": f"assets/photos/guam/p{i}.webp",
+                      **({"hero": True} if i < heroes else {})} for i in range(n)]}
+
+
+def test_a_photo_is_never_given_to_a_second_article():
+    """한 번 쓴 사진은 다시 쓰지 않는다. 같은 사진이 여러 기사에 반복되면
+    유사문서로 처리돼 검색에서 손해를 보고 매체가 성의 없어 보인다."""
+    from src.photos import assign
+    used = {}
+    first = assign(_m(3), "guam", ["a", "b"], used)
+    second = assign(_m(3), "guam", ["c", "d"], used)
+    assert set(first.values()) & set(second.values()) == set()
+
+
+def test_running_out_means_no_photo_not_a_repeat():
+    """사진이 모자라면 재사용하는 대신 사진 없이 낸다."""
+    from src.photos import assign
+    used = {}
+    got = assign(_m(2), "guam", ["a", "b", "c", "d"], used)
+    assert len(got) == 2
+    assert len(set(got.values())) == 2
+    assert "c" not in got and "d" not in got
+
+
+def test_same_article_keeps_its_photo_across_builds():
+    """빌드마다 사진이 바뀌면 어제 본 기사가 오늘 달라 보인다."""
+    from src.photos import assign
+    used = {}
+    first = assign(_m(4), "guam", ["a", "b"], used)
+    again = assign(_m(4), "guam", ["a", "b"], used)
+    assert first == again
+
+
+def test_new_article_gets_a_fresh_photo_not_an_old_one():
+    from src.photos import assign
+    used = {}
+    assign(_m(4), "guam", ["a", "b"], used)
+    later = assign(_m(4), "guam", ["a", "b", "c"], used)
+    assert later["c"] not in (later["a"], later["b"])
+
+
+def test_scenery_still_goes_first_among_unused():
+    from src.photos import assign
+    used = {}
+    got = assign(_m(5, heroes=2), "guam", ["lead"], used)
+    assert got["lead"] in ("/img/guam/p0.webp", "/img/guam/p1.webp")
+
+
+def test_used_ledger_survives_a_round_trip(tmp_path):
+    from src.photos import load_used, save_used
+    path = str(tmp_path / "used.json")
+    save_used({"/img/guam/a.webp": "article-1"}, path)
+    assert load_used(path) == {"/img/guam/a.webp": "article-1"}
+
+
+def test_broken_ledger_does_not_crash_the_build(tmp_path):
+    from src.photos import load_used
+    p = tmp_path / "used.json"
+    p.write_text("{{{ 깨진", encoding="utf-8")
+    assert load_used(str(p)) == {}
