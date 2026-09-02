@@ -15,6 +15,7 @@
     "08499c2727b8117e3609ff6590c20f91189b3538",
     "08612fba110f2c5e1468e5f1a6653fcef4937ea8",
     "086cfafd444a05c4651c91f616a7e40ee11a4606",
+    "0872284f30ea77ea52bc49c851a136e92c9519c9",
     "088cb5e3b0929791a664745b4f353f70ace9df02",
     "0943646755e25e486036651543314bc58a31b804",
     "0a0be6192554695c2172d21a218e8b8449929d9f",
@@ -72,6 +73,7 @@
     "39761bd5e34baabd5f86bf300c327fe353fb34b4",
     "39ab3689084ef93093f91942e24a82915ff64283",
     "39e93fca2a31377fbd5b7a166dd845053235f332",
+    "3a4f3e520fdde85a2378a9deeb65c29413411208",
     "3a9def1b8b464ad1b3634eba5d84a7082fb57718",
     "3b758d70da8bf79a020f4af75b7697a604fd9960",
     "3ba389abf3b9ac4189ffb94281cdd598affa97ab",
@@ -107,8 +109,10 @@
     "5455306572f4b6c4725ec2ac2c826ae65d5d047b",
     "55649f7ceb17393c328072ae0f2792de20868799",
     "55be4ab1fe507960bbe8cbd654d2e92b4d9f535e",
+    "57bf5a16fb863621d7f0886154a05219b962c352",
     "57c882014ed74e4244f611c62fede65259f05548",
     "58a36a4e05002a0918a665175aecf5959aa19173",
+    "590949efd52ff5e78e77125ebb338faf33b4f6c1",
     "59a4a91abb7f7fffcd0663041822e6d2a8894c9d",
     "5a310d3d42c86c5dbaca6fa812314eeb8de046aa",
     "5a837d00b1d5a8eb126e6d0068a9f38c63c088e5",
@@ -130,6 +134,7 @@
     "6298df82c0c73d963ff9c4efe79bd81b80ca1c2b",
     "64ac2437ecd6c0974647faa635930798fc32554c",
     "6766d53f19e1d22df1f70c13609b4b296509f167",
+    "67891dccaed66cfaea744a6ecf7c4cf1fb4197b6",
     "67d3ec5792ddcd7f49084fc00c4a91699156710b",
     "67e2c149dc7305681aa5e8eebaba31933b5652cb",
     "68f75604848095cd109fc0d808db7500fe3712ee",
@@ -167,6 +172,7 @@
     "7d8abab1563916d80d649ed8ed14d5f14f5e0c26",
     "7dffe3d6356e70da069616187f720b8387ea208a",
     "7f491bf2a743df3faac51fc2de66dd46e5d6faf5",
+    "7f544c115b8e738e9f73ea1964c106476350b97a",
     "8012972d68a3c4286d206771386756a2d9df9826",
     "832ca7377cf1d28489a3422d4427f7c21ed1e59c",
     "84403d3c6b72d4a7325c7d48d5a27ded73bb354a",
@@ -213,6 +219,7 @@
     "a6d2e6187de4b6d2e356c8f4589d611f163da917",
     "a74516c1ea5dcb1e1290f5bcceb16fb6cf40f479",
     "a74b11b2b401774ce8b72f0b4cea91c72b21bc2a",
+    "a8167285e1ddd3f79147758b74bacd8cf0afcc8b",
     "a83ef6b078c9c9e1e9c1f1b7a2d6da185e91afef",
     "a969749d71f367fdb16c41b770f3dd834562d965",
     "aa9375cb5f4a2efca15fbc28ef206d874068d364",
@@ -224,6 +231,7 @@
     "b1a50c91f6579f8b5b69257c910057a6866d080a",
     "b3baedca4fc58a4767cd80991717155f9a812421",
     "b3f8b2a6137c8bc883db655f58bf5189f15973d5",
+    "b458a085f057752569c45ef46e595bfa5d8bfe7d",
     "b63c3b5cefbe1740b0d648b5bd59916b1170292a",
     "b83d0e66dd9cf791f0b2e16a4ba933efa445e855",
     "b843a1d7630c31ee211783af83318321091449bf",
@@ -326,6 +334,7 @@
     "f569ccb58f90c6059e21882e5818c9ee4823e44a",
     "f5fc01f71c282acbab3e73d00ec400915626ba3d",
     "f659f8006069469193c49699db159baf1539ee01",
+    "f68d3d8b0dd90537a7e6bed5e0c0841a334238e8",
     "f6b3c6f7582bfcdde4f512de8c36408f5df1d5f8",
     "f78086d1ed1da1d4924062642b0aaa788e82097d",
     "f7af7e251084affc1fc0f9efd99d65670a0ea7d3",
@@ -2158,6 +2167,69 @@
       "title": "Four missing, two rescued after Tanjung Lompat beach incident",
       "date": "2026-09-02",
       "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "57bf5a16fb863621d7f0886154a05219b962c352",
+      "title": "제주지사, 실종사건 논란에 \"관광객까지 불안\"…안전망 확대 지시",
+      "date": "2026-09-02",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "3a4f3e520fdde85a2378a9deeb65c29413411208",
+      "title": "마리아나관광청 ‘FAR FROM ORDINARY’ 올해의 브랜드 대상 수상",
+      "date": "2026-09-02",
+      "region": "saipan",
+      "grade": "B"
+    },
+    {
+      "id": "b458a085f057752569c45ef46e595bfa5d8bfe7d",
+      "title": "First Alert Forecast: Lowell intensifies and expected to initially track south before it turns right",
+      "date": "2026-09-02",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "590949efd52ff5e78e77125ebb338faf33b4f6c1",
+      "title": "연동 야간순찰 나선 위 지사, “안전 체감 높이자”",
+      "date": "2026-09-02",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "67891dccaed66cfaea744a6ecf7c4cf1fb4197b6",
+      "title": "Newborn baby found alive in Penang airport toilet",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "a8167285e1ddd3f79147758b74bacd8cf0afcc8b",
+      "title": "El Salvador tourist killed in hit-and-run in Kelantan",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "7f544c115b8e738e9f73ea1964c106476350b97a",
+      "title": "City admits ineligible voters cast ballots in tied Makakilo primary race",
+      "date": "2026-09-02",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "f68d3d8b0dd90537a7e6bed5e0c0841a334238e8",
+      "title": "UTC Pudu passport cover spat a misunderstanding, says lawyer",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "0872284f30ea77ea52bc49c851a136e92c9519c9",
+      "title": "창사 15주년 더투데이, 민영 뉴스통신사로 ‘새 출발’",
+      "date": "2026-09-02",
+      "region": "jeju",
       "grade": "B"
     }
   ]
