@@ -25,6 +25,22 @@ REGION_DESKS = {
 DATA_DESK = f"{BRAND} 데이터팀"
 EDIT_DESK = f"{BRAND} 편집팀"
 
+# 각 데스크가 맡는 일. 편집국 소개에 그대로 쓴다 —
+# 독자가 "누가 이걸 만드나"를 알 수 있어야 한다.
+DESK_DUTIES = (
+    (DATA_DESK, "환율·날씨를 매일 아침 직접 수집해 정리합니다. 데이터 기사도 여기서 만듭니다.",
+     "자동"),
+    (EDIT_DESK, "다른 매체의 보도를 골라 제목과 두 문장 요약에 원문 링크를 답니다.",
+     "자동"),
+    (REGION_DESKS["guam"], "괌 지역의 해설·답사 기사를 맡습니다.", "사람"),
+    (REGION_DESKS["saipan"], "사이판 지역의 해설·답사 기사를 맡습니다.", "사람"),
+    (REGION_DESKS["hawaii"], "하와이 지역의 해설·답사 기사를 맡습니다.", "사람"),
+    (REGION_DESKS["vietnam"], "베트남 지역의 해설·답사 기사를 맡습니다.", "사람"),
+    (REGION_DESKS["kota"], "코타키나발루 지역의 해설·답사 기사를 맡습니다.", "사람"),
+    (REGION_DESKS["laos"], "라오스 지역의 해설·답사 기사를 맡습니다.", "사람"),
+    (REGION_DESKS["jeju"], "제주 지역의 해설·답사 기사를 맡습니다.", "사람"),
+)
+
 
 def byline_for(item) -> str:
     """이 기사의 서명.

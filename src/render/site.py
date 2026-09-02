@@ -12,7 +12,7 @@ import re
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
 
-from src.desks import byline_for
+from src.desks import DESK_DUTIES, REGION_DESKS, byline_for
 from src.photos import assign as assign_photos, copy_into, load_manifest
 from src.render.md import render as md_render
 from src.topics import TOPIC_DESCS, TOPIC_NAMES, TOPICS, group_by_topic, topic_of
@@ -210,7 +210,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "site_url": SITE_URL, "region_names": REGION_NAMES,
         "today": today, "article_urls": urls,
         "topics": TOPICS, "topic_names": TOPIC_NAMES,
-        "contact_email": CONTACT_EMAIL,
+        "contact_email": CONTACT_EMAIL, "desk_duties": DESK_DUTIES,
     }
 
     # 홈 — 국내 여행 전문지 지면 구성을 따른다.
@@ -254,7 +254,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             os.path.join(out_dir, key, "index.html"),
             env.get_template("region.html").render(
                 region_key=key, region_name=name, panel=panel,
-                articles=articles, product_link=PRODUCT_LINKS[key], **common),
+                articles=articles, product_link=PRODUCT_LINKS[key],
+                desk=REGION_DESKS.get(key, ""), **common),
             written,
         )
 
