@@ -48,7 +48,11 @@
     }), term);
   }
 
-  fetch('/search.json').then(function (r) { return r.json(); })
+  // 상대경로를 쓴다. "/search.json" 은 하위 경로 배포에서 도메인 루트를
+  // 가리켜 404 가 난다 — with_base 는 href/src 속성만 고치고 JS 문자열은
+  // 손대지 않는다. "../search.json" 은 /waffletrip/search/ 에서도
+  // 커스텀 도메인의 /search/ 에서도 옳게 풀린다.
+  fetch('../search.json').then(function (r) { return r.json(); })
     .then(function (j) { data = j; run(); })
     .catch(function () { count.textContent = '색인을 불러오지 못했습니다.'; });
 

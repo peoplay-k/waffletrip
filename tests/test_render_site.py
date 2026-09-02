@@ -338,3 +338,15 @@ def test_rendered_pages_get_the_prefix(tmp_path, monkeypatch):
     html = (tmp_path / "index.html").read_text(encoding="utf-8")
     assert 'href="/waffletrip/' in html
     assert 'href="//' not in html.replace('href="//waffletrip', '')
+
+
+def test_search_page_uses_a_relative_index_path(tmp_path):
+    """검색 색인을 절대경로로 부르면 하위 경로 배포에서 404 가 난다.
+
+    with_base 는 href/src 속성만 고치고 JS 문자열은 손대지 않는다.
+    실제로 배포된 사이트에서 검색이 통째로 죽어 있었다.
+    """
+    render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "search" / "index.html").read_text(encoding="utf-8")
+    assert "'../search.json'" in html
+    assert "'/search.json'" not in html
