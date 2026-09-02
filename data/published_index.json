@@ -82,6 +82,7 @@
     "3fda7301d0e70b7e0ae8e1f30c7f2561c5043f0e",
     "404f858a2da4a9ffcaf948ccabf401bd7e97cfd7",
     "4077cd113d99ad58b45d0b878ed13dc6a0b681b1",
+    "425d1982b64031f4b1b8068776158fb3d225f944",
     "42c8580c41be0b1b19aae3352195709213ff6a4e",
     "4370678357d949d57ba28ae9bd299d8b603de41e",
     "45bb95475fa068365a3f1ea700d78f91af88eb79",
@@ -90,6 +91,7 @@
     "47d81a73e9cf08e118cf0f171b19387abc34dbfb",
     "483beecb35969dcee413292eacba48f5776ae075",
     "4880fce6c73db5e9ba61f4b38a46e9ae6cdf73cc",
+    "4a15207887f68bf9d1e2ffd1ad4ec84cceb76c71",
     "4a6bcaf167807e07a657f92f882d80dd12088af8",
     "4a9639ba4aebe49d7b4cf791ad1a79f470f1561b",
     "4cdb0bb3ea174f276017253aa4a2b0519d3cd376",
@@ -108,6 +110,7 @@
     "58a36a4e05002a0918a665175aecf5959aa19173",
     "59a4a91abb7f7fffcd0663041822e6d2a8894c9d",
     "5a310d3d42c86c5dbaca6fa812314eeb8de046aa",
+    "5a837d00b1d5a8eb126e6d0068a9f38c63c088e5",
     "5adf073c8c46a4701df74e4cb0f16bc291e87d4d",
     "5b7e40be841b0f89d00d3590ee92151250a7164f",
     "5bff7a6ef61a031a6fbf16d45fb3b196f6f4c2d3",
@@ -260,6 +263,7 @@
     "d0b5e53b1087acd2289fac86dee2e97cb5b3e993",
     "d0d1883440fa1441e0c4832fdab0bf2f00f2191b",
     "d0d475d840c776d51e0926eff73f2dda8a05a473",
+    "d105967904c321faca6c16a3d122ae9fbb59cbb4",
     "d2a5d456bf935d67d3f70ddbc596299f0d3babfc",
     "d2ba167581a571c8a413b4b2cfce4da7ccf06da4",
     "d308482000fb669e052a04ba1a325fe047c033c5",
@@ -283,6 +287,7 @@
     "dcbf8fd3457cddea23dd9d74dcd7f38a3e559607",
     "dd2cf08077ac3ca114fe8bd15078d3bca2c8a75d",
     "dd77b6bfa8f3492a87dec557e661d68cba286fc4",
+    "de888903e1aa1cdaa257d014cda78e920b3708f5",
     "e047ca2b2210b2854cb29480267dbeb91b4910f0",
     "e0e0c0948409ee6a562b977d605f57ba027014b7",
     "e23559f661bc3327c41d6e455f3cf0fbb052257c",
@@ -2078,6 +2083,41 @@
       "title": "Is Hawaii too expensive? Spotlight Now looks at tourism trends, cooling Waikiki economy",
       "date": "2026-09-02",
       "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "5a837d00b1d5a8eb126e6d0068a9f38c63c088e5",
+      "title": "Woman injured by falling concrete from heritage building",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "d105967904c321faca6c16a3d122ae9fbb59cbb4",
+      "title": "Germany blames Russia for airport drone incident, hits back with sanctions",
+      "date": "2026-09-02",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "de888903e1aa1cdaa257d014cda78e920b3708f5",
+      "title": "First Alert Forecast: Hang on to your papale, it’s gonna get windy!",
+      "date": "2026-09-02",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "425d1982b64031f4b1b8068776158fb3d225f944",
+      "title": "Man accused of traveling to Thailand to avoid child sex abuse prosecution",
+      "date": "2026-09-02",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "4a15207887f68bf9d1e2ffd1ad4ec84cceb76c71",
+      "title": "Ipoh festival to celebrate diverse coffee cultures",
+      "date": "2026-09-02",
+      "region": "kota",
       "grade": "B"
     }
   ]
