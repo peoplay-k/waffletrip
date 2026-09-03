@@ -23,9 +23,7 @@ from src.models import Item, make_id, title_hash
 
 KST = timezone(timedelta(hours=9))
 
-REGION_NAMES = {"guam": "괌", "saipan": "사이판", "hawaii": "하와이",
-                "vietnam": "베트남", "kota": "코타키나발루",
-                "laos": "라오스", "jeju": "제주"}
+from src.models import REGION_NAMES  # 정본은 models.py
 
 _WEATHER = re.compile(
     r"\S+\s+(?P<city>\S+)\s+(?P<sky>[^,]+),\s*최고\s*(?P<hi>-?\d+)°C"

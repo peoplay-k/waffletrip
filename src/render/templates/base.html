@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}{{ site_name }}{% endblock %}</title>
-<meta name="description" content="{% block description %}{{ site_tagline }} — 괌·사이판·하와이·베트남·코타키나발루·라오스·제주{% endblock %}">
+<meta name="description" content="{% block description %}{{ site_tagline }} — 일본·태국·대만·베트남·괌·사이판·하와이·코타키나발루·라오스·제주{% endblock %}">
 <link rel="canonical" href="{{ canonical }}">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate" type="application/rss+xml" title="{{ site_name }}" href="/rss.xml">
@@ -243,6 +243,17 @@
     .sec-lead:has(img){grid-template-columns:1fr}
   }
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* 도시 띠 — 검색은 나라가 아니라 도시로 들어온다 */
+.citystrip{display:flex;flex-wrap:wrap;gap:0 18px;align-items:center;
+  margin:34px 0 6px;padding:12px 0;border-top:2px solid var(--ink);
+  border-bottom:1px solid var(--rule);word-break:keep-all}
+.citystrip .cs-label{font-weight:800;font-size:13px;letter-spacing:.02em;
+  color:var(--accent);margin-right:4px}
+.citystrip a{font-size:15px;font-weight:600;color:var(--ink);
+  text-decoration:none;padding:3px 0}
+.citystrip a:hover{color:var(--accent);text-decoration:underline}
+.foot .links.cities a{color:var(--muted)}
 </style>
 </head>
 <body>
@@ -273,6 +284,11 @@
   <div class="links">
     {% for tid, tname, _ in topics %}<a href="/{{ tid }}/">{{ tname }}</a>{% endfor %}
   </div>
+  {% if city_links %}
+  <div class="links cities">
+    {% for slug, name in city_links %}<a href="/city/{{ slug }}/">{{ name }}</a>{% endfor %}
+  </div>
+  {% endif %}
   <div class="links">
     <a href="/about/">매체소개</a><a href="/contact/">기사제보·광고문의</a>
     <a href="/privacy/">개인정보처리방침</a><a href="/youth/">청소년보호정책</a>

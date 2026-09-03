@@ -1,3 +1,5 @@
+import pytest
+
 from src.region_tag import tag_region, REGION_KEYWORDS, SINGLE_CHAR_ALLOWED
 from src.models import REGIONS
 
@@ -41,8 +43,9 @@ def test_tags_jeju():
 
 
 def test_returns_none_for_destinations_we_do_not_cover():
-    assert tag_region("오사카 벚꽃 명소 총정리") is None
+    """지역면이 열 곳으로 늘었다. 오사카·방콕·타이베이는 이제 우리 지면이다."""
     assert tag_region("파리 올림픽 관광 특수") is None
+    assert tag_region("두바이 신규 호텔 개장") is None
 
 
 def test_returns_none_for_empty_text():
@@ -82,8 +85,10 @@ def test_airline_name_containing_a_region_is_not_the_destination():
     태깅했다. 항공사명은 목적지가 아니다.
     """
     assert tag_region("제주항공, 부산~구이린 노선 취항") is None
-    assert tag_region("제주항공, 오사카 노선 증편") is None
-    assert tag_region("노랑풍선, 일본 나고야 상품 — 제주항공 나고야 4일") is None
+    # 제주항공이 지워진 뒤 남는 목적지로 정해진다. 일본 지역면이 생겨
+    # 이제 버려지지 않고 제대로 일본으로 간다.
+    assert tag_region("제주항공, 오사카 노선 증편") == "japan"
+    assert tag_region("노랑풍선, 일본 나고야 상품 — 제주항공 나고야 4일") == "japan"
 
 
 def test_real_jeju_articles_still_tag_after_the_exclusion():
@@ -94,8 +99,13 @@ def test_real_jeju_articles_still_tag_after_the_exclusion():
 
 
 def test_hawaiian_airlines_is_not_a_hawaii_destination():
-    """하와이안항공은 나리타(일본) 노선도 다닌다. 항공사명은 목적지가 아니다."""
-    assert tag_region("하와이안항공, 나리타 노선 신규 취항") is None
+    """하와이안항공은 나리타(일본) 노선도 다닌다. 항공사명은 목적지가 아니다.
+
+    목적지는 나리타 쪽이다 — 항공사 이름에 하와이가 들어 있다고 하와이 기사가
+    되지는 않는다.
+    """
+    assert tag_region("하와이안항공, 나리타 노선 신규 취항") == "japan"
+    assert tag_region("하와이안항공, 신규 기재 도입") is None
 
 
 def test_hawaiian_airlines_article_about_hawaii_still_tags():
@@ -106,9 +116,8 @@ def test_hawaiian_airlines_article_about_hawaii_still_tags():
 
 def test_common_non_target_destinations_are_not_mistagged():
     """길이 규칙보다 이쪽이 진짜 방어선이다. 오탐이 곧 오보다."""
-    for text in ("오사카 벚꽃 명소", "파리 올림픽 특수", "도쿄 여행 수요",
-                 "방콕 호텔 요금", "세부 리조트 개장", "유류할증료 인상",
-                 "여권 발급 수수료 변경", "발리 우기 정보"):
+    for text in ("파리 올림픽 특수", "세부 리조트 개장", "유류할증료 인상",
+                 "여권 발급 수수료 변경", "발리 우기 정보", "두바이 공항 확장"):
         assert tag_region(text) is None, text
 
 
@@ -117,3 +126,67 @@ def test_tags_hawaii_from_island_names():
     assert tag_region("오아후 해변 여행 특집") == "hawaii"
     assert tag_region("마우이 산불 복구 현황") == "hawaii"
     assert tag_region("와이키키 호텔 요금 인상") == "hawaii"
+
+
+# ── 새 지역 (일본·태국·대만) ──────────────────────────────────────
+@pytest.mark.parametrize("title,expected", [
+    ("아시아나항공, 인천~고베 매일 띄운다", None),
+    ("피치항공, 오사카 당일치기 여행 상품 선보여", "japan"),
+    ("도쿄 관광객 역대 최다", "japan"),
+    ("후쿠오카 노선 증편", "japan"),
+    ("태국 방콕 호텔 예약 급증", "thailand"),
+    ("대만 타이베이 항공 노선 확대", "taiwan"),
+])
+def test_new_regions_are_tagged(title, expected):
+    assert tag_region(title) == expected
+
+
+def test_every_region_has_keywords():
+    """지역을 늘리고 키워드를 잊으면 그 지역이 통째로 비어 버린다."""
+    from src.models import REGIONS
+    from src.region_tag import REGION_KEYWORDS
+    missing = [r for r in REGIONS if not REGION_KEYWORDS.get(r)]
+    assert not missing, f"키워드 없는 지역: {missing}"
+
+
+def test_missing_keywords_do_not_crash():
+    """키워드를 잊어도 빌드가 통째로 죽으면 안 된다."""
+    import src.region_tag as rt
+    saved = rt.REGION_KEYWORDS.pop("japan")
+    try:
+        assert tag_region("오사카 노선 증편") is None
+    finally:
+        rt.REGION_KEYWORDS["japan"] = saved
+
+
+def test_hanja_abbreviation_counts_as_the_country():
+    """국내 매체는 제목에서 '日항공사', '泰 관광청'처럼 줄여 쓴다."""
+    assert tag_region("日항공사, 유류할증료 2배 인상") == "japan"
+    assert tag_region("泰 관광청, 한국인 유치 확대") == "thailand"
+
+
+def test_a_date_is_not_a_country():
+    """'30日'은 날짜다. 숫자 뒤의 한자를 나라로 읽으면 안 된다."""
+    assert tag_region("오는 30日 신규 물류센터 개장") is None
+
+
+def test_airport_name_alone_identifies_the_destination():
+    """'나리타 증편'에는 '일본'이라는 말이 없다. 놓치면 기사를 통째로 버린다."""
+    assert tag_region("에어프레미아, 나리타 노선 주 7회→10회 증편") == "japan"
+    assert tag_region("수완나품 공항 이용객 회복") == "thailand"
+
+
+def test_mentions_region_keeps_articles_about_two_places():
+    """제주·후쿠오카를 함께 다룬 기사는 두 지역 다 맞다.
+    tag_region 은 하나만 고르므로 목적지 피드 검증에는 쓸 수 없다."""
+    from src.region_tag import mentions_region
+    title = "추석 여행 어디로…국내 '제주', 해외 '후쿠오카' 검색 1위"
+    assert mentions_region(title, "japan")
+    assert mentions_region(title, "jeju")
+    assert not mentions_region(title, "thailand")
+
+
+def test_mentions_region_still_rejects_unrelated_articles():
+    from src.region_tag import mentions_region
+    assert not mentions_region("항공물류 운임 상승세, 3분기 실적 갈린다", "japan")
+    assert not mentions_region("오는 30日 신규 물류센터 개장", "japan")

@@ -196,9 +196,29 @@ def main(data_dir: str = "data", review_dir: str = "content/review",
 
     out_dir = os.path.join(data_dir, "items")
     os.makedirs(out_dir, exist_ok=True)
-    with open(os.path.join(out_dir, f"{today}.jsonl"), "w",
-              encoding="utf-8") as f:
+    day_path = os.path.join(out_dir, f"{today}.jsonl")
+
+    # 오늘 파일을 덮어쓰지 않고 합친다.
+    # 같은 날 두 번 돌리면 첫 실행분은 이미 발행이력에 있으므로 이번 publish
+    # 에서 중복으로 걸러진다. 그대로 덮어쓰면 그 기사들이 통째로 사라지고,
+    # 빌드는 이 파일로 지면을 만들므로 이미 나간 기사가 사이트에서 없어진다.
+    # (실제로 도쿄 78건이 21건으로 줄었다.)
+    existing: list[dict] = []
+    kept: set[str] = set()
+    if os.path.exists(day_path):
+        with open(day_path, encoding="utf-8") as f:
+            for line in f:
+                if line.strip():
+                    row = json.loads(line)
+                    existing.append(row)
+                    kept.add(row["id"])
+
+    with open(day_path, "w", encoding="utf-8") as f:
+        for row in existing:
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
         for item in publish:
+            if item.id in kept:
+                continue
             f.write(json.dumps(item_to_dict(item), ensure_ascii=False) + "\n")
 
     purged = purge_stale_drafts(review_dir, today)

@@ -12,8 +12,18 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
 GRADES = ("A", "B", "C")
 SECTIONS = ("flight", "news", "data", "promo")
-REGIONS = ("guam", "saipan", "hawaii", "vietnam", "kota", "laos", "jeju")
+REGIONS = ("guam", "saipan", "hawaii", "vietnam", "kota", "laos", "jeju",
+           "japan", "thailand", "taiwan")
 STATUSES = ("draft", "approved", "published")
+
+# 지역의 한글 이름. 여기가 정본이다 — 모듈마다 따로 적어두면 지역을 늘릴 때
+# 한 곳만 고치게 되고, 그러면 지면에 "이번 주 japan에서 나온 소식"처럼
+# 영문 키가 그대로 나간다. 실제로 그렇게 나갔다.
+REGION_NAMES = {
+    "guam": "괌", "saipan": "사이판", "hawaii": "하와이",
+    "vietnam": "베트남", "kota": "코타키나발루", "laos": "라오스",
+    "jeju": "제주", "japan": "일본", "thailand": "태국", "taiwan": "대만",
+}
 
 # 추적용 쿼리 파라미터 — 같은 기사인데 URL 만 달라 보이게 만드는 주범
 _TRACKING_PREFIXES = ("utm_",)

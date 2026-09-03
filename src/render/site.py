@@ -17,6 +17,7 @@ from src.desks import DESK_DUTIES, REGION_DESKS, byline_for
 from src.photos import (assign as assign_photos, copy_into, load_manifest,
                         load_used, save_used)
 from src.render.md import render as md_render
+from src.cities import CITY_NAMES, CITY_REGION, group_by_city
 from src.topics import TOPIC_DESCS, TOPIC_NAMES, TOPICS, group_by_topic, topic_of
 
 from src.models import Item
@@ -27,11 +28,7 @@ SITE_TAGLINE = "매일 아침 여행 뉴스"
 # canonical 이 안 열리는 도메인을 가리키면 검색엔진이 색인을 못 한다.
 SITE_URL = os.environ.get("WAFFLE_SITE_URL", "https://waffletrip.com").rstrip("/")
 
-REGION_NAMES = {
-    "guam": "괌", "saipan": "사이판", "hawaii": "하와이",
-    "vietnam": "베트남", "kota": "코타키나발루", "laos": "라오스",
-    "jeju": "제주",
-}
+from src.models import REGION_NAMES  # 정본은 models.py
 
 # 지역별 상품 사이트. 확인된 것만 넣는다 — 다른 지역 페이지에 엉뚱한 브랜드를
 # 붙이면 브랜드가 섞인다. 빈 값이면 상품 버튼을 그리지 않는다.
@@ -56,6 +53,11 @@ PRODUCT_LINKS = {
     "kota": "https://kotaplay.com",
     "laos": "https://laosplay.com",
     "jeju": "",
+    # 아래 셋은 판매 상품이 없다. 독자를 부르는 지역이고
+    # 상품 전환은 괌·사이판·코타·라오스가 맡는다.
+    "japan": "",
+    "thailand": "",
+    "taiwan": "",
 }
 
 CONTACT_EMAIL = "peoplay@thepeoplay.com"
@@ -89,6 +91,23 @@ def with_base(html: str, base: str = None) -> str:
     return _ABS_LINK.sub(rf'\1="{base}/', html)
 
 TOP_PER_REGION = 3
+
+_HANGUL = re.compile(r"[가-힣]")
+
+
+def front_order(articles: list) -> list:
+    """첫 화면 순서. 한글 제목을 앞으로 당긴다.
+
+    우리 독자는 한국어로 읽는다. 현지 매체(Beat of Hawaii, VnExpress 등)를
+    인용하면 제목이 영문 그대로 들어오는데, 최신순으로만 세우면 이것들이
+    톱기사와 헤드라인 띠를 차지한다. 한국어 신문 1면에 "Hurricane Lowell
+    remains a powerful category 4 system" 이 톱으로 걸리는 꼴이었다.
+
+    버리지는 않는다 — 현지발 소식은 국제면의 재료다. 앞자리만 양보시킨다.
+    같은 묶음 안에서는 원래대로 최신순을 지킨다(정렬이 안정적이므로).
+    """
+    return ([a for a in articles if _HANGUL.search(a.title or "")]
+            + [a for a in articles if not _HANGUL.search(a.title or "")])
 
 # 데이터 패널을 짧게 줄인다. 요약문은 우리가 만든 것이라 형식을 안다
 # (src/fetch/json_api.py). 형식이 안 맞으면 원문을 그대로 쓴다 —
@@ -247,6 +266,9 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     ANALYTICS = load_analytics()
     _OUT_DIR = out_dir
     # 승인된 사진만 붙는다. 매니페스트가 없으면 조용히 사진 없이 간다.
+    # 도시별 묶음. 푸터 링크가 모든 페이지에 들어가므로 common 보다 먼저 만든다.
+    by_city = group_by_city(items)
+
     # 서명. 사람 이름을 지어내지 않고 부서로 나눈다.
     for item in items:
         item.source_name = byline_for(item)
@@ -275,6 +297,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "site_name": SITE_NAME, "site_tagline": SITE_TAGLINE,
         "site_url": SITE_URL, "region_names": REGION_NAMES,
         "today": today, "article_urls": urls,
+        # 푸터 도시 링크. 기사가 쌓인 도시만 들어온다.
+        "city_links": [(slug, CITY_NAMES[slug]) for slug in by_city],
         "topics": TOPICS, "topic_names": TOPIC_NAMES,
         "contact_email": CONTACT_EMAIL, "desk_duties": DESK_DUTIES,
         "analytics": ANALYTICS,
@@ -300,7 +324,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         for key, group in grouped.items()
     }
     by_topic = group_by_topic(items)
-    articles = [i for i in items if i.grade != "A"]
+    articles = front_order([i for i in items if i.grade != "A"])
     lead = articles[0] if articles else None
     sub_leads = articles[1:5]
     main_news = articles[5:17]
@@ -310,9 +334,18 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 사실 데이터(환율·날씨)를 놓는다.
     data_panel = []
     for key, name in REGION_NAMES.items():
-        facts = [compact_fact(i.summary)
-                 for i in grouped.get(key, []) if i.grade == "A"]
-        facts = [f for f in facts if f]
+        # 지면은 14일치를 담으므로 A등급(환율·날씨)도 날짜별로 쌓인다.
+        # 그대로 늘어놓으면 한 줄에 "1 USD 1,361원 … 1 USD 1,377원" 처럼
+        # 이틀치 환율이 나란히 걸린다. 가장 최근 날짜 것만 쓴다.
+        rows = [i for i in grouped.get(key, []) if i.grade == "A"]
+        if rows:
+            latest = max(i.published_at[:10] for i in rows)
+            rows = [i for i in rows if i.published_at[:10] == latest]
+        facts = []
+        for row in rows:
+            fact = compact_fact(row.summary)
+            if fact and fact not in facts:
+                facts.append(fact)
         if facts:
             data_panel.append({"region": key, "name": name, "facts": facts})
 
@@ -348,6 +381,25 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             env.get_template("section.html").render(
                 section_title=topic_name, section_desc=topic_desc,
                 items=by_topic[topic_id], **common),
+            written,
+        )
+
+    # 도시 페이지 — /city/tokyo/ 같은 주소.
+    # 지역면(일본)만으로는 "오사카 항공권" 검색을 받지 못한다. 사람들은
+    # 나라가 아니라 도시로 검색한다. 기사가 MIN_ARTICLES 미만인 도시는
+    # cities.group_by_city 가 아예 돌려주지 않는다 — 얇은 페이지를 안 만든다.
+    for slug, city_items in by_city.items():
+        name = CITY_NAMES[slug]
+        region = CITY_REGION[slug]
+        _write(
+            os.path.join(out_dir, "city", slug, "index.html"),
+            env.get_template("section.html").render(
+                section_title=f"{name} 여행뉴스",
+                section_desc=(
+                    f"{name} 항공 노선·호텔·현지 소식을 모았습니다. "
+                    f"{REGION_NAMES.get(region, region)} 지역면에서 "
+                    f"{name} 관련 기사만 추렸습니다."),
+                items=city_items, **common),
             written,
         )
 

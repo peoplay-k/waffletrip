@@ -12,7 +12,14 @@ from datetime import datetime, timezone
 import feedparser
 
 from src.models import Item, make_id, title_hash
-from src.region_tag import tag_region
+from src.region_tag import mentions_region, tag_region
+
+# 연예·스포츠 전문 매체. 여행 기사를 쓰지 않는 곳들이다.
+GOSSIP_OUTLETS = frozenset({
+    "스포츠조선", "스포츠서울", "스포츠경향", "일간스포츠", "sports.donga.com",
+    "마이데일리", "OSEN", "텐아시아", "디스패치", "뉴스엔", "싱글리스트",
+    "위키트리", "인사이트", "bntnews.co.kr", "직썰", "티브이데일리",
+})
 from src.sources import Source
 
 USER_AGENT = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
@@ -71,9 +78,33 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
             continue  # 제목 없는 항목은 기사가 아니다
 
         link = (entry.get("link") or "").strip()
+        display_name = source.name
         raw_summary = entry.get("summary") or entry.get("description") or ""
         summary = first_sentences(strip_html(raw_summary), 2)
+
+        # Google 뉴스 검색 피드는 요약을 주지 않는다. description 이
+        # "<a>제목</a> 매체명" 형태라 그대로 두면 요약이 제목 복사가 된다.
+        # 제목 끝의 " - 매체명" 을 떼어 **실제 보도한 매체**를 출처로 삼는다.
+        # 구글이 아니라 그 매체가 쓴 기사이므로 그렇게 밝히는 것이 맞다.
+        google_news = "news.google.com" in source.url
+        if google_news:
+            summary = ""
+            if " - " in title:
+                title, _, outlet = title.rpartition(" - ")
+                outlet = outlet.strip()
+                if outlet:
+                    display_name = outlet
         published = _published_at(entry, collected_at)
+
+        # Google 뉴스 검색 피드는 목적지를 검증한다.
+        # 쿼리가 "일본 (항공 OR 노선 OR 관광 OR 호텔)" 이라 본문 어딘가에
+        # "항공"만 있어도 걸린다 — 실제로 물류·주식·부동산 기사가 일본면에
+        # 들어왔다(한국AI부동산신문·오토레이싱·농민신문).
+        # 제목이 그 지역을 말하지 않으면 그 지역 기사가 아니다.
+        # 제목만 보는 이유는 아래 auto 판정과 같다. 승부(tag_region)가 아니라
+        # 언급 여부를 묻는다 — "제주·후쿠오카 인기"는 두 지역 다 맞는 기사다.
+        if google_news and not mentions_region(title, source.region):
+            continue
 
         # 국내 여행 전문 매체는 목적지가 섞여 오므로 기사마다 지역을 정한다.
         region = source.region
@@ -86,6 +117,12 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
             if region is None:
                 continue  # 우리가 다루지 않는 목적지
 
+        # 연예·스포츠 매체는 싣지 않는다. 검색 피드가 "일본"만 보고 물어오는데
+        # "조혜련, 日 호텔서 제재" 같은 연예 가십이 오사카 여행면에 걸린다.
+        # 여행 정보로 쓸 수 없고 지면의 성격을 흐린다.
+        if display_name in GOSSIP_OUTLETS:
+            continue
+
         items.append(Item(
             id=make_id(link, title, published),
             grade="B",              # Task 8 에서 재분류된다
@@ -93,7 +130,7 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
             section=source.section,
             title=title,
             summary=summary,
-            source_name=source.name,
+            source_name=display_name,
             source_url=link,
             published_at=published,
             collected_at=collected_at,

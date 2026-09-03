@@ -19,8 +19,8 @@ from datetime import date, datetime, timedelta, timezone
 
 from src.guards.dup_guard import PublishedIndex
 from src.models import Item, item_from_dict
-from src.render.feeds import (render_cname, render_robots, render_rss,
-                              render_sitemap)
+from src.render.feeds import (render_cname, render_llms_txt, render_robots,
+                              render_rss, render_sitemap)
 from src.render.site import render_site
 
 SITE_WINDOW_DAYS = 14
@@ -83,6 +83,7 @@ def build(items: list[Item], out_dir: str, today: str,
     written.append(render_rss(items, out_dir, built_at))
     written.append(render_sitemap(items, out_dir, today))
     written.append(render_robots(out_dir))
+    written.append(render_llms_txt(items, out_dir))
     # 커스텀 도메인은 DNS 가 붙은 뒤에 건다. CNAME 파일이 있으면 Pages 가
     # 그쪽으로 301 을 보내는데, DNS 가 없으면 사이트가 통째로 안 열린다.
     # 실제로 그 상태로 며칠 있었다. waffletrip.com 의 A레코드가 GitHub 을

@@ -67,6 +67,25 @@ def test_render_site_writes_index(tmp_path):
     assert "괌 신규 취항" in html
 
 
+def test_every_page_opens_with_the_doctype(tmp_path):
+    """홈만 <!doctype> 앞에 script 가 붙어 있었다.
+
+    index.html 이 {% extends %} 보다 위에 블록을 둔 탓에 Jinja 가 그 리터럴을
+    상속 결과보다 먼저 뱉었다. 브라우저가 quirks mode 로 넘어가고 같은
+    JSON-LD 가 문서에 두 번 실렸다.
+    """
+    render_site([make("1", "괌 신규 취항")], str(tmp_path), TODAY)
+    for page in ("index.html", "guam/index.html", "about/index.html"):
+        html = (tmp_path / page).read_text(encoding="utf-8")
+        assert html.lower().startswith("<!doctype html>"), page
+
+
+def test_home_carries_the_site_schema_exactly_once(tmp_path):
+    render_site([make("1", "괌 신규 취항")], str(tmp_path), TODAY)
+    html = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert html.count("NewsMediaOrganization") == 1
+
+
 def test_render_site_writes_region_page(tmp_path):
     render_site([make("1", "괌 신규 취항")], str(tmp_path), TODAY)
     html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")

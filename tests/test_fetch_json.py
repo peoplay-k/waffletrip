@@ -113,8 +113,10 @@ def test_every_currency_has_a_quote_unit():
 
 
 def test_currency_map_covers_every_non_krw_region():
-    assert set(CURRENCY_BY_REGION) == {
-        "guam", "saipan", "hawaii", "vietnam", "kota", "laos"}
+    """지역 목록을 여기 또 적어두면 지역을 늘릴 때마다 어긋난다.
+    models.py 에서 파생시킨다. 제주만 원화권이라 빠진다."""
+    from src.models import REGIONS
+    assert set(CURRENCY_BY_REGION) == set(REGIONS) - {"jeju"}
 
 
 # ── 날씨 ──────────────────────────────────────────────────────────

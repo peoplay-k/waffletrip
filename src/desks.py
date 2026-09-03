@@ -21,6 +21,9 @@ REGION_DESKS = {
     "kota": f"{BRAND} 코타키나발루 데스크",
     "laos": f"{BRAND} 라오스 데스크",
     "jeju": f"{BRAND} 제주 데스크",
+    "japan": f"{BRAND} 일본 데스크",
+    "thailand": f"{BRAND} 태국 데스크",
+    "taiwan": f"{BRAND} 대만 데스크",
 }
 DATA_DESK = f"{BRAND} 데이터팀"
 EDIT_DESK = f"{BRAND} 편집팀"
@@ -39,6 +42,9 @@ DESK_DUTIES = (
     (REGION_DESKS["kota"], "코타키나발루 지역의 해설·답사 기사를 맡습니다.", "사람"),
     (REGION_DESKS["laos"], "라오스 지역의 해설·답사 기사를 맡습니다.", "사람"),
     (REGION_DESKS["jeju"], "제주 지역의 해설·답사 기사를 맡습니다.", "사람"),
+    (REGION_DESKS["japan"], "일본 지역의 해설·답사 기사를 맡습니다.", "사람"),
+    (REGION_DESKS["thailand"], "태국 지역의 해설·답사 기사를 맡습니다.", "사람"),
+    (REGION_DESKS["taiwan"], "대만 지역의 해설·답사 기사를 맡습니다.", "사람"),
 )
 
 

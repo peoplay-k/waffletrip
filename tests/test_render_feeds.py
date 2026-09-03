@@ -3,8 +3,9 @@ from pathlib import Path
 
 from src.models import Item
 from src.render.feeds import (render_rss, render_sitemap, render_robots,
-                              render_cname, RSS_MAX_ITEMS)
-from src.render.site import safe_url
+                              render_cname, render_llms_txt,
+                              RSS_MAX_ITEMS, LLMS_MAX_ITEMS)
+from src.render.site import SITE_URL, safe_url
 
 NOW = "2026-08-31T05:00:00+09:00"
 TODAY = "2026-08-31"
@@ -158,3 +159,45 @@ def test_sitemap_urls_carry_the_base_path(tmp_path, monkeypatch):
     xml = (tmp_path / "sitemap.xml").read_text(encoding="utf-8")
     for loc in [l for l in xml.splitlines() if "<loc>" in l]:
         assert "/waffletrip/" in loc, loc
+
+
+# ── llms.txt (AI 검색이 읽는 안내문) ────────────────────────────────
+def test_llms_txt_opens_with_the_site_name_and_summary(tmp_path):
+    text = Path(render_llms_txt([], str(tmp_path))).read_text(encoding="utf-8")
+    assert text.startswith("# 와플트립")
+    assert "> 매일 아침 여행 뉴스" in text
+
+
+def test_llms_txt_lists_every_region_and_topic(tmp_path):
+    """지역·부문을 손으로 적으면 바뀔 때마다 어긋난다 — 사이트맵과 같은 사고."""
+    from src.render.site import REGION_NAMES
+    from src.topics import TOPICS
+    text = Path(render_llms_txt([], str(tmp_path))).read_text(encoding="utf-8")
+    for key, name in REGION_NAMES.items():
+        assert f"({SITE_URL}/{key}/)" in text, key
+        assert name in text, name
+    for tid, name, _ in TOPICS:
+        assert f"({SITE_URL}/{tid}/)" in text, tid
+
+
+def test_llms_txt_excludes_grade_a_data(tmp_path):
+    items = [make("abcdef1234", "괌 소식"), make("2", "오늘의 환율", grade="A")]
+    text = Path(render_llms_txt(items, str(tmp_path))).read_text(encoding="utf-8")
+    assert "괌 소식" in text
+    assert "오늘의 환율" not in text
+
+
+def test_llms_txt_caps_the_article_count(tmp_path):
+    """전부 나열하면 안내가 목록에 묻힌다. 전체 주소는 sitemap 이 담당한다."""
+    items = [make(f"{i:010d}", f"소식 {i}") for i in range(LLMS_MAX_ITEMS + 10)]
+    text = Path(render_llms_txt(items, str(tmp_path))).read_text(encoding="utf-8")
+    assert text.count("- [소식 ") == LLMS_MAX_ITEMS
+
+
+def test_llms_txt_urls_carry_the_base_path(tmp_path, monkeypatch):
+    import src.render.feeds as feeds
+    monkeypatch.setattr(feeds, "BASE_PATH", "/waffletrip")
+    feeds.render_llms_txt([], str(tmp_path))
+    text = (tmp_path / "llms.txt").read_text(encoding="utf-8")
+    for line in [l for l in text.splitlines() if l.startswith("- [")]:
+        assert "/waffletrip/" in line, line
