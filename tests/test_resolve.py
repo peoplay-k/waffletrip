@@ -77,3 +77,12 @@ def test_apply_rejects_non_iso_dates():
     row = {"id": "x", "source_url": "https://real", "published_at": "2026-09-03"}
     apply(row, {"published": "3 Sep 2026"})
     assert row["published_at"] == "2026-09-03"
+
+
+def test_summary_without_spaces_is_garbage():
+    """어떤 매체는 og:description 에 본문을 띄어쓰기 없이 뭉쳐 넣는다."""
+    page = ('<meta property="og:description" content="'
+            '최정호대한항공영업총괄부사장(오른쪽네번째)과로스레겟일본항공노선사업본부장이기념사진을촬영하는모습">')
+    with httpx.Client(transport=httpx.MockTransport(
+            lambda r: httpx.Response(200, text=page))) as c:
+        assert read_page("https://x", c)["summary"] == ""
