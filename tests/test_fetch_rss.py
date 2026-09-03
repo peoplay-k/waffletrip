@@ -215,3 +215,19 @@ GOSSIP_FEED = """<?xml version="1.0"?><rss version="2.0"><channel>
 def test_entertainment_outlets_never_reach_the_paper():
     """검색 피드가 '일본'만 보고 연예 가십을 물어온다. 여행면에 실을 수 없다."""
     assert parse_feed(GOOGLE_SOURCE, GOSSIP_FEED, NOW) == []
+
+
+STALE_FEED = """<?xml version="1.0"?><rss version="2.0"><channel>
+<item><title>오사카 호텔 신규 개장 - 여행신문</title>
+<link>https://example.com/old</link>
+<pubDate>Mon, 18 May 2026 01:00:00 GMT</pubDate></item>
+<item><title>오사카 노선 증편 - 여행신문</title>
+<link>https://example.com/new</link>
+<pubDate>Wed, 02 Sep 2026 01:00:00 GMT</pubDate></item>
+</channel></rss>"""
+
+
+def test_google_news_drops_stale_articles():
+    """검색 피드는 넉 달 전 기사도 준다. 오늘 뉴스처럼 실으면 안 된다."""
+    items = parse_feed(GOOGLE_SOURCE, STALE_FEED, NOW)
+    assert [i.source_url for i in items] == ["https://example.com/new"]

@@ -1,5 +1,9 @@
 {% extends "base.html" %}
-{% block title %}{{ item.title }} — {{ site_name }}{% endblock %}
+{# 제목이 길면 검색 결과에서 잘린다. 60자에서 끊고 매체명은 유지한다. #}
+{% block title %}{{ item.title|clean_title|truncate(60, True, '…') }} — {{ site_name }}{% endblock %}
+{# 요약을 못 채운 인용 기사는 색인에서 뺀다. 제목 한 줄짜리 페이지가 수백 개
+   색인되면 사이트 전체가 얇은 사이트로 평가된다. 링크는 따라가게 둔다. #}
+{% block robots %}{% if item.grade == 'B' and not item.summary %}<meta name="robots" content="noindex, follow">{% endif %}{% endblock %}
 {% block description %}{{ item.summary or item.title }}{% endblock %}
 {% block og_type %}article{% endblock %}
 {% block og_title %}{{ item.title|clean_title }}{% endblock %}
