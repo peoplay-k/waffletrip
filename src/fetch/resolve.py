@@ -105,6 +105,10 @@ def read_page(url: str, client: httpx.Client) -> dict:
                 break
     if out["summary"]:
         out["summary"] = first_sentences(out["summary"], 2)[:MAX_SUMMARY]
+        # 띄어쓰기 없이 수십 자가 이어지면 매체가 본문을 뭉개 넣은 것이다
+        # ("최정호대한항공영업총괄부사장(오른쪽네번째)과…"). 요약으로 못 쓴다.
+        if " " not in out["summary"][:40] and len(out["summary"]) >= 40:
+            out["summary"] = ""
     return out
 
 
