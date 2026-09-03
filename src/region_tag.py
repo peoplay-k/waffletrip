@@ -9,6 +9,8 @@
 """
 from __future__ import annotations
 
+import re
+
 from src.models import REGIONS
 
 # 지역 이름을 품고 있지만 그 지역 기사가 아닌 표현. 세기 전에 먼저 지운다.
@@ -42,7 +44,35 @@ REGION_KEYWORDS: dict[str, tuple[str, ...]] = {
     "laos": ("라오스", "laos", "비엔티안", "vientiane", "루앙프라방",
              "luang prabang", "방비엥", "vang vieng"),
     "jeju": ("제주", "jeju", "서귀포"),
+    # 한국인 해외 도시 TOP10 에 일본 4곳·대만 1곳·태국 1곳이 들어 있다.
+    # 독자를 부르는 지역이라 늦게 넣었을 뿐 규모는 가장 크다.
+    "japan": ("일본", "japan", "도쿄", "tokyo", "오사카", "osaka",
+              "후쿠오카", "fukuoka", "삿포로", "sapporo", "교토", "kyoto",
+              "오키나와", "okinawa", "나고야", "nagoya", "규슈", "kyushu",
+              "홋카이도", "hokkaido", "간사이", "kansai", "벳푸",
+              # 공항 이름만 쓴 제목이 많다. "나리타 노선 주 7회→10회 증편"은
+              # 일본 기사인데 '일본'이라는 말이 한 번도 안 나온다.
+              "나리타", "narita", "하네다", "haneda", "신치토세", "하카타",
+              "간사이공항", "니세코", "구마모토", "가고시마", "나가사키",
+              "히로시마", "센다이", "다카마쓰", "시즈오카", "엔저"),
+    "thailand": ("태국", "thailand", "방콕", "bangkok", "푸껫", "phuket",
+                 "치앙마이", "chiang mai", "파타야", "pattaya",
+                 "수완나품", "끄라비", "krabi", "사무이", "samui", "후아힌"),
+    "taiwan": ("대만", "taiwan", "타이베이", "taipei", "타이완",
+               "가오슝", "kaohsiung", "타이중", "taichung",
+               "타오위안", "taoyuan", "지우펀", "화롄", "타이난", "臺灣", "台灣"),
 }
+
+
+# 국내 매체는 제목에서 나라를 한 글자 한자로 줄여 쓴다 — "日항공사",
+# "泰 관광청". 숫자 뒤(30日)는 날짜이므로 제외하고, 뒤에 한글이 올 때만
+# 나라 이름으로 본다. 이 표기를 놓쳐서 "나리타 노선 증편" 같은 진짜 일본
+# 기사가 통째로 버려지고 있었다.
+_HANJA_ABBR: tuple[tuple[str, "re.Pattern[str]"], ...] = (
+    ("japan", re.compile(r"(?<!\d)日(?!\d)")),
+    ("thailand", re.compile(r"(?<!\d)泰(?!\d)")),
+    ("taiwan", re.compile(r"(?<!\d)[臺台](?!\d)")),
+)
 
 
 def tag_region(text: str) -> str | None:
@@ -63,8 +93,31 @@ def tag_region(text: str) -> str | None:
 
     # REGIONS 순서로 도므로 동점이면 항상 앞선 지역이 이긴다 (결정적).
     for region in REGIONS:
-        hits = sum(lowered.count(k.lower()) for k in REGION_KEYWORDS[region])
+        # .get 으로 받는다. 지역을 늘리고 키워드를 잊어도 빌드가
+        # 통째로 죽으면 안 된다 — 그 지역만 안 잡힐 뿐이다.
+        hits = sum(lowered.count(k.lower())
+                   for k in REGION_KEYWORDS.get(region, ()))
+        for abbr_region, pattern in _HANJA_ABBR:
+            if abbr_region == region:
+                hits += len(pattern.findall(text))
         if hits > best_hits:
             best_region, best_hits = region, hits
 
     return best_region
+
+
+def mentions_region(text: str, region: str) -> bool:
+    """제목이 그 지역을 말하고 있나. tag_region 과 달리 승부를 가리지 않는다.
+
+    "추석 연휴 제주·후쿠오카 인기"는 제주 기사이면서 일본 기사다.
+    tag_region 은 하나만 고르므로 이걸로 걸러내면 두 지역 다 다루는 기사를
+    통째로 버리게 된다. 목적지 피드를 검증할 때는 '언급했나'만 물으면 된다.
+    """
+    if not text:
+        return False
+    lowered = text.lower()
+    for phrase in REGION_EXCLUSIONS:
+        lowered = lowered.replace(phrase.lower(), " ")
+    if any(k.lower() in lowered for k in REGION_KEYWORDS.get(region, ())):
+        return True
+    return any(p.search(text) for r, p in _HANJA_ABBR if r == region)

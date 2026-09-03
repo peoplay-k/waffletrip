@@ -389,3 +389,100 @@ sources:
     lang: ko
     enabled: true
     curated: true
+
+  # ── Google 뉴스 검색 피드 ──────────────────────────────────────
+  # 일본·태국·대만에는 우리가 붙일 현지 소스가 없다. 국내 여행 전문지도
+  # RSS 로 하루 열 건 남짓만 준다. 그래서 신디케이션용으로 공개된 Google
+  # 뉴스 검색 피드를 쓴다. 질의를 "여행"만으로 두면 연예인 근황이 섞여
+  # 들어와 (항공 OR 노선 OR 관광 OR 호텔)로 좁혔다.
+  #
+  # 이 피드는 요약을 주지 않는다. 제목과 링크만 싣고 **실제 보도한 매체**를
+  # 출처로 밝힌다(src/fetch/rss.py). 인용으로는 가장 안전한 형태다.
+  - id: gn_japan
+    region: japan
+    section: news
+    name: 일본 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EC%9D%BC%EB%B3%B8%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_tokyo
+    region: japan
+    section: news
+    name: 도쿄 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EB%8F%84%EC%BF%84%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_osaka
+    region: japan
+    section: news
+    name: 오사카 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EC%98%A4%EC%82%AC%EC%B9%B4%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_thailand
+    region: thailand
+    section: news
+    name: 태국 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%ED%83%9C%EA%B5%AD%20%EB%B0%A9%EC%BD%95%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_taiwan
+    region: taiwan
+    section: news
+    name: 대만 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EB%8C%80%EB%A7%8C%20%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_fukuoka
+    region: japan
+    section: news
+    name: 후쿠오카 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_sapporo
+    region: japan
+    section: news
+    name: 삿포로 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EC%82%BF%ED%8F%AC%EB%A1%9C%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_okinawa
+    region: japan
+    section: news
+    name: 오키나와 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_bangkok
+    region: thailand
+    section: news
+    name: 방콕 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EB%B0%A9%EC%BD%95%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_danang
+    region: vietnam
+    section: news
+    name: 다낭 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EB%8B%A4%EB%82%AD%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_nhatrang
+    region: vietnam
+    section: news
+    name: 나트랑 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EB%82%98%ED%8A%B8%EB%9E%91%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true

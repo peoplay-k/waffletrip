@@ -103,14 +103,21 @@ AUTO_FEED = """<?xml version="1.0"?><rss version="2.0"><channel>
 
 def test_auto_source_assigns_region_per_article():
     items = parse_feed(AUTO_SOURCE, AUTO_FEED, NOW)
-    assert [(i.title[:2], i.region) for i in items] == [
-        ("진에", "guam"), ("다낭", "vietnam")]
+    got = [(i.title[:2], i.region) for i in items]
+    assert ("진에", "guam") in got
+    assert ("다낭", "vietnam") in got
 
 
-def test_auto_source_drops_destinations_we_do_not_cover():
-    """오사카 기사는 버린다. 우리가 다루는 7개 지역이 아니다."""
+def test_auto_source_now_keeps_japan_articles():
+    """일본 지역면이 생겼다. 예전에는 오사카 기사를 버렸다.
+
+    한국인이 가장 많이 가는 해외 도시 TOP10 에 일본이 네 곳 들어 있어
+    지역면을 열었고, 그 순간 버려지던 기사가 살아났다.
+    """
     items = parse_feed(AUTO_SOURCE, AUTO_FEED, NOW)
-    assert all("오사카" not in i.title for i in items)
+    osaka = [i for i in items if "오사카" in i.title]
+    assert osaka, "오사카 기사가 버려지고 있다"
+    assert all(i.region == "japan" for i in osaka)
 
 
 def test_auto_source_ignores_regions_that_appear_only_in_the_summary():
@@ -163,3 +170,48 @@ def test_static_region_source_is_not_retagged():
     <description>Body.</description></item></channel></rss>"""
     # SOURCE 는 region="guam" 고정이다
     assert parse_feed(SOURCE, xml, NOW)[0].region == "guam"
+
+
+GOOGLE_SOURCE = Source(
+    id="gn_japan", region="japan", section="news", name="일본 여행뉴스",
+    type="rss", url="https://news.google.com/rss/search?q=%EC%9D%BC%EB%B3%B8",
+    lang="ko", enabled=True)
+
+GOOGLE_FEED = """<?xml version="1.0"?><rss version="2.0"><channel>
+<item><title>오사카 노선 증편…겨울 성수기 대비 - 여행신문</title>
+<link>https://example.com/a</link>
+<pubDate>Wed, 03 Sep 2026 01:00:00 GMT</pubDate></item>
+<item><title>항공물류 운임 상승세, 3분기 실적 갈린다 - 물류신문</title>
+<link>https://example.com/b</link>
+<pubDate>Wed, 03 Sep 2026 02:00:00 GMT</pubDate></item>
+</channel></rss>"""
+
+
+def test_google_news_keeps_articles_about_the_destination():
+    items = parse_feed(GOOGLE_SOURCE, GOOGLE_FEED, NOW)
+    assert [i.title[:3] for i in items] == ["오사카"]
+    assert items[0].region == "japan"
+
+
+def test_google_news_drops_articles_that_only_match_a_query_word():
+    """검색 쿼리가 '일본 (항공 OR 노선 OR 관광 OR 호텔)' 이라 본문에 '항공'만
+    있어도 걸려 온다. 물류·주식·부동산 기사가 실제로 일본면에 들어왔다."""
+    items = parse_feed(GOOGLE_SOURCE, GOOGLE_FEED, NOW)
+    assert all("물류" not in i.title for i in items)
+
+
+def test_google_news_credits_the_outlet_that_wrote_it():
+    items = parse_feed(GOOGLE_SOURCE, GOOGLE_FEED, NOW)
+    assert items[0].source_name == "여행신문"
+
+
+GOSSIP_FEED = """<?xml version="1.0"?><rss version="2.0"><channel>
+<item><title>조혜련 "일본 유명 호텔서 제재 받아" - 스포츠조선</title>
+<link>https://example.com/g</link>
+<pubDate>Wed, 03 Sep 2026 01:00:00 GMT</pubDate></item>
+</channel></rss>"""
+
+
+def test_entertainment_outlets_never_reach_the_paper():
+    """검색 피드가 '일본'만 보고 연예 가십을 물어온다. 여행면에 실을 수 없다."""
+    assert parse_feed(GOOGLE_SOURCE, GOSSIP_FEED, NOW) == []

@@ -1,5 +1,8 @@
-{% block head_extra %}<script type="application/ld+json">{{ site_ld|ld }}</script>{% endblock %}
 {% extends "base.html" %}
+{# extends 는 반드시 맨 앞이어야 한다. 앞에 무엇이든 두면 Jinja 가 그 리터럴을
+   상속 결과보다 먼저 뱉어서, 홈만 <!doctype> 앞에 내용이 붙는다. 실제로
+   script 하나가 앞에 나오고 같은 JSON-LD 가 문서에 두 번 실렸다. #}
+{% block head_extra %}<script type="application/ld+json">{{ site_ld|ld }}</script>{% endblock %}
 {% block content %}
 
 {# ── 첫 화면: 사진 셋 + 데이터 띠 + 헤드라인 2열 ──
@@ -48,6 +51,15 @@
   <a href="{{ article_urls[it.id] }}"><span class="n">{{ "%02d"|format(loop.index) }}</span><span>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}{{ it.title|clean_title }}</span></a>
   {% endfor %}
 </div>
+{% endif %}
+
+{# 도시 띠. 상단 네비는 편집 부문만 둔다 — 목적지 디렉터리처럼 보이면 안 된다.
+   사람들은 "일본"이 아니라 "오사카"로 검색하므로 도시 입구는 있어야 한다. #}
+{% if city_links %}
+<nav class="citystrip" aria-label="도시별 여행뉴스">
+  <span class="cs-label">도시별</span>
+  {% for slug, name in city_links %}<a href="/city/{{ slug }}/">{{ name }}</a>{% endfor %}
+</nav>
 {% endif %}
 
 {# ── 부문별 ── #}

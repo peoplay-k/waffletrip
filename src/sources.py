@@ -6,8 +6,11 @@ from dataclasses import dataclass
 
 import yaml
 
-REGIONS = ("guam", "saipan", "hawaii", "vietnam", "kota", "laos", "jeju",
-           "all", "auto")
+# 지역 목록은 src/models.py 가 정본이다. 두 곳에 적어두면 반드시 어긋난다 —
+# 실제로 지역을 늘렸는데 여기가 옛 목록이라 소스 등록이 막혔다.
+from src.models import REGIONS as _MODEL_REGIONS
+
+REGIONS = _MODEL_REGIONS + ("all", "auto")
 SECTIONS = ("flight", "news", "data", "promo")
 TYPES = ("rss", "json")
 REQUIRED = ("id", "region", "section", "name", "type", "url", "lang", "enabled")
