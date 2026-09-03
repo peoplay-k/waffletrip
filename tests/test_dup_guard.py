@@ -245,3 +245,20 @@ def test_commentary_is_judged_by_id_only():
 
     index.add(commentary, "2026-09-02")
     assert index.contains(commentary) is True       # id 가 같으면 막힌다
+
+
+def test_shorter_headline_contained_in_longer_is_the_same_story():
+    """같은 보도자료를 받은 매체들이 제목 길이만 달리한다. 자카드로는 못 잡는다."""
+    from src.guards.dup_guard import cluster_batch
+    a = make("x1", "오키나와, 숙박세 도입 확정")
+    b = make("x2", "오키나와, 숙박세 도입 확정…전국 첫 ‘정률제’ 적용")
+    reps = cluster_batch([a, b])
+    assert [r.id for r in reps] == ["x1"]
+    assert reps[0].related == ["x2"]
+
+
+def test_two_word_titles_do_not_count_as_contained():
+    from src.guards.dup_guard import cluster_batch
+    a = make("y1", "오사카 호텔")
+    b = make("y2", "오사카 호텔 예약 급증…추석 연휴 영향")
+    assert len(cluster_batch([a, b])) == 2

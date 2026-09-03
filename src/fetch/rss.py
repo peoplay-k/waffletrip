@@ -61,6 +61,22 @@ def first_sentences(text: str, n: int = 2) -> str:
     return " ".join(parts[:n]).strip()
 
 
+FRESH_DAYS = 7
+
+
+def _age_days(published: str, collected_at: str) -> float:
+    try:
+        p = datetime.fromisoformat(published.replace("Z", "+00:00"))
+        c = datetime.fromisoformat(collected_at.replace("Z", "+00:00"))
+    except ValueError:
+        return 0.0
+    if p.tzinfo is None:
+        p = p.replace(tzinfo=timezone.utc)
+    if c.tzinfo is None:
+        c = c.replace(tzinfo=timezone.utc)
+    return (c - p).total_seconds() / 86400
+
+
 def _published_at(entry, fallback: str) -> str:
     parsed = entry.get("published_parsed") or entry.get("updated_parsed")
     if not parsed:
@@ -95,6 +111,12 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
                 if outlet:
                     display_name = outlet
         published = _published_at(entry, collected_at)
+
+        # Google 뉴스 검색은 오래된 기사도 돌려준다. 넉 달 전 기사가 오늘
+        # 발행된 것처럼 지면에 실렸다(2026-05-18 기사가 09-03 톱에).
+        # 신문이 낡은 소식을 새것처럼 내면 그날로 신뢰가 끝난다.
+        if google_news and _age_days(published, collected_at) > FRESH_DAYS:
+            continue
 
         # Google 뉴스 검색 피드는 목적지를 검증한다.
         # 쿼리가 "일본 (항공 OR 노선 OR 관광 OR 호텔)" 이라 본문 어딘가에

@@ -37,6 +37,13 @@ jobs:
       - name: 수집
         run: python -m src.collect
 
+      # Google 뉴스 리다이렉트를 실제 기사로 푼다 — 요약·매체명·발행시각.
+      # 이게 없으면 기사 페이지가 제목 한 줄짜리 얇은 페이지가 된다.
+      # 구글이 방식을 바꿔 실패해도 발행은 계속한다 — 요약 없는 기사는 색인에서 뺀다.
+      - name: 원문 해결
+        run: python -m src.fetch.resolve
+        continue-on-error: true
+
       # 급상승 키워드. 해설 기사 후보 선정의 세 경로 중 하나라 편집 앞에 둔다.
       # 실패해도 죽지 않는다 — 키워드는 보조 신호다.
       - name: 급상승 키워드

@@ -552,3 +552,29 @@ def test_admin_write_keeps_korean_readable(tmp_path):
     raw = open(path, encoding="utf-8").read()
     assert "괌 리조트" in raw
     assert "\\u" not in raw
+
+
+def test_quoted_article_without_summary_is_noindexed(tmp_path):
+    """제목 한 줄짜리 인용 페이지가 수백 개 색인되면 사이트 전체가 얇게 평가된다."""
+    from src.render.site import render_site
+    from src.models import Item
+    thin = Item(id="t1", grade="B", region="japan", section="news",
+                title="오사카 노선 증편", summary="", source_name="여행신문",
+                source_url="https://example.com/1",
+                published_at="2026-09-03T00:00:00+00:00",
+                collected_at="2026-09-03T05:00:00+09:00", status="published",
+                title_hash="h1")
+    full = Item(id="t2", grade="B", region="japan", section="news",
+                title="도쿄 호텔 개장", summary="도쿄에 새 호텔이 문을 열었다.",
+                source_name="여행신문", source_url="https://example.com/2",
+                published_at="2026-09-03T00:00:00+00:00",
+                collected_at="2026-09-03T05:00:00+09:00", status="published",
+                title_hash="h2")
+    out = tmp_path / "public"
+    render_site([thin, full], str(out), "2026-09-03")
+    pages = {p.parent.name: p.read_text(encoding="utf-8")
+             for p in out.glob("japan/*/index.html")}
+    thin_html = next(h for n, h in pages.items() if n.startswith("t1"))
+    full_html = next(h for n, h in pages.items() if n.startswith("t2"))
+    assert 'content="noindex, follow"' in thin_html
+    assert "noindex" not in full_html

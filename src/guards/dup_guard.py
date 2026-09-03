@@ -104,6 +104,21 @@ class PublishedIndex:
                       ensure_ascii=False, indent=2)
 
 
+# 포함 판정에 필요한 최소 토큰 수. 두세 단어짜리 제목은 우연히 포함될 수 있다.
+CONTAIN_MIN_TOKENS = 4
+
+
+def contained(a: set[str], b: set[str]) -> bool:
+    """짧은 제목이 긴 제목에 통째로 들어 있으면 같은 사건이다.
+
+    "오키나와, 숙박세 도입 확정" 과 "오키나와, 숙박세 도입 확정…전국 첫 '정률제'
+    적용" 은 자카드로는 0.5 밖에 안 나와 따로 실렸다. 같은 보도자료를 받은
+    매체들이 제목 길이만 달리한 것이다.
+    """
+    short, long_ = (a, b) if len(a) <= len(b) else (b, a)
+    return len(short) >= CONTAIN_MIN_TOKENS and short <= long_
+
+
 def cluster_batch(items: list[Item],
                   threshold: float = SIMILARITY_THRESHOLD) -> list[Item]:
     """배치 안의 같은 사건을 묶는다. 먼저 온 항목이 대표가 된다.
@@ -132,7 +147,8 @@ def cluster_batch(items: list[Item],
         for rep, known_list in zip(representatives, cluster_tokens):
             if known_list is None or rep.region != item.region:
                 continue
-            if any(jaccard(tokens, known) >= threshold for known in known_list):
+            if any(jaccard(tokens, known) >= threshold or contained(tokens, known)
+                   for known in known_list):
                 rep.related.append(item.id)
                 known_list.append(tokens)
                 break
