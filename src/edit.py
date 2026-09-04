@@ -20,7 +20,7 @@ import yaml
 
 from src.grade import apply_grades, pick_c_candidates
 from src.guards.copyright_guard import filter_items
-from src.autowrite import build_daily, build_roundup
+from src.autowrite import build_city_roundup, build_daily, build_roundup
 from src.guards.dup_guard import (PublishedIndex, cluster_batch,
                                   filter_unpublished)
 from src.models import Item, item_from_dict, item_to_dict
@@ -158,6 +158,22 @@ def load_recent_for_roundup(data_dir: str, today: str, days: int = 7) -> list[It
     return out
 
 
+PUBLISH_MAX_AGE_DAYS = 7
+
+
+def drop_stale(items, today: str, max_age: int = PUBLISH_MAX_AGE_DAYS) -> list:
+    """발행일이 오래된 인용 기사를 버린다.
+
+    신문이 낡은 소식을 오늘 것처럼 내면 그날로 신뢰가 끝난다. 실제로
+    2016년 취항 기사가 2026년 지면에 올라와 있었다.
+    자체 생산분(A·C)은 우리가 오늘 만든 것이므로 검사하지 않는다.
+    """
+    cutoff = (date.fromisoformat(today) - timedelta(days=max_age)).isoformat()
+    return [i for i in items
+            if getattr(i, "grade", "") != "B"
+            or (getattr(i, "published_at", "") or "")[:10] >= cutoff]
+
+
 def main(data_dir: str = "data", review_dir: str = "content/review",
          sources_path: str = "sources.yaml") -> int:
     today = datetime.now(KST).date().isoformat()
@@ -169,6 +185,14 @@ def main(data_dir: str = "data", review_dir: str = "content/review",
 
     with open(raw_path, encoding="utf-8") as f:
         raw_items = [item_from_dict(d) for d in json.load(f)]
+
+    # 낡은 기사는 싣지 않는다. 수집 단계에도 같은 검사가 있지만 그때는
+    # Google 뉴스가 준 날짜(대개 최근)를 본다. resolve 가 원문에서 실제
+    # 발행일을 가져온 **뒤**에 다시 봐야 진짜를 거른다. 이 검사가 없어서
+    # 2016년 기사가 오늘 뉴스로 실렸다.
+    before = len(raw_items)
+    raw_items = drop_stale(raw_items, today)
+    stale = before - len(raw_items)
 
     index = PublishedIndex.load(os.path.join(data_dir, "published_index.json"))
     curated_sources = {s.name for s in load_sources(sources_path) if s.curated}
@@ -193,6 +217,14 @@ def main(data_dir: str = "data", review_dir: str = "content/review",
         if art and not index.contains(art):
             publish.append(art)
             print(f"주간 브리핑: {art.title}")
+
+    # 도시별 주간 브리핑. 사람들은 나라가 아니라 도시로 검색한다.
+    from src.cities import CITY_NAMES
+    for slug in CITY_NAMES:
+        art = build_city_roundup(recent, slug, today)
+        if art and not index.contains(art):
+            publish.append(art)
+            print(f"도시 브리핑: {art.title}")
 
     out_dir = os.path.join(data_dir, "items")
     os.makedirs(out_dir, exist_ok=True)
@@ -224,6 +256,7 @@ def main(data_dir: str = "data", review_dir: str = "content/review",
     purged = purge_stale_drafts(review_dir, today)
     drafts = write_drafts(review_dir, result["c_candidates"], today)
 
+    print(f"낡은 기사 {stale}건 제외 (발행 {PUBLISH_MAX_AGE_DAYS}일 초과)")
     print(f"편집 완료: 발행대상 {len(result['publish'])}건, "
           f"검수초안 {len(drafts)}건, 폐기 {len(result['dropped'])}건, "
           f"중복 {len(result['duplicates'])}건, 주제밖 {len(result['off_topic'])}건, "
