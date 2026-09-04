@@ -233,3 +233,22 @@ def test_purge_keeps_published_drafts(tmp_path):
     assert any("draft" in n for n in names)
     assert not any("approved" in n for n in names)
     assert not any("published" in n for n in names)
+
+
+def test_drop_stale_removes_old_quotes_only():
+    """2016년 취항 기사가 2026년 지면에 올라와 있었다."""
+    from src.edit import drop_stale
+    from src.models import Item
+
+    def mk(item_id, grade, published):
+        return Item(id=item_id, grade=grade, region="japan", section="news",
+                    title=item_id, summary="", source_name="여행신문",
+                    source_url="https://e.com/" + item_id,
+                    published_at=published, collected_at=published,
+                    status="draft", title_hash=item_id)
+
+    items = [mk("old", "B", "2016-05-18T00:00:00+09:00"),
+             mk("new", "B", "2026-09-01T00:00:00+09:00"),
+             mk("ours", "C", "2016-05-18T00:00:00+09:00")]
+    kept = {i.id for i in drop_stale(items, "2026-09-03")}
+    assert kept == {"new", "ours"}, "자체 생산분은 날짜로 버리지 않는다"

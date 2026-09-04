@@ -124,3 +124,48 @@ def test_roundup_skips_stale_items():
     from src.autowrite import build_roundup
     old = [curated("guam", f"옛 {i}", day="2026-07-01") for i in range(5)]
     assert build_roundup(old, "guam", "2026-09-02") is None
+
+
+def _b(item_id, title, region, published, summary="한 줄 요약입니다."):
+    return Item(id=item_id, grade="B", region=region, section="news",
+                title=title, summary=summary, source_name="여행신문",
+                source_url="https://example.com/" + item_id,
+                published_at=published, collected_at=published,
+                status="published", title_hash=item_id)
+
+
+def test_city_roundup_groups_by_city_not_region():
+    """도쿄 기사만 모은다. 같은 일본이어도 오사카 기사는 도쿄 브리핑에 안 들어간다."""
+    from src.autowrite import build_city_roundup
+    recent = [
+        _b("c1", "도쿄 하네다 노선 증편", "japan", "2026-09-02T00:00:00+09:00"),
+        _b("c2", "나리타 신규 취항", "japan", "2026-09-01T00:00:00+09:00"),
+        _b("c3", "도쿄 호텔 개장", "japan", "2026-08-31T00:00:00+09:00"),
+        _b("c4", "오사카 간사이 노선 확대", "japan", "2026-09-02T00:00:00+09:00"),
+    ]
+    art = build_city_roundup(recent, "tokyo", "2026-09-03")
+    assert art is not None
+    assert art.title == "이번 주 도쿄에서 나온 소식 3건"
+    assert art.grade == "C" and art.region == "japan"
+    assert "오사카 간사이" not in art.body_md
+    assert "/city/tokyo/" in art.body_md
+
+
+def test_city_roundup_needs_three_items():
+    from src.autowrite import build_city_roundup
+    recent = [_b("c1", "도쿄 노선 증편", "japan", "2026-09-02T00:00:00+09:00")]
+    assert build_city_roundup(recent, "tokyo", "2026-09-03") is None
+
+
+def test_city_roundup_ignores_unknown_city():
+    from src.autowrite import build_city_roundup
+    assert build_city_roundup([], "atlantis", "2026-09-03") is None
+
+
+def test_region_roundup_still_works():
+    from src.autowrite import build_roundup
+    recent = [_b(f"r{n}", f"괌 소식 {n}", "guam", "2026-09-02T00:00:00+09:00")
+              for n in range(3)]
+    art = build_roundup(recent, "guam", "2026-09-03")
+    assert art and art.title == "이번 주 괌에서 나온 소식 3건"
+    assert "/guam/" in art.body_md

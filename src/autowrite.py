@@ -76,32 +76,11 @@ def _load_history(data_dir: str, days: int = 8) -> dict:
 ROUNDUP_MIN = 3        # 이보다 적으면 브리핑을 만들지 않는다
 
 
-def build_roundup(recent, region: str, day: str, days: int = 7) -> Item | None:
-    """지역별 주간 브리핑.
-
-    지난 이레 동안 그 지역에서 무엇이 있었는지 골라 묶는다. 사실은 각 매체의
-    보도이고 **무엇을 고르고 어떻게 묶는지가 우리 몫**이다. 신문의 주간
-    브리핑이 원래 그런 것이다.
-
-    본문을 옮기지 않는다. 제목과 한 줄, 그리고 원문으로 가는 링크만 남긴다.
-    소식이 세 건에 못 미치면 만들지 않는다 — 두 건짜리 '브리핑'은 브리핑이 아니다.
-    """
-    from datetime import date, timedelta as _td
-    cutoff = (date.fromisoformat(day) - _td(days=days)).isoformat()
-
-    picked = [i for i in recent
-              if getattr(i, "region", "") == region
-              and getattr(i, "grade", "") == "B"
-              and (getattr(i, "published_at", "") or "")[:10] >= cutoff]
-    if len(picked) < ROUNDUP_MIN:
-        return None
-
-    picked.sort(key=lambda i: i.published_at, reverse=True)
-    picked = picked[:8]
-    name = REGION_NAMES.get(region, region)
+def _roundup(picked, *, region: str, name: str, day: str, link: str,
+             key: str) -> Item:
+    """골라 묶은 기사로 브리핑 한 편을 만든다. 지역면과 도시면이 함께 쓴다."""
     now = datetime.now(KST).isoformat(timespec="seconds")
     head = f"이번 주 {name}에서 나온 소식 {len(picked)}건"
-
     lines = [
         f"> 지난 이레 동안 {name} 관련 보도 가운데 여행자에게 쓸모 있는 것을 "
         "골라 묶었습니다. 각 항목의 사실은 해당 매체의 보도이며, 제목을 누르면 "
@@ -112,15 +91,12 @@ def build_roundup(recent, region: str, day: str, days: int = 7) -> Item | None:
         if it.summary:
             lines.append(f"\n{it.summary}\n")
         lines.append(f"*{it.source_name} · {it.published_at[:10]}*\n")
-
     lines.append("---\n")
     outlets = sorted({i.source_name for i in picked if i.source_name})
     lines.append(f"**이번 주 참고한 매체** · {' · '.join(outlets)}")
-    lines.append(f"\n오늘 {name}의 날씨와 환율은 [{name} 지역면](/{region}/)에서 "
-                 "매일 갱신됩니다.")
-
+    lines.append(f"\n{name} 소식은 [{name} 지면]({link})에 매일 쌓입니다.")
     return Item(
-        id=make_id("", f"roundup|{region}|{day}", day),
+        id=make_id("", key, day),
         grade="C", region=region, section="news",
         title=head,
         summary=f"지난 이레 {name} 소식 {len(picked)}건을 골라 묶었습니다.",
@@ -128,6 +104,56 @@ def build_roundup(recent, region: str, day: str, days: int = 7) -> Item | None:
         published_at=now, collected_at=now, status="published",
         title_hash=title_hash(head), body_md="\n".join(lines).strip(),
     )
+
+
+def _recent_b(recent, day: str, days: int):
+    from datetime import date, timedelta as _td
+    cutoff = (date.fromisoformat(day) - _td(days=days)).isoformat()
+    return [i for i in recent
+            if getattr(i, "grade", "") == "B"
+            and (getattr(i, "published_at", "") or "")[:10] >= cutoff]
+
+
+def build_roundup(recent, region: str, day: str, days: int = 7) -> Item | None:
+    """지역별 주간 브리핑.
+
+    지난 이레 동안 그 지역에서 무엇이 있었는지 골라 묶는다. 사실은 각 매체의
+    보도이고 **무엇을 고르고 어떻게 묶는지가 우리 몫**이다. 신문의 주간
+    브리핑이 원래 그런 것이다.
+
+    본문을 옮기지 않는다. 제목과 한 줄, 그리고 원문으로 가는 링크만 남긴다.
+    소식이 세 건에 못 미치면 만들지 않는다 — 두 건짜리 '브리핑'은 브리핑이 아니다.
+    """
+    picked = [i for i in _recent_b(recent, day, days)
+              if getattr(i, "region", "") == region]
+    if len(picked) < ROUNDUP_MIN:
+        return None
+    picked.sort(key=lambda i: i.published_at, reverse=True)
+    picked = picked[:8]
+    name = REGION_NAMES.get(region, region)
+    return _roundup(picked, region=region, name=name, day=day,
+                    link=f"/{region}/", key=f"roundup|{region}|{day}")
+
+
+def build_city_roundup(recent, slug: str, day: str, days: int = 7) -> Item | None:
+    """도시별 주간 브리핑.
+
+    지역면 브리핑만으로는 자체 생산 기사가 주 열 편뿐이다. 인터넷신문 등록
+    요건이 자체 기사 30% 이상이라 그 정도로는 모자라고, 무엇보다 사람들은
+    나라가 아니라 도시로 검색한다. 도시 페이지마다 우리가 쓴 글이 매주 하나씩
+    쌓이면 그 페이지가 검색 착지면이 된다.
+    """
+    from src.cities import CITY_NAMES, CITY_REGION, cities_of
+    if slug not in CITY_NAMES:
+        return None
+    picked = [i for i in _recent_b(recent, day, days) if slug in cities_of(i)]
+    if len(picked) < ROUNDUP_MIN:
+        return None
+    picked.sort(key=lambda i: i.published_at, reverse=True)
+    picked = picked[:8]
+    return _roundup(picked, region=CITY_REGION[slug], name=CITY_NAMES[slug],
+                    day=day, link=f"/city/{slug}/",
+                    key=f"roundup|city|{slug}|{day}")
 
 
 def build_daily(items, day: str, data_dir: str = "data") -> Item | None:
