@@ -106,8 +106,17 @@ def front_order(articles: list) -> list:
     버리지는 않는다 — 현지발 소식은 국제면의 재료다. 앞자리만 양보시킨다.
     같은 묶음 안에서는 원래대로 최신순을 지킨다(정렬이 안정적이므로).
     """
-    return ([a for a in articles if _HANGUL.search(a.title or "")]
-            + [a for a in articles if not _HANGUL.search(a.title or "")])
+    # 데이터 기사(환율·날씨)는 1면 톱이 아니다. 매일 나오는 표이지 그날의
+    # 뉴스가 아니다. 사진 우선 규칙 때문에 톱으로 올라온 적이 있다.
+    data = [a for a in articles if getattr(a, "section", "") == "data"]
+    news = [a for a in articles if getattr(a, "section", "") != "data"]
+    korean = [a for a in news if _HANGUL.search(a.title or "")]
+    rest = [a for a in news if not _HANGUL.search(a.title or "")] + data
+    # 한글 기사 안에서는 사진 있는 것을 앞으로. 신문 1면에는 사진 기사가 온다.
+    # 사진이 붙는 기사가 전체의 일부뿐이라(자사 촬영본만 쓰므로) 최신순으로만
+    # 세우면 1면이 글자만으로 채워지는 날이 생긴다.
+    return ([a for a in korean if a.photo] + [a for a in korean if not a.photo]
+            + rest)
 
 # 데이터 패널을 짧게 줄인다. 요약문은 우리가 만든 것이라 형식을 안다
 # (src/fetch/json_api.py). 형식이 안 맞으면 원문을 그대로 쓴다 —
