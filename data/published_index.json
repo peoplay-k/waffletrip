@@ -74,6 +74,7 @@
     "0b5e352665416245e637ec07ffbfd852eeb31a06",
     "0bb52fb207422013eb87b04e1a508d6e6c40a229",
     "0c37760295e88f57ad8a12fcae23aaca020a346b",
+    "0c848c5ac1e79b8915c79c3cc188a144448a7800",
     "0d021e30dad8be41c6ca183af74c320a96d7ee57",
     "0d33f3ad948ecc6906d2b228320e5823e468331a",
     "0d7aafbaf54f89b87a1fc01ccae5d005809191c2",
@@ -1025,6 +1026,7 @@
     "ba337881a3d9e46aa363d0c4336f299c52e44ef4",
     "ba7846886ce8ef3934363d1ca1e43652c07459f8",
     "ba7ab948a2a7a6454bd4e340af81c8caaadf66c3",
+    "bad04c367d14aa337ae37a98503ec660effe5ff3",
     "bb0603b33222d82bceef4ae1b019e6669c99db4c",
     "bb15b573c6d046ad3be205e0152e780ef1cdf375",
     "bb3613528f781dce12888af6ee9c59ddd31bde5f",
@@ -11078,6 +11080,20 @@
       "title": "호주, 미국, 일본 등 여러 나라의 젊은이들이 다낭에 관광을 하러 오는 것이 아니라, 가난한 사람들을 위한 집을 짓기 위해 오고 있습니다.",
       "date": "2026-09-06",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "0c848c5ac1e79b8915c79c3cc188a144448a7800",
+      "title": "타이베이 카지노 호텔 의 비밀을 풀다: 전문가들이 공유하는 핵심 팁",
+      "date": "2026-09-06",
+      "region": "taiwan",
+      "grade": "B"
+    },
+    {
+      "id": "bad04c367d14aa337ae37a98503ec660effe5ff3",
+      "title": "일본 JAL 한진칼 지분 인수… 조원태 회장 백기사될까",
+      "date": "2026-09-06",
+      "region": "japan",
       "grade": "B"
     }
   ]
