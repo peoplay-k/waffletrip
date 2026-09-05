@@ -17,7 +17,7 @@ from src.desks import DESK_DUTIES, REGION_DESKS, byline_for
 from src.photos import (assign as assign_photos, copy_into, load_manifest,
                         load_used, save_used)
 from src.render.md import render as md_render
-from src.cities import CITY_NAMES, CITY_REGION, group_by_city
+from src.cities import CITY_NAMES, CITY_REGION, cities_of, group_by_city
 from src.topics import TOPIC_DESCS, TOPIC_NAMES, TOPICS, group_by_topic, topic_of
 
 from src.models import Item
@@ -250,6 +250,28 @@ def _write(path: str, html: str, written: list[str]) -> None:
     written.append(path)
 
 
+def _crumb_ld(item, urls: dict) -> str:
+    """검색 결과에 경로를 보여준다 — 와플트립 › 일본 › 기사.
+
+    지역면이 기사보다 위라는 사실을 기계에게도 알린다. 지역면이 색인에서
+    기사와 나란히 놓이는 대신 상위 페이지로 이해된다.
+    """
+    base = SITE_URL + BASE_PATH
+    region = REGION_NAMES.get(item.region, item.region)
+    return json.dumps({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": SITE_NAME,
+             "item": base + "/"},
+            {"@type": "ListItem", "position": 2, "name": region,
+             "item": f"{base}/{item.region}/"},
+            {"@type": "ListItem", "position": 3,
+             "name": item.title, "item": base + urls[item.id]},
+        ],
+    }, ensure_ascii=False)
+
+
 def _article_ld(item, urls: dict) -> str:
     """기사 구조화 데이터. 검색엔진과 AI 가 읽는다."""
     data = {
@@ -442,15 +464,45 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
            json.dumps(index, ensure_ascii=False, separators=(",", ":")), written)
 
     # 기사 페이지 — A등급은 패널에만 나오므로 개별 페이지를 만들지 않는다.
+    #
+    # 우리 기사끼리 잇는 링크를 함께 낸다. 지금까지 기사 페이지에서 다른
+    # 기사로 가는 길이 네비와 푸터뿐이었다. 읽던 사람은 여기서 나가고,
+    # 크롤러는 개별 기사를 사이트맵으로만 만난다. 둘 다 손해다.
     for item in items:
         if item.grade == "A":
             continue
         related = [by_id[r] for r in item.related if r in by_id]
+
+        # 같은 도시 → 없으면 같은 지역. 도시가 더 가까운 맥락이다.
+        mine = cities_of(item)
+        pool = [i for i in items
+                if i.id != item.id and i.grade != "A"
+                and i.id not in {r.id for r in related}]
+        more = [i for i in pool if mine and set(cities_of(i)) & set(mine)]
+        more_label = (CITY_NAMES[mine[0]] if mine and mine[0] in CITY_NAMES
+                      else REGION_NAMES.get(item.region, item.region))
+        more_link = (f"/city/{mine[0]}/" if mine and mine[0] in by_city
+                     else f"/{item.region}/")
+        if len(more) < 4:
+            seen_ids = {i.id for i in more}
+            more += [i for i in pool
+                     if i.region == item.region and i.id not in seen_ids]
+            more_label = REGION_NAMES.get(item.region, item.region)
+            more_link = f"/{item.region}/"
+        more = more[:5]
+
+        # 그 지역의 오늘 값. 우리가 만든 사실이라 기사에 붙여도 남의 것이 아니고,
+        # 여행 기사를 읽는 사람에게 실제로 쓸모가 있다.
+        facts = next((row["facts"] for row in data_panel
+                      if row["region"] == item.region), [])
+
         _write(
             os.path.join(out_dir, urls[item.id].strip("/"), "index.html"),
             env.get_template("article.html").render(
-                item=item, related=related,
+                item=item, related=related, more=more,
+                more_label=more_label, more_link=more_link, facts=facts,
                 article_ld=_article_ld(item, urls),
+                crumb_ld=_crumb_ld(item, urls),
                 region_name=REGION_NAMES.get(item.region, item.region),
                 product_link=PRODUCT_LINKS.get(item.region, SITE_URL),
                 **common),
