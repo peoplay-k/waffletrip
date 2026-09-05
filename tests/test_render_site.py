@@ -578,3 +578,31 @@ def test_quoted_article_without_summary_is_noindexed(tmp_path):
     full_html = next(h for n, h in pages.items() if n.startswith("t2"))
     assert 'content="noindex, follow"' in thin_html
     assert "noindex" not in full_html
+
+
+def test_front_order_puts_photo_articles_first():
+    """1면에는 사진 기사가 온다. 사진이 붙는 기사가 일부뿐이라
+    최신순으로만 세우면 글자만 있는 1면이 나온다."""
+    from src.render.site import front_order
+
+    class A:
+        def __init__(self, title, photo=None):
+            self.title, self.photo = title, photo
+
+    got = front_order([A("글자만 있는 기사"), A("사진 있는 기사", "/img/guam/x.webp"),
+                       A("English headline")])
+    assert [a.title for a in got] == [
+        "사진 있는 기사", "글자만 있는 기사", "English headline"]
+
+
+def test_data_article_is_never_the_front_page_lead():
+    """환율·날씨 표는 매일 나오는 값이지 그날의 뉴스가 아니다."""
+    from src.render.site import front_order
+
+    class A:
+        def __init__(self, title, photo=None, section="news"):
+            self.title, self.photo, self.section = title, photo, section
+
+    got = front_order([A("09월 6일 여행 데이터", "/img/kota/x.webp", "data"),
+                       A("오사카 노선 증편")])
+    assert got[0].title == "오사카 노선 증편"
