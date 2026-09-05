@@ -12,7 +12,8 @@
 {% block tw_title %}{{ item.title|clean_title }}{% endblock %}
 {% block tw_desc %}{{ item.summary or item.title }}{% endblock %}
 {% block tw_image %}{% if item.photo %}{{ site_base }}{{ item.photo }}{% else %}{{ site_base }}/og-default.jpg{% endif %}{% endblock %}
-{% block head_extra %}<script type="application/ld+json">{{ article_ld|ld }}</script>{% endblock %}
+{% block head_extra %}<script type="application/ld+json">{{ article_ld|ld }}</script>
+<script type="application/ld+json">{{ crumb_ld|ld }}</script>{% endblock %}
 {% block content %}
 <div class="post-head"><h1>{% if item.title is sample %}<span class="badge">샘플</span>{% endif %}{{ item.title|clean_title }}</h1></div>
 <div class="meta">{{ region_name }} · {{ item.source_name }} · {{ item.published_at[:10] }}</div>
@@ -30,6 +31,30 @@
 {% if related %}
 <h2>관련 보도</h2>
 <ul class="src">{% for r in related %}{% set h = r.source_url|safe_url %}<li>{% if h %}<a href="{{ h }}" rel="nofollow noopener" target="_blank">{{ r.source_name }}</a>{% else %}{{ r.source_name }}{% endif %}</li>{% endfor %}</ul>
+{% endif %}
+{# 그 지역의 오늘 값. 우리가 직접 만든 사실이고, 여행 기사를 읽는 사람에게
+   바로 쓸모가 있다. 남의 기사를 인용한 쪽에도 우리 것이 하나는 있게 된다. #}
+{% if facts %}
+<aside class="today">
+  <span class="t-label">{{ region_name }} 오늘</span>
+  {% for f in facts %}<span class="t-f">{{ f }}</span>{% endfor %}
+  <a class="t-more" href="/{{ item.region }}/">{{ region_name }} 지역면</a>
+</aside>
+{% endif %}
+
+{# 우리 기사끼리 잇는다. 읽던 사람이 여기서 나가지 않고, 크롤러가 개별
+   기사를 사이트맵 밖에서도 만난다. 같은 도시가 있으면 도시를, 없으면 지역을. #}
+{% if more %}
+<section class="more">
+  <h2 class="more-title">{{ more_label }} 기사 더 보기</h2>
+  <ul class="more-list">
+    {% for m in more %}
+    <li><a href="{{ article_urls[m.id] }}">{{ m.title|clean_title }}</a>
+      <span class="more-meta">{{ m.source_name or '와플트립' }} · {{ m.published_at[:10] }}</span></li>
+    {% endfor %}
+  </ul>
+  <p class="note"><a href="{{ more_link }}">{{ more_label }} 기사 전체 보기</a></p>
+</section>
 {% endif %}
 {% if product_link %}<a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>{% endif %}
 {% endblock %}
