@@ -95,14 +95,15 @@ def test_build_writes_index_rss_sitemap_robots(tmp_path):
         assert (tmp_path / name).exists(), name
 
 
-def test_build_does_not_write_cname_yet(tmp_path):
-    """CNAME 이 있으면 Pages 가 waffletrip.com 으로 301 을 보낸다.
+def test_build_writes_cname_for_the_custom_domain(tmp_path):
+    """CNAME 이 있어야 Pages 가 waffletrip.com 으로 서비스한다.
 
-    그 도메인에 A레코드가 없어서 사이트가 통째로 안 열렸다. DNS 가 붙기
-    전까지는 CNAME 을 만들지 않는다 — github.io 주소로 볼 수 있어야 한다.
+    순서가 중요하다. DNS(A·CNAME)를 먼저 붙인 뒤에 이 파일을 낸다 —
+    반대로 하면 Pages 가 죽은 도메인으로 301 을 걸어 사이트가 통째로
+    안 열린다. 2026-09-06 에 DNS 가 붙어 켰다.
     """
     build([make("1", "괌 소식")], str(tmp_path), TODAY, NOW)
-    assert not (tmp_path / "CNAME").exists()
+    assert (tmp_path / "CNAME").read_text(encoding="utf-8").strip() == "waffletrip.com"
 
 
 def test_build_returns_the_paths_it_wrote(tmp_path):
