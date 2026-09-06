@@ -2,8 +2,10 @@ name: 매일 발행
 
 on:
   schedule:
-    # 05:00 KST = 20:00 UTC (전일). GitHub 스케줄은 UTC 기준이다.
-    - cron: '0 20 * * *'
+    # 08:00 KST = 23:00 UTC (전일). GitHub 스케줄은 UTC 기준이다.
+    # GitHub 은 부하가 몰리면 예약 시각보다 수 분에서 수십 분 늦게 띄운다.
+    # 정각을 보장하지 않으므로 아침에 확인하는 용도로만 믿는다.
+    - cron: '0 23 * * *'
   workflow_dispatch:        # 수동 실행 버튼
 
 permissions:
@@ -71,7 +73,7 @@ jobs:
         run: |
           git config user.name  "waffletrip-bot"
           git config user.email "bot@waffletrip.com"
-          git add data/items data/published_index.json content/review || true
+          git add data/items data/published_index.json data/resolved.json content/review || true
           if git diff --cached --quiet; then
             echo "변경 없음 — 커밋 생략"
           else
