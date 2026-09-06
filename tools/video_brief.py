@@ -93,6 +93,9 @@ _CITE = re.compile(r"^\*([^·*]+)·")
 # 대본이 우스워진다. 출처는 따로 말로 밝히므로 문장에서는 걷어낸다.
 _DESK = re.compile(r"^\s*[\[\(【][^\]\)】]{0,40}[\]\)】]\s*")
 _REPORTER = re.compile(r"[가-힣]{2,4}\s*기자\s*=?\s*")
+# 통신사 전문(電文) 앞머리. "DNO - 9월 11일부터…" 처럼 지국 약어가 붙어 온다.
+# 낭독하면 무슨 말인지 알 수 없다.
+_WIRE = re.compile(r"^\s*[A-Z]{2,6}\s*[-–—]\s*")
 
 
 def _speakable(text: str, limit: int) -> str:
@@ -102,7 +105,8 @@ def _speakable(text: str, limit: int) -> str:
     끊고, 그래도 길면 마지막 어절 경계에서 끊는다.
     """
     text = _DESK.sub("", (text or "").strip())
-    text = _REPORTER.sub("", text).strip(" =·-—")
+    text = _REPORTER.sub("", text)
+    text = _WIRE.sub("", text).strip(" =·-—")
     if not text:
         return ""
     parts = re.split(r"(?<=[.!?。])\s+", text)
