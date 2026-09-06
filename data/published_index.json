@@ -11,6 +11,7 @@
     "01292377bee5a0801fc5ca97411f2fc0be948bca",
     "01311c523ffaa422fc95bbadd2e244877b19c80f",
     "0144022e10906ac33a4ce27d582ac088992ad099",
+    "01af9021d66e327df804715d92734b33e811f514",
     "01b2c48e902a497a5c6e4f10cd3ce9eaee1be540",
     "0229430f4fd2ae9e0de29f8d142a0f0187794796",
     "0262fcf8cb190ea609f036fff47b5923cea51128",
@@ -215,6 +216,7 @@
     "232797a24c45ad8a0f162659d4d7051e5adf6009",
     "2345b60404f34c06f978abb62867e49e9b5e6efd",
     "2359ab1f5c3b245d51a8a11412981ed0678e27d7",
+    "2374700907afe5f8818d173ce5c8311222c1fe8e",
     "23ae00d0f88f58b45e86e2a89ec55e0f1c176c89",
     "23c8ec5d2d3199e869c42ec20341fb05ae8d6b0d",
     "2426b087007436aa008447bdbbce1d3037870cfc",
@@ -264,6 +266,8 @@
     "2be3d9cabcb59a462b19970741f8fb70ac53dd40",
     "2c1eadfc4af2ecedc49f8366d7e37ad2bcd15077",
     "2cc5186cbe3f7f74e9830d3477fb7aed4e15e1ff",
+    "2cd37ac6c537ea2d043eb22ef4aa3159f545a956",
+    "2ce6d76f1f800c100a430b2f58a59b220036c883",
     "2ce84733a47e69349b10f5f381c493071d45ec86",
     "2d05187990cfe2774cd424e6659055aec511286a",
     "2d382cc2ae359bc32f22832bec1778315a80a3f5",
@@ -396,6 +400,7 @@
     "467826900bfcd962eed39b83ea291ab991536f64",
     "4680fee42cc2b03b7ef97e6ffeda22889ae5620b",
     "4689c691474238529a11e2bbdf589d2557b7ade2",
+    "46a31452c65ef46c28bfc70ec1b785cafafb6bc7",
     "46f520c9640db24bf1bdf4f34b600d274e8edcdf",
     "479cf6292c734ce50c6a3dadcd4e29ff4b6fb47a",
     "47c39751911931b3465b5ad81572b3f4eda8ea08",
@@ -524,6 +529,7 @@
     "5d94338fe823a257ed04b2bd97f4c89e88c0c05f",
     "5d9f7d407a455a7594e1bdf194fd446efe642c65",
     "5db2eda2d5633327d12e09bebf00c5fb455b5f62",
+    "5dbcc60fa3866c5aa3f5090a48bc6140a2c36a2b",
     "5df7f7fc183f0824b0ce536612a8d7064a70b577",
     "5dfc6626914f91027035b90150a2dfc73dc8d7d6",
     "5dfc917e7681e62d6c64f523d91d5a92b13e2ca3",
@@ -653,6 +659,7 @@
     "758645e38adbbb46f2830b1c64dd6c81587729fc",
     "75dcb2530279af9c009bcf85bd32dbb6d3b672f4",
     "75f974ce89d97b2a26e8e153bf722416bfca948e",
+    "75fa8137ebebcf5e577337dbba8a9bd4d7c29c07",
     "76247637b6320d0a2375a19c80357ac59d538595",
     "7635b110429012b93054163e53b6b4d81a347fed",
     "7660037947a85861e7dc3e52957ccb0deed8e282",
@@ -663,6 +670,7 @@
     "7736b7bee09e26d178dd069e768ca172bd64defa",
     "777cdc13c2415be152b379ab9d84a6be6b35a357",
     "7850d2218d3d7176cab594a7279d67504e949351",
+    "78666cb77513537c64302c510aca68583426c3ee",
     "787c060a05c7134dd7a99d37957d491903675f42",
     "78823488d861d660727b208ab99517dd069330fa",
     "78dd60328ebd0bfcc34314f15e3e186a6a6561e5",
@@ -703,6 +711,7 @@
     "7e5c55d672a1ca235cb1604d1713260998ac1f61",
     "7e8c8484bde4842b90b7eb570d987f8f13cf4ae5",
     "7e8f5b51b3c77d05ba95e80f4d9a54d5152c9fbd",
+    "7ec8bd605aaad8a7b53868dbfd43b944700ae636",
     "7eed1708605a7ab6db7032bd4ce5b1768f31eb5c",
     "7f491bf2a743df3faac51fc2de66dd46e5d6faf5",
     "7f544c115b8e738e9f73ea1964c106476350b97a",
@@ -711,6 +720,7 @@
     "80480fe5c5e23baf0351155cdf141f953f64c196",
     "809f9f4dbd1d244eb5e0a649824b8c98daa4854a",
     "80b562e781532f7e4dfd2860f99f8c3163312493",
+    "815759d408f46fa57a6e782edb60cf6d66121e7a",
     "817037ba324fe9e879eb4ef83e019efd89f7ce0b",
     "8263ff52287692810020aef82b167fa8522aab4d",
     "826a9ef94814fda71b5fdd9efc246167ac1e980b",
@@ -817,6 +827,7 @@
     "953bdb2bf16e246cacdbe808b55f7d13c74dfc18",
     "95b6a8dbdc2391e6c7f0c7cea4da0ec1de91f49f",
     "95c01f5ae6e4d3e599d1f3465eb5ef0fcbbd7414",
+    "95d0009d0a57c2746b61698bf43b0fd560bdd9f4",
     "95fbd0e26fe86324ec5012db5422f1f1ad1775f0",
     "960bbcd4812344b7cb5076768c6514f93edd5779",
     "962f9af25fe02ef0151cf23425a272c2584fc37b",
@@ -852,6 +863,7 @@
     "9bab5c6dfecdb8ec0865c60201a980976886828b",
     "9bb2a6e235ce28508a26168931a4b1442c00dbd3",
     "9bf7942523a9907e83f3439cec91f9840c8d6bc3",
+    "9c4c76e3ac9eb30a2e5e1dce45443243dc749399",
     "9c67b56951e7d3b1c9c106664ab9dbf59ad7e66e",
     "9caac14a85b4ebee78d1e436f3195e542d2a3f3b",
     "9ce09c1d8fe6cdce3127c5b737a14475d4d28e68",
@@ -1188,6 +1200,7 @@
     "d1bb72b1f435ea4b05e498a0f703bc7ab4a0771a",
     "d1eb2c3796e4fceddf1b8b96bf91fd6a3db8e275",
     "d1ebff98589cda1e7f56411195ee522fe17d51f5",
+    "d23452aefc3b6a1976bac125cdd769f7b138c40a",
     "d251f4db2a5c31916a58062ebadb525e8e08030f",
     "d2a5d456bf935d67d3f70ddbc596299f0d3babfc",
     "d2b0f0b1b4d7da12ad52840c43bc65a7151b3ffc",
@@ -1211,6 +1224,7 @@
     "d63b28d648687f29fe9b36bc273a5a1aa68e8b5d",
     "d6746f5928347707af727033b01bd47a865d9f41",
     "d675247efa3caeaceca1a2acf2da93792592af49",
+    "d6d11505e21216cc0d576c38df5d2ec7fdc72acb",
     "d6ed70f4386d8db1f900e20b55908dca2585defa",
     "d728bc20ac46503a94a984f290cdf143819fcbe0",
     "d73653b4e6b68f439cf5564fcc1bdc1eee0ec76a",
@@ -1316,6 +1330,7 @@
     "e6db44d3522bb65fc339db1977f90d0b94279eb2",
     "e7387a014c7b177cf10c6566ed6d6faa28f309e0",
     "e73982f9c37d5ee78c852bf9a888e06959030490",
+    "e76b93581d54d178e98448d69deac6dbb88aa23f",
     "e790430eb916b0e5b1ddc7cff8aae958789136b8",
     "e7a2ef0f0830622d071771f326a33cbf572a1c7d",
     "e7c0ef32e28b87b740f78437f9d019ab96c234e9",
@@ -1372,6 +1387,7 @@
     "f1219085213a66c4d30bd294c645f9473155d25a",
     "f136af661d564e9a5f2d7778197543258dfa9b46",
     "f144f9ad002774ed8b491d84c1cc6d469b87ae9c",
+    "f15e843629292612323f082a6d673d8ed821285a",
     "f1e516e7a92e2e21706e8b92ca63b1edfaf2d36c",
     "f20ee202302edb3820f07fc57dc95769ce3c028f",
     "f21218e2910193055b73e1475a9de9cfe26e11ac",
@@ -1434,6 +1450,7 @@
     "fb058ddf8a838d24a9750943596f37d78db09db0",
     "fb067d71b7687810a391d36fb550d21b9c935a21",
     "fb3010d6d95111afd1c6544f03efa67845317a67",
+    "fb392e15a9be3084e88aa3d3e3409c331a1aa997",
     "fb7fd912dd6ad25b2720c297b5b99ccc670401b0",
     "fba43cbefaad1755446280a3048fcf7215009015",
     "fc00f5a990089010e83b2179b083948080d03a0e",
@@ -11118,6 +11135,125 @@
       "title": "지진 났던 구마모토 포함...일본 정부, 10월 여행객에게 '파격 할인'",
       "date": "2026-09-06",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "2cd37ac6c537ea2d043eb22ef4aa3159f545a956",
+      "title": "이번 주 괌에서 나온 소식 4건",
+      "date": "2026-09-06",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "d6d11505e21216cc0d576c38df5d2ec7fdc72acb",
+      "title": "이번 주 하와이에서 나온 소식 8건",
+      "date": "2026-09-06",
+      "region": "hawaii",
+      "grade": "C"
+    },
+    {
+      "id": "2ce6d76f1f800c100a430b2f58a59b220036c883",
+      "title": "이번 주 베트남에서 나온 소식 8건",
+      "date": "2026-09-06",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "d23452aefc3b6a1976bac125cdd769f7b138c40a",
+      "title": "이번 주 제주에서 나온 소식 8건",
+      "date": "2026-09-06",
+      "region": "jeju",
+      "grade": "C"
+    },
+    {
+      "id": "e76b93581d54d178e98448d69deac6dbb88aa23f",
+      "title": "이번 주 일본에서 나온 소식 8건",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "46a31452c65ef46c28bfc70ec1b785cafafb6bc7",
+      "title": "이번 주 태국에서 나온 소식 8건",
+      "date": "2026-09-06",
+      "region": "thailand",
+      "grade": "C"
+    },
+    {
+      "id": "75fa8137ebebcf5e577337dbba8a9bd4d7c29c07",
+      "title": "이번 주 대만에서 나온 소식 6건",
+      "date": "2026-09-06",
+      "region": "taiwan",
+      "grade": "C"
+    },
+    {
+      "id": "9c4c76e3ac9eb30a2e5e1dce45443243dc749399",
+      "title": "이번 주 도쿄에서 나온 소식 8건",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "815759d408f46fa57a6e782edb60cf6d66121e7a",
+      "title": "이번 주 오사카에서 나온 소식 6건",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "2374700907afe5f8818d173ce5c8311222c1fe8e",
+      "title": "이번 주 후쿠오카에서 나온 소식 4건",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "95d0009d0a57c2746b61698bf43b0fd560bdd9f4",
+      "title": "이번 주 오키나와에서 나온 소식 5건",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "7ec8bd605aaad8a7b53868dbfd43b944700ae636",
+      "title": "이번 주 방콕에서 나온 소식 5건",
+      "date": "2026-09-06",
+      "region": "thailand",
+      "grade": "C"
+    },
+    {
+      "id": "78666cb77513537c64302c510aca68583426c3ee",
+      "title": "이번 주 타이베이에서 나온 소식 3건",
+      "date": "2026-09-06",
+      "region": "taiwan",
+      "grade": "C"
+    },
+    {
+      "id": "fb392e15a9be3084e88aa3d3e3409c331a1aa997",
+      "title": "이번 주 다낭에서 나온 소식 8건",
+      "date": "2026-09-06",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "f15e843629292612323f082a6d673d8ed821285a",
+      "title": "이번 주 나트랑에서 나온 소식 5건",
+      "date": "2026-09-06",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "01af9021d66e327df804715d92734b33e811f514",
+      "title": "이번 주 호치민에서 나온 소식 4건",
+      "date": "2026-09-06",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "5dbcc60fa3866c5aa3f5090a48bc6140a2c36a2b",
+      "title": "다낭카지노호텔 발표 능력을 통한 반성: 핵심 개념과 실제 응용",
+      "date": "2026-09-06",
+      "region": "vietnam",
       "grade": "B"
     }
   ]
