@@ -190,10 +190,16 @@ def build(region: str, voice: str, out_dir: str, keep_photos: bool) -> str:
 
     if not keep_photos:
         mark_used(shots, name)
+    # 포스터. preload="none" 이라 이것이 없으면 홈에 빈 검은 상자가 걸린다.
+    poster = out.rsplit(".", 1)[0] + ".jpg"
+    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
+                    "-frames:v", "1", "-q:v", "3", poster], check=True)
+
     meta = out.rsplit(".", 1)[0] + ".json"
     with open(meta, "w", encoding="utf-8") as fh:
         json.dump({"title": script["source_title"], "region": region,
                    "seconds": script["seconds"], "photos": shots,
+                   "poster": "/video/" + os.path.basename(poster),
                    "outlets": script["outlets"]}, fh, ensure_ascii=False, indent=2)
     return out
 
