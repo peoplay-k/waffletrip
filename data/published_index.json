@@ -593,6 +593,7 @@
     "6a780f6a71132c99df4112fa248e3124dded0363",
     "6a84a909117a562bc16cf7c2cad38c500a82c69e",
     "6aa1f889e0e065ddfe100cb4fbc29e24a532c0a2",
+    "6ab297d1032bfd323ccd9123318351a72aea18d0",
     "6ab80c57fd41b474a9f116ecef0145a8164c9df4",
     "6abd076df74b4a75d0255b48ab44c7c27a9e7c78",
     "6b0d9a77574dfbd1de5094066dc0ad2591f70c67",
@@ -891,6 +892,7 @@
     "a1d7d1c2fcb72fddee99d9f10969bfa162c0880e",
     "a1ebb255b85e0450ea5100be8a93a980eef08392",
     "a22dc2067b47f8b32838d5d31e26158da1ee92a8",
+    "a2838c83a3fa4dcd70b1fa896b523e743fe0ff09",
     "a3226436788fd733d2bdd3feb067488fde8708c7",
     "a3472c156cf47a8587ebdc81a17ab1fff89a296c",
     "a36bd4db5855361b9eaf3b76b22027caee76459b",
@@ -11103,6 +11105,20 @@
       "date": "2026-09-06",
       "region": "taiwan",
       "grade": "C"
+    },
+    {
+      "id": "a2838c83a3fa4dcd70b1fa896b523e743fe0ff09",
+      "title": "서울·제주 질린 외국인들… 요즘 대만 관광객들이 모여든다는 '이 지역'",
+      "date": "2026-09-06",
+      "region": "taiwan",
+      "grade": "B"
+    },
+    {
+      "id": "6ab297d1032bfd323ccd9123318351a72aea18d0",
+      "title": "지진 났던 구마모토 포함...일본 정부, 10월 여행객에게 '파격 할인'",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "B"
     }
   ]
 }
