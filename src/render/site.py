@@ -543,6 +543,17 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         if os.path.exists(src):
             shutil.copy2(src, os.path.join(out_dir, name))
 
+    # 발행용 영상. 인스타그램은 파일을 올려받지 않고 **공개 URL 을 읽어간다**
+    # (Graph API: media_type=REELS + video_url → 컨테이너 → media_publish).
+    # 우리 사이트가 그 주소를 준다. 색인 대상은 아니지만 누구나 받을 수 있어야
+    # 한다 — 인스타 서버가 로그인 없이 가져간다.
+    video_src = os.path.join("static", "video")
+    if os.path.isdir(video_src):
+        video_dst = os.path.join(out_dir, "video")
+        shutil.rmtree(video_dst, ignore_errors=True)
+        shutil.copytree(video_src, video_dst)
+        written.append(video_dst)
+
     # 편집실(CMS). 색인은 막는다 — 검색 결과에 나올 이유가 없다.
     admin_src = os.path.join("static", "admin")
     if os.path.isdir(admin_src):
