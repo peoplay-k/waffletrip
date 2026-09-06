@@ -95,6 +95,26 @@ TOP_PER_REGION = 3
 _HANGUL = re.compile(r"[가-힣]")
 
 
+def load_video(src: str = os.path.join("static", "video")) -> dict | None:
+    """가장 최근에 만든 숏폼. 없으면 None — 홈에서 그 자리를 통째로 뺀다.
+
+    영상 옆에 무엇을 인용했는지 함께 싣는다. 사실은 각 매체의 보도이고
+    우리가 한 것은 고르고 묶은 일이다. 화면 밖에서도 그 사실을 밝힌다.
+    """
+    if not os.path.isdir(src):
+        return None
+    metas = sorted(f for f in os.listdir(src) if f.endswith(".json"))
+    if not metas:
+        return None
+    with open(os.path.join(src, metas[-1]), encoding="utf-8") as fh:
+        meta = json.load(fh)
+    name = metas[-1].rsplit(".", 1)[0] + ".mp4"
+    if not os.path.exists(os.path.join(src, name)):
+        return None
+    meta["src"] = f"/video/{name}"
+    return meta
+
+
 def front_order(articles: list) -> list:
     """지면 순서. 한글 제목을 앞으로 당긴다.
 
@@ -297,6 +317,10 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     ANALYTICS = load_analytics()
     _OUT_DIR = out_dir
     # 승인된 사진만 붙는다. 매니페스트가 없으면 조용히 사진 없이 간다.
+    # 발행한 숏폼. static/video 의 .json 을 읽어 가장 최근 것을 홈에 건다.
+    # 영상은 우리가 직접 만든 것이라 지면에 올려도 남의 것이 아니다.
+    video = load_video()
+
     # 도시별 묶음. 푸터 링크가 모든 페이지에 들어가므로 common 보다 먼저 만든다.
     by_city = group_by_city(items)
 
@@ -337,6 +361,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "today": today, "article_urls": urls,
         # 푸터 도시 링크. 기사가 쌓인 도시만 들어온다.
         "city_links": [(slug, CITY_NAMES[slug]) for slug in by_city],
+        "video": video,
         "topics": TOPICS, "topic_names": TOPIC_NAMES,
         "contact_email": CONTACT_EMAIL, "desk_duties": DESK_DUTIES,
         "analytics": ANALYTICS,

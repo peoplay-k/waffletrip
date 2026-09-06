@@ -162,6 +162,7 @@ def script_for(item: dict) -> dict:
         "n": 1,
         "narration": f"{name} 가시는 분들, 이번 주 이것만 보세요.",
         "caption": f"{name} 이번 주",
+        "screen": f"{name}\n이번 주 소식",
         "note": "첫 3초. 숫자나 단언으로 시작한다.",
     }]
     for n, fact in enumerate(facts[:SCENES - 2], start=2):
@@ -174,12 +175,16 @@ def script_for(item: dict) -> dict:
             "n": n,
             "narration": f"{line}. {cite}입니다.",
             "caption": _speakable(fact["headline"], 26),
+            # 화면 자막은 더 길게 잡는다. 26자에서 끊었더니 "…최대 150달러"
+            # 처럼 말이 잘린 채 화면에 남았다. 네 줄까지 접힌다.
+            "screen": _speakable(fact["headline"], 46),
             "note": f"출처 {fact['outlet'] or '미상'} — 말로 밝힐 것{off}",
         })
     scenes.append({
         "n": len(scenes) + 1,
         "narration": f"{name} 소식은 와플트립에서 매일 정리합니다.",
         "caption": "waffletrip.com",
+        "screen": "매일 아침 8시\nwaffletrip.com",
         "note": "마무리 CTA. 채널 핸들은 개설 뒤 확정.",
     })
     return {

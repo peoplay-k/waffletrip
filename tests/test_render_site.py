@@ -661,3 +661,26 @@ def test_no_article_appears_twice_on_the_front_page(tmp_path):
     found = re.findall(r"괌 소식 \d\d", body)
     dupes = [t for t, n in __import__("collections").Counter(found).items() if n > 1]
     assert not dupes, f"홈에 같은 기사가 두 번 나온다: {dupes}"
+
+
+def test_homepage_shows_the_video_only_when_the_file_is_there(tmp_path):
+    """메타만 있고 영상 파일이 없으면 깨진 재생기가 걸린다."""
+    from src.render.site import load_video
+    import json as _json
+
+    src = tmp_path / "video"
+    src.mkdir()
+    (src / "guam-week.json").write_text(
+        _json.dumps({"title": "이번 주 괌", "region": "guam", "seconds": 35,
+                     "outlets": ["TTL뉴스"]}, ensure_ascii=False), encoding="utf-8")
+    assert load_video(str(src)) is None, "영상 파일이 없으면 걸지 않는다"
+
+    (src / "guam-week.mp4").write_bytes(b"0")
+    got = load_video(str(src))
+    assert got and got["src"] == "/video/guam-week.mp4"
+    assert got["outlets"] == ["TTL뉴스"]
+
+
+def test_no_video_directory_is_not_an_error(tmp_path):
+    from src.render.site import load_video
+    assert load_video(str(tmp_path / "nope")) is None
