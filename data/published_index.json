@@ -80,6 +80,8 @@
     "0d33f3ad948ecc6906d2b228320e5823e468331a",
     "0d7aafbaf54f89b87a1fc01ccae5d005809191c2",
     "0db1d8e3631df028cf5a23e5db4dd14aca3e6d70",
+    "0dd87996c6ce86fa7f25b4b50c7794b87cc585b0",
+    "0e50e440478f77259674566d2d8cc3375805cbfb",
     "0e99449527450ba147e023742d4cc46d600af723",
     "0efa378e5cbbeb713e5a69bb2740b3b4e39e908c",
     "0f985517c6ec32caa62b79ecc0570fae0f005ab5",
@@ -116,6 +118,7 @@
     "1454f9b4d812f4c6b863a471530807e1a224c882",
     "14b32d79e57b72957b37f57dd432aaf73da1a7cf",
     "14bbcae2a0b3207a4b5f6875c3bc8d7b845b58cc",
+    "14d96130160d6f8caf5a229fde9da724fad19e4e",
     "1535bdb8073b7039bdd1231df822886f5ec78335",
     "1561b51d1b003c3cece6c191f390e64887fca38f",
     "156eff55f6722075becc7ac48c32df69c0be6bd1",
@@ -163,6 +166,7 @@
     "1a3c86469dd6e37deecc48147f573a1dcd9c58f1",
     "1a754a65bb71a0b2e0b71d9de194dba2d5cde98b",
     "1ac10e297264b2ea1a108493c6c880d87b3bd2fa",
+    "1b30d7726fed7b3db2bb50eea485f473eaab4bc1",
     "1b43de647cebc4df0b1b4c12fa28a6135d6a3304",
     "1b89badad3da4c3461be5f76600571d552ddd736",
     "1b9a54406512624854a63ab033272738b48c35b8",
@@ -336,6 +340,7 @@
     "39ab3689084ef93093f91942e24a82915ff64283",
     "39e93fca2a31377fbd5b7a166dd845053235f332",
     "3a4f3e520fdde85a2378a9deeb65c29413411208",
+    "3a7072ca965da96ea36140871fe19858891aa819",
     "3a9def1b8b464ad1b3634eba5d84a7082fb57718",
     "3aa11346b6d6e28c1a500d71f0ce1a533e86c18e",
     "3ada2e0c6d16561ea7ec56d467ccd5f7e66ede26",
@@ -418,6 +423,8 @@
     "48deee0bfe4fc802c15b82e6b0089387c5aba6e0",
     "48fe5082b4e377b7a7476b1db93fbacc595fbdb8",
     "49073942e39b12d77f1fd2091f00d6b01dbe6076",
+    "491d669d747c789dd3dab4a559dae99e0aa95f4a",
+    "4937fe80c43e09f061b97bbc9bab94472cf7ef9c",
     "49ccd976921f0c71cc62b8e89cd9f8dedf5be7fb",
     "49ee2b7a2a230342b3bad92b19fa74269394a7d5",
     "4a15207887f68bf9d1e2ffd1ad4ec84cceb76c71",
@@ -445,6 +452,7 @@
     "4e0989b797ab87ab782746d04ade9066ea49943b",
     "4e4aa3b6765a3d3061c1e3d60e7d9c0c11dd050b",
     "4e83455ff0d1e9b83c7791ebece19f7e5eef3fb7",
+    "4e8bf0ec0a2dbbeac52970add0de6d5807f77f81",
     "4e963c9bda5c4e7900ec679d8ce8adb806ca579d",
     "4ec4f6302c4c4aaabe1e2678a25c661cd9245d38",
     "4ef7d4fc47ee4b59ca4a08ae15aa2f4c27628210",
@@ -503,6 +511,7 @@
     "5933b8202730f1253f0300a519ac985b8f8a7bb6",
     "593ae4b6eeb1a587300199ba4bd3ad0d9da8bb81",
     "59a4a91abb7f7fffcd0663041822e6d2a8894c9d",
+    "5a20af42d231245acd9665541fce2b298bc1d3fb",
     "5a310d3d42c86c5dbaca6fa812314eeb8de046aa",
     "5a837d00b1d5a8eb126e6d0068a9f38c63c088e5",
     "5a8ac52c3927d7edf0d26959df5728fe47f8425c",
@@ -578,6 +587,7 @@
     "6629f1274e2c1bd4a7604b169a9ed82c021f83e3",
     "662f5475269e7e60e3299d73636057502eb399c1",
     "664001f998ed1f53e1f678ceb1fede6ae2b7747c",
+    "665fb4e36977e62a4f84ed0f154d7b813236d475",
     "6697ae9d9d2045b0c1e7687291c6b8d15dbf993c",
     "66e51a04a07595de47f8d51c5bc98a3385fedc0c",
     "6766d53f19e1d22df1f70c13609b4b296509f167",
@@ -653,6 +663,7 @@
     "73f2b49929a93d6ec6aa513a3eba7e1581ebc5cc",
     "749ee156dcad0f4f3e97c01eb8d2fab9166b2a82",
     "74a17223d23094dcf632de7d9fca54a6f77b368b",
+    "74e575cb2d44c48f27ed189331da4486c9643cca",
     "7510d62a6389652df50dabf5dffd0ff988d18fff",
     "7541637fcc6ede7fcc225a80d1e568f2df370fa9",
     "756a9cd6bffa47781076b86ea037a89260f4d982",
@@ -798,6 +809,7 @@
     "8fdb63ceb3038dd80b0a3cdae28cf27c46d6478e",
     "9023ae5718867419c4e6241d8c2f9ababb355517",
     "9049d2271d11fc4fbfb764c612e29723bb9f6141",
+    "9062ccddb3d68fc7427b0db11dbb9b508b48f2f6",
     "9078434c9d23ed19dc2579e5374aa1f91b7160dc",
     "90951c164632011d388b7a4cf440d6cdfa99c407",
     "90dd18550021342db4f89897cddf76b59b8cccd4",
@@ -940,6 +952,7 @@
     "a879b4a55775a7b6f8c2df6f5ab3ac4fa2b7b1a3",
     "a8840d90e36e88dd7f4dc17377449e054e5cc6e0",
     "a8e6c66626048eb23c5af7440e1a2998a1156161",
+    "a8fca92dfdfb42528fe35ce180621e22648edf15",
     "a969749d71f367fdb16c41b770f3dd834562d965",
     "a98c06c4d3c7ea78c6c0ecb1b607672c45d8ea63",
     "aa090bcc114c2427d5cbc285b42d68a8a8550d2c",
@@ -1015,6 +1028,7 @@
     "b59e68e427e3ce233d8e0d7ff8e5c803c505f6ab",
     "b5d2d275f6c55b30d9004411dabcef3c2bd6a6b2",
     "b63c3b5cefbe1740b0d648b5bd59916b1170292a",
+    "b6718ed0f64ed753ef1c5f74b277ef70ba0e7251",
     "b6797ceac46e15880e01120a77637f638491fc34",
     "b70aeacb1c925b135172116eec873716f0c4ce67",
     "b721e290c7722ba9523f27e68ac7dd67820c562a",
@@ -1182,6 +1196,7 @@
     "ce53d39fa670d53c93463fdb57ed695f99d6f49c",
     "ce54893198393240798fa51d1d8bd3c5fa83662d",
     "ce958e06ff2f7aaadaa43baac180d10fcfe0e32e",
+    "cee51d0c96da24d78a3cbe677b07f0419f0f3e66",
     "cf5d4cae9de92b83b83a3c3937ee3e055f05e95c",
     "cfd0c72bee2448c2eee7a831f31ab53f9fa7e795",
     "cff81826ae23e3589d6a6915be20da4023da5c6f",
@@ -1239,6 +1254,7 @@
     "d8352c2acc42bfd8c9abfbc5448f36a0cd063926",
     "d83b3c79a68a2c84a1413b1d71c60662eff45c01",
     "d841eba0d12e0b9a5903b9727bf41ce1af59f67e",
+    "d84213047072d011e0ec23928ab99b024767d0ff",
     "d8470269b59efc79e8f715819dacba52eba48011",
     "d85bfcb2ac6fadcc1d0f538add147df275ba438d",
     "d8dfa379a9614bf97bae63bd5301e54fce4ef122",
@@ -11254,6 +11270,118 @@
       "title": "다낭카지노호텔 발표 능력을 통한 반성: 핵심 개념과 실제 응용",
       "date": "2026-09-06",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "1b30d7726fed7b3db2bb50eea485f473eaab4bc1",
+      "title": "제주시 ‘푸룬자두’ 서울 소비자에게 홍보.판촉",
+      "date": "2026-09-06",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "491d669d747c789dd3dab4a559dae99e0aa95f4a",
+      "title": "주말 제주 곳곳 강풍 피해 잇따라",
+      "date": "2026-09-06",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "cee51d0c96da24d78a3cbe677b07f0419f0f3e66",
+      "title": "일본항공까지 백기사로…호반그룹의 '한진칼 거버넌스' 다툼? 게임 안된다",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "9062ccddb3d68fc7427b0db11dbb9b508b48f2f6",
+      "title": "대만, 부산 홀릭에 '관광모델'까지 가져간다",
+      "date": "2026-09-06",
+      "region": "taiwan",
+      "grade": "B"
+    },
+    {
+      "id": "d84213047072d011e0ec23928ab99b024767d0ff",
+      "title": "철도 당국이 다낭-디에우찌 노선의 침대칸 티켓 가격을 40% 인하했습니다.",
+      "date": "2026-09-06",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "665fb4e36977e62a4f84ed0f154d7b813236d475",
+      "title": "Heavy traffic builds on major highways as holidaymakers head home",
+      "date": "2026-09-06",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "4937fe80c43e09f061b97bbc9bab94472cf7ef9c",
+      "title": "First Alert Forecast: Kauai County under a Tropical Storm Watch and all under a Flood Watch",
+      "date": "2026-09-06",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "5a20af42d231245acd9665541fce2b298bc1d3fb",
+      "title": "Police step up highway monitoring as motorists return home after school holidays",
+      "date": "2026-09-06",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "b6718ed0f64ed753ef1c5f74b277ef70ba0e7251",
+      "title": "Former attorney convicted of attempted murder after trying to shoot ex-wife in restaurant",
+      "date": "2026-09-06",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "3a7072ca965da96ea36140871fe19858891aa819",
+      "title": "Grand Naniloa Hotel staff pull together after Hurricane Lala",
+      "date": "2026-09-06",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "0dd87996c6ce86fa7f25b4b50c7794b87cc585b0",
+      "title": "오늘의 세계 군사 뉴스(9월 6일): 일본, 장거리 전자전 항공기 개발",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "0e50e440478f77259674566d2d8cc3375805cbfb",
+      "title": "Hurricane Lowell Update 2",
+      "date": "2026-09-06",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "14d96130160d6f8caf5a229fde9da724fad19e4e",
+      "title": "[기고] 제주관광의 경쟁력은 결국 사람이다",
+      "date": "2026-09-06",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "4e8bf0ec0a2dbbeac52970add0de6d5807f77f81",
+      "title": "후쿠오카·도쿄·오사카·다낭·나트랑, 추석 해외여행 검색 상위권",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "a8fca92dfdfb42528fe35ce180621e22648edf15",
+      "title": "홋카이도 도산코 플라자 삿포로점 20주년 기념 기획 시리베시 페어 2026",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "74e575cb2d44c48f27ed189331da4486c9643cca",
+      "title": "어반넷 삿포로 링크 타워 10월 3일 오픈, 하얏트 센트릭 삿포로 같은 날 첫선",
+      "date": "2026-09-06",
+      "region": "japan",
       "grade": "B"
     }
   ]
