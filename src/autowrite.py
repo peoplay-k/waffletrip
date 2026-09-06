@@ -76,6 +76,19 @@ def _load_history(data_dir: str, days: int = 8) -> dict:
 ROUNDUP_MIN = 3        # 이보다 적으면 브리핑을 만들지 않는다
 
 
+def _week_key(day: str) -> str:
+    """그 날이 속한 주. 브리핑 id 를 주 단위로 묶는 데 쓴다.
+
+    id 에 날짜를 넣었더니 **주간** 브리핑이 매일 새 기사가 됐다. 발행 이력은
+    id 로 막는데 날짜가 다르면 다른 기사이기 때문이다. 나흘 만에 "이번 주
+    하와이에서 나온 소식"이 네 편 쌓였고 홈 한 화면에 같은 제목이 세 번
+    걸렸다. 주가 같으면 같은 id 여야 한 주에 한 편만 나간다.
+    """
+    from datetime import date
+    year, week, _ = date.fromisoformat(day).isocalendar()
+    return f"{year}W{week:02d}"
+
+
 def _roundup(picked, *, region: str, name: str, day: str, link: str,
              key: str) -> Item:
     """골라 묶은 기사로 브리핑 한 편을 만든다. 지역면과 도시면이 함께 쓴다."""
@@ -96,7 +109,7 @@ def _roundup(picked, *, region: str, name: str, day: str, link: str,
     lines.append(f"**이번 주 참고한 매체** · {' · '.join(outlets)}")
     lines.append(f"\n{name} 소식은 [{name} 지면]({link})에 매일 쌓입니다.")
     return Item(
-        id=make_id("", key, day),
+        id=make_id("", key, _week_key(day)),
         grade="C", region=region, section="news",
         title=head,
         summary=f"지난 이레 {name} 소식 {len(picked)}건을 골라 묶었습니다.",
@@ -132,7 +145,7 @@ def build_roundup(recent, region: str, day: str, days: int = 7) -> Item | None:
     picked = picked[:8]
     name = REGION_NAMES.get(region, region)
     return _roundup(picked, region=region, name=name, day=day,
-                    link=f"/{region}/", key=f"roundup|{region}|{day}")
+                    link=f"/{region}/", key=f"roundup|{region}|{_week_key(day)}")
 
 
 def build_city_roundup(recent, slug: str, day: str, days: int = 7) -> Item | None:
@@ -153,7 +166,7 @@ def build_city_roundup(recent, slug: str, day: str, days: int = 7) -> Item | Non
     picked = picked[:8]
     return _roundup(picked, region=CITY_REGION[slug], name=CITY_NAMES[slug],
                     day=day, link=f"/city/{slug}/",
-                    key=f"roundup|city|{slug}|{day}")
+                    key=f"roundup|city|{slug}|{_week_key(day)}")
 
 
 def build_daily(items, day: str, data_dir: str = "data") -> Item | None:

@@ -361,11 +361,22 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         key: [i for i in group if i.grade != "A"][:TOP_PER_REGION]
         for key, group in grouped.items()
     }
-    by_topic = group_by_topic(items)
-    articles = front_order([i for i in items if i.grade != "A"])
+    # 한 화면에 같은 기사가 두 번 나오지 않게 구역을 나눠 쓴다.
+    # 겹쳐 썼더니 톱기사가 헤드라인 띠에 또 걸리고, 첫 화면 기사가 아래
+    # 부문 블록에 다시 나왔다. 지면이 정리 안 된 것으로 보인다.
+    articles = [i for i in items if i.grade != "A"]
     lead = articles[0] if articles else None
-    sub_leads = articles[1:5]
-    main_news = articles[5:17]
+    sub_leads = articles[1:3]          # 사이드 두 건
+    headlines = articles[3:15]         # 헤드라인 띠 열두 건
+    shown = {i.id for i in articles[:15]}
+
+    # 부문 블록은 위에 안 나온 것으로 채운다. 환율·날씨(A)는 데이터 띠가
+    # 맡으므로 부문에서 뺀다 — 같은 "오늘의 환율" 제목이 세 번 걸렸다.
+    by_topic = {
+        tid: ([i for i in got if i.grade != "A" and i.id not in shown]
+              or [i for i in got if i.grade != "A"])
+        for tid, got in group_by_topic(items).items()
+    }
 
     # "많이 본 뉴스" 자리에는 조회수를 쓰지 않는다 — 우리는 그 숫자가 없고,
     # 없는 숫자로 순위를 만들면 그건 지어낸 것이다. 대신 우리가 실제로 가진
@@ -392,9 +403,9 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         env.get_template("index.html").render(
             counts={k: len(v) for k, v in grouped.items()},
             top_by_region=top_by_region, lead=lead, sub_leads=sub_leads,
-            main_news=main_news, data_panel=data_panel, by_topic=by_topic,
+            data_panel=data_panel, by_topic=by_topic,
             lead_topic=topic_of(lead) if lead else '',
-            headlines=articles[2:14], **common),
+            headlines=headlines, **common),
         written,
     )
 
