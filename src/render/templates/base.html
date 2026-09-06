@@ -275,6 +275,19 @@
   line-height:1.35;flex:1 1 260px}
 .more-list a:hover{color:var(--coral)}
 .more-list .more-meta{font-size:11.5px;color:var(--dim);white-space:nowrap}
+
+/* 이번 주 영상 — 세로 영상이라 옆에 설명을 둔다 */
+.reel{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:28px;
+  align-items:start;margin:38px 0 6px;padding:22px 0;
+  border-top:2px solid var(--rule);border-bottom:1px solid var(--line)}
+.reel-box{background:#000;border-radius:3px;overflow:hidden;aspect-ratio:9/16}
+.reel-box video{width:100%;height:100%;display:block;object-fit:cover}
+.reel-txt h2{font-size:clamp(20px,2.4vw,27px);line-height:1.2;margin:8px 0 10px;
+  letter-spacing:-.04em;font-weight:800;text-wrap:balance}
+.reel-txt .note{margin:0 0 8px}
+.reel-txt a{color:var(--coral);font-weight:600}
+@media (max-width:720px){.reel{grid-template-columns:1fr}
+  .reel-box{max-width:280px}}
 </style>
 </head>
 <body>
