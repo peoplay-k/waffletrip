@@ -636,3 +636,25 @@ def test_every_page_inherits_the_korean_first_order(tmp_path):
     english = [i for i, t in enumerate(order) if not re.search(r"[가-힣]", t)]
     assert korean and english
     assert max(korean) < min(english), f"영문이 한글보다 위에 있다: {order}"
+
+
+def test_no_article_appears_twice_on_the_front_page(tmp_path):
+    """구역을 겹쳐 썼더니 톱기사가 헤드라인 띠에 또 걸리고, 첫 화면 기사가
+    아래 부문 블록에 다시 나왔다. 한 화면에 같은 제목이 세 번 걸린 적도 있다."""
+    import re
+    from src.render.site import render_site
+    from src.models import Item
+
+    items = [Item(id=f"n{n}", grade="B", region="guam", section="news",
+                  title=f"괌 소식 {n:02d}", summary="요약입니다.",
+                  source_name="매체", source_url=f"https://e.com/{n}",
+                  published_at=f"2026-09-06T{23 - n:02d}:00:00+09:00",
+                  collected_at="2026-09-06T05:00:00+09:00",
+                  status="published", title_hash=f"h{n}")
+             for n in range(20)]
+    out = tmp_path / "public"
+    render_site(items, str(out), "2026-09-06")
+    html = (out / "index.html").read_text(encoding="utf-8")
+    found = re.findall(r"괌 소식 \d\d", html)
+    dupes = [t for t, n in __import__("collections").Counter(found).items() if n > 1]
+    assert not dupes, f"홈에 같은 기사가 두 번 나온다: {dupes}"

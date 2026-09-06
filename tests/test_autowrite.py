@@ -169,3 +169,27 @@ def test_region_roundup_still_works():
     art = build_roundup(recent, "guam", "2026-09-03")
     assert art and art.title == "이번 주 괌에서 나온 소식 3건"
     assert "/guam/" in art.body_md
+
+
+def test_weekly_roundup_is_one_per_week_not_one_per_day():
+    """id 에 날짜를 넣었더니 주간 브리핑이 매일 새 기사가 됐다.
+    나흘 만에 같은 제목이 네 편 쌓였고 홈 한 화면에 세 번 걸렸다."""
+    from src.autowrite import build_roundup
+    recent = [_b(f"w{n}", f"괌 소식 {n}", "guam", "2026-09-05T00:00:00+09:00")
+              for n in range(3)]
+    thu = build_roundup(recent, "guam", "2026-09-03")
+    sun = build_roundup(recent, "guam", "2026-09-06")
+    assert thu.id == sun.id, "같은 주면 같은 기사여야 한다"
+
+    later = [_b(f"n{n}", f"괌 소식 {n}", "guam", "2026-09-09T00:00:00+09:00")
+             for n in range(3)]
+    assert build_roundup(later, "guam", "2026-09-09").id != thu.id
+
+
+def test_city_roundup_is_also_weekly():
+    from src.autowrite import build_city_roundup
+    recent = [_b(f"t{n}", f"도쿄 소식 {n}", "japan", "2026-09-05T00:00:00+09:00")
+              for n in range(3)]
+    a = build_city_roundup(recent, "tokyo", "2026-09-03")
+    b = build_city_roundup(recent, "tokyo", "2026-09-06")
+    assert a.id == b.id
