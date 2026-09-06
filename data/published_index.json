@@ -375,6 +375,7 @@
     "4077cd113d99ad58b45d0b878ed13dc6a0b681b1",
     "4091855e6c200c0a236d6c3c7f85e3804d856ed6",
     "40ebf773f93024e5e9f12ab0f1315627db0d9728",
+    "40f596054c156c166351fe5f4ead2cdf58ab24f9",
     "412346e68a42f1dec15a8ec1b338727a00c0b5b8",
     "412d0ad08c184f9b7f997879da0e421ff587399c",
     "418b00ebad1922b75705f63893b4e611501d8216",
@@ -466,6 +467,7 @@
     "4fac60165a793a9a251cac46dfcbf0e3e7b7baaa",
     "4fcfba68bb91f0149fc3e307a5eb3ac886d79dd9",
     "4fd94724f0b855f58d93e47baa8c7ea155a8034e",
+    "4ff308cb4d66817bd03fd67a8996313b758098b5",
     "508e911630e43706851941b1b51164047e252f7d",
     "50b3975ceeb2af8e9a7499bb1b25823111b8cb02",
     "50b8045c9d37f612625578bd5b717e4295137e5c",
@@ -691,6 +693,7 @@
     "79c8db12587759314b4771e12c3f9e505657c215",
     "79dd348cb7961609597520ffd6d62192bd0b5825",
     "7a01814add3ec73e64ae7f8aac0d9b2f2efffe50",
+    "7a09f81ca228a24618778467d2859c571d8e4af4",
     "7a8adb437b2e88be53482acc9ea571a88c02fdcd",
     "7a8d1844e5e8121e1dfae613c6cb2dfd242e691d",
     "7aa402f79e4f9bdfbd84aa76cdfe85609cbe46fd",
@@ -1129,6 +1132,7 @@
     "c3a9e48fe91a1eb545da186f0d262d1a3d8644ce",
     "c42249ea3870c4796da33b7e360890d297cf6969",
     "c4864a53089c98348cf9859816f35d8b3109a786",
+    "c4b69a6577faa2a36cf05ccbd604b64755e8ea93",
     "c5018281d9b4e036e8899ad23d532d8203ac3057",
     "c5704dca061fcc5798902bcee5079eb93f8073fb",
     "c58f5c416e76c28540ce7d14a28bedc90e498f4e",
@@ -11399,6 +11403,34 @@
       "date": "2026-09-06",
       "region": "japan",
       "grade": "C"
+    },
+    {
+      "id": "4ff308cb4d66817bd03fd67a8996313b758098b5",
+      "title": "제주관광공사 비상임이사 공모",
+      "date": "2026-09-06",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "7a09f81ca228a24618778467d2859c571d8e4af4",
+      "title": "노랑풍선, 오키나와 프리미엄 패키지 선봬",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "c4b69a6577faa2a36cf05ccbd604b64755e8ea93",
+      "title": "Anak Krakatau: Indonesia expands airport closures to eight, affecting 150,000 passengers",
+      "date": "2026-09-06",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "40f596054c156c166351fe5f4ead2cdf58ab24f9",
+      "title": "Pahang royals urge public vigilance amid hot weather following UiTM student's death",
+      "date": "2026-09-06",
+      "region": "kota",
+      "grade": "B"
     }
   ]
 }
