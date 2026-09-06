@@ -14,12 +14,24 @@ import feedparser
 from src.models import Item, make_id, title_hash
 from src.region_tag import mentions_region, tag_region
 
-# 연예·스포츠 전문 매체. 여행 기사를 쓰지 않는 곳들이다.
-GOSSIP_OUTLETS = frozenset({
+# 싣지 않을 출처. 두 부류다.
+#
+# 1. 연예·스포츠 전문 매체 — 여행 기사를 쓰지 않는다. 검색 피드가 "일본"만
+#    보고 물어오면 오사카 여행면에 연예 가십이 걸린다.
+# 2. 포털 재배포 — 네이트·다음은 기사를 쓴 곳이 아니라 옮긴 곳이다. 서명에
+#    "네이트 뉴스"가 찍히면 누가 취재했는지 알 수 없고, 포털 목록 페이지가
+#    기사인 것처럼 들어오기도 한다("한눈에 보는 오늘 : 방송/가요").
+SKIP_OUTLETS = frozenset({
     "스포츠조선", "스포츠서울", "스포츠경향", "일간스포츠", "sports.donga.com",
     "마이데일리", "OSEN", "텐아시아", "디스패치", "뉴스엔", "싱글리스트",
     "위키트리", "인사이트", "bntnews.co.kr", "직썰", "티브이데일리",
+    "네이트 뉴스", "모바일 네이트 뉴스", "네이트", "v.daum.net", "다음뉴스",
+    "ZUM 뉴스", "줌뉴스",
 })
+
+# 기사가 아니라 목록·편성표·운세다. 제목만 봐도 갈린다.
+NOT_AN_ARTICLE = re.compile(
+    r"한눈에 보는 오늘|편성표|오늘의 운세|방송/가요|주요 뉴스 모아보기")
 from src.sources import Source
 
 USER_AGENT = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
@@ -139,10 +151,9 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
             if region is None:
                 continue  # 우리가 다루지 않는 목적지
 
-        # 연예·스포츠 매체는 싣지 않는다. 검색 피드가 "일본"만 보고 물어오는데
-        # "조혜련, 日 호텔서 제재" 같은 연예 가십이 오사카 여행면에 걸린다.
-        # 여행 정보로 쓸 수 없고 지면의 성격을 흐린다.
-        if display_name in GOSSIP_OUTLETS:
+        # 실을 수 없는 출처와 기사 아닌 것을 여기서 버린다. 위 SKIP_OUTLETS
+        # 주석에 이유가 있다.
+        if display_name in SKIP_OUTLETS or NOT_AN_ARTICLE.search(title):
             continue
 
         items.append(Item(

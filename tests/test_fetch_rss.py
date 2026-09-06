@@ -231,3 +231,25 @@ def test_google_news_drops_stale_articles():
     """검색 피드는 넉 달 전 기사도 준다. 오늘 뉴스처럼 실으면 안 된다."""
     items = parse_feed(GOOGLE_SOURCE, STALE_FEED, NOW)
     assert [i.source_url for i in items] == ["https://example.com/new"]
+
+
+PORTAL_FEED = """<?xml version="1.0"?><rss version="2.0"><channel>
+<item><title>한눈에 보는 오늘 : 방송/가요 - 도쿄 편집숍 - 네이트 뉴스</title>
+<link>https://example.com/p1</link>
+<pubDate>Wed, 02 Sep 2026 01:00:00 GMT</pubDate></item>
+<item><title>도쿄 하네다 노선 증편 - 여행신문</title>
+<link>https://example.com/p2</link>
+<pubDate>Wed, 02 Sep 2026 02:00:00 GMT</pubDate></item>
+</channel></rss>"""
+
+
+def test_portal_redistribution_is_not_a_source():
+    """네이트·다음은 기사를 쓴 곳이 아니라 옮긴 곳이다.
+    서명에 '네이트 뉴스'가 찍히면 누가 취재했는지 알 수 없다."""
+    items = parse_feed(GOOGLE_SOURCE, PORTAL_FEED, NOW)
+    assert [i.source_name for i in items] == ["여행신문"]
+
+
+def test_a_portal_index_page_is_not_an_article():
+    items = parse_feed(GOOGLE_SOURCE, PORTAL_FEED, NOW)
+    assert all("한눈에 보는" not in i.title for i in items)
