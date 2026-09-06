@@ -66,6 +66,7 @@
     "0923a1ba616f53d64e06d6b47abe8bc82f3e14c1",
     "0937a1a9d4625c85820d0f2fc80f515e8c696395",
     "0943646755e25e486036651543314bc58a31b804",
+    "094e2def206aa322d61846eba3b61826e30b1417",
     "09618dec64f043abc101c51d21108db2d093be38",
     "0974098c7e602dbe130b0f3d7445f0d49fe4d5cb",
     "0a0be6192554695c2172d21a218e8b8449929d9f",
@@ -876,6 +877,7 @@
     "9bb2a6e235ce28508a26168931a4b1442c00dbd3",
     "9bf7942523a9907e83f3439cec91f9840c8d6bc3",
     "9c4c76e3ac9eb30a2e5e1dce45443243dc749399",
+    "9c5ef876f46757cc78fcde846f421f23d5833fcf",
     "9c67b56951e7d3b1c9c106664ab9dbf59ad7e66e",
     "9caac14a85b4ebee78d1e436f3195e542d2a3f3b",
     "9ce09c1d8fe6cdce3127c5b737a14475d4d28e68",
@@ -11383,6 +11385,20 @@
       "date": "2026-09-06",
       "region": "japan",
       "grade": "B"
+    },
+    {
+      "id": "094e2def206aa322d61846eba3b61826e30b1417",
+      "title": "이번 주 코타키나발루에서 나온 소식 4건",
+      "date": "2026-09-06",
+      "region": "kota",
+      "grade": "C"
+    },
+    {
+      "id": "9c5ef876f46757cc78fcde846f421f23d5833fcf",
+      "title": "이번 주 삿포로에서 나온 소식 4건",
+      "date": "2026-09-06",
+      "region": "japan",
+      "grade": "C"
     }
   ]
 }
