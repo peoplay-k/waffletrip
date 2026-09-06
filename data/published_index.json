@@ -697,6 +697,7 @@
     "7db5a5bd667966dd1233bcd4ec0f797a5d3e6551",
     "7dca807668596fc2a339367e9c9d8f619e49dc33",
     "7dffe3d6356e70da069616187f720b8387ea208a",
+    "7e11fb7c35aa8dfe4bffb9843468fe6f144cf056",
     "7e2749d90f5a38a930f69723378c311764ddc045",
     "7e5c55d672a1ca235cb1604d1713260998ac1f61",
     "7e8c8484bde4842b90b7eb570d987f8f13cf4ae5",
@@ -11095,6 +11096,13 @@
       "date": "2026-09-06",
       "region": "japan",
       "grade": "B"
+    },
+    {
+      "id": "7e11fb7c35aa8dfe4bffb9843468fe6f144cf056",
+      "title": "이번 주 타이베이에서 나온 소식 3건",
+      "date": "2026-09-06",
+      "region": "taiwan",
+      "grade": "C"
     }
   ]
 }
