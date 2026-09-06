@@ -27,6 +27,40 @@ SITE_WINDOW_DAYS = 14
 KST = timezone(timedelta(hours=9))
 
 
+def one_roundup_per_week(items: list[Item]) -> list[Item]:
+    """같은 지역·같은 주의 브리핑은 한 편만 남긴다.
+
+    브리핑 id 를 주 단위로 묶어 재생성은 막았지만, 그 전에 날짜 단위 id 로
+    발행된 것들이 데이터에 남아 있다. 봇과 사람이 서로 다른 상태를 커밋하면
+    또 어긋난다. 데이터가 어긋나도 **지면은 깨끗해야** 하므로 여기서 한 번
+    더 거른다. 홈 한 화면에 "이번 주 괌에서 나온 소식"이 두 번 걸렸다.
+
+    남기는 것은 가장 나중에 나온 편이다 — 그 주의 소식이 가장 많이 담긴다.
+    """
+    from datetime import date
+
+    def week_of(value: str) -> str:
+        try:
+            year, week, _ = date.fromisoformat(value[:10]).isocalendar()
+        except ValueError:
+            return value[:10]
+        return f"{year}W{week:02d}"
+
+    latest: dict[tuple, Item] = {}
+    for item in items:
+        if item.grade != "C" or not item.title.startswith("이번 주 "):
+            continue
+        key = (item.region, week_of(item.published_at),
+               item.title.split("에서", 1)[0])
+        seen = latest.get(key)
+        if seen is None or item.published_at > seen.published_at:
+            latest[key] = item
+    keep = {i.id for i in latest.values()}
+    return [i for i in items
+            if not (i.grade == "C" and i.title.startswith("이번 주 "))
+            or i.id in keep]
+
+
 def load_recent_items(items_dir: str, today: str,
                       days: int = SITE_WINDOW_DAYS) -> list[Item]:
     """최근 days 일치 항목을 모아 최신순으로 정렬한다."""
@@ -97,6 +131,7 @@ def main(data_dir: str = "data", out_dir: str = "public") -> int:
     today = built_at[:10]
 
     items = load_recent_items(os.path.join(data_dir, "items"), today)
+    items = one_roundup_per_week(items)
 
     if not items:
         print("경고: 최근 항목이 0건이다. 사이트를 만들지 않고 멈춘다 — "

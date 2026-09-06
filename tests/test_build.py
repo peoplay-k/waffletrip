@@ -142,3 +142,47 @@ def test_build_clears_stale_pages(tmp_path):
     build([make("1", "괌 소식")], str(tmp_path), TODAY, NOW)
     assert not stale.exists()
     assert (tmp_path / "index.html").exists()
+
+
+def test_only_one_roundup_per_region_per_week_reaches_the_page():
+    """브리핑 id 를 주 단위로 묶어 재생성은 막았지만, 그 전에 날짜 단위 id 로
+    발행된 것들이 데이터에 남는다. 봇과 사람이 다른 상태를 커밋해도 지면은
+    깨끗해야 한다."""
+    from src.build import one_roundup_per_week
+    from src.models import Item
+
+    def roundup(item_id, day):
+        return Item(id=item_id, grade="C", region="guam", section="news",
+                    title="이번 주 괌에서 나온 소식 4건", summary="요약",
+                    source_name="", source_url="",
+                    published_at=f"{day}T09:00:00+09:00",
+                    collected_at=f"{day}T09:00:00+09:00",
+                    status="published", title_hash="h")
+
+    news = Item(id="n1", grade="B", region="guam", section="news",
+                title="괌 노선 증편", summary="요약", source_name="매체",
+                source_url="https://e.com/1",
+                published_at="2026-09-06T00:00:00+09:00",
+                collected_at="2026-09-06T00:00:00+09:00",
+                status="published", title_hash="h2")
+
+    got = one_roundup_per_week(
+        [roundup("old", "2026-09-03"), roundup("new", "2026-09-06"), news])
+    assert [i.id for i in got] == ["new", "n1"]
+
+
+def test_roundups_from_different_weeks_both_survive():
+    from src.build import one_roundup_per_week
+    from src.models import Item
+
+    def roundup(item_id, day):
+        return Item(id=item_id, grade="C", region="guam", section="news",
+                    title="이번 주 괌에서 나온 소식 4건", summary="요약",
+                    source_name="", source_url="",
+                    published_at=f"{day}T09:00:00+09:00",
+                    collected_at=f"{day}T09:00:00+09:00",
+                    status="published", title_hash="h")
+
+    got = one_roundup_per_week(
+        [roundup("w36", "2026-09-06"), roundup("w37", "2026-09-09")])
+    assert len(got) == 2
