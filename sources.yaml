@@ -387,7 +387,9 @@ sources:
     type: rss
     url: https://www.tourtoctoc.com/rss/allArticle.xml
     lang: ko
-    enabled: true
+    enabled: false   # 2026-09-06 중단. 우리 서버(GitHub Actions)의 IP 를
+    # 403 으로 막는다. 로컬에서는 200 이 온다 — 데이터센터 IP 차단이다.
+    # 막는 쪽 뜻이 분명하므로 우회하지 않는다. 정책이 바뀌면 다시 켠다.
     curated: true
 
   # ── Google 뉴스 검색 피드 ──────────────────────────────────────
