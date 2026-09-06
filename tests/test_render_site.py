@@ -655,6 +655,9 @@ def test_no_article_appears_twice_on_the_front_page(tmp_path):
     out = tmp_path / "public"
     render_site(items, str(out), "2026-09-06")
     html = (out / "index.html").read_text(encoding="utf-8")
-    found = re.findall(r"괌 소식 \d\d", html)
+    # 사진의 alt 에도 제목이 들어간다. 같은 카드의 alt 와 제목을 두 번으로
+    # 세면 안 되므로 속성을 걷어내고 본문 글자만 본다.
+    body = re.sub(r"<[^>]+>", "\n", html)
+    found = re.findall(r"괌 소식 \d\d", body)
     dupes = [t for t, n in __import__("collections").Counter(found).items() if n > 1]
     assert not dupes, f"홈에 같은 기사가 두 번 나온다: {dupes}"

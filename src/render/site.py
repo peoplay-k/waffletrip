@@ -370,12 +370,16 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     headlines = articles[3:15]         # 헤드라인 띠 열두 건
     shown = {i.id for i in articles[:15]}
 
-    # 부문 블록은 위에 안 나온 것으로 채운다. 환율·날씨(A)는 데이터 띠가
-    # 맡으므로 부문에서 뺀다 — 같은 "오늘의 환율" 제목이 세 번 걸렸다.
-    by_topic = {
-        tid: ([i for i in got if i.grade != "A" and i.id not in shown]
-              or [i for i in got if i.grade != "A"])
-        for tid, got in group_by_topic(items).items()
+    # 부문 페이지는 그 부문 전체를 보여준다 — 통계·리포트에는 환율·날씨가
+    # 있어야 한다. 홈의 부문 블록만 따로 추린다.
+    by_topic = group_by_topic(items)
+
+    # 홈 부문 블록은 위에 안 나온 것으로만 채운다. 남는 게 없으면 그 블록은
+    # 내보내지 않는다 — 모자란다고 이미 실은 기사를 다시 넣으면 도로 중복이다.
+    # 환율·날씨(A)는 데이터 띠가 맡으므로 여기서 뺀다.
+    home_topics = {
+        tid: [i for i in got if i.grade != "A" and i.id not in shown]
+        for tid, got in by_topic.items()
     }
 
     # "많이 본 뉴스" 자리에는 조회수를 쓰지 않는다 — 우리는 그 숫자가 없고,
@@ -403,7 +407,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         env.get_template("index.html").render(
             counts={k: len(v) for k, v in grouped.items()},
             top_by_region=top_by_region, lead=lead, sub_leads=sub_leads,
-            data_panel=data_panel, by_topic=by_topic,
+            data_panel=data_panel, by_topic=home_topics,
             lead_topic=topic_of(lead) if lead else '',
             headlines=headlines, **common),
         written,
