@@ -96,7 +96,7 @@ _HANGUL = re.compile(r"[가-힣]")
 
 
 def front_order(articles: list) -> list:
-    """첫 화면 순서. 한글 제목을 앞으로 당긴다.
+    """지면 순서. 한글 제목을 앞으로 당긴다.
 
     우리 독자는 한국어로 읽는다. 현지 매체(Beat of Hawaii, VnExpress 등)를
     인용하면 제목이 영문 그대로 들어오는데, 최신순으로만 세우면 이것들이
@@ -318,6 +318,13 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             for item in group:
                 item.photo = mapping.get(item.id) or None
         save_used(used)
+    # 지면 순서를 여기서 한 번 정한다. 아래의 모든 묶음(부문·지역·도시·홈)이
+    # 이 순서를 물려받으므로 페이지마다 따로 정렬하지 않는다.
+    # 1면에만 적용했더니 부문·지역면 첫 줄이 영문으로 채워졌다 — 하와이면은
+    # 앞 아홉 건이 전부 영문이었다. 한국어로 읽는 신문에서 그건 정리가 안 된
+    # 것으로 보인다.
+    items = front_order(items)
+
     env = _env()
     written: list[str] = []
     urls = {i.id: article_url(i) for i in items}

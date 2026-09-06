@@ -606,3 +606,33 @@ def test_data_article_is_never_the_front_page_lead():
     got = front_order([A("09월 6일 여행 데이터", "/img/kota/x.webp", "data"),
                        A("오사카 노선 증편")])
     assert got[0].title == "오사카 노선 증편"
+
+
+def test_every_page_inherits_the_korean_first_order(tmp_path):
+    """1면에만 적용했더니 부문·지역면 첫 줄이 영문으로 채워졌다.
+    하와이면은 앞 아홉 건이 전부 영문이었다."""
+    import re
+    from src.render.site import render_site
+    from src.models import Item
+
+    def mk(n, title, region="hawaii"):
+        return Item(id=f"x{n}", grade="B", region=region, section="news",
+                    title=title, summary="요약입니다.", source_name="매체",
+                    source_url=f"https://e.com/{n}",
+                    published_at=f"2026-09-0{n}T00:00:00+09:00",
+                    collected_at="2026-09-06T05:00:00+09:00",
+                    status="published", title_hash=f"h{n}")
+
+    # 영문 기사가 더 최신이다 — 최신순만 지키면 영문이 위로 온다.
+    items = [mk(5, "Hawaii braces for storm"), mk(4, "Honolulu airport delays"),
+             mk(3, "하와이 신규 취항"), mk(2, "호놀룰루 호텔 개장")]
+    out = tmp_path / "public"
+    render_site(items, str(out), "2026-09-06")
+    html = (out / "hawaii" / "index.html").read_text(encoding="utf-8")
+    order = [re.sub(r"<[^>]+>", "", m).strip()
+             for m in re.findall(r"<h[23][^>]*>(.*?)</h[23]>", html, re.S)]
+    order = [t for t in order if t]
+    korean = [i for i, t in enumerate(order) if re.search(r"[가-힣]", t)]
+    english = [i for i, t in enumerate(order) if not re.search(r"[가-힣]", t)]
+    assert korean and english
+    assert max(korean) < min(english), f"영문이 한글보다 위에 있다: {order}"
