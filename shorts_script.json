@@ -1,0 +1,36 @@
+[
+  {
+    "kind": "open",
+    "name": "삿포로",
+    "count": 3,
+    "narration": "삿포로 가시는 분들, 이번 주 소식 3건입니다."
+  },
+  {
+    "kind": "fact",
+    "n": 1,
+    "total": 3,
+    "headline": "홋카이도 도산코 플라자 삿포로점 20주년 기념 기획 시리베시 페어 2026",
+    "outlet": "Domingo",
+    "narration": "홋카이도 도산코 플라자 삿포로점 20주년 기념 기획 시리베시 페어 2026. Domingo 보도입니다."
+  },
+  {
+    "kind": "fact",
+    "n": 2,
+    "total": 3,
+    "headline": "하얏트 센트릭 삿포로, 삿포로 첫 하얏트 호텔로 10월 3일 오픈 확정",
+    "outlet": "Holiday Travel",
+    "narration": "삿포로 지역 첫 번째 하얏트 호텔인 '하얏트 센트릭 삿포로'가 2026년 10월 3일 JR 삿포로역 인근에 문을 엽니다. Holiday Travel 보도입니다."
+  },
+  {
+    "kind": "fact",
+    "n": 3,
+    "total": 3,
+    "headline": "어반넷 삿포로 링크 타워 10월 3일 오픈, 하얏트 센트릭 삿포로 같은 날 첫선",
+    "outlet": "Holiday Travel",
+    "narration": "삿포로의 새로운 오피스·호텔·상업 복합 시설인 '어반넷 삿포로 링크 타워'가 2026년 10월 3일 토요일에 그랜드 오픈합니다. Holiday Travel 보도입니다."
+  },
+  {
+    "kind": "close",
+    "narration": "와플트립은 매일 아침 여덟 시에 여행 뉴스를 정리해 올립니다."
+  }
+]
