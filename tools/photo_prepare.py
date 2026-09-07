@@ -71,13 +71,66 @@ def load_upright(path: str, longest: int):
     return im
 
 
-def _faces(bgr) -> int:
+def _face_boxes(bgr) -> list[tuple[int, int, int, int]]:
+    """얼굴 상자들. 정면과 옆얼굴을 모두 본다."""
     gray = cv2.equalizeHist(cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY))
-    n = 0
+    out: list[tuple[int, int, int, int]] = []
     for cascade in (_FACE, _PROFILE):
-        n += len(cascade.detectMultiScale(
-            gray, 1.1, _NEIGHBORS, minSize=_MIN_FACE))
-    return n
+        for (x, y, w, h) in cascade.detectMultiScale(
+                gray, 1.1, _NEIGHBORS, minSize=_MIN_FACE):
+            out.append((int(x), int(y), int(w), int(h)))
+    return out
+
+
+def _faces(bgr) -> int:
+    return len(_face_boxes(bgr))
+
+
+# 모자이크는 검출 상자보다 넉넉하게 덮는다. 하르 검출기는 턱과 이마를 자주
+# 놓치고, 딱 맞게 덮으면 머리카락선과 턱선으로 사람이 특정된다.
+MOSAIC_PAD = 0.45
+MOSAIC_BLOCKS = 9          # 덮은 영역을 몇 칸으로 뭉갤지. 작을수록 심하게.
+
+
+def mosaic_faces(im: Image.Image) -> tuple[Image.Image, int]:
+    """얼굴을 찾아 뭉갠다. (사진, 덮은 개수).
+
+    네 방향으로 돌려가며 찾고 좌표를 원본 방향으로 되돌린다. 눕혀 찍은
+    사진에서 검출기가 얼굴을 통째로 놓치는 문제 때문이다.
+
+    **이것은 안전장치이지 보증이 아니다.** 검출기가 놓친 얼굴은 그대로
+    남는다. 그래서 모자이크한 사진도 사람이 시트로 다시 확인한다.
+    """
+    base = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR)
+    h, w = base.shape[:2]
+    boxes: list[tuple[int, int, int, int]] = []
+    for k in range(4):
+        rot = base if k == 0 else np.ascontiguousarray(np.rot90(base, k))
+        for (x, y, bw, bh) in _face_boxes(rot):
+            # np.rot90 은 반시계 회전이다. k 번 돌린 좌표를 원본으로 되돌린다.
+            if k == 0:
+                boxes.append((x, y, bw, bh))
+            elif k == 1:
+                boxes.append((y, w - x - bw, bh, bw))
+            elif k == 2:
+                boxes.append((w - x - bw, h - y - bh, bw, bh))
+            else:
+                boxes.append((h - y - bh, x, bh, bw))
+    if not boxes:
+        return im, 0
+
+    out = im.copy()
+    for (x, y, bw, bh) in boxes:
+        px, py = int(bw * MOSAIC_PAD), int(bh * MOSAIC_PAD)
+        x0, y0 = max(0, x - px), max(0, y - py)
+        x1, y1 = min(w, x + bw + px), min(h, y + bh + py)
+        if x1 <= x0 or y1 <= y0:
+            continue
+        patch = out.crop((x0, y0, x1, y1))
+        small = patch.resize((max(1, MOSAIC_BLOCKS), max(1, MOSAIC_BLOCKS)),
+                             Image.BILINEAR)
+        out.paste(small.resize(patch.size, Image.NEAREST), (x0, y0))
+    return out, len(boxes)
 
 
 def _person_area(bgr) -> float:
@@ -114,11 +167,18 @@ def inspect(path: str) -> dict:
     return {"ok": True, "reason": "", "faces": 0, "person": person}
 
 
-def bake(path: str, out_path: str) -> int:
+def bake(path: str, out_path: str, mosaic: bool = False) -> tuple[int, int]:
+    """웹용으로 굽는다. mosaic 이면 얼굴을 먼저 뭉갠다.
+
+    돌려주는 값은 (파일 크기, 덮은 얼굴 수).
+    """
     im = load_upright(path, MAX_WIDTH)
+    covered = 0
+    if mosaic:
+        im, covered = mosaic_faces(im)
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     im.save(out_path, "WEBP", quality=WEBP_QUALITY, method=6)
-    return os.path.getsize(out_path)
+    return os.path.getsize(out_path), covered
 
 
 def _font(size: int):
@@ -263,6 +323,9 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--approve", default="",
                     help="콘택트시트를 눈으로 본 뒤 구울 번호. 예: 1,4,7-9")
+    ap.add_argument("--mosaic", action="store_true",
+                    help="얼굴을 찾아 뭉갠 뒤 굽는다. 검출기가 놓친 얼굴은 "
+                         "그대로 남으므로 시트로 다시 확인해야 한다.")
     ap.add_argument("--hero", action="store_true",
                     help="1면에 쓸 풍경 사진으로 표시한다.")
     ap.add_argument("--commit", action="store_true",
@@ -335,10 +398,12 @@ def main() -> int:
             name = os.path.splitext(os.path.basename(src))[0]
             safe = "".join(c for c in name if c.isalnum() or c in "-_")[:48] or "photo"
             out_path = os.path.join(OUT_ROOT, args.region, f"{safe}.webp")
-            size = bake(src, out_path)
+            size, covered = bake(src, out_path, mosaic=args.mosaic)
             total_bytes += size
             entry = {"src": src, "file": out_path, "bytes": size,
                      "baked_at": datetime.now(KST).isoformat(timespec="seconds")}
+            if covered:
+                entry["mosaic"] = covered
             if args.hero:
                 entry["hero"] = True
             if not verdict["ok"]:

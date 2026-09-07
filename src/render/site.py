@@ -103,7 +103,10 @@ def load_video(src: str = os.path.join("static", "video")) -> dict | None:
     """
     if not os.path.isdir(src):
         return None
-    metas = sorted(f for f in os.listdir(src) if f.endswith(".json"))
+    # 홈에는 롱폼을 건다. 쇼츠는 세로라 지면에 얹으면 자리를 많이 먹고,
+    # 원래 인스타·틱톡·쇼츠로 나가는 물건이다.
+    metas = sorted(f for f in os.listdir(src)
+                   if f.endswith(".json") and "shorts" not in f)
     if not metas:
         return None
     with open(os.path.join(src, metas[-1]), encoding="utf-8") as fh:
