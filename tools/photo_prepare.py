@@ -95,6 +95,11 @@ MOSAIC_BLOCKS = 9          # 덮은 영역을 몇 칸으로 뭉갤지. 작을수
 def mosaic_faces(im: Image.Image) -> tuple[Image.Image, int]:
     """얼굴을 찾아 뭉갠다. (사진, 덮은 개수).
 
+    **쓰지 않는다.** 2026-09-07 에 219장에 일괄로 씌웠다가 전부 되돌렸다.
+    검출기 오탐이 심해 팬케이크와 지하도 천장에 모자이크가 찍혔고, 정작
+    거리 사진의 작은 얼굴은 남았다. 사진을 망치면서 안전해지지도 않는다.
+    얼굴이 잡힌 사진은 뭉개지 말고 **쓰지 않는다**.
+
     네 방향으로 돌려가며 찾고 좌표를 원본 방향으로 되돌린다. 눕혀 찍은
     사진에서 검출기가 얼굴을 통째로 놓치는 문제 때문이다.
 
@@ -323,9 +328,6 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--approve", default="",
                     help="콘택트시트를 눈으로 본 뒤 구울 번호. 예: 1,4,7-9")
-    ap.add_argument("--mosaic", action="store_true",
-                    help="얼굴을 찾아 뭉갠 뒤 굽는다. 검출기가 놓친 얼굴은 "
-                         "그대로 남으므로 시트로 다시 확인해야 한다.")
     ap.add_argument("--hero", action="store_true",
                     help="1면에 쓸 풍경 사진으로 표시한다.")
     ap.add_argument("--commit", action="store_true",
@@ -398,7 +400,7 @@ def main() -> int:
             name = os.path.splitext(os.path.basename(src))[0]
             safe = "".join(c for c in name if c.isalnum() or c in "-_")[:48] or "photo"
             out_path = os.path.join(OUT_ROOT, args.region, f"{safe}.webp")
-            size, covered = bake(src, out_path, mosaic=args.mosaic)
+            size, covered = bake(src, out_path)
             total_bytes += size
             entry = {"src": src, "file": out_path, "bytes": size,
                      "baked_at": datetime.now(KST).isoformat(timespec="seconds")}

@@ -14,3 +14,6 @@ data/photos/index.json
 
 # 콘택트시트 — 사람 얼굴이 그대로 들어 있다. 저장소가 공개라 절대 올리지 않는다.
 data/photos/sheets/
+
+# 맥이 폴더마다 만드는 파일. 저장소에 들어갈 이유가 없다.
+.DS_Store
