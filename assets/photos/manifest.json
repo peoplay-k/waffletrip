@@ -643,5 +643,193 @@
       "hero": true,
       "overrode": "얼굴 4건 검출"
     }
+  ],
+  "japan": [
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6805.JPG",
+      "file": "assets/photos/japan/PEO_6805.webp",
+      "bytes": 165832,
+      "baked_at": "2026-09-07T13:30:17+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6806.JPG",
+      "file": "assets/photos/japan/PEO_6806.webp",
+      "bytes": 175950,
+      "baked_at": "2026-09-07T13:30:17+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6807.JPG",
+      "file": "assets/photos/japan/PEO_6807.webp",
+      "bytes": 174968,
+      "baked_at": "2026-09-07T13:30:18+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6809.JPG",
+      "file": "assets/photos/japan/PEO_6809.webp",
+      "bytes": 82502,
+      "baked_at": "2026-09-07T13:30:18+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6810.JPG",
+      "file": "assets/photos/japan/PEO_6810.webp",
+      "bytes": 82288,
+      "baked_at": "2026-09-07T13:30:19+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6815.JPG",
+      "file": "assets/photos/japan/PEO_6815.webp",
+      "bytes": 152766,
+      "baked_at": "2026-09-07T13:30:19+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6822.JPG",
+      "file": "assets/photos/japan/PEO_6822.webp",
+      "bytes": 125818,
+      "baked_at": "2026-09-07T13:30:20+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6824.JPG",
+      "file": "assets/photos/japan/PEO_6824.webp",
+      "bytes": 107388,
+      "baked_at": "2026-09-07T13:30:20+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/11교토/PEO_6410.JPG",
+      "file": "assets/photos/japan/PEO_6410.webp",
+      "bytes": 100878,
+      "baked_at": "2026-09-07T13:50:59+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/12교토/PEO_6499.JPG",
+      "file": "assets/photos/japan/PEO_6499.webp",
+      "bytes": 112522,
+      "baked_at": "2026-09-07T13:52:34+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/12교토/PEO_6501.JPG",
+      "file": "assets/photos/japan/PEO_6501.webp",
+      "bytes": 102290,
+      "baked_at": "2026-09-07T13:52:35+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/14 에비수/PEO_6644.JPG",
+      "file": "assets/photos/japan/PEO_6644.webp",
+      "bytes": 50562,
+      "baked_at": "2026-09-07T13:55:09+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/14 에비수/PEO_6647.JPG",
+      "file": "assets/photos/japan/PEO_6647.webp",
+      "bytes": 48746,
+      "baked_at": "2026-09-07T13:55:10+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/15전망대/PEO_6684.JPG",
+      "file": "assets/photos/japan/PEO_6684.webp",
+      "bytes": 169336,
+      "baked_at": "2026-09-07T13:57:00+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/16 커피숍/PEO_6763.JPG",
+      "file": "assets/photos/japan/PEO_6763.webp",
+      "bytes": 57890,
+      "baked_at": "2026-09-07T13:58:34+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/16 커피숍/PEO_6764.JPG",
+      "file": "assets/photos/japan/PEO_6764.webp",
+      "bytes": 57244,
+      "baked_at": "2026-09-07T13:58:35+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/1공항/PEO_5981.JPG",
+      "file": "assets/photos/japan/PEO_5981.webp",
+      "bytes": 61594,
+      "baked_at": "2026-09-07T14:01:11+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/1공항/PEO_6000.JPG",
+      "file": "assets/photos/japan/PEO_6000.webp",
+      "bytes": 59180,
+      "baked_at": "2026-09-07T14:01:12+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/2버스/PEO_5987.JPG",
+      "file": "assets/photos/japan/PEO_5987.webp",
+      "bytes": 36640,
+      "baked_at": "2026-09-07T14:04:30+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/2버스/PEO_5988.JPG",
+      "file": "assets/photos/japan/PEO_5988.webp",
+      "bytes": 58616,
+      "baked_at": "2026-09-07T14:04:32+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/2버스/PEO_6010.JPG",
+      "file": "assets/photos/japan/PEO_6010.webp",
+      "bytes": 46410,
+      "baked_at": "2026-09-07T14:04:32+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/2버스/PEO_6012.JPG",
+      "file": "assets/photos/japan/PEO_6012.webp",
+      "bytes": 58124,
+      "baked_at": "2026-09-07T14:04:33+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/2버스/PEO_6021.JPG",
+      "file": "assets/photos/japan/PEO_6021.webp",
+      "bytes": 121622,
+      "baked_at": "2026-09-07T14:04:34+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/3슈퍼/PEO_6050.JPG",
+      "file": "assets/photos/japan/PEO_6050.webp",
+      "bytes": 91376,
+      "baked_at": "2026-09-07T14:08:07+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/6텐동집/PEO_6129.JPG",
+      "file": "assets/photos/japan/PEO_6129.webp",
+      "bytes": 107624,
+      "baked_at": "2026-09-07T14:13:24+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/6텐동집/PEO_6132.JPG",
+      "file": "assets/photos/japan/PEO_6132.webp",
+      "bytes": 99190,
+      "baked_at": "2026-09-07T14:13:26+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/6텐동집/PEO_6139.JPG",
+      "file": "assets/photos/japan/PEO_6139.webp",
+      "bytes": 35570,
+      "baked_at": "2026-09-07T14:13:29+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/6텐동집/PEO_6143.JPG",
+      "file": "assets/photos/japan/PEO_6143.webp",
+      "bytes": 43638,
+      "baked_at": "2026-09-07T14:13:31+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/8시내/PEO_6203.JPG",
+      "file": "assets/photos/japan/PEO_6203.webp",
+      "bytes": 190836,
+      "baked_at": "2026-09-07T14:17:58+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/9케이크/PEO_6222.JPG",
+      "file": "assets/photos/japan/PEO_6222.webp",
+      "bytes": 46452,
+      "baked_at": "2026-09-07T14:22:27+09:00"
+    },
+    {
+      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/9케이크/PEO_6229.JPG",
+      "file": "assets/photos/japan/PEO_6229.webp",
+      "bytes": 27460,
+      "baked_at": "2026-09-07T14:22:28+09:00"
+    }
   ]
 }
