@@ -1,200 +1,6 @@
 {
   "guam": [
     {
-      "src": "/Users/peoplay/과미발행/선별_식당/e19.jpg",
-      "file": "assets/photos/guam/e19.webp",
-      "bytes": 8634,
-      "baked_at": "2026-09-01T23:55:37+09:00"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e17_2.jpg",
-      "file": "assets/photos/guam/e17_2.webp",
-      "bytes": 9698,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e18_2.jpg",
-      "file": "assets/photos/guam/e18_2.webp",
-      "bytes": 9164,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "같은 장면(e18_2)이 걸림 — 얼굴 1건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e18_3.jpg",
-      "file": "assets/photos/guam/e18_3.webp",
-      "bytes": 11482,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "같은 장면(e18_3)이 걸림 — 얼굴 6건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e19_2.jpg",
-      "file": "assets/photos/guam/e19_2.webp",
-      "bytes": 14988,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e19_3.jpg",
-      "file": "assets/photos/guam/e19_3.webp",
-      "bytes": 18632,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "같은 장면(e19_3)이 걸림 — 얼굴 7건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e20_2.jpg",
-      "file": "assets/photos/guam/e20_2.webp",
-      "bytes": 11416,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "같은 장면(e20_2)이 걸림 — 얼굴 1건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e21_2.jpg",
-      "file": "assets/photos/guam/e21_2.webp",
-      "bytes": 15342,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e22_2.jpg",
-      "file": "assets/photos/guam/e22_2.webp",
-      "bytes": 15640,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "같은 장면(e22_2)이 걸림 — 얼굴 3건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e23_2.jpg",
-      "file": "assets/photos/guam/e23_2.webp",
-      "bytes": 21108,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e24_2.jpg",
-      "file": "assets/photos/guam/e24_2.webp",
-      "bytes": 16624,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e25_2.jpg",
-      "file": "assets/photos/guam/e25_2.webp",
-      "bytes": 13916,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "같은 장면(e25_2)이 걸림 — 얼굴 5건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e26_2.jpg",
-      "file": "assets/photos/guam/e26_2.webp",
-      "bytes": 10008,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "같은 장면(e26_2)이 걸림 — 얼굴 4건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e26_3.jpg",
-      "file": "assets/photos/guam/e26_3.webp",
-      "bytes": 8304,
-      "baked_at": "2026-09-02T01:09:45+09:00",
-      "overrode": "같은 장면(e26_3)이 걸림 — 얼굴 5건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/e18_3b_hi.jpg",
-      "file": "assets/photos/guam/e18_3b_hi.webp",
-      "bytes": 33962,
-      "baked_at": "2026-09-02T06:34:00+09:00",
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/e24_3_hi.jpg",
-      "file": "assets/photos/guam/e24_3_hi.webp",
-      "bytes": 71164,
-      "baked_at": "2026-09-02T06:34:00+09:00",
-      "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/e25_2_hi.jpg",
-      "file": "assets/photos/guam/e25_2_hi.webp",
-      "bytes": 113664,
-      "baked_at": "2026-09-02T06:34:00+09:00",
-      "overrode": "얼굴 7건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/e25_3_hi.jpg",
-      "file": "assets/photos/guam/e25_3_hi.webp",
-      "bytes": 82062,
-      "baked_at": "2026-09-02T06:34:01+09:00",
-      "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/e26_1_hi.jpg",
-      "file": "assets/photos/guam/e26_1_hi.webp",
-      "bytes": 69114,
-      "baked_at": "2026-09-02T06:34:01+09:00"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/e26_2_hi.jpg",
-      "file": "assets/photos/guam/e26_2_hi.webp",
-      "bytes": 50422,
-      "baked_at": "2026-09-02T06:34:02+09:00",
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/f18_1_hi.jpg",
-      "file": "assets/photos/guam/f18_1_hi.webp",
-      "bytes": 37624,
-      "baked_at": "2026-09-02T06:34:02+09:00",
-      "overrode": "얼굴 4건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/f18_2_hi.jpg",
-      "file": "assets/photos/guam/f18_2_hi.webp",
-      "bytes": 54352,
-      "baked_at": "2026-09-02T06:34:02+09:00",
-      "overrode": "얼굴 4건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/f20_1_hi.jpg",
-      "file": "assets/photos/guam/f20_1_hi.webp",
-      "bytes": 121872,
-      "baked_at": "2026-09-02T06:34:03+09:00",
-      "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/f20_2_hi.jpg",
-      "file": "assets/photos/guam/f20_2_hi.webp",
-      "bytes": 117412,
-      "baked_at": "2026-09-02T06:34:03+09:00",
-      "overrode": "얼굴 3건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/f26_2_hi.jpg",
-      "file": "assets/photos/guam/f26_2_hi.webp",
-      "bytes": 83420,
-      "baked_at": "2026-09-02T06:34:03+09:00",
-      "overrode": "얼굴 3건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/원본/f26_3_hi.jpg",
-      "file": "assets/photos/guam/f26_3_hi.webp",
-      "bytes": 72626,
-      "baked_at": "2026-09-02T06:34:04+09:00",
-      "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e17_3.jpg",
-      "file": "assets/photos/guam/e17_3.webp",
-      "bytes": 10872,
-      "baked_at": "2026-09-02T06:49:48+09:00",
-      "overrode": "같은 장면(e17_3)이 걸림 — 얼굴 6건 검출"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e17_3_hi.jpg",
-      "file": "assets/photos/guam/e17_3_hi.webp",
-      "bytes": 101948,
-      "baked_at": "2026-09-02T06:49:48+09:00",
-      "overrode": "얼굴 6건 검출"
-    },
-    {
       "src": "/Users/peoplay/과미발행/선별_식당/e23_1.jpg",
       "file": "assets/photos/guam/e23_1.webp",
       "bytes": 26226,
@@ -209,31 +15,11 @@
       "overrode": "얼굴 8건 검출"
     },
     {
-      "src": "/Users/peoplay/과미발행/선별_식당/e24_3.jpg",
-      "file": "assets/photos/guam/e24_3.webp",
-      "bytes": 5864,
-      "baked_at": "2026-09-02T06:49:48+09:00"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e24_3_hi.jpg",
-      "file": "assets/photos/guam/e24_3_hi.webp",
-      "bytes": 59254,
-      "baked_at": "2026-09-02T06:49:48+09:00"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075644959_03.jpg",
       "file": "assets/photos/guam/KakaoTalk_20250403_075644959_03.webp",
       "bytes": 61994,
       "baked_at": "2026-09-02T10:09:24+09:00",
       "hero": true
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075644959_04.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_075644959_04.webp",
-      "bytes": 78430,
-      "baked_at": "2026-09-02T10:09:27+09:00",
-      "hero": true,
-      "overrode": "얼굴 1건 검출"
     },
     {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075807081.jpg",
@@ -252,14 +38,6 @@
       "overrode": "얼굴 4건 검출"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075807081_02.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_075807081_02.webp",
-      "bytes": 162696,
-      "baked_at": "2026-09-02T10:09:33+09:00",
-      "hero": true,
-      "overrode": "얼굴 2건 검출"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075807081_03.jpg",
       "file": "assets/photos/guam/KakaoTalk_20250403_075807081_03.webp",
       "bytes": 115904,
@@ -273,30 +51,6 @@
       "bytes": 195710,
       "baked_at": "2026-09-02T10:09:38+09:00",
       "hero": true
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_080636135_02.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_080636135_02.webp",
-      "bytes": 168164,
-      "baked_at": "2026-09-02T10:09:38+09:00",
-      "hero": true,
-      "overrode": "얼굴 7건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_085349968.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_085349968.webp",
-      "bytes": 242250,
-      "baked_at": "2026-09-02T10:09:39+09:00",
-      "hero": true,
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_085349968_01.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_085349968_01.webp",
-      "bytes": 206700,
-      "baked_at": "2026-09-02T10:09:39+09:00",
-      "hero": true,
-      "overrode": "얼굴 1건 검출"
     },
     {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_085349968_02.jpg",
@@ -313,22 +67,6 @@
       "baked_at": "2026-09-02T10:09:40+09:00",
       "hero": true,
       "overrode": "얼굴 4건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086_06.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250404_072316086_06.webp",
-      "bytes": 279628,
-      "baked_at": "2026-09-02T10:09:41+09:00",
-      "hero": true,
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086_07.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250404_072316086_07.webp",
-      "bytes": 301610,
-      "baked_at": "2026-09-02T10:09:41+09:00",
-      "hero": true,
-      "overrode": "얼굴 1건 검출"
     },
     {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086_09.jpg",
@@ -355,22 +93,6 @@
       "hero": true
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0345.JPG",
-      "file": "assets/photos/hawaii/DJI_0345.webp",
-      "bytes": 243654,
-      "baked_at": "2026-09-02T10:29:36+09:00",
-      "hero": true,
-      "overrode": "얼굴 3건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0347.JPG",
-      "file": "assets/photos/hawaii/DJI_0347.webp",
-      "bytes": 236682,
-      "baked_at": "2026-09-02T10:29:39+09:00",
-      "hero": true,
-      "overrode": "얼굴 3건 검출"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0352.JPG",
       "file": "assets/photos/hawaii/DJI_0352.webp",
       "bytes": 137706,
@@ -386,14 +108,6 @@
       "hero": true
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0357.JPG",
-      "file": "assets/photos/hawaii/DJI_0357.webp",
-      "bytes": 209770,
-      "baked_at": "2026-09-02T10:29:46+09:00",
-      "hero": true,
-      "overrode": "얼굴 1건 검출"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0361.JPG",
       "file": "assets/photos/hawaii/DJI_0361.webp",
       "bytes": 172278,
@@ -406,13 +120,6 @@
       "file": "assets/photos/hawaii/DJI_0362.webp",
       "bytes": 150014,
       "baked_at": "2026-09-02T10:29:52+09:00",
-      "hero": true
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/2025 하와이/기타/드론/오아후섬/DJI_0365.JPG",
-      "file": "assets/photos/hawaii/DJI_0365.webp",
-      "bytes": 130366,
-      "baked_at": "2026-09-02T10:29:55+09:00",
       "hero": true
     },
     {
@@ -439,14 +146,6 @@
       "baked_at": "2026-09-02T10:34:58+09:00",
       "hero": true,
       "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250409_105531626.jpg",
-      "file": "assets/photos/saipan/KakaoTalk_20250409_105531626.webp",
-      "bytes": 74614,
-      "baked_at": "2026-09-02T10:34:58+09:00",
-      "hero": true,
-      "overrode": "얼굴 3건 검출"
     },
     {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250409_105531626_03.jpg",
@@ -542,33 +241,9 @@
       "baked_at": "2026-09-02T10:41:58+09:00",
       "hero": true,
       "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/기타/날씨/KakaoTalk_20250415_103340775.jpg",
-      "file": "assets/photos/kota/KakaoTalk_20250415_103340775.webp",
-      "bytes": 46748,
-      "baked_at": "2026-09-02T10:42:00+09:00",
-      "hero": true,
-      "overrode": "얼굴 4건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/기타/날씨/KakaoTalk_20250415_103340775_03.jpg",
-      "file": "assets/photos/kota/KakaoTalk_20250415_103340775_03.webp",
-      "bytes": 68214,
-      "baked_at": "2026-09-02T10:42:02+09:00",
-      "hero": true,
-      "overrode": "얼굴 2건 검출"
     }
   ],
   "vietnam": [
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3317.JPG",
-      "file": "assets/photos/vietnam/PEO_3317.webp",
-      "bytes": 275746,
-      "baked_at": "2026-09-02T10:49:36+09:00",
-      "hero": true,
-      "overrode": "얼굴 8건 검출"
-    },
     {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3318.JPG",
       "file": "assets/photos/vietnam/PEO_3318.webp",
@@ -578,50 +253,10 @@
       "overrode": "얼굴 6건 검출"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3319.JPG",
-      "file": "assets/photos/vietnam/PEO_3319.webp",
-      "bytes": 149084,
-      "baked_at": "2026-09-02T10:49:43+09:00",
-      "hero": true,
-      "overrode": "얼굴 4건 검출"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3322.JPG",
       "file": "assets/photos/vietnam/PEO_3322.webp",
       "bytes": 249780,
       "baked_at": "2026-09-02T10:49:47+09:00",
-      "hero": true,
-      "overrode": "얼굴 7건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3327.JPG",
-      "file": "assets/photos/vietnam/PEO_3327.webp",
-      "bytes": 59858,
-      "baked_at": "2026-09-02T10:49:50+09:00",
-      "hero": true,
-      "overrode": "얼굴 5건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3329.JPG",
-      "file": "assets/photos/vietnam/PEO_3329.webp",
-      "bytes": 236464,
-      "baked_at": "2026-09-02T10:49:54+09:00",
-      "hero": true,
-      "overrode": "얼굴 18건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3330.JPG",
-      "file": "assets/photos/vietnam/PEO_3330.webp",
-      "bytes": 189540,
-      "baked_at": "2026-09-02T10:49:58+09:00",
-      "hero": true,
-      "overrode": "얼굴 6건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3331.JPG",
-      "file": "assets/photos/vietnam/PEO_3331.webp",
-      "bytes": 117868,
-      "baked_at": "2026-09-02T10:50:01+09:00",
       "hero": true,
       "overrode": "얼굴 7건 검출"
     }
@@ -634,14 +269,6 @@
       "baked_at": "2026-09-02T11:24:43+09:00",
       "hero": true,
       "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#제주도/기타/제주도_일상사진_4/DSC01622.JPG",
-      "file": "assets/photos/jeju/DSC01622.webp",
-      "bytes": 204472,
-      "baked_at": "2026-09-02T11:24:43+09:00",
-      "hero": true,
-      "overrode": "얼굴 4건 검출"
     }
   ],
   "japan": [
@@ -664,40 +291,16 @@
       "baked_at": "2026-09-07T13:30:18+09:00"
     },
     {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6809.JPG",
-      "file": "assets/photos/japan/PEO_6809.webp",
-      "bytes": 82502,
-      "baked_at": "2026-09-07T13:30:18+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6810.JPG",
-      "file": "assets/photos/japan/PEO_6810.webp",
-      "bytes": 82288,
-      "baked_at": "2026-09-07T13:30:19+09:00"
-    },
-    {
       "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6815.JPG",
       "file": "assets/photos/japan/PEO_6815.webp",
       "bytes": 152766,
       "baked_at": "2026-09-07T13:30:19+09:00"
     },
     {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6822.JPG",
-      "file": "assets/photos/japan/PEO_6822.webp",
-      "bytes": 125818,
-      "baked_at": "2026-09-07T13:30:20+09:00"
-    },
-    {
       "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/17 오사카성/PEO_6824.JPG",
       "file": "assets/photos/japan/PEO_6824.webp",
       "bytes": 107388,
       "baked_at": "2026-09-07T13:30:20+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/11교토/PEO_6410.JPG",
-      "file": "assets/photos/japan/PEO_6410.webp",
-      "bytes": 100878,
-      "baked_at": "2026-09-07T13:50:59+09:00"
     },
     {
       "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/12교토/PEO_6499.JPG",
@@ -712,124 +315,16 @@
       "baked_at": "2026-09-07T13:52:35+09:00"
     },
     {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/14 에비수/PEO_6644.JPG",
-      "file": "assets/photos/japan/PEO_6644.webp",
-      "bytes": 50562,
-      "baked_at": "2026-09-07T13:55:09+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/14 에비수/PEO_6647.JPG",
-      "file": "assets/photos/japan/PEO_6647.webp",
-      "bytes": 48746,
-      "baked_at": "2026-09-07T13:55:10+09:00"
-    },
-    {
       "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/15전망대/PEO_6684.JPG",
       "file": "assets/photos/japan/PEO_6684.webp",
       "bytes": 169336,
       "baked_at": "2026-09-07T13:57:00+09:00"
     },
     {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/16 커피숍/PEO_6763.JPG",
-      "file": "assets/photos/japan/PEO_6763.webp",
-      "bytes": 57890,
-      "baked_at": "2026-09-07T13:58:34+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/16 커피숍/PEO_6764.JPG",
-      "file": "assets/photos/japan/PEO_6764.webp",
-      "bytes": 57244,
-      "baked_at": "2026-09-07T13:58:35+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/1공항/PEO_5981.JPG",
-      "file": "assets/photos/japan/PEO_5981.webp",
-      "bytes": 61594,
-      "baked_at": "2026-09-07T14:01:11+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/1공항/PEO_6000.JPG",
-      "file": "assets/photos/japan/PEO_6000.webp",
-      "bytes": 59180,
-      "baked_at": "2026-09-07T14:01:12+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/2버스/PEO_5987.JPG",
-      "file": "assets/photos/japan/PEO_5987.webp",
-      "bytes": 36640,
-      "baked_at": "2026-09-07T14:04:30+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/2버스/PEO_5988.JPG",
-      "file": "assets/photos/japan/PEO_5988.webp",
-      "bytes": 58616,
-      "baked_at": "2026-09-07T14:04:32+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/2버스/PEO_6010.JPG",
-      "file": "assets/photos/japan/PEO_6010.webp",
-      "bytes": 46410,
-      "baked_at": "2026-09-07T14:04:32+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/2버스/PEO_6012.JPG",
-      "file": "assets/photos/japan/PEO_6012.webp",
-      "bytes": 58124,
-      "baked_at": "2026-09-07T14:04:33+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/2버스/PEO_6021.JPG",
-      "file": "assets/photos/japan/PEO_6021.webp",
-      "bytes": 121622,
-      "baked_at": "2026-09-07T14:04:34+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/3슈퍼/PEO_6050.JPG",
-      "file": "assets/photos/japan/PEO_6050.webp",
-      "bytes": 91376,
-      "baked_at": "2026-09-07T14:08:07+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/6텐동집/PEO_6129.JPG",
-      "file": "assets/photos/japan/PEO_6129.webp",
-      "bytes": 107624,
-      "baked_at": "2026-09-07T14:13:24+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/6텐동집/PEO_6132.JPG",
-      "file": "assets/photos/japan/PEO_6132.webp",
-      "bytes": 99190,
-      "baked_at": "2026-09-07T14:13:26+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/6텐동집/PEO_6139.JPG",
-      "file": "assets/photos/japan/PEO_6139.webp",
-      "bytes": 35570,
-      "baked_at": "2026-09-07T14:13:29+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/6텐동집/PEO_6143.JPG",
-      "file": "assets/photos/japan/PEO_6143.webp",
-      "bytes": 43638,
-      "baked_at": "2026-09-07T14:13:31+09:00"
-    },
-    {
       "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/8시내/PEO_6203.JPG",
       "file": "assets/photos/japan/PEO_6203.webp",
       "bytes": 190836,
       "baked_at": "2026-09-07T14:17:58+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/9케이크/PEO_6222.JPG",
-      "file": "assets/photos/japan/PEO_6222.webp",
-      "bytes": 46452,
-      "baked_at": "2026-09-07T14:22:27+09:00"
-    },
-    {
-      "src": "/private/tmp/claude-501/-Users-peoplay-----/b7a99bc1-cc93-4b6d-8fc4-34afa84a33ca/scratchpad/nas_japan/9케이크/PEO_6229.JPG",
-      "file": "assets/photos/japan/PEO_6229.webp",
-      "bytes": 27460,
-      "baked_at": "2026-09-07T14:22:28+09:00"
     }
   ]
 }
