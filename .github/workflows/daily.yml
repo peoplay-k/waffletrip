@@ -80,6 +80,10 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq fonts-noto-cjk
           python tools/make_longform.py --frames video-frames
+          # --frames 만 주면 대본이 public/video/ 로 간다. 거기는
+          # gitignore 라 커밋되지 않고 다음 빌드가 지운다. 저장소
+          # 루트에 남기려면 --script-only 로 한 번 더 부른다.
+          python tools/make_longform.py --script-only
         continue-on-error: true
 
       - name: 영상 화면 내려받기용
