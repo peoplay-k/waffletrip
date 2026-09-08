@@ -625,6 +625,7 @@
     "61456e47169857a1c97d5afdb1b3a6ba7e48f209",
     "61a2d2ae09a2e5e18da80a3f2b85a281f37353f1",
     "61ceed8c49fe1dcfb746b8eb5e5ba38a69e02369",
+    "6212db98eda537c648b70084670c418e266b35fd",
     "621abe41e38155bf2bc8d95e4dd201166befdaee",
     "6241c8333e6e60d3b6cb7d5a70cbe7ae2b906a6e",
     "6275051ccdd593a904250ded06aed75790478771",
@@ -761,6 +762,7 @@
     "7937b9687d29a9bf5dc93532b0e7fca33537c52b",
     "796bfd6d69dab3496b6c7fbbba03b256f88f9f74",
     "796d93566d874655110e7ec217d7d7536d083480",
+    "798bb3b031682e82cb279026944c78f388a9c84b",
     "79b180160699b4be5454ba89ba3c3fbf1197b2ce",
     "79c8db12587759314b4771e12c3f9e505657c215",
     "79dd348cb7961609597520ffd6d62192bd0b5825",
@@ -1027,6 +1029,7 @@
     "a59968da9b9b4b86b9de13b93d893dcbeefd5e49",
     "a59a86dc7fb7fe9cf6ff2180a8f96b8a5330317e",
     "a5b0b6a9d1f61e385b5a50328fbfe6af0749c93c",
+    "a5c70a41d98861169b0af6087cd0d0f0832cbe49",
     "a5d99fab014ec6683795140f50dbf517631d8cff",
     "a5e619662723f9d168b1050f6f2ce391c422694f",
     "a5f6d586e6bdb12d885a41a67cd22613e184cf2d",
@@ -1419,6 +1422,7 @@
     "de888903e1aa1cdaa257d014cda78e920b3708f5",
     "de8d38ff4a05333e4f951cfc73305bf8473c1aa5",
     "de9a88cf23bafad504db00e2963f1c6e45402039",
+    "dec20c8ded98d2bff2bfd41e35553478a7eaf395",
     "dec452a801a17db653018b01fea698d4c9b263e9",
     "dee0a1c4ec1fd558a727e6d1840e679c5d6ee762",
     "def5df30ddaf1087336d2ced0674fdfc1a4499db",
@@ -1453,6 +1457,7 @@
     "e35835b398e0720fbe03e5e2b421851fa5619299",
     "e39649fd108aec19c4c96bdb4882d4a58cba8f75",
     "e3e88113d1f387f555b9ab23d20d3878838d6356",
+    "e3f35a3d093dee9ebd397fa7449b57618a5801aa",
     "e42e418963706f47a96910d211e3ab3688b76db0",
     "e44d9ab31a66c58b8cc0e26e93db321942d31651",
     "e47b6e4325435af83c407a21e02727264e10b95e",
@@ -12502,6 +12507,41 @@
       "title": "오키나와 남부 카지노 호텔 - 현장에서의 경험과 통찰력",
       "date": "2026-09-08",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "a5c70a41d98861169b0af6087cd0d0f0832cbe49",
+      "title": "도쿄에서 왔는데 국내선에?…대한항공, 국제선 승객 국내선 청사에 내려줘",
+      "date": "2026-09-08",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "dec20c8ded98d2bff2bfd41e35553478a7eaf395",
+      "title": "[인포그래픽] - 다낭시는 문화, 스포츠, 관광 분야의 공공 서비스 기관 3곳을 감축할 계획입니다.",
+      "date": "2026-09-08",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "e3f35a3d093dee9ebd397fa7449b57618a5801aa",
+      "title": "American tourist complains world's second richest country is too expensive",
+      "date": "2026-09-08",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "798bb3b031682e82cb279026944c78f388a9c84b",
+      "title": "Chute slide installed in 3-million-year cave in China",
+      "date": "2026-09-08",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "6212db98eda537c648b70084670c418e266b35fd",
+      "title": "클룩, 베트남 최대 호텔·리조트 체인 빈펄과 협약…나트랑·푸꾸옥 어트랙션 강화",
+      "date": "2026-09-08",
+      "region": "vietnam",
       "grade": "B"
     }
   ]
