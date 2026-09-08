@@ -262,3 +262,57 @@ def test_two_word_titles_do_not_count_as_contained():
     a = make("y1", "오사카 호텔")
     b = make("y2", "오사카 호텔 예약 급증…추석 연휴 영향")
     assert len(cluster_batch([a, b])) == 2
+
+
+# ── 같은 사건 판정 ─────────────────────────────────────────────────
+# 2026-09-08 실측: 자카드만으로는 대한항공·일본항공 한진칼 기사가 지면에 6건,
+# 다낭 국경절 기사가 6건, 진주남강유등축제가 4건 따로 실렸다.
+
+def test_같은_발표를_다른_각도로_뽑아도_한_사건이다():
+    from src.guards.dup_guard import same_event
+    assert same_event(
+        "일본항공, 한진칼 지분 샀다... 대한항공과 ‘전략적 파트너십’ 강화",
+        "대한항공-일본항공, 전략적 파트너십 체결…코드쉐어 확대")
+
+
+def test_조사가_붙어도_같은_말로_센다():
+    """'대한항공' 과 '대한항공과' 가 갈리면 같은 사건이 둘로 실린다."""
+    from src.guards.dup_guard import shared_event_words
+    assert shared_event_words("대한항공과 협력 확대", "대한항공 협력 강화") >= 1
+
+
+def test_연재물은_묶지_않는다():
+    from src.guards.dup_guard import same_event
+    assert not same_event(
+        "요즘 가장 주목받는 일본 소도시 여행지는 여기! [일본 소도시 이야기 ②]",
+        "후지산과 예술 섬, 그리고 녹차와 우동 [일본 소도시 이야기 ①]")
+
+
+def test_같은_지역_다른_사건은_묶지_않는다():
+    from src.guards.dup_guard import same_event
+    assert not same_event("괌 호텔 요금 올해 12% 올랐다",
+                          "괌 신규 리조트 내년 개장 확정")
+
+
+def test_날짜만_겹치면_같은_사건이_아니다():
+    """'9월 2일 연휴' 는 그 주 베트남 기사 전부에 들어 있다."""
+    from src.guards.dup_guard import same_event
+    assert not same_event("9월 2일 국경일 연휴 다낭 방문객 증가",
+                          "9월 2일 국경일 연휴 나트랑 짚라인 인기")
+
+
+def test_우리가_쓴_요약은_서로_묶이지_않는다():
+    """실측에서 오사카 요약과 후쿠오카 요약이 같은 사건으로 잡혔다.
+    묶였으면 도시별 페이지가 사라진다."""
+    from src.guards.dup_guard import cluster_batch
+    from src.models import Item
+
+    def roundup(item_id, title, region):
+        return Item(id=item_id, grade="C", region=region, section="news",
+                    title=title, summary="", source_name="", source_url="",
+                    published_at=NOW, collected_at=NOW, status="draft",
+                    title_hash=item_id)
+
+    items = [roundup("1", "이번 주 오사카에서 나온 소식 4건", "japan"),
+             roundup("2", "이번 주 후쿠오카에서 나온 소식 4건", "japan")]
+    assert len(cluster_batch(items)) == 2

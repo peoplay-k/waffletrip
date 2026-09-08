@@ -94,6 +94,22 @@ def title_hash(title: str) -> str:
     return _sha1(_PUNCT.sub("", title).lower())
 
 
+# 회사명 꼬리. 매체마다 "에어로케이" 와 "에어로케이항공" 을 섞어 써서 같은
+# 보도자료가 서로 다른 사건으로 갈렸다. 실측(2026-09-08): 청주~타이베이 취항
+# 3주년 기사가 자카드 0.667 로 임계값 0.7 에 0.033 모자라 지면에 두 번 실렸다.
+_ORG_SUFFIX = re.compile(r"(항공사|항공|그룹)$")
+# 꼬리를 뗀 몸통이 두 글자 이하면 떼지 않는다. "제주항공"→"제주" 는 지역명과
+# 겹쳐 제주 기사 전체를 한 건으로 삼켜버리고, "대한항공"→"대한", "일본항공"→
+# "일본" 도 마찬가지다. 실측에서 세 글자 이상만 떼면 아시아나·이스타·에어로케이·
+# 썬푸꾸옥·파라타·타이비엣젯이 정확히 잡히고 위 셋은 온전히 남는다.
+_ORG_STEM_MIN = 3
+
+
+def _strip_org_suffix(token: str) -> str:
+    stem = _ORG_SUFFIX.sub("", token)
+    return stem if len(stem) >= _ORG_STEM_MIN else token
+
+
 def title_tokens(title: str) -> set[str]:
     """유사도 비교용 토큰. 조사·한 글자 단어는 잡음이라 버린다.
 
@@ -101,7 +117,7 @@ def title_tokens(title: str) -> set[str]:
     완전히 같아져 순차 속보가 한 건으로 병합된다. 실측에서 태풍 속보 5·4·3·1호가
     하나로 묶였고, 두 자리인 11·12호는 멀쩡히 분리되는 비일관이 드러났다.
     """
-    return {t for t in _PUNCT.split(title.lower())
+    return {_strip_org_suffix(t) for t in _PUNCT.split(title.lower())
             if len(t) > 1 or t.isdigit()}
 
 
