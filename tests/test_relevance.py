@@ -81,3 +81,33 @@ def test_no_keyword_is_a_bare_english_word_prone_to_substring_hits():
     """"park" 같은 단어를 다시 넣지 못하게 고정한다."""
     assert "park" not in TRAVEL_KEYWORDS
     assert "trip" not in TRAVEL_KEYWORDS   # "a 10-day trip" (외교 순방) 오탐
+
+
+def test_crime_reports_are_flagged():
+    """사건 기사는 여행지 이름이 배경으로 나올 뿐 여행 정보가 아니다.
+
+    실측: 하와이 지면에 "호텔 직원 성범죄 유죄"가 hotel 로,
+    "식당 살인미수"가 restaurant 로 통과해 실렸다.
+    """
+    from src.relevance import is_crime_report
+    for text in (
+        "'A predator and a pervert': Former hotel clerk convicted of sexual assault",
+        "Former attorney convicted of attempted murder after restaurant shooting",
+        "호텔 직원 성추행 혐의로 구속",
+    ):
+        assert is_crime_report(text), text
+
+
+def test_useful_travel_news_is_not_flagged_as_crime():
+    """넓은 말을 넣으면 쓸모 있는 기사까지 막는다.
+
+    수하물 분실 소송과 기내 난동 승객 체포는 여행자가 알아야 할 일이다.
+    """
+    from src.relevance import is_crime_report
+    for text in (
+        "$521K Hawaii Airport Lawsuit Exposes Checked Bag Risk",
+        "Passenger arrested after being restrained with duct tape",
+        "'안전문자 41건' 제주 해수욕장 사망사고는 0건",
+        "진에어 괌 노선 신규 취항",
+    ):
+        assert not is_crime_report(text), text

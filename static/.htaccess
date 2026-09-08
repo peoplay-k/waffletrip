@@ -1,0 +1,48 @@
+# 와플트립 — 아파치 계열(카페24 등) 웹호스팅 설정
+# GitHub Pages 에서는 이 파일이 무시된다. FTP 로 올린 호스팅에서만 쓰인다.
+
+AddDefaultCharset UTF-8
+
+# 우리 404 쪽을 보여준다. 없으면 호스팅 기본 화면이 뜬다.
+ErrorDocument 404 /404.html
+
+# 일부 호스팅이 webp 를 모른다. 지정하지 않으면 사진이 다운로드로 떨어진다.
+AddType image/webp .webp
+AddType image/svg+xml .svg
+AddType video/mp4 .mp4
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # https 로 몰아준다. canonical 이 https 라 http 로 열리면 중복 쪽이 된다.
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+  # www 를 뗀다. 사이트맵·canonical 이 전부 www 없는 주소다.
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+</IfModule>
+
+# 사진·영상은 오래 캐시한다. 파일 이름이 바뀌지 않으면 내용도 안 바뀐다.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/webp     "access plus 1 year"
+  ExpiresByType image/jpeg     "access plus 1 year"
+  ExpiresByType image/svg+xml  "access plus 1 year"
+  ExpiresByType video/mp4      "access plus 1 year"
+  # 지면은 매일 바뀐다. 오래 잡아두면 어제 신문이 보인다.
+  ExpiresByType text/html      "access plus 10 minutes"
+  ExpiresByType application/xml "access plus 1 hour"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain application/xml image/svg+xml
+</IfModule>
+
+# 편집실은 검색에 노출될 이유가 없다.
+<IfModule mod_headers.c>
+  <FilesMatch "^/admin/">
+    Header set X-Robots-Tag "noindex, nofollow"
+  </FilesMatch>
+</IfModule>

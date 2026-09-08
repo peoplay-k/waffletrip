@@ -565,8 +565,10 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         written,
     )
 
-    # 파비콘·기본 OG 이미지
-    for name in ("favicon.svg", "og-default.jpg"):
+    # 파비콘·기본 OG 이미지·IndexNow 키
+    # indexnow.txt 는 검색엔진이 "이 키를 쓰는 게 정말 이 사이트인가"를 확인하러
+    # 온다. 루트에 없으면 통지가 전부 거부된다.
+    for name in ("favicon.svg", "og-default.jpg", "indexnow.txt", ".htaccess"):
         src = os.path.join("static", name)
         if os.path.exists(src):
             shutil.copy2(src, os.path.join(out_dir, name))

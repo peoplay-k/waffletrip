@@ -95,3 +95,22 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # 배포가 끝난 뒤에 알린다. 검색엔진이 바로 받으러 오는데 그때 쪽이 없으면
+  # 헛통지가 된다. 통지가 실패해도 신문은 이미 나갔으므로 여기서 멈추지 않는다.
+  notify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Seoul
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+      - name: 검색엔진 통지
+        continue-on-error: true
+        run: python -m src.indexnow

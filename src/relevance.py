@@ -48,6 +48,31 @@ TRAVEL_EXCLUSIONS: tuple[str, ...] = ("여권통문", "제2공항", "한국공�
 _INFLECTION = r"(?:l?e?[sd]|l?ing)?"
 
 
+# 여행 단어가 있어도 실을 수 없는 것. 사건 기사는 여행지 이름이나 "호텔"·"공항"·
+# "식당"이 배경으로 나올 뿐 여행 정보가 아니다. 실측: 하와이 지면에 "호텔 직원
+# 성범죄 유죄"가 hotel 로, "식당 살인미수"가 restaurant 로 통과해 실렸다.
+#
+# 대인 범죄 어휘로만 좁혔다. lawsuit·arrest 같은 넓은 말은 넣지 않는다 —
+# "수하물 분실 소송"과 "기내 난동 승객 체포"는 여행자에게 쓸모 있는 기사다.
+CRIME_KEYWORDS: tuple[str, ...] = (
+    "convicted", "murder", "manslaughter", "homicide", "rape",
+    "sexual assault", "sexually assaulted", "predator", "pervert",
+    "stabbed", "stabbing", "shooting", "shot dead", "molest",
+    "성폭행", "성추행", "강제추행", "살인", "살해", "흉기", "음주운전",
+)
+
+
+def is_crime_report(text: str) -> bool:
+    """사건 기사인가. 여행 전용 매체에는 적용하지 않는다.
+
+    VnExpress Travel 처럼 여행 지면이 낸 기사는 범죄를 다뤄도 여행 기사다
+    ("문제 관광객 경고" 같은 것). 그래서 이 게이트는 종합지에만 건다.
+    """
+    if not text:
+        return False
+    lowered = text.lower()
+    return any(keyword in lowered for keyword in CRIME_KEYWORDS)
+
 def is_travel_related(text: str) -> bool:
     """여행자에게 쓸모 있는 기사인가. 빈 문자열·None 은 아니다.
 

@@ -64,3 +64,18 @@ def test_empty_input_is_empty_output():
 def test_bold_works_after_escaping():
     out = render("이건 **굵게** 다")
     assert "<strong>굵게</strong>" in out
+
+
+def test_internal_links_are_not_nofollowed():
+    """우리 쪽 링크에 nofollow 를 붙이면 우리 지면끼리 연결이 전달되지 않는다."""
+    out = render("[제주 지면](/jeju/)에 쌓입니다.")
+    assert '<a href="/jeju/">제주 지면</a>' in out
+    assert "nofollow" not in out
+    assert "target=" not in out
+
+
+def test_external_links_keep_nofollow_and_new_tab():
+    """남의 사이트로는 신뢰를 넘기지 않고 새 창으로 연다."""
+    out = render("[원문](https://example.com/a)")
+    assert 'rel="nofollow noopener"' in out
+    assert 'target="_blank"' in out

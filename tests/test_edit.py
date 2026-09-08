@@ -252,3 +252,23 @@ def test_drop_stale_removes_old_quotes_only():
              mk("ours", "C", "2016-05-18T00:00:00+09:00")]
     kept = {i.id for i in drop_stale(items, "2026-09-03")}
     assert kept == {"new", "ours"}, "자체 생산분은 날짜로 버리지 않는다"
+
+
+def test_crime_reports_from_general_papers_are_dropped():
+    """여행 신문 지면에 성범죄 유죄 기사가 실리던 것을 막는다."""
+    item = make("1", "Former hotel clerk convicted of sexual assault")
+    result = edit_items([item], empty_index(), [], set())
+    assert result["publish"] == []
+    assert len(result["off_topic"]) == 1
+
+
+def test_curated_travel_media_keep_their_crime_coverage():
+    """여행 지면이 낸 기사는 범죄를 다뤄도 여행 기사다.
+
+    실측: VnExpress Travel 의 "문제 관광객 경고" 기사가 여기 걸리면 안 된다.
+    """
+    item = make("1", "Country warns 'problematic' tourists after assault case")
+    item.source_name = "VnExpress International - Travel"
+    result = edit_items([item], empty_index(), [],
+                        {"VnExpress International - Travel"})
+    assert len(result["publish"]) == 1
