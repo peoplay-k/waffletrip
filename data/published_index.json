@@ -56,6 +56,7 @@
     "07dd6361b78c82e1206f68d3eee613955608d95b",
     "07f32e32098a41165db18a3492ffa56e0e38b150",
     "0815cf3f5c16e75c93d24d2ea8167cc04d694289",
+    "082a8ab9d8ef8c0c4ad0ccd9b1b0d9250918cfc8",
     "08499c2727b8117e3609ff6590c20f91189b3538",
     "08612fba110f2c5e1468e5f1a6653fcef4937ea8",
     "0867b8d68608b2b4f8844c3fc7d5c4234256988c",
@@ -493,6 +494,7 @@
     "4b2bf4f2275e839c590c8c820b076b59a2e6c5d0",
     "4b55d0e58483c6b818ced3cc59f627d2c681bc85",
     "4b83744fa0ba5d9e20b587a8479fb533539bbc1d",
+    "4b913c21bdee8795ce14a6fc88a2632446db1550",
     "4bd006d6e0a8291a4997ce95268c4f8282d4fa1e",
     "4c21401c8a3ac0697985e50f35ee2fb24d7f829c",
     "4c2609027c2a7a1a03cdfb184674a770ac4b376a",
@@ -633,6 +635,7 @@
     "61a2d2ae09a2e5e18da80a3f2b85a281f37353f1",
     "61ceed8c49fe1dcfb746b8eb5e5ba38a69e02369",
     "6212db98eda537c648b70084670c418e266b35fd",
+    "62178f8d32bf5af9ac5342940e21f2c93a5baa38",
     "621abe41e38155bf2bc8d95e4dd201166befdaee",
     "6241c8333e6e60d3b6cb7d5a70cbe7ae2b906a6e",
     "6275051ccdd593a904250ded06aed75790478771",
@@ -709,6 +712,7 @@
     "6d8cabe50e2f4e73e18d348eb5fd3ae1f705ea72",
     "6dd5dacea4ea8610c20e68c89745b86c00ceaf36",
     "6dda2ec5b431103c7a539c4343c1929ef806c654",
+    "6e32e92dfa9d05f0cec9c2a8c4b84e729c922497",
     "6e40e5b88621469d7da23489bbc99bec20dd61b9",
     "6e642668089b0b66a434d9eb8261888fd4966527",
     "6eaf6228ebc254416c5d24693db0315bd080c82c",
@@ -817,6 +821,7 @@
     "7f491bf2a743df3faac51fc2de66dd46e5d6faf5",
     "7f544c115b8e738e9f73ea1964c106476350b97a",
     "7f8718b1483858bda07f6866dfbd5765f1a8bc37",
+    "7fcb109fb7f9b4cbd8bca6ac751390a32dfbe476",
     "8007ad06aee5032ccb218e3262c046aa372d0963",
     "8012972d68a3c4286d206771386756a2d9df9826",
     "80480fe5c5e23baf0351155cdf141f953f64c196",
@@ -1110,6 +1115,7 @@
     "b196cec984f43ae12ef01d926b0fb284ce45c811",
     "b1a50c91f6579f8b5b69257c910057a6866d080a",
     "b1ba9433db9061c990958e8afabe93164428cf23",
+    "b1bd6be7820483336df3bfe0d0ce7485b50ec643",
     "b1bddfbcecf3d7df23bf9000ddb1b9aae52ab17c",
     "b1e26da38e366f01b74f1ca6e6e66d493d2f09ee",
     "b1f41d8e14de01c56caabd53d12852c756193f2d",
@@ -1302,6 +1308,7 @@
     "caebed1f8f0149a4181b6ceda9ace9756e729954",
     "cb1783abcfd6de23ab12a8487c1aa728c02c6770",
     "cb524c539b72a4afcf9901d75125702a365ea11f",
+    "cbe0d1858aebfd63803e3403873ef050d0eba40c",
     "cbe997aa850acb30f65beb392ebccd89759a2f64",
     "cc28273cf941a20e8c1b8da589209e531db6a9c3",
     "cc46cb5d4add82c6b27af48f17e93184315e86e2",
@@ -1528,6 +1535,7 @@
     "ecb13c5e370efb5b5665a9e8ef6ca7c38c8e8a51",
     "ecbacb289ec7e85398b3beed35be0d2b448bda0a",
     "ecc5fdf1d10faa00c35c20b5bfddeeabda5ddce7",
+    "eceee4bc4d080a744ce1e900187d48ac5b75cc70",
     "ecf4eb6bde7621d59856afc3980d80d82652d3a6",
     "ed16851411e1416063c474f0c72a49c9c520860b",
     "ed3877226e80a1b9f746068c5176ecdc1c5cd2f5",
@@ -12694,6 +12702,62 @@
       "title": "Penang Airport operations remain normal despite haze, Jakarta volcanic ash disruptions",
       "date": "2026-09-08",
       "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "62178f8d32bf5af9ac5342940e21f2c93a5baa38",
+      "title": "타이비엣젯항공, 인천-방콕 노선 15% 할인 프로모션…단 1주일의 기회",
+      "date": "2026-09-08",
+      "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "b1bd6be7820483336df3bfe0d0ce7485b50ec643",
+      "title": "[한일 교류 리포터] 한일 관광을 잇는 대중교통…서울과 도쿄",
+      "date": "2026-09-08",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "6e32e92dfa9d05f0cec9c2a8c4b84e729c922497",
+      "title": "베트남 관광: 어떤 특별한 매력이 해외 관광객들을 다시 끌어들이고 있을까요?",
+      "date": "2026-09-08",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "7fcb109fb7f9b4cbd8bca6ac751390a32dfbe476",
+      "title": "High surf from Hurricane Lowell inundates Makaha condominium complex",
+      "date": "2026-09-08",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "082a8ab9d8ef8c0c4ad0ccd9b1b0d9250918cfc8",
+      "title": "Thieves steal three paintings from Renoir Museum on French Riviera",
+      "date": "2026-09-08",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "eceee4bc4d080a744ce1e900187d48ac5b75cc70",
+      "title": "김장훈 전국투어 제주콘서트 ‘원맨쇼’, 29일 개최",
+      "date": "2026-09-08",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "4b913c21bdee8795ce14a6fc88a2632446db1550",
+      "title": "[날씨] 9일 제주 동부 초속 20m 강풍…바다 물결 최고 5m",
+      "date": "2026-09-08",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "cbe0d1858aebfd63803e3403873ef050d0eba40c",
+      "title": "제주관광 데이터 활용사례 공모 ‘총상금 1000만원’",
+      "date": "2026-09-08",
+      "region": "jeju",
       "grade": "B"
     }
   ]
