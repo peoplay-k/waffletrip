@@ -554,6 +554,7 @@
     "55649f7ceb17393c328072ae0f2792de20868799",
     "55930e063d2ad24c8ccfdefa716e391e2cbaafde",
     "55be4ab1fe507960bbe8cbd654d2e92b4d9f535e",
+    "56019745b5276e53290a6fc76d38ce9c1b0c3bd1",
     "56e70a5ef375bc6c3765bfa317f73c29a187ef8d",
     "57535da0eac1cc879a7f953b121048c951764ddc",
     "57762fe036cbc376ea1d769ddcf94d515bc53002",
@@ -879,6 +880,7 @@
     "8beaa9e8e406c7a33ebc0c1ef68600d59a9564c2",
     "8c08094b41c47172baeb93f8a01960da3d38028a",
     "8c29f09fdca904d111c458e345c3a751ddfb40c8",
+    "8c30d3bdb0418804540c8725c14ce996920376ac",
     "8c3a4b2e1494566fa9864b8fb8b5e12f55a5304f",
     "8c76d378f4b0a7069f6f57a5852f962bae9ba80e",
     "8c81f9b1e1bb3d353fa596463a84f38e47df1810",
@@ -1202,8 +1204,11 @@
     "c-19436534f55318dda081330aee410c1c764c9f09",
     "c-235e6f5f0a7274dc33a05562d14e4a2d663bec1b",
     "c-2967626cfd6c4403a784d2d7f73ab7a55317d0bf",
+    "c-2a82e75891fa407360eed25e325cf1f1bf7477ee",
     "c-2ccdf87770442f44947cb96be104f193d4a3854a",
+    "c-36d2381a59b0c106826d22c54816af2e29721e99",
     "c-46f969de7e104a2a2663d3e764d46ed0d643a6f9",
+    "c-4b85315badf80b1a2a994993056e1a9e17de69ed",
     "c-5149b14bd37255bf7ac3ad6e761c81c83f204c77",
     "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
     "c-b3493629870f2884069f87f1af2adc800cdf65ec",
@@ -12550,6 +12555,41 @@
       "title": "일본 호텔 카지노 인식 디자인 패턴 상세 설명",
       "date": "2026-09-08",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "c-2a82e75891fa407360eed25e325cf1f1bf7477ee",
+      "title": "청주~타이베이 3년, 여름에는 승객 절반이 대만 사람이었다",
+      "date": "2026-09-08",
+      "region": "taiwan",
+      "grade": "C"
+    },
+    {
+      "id": "c-4b85315badf80b1a2a994993056e1a9e17de69ed",
+      "title": "추석 해외여행 검색 1위, 조사마다 다르게 나왔다",
+      "date": "2026-09-08",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "c-36d2381a59b0c106826d22c54816af2e29721e99",
+      "title": "대한항공·일본항공 제휴, 여행자에게 지금 바뀌는 것은 없다",
+      "date": "2026-09-08",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "8c30d3bdb0418804540c8725c14ce996920376ac",
+      "title": "Datin, 71, attacked by niece with golf club",
+      "date": "2026-09-08",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "56019745b5276e53290a6fc76d38ce9c1b0c3bd1",
+      "title": "First Alert Forecast: Rain, high winds and big surf as Lowell passes",
+      "date": "2026-09-08",
+      "region": "hawaii",
       "grade": "B"
     }
   ]

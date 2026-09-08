@@ -7,7 +7,9 @@ source_name: ''
 source_url: ''
 summary: 아고다는 후쿠오카를, 호텔스컴바인·카약은 오사카를 1위로 꼽았습니다. 무엇을 셌는지가 달라서 생긴 차이이며, 두 조사가 일치하는 것은
   상위권이 전부 일본이라는 점입니다.
-status: approved
+status: published
+published_id: c-4b85315badf80b1a2a994993056e1a9e17de69ed
+published_on: '2026-09-08'
 ---
 올해 추석 연휴는 **9월 24일부터 27일까지**다. 연휴를 앞두고 검색 데이터를 분석한 조사가 두 건 나왔는데, **1위가 서로 다르다.**
 
