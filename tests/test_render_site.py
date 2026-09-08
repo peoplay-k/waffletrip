@@ -684,3 +684,46 @@ def test_homepage_shows_the_video_only_when_the_file_is_there(tmp_path):
 def test_no_video_directory_is_not_an_error(tmp_path):
     from src.render.site import load_video
     assert load_video(str(tmp_path / "nope")) is None
+
+
+# ── 우리가 쓴 해설은 1면에 선다 ─────────────────────────────────────
+# 2026-09-08 실측: 그날 쓴 해설 세 편이 사진이 없다는 이유로 사진 붙은
+# 인용 기사 일흔 건 뒤로 밀려 1면에 한 건도 걸리지 못했다.
+
+def _art(item_id, title, photo=None, published="2026-09-08T14:00:00+09:00"):
+    from src.models import Item
+    return Item(id=item_id, grade="C" if item_id.startswith("c-") else "B",
+                region="japan", section="news", title=title, summary="요약.",
+                source_name="", source_url="", published_at=published,
+                collected_at=published, status="published", title_hash=item_id,
+                photo=photo)
+
+
+def test_해설은_사진이_없어도_사진_기사보다_앞에_선다():
+    from src.render.site import front_order
+    ordered = front_order([
+        _art("c-aaaaaa", "우리가 쓴 해설"),
+        _art("bbbbbbbb", "남의 기사", photo="x.webp"),
+    ])
+    assert ordered[0].id == "c-aaaaaa"
+
+
+def test_오래된_해설이_1면을_계속_차지하지_않는다():
+    """최신순이 먼저다. 해설이라고 날짜를 거스르지 않는다."""
+    from src.render.site import front_order
+    ordered = front_order([
+        _art("cccccccc", "오늘 기사", photo="x.webp",
+             published="2026-09-08T14:00:00+09:00"),
+        _art("c-old111", "엿새 전 해설",
+             published="2026-09-02T14:00:00+09:00"),
+    ])
+    assert ordered[0].id == "cccccccc"
+
+
+def test_영문_제목은_여전히_뒤로_간다():
+    from src.render.site import front_order
+    ordered = front_order([
+        _art("dddddddd", "Hurricane Lowell remains category 4"),
+        _art("c-eeeeee", "우리가 쓴 해설"),
+    ])
+    assert ordered[0].id == "c-eeeeee"

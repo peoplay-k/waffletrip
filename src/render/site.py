@@ -118,6 +118,15 @@ def load_video(src: str = os.path.join("static", "video")) -> dict | None:
     return meta
 
 
+def is_commentary(item) -> bool:
+    """우리가 써서 사람이 승인한 해설 기사인가.
+
+    publish_drafts 가 발행할 때 id 앞에 'c-' 를 붙인다. 원본 기사 id 는 순수
+    16진수라 접두사가 있으면 겹치지 않는다 — 그 접두사가 곧 표식이다.
+    """
+    return (getattr(item, "id", "") or "").startswith("c-")
+
+
 def front_order(articles: list) -> list:
     """지면 순서. 한글 제목을 앞으로 당긴다.
 
@@ -138,8 +147,18 @@ def front_order(articles: list) -> list:
     # 한글 기사 안에서는 사진 있는 것을 앞으로. 신문 1면에는 사진 기사가 온다.
     # 사진이 붙는 기사가 전체의 일부뿐이라(자사 촬영본만 쓰므로) 최신순으로만
     # 세우면 1면이 글자만으로 채워지는 날이 생긴다.
-    return ([a for a in korean if a.photo] + [a for a in korean if not a.photo]
-            + rest)
+    #
+    # 다만 우리가 쓴 해설은 사진이 없어도 앞자리에 둔다. 사진을 지역별로
+    # 배정하는데 일본·대만처럼 자사 촬영본이 적은 지역은 돌아갈 사진이 없다.
+    # 실측(2026-09-08): 그날 쓴 해설 세 편이 사진이 없다는 이유로 사진 붙은
+    # 인용 기사 일흔 건 뒤로 밀려 1면에 한 건도 걸리지 못했다. 남의 기사를
+    # 앞에 세우고 자기 기사를 뒤로 보내는 지면은 없다.
+    #
+    # 최신순은 그대로 지킨다(정렬이 안정적이므로). 그래서 오래된 해설이
+    # 계속 1면을 차지하지 않는다 — 제 날짜 자리에 남는다.
+    lead_group = [a for a in korean if a.photo or is_commentary(a)]
+    return lead_group + [a for a in korean
+                         if not (a.photo or is_commentary(a))] + rest
 
 # 데이터 패널을 짧게 줄인다. 요약문은 우리가 만든 것이라 형식을 안다
 # (src/fetch/json_api.py). 형식이 안 맞으면 원문을 그대로 쓴다 —
