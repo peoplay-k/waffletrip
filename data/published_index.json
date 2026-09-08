@@ -298,6 +298,7 @@
     "2be3d9cabcb59a462b19970741f8fb70ac53dd40",
     "2c1eadfc4af2ecedc49f8366d7e37ad2bcd15077",
     "2cb8a187defe362a3ba5b3fc720cc86f0c27f7d6",
+    "2cc4c61f4ca47a07cc16d45aaee4944c165f32e9",
     "2cc5186cbe3f7f74e9830d3477fb7aed4e15e1ff",
     "2cd37ac6c537ea2d043eb22ef4aa3159f545a956",
     "2ce6d76f1f800c100a430b2f58a59b220036c883",
@@ -574,6 +575,7 @@
     "5a310d3d42c86c5dbaca6fa812314eeb8de046aa",
     "5a837d00b1d5a8eb126e6d0068a9f38c63c088e5",
     "5a8ac52c3927d7edf0d26959df5728fe47f8425c",
+    "5ab6d0a2076cf1a3df1fd33839079c28d7307da9",
     "5ad866cece51817f04898b67bc7236954486cefd",
     "5adf073c8c46a4701df74e4cb0f16bc291e87d4d",
     "5b1cdbe8b6f1399e14cf25f34fc2d82578efdeb4",
@@ -1103,6 +1105,7 @@
     "b1a50c91f6579f8b5b69257c910057a6866d080a",
     "b1ba9433db9061c990958e8afabe93164428cf23",
     "b1bddfbcecf3d7df23bf9000ddb1b9aae52ab17c",
+    "b1e26da38e366f01b74f1ca6e6e66d493d2f09ee",
     "b1f41d8e14de01c56caabd53d12852c756193f2d",
     "b1ff41a32a5830acfc83717d1f1ee82bbb901e9b",
     "b203b0233850265b0332e27ef12a55fb7d309e3e",
@@ -1166,6 +1169,7 @@
     "b9b6accd39af48537ae7fecdcc7a04a49e431ee1",
     "b9e75d0844c8fffd32d27033699522c7c05a882d",
     "ba337881a3d9e46aa363d0c4336f299c52e44ef4",
+    "ba5f5119072a9342e413d705211a261a0c448447",
     "ba7846886ce8ef3934363d1ca1e43652c07459f8",
     "ba7ab948a2a7a6454bd4e340af81c8caaadf66c3",
     "bad04c367d14aa337ae37a98503ec660effe5ff3",
@@ -1501,6 +1505,7 @@
     "e9545df0cab2af43f0ea02e50c3eb3102badf669",
     "e99d2e1d42c5931275555f25ceb7f2a67e12e74e",
     "e9acdfdabc5b751feabf618003493ebb17ca650f",
+    "e9c1c6b8466d28615e59fb3e4f68971f95e7268d",
     "e9ea22299ad4229e650e43cbffab2cc65af25736",
     "ea126567dd9796627e80727b3e95746a64d1a736",
     "ea7ea6a624d836bb3ca1e5438797b2a41b73b0f6",
@@ -1533,6 +1538,7 @@
     "eee73e49721427c8e5ae71d61995db90ae22e6d9",
     "ef1da3916cdf44d226c7e3dbf593510cce209da6",
     "ef433211bf65d986de2aa55424155a8a61f81438",
+    "ef861ef758813e2194e919cb7f9df6bb9f39e0ea",
     "efa89a189bebb2e7b57766db0961edcf9980d65b",
     "efbc5f5a972c05066804e5ea7fe1f2c9dc3f9010",
     "eff138f99a1305cd5ca4d0d31d32f0eab1a31021",
@@ -12590,6 +12596,48 @@
       "title": "First Alert Forecast: Rain, high winds and big surf as Lowell passes",
       "date": "2026-09-08",
       "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "b1e26da38e366f01b74f1ca6e6e66d493d2f09ee",
+      "title": "도쿄서 온 승객들 국내선에 내려준 대한항공…당시 상황보니",
+      "date": "2026-09-08",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "e9c1c6b8466d28615e59fb3e4f68971f95e7268d",
+      "title": "괌 여행 수요 끌어올린다…아시아 관광업계 200명 초청해 상품 개발·마케팅 협력 확대",
+      "date": "2026-09-08",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "5ab6d0a2076cf1a3df1fd33839079c28d7307da9",
+      "title": "올해 제주감귤 진짜 좋다…당도 높고 산도 낮아 '역대급 품질'",
+      "date": "2026-09-08",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "ba5f5119072a9342e413d705211a261a0c448447",
+      "title": "‘파크골프’, 생활체육 넘어 지역 특화 스포츠로",
+      "date": "2026-09-08",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "ef861ef758813e2194e919cb7f9df6bb9f39e0ea",
+      "title": "최대 365억 투입 정부 ‘원도심 RE:CORE 프로젝트’, 제주 기대감",
+      "date": "2026-09-08",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "2cc4c61f4ca47a07cc16d45aaee4944c165f32e9",
+      "title": "경영권 지키려 항공주권 넘기나… 조원태 회장, 美 델타 이어 日 JAL '외세 백기사' 논란",
+      "date": "2026-09-08",
+      "region": "japan",
       "grade": "B"
     }
   ]
