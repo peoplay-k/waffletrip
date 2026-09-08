@@ -79,3 +79,35 @@ def test_item_roundtrips_with_body_and_related():
         title_hash="h", body_md="# 본문", related=["x", "y"],
     )
     assert item_from_dict(item_to_dict(item)) == item
+
+
+# ── 회사명 꼬리 정규화 ──────────────────────────────────────────────
+# 2026-09-08 실측: 청주~타이베이 취항 3주년 기사가 "에어로케이" 와
+# "에어로케이항공" 으로 갈려 자카드 0.667 로 임계값을 못 넘고 지면에 두 번 실렸다.
+
+def test_회사명_꼬리를_떼면_같은_사건으로_묶인다():
+    from src.models import jaccard, title_tokens
+    a = title_tokens("에어로케이, 청주~타이베이 취항 3주년…39만 명 수송")
+    b = title_tokens("에어로케이항공, 청주-타이베이 취항 3주년... 3년간 39만 명 수송")
+    assert jaccard(a, b) >= 0.7
+
+
+def test_몸통이_두_글자면_꼬리를_떼지_않는다():
+    """제주항공→제주 로 줄이면 제주 지역 기사를 전부 삼킨다."""
+    from src.models import title_tokens
+    for name in ("제주항공", "대한항공", "일본항공", "한진그룹"):
+        assert title_tokens(name) == {name}
+
+
+def test_몸통이_세_글자_이상이면_꼬리를_뗀다():
+    from src.models import title_tokens
+    assert title_tokens("아시아나항공") == {"아시아나"}
+    assert title_tokens("이스타항공") == {"이스타"}
+
+
+def test_제주항공은_제주_기사와_섞이지_않는다():
+    """정규화가 지역명까지 건드리면 안 된다는 회귀 검사."""
+    from src.models import jaccard, title_tokens
+    a = title_tokens("제주항공, 부산~오사카 노선 증편한다")
+    b = title_tokens("제주 관광객 올해 첫 감소…내국인 발길 줄어")
+    assert jaccard(a, b) < 0.7

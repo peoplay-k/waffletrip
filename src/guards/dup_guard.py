@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from datetime import date, datetime, timedelta, timezone
 
 from src.models import Item, jaccard, title_tokens
@@ -119,6 +120,79 @@ def contained(a: set[str], b: set[str]) -> bool:
     return len(short) >= CONTAIN_MIN_TOKENS and short <= long_
 
 
+# ── 같은 사건 판정 ─────────────────────────────────────────────────
+# 자카드로는 못 잡는 중복이 있다. 같은 보도자료를 매체마다 다른 각도로 뽑으면
+# 겹치는 단어 비율이 떨어진다. 실측(2026-09-08): "에어로케이 39만 명 수송" 과
+# "에어로케이 대만인 승객 비중 32%" 는 같은 취항 3주년 발표인데 자카드 0.286
+# 이었다. 그 결과 대한항공·일본항공 한진칼 기사가 지면에 6건, 다낭 국경절
+# 기사가 6건, 진주남강유등축제가 4건 따로 실렸다.
+#
+# 그래서 비율 대신 **고유한 말이 몇 개나 겹치는지**를 센다. 회사·지명·금액처럼
+# 그 사건에만 나오는 말이 넷 이상 겹치면 같은 사건이다.
+EVENT_MIN_SHARED = 4
+
+# 날짜는 사건을 가리지 못한다. "9월 2일 연휴" 는 그 주 베트남 기사 전부에
+# 들어 있어서, 세지 않으면 서로 다른 기사가 날짜만으로 묶인다.
+_CALENDAR = re.compile(r"^\d+[월일년]$")
+
+# 여행 기사면 어디에나 나오는 말. 이것만으로 묶이면 안 된다.
+# "first alert forecast" 는 하와이 방송사의 고정 코너명이라 매일 나온다 —
+# 실측에서 서로 다른 날의 태풍 예보 두 건이 이 이름 때문에 묶일 뻔했다.
+_COMMON_WORDS = frozenset({
+    "여행", "관광", "관광객", "관광객들", "항공", "노선", "취항", "운항", "공항",
+    "호텔", "예약", "확대", "증편", "신규", "오픈", "운영", "시작", "추진", "도입",
+    "한국", "국내", "해외", "연휴", "기간", "동안", "이상의", "수익을", "방문객",
+    "first", "alert", "forecast", "travel", "tourism", "hawaii",
+    "the", "for", "is", "to", "and", "of", "in", "on", "with", "new",
+})
+
+
+def event_tokens(title: str) -> set[str]:
+    """사건을 가리는 말만 남긴다. 날짜와 흔한 여행 낱말은 뺀다."""
+    return {t for t in title_tokens(title)
+            if t not in _COMMON_WORDS and not _CALENDAR.match(t)}
+
+
+def _matches(a: str, b: str) -> bool:
+    """같은 말로 볼 것인가. 조사가 붙은 형태까지 같이 본다.
+
+    한국어 제목은 "대한항공" 과 "대한항공과" 가 다른 낱말로 잡힌다. 조사를 떼는
+    방법은 쓰지 않는다 — "홋카이도"→"홋카이", "고양이"→"고양" 처럼 이름을
+    망가뜨린다. 대신 한 글자 차이의 앞부분 일치만 같은 말로 본다.
+
+    한 글자로 제한한 이유: 두 글자까지 허용하면 "제주" 와 "제주항공" 이 같은
+    말이 되어 제주 지역 기사와 항공사 기사가 붙는다.
+    """
+    if a == b:
+        return True
+    return (abs(len(a) - len(b)) <= 1 and min(len(a), len(b)) >= 2
+            and (a.startswith(b) or b.startswith(a)))
+
+
+def shared_event_words(a: str, b: str) -> int:
+    """두 제목이 같은 사건을 가리키는 말을 몇 개나 공유하는가."""
+    left, right = event_tokens(a), sorted(event_tokens(b))
+    used: set[str] = set()
+    count = 0
+    for token in sorted(left):
+        for other in right:
+            if other not in used and _matches(token, other):
+                used.add(other)
+                count += 1
+                break
+    return count
+
+
+def same_event(a: str, b: str) -> bool:
+    """제목 둘이 같은 사건을 가리키는가.
+
+    문턱을 넷으로 잡은 근거: 9일치 실측에서 셋으로 낮추면 "일본 소도시 이야기
+    ①/②" 같은 연재물과 태풍 순차 속보가 섞였다. 넷에서는 78쌍이 남았고 그중
+    남의 보도끼리 잘못 묶인 쌍은 없었다.
+    """
+    return shared_event_words(a, b) >= EVENT_MIN_SHARED
+
+
 def cluster_batch(items: list[Item],
                   threshold: float = SIMILARITY_THRESHOLD) -> list[Item]:
     """배치 안의 같은 사건을 묶는다. 먼저 온 항목이 대표가 된다.
@@ -135,26 +209,35 @@ def cluster_batch(items: list[Item],
     """
     representatives: list[Item] = []
     # None 은 '이 대표는 클러스터를 받지 않는다'(A등급)는 뜻이다.
-    cluster_tokens: list[list[set[str]] | None] = []
+    # 제목을 같이 들고 다니는 이유: same_event 는 비율이 아니라 겹치는 낱말
+    # 개수를 세므로 원제목이 필요하다.
+    clusters: list[list[tuple[set[str], str]] | None] = []
 
     for item in items:
-        if item.grade == "A":
+        # A등급(우리 사실 데이터)과 출처 없는 글(우리가 쓴 요약)은 클러스터를
+        # 받지 않는다. 실측에서 "이번 주 오사카에서 나온 소식 4건" 과 "이번 주
+        # 후쿠오카에서 나온 소식 4건" 이 같은 사건으로 잡혔다 — 넣었으면 도시별
+        # 요약 페이지가 통째로 사라진다. 지금은 요약을 클러스터링 뒤에 만들어
+        # 여기까지 오지 않지만, 순서가 바뀌어도 안전하도록 막아둔다.
+        if item.grade == "A" or not item.source_url:
             representatives.append(item)
-            cluster_tokens.append(None)
+            clusters.append(None)
             continue
 
         tokens = title_tokens(item.title)
-        for rep, known_list in zip(representatives, cluster_tokens):
+        for rep, known_list in zip(representatives, clusters):
             if known_list is None or rep.region != item.region:
                 continue
-            if any(jaccard(tokens, known) >= threshold or contained(tokens, known)
-                   for known in known_list):
+            if any(jaccard(tokens, known) >= threshold
+                   or contained(tokens, known)
+                   or same_event(item.title, known_title)
+                   for known, known_title in known_list):
                 rep.related.append(item.id)
-                known_list.append(tokens)
+                known_list.append((tokens, item.title))
                 break
         else:
             representatives.append(item)
-            cluster_tokens.append([tokens])
+            clusters.append([(tokens, item.title)])
 
     return representatives
 
