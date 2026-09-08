@@ -249,6 +249,7 @@
     "23c8ec5d2d3199e869c42ec20341fb05ae8d6b0d",
     "2426b087007436aa008447bdbbce1d3037870cfc",
     "246799c85138d8418f1a59e1e88600a81b8904e6",
+    "2475be6c5151828aad8e191bcb789bc028d2ee4e",
     "2520832a634d084cf5ec080faa1affd5cf3f23a5",
     "25231059ae98dfe4ce85a5b24c242cbb6c24c3b1",
     "25876d0e16726aa0bfe72390a6f4169489c90bac",
@@ -332,6 +333,7 @@
     "31fe49cad8d0a5aab12e70c10e7241f256066717",
     "320eb0ba980edf3dc113309c5675e1862a0a171b",
     "3254a0f316e7f81f302152024bd792a06fe1e517",
+    "32772080cd3ffd72153cd322a0f2ed538351ca7f",
     "327aba307c14ef6dafaa3698b1c3b5c8185180a0",
     "328f32327f319e9a9c16c3163e607882dbc32ef7",
     "329c3c60eed3b5d8751110150c84cff1ff639239",
@@ -402,6 +404,7 @@
     "3e4efde077b329612050594e8b7240b7c4a474b7",
     "3e85b9f6fa4519cfe34c90d09c7c4df2b1edc543",
     "3ea89d80d12e5c515d523043782c6c2cf3f09754",
+    "3ec1302e841d57deb9842b84e45841397c9a3240",
     "3edd81dedd07588a66adcc2bed9b6b30587ece79",
     "3f2e6bd00021d4b388a3f49520cb210d81b0da83",
     "3f475670765751e2df27da42fc2031fa4839d7bf",
@@ -961,6 +964,7 @@
     "9b90d0f44697d66d0c39669b86a5446e6b213b47",
     "9bab5c6dfecdb8ec0865c60201a980976886828b",
     "9bb2a6e235ce28508a26168931a4b1442c00dbd3",
+    "9bb6619ee54df5f432fcf63694415fc645da18db",
     "9bf7942523a9907e83f3439cec91f9840c8d6bc3",
     "9c4c76e3ac9eb30a2e5e1dce45443243dc749399",
     "9c5ef876f46757cc78fcde846f421f23d5833fcf",
@@ -1520,6 +1524,7 @@
     "ef433211bf65d986de2aa55424155a8a61f81438",
     "efa89a189bebb2e7b57766db0961edcf9980d65b",
     "efbc5f5a972c05066804e5ea7fe1f2c9dc3f9010",
+    "eff138f99a1305cd5ca4d0d31d32f0eab1a31021",
     "eff459c5d59933f8d41b44e46f7d625f02608f29",
     "f02b454e2d6d265377d8835190028ab2ffc87d70",
     "f0561ac223f608d54e9be9ae3cdf8d558a418231",
@@ -12363,7 +12368,7 @@
       "id": "c339260c7e57e59d0c738a03d3b3e9b87dc5a0d5",
       "title": "힐튼·바운시 바이 리가, 방콕과 후쿠오카에 새 호텔 오픈",
       "date": "2026-09-08",
-      "region": "japan",
+      "region": "thailand",
       "grade": "B"
     },
     {
@@ -12460,6 +12465,41 @@
     {
       "id": "a874fb823da7dc5aae1dafc1a7fc987bd58a9bc0",
       "title": "도쿄서 왔는데 국내선 청사에 내려준 대한항공…일부는 심사없이 공항 밖으로",
+      "date": "2026-09-08",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "3ec1302e841d57deb9842b84e45841397c9a3240",
+      "title": "일본항공, 한진칼 주주로…조원태·호반 격차 0.42%p",
+      "date": "2026-09-08",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "2475be6c5151828aad8e191bcb789bc028d2ee4e",
+      "title": "서울, 아시아 재방문 여행지 4위…도쿄·나트랑·발리 뒤이어",
+      "date": "2026-09-08",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "9bb6619ee54df5f432fcf63694415fc645da18db",
+      "title": "제주 중문관광단지 매각 또 무산 ‘벌써 3번째’",
+      "date": "2026-09-08",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "32772080cd3ffd72153cd322a0f2ed538351ca7f",
+      "title": "Indonesia volcanic eruption disrupts flights, but no mass stranding at Penang airport",
+      "date": "2026-09-08",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "eff138f99a1305cd5ca4d0d31d32f0eab1a31021",
+      "title": "오키나와 남부 카지노 호텔 - 현장에서의 경험과 통찰력",
       "date": "2026-09-08",
       "region": "japan",
       "grade": "B"
