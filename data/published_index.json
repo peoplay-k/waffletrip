@@ -1042,6 +1042,7 @@
     "a83ef6b078c9c9e1e9c1f1b7a2d6da185e91afef",
     "a8517c917dabfb8d8877a4e21369fa88addc134d",
     "a86c592dc86fa82bec313b5378e3d70331536254",
+    "a874fb823da7dc5aae1dafc1a7fc987bd58a9bc0",
     "a877826b46d74e9e205389e80866c31cdaf478f2",
     "a879b4a55775a7b6f8c2df6f5ab3ac4fa2b7b1a3",
     "a8840d90e36e88dd7f4dc17377449e054e5cc6e0",
@@ -12452,6 +12453,13 @@
     {
       "id": "60531402bbd15fbd4e1946d1765f236a5d8811f6",
       "title": "대전시, 삿포로 눈 축제장서 대전 관광홍보관 운영",
+      "date": "2026-09-08",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "a874fb823da7dc5aae1dafc1a7fc987bd58a9bc0",
+      "title": "도쿄서 왔는데 국내선 청사에 내려준 대한항공…일부는 심사없이 공항 밖으로",
       "date": "2026-09-08",
       "region": "japan",
       "grade": "B"
