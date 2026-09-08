@@ -5,6 +5,12 @@
       "collected": 351,
       "published": 0,
       "failed_sources": []
+    },
+    {
+      "date": "2026-09-08",
+      "collected": 460,
+      "published": 70,
+      "failed_sources": []
     }
   ]
 }
