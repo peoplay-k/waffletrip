@@ -238,6 +238,7 @@
     "2281d91dcda4acd4a30d542de8e3983618faab0d",
     "228cfd6ed8de19c22034e07d826d546055fdbc56",
     "229495e9906cf11e6a40930300913a89ded670d3",
+    "229f0648ee0c7e73caf857a68bceaee3b0774eaf",
     "22b59a36570541454fd2b3aecccbab1666c66a05",
     "22f9e8b4e9fefae8f22c81ad5d8a7a1d2042f5a3",
     "232797a24c45ad8a0f162659d4d7051e5adf6009",
@@ -326,6 +327,7 @@
     "30dd653c21949da168c0801665b64d24b83ccd45",
     "30f4c01c4315edb8d2373b33364149a53ee3ab72",
     "31267c5118e41d16e9d910c713392755d3b5cc8e",
+    "313031895b5b9951c337517ed67fffb3444e79ad",
     "314961d8f23feb2a3edd3488856334e1d2320396",
     "314d69b33ca97f038310515f70de2a9b1a4f5407",
     "317a5dbab758538a6b5d3c7a5546ca321d3dd869",
@@ -414,6 +416,7 @@
     "3f65607b3a9ecc7137d88ef23fc750cf3d45f9d8",
     "3fa6a88ea26016594906d7519ec22bec9d43458d",
     "3fda7301d0e70b7e0ae8e1f30c7f2561c5043f0e",
+    "402c60d253db3094b29933b86ee85122bc51318c",
     "404f858a2da4a9ffcaf948ccabf401bd7e97cfd7",
     "4050faecd443d4ebd03326728d92d4352b34fa73",
     "4077cd113d99ad58b45d0b878ed13dc6a0b681b1",
@@ -429,6 +432,7 @@
     "4298f99035203c3e3715b765fb5eb3ff8ef57330",
     "42c8580c41be0b1b19aae3352195709213ff6a4e",
     "42f77aba648c971f7db8d6b5b031e8754b15f119",
+    "432dd389f143dc36a32e519cd1fc07036cb83efa",
     "436f3bdba2923b0deb5fee31e9eaabd50ac70cdf",
     "4370678357d949d57ba28ae9bd299d8b603de41e",
     "438cff83de9a5599268af36c687c833c0c82d831",
@@ -787,6 +791,7 @@
     "7c803578fd90bdfde072597baaaf76b67c7c9eb6",
     "7c8728fd62f450854bff82fcc6302048923dbe20",
     "7c87eb77f1d94a431f837f5d0b98e5587a4c9f96",
+    "7ce16197f1498cc73dc352c808ff20abe98ed754",
     "7ce1feb8c44deea6638340636de9f521b7c5fa2e",
     "7ce464df6ef88507777c173556b50dcda7250339",
     "7d03a098d5ef52a20dbccb1c1afeac59898b2564",
@@ -811,6 +816,7 @@
     "7eed1708605a7ab6db7032bd4ce5b1768f31eb5c",
     "7f491bf2a743df3faac51fc2de66dd46e5d6faf5",
     "7f544c115b8e738e9f73ea1964c106476350b97a",
+    "7f8718b1483858bda07f6866dfbd5765f1a8bc37",
     "8007ad06aee5032ccb218e3262c046aa372d0963",
     "8012972d68a3c4286d206771386756a2d9df9826",
     "80480fe5c5e23baf0351155cdf141f953f64c196",
@@ -1146,6 +1152,7 @@
     "b63c3b5cefbe1740b0d648b5bd59916b1170292a",
     "b6718ed0f64ed753ef1c5f74b277ef70ba0e7251",
     "b6797ceac46e15880e01120a77637f638491fc34",
+    "b6facbe65d702841fd5e75da46b7ff082af131ad",
     "b70aeacb1c925b135172116eec873716f0c4ce67",
     "b721e290c7722ba9523f27e68ac7dd67820c562a",
     "b724eb92b095593ad1ac27275f525b8efb264160",
@@ -12638,6 +12645,55 @@
       "title": "경영권 지키려 항공주권 넘기나… 조원태 회장, 美 델타 이어 日 JAL '외세 백기사' 논란",
       "date": "2026-09-08",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "7f8718b1483858bda07f6866dfbd5765f1a8bc37",
+      "title": "JDC-베트남 정부 \"투자 협력으로 상생 발전 나섰다\"",
+      "date": "2026-09-08",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "7ce16197f1498cc73dc352c808ff20abe98ed754",
+      "title": "9월 제주는 ‘안전의 달’, 민관 자원 총력 투입",
+      "date": "2026-09-08",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "432dd389f143dc36a32e519cd1fc07036cb83efa",
+      "title": "9월 셋째 주말, 신산공원은 ‘독서 토론 생중계장’",
+      "date": "2026-09-08",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "402c60d253db3094b29933b86ee85122bc51318c",
+      "title": "제주해경, 10월까지 해상종합훈련…500여명 참여",
+      "date": "2026-09-08",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "b6facbe65d702841fd5e75da46b7ff082af131ad",
+      "title": "Kalimantan forest fires cause severe haze, water shortages",
+      "date": "2026-09-08",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "229f0648ee0c7e73caf857a68bceaee3b0774eaf",
+      "title": "Living Through Hurricane Lowell On Kauai, Here’s What We’re Seeing.",
+      "date": "2026-09-08",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "313031895b5b9951c337517ed67fffb3444e79ad",
+      "title": "Penang Airport operations remain normal despite haze, Jakarta volcanic ash disruptions",
+      "date": "2026-09-08",
+      "region": "kota",
       "grade": "B"
     }
   ]
