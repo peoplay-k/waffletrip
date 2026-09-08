@@ -109,7 +109,18 @@ jobs:
             echo "변경 없음 — 커밋 생략"
           else
             git commit -m "chore: $(date -u -d '9 hours' +%Y-%m-%d) 발행 기록"
-            git push
+            # 도는 동안 누가 밀면 푸시가 거부된다. 해설 예약이 매일 밀기
+            # 시작하면서 실제로 났다. 여기서 그냥 죽으면 published_index 가
+            # 커밋되지 않아 다음날 같은 기사가 다시 나갈 수 있다 —
+            # 재발행은 이 신문에서 가장 나쁜 사고다. 그러니 다시 붙여 민다.
+            for i in 1 2 3; do
+              git push && exit 0
+              echo "푸시 거부 — 원격을 받아 다시 얹는다 ($i/3)"
+              git pull --rebase origin main || exit 1
+              sleep 5
+            done
+            echo "세 번 시도했는데 밀지 못했다." >&2
+            exit 1
           fi
 
       - uses: actions/configure-pages@v5
