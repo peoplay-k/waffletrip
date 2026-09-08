@@ -10,6 +10,7 @@ import re
 import xml.etree.ElementTree as ET
 from email.utils import format_datetime
 from datetime import datetime
+from urllib.parse import quote, urlsplit, urlunsplit
 
 from src.models import Item
 from src.render.site import (BASE_PATH, REGION_NAMES, SITE_NAME, SITE_TAGLINE, SITE_URL,
@@ -29,6 +30,27 @@ _CONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
 
 def _xml_safe(text: str) -> str:
     return _CONTROL.sub("", text or "")
+
+
+# 경로에 그대로 둬도 되는 문자. 나머지 — 한글 포함 — 는 퍼센트 인코딩한다.
+_PATH_SAFE = "/-_.~"
+
+
+def encoded_url(url: str) -> str:
+    """주소의 경로를 퍼센트 인코딩한다.
+
+    sitemap.xml 과 rss.xml 은 규격상 주소를 인코딩해서 실어야 한다. 우리 주소는
+    제목을 슬러그로 쓰기 때문에 392개 중 256개에 한글이 그대로 들어 있었다.
+    구글은 관대해서 그냥 받아줬지만(407쪽 인식) 네이버 서치어드바이저는
+    사이트맵 제출 자체를 거부했다.
+
+    파일 경로와 페이지 안 링크는 건드리지 않는다. 브라우저가 알아서 인코딩하고,
+    이미 구글에 색인된 주소를 바꾸면 그쪽이 전부 새 주소가 된다. 인코딩한 주소와
+    원래 주소는 같은 자원을 가리키므로 색인은 그대로 유지된다.
+    """
+    parts = urlsplit(url)
+    return urlunsplit((parts.scheme, parts.netloc,
+                       quote(parts.path, safe=_PATH_SAFE), parts.query, ""))
 
 
 def _rfc822(iso: str) -> str:
@@ -64,7 +86,7 @@ def render_rss(items: list[Item], out_dir: str, built_at: str) -> str:
 
     for item in articles:
         node = ET.SubElement(channel, "item")
-        link = SITE_URL + BASE_PATH + article_url(item)
+        link = encoded_url(SITE_URL + BASE_PATH + article_url(item))
         ET.SubElement(node, "title").text = _xml_safe(item.title)
         ET.SubElement(node, "link").text = link
         ET.SubElement(node, "guid", {"isPermaLink": "true"}).text = link
@@ -102,7 +124,8 @@ def render_sitemap(items: list[Item], out_dir: str, today: str) -> str:
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for url in urls:
-        lines.append(f"  <url><loc>{url}</loc><lastmod>{today}</lastmod></url>")
+        lines.append(f"  <url><loc>{encoded_url(url)}</loc>"
+                     f"<lastmod>{today}</lastmod></url>")
     lines.append("</urlset>")
     return _write(os.path.join(out_dir, "sitemap.xml"), "\n".join(lines) + "\n")
 

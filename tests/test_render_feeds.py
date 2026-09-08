@@ -1,3 +1,4 @@
+import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -201,3 +202,42 @@ def test_llms_txt_urls_carry_the_base_path(tmp_path, monkeypatch):
     text = (tmp_path / "llms.txt").read_text(encoding="utf-8")
     for line in [l for l in text.splitlines() if l.startswith("- [")]:
         assert "/waffletrip/" in line, line
+
+
+# ── 주소 인코딩 ────────────────────────────────────────────────────
+# 2026-09-08: 사이트맵 392개 중 256개에 한글이 그대로 들어 있어 네이버
+# 서치어드바이저가 사이트맵 제출을 거부했다.
+
+def test_사이트맵_주소에_한글이_남지_않는다(tmp_path):
+    from src.render.feeds import render_sitemap
+    items = [make("1", "일본항공 한진칼 지분 인수", region="japan")]
+    render_sitemap(items, str(tmp_path), "2026-09-08")
+    xml = (tmp_path / "sitemap.xml").read_text(encoding="utf-8")
+    locs = re.findall(r"<loc>([^<]+)</loc>", xml)
+    assert locs
+    assert not any(re.search(r"[가-힣]", u) for u in locs), \
+        [u for u in locs if re.search(r"[가-힣]", u)]
+
+
+def test_rss_주소에_한글이_남지_않는다(tmp_path):
+    from src.render.feeds import render_rss
+    items = [make("1", "다낭 국경절 연휴 관광객 증가", region="vietnam")]
+    render_rss(items, str(tmp_path), NOW)
+    xml = (tmp_path / "rss.xml").read_text(encoding="utf-8")
+    links = re.findall(r"<link>([^<]+)</link>", xml)
+    assert not any(re.search(r"[가-힣]", u) for u in links), links
+
+
+def test_인코딩해도_같은_자원을_가리킨다():
+    """이미 색인된 주소가 새 주소로 갈리면 안 된다."""
+    from urllib.parse import unquote, urlsplit
+    from src.render.feeds import encoded_url
+    raw = "https://waffletrip.com/japan/3ec1302e-일본항공-한진칼-주주로/"
+    assert unquote(urlsplit(encoded_url(raw)).path) == urlsplit(raw).path
+
+
+def test_아스키_주소는_그대로_둔다():
+    from src.render.feeds import encoded_url
+    for u in ("https://waffletrip.com/", "https://waffletrip.com/city/tokyo/",
+              "https://waffletrip.com/sitemap.xml"):
+        assert encoded_url(u) == u
