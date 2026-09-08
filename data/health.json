@@ -8,9 +8,11 @@
     },
     {
       "date": "2026-09-08",
-      "collected": 460,
-      "published": 70,
-      "failed_sources": []
+      "collected": 456,
+      "published": 75,
+      "failed_sources": [
+        "saipan_tribune"
+      ]
     }
   ]
 }
