@@ -162,10 +162,17 @@ def build_city_roundup(recent, slug: str, day: str, days: int = 7) -> Item | Non
     picked = [i for i in _recent_b(recent, day, days) if slug in cities_of(i)]
     if len(picked) < ROUNDUP_MIN:
         return None
+    # 도시 지면이 실제로 생길 때만 그쪽으로 링크한다. 브리핑은 이레 기준인데
+    # 도시 지면은 MIN_ARTICLES 를 넘어야 생겨서, 그냥 걸면 없는 쪽으로 간다
+    # (실측: 타이베이·삿포로·하노이 브리핑이 전부 404 로 연결됐다).
+    # 이레치가 그 기준을 넘으면 열나흘치는 당연히 넘으므로 지면이 있다.
+    from src.cities import MIN_ARTICLES
+    region = CITY_REGION[slug]
+    has_city_page = len(picked) >= MIN_ARTICLES
+    link = f"/city/{slug}/" if has_city_page else f"/{region}/"
     picked.sort(key=lambda i: i.published_at, reverse=True)
-    picked = picked[:8]
-    return _roundup(picked, region=CITY_REGION[slug], name=CITY_NAMES[slug],
-                    day=day, link=f"/city/{slug}/",
+    return _roundup(picked[:8], region=region, name=CITY_NAMES[slug],
+                    day=day, link=link,
                     key=f"roundup|city|{slug}|{_week_key(day)}")
 
 

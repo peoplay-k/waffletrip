@@ -32,6 +32,12 @@ def _inline(text: str) -> str:
         label = m.group(1)
         if not href:
             return label
+        # 우리 쪽 링크에는 nofollow·새 창을 붙이지 않는다. nofollow 는 남의
+        # 사이트로 신뢰를 넘기지 않으려는 표시인데 우리 쪽에 붙이면 우리
+        # 지면끼리 연결이 검색엔진에 전달되지 않는다. 새 창도 같은 사이트
+        # 안에서는 성가시기만 하다.
+        if href.startswith("/"):
+            return '<a href="%s">%s</a>' % (html.escape(href, quote=True), label)
         return '<a href="%s" rel="nofollow noopener" target="_blank">%s</a>' % (
             html.escape(href, quote=True), label)
 

@@ -148,7 +148,9 @@ def test_city_roundup_groups_by_city_not_region():
     assert art.title == "이번 주 도쿄에서 나온 소식 3건"
     assert art.grade == "C" and art.region == "japan"
     assert "오사카 간사이" not in art.body_md
-    assert "/city/tokyo/" in art.body_md
+    # 3건뿐이라 도쿄 지면은 만들어지지 않는다. 없는 쪽으로 링크하면 404 다.
+    assert "/japan/" in art.body_md
+    assert "/city/tokyo/" not in art.body_md
 
 
 def test_city_roundup_needs_three_items():
@@ -193,3 +195,37 @@ def test_city_roundup_is_also_weekly():
     a = build_city_roundup(recent, "tokyo", "2026-09-03")
     b = build_city_roundup(recent, "tokyo", "2026-09-06")
     assert a.id == b.id
+
+
+def _story(n: int, title: str, region: str = "taiwan") -> Item:
+    """도시 브리핑 재료. 지난 이레 안에 든 B등급 기사여야 뽑힌다."""
+    return Item(id=f"s{n}", grade="B", region=region, section="news",
+                title=title, summary="요약.", source_name="여행신문",
+                source_url="https://example.com/a", published_at=DAY,
+                collected_at=DAY, status="published",
+                title_hash=title_hash(title))
+
+
+def test_city_roundup_links_to_the_region_page():
+    """도시 지면은 열나흘 기준 여덟 건을 넘어야 생기는데 브리핑은 이레 기준이다.
+
+    기준이 달라 없는 쪽으로 링크가 갔다 — 실측에서 타이베이·삿포로·하노이
+    브리핑이 전부 404 로 연결됐다. 지역면은 언제나 있고 그 도시 기사도 거기 있다.
+    """
+    from src.autowrite import build_city_roundup
+    stories = [_story(n, f"타이베이 소식 {n}") for n in range(6)]
+    article = build_city_roundup(stories, "taipei", DAY)
+    assert article is not None
+    assert "/taiwan/" in article.body_md
+    assert "/city/taipei/" not in article.body_md
+
+
+def test_city_roundup_links_to_the_city_page_when_it_exists():
+    """기사가 충분히 쌓인 도시는 도시 지면이 생긴다. 그때는 그쪽으로 보낸다."""
+    from src.autowrite import build_city_roundup
+    from src.cities import MIN_ARTICLES
+    recent = [_b(f"t{n}", f"도쿄 하네다 소식 {n}", "japan",
+                 "2026-09-02T00:00:00+09:00") for n in range(MIN_ARTICLES)]
+    art = build_city_roundup(recent, "tokyo", "2026-09-03")
+    assert art is not None
+    assert "/city/tokyo/" in art.body_md
