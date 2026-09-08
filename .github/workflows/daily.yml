@@ -64,6 +64,27 @@ jobs:
       - name: 빌드
         run: python -m src.build
 
+      # 영상 대본과 화면을 매일 만든다. 여기까지가 무료다 — 나레이션은
+      # 크레딧이 들어 사람이 보고 결정한다. 화면은 저장소에 넣지 않고
+      # 아티팩트로 내린다(하루 1.2MB 씩 쌓으면 저장소가 못 버틴다).
+      # 한글 폰트가 없으면 네모만 그려진 화면이 나오므로 먼저 깐다.
+      # 영상이 실패해도 신문은 나가야 하므로 여기서 멈추지 않는다.
+      - name: 영상 대본·화면
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk
+          python tools/make_longform.py --frames video-frames
+        continue-on-error: true
+
+      - name: 영상 화면 내려받기용
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: video-frames
+          path: video-frames/
+          retention-days: 30
+          if-no-files-found: ignore
+
       # 조용한 실패를 잡는다. 이상하면 exit 1 로 죽어 Actions 실패 메일이 간다.
       # 빌드 뒤에 두는 이유 — 오늘치 사이트는 일단 내보내고 나서 경보를 울린다.
       - name: 건강검진
@@ -77,7 +98,7 @@ jobs:
           # 사라진다. '3일 연속 발행 0건' 같은 검사는 과거 기록이 있어야
           # 성립하므로, 빠뜨리면 검진 세 개 중 두 개가 꺼진 것과 같다.
           git add data/items data/published_index.json data/resolved.json \
-                  data/health.json content/review || true
+                  data/health.json content/review longform_script.json || true
           if git diff --cached --quiet; then
             echo "변경 없음 — 커밋 생략"
           else

@@ -42,7 +42,25 @@ def _sentence(text: str, limit: int) -> str:
     return first
 
 W, H = 1920, 1080
-FONT = "/System/Library/Fonts/AppleSDGothicNeo.ttc"
+# 한글 폰트. 맥에서 만들고 리눅스(CI)에서도 만든다. 리눅스 러너에는 애플
+# 폰트가 없고, PIL 의 기본 폰트는 한글을 못 그려 화면이 네모로 찬다.
+# 그래서 있는 것을 골라 쓴다 — 없으면 만들지 않고 왜 못 만드는지 말한다.
+_FONT_CANDIDATES = (
+    "/System/Library/Fonts/AppleSDGothicNeo.ttc",                 # macOS
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",     # Debian/Ubuntu
+    "/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc",
+    "/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc",
+)
+
+
+def _find_font() -> str:
+    for path in _FONT_CANDIDATES:
+        if os.path.exists(path):
+            return path
+    return ""
+
+
+FONT = _find_font()
 PAD = 132
 
 # 사이트와 같은 색을 쓴다. 영상만 다른 색이면 같은 매체로 보이지 않는다.
@@ -60,10 +78,19 @@ MAX_REGIONS = 6
 
 
 def _f(size: int, weight: int = 0):
+    """한글 폰트를 연다. 없으면 조용히 넘어가지 않고 멈춘다.
+
+    기본 폰트로 물러나면 한글이 전부 네모로 그려진 화면이 만들어진다.
+    깨진 화면을 만드는 것보다 만들지 않는 편이 낫다.
+    """
+    if not FONT:
+        raise RuntimeError(
+            "한글 폰트를 찾지 못했다. 화면을 만들지 않는다.\n"
+            "  우분투: sudo apt-get install -y fonts-noto-cjk")
     try:
         return ImageFont.truetype(FONT, size, index=weight)
-    except OSError:
-        return ImageFont.load_default()
+    except OSError as e:
+        raise RuntimeError(f"폰트를 열지 못했다: {FONT} — {e}") from e
 
 
 def _wrap(draw, text: str, font, max_w: int) -> list[str]:
