@@ -73,7 +73,11 @@ jobs:
         run: |
           git config user.name  "waffletrip-bot"
           git config user.email "bot@waffletrip.com"
-          git add data/items data/published_index.json data/resolved.json content/review || true
+          # health.json 을 빼면 건강검진이 매일 돌고도 기록이 러너와 함께
+          # 사라진다. '3일 연속 발행 0건' 같은 검사는 과거 기록이 있어야
+          # 성립하므로, 빠뜨리면 검진 세 개 중 두 개가 꺼진 것과 같다.
+          git add data/items data/published_index.json data/resolved.json \
+                  data/health.json content/review || true
           if git diff --cached --quiet; then
             echo "변경 없음 — 커밋 생략"
           else
