@@ -7,6 +7,7 @@
     "00ab6c5f27098cceefecc866fb69753f3264f38c",
     "00bfb06296171d0a8f6924a16123e7e8c4f586af",
     "0100e10b2004de9b58249487827671b496a9810d",
+    "01075023e23393edfe8d9fa79bf8fcc47ffa9e64",
     "011bbc5775adda2d00206bf0e28d544140434511",
     "01292377bee5a0801fc5ca97411f2fc0be948bca",
     "01311c523ffaa422fc95bbadd2e244877b19c80f",
@@ -93,6 +94,7 @@
     "0e99449527450ba147e023742d4cc46d600af723",
     "0efa378e5cbbeb713e5a69bb2740b3b4e39e908c",
     "0f985517c6ec32caa62b79ecc0570fae0f005ab5",
+    "0ff3913f7a84c7b616e4bc587d6853e0c97b24f0",
     "100037a34e5190db5ab48b71bbc797f90935ff31",
     "1001d7f7aa5b7f3d741fc8b148ee2878e69a54ad",
     "1003922e453a7724d76e835ccea38a379342eedb",
@@ -105,6 +107,7 @@
     "10d2fe16dfd87b164da3e7b48a652d8e1040a544",
     "10e6deedd5b9daab0cf3eab5696934cbabb987d7",
     "1130f080741d5d95891efda0b09e682a8e4b6360",
+    "1148120e8c2bdbf4d15107ac50a8dc82261b9288",
     "1156625d4d20560bb44b14ca78e5ac8774fe450c",
     "11887a7c0d38888fbf666031e14199faac6b2ee2",
     "11a67d0f9ae474cf1b95e5e7fde9997a73ad41cc",
@@ -480,6 +483,7 @@
     "4ac7ce8b1ae0b84430d0d5080f6d673e9efe57e2",
     "4b105f86f79f9e4c8abe9881e3ccbfd35cfe1730",
     "4b2bf4f2275e839c590c8c820b076b59a2e6c5d0",
+    "4b55d0e58483c6b818ced3cc59f627d2c681bc85",
     "4b83744fa0ba5d9e20b587a8479fb533539bbc1d",
     "4bd006d6e0a8291a4997ce95268c4f8282d4fa1e",
     "4c21401c8a3ac0697985e50f35ee2fb24d7f829c",
@@ -605,6 +609,7 @@
     "5fd29846fea4679bac7336db4f095a98f145b860",
     "5fdbe3560a40fe309e59363e20ee914607d609b6",
     "5fe75042fae6e946e29bd4a3896212fbbe3a4429",
+    "60531402bbd15fbd4e1946d1765f236a5d8811f6",
     "609d338c0af5e608e589b718559c57b993996727",
     "60a2afe20b9161bd7fe449109f619a70a4dc61e9",
     "60b111e3b1b7e45b84e4f2907c40b9eeb5ecf35f",
@@ -836,6 +841,7 @@
     "86ee2e8cb65f88f1163099046a2596f532310568",
     "879e8d2f44da82224d0c0532134eaed0426c8b30",
     "87d1ef3a0a8a96dbe0c23dd254db335b59072cda",
+    "880de3d9bec349dd6297127aaa2ed701aefaee46",
     "8813b56f8bd4b9bfc839ddaca341ca06b289f96f",
     "8816305702b491e28d5a314443a92823a49a5765",
     "8821d58a1504194a597b64f6fd9ffa1b91f167b7",
@@ -902,6 +908,7 @@
     "932902ab5b26103a4de481efb873e8c32f5870d7",
     "933949fb81ca3b170a6680c1d3aca486813be990",
     "93693ae7b6b5d9dac434fa9f3bbb1718badfc014",
+    "93b9d82fc6d2be1173156f188e7662bf9fe870db",
     "93be1aa73468ef5a4d852e63d418eed62537f5dd",
     "93d52aee007587828a2c61110fcdbbb0cc21083f",
     "93ef4d518ab551954abed28335e0354f23b6f4d3",
@@ -1087,6 +1094,7 @@
     "b1bddfbcecf3d7df23bf9000ddb1b9aae52ab17c",
     "b1f41d8e14de01c56caabd53d12852c756193f2d",
     "b1ff41a32a5830acfc83717d1f1ee82bbb901e9b",
+    "b203b0233850265b0332e27ef12a55fb7d309e3e",
     "b245d48e26fbd97172b613b74118872abbcb4837",
     "b256e043321889a92e2647f3008cabd68d4e4ea3",
     "b2a0a2db8378a37b9614c3a311b2f6243800637c",
@@ -1500,6 +1508,7 @@
     "ed9bd5f126cdac0c4a48008d479d48261269d76e",
     "edbaf0ad94014549a5d5c196fb1143dfbf2277be",
     "edd2f18d235925310c0c881fc909717b770028a5",
+    "edf1580788dda214a973614838a5d8a19632f9a7",
     "ee088198006568ba23b2f28ab180b1914a586a94",
     "ee0f30fb72d1581c1114d1b7646bff79929576b8",
     "ee2a0af0c84a5db078e6fe0ccff79e7fc75c087e",
@@ -1570,6 +1579,7 @@
     "f83e86f8fd178c47dcd8c222d1bc68165477fe8c",
     "f8811d0a8a96adb7511b6ee5b0c2b480eeb35235",
     "f8a5d34da1e88f5c05f9790dd9fecf1882f0cdb5",
+    "f8c4a52c06e78560a1a469d9f32133ff489f2844",
     "f8ff3d1b15df7dc93832e2547a9c2f3f1ca78743",
     "f983139d4b67fc596e56a5319b91a0e61a58116c",
     "f9b9b16a34e410ddf5f0353ed915fc9b94ba2482",
@@ -12372,6 +12382,76 @@
     {
       "id": "c44d9cbc2b6676b17b834dba89a773f6c6859b33",
       "title": "아고다, 추석 여행 검색 분석…후쿠오카·제주 가장 많이 찾았다",
+      "date": "2026-09-08",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "b203b0233850265b0332e27ef12a55fb7d309e3e",
+      "title": "이번 주 하노이에서 나온 소식 3건",
+      "date": "2026-09-08",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "edf1580788dda214a973614838a5d8a19632f9a7",
+      "title": "오늘의 날씨 — 하갓냐",
+      "date": "2026-09-08",
+      "region": "guam",
+      "grade": "A"
+    },
+    {
+      "id": "93b9d82fc6d2be1173156f188e7662bf9fe870db",
+      "title": "오늘의 날씨 — 사이판",
+      "date": "2026-09-08",
+      "region": "saipan",
+      "grade": "A"
+    },
+    {
+      "id": "1148120e8c2bdbf4d15107ac50a8dc82261b9288",
+      "title": "오늘의 날씨 — 호놀룰루",
+      "date": "2026-09-08",
+      "region": "hawaii",
+      "grade": "A"
+    },
+    {
+      "id": "4b55d0e58483c6b818ced3cc59f627d2c681bc85",
+      "title": "오늘의 날씨 — 다낭",
+      "date": "2026-09-08",
+      "region": "vietnam",
+      "grade": "A"
+    },
+    {
+      "id": "0ff3913f7a84c7b616e4bc587d6853e0c97b24f0",
+      "title": "오늘의 날씨 — 코타키나발루",
+      "date": "2026-09-08",
+      "region": "kota",
+      "grade": "A"
+    },
+    {
+      "id": "880de3d9bec349dd6297127aaa2ed701aefaee46",
+      "title": "오늘의 날씨 — 비엔티안",
+      "date": "2026-09-08",
+      "region": "laos",
+      "grade": "A"
+    },
+    {
+      "id": "f8c4a52c06e78560a1a469d9f32133ff489f2844",
+      "title": "오늘의 날씨 — 제주",
+      "date": "2026-09-08",
+      "region": "jeju",
+      "grade": "A"
+    },
+    {
+      "id": "01075023e23393edfe8d9fa79bf8fcc47ffa9e64",
+      "title": "Lihue Airport, commercial ports close as Hurricane Lowell nears Kauai",
+      "date": "2026-09-08",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "60531402bbd15fbd4e1946d1765f236a5d8811f6",
+      "title": "대전시, 삿포로 눈 축제장서 대전 관광홍보관 운영",
       "date": "2026-09-08",
       "region": "japan",
       "grade": "B"
