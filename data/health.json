@@ -14,11 +14,11 @@
     },
     {
       "date": "2026-09-09",
-      "collected": 576,
-      "published": 150,
+      "collected": 597,
+      "published": 152,
       "failed_sources": [
         "guam_pdn",
-        "guam_post"
+        "kota_nst"
       ]
     }
   ]
