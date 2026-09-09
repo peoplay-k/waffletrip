@@ -457,6 +457,7 @@
     "442257e76a1e57e640d6083d821b816ceb2ce561",
     "44229f7d8146905151b3cc0b4d794d4eeed8517b",
     "44769d733a9bc99362fd897079f4b5cfa0b1cf74",
+    "449f60559a1a2fc80654f1651003a89cbc54239d",
     "44e83046da221dc49102c21f1ec2ad188840cdff",
     "4508e900058db0cd9756197cab4c96b39e9f4d0c",
     "453f3581b3206a54f7d9bedec34abd9cd8fa695d",
@@ -489,6 +490,7 @@
     "4880fce6c73db5e9ba61f4b38a46e9ae6cdf73cc",
     "48967ebe9b03f2c0f2859e24adb6e675ada62984",
     "48a5ed59165dd8544f9b5392b94310ab0a24f11a",
+    "48cd17fcea20fe12810cb85ef7c107db2a25eb85",
     "48deee0bfe4fc802c15b82e6b0089387c5aba6e0",
     "48fe5082b4e377b7a7476b1db93fbacc595fbdb8",
     "49073942e39b12d77f1fd2091f00d6b01dbe6076",
@@ -837,6 +839,7 @@
     "7dffe3d6356e70da069616187f720b8387ea208a",
     "7e11fb7c35aa8dfe4bffb9843468fe6f144cf056",
     "7e2749d90f5a38a930f69723378c311764ddc045",
+    "7e4bbfd5c0fb6670426e92a5c7bc79069e0fb463",
     "7e5c55d672a1ca235cb1604d1713260998ac1f61",
     "7e70f98b57f2879f9c0d8bed71762fab655590ba",
     "7e8c8484bde4842b90b7eb570d987f8f13cf4ae5",
@@ -1181,6 +1184,7 @@
     "b458a085f057752569c45ef46e595bfa5d8bfe7d",
     "b4793dd92bc0f4c5215174d8fa50f950fdfff481",
     "b48937024da90cbcff94c17119cf4cdc7653f9ac",
+    "b48b03bbbed321a839dac37602dd3cb067cbb1aa",
     "b4b5f14ccc5b9d41279c1711ed554704ee016bcf",
     "b4c25741b7ef2076d18488f991367a06f8703591",
     "b4de3a7ee04b4a2762d536bdbc40bbc6671aa5d4",
@@ -13180,6 +13184,34 @@
     {
       "id": "5e57ba76b16d27e363d9aadd6beb7c40638fc6a3",
       "title": "33,000 without power on Kauaʻi as storm ravages grid, triggers water emergency",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "7e4bbfd5c0fb6670426e92a5c7bc79069e0fb463",
+      "title": "제주에서 인천공항까지 한 번에…국내선으로 높아진 해외여행 편의",
+      "date": "2026-09-09",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "449f60559a1a2fc80654f1651003a89cbc54239d",
+      "title": "삼척관광문화재단, 일본 관광 크리에이터 투어 성료…SNS 통해 일본 현지 홍보",
+      "date": "2026-09-09",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "48cd17fcea20fe12810cb85ef7c107db2a25eb85",
+      "title": "Chengdu-Penang route sees 54,700 passengers, generates RM30mil in tourism benefits",
+      "date": "2026-09-09",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "b48b03bbbed321a839dac37602dd3cb067cbb1aa",
+      "title": "33,000 without power on Kauai after hurricane damages electric grid",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
