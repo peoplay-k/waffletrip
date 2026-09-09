@@ -124,7 +124,18 @@ jobs:
               # --autostash: 파이프라인이 만진 스테이징 안 된 파일(used.json 등)이
               # 있으면 rebase 가 거부된다. 2026-09-09 실측 — 재시도가 여기서 죽어
               # 발행 기록을 못 밀었고, 그날 두 번째 배포가 통째로 건너뛰어졌다.
-              git pull --rebase --autostash origin main || exit 1
+              # 내용 충돌이 나면(2026-09-09 실측: 푸시 트리거 실행과 수동 실행이
+              # 같은 날 기록을 동시에 밀어 health.json 이 충돌) 이 실행의 기록을
+              # 택한다. 두 실행 다 같은 자료로 만든 기록이라 잃는 것이 없고,
+              # 여기서 죽으면 배포까지 건너뛰어진다.
+              if ! git pull --rebase --autostash origin main; then
+                conflicted=$(git diff --name-only --diff-filter=U)
+                [ -n "$conflicted" ] || exit 1
+                echo "충돌 — 이 실행의 기록을 택한다: $conflicted"
+                echo "$conflicted" | xargs git checkout --theirs --
+                echo "$conflicted" | xargs git add --
+                GIT_EDITOR=true git rebase --continue || exit 1
+              fi
               sleep 5
             done
             echo "세 번 시도했는데 밀지 못했다." >&2
