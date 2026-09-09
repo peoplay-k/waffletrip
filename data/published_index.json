@@ -40,6 +40,7 @@
     "0548b5327a7b287c5060e556a8479de50edc1a2f",
     "0579c5abdf200968c08f1a332a3a136e0138b56a",
     "058c435f66919bfefb997056713f4ccbb3f18e9b",
+    "059fe3ed176deae1fbf35f5e3a1c3194694fcf98",
     "05c0392c2e4d0f78516098886862f4457e253de2",
     "05c18e44cc3ccb540809527b9aab38158b81fdfd",
     "05f5ce9f7ec3ae288e41b823a804b36d74b10b2c",
@@ -220,6 +221,7 @@
     "1ddd23a82210b7344ae10af27aebb925cdb529e7",
     "1e0a13bfb475a8a51448700c6316e89f343b759c",
     "1e12c3105a52eab81ae52a18916975ad44f2bba2",
+    "1e2309be8383155b9a57d46938204bb040d6c401",
     "1e2e44e23bcf638901aca57220cdabafc14c0578",
     "1e55f5451acb21e33311016640ef6044c21a8035",
     "1eeaf89f909b63822cbfe7818aa0423cfddac2b5",
@@ -341,6 +343,7 @@
     "2fb2288b78f7f6a9e8fca16c2b5e661193e3219c",
     "30317e597f49645790080d58629520366c8f923b",
     "303ad797da6a1eb8d9eed93c4d6ab9883ce392be",
+    "307ecc5c3381c2e1447c1de7915c926db28560b9",
     "30b5a72a444024dd38a409db9042540b0483f662",
     "30c09837f37715eb84dba4816887d30fc2ee6e5d",
     "30c41599a656beacf55d2c187c5d326911ca6691",
@@ -511,6 +514,7 @@
     "48deee0bfe4fc802c15b82e6b0089387c5aba6e0",
     "48fe5082b4e377b7a7476b1db93fbacc595fbdb8",
     "49073942e39b12d77f1fd2091f00d6b01dbe6076",
+    "491bf73f895ef21d3ac2d579788d6a14e5740876",
     "491d669d747c789dd3dab4a559dae99e0aa95f4a",
     "4937fe80c43e09f061b97bbc9bab94472cf7ef9c",
     "49ccd976921f0c71cc62b8e89cd9f8dedf5be7fb",
@@ -927,6 +931,7 @@
     "869dd53348a43f2746c3f258df80161c790378c6",
     "86e837d83edb0f6bf93ecad999ce17ce0e6ce97f",
     "86ee2e8cb65f88f1163099046a2596f532310568",
+    "8723ace5d58d69503138d62e119706089e0e2f06",
     "879e8d2f44da82224d0c0532134eaed0426c8b30",
     "87d1ef3a0a8a96dbe0c23dd254db335b59072cda",
     "880de3d9bec349dd6297127aaa2ed701aefaee46",
@@ -979,6 +984,7 @@
     "8e7bbbbad122d89e74b3b0859c532400a16d07f9",
     "8ed5c277e5b6bd5dfe9e7f436cdfd058974115be",
     "8fb0b98a74f5e5219976139453c6cd16dc8de837",
+    "8fc057ec3acb1f70daa92fa992205d074e13ec4b",
     "8fdb63ceb3038dd80b0a3cdae28cf27c46d6478e",
     "9023ae5718867419c4e6241d8c2f9ababb355517",
     "9030c65643be06053952478072aacf1468a0954c",
@@ -1118,6 +1124,7 @@
     "a44aabfdf6e1bfd3edfa2960e69df39916e798a2",
     "a4eeaf96cfc13ff1ef26601a84e9fda6c9db4dae",
     "a54ee3486d1294f8ee5388f12ffb46a850cf27ea",
+    "a54fb9651e9aef3b6efa75193ae96025d919527b",
     "a558c0a549056a93101802a3d62b6af6584945bb",
     "a56d6628f1deb690b50dba6763c41ffaefb5f61f",
     "a59968da9b9b4b86b9de13b93d893dcbeefd5e49",
@@ -1229,6 +1236,7 @@
     "b4147f375647cfb2f73f19618955caf0ba42572c",
     "b458a085f057752569c45ef46e595bfa5d8bfe7d",
     "b4793dd92bc0f4c5215174d8fa50f950fdfff481",
+    "b47f738b32c52e02fe8f82d1f89c5a60038fc324",
     "b48937024da90cbcff94c17119cf4cdc7653f9ac",
     "b48b03bbbed321a839dac37602dd3cb067cbb1aa",
     "b4b5f14ccc5b9d41279c1711ed554704ee016bcf",
@@ -1271,6 +1279,7 @@
     "b9e75d0844c8fffd32d27033699522c7c05a882d",
     "ba337881a3d9e46aa363d0c4336f299c52e44ef4",
     "ba5f5119072a9342e413d705211a261a0c448447",
+    "ba676287420401101da019038bbe7ebac7a77ce1",
     "ba7846886ce8ef3934363d1ca1e43652c07459f8",
     "ba7ab948a2a7a6454bd4e340af81c8caaadf66c3",
     "bad04c367d14aa337ae37a98503ec660effe5ff3",
@@ -13756,6 +13765,69 @@
     {
       "id": "5e06f519ebf24f4deae4f55209add7d7846ded87",
       "title": "‘I was shaking’: West Kauai residents ride out Hurricane Lowell, assess damage",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "059fe3ed176deae1fbf35f5e3a1c3194694fcf98",
+      "title": "여수시, 日 시즈오카 여행업계와 '관광·MICE' 교류 확대",
+      "date": "2026-09-09",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "ba676287420401101da019038bbe7ebac7a77ce1",
+      "title": "‘It’s emotional’: Kauai house swept off foundation as storm surge ravages Poipu",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "8fc057ec3acb1f70daa92fa992205d074e13ec4b",
+      "title": "도쿄 신주쿠, '과잉 관광 몸살'에 민박 규제···영업일 수 줄이고 직원 상주 의무화",
+      "date": "2026-09-09",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "307ecc5c3381c2e1447c1de7915c926db28560b9",
+      "title": "Lowell downgraded to tropical storm as it moves away from Hawaii",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "1e2309be8383155b9a57d46938204bb040d6c401",
+      "title": "팜투어, 하와이 '두 섬 허니문' 아웃리거 3개 호텔 연박 상품 출시",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "a54fb9651e9aef3b6efa75193ae96025d919527b",
+      "title": "불과 바다가 만든 섬…관광 천국 너머의 하와이",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "8723ace5d58d69503138d62e119706089e0e2f06",
+      "title": "팜투어, 하와이 신혼여행 호텔 현명하게 선택하는 방법 제안",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "491bf73f895ef21d3ac2d579788d6a14e5740876",
+      "title": "와이키키 관광 둔화…하와이 경제 ‘제자리’",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "b47f738b32c52e02fe8f82d1f89c5a60038fc324",
+      "title": "하와이 호텔 추천 리스트 5선 총정리",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
