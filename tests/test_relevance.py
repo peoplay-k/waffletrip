@@ -144,3 +144,10 @@ def test_카지노_스팸은_거른다():
 def test_보통_호텔_기사는_스팸이_아니다():
     from src.relevance import is_spam
     assert not is_spam("힐튼, 방콕과 후쿠오카에 새 호텔 오픈", source_name="싱글리스트")
+
+
+def test_블로그_플랫폼_글은_출처만_보고_버린다():
+    """브런치·네이버 블로그 글이 구글뉴스 검색 피드로 들어온다. 뉴스가 아니다."""
+    assert is_spam("하와이 호텔 추천 리스트 5선 총정리", source_name="브런치")
+    assert is_spam("롯데면세점, 괌공항서 철수", source_name="네이버 블로그 | 딜사이트")
+    assert not is_spam("롯데면세점, 괌공항서 철수", source_name="딜사이트")
