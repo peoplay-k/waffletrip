@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - 'content/review/**'
+      - 'data/title_ko.json'   # 해설 에이전트가 번역을 밀면 바로 입힌다
   schedule:
     # 08:00 KST = 23:00 UTC (전일). GitHub 스케줄은 UTC 기준이다.
     # GitHub 은 부하가 몰리면 예약 시각보다 수 분에서 수십 분 늦게 띄운다.

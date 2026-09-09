@@ -48,6 +48,7 @@ class Item:
     title_hash: str
     body_md: str | None = None
     photo: str | None = None          # /img/... 웹 경로. 승인된 사진만 들어온다
+    title_orig: str | None = None     # 번역 전 원제목. 빌드 때만 채워진다(주소·병기용)
     related: list[str] = field(default_factory=list)
 
 

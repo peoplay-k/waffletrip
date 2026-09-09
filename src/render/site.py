@@ -239,7 +239,8 @@ def article_url(item: Item) -> str:
     """
     region = _SAFE_SEGMENT.sub("", item.region) or "etc"
     ident = _SAFE_SEGMENT.sub("", item.id)[:8] or "0"
-    return f"/{region}/{ident}-{slugify(item.title)}/"
+    # 제목이 번역돼도 주소는 원제목으로 — 이미 색인된 주소가 바뀌면 죽은 링크가 된다.
+    return f"/{region}/{ident}-{slugify(getattr(item, 'title_orig', None) or item.title)}/"
 
 
 def group_by_region(items: list[Item]) -> dict[str, list[Item]]:
@@ -343,6 +344,8 @@ def _article_ld(item, urls: dict) -> str:
     }
     if item.summary:
         data["description"] = item.summary
+    if getattr(item, "title_orig", None):
+        data["alternativeHeadline"] = item.title_orig
     # 리치결과는 1200×630 JPG 를 원한다. 없으면 기본 카드라도 넣는다 — image 가
     # 아예 빠지면 톱스토리 대상이 안 된다(2026-09-09 점검).
     data["image"] = (f"{SITE_URL}{BASE_PATH}{og_path(item.photo)}" if item.photo

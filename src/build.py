@@ -22,6 +22,7 @@ from src.models import Item, item_from_dict
 from src.render.feeds import (render_cname, render_llms_txt, render_robots,
                               render_rss, render_sitemap)
 from src.render.site import render_site
+from src.title_ko import apply as apply_title_ko, load as load_title_ko
 
 SITE_WINDOW_DAYS = 14
 KST = timezone(timedelta(hours=9))
@@ -132,6 +133,10 @@ def main(data_dir: str = "data", out_dir: str = "public") -> int:
 
     items = load_recent_items(os.path.join(data_dir, "items"), today)
     items = one_roundup_per_week(items)
+    # 영문 제목에 우리말 제목을 입힌다. 표는 해설 에이전트가 매일 채운다.
+    translated = apply_title_ko(items, load_title_ko(os.path.join(data_dir, "title_ko.json")))
+    if translated:
+        print(f"영문 제목 {translated}건에 우리말 제목을 입힌다")
 
     if not items:
         print("경고: 최근 항목이 0건이다. 사이트를 만들지 않고 멈춘다 — "
