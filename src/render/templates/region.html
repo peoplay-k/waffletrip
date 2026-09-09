@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block title %}{{ region_name }} 여행 소식 — {{ site_name }}{% endblock %}
 {% block description %}{{ region_name }} 여행 뉴스·항공·환율·날씨를 매일 정리합니다.{% endblock %}
+{% block head_extra %}<link rel="alternate" type="application/rss+xml" title="{{ site_name }} {{ region_name }}" href="/{{ region_key }}/rss.xml">{% endblock %}
 {% block content %}
 
 <div class="page-head">

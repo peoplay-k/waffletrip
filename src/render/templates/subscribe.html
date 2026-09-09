@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}구독 — {{ site_name }}{% endblock %}
+{% block description %}{{ site_name }}을 RSS 로 받아보는 법. 전체 피드와 지역별 피드.{% endblock %}
+{% block content %}
+<h1>구독</h1>
+<p>{{ site_name }}은 매일 아침 새 기사를 냅니다. 앱을 깔거나 회원가입을 할 필요 없이 <b>RSS</b> 로 받아볼 수 있습니다. 광고도, 알고리즘도 없습니다.</p>
+
+<h2>전체 피드</h2>
+<p class="feed"><code id="feed-all">{{ site_base }}/rss.xml</code> <button type="button" class="share-btn" data-copy="feed-all">주소 복사</button></p>
+
+<h2>지역별 피드</h2>
+<p>관심 있는 지역만 받으려면 그 지역 피드를 씁니다.</p>
+<ul class="feeds">
+{% for slug, name in region_names.items() %}  <li><b>{{ name }}</b> <code>{{ site_base }}/{{ slug }}/rss.xml</code></li>
+{% endfor %}</ul>
+
+<h2>어떻게 받나</h2>
+<ol>
+  <li>RSS 리더를 하나 고릅니다. 아이폰·맥은 <b>NetNewsWire</b>(무료), 안드로이드·웹은 <b>Feedly</b>·<b>Inoreader</b>가 흔히 쓰입니다.</li>
+  <li>리더에서 '피드 추가'를 누르고 위 주소를 붙여 넣습니다.</li>
+  <li>새 기사가 나오면 리더에 쌓입니다. 읽고 싶을 때 읽으면 됩니다.</li>
+</ol>
+
+<h2>이메일·카카오톡</h2>
+<p>이메일 뉴스레터와 카카오톡 채널은 아직 없습니다. 준비되면 이 페이지에서 알립니다. 지금은 기사 아래 <b>공유</b> 버튼으로 카카오톡에 보낼 수 있습니다.</p>
+
+<script>
+(function(){document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){
+var el=document.getElementById(b.getAttribute('data-copy'));if(!el||!navigator.clipboard)return;
+navigator.clipboard.writeText(el.textContent.trim()).then(function(){var t=b.textContent;b.textContent='복사됨';setTimeout(function(){b.textContent=t;},1500);});});});})();
+</script>
+{% endblock %}

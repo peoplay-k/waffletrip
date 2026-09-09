@@ -72,22 +72,28 @@ def _write(path: str, text: str) -> str:
     return path
 
 
-def render_rss(items: list[Item], out_dir: str, built_at: str) -> str:
+def render_rss(items: list[Item], out_dir: str, built_at: str,
+               region: str | None = None) -> str:
+    """전체 피드, 또는 region 을 주면 그 지역만 담은 피드(/<region>/rss.xml)."""
+    from src.models import REGION_NAMES
+    name = REGION_NAMES.get(region, region) if region else None
+    prefix = f"/{region}" if region else ""
     ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
     rss = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(rss, "channel")
     # 피드 자기 주소. 검증기가 없으면 경고하고, 리더는 이걸로 중복 구독을 가른다.
     ET.SubElement(channel, "{http://www.w3.org/2005/Atom}link",
-                  {"href": SITE_URL + BASE_PATH + "/rss.xml", "rel": "self",
+                  {"href": SITE_URL + BASE_PATH + prefix + "/rss.xml", "rel": "self",
                    "type": "application/rss+xml"})
-    ET.SubElement(channel, "title").text = SITE_NAME
-    ET.SubElement(channel, "link").text = SITE_URL + BASE_PATH + "/"
-    ET.SubElement(channel, "description").text = SITE_TAGLINE
+    ET.SubElement(channel, "title").text = f"{SITE_NAME} {name}" if name else SITE_NAME
+    ET.SubElement(channel, "link").text = SITE_URL + BASE_PATH + prefix + "/"
+    ET.SubElement(channel, "description").text = f"{name} 여행 소식" if name else SITE_TAGLINE
     ET.SubElement(channel, "language").text = "ko"
     ET.SubElement(channel, "lastBuildDate").text = _rfc822(built_at)
 
     # A등급(환율·날씨)은 매일 값만 바뀌는 데이터라 피드에 넣으면 소음이 된다.
-    articles = [i for i in items if i.grade != "A"][:RSS_MAX_ITEMS]
+    articles = [i for i in items if i.grade != "A"
+                and (not region or i.region == region)][:RSS_MAX_ITEMS]
 
     for item in articles:
         node = ET.SubElement(channel, "item")
@@ -101,7 +107,7 @@ def render_rss(items: list[Item], out_dir: str, built_at: str) -> str:
         ET.SubElement(node, "source").text = _xml_safe(item.source_name)
 
     xml = ET.tostring(rss, encoding="unicode")
-    return _write(os.path.join(out_dir, "rss.xml"),
+    return _write(os.path.join(out_dir, region, "rss.xml") if region else os.path.join(out_dir, "rss.xml"),
                   '<?xml version="1.0" encoding="UTF-8"?>\n' + xml)
 
 
@@ -120,7 +126,7 @@ def render_sitemap(items: list[Item], out_dir: str, today: str) -> str:
     # 생기는 날 사이트맵이 저절로 따라와야 한다.
     urls += [f"{base}/city/{slug}/" for slug in group_by_city(items)]
     urls += [f"{base}/{page}/" for page in
-             ("about", "contact", "privacy", "youth", "search")]
+             ("about", "contact", "privacy", "youth", "search", "subscribe")]
     # 요약 없는 인용 기사는 페이지에 noindex 를 달았으니 사이트맵에서도 뺀다.
     # 사이트맵이 noindex 페이지를 가리키면 검색엔진이 신호를 못 믿는다.
     urls += [base + article_url(i) for i in items

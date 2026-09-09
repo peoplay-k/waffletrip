@@ -190,6 +190,9 @@
   .post-head h1{font-size:clamp(30px,4.4vw,46px);line-height:1.08;font-weight:800;
     letter-spacing:-.055em;margin:0 0 16px;text-wrap:balance}
   .post-head .orig{color:var(--dim);font-size:14px;font-weight:400;line-height:1.4;margin:.35rem 0 0}
+  .feed{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .feed code,.feeds code{background:var(--paper);border:1px solid var(--line);padding:3px 7px;border-radius:3px;font-size:13px}
+  .feeds{list-style:none;padding:0}.feeds li{margin:6px 0}
   .share{display:flex;gap:8px;flex-wrap:wrap;margin:.7rem 0 0}
   .share-btn{font:inherit;font-size:13px;line-height:1;padding:8px 13px;border:1px solid var(--line);
     border-radius:999px;background:var(--paper);color:var(--ink);cursor:pointer;text-decoration:none}
@@ -313,7 +316,7 @@
 <nav class="gnb" aria-label="주요 메뉴"><div class="wrap">
   {% for tid, tname, _ in topics %}<a href="/{{ tid }}/">{{ tname }}</a>{% endfor %}
   <span class="sep"></span>
-  <a class="minor" href="/rss.xml">구독</a>
+  <a class="minor" href="/subscribe/">구독</a>
   <a class="minor" href="/contact/">광고문의</a>
   <a class="minor" href="/search/">검색</a>
 </div></nav>
