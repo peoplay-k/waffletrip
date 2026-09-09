@@ -218,6 +218,7 @@
     "1d535e01fc89cef01cc78c32d29fc3929d020e4a",
     "1d7359c0acaa3dbcc4221cdd86ee2f56ecc1cdfb",
     "1d783dd079d2ede9eff901366ee3073a1e357ecc",
+    "1dae04691c49581ca059836e2188f7ba1ec13fb0",
     "1dce478faef6e90e62e998ab5d72714ceeb8785d",
     "1ddd23a82210b7344ae10af27aebb925cdb529e7",
     "1e0a13bfb475a8a51448700c6316e89f343b759c",
@@ -13854,6 +13855,13 @@
       "title": "롯데면세점, 13년 만에 괌공항 철수…해외사업 '선택과 집중'",
       "date": "2026-09-09",
       "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "1dae04691c49581ca059836e2188f7ba1ec13fb0",
+      "title": "한국·일본 관광 협력 40년, 목포에서 새로운 도약 모색 : 일본 한인뉴스",
+      "date": "2026-09-09",
+      "region": "japan",
       "grade": "B"
     }
   ]
