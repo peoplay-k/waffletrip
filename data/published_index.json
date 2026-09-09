@@ -1200,6 +1200,7 @@
     "ae354003d1cfcdeaf43229921cf7977fc35c497b",
     "ae4d2905255130576fc3fa596b5c539e71845d6c",
     "ae5b241f358b90a07b6cd758364b3e1b6de47ec4",
+    "ae6f778169cc3ffc7c2ef234c5f240e68075c02b",
     "ae92fe7f099adc89baf58a3e637b2393996f76e2",
     "ae94b2852f1443552c30f63b765f199affc6e4d6",
     "aec12d9f13bf5889b3014a1c567e238c9993df18",
@@ -13990,6 +13991,13 @@
       "title": "일본항공, 대한항공에 이어 한진칼 지분까지..\"조원태 우군 되나\"",
       "date": "2026-09-09",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "ae6f778169cc3ffc7c2ef234c5f240e68075c02b",
+      "title": "다낭은 아시아에서 재방문객 유치 부문 상위 6위 안에 드는 도시입니다.",
+      "date": "2026-09-09",
+      "region": "vietnam",
       "grade": "B"
     }
   ]
