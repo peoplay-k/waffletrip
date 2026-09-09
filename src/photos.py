@@ -76,7 +76,8 @@ PLACE_WORDS: dict[str, tuple[str, ...]] = {
     "ninhbinh": ("닌빈", "짱안", "항무아"),
     "wulai": ("우라이",),
 }
-PLACE_NAMES: dict[str, str] = {"halong": "하롱베이", "ninhbinh": "닌빈", "wulai": "우라이"}
+PLACE_NAMES: dict[str, str] = {"halong": "하롱베이", "ninhbinh": "닌빈", "wulai": "우라이",
+                               "hue": "후에", "kota": "코타키나발루", "jeju": "제주"}
 
 # 영문 제목과 다른 나라 도시. VnExpress 같은 현지 영문 매체는 지역이 베트남으로
 # 고정돼 싱가포르·도쿄 기사도 베트남면에 들어온다. 2026-09-09 실측: "Tokyo tourist
