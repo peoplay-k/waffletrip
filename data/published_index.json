@@ -144,6 +144,7 @@
     "1535bdb8073b7039bdd1231df822886f5ec78335",
     "1561b51d1b003c3cece6c191f390e64887fca38f",
     "156eff55f6722075becc7ac48c32df69c0be6bd1",
+    "15724a14c9ff6c2eef801905c5eab221015b0833",
     "159a03ea613810a79c0ac294c6a8a8b3af91d270",
     "15b1724a869e35d168065aab60a5d7202029dff9",
     "15d67570f27ded49d699a981e216699e1ea1bbcd",
@@ -599,6 +600,7 @@
     "55930e063d2ad24c8ccfdefa716e391e2cbaafde",
     "55be4ab1fe507960bbe8cbd654d2e92b4d9f535e",
     "56019745b5276e53290a6fc76d38ce9c1b0c3bd1",
+    "5680cf0fd7ae5205ee4be8e49eb0e6953f61d331",
     "56e70a5ef375bc6c3765bfa317f73c29a187ef8d",
     "57535da0eac1cc879a7f953b121048c951764ddc",
     "57762fe036cbc376ea1d769ddcf94d515bc53002",
@@ -909,6 +911,7 @@
     "851dafa554f44e0b31f2dc85c9aac25d017af4f4",
     "853140005c5035e719aaa02642e864adfb8d9d17",
     "8532b83967a0890d0d3c1d72177ae25718a8b07e",
+    "854ddc733a32e67facbbf1c939d5ec74d758cd4e",
     "855f5abe3cc70b6704a326d2e8761d7a9617f75b",
     "8578aa42d4e66725b560d4d66ebb92e911af6b28",
     "85b86edf5cbb90a4760c8a943a0f9b76d658bddd",
@@ -939,6 +942,7 @@
     "891781f8b4561c16ea075f20c89eeab6f7f94bc7",
     "893db983651cacd8deef949aa95171b235274a9f",
     "894e9ac8dfd034428ad63dccd99ff3c9c7a88bfb",
+    "897ce82de45afa623e87f8a6b109bfd7caad77f8",
     "897d5818594b67a57ad355b6a0a47fa8d180ffc8",
     "89a37f7e5d5365d493adbff91eed2bdb3eac1fef",
     "89b486edcff2030ddf2d49796a0d28c88324c04b",
@@ -13692,6 +13696,34 @@
     {
       "id": "6afb61c7440c7062da79af86aadb69beadc12189",
       "title": "Over 200 travel partners on Guam for GVB’s Mega Familiarization Tour",
+      "date": "2026-09-09",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "5680cf0fd7ae5205ee4be8e49eb0e6953f61d331",
+      "title": "Ala Moana Regional Park roads buried in sand after storm surge hits south shore",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "854ddc733a32e67facbbf1c939d5ec74d758cd4e",
+      "title": "Korean Air fined $7,000 for sending international travelers to domestic terminal at Gimpo Airport",
+      "date": "2026-09-09",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "897ce82de45afa623e87f8a6b109bfd7caad77f8",
+      "title": "Unlicensed cafes spring up along cliff edge on Nha Trang pass",
+      "date": "2026-09-09",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "15724a14c9ff6c2eef801905c5eab221015b0833",
+      "title": "Inaugural Håfa Adai Guam Festival in Japan showcases local products",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
