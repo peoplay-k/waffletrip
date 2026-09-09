@@ -190,3 +190,12 @@ def test_mentions_region_still_rejects_unrelated_articles():
     from src.region_tag import mentions_region
     assert not mentions_region("항공물류 운임 상승세, 3분기 실적 갈린다", "japan")
     assert not mentions_region("오는 30日 신규 물류센터 개장", "japan")
+
+
+def test_부곡하와이는_하와이가_아니다():
+    """경남 창녕의 온천 리조트. 하와이 피드 실측에서 경남도 관광개발 기사가 잡혔다."""
+    from src.region_tag import mentions_region
+    title = "폐조선소·부곡하와이까지…경남도 관광개발 10곳 투자 세일즈"
+    assert tag_region(title) is None
+    assert not mentions_region(title, "hawaii")
+    assert tag_region("팜투어, 하와이 신혼여행 호텔 현명하게 선택하는 방법") == "hawaii"
