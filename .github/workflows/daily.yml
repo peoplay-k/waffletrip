@@ -120,7 +120,10 @@ jobs:
             for i in 1 2 3; do
               git push && exit 0
               echo "푸시 거부 — 원격을 받아 다시 얹는다 ($i/3)"
-              git pull --rebase origin main || exit 1
+              # --autostash: 파이프라인이 만진 스테이징 안 된 파일(used.json 등)이
+              # 있으면 rebase 가 거부된다. 2026-09-09 실측 — 재시도가 여기서 죽어
+              # 발행 기록을 못 밀었고, 그날 두 번째 배포가 통째로 건너뛰어졌다.
+              git pull --rebase --autostash origin main || exit 1
               sleep 5
             done
             echo "세 번 시도했는데 밀지 못했다." >&2
