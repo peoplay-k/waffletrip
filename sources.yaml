@@ -28,7 +28,7 @@ sources:
     section: data
     name: 날씨
     type: json
-    url: https://api.open-meteo.com/v1/forecast?latitude=13.4443,15.1850,21.3069,16.0544,5.9804,17.9757,33.4996&longitude=144.7937,145.7467,-157.8583,108.2022,116.0735,102.6331,126.5312&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&timezone=auto&forecast_days=1
+    url: https://api.open-meteo.com/v1/forecast?latitude=13.4443,15.1850,21.3069,16.0544,5.9804,17.9757,33.4996,34.6937,13.7563,25.0330&longitude=144.7937,145.7467,-157.8583,108.2022,116.0735,102.6331,126.5312,135.5023,100.5018,121.5654&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&timezone=auto&forecast_days=1
     lang: en
     enabled: true
 
@@ -46,14 +46,15 @@ sources:
   # guam_post (The Guam Daily Post): robots 허용, RSS 링크도 정상이지만 조사 내내(2회
   # 공식 실행 + 수동 재시도 다수, 약 40분에 걸쳐) HTTP 429만 반환. 죽은 게 아니라 우리
   # 조사 트래픽이 레이트리밋을 건드렸을 가능성이 높음 — 시간을 두고 단독 재조사 필요.
+  # 2026-09-09 재조사: 단독 요청은 200·30건. 부고가 많지만 여행 필터가 거른다. 다시 켠다.
   - id: guam_post
     region: guam
     section: news
     name: The Guam Daily Post
     type: rss
-    url: https://www.postguam.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc&k%5B%5D=%23topstory
+    url: https://www.postguam.com/search/?f=rss&t=article&l=30&s=start_time&sd=desc
     lang: en
-    enabled: false
+    enabled: true
 
   # guam_kuam (KUAM News): React/SPA — 정적 HTML 어디에도 RSS 없음, 흔한 경로 전부
   # 앱 셸 HTML 200 반환.
@@ -68,14 +69,15 @@ sources:
 
   # guam_pdn (Pacific Daily News): postguam.com과 동일 TNCMS 플랫폼, RSS 구조 자체는
   # 정상이지만 "#topstory" 키워드 태그에 현재 걸리는 기사가 0건 (RSS 항목 0개).
+  # 2026-09-09 재조사: #topstory 태그를 빼면 30건 정상. robots(*)는 /search 를 막지 않는다. 다시 켠다.
   - id: guam_pdn
     region: guam
     section: news
     name: Pacific Daily News
     type: rss
-    url: https://www.guampdn.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc&k%5B%5D=%23topstory
+    url: https://www.guampdn.com/search/?f=rss&t=article&l=30&s=start_time&sd=desc
     lang: en
-    enabled: false
+    enabled: true
 
   # guam_visitguam (Guam Visitors Bureau): RSS 링크 태그 없음, 흔한 경로(/feed/, /rss,
   # /?feed=rss2 등) 전부 404 또는 홈페이지로 리다이렉트. RSS 자체가 없는 것으로 판단.
@@ -162,14 +164,15 @@ sources:
   # hawaii_staradvertiser (Honolulu Star-Advertiser): 하와이 종합지인데 여행 기사가
   # 17%뿐이다. 하와이는 Beat of Hawaii(92%, curated)·Hawaii News Now·Hawaii Tourism
   # Authority 로 이미 덮인다 (Task 14, 여행 관련성 필터).
+  # 2026-09-09: 전체 피드 대신 travel 카테고리 피드(40건)로 바꿔 켠다. HTA 와 겹치지 않는 여행 기사가 있다.
   - id: hawaii_staradvertiser
     region: hawaii
     section: news
     name: Honolulu Star-Advertiser
     type: rss
-    url: https://www.staradvertiser.com/feed/
+    url: https://www.staradvertiser.com/category/travel/feed/
     lang: en
-    enabled: false
+    enabled: true
 
   # ============ vietnam ============
 
@@ -487,4 +490,72 @@ sources:
     type: rss
     url: https://news.google.com/rss/search?q=%EB%82%98%ED%8A%B8%EB%9E%91%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
     lang: ko
+    enabled: true
+
+  # 2026-09-09 추가. 괌·사이판·코타·라오스는 현지 일반지가 정치·스포츠 위주라
+  # 여행 필터를 거의 통과하지 못했다(Pacific Island Times 20건 중 1건). 구글뉴스는
+  # 검색어로 미리 거른 결과라 수율이 높다. 한국어 피드는 한글 제목 비율도 올린다.
+  - id: gn_guam
+    region: guam
+    section: news
+    name: 괌 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EA%B4%8C%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_saipan
+    region: saipan
+    section: news
+    name: 사이판 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EC%82%AC%EC%9D%B4%ED%8C%90%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_kota
+    region: kota
+    section: news
+    name: 코타키나발루 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_laos
+    region: laos
+    section: news
+    name: 라오스 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EB%9D%BC%EC%98%A4%EC%8A%A4%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A3%A8%EC%95%99%ED%94%84%EB%9D%BC%EB%B0%A9%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_guam_en
+    region: guam
+    section: news
+    name: Guam travel news
+    type: rss
+    url: https://news.google.com/rss/search?q=Guam%20%28tourism%20OR%20visitors%20OR%20hotel%20OR%20flight%20OR%20airport%20OR%20beach%20OR%20resort%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: gn_saipan_en
+    region: saipan
+    section: news
+    name: Saipan travel news
+    type: rss
+    url: https://news.google.com/rss/search?q=%28Saipan%20OR%20Marianas%20OR%20Tinian%29%20%28tourism%20OR%20visitors%20OR%20flight%20OR%20hotel%20OR%20resort%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: gn_sabah_en
+    region: kota
+    section: news
+    name: Sabah travel news
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%22Kota%20Kinabalu%22%20OR%20%22Sabah%20Tourism%22%20OR%20Sandakan%20OR%20%22Mount%20Kinabalu%22%29%20%28tourism%20OR%20flight%20OR%20airport%20OR%20hotel%20OR%20resort%20OR%20island%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: gn_laos_en
+    region: laos
+    section: news
+    name: Laos travel news
+    type: rss
+    url: https://news.google.com/rss/search?q=%28Laos%20OR%20%22Luang%20Prabang%22%20OR%20Vientiane%29%20%28tourism%20OR%20tourists%20OR%20%22China-Laos%22%20OR%20airline%20OR%20visa%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
     enabled: true

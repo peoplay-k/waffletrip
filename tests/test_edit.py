@@ -272,3 +272,21 @@ def test_curated_travel_media_keep_their_crime_coverage():
     result = edit_items([item], empty_index(), [],
                         {"VnExpress International - Travel"})
     assert len(result["publish"]) == 1
+
+
+def test_edit_drops_casino_spam_but_keeps_curated_casino_news():
+    """스팸은 검색 피드로만 온다. 큐레이션 소스의 카지노 리조트 업계 뉴스는 남긴다."""
+    from src.edit import edit_items
+    from src.guards.dup_guard import PublishedIndex
+    from src.models import Item
+    now = "2026-09-09T05:00:00+09:00"
+    def mk(i, title, src):
+        return Item(id=i, grade="B", region="japan", section="news", title=title,
+                    summary="요약.", source_name=src, source_url=f"https://x.test/{i}",
+                    published_at=now, collected_at=now, status="draft", title_hash=i)
+    spam = mk("1", "오사카 호텔 카지노 : 완벽한 비교 가이드 (2025년 최신판)", "Histoire pour tous")
+    legit = mk("2", "인스파이어 리조트 카지노 개장…호텔 예약 급증", "여행신문")
+    result = edit_items([spam, legit], PublishedIndex(set(), []), [], {"여행신문"})
+    kept_ids = {i.id for i in result["publish"]}
+    assert "1" not in kept_ids
+    assert "2" in kept_ids
