@@ -727,3 +727,45 @@ def test_영문_제목은_여전히_뒤로_간다():
         _art("c-eeeeee", "우리가 쓴 해설"),
     ])
     assert ordered[0].id == "c-eeeeee"
+
+
+def test_편집원칙_페이지가_실제와_같은_것만_약속한다(tmp_path):
+    """신뢰도 페이지에서 사실을 틀리면 페이지 전체가 무너진다."""
+    render_site([make("1", "괌 신규 취항")], str(tmp_path), TODAY)
+    html = (tmp_path / "ethics" / "index.html").read_text(encoding="utf-8")
+    assert "정정" in html and "peoplay@thepeoplay.com" in html
+    assert "AI" in html                      # AI 를 어디에 쓰는지 밝힌다
+    assert "조용히 지우지 않습니다" in html
+    for page in ("about", "contact"):
+        linked = (tmp_path / page / "index.html").read_text(encoding="utf-8")
+        assert '/ethics/' in linked
+    assert '/ethics/' in (tmp_path / "index.html").read_text(encoding="utf-8")
+
+
+def test_데스크_표가_해설을_사람이_쓴다고_말하지_않는다(tmp_path):
+    """해설은 예약된 AI 가 쓴다. 매체 소개가 '사람' 이라고 하면 거짓이다."""
+    render_site([make("1", "괌 신규 취항")], str(tmp_path), TODAY)
+    html = (tmp_path / "about" / "index.html").read_text(encoding="utf-8")
+    assert "AI 작성" in html
+    assert ">사람<" not in html
+
+
+def test_편집원칙_페이지가_실제와_같은_것만_약속한다(tmp_path):
+    """신뢰도 페이지에서 사실을 틀리면 페이지 전체가 무너진다."""
+    render_site([make("1", "괌 신규 취항")], str(tmp_path), TODAY)
+    html = (tmp_path / "ethics" / "index.html").read_text(encoding="utf-8")
+    assert "정정" in html and "peoplay@thepeoplay.com" in html
+    assert "AI" in html                      # AI 를 어디에 쓰는지 밝힌다
+    assert "조용히 지우지 않습니다" in html
+    for page in ("about", "contact"):
+        linked = (tmp_path / page / "index.html").read_text(encoding="utf-8")
+        assert "/ethics/" in linked
+    assert "/ethics/" in (tmp_path / "index.html").read_text(encoding="utf-8")
+
+
+def test_데스크_표가_해설을_사람이_쓴다고_말하지_않는다(tmp_path):
+    """해설은 예약된 AI 가 쓴다. 매체 소개가 '사람' 이라고 하면 거짓이다."""
+    render_site([make("1", "괌 신규 취항")], str(tmp_path), TODAY)
+    html = (tmp_path / "about" / "index.html").read_text(encoding="utf-8")
+    assert "AI 작성" in html
+    assert ">사람</td>" not in html
