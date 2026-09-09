@@ -14,7 +14,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
 
 from src.desks import DESK_DUTIES, REGION_DESKS, byline_for
-from src.photos import (assign as assign_photos, copy_into, load_manifest,
+from src.photos import (assign as assign_photos, copy_into, load_manifest, photo_places,
                         load_used, save_used)
 from src.render.md import render as md_render
 from src.cities import CITY_NAMES, CITY_REGION, cities_of, group_by_city
@@ -360,7 +360,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         # 사용 이력을 이어받는다. 한 번 쓴 사진은 다시 배정되지 않는다.
         used = load_used()
         for region, group in by_region.items():
-            mapping = assign_photos(manifest, region, [i.id for i in group], used)
+            mapping = assign_photos(manifest, region, group, used)
             for item in group:
                 item.photo = mapping.get(item.id) or None
         save_used(used)
@@ -383,6 +383,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "today": today, "article_urls": urls,
         # 푸터 도시 링크. 기사가 쌓인 도시만 들어온다.
         "city_links": [(slug, CITY_NAMES[slug]) for slug in by_city],
+        # 사진 캡션에 촬영지를 밝힌다. 지역 사진이라도 어느 도시인지 말해야 정직하다.
+        "photo_places": photo_places(manifest) if manifest else {},
         "video": video,
         "topics": TOPICS, "topic_names": TOPIC_NAMES,
         "contact_email": CONTACT_EMAIL, "desk_duties": DESK_DUTIES,
