@@ -83,6 +83,7 @@
     "0ad082b3383a7aace35cde0fb1f507624ed73213",
     "0b5e352665416245e637ec07ffbfd852eeb31a06",
     "0bb52fb207422013eb87b04e1a508d6e6c40a229",
+    "0c1f0d8ba089e55821f303500c0c1f6a99e24acb",
     "0c37760295e88f57ad8a12fcae23aaca020a346b",
     "0c50b722fe6c0d8c36111a8e5b373ff3df786f79",
     "0c54098bd1357c7fc3c558567d385db77f30a501",
@@ -1253,7 +1254,9 @@
     "bf76e626f2a3203b904794d92f2e4f6e9b9ff5cc",
     "bf8fe2634615e6e6de7bfd9d996b60292f43aa68",
     "bff955db65d0d7114147048d15c00a303eb28eaf",
+    "c-019660fcfe1265ac8500ecb4b7c407299bb4eb2c",
     "c-1588f487344bf941fafb218b097c04ad38658b6a",
+    "c-18c53dca481aeb2afe9958911681e2b7987964bb",
     "c-19436534f55318dda081330aee410c1c764c9f09",
     "c-235e6f5f0a7274dc33a05562d14e4a2d663bec1b",
     "c-2967626cfd6c4403a784d2d7f73ab7a55317d0bf",
@@ -13142,6 +13145,27 @@
       "title": "JW 메리어트 호텔 도쿄, 10월 1일부터 '유령 베일 판나코타'와 '마녀 정원 타르트'를 선보이는 할로윈 애프터눈 티 출시",
       "date": "2026-09-09",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "c-18c53dca481aeb2afe9958911681e2b7987964bb",
+      "title": "허리케인 로웰, 카우아이를 지나갔다",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "C"
+    },
+    {
+      "id": "c-019660fcfe1265ac8500ecb4b7c407299bb4eb2c",
+      "title": "인도네시아 화산재로 공항 8곳 닫혔다, 말레이시아는 정상 운항",
+      "date": "2026-09-09",
+      "region": "kota",
+      "grade": "C"
+    },
+    {
+      "id": "0c1f0d8ba089e55821f303500c0c1f6a99e24acb",
+      "title": "다낭카지노호텔 에서의 위험 요소와 예방 전략 (2025년 최신판)",
+      "date": "2026-09-09",
+      "region": "vietnam",
       "grade": "B"
     }
   ]
