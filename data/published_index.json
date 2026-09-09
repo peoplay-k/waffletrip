@@ -182,6 +182,7 @@
     "18e22f002c32300b66993c8a1b5a1fa0483abe59",
     "18e48a6fcb44ad0832b2b2f340f00f2f698ecad0",
     "18fe20ebc9809c6dd7f4c1f4f6ca6b15d4a618f2",
+    "195ae213bdbfe92667db0152fdfdc677ec5b2d42",
     "196008af01e99a8cff2c4464f68db821a03bc967",
     "197ec717dc0c2b0ca36fa882ce50c85edd09fb73",
     "198194d1d4e941a30a38c751aaf8b07105413420",
@@ -849,6 +850,7 @@
     "7b5334149f08827e98f390ce6dfe0662f3c11ed1",
     "7b9ee540befbb884a28bc89d2bfe856231a09fb9",
     "7ba5b1d125e60186717ea0fdb4a59fadc1632059",
+    "7bb81e3ae048fafe80591d252d8b569a353e2280",
     "7c2b8a0466e071e0d636d5e5ed0719ee66eb2e48",
     "7c3ef4898fb843a8ffea154a5ad3e61b0598476a",
     "7c6fd546a9b0cd952293a96df153eb98884c4cbe",
@@ -1397,6 +1399,7 @@
     "c87458815fdcfb633e389453cd5e9340cc3d07ec",
     "c8ad885c47b8914f7dc82358dc244dfc6639cf83",
     "c8be93f1dd675ac6974e80e13c684c29d279cfa3",
+    "c8d40de36024bc72811e66fb43e996ddde79475f",
     "c8f9c8e73df2b407bf586e3f24ebb2dbf75db419",
     "c90f705f206f189e3fe8d0eda11a716cf10f1541",
     "c914f15a0a007fc5c072f69eea9f2247da19c7e8",
@@ -13830,6 +13833,27 @@
       "title": "하와이 호텔 추천 리스트 5선 총정리",
       "date": "2026-09-09",
       "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "195ae213bdbfe92667db0152fdfdc677ec5b2d42",
+      "title": "대한항공, 일본 하늘길 정복… 통합 후 주 412왕복·19개 공항으로 확대",
+      "date": "2026-09-09",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "7bb81e3ae048fafe80591d252d8b569a353e2280",
+      "title": "인류무형문화유산 10년 맞아 더 알찬 해녀축제",
+      "date": "2026-09-09",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "c8d40de36024bc72811e66fb43e996ddde79475f",
+      "title": "롯데면세점, 13년 만에 괌공항 철수…해외사업 '선택과 집중'",
+      "date": "2026-09-09",
+      "region": "guam",
       "grade": "B"
     }
   ]
