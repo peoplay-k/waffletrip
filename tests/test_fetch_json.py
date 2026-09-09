@@ -209,3 +209,20 @@ def test_every_weather_site_region_is_a_known_region():
     from src.fetch.json_api import WEATHER_SITES
     from src.models import REGIONS
     assert all(r in REGIONS for r, _, _, _ in WEATHER_SITES)
+
+
+def test_sources_yaml_weather_url_covers_every_site():
+    """WEATHER_SITES 에 도시를 더해도 sources.yaml 의 URL 에 좌표를 안 넣으면
+    API 가 그 도시를 묻지 않는다. 2026-09-09 실측: 오사카·방콕·타이베이가 표에는
+    있는데 URL 에 없어 일본·태국·대만 날씨가 비어 있었다."""
+    import yaml
+    from urllib.parse import urlsplit, parse_qs
+    from src.fetch.json_api import WEATHER_SITES
+    cfg = yaml.safe_load(open("sources.yaml", encoding="utf-8"))
+    src = next(s for s in cfg["sources"] if s["id"] == "weather")
+    q = parse_qs(urlsplit(src["url"]).query)
+    lats = [float(x) for x in q["latitude"][0].split(",")]
+    lons = [float(x) for x in q["longitude"][0].split(",")]
+    for region, city, lat, lon in WEATHER_SITES:
+        assert any(abs(lat - a) < 0.01 and abs(lon - b) < 0.01
+                   for a, b in zip(lats, lons)), f"{city}({region}) 좌표가 URL 에 없다"

@@ -111,3 +111,36 @@ def test_useful_travel_news_is_not_flagged_as_crime():
         "진에어 괌 노선 신규 취항",
     ):
         assert not is_crime_report(text), text
+
+
+# ── 재난·교통 경보는 여행 뉴스다 ───────────────────────────────────────
+# 2026-09-09 실측: 허리케인 로웰 고속도로 통제·정전 보도가 전부 탈락했다.
+
+def test_재난_교통_경보는_여행_관련이다():
+    from src.relevance import is_travel_related
+    for t in ("Severe storm damage shuts down major Kauai highways, roads",
+              "33,000 without power on Kauai after hurricane damages electric grid",
+              "Flights canceled, airports shut over Indonesia volcanic eruption",
+              "제주 태풍 북상에 여객선 전면 결항"):
+        assert is_travel_related(t), t
+
+
+def test_영문_음주운전은_범죄_보도다():
+    from src.relevance import is_crime_report
+    assert is_crime_report("Restaurant owner charged with DUI after deadly pedestrian crash")
+    assert not is_crime_report("Restaurant week returns to Waikiki with 40 venues")
+
+
+# ── 카지노 스팸 ──────────────────────────────────────────────────────
+# 2026-09-09 실측: 구글뉴스 "호텔" 검색에 카지노 홍보 글이 하루 33건 섞여 왔다.
+
+def test_카지노_스팸은_거른다():
+    from src.relevance import is_spam
+    assert is_spam("도쿄 호텔 카지노 의 역사와 발전: 과거에서 현재까지 - 전문가의 관점에서")
+    assert is_spam("오사카 호텔 카지노 : 완벽한 비교 가이드 (2025년 최신판)")
+    assert is_spam("Guam hotel deals", source_name="Histoire pour tous")
+
+
+def test_보통_호텔_기사는_스팸이_아니다():
+    from src.relevance import is_spam
+    assert not is_spam("힐튼, 방콕과 후쿠오카에 새 호텔 오픈", source_name="싱글리스트")

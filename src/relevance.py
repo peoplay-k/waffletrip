@@ -32,6 +32,8 @@ TRAVEL_KEYWORDS: tuple[str, ...] = (
     # 여행에 영향을 주는 정보
     "환율", "날씨", "태풍", "수온", "여행경보",
     "weather", "typhoon", "forecast", "advisory",
+    # 재난·교통 경보. 2026-09-09 실측: 허리케인 로웰로 카우아이 고속도로가 막히고 3만 3천 가구가 정전된 보도가 여행 키워드가 없어 전부 탈락했다. 여행자에게 이것보다 급한 뉴스는 없다.
+    "hurricane", "storm", "tsunami", "earthquake", "eruption", "volcanic", "flood", "evacuation", "power outage", "highway", "road closure", "ferry", "terminal", "허리케인", "폭풍", "쓰나미", "지진", "화산", "홍수", "대피", "정전", "페리", "여객선", "도로 통제",
 )
 
 # 일부러 넣지 않은 것: "park"(주차된 차 사고·공원 민원이 통과했다),
@@ -59,6 +61,8 @@ CRIME_KEYWORDS: tuple[str, ...] = (
     "sexual assault", "sexually assaulted", "predator", "pervert",
     "stabbed", "stabbing", "shooting", "shot dead", "molest",
     "성폭행", "성추행", "강제추행", "살인", "살해", "흉기", "음주운전",
+    # 2026-09-09 실측: '음주운전 기소된 식당 주인' 기사가 restaurant 로 통과했다.
+    "dui", "drunk driving", "drunken driving", "robbery", "carjacking",
 )
 
 
@@ -96,3 +100,29 @@ def is_travel_related(text: str) -> bool:
         elif lowered_keyword in lowered:
             return True
     return False
+
+# ── 스팸 ─────────────────────────────────────────────────────────────
+# 구글뉴스 검색 피드에 "호텔" 을 넣으면 카지노 홍보 스팸이 섞여 온다. 2026-09-09
+# 실측: "도쿄 호텔 카지노의 역사와 발전: 과거에서 현재까지 - 전문가의 관점에서",
+# "오사카 호텔 카지노 완벽한 비교 가이드 (2025년 최신판)" 같은 틀에 박힌 제목이
+# 하루 33건, 전부 og:site_name 이 "Histoire pour tous"(탈취된 프랑스 역사 사이트)로
+# 풀렸다. '호텔' 키워드로 여행 필터를 통과해 지면에 실릴 뻔했다.
+#
+# 낱말 차단은 큐레이션(여행 전문지) 소스에는 걸지 않는다 — 인스파이어 리조트
+# 카지노 개장 같은 업계 뉴스는 진짜 여행 뉴스다. 스팸은 검색 피드로만 들어온다.
+SPAM_KEYWORDS: tuple[str, ...] = (
+    "카지노", "casino", "바카라", "baccarat", "슬롯머신", "슬롯 머신", "토토",
+    "먹튀", "온라인 도박", "사설 베팅", "betting site", "online gambling",
+)
+# 실측으로 확인된 스팸 출처. 이름이 이렇게 풀리면 내용과 무관하게 버린다.
+SPAM_SOURCES: frozenset[str] = frozenset({"Histoire pour tous"})
+
+
+def is_spam(text: str, source_name: str = "") -> bool:
+    """검색 피드에 섞여 오는 도박 홍보 글인가."""
+    if source_name and source_name in SPAM_SOURCES:
+        return True
+    if not text:
+        return False
+    lowered = text.lower()
+    return any(k.lower() in lowered for k in SPAM_KEYWORDS)
