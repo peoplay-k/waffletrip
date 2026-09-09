@@ -356,3 +356,14 @@ def test_영문_제목의_다른_나라_도시는_태그된_사진을_받지_못
     it2 = _It("b", "Da Nang beach named among Asia's best", "")
     assert places_of(it2) == {"danang"}
     assert assign(m, "vietnam", [it2], {}).get("b")
+
+
+def test_지역_단위_촬영지도_캡션에_이름이_나온다():
+    from src.photos import photo_places
+    m = {"kota": [{"file": "assets/photos/kota/a.webp", "city": "kota"}],
+         "jeju": [{"file": "assets/photos/jeju/b.webp", "city": "jeju"}],
+         "vietnam": [{"file": "assets/photos/vietnam/c.webp", "city": "hue"}]}
+    names = photo_places(m)
+    assert names["/img/kota/a.webp"] == "코타키나발루"
+    assert names["/img/jeju/b.webp"] == "제주"
+    assert names["/img/vietnam/c.webp"] == "후에"
