@@ -539,7 +539,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
                            ("privacy", "privacy.html"),
                            ("youth", "youth.html"),
                            ("search", "search.html"),
-                           ("subscribe", "subscribe.html")):
+                           ("subscribe", "subscribe.html"),
+                           ("ethics", "ethics.html")):
         _write(
             os.path.join(out_dir, slug, "index.html"),
             env.get_template(template).render(**common),

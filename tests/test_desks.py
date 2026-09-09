@@ -42,13 +42,18 @@ def test_no_desk_looks_like_a_personal_name():
 
 
 def test_every_desk_declares_how_it_makes_articles():
-    """자동인지 사람이 쓰는지 밝힌다. 독자가 알 수 있어야 한다."""
+    """무엇이 만드는지 밝힌다. 독자가 알 수 있어야 한다.
+
+    "사람" 은 더 이상 허용하지 않는다. 해설은 예약된 AI 가 쓰는데 매체 소개에
+    사람이라고 적혀 있었다(2026-09-09 점검). 사람이 쓰기 시작하면 그때
+    이 목록에 다시 넣는다.
+    """
     from src.desks import DESK_DUTIES
     from src.models import REGIONS
     # 지역 데스크 + 데이터팀 + 편집팀. 숫자를 박아두면 지역을 늘릴 때마다 깨진다.
     assert len(DESK_DUTIES) == len(REGIONS) + 2
     for name, duty, how in DESK_DUTIES:
-        assert how in ("자동", "사람"), (name, how)
+        assert how in ("자동", "AI 작성 · 사람 지침"), (name, how)
         assert duty.strip()
 
 

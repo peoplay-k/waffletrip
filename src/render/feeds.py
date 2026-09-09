@@ -126,7 +126,8 @@ def render_sitemap(items: list[Item], out_dir: str, today: str) -> str:
     # 생기는 날 사이트맵이 저절로 따라와야 한다.
     urls += [f"{base}/city/{slug}/" for slug in group_by_city(items)]
     urls += [f"{base}/{page}/" for page in
-             ("about", "contact", "privacy", "youth", "search", "subscribe")]
+             ("about", "contact", "privacy", "youth", "search", "subscribe",
+              "ethics")]
     # 요약 없는 인용 기사는 페이지에 noindex 를 달았으니 사이트맵에서도 뺀다.
     # 사이트맵이 noindex 페이지를 가리키면 검색엔진이 신호를 못 믿는다.
     urls += [base + article_url(i) for i in items
