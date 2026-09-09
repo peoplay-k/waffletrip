@@ -83,13 +83,23 @@ def places_of(item) -> set[str]:
     """기사가 가리키는 장소들. CITIES 의 도시 + 촬영지 낱말."""
     if isinstance(item, str):
         return set()
-    from src.cities import cities_of
-    text = f"{getattr(item, 'title', '') or ''} {getattr(item, 'summary', '') or ''}"
-    found = set(cities_of(item))
-    for slug, words in PLACE_WORDS.items():
-        if any(w in text for w in words):
-            found.add(slug)
-    return found
+    from src.cities import CITIES
+
+    def scan(text: str) -> set[str]:
+        found = {slug for slug, _, _, words in CITIES if any(w in text for w in words)}
+        for slug, words in PLACE_WORDS.items():
+            if any(w in text for w in words):
+                found.add(slug)
+        return found
+
+    # 제목이 도시를 말하면 그 도시가 주제다. 요약에만 나온 도시는 배경일 뿐이다 —
+    # "나트랑 관광 알려요" 기사의 요약에 "하노이에서 열린 설명회" 가 있다고
+    # 하노이 사진을 붙이면 안 된다(2026-09-09 실측). 제목에 도시가 없을 때만
+    # 요약의 도시를 본다.
+    title_places = scan(getattr(item, 'title', '') or '')
+    if title_places:
+        return title_places
+    return scan(getattr(item, 'summary', '') or '')
 
 
 def place_names() -> dict[str, str]:
