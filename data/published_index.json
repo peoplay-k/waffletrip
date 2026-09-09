@@ -1565,6 +1565,7 @@
     "dfdb46120a3b6780ae2a151f74067ab31c493792",
     "dfe56d54643eda58dd84f8b1e4ffe149b9ebcda0",
     "dffb0ae243b535c96cedb3b5e6e85c0247e182e1",
+    "e00152b76ad2b10a1aaf85589dabb3d714fb64bc",
     "e001af6804fa689bb02c89063b95007a2bb5caa4",
     "e005dfe2c4a69af3b25295738ac6801c0ec74d86",
     "e027b37dc28e6f613301091ade21ef4f22f2548b",
@@ -13060,21 +13061,21 @@
     },
     {
       "id": "91c89989de21678a37167ddd232f9457f4dbfe1b",
-      "title": "Superyacht Marina to secure Lima's future?",
+      "title": "겐팅의 랑카위 슈퍼요트 마리나 계획, 고급 해양관광지 도약 노려",
       "date": "2026-09-09",
       "region": "kota",
       "grade": "B"
     },
     {
       "id": "a03bd0cfddf8ed03afc0fe0600c2513263f83e82",
-      "title": "Hurricane Lowell Update 6",
+      "title": "허리케인 로웰 6보: 중부태평양 허리케인센터 최신 상황",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "4de233af9774e418e2950d542630e90d8cde0f93",
-      "title": "MAG expands Asean travel pacts",
+      "title": "말레이시아항공그룹, 아세안 항공 협력 확대",
       "date": "2026-09-09",
       "region": "kota",
       "grade": "B"
@@ -13137,7 +13138,7 @@
     },
     {
       "id": "2607e253d6de806a2316fe1cdcb0df4825729b12",
-      "title": "First Alert Forecast: Hurricane, tropical storm warnings canceled as Lowell pulls away",
+      "title": "로웰 멀어지며 허리케인·열대폭풍 경보 해제",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13249,7 +13250,7 @@
     },
     {
       "id": "5e57ba76b16d27e363d9aadd6beb7c40638fc6a3",
-      "title": "33,000 without power on Kauaʻi as storm ravages grid, triggers water emergency",
+      "title": "카우아이 3만3천 가구 정전, 전력망 파손에 물 비상",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13270,14 +13271,14 @@
     },
     {
       "id": "48cd17fcea20fe12810cb85ef7c107db2a25eb85",
-      "title": "Chengdu-Penang route sees 54,700 passengers, generates RM30mil in tourism benefits",
+      "title": "청두-페낭 직항 16개월 승객 5만4,700명, 관광 수익 3천만 링깃",
       "date": "2026-09-09",
       "region": "kota",
       "grade": "B"
     },
     {
       "id": "b48b03bbbed321a839dac37602dd3cb067cbb1aa",
-      "title": "33,000 without power on Kauai after hurricane damages electric grid",
+      "title": "허리케인 전력망 파손으로 카우아이 3만3천 가구 정전",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13326,14 +13327,14 @@
     },
     {
       "id": "197ec717dc0c2b0ca36fa882ce50c85edd09fb73",
-      "title": "Man killed by fallen tree in Waimanalo as Hurricane Lowell passes",
+      "title": "허리케인 로웰 지나던 밤 오아후 와이마날로서 나무 쓰러져 1명 사망",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "75f0262ae118316b2912c4aceb938036e62ddbdb",
-      "title": "Lihue Airport reopens after Hurricane Lowell passes Kauai, port remains closed",
+      "title": "허리케인 로웰 지나간 카우아이 리후에공항 재개, 항구는 폐쇄",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13347,7 +13348,7 @@
     },
     {
       "id": "3fe3076d05e23a76d4c1044d5d4094f0285d6e58",
-      "title": "Oahu outage update: 13,100 restored, most others back tonight",
+      "title": "오아후 정전 1만3,100가구 복구, 나머지도 오늘 밤 복구 전망",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13375,49 +13376,49 @@
     },
     {
       "id": "b3df283a34131704290f12b4ee412a743a7374ad",
-      "title": "Kauai residents urged to report storm damage from Hurricane Lowell",
+      "title": "카우아이 당국, 허리케인 로웰 피해 온라인 신고 당부",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "79e011a8932a480c458847eae8d8cd8c329bb590",
-      "title": "Schools and government offices on Kauai to remain closed through Friday",
+      "title": "카우아이 학교·관공서·공원 금요일까지 폐쇄",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "da3c2191640cc4d146b27ec9fd97dfb60255afb1",
-      "title": "Severe storm damage shuts down major Kauai highways, roads",
+      "title": "폭풍 피해로 카우아이 주요 고속도로·도로 폐쇄",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "af9b679f0800dd3cef1c4a4c7ed6b99817ea84c7",
-      "title": "PHOTOS: Hurricane Lowell leaves path of destruction across Kauai",
+      "title": "[사진] 허리케인 로웰이 할퀴고 간 카우아이",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "3533be0ebd2e00a65c3218d46a75308e53bf207a",
-      "title": "Kaumalapau Harbor on Lanai rendered inoperable by Hurricane Lowell",
+      "title": "라나이 카우말라파우 항구, 허리케인 로웰로 운영 중단",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "b304284c821150fa47b15a1998e8a32d8e4d73b4",
-      "title": "Spotlight Now: How recent storms exposed Hawaii’s fragile infrastructure",
+      "title": "잇단 폭풍이 드러낸 하와이 기반시설의 취약성",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "9aa5261f780019c84b78c22b306086927b81cc8c",
-      "title": "Watches, warnings discontinued as Hurricane Lowell pulls away from Hawaii",
+      "title": "허리케인 로웰 하와이서 멀어져 주의보·경보 모두 해제",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13480,7 +13481,7 @@
     },
     {
       "id": "7d05d65d0cd50138cf936a63e768df5631bea8ee",
-      "title": "Travel content creators share honest opinions on Guam, from a healing getaway to concerning potholes",
+      "title": "여행 크리에이터들이 본 괌, 힐링 여행지부터 도로 파임 걱정까지",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
@@ -13536,7 +13537,7 @@
     },
     {
       "id": "ca8740dd9b6e5f17873b567b00ec0e2c91c97f84",
-      "title": "Avolta provisionally awarded Guam Airport speciality retail and food & beverage contracts",
+      "title": "괌 공항 면세·식음료 사업권, 아볼타에 잠정 낙찰",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
@@ -13557,28 +13558,28 @@
     },
     {
       "id": "ee8da1b6c3dadf68444203c9c8d595548dc77433",
-      "title": "BKS launches daily bus from Udon Thani airport to Vientiane",
+      "title": "우돈타니공항-비엔티안 매일 직행버스 운행 시작",
       "date": "2026-09-09",
       "region": "laos",
       "grade": "B"
     },
     {
       "id": "cabb3bd43f9ea892b04f9de08b55ffd7332bf390",
-      "title": "Guam Megafam 2026 Successfully Held at Leo Palace Resort",
+      "title": "괌 메가팸 2026, 레오팔레스 리조트에서 성료",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
     },
     {
       "id": "7fadd351494c43f3c9e4a1471eafa3b54dbc752b",
-      "title": "Lotte Duty Free to exit Guam airport, citing profitability concerns",
+      "title": "롯데면세점, 수익성 이유로 괌 공항점 12월 철수",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
     },
     {
       "id": "bfe980830f12473d3fae42c3ae77da553a55f396",
-      "title": "PIC Saipan launches golf-and-resort package with kids' English academy",
+      "title": "PIC 사이판, 어린이 영어 아카데미 결합한 골프·리조트 패키지 출시",
       "date": "2026-09-09",
       "region": "saipan",
       "grade": "B"
@@ -13592,7 +13593,7 @@
     },
     {
       "id": "ce500a2eb305cf247b6cdfa5634615b9c701a981",
-      "title": "International guests travel the China-Laos Railway to explore Yunnan",
+      "title": "중국-라오스 철도 타고 윈난 탐방하는 외국 손님들",
       "date": "2026-09-09",
       "region": "laos",
       "grade": "B"
@@ -13606,7 +13607,7 @@
     },
     {
       "id": "af61bcd8fcfab633b7f714bfa62c51cf4f3f3e6e",
-      "title": "Kazakhstan‑Laos: Agriculture, digitalization, tourism seen as key areas for cooperation",
+      "title": "카자흐스탄-라오스, 농업·디지털·관광을 핵심 협력 분야로",
       "date": "2026-09-09",
       "region": "laos",
       "grade": "B"
@@ -13641,14 +13642,14 @@
     },
     {
       "id": "bd564a9db50183fe79cbc8891248046e90e9ec28",
-      "title": "More than 200 international travel partners to take part in Guam Mega FAM",
+      "title": "괌 메가 팸투어에 세계 여행업계 200여 명 참가",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
     },
     {
       "id": "543e448dbd5b35a7b2ed3e9cc952ca67eb5192a3",
-      "title": "Guam confirms December return for international dance festival",
+      "title": "괌 국제 댄스 페스티벌, 12월 4일 복귀 확정",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
@@ -13669,14 +13670,14 @@
     },
     {
       "id": "b8ac61ed88be0891ada22248cec7cb973eada5f2",
-      "title": "Hurricane Lowell Update 7",
+      "title": "허리케인 로웰 7보: 하와이에서 멀어지는 중",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "a8e8822aaff2ea9afda1fd8739106cbea13292a1",
-      "title": "Nearly 1,100 flights cancelled after UK air traffic control glitch",
+      "title": "영국 항공관제 장애로 항공편 1,100편 결항",
       "date": "2026-09-09",
       "region": "kota",
       "grade": "B"
@@ -13697,14 +13698,14 @@
     },
     {
       "id": "6afb61c7440c7062da79af86aadb69beadc12189",
-      "title": "Over 200 travel partners on Guam for GVB’s Mega Familiarization Tour",
+      "title": "괌관광청 메가 팸투어, 여행업계 200여 명 괌 방문",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
     },
     {
       "id": "5680cf0fd7ae5205ee4be8e49eb0e6953f61d331",
-      "title": "Ala Moana Regional Park roads buried in sand after storm surge hits south shore",
+      "title": "폭풍 해일에 모래 뒤덮인 호놀룰루 알라모아나 공원 도로 폐쇄",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13718,14 +13719,14 @@
     },
     {
       "id": "897ce82de45afa623e87f8a6b109bfd7caad77f8",
-      "title": "Unlicensed cafes spring up along cliff edge on Nha Trang pass",
+      "title": "나트랑 르엉선 고개 절벽 끝에 무허가 카페 난립",
       "date": "2026-09-09",
       "region": "vietnam",
       "grade": "B"
     },
     {
       "id": "15724a14c9ff6c2eef801905c5eab221015b0833",
-      "title": "Inaugural Håfa Adai Guam Festival in Japan showcases local products",
+      "title": "일본에서 첫 '하파 아다이 괌 페스티벌', 괌 특산품 선보여",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
@@ -13740,6 +13741,13 @@
     {
       "id": "fe3a5da6d53d0183a428b2bcea73b096fbedb8b8",
       "title": "[이로운 뉴스의 여행 한스푼] GUAM#2 세계를 품는 에메랄드빛 섬, 괌! ‘메가 팸투어’로 글로벌 관광 영토 넓힌다!",
+      "date": "2026-09-09",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "e00152b76ad2b10a1aaf85589dabb3d714fb64bc",
+      "title": "괌 메가팸 2026, 레오 팔레스 리조트에서 성황리에 개최",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
