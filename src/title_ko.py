@@ -59,6 +59,19 @@ def save(table: dict[str, str], path: str = PATH) -> None:
         f.write("\n")
 
 
+def off_topic(table: dict[str, str]) -> set[str]:
+    """편집자가 '지역과 무관' 으로 표시한 기사 id.
+
+    값 "~" 는 원래 "번역하지 않는다" 는 표시였는데, 그렇게 표시되는 기사는
+    전부 그 지역과 상관없는 외신 잡보였다(코타 지면의 프랑스 미술관 도난,
+    마이애미 화물기 활주로 이탈). 사람이 한 번 보고 내린 판단이라 믿을 수 있다.
+
+    이 표시가 붙은 기사는 지면 목록에서 빼고 색인에서도 뺀다. 페이지 자체는
+    남긴다 — 이미 나간 주소를 없애면 죽은 링크가 된다.
+    """
+    return {k for k, v in table.items() if v.strip() == SKIP}
+
+
 def apply(items, table: dict[str, str]) -> int:
     """번역이 있는 항목의 제목을 바꾼다. 원제목은 title_orig 에 남긴다. 바꾼 개수."""
     n = 0

@@ -22,7 +22,8 @@ from src.models import Item, item_from_dict
 from src.render.feeds import (render_cname, render_llms_txt, render_robots,
                               render_rss, render_sitemap)
 from src.render.site import render_site
-from src.title_ko import apply as apply_title_ko, load as load_title_ko
+from src.title_ko import (apply as apply_title_ko, load as load_title_ko,
+                          off_topic as off_topic_ids)
 
 SITE_WINDOW_DAYS = 14
 KST = timezone(timedelta(hours=9))
@@ -114,12 +115,15 @@ def build(items: list[Item], out_dir: str, today: str,
     if os.path.isdir(out_dir):
         shutil.rmtree(out_dir)
 
+    # 지역과 무관하다고 표시된 기사는 피드·사이트맵에서도 뺀다. 지면에서 빼고
+    # 색인에는 남기면 검색에만 노출되는 얇은 페이지가 된다.
+    listed = [i for i in items if not getattr(i, "off_topic", False)]
     written = render_site(items, out_dir, today)
-    written.append(render_rss(items, out_dir, built_at))
+    written.append(render_rss(listed, out_dir, built_at))
     # 지역별 피드. 관심 지역만 받는 독자용(/구독 페이지가 안내한다).
-    for region in sorted({i.region for i in items}):
-        written.append(render_rss(items, out_dir, built_at, region=region))
-    written.append(render_sitemap(items, out_dir, today))
+    for region in sorted({i.region for i in listed}):
+        written.append(render_rss(listed, out_dir, built_at, region=region))
+    written.append(render_sitemap(listed, out_dir, today))
     written.append(render_robots(out_dir))
     written.append(render_llms_txt(items, out_dir))
     # 커스텀 도메인. CNAME 파일이 있어야 Pages 가 waffletrip.com 으로
@@ -137,9 +141,19 @@ def main(data_dir: str = "data", out_dir: str = "public") -> int:
     items = load_recent_items(os.path.join(data_dir, "items"), today)
     items = one_roundup_per_week(items)
     # 영문 제목에 우리말 제목을 입힌다. 표는 해설 에이전트가 매일 채운다.
-    translated = apply_title_ko(items, load_title_ko(os.path.join(data_dir, "title_ko.json")))
+    table = load_title_ko(os.path.join(data_dir, "title_ko.json"))
+    translated = apply_title_ko(items, table)
     if translated:
         print(f"영문 제목 {translated}건에 우리말 제목을 입힌다")
+    # 그 지역과 무관하다고 표시된 기사는 목록·색인에서 뺀다. 페이지는 남긴다.
+    off = off_topic_ids(table)
+    hidden = 0
+    for item in items:
+        if item.id in off:
+            item.off_topic = True
+            hidden += 1
+    if hidden:
+        print(f"지역과 무관한 기사 {hidden}건을 목록·색인에서 뺀다")
 
     if not items:
         print("경고: 최근 항목이 0건이다. 사이트를 만들지 않고 멈춘다 — "
