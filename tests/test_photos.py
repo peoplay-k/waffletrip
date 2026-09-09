@@ -343,3 +343,16 @@ def test_요약에만_나온_도시는_주제가_아니다():
 def test_제목에_도시가_없으면_요약의_도시를_본다():
     from src.photos import places_of
     assert places_of(_It("a", "베트남 침대열차 요금 인하", "하노이-다낭 노선이 80만 동부터")) == {"hanoi", "danang"}
+
+
+def test_영문_제목의_다른_나라_도시는_태그된_사진을_받지_못한다():
+    """도쿄 신주쿠 기사에 다낭 사진이 붙었다. 다른 도시를 말하면 태그 사진은 안 준다."""
+    from src.photos import assign, places_of
+    it = _It("a", "World's 'most favorite destination' bans vacation rentals in Tokyo hotspot Shinjuku", "")
+    assert "tokyo" in places_of(it)
+    m = {"vietnam": [{"file": "assets/photos/vietnam/danang1.webp", "city": "danang"}]}
+    assert "a" not in assign(m, "vietnam", [it], {})
+    # 우리 도시를 영문으로 말하면 그 도시 사진은 받는다
+    it2 = _It("b", "Da Nang beach named among Asia's best", "")
+    assert places_of(it2) == {"danang"}
+    assert assign(m, "vietnam", [it2], {}).get("b")

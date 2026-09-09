@@ -282,6 +282,204 @@
       "baked_at": "2026-09-02T10:41:58+09:00",
       "hero": true,
       "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-26/20250426_064918.jpg",
+      "file": "assets/photos/kota/20250426_064918.webp",
+      "bytes": 218624,
+      "baked_at": "2026-09-09T15:21:08+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-26/20250426_091102.jpg",
+      "file": "assets/photos/kota/20250426_091102.webp",
+      "bytes": 258962,
+      "baked_at": "2026-09-09T15:21:08+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-26/20250426_093754.jpg",
+      "file": "assets/photos/kota/20250426_093754.webp",
+      "bytes": 218374,
+      "baked_at": "2026-09-09T15:21:09+09:00",
+      "overrode": "얼굴 6건 검출",
+      "city": "kota",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-28/20250428_092821.jpg",
+      "file": "assets/photos/kota/20250428_092821.webp",
+      "bytes": 570464,
+      "baked_at": "2026-09-09T15:21:10+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-28/20250428_094531.jpg",
+      "file": "assets/photos/kota/20250428_094531.webp",
+      "bytes": 291720,
+      "baked_at": "2026-09-09T15:21:11+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-28/20250428_094537.jpg",
+      "file": "assets/photos/kota/20250428_094537.webp",
+      "bytes": 356798,
+      "baked_at": "2026-09-09T15:21:12+09:00",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-28/20250428_182121.jpg",
+      "file": "assets/photos/kota/20250428_182121.webp",
+      "bytes": 106212,
+      "baked_at": "2026-09-09T15:21:12+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-28/20250428_182127(0).jpg",
+      "file": "assets/photos/kota/20250428_1821270.webp",
+      "bytes": 124720,
+      "baked_at": "2026-09-09T15:21:13+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-28/20250428_182133.jpg",
+      "file": "assets/photos/kota/20250428_182133.webp",
+      "bytes": 175022,
+      "baked_at": "2026-09-09T15:21:13+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-28/20250428_182136.jpg",
+      "file": "assets/photos/kota/20250428_182136.webp",
+      "bytes": 139462,
+      "baked_at": "2026-09-09T15:21:14+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-28/20250428_182137.jpg",
+      "file": "assets/photos/kota/20250428_182137.webp",
+      "bytes": 134524,
+      "baked_at": "2026-09-09T15:21:14+09:00",
+      "city": "kota",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-27/20250427_065859.jpg",
+      "file": "assets/photos/kota/20250427_065859.webp",
+      "bytes": 197478,
+      "baked_at": "2026-09-09T15:21:15+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-27/20250427_094618.jpg",
+      "file": "assets/photos/kota/20250427_094618.webp",
+      "bytes": 609342,
+      "baked_at": "2026-09-09T15:21:16+09:00",
+      "overrode": "얼굴 9건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-27/20250427_094629.jpg",
+      "file": "assets/photos/kota/20250427_094629.webp",
+      "bytes": 204274,
+      "baked_at": "2026-09-09T15:21:17+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-27/20250427_171018.jpg",
+      "file": "assets/photos/kota/20250427_171018.webp",
+      "bytes": 166136,
+      "baked_at": "2026-09-09T15:21:17+09:00",
+      "overrode": "얼굴 11건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-27/20250427_183435.jpg",
+      "file": "assets/photos/kota/20250427_183435.webp",
+      "bytes": 124190,
+      "baked_at": "2026-09-09T15:21:18+09:00",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-30/20250430_132407.jpg",
+      "file": "assets/photos/kota/20250430_132407.webp",
+      "bytes": 208812,
+      "baked_at": "2026-09-09T15:21:18+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-30/20250430_135804(0).jpg",
+      "file": "assets/photos/kota/20250430_1358040.webp",
+      "bytes": 462204,
+      "baked_at": "2026-09-09T15:21:19+09:00",
+      "overrode": "얼굴 5건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-30/20250430_142221(0).jpg",
+      "file": "assets/photos/kota/20250430_1422210.webp",
+      "bytes": 199418,
+      "baked_at": "2026-09-09T15:21:20+09:00",
+      "overrode": "얼굴 5건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-30/20250430_145336.jpg",
+      "file": "assets/photos/kota/20250430_145336.webp",
+      "bytes": 161116,
+      "baked_at": "2026-09-09T15:21:20+09:00",
+      "overrode": "얼굴 8건 검출",
+      "city": "kota",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-30/20250430_145721.jpg",
+      "file": "assets/photos/kota/20250430_145721.webp",
+      "bytes": 165736,
+      "baked_at": "2026-09-09T15:21:21+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-30/20250430_181232.jpg",
+      "file": "assets/photos/kota/20250430_181232.webp",
+      "bytes": 138716,
+      "baked_at": "2026-09-09T15:21:22+09:00",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-30/20250430_181238.jpg",
+      "file": "assets/photos/kota/20250430_181238.webp",
+      "bytes": 136402,
+      "baked_at": "2026-09-09T15:21:22+09:00",
+      "overrode": "얼굴 6건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-30/20250430_181247.jpg",
+      "file": "assets/photos/kota/20250430_181247.webp",
+      "bytes": 107926,
+      "baked_at": "2026-09-09T15:21:23+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "kota"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/코타키나발루/2025-04-30/20250430_182230.jpg",
+      "file": "assets/photos/kota/20250430_182230.webp",
+      "bytes": 88406,
+      "baked_at": "2026-09-09T15:21:23+09:00",
+      "city": "kota"
     }
   ],
   "vietnam": [
@@ -612,6 +810,511 @@
       "baked_at": "2026-09-08T18:26:22+09:00",
       "overrode": "얼굴 4건 검출",
       "city": "hanoi"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-나트랑/2024-12-23/20241223_144810.jpg",
+      "file": "assets/photos/vietnam/20241223_144810.webp",
+      "bytes": 45076,
+      "baked_at": "2026-09-09T15:07:27+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "nhatrang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-나트랑/2024-12-23/20241223_230904.jpg",
+      "file": "assets/photos/vietnam/20241223_230904.webp",
+      "bytes": 124678,
+      "baked_at": "2026-09-09T15:07:28+09:00",
+      "overrode": "얼굴 6건 검출",
+      "city": "nhatrang",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-나트랑/2024-12-23/20241223_230919.jpg",
+      "file": "assets/photos/vietnam/20241223_230919.webp",
+      "bytes": 87194,
+      "baked_at": "2026-09-09T15:07:29+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "nhatrang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_094043.jpg",
+      "file": "assets/photos/vietnam/20250514_094043.webp",
+      "bytes": 104756,
+      "baked_at": "2026-09-09T15:10:19+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_144008.jpg",
+      "file": "assets/photos/vietnam/20250514_144008.webp",
+      "bytes": 101656,
+      "baked_at": "2026-09-09T15:10:19+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_150200.jpg",
+      "file": "assets/photos/vietnam/20250514_150200.webp",
+      "bytes": 319644,
+      "baked_at": "2026-09-09T15:10:20+09:00",
+      "overrode": "얼굴 8건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_151146.jpg",
+      "file": "assets/photos/vietnam/20250514_151146.webp",
+      "bytes": 310292,
+      "baked_at": "2026-09-09T15:10:21+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_151147.jpg",
+      "file": "assets/photos/vietnam/20250514_151147.webp",
+      "bytes": 293866,
+      "baked_at": "2026-09-09T15:10:22+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_151148.jpg",
+      "file": "assets/photos/vietnam/20250514_151148.webp",
+      "bytes": 239814,
+      "baked_at": "2026-09-09T15:10:23+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_151151.jpg",
+      "file": "assets/photos/vietnam/20250514_151151.webp",
+      "bytes": 340180,
+      "baked_at": "2026-09-09T15:10:25+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_151201.jpg",
+      "file": "assets/photos/vietnam/20250514_151201.webp",
+      "bytes": 355732,
+      "baked_at": "2026-09-09T15:10:26+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_151411.jpg",
+      "file": "assets/photos/vietnam/20250514_151411.webp",
+      "bytes": 434590,
+      "baked_at": "2026-09-09T15:10:28+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_152042.jpg",
+      "file": "assets/photos/vietnam/20250514_152042.webp",
+      "bytes": 241760,
+      "baked_at": "2026-09-09T15:10:29+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_153031.jpg",
+      "file": "assets/photos/vietnam/20250514_153031.webp",
+      "bytes": 221572,
+      "baked_at": "2026-09-09T15:10:29+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_153035.jpg",
+      "file": "assets/photos/vietnam/20250514_153035.webp",
+      "bytes": 282302,
+      "baked_at": "2026-09-09T15:10:31+09:00",
+      "city": "danang",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_160744.jpg",
+      "file": "assets/photos/vietnam/20250514_160744.webp",
+      "bytes": 388766,
+      "baked_at": "2026-09-09T15:10:32+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_172148.jpg",
+      "file": "assets/photos/vietnam/20250514_172148.webp",
+      "bytes": 195082,
+      "baked_at": "2026-09-09T15:10:33+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_174047.jpg",
+      "file": "assets/photos/vietnam/20250514_174047.webp",
+      "bytes": 356850,
+      "baked_at": "2026-09-09T15:10:35+09:00",
+      "overrode": "얼굴 27건 검출",
+      "city": "danang",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2025-05-14/20250514_191321.jpg",
+      "file": "assets/photos/vietnam/20250514_191321.webp",
+      "bytes": 158664,
+      "baked_at": "2026-09-09T15:10:36+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2024-12-19/20241219_151859.jpg",
+      "file": "assets/photos/vietnam/20241219_151859.webp",
+      "bytes": 183378,
+      "baked_at": "2026-09-09T15:10:36+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2024-12-19/20241219_151903.jpg",
+      "file": "assets/photos/vietnam/20241219_151903.webp",
+      "bytes": 103022,
+      "baked_at": "2026-09-09T15:10:37+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2024-12-19/20241219_162440.jpg",
+      "file": "assets/photos/vietnam/20241219_162440.webp",
+      "bytes": 132338,
+      "baked_at": "2026-09-09T15:10:38+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2024-12-19/20241219_162444.jpg",
+      "file": "assets/photos/vietnam/20241219_162444.webp",
+      "bytes": 60256,
+      "baked_at": "2026-09-09T15:10:39+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2024-12-19/20241219_182524.jpg",
+      "file": "assets/photos/vietnam/20241219_182524.webp",
+      "bytes": 128696,
+      "baked_at": "2026-09-09T15:10:40+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2024-12-19/20241219_182955.jpg",
+      "file": "assets/photos/vietnam/20241219_182955.webp",
+      "bytes": 124376,
+      "baked_at": "2026-09-09T15:10:40+09:00",
+      "overrode": "얼굴 6건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-호이안/2024-12-19/20241219_182958.jpg",
+      "file": "assets/photos/vietnam/20241219_182958.webp",
+      "bytes": 74568,
+      "baked_at": "2026-09-09T15:10:41+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "danang",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-후에/2024-09-09/20240909_171607.jpg",
+      "file": "assets/photos/vietnam/20240909_171607.webp",
+      "bytes": 116780,
+      "baked_at": "2026-09-09T15:11:16+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "hue"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-후에/2024-09-09/20240909_171709.jpg",
+      "file": "assets/photos/vietnam/20240909_171709.webp",
+      "bytes": 187022,
+      "baked_at": "2026-09-09T15:11:17+09:00",
+      "overrode": "얼굴 9건 검출",
+      "city": "hue"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-후에/2024-09-09/20240909_172103.jpg",
+      "file": "assets/photos/vietnam/20240909_172103.webp",
+      "bytes": 82460,
+      "baked_at": "2026-09-09T15:11:18+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "hue",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-후에/2024-09-09/20240909_172658.jpg",
+      "file": "assets/photos/vietnam/20240909_172658.webp",
+      "bytes": 148460,
+      "baked_at": "2026-09-09T15:11:19+09:00",
+      "city": "hue"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-후에/2024-09-09/20240909_172702.jpg",
+      "file": "assets/photos/vietnam/20240909_172702.webp",
+      "bytes": 144648,
+      "baked_at": "2026-09-09T15:11:19+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "hue"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-09-09/20240909_072100.jpg",
+      "file": "assets/photos/vietnam/20240909_072100.webp",
+      "bytes": 123988,
+      "baked_at": "2026-09-09T15:14:33+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-09-09/20240909_072107.jpg",
+      "file": "assets/photos/vietnam/20240909_072107.webp",
+      "bytes": 147550,
+      "baked_at": "2026-09-09T15:14:34+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "danang",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-09-09/20240909_171009.jpg",
+      "file": "assets/photos/vietnam/20240909_171009.webp",
+      "bytes": 81900,
+      "baked_at": "2026-09-09T15:14:34+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-09-10/20240910_153659.jpg",
+      "file": "assets/photos/vietnam/20240910_153659.webp",
+      "bytes": 269912,
+      "baked_at": "2026-09-09T15:14:35+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-09-11/20240911_084624.jpg",
+      "file": "assets/photos/vietnam/20240911_084624.webp",
+      "bytes": 81474,
+      "baked_at": "2026-09-09T15:14:35+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-09-11/20240911_172924.jpg",
+      "file": "assets/photos/vietnam/20240911_172924.webp",
+      "bytes": 89854,
+      "baked_at": "2026-09-09T15:14:36+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-09-11/20240911_174135.jpg",
+      "file": "assets/photos/vietnam/20240911_174135.webp",
+      "bytes": 96234,
+      "baked_at": "2026-09-09T15:14:36+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-13/20250513_211843.jpg",
+      "file": "assets/photos/vietnam/20250513_211843.webp",
+      "bytes": 118566,
+      "baked_at": "2026-09-09T15:14:37+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "danang",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-13/20250513_211845.jpg",
+      "file": "assets/photos/vietnam/20250513_211845.webp",
+      "bytes": 161492,
+      "baked_at": "2026-09-09T15:14:37+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-13/20250513_211847.jpg",
+      "file": "assets/photos/vietnam/20250513_211847.webp",
+      "bytes": 109864,
+      "baked_at": "2026-09-09T15:14:37+09:00",
+      "overrode": "얼굴 6건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-13/20250513_211848.jpg",
+      "file": "assets/photos/vietnam/20250513_211848.webp",
+      "bytes": 151690,
+      "baked_at": "2026-09-09T15:14:38+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_055208.jpg",
+      "file": "assets/photos/vietnam/20250514_055208.webp",
+      "bytes": 134544,
+      "baked_at": "2026-09-09T15:14:38+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_055222.jpg",
+      "file": "assets/photos/vietnam/20250514_055222.webp",
+      "bytes": 70592,
+      "baked_at": "2026-09-09T15:14:39+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_063530.jpg",
+      "file": "assets/photos/vietnam/20250514_063530.webp",
+      "bytes": 139228,
+      "baked_at": "2026-09-09T15:14:39+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_063531.jpg",
+      "file": "assets/photos/vietnam/20250514_063531.webp",
+      "bytes": 133742,
+      "baked_at": "2026-09-09T15:14:40+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_063534.jpg",
+      "file": "assets/photos/vietnam/20250514_063534.webp",
+      "bytes": 138054,
+      "baked_at": "2026-09-09T15:14:40+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_063536.jpg",
+      "file": "assets/photos/vietnam/20250514_063536.webp",
+      "bytes": 132552,
+      "baked_at": "2026-09-09T15:14:40+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_103536.jpg",
+      "file": "assets/photos/vietnam/20250514_103536.webp",
+      "bytes": 292786,
+      "baked_at": "2026-09-09T15:14:41+09:00",
+      "overrode": "얼굴 6건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_110245.jpg",
+      "file": "assets/photos/vietnam/20250514_110245.webp",
+      "bytes": 349354,
+      "baked_at": "2026-09-09T15:14:42+09:00",
+      "city": "danang",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_120901.jpg",
+      "file": "assets/photos/vietnam/20250514_120901.webp",
+      "bytes": 376346,
+      "baked_at": "2026-09-09T15:14:42+09:00",
+      "overrode": "얼굴 3건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_133849.jpg",
+      "file": "assets/photos/vietnam/20250514_133849.webp",
+      "bytes": 222980,
+      "baked_at": "2026-09-09T15:14:43+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_133856.jpg",
+      "file": "assets/photos/vietnam/20250514_133856.webp",
+      "bytes": 71144,
+      "baked_at": "2026-09-09T15:14:43+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_133900.jpg",
+      "file": "assets/photos/vietnam/20250514_133900.webp",
+      "bytes": 251964,
+      "baked_at": "2026-09-09T15:14:44+09:00",
+      "overrode": "얼굴 6건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_133903.jpg",
+      "file": "assets/photos/vietnam/20250514_133903.webp",
+      "bytes": 283190,
+      "baked_at": "2026-09-09T15:14:44+09:00",
+      "city": "danang",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_135837.jpg",
+      "file": "assets/photos/vietnam/20250514_135837.webp",
+      "bytes": 198204,
+      "baked_at": "2026-09-09T15:14:45+09:00",
+      "overrode": "얼굴 1건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2025-05-14/20250514_140152.jpg",
+      "file": "assets/photos/vietnam/20250514_140152.webp",
+      "bytes": 213122,
+      "baked_at": "2026-09-09T15:14:45+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-12-18/20241218_072816.jpg",
+      "file": "assets/photos/vietnam/20241218_072816.webp",
+      "bytes": 49694,
+      "baked_at": "2026-09-09T15:14:46+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-12-18/20241218_090552.jpg",
+      "file": "assets/photos/vietnam/20241218_090552.webp",
+      "bytes": 296780,
+      "baked_at": "2026-09-09T15:14:46+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-12-19/20241219_092330.jpg",
+      "file": "assets/photos/vietnam/20241219_092330.webp",
+      "bytes": 81702,
+      "baked_at": "2026-09-09T15:14:47+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-12-19/20241219_100453.jpg",
+      "file": "assets/photos/vietnam/20241219_100453.webp",
+      "bytes": 78636,
+      "baked_at": "2026-09-09T15:14:47+09:00",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-12-17/20241217_193710.jpg",
+      "file": "assets/photos/vietnam/20241217_193710.webp",
+      "bytes": 108164,
+      "baked_at": "2026-09-09T15:14:48+09:00",
+      "overrode": "얼굴 6건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-12-17/20241217_193713.jpg",
+      "file": "assets/photos/vietnam/20241217_193713.webp",
+      "bytes": 110310,
+      "baked_at": "2026-09-09T15:14:48+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "danang"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/베트남-다낭/2024-12-17/20241217_193715.jpg",
+      "file": "assets/photos/vietnam/20241217_193715.webp",
+      "bytes": 91658,
+      "baked_at": "2026-09-09T15:14:49+09:00",
+      "overrode": "얼굴 8건 검출",
+      "city": "danang",
+      "hero": true
     }
   ],
   "jeju": [
@@ -622,6 +1325,119 @@
       "baked_at": "2026-09-02T11:24:43+09:00",
       "hero": true,
       "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-01-17/20250117_080930.jpg",
+      "file": "assets/photos/jeju/20250117_080930.webp",
+      "bytes": 211636,
+      "baked_at": "2026-09-09T15:22:53+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-01-17/20250117_080944.jpg",
+      "file": "assets/photos/jeju/20250117_080944.webp",
+      "bytes": 94272,
+      "baked_at": "2026-09-09T15:22:53+09:00",
+      "overrode": "얼굴 4건 검출",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-01-17/20250117_094423.jpg",
+      "file": "assets/photos/jeju/20250117_094423.webp",
+      "bytes": 269140,
+      "baked_at": "2026-09-09T15:22:54+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-01-18/20250118_114949.jpg",
+      "file": "assets/photos/jeju/20250118_114949.webp",
+      "bytes": 130076,
+      "baked_at": "2026-09-09T15:22:54+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-01-18/20250118_115003.jpg",
+      "file": "assets/photos/jeju/20250118_115003.webp",
+      "bytes": 141266,
+      "baked_at": "2026-09-09T15:22:55+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-04-09/20250409_151325.jpg",
+      "file": "assets/photos/jeju/20250409_151325.webp",
+      "bytes": 383162,
+      "baked_at": "2026-09-09T15:22:55+09:00",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-04-09/20250409_151335.jpg",
+      "file": "assets/photos/jeju/20250409_151335.webp",
+      "bytes": 205320,
+      "baked_at": "2026-09-09T15:22:56+09:00",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-04-09/20250409_152830(0).jpg",
+      "file": "assets/photos/jeju/20250409_1528300.webp",
+      "bytes": 447508,
+      "baked_at": "2026-09-09T15:22:57+09:00",
+      "city": "jeju",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-04-09/20250409_152831.jpg",
+      "file": "assets/photos/jeju/20250409_152831.webp",
+      "bytes": 430340,
+      "baked_at": "2026-09-09T15:22:58+09:00",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-04-09/20250409_152833.jpg",
+      "file": "assets/photos/jeju/20250409_152833.webp",
+      "bytes": 345366,
+      "baked_at": "2026-09-09T15:22:59+09:00",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-04-09/20250409_152837.jpg",
+      "file": "assets/photos/jeju/20250409_152837.webp",
+      "bytes": 401360,
+      "baked_at": "2026-09-09T15:22:59+09:00",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-04-09/20250409_152838.jpg",
+      "file": "assets/photos/jeju/20250409_152838.webp",
+      "bytes": 440856,
+      "baked_at": "2026-09-09T15:23:00+09:00",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-04-09/20250409_153125.jpg",
+      "file": "assets/photos/jeju/20250409_153125.webp",
+      "bytes": 338140,
+      "baked_at": "2026-09-09T15:23:01+09:00",
+      "city": "jeju",
+      "hero": true
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-04-09/20250409_153127.jpg",
+      "file": "assets/photos/jeju/20250409_153127.webp",
+      "bytes": 316600,
+      "baked_at": "2026-09-09T15:23:02+09:00",
+      "city": "jeju"
+    },
+    {
+      "src": "/Users/peoplay/Desktop/사진_정리완료/지역별/제주/2025-04-09/20250409_153133.jpg",
+      "file": "assets/photos/jeju/20250409_153133.webp",
+      "bytes": 279814,
+      "baked_at": "2026-09-09T15:23:02+09:00",
+      "overrode": "얼굴 2건 검출",
+      "city": "jeju"
     }
   ],
   "japan": [

@@ -78,6 +78,30 @@ PLACE_WORDS: dict[str, tuple[str, ...]] = {
 }
 PLACE_NAMES: dict[str, str] = {"halong": "하롱베이", "ninhbinh": "닌빈", "wulai": "우라이"}
 
+# 영문 제목과 다른 나라 도시. VnExpress 같은 현지 영문 매체는 지역이 베트남으로
+# 고정돼 싱가포르·도쿄 기사도 베트남면에 들어온다. 2026-09-09 실측: "Tokyo tourist
+# hotspot Shinjuku bans vacation rentals" 에 다낭 사진이 붙었다 — 제목에 우리 도시
+# 낱말이 없어 '도시를 안 가리는 기사' 로 보였기 때문이다. 다른 도시를 말하는
+# 기사는 태그된 지역 사진을 받지 못한다(태그 없는 사진만). 소문자로 비교한다.
+FOREIGN_WORDS: dict[str, tuple[str, ...]] = {
+    "hanoi": ("hanoi",), "danang": ("da nang", "danang", "hoi an", "hoian", "ba na"),
+    "nhatrang": ("nha trang", "khanh hoa"), "hochiminh": ("ho chi minh", "hcmc", "saigon"),
+    "phuquoc": ("phu quoc",), "halong": ("ha long", "halong"), "hue": ("hue ",),
+    "tokyo": ("tokyo", "shinjuku", "narita", "haneda"), "osaka": ("osaka", "kyoto", "kansai"),
+    "fukuoka": ("fukuoka",), "sapporo": ("sapporo", "hokkaido"), "okinawa": ("okinawa",),
+    "bangkok": ("bangkok",), "phuket": ("phuket",), "chiangmai": ("chiang mai",),
+    "taipei": ("taipei", "taoyuan"), "kaohsiung": ("kaohsiung",),
+    "kota": ("kota kinabalu", "sabah"), "jeju": ("jeju",),
+    "singapore": ("singapore", "changi", "싱가포르"), "hongkong": ("hong kong", "홍콩"),
+    "seoul": ("seoul", "gimpo", "incheon airport"), "bali": ("bali", "발리"),
+    "jakarta": ("jakarta", "자카르타"), "kualalumpur": ("kuala lumpur", "쿠알라룸푸르"),
+    "penang": ("penang", "페낭"), "langkawi": ("langkawi", "랑카위"),
+    "maldives": ("maldives", "몰디브"), "seychelles": ("seychelles",),
+    "macau": ("macau", "마카오"), "manila": ("manila", "cebu", "boracay", "세부", "보라카이"),
+    "miami": ("miami",), "london": ("london",), "paris": ("paris",), "spain": ("spain", "madrid", "barcelona"),
+}
+
+
 
 def places_of(item) -> set[str]:
     """기사가 가리키는 장소들. CITIES 의 도시 + 촬영지 낱말."""
@@ -87,8 +111,9 @@ def places_of(item) -> set[str]:
 
     def scan(text: str) -> set[str]:
         found = {slug for slug, _, _, words in CITIES if any(w in text for w in words)}
-        for slug, words in PLACE_WORDS.items():
-            if any(w in text for w in words):
+        lowered = text.lower()
+        for slug, words in list(PLACE_WORDS.items()) + list(FOREIGN_WORDS.items()):
+            if any(w in lowered for w in words):
                 found.add(slug)
         return found
 
