@@ -300,3 +300,31 @@ def test_캡션용_장소_이름():
     assert names["/img/vietnam/hanoi1.webp"] == "하노이"
     assert names["/img/vietnam/halong.webp"] == "하롱베이"
     assert names["/img/vietnam/generic.webp"] == ""
+
+
+# ── 공유 카드·치수 ─────────────────────────────────────────────────────
+
+def test_og_path_maps_img_to_og_jpg():
+    from src.photos import og_path
+    assert og_path("/img/vietnam/x.webp") == "/og/vietnam/x.jpg"
+
+
+def test_render_og_images_makes_1200x630_jpg(tmp_path, monkeypatch):
+    from PIL import Image
+    from src.photos import render_og_images, photo_dims
+    src = tmp_path / "a.webp"; Image.new("RGB", (900, 900), (200, 50, 50)).save(src)
+    manifest = {"guam": [{"file": str(src)}]}
+    monkeypatch.setattr("src.photos.web_path", lambda f: "/img/guam/a.webp")
+    out = tmp_path / "public"
+    assert render_og_images(manifest, str(out), ["/img/guam/a.webp"]) == 1
+    card = Image.open(out / "og" / "guam" / "a.jpg")
+    assert card.size == (1200, 630)
+    assert photo_dims(manifest, ["/img/guam/a.webp"])["/img/guam/a.webp"] == (900, 900)
+
+
+def test_render_og_images_skips_unused_photos(tmp_path, monkeypatch):
+    from PIL import Image
+    from src.photos import render_og_images
+    src = tmp_path / "a.webp"; Image.new("RGB", (300, 300)).save(src)
+    monkeypatch.setattr("src.photos.web_path", lambda f: "/img/guam/a.webp")
+    assert render_og_images({"guam": [{"file": str(src)}]}, str(tmp_path / "p"), []) == 0

@@ -18,7 +18,7 @@
   {# 첫 기사는 크게, 나머지는 목록으로. 신문 지면의 관행이다. #}
   {% set head = articles[0] %}
   <article class="sec-lead">
-    {% if head.photo %}<a href="{{ article_urls[head.id] }}"><img src="{{ head.photo }}" alt="{{ head.title }}" loading="lazy"></a>{% endif %}
+    {% if head.photo %}<a href="{{ article_urls[head.id] }}"><img src="{{ head.photo }}" alt="{{ head.title }}" loading="lazy" {{ dims(head.photo) }}></a>{% endif %}
     <div class="sec-lead-txt">
       <h2>{% if head.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[head.id] }}">{{ head.title|clean_title }}</a></h2>
       {% if head.summary %}<p class="summary">{{ head.summary }}</p>{% endif %}
@@ -30,7 +30,7 @@
   <div class="cards">
     {% for item in articles[1:] %}
     <article class="card{% if not item.photo %} text-only{% endif %}">
-      {% if item.photo %}<a href="{{ article_urls[item.id] }}"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy"></a>{% endif %}
+      {% if item.photo %}<a href="{{ article_urls[item.id] }}"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy" {{ dims(item.photo) }}></a>{% endif %}
       <h3>{% if item.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[item.id] }}">{{ item.title|clean_title }}</a></h3>
       <div class="byline">{{ item.source_name }} · {{ item.published_at[:10] }}</div>
     </article>

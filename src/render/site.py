@@ -14,7 +14,8 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
 
 from src.desks import DESK_DUTIES, REGION_DESKS, byline_for
-from src.photos import (assign as assign_photos, copy_into, load_manifest, photo_places,
+from src.photos import (assign as assign_photos, copy_into, load_manifest, og_path,
+                        photo_dims, photo_places, render_og_images,
                         load_used, save_used)
 from src.render.md import render as md_render
 from src.cities import CITY_NAMES, CITY_REGION, cities_of, group_by_city
@@ -314,6 +315,17 @@ def _crumb_ld(item, urls: dict) -> str:
     }, ensure_ascii=False)
 
 
+
+def _dims_attr(table: dict):
+    """<img> 에 넣을 width/height 속성. 모르는 사진이면 빈 문자열."""
+    from markupsafe import Markup
+
+    def dims(photo: str):
+        wh = table.get(photo or "")
+        return Markup(f' width="{wh[0]}" height="{wh[1]}"') if wh else Markup("")
+    return dims
+
+
 def _article_ld(item, urls: dict) -> str:
     """기사 구조화 데이터. 검색엔진과 AI 가 읽는다."""
     data = {
@@ -324,13 +336,17 @@ def _article_ld(item, urls: dict) -> str:
         "dateModified": item.published_at,
         "inLanguage": "ko",
         "url": f"{SITE_URL}{BASE_PATH}{urls.get(item.id, '/')}",
-        "publisher": {"@type": "NewsMediaOrganization", "name": SITE_NAME},
+        "publisher": {"@type": "NewsMediaOrganization", "name": SITE_NAME,
+                      "logo": {"@type": "ImageObject", "url": f"{SITE_URL}{BASE_PATH}/logo.png",
+                               "width": 600, "height": 60}},
         "author": {"@type": "Organization", "name": item.source_name or SITE_NAME},
     }
     if item.summary:
         data["description"] = item.summary
-    if item.photo:
-        data["image"] = f"{SITE_URL}{BASE_PATH}{item.photo}"
+    # 리치결과는 1200×630 JPG 를 원한다. 없으면 기본 카드라도 넣는다 — image 가
+    # 아예 빠지면 톱스토리 대상이 안 된다(2026-09-09 점검).
+    data["image"] = (f"{SITE_URL}{BASE_PATH}{og_path(item.photo)}" if item.photo
+                     else f"{SITE_URL}{BASE_PATH}/og-default.jpg")
     return json.dumps(data, ensure_ascii=False)
 
 
@@ -385,6 +401,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "city_links": [(slug, CITY_NAMES[slug]) for slug in by_city],
         # 사진 캡션에 촬영지를 밝힌다. 지역 사진이라도 어느 도시인지 말해야 정직하다.
         "photo_places": photo_places(manifest) if manifest else {},
+        "og_photo": (lambda ph: og_path(ph) if ph else ""),
+        "dims": _dims_attr(photo_dims(manifest, [i.photo for i in items if i.photo]) if manifest else {}),
         "video": video,
         "topics": TOPICS, "topic_names": TOPIC_NAMES,
         "contact_email": CONTACT_EMAIL, "desk_duties": DESK_DUTIES,
@@ -589,7 +607,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 파비콘·기본 OG 이미지·IndexNow 키
     # indexnow.txt 는 검색엔진이 "이 키를 쓰는 게 정말 이 사이트인가"를 확인하러
     # 온다. 루트에 없으면 통지가 전부 거부된다.
-    for name in ("favicon.svg", "og-default.jpg", "indexnow.txt", ".htaccess"):
+    for name in ("favicon.svg", "og-default.jpg", "logo.png", "indexnow.txt", ".htaccess"):
         src = os.path.join("static", name)
         if os.path.exists(src):
             shutil.copy2(src, os.path.join(out_dir, name))
@@ -613,7 +631,13 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         shutil.copytree(admin_src, admin_dst)
         written.append(admin_dst)
 
-    copied = copy_into(out_dir)
+    copied = copy_into(out_dir, photos=[i.photo for i in items if i.photo])
+
+    # 공유 카드. 사진마다 1200×630 JPG. 카톡은 webp 카드를 안 그린다.
+
+    if manifest:
+
+        render_og_images(manifest, out_dir, [i.photo for i in items if i.photo])
     if copied:
         print(f"  사진 {copied}장 복사 → {out_dir}/img/")
 

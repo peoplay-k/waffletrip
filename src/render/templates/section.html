@@ -11,7 +11,7 @@
 <div class="cards">
   {% for item in items %}
   <article class="card{% if not item.photo %} text-only{% endif %}">
-    {% if item.photo and item.grade != 'A' %}<a href="{{ article_urls[item.id] }}"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy"></a>{% endif %}
+    {% if item.photo and item.grade != 'A' %}<a href="{{ article_urls[item.id] }}"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy" {{ dims(item.photo) }}></a>{% endif %}
     <a class="rg" href="/{{ item.region }}/">{{ region_names.get(item.region, item.region) }}</a>
     <h3>{% if item.title is sample %}<span class="badge">샘플</span>{% endif %}{% if item.grade == 'A' %}{{ item.title }}{% else %}<a href="{{ article_urls[item.id] }}">{{ item.title|clean_title }}</a>{% endif %}</h3>
     {% if item.grade == 'A' and item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}

@@ -8,16 +8,23 @@
 {% block og_type %}article{% endblock %}
 {% block og_title %}{{ item.title|clean_title }}{% endblock %}
 {% block og_desc %}{{ item.summary or item.title }}{% endblock %}
-{% block og_image %}{% if item.photo %}{{ site_base }}{{ item.photo }}{% else %}{{ site_base }}/og-default.jpg{% endif %}{% endblock %}
+{% block og_image %}{% if item.photo %}{{ site_base }}{{ og_photo(item.photo) }}{% else %}{{ site_base }}/og-default.jpg{% endif %}{% endblock %}
 {% block tw_title %}{{ item.title|clean_title }}{% endblock %}
 {% block tw_desc %}{{ item.summary or item.title }}{% endblock %}
-{% block tw_image %}{% if item.photo %}{{ site_base }}{{ item.photo }}{% else %}{{ site_base }}/og-default.jpg{% endif %}{% endblock %}
+{% block tw_image %}{% if item.photo %}{{ site_base }}{{ og_photo(item.photo) }}{% else %}{{ site_base }}/og-default.jpg{% endif %}{% endblock %}
 {% block head_extra %}<script type="application/ld+json">{{ article_ld|ld }}</script>
 <script type="application/ld+json">{{ crumb_ld|ld }}</script>{% endblock %}
 {% block content %}
 <div class="post-head"><h1>{% if item.title is sample %}<span class="badge">샘플</span>{% endif %}{{ item.title|clean_title }}</h1></div>
-<div class="meta">{{ region_name }} · {{ item.source_name }} · {{ item.published_at[:10] }}</div>
-{% if item.photo %}<figure class="hero"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy" decoding="async"><figcaption>직접 촬영{% if photo_places.get(item.photo) %} · {{ photo_places[item.photo] }}{% endif %}</figcaption></figure>{% endif %}
+<div class="meta">{{ region_name }} · {{ item.source_name }} · <time datetime="{{ item.published_at }}">{{ item.published_at[:10] }}</time></div>
+{# 공유. 외부 스크립트 없이 — 모바일은 OS 공유창(카톡 포함), PC 는 링크 복사. #}
+<div class="share">
+  <button type="button" class="share-btn" data-share>공유</button>
+  <a class="share-btn" href="https://share.naver.com/web/shareView?url={{ canonical|urlencode }}&title={{ item.title|clean_title|urlencode }}" target="_blank" rel="noopener">네이버</a>
+  <a class="share-btn" href="https://twitter.com/intent/tweet?url={{ canonical|urlencode }}&text={{ item.title|clean_title|urlencode }}" target="_blank" rel="noopener">X</a>
+  <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u={{ canonical|urlencode }}" target="_blank" rel="noopener">페이스북</a>
+</div>
+{% if item.photo %}<figure class="hero"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy" decoding="async" {{ dims(item.photo) }}><figcaption>직접 촬영{% if photo_places.get(item.photo) %} · {{ photo_places[item.photo] }}{% endif %}</figcaption></figure>{% endif %}
 {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
 {% if item.body_md %}<div class="body">{{ item.body_md|md }}</div>{% endif %}
 {% set source_href = item.source_url|safe_url %}
@@ -57,4 +64,10 @@
 </section>
 {% endif %}
 {% if product_link %}<a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>{% endif %}
+<script>
+(function(){var b=document.querySelector('[data-share]');if(!b)return;
+b.addEventListener('click',function(){var u=location.href,t=document.title;
+if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});return;}
+if(navigator.clipboard){navigator.clipboard.writeText(u).then(function(){b.textContent='링크 복사됨';setTimeout(function(){b.textContent='공유';},1500);});}});})();
+</script>
 {% endblock %}
