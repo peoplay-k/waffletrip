@@ -540,6 +540,7 @@
     "4d2b0b78cd70ac3d574b7cabd5fca87989e2369e",
     "4d46d0a70e354668261f5ff11d03860297e998c0",
     "4d95ec2c1c75d97666f2b4fac850532da6f9dd80",
+    "4dc3b335748acf93ec0bdb859f986f0cc8a4dc20",
     "4de233af9774e418e2950d542630e90d8cde0f93",
     "4e0979499275fad3f98155a37d81d5fcc3c2f7cc",
     "4e0989b797ab87ab782746d04ade9066ea49943b",
@@ -1776,6 +1777,7 @@
     "fdff75a406a89ebdc9478364ab7561a4c9b006e3",
     "fe2f52c825332994d3f859ac23f6015115148bd7",
     "fe3969aed6cd1830dae320b3df126213fc05d059",
+    "fe3a5da6d53d0183a428b2bcea73b096fbedb8b8",
     "fe42648e42ebd54e6fa35050277ae1369b1f65f7",
     "feeeffd06418f26147b5e5e841c04bb7a6d9c9a5",
     "feff9af1a34957de91d1b0e5631a18eeba1f3da3",
@@ -13724,6 +13726,20 @@
     {
       "id": "15724a14c9ff6c2eef801905c5eab221015b0833",
       "title": "Inaugural Håfa Adai Guam Festival in Japan showcases local products",
+      "date": "2026-09-09",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "4dc3b335748acf93ec0bdb859f986f0cc8a4dc20",
+      "title": "“단순 휴양 넘어 웰니스·스포츠로”…괌, 아시아 200여명 바이어 매료시킨 ‘메가 팸투어’",
+      "date": "2026-09-09",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "fe3a5da6d53d0183a428b2bcea73b096fbedb8b8",
+      "title": "[이로운 뉴스의 여행 한스푼] GUAM#2 세계를 품는 에메랄드빛 섬, 괌! ‘메가 팸투어’로 글로벌 관광 영토 넓힌다!",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
