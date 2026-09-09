@@ -1178,6 +1178,7 @@
     "ac19f53d9f58daaa2d1211e5e89a7fddcfd9d949",
     "ac9696a59e0849f4f79862163c508b17522eecc2",
     "acea53452a044f63a3732445727126ea3dbbc45c",
+    "acee54e2e71d74d7f13e0b7550a9a55686393ca4",
     "ad053c80ee883092c29605bdfba67bf630aabbaf",
     "ad211435161ce9c27d953f628ea4c937be460df6",
     "ad260894a479496b49f32d59c5786bab38a12548",
@@ -13862,6 +13863,13 @@
       "title": "한국·일본 관광 협력 40년, 목포에서 새로운 도약 모색 : 일본 한인뉴스",
       "date": "2026-09-09",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "acee54e2e71d74d7f13e0b7550a9a55686393ca4",
+      "title": "괌정부관광청, 2026 MEGA FAM TOUR를 통해 보여준 웰니스 아일랜드 괌의 미래",
+      "date": "2026-09-09",
+      "region": "guam",
       "grade": "B"
     }
   ]
