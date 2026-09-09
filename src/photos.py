@@ -10,6 +10,7 @@
 from __future__ import annotations
 
 import json
+import re
 import os
 import shutil
 
@@ -77,7 +78,10 @@ PLACE_WORDS: dict[str, tuple[str, ...]] = {
     "wulai": ("우라이",),
 }
 PLACE_NAMES: dict[str, str] = {"halong": "하롱베이", "ninhbinh": "닌빈", "wulai": "우라이",
-                               "hue": "후에", "kota": "코타키나발루", "jeju": "제주"}
+                               "hue": "후에", "kota": "코타키나발루", "jeju": "제주",
+                               "oahu": "오아후", "maui": "마우이", "kauai": "카우아이",
+                               "bigisland": "빅아일랜드", "molokai": "몰로카이",
+                               "tinian": "티니안", "saipan": "사이판"}
 
 # 영문 제목과 다른 나라 도시. VnExpress 같은 현지 영문 매체는 지역이 베트남으로
 # 고정돼 싱가포르·도쿄 기사도 베트남면에 들어온다. 2026-09-09 실측: "Tokyo tourist
@@ -85,7 +89,7 @@ PLACE_NAMES: dict[str, str] = {"halong": "하롱베이", "ninhbinh": "닌빈", "
 # 낱말이 없어 '도시를 안 가리는 기사' 로 보였기 때문이다. 다른 도시를 말하는
 # 기사는 태그된 지역 사진을 받지 못한다(태그 없는 사진만). 소문자로 비교한다.
 FOREIGN_WORDS: dict[str, tuple[str, ...]] = {
-    "hanoi": ("hanoi",), "danang": ("da nang", "danang", "hoi an", "hoian", "ba na"),
+    "hanoi": ("hanoi",), "danang": ("da nang", "danang", "hoi an", "hoian", "ba na", "my khe", "mykhe"),
     "nhatrang": ("nha trang", "khanh hoa"), "hochiminh": ("ho chi minh", "hcmc", "saigon"),
     "phuquoc": ("phu quoc",), "halong": ("ha long", "halong"), "hue": ("hue ",),
     "tokyo": ("tokyo", "shinjuku", "narita", "haneda"), "osaka": ("osaka", "kyoto", "kansai"),
@@ -100,8 +104,38 @@ FOREIGN_WORDS: dict[str, tuple[str, ...]] = {
     "maldives": ("maldives", "몰디브"), "seychelles": ("seychelles",),
     "macau": ("macau", "마카오"), "manila": ("manila", "cebu", "boracay", "세부", "보라카이"),
     "miami": ("miami",), "london": ("london",), "paris": ("paris",), "spain": ("spain", "madrid", "barcelona"),
+    # 우리말로 쓰인 **다른 나라**. 번역된 제목에서 이걸 못 읽으면 "태국 무비자"
+    # 기사가 '어느 도시도 안 가리키는 기사' 로 보여 그 지역 사진을 받는다.
+    #
+    # 우리가 사진을 가진 지역(일본·대만·하와이·괌·사이판·제주…)의 나라 이름은
+    # 넣지 않는다. 넣었더니 "일본 관광객 증가" 같은 나라 단위 기사가 오사카
+    # 사진을 못 받았다 — 나라는 도시가 아니다(2026-09-09 실측, 사진 배정 53→30).
+    "thailand_kr": ("태국",), "singapore_kr": ("싱가포르",),
+    "indonesia": ("인도네시아", "자카르타", "발리", "롬복"),
+    "malaysia": ("말레이시아", "쿠알라룸푸르", "페낭", "랑카위"),
+    "philippines": ("필리핀", "세부", "보라카이", "마닐라"),
+    "china_kr": ("중국", "베이징", "상하이", "홍콩", "마카오"),
+    "brunei": ("브루나이",), "maldives_kr": ("몰디브",),
+    "europe": ("스페인", "프랑스", "이탈리아"),
+    # 하와이는 섬마다 다른 곳이다. 카우아이 허리케인 기사에 와이키키 사진이
+    # 붙으면 안 된다. 사이판·티니안도 배로 한 시간 떨어진 다른 섬이다.
+    "oahu": ("oahu", "honolulu", "waikiki", "오아후", "호놀룰루", "와이키키"),
+    "maui": ("maui", "마우이", "kaanapali", "wailea", "lahaina", "카아나팔리", "와일레아"),
+    "kauai": ("kauai", "카우아이", "lihue", "리후에", "hanalei", "niihau"),
+    "bigisland": ("big island", "빅아일랜드", "hilo", "힐로", "kona", "코나", "kilauea", "킬라우에아"),
+    "molokai": ("molokai", "몰로카이", "lanai", "라나이"),
+    "tinian": ("tinian", "티니안"),
+    "saipan": ("saipan", "사이판", "garapan", "가라판", "managaha", "마나가하"),
 }
 
+
+
+def _word_in(word: str, lowered: str) -> bool:
+    """영문은 단어 경계로, 한글은 부분일치로 본다. "hilo" 가 "philosophy" 에
+    걸리면 안 되고, "카우아이" 는 조사가 붙어 "카우아이에" 로 온다."""
+    if word.isascii():
+        return re.search(r"\b" + re.escape(word.strip()) + r"\b", lowered) is not None
+    return word in lowered
 
 
 def places_of(item) -> set[str]:
@@ -114,7 +148,7 @@ def places_of(item) -> set[str]:
         found = {slug for slug, _, _, words in CITIES if any(w in text for w in words)}
         lowered = text.lower()
         for slug, words in list(PLACE_WORDS.items()) + list(FOREIGN_WORDS.items()):
-            if any(w in lowered for w in words):
+            if any(_word_in(w, lowered) for w in words):
                 found.add(slug)
         return found
 
@@ -122,7 +156,12 @@ def places_of(item) -> set[str]:
     # "나트랑 관광 알려요" 기사의 요약에 "하노이에서 열린 설명회" 가 있다고
     # 하노이 사진을 붙이면 안 된다(2026-09-09 실측). 제목에 도시가 없을 때만
     # 요약의 도시를 본다.
-    title_places = scan(getattr(item, 'title', '') or '')
+    # 번역된 제목과 원제를 함께 본다. 우리말 제목만 보면 번역이 지운 지명을
+    # 놓친다 — 2026-09-09 실측: "Southeast Asia's ... including Singapore" 가
+    # "태국, 60개국 무비자 체류기간 30일로 절반 단축" 이 되면서 싱가포르가
+    # 사라졌고, 태국 기사에 하노이 사진이 붙었다.
+    title = f"{getattr(item, 'title', '') or ''} {getattr(item, 'title_orig', '') or ''}"
+    title_places = scan(title)
     if title_places:
         return title_places
     return scan(getattr(item, 'summary', '') or '')
@@ -193,14 +232,23 @@ def assign(manifest: dict, region: str, seeds: list,
 
     out: dict[str, str] = {}
     # ① 이미 이 기사에 배정된 사진은 규칙에 맞는 한 그대로 둔다.
-    mine = {aid: ph for ph, aid in used.items()}
+    #
+    # 한 기사에 기록이 여럿 걸려 있을 수 있다. 전에 붙었다가 놓아준 사진이
+    # 목록에서 빠지면(태그를 고치거나 사진을 뺐을 때) 옛 기록이 남는데, 그걸
+    # 그대로 두면 그 사진은 영영 아무에게도 안 가고 검사에도 걸린다.
+    # 규칙에 어긋난 기록은 **사진이 지금 목록에 없어도** 놓아준다.
+    by_article: dict[str, list[str]] = {}
+    for photo, aid in used.items():
+        by_article.setdefault(aid, []).append(photo)
     for item in seeds:
-        prev = mine.get(sid(item))
-        if prev and prev in pool:
-            if allowed(prev, item):
-                out[sid(item)] = prev
+        keep = None
+        for prev in by_article.get(sid(item), []):
+            if allowed(prev, item) and prev in pool and keep is None:
+                keep = prev
             else:
                 del used[prev]                # 잘못 붙은 사진은 놓아준다
+        if keep:
+            out[sid(item)] = keep
 
     # ② 남은 기사에는 아직 아무도 쓰지 않은 사진 중 규칙에 맞는 것만 준다.
     for item in seeds:

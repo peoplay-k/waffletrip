@@ -335,7 +335,7 @@ def test_요약에만_나온_도시는_주제가_아니다():
     from src.photos import assign, places_of
     it = _It("a", "주한 베트남관광청 \"한국인이 좋아하는 나트랑 관광 알려요\"",
              "하노이에서 열린 설명회에서 칸호아성 관광을 소개했다.")
-    assert places_of(it) == {"nhatrang"}
+    assert places_of(it) == {"nhatrang"}   # 제목이 나트랑을 말한다
     m = {"vietnam": [{"file": "assets/photos/vietnam/hanoi1.webp", "city": "hanoi"}]}
     assert "a" not in assign(m, "vietnam", [it], {})
 
@@ -367,3 +367,54 @@ def test_지역_단위_촬영지도_캡션에_이름이_나온다():
     assert names["/img/kota/a.webp"] == "코타키나발루"
     assert names["/img/jeju/b.webp"] == "제주"
     assert names["/img/vietnam/c.webp"] == "후에"
+
+
+def test_하와이는_섬을_가린다():
+    """카우아이 허리케인 기사에 오아후 사진을 붙이지 않는다."""
+    from src.photos import assign, places_of
+    it = _It("a", "Kauai County outlines critical safety plans as Hurricane Lowell nears", "")
+    assert places_of(it) == {"kauai"}
+    m = {"hawaii": [{"file": "assets/photos/hawaii/waikiki.webp", "city": "oahu"},
+                    {"file": "assets/photos/hawaii/any.webp"}]}
+    got = assign(m, "hawaii", [it], {})
+    assert got.get("a") == "/img/hawaii/any.webp"          # 태그 없는 사진만
+    assert places_of(_It("b", "와이키키 호텔 신축…호놀룰루 관광 회복", "")) == {"oahu"}
+
+
+def test_영문_낱말은_단어_경계로_본다():
+    from src.photos import places_of
+    assert "bigisland" not in places_of(_It("a", "A philosophy of slow travel", ""))
+    assert "bigisland" in places_of(_It("b", "Kona airport runway crack", ""))
+
+
+def test_목록에_없는_낡은_기록도_규칙에_어긋나면_놓아준다():
+    """태그를 고치거나 사진을 뺀 뒤 남은 기록이 사진을 영영 묶어두면 안 된다."""
+    from src.photos import assign
+    it = _It("a", "나트랑 해변 물놀이", "")
+    m = {"vietnam": [{"file": "assets/photos/vietnam/nt.webp", "city": "nhatrang"}]}
+    used = {"/img/vietnam/사라진사진.webp": "a", "/img/vietnam/dn.webp": "a"}
+    got = assign(m, "vietnam", [it], used)
+    assert got["a"] == "/img/vietnam/nt.webp"
+    assert "/img/vietnam/사라진사진.webp" not in used and "/img/vietnam/dn.webp" not in used
+
+
+def test_미케_해변은_다낭이다():
+    from src.photos import places_of
+    assert places_of(_It("a", "From Nha Trang to My Khe: best Vietnamese beaches", "")) == {"nhatrang", "danang"}
+
+
+def test_번역이_지운_지명을_원제에서_읽는다():
+    """태국 무비자 기사에 하노이 사진이 붙었다. 번역 제목엔 도시가 없었다."""
+    from src.photos import assign, places_of
+    it = _It("a", "태국, 60개국 무비자 체류기간 30일로 절반 단축", "")
+    it.title_orig = "Southeast Asia's second most visited country shortens visa-free stays for 60 countries including Singapore"
+    assert "singapore" in places_of(it)
+    m = {"vietnam": [{"file": "assets/photos/vietnam/hanoi.webp", "city": "hanoi"}]}
+    assert "a" not in assign(m, "vietnam", [it], {})
+
+
+def test_우리말_나라이름도_읽는다():
+    from src.photos import places_of
+    assert "thailand_kr" in places_of(_It("a", "태국 무비자 30일로 단축", ""))
+    assert not places_of(_It("c", "일본 관광객 증가", ""))   # 나라는 도시가 아니다
+    assert "danang" in places_of(_It("b", "다낭 신규 호텔 개장", ""))
