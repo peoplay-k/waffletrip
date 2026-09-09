@@ -116,11 +116,17 @@ SPAM_KEYWORDS: tuple[str, ...] = (
 )
 # 실측으로 확인된 스팸 출처. 이름이 이렇게 풀리면 내용과 무관하게 버린다.
 SPAM_SOURCES: frozenset[str] = frozenset({"Histoire pour tous"})
+# 블로그 플랫폼. 구글뉴스 검색 피드는 브런치·네이버 블로그 글도 기사처럼 돌려준다.
+# 2026-09-09 실측: "하와이 호텔 추천 리스트 5선 총정리"(브런치)가 하와이면에 실렸다.
+# 개인 글은 인용 매체가 아니다 — 출처 이름에 이 낱말이 있으면 버린다.
+NON_NEWS_SOURCES: tuple[str, ...] = ("브런치", "네이버 블로그", "티스토리", "유튜브", "youtube")
 
 
 def is_spam(text: str, source_name: str = "") -> bool:
     """검색 피드에 섞여 오는 도박 홍보 글인가."""
     if source_name and source_name in SPAM_SOURCES:
+        return True
+    if source_name and any(k in source_name.lower() for k in NON_NEWS_SOURCES):
         return True
     if not text:
         return False
