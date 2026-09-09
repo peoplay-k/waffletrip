@@ -1600,6 +1600,7 @@
     "e0e0c0948409ee6a562b977d605f57ba027014b7",
     "e0ea0241b39326669a20a968fe2c80400f4b45e2",
     "e109400d898c4e811b519c7279e2224260a4a09f",
+    "e153ce4d6928e48332024abe33d6fafa4a22edfb",
     "e1892df35433d2a8aa0faf038f84529de6616d77",
     "e19ef41ca9de3400fc021ead1ef0b896a3213ff6",
     "e1d71941b8f5054be184844f0223b19f8706170f",
@@ -13966,6 +13967,13 @@
       "title": "日本観光新聞 – 중부국제공항 항공편 타면 나고야 맛집 1000엔 할인",
       "date": "2026-09-09",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "e153ce4d6928e48332024abe33d6fafa4a22edfb",
+      "title": "Thailand investigates after Nigerian-born influencer dies from penis enlargement procedure",
+      "date": "2026-09-09",
+      "region": "vietnam",
       "grade": "B"
     }
   ]
