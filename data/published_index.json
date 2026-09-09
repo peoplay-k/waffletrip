@@ -17,6 +17,7 @@
     "01af9021d66e327df804715d92734b33e811f514",
     "01b2c48e902a497a5c6e4f10cd3ce9eaee1be540",
     "0229430f4fd2ae9e0de29f8d142a0f0187794796",
+    "0246f29cc0d90d02857d5170fb27d49ed147b1f7",
     "0262fcf8cb190ea609f036fff47b5923cea51128",
     "0266b8644e9b1e6daebfc5d557e56817e905e8da",
     "029bd1cac2137804005af28833eb1efd599a90a9",
@@ -74,6 +75,7 @@
     "08b10e8f5ea136286c8fe3522fb644fb72cb1810",
     "08b67226e1b3d9c6e7d96e906e187c40fcca5424",
     "08c0ddc3fdb67ea010044d4142d75bff0f52fd37",
+    "08f4fb9c6129f7bbc1559098adad72388bafaa44",
     "0900ab4543e83f951bd0341ad562ad754fe60c82",
     "0909491bc0177668a68eea99dfac57dbbefd8b5f",
     "0923a1ba616f53d64e06d6b47abe8bc82f3e14c1",
@@ -136,6 +138,7 @@
     "13f418434b9eff3bb76224d13494c7a88785002a",
     "13f7f9f4fe6536dfaa648f886505cd18f4e06a4b",
     "13fc97af6ef88f2a7ab0d98bcb4a3f4446f3e34a",
+    "1428cd5d28eef6e4d11396dfeb2a05b023f1f4d7",
     "143de51f6b8d87ea01723523bf41a56625e172bd",
     "143f9ce48492c0a2a4ddb0bdbfe91c707fea1bf6",
     "1454f9b4d812f4c6b863a471530807e1a224c882",
@@ -199,6 +202,7 @@
     "1ac10e297264b2ea1a108493c6c880d87b3bd2fa",
     "1b30d7726fed7b3db2bb50eea485f473eaab4bc1",
     "1b43de647cebc4df0b1b4c12fa28a6135d6a3304",
+    "1b44487e8dfbf9661d471f4a48fe763b09799ea4",
     "1b89badad3da4c3461be5f76600571d552ddd736",
     "1b9a54406512624854a63ab033272738b48c35b8",
     "1ba130dc69e8d41da24c2ee981eca2d88382807e",
@@ -788,6 +792,7 @@
     "704f6cf904499e175effc6ae4a81c9107eb7dfa4",
     "70952188480132a64c1cab8ca4c8dbd6a0c606f1",
     "70b54c633b4b0164e4605392672943b593860cc7",
+    "70e7685d9e5c57bacec90ca93c6d0d43908e0d08",
     "7144f5f4127dc3de843aea877f3118f3a6f05af0",
     "7208d2bec772d7453659803f21d980a0dfea3c6b",
     "7208eb50d49fc7fa8bf3e0d4e0c840ccdfd2f5c5",
@@ -950,6 +955,7 @@
     "88f4035d02208e2c043f547f67714ad57336ffa1",
     "88f5b150fe89f4fd6888f26da85844bf6f4e6dd4",
     "891781f8b4561c16ea075f20c89eeab6f7f94bc7",
+    "8930a885fe77437ba601c67e725d6b2314eef7b9",
     "893db983651cacd8deef949aa95171b235274a9f",
     "894e9ac8dfd034428ad63dccd99ff3c9c7a88bfb",
     "897ce82de45afa623e87f8a6b109bfd7caad77f8",
@@ -981,6 +987,7 @@
     "8d6a808785fd2b9e4fb278e0998a219946b88946",
     "8d87f2a12afb07a361ffbfc433f91a5f4597c447",
     "8dbcf6f19ffd39427b31bbf54a8eae074c1fd72c",
+    "8dd6f640eeb3ab848ae5ce37ac389c8de9e03d44",
     "8e151fd2abe2db8e1fd4a43d37a1a0a361d90ae6",
     "8e1b08af1c853bd9dc01b945080414cb0f5958c3",
     "8e29c43dabc814a18a3677adf47a2a1b15bd8fe5",
@@ -1183,6 +1190,7 @@
     "ad211435161ce9c27d953f628ea4c937be460df6",
     "ad260894a479496b49f32d59c5786bab38a12548",
     "ad40a82079cace5a36f821810aa986351cb2d62a",
+    "ad73e534fce760902c9f65853a44e6d55a0bbaf3",
     "ad84eaecba18fb414c7626d44d46f353f7110390",
     "ad9bb26f753d549db622d1e4541819c08dd8afe5",
     "adb1e8ec3451ff535c8951ececb1acf9498d4b11",
@@ -1344,6 +1352,7 @@
     "c019d7238582dd35535fd2b729094a990f2944b7",
     "c02481c5dd612623d73174508b05ce040b0c997b",
     "c03d0c16cf3311f5777a6ddc0ce228ebe2684bbb",
+    "c061413dbef1ad784e47b6011693d377abcee034",
     "c06d9494cc6987d4ff928317737562096f90a0fb",
     "c0a2b93a977c031c7004036146db7294816887ba",
     "c0ac53450083b4cd494490fdc8ed6593a23c5012",
@@ -1610,11 +1619,13 @@
     "e3f35a3d093dee9ebd397fa7449b57618a5801aa",
     "e42e418963706f47a96910d211e3ab3688b76db0",
     "e44d9ab31a66c58b8cc0e26e93db321942d31651",
+    "e461d0f16496e9b1061436d13abfd7a63af503b0",
     "e47b6e4325435af83c407a21e02727264e10b95e",
     "e4fa13c69a91d1876b1e3621a90c01940c0c7ab6",
     "e539c44dbff207d13cc59729d860cc99f18b28d8",
     "e543009b00a6445a77d4f5b6841deb15b71003f4",
     "e55c9fc56eb6cd35c62934e800455e5cfc099839",
+    "e5789f437ca0005e5bf517c99f563b85f50c4ce7",
     "e5bbe653bdbf3a85b2e3b955f991aedc807794b2",
     "e5c7da8b7cd7f96aab1fdfbd055188362348c445",
     "e61c8c540770a6a6d24926ca5c8ef79938cd1a36",
@@ -1788,6 +1799,7 @@
     "fd9cfbbfb5b03d138b005f82e0439ec59c4ea882",
     "fda63d3e1966135655f3dda0783cc043690f5f0f",
     "fdbabb65d2742dd778bffbe455bcbff6819005b8",
+    "fdbc41b4113c371dbae069eb2ac472242fe79118",
     "fdce9df269db1cd0f0fd9b160376b0c16e524689",
     "fde0d1483fabb3da0622476ccff11ed6508a2b58",
     "fdff75a406a89ebdc9478364ab7561a4c9b006e3",
@@ -13870,6 +13882,90 @@
       "title": "괌정부관광청, 2026 MEGA FAM TOUR를 통해 보여준 웰니스 아일랜드 괌의 미래",
       "date": "2026-09-09",
       "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "8dd6f640eeb3ab848ae5ce37ac389c8de9e03d44",
+      "title": "기초질서; 무더위보다 뜨거운 무질서",
+      "date": "2026-09-09",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "70e7685d9e5c57bacec90ca93c6d0d43908e0d08",
+      "title": "태국 방콕, 비덕과 함께 즐기는 도심형 가족여행…태국관광청 ‘Glow In The Duck’ 지원",
+      "date": "2026-09-09",
+      "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "0246f29cc0d90d02857d5170fb27d49ed147b1f7",
+      "title": "용두암에 북적이는 크루즈 관광객들",
+      "date": "2026-09-09",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "08f4fb9c6129f7bbc1559098adad72388bafaa44",
+      "title": "제주항공, 김포~제주 노선 점유율 20.7%로 1위…5개월 연속 선두",
+      "date": "2026-09-09",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "1b44487e8dfbf9661d471f4a48fe763b09799ea4",
+      "title": "Red Cross asks for volunteers to help with Hurricane Lowell recovery efforts",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "e5789f437ca0005e5bf517c99f563b85f50c4ce7",
+      "title": "[비즈톡톡] 한국인 발길 끊긴 괌…롯데, 면세점 접고 호텔은 버티기",
+      "date": "2026-09-09",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "fdbc41b4113c371dbae069eb2ac472242fe79118",
+      "title": "Korean travel shift hits Guam as Lotte exits duty-free, pivots hotel strategy - CHOSUNBIZ",
+      "date": "2026-09-09",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "c061413dbef1ad784e47b6011693d377abcee034",
+      "title": "West Oahu residents recover after Hurricane Lowell waves inundate condominium",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "1428cd5d28eef6e4d11396dfeb2a05b023f1f4d7",
+      "title": "제주~김포 하늘길 5명 중 1명은 제주항공",
+      "date": "2026-09-09",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "e461d0f16496e9b1061436d13abfd7a63af503b0",
+      "title": "Penang ferry collision: Initial report submitted, investigation ongoing",
+      "date": "2026-09-09",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "8930a885fe77437ba601c67e725d6b2314eef7b9",
+      "title": "Flash flood warning, flood advisory in effect after heavy rains",
+      "date": "2026-09-09",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "ad73e534fce760902c9f65853a44e6d55a0bbaf3",
+      "title": "日本観光新聞 – 중부국제공항 항공편 타면 나고야 맛집 1000엔 할인",
+      "date": "2026-09-09",
+      "region": "japan",
       "grade": "B"
     }
   ]
