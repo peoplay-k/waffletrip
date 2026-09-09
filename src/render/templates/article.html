@@ -15,7 +15,7 @@
 {% block head_extra %}<script type="application/ld+json">{{ article_ld|ld }}</script>
 <script type="application/ld+json">{{ crumb_ld|ld }}</script>{% endblock %}
 {% block content %}
-<div class="post-head"><h1>{% if item.title is sample %}<span class="badge">샘플</span>{% endif %}{{ item.title|clean_title }}</h1></div>
+<div class="post-head"><h1>{% if item.title is sample %}<span class="badge">샘플</span>{% endif %}{{ item.title|clean_title }}</h1>{% if item.title_orig %}<p class="orig" lang="en">{{ item.title_orig }}</p>{% endif %}</div>
 <div class="meta">{{ region_name }} · {{ item.source_name }} · <time datetime="{{ item.published_at }}">{{ item.published_at[:10] }}</time></div>
 {# 공유. 외부 스크립트 없이 — 모바일은 OS 공유창(카톡 포함), PC 는 링크 복사. #}
 <div class="share">
