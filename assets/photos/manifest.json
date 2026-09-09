@@ -82,6 +82,47 @@
       "baked_at": "2026-09-02T10:09:42+09:00",
       "hero": true,
       "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/tmp/stage_guam/agana_cathedral_1.JPG",
+      "file": "assets/photos/guam/agana_cathedral_1.webp",
+      "bytes": 129662,
+      "baked_at": "2026-09-09T10:58:19+09:00",
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/tmp/stage_guam/agana_cathedral_2.JPG",
+      "file": "assets/photos/guam/agana_cathedral_2.webp",
+      "bytes": 189368,
+      "baked_at": "2026-09-09T10:58:19+09:00",
+      "overrode": "얼굴 6건 검출"
+    },
+    {
+      "src": "/tmp/stage_guam/guam_beach_letters.JPG",
+      "file": "assets/photos/guam/guam_beach_letters.webp",
+      "bytes": 105128,
+      "baked_at": "2026-09-09T10:58:20+09:00",
+      "overrode": "얼굴 6건 검출"
+    },
+    {
+      "src": "/tmp/stage_guam/guam_govt_building.JPG",
+      "file": "assets/photos/guam/guam_govt_building.webp",
+      "bytes": 133210,
+      "baked_at": "2026-09-09T10:58:20+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/stage_guam/i_love_guam_sign.JPG",
+      "file": "assets/photos/guam/i_love_guam_sign.webp",
+      "bytes": 264212,
+      "baked_at": "2026-09-09T10:58:21+09:00"
+    },
+    {
+      "src": "/tmp/stage_guam/love_here_sign.JPG",
+      "file": "assets/photos/guam/love_here_sign.webp",
+      "bytes": 127722,
+      "baked_at": "2026-09-09T10:58:21+09:00",
+      "overrode": "얼굴 2건 검출"
     }
   ],
   "hawaii": [
