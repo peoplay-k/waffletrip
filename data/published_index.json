@@ -653,6 +653,7 @@
     "5df7f7fc183f0824b0ce536612a8d7064a70b577",
     "5dfc6626914f91027035b90150a2dfc73dc8d7d6",
     "5dfc917e7681e62d6c64f523d91d5a92b13e2ca3",
+    "5e06f519ebf24f4deae4f55209add7d7846ded87",
     "5e2e6e116ea38764f1cfcae1ff07d6af11d71844",
     "5e57ba76b16d27e363d9aadd6beb7c40638fc6a3",
     "5e75fbfd65220ce7fa0038b6e33600a97a1e354e",
@@ -13750,6 +13751,13 @@
       "title": "괌 메가팸 2026, 레오 팔레스 리조트에서 성황리에 개최",
       "date": "2026-09-09",
       "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "5e06f519ebf24f4deae4f55209add7d7846ded87",
+      "title": "‘I was shaking’: West Kauai residents ride out Hurricane Lowell, assess damage",
+      "date": "2026-09-09",
+      "region": "hawaii",
       "grade": "B"
     }
   ]
