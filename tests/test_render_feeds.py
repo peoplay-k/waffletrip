@@ -241,3 +241,9 @@ def test_아스키_주소는_그대로_둔다():
     for u in ("https://waffletrip.com/", "https://waffletrip.com/city/tokyo/",
               "https://waffletrip.com/sitemap.xml"):
         assert encoded_url(u) == u
+
+
+def test_rss_declares_its_own_address(tmp_path):
+    path = render_rss([make("1", "괌 신규 취항")], str(tmp_path), NOW)
+    xml = Path(path).read_text(encoding="utf-8")
+    assert 'rel="self"' in xml and "/rss.xml" in xml

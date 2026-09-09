@@ -73,8 +73,13 @@ def _write(path: str, text: str) -> str:
 
 
 def render_rss(items: list[Item], out_dir: str, built_at: str) -> str:
+    ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
     rss = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(rss, "channel")
+    # 피드 자기 주소. 검증기가 없으면 경고하고, 리더는 이걸로 중복 구독을 가른다.
+    ET.SubElement(channel, "{http://www.w3.org/2005/Atom}link",
+                  {"href": SITE_URL + BASE_PATH + "/rss.xml", "rel": "self",
+                   "type": "application/rss+xml"})
     ET.SubElement(channel, "title").text = SITE_NAME
     ET.SubElement(channel, "link").text = SITE_URL + BASE_PATH + "/"
     ET.SubElement(channel, "description").text = SITE_TAGLINE

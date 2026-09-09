@@ -192,19 +192,87 @@ def pick(manifest: dict, region: str, seed: str) -> str:
     return pool[sum(ord(c) for c in seed) % len(pool)]
 
 
-def copy_into(out_dir: str, source_root: str = "assets/photos") -> int:
-    """구운 사진을 public/img 로 옮긴다. 매니페스트에 있는 것만 옮긴다."""
+def copy_into(out_dir: str, source_root: str = "assets/photos",
+              photos=None) -> int:
+    """구운 사진을 public/img/ 로 옮긴다. 복사한 개수.
+
+    photos 를 주면 그 사진만 옮긴다. 지면에 안 쓰인 사진까지 다 옮기면
+    배포물이 불필요하게 커지고, 테스트가 render_site 를 부를 때마다 125장을
+    임시 폴더에 복사해 하루 만에 6GB 를 먹었다(2026-09-09 실측).
+    """
     manifest = load_manifest()
-    if not manifest:
-        return 0
+    want = None if photos is None else set(photos)
     copied = 0
     for entries in manifest.values():
-        for entry in entries:
-            src = entry.get("file") if isinstance(entry, dict) else None
-            if not src or not os.path.exists(src):
+        for e in entries if isinstance(entries, list) else []:
+            if not isinstance(e, dict) or not e.get("file"):
                 continue
-            dest = os.path.join(out_dir, web_path(src).lstrip("/"))
-            os.makedirs(os.path.dirname(dest), exist_ok=True)
-            shutil.copy2(src, dest)
+            web = web_path(e["file"])
+            if want is not None and web not in want:
+                continue
+            src = e["file"]
+            if not os.path.exists(src):
+                continue
+            dst = os.path.join(out_dir, web.lstrip("/"))
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            shutil.copy2(src, dst)
             copied += 1
     return copied
+
+
+# ── 공유 카드용 이미지 ─────────────────────────────────────────────────
+# 카톡·페북은 og:image 로 1200×630 JPG 를 기대한다. 지면 사진은 webp 에 1024×1024
+# 같은 정방형이라 카드가 잘리거나(카톡은 webp 를 안 그리기도 한다) 전 기사가
+# 기본 이미지 하나로 보였다. 빌드 때 사진마다 JPG 카드를 굽는다.
+OG_DIR = "og"
+OG_SIZE = (1200, 630)
+
+
+def og_path(web_photo: str) -> str:
+    """/img/vietnam/x.webp → /og/vietnam/x.jpg"""
+    rel = web_photo[len("/" + PUBLIC_DIR + "/"):] if web_photo.startswith("/" + PUBLIC_DIR + "/") else web_photo.lstrip("/")
+    return "/" + OG_DIR + "/" + rel.rsplit(".", 1)[0] + ".jpg"
+
+
+def _file_for(manifest: dict, web: str):
+    for entries in manifest.values():
+        for e in entries if isinstance(entries, list) else []:
+            if isinstance(e, dict) and e.get("file") and web_path(e["file"]) == web:
+                return e["file"]
+    return None
+
+
+def render_og_images(manifest: dict, out_dir: str, photos=None) -> int:
+    """지면에 실제로 쓰인 사진만 1200×630 JPG 로 굽는다. 만든 개수.
+
+    매니페스트 전체를 굽지 않는다 — 안 쓰인 사진 카드는 아무도 안 보고,
+    테스트가 render_site 를 부를 때마다 125장을 인코딩해 몇 분씩 걸렸다.
+    """
+    from PIL import Image, ImageOps
+    made = 0
+    for web in sorted(set(photos or [])):
+        src = _file_for(manifest, web)
+        if not src or not os.path.exists(src):
+            continue
+        dst = os.path.join(out_dir, og_path(web).lstrip("/"))
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        with Image.open(src) as im:
+            ImageOps.fit(im.convert("RGB"), OG_SIZE, Image.LANCZOS).save(dst, "JPEG", quality=82, optimize=True)
+        made += 1
+    return made
+
+
+def photo_dims(manifest: dict, photos=None) -> dict[str, tuple[int, int]]:
+    """웹 경로 → (너비, 높이). <img width height> 에 쓴다 — 없으면 사진이 뜰 때
+    본문이 밀린다(CLS). 쓰인 사진만 잰다."""
+    from PIL import Image
+    out: dict[str, tuple[int, int]] = {}
+    for web in set(photos or []):
+        src = _file_for(manifest, web)
+        if src and os.path.exists(src):
+            try:
+                with Image.open(src) as im:
+                    out[web] = im.size
+            except Exception:
+                pass
+    return out
