@@ -328,3 +328,18 @@ def test_render_og_images_skips_unused_photos(tmp_path, monkeypatch):
     src = tmp_path / "a.webp"; Image.new("RGB", (300, 300)).save(src)
     monkeypatch.setattr("src.photos.web_path", lambda f: "/img/guam/a.webp")
     assert render_og_images({"guam": [{"file": str(src)}]}, str(tmp_path / "p"), []) == 0
+
+
+def test_요약에만_나온_도시는_주제가_아니다():
+    """제목이 나트랑이면 요약의 하노이로 하노이 사진을 붙이지 않는다."""
+    from src.photos import assign, places_of
+    it = _It("a", "주한 베트남관광청 \"한국인이 좋아하는 나트랑 관광 알려요\"",
+             "하노이에서 열린 설명회에서 칸호아성 관광을 소개했다.")
+    assert places_of(it) == {"nhatrang"}
+    m = {"vietnam": [{"file": "assets/photos/vietnam/hanoi1.webp", "city": "hanoi"}]}
+    assert "a" not in assign(m, "vietnam", [it], {})
+
+
+def test_제목에_도시가_없으면_요약의_도시를_본다():
+    from src.photos import places_of
+    assert places_of(_It("a", "베트남 침대열차 요금 인하", "하노이-다낭 노선이 80만 동부터")) == {"hanoi", "danang"}
