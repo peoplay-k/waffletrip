@@ -66,3 +66,25 @@ def test_기사_페이지에_원제를_병기한다(tmp_path):
     assert "코나공항 활주로 균열로 또 폐쇄" in html
     assert 'class="orig"' in html and "Runway crack" in html
     assert "alternativeHeadline" in html
+
+
+def test_지역과_무관하다고_표시된_기사를_골라낸다():
+    from src.title_ko import off_topic
+    assert off_topic({"a": SKIP, "b": "한글 제목", "c": " ~ "}) == {"a", "c"}
+
+
+def test_지역_무관_기사는_목록에서_빠지고_페이지는_남는다(tmp_path):
+    from src.render.site import article_url, render_site
+    keep = make("aaaaaaaa11", "괌 신규 취항", "guam")
+    drop = make("bbbbbbbb22", "프랑스 미술관 그림 도난", "guam")
+    drop.off_topic = True
+    render_site([keep, drop], str(tmp_path), "2026-09-09")
+    home = (tmp_path / "index.html").read_text(encoding="utf-8")
+    region = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
+    assert "괌 신규 취항" in home and "그림 도난" not in home
+    assert "괌 신규 취항" in region and "그림 도난" not in region
+    page = (tmp_path / article_url(drop).strip("/") / "index.html")
+    assert page.exists()                       # 나간 주소는 살려둔다
+    assert "noindex" in page.read_text(encoding="utf-8")
+    search = (tmp_path / "search.json").read_text(encoding="utf-8")
+    assert "그림 도난" not in search

@@ -49,6 +49,7 @@ class Item:
     body_md: str | None = None
     photo: str | None = None          # /img/... 웹 경로. 승인된 사진만 들어온다
     title_orig: str | None = None     # 번역 전 원제목. 빌드 때만 채워진다(주소·병기용)
+    off_topic: bool = False           # 그 지역과 무관한 외신 잡보. 목록·색인에서 뺀다
     related: list[str] = field(default_factory=list)
 
 

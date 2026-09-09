@@ -362,8 +362,14 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 영상은 우리가 직접 만든 것이라 지면에 올려도 남의 것이 아니다.
     video = load_video()
 
+    # 지역과 무관한 외신 잡보는 지면 목록에서 뺀다. 코타 지면에 프랑스 미술관
+    # 도난이, 베트남 지면에 마이애미 활주로 사고가 실려 있었다(2026-09-09).
+    # 기사 페이지는 그대로 만든다 — 이미 나간 주소를 없애면 죽은 링크가 된다.
+    def listed_only(rows):
+        return [i for i in rows if not getattr(i, "off_topic", False)]
+
     # 도시별 묶음. 푸터 링크가 모든 페이지에 들어가므로 common 보다 먼저 만든다.
-    by_city = group_by_city(items)
+    by_city = group_by_city(listed_only(items))
 
     # 서명. 사람 이름을 지어내지 않고 부서로 나눈다.
     for item in items:
@@ -394,7 +400,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     written: list[str] = []
     urls = {i.id: article_url(i) for i in items}
     by_id = {i.id: i for i in items}
-    grouped = group_by_region(items)
+    listed = listed_only(items)
+    grouped = group_by_region(listed)
 
     common = {
         "site_name": SITE_NAME, "site_tagline": SITE_TAGLINE,
@@ -434,7 +441,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 한 화면에 같은 기사가 두 번 나오지 않게 구역을 나눠 쓴다.
     # 겹쳐 썼더니 톱기사가 헤드라인 띠에 또 걸리고, 첫 화면 기사가 아래
     # 부문 블록에 다시 나왔다. 지면이 정리 안 된 것으로 보인다.
-    articles = [i for i in items if i.grade != "A"]
+    articles = [i for i in listed if i.grade != "A"]
     lead = articles[0] if articles else None
     sub_leads = articles[1:3]          # 사이드 두 건
     headlines = articles[3:15]         # 헤드라인 띠 열두 건
@@ -442,7 +449,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
 
     # 부문 페이지는 그 부문 전체를 보여준다 — 통계·리포트에는 환율·날씨가
     # 있어야 한다. 홈의 부문 블록만 따로 추린다.
-    by_topic = group_by_topic(items)
+    by_topic = group_by_topic(listed)
 
     # 홈 부문 블록은 위에 안 나온 것으로만 채운다. 남는 게 없으면 그 블록은
     # 내보내지 않는다 — 모자란다고 이미 실은 기사를 다시 넣으면 도로 중복이다.
@@ -553,7 +560,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     index = [{"t": i.title, "u": urls[i.id], "k": i.region,
               "r": REGION_NAMES.get(i.region, i.region),
               "g": i.grade, "d": i.published_at[:10]}
-             for i in items if i.grade != "A"]
+             for i in listed if i.grade != "A"]
     _write(os.path.join(out_dir, "search.json"),
            json.dumps(index, ensure_ascii=False, separators=(",", ":")), written)
 
