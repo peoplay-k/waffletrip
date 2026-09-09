@@ -116,6 +116,9 @@ def build(items: list[Item], out_dir: str, today: str,
 
     written = render_site(items, out_dir, today)
     written.append(render_rss(items, out_dir, built_at))
+    # 지역별 피드. 관심 지역만 받는 독자용(/구독 페이지가 안내한다).
+    for region in sorted({i.region for i in items}):
+        written.append(render_rss(items, out_dir, built_at, region=region))
     written.append(render_sitemap(items, out_dir, today))
     written.append(render_robots(out_dir))
     written.append(render_llms_txt(items, out_dir))
