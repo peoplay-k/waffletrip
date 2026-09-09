@@ -160,6 +160,7 @@
     "16d351fe8d7536a9d17e16aa389adeea918ee499",
     "16fc85860ada1dc7f8109b5dbdae923c8960ea35",
     "16ff9037a420fb21fa908e0394c53ab9e8169c32",
+    "1722c86114b076b2a87019c2a42d4bc92d8dc0be",
     "175615e123c0c8e1827ba9cfadfe3ebfe4d72ca2",
     "1766e53800e95ff1a0d297a4786cbc938ec26ed4",
     "177b65adacd26e341bafe355bd53e0084484c085",
@@ -204,6 +205,7 @@
     "1bee30fe5b932f990e64c91734d475df047e8782",
     "1c42fd350e492b03b9ee6b1fa695d3ae9cb17e31",
     "1c92cb8357738d4106b95e56d0eac6284b5b0250",
+    "1ca3b855e48bda1fc08043788b9bacaceca31dd5",
     "1cb8533365a4885affb84378cf84ea3feace8753",
     "1cc55526ae330556d011c7bb27138e0659311047",
     "1cda3270509d3e46f8434439e5d3378697402e12",
@@ -454,6 +456,7 @@
     "419cddb83efed98fcce7bf76f5fdc8850c7a9b64",
     "41fc32faf3794bbcb8aba60da4da5239e0e96545",
     "425d1982b64031f4b1b8068776158fb3d225f944",
+    "42949c1ab89b8680683bc43b03c076aba90b833e",
     "4298f99035203c3e3715b765fb5eb3ff8ef57330",
     "42c8580c41be0b1b19aae3352195709213ff6a4e",
     "42f77aba648c971f7db8d6b5b031e8754b15f119",
@@ -727,6 +730,7 @@
     "6ab297d1032bfd323ccd9123318351a72aea18d0",
     "6ab80c57fd41b474a9f116ecef0145a8164c9df4",
     "6abd076df74b4a75d0255b48ab44c7c27a9e7c78",
+    "6afb61c7440c7062da79af86aadb69beadc12189",
     "6b0d9a77574dfbd1de5094066dc0ad2591f70c67",
     "6b9082ddc6cea5c527079cb4801e1fb954e51241",
     "6b9ad8fc80b77210f6fa288060d5838866221882",
@@ -978,6 +982,7 @@
     "90951c164632011d388b7a4cf440d6cdfa99c407",
     "90dd18550021342db4f89897cddf76b59b8cccd4",
     "91112e8d2b80d1f7b176cfdc2b93dcdc52ea1fc5",
+    "913fa5a2919d495a56751e8ca34a19cbf00f5850",
     "917c494af7e2ce9eea80cfe80923ebc4274efab6",
     "91c89989de21678a37167ddd232f9457f4dbfe1b",
     "91f8669aa5bd7230b5bdfcaece69dd93b45a5959",
@@ -1138,6 +1143,7 @@
     "a8840d90e36e88dd7f4dc17377449e054e5cc6e0",
     "a8b0e6049447c569b179566fc6fb7309b8a5c80c",
     "a8e6c66626048eb23c5af7440e1a2998a1156161",
+    "a8e8822aaff2ea9afda1fd8739106cbea13292a1",
     "a8fca92dfdfb42528fe35ce180621e22648edf15",
     "a969749d71f367fdb16c41b770f3dd834562d965",
     "a98c06c4d3c7ea78c6c0ecb1b607672c45d8ea63",
@@ -1246,6 +1252,7 @@
     "b843a1d7630c31ee211783af83318321091449bf",
     "b85ac63bace2af793169e9e879bc53c736a54a6a",
     "b88187a43cdbe180e962b4c58d0d7b1089d6e832",
+    "b8ac61ed88be0891ada22248cec7cb973eada5f2",
     "b8e5439d57950ef4fa854d1122e83d84f4753168",
     "b8ee583b3fd2cf9da55d070064ee7fe223d7c89f",
     "b90b850e206020d3eb44e8b8c7edaf7a7df74aac",
@@ -13636,6 +13643,55 @@
     {
       "id": "543e448dbd5b35a7b2ed3e9cc952ca67eb5192a3",
       "title": "Guam confirms December return for international dance festival",
+      "date": "2026-09-09",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "1722c86114b076b2a87019c2a42d4bc92d8dc0be",
+      "title": "이번 주 사이판에서 나온 소식 7건",
+      "date": "2026-09-09",
+      "region": "saipan",
+      "grade": "C"
+    },
+    {
+      "id": "42949c1ab89b8680683bc43b03c076aba90b833e",
+      "title": "이번 주 라오스에서 나온 소식 6건",
+      "date": "2026-09-09",
+      "region": "laos",
+      "grade": "C"
+    },
+    {
+      "id": "b8ac61ed88be0891ada22248cec7cb973eada5f2",
+      "title": "Hurricane Lowell Update 7",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "a8e8822aaff2ea9afda1fd8739106cbea13292a1",
+      "title": "Nearly 1,100 flights cancelled after UK air traffic control glitch",
+      "date": "2026-09-09",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "913fa5a2919d495a56751e8ca34a19cbf00f5850",
+      "title": "Two killed, one injured as car crashes into tree in Rompin",
+      "date": "2026-09-09",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "1ca3b855e48bda1fc08043788b9bacaceca31dd5",
+      "title": "[특별기고] 지속가능한 축제 / 6부 -사례⑤ 삿포로 눈축제",
+      "date": "2026-09-09",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "6afb61c7440c7062da79af86aadb69beadc12189",
+      "title": "Over 200 travel partners on Guam for GVB’s Mega Familiarization Tour",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
