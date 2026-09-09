@@ -527,6 +527,16 @@ sources:
     url: https://news.google.com/rss/search?q=%EB%9D%BC%EC%98%A4%EC%8A%A4%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A3%A8%EC%95%99%ED%94%84%EB%9D%BC%EB%B0%A9%29&hl=ko&gl=KR&ceid=KR%3Ako
     lang: ko
     enabled: true
+  # 하와이는 그동안 현지 영문 매체뿐이었다 — 2026-09-09 실측 하와이면 62개 중 57개가
+  # 영문 제목. 한국어 보도를 받아 영문 의존을 줄인다. 주간 9건 실측(부곡하와이 제외 뒤).
+  - id: gn_hawaii
+    region: hawaii
+    section: news
+    name: 하와이 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%ED%95%98%EC%99%80%EC%9D%B4%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%ED%98%B8%EB%86%80%EB%A3%B0%EB%A3%A8%20OR%20%EC%99%80%EC%9D%B4%ED%82%A4%ED%82%A4%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
   - id: gn_guam_en
     region: guam
     section: news
