@@ -759,6 +759,7 @@
     "6c85886a3e2c8c5146326bec0bd7ec88be9bc727",
     "6cb3563c5098e93ba099cf4093344173d0fe354a",
     "6cbf3939dc66e8d88f231f6a213d106bfe38cae0",
+    "6d016c2ca677cf5d2f549f835f43ea19d4ff0bc8",
     "6d2c1ebf25bd95d9ce2e9921701b9d0e4749cf2b",
     "6d36a93434ea0daefe3894489f3884d54fb68056",
     "6d3e5298ce817104f5057ca432b797e32b58fc13",
@@ -993,6 +994,7 @@
     "8e29c43dabc814a18a3677adf47a2a1b15bd8fe5",
     "8e7bbbbad122d89e74b3b0859c532400a16d07f9",
     "8ed5c277e5b6bd5dfe9e7f436cdfd058974115be",
+    "8f763e04c74b4291d4adaa7ad1bb1bdb3ce2dbc8",
     "8fb0b98a74f5e5219976139453c6cd16dc8de837",
     "8fc057ec3acb1f70daa92fa992205d074e13ec4b",
     "8fdb63ceb3038dd80b0a3cdae28cf27c46d6478e",
@@ -13782,7 +13784,7 @@
     },
     {
       "id": "5e06f519ebf24f4deae4f55209add7d7846ded87",
-      "title": "‘I was shaking’: West Kauai residents ride out Hurricane Lowell, assess damage",
+      "title": "서카우아이 주민들, 허리케인 로웰 견디고 피해 확인",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13796,7 +13798,7 @@
     },
     {
       "id": "ba676287420401101da019038bbe7ebac7a77ce1",
-      "title": "‘It’s emotional’: Kauai house swept off foundation as storm surge ravages Poipu",
+      "title": "카우아이 포이푸 폭풍 해일에 주택 토대째 쓸려나가",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13810,7 +13812,7 @@
     },
     {
       "id": "307ecc5c3381c2e1447c1de7915c926db28560b9",
-      "title": "Lowell downgraded to tropical storm as it moves away from Hawaii",
+      "title": "로웰 열대폭풍으로 약화, 하와이에서 북북서로 멀어져",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13915,7 +13917,7 @@
     },
     {
       "id": "1b44487e8dfbf9661d471f4a48fe763b09799ea4",
-      "title": "Red Cross asks for volunteers to help with Hurricane Lowell recovery efforts",
+      "title": "적십자, 허리케인 로웰 복구 도울 자원봉사자 모집",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13929,14 +13931,14 @@
     },
     {
       "id": "fdbc41b4113c371dbae069eb2ac472242fe79118",
-      "title": "Korean travel shift hits Guam as Lotte exits duty-free, pivots hotel strategy - CHOSUNBIZ",
+      "title": "롯데면세점 괌 철수, 호텔로 전략 선회…한국인 여행 수요 변화가 배경",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
     },
     {
       "id": "c061413dbef1ad784e47b6011693d377abcee034",
-      "title": "West Oahu residents recover after Hurricane Lowell waves inundate condominium",
+      "title": "허리케인 로웰 높은 파도, 서오아후 마카하 콘도 침수 뒤 복구 중",
       "date": "2026-09-09",
       "region": "hawaii",
       "grade": "B"
@@ -13950,14 +13952,14 @@
     },
     {
       "id": "e461d0f16496e9b1061436d13abfd7a63af503b0",
-      "title": "Penang ferry collision: Initial report submitted, investigation ongoing",
+      "title": "페낭 여객선 충돌 1차 보고서 제출, 조사 계속",
       "date": "2026-09-09",
       "region": "kota",
       "grade": "B"
     },
     {
       "id": "8930a885fe77437ba601c67e725d6b2314eef7b9",
-      "title": "Flash flood warning, flood advisory in effect after heavy rains",
+      "title": "괌 중부에 돌발홍수 경보, 호우로 홍수 주의보도",
       "date": "2026-09-09",
       "region": "guam",
       "grade": "B"
@@ -13974,6 +13976,20 @@
       "title": "Thailand investigates after Nigerian-born influencer dies from penis enlargement procedure",
       "date": "2026-09-09",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "6d016c2ca677cf5d2f549f835f43ea19d4ff0bc8",
+      "title": "Oahu outage update: majority restored, 1.5K remain without power",
+      "date": "2026-09-09",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "8f763e04c74b4291d4adaa7ad1bb1bdb3ce2dbc8",
+      "title": "일본항공, 대한항공에 이어 한진칼 지분까지..\"조원태 우군 되나\"",
+      "date": "2026-09-09",
+      "region": "japan",
       "grade": "B"
     }
   ]
