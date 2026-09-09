@@ -227,3 +227,76 @@ def test_broken_ledger_does_not_crash_the_build(tmp_path):
     p = tmp_path / "used.json"
     p.write_text("{{{ 깨진", encoding="utf-8")
     assert load_used(str(p)) == {}
+
+
+# ── 사진은 도시를 가려서 붙는다 ────────────────────────────────────────
+# 2026-09-09 실측: 하노이 사진이 호치민 책방거리 기사에 붙었다.
+
+class _It:
+    def __init__(self, id, title, summary=""):
+        self.id, self.title, self.summary = id, title, summary
+
+
+def _vn_manifest():
+    return {"vietnam": [
+        {"file": "assets/photos/vietnam/hanoi1.webp", "city": "hanoi"},
+        {"file": "assets/photos/vietnam/hanoi2.webp", "city": "hanoi"},
+        {"file": "assets/photos/vietnam/halong.webp", "city": "halong"},
+        {"file": "assets/photos/vietnam/generic.webp"},
+    ]}
+
+
+def test_도시_기사는_같은_도시_사진을_먼저_받는다():
+    from src.photos import assign
+    out = assign(_vn_manifest(), "vietnam", [_It("a", "하노이 구시가 카페거리")], {})
+    assert out["a"] == "/img/vietnam/hanoi1.webp"
+
+
+def test_다른_도시_사진은_절대_붙지_않는다():
+    from src.photos import assign
+    m = {"vietnam": [{"file": "assets/photos/vietnam/hanoi1.webp", "city": "hanoi"}]}
+    out = assign(m, "vietnam", [_It("a", "호치민 책방거리 명소 5")], {})
+    assert "a" not in out          # 차라리 사진 없이
+
+
+def test_도시_기사는_태그_없는_사진은_받는다():
+    from src.photos import assign
+    m = {"vietnam": [{"file": "assets/photos/vietnam/hanoi1.webp", "city": "hanoi"},
+                     {"file": "assets/photos/vietnam/generic.webp"}]}
+    out = assign(m, "vietnam", [_It("a", "호치민 책방거리 명소 5")], {})
+    assert out["a"] == "/img/vietnam/generic.webp"
+
+
+def test_도시_없는_기사는_아무_사진이나_받는다():
+    from src.photos import assign
+    out = assign(_vn_manifest(), "vietnam", [_It("a", "베트남 항공권 15% 할인")], {})
+    assert out["a"].startswith("/img/vietnam/")
+
+
+def test_촬영지_낱말도_도시로_본다():
+    from src.photos import assign
+    out = assign(_vn_manifest(), "vietnam", [_It("a", "하롱베이 크루즈 요금 인상")], {})
+    assert out["a"] == "/img/vietnam/halong.webp"
+
+
+def test_잘못_붙어_있던_사진은_놓아준다():
+    """이전 빌드에서 규칙 없이 붙은 사진은 유지하지 않는다."""
+    from src.photos import assign
+    used = {"/img/vietnam/hanoi1.webp": "a"}
+    out = assign(_vn_manifest(), "vietnam", [_It("a", "호치민 책방거리 명소 5")], used)
+    assert out["a"] == "/img/vietnam/generic.webp"
+    assert "/img/vietnam/hanoi1.webp" not in used
+
+
+def test_id_문자열도_예전처럼_된다():
+    from src.photos import assign
+    out = assign(_vn_manifest(), "vietnam", ["a", "b"], {})
+    assert len(out) == 2
+
+
+def test_캡션용_장소_이름():
+    from src.photos import photo_places
+    names = photo_places(_vn_manifest())
+    assert names["/img/vietnam/hanoi1.webp"] == "하노이"
+    assert names["/img/vietnam/halong.webp"] == "하롱베이"
+    assert names["/img/vietnam/generic.webp"] == ""
