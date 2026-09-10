@@ -30,6 +30,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.cities import CITY_NAMES  # noqa: E402
+from src.relevance import is_spam
 from src.models import REGION_NAMES  # noqa: E402
 
 # 한국인이 실제로 많이 가는 곳부터. 검색 수요가 곧 조회수다.
@@ -145,6 +146,13 @@ def facts_from(item: dict, focus: str = "") -> list[dict]:
                     outlet = m.group(1).strip()
             elif not summary and not line.startswith(("*", "-", "#", ">")):
                 summary = line
+        # 신문에서 걸러낸 것은 영상에서도 걸러야 한다. 브리핑 본문은 스팸
+        # 게이트가 생기기 전에 쓰인 것도 있어서, 2026-09-10 실측에서 다낭
+        # 무음 영상 4번 장면에 카지노 홍보 글이 그대로 들어갔다
+        # ("다낭카지노호텔 발표 능력을 통한 반성" · Histoire pour tous).
+        # 영상은 되돌리기가 더 어렵다 — 여기서 한 번 더 막는다.
+        if is_spam(f"{headline} {summary}", outlet):
+            continue
         out.append({"headline": headline, "summary": summary, "outlet": outlet})
     if focus:
         # 제목에 그 이름이 없으면 **뺀다**. 뒤로 미루기만 했더니 "뉴욕·도쿄 안

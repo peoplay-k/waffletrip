@@ -13,7 +13,7 @@
  *
  * ── 배포 ──────────────────────────────────────────────────────
  * 1. GitHub → Settings → Developer settings → OAuth Apps → New
- *      Homepage URL      https://peoplay-k.github.io/waffletrip/
+ *      Homepage URL      https://waffletrip.com/
  *      Callback URL      https://<워커주소>/callback
  *    Client ID 와 Client Secret 을 받는다.
  *
@@ -26,7 +26,12 @@
  * 4. static/admin/config.yml 의 base_url 을 워커 주소로 바꾸고 배포한다.
  */
 
-const ALLOWED_ORIGIN = "https://peoplay-k.github.io";
+// 편집실이 열리는 주소. postMessage 는 이 주소와 **정확히** 같아야 전달된다.
+// 2026-09-10 실측: 여기가 "https://peoplay-k.github.io" 로 박혀 있었는데
+// github.io 주소는 waffletrip.com 으로 넘어가므로 편집실은 언제나
+// waffletrip.com 에서 돈다. 주소가 달라 메시지가 조용히 버려지고
+// **로그인이 영영 끝나지 않았다.** 화면에는 아무 오류도 안 뜬다.
+const ALLOWED_ORIGIN = "https://waffletrip.com";
 
 export default {
   async fetch(request, env) {
@@ -38,14 +43,33 @@ export default {
       authorize.searchParams.set("client_id", env.GITHUB_CLIENT_ID);
       authorize.searchParams.set("redirect_uri", redirect);
       authorize.searchParams.set("scope", "repo");
-      // 상태값으로 재생 공격을 막는다.
-      authorize.searchParams.set("state", crypto.randomUUID());
-      return Response.redirect(authorize.toString(), 302);
+      // 상태값. **쿠키에 같이 담아 두고 돌아올 때 대조한다.** 만들기만 하고
+      // 확인하지 않으면 막는 척만 하는 것이다(2026-09-10 점검에서 그랬다).
+      const state = crypto.randomUUID();
+      authorize.searchParams.set("state", state);
+      return new Response(null, {
+        status: 302,
+        headers: {
+          Location: authorize.toString(),
+          "Set-Cookie": `wt_state=${state}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=600`,
+        },
+      });
     }
 
     if (url.pathname === "/callback") {
       const code = url.searchParams.get("code");
       if (!code) return new Response("code 가 없다", { status: 400 });
+
+      // 보낸 상태값과 돌아온 상태값이 같아야 한다. GitHub 이 되돌리는 것은
+      // 최상위 이동이라 SameSite=Lax 쿠키가 따라온다.
+      const sent = (request.headers.get("Cookie") || "")
+        .split(";").map((c) => c.trim())
+        .find((c) => c.startsWith("wt_state="));
+      const expected = sent ? sent.slice("wt_state=".length) : "";
+      if (!expected || expected !== url.searchParams.get("state")) {
+        return new Response("상태값이 맞지 않는다. /auth 부터 다시 시작한다.",
+                            { status: 400 });
+      }
 
       const res = await fetch("https://github.com/login/oauth/access_token", {
         method: "POST",
@@ -65,6 +89,10 @@ export default {
       // Decap 은 부모 창으로 메시지를 받아 로그인을 마친다.
       const body = `<!doctype html><meta charset="utf-8"><script>
         (function () {
+          if (!window.opener) {
+            document.body.textContent = "이 창은 편집실이 띄운 것이 아니다.";
+            return;
+          }
           function send() {
             window.opener.postMessage(
               'authorization:github:${data.access_token ? "success" : "error"}:' +
