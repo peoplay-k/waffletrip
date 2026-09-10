@@ -428,7 +428,13 @@ def test_고른_번호는_시트_목록_없이는_굽지_않는다(tmp_path, mon
     """
     import subprocess
     import sys
+
+    import pytest
     from PIL import Image
+
+    # 사진 도구는 얼굴 검사에 opencv 를 쓴다. CI 에는 깔지 않는다 — 사진은
+    # 사람이 눈으로 보고 고르는 로컬 작업이라 클라우드에서 돌 일이 없다.
+    pytest.importorskip("cv2")
     src = tmp_path / "a.jpg"
     Image.new("RGB", (200, 200)).save(src)
     out = subprocess.run(
