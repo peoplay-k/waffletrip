@@ -755,6 +755,7 @@
     "67d3ec5792ddcd7f49084fc00c4a91699156710b",
     "67e2c149dc7305681aa5e8eebaba31933b5652cb",
     "68659a352ca7a18c822a6f04c3295d785e9a74eb",
+    "686db4c7d7be78bb7ae3b1a92429cf70682c4596",
     "6878ef28ce606add3826b31bfce39aa6898f4c18",
     "68a640a212fe56791f9f34aae0ec7566ec7f2582",
     "68cc3c753f70d9d4806cc561d731b45f6ee0909b",
@@ -14476,6 +14477,13 @@
     {
       "id": "e098580f73f387f62ce5eed7b0cf5c35c13d0cb8",
       "title": "Central Great Falls outage moved to Sept. 16 for power upgrade",
+      "date": "2026-09-10",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "686db4c7d7be78bb7ae3b1a92429cf70682c4596",
+      "title": "괌정부관광청, ‘MEGA FAM TOUR’ 성료",
       "date": "2026-09-10",
       "region": "guam",
       "grade": "B"
