@@ -418,3 +418,22 @@ def test_우리말_나라이름도_읽는다():
     assert "thailand_kr" in places_of(_It("a", "태국 무비자 30일로 단축", ""))
     assert not places_of(_It("c", "일본 관광객 증가", ""))   # 나라는 도시가 아니다
     assert "danang" in places_of(_It("b", "다낭 신규 호텔 개장", ""))
+
+
+def test_고른_번호는_시트_목록_없이는_굽지_않는다(tmp_path, monkeypatch):
+    """번호는 폴더 순서일 뿐이라 파일이 하나만 늘어도 통째로 밀린다.
+
+    2026-09-10 실측: 코타 폴더가 굽는 사이 190 → 261 장이 됐고 고른 번호가
+    편의점 진열대와 인물 사진을 가리켰다. 지면에 나갈 뻔했다.
+    """
+    import subprocess
+    import sys
+    from PIL import Image
+    src = tmp_path / "a.jpg"
+    Image.new("RGB", (200, 200)).save(src)
+    out = subprocess.run(
+        [sys.executable, "tools/photo_prepare.py", "--region", "guam",
+         "--from", str(tmp_path), "--approve", "1", "--commit"],
+        capture_output=True, text=True)
+    assert out.returncode == 2
+    assert "--sheet" in out.stderr
