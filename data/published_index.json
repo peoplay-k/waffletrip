@@ -156,6 +156,7 @@
     "15724a14c9ff6c2eef801905c5eab221015b0833",
     "159a03ea613810a79c0ac294c6a8a8b3af91d270",
     "15b1724a869e35d168065aab60a5d7202029dff9",
+    "15c5209a0cbc1c0e4680896ea43be00d0ac94c60",
     "15d67570f27ded49d699a981e216699e1ea1bbcd",
     "15e0f303e040a29cc1af3a9b6f730d98f7ab6fd4",
     "15f72a11cb6753b5ba99fd5c082833f93905858f",
@@ -423,6 +424,7 @@
     "39761bd5e34baabd5f86bf300c327fe353fb34b4",
     "39ab3689084ef93093f91942e24a82915ff64283",
     "39af3ba540fe059942aecbfe2b937e9e65f432e9",
+    "39beb59ec0c7766ca27ba392baa84215eb447709",
     "39e93fca2a31377fbd5b7a166dd845053235f332",
     "3a4f3e520fdde85a2378a9deeb65c29413411208",
     "3a7072ca965da96ea36140871fe19858891aa819",
@@ -467,6 +469,7 @@
     "4091855e6c200c0a236d6c3c7f85e3804d856ed6",
     "40ebf773f93024e5e9f12ab0f1315627db0d9728",
     "40f596054c156c166351fe5f4ead2cdf58ab24f9",
+    "410e7b6740565ee62ce51ea1c8ff03bd614f283e",
     "412346e68a42f1dec15a8ec1b338727a00c0b5b8",
     "412d0ad08c184f9b7f997879da0e421ff587399c",
     "418b00ebad1922b75705f63893b4e611501d8216",
@@ -492,6 +495,7 @@
     "44229f7d8146905151b3cc0b4d794d4eeed8517b",
     "44769d733a9bc99362fd897079f4b5cfa0b1cf74",
     "447eab37366dda721eb970f336c433a48c0519bf",
+    "44960c150df7715257f8619d17154b657ce3f850",
     "449f60559a1a2fc80654f1651003a89cbc54239d",
     "44e83046da221dc49102c21f1ec2ad188840cdff",
     "4508e900058db0cd9756197cab4c96b39e9f4d0c",
@@ -538,6 +542,7 @@
     "4a0adf90fd80df4cf42181b4c283e49e766c8e50",
     "4a15207887f68bf9d1e2ffd1ad4ec84cceb76c71",
     "4a3ccd7ea41ecd2eca316cf5c8d1ff2b937c7581",
+    "4a4cb21c05e95282495b0737cae0346b5482a67d",
     "4a6bcaf167807e07a657f92f882d80dd12088af8",
     "4a9639ba4aebe49d7b4cf791ad1a79f470f1561b",
     "4ac7ce8b1ae0b84430d0d5080f6d673e9efe57e2",
@@ -572,6 +577,7 @@
     "4ec4f6302c4c4aaabe1e2678a25c661cd9245d38",
     "4ef7d4fc47ee4b59ca4a08ae15aa2f4c27628210",
     "4f107f2c2afddb370b1fc4c0c16ca6cc48c1b0f2",
+    "4f3e24d7a2026ebd7672e780d933232c6f943f78",
     "4f51d42bd873caf9ea0b0f7b9276d8c036f15b22",
     "4f5836444971529346809c80883fc9fc20c868fb",
     "4f7121bc310eb1f019e0b0e6d06c863ee2463c0a",
@@ -735,12 +741,14 @@
     "662f5475269e7e60e3299d73636057502eb399c1",
     "664001f998ed1f53e1f678ceb1fede6ae2b7747c",
     "665fb4e36977e62a4f84ed0f154d7b813236d475",
+    "666836be180888dff65b80797e26344acf8c2c26",
     "6697ae9d9d2045b0c1e7687291c6b8d15dbf993c",
     "66e51a04a07595de47f8d51c5bc98a3385fedc0c",
     "670c613adc70a2f2c0563d1feeea39ba5faeaf36",
     "674ddeecc54996baedb1ef3d17c03bbc26e5e36c",
     "6766d53f19e1d22df1f70c13609b4b296509f167",
     "676ffdcac566fa74ab46277578be9d87b8b35f23",
+    "6774a7927535d2671152c91f84894e98edac6117",
     "67891dccaed66cfaea744a6ecf7c4cf1fb4197b6",
     "67c965f547ad651fedb993acacb5c37fc2d8dff3",
     "67d387f6a301e2765550393d7d2929de720fb967",
@@ -1045,6 +1053,7 @@
     "92a3ba645c65bbefbdc4f4494a14cf120804a922",
     "92a7024b5690de23b14b148e96fc7fcefd8780f3",
     "92cfeebbd13e47200b09050473768d91b59fb6f3",
+    "92df9f4107c056e8f18cea71beeb8c9c8151d4f0",
     "932902ab5b26103a4de481efb873e8c32f5870d7",
     "933949fb81ca3b170a6680c1d3aca486813be990",
     "93693ae7b6b5d9dac434fa9f3bbb1718badfc014",
@@ -1187,6 +1196,7 @@
     "a7e57e82487fbcc2b36fe53888a33676477d63d4",
     "a7eaf61d8a26ccd6545fbd7f34296cd7e7e4d8db",
     "a8167285e1ddd3f79147758b74bacd8cf0afcc8b",
+    "a81f6a4ba86386fc99abd23213530375b040e7fc",
     "a82f2f02f50ddd4c7f368e950fe22d5dd01ba517",
     "a83ef6b078c9c9e1e9c1f1b7a2d6da185e91afef",
     "a8517c917dabfb8d8877a4e21369fa88addc134d",
@@ -1505,6 +1515,7 @@
     "ce5d42be6dc102e8d5f48b1b45513f6924856617",
     "ce958e06ff2f7aaadaa43baac180d10fcfe0e32e",
     "cee51d0c96da24d78a3cbe677b07f0419f0f3e66",
+    "cf480dbdd98b46238905181c493efec1706a3341",
     "cf5d4cae9de92b83b83a3c3937ee3e055f05e95c",
     "cfd0c72bee2448c2eee7a831f31ab53f9fa7e795",
     "cff402559d472529e32224c47901dcea7df3d42c",
@@ -1635,6 +1646,7 @@
     "e005dfe2c4a69af3b25295738ac6801c0ec74d86",
     "e027b37dc28e6f613301091ade21ef4f22f2548b",
     "e047ca2b2210b2854cb29480267dbeb91b4910f0",
+    "e098580f73f387f62ce5eed7b0cf5c35c13d0cb8",
     "e0a81d828365a87bfc6849ba96bf1cdbbf0a95f9",
     "e0b8fc4cd49c2384b8b578ecbae915ec5b1bf75a",
     "e0d1aab7cf2aa6d4512e0701c858ab4f5e59b616",
@@ -14380,6 +14392,90 @@
     {
       "id": "8ee56abed60c50dda9c1957b9378945f577e7067",
       "title": "Guam tourism arrivals down 37 percent in July as GVB targets key markets",
+      "date": "2026-09-10",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "410e7b6740565ee62ce51ea1c8ff03bd614f283e",
+      "title": "방콕 한복판에 12m ‘비덕’ 떴다…태국 첫 대형 에어돔까지 테마파크 변신",
+      "date": "2026-09-10",
+      "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "a81f6a4ba86386fc99abd23213530375b040e7fc",
+      "title": "“남규슈 활화산·온천 품는다” 부산~가고시마 직항 노선 열려",
+      "date": "2026-09-10",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "15c5209a0cbc1c0e4680896ea43be00d0ac94c60",
+      "title": "태국의 과거와 현재를 잇는 방콕 문화 공간 3",
+      "date": "2026-09-10",
+      "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "cf480dbdd98b46238905181c493efec1706a3341",
+      "title": "Gov. Green seeks expedited federal disaster declaration after Hurricane Lowell",
+      "date": "2026-09-10",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "666836be180888dff65b80797e26344acf8c2c26",
+      "title": "야간 공항 찾은 위 지사 “현장 확인해 교통 대책 세우라”",
+      "date": "2026-09-10",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "44960c150df7715257f8619d17154b657ce3f850",
+      "title": "Missing 74-year-old Kauai man found dead after storm",
+      "date": "2026-09-10",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "4f3e24d7a2026ebd7672e780d933232c6f943f78",
+      "title": "Philippine ferry fire kills 5, 87 missing",
+      "date": "2026-09-10",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "6774a7927535d2671152c91f84894e98edac6117",
+      "title": "Repairs underway on North Kihei Rd. following Hurricane Lowell damage",
+      "date": "2026-09-10",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "39beb59ec0c7766ca27ba392baa84215eb447709",
+      "title": "U-turn ends in death of undocumented foreigner in Kluang",
+      "date": "2026-09-10",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "92df9f4107c056e8f18cea71beeb8c9c8151d4f0",
+      "title": "Malayan Cement stocked up against coal supply disruptions",
+      "date": "2026-09-10",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "4a4cb21c05e95282495b0737cae0346b5482a67d",
+      "title": "경남도, 홋카이도와 지방외교 강화…‘경남 관광’ 일본에 알린다",
+      "date": "2026-09-10",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "e098580f73f387f62ce5eed7b0cf5c35c13d0cb8",
+      "title": "Central Great Falls outage moved to Sept. 16 for power upgrade",
       "date": "2026-09-10",
       "region": "guam",
       "grade": "B"
