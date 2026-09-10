@@ -480,6 +480,7 @@
     "432dd389f143dc36a32e519cd1fc07036cb83efa",
     "436f3bdba2923b0deb5fee31e9eaabd50ac70cdf",
     "4370678357d949d57ba28ae9bd299d8b603de41e",
+    "437ace20dc1f57b0b7d836b72d9fb3cba539faae",
     "438cff83de9a5599268af36c687c833c0c82d831",
     "438d2cd64cbdb2794730f31b107e73830ab11050",
     "43ad1d3172f2cf9c5194b2ca8b53887a1ecf0502",
@@ -600,6 +601,7 @@
     "529f6091b96ff2d5d86564b46dcd82f7f531eba1",
     "52aa50bce79b9a9acea2fcffbe9788a8ec83b254",
     "52cc36610a0f6aee751c2cfab3b42f81e1d633b1",
+    "532d288456188edb039c3e6ff2e815f772b4f57b",
     "53402e135abd316570fbcda5f1289596cc12f921",
     "539f6e038ebe6c471e55d4a92f46f68080905884",
     "53a488248a77d8f3243eb39e12f1c1129581a35f",
@@ -816,6 +818,7 @@
     "7208d2bec772d7453659803f21d980a0dfea3c6b",
     "7208eb50d49fc7fa8bf3e0d4e0c840ccdfd2f5c5",
     "722c9574cd7062b6f1380a7addc8251499ae9b35",
+    "72b123bc279f789d22487957a50fb5c2115b5391",
     "7334e9edac7c40ac312cb02bd962e2e266222911",
     "7343c9216d3ee1cb90c69753874d318459e3a377",
     "738ca7ced257075b139f6f1c159e044c94d8c5b7",
@@ -931,6 +934,7 @@
     "826a9ef94814fda71b5fdd9efc246167ac1e980b",
     "829a7875c71ed4bf74090111b68eec2ea20ffd24",
     "82ba76a1407f250586fe37aa9cfd54c14622278e",
+    "832bed856fe62a0f6d7b886e8693846534b73479",
     "832ca7377cf1d28489a3422d4427f7c21ed1e59c",
     "8353e71dc9a08f6d17524149873b0ca1328c953f",
     "8358415e473158001ed276257e3a823068c22e1b",
@@ -1016,6 +1020,7 @@
     "8e29c43dabc814a18a3677adf47a2a1b15bd8fe5",
     "8e7bbbbad122d89e74b3b0859c532400a16d07f9",
     "8ed5c277e5b6bd5dfe9e7f436cdfd058974115be",
+    "8ee56abed60c50dda9c1957b9378945f577e7067",
     "8f763e04c74b4291d4adaa7ad1bb1bdb3ce2dbc8",
     "8fb0b98a74f5e5219976139453c6cd16dc8de837",
     "8fc057ec3acb1f70daa92fa992205d074e13ec4b",
@@ -1105,6 +1110,7 @@
     "9c4c76e3ac9eb30a2e5e1dce45443243dc749399",
     "9c5ef876f46757cc78fcde846f421f23d5833fcf",
     "9c67b56951e7d3b1c9c106664ab9dbf59ad7e66e",
+    "9ca74a4b15feec3d37d5ef2069cf60bfb939ff01",
     "9caac14a85b4ebee78d1e436f3195e542d2a3f3b",
     "9ce09c1d8fe6cdce3127c5b737a14475d4d28e68",
     "9d092cffeca7d8078974060281faafb2deea8f5f",
@@ -1706,6 +1712,7 @@
     "eb3ffd8c18156146890770f8540e0e70ad591443",
     "eb41506f7792cf6de78250c062811ebc57a5c13b",
     "eb8ccc2efbd7ca6e3907ea7664ea27a120bf9959",
+    "ec465ddcb1911ddd6591dea3dfb46f876f78fc34",
     "ec873e7fa304bb9e1a9213bd660e285c5ab59680",
     "ec88aca289a809280a4d8873ec04a4c7655caa2d",
     "ec9be8b6dfee9fb08623bee8bfee9d2a0da6c83f",
@@ -14324,6 +14331,55 @@
     {
       "id": "ea82156ed1dc80fa0abcea780cecfe78c0bdfcbe",
       "title": "롯데면세점 괌 공항점 철수, 해외 전략을 수익성 중심으로",
+      "date": "2026-09-10",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "532d288456188edb039c3e6ff2e815f772b4f57b",
+      "title": "에어부산, 부산~가고시마 부정기편 운항…\"일본 소도시 노선 확대\"",
+      "date": "2026-09-10",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "ec465ddcb1911ddd6591dea3dfb46f876f78fc34",
+      "title": "Gov. Green warns Hurricane Lowell damage on Kauai will exceed $400M",
+      "date": "2026-09-10",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "832bed856fe62a0f6d7b886e8693846534b73479",
+      "title": "바람이 된 예술가, 故 김해곤을 그리며",
+      "date": "2026-09-10",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "72b123bc279f789d22487957a50fb5c2115b5391",
+      "title": "Woman caught on camera stealing from donation jar meant to support animal shelter, police say",
+      "date": "2026-09-10",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "437ace20dc1f57b0b7d836b72d9fb3cba539faae",
+      "title": "Vietnam among Asia's top destinations for repeat tourists",
+      "date": "2026-09-10",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "9ca74a4b15feec3d37d5ef2069cf60bfb939ff01",
+      "title": "Analyst: More travelers using AI to plan trips, Guam businesses need to optimize",
+      "date": "2026-09-10",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "8ee56abed60c50dda9c1957b9378945f577e7067",
+      "title": "Guam tourism arrivals down 37 percent in July as GVB targets key markets",
       "date": "2026-09-10",
       "region": "guam",
       "grade": "B"
