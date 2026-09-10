@@ -138,6 +138,7 @@
     "12d14faa6aa7672be7dbba22f1844c2d7e7bea51",
     "1333b01d49834bac5aa53f940e0b132c63f0ef82",
     "135240c650369087ce0f132b11da1bc835719335",
+    "138823a2a25aa014f99361a8c44bc97cb354aaa6",
     "13a8b733bdac5347cdd34573dbb5180124e536da",
     "13c01f9ad24ad09dc89b6833d8f52ccfe9f963b7",
     "13f418434b9eff3bb76224d13494c7a88785002a",
@@ -803,6 +804,7 @@
     "6e32e92dfa9d05f0cec9c2a8c4b84e729c922497",
     "6e40e5b88621469d7da23489bbc99bec20dd61b9",
     "6e642668089b0b66a434d9eb8261888fd4966527",
+    "6ea30a8d61b76682ce06339c41f6844c98185096",
     "6eaf6228ebc254416c5d24693db0315bd080c82c",
     "6eb4a1ff5a377b2c0668dae3d15dc6cd2fd119dd",
     "6ed4338151158713dcf8b73f254cf30ddb253ff0",
@@ -953,6 +955,7 @@
     "8380b886c52f465d2edd49bf302ced7feed6ef55",
     "8399623f491e41b726bf9ee1d4951cdc1101a5db",
     "84303813fae91967b21ffbb320134e780273a240",
+    "843b06ffbaee7eb819483b072c6211e293922186",
     "84403d3c6b72d4a7325c7d48d5a27ded73bb354a",
     "845b00e0e372783c007422e4a941a4d32f1bfdda",
     "845b260d74e3cef40360539f00926e29797ecda3",
@@ -14550,6 +14553,27 @@
       "title": "다낭이 해외 관광객 재방문율 부문에서 아시아 6위권에 진입했다.",
       "date": "2026-09-10",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "138823a2a25aa014f99361a8c44bc97cb354aaa6",
+      "title": "추석 맞아 제주썬호텔, 지역 아동에게 나눔 활동",
+      "date": "2026-09-10",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "6ea30a8d61b76682ce06339c41f6844c98185096",
+      "title": "Analyst: More travelers using AI to plan trips, Guam businesses need to optimize",
+      "date": "2026-09-10",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "843b06ffbaee7eb819483b072c6211e293922186",
+      "title": "'칭다오 직항로' 세금 낭비…오영훈 前 지사에 구상권 청구",
+      "date": "2026-09-10",
+      "region": "jeju",
       "grade": "B"
     }
   ]
