@@ -788,3 +788,46 @@ def test_편집실_지역_선택지가_코드와_같다():
     assert set(options) == set(REGIONS), set(REGIONS) ^ set(options)
     for key, name in REGION_NAMES.items():
         assert labels[key] == name, (key, labels[key], name)
+
+
+def test_무음_자막은_출처를_두_번_말하지_않는다():
+    """카드 아래에 '출처 · vietnam.vn' 이 이미 있다. 자막에까지 넣으면 중복이다."""
+    import sys
+    sys.path.insert(0, "tools")
+    from make_shorts import read_seconds, silent_text
+    scene = {"kind": "fact", "n": 1, "total": 3, "outlet": "vietnam.vn",
+             "line": "침대칸 티켓 가격을 40% 인하했습니다",
+             "narration": "침대칸 티켓 가격을 40% 인하했습니다. vietnam.vn 보도입니다."}
+    assert silent_text(scene) == "침대칸 티켓 가격을 40% 인하했습니다"
+    assert "보도입니다" not in silent_text(scene)
+    # 읽는 시간이지 말하는 시간이 아니다 — 짧아도 바닥값을 지킨다
+    assert read_seconds("짧다") >= 2.8
+    assert read_seconds("가" * 85) > 10
+
+
+def test_영상도_스팸을_거른다():
+    """브리핑 본문에 남은 카지노 홍보 글이 무음 영상 4번 장면에 들어갔었다."""
+    import sys
+    sys.path.insert(0, "tools")
+    from video_brief import facts_from
+    body = ("### 다낭 침대칸 요금 인하\n"
+            "철도 당국이 요금을 내렸습니다.\n"
+            "*vietnam.vn · 2026-09-01*\n"
+            "### 다낭카지노호텔 발표 능력을 통한 반성\n"
+            "핵심 개념과 실제 응용.\n"
+            "*Histoire pour tous · 2026-09-01*\n")
+    got = facts_from({"body_md": body}, focus="다낭")
+    assert len(got) == 1 and "카지노" not in got[0]["headline"]
+
+
+def test_공개_문장이_스스로를_신문이라_부르지_않는다(tmp_path):
+    """매체 소개는 '여행 정보 매체' 라고 적어두고 다른 쪽에서 '신문' 이라 하면
+    어긋난다. 인터넷신문 등록 여부가 정해지기 전까지 표현을 통일해 둔다.
+    """
+    import re
+    render_site([make("1", "괌 신규 취항")], str(tmp_path), TODAY)
+    for page in ("about", "ethics", "contact", "privacy"):
+        html = (tmp_path / page / "index.html").read_text(encoding="utf-8")
+        visible = re.sub(r"<!--.*?-->", "", html, flags=re.S)
+        visible = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", visible, flags=re.S)
+        assert "신문" not in re.sub(r"<[^>]+>", " ", visible), page
