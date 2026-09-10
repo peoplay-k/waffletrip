@@ -466,6 +466,7 @@
     "404f858a2da4a9ffcaf948ccabf401bd7e97cfd7",
     "4050faecd443d4ebd03326728d92d4352b34fa73",
     "4077cd113d99ad58b45d0b878ed13dc6a0b681b1",
+    "408d11d435bb2a9a2c64e2dd56a95777bf330a1d",
     "4091855e6c200c0a236d6c3c7f85e3804d856ed6",
     "40ebf773f93024e5e9f12ab0f1315627db0d9728",
     "40f596054c156c166351fe5f4ead2cdf58ab24f9",
@@ -974,6 +975,7 @@
     "86e837d83edb0f6bf93ecad999ce17ce0e6ce97f",
     "86ee2e8cb65f88f1163099046a2596f532310568",
     "8723ace5d58d69503138d62e119706089e0e2f06",
+    "8759ece53ae3944426a2fb75dbe5615a85ecb7ca",
     "879e8d2f44da82224d0c0532134eaed0426c8b30",
     "87d1ef3a0a8a96dbe0c23dd254db335b59072cda",
     "880de3d9bec349dd6297127aaa2ed701aefaee46",
@@ -999,6 +1001,7 @@
     "89b486edcff2030ddf2d49796a0d28c88324c04b",
     "89b705af1aba16918f59a6eda1c2235ffa31f13e",
     "89e67762f686aee637f0bbcab6b233e6f5b6a3af",
+    "89fd18e3596d1a9b6abfcac9a582fade4bfa404f",
     "8a6fd973846ae946d3a0a44033b03da5bb1ca9e7",
     "8a7fb343aa681f85acd4b829d4359d184058d4b9",
     "8acfe9fbcd2547f8cf4af053940bc8a47ff39cff",
@@ -1392,6 +1395,7 @@
     "c-4b85315badf80b1a2a994993056e1a9e17de69ed",
     "c-5149b14bd37255bf7ac3ad6e761c81c83f204c77",
     "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
+    "c-a5911ba8a9be497027995aef8207f85c95438fd4",
     "c-afcabf8c020770d43b528d4f046bd8ee64fb8407",
     "c-b3493629870f2884069f87f1af2adc800cdf65ec",
     "c-b5c568d4df0deabf534e6ae1f072e9c092e81421",
@@ -1768,6 +1772,7 @@
     "f144f9ad002774ed8b491d84c1cc6d469b87ae9c",
     "f15e843629292612323f082a6d673d8ed821285a",
     "f16f11066b226341dcb7aa60003ac8ffe36f99f1",
+    "f1810fee36d0087451fa2c616a748e4ecddd2deb",
     "f1e516e7a92e2e21706e8b92ca63b1edfaf2d36c",
     "f20ee202302edb3820f07fc57dc95769ce3c028f",
     "f21218e2910193055b73e1475a9de9cfe26e11ac",
@@ -1871,6 +1876,7 @@
     "fe3969aed6cd1830dae320b3df126213fc05d059",
     "fe3a5da6d53d0183a428b2bcea73b096fbedb8b8",
     "fe42648e42ebd54e6fa35050277ae1369b1f65f7",
+    "fe62b9c7214e0b27c105b0626b470fbfb7831071",
     "feeeffd06418f26147b5e5e841c04bb7a6d9c9a5",
     "feff9af1a34957de91d1b0e5631a18eeba1f3da3",
     "ff352c7607b971fa971dea461f85a5b1029097c6",
@@ -14486,6 +14492,48 @@
       "title": "괌정부관광청, ‘MEGA FAM TOUR’ 성료",
       "date": "2026-09-10",
       "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "c-a5911ba8a9be497027995aef8207f85c95438fd4",
+      "title": "카우아이, 공항은 열렸지만 아직 갈 때는 아니다",
+      "date": "2026-09-10",
+      "region": "hawaii",
+      "grade": "C"
+    },
+    {
+      "id": "f1810fee36d0087451fa2c616a748e4ecddd2deb",
+      "title": "Hurricane Lowell Update 8",
+      "date": "2026-09-10",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "89fd18e3596d1a9b6abfcac9a582fade4bfa404f",
+      "title": "Pacific Fleet Submarine Museum unveils transformed galleries",
+      "date": "2026-09-10",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "8759ece53ae3944426a2fb75dbe5615a85ecb7ca",
+      "title": "More than 2,000 flights cancelled in Britain due to technical issue",
+      "date": "2026-09-10",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "fe62b9c7214e0b27c105b0626b470fbfb7831071",
+      "title": "Kauai power reaches 25% as critical transmission repairs progress",
+      "date": "2026-09-10",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "408d11d435bb2a9a2c64e2dd56a95777bf330a1d",
+      "title": "Resurgent Zheng takes positives from storming US Open run",
+      "date": "2026-09-10",
+      "region": "kota",
       "grade": "B"
     }
   ]
