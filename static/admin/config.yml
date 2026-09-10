@@ -52,6 +52,9 @@ collections:
           - { label: 코타키나발루, value: kota }
           - { label: 라오스, value: laos }
           - { label: 제주, value: jeju }
+          - { label: 일본, value: japan }
+          - { label: 태국, value: thailand }
+          - { label: 대만, value: taiwan }
 
       - label: 부문
         name: section

@@ -769,3 +769,22 @@ def test_데스크_표가_해설을_사람이_쓴다고_말하지_않는다(tmp_
     html = (tmp_path / "about" / "index.html").read_text(encoding="utf-8")
     assert "AI 작성" in html
     assert ">사람</td>" not in html
+
+
+def test_편집실_지역_선택지가_코드와_같다():
+    """편집실 드롭다운에 없는 지역은 사람이 기사를 쓸 수 없다.
+
+    2026-09-10 실측: 일본·태국·대만이 빠져 있었다. 지역을 늘릴 때
+    static/admin/config.yml 을 같이 고치는 것을 잊으면 조용히 어긋난다.
+    """
+    import yaml
+    from src.models import REGIONS, REGION_NAMES
+    with open("static/admin/config.yml", encoding="utf-8") as f:
+        cfg = yaml.safe_load(f)
+    options = [o["value"] for field in cfg["collections"][0]["fields"]
+               if field["name"] == "region" for o in field["options"]]
+    labels = {o["value"]: o["label"] for field in cfg["collections"][0]["fields"]
+              if field["name"] == "region" for o in field["options"]}
+    assert set(options) == set(REGIONS), set(REGIONS) ^ set(options)
+    for key, name in REGION_NAMES.items():
+        assert labels[key] == name, (key, labels[key], name)
