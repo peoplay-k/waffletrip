@@ -1100,6 +1100,7 @@
     "98fa6108be0dd2f8c0e3e1d6f304b23f689cfa03",
     "994b64247de74d66e2873faa8e42005ca75521f4",
     "998319d3ea942a43cbf85f2e451d7999f991fd0b",
+    "99994eefc388bb9f705e444a4276cdd6ffbf80cf",
     "99a4c5f1e10da2c85a1e43ec98fd04f70bec42ec",
     "99a91d59a078ef9e63f314471c8841cfb10ac1c7",
     "99ad601d7c4292ca33c09fb49be8271df39f69cd",
@@ -1691,6 +1692,7 @@
     "e61c8c540770a6a6d24926ca5c8ef79938cd1a36",
     "e629b82f034c447309de2ea385ecf13ec53c93d9",
     "e62e39d0d0db4cc2203eaf7a2bf67189d322e04b",
+    "e655c95d9d911c399eef4089a72495fcacc65b25",
     "e68f8ac340b4fbd4ec499179058387d5735725bf",
     "e6bce42e75ce5678afd0b15dc85a08470f7a0c63",
     "e6c9173c0605a77501368ff29a108d6a8f1a13e6",
@@ -14534,6 +14536,20 @@
       "title": "Resurgent Zheng takes positives from storming US Open run",
       "date": "2026-09-10",
       "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "99994eefc388bb9f705e444a4276cdd6ffbf80cf",
+      "title": "DOD raises per diem rates for civilian employees traveling to Guam",
+      "date": "2026-09-10",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "e655c95d9d911c399eef4089a72495fcacc65b25",
+      "title": "다낭이 해외 관광객 재방문율 부문에서 아시아 6위권에 진입했다.",
+      "date": "2026-09-10",
+      "region": "vietnam",
       "grade": "B"
     }
   ]
