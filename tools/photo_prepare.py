@@ -332,6 +332,9 @@ def main() -> int:
                     help="1면에 쓸 풍경 사진으로 표시한다.")
     ap.add_argument("--commit", action="store_true",
                     help="--approve 로 고른 것만 굽는다.")
+    ap.add_argument("--sheet", default="",
+                    help="번호가 가리키는 파일 목록(json). --approve 와 함께 쓴다. "
+                         "폴더가 바뀌어도 번호가 밀리지 않는다.")
     args = ap.parse_args()
 
     from src.models import REGIONS
@@ -365,6 +368,36 @@ def main() -> int:
     day = datetime.now(KST).strftime("%Y%m%d-%H%M%S")
     sheet = contact_sheet(results, os.path.join(
         SHEET_ROOT, f"{args.region}_{day}.png"))
+
+    # 시트 번호가 가리키는 **파일 목록을 함께 남긴다.**
+    #
+    # 번호는 gather() 가 준 순서일 뿐이라, 검사와 굽기 사이에 폴더에 파일이
+    # 하나라도 늘면 번호가 통째로 밀린다. 2026-09-10 실측: 코타 폴더가 NAS
+    # 복사가 끝나며 190 → 261 장이 됐고, 내가 고른 번호가 편의점 진열대와
+    # 인물 사진을 가리켰다. 지면에 나갈 뻔했다.
+    listing = os.path.join(SHEET_ROOT, f"{args.region}_{day}.json")
+    if sheet:
+        os.makedirs(SHEET_ROOT, exist_ok=True)
+        with open(listing, "w", encoding="utf-8") as fh:
+            json.dump([v["src"] for v in results], fh, ensure_ascii=False, indent=1)
+
+    # 고른 번호가 있는데 시트 목록을 안 주면 멈춘다. 번호가 밀렸는지
+    # 알 길이 없는 채로 구우면 엉뚱한 사진이 지면에 나간다.
+    if args.approve and not args.sheet:
+        print("--approve 를 쓰려면 --sheet 로 그 번호를 만든 파일 목록을 줘야 한다.\n"
+              f"  검사할 때 {SHEET_ROOT}/<지역>_<시각>.json 이 함께 만들어진다.",
+              file=sys.stderr)
+        return 2
+    if args.sheet:
+        with open(args.sheet, encoding="utf-8") as fh:
+            frozen = json.load(fh)
+        by_src = {v["src"]: v for v in results}
+        missing = [p for p in frozen if p not in by_src]
+        if missing:
+            print(f"시트에 있는 파일 {len(missing)}개가 지금 폴더에 없다. "
+                  "폴더가 바뀌었다 — 다시 검사해라.", file=sys.stderr)
+            return 2
+        results = [by_src[p] for p in frozen]
 
     approved_ix = parse_approve(args.approve, len(results))
     # 검출기가 통과시켰다고 굽지 않는다. **사람이 고른 것만 굽는다.**

@@ -256,6 +256,316 @@
       "hero": true,
       "overrode": "얼굴 1건 검출",
       "city": "saipan"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_마운트카멜 성당 외부/PEO_1946.JPG",
+      "file": "assets/photos/saipan/PEO_1946.webp",
+      "bytes": 115814,
+      "baked_at": "2026-09-10T17:40:42+09:00",
+      "overrode": "얼굴 4건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_마운트카멜 성당 외부/PEO_1950.JPG",
+      "file": "assets/photos/saipan/PEO_1950.webp",
+      "bytes": 119076,
+      "baked_at": "2026-09-10T17:40:43+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_마운트카멜 성당 외부/PEO_1963.JPG",
+      "file": "assets/photos/saipan/PEO_1963.webp",
+      "bytes": 141972,
+      "baked_at": "2026-09-10T17:40:44+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_마운트카멜 성당 외부/PEO_1968.JPG",
+      "file": "assets/photos/saipan/PEO_1968.webp",
+      "bytes": 135548,
+      "baked_at": "2026-09-10T17:40:45+09:00",
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_마운트카멜 성당 외부/PEO_1972.JPG",
+      "file": "assets/photos/saipan/PEO_1972.webp",
+      "bytes": 216614,
+      "baked_at": "2026-09-10T17:40:46+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_마운트카멜 성당 외부/PEO_1974.JPG",
+      "file": "assets/photos/saipan/PEO_1974.webp",
+      "bytes": 208634,
+      "baked_at": "2026-09-10T17:40:47+09:00",
+      "overrode": "얼굴 8건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_마운트카멜 성당 외부/PEO_9888.JPG",
+      "file": "assets/photos/saipan/PEO_9888.webp",
+      "bytes": 165692,
+      "baked_at": "2026-09-10T17:40:48+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_마운트카멜 성당 외부/PEO_9913.JPG",
+      "file": "assets/photos/saipan/PEO_9913.webp",
+      "bytes": 131554,
+      "baked_at": "2026-09-10T17:40:49+09:00",
+      "overrode": "얼굴 12건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_슈가 덕/PEO_1913.JPG",
+      "file": "assets/photos/saipan/PEO_1913.webp",
+      "bytes": 190162,
+      "baked_at": "2026-09-10T17:40:50+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_슈가 덕/PEO_1915.JPG",
+      "file": "assets/photos/saipan/PEO_1915.webp",
+      "bytes": 153894,
+      "baked_at": "2026-09-10T17:40:51+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_슈가 덕/PEO_1916.JPG",
+      "file": "assets/photos/saipan/PEO_1916.webp",
+      "bytes": 172982,
+      "baked_at": "2026-09-10T17:40:52+09:00",
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_슈가 덕/PEO_1918.JPG",
+      "file": "assets/photos/saipan/PEO_1918.webp",
+      "bytes": 118762,
+      "baked_at": "2026-09-10T17:40:53+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_슈가 덕/PEO_1933.JPG",
+      "file": "assets/photos/saipan/PEO_1933.webp",
+      "bytes": 167706,
+      "baked_at": "2026-09-10T17:40:53+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_슈가 덕/PEO_9863.JPG",
+      "file": "assets/photos/saipan/PEO_9863.webp",
+      "bytes": 146568,
+      "baked_at": "2026-09-10T17:40:54+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_슈가 덕/PEO_9865.JPG",
+      "file": "assets/photos/saipan/PEO_9865.webp",
+      "bytes": 206926,
+      "baked_at": "2026-09-10T17:40:55+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_슈가 덕/PEO_9866.JPG",
+      "file": "assets/photos/saipan/PEO_9866.webp",
+      "bytes": 254830,
+      "baked_at": "2026-09-10T17:40:56+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_슈가 덕/PEO_9868.JPG",
+      "file": "assets/photos/saipan/PEO_9868.webp",
+      "bytes": 279148,
+      "baked_at": "2026-09-10T17:40:57+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_2162.JPG",
+      "file": "assets/photos/saipan/PEO_2162.webp",
+      "bytes": 126300,
+      "baked_at": "2026-09-10T17:40:58+09:00",
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_2168.JPG",
+      "file": "assets/photos/saipan/PEO_2168.webp",
+      "bytes": 167802,
+      "baked_at": "2026-09-10T17:40:58+09:00",
+      "overrode": "얼굴 5건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_2171.JPG",
+      "file": "assets/photos/saipan/PEO_2171.webp",
+      "bytes": 85142,
+      "baked_at": "2026-09-10T17:40:59+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_2173.JPG",
+      "file": "assets/photos/saipan/PEO_2173.webp",
+      "bytes": 78998,
+      "baked_at": "2026-09-10T17:41:00+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_2191.JPG",
+      "file": "assets/photos/saipan/PEO_2191.webp",
+      "bytes": 112688,
+      "baked_at": "2026-09-10T17:41:01+09:00",
+      "overrode": "얼굴 6건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_2192.JPG",
+      "file": "assets/photos/saipan/PEO_2192.webp",
+      "bytes": 115420,
+      "baked_at": "2026-09-10T17:41:01+09:00",
+      "overrode": "얼굴 5건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_2193.JPG",
+      "file": "assets/photos/saipan/PEO_2193.webp",
+      "bytes": 113722,
+      "baked_at": "2026-09-10T17:41:02+09:00",
+      "overrode": "얼굴 7건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_2195.JPG",
+      "file": "assets/photos/saipan/PEO_2195.webp",
+      "bytes": 112878,
+      "baked_at": "2026-09-10T17:41:02+09:00",
+      "overrode": "얼굴 8건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_9842.JPG",
+      "file": "assets/photos/saipan/PEO_9842.webp",
+      "bytes": 165840,
+      "baked_at": "2026-09-10T17:41:03+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_9845.JPG",
+      "file": "assets/photos/saipan/PEO_9845.webp",
+      "bytes": 191020,
+      "baked_at": "2026-09-10T17:41:04+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_9847.JPG",
+      "file": "assets/photos/saipan/PEO_9847.webp",
+      "bytes": 171140,
+      "baked_at": "2026-09-10T17:41:04+09:00",
+      "overrode": "얼굴 5건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_서프 클럽 비치 풍경/PEO_9848.JPG",
+      "file": "assets/photos/saipan/PEO_9848.webp",
+      "bytes": 190336,
+      "baked_at": "2026-09-10T17:41:05+09:00",
+      "overrode": "얼굴 5건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2077.JPG",
+      "file": "assets/photos/saipan/PEO_2077.webp",
+      "bytes": 230268,
+      "baked_at": "2026-09-10T17:41:06+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2081.JPG",
+      "file": "assets/photos/saipan/PEO_2081.webp",
+      "bytes": 332060,
+      "baked_at": "2026-09-10T17:41:07+09:00",
+      "overrode": "얼굴 4건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2082.JPG",
+      "file": "assets/photos/saipan/PEO_2082.webp",
+      "bytes": 333376,
+      "baked_at": "2026-09-10T17:41:08+09:00",
+      "overrode": "얼굴 6건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2085.JPG",
+      "file": "assets/photos/saipan/PEO_2085.webp",
+      "bytes": 105634,
+      "baked_at": "2026-09-10T17:41:09+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2087.JPG",
+      "file": "assets/photos/saipan/PEO_2087.webp",
+      "bytes": 167348,
+      "baked_at": "2026-09-10T17:41:10+09:00",
+      "overrode": "얼굴 4건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2088.JPG",
+      "file": "assets/photos/saipan/PEO_2088.webp",
+      "bytes": 156484,
+      "baked_at": "2026-09-10T17:41:10+09:00",
+      "overrode": "얼굴 5건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2091.JPG",
+      "file": "assets/photos/saipan/PEO_2091.webp",
+      "bytes": 121526,
+      "baked_at": "2026-09-10T17:41:11+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2093.JPG",
+      "file": "assets/photos/saipan/PEO_2093.webp",
+      "bytes": 213226,
+      "baked_at": "2026-09-10T17:41:12+09:00",
+      "overrode": "얼굴 4건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2096.JPG",
+      "file": "assets/photos/saipan/PEO_2096.webp",
+      "bytes": 264282,
+      "baked_at": "2026-09-10T17:41:13+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2098.JPG",
+      "file": "assets/photos/saipan/PEO_2098.webp",
+      "bytes": 316792,
+      "baked_at": "2026-09-10T17:41:13+09:00",
+      "overrode": "얼굴 8건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2100.JPG",
+      "file": "assets/photos/saipan/PEO_2100.webp",
+      "bytes": 362710,
+      "baked_at": "2026-09-10T17:41:14+09:00",
+      "overrode": "얼굴 14건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2103.JPG",
+      "file": "assets/photos/saipan/PEO_2103.webp",
+      "bytes": 219694,
+      "baked_at": "2026-09-10T17:41:15+09:00",
+      "overrode": "얼굴 5건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2104.JPG",
+      "file": "assets/photos/saipan/PEO_2104.webp",
+      "bytes": 268210,
+      "baked_at": "2026-09-10T17:41:16+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2106.JPG",
+      "file": "assets/photos/saipan/PEO_2106.webp",
+      "bytes": 196308,
+      "baked_at": "2026-09-10T17:41:17+09:00",
+      "overrode": "얼굴 7건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2129.JPG",
+      "file": "assets/photos/saipan/PEO_2129.webp",
+      "bytes": 171790,
+      "baked_at": "2026-09-10T17:41:17+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/saipan/사이판 남부투어_래더 비치 풍경/PEO_2130.JPG",
+      "file": "assets/photos/saipan/PEO_2130.webp",
+      "bytes": 162828,
+      "baked_at": "2026-09-10T17:41:18+09:00",
+      "overrode": "얼굴 2건 검출"
     }
   ],
   "kota": [
@@ -296,6 +606,137 @@
       "bytes": 120346,
       "baked_at": "2026-09-02T10:41:58+09:00",
       "hero": true,
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/gaya/PEO_2040.JPG",
+      "file": "assets/photos/kota/PEO_2040.webp",
+      "bytes": 158624,
+      "baked_at": "2026-09-10T18:32:42+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/gaya/PEO_2046.JPG",
+      "file": "assets/photos/kota/PEO_2046.webp",
+      "bytes": 270720,
+      "baked_at": "2026-09-10T18:32:43+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/gaya/PEO_2083.JPG",
+      "file": "assets/photos/kota/PEO_2083.webp",
+      "bytes": 45482,
+      "baked_at": "2026-09-10T18:32:44+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/gaya/PEO_2084.JPG",
+      "file": "assets/photos/kota/PEO_2084.webp",
+      "bytes": 60238,
+      "baked_at": "2026-09-10T18:32:44+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/gaya/PEO_2086.JPG",
+      "file": "assets/photos/kota/PEO_2086.webp",
+      "bytes": 72950,
+      "baked_at": "2026-09-10T18:32:45+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/gaya/PEO_2088.JPG",
+      "file": "assets/photos/kota/PEO_2088.webp",
+      "bytes": 91748,
+      "baked_at": "2026-09-10T18:32:45+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/gaya/PEO_2090.JPG",
+      "file": "assets/photos/kota/PEO_2090.webp",
+      "bytes": 290662,
+      "baked_at": "2026-09-10T18:32:46+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/gaya/PEO_2091.JPG",
+      "file": "assets/photos/kota/PEO_2091.webp",
+      "bytes": 281020,
+      "baked_at": "2026-09-10T18:32:47+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2355.JPG",
+      "file": "assets/photos/kota/PEO_2355.webp",
+      "bytes": 437574,
+      "baked_at": "2026-09-10T18:32:47+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2357.JPG",
+      "file": "assets/photos/kota/PEO_2357.webp",
+      "bytes": 424886,
+      "baked_at": "2026-09-10T18:32:48+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2364.JPG",
+      "file": "assets/photos/kota/PEO_2364.webp",
+      "bytes": 196200,
+      "baked_at": "2026-09-10T18:32:49+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2367.JPG",
+      "file": "assets/photos/kota/PEO_2367.webp",
+      "bytes": 199608,
+      "baked_at": "2026-09-10T18:32:50+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2368.JPG",
+      "file": "assets/photos/kota/PEO_2368.webp",
+      "bytes": 197824,
+      "baked_at": "2026-09-10T18:32:50+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2369.JPG",
+      "file": "assets/photos/kota/PEO_2369.webp",
+      "bytes": 186424,
+      "baked_at": "2026-09-10T18:32:51+09:00",
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2375.JPG",
+      "file": "assets/photos/kota/PEO_2375.webp",
+      "bytes": 174768,
+      "baked_at": "2026-09-10T18:32:52+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2376.JPG",
+      "file": "assets/photos/kota/PEO_2376.webp",
+      "bytes": 179648,
+      "baked_at": "2026-09-10T18:32:52+09:00",
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2381.JPG",
+      "file": "assets/photos/kota/PEO_2381.webp",
+      "bytes": 282848,
+      "baked_at": "2026-09-10T18:32:53+09:00",
+      "overrode": "얼굴 5건 검출"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2511.JPG",
+      "file": "assets/photos/kota/PEO_2511.webp",
+      "bytes": 179904,
+      "baked_at": "2026-09-10T18:32:54+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2512.JPG",
+      "file": "assets/photos/kota/PEO_2512.webp",
+      "bytes": 179778,
+      "baked_at": "2026-09-10T18:32:54+09:00"
+    },
+    {
+      "src": "/tmp/nas_stage/kota2/sapi/PEO_2514.JPG",
+      "file": "assets/photos/kota/PEO_2514.webp",
+      "bytes": 211520,
+      "baked_at": "2026-09-10T18:32:55+09:00",
       "overrode": "얼굴 2건 검출"
     }
   ],
