@@ -224,6 +224,7 @@
     "1cc55526ae330556d011c7bb27138e0659311047",
     "1cda3270509d3e46f8434439e5d3378697402e12",
     "1ce1b5fe9805c4c9725c20499e5876c0e39f5c6e",
+    "1ceb6566969d008634c33ead3cb3b600dfecba13",
     "1d015ea94494714ce07045f5e2b351cafae1b66d",
     "1d379f15ae4d9c04a203a7f9e73a97320d6e8fd5",
     "1d535e01fc89cef01cc78c32d29fc3929d020e4a",
@@ -297,6 +298,7 @@
     "270d21723be64c441df760afa82df3877835441a",
     "271a02925d5c299041f561cfcb0cf2b4149f7216",
     "2756e102a7b6677d9ff8c93845a01d1462dc0a19",
+    "2759919e6c17f5b44d539c93c6351770b8e91a23",
     "275b68b805eb433943e6cc04521b70e24a723a17",
     "27603f970d703dd91bf69abf1e295a09cca6e564",
     "277ffb009465f3f83a64f1b6e33d6f9cd883dc86",
@@ -498,6 +500,7 @@
     "44769d733a9bc99362fd897079f4b5cfa0b1cf74",
     "447eab37366dda721eb970f336c433a48c0519bf",
     "44960c150df7715257f8619d17154b657ce3f850",
+    "449a5e42cec66780bdb34cd78099e107582685a8",
     "449f60559a1a2fc80654f1651003a89cbc54239d",
     "44e83046da221dc49102c21f1ec2ad188840cdff",
     "4508e900058db0cd9756197cab4c96b39e9f4d0c",
@@ -1610,6 +1613,7 @@
     "daddde3b97ee17c2f37a56b615482a9f7e2b5dc1",
     "daf617e4dabc376df8d2d8a1e1d8600407223a22",
     "db33978a8d8ca086e3544f813818c396eebabd79",
+    "db343baa116cc2d9a3dc1f3fbdfdce254ff90ae1",
     "db48df982fc1e688fa765000d501031da9c4d218",
     "db5d51b66a2ef7c82fa9ad2cd720a7d359bbb27a",
     "dbaa71416ac4b4c2f2b68c11f956843df5699621",
@@ -1655,6 +1659,7 @@
     "e005dfe2c4a69af3b25295738ac6801c0ec74d86",
     "e027b37dc28e6f613301091ade21ef4f22f2548b",
     "e047ca2b2210b2854cb29480267dbeb91b4910f0",
+    "e08fc7469f9b65a8cfa716b149fa89c9ac0aafc4",
     "e098580f73f387f62ce5eed7b0cf5c35c13d0cb8",
     "e0a81d828365a87bfc6849ba96bf1cdbbf0a95f9",
     "e0b8fc4cd49c2384b8b578ecbae915ec5b1bf75a",
@@ -14574,6 +14579,41 @@
       "title": "'칭다오 직항로' 세금 낭비…오영훈 前 지사에 구상권 청구",
       "date": "2026-09-10",
       "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "449a5e42cec66780bdb34cd78099e107582685a8",
+      "title": "다낭은 재방문 관광객 유치 부문에서 두 계단 상승하여 아시아 6위권에 진입했습니다.",
+      "date": "2026-09-10",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "db343baa116cc2d9a3dc1f3fbdfdce254ff90ae1",
+      "title": "‘Heart-wrenching’: Hurricane Lowell leaves Kauai canoe club with $80K in damage",
+      "date": "2026-09-10",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "e08fc7469f9b65a8cfa716b149fa89c9ac0aafc4",
+      "title": "Record 371-day cruise gets underway for up to $180,410 per guest",
+      "date": "2026-09-10",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "1ceb6566969d008634c33ead3cb3b600dfecba13",
+      "title": "CAAM: Make safety personal to prevent aviation tragedies",
+      "date": "2026-09-10",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "2759919e6c17f5b44d539c93c6351770b8e91a23",
+      "title": "Dubai retains top spot as Asian hubs dominate air connectivity rankings",
+      "date": "2026-09-10",
+      "region": "vietnam",
       "grade": "B"
     }
   ]
