@@ -1420,6 +1420,7 @@
     "bb987b35b1ade9e55bda21890ff9d88e926d732e",
     "bbcb73710da315da2cc06de9e4cd4c8f11cec772",
     "bbea77bd258a383eae6cae3ec2cc21271004bd80",
+    "bbf9333464e48d544cc982a3a4e067cc10a85901",
     "bc24cdc4ec0259ae2559bf5f7ec5fe1544b6e979",
     "bc50a7ce3b48312fdb62d314dfde463ed364f872",
     "bc696339a56349ec39492cd3f236ea095319f9da",
@@ -1703,6 +1704,7 @@
     "dca2fd2bb2b75ecadd2c347eebd4dfb1e1fd31a6",
     "dcaff66fd552e4c80750aaffbb1fc98d47829b16",
     "dcb067f263effe97c9077dae5c55ce563da7ca08",
+    "dcb15b9f47c9842e5e55eeac2ea279737d9d6884",
     "dcbf8fd3457cddea23dd9d74dcd7f38a3e559607",
     "dcf042ff6861ce32c9bb5490efa05b4875ebb483",
     "dd2cb497d7a68c8a167e943b34d73be89ab9001f",
@@ -1944,6 +1946,7 @@
     "fb3010d6d95111afd1c6544f03efa67845317a67",
     "fb32a53860e5881015320e281811a8d52817ef2e",
     "fb392e15a9be3084e88aa3d3e3409c331a1aa997",
+    "fb62ea52428206a11247a6ec34732bf04f04a3d7",
     "fb7cecd2da46db4a00539c4a9a9cf5e51318f533",
     "fb7fd912dd6ad25b2720c297b5b99ccc670401b0",
     "fba43cbefaad1755446280a3048fcf7215009015",
@@ -15009,7 +15012,7 @@
     },
     {
       "id": "720d8bc82033d837e14014b4cac90ff6e077618e",
-      "title": "Great Aloha Run returns in 2027 with new DoHo 5K",
+      "title": "그레이트 알로하 런, 2027년 새 '도호 5K' 코스 신설",
       "date": "2026-09-11",
       "region": "hawaii",
       "grade": "B"
@@ -15058,7 +15061,7 @@
     },
     {
       "id": "617adf4332a8947c57b4d7deeb1ea92720c86cb4",
-      "title": "Over 50% of Kauaʻi power restored following Hurricane Lowell, KIUC reports",
+      "title": "카우아이 정전 복구율 50% 돌파",
       "date": "2026-09-11",
       "region": "hawaii",
       "grade": "B"
@@ -15072,7 +15075,7 @@
     },
     {
       "id": "0f2bd8236cc517385fb2a1165c25d54c2ce1a0cd",
-      "title": "We’re On Kauai. The Recovery Looks Different From Here.",
+      "title": "카우아이 현지 르포, 회복 속도는 지역마다 제각각",
       "date": "2026-09-11",
       "region": "hawaii",
       "grade": "B"
@@ -15086,7 +15089,7 @@
     },
     {
       "id": "e7f0403ab6c9a78755a22b951eb247a49416db8d",
-      "title": "Lihue Airport On Backup Power: 2-Hour Waits + Dog Screenings",
+      "title": "리후에 공항 비상전력 운영, 보안검색 2시간 대기",
       "date": "2026-09-11",
       "region": "hawaii",
       "grade": "B"
@@ -15135,7 +15138,7 @@
     },
     {
       "id": "96da07d4ebb2f2503fcc8e955de8b2a1efc093a9",
-      "title": "Saipan: Fire breaks out at Pacific Palm Resort",
+      "title": "사이판 퍼시픽 팜 리조트서 화재",
       "date": "2026-09-11",
       "region": "saipan",
       "grade": "B"
@@ -15149,14 +15152,14 @@
     },
     {
       "id": "0d4aab72e3c78095a8a17a5b7517ab08e786c533",
-      "title": "Southeast Asian capital named world's best city for nightlife",
+      "title": "방콕, 타임아웃 선정 '2026 세계 나이트라이프 1위' 도시",
       "date": "2026-09-11",
       "region": "vietnam",
       "grade": "B"
     },
     {
       "id": "cf84319b8fe520c1f3638cdc2d1c9ed9e0cf9adc",
-      "title": "Korean TV star Kwon Nara visits Hoi An for 2nd time in 5 months",
+      "title": "권나라, 5개월 만에 호이안 재방문",
       "date": "2026-09-11",
       "region": "vietnam",
       "grade": "B"
@@ -15278,6 +15281,27 @@
       "title": "포시즌스 호텔 방콕, Z세대 맞춤 가족여행 프로그램 선보여",
       "date": "2026-09-11",
       "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "bbf9333464e48d544cc982a3a4e067cc10a85901",
+      "title": "Southeast Asia's largest economy welcomes nearly 9 million tourists in seven months",
+      "date": "2026-09-11",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "fb62ea52428206a11247a6ec34732bf04f04a3d7",
+      "title": "One of world's 'most beautiful airports' serves 2 million international passengers in first year",
+      "date": "2026-09-11",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "dcb15b9f47c9842e5e55eeac2ea279737d9d6884",
+      "title": "Why one of Asia's best bars imports 900 kg of ice from Japan every year",
+      "date": "2026-09-11",
+      "region": "vietnam",
       "grade": "B"
     }
   ]
