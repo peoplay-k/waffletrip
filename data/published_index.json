@@ -345,6 +345,7 @@
     "2a9f3e0c22688131b3429d4d11c6b33c7833c9ad",
     "2ab3038e382e0cf2a07d0121d70dfbebefa38b71",
     "2ad421da772c33fed90dc26d999a61a48edd4eb9",
+    "2b19b3f531ab773f5c5acd34ab51cf4db13e5db5",
     "2b1aebe8f4ba87ca17eecd5db71e263daa26ef53",
     "2b1d99e2376fbc83a1c2ed5025527f3c9f51f659",
     "2b1ed9f5a0fc2643a561a9a84191cc85e37c4163",
@@ -373,6 +374,7 @@
     "2f10d9e92c1c736162d31b0199a435de80757258",
     "2f2eedbb95d45bef57df1334191fa23bfb3351e5",
     "2f347c2bf30676ff19d42d7e21afdd9c4bab2e97",
+    "2f3f676a90596b39197f09fa20661eaf5a552678",
     "2f4219ee8926f0305b21204fb241db3acc601160",
     "2f7a565dc047d1d4647485fa4c4c0992eec2cad4",
     "2f8db98f823f47abf7b15347d614776d2ea5d97d",
@@ -457,9 +459,11 @@
     "3a7072ca965da96ea36140871fe19858891aa819",
     "3a9def1b8b464ad1b3634eba5d84a7082fb57718",
     "3aa11346b6d6e28c1a500d71f0ce1a533e86c18e",
+    "3abb0043012375416ecc1148bc5adcebe06988f8",
     "3ad7e39db14b994ee0895918a194e2e59628d8ce",
     "3ada2e0c6d16561ea7ec56d467ccd5f7e66ede26",
     "3b01720530ace5d64226d653ac620741544a088e",
+    "3b31e2a9a0d1cf59468218554e282dbe23836c0d",
     "3b4d81930ab3a2a0aae468f35256ec3c7f676104",
     "3b5a8dbe7f68a934b60699e1d30bd7f62cb872ab",
     "3b758d70da8bf79a020f4af75b7697a604fd9960",
@@ -685,6 +689,7 @@
     "57bf5a16fb863621d7f0886154a05219b962c352",
     "57c882014ed74e4244f611c62fede65259f05548",
     "57d800eeeaa0b51b2c06f63d47d947c036cea71c",
+    "585513d77b82d5158c6636729528676cef55b97e",
     "589a6e921516eb97e0d94b0f1aefc8684ba500b2",
     "58a36a4e05002a0918a665175aecf5959aa19173",
     "58cb96bdfd1cb5c58a9f8d2544c2277bb4c71518",
@@ -1157,6 +1162,7 @@
     "9518c47d320550ea08f4fc0c001116fdad49dc63",
     "951a231fd6551017b3488c45211bc413af024ed9",
     "953bdb2bf16e246cacdbe808b55f7d13c74dfc18",
+    "9554cefaaed791650190c38f977b8b855a8968e6",
     "95b6a8dbdc2391e6c7f0c7cea4da0ec1de91f49f",
     "95c01f5ae6e4d3e599d1f3465eb5ef0fcbbd7414",
     "95d0009d0a57c2746b61698bf43b0fd560bdd9f4",
@@ -1167,6 +1173,7 @@
     "9662af9cb381bb41da21d2792756a93be8a0a09f",
     "9681f78d256ea04c28c26fcfa5b69cf320c2164c",
     "96da07d4ebb2f2503fcc8e955de8b2a1efc093a9",
+    "96e5f5d1e264c8213de84c44bf4a736591f8a85a",
     "96ed11ccc06d80b7d2991c7f19ea2cde7bcb45e6",
     "96f162a2edf2df215d65b021285843977e53a46e",
     "972b12bc30e44b53dac5655374dfe50ef8f71f03",
@@ -1337,6 +1344,7 @@
     "ad84eaecba18fb414c7626d44d46f353f7110390",
     "ad9bb26f753d549db622d1e4541819c08dd8afe5",
     "adb1e8ec3451ff535c8951ececb1acf9498d4b11",
+    "adc6fc68650ed7c221be0ef18892b528ee098bbb",
     "addc7ae991ae9102bb7fd3af9a512642d9965198",
     "adedf5b839abc1040aabe417409d7219287897f9",
     "ae354003d1cfcdeaf43229921cf7977fc35c497b",
@@ -1501,8 +1509,10 @@
     "c-afcabf8c020770d43b528d4f046bd8ee64fb8407",
     "c-b3493629870f2884069f87f1af2adc800cdf65ec",
     "c-b5c568d4df0deabf534e6ae1f072e9c092e81421",
+    "c-cc9a7df4d96910cc13f3d717fee13e0239fad72a",
     "c-d005fb78aa042dc01529263c24b297e69677cace",
     "c-f858426d92f6fe21b440696997346a65f743e70e",
+    "c-fb2990625d8cf5f28c8d0904099f8a2e5f81d2cc",
     "c004847cd194009d8257ad4f87af5f5629d9ed01",
     "c019d7238582dd35535fd2b729094a990f2944b7",
     "c02481c5dd612623d73174508b05ce040b0c997b",
@@ -1659,6 +1669,7 @@
     "d2247661e15c201a7cbeac61a7a93476fe7f7a24",
     "d23452aefc3b6a1976bac125cdd769f7b138c40a",
     "d251f4db2a5c31916a58062ebadb525e8e08030f",
+    "d2619abf4c446f6d1411ac07cd79f14e62466712",
     "d2a5d456bf935d67d3f70ddbc596299f0d3babfc",
     "d2b0f0b1b4d7da12ad52840c43bc65a7151b3ffc",
     "d2ba167581a571c8a413b4b2cfce4da7ccf06da4",
@@ -1966,6 +1977,7 @@
     "f7b2d21f23133b351ef344b370ec1e02e59946a0",
     "f7bebeeb5b56a7325a2275fa45d2d9a09d8ce33e",
     "f83e86f8fd178c47dcd8c222d1bc68165477fe8c",
+    "f8564f065c26f41fc1121593ae8885de0b4b02b0",
     "f8811d0a8a96adb7511b6ee5b0c2b480eeb35235",
     "f8a5d34da1e88f5c05f9790dd9fecf1882f0cdb5",
     "f8c4a52c06e78560a1a469d9f32133ff489f2844",
@@ -15678,6 +15690,90 @@
       "title": "[항공] “스카이패스 회원정보 업데이트하고 괌으로 여행을 떠나요!”",
       "date": "2026-09-12",
       "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "c-cc9a7df4d96910cc13f3d717fee13e0239fad72a",
+      "title": "다낭 재방문율 아시아 6위, 같은 조사가 나흘 새 네 번 실렸다",
+      "date": "2026-09-12",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "c-fb2990625d8cf5f28c8d0904099f8a2e5f81d2cc",
+      "title": "롯데면세점은 괌을 떠나고, 대한항공은 괌 항공권을 뿌렸다",
+      "date": "2026-09-12",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "2f3f676a90596b39197f09fa20661eaf5a552678",
+      "title": "Kauai residents, business assess destruction after Hurricane Lowell batters south shore",
+      "date": "2026-09-12",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "9554cefaaed791650190c38f977b8b855a8968e6",
+      "title": "#SHOWBIZ: Pitahati expands Malay music across SEA",
+      "date": "2026-09-12",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "f8564f065c26f41fc1121593ae8885de0b4b02b0",
+      "title": "Ala Wai Small Boat Harbor parking lot reopens after damage from Hurricane Lowell repaired",
+      "date": "2026-09-12",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "96e5f5d1e264c8213de84c44bf4a736591f8a85a",
+      "title": "Kauai County launches recovery website following Hurricane Lowell",
+      "date": "2026-09-12",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "adc6fc68650ed7c221be0ef18892b528ee098bbb",
+      "title": "Landslide: Left lane at Km263.6 Plus highway near Menora Tunnel closed",
+      "date": "2026-09-12",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "585513d77b82d5158c6636729528676cef55b97e",
+      "title": "Guam airport congratulates T'way Air's rebrand to Trinity Airways",
+      "date": "2026-09-12",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "3abb0043012375416ecc1148bc5adcebe06988f8",
+      "title": "USDA approves replacement SNAP benefits for Kauai households hit by Hurricane Lowell",
+      "date": "2026-09-12",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "d2619abf4c446f6d1411ac07cd79f14e62466712",
+      "title": "#SHOWBIZ: Raintown Film Festival: Spotlight on raw Malaysian cinematic talent",
+      "date": "2026-09-12",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "2b19b3f531ab773f5c5acd34ab51cf4db13e5db5",
+      "title": "Magnitude 6.6 earthquake strikes Indonesia's Java region",
+      "date": "2026-09-12",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "3b31e2a9a0d1cf59468218554e282dbe23836c0d",
+      "title": "World's second most visited city arrests 2 tourists over graffiti on train carriages",
+      "date": "2026-09-12",
+      "region": "vietnam",
       "grade": "B"
     }
   ]
