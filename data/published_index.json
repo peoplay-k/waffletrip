@@ -640,6 +640,7 @@
     "4ef7d4fc47ee4b59ca4a08ae15aa2f4c27628210",
     "4f107f2c2afddb370b1fc4c0c16ca6cc48c1b0f2",
     "4f3e24d7a2026ebd7672e780d933232c6f943f78",
+    "4f4cec5139ab72c0b4ddeacf20e2c463b1e44e3d",
     "4f51d42bd873caf9ea0b0f7b9276d8c036f15b22",
     "4f5836444971529346809c80883fc9fc20c868fb",
     "4f7121bc310eb1f019e0b0e6d06c863ee2463c0a",
@@ -16013,42 +16014,42 @@
     },
     {
       "id": "fd2bddcaa098b87e979dc02d3eac20e19b043ecf",
-      "title": "Hawaiian Airlines adds Kauai flights, carries relief supplies after Hurricane Lowell",
+      "title": "하와이안항공, 카우아이 노선 늘리고 구호물자 실어날라",
       "date": "2026-09-13",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "1547ea00f564df8405650aa14ef44a9db53cd665",
-      "title": "Getting to know the real Guam",
+      "title": "쇼핑 리스트 너머의 진짜 괌",
       "date": "2026-09-13",
       "region": "guam",
       "grade": "B"
     },
     {
       "id": "ce174f6d21b9df21c50792fce93ededda172863a",
-      "title": "Clickbait or fake news? How Pacific island myths kept people alive",
+      "title": "괌 등 태평양 섬 신화, 태풍을 초자연적 힘으로 설명했다",
       "date": "2026-09-13",
       "region": "guam",
       "grade": "B"
     },
     {
       "id": "7e0e54e9cb7cad903e8cb752f1247673a2ad7540",
-      "title": "What’s Working On Kauai, What’s Not, And Where Visitors Can’t Go",
+      "title": "카우아이, 지금 열린 곳과 닫힌 곳",
       "date": "2026-09-13",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "a18a6e519d0f10199254abccf56a47a73ace3b07",
-      "title": "Your Hawaii Trip Was Ruined. Will Insurance Actually Pay?",
+      "title": "허리케인에 망친 하와이 여행, 보험금은 받을 수 있나",
       "date": "2026-09-13",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "258633739a6903f66cc7dd2f28a61222d3ec5b3b",
-      "title": "New Waikiki restaurant Favorite Son offers all-day dining, discounts",
+      "title": "와이키키 새 레스토랑 '페이버릿 선', 종일 다이닝·할인 제공",
       "date": "2026-09-13",
       "region": "hawaii",
       "grade": "B"
@@ -16196,6 +16197,13 @@
     {
       "id": "73ef245e59081c12292c1e3c9710a2e8bec3d0bf",
       "title": "껀터에 일본인 관광객을 유치하기 위한 대책 강화.",
+      "date": "2026-09-13",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "4f4cec5139ab72c0b4ddeacf20e2c463b1e44e3d",
+      "title": "일본행 여객 19% 늘었다…역대급 엔저에 항공편 확대도 한몫",
       "date": "2026-09-13",
       "region": "japan",
       "grade": "B"
