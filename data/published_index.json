@@ -602,6 +602,7 @@
     "4a3ccd7ea41ecd2eca316cf5c8d1ff2b937c7581",
     "4a4cb21c05e95282495b0737cae0346b5482a67d",
     "4a6bcaf167807e07a657f92f882d80dd12088af8",
+    "4a87bc9158d34148fce044ef3ffe7c5ad2ee3049",
     "4a9639ba4aebe49d7b4cf791ad1a79f470f1561b",
     "4ac7ce8b1ae0b84430d0d5080f6d673e9efe57e2",
     "4b105f86f79f9e4c8abe9881e3ccbfd35cfe1730",
@@ -921,6 +922,7 @@
     "738ca7ced257075b139f6f1c159e044c94d8c5b7",
     "73add775efc0e65cd45144797556c7ce97544f81",
     "73dcd5d9e7da7e7b27519238fe0b45b87a5f1dcb",
+    "73ef245e59081c12292c1e3c9710a2e8bec3d0bf",
     "73f2b49929a93d6ec6aa513a3eba7e1581ebc5cc",
     "74384623050e6517bf9360d370269df1f848585c",
     "748b21b8093962b20a825de27ed5cf360db7c55e",
@@ -1500,6 +1502,7 @@
     "bb987b35b1ade9e55bda21890ff9d88e926d732e",
     "bbcb73710da315da2cc06de9e4cd4c8f11cec772",
     "bbea77bd258a383eae6cae3ec2cc21271004bd80",
+    "bbeec396a099329eab12e3bfddb14d456236e9c8",
     "bbf9333464e48d544cc982a3a4e067cc10a85901",
     "bc24cdc4ec0259ae2559bf5f7ec5fe1544b6e979",
     "bc50a7ce3b48312fdb62d314dfde463ed364f872",
@@ -1532,6 +1535,7 @@
     "c-19436534f55318dda081330aee410c1c764c9f09",
     "c-235e6f5f0a7274dc33a05562d14e4a2d663bec1b",
     "c-2967626cfd6c4403a784d2d7f73ab7a55317d0bf",
+    "c-2a0155de363558f1d7623398fb03184ef333f6ae",
     "c-2a82e75891fa407360eed25e325cf1f1bf7477ee",
     "c-2ccdf87770442f44947cb96be104f193d4a3854a",
     "c-36d2381a59b0c106826d22c54816af2e29721e99",
@@ -1587,6 +1591,7 @@
     "c4864a53089c98348cf9859816f35d8b3109a786",
     "c4b69a6577faa2a36cf05ccbd604b64755e8ea93",
     "c5018281d9b4e036e8899ad23d532d8203ac3057",
+    "c565cf3c4ebc7437827e141bb9ca1b4d4413e5d5",
     "c5704dca061fcc5798902bcee5079eb93f8073fb",
     "c58f5c416e76c28540ce7d14a28bedc90e498f4e",
     "c59ff0d7de213b9b5da99692dbd878e645402738",
@@ -1728,6 +1733,7 @@
     "d5c4ea39b509e9e74f92a4e698c12fcd296a68ea",
     "d5c8d6ac51f59c88d6610de11ca6fd0823904dda",
     "d5cd9dcaa71de8ed0725a081d8c9389819d71ad6",
+    "d5d3bc4fd164ab88fc78b8c4c64989a168a50af3",
     "d619fbfb156675ff24910947d6c87ff6ddf8fc42",
     "d62ab3b3a89a4b383727e41358d1bb0f0a9d251f",
     "d633b960765fae31b5ec3095f16de7c098a6eb3c",
@@ -1873,6 +1879,7 @@
     "e62e39d0d0db4cc2203eaf7a2bf67189d322e04b",
     "e655c95d9d911c399eef4089a72495fcacc65b25",
     "e68f8ac340b4fbd4ec499179058387d5735725bf",
+    "e6b0b9e45af0bccabde642feb8be31885d6ed531",
     "e6bce42e75ce5678afd0b15dc85a08470f7a0c63",
     "e6c9173c0605a77501368ff29a108d6a8f1a13e6",
     "e6db44d3522bb65fc339db1977f90d0b94279eb2",
@@ -16142,6 +16149,55 @@
       "title": "September Stock-Up Season Wraps Up as Yiwugo Merchants Deepen Their Focus on Cold-Weather Essentials",
       "date": "2026-09-13",
       "region": "laos",
+      "grade": "B"
+    },
+    {
+      "id": "c-2a0155de363558f1d7623398fb03184ef333f6ae",
+      "title": "괌, '관광상품'에서 '웰니스 아일랜드'로 방향을 튼다",
+      "date": "2026-09-13",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "4a87bc9158d34148fce044ef3ffe7c5ad2ee3049",
+      "title": "First Alert Forecast: Mostly dry trade winds ahead of Tropical Storm Norbert",
+      "date": "2026-09-13",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "d5d3bc4fd164ab88fc78b8c4c64989a168a50af3",
+      "title": "Sivasangari, two other Malaysians storm into Qatar Classic second round",
+      "date": "2026-09-13",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "bbeec396a099329eab12e3bfddb14d456236e9c8",
+      "title": "Guam EPA issues advisory for all 43 beaches due to heavy rainfall",
+      "date": "2026-09-13",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "e6b0b9e45af0bccabde642feb8be31885d6ed531",
+      "title": "다낭 관광의 브랜드 이미지를 향상시키기 위해.",
+      "date": "2026-09-13",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "c565cf3c4ebc7437827e141bb9ca1b4d4413e5d5",
+      "title": "One dead, 30 missing after ferry sinks off Vanuatu",
+      "date": "2026-09-13",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "73ef245e59081c12292c1e3c9710a2e8bec3d0bf",
+      "title": "껀터에 일본인 관광객을 유치하기 위한 대책 강화.",
+      "date": "2026-09-13",
+      "region": "japan",
       "grade": "B"
     }
   ]
