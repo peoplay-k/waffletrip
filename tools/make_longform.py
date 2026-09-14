@@ -169,12 +169,19 @@ def card_data(rows: list[tuple[str, str]]) -> Image.Image:
     d.text((PAD, 190), "오늘의 데이터", font=_f(34), fill=CORAL)
     d.text((PAD, 240), "환율과 날씨는 저희가 매일 직접 만듭니다",
            font=_f(40), fill=MUTED)
-    y = 370
-    for name, value in rows[:7]:
+    # 줄 간격을 남은 공간에 맞춰 잰다. 96 으로 고정했더니 일곱 줄일 때
+    # 마지막 밑줄이 y=1020 까지 내려가 바닥선(y=984)과 겹쳤다.
+    # 2026-09-15 라이브 실측: 하와이 줄이 "waffletrip.com" 위에 포개졌다.
+    top, floor_y = 370, H - 96 - 40     # 바닥선 위로 40px 은 비워 둔다
+    rows = rows[:8]
+    pitch = min(96, (floor_y - top) // max(len(rows), 1))
+    y = top
+    for name, value in rows:
         d.text((PAD, y), name, font=_f(48), fill=INK)
         d.text((PAD + 300, y + 6), value, font=_f(42), fill=MUTED)
-        d.line([(PAD, y + 74), (W - PAD, y + 74)], fill=LINE, width=2)
-        y += 96
+        d.line([(PAD, y + pitch - 20), (W - PAD, y + pitch - 20)],
+               fill=LINE, width=2)
+        y += pitch
     return img
 
 

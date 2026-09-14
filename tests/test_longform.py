@@ -83,3 +83,21 @@ def test_장면마다_화면에_적힌_출처가_원문과_같다():
     items = [_roundup("japan", "일본", "2026-09-14", "일본 소식", "어떤매체")]
     stories = [s for s in build_script(items) if s["kind"] == "story"]
     assert stories and stories[0]["outlet"] == "어떤매체"
+
+
+@pytest.mark.parametrize("n", [3, 5, 7, 8])
+def test_환율표가_바닥선을_넘지_않는다(n):
+    """일곱 줄일 때 마지막 밑줄이 제호 바닥선과 겹쳤다(2026-09-15 라이브 실측).
+
+    하와이 줄이 "waffletrip.com" 위에 포개졌다. 1920×1080 으로 박혀
+    나가는 화면이라 겹침은 그대로 사고다.
+    """
+    import make_longform as lf
+
+    rows = [(f"지역{i}", f"1 USD = 약 {1000 + i}원") for i in range(n)]
+    top, floor_y = 370, lf.H - 96 - 40
+    pitch = min(96, (floor_y - top) // max(len(rows), 1))
+    마지막_밑줄 = top + (len(rows) - 1) * pitch + pitch - 20
+    assert 마지막_밑줄 < lf.H - 96, f"{n}줄일 때 바닥선을 넘는다: {마지막_밑줄}"
+    # 그림이 실제로 그려지는지도 본다
+    assert lf.card_data(rows).size == (lf.W, lf.H)
