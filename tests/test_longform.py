@@ -99,5 +99,12 @@ def test_환율표가_바닥선을_넘지_않는다(n):
     pitch = min(96, (floor_y - top) // max(len(rows), 1))
     마지막_밑줄 = top + (len(rows) - 1) * pitch + pitch - 20
     assert 마지막_밑줄 < lf.H - 96, f"{n}줄일 때 바닥선을 넘는다: {마지막_밑줄}"
-    # 그림이 실제로 그려지는지도 본다
+
+    # 그림까지 그려 보는 것은 한글 폰트가 있을 때만. CI 는 테스트를 폰트
+    # 설치보다 먼저 돌려서, 여기서 그리면 파이프라인이 통째로 죽는다
+    # (2026-09-15 실측 — 내가 낸 이 테스트가 그날 실행을 깨뜨렸다).
+    try:
+        lf._find_font()
+    except RuntimeError:
+        pytest.skip("한글 폰트 없음 — 그림 검사는 건너뛴다")
     assert lf.card_data(rows).size == (lf.W, lf.H)
