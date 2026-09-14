@@ -19,6 +19,7 @@ import os
 import re
 import subprocess
 import sys
+from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -41,6 +42,7 @@ def _sentence(text: str, limit: int) -> str:
         return ""
     return first
 
+KST = timezone(timedelta(hours=9))
 W, H = 1920, 1080
 # 한글 폰트. 맥에서 만들고 리눅스(CI)에서도 만든다. 리눅스 러너에는 애플
 # 폰트가 없고, PIL 의 기본 폰트는 한글을 못 그려 화면이 네모로 찬다.
@@ -182,13 +184,19 @@ def build_script(items: list[dict]) -> list[dict]:
                 if i.get("grade") == "C"
                 and (i.get("title") or "").startswith("이번 주 ")
                 and (i.get("body_md") or "").strip()]
+    # **가장 최근 브리핑을 쓴다.** load_items() 가 날짜 오름차순으로 주므로
+    # setdefault 로 담으면 보관된 것 중 **가장 오래된** 브리핑이 잡힌다.
+    # 2026-09-15 실측: 9월 15일에 만든 영상이 9월 6일 브리핑으로 채워졌다.
+    # 제목 카드만 오늘 날짜라, 날짜와 내용이 어긋난 화면이 나갔다.
     by_region: dict[str, dict] = {}
     for item in roundups:
         # 지역면 브리핑을 쓴다. 도시 브리핑은 그 안에 이미 담겨 있다.
         name = item["title"].replace("이번 주 ", "").split("에서")[0]
         if name != REGION_NAMES.get(item.get("region", ""), ""):
             continue
-        by_region.setdefault(item["region"], item)
+        prev = by_region.get(item["region"])
+        if prev is None or (item.get("published_at") or "") >= (prev.get("published_at") or ""):
+            by_region[item["region"]] = item
 
     scenes: list[dict] = []
     today = max((i.get("published_at") or "")[:10] for i in items)
@@ -201,7 +209,11 @@ def build_script(items: list[dict]) -> list[dict]:
 
     facts_rows = []
     for region in ORDER:
-        for item in items:
+        # **오늘 값**이어야 한다. 화면과 나레이션이 "오늘의 환율"이라고 말한다.
+        # 오름차순 목록을 앞에서부터 훑으면 보관된 것 중 가장 오래된 값이
+        # 잡힌다 — 2026-09-15 실측: 9월 3일의 855원이 "오늘의 환율"로 나갔고
+        # 그날 실제 값은 871원이었다. 16원 틀린 숫자를 화면에 박은 것이다.
+        for item in reversed(items):
             if (item.get("grade") == "A" and item.get("region") == region
                     and "환율" in (item.get("title") or "")):
                 value = (item.get("summary") or "").strip()
@@ -230,7 +242,8 @@ def build_script(items: list[dict]) -> list[dict]:
             continue
         used += 1
         scenes.append({
-            "kind": "section", "name": name, "count": len(facts),
+            "kind": "section", "name": name, "region": region,
+            "count": len(facts),
             "narration": f"{name} 소식입니다.",
         })
         for n, fact in enumerate(facts, 1):
@@ -276,6 +289,8 @@ def main() -> int:
     ap.add_argument("--script-only", action="store_true")
     ap.add_argument("--out", default="public/video")
     ap.add_argument("--frames", default="")
+    ap.add_argument("--silent", action="store_true",
+                    help="무음 영상까지 굽는다(나레이션 없음·비용 0원).")
     args = ap.parse_args()
 
     scenes = build_script(load_items())
@@ -290,10 +305,108 @@ def main() -> int:
             render(s).save(os.path.join(args.frames, f"s{n:02d}.png"))
         print(f"화면 {len(scenes)}장 → {args.frames}")
 
+    if args.silent:
+        out = build_silent(scenes, args.out)
+        secs = sum(read_seconds(screen_text(s)) for s in scenes)
+        print(f"무음 영상 {round(secs)}초 → {out}")
+
     with open(os.path.join(args.out if not args.script_only else ".",
                            "longform_script.json"), "w", encoding="utf-8") as fh:
         json.dump(scenes, fh, ensure_ascii=False, indent=2)
     return 0
+
+
+# ── 무음판 ──────────────────────────────────────────────────────────
+#
+# 나레이션이 유료라서 영상이 2026-09-06 에 멈춰 있었다. 홈에 걸린 영상이
+# "이번 주 여행 뉴스" 라고 적힌 채 아흐레 묵었다 — 매일 나오는 신문에서
+# 그건 그냥 틀린 화면이다.
+#
+# 목소리가 없으면 화면이 정보를 전부 져야 한다. 그래서 장면 길이를
+# **말하는 속도가 아니라 읽는 속도**로 잡는다. 숏폼 무음판에서 쓰던 값과
+# 같다(tools/make_shorts.py).
+READ_CPS = 8.5          # 초당 읽는 글자 수
+READ_FLOOR = 3.0        # 장면 최소 길이. 1920×1080 은 눈이 훑을 면적이 넓다
+READ_LEAD = 1.4         # 화면이 바뀌고 눈이 자리를 잡는 시간
+
+
+def screen_text(scene: dict) -> str:
+    """그 장면에서 **화면에 실제로 적힌** 글. 나레이션이 아니다.
+
+    무음판에서 독자가 읽는 것은 카드에 얹힌 글자뿐이다. 나레이션 길이로
+    재면 화면에 없는 말("…보도입니다")까지 세어 길이가 어긋난다.
+    """
+    kind = scene.get("kind")
+    if kind == "title":
+        return f"{scene.get('headline', '')} {scene.get('sub', '')}"
+    if kind == "section":
+        return scene.get("name", "")
+    if kind == "data":
+        return " ".join(f"{n} {v}" for n, v in scene.get("rows", []))
+    return " ".join(str(scene.get(k, "")) for k in ("headline", "summary", "outlet"))
+
+
+def read_seconds(text: str) -> float:
+    return round(max(READ_FLOOR, len(text or "") / READ_CPS + READ_LEAD), 2)
+
+
+def build_silent(scenes: list[dict], out_dir: str,
+                 name: str = "waffletrip-week") -> str:
+    """무음 롱폼을 만든다. 오디오 트랙이 아예 없다. 비용 0원."""
+    import tempfile
+
+    import imageio_ffmpeg
+    ff = imageio_ffmpeg.get_ffmpeg_exe()
+    work = tempfile.mkdtemp(prefix="waffle-longform-")
+
+    durations = [read_seconds(screen_text(sc)) for sc in scenes]
+    clips = []
+    for n, scene in enumerate(scenes):
+        frame = os.path.join(work, f"f{n:02d}.png")
+        render(scene).save(frame)
+        clip = os.path.join(work, f"c{n:02d}.mp4")
+        subprocess.run([
+            ff, "-y", "-loglevel", "error", "-loop", "1", "-i", frame,
+            "-t", f"{durations[n]:.2f}",
+            "-vf", f"scale={W}:{H},format=yuv420p,fps=25",
+            "-c:v", "libx264", "-preset", "medium", "-crf", "22", clip,
+        ], check=True)
+        clips.append(clip)
+
+    listing = os.path.join(work, "list.txt")
+    with open(listing, "w", encoding="utf-8") as fh:
+        for clip in clips:
+            fh.write(f"file '{os.path.abspath(clip)}'\n")
+
+    os.makedirs(out_dir, exist_ok=True)
+    out = os.path.join(out_dir, f"{name}.mp4")
+    subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
+                    "-i", listing, "-c", "copy", out], check=True)
+    poster = out.rsplit(".", 1)[0] + ".jpg"
+    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
+                    "-frames:v", "1", "-q:v", "3", poster], check=True)
+
+    # 인용한 매체는 화면 밖에도 밝힌다. 사실은 각 매체의 보도이고 우리가
+    # 한 것은 고르고 묶은 일이다.
+    outlets, seen = [], set()
+    for sc in scenes:
+        o = (sc.get("outlet") or "").strip()
+        if o and o not in seen:
+            seen.add(o)
+            outlets.append(o)
+    region = next((sc["region"] for sc in scenes if sc.get("region")), "japan")
+    meta = {
+        "title": scenes[0].get("headline", "이번 주 여행 뉴스"),
+        "region": region,
+        "seconds": round(sum(durations)),
+        "poster": "/video/" + os.path.basename(poster),
+        "outlets": outlets,
+        "kind": "silent",
+        "built_at": datetime.now(KST).isoformat(timespec="seconds"),
+    }
+    with open(out.rsplit(".", 1)[0] + ".json", "w", encoding="utf-8") as fh:
+        json.dump(meta, fh, ensure_ascii=False, indent=2)
+    return out
 
 
 if __name__ == "__main__":

@@ -76,3 +76,32 @@ def test_update_history_replaces_same_day(tmp_path):
     update_history(path, _day("2026-09-02", collected=1))
     history = update_history(path, _day("2026-09-02", collected=99))
     assert len(history) == 1 and history[0]["collected"] == 99
+
+
+def test_묵은_홈영상을_잡는다(tmp_path):
+    """홈 영상이 아흐레 멈춰 있는데 아무 검사도 울지 않았다(2026-09-15 사장님 지적).
+
+    그 사이 화면에 박힌 환율도 9월 3일 값(855원)이었고 그날 실제 값은
+    871원이었다. 영상은 한 번 나가면 되돌리기가 어렵다 — 멈추면 울려야 한다.
+    """
+    import json
+    from datetime import datetime, timedelta, timezone
+
+    from src.health import video_age_days
+    KST = timezone(timedelta(hours=9))
+    meta = tmp_path / "waffletrip-week.json"
+
+    assert video_age_days(str(tmp_path)) is None          # 영상 자체가 없다
+
+    옛날 = (datetime.now(KST) - timedelta(days=9)).isoformat(timespec="seconds")
+    meta.write_text(json.dumps({"built_at": 옛날}), encoding="utf-8")
+    assert 8.9 < video_age_days(str(tmp_path)) < 9.1
+
+    오늘 = datetime.now(KST).isoformat(timespec="seconds")
+    meta.write_text(json.dumps({"built_at": 오늘}), encoding="utf-8")
+    assert video_age_days(str(tmp_path)) < 0.1
+
+    # 언제 만든 것인지 안 적혀 있으면 묵은 것으로 본다. 9월 6일에 손으로
+    # 올린 파일이 정확히 이 모양이었다 — built_at 이 아예 없었다.
+    meta.write_text(json.dumps({"title": "이번 주 여행 뉴스"}), encoding="utf-8")
+    assert video_age_days(str(tmp_path)) > 100
