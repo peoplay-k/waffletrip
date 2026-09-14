@@ -517,3 +517,36 @@ def test_한_지면에서_같은_장면이_연달아_붙지_않는다():
     scenes = [scene_of(p) for p in got.values()]
     assert len(got) == 4, got
     assert len(set(scenes)) == 4, f"같은 장면이 겹쳤다: {scenes}"
+
+
+def test_한_지면은_장소를_돌아가며_쓴다():
+    """같은 장소 사진이 여럿 있어도 지면에서는 한 바퀴 돌고 다시 온다.
+
+    NAS 가 이미 장면별로 정리돼 있다 — `사이판 남부투어_마운트카멜 성당`,
+    `_슈가 덕`, `_래더 비치`. 연번(PEO_1946·1950)으로는 남남이지만 폴더를
+    보면 같은 성당이다. 2026-09-14 실측: 사이판면 일곱 자리 중 다섯 자리가
+    그 성당이었다. 래더 비치 16장과 서프 클럽 12장은 한 번도 안 나갔다.
+
+    장면(연사)과 달리 **장소는 피할 뿐 막지 않는다.** 다른 폴더가 동나면
+    사진을 비우느니 같은 성당의 다른 컷을 싣는다.
+    """
+    from src.models import Item
+    from src.photos import assign
+
+    def entry(folder, name):
+        return {"file": f"assets/photos/saipan/{name}.webp",
+                "src": f"/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/{folder}/{name}.JPG"}
+
+    manifest = {"saipan": [entry("성당", f"PEO_1{n}") for n in range(940, 948)]
+                          + [entry("래더비치", f"PEO_2{n}") for n in range(77, 80)]
+                          + [entry("슈가덕", f"PEO_3{n}") for n in range(10, 13)]}
+    items = [Item(id=f"a{i}", grade="B", region="saipan", section="news",
+                  title=f"사이판 소식 {i}", summary="", source_name="",
+                  source_url="", published_at="", collected_at="",
+                  status="published", title_hash=f"h{i}")
+             for i in range(3)]
+
+    got = assign(manifest, "saipan", items)
+    folders = [p.split("/")[-1][:5] for p in got.values()]   # PEO_1 / PEO_2 / PEO_3
+    assert len(got) == 3, got
+    assert len(set(folders)) == 3, f"한 장소만 썼다: {folders}"

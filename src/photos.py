@@ -183,6 +183,19 @@ def photo_places(manifest: dict) -> dict[str, str]:
     return out
 
 
+def _entry_place(manifest: dict, region: str) -> dict[str, str]:
+    """웹 경로 → 원본이 있던 폴더. 그 폴더가 곧 '어디서 찍었나'다.
+
+    NAS 가 이미 장면별로 정리돼 있다. 사이판 남부투어 폴더는
+    `_마운트카멜 성당`·`_슈가 덕`·`_서프 클럽`·`_래더 비치` 로 갈려 있다.
+    파일명으로는 PEO_1946 과 PEO_1950 이 남남이지만 폴더를 보면 같은 성당이다.
+    촬영 시각을 따로 읽을 필요 없이 `src` 에 이미 들어 있다.
+    """
+    return {web_path(e["file"]): os.path.dirname(e.get("src") or "")
+            for e in (manifest.get(region) or [])
+            if isinstance(e, dict) and e.get("file")}
+
+
 def _entry_city(manifest: dict, region: str) -> dict[str, str]:
     return {web_path(e["file"]): (e.get("city") or "")
             for e in (manifest.get(region) or [])
@@ -231,6 +244,7 @@ def assign(manifest: dict, region: str, seeds: list,
     if not pool:
         return {}
     city_of = _entry_city(manifest, region)
+    place_of = _entry_place(manifest, region)
     heroes = set(hero_photos(manifest, region))
 
     def sid(x):
@@ -244,6 +258,7 @@ def assign(manifest: dict, region: str, seeds: list,
 
     # 이 지면에서 이미 쓴 장면. 같은 장면을 또 주면 독자 눈에는 같은 사진이다.
     taken_scenes: set[str] = set()
+    taken_places: set[str] = set()      # 같은 장소(원본 폴더)도 되도록 피한다
 
     def rank(photo: str, item) -> tuple:
         places = places_of(item)
@@ -258,7 +273,14 @@ def assign(manifest: dict, region: str, seeds: list,
         # 도시가 안 맞는 사진이 나갈 걱정은 없다 — 그건 allowed() 가 이미
         # 막는다. same 은 맞는 것 중 어느 쪽을 먼저 줄지 고르는 취향일 뿐이라,
         # 같은 사진을 두 번 싣는 것보다 뒤에 둔다.
-        return (repeat, same, 0 if photo in heroes else 1, pool.index(photo))
+        # 장소는 **피하려고** 하되 양보한다. 사이판 남부투어 성당 폴더에서
+        # 여덟 장을 갖고 있는데 그 지면에 다른 폴더 사진이 없으면, 사진을
+        # 비우느니 같은 성당의 다른 컷을 싣는 편이 낫다. 연사(장면)와 달리
+        # 장소가 같은 것은 같은 사진이 아니다 — 성당 전경과 안내판은 다르다.
+        again = 1 if (place_of.get(photo) and
+                      place_of[photo] in taken_places) else 0
+        return (repeat, again, same, 0 if photo in heroes else 1,
+                pool.index(photo))
 
     out: dict[str, str] = {}
     # ① 이미 이 기사에 배정된 사진은 규칙에 맞는 한 그대로 둔다.
@@ -279,7 +301,9 @@ def assign(manifest: dict, region: str, seeds: list,
         keep = None
         for prev in by_article.get(sid(item), []):
             ok = (allowed(prev, item) and prev in pool
-                  and scene_of(prev) not in taken_scenes)
+                  and scene_of(prev) not in taken_scenes
+                  and not (place_of.get(prev) and
+                           place_of[prev] in taken_places))
             if ok and keep is None:
                 keep = prev
             else:
@@ -287,6 +311,7 @@ def assign(manifest: dict, region: str, seeds: list,
         if keep:
             out[sid(item)] = keep
             taken_scenes.add(scene_of(keep))
+            taken_places.add(place_of.get(keep, ""))
 
     # ② 남은 기사에는 아직 아무도 쓰지 않은 사진 중 규칙에 맞는 것만 준다.
     for item in seeds:
@@ -300,6 +325,7 @@ def assign(manifest: dict, region: str, seeds: list,
         out[key] = free[0]
         used[free[0]] = key
         taken_scenes.add(scene_of(free[0]))
+        taken_places.add(place_of.get(free[0], ""))
     return out
 
 
