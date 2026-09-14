@@ -550,3 +550,27 @@ def test_한_지면은_장소를_돌아가며_쓴다():
     folders = [p.split("/")[-1][:5] for p in got.values()]   # PEO_1 / PEO_2 / PEO_3
     assert len(got) == 3, got
     assert len(set(folders)) == 3, f"한 장소만 썼다: {folders}"
+
+
+def test_긁어온_후보_이미지는_NAS_안에_있어도_못_쓴다():
+    """`#대만` 8,679장은 우리 사진이 아니라 검색 결과를 받아둔 것이다.
+
+    2026-09-14 실측: 대만·라오스·일본 폴더의 이미지가 전부
+    `_STI_OUT/…/clusters/…/candidates/` 안에 있었고, 옆의
+    `candidate_manifest.json` 의 `image_url` 이 `lookaside.fbsbx.com`·
+    `encrypted-tbn0.gstatic.com` 이었다. 다른 블로그 파이프라인이 시안을
+    고르려고 구글·페이스북에서 받아둔 **남의 사진**이다.
+
+    폴더 수만 보면 "일본 지면에도 사진을 줄 수 있겠다"고 착각하기 쉽다.
+    편집원칙이 "직접 찍은 것만 쓴다"고 적혀 있으므로 경로에서 막는다.
+    """
+    prepare = pytest.importorskip("tools.photo_prepare")
+    NAS = "/Volumes/GUAMPLAY/네이버 블로그/#DSLR"
+
+    나쁨 = (f"{NAS}/#대만/기타/사용사진/여행스타일링/260903_대만 지우펀/"
+            "_STI_OUT/20260901_181126/clusters/shilin_night_market/candidates/q1-005.jpg")
+    assert prepare.origin_of(나쁨) is None
+
+    # 같은 NAS 의 우리 촬영본은 그대로 통과해야 한다
+    좋음 = f"{NAS}/#괌/액티비티/괌 남부 택시투어/솔레다드 요새/PEO_3153.JPG"
+    assert prepare.origin_of(좋음) == "NAS #DSLR/#괌"

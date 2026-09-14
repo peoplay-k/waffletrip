@@ -140,6 +140,83 @@
       "baked_at": "2026-09-09T10:58:21+09:00",
       "overrode": "얼굴 2건 검출",
       "origin": "NAS #DSLR/#괌 (커밋 77a15b6)"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어3_투어진행_솔레다드 요새/PEO_3153.JPG",
+      "file": "assets/photos/guam/PEO_3153.webp",
+      "bytes": 115822,
+      "baked_at": "2026-09-14T17:48:38+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어3_투어진행_솔레다드 요새/PEO_3156.JPG",
+      "file": "assets/photos/guam/PEO_3156.webp",
+      "bytes": 111714,
+      "baked_at": "2026-09-14T17:48:41+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어3_투어진행_솔레다드 요새/PEO_3167.JPG",
+      "file": "assets/photos/guam/PEO_3167.webp",
+      "bytes": 145156,
+      "baked_at": "2026-09-14T17:48:44+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어3_투어진행_솔레다드 요새/PEO_3170.JPG",
+      "file": "assets/photos/guam/PEO_3170.webp",
+      "bytes": 87238,
+      "baked_at": "2026-09-14T17:48:46+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어3_투어진행_솔레다드 요새/PEO_3175.JPG",
+      "file": "assets/photos/guam/PEO_3175.webp",
+      "bytes": 286156,
+      "baked_at": "2026-09-14T17:48:50+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true,
+      "overrode": "얼굴 1건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어3_투어진행_솔레다드 요새/PEO_3179.JPG",
+      "file": "assets/photos/guam/PEO_3179.webp",
+      "bytes": 223456,
+      "baked_at": "2026-09-14T17:48:54+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어5_투어진행_에메랄드밸리/PEO_3276.JPG",
+      "file": "assets/photos/guam/PEO_3276.webp",
+      "bytes": 273042,
+      "baked_at": "2026-09-14T17:58:33+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어5_투어진행_에메랄드밸리/PEO_3343.JPG",
+      "file": "assets/photos/guam/PEO_3343.webp",
+      "bytes": 458290,
+      "baked_at": "2026-09-14T17:58:35+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true,
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/괌 조형물/PEO_9670.JPG",
+      "file": "assets/photos/guam/PEO_9670.webp",
+      "bytes": 78460,
+      "baked_at": "2026-09-14T18:10:43+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true,
+      "overrode": "얼굴 6건 검출"
     }
   ],
   "hawaii": [

@@ -54,9 +54,25 @@ NAS_ROOT = "/Volumes/GUAMPLAY/네이버 블로그/#DSLR"
 SELF_SHOT = os.path.expanduser("~/과미발행")
 
 
+# NAS 안이라고 다 우리 사진이 아니다.
+#
+# 2026-09-14 실측: `#대만` 8,679장, `#라오스` 7,335장이 잡혀서 "일본·대만
+# 지면에도 사진을 줄 수 있겠다" 싶었는데, 전부 `_STI_OUT/…/candidates/` 였다.
+# 그 옆의 `candidate_manifest.json` 을 열어 보니 `image_url` 이
+# `lookaside.fbsbx.com`·`encrypted-tbn0.gstatic.com` 이다. 구글·페이스북
+# 검색 결과를 긁어 모은 **남의 사진**이다. 다른 블로그 파이프라인이 시안을
+# 고르려고 받아둔 것이고, 우리가 찍은 것이 아니다.
+#
+# 편집원칙에 "사진은 저희가 직접 찍은 것만 씁니다"라고 적어 놓았다.
+# 폴더 수만 보고 착각하기 딱 좋아서 경로로 막는다.
+SCRAPED = ("_STI_OUT", "/candidates/", "/clusters/")
+
+
 def origin_of(src: str) -> str | None:
     """사진 출처를 한 줄로. 허용되지 않은 곳에서 왔으면 None."""
     real = os.path.realpath(src)
+    if any(mark in real for mark in SCRAPED):
+        return None                          # 긁어온 후보 이미지
     if real.startswith(os.path.realpath(NAS_ROOT)):
         rest = real[len(os.path.realpath(NAS_ROOT)):].strip("/")
         top = rest.split("/")[0] if rest else ""
@@ -458,7 +474,9 @@ def main() -> int:
             for src in strangers[:10]:
                 print(f"    {src}", file=sys.stderr)
             print(f"  신문 사진은 NAS({NAS_ROOT}) 것만 쓴다.\n"
-                  "  바탕화면 사진_정리완료 는 사장님 폰 사진이라 신문에 못 쓴다.",
+                  "  바탕화면 사진_정리완료 는 사장님 폰 사진이라 신문에 못 쓴다.\n"
+                  "  NAS 안이어도 _STI_OUT/candidates 는 검색에서 긁어온 남의\n"
+                  "  사진이라 못 쓴다(대만·라오스 폴더가 대부분 그것이다).",
                   file=sys.stderr)
             return 2
         for verdict in to_bake:
