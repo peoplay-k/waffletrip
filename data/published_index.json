@@ -1196,6 +1196,7 @@
     "8be6e74f05455dbdae7ad991e386e22aac9db6f8",
     "8beaa9e8e406c7a33ebc0c1ef68600d59a9564c2",
     "8c08094b41c47172baeb93f8a01960da3d38028a",
+    "8c1ca8f808947beded0bf6e3ecf2097db6a8511a",
     "8c29f09fdca904d111c458e345c3a751ddfb40c8",
     "8c30d3bdb0418804540c8725c14ce996920376ac",
     "8c3a4b2e1494566fa9864b8fb8b5e12f55a5304f",
@@ -17134,6 +17135,13 @@
       "title": "World's second most visited city calls for tougher penalties against forced shopping",
       "date": "2026-09-14",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "8c1ca8f808947beded0bf6e3ecf2097db6a8511a",
+      "title": "'Responsible private sector investment': GEDA pushes programs to better Guam's tourism industry",
+      "date": "2026-09-14",
+      "region": "guam",
       "grade": "B"
     }
   ]
