@@ -443,3 +443,25 @@ def test_고른_번호는_시트_목록_없이는_굽지_않는다(tmp_path, mon
         capture_output=True, text=True)
     assert out.returncode == 2
     assert "--sheet" in out.stderr
+
+
+def test_신문_사진은_NAS_에서만_온다():
+    """사장님 폰 사진(바탕화면 사진_정리완료)은 개인 블로그용이다. 신문 금지.
+
+    2026-09-09 에 폰 사진 323장이 공개 사이트에 올라갔다가 사장님 지적으로
+    전부 내렸다. 사람이 기억으로 막을 일이 아니라 여기서 막는다.
+    """
+    import json
+    with open("assets/photos/manifest.json", encoding="utf-8") as f:
+        manifest = json.load(f)
+    entries = [e for rows in manifest.values() for e in rows]
+    assert entries, "매니페스트가 비었다"
+
+    금지 = ("사진_정리완료", "stage_japan", "stage_taiwan", "Desktop/사진")
+    for e in entries:
+        src = e.get("src", "")
+        for 말 in 금지:
+            assert 말 not in src, f"폰 사진이 섞였다: {src}"
+        # 출처를 밝히지 않은 사진은 두지 않는다. 나중에 감사할 수 없다.
+        assert e.get("origin"), f"출처 표시가 없다: {src}"
+        assert "NAS" in e["origin"] or "과미" in e["origin"], (src, e["origin"])
