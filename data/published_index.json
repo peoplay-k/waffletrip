@@ -1014,6 +1014,7 @@
     "7736b7bee09e26d178dd069e768ca172bd64defa",
     "777c5eb24c28528d35f3be5aab476c50af27b40c",
     "777cdc13c2415be152b379ab9d84a6be6b35a357",
+    "77ba4a0e545e20e8cbaacd1dec8d875565967306",
     "77ea4b709a9a8ccaa7a404b78099c170a64613f6",
     "78295b4de178e1f73a770edeb6cdcca6af136c30",
     "78502370eb8d987e1b7fc12e9123b11a88fb7003",
@@ -2148,6 +2149,7 @@
     "f8d5011628d22dac7d22e5fc7cb9c8c4a8557fee",
     "f8ff3d1b15df7dc93832e2547a9c2f3f1ca78743",
     "f9319e3dfb7f0d871dd90ea9ed3d061da8ff6ba7",
+    "f93b1d09ebcd1b85f0ec3c3d4cbc95ddd47417f4",
     "f983139d4b67fc596e56a5319b91a0e61a58116c",
     "f999a2d91a113c7da5b8d0a43f5a523219e11149",
     "f9b9b16a34e410ddf5f0353ed915fc9b94ba2482",
@@ -17142,6 +17144,20 @@
       "title": "'Responsible private sector investment': GEDA pushes programs to better Guam's tourism industry",
       "date": "2026-09-14",
       "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "f93b1d09ebcd1b85f0ec3c3d4cbc95ddd47417f4",
+      "title": "한국공항공사 \"日 하늘길 넓힌다\"… 구마모토 노선 활성화 업무협약",
+      "date": "2026-09-14",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "77ba4a0e545e20e8cbaacd1dec8d875565967306",
+      "title": "제주공항 대한항공·아시아나, ‘원팀’ 선언",
+      "date": "2026-09-14",
+      "region": "jeju",
       "grade": "B"
     }
   ]
