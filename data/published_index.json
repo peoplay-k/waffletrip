@@ -274,6 +274,7 @@
     "1e2309be8383155b9a57d46938204bb040d6c401",
     "1e2e44e23bcf638901aca57220cdabafc14c0578",
     "1e55f5451acb21e33311016640ef6044c21a8035",
+    "1e690be1662ed23a450d4e67a448c598281da3d0",
     "1e745e8b74a53a4bf746088a21df67f0008e2b8b",
     "1eeaf89f909b63822cbfe7818aa0423cfddac2b5",
     "1f1af223ec0db9b7f5814437f0e7ad17a3f51423",
@@ -376,6 +377,7 @@
     "2a194b29d238c8b84df8d1f121ab30797d5ed3c3",
     "2a33b623c9a5cef75abc7ca23d859a3ebd84636a",
     "2a41e1b67e0d29b6183a89d3c077a945fa2e0092",
+    "2a493a81fd4031cee338a23e7cbd6eeab9ecc3bf",
     "2a9f3e0c22688131b3429d4d11c6b33c7833c9ad",
     "2ab3038e382e0cf2a07d0121d70dfbebefa38b71",
     "2ad421da772c33fed90dc26d999a61a48edd4eb9",
@@ -17246,6 +17248,20 @@
       "title": "에어부산, ‘숏트립’ 여행객 특가… 일본 편도 6만8900원부터",
       "date": "2026-09-14",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "1e690be1662ed23a450d4e67a448c598281da3d0",
+      "title": "[방콕호텔] 방콕 중심가로 호캉스 여행",
+      "date": "2026-09-14",
+      "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "2a493a81fd4031cee338a23e7cbd6eeab9ecc3bf",
+      "title": "[방콕호텔] 매일 무제한 칵테일 있는 라운지",
+      "date": "2026-09-14",
+      "region": "thailand",
       "grade": "B"
     }
   ]
