@@ -55,11 +55,12 @@
     },
     {
       "date": "2026-09-14",
-      "collected": 657,
-      "published": 104,
+      "collected": 671,
+      "published": 116,
       "failed_sources": [
+        "guam_pdn",
         "guam_post",
-        "kota_nst"
+        "saipan_tribune"
       ]
     }
   ]
