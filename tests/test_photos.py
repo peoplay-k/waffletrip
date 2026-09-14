@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 
 import pytest
 
@@ -465,3 +466,22 @@ def test_신문_사진은_NAS_에서만_온다():
         # 출처를 밝히지 않은 사진은 두지 않는다. 나중에 감사할 수 없다.
         assert e.get("origin"), f"출처 표시가 없다: {src}"
         assert "NAS" in e["origin"] or "과미" in e["origin"], (src, e["origin"])
+
+
+def test_허용되지_않은_폴더는_출처를_못_만든다():
+    """도구가 출처를 스스로 판정한다. 목록에 없는 폴더면 None 이라 굽지 못한다.
+
+    2026-09-14 까지는 `origin` 을 사람이 손으로 적었고, 굽는 도구는 그 칸을
+    아예 만들지 않았다. 위의 매니페스트 검사는 **이미 지면에 나간 뒤**에야
+    깨진다. 막는 자리를 굽기 전으로 옮긴다.
+    """
+    prepare = pytest.importorskip("tools.photo_prepare")
+
+    NAS = "/Volumes/GUAMPLAY/네이버 블로그/#DSLR"
+    assert prepare.origin_of(f"{NAS}/#괌/기타/풍경(낮)/a.jpg") == "NAS #DSLR/#괌"
+    assert prepare.origin_of(f"{NAS}/#하노이/b.JPG") == "NAS #DSLR/#하노이"
+
+    # 사장님 폰 사진. 그럴듯한 이름이어도 출처가 안 나온다 → 굽기가 멈춘다
+    assert prepare.origin_of(os.path.expanduser("~/Desktop/사진_정리완료/제주/c.jpg")) is None
+    assert prepare.origin_of("/tmp/nas_stage/d.jpg") is None
+    assert prepare.origin_of("/tmp/stage_japan/e.jpg") is None

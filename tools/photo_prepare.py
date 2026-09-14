@@ -41,6 +41,30 @@ WEBP_QUALITY = 80
 SCAN_LONGEST = 1400       # 검사 해상도. 작게 잡으면 작은 얼굴을 놓친다
 PERSON_AREA_LIMIT = 0.04  # 화면의 4% 이상을 사람이 차지하면 애초에 쓰지 않는다
 
+# 어디서 온 사진인지 **매니페스트에 반드시 적는다.**
+#
+# 사장님이 두 번 지적하셨다 — 신문에는 NAS 사진만 쓴다. 바탕화면
+# `사진_정리완료` 는 가족·여행 폰 사진이고 개인 블로그용이다. 2026-09-10 에
+# 323장을 걷어냈고, 2026-09-14 에 다시 지적받았다. 그때 원인은 사진이 폰
+# 것이어서가 아니라 **`src` 가 임시 복사본 경로라 출처를 볼 수 없었던 것**이다.
+#
+# 그래서 규칙을 도구에 박는다. 허용된 뿌리에서 온 것만 굽고, 출처를 적는다.
+# 목록에 없는 폴더는 **굽지 않는다.** 테스트가 나중에 잡아주길 기다리지 않는다.
+NAS_ROOT = "/Volumes/GUAMPLAY/네이버 블로그/#DSLR"
+SELF_SHOT = os.path.expanduser("~/과미발행")
+
+
+def origin_of(src: str) -> str | None:
+    """사진 출처를 한 줄로. 허용되지 않은 곳에서 왔으면 None."""
+    real = os.path.realpath(src)
+    if real.startswith(os.path.realpath(NAS_ROOT)):
+        rest = real[len(os.path.realpath(NAS_ROOT)):].strip("/")
+        top = rest.split("/")[0] if rest else ""
+        return f"NAS #DSLR/{top}" if top else "NAS #DSLR"
+    if real.startswith(os.path.realpath(SELF_SHOT)):
+        return "과미 발행 폴더(자사 촬영본)"
+    return None
+
 # 검출을 **막는 쪽으로** 기울인다. 오탐이 나면 사람이 한 장 살리면 되지만,
 # 미탐은 고객 얼굴이 공개 저장소로 나가는 것이라 되돌릴 수 없다.
 # 실측에서 확인한 것 — 거의 같은 사진의 밝기 보정본끼리 판정이 갈렸다.
@@ -328,6 +352,8 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--approve", default="",
                     help="콘택트시트를 눈으로 본 뒤 구울 번호. 예: 1,4,7-9")
+    ap.add_argument("--city", default="",
+                    help="장소 태그. 캡션과 배정에 쓴다. 비우면 지역 전체용.")
     ap.add_argument("--hero", action="store_true",
                     help="1면에 쓸 풍경 사진으로 표시한다.")
     ap.add_argument("--commit", action="store_true",
@@ -426,6 +452,15 @@ def main() -> int:
                 manifest = json.load(f)
         entries = manifest.setdefault(args.region, [])
         known = {e["src"] for e in entries}
+        strangers = [v["src"] for v in to_bake if not origin_of(v["src"])]
+        if strangers:
+            print("\n허용되지 않은 폴더의 사진이다 — 굽지 않는다.", file=sys.stderr)
+            for src in strangers[:10]:
+                print(f"    {src}", file=sys.stderr)
+            print(f"  신문 사진은 NAS({NAS_ROOT}) 것만 쓴다.\n"
+                  "  바탕화면 사진_정리완료 는 사장님 폰 사진이라 신문에 못 쓴다.",
+                  file=sys.stderr)
+            return 2
         for verdict in to_bake:
             src = verdict["src"]
             if src in known:
@@ -436,9 +471,12 @@ def main() -> int:
             size, covered = bake(src, out_path)
             total_bytes += size
             entry = {"src": src, "file": out_path, "bytes": size,
-                     "baked_at": datetime.now(KST).isoformat(timespec="seconds")}
+                     "baked_at": datetime.now(KST).isoformat(timespec="seconds"),
+                     "origin": origin_of(src)}
             if covered:
                 entry["mosaic"] = covered
+            if args.city:
+                entry["city"] = args.city
             if args.hero:
                 entry["hero"] = True
             if not verdict["ok"]:
