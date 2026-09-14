@@ -128,6 +128,24 @@ def is_commentary(item) -> bool:
     return (getattr(item, "id", "") or "").startswith("c-")
 
 
+def page_order(articles: list) -> list:
+    """배정할 때 쓰는 지면 순서. 사진 유무만 빼고 front_order 와 같다.
+
+    사진을 나눠주는 순서가 지면에 깔리는 순서와 다르면, 같은 장면을 흩어놔도
+    소용이 없다. 2026-09-14 실측: 사이판면 위 네 기사가 같은 연사(_01~_04)를
+    받았다. 배정은 수집 순서로 돌고 지면은 front_order 로 다시 세우니, 흩은
+    자리가 지면에서 도로 붙었다.
+
+    front_order 의 "사진 있는 것을 앞으로" 항만 뺀다. 배정 전이라 아직
+    아무도 사진이 없어서 그 항은 여기서 쓸 수가 없다 — 그게 지금 정하려는
+    값이다. 나머지(한글 먼저, 데이터 기사는 뒤로, 안에서는 최신순)는 같다.
+    """
+    return sorted(articles, key=lambda a: (
+        1 if getattr(a, "section", "") == "data" else 0,
+        0 if _HANGUL.search(a.title or "") else 1,
+    ))
+
+
 def front_order(articles: list) -> list:
     """지면 순서. 한글 제목을 앞으로 당긴다.
 
@@ -385,7 +403,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         # 사용 이력을 이어받는다. 한 번 쓴 사진은 다시 배정되지 않는다.
         used = load_used()
         for region, group in by_region.items():
-            mapping = assign_photos(manifest, region, group, used)
+            mapping = assign_photos(manifest, region, page_order(group), used)
             for item in group:
                 item.photo = mapping.get(item.id) or None
         save_used(used)

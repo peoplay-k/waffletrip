@@ -485,3 +485,35 @@ def test_허용되지_않은_폴더는_출처를_못_만든다():
     assert prepare.origin_of(os.path.expanduser("~/Desktop/사진_정리완료/제주/c.jpg")) is None
     assert prepare.origin_of("/tmp/nas_stage/d.jpg") is None
     assert prepare.origin_of("/tmp/stage_japan/e.jpg") is None
+
+
+def test_한_지면에서_같은_장면이_연달아_붙지_않는다():
+    """연사 사진이 위에서부터 나란히 깔리면 한 장짜리 신문처럼 보인다.
+
+    2026-09-14 사이판면 실측: 네 기사가 `KakaoTalk_20250411_134734529` 의
+    _01~_04 를 받았다. 파일은 다르지만 같은 해변을 같은 빛에 찍은 것이라
+    독자 눈에는 같은 사진이다. 53장을 갖고 있었는데도 그랬다 — 배정이
+    매니페스트 순서를 그대로 따라갔기 때문이다.
+    """
+    from src.models import Item
+    from src.photos import assign, scene_of
+
+    assert scene_of("assets/photos/saipan/A_134734529_03.webp") == "A_134734529"
+    assert scene_of("/x/B_99_hi.webp") == "B"
+
+    # 연사 4장이 앞에, 다른 장면 3장이 뒤에 있는 목록
+    burst = [f"burst_20250411_01", "burst_20250411_02",
+             "burst_20250411_03", "burst_20250411_04"]
+    others = ["beach", "market", "sunset"]
+    manifest = {"saipan": [{"file": f"assets/photos/saipan/{n}.webp",
+                            "hero": True} for n in burst + others]}
+    items = [Item(id=f"a{i}", grade="B", region="saipan", section="news",
+                  title=f"사이판 소식 {i}", summary="", source_name="",
+                  source_url="", published_at="", collected_at="",
+                  status="published", title_hash=f"h{i}")
+             for i in range(4)]
+
+    got = assign(manifest, "saipan", items)
+    scenes = [scene_of(p) for p in got.values()]
+    assert len(got) == 4, got
+    assert len(set(scenes)) == 4, f"같은 장면이 겹쳤다: {scenes}"

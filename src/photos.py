@@ -189,6 +189,23 @@ def _entry_city(manifest: dict, region: str) -> dict[str, str]:
             if isinstance(e, dict) and e.get("file")}
 
 
+_BURST = re.compile(r"_\d{1,2}$")
+
+
+def scene_of(photo: str) -> str:
+    """같은 순간에 찍힌 사진끼리 묶는 열쇠.
+
+    연사와 밝기 보정본은 파일명 끝의 `_01`·`_hi` 로만 갈린다. 사람 눈에는
+    **같은 사진**이다. 2026-09-14 실측: 사이판면 위에서 네 기사가
+    `KakaoTalk_20250411_134734529` 의 _01~_04 를 나란히 받아, 53장을 갖고도
+    한 장짜리 신문처럼 보였다. 배정이 매니페스트 순서를 그대로 따랐기 때문이다.
+    """
+    name = os.path.splitext(os.path.basename(photo))[0]
+    if name.endswith("_hi"):
+        name = name[:-3]
+    return _BURST.sub("", name)
+
+
 def assign(manifest: dict, region: str, seeds: list,
            used: dict | None = None) -> dict:
     """한 지역면의 기사들에 사진을 배정한다.
@@ -225,10 +242,23 @@ def assign(manifest: dict, region: str, seeds: list,
             return True                       # 도시 없는 기사는 아무 사진이나
         return city_of.get(photo, "") in places or not city_of.get(photo, "")
 
+    # 이 지면에서 이미 쓴 장면. 같은 장면을 또 주면 독자 눈에는 같은 사진이다.
+    taken_scenes: set[str] = set()
+
     def rank(photo: str, item) -> tuple:
         places = places_of(item)
         same = 0 if (places and city_of.get(photo) in places) else 1
-        return (same, 0 if photo in heroes else 1, pool.index(photo))
+        repeat = 1 if scene_of(photo) in taken_scenes else 0
+        # **장면이 가장 앞이다.** 같은 장면을 또 주는 것보다 나쁜 선택은 없다.
+        #
+        # 도시 일치(same)를 앞에 뒀더니 소용이 없었다. 사이판 사진 중 장소
+        # 태그가 붙은 여덟 장 가운데 다섯 장이 하필 같은 연사였고, "도시가
+        # 맞는다"는 이유로 그 다섯 장이 지면 위에서부터 차례로 나갔다.
+        #
+        # 도시가 안 맞는 사진이 나갈 걱정은 없다 — 그건 allowed() 가 이미
+        # 막는다. same 은 맞는 것 중 어느 쪽을 먼저 줄지 고르는 취향일 뿐이라,
+        # 같은 사진을 두 번 싣는 것보다 뒤에 둔다.
+        return (repeat, same, 0 if photo in heroes else 1, pool.index(photo))
 
     out: dict[str, str] = {}
     # ① 이미 이 기사에 배정된 사진은 규칙에 맞는 한 그대로 둔다.
@@ -240,15 +270,23 @@ def assign(manifest: dict, region: str, seeds: list,
     by_article: dict[str, list[str]] = {}
     for photo, aid in used.items():
         by_article.setdefault(aid, []).append(photo)
+    #
+    # **같은 지면에서 장면이 겹치는 것도 규칙 위반으로 본다.** 붙어 있던 사진을
+    # 그대로 두는 것은 어제 본 기사가 오늘 달라 보이지 않게 하려는 것인데,
+    # 잘못 깔린 지면을 영영 그대로 두라는 뜻은 아니다. 위 기사가 먼저 갖고,
+    # 아래 기사는 놓아준 뒤 ②에서 다른 장면을 받는다. 한 번 흔들리고 멎는다.
     for item in seeds:
         keep = None
         for prev in by_article.get(sid(item), []):
-            if allowed(prev, item) and prev in pool and keep is None:
+            ok = (allowed(prev, item) and prev in pool
+                  and scene_of(prev) not in taken_scenes)
+            if ok and keep is None:
                 keep = prev
             else:
                 del used[prev]                # 잘못 붙은 사진은 놓아준다
         if keep:
             out[sid(item)] = keep
+            taken_scenes.add(scene_of(keep))
 
     # ② 남은 기사에는 아직 아무도 쓰지 않은 사진 중 규칙에 맞는 것만 준다.
     for item in seeds:
@@ -261,6 +299,7 @@ def assign(manifest: dict, region: str, seeds: list,
         free.sort(key=lambda p: rank(p, item))
         out[key] = free[0]
         used[free[0]] = key
+        taken_scenes.add(scene_of(free[0]))
     return out
 
 
