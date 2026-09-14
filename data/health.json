@@ -52,6 +52,14 @@
       "failed_sources": [
         "guam_pdn"
       ]
+    },
+    {
+      "date": "2026-09-14",
+      "collected": 688,
+      "published": 83,
+      "failed_sources": [
+        "guam_pdn"
+      ]
     }
   ]
 }
