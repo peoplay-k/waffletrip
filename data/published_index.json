@@ -19,6 +19,7 @@
     "01b2c48e902a497a5c6e4f10cd3ce9eaee1be540",
     "0229430f4fd2ae9e0de29f8d142a0f0187794796",
     "0246f29cc0d90d02857d5170fb27d49ed147b1f7",
+    "0256e8820010b1f7b63bec73bc58783b8b50b10e",
     "0262fcf8cb190ea609f036fff47b5923cea51128",
     "0266b8644e9b1e6daebfc5d557e56817e905e8da",
     "029bd1cac2137804005af28833eb1efd599a90a9",
@@ -242,6 +243,7 @@
     "1b30d7726fed7b3db2bb50eea485f473eaab4bc1",
     "1b43de647cebc4df0b1b4c12fa28a6135d6a3304",
     "1b44487e8dfbf9661d471f4a48fe763b09799ea4",
+    "1b8992744cdc08d96c84696319771c466636bf0b",
     "1b89badad3da4c3461be5f76600571d552ddd736",
     "1b9a54406512624854a63ab033272738b48c35b8",
     "1ba130dc69e8d41da24c2ee981eca2d88382807e",
@@ -1605,6 +1607,7 @@
     "bfe980830f12473d3fae42c3ae77da553a55f396",
     "bff955db65d0d7114147048d15c00a303eb28eaf",
     "c-019660fcfe1265ac8500ecb4b7c407299bb4eb2c",
+    "c-1030671654d3a15d9bf8069f2fbc50d5881c7424",
     "c-1588f487344bf941fafb218b097c04ad38658b6a",
     "c-18c53dca481aeb2afe9958911681e2b7987964bb",
     "c-19436534f55318dda081330aee410c1c764c9f09",
@@ -17014,6 +17017,27 @@
       "title": "‘과잉 관광 몸살’ 도쿄 신주쿠, 주인 없는 공유숙박 원천봉쇄···에어비앤비 “숙소 수천 개 폐쇄” 우려",
       "date": "2026-09-14",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "c-1030671654d3a15d9bf8069f2fbc50d5881c7424",
+      "title": "허리케인 로웰 일주일, 카우아이 학교 다시 연다",
+      "date": "2026-09-14",
+      "region": "hawaii",
+      "grade": "C"
+    },
+    {
+      "id": "0256e8820010b1f7b63bec73bc58783b8b50b10e",
+      "title": "Kilauea, Hanalei elementary schools to reopen after Hurricane Lowell, HIDOE says",
+      "date": "2026-09-14",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "1b8992744cdc08d96c84696319771c466636bf0b",
+      "title": "‘물가 상위-임금 하위’ 제주도…민주노총 “생활임금 인상↑” 촉구",
+      "date": "2026-09-14",
+      "region": "jeju",
       "grade": "B"
     }
   ]
