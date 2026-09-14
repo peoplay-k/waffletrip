@@ -55,11 +55,9 @@
     },
     {
       "date": "2026-09-14",
-      "collected": 728,
-      "published": 132,
-      "failed_sources": [
-        "saipan_tribune"
-      ]
+      "collected": 744,
+      "published": 143,
+      "failed_sources": []
     }
   ]
 }

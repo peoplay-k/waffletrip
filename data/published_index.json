@@ -342,6 +342,7 @@
     "26335949a727cb5e4f7d8a7e4155bf2b3e878e60",
     "26374eb6274cc4281f1ba9c3e16e5c90ce2aeacb",
     "263e786d782d259fc4b53bb9162bbc52c675bad9",
+    "26bb9a13f9dd5e2169a3d48a34ddf828b1a90177",
     "26f8e06951953ef7553f7889adaadc4465ebb192",
     "27015d1de93dfcbf12fc70eae0caf82e413f74a4",
     "270d21723be64c441df760afa82df3877835441a",
@@ -516,6 +517,7 @@
     "3ba389abf3b9ac4189ffb94281cdd598affa97ab",
     "3bda942720e6ba8b557f9b8caf279fb332941af0",
     "3be3696699c22c93bb47e62a93708a0ac1375ce0",
+    "3c60dc3f2000735bfba8cfa9eeaa56f4850ac766",
     "3c8ec1ee8964b968cbd1fdb7a535f62d21f1d226",
     "3c921ee86ad4491f7ba9fa6ca96eb3506ef13061",
     "3cf3057da448a7a2c459b574b0d4b8fb3ee8ffd5",
@@ -1226,6 +1228,7 @@
     "8e151fd2abe2db8e1fd4a43d37a1a0a361d90ae6",
     "8e1b08af1c853bd9dc01b945080414cb0f5958c3",
     "8e29c43dabc814a18a3677adf47a2a1b15bd8fe5",
+    "8e30f87075a129d51c67891c03801a9c6b09cdcf",
     "8e7bbbbad122d89e74b3b0859c532400a16d07f9",
     "8ed5c277e5b6bd5dfe9e7f436cdfd058974115be",
     "8ee56abed60c50dda9c1957b9378945f577e7067",
@@ -1252,6 +1255,7 @@
     "92a18d70bfa46afee66700102bad207051df478f",
     "92a3ba645c65bbefbdc4f4494a14cf120804a922",
     "92a7024b5690de23b14b148e96fc7fcefd8780f3",
+    "92c812c23d4770ddfe78a09e6abd81dde939f9de",
     "92cfeebbd13e47200b09050473768d91b59fb6f3",
     "92df9f4107c056e8f18cea71beeb8c9c8151d4f0",
     "932902ab5b26103a4de481efb873e8c32f5870d7",
@@ -1465,6 +1469,7 @@
     "ad84eaecba18fb414c7626d44d46f353f7110390",
     "ad9bb26f753d549db622d1e4541819c08dd8afe5",
     "adb1e8ec3451ff535c8951ececb1acf9498d4b11",
+    "adc180ace97edd6e67f5d5d8adab73eddb15a1a2",
     "adc6fc68650ed7c221be0ef18892b528ee098bbb",
     "addc7ae991ae9102bb7fd3af9a512642d9965198",
     "adedf5b839abc1040aabe417409d7219287897f9",
@@ -1571,6 +1576,7 @@
     "b8e5439d57950ef4fa854d1122e83d84f4753168",
     "b8ee583b3fd2cf9da55d070064ee7fe223d7c89f",
     "b90b850e206020d3eb44e8b8c7edaf7a7df74aac",
+    "b9330d1be0b9113a2fbcedd489bdd4de1200c011",
     "b94e12caf13f6673de6e0b49f2675d9ba2c867e5",
     "b972a0a28b47cabffc1577b6dc062463895ea47a",
     "b98652a15cb1a3013fd4f05ca41e4b4b887d30c4",
@@ -1612,6 +1618,7 @@
     "bd58826cac29b10985693e92b78837b8c222a69d",
     "bd885323b9767f73bc6cfecafeb9d30f60a40e1f",
     "bdb979abacccebd40f215345b63e45c5932d31c4",
+    "be0a813f9ae70baad2551c6b1a6677834a393d37",
     "be0e22ac060c4f4986f15bb7e101fc162b0fc5d4",
     "be1b0fbf9dc06dcb09c3fb14fbaedbe1c44bd829",
     "be260b7536c1ddb1548d7d0b2c1b6acf27078d05",
@@ -1624,6 +1631,7 @@
     "bec332961aa6bcf6f26e1b03b54f44b4743cfadc",
     "bf76e626f2a3203b904794d92f2e4f6e9b9ff5cc",
     "bf8fe2634615e6e6de7bfd9d996b60292f43aa68",
+    "bfa63cfff6a8eed861c46959603be0b472d4a313",
     "bfe980830f12473d3fae42c3ae77da553a55f396",
     "bff955db65d0d7114147048d15c00a303eb28eaf",
     "c-019660fcfe1265ac8500ecb4b7c407299bb4eb2c",
@@ -1834,6 +1842,7 @@
     "d507967924965af06bc2d4343c5162dcf60315d9",
     "d532952dc48a9fd79e00749e999a062a1f4c3f7d",
     "d55dc7494dc0706b8cfa0d0f4abd8b87b5f78261",
+    "d5643cb6e2a4aee5b916ff7f6ec665f2a94c1f92",
     "d5681e446ad51c3b09f8f3554c8f076e33e6cde1",
     "d5bf0c951fbcea5d771f986569e7ccafabf046e0",
     "d5c4ea39b509e9e74f92a4e698c12fcd296a68ea",
@@ -1884,6 +1893,7 @@
     "da738e3898737d13710f678e87a4bad32c66ed32",
     "da82661af0e476771f5b854e2ec149f13160ff0d",
     "daa9c86cc6cc6adcdf5f8301a57daaf866e6c727",
+    "dad7e6a76e08ed4cde6af9ee4b036193dfeba625",
     "dad9f528caef79f995f35f6607cc976a84c9a77c",
     "daddde3b97ee17c2f37a56b615482a9f7e2b5dc1",
     "dae62b8d158d58f178cb45328537d525e2dd7ce7",
@@ -2071,6 +2081,7 @@
     "ee3fa966ec6ba51dd0ad4cac8633e1283d16ec25",
     "ee8da1b6c3dadf68444203c9c8d595548dc77433",
     "ee8eaddd9ece600323062753c700ce6400f7ed0d",
+    "eeda74e9b77999e1db873906e5fb1e982d0c4ea2",
     "eee73e49721427c8e5ae71d61995db90ae22e6d9",
     "ef1da3916cdf44d226c7e3dbf593510cce209da6",
     "ef433211bf65d986de2aa55424155a8a61f81438",
@@ -17262,6 +17273,83 @@
       "title": "[방콕호텔] 매일 무제한 칵테일 있는 라운지",
       "date": "2026-09-14",
       "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "dad7e6a76e08ed4cde6af9ee4b036193dfeba625",
+      "title": "지방공항과 日 구마모토공항 간 지방공항 노선 확대 추진",
+      "date": "2026-09-14",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "3c60dc3f2000735bfba8cfa9eeaa56f4850ac766",
+      "title": "박영봉 청운재 이사장, 일본서 강릉관광 홍보",
+      "date": "2026-09-14",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "8e30f87075a129d51c67891c03801a9c6b09cdcf",
+      "title": "한진칼 '눈엣가시 호반' 신경쓰이는 조원태 일본항공(JAL)도 우군 영입했다 : 산업은행 지분 향방은 여전히 변수",
+      "date": "2026-09-14",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "92c812c23d4770ddfe78a09e6abd81dde939f9de",
+      "title": "제주국제공항 교신 불법 청취 10대 중국인 입건",
+      "date": "2026-09-14",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "adc180ace97edd6e67f5d5d8adab73eddb15a1a2",
+      "title": "일본은 껀터시의 인센티브 관광을 홍보하고 마케팅합니다.",
+      "date": "2026-09-14",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "b9330d1be0b9113a2fbcedd489bdd4de1200c011",
+      "title": "다낭은 기업 리더, 부서장 및 주요 직책 담당자들을 초청하여 관광 및 비즈니스 미팅에 참여하도록 합니다.",
+      "date": "2026-09-14",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "be0a813f9ae70baad2551c6b1a6677834a393d37",
+      "title": "제주항공 제주~인천 노선 내년 3월까지 연장...운항횟수 주 3회 증편",
+      "date": "2026-09-14",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "26bb9a13f9dd5e2169a3d48a34ddf828b1a90177",
+      "title": "제주 바로 알기 퀴즈대회, 제주중앙고 ‘고등부 우승’",
+      "date": "2026-09-14",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "bfa63cfff6a8eed861c46959603be0b472d4a313",
+      "title": "World's 2nd richest nation closes 28 hawker centers this week for scheduled cleaning",
+      "date": "2026-09-14",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "eeda74e9b77999e1db873906e5fb1e982d0c4ea2",
+      "title": "“바람이 머무는 건축, 제주에서 만나는 나”",
+      "date": "2026-09-14",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "d5643cb6e2a4aee5b916ff7f6ec665f2a94c1f92",
+      "title": "인천공항 일본 노선 여객 18.8% 증가",
+      "date": "2026-09-14",
+      "region": "japan",
       "grade": "B"
     }
   ]
