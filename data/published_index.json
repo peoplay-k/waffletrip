@@ -521,6 +521,7 @@
     "39e93fca2a31377fbd5b7a166dd845053235f332",
     "3a4f3e520fdde85a2378a9deeb65c29413411208",
     "3a7072ca965da96ea36140871fe19858891aa819",
+    "3a90f8353cc14a19dd49d067b550765404e014bf",
     "3a9def1b8b464ad1b3634eba5d84a7082fb57718",
     "3aa11346b6d6e28c1a500d71f0ce1a533e86c18e",
     "3abb0043012375416ecc1148bc5adcebe06988f8",
@@ -1757,6 +1758,7 @@
     "c34ec9131bb261936b9d041d8d1aaf9136b69255",
     "c36817d1cafa57afaa7431d3d78184dec88f877f",
     "c3a9e48fe91a1eb545da186f0d262d1a3d8644ce",
+    "c3c6c955eae4d7c2f3ee4d25245c211362ec14ef",
     "c42249ea3870c4796da33b7e360890d297cf6969",
     "c44d9cbc2b6676b17b834dba89a773f6c6859b33",
     "c4864a53089c98348cf9859816f35d8b3109a786",
@@ -18076,6 +18078,20 @@
     {
       "id": "4855e5fdd432f3507fed8ff40becbdea8f2a337b",
       "title": "대한항공, 10월 인천~오이타 노선 재개··· 규슈 하늘길 완성",
+      "date": "2026-09-15",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "3a90f8353cc14a19dd49d067b550765404e014bf",
+      "title": "First Alert Forecast: Heavy Showers Just Offshore of Hamakua Coast",
+      "date": "2026-09-15",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "c3c6c955eae4d7c2f3ee4d25245c211362ec14ef",
+      "title": "에어부산 '숏트립' 특가…일본·중국 18개 노선 할인",
       "date": "2026-09-15",
       "region": "japan",
       "grade": "B"
