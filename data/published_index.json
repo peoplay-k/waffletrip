@@ -763,6 +763,7 @@
     "55398ea2f0c309d27a5dfaa565b02afa9583bfd9",
     "553e400b14ce33dc3099102defe6c9c81f63d58d",
     "55649f7ceb17393c328072ae0f2792de20868799",
+    "55895064db6323381671762e9d03ad0fdaa6ef0d",
     "55930e063d2ad24c8ccfdefa716e391e2cbaafde",
     "55950251b8578385b3510e74d1fcd825691e23fb",
     "559ac99e31c168d2db450ef3637c2d26a9cadd7f",
@@ -970,6 +971,7 @@
     "6db45228da5566db2fdd27f7056f84fe3925ee3a",
     "6dd5dacea4ea8610c20e68c89745b86c00ceaf36",
     "6dda2ec5b431103c7a539c4343c1929ef806c654",
+    "6e051a9836537ee6ffab38ca1b9ce69bc0316736",
     "6e32e92dfa9d05f0cec9c2a8c4b84e729c922497",
     "6e40e5b88621469d7da23489bbc99bec20dd61b9",
     "6e642668089b0b66a434d9eb8261888fd4966527",
@@ -1167,6 +1169,7 @@
     "8532b83967a0890d0d3c1d72177ae25718a8b07e",
     "854ddc733a32e67facbbf1c939d5ec74d758cd4e",
     "855f5abe3cc70b6704a326d2e8761d7a9617f75b",
+    "856d5b6d64c9c1d76d6db68cc39a304680fa8a4e",
     "8578aa42d4e66725b560d4d66ebb92e911af6b28",
     "85b86edf5cbb90a4760c8a943a0f9b76d658bddd",
     "85e269c2689efc7cc8b4c9be5dbca4596a77c7c1",
@@ -1338,6 +1341,7 @@
     "99ad601d7c4292ca33c09fb49be8271df39f69cd",
     "99ae0665fa288f3f9ec4aaffa573d3da1def11ea",
     "99cc124e90f015f05622136710686215ecb14d2b",
+    "9a0cb32bbbe1b308787cbb7e08a998b200bd6ce4",
     "9a33cff03c464b21fa66a118d78f9c4570a6362d",
     "9a7d1401b5bf5c6dfb76187b4a8f1a8fe43e2bd6",
     "9a9515209ea297104b3561810b037f5ef88f9776",
@@ -1435,6 +1439,7 @@
     "a5e619662723f9d168b1050f6f2ce391c422694f",
     "a5f6d586e6bdb12d885a41a67cd22613e184cf2d",
     "a61a7b153a9475edf2a11202b466e6149a816ac3",
+    "a67f7dd1186049efe0c86c6235d7906a9837ae9b",
     "a692c54843527072b4abaebe621d5f1ae514e25e",
     "a6ce10d25423e8beefe7a6760439de88e1f90260",
     "a6d2e6187de4b6d2e356c8f4589d611f163da917",
@@ -1841,6 +1846,7 @@
     "d0d1883440fa1441e0c4832fdab0bf2f00f2191b",
     "d0d475d840c776d51e0926eff73f2dda8a05a473",
     "d0ed03c90d919b300bca7f92098ae54f9f29025f",
+    "d0f0bc3baf62626b54c245556da7936708ddbf68",
     "d105967904c321faca6c16a3d122ae9fbb59cbb4",
     "d10900385d579b5dfc99c46edb457526f7f5b777",
     "d11465fd725e005d411bf30e7529feb17767e3bb",
@@ -2116,6 +2122,7 @@
     "ee3fa966ec6ba51dd0ad4cac8633e1283d16ec25",
     "ee8da1b6c3dadf68444203c9c8d595548dc77433",
     "ee8eaddd9ece600323062753c700ce6400f7ed0d",
+    "eea078e657989235e00070ac8fa87b265b85b102",
     "eeda74e9b77999e1db873906e5fb1e982d0c4ea2",
     "eee73e49721427c8e5ae71d61995db90ae22e6d9",
     "ef1da3916cdf44d226c7e3dbf593510cce209da6",
@@ -2261,6 +2268,7 @@
     "fdff75a406a89ebdc9478364ab7561a4c9b006e3",
     "fe052a6ca7fb2039edaf1e5cc524f2d1a2cc66be",
     "fe1144adb19f1ffad812f4ef7862e10969f082c2",
+    "fe1dc55ace3dd9befcf4d05744641457cca7ae84",
     "fe2f52c825332994d3f859ac23f6015115148bd7",
     "fe3969aed6cd1830dae320b3df126213fc05d059",
     "fe3a5da6d53d0183a428b2bcea73b096fbedb8b8",
@@ -17662,6 +17670,62 @@
       "title": "나트랑 해변 달리기 대회 시작, 장애 아동 수술 기금 마련",
       "date": "2026-09-15",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "9a0cb32bbbe1b308787cbb7e08a998b200bd6ce4",
+      "title": "다낭은 MICE 관광 진흥을 위한 혁신적인 노력을 기울이고 있습니다.",
+      "date": "2026-09-15",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "eea078e657989235e00070ac8fa87b265b85b102",
+      "title": "New York leads lawsuit against Trump’s ‘public charge’ immigration rule",
+      "date": "2026-09-15",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "fe1dc55ace3dd9befcf4d05744641457cca7ae84",
+      "title": "Historic tower transformed into $1 million luxury vacation rental",
+      "date": "2026-09-15",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "55895064db6323381671762e9d03ad0fdaa6ef0d",
+      "title": "This Elizabethan mansion could be yours for nearly $800,000",
+      "date": "2026-09-15",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "d0f0bc3baf62626b54c245556da7936708ddbf68",
+      "title": "Thousands attend UK’s first-ever Hobbit festival",
+      "date": "2026-09-15",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "6e051a9836537ee6ffab38ca1b9ce69bc0316736",
+      "title": "How tree diversity helps protect forests from climate threats",
+      "date": "2026-09-15",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "856d5b6d64c9c1d76d6db68cc39a304680fa8a4e",
+      "title": "Guam Travel Entry Rules Put Mandatory EDF in Focus Ahead of Tumon Fair and Sinajaña Festival Activities",
+      "date": "2026-09-15",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "a67f7dd1186049efe0c86c6235d7906a9837ae9b",
+      "title": "에메랄드빛 바다보다 선명한 \"하파데이!\"…괌에서 만난 '사람들'",
+      "date": "2026-09-15",
+      "region": "guam",
       "grade": "B"
     }
   ]
