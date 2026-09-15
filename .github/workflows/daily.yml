@@ -89,6 +89,16 @@ jobs:
           # 대본은 저장소 루트에 남긴다. --frames 만 주면 public/video 로
           # 가는데 거기는 gitignore 라 다음 빌드가 지운다.
           python tools/make_longform.py --script-only
+
+          # 숏폼(세로)도 하루 한 편. 홈에는 안 걸리고 인스타 릴스·유튜브
+          # 쇼츠·틱톡으로 나갈 재고다. 도시를 날마다 돌려 한 도시만 계속
+          # 나가지 않게 한다.
+          CITIES="tokyo osaka fukuoka sapporo okinawa bangkok taipei danang nhatrang hanoi hochiminh"
+          set -- $CITIES
+          IDX=$(( ($(date -u -d '9 hours' +%j) % $#) + 1 ))
+          eval CITY=\${$IDX}   # ${!IDX} 와 같다. \$$IDX 는 10 이상에서 \$1+0 으로 갈린다
+          echo "오늘 숏폼 도시: $CITY"
+          python tools/make_shorts.py --city "$CITY" --silent --out static/video
         continue-on-error: true
 
       # 화면 원본은 저장소에 넣지 않고 아티팩트로 내린다.

@@ -23,3 +23,8 @@ video-frames/
 
 # 빌드 부산물. 정본 대본은 저장소 루트의 longform_script.json 이다.
 static/video/longform_script.json
+
+# 매일 굽는 숏폼. 러너에서 만들어 사이트로만 나간다 — 저장소에 쌓지 않는다.
+static/video/*-silent.mp4
+static/video/*-silent.jpg
+static/video/*-silent.json

@@ -113,3 +113,23 @@ def test_환율표가_바닥선을_넘지_않는다(n):
     # 이 검사 한 줄 때문에 실행이 두 번 통째로 실패했다 — 겹침을 막으려던
     # 검사가 신문을 막았다. 겹침은 자리 계산으로 판정되고, 그림이 제대로
     # 나오는지는 굽는 단계가 매일 실제로 확인한다.
+
+
+def test_홈에는_숏폼이_아니라_롱폼이_걸린다(tmp_path):
+    """이름순으로 마지막 것을 집으면 도시 이름에 따라 세로 영상이 홈을 먹는다.
+
+    숏폼을 매일 굽기 시작하면서 실제 위험이 됐다. 이름순은 내용과 아무
+    상관이 없다 — 홈에 거는 것은 롱폼 한 편으로 못박는다.
+    """
+    import json as _json
+
+    from src.render.site import load_video
+
+    for name, sec in [("waffletrip-week", 254), ("waffletrip-zzz-silent", 30)]:
+        (tmp_path / f"{name}.json").write_text(
+            _json.dumps({"title": name, "seconds": sec, "region": "japan"}),
+            encoding="utf-8")
+        (tmp_path / f"{name}.mp4").write_bytes(b"x")
+
+    got = load_video(str(tmp_path))
+    assert got and got["src"] == "/video/waffletrip-week.mp4", got

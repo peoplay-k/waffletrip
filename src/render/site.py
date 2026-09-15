@@ -106,8 +106,16 @@ def load_video(src: str = os.path.join("static", "video")) -> dict | None:
         return None
     # 홈에는 롱폼을 건다. 쇼츠는 세로라 지면에 얹으면 자리를 많이 먹고,
     # 원래 인스타·틱톡·쇼츠로 나가는 물건이다.
-    metas = sorted(f for f in os.listdir(src)
-                   if f.endswith(".json") and "shorts" not in f)
+    # 홈에 거는 것은 **롱폼 한 편**으로 못박는다. 예전에는 파일명을 정렬해
+    # 마지막 것을 집었는데, 이름순은 내용과 아무 상관이 없다. 숏폼을 매일
+    # 굽기 시작하면 도시 이름에 따라 세로 영상이 홈을 차지할 수 있다.
+    WEEK = "waffletrip-week.json"
+    if os.path.exists(os.path.join(src, WEEK)):
+        metas = [WEEK]
+    else:
+        metas = sorted(f for f in os.listdir(src)
+                       if f.endswith(".json") and "shorts" not in f
+                       and "silent" not in f)
     if not metas:
         return None
     with open(os.path.join(src, metas[-1]), encoding="utf-8") as fh:
