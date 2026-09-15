@@ -151,6 +151,7 @@
     "11b5d1158a0c6bf9040472f79b1e045d1f098940",
     "11bbd4f49e2d957bd2b338a9faacbfa726fd9983",
     "11d525cfe8a408a42e55635d55925486609d2a1f",
+    "11e91e99b7db56f90cc20373a4381e06069e0d6d",
     "11ebbd65ac383010f82af6cac2a47ba711c91817",
     "11fa7a39634c691d2d3a3c4562e7cf0d76314941",
     "12097e408095e2a85a78060b9715450053f0b23c",
@@ -510,6 +511,7 @@
     "391fce4f54cc083369816ccb4fd3a0953fc0ed15",
     "3934c24803ebd9cc29072e3e061339da8590f816",
     "39444376b78f9d0ddfd7b3a20d6ea1b04a486fcd",
+    "394d86d37b5f4f6ac6d2b4a250100f461eb63a4f",
     "39761bd5e34baabd5f86bf300c327fe353fb34b4",
     "39ab3689084ef93093f91942e24a82915ff64283",
     "39af3ba540fe059942aecbfe2b937e9e65f432e9",
@@ -1575,7 +1577,9 @@
     "b4147f375647cfb2f73f19618955caf0ba42572c",
     "b434f0741a058cce1e3032e66bd576a49acff675",
     "b458a085f057752569c45ef46e595bfa5d8bfe7d",
+    "b47591b57cd68bd6b655f2514f73da82c9cfecbc",
     "b4793dd92bc0f4c5215174d8fa50f950fdfff481",
+    "b47c0d2705055ebce53d130b76a2fe8df2947665",
     "b47f738b32c52e02fe8f82d1f89c5a60038fc324",
     "b48937024da90cbcff94c17119cf4cdc7653f9ac",
     "b48b03bbbed321a839dac37602dd3cb067cbb1aa",
@@ -1764,6 +1768,7 @@
     "c7144421f0e767b7cf7cd993ba1977c1772ca4e6",
     "c7360da2f0dfe4375ee68d743e658b5c5f16f817",
     "c74c22ba0f1b39f7e136410710ca7fd752aa626f",
+    "c7669b4db328df8a106b11d10ae1a35ca1849fe1",
     "c7751566e5951034778e58ee5d826050a17a5749",
     "c7792b25f6c1a91718aa23a2cc53b2db8b59ec89",
     "c7acda8fc589510bf577e58eccfe3424bb668ffa",
@@ -1806,6 +1811,7 @@
     "cc28273cf941a20e8c1b8da589209e531db6a9c3",
     "cc46cb5d4add82c6b27af48f17e93184315e86e2",
     "cc503090021ba9c2b41414ac756457c2f1fc5dc9",
+    "cc5294034eb773fda19a2c1ca274bc54deb25545",
     "cc73aa017f58ee67b1f23c823bc9228dbbc8b7ec",
     "cc83680fd113d2b47349f5ce36c386e4247c8745",
     "cc883ac7e7d674491902a4215d8dcdf00aed55e7",
@@ -1853,6 +1859,7 @@
     "d07ff7605f9c611002ab08bae9e55698c40e85f1",
     "d08d493b1e1a830679d8fcb297693c347143f444",
     "d08fc0cf74c2555e2aed2122a6aa9f242582a75a",
+    "d0ac6e36d1745df3fb030073793eed43bdc3f068",
     "d0b5e53b1087acd2289fac86dee2e97cb5b3e993",
     "d0d1883440fa1441e0c4832fdab0bf2f00f2191b",
     "d0d475d840c776d51e0926eff73f2dda8a05a473",
@@ -1887,6 +1894,7 @@
     "d4d2b3541f7023f52089053ed07a3a1be5cb9fb9",
     "d4d78863ac1b68ce778f7705052da8db54666b0e",
     "d4d8d37a5f8cbd4ed676eaa1378154d17e101e7f",
+    "d4dd0f8b0401934238a06ec9d064bc3ab574a6b7",
     "d4f17516f31b0b3b63c24fff6c929cb43cae72ca",
     "d507967924965af06bc2d4343c5162dcf60315d9",
     "d532952dc48a9fd79e00749e999a062a1f4c3f7d",
@@ -2199,6 +2207,7 @@
     "f59a193d47ca033be3623f953929ab4a311d981a",
     "f59cc5b6df898564f9fe62ab5d01a50814801394",
     "f5bbc41600d6f5455065bbb230ab64c791256132",
+    "f5ecea9573f554e3ca5eb6557ed85f511da43b77",
     "f5fc01f71c282acbab3e73d00ec400915626ba3d",
     "f60a0fed582e9e684e76d66c2ea6fc566dcbb554",
     "f63b992b6bcbd458fde391566bac99a79337b3c7",
@@ -2258,6 +2267,7 @@
     "fb7cecd2da46db4a00539c4a9a9cf5e51318f533",
     "fb7fd912dd6ad25b2720c297b5b99ccc670401b0",
     "fba43cbefaad1755446280a3048fcf7215009015",
+    "fbe0c81206c3767ca7abb1c1ec0948b567962a4b",
     "fbeedf41700645a7f963e96fc1dbad02b2f31827",
     "fc00f5a990089010e83b2179b083948080d03a0e",
     "fc1628b5a4bbbcf96b5eb734a94a87339bca2b6d",
@@ -17822,6 +17832,76 @@
       "title": "A slower way to experience northern Phu Quoc at Sheraton Long Beach Resort",
       "date": "2026-09-15",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "d4dd0f8b0401934238a06ec9d064bc3ab574a6b7",
+      "title": "[괌여행] 동남아보다 가까운 열대 해변 휴양지",
+      "date": "2026-09-15",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "11e91e99b7db56f90cc20373a4381e06069e0d6d",
+      "title": "수트라하버리조트, 제주항공과 코타키나발루 가을여행 공략",
+      "date": "2026-09-15",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "394d86d37b5f4f6ac6d2b4a250100f461eb63a4f",
+      "title": "[방콕호텔] 도심 한복판 열대 정원 낀 수영장",
+      "date": "2026-09-15",
+      "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "c7669b4db328df8a106b11d10ae1a35ca1849fe1",
+      "title": "#SHOWBIZ: Mamamoo cancels Jakarta concert over volcanic activity",
+      "date": "2026-09-15",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "b47591b57cd68bd6b655f2514f73da82c9cfecbc",
+      "title": "You Booked A Hawaii Island Vacation Rental. Is It Legal?",
+      "date": "2026-09-15",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "d0ac6e36d1745df3fb030073793eed43bdc3f068",
+      "title": "‘Praying for recovery’: Small Waiohinu church left devastated after Hurricane Lala",
+      "date": "2026-09-15",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "b47c0d2705055ebce53d130b76a2fe8df2947665",
+      "title": "Symphony of the Sea launches new edition in Phu Quoc with three times more fireworks",
+      "date": "2026-09-15",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "fbe0c81206c3767ca7abb1c1ec0948b567962a4b",
+      "title": "One week after Hurricane Lowell, Kauai reports progress on power, school reopenings",
+      "date": "2026-09-15",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "f5ecea9573f554e3ca5eb6557ed85f511da43b77",
+      "title": "청주시, 일본 오사카 MZ세대 초정 ‘체험형 청주관광’ 홍보",
+      "date": "2026-09-15",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "cc5294034eb773fda19a2c1ca274bc54deb25545",
+      "title": "인천국제공항 일본 노선 여객 19% 증가",
+      "date": "2026-09-15",
+      "region": "japan",
       "grade": "B"
     }
   ]
