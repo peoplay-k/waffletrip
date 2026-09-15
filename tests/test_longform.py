@@ -133,3 +133,45 @@ def test_홈에는_숏폼이_아니라_롱폼이_걸린다(tmp_path):
 
     got = load_video(str(tmp_path))
     assert got and got["src"] == "/video/waffletrip-week.mp4", got
+
+
+def test_사진_없는_곳은_영상을_만들지_않는다():
+    """글자만 넘어가는 영상은 릴스가 아니다(2026-09-15 사장님 지적).
+
+    방콕·도쿄·타이베이는 자사 촬영본이 0장이다. 그런데도 영상을 만들어
+    인스타에 올렸다 — 사진 153장을 갖고 있으면서 한 장도 안 썼다.
+    사진이 모자라면 **만들지 않는다.** 같은 사진을 돌려써도 티가 난다.
+    """
+    import make_shorts as ms
+
+    assert ms.MIN_PHOTOS >= 3, "장면 수만큼은 있어야 반복이 안 보인다"
+    with pytest.raises(SystemExit) as e:
+        ms.build("bangkok")
+    assert "사진" in str(e.value)
+
+
+def test_제목_끝에_붙은_분류_딱지를_뗀다():
+    """RSS 제목 끝에 "…출시, , 생활/문화" 가 붙어 들어온다(실측).
+
+    화면에 그대로 얹히면 기사 제목이 아니라 긁어온 티가 난다.
+    """
+    from make_shorts import tidy
+
+    assert tidy("휴양 결합 패키지 출시, , 생활/문화") == "휴양 결합 패키지 출시"
+    assert tidy("괌 여행 소식, 사회") == "괌 여행 소식"
+    assert tidy("정상 제목입니다") == "정상 제목입니다"
+    # 본문 안의 쉼표는 건드리지 않는다
+    assert tidy("도쿄, 오사카, 후쿠오카") == "도쿄, 오사카, 후쿠오카"
+
+
+def test_영상_속_사진은_그_지역_것이다():
+    """다낭 편에 하노이 훅교가 나오면 그건 그냥 틀린 화면이다."""
+    import json
+
+    import make_shorts as ms
+
+    manifest = json.load(open("assets/photos/manifest.json", encoding="utf-8"))
+    files = {e["file"] for e in manifest.get("saipan", [])}
+    got = ms.region_photos("saipan")
+    assert got, "사이판 사진을 못 찾았다"
+    assert set(got) <= files, "다른 지역 사진이 섞였다"

@@ -91,9 +91,12 @@ jobs:
           python tools/make_longform.py --script-only
 
           # 숏폼(세로)도 하루 한 편. 홈에는 안 걸리고 인스타 릴스·유튜브
-          # 쇼츠·틱톡으로 나갈 재고다. 도시를 날마다 돌려 한 도시만 계속
-          # 나가지 않게 한다.
-          CITIES="tokyo osaka fukuoka sapporo okinawa bangkok taipei danang nhatrang hanoi hochiminh"
+          # 쇼츠·틱톡으로 나갈 재고다. 날마다 돌려 한 곳만 계속 안 나가게 한다.
+          #
+          # ★사진이 넉넉한 곳만 돈다. 글자만 넘어가는 영상은 릴스가 아니다
+          # (2026-09-15 사장님 지적). 일본·태국·대만은 자사 촬영본이 0장이라
+          # 뺐고, 다낭도 2장뿐이라 뺐다. NAS 에서 더 캐면 그때 늘린다.
+          CITIES="guam saipan kota hanoi hawaii"
           set -- $CITIES
           IDX=$(( ($(date -u -d '9 hours' +%j) % $#) + 1 ))
           eval CITY=\${$IDX}   # ${!IDX} 와 같다. \$$IDX 는 10 이상에서 \$1+0 으로 갈린다

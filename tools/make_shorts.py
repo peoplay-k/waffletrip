@@ -30,7 +30,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageOps
 
 from src.cities import CITY_NAMES, CITY_REGION
 from src.models import REGION_NAMES
@@ -46,56 +46,162 @@ SAFE_BOTTOM = 420       # 세 플랫폼 모두 아래를 UI 로 덮는다
 MAX_FACTS = 4
 
 
-def _base():
-    img = Image.new("RGB", (W, H), PAPER)
+
+# ── 사진 ────────────────────────────────────────────────────────────
+#
+# 글자 카드만 넘어가는 영상은 릴스가 아니다. 2026-09-15 사장님 지적 —
+# "사진도 없고 머하는건데?". 사진 153장을 갖고 있으면서 안 썼다.
+#
+# 사진은 **화면을 꽉 채우고**, 글자는 그 위에 얹는다. 읽히게 하려고
+# 아래쪽에 어둠을 깐다. 사진이 없는 지역은 영상을 아예 만들지 않는다 —
+# 글자만 있는 영상을 내느니 안 내는 편이 낫다.
+def region_photos(region: str, city: str = "") -> list[str]:
+    """그 지역 사진의 실제 파일 경로. 같은 장소가 몰리지 않게 섞는다.
+
+    **도시가 맞는 사진을 먼저 쓴다.** 베트남 41장을 한 덩어리로 쓰면 다낭
+    영상에 하노이·하롱베이 사진이 섞인다. 다낭 편에 하노이 훅교가 나오면
+    그건 그냥 틀린 화면이다. 도시 태그가 있는 것 → 태그 없는 것(그 지역
+    어디서나 통하는 사진) 순으로 주고, 다른 도시 사진은 주지 않는다.
+    """
+    from src.photos import load_manifest
+    manifest = load_manifest()
+    entries = [e for e in (manifest.get(region) or []) if e.get("file")]
+    if city:
+        mine = [e for e in entries if (e.get("city") or "") in ("", city)]
+        if any((e.get("city") or "") == city for e in mine):
+            entries = mine
+        else:
+            # 그 도시 사진이 한 장도 없으면 태그 없는 것만 쓴다
+            entries = [e for e in entries if not (e.get("city") or "")]
+    if not entries:
+        return []
+    # 원본 폴더가 곧 장소다. 폴더를 돌아가며 뽑아야 한 장소만 반복되지 않는다
+    by_place: dict[str, list[str]] = {}
+    for e in entries:
+        place = os.path.basename(os.path.dirname(e.get("src") or "")) or "?"
+        if os.path.exists(e["file"]):
+            by_place.setdefault(place, []).append(e["file"])
+    out, places = [], sorted(by_place)
+    i = 0
+    while any(by_place.values()):
+        bucket = by_place[places[i % len(places)]]
+        if bucket:
+            out.append(bucket.pop(0))
+        i += 1
+    return out
+
+
+def photo_bg(path: str) -> Image.Image:
+    """사진을 세로 화면에 꽉 차게 자르고, 글자가 읽히게 어둠을 깐다."""
+    im = ImageOps.exif_transpose(Image.open(path)).convert("RGB")
+    scale = max(W / im.width, H / im.height)
+    im = im.resize((max(W, int(im.width * scale)), max(H, int(im.height * scale))),
+                   Image.LANCZOS)
+    left, top = (im.width - W) // 2, (im.height - H) // 2
+    im = im.crop((left, top, left + W, top + H))
+
+    # 위에서 아래로 짙어지는 막. 글자는 아래쪽에 앉는다.
+    # 아래로 갈수록 짙어진다. 곡선이 완만하면 글자가 앉는 자리(화면 아래
+    # 절반)가 덜 어두워, 밝은 건물이나 하늘 위에서 번호가 안 읽힌다 —
+    # 2026-09-15 실측: "02 / 04" 가 성당 벽에 묻혔다.
+    veil = Image.new("L", (1, H))
+    for y in range(H):
+        t = y / H
+        veil.putpixel((0, y), min(250, int(30 + 215 * (t ** 1.15))))
+    veil = veil.resize((W, H))
+    return Image.composite(Image.new("RGB", (W, H), (8, 10, 14)), im, veil)
+
+
+WHITE = (255, 255, 255)
+DIM = (214, 218, 224)
+
+
+def _base(photo: str | None = None):
+    """사진이 있으면 화면을 꽉 채우고, 없으면 흰 지면으로 간다."""
+    if photo:
+        img = photo_bg(photo)
+        ink, muted = WHITE, DIM
+    else:
+        img = Image.new("RGB", (W, H), PAPER)
+        ink, muted = INK, MUTED
     d = ImageDraw.Draw(img)
     brand = _f(38)
-    d.text((PAD, 96), "와플트립", font=brand, fill=INK)
+    d.text((PAD, 96), "와플트립", font=brand, fill=ink)
     d.text((PAD + d.textlength("와플트립", font=brand), 96), ".",
            font=brand, fill=CORAL)
-    return img, d
+    return img, d, ink, muted
 
 
-def card_open(name: str, count: int, seconds: int = 40) -> Image.Image:
-    img, d = _base()
-    d.text((PAD, H // 2 - 300), "이번 주", font=_f(44), fill=CORAL)
-    big = _f(150)
-    d.text((PAD, H // 2 - 230), name, font=big, fill=INK)
-    d.line([(PAD, H // 2 - 30), (PAD + 160, H // 2 - 30)], fill=CORAL, width=8)
-    d.text((PAD, H // 2 + 10), f"소식 {count}건", font=_f(56), fill=MUTED)
+# 글자는 **아래쪽**에 앉힌다. 사진은 위가 넓게 보여야 사진값을 하고,
+# 세 플랫폼 다 화면 아래를 UI 로 덮으므로 그 위 안전선까지만 쓴다.
+TEXT_TOP = H - SAFE_BOTTOM - 660
+
+
+def card_open(name: str, count: int, seconds: int = 40,
+              photo: str | None = None) -> Image.Image:
+    img, d, ink, muted = _base(photo)
+    y = TEXT_TOP + 180
+    d.text((PAD, y), "이번 주", font=_f(44), fill=CORAL)
+    d.text((PAD, y + 70), name, font=_f(150), fill=ink)
+    d.line([(PAD, y + 270), (PAD + 160, y + 270)], fill=CORAL, width=8)
+    d.text((PAD, y + 310), f"소식 {count}건", font=_f(56), fill=muted)
     # 화면에 적는 숫자는 사실이어야 한다. 무음판은 길이가 대본마다 달라진다.
-    d.text((PAD, H - SAFE_BOTTOM), f"{seconds}초면 다 봅니다", font=_f(40), fill=MUTED)
+    d.text((PAD, H - SAFE_BOTTOM + 60), f"{seconds}초면 다 봅니다",
+           font=_f(40), fill=muted)
     return img
 
 
-def card_fact(n: int, total: int, headline: str, outlet: str) -> Image.Image:
-    img, d = _base()
-    d.text((PAD, 260), f"{n:02d} / {total:02d}", font=_f(40), fill=CORAL)
+def card_fact(n: int, total: int, headline: str, outlet: str,
+              photo: str | None = None) -> Image.Image:
+    img, d, ink, muted = _base(photo)
     head = _f(76)
-    lines = _wrap(d, headline, head, W - PAD * 2)[:6]
-    y = 340
+    lines = _wrap(d, tidy(headline), head, W - PAD * 2)[:5]
+    # 줄 수가 달라도 글자 덩어리의 **아래쪽**이 늘 같은 자리에 오게 한다.
+    y = H - SAFE_BOTTOM - 40 - len(lines) * 104
+    d.text((PAD, y - 80), f"{n:02d} / {total:02d}", font=_f(40), fill=CORAL)
     for line in lines:
-        d.text((PAD, y), line, font=head, fill=INK)
+        d.text((PAD, y), line, font=head, fill=ink)
         y += 104
     if outlet:
-        d.text((PAD, H - SAFE_BOTTOM), f"출처 · {outlet}", font=_f(38), fill=MUTED)
+        d.text((PAD, H - SAFE_BOTTOM + 60), f"출처 · {outlet}",
+               font=_f(38), fill=muted)
     return img
 
 
-def card_close() -> Image.Image:
-    img, d = _base()
-    d.text((PAD, H // 2 - 200), "매일 아침 8시", font=_f(96), fill=INK)
-    d.line([(PAD, H // 2 - 60), (PAD + 160, H // 2 - 60)], fill=CORAL, width=8)
-    d.text((PAD, H // 2 - 10), "waffletrip.com", font=_f(64), fill=CORAL)
-    d.text((PAD, H // 2 + 110), "여행 뉴스를 정리해 올립니다", font=_f(44), fill=MUTED)
+def card_close(photo: str | None = None) -> Image.Image:
+    img, d, ink, muted = _base(photo)
+    y = TEXT_TOP + 240
+    d.text((PAD, y), "매일 아침 8시", font=_f(96), fill=ink)
+    d.line([(PAD, y + 140), (PAD + 160, y + 140)], fill=CORAL, width=8)
+    d.text((PAD, y + 190), "waffletrip.com", font=_f(64), fill=CORAL)
+    d.text((PAD, y + 310), "여행 뉴스를 정리해 올립니다", font=_f(44), fill=muted)
     return img
+
+
+def place_name(key: str) -> str:
+    """도시든 지역이든 우리말 이름. 둘 다 받으므로 한 곳에서 찾는다."""
+    return CITY_NAMES.get(key) or REGION_NAMES.get(key) or key
+
+
+MIN_PHOTOS = 5          # 장면 수만큼은 있어야 같은 사진이 반복되지 않는다
 
 
 def build(city: str) -> list[dict]:
-    if city not in CITY_NAMES:
-        raise SystemExit(f"모르는 도시 '{city}'. {', '.join(CITY_NAMES)}")
-    name = CITY_NAMES[city]
-    region = CITY_REGION[city]
+    """도시도 지역도 받는다.
+
+    괌·사이판·코타키나발루는 도시 목록에 없고 **지역**이다. 그런데 사진이
+    가장 많은 곳이 하필 거기다(괌 26·사이판 53·코타 25). 도시만 받으면
+    사진이 제일 넉넉한 지면을 영상으로 못 만든다.
+    """
+    if city in CITY_NAMES:
+        name, region = CITY_NAMES[city], CITY_REGION[city]
+    elif city in REGION_NAMES:
+        name, region = REGION_NAMES[city], city
+        city = ""                       # 지역 전체 — 도시 태그로 거르지 않는다
+    else:
+        raise SystemExit(
+            f"모르는 곳 '{city}'.\n  도시 {', '.join(CITY_NAMES)}\n"
+            f"  지역 {', '.join(REGION_NAMES)}")
     items = load_items()
     pool = [i for i in items
             if i.get("grade") == "C"
@@ -141,16 +247,28 @@ def build(city: str) -> list[dict]:
         "kind": "close",
         "narration": "와플트립은 매일 아침 여덟 시에 여행 뉴스를 정리해 올립니다.",
     })
+
+    # 장면마다 사진 한 장. 사진이 없으면 **영상을 만들지 않는다** —
+    # 글자만 넘어가는 영상은 릴스가 아니다(2026-09-15 사장님 지적).
+    photos = region_photos(region, city)
+    if len(photos) < MIN_PHOTOS:
+        raise SystemExit(
+            f"{name} 은(는) 쓸 사진이 {len(photos)}장뿐이라 영상을 만들지 않는다.\n"
+            f"  글자만 넘어가는 영상은 릴스가 아니고, 같은 사진을 돌려쓰면\n"
+            f"  그것대로 티가 난다. NAS 에서 더 캐면 그때 생긴다.")
+    for i, sc in enumerate(scenes):
+        sc["photo"] = photos[i % len(photos)]
     return scenes
 
 
 def render(scene: dict) -> Image.Image:
+    ph = scene.get("photo")
     if scene["kind"] == "open":
-        return card_open(scene["name"], scene["count"])
+        return card_open(scene["name"], scene["count"], photo=ph)
     if scene["kind"] == "close":
-        return card_close()
+        return card_close(ph)
     return card_fact(scene["n"], scene["total"], scene["headline"],
-                     scene.get("outlet", ""))
+                     scene.get("outlet", ""), ph)
 
 
 # ── 무음 자막 ────────────────────────────────────────────────────────
@@ -168,18 +286,20 @@ def read_seconds(text: str) -> float:
     return round(max(READ_FLOOR, len(text or "") / READ_CPS + READ_LEAD), 2)
 
 
-def card_caption(n: int, total: int, caption: str, outlet: str) -> Image.Image:
+def card_caption(n: int, total: int, caption: str, outlet: str,
+                 photo: str | None = None) -> Image.Image:
     """무음판 사실 카드. 제목이 아니라 **읽어줄 문장**을 얹는다."""
-    img, d = _base()
-    d.text((PAD, 250), f"{n:02d} / {total:02d}", font=_f(40), fill=CORAL)
+    img, d, ink, muted = _base(photo)
     body = _f(64)
-    lines = _wrap(d, caption, body, W - PAD * 2)[:9]
-    y = 330
+    lines = _wrap(d, tidy(caption), body, W - PAD * 2)[:8]
+    y = H - SAFE_BOTTOM - 40 - len(lines) * 92
+    d.text((PAD, y - 80), f"{n:02d} / {total:02d}", font=_f(40), fill=CORAL)
     for line in lines:
-        d.text((PAD, y), line, font=body, fill=INK)
+        d.text((PAD, y), line, font=body, fill=ink)
         y += 92
     if outlet:
-        d.text((PAD, H - SAFE_BOTTOM), f"출처 · {outlet}", font=_f(38), fill=MUTED)
+        d.text((PAD, H - SAFE_BOTTOM + 60), f"출처 · {outlet}",
+               font=_f(38), fill=muted)
     return img
 
 
@@ -191,12 +311,13 @@ def silent_text(scene: dict) -> str:
 
 
 def render_silent(scene: dict, seconds: int = 40) -> Image.Image:
+    ph = scene.get("photo")
     if scene["kind"] == "open":
-        return card_open(scene["name"], scene["count"], seconds)
+        return card_open(scene["name"], scene["count"], seconds, ph)
     if scene["kind"] == "close":
-        return card_close()
-    return card_caption(scene["n"], scene["total"],
-                        silent_text(scene), scene.get("outlet", ""))
+        return card_close(ph)
+    return card_caption(scene["n"], scene["total"], silent_text(scene),
+                        scene.get("outlet", ""), ph)
 
 
 # 말이 끊긴 제목은 캡션에 쓰지 않는다. 원문이 잘려 들어오는 일이 있다 —
@@ -204,6 +325,25 @@ def render_silent(scene: dict, seconds: int = 40) -> Image.Image:
 # 영상 자막은 화면 안에서 맥락이 잡히지만, 캡션은 그 줄 하나만 읽힌다.
 _DANGLING = ("위해", "위한", "통해", "대한", "따라", "하여", "으로", "로써",
              "에서", "관련", "맞아", "앞두고", "두고", "중인", "면서")
+
+
+# RSS 제목 끝에 분류 딱지가 붙어 들어온다 —
+# "…패키지 출시, , 생활/문화" 실측. 화면에 그대로 얹히면 기사 제목이 아니라
+# 긁어온 티가 난다.
+_TAIL_LABEL = re.compile(
+    r"[,·\s]+(생활/문화|사회|경제|정치|국제|문화|스포츠|연예|종합|IT/과학)\s*$")
+
+
+def tidy(text: str) -> str:
+    """겹쉼표를 줄이고 끝에 붙은 분류 딱지를 뗀다."""
+    t = re.sub(r"[ \t]+", " ", (text or "").strip())
+    t = re.sub(r"(,\s*){2,}", ", ", t)
+    for _ in range(3):
+        new = _TAIL_LABEL.sub("", t).strip(" ,·")
+        if new == t:
+            break
+        t = new
+    return t
 
 
 def _dangling(head: str) -> bool:
@@ -229,14 +369,14 @@ BIG_TAGS = ["#여행", "#해외여행", "#여행스타그램", "#여행에미치
 
 def caption_for(city: str, scenes: list[dict]) -> str:
     """지면에 실은 사실만 옮긴다. 영상에 없는 말은 캡션에도 쓰지 않는다."""
-    name = CITY_NAMES[city]
+    name = place_name(city)
     heads = [h for h in ((sc.get("headline") or "").strip()
                          for sc in scenes if sc.get("kind") == "fact")
              if h and not _dangling(h)]
     # 건수는 **실제로 적은 줄 수**와 같아야 한다. 걸러낸 것까지 세면
     # 캡션이 사실과 어긋난다.
     lines = [f"{name} 이번 주 소식 {len(heads)}건", ""]
-    lines += [f"· {h}" for h in heads]
+    lines += [f"· {tidy(h)}" for h in heads]
     outlets = outlets_of(scenes)
     lines += ["", f"인용 · {' · '.join(outlets)}" if outlets else "",
               "전문은 waffletrip.com", ""]
@@ -283,7 +423,7 @@ def build_silent(city: str, out_dir: str) -> str:
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
     meta = out.rsplit(".", 1)[0] + ".json"
     with open(meta, "w", encoding="utf-8") as fh:
-        meta = {"city": city, "name": CITY_NAMES[city],
+        meta = {"city": city, "name": place_name(city),
                 "caption": caption_for(city, scenes),
                 "outlets": outlets_of(scenes),
                 "kind": "silent", "scenes": len(scenes),
@@ -298,7 +438,7 @@ def build_silent(city: str, out_dir: str) -> str:
     os.makedirs("data", exist_ok=True)
     with open(latest, "w", encoding="utf-8") as fh:
         json.dump({"stem": f"waffletrip-{city}-silent", "city": city,
-                   "name": CITY_NAMES[city], "caption": meta["caption"],
+                   "name": place_name(city), "caption": meta["caption"],
                    "seconds": meta["seconds"],
                    "built_at": datetime.now(KST).isoformat(timespec="seconds")},
                   fh, ensure_ascii=False, indent=2)
