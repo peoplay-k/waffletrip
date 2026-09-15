@@ -1,0 +1,158 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""와플트립 숏폼을 @waffletrip06 릴스로 올린다.
+
+영상은 이미 waffletrip.com 에 공개로 올라가 있어 **인스타가 직접 받아간다.**
+파일을 업로드하지 않으므로 맥이 꺼져 있어도 클라우드에서 돈다.
+
+    python3 tools/publish_instagram.py               # 확인만(발행 안 함)
+    python3 tools/publish_instagram.py --post        # 실제 발행
+
+환경변수: WAFFLETRIP_IG_USER_ID, WAFFLETRIP_IG_ACCESS_TOKEN
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import sys
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+from datetime import datetime, timedelta, timezone
+
+HOST = "https://graph.instagram.com"
+VER = "v21.0"
+KST = timezone(timedelta(hours=9))
+SITE = "https://waffletrip.com"
+VIDEO_DIR = os.path.join("static", "video")
+POSTED = os.path.join("data", "instagram_posted.json")
+MIN_GAP_HOURS = 18      # 하루 1편. 예비 크론이 자정을 넘겨도 두 번 안 나간다
+
+
+def api(method: str, path: str, params: dict) -> dict:
+    url = f"{HOST}/{VER}/{path}"
+    data = urllib.parse.urlencode(params).encode()
+    req = (urllib.request.Request(url, data=data)
+           if method == "POST" else
+           urllib.request.Request(f"{url}?{urllib.parse.urlencode(params)}"))
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        raise SystemExit(f"[중단] {method} {path} — {e.read().decode()[:400]}")
+
+
+def load_posted() -> dict:
+    if os.path.exists(POSTED):
+        with open(POSTED, encoding="utf-8") as fh:
+            return json.load(fh)
+    return {"posted": [], "log": []}
+
+
+def pick(state: dict) -> dict | None:
+    """아직 안 올린 숏폼 하나. 같은 것을 두 번 올리지 않는다."""
+    done = set(state.get("posted", []))
+    for name in sorted(os.listdir(VIDEO_DIR)):
+        if not (name.endswith("-silent.json")):
+            continue
+        stem = name[: -len(".json")]
+        if stem in done:
+            continue
+        with open(os.path.join(VIDEO_DIR, name), encoding="utf-8") as fh:
+            meta = json.load(fh)
+        if not os.path.exists(os.path.join(VIDEO_DIR, stem + ".mp4")):
+            continue
+        meta["stem"] = stem
+        meta["video_url"] = f"{SITE}/video/{stem}.mp4"
+        return meta
+    return None
+
+
+def too_soon(state: dict) -> float:
+    log = state.get("log") or []
+    if not log:
+        return 0.0
+    last = datetime.strptime(log[-1]["at"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=KST)
+    gap = (datetime.now(KST) - last).total_seconds() / 3600
+    return max(0.0, MIN_GAP_HOURS - gap)
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--post", action="store_true", help="실제로 발행한다")
+    args = ap.parse_args()
+
+    uid = os.environ.get("WAFFLETRIP_IG_USER_ID", "").strip()
+    tok = os.environ.get("WAFFLETRIP_IG_ACCESS_TOKEN", "").strip()
+    if not uid or not tok:
+        print("[중단] WAFFLETRIP_IG_USER_ID / WAFFLETRIP_IG_ACCESS_TOKEN 이 없습니다.",
+              file=sys.stderr)
+        return 1
+
+    # ★계정을 확인하고 나서 올린다. 토큰이 바뀌어 엉뚱한 계정으로 나가면
+    # 되돌릴 수 없다(다른 브랜드에서 실제로 났던 사고다).
+    me = api("GET", "me", {"fields": "id,username", "access_token": tok})
+    if me.get("username") != "waffletrip06":
+        print(f"[중단] 토큰이 가리키는 계정이 waffletrip06 이 아닙니다: {me}",
+              file=sys.stderr)
+        return 1
+    print(f"계정 확인 · @{me['username']}")
+
+    state = load_posted()
+    wait = too_soon(state)
+    if wait > 0:
+        print(f"아직 {wait:.1f}시간 남았습니다 — 하루 1편. 건너뜁니다.")
+        return 0
+
+    nxt = pick(state)
+    if not nxt:
+        print("올릴 숏폼이 없습니다 — 큐가 비었습니다.")
+        return 0
+
+    print(f"다음 편 · {nxt['stem']} ({nxt.get('seconds')}초)")
+    print(f"  {nxt['video_url']}")
+    print("  ── 캡션 ──")
+    for line in (nxt.get("caption") or "").splitlines():
+        print(f"  {line}")
+
+    if not args.post:
+        print("\n확인만 했습니다. 실제로 올리려면 --post 를 붙이세요.")
+        return 0
+
+    c = api("POST", f"{uid}/media", {
+        "media_type": "REELS", "video_url": nxt["video_url"],
+        "caption": nxt.get("caption") or "", "access_token": tok,
+    })
+    cid = c["id"]
+    print(f"  container_id={cid}")
+
+    for i in range(30):                    # 인스타가 영상을 받아 처리할 때까지
+        st = api("GET", cid, {"fields": "status_code", "access_token": tok})
+        if st.get("status_code") == "FINISHED":
+            break
+        if st.get("status_code") == "ERROR":
+            raise SystemExit(f"[중단] 인스타 영상 처리 실패: {st}")
+        print(f"  처리 중… ({i + 1}/30)")
+        time.sleep(10)
+    else:
+        raise SystemExit("[중단] 영상 처리 시간 초과")
+
+    r = api("POST", f"{uid}/media_publish", {"creation_id": cid, "access_token": tok})
+    print(f"[발행 완료] media_id={r['id']}")
+
+    state.setdefault("posted", []).append(nxt["stem"])
+    state.setdefault("log", []).append({
+        "file": nxt["stem"], "media_id": r["id"],
+        "at": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S"),
+    })
+    os.makedirs(os.path.dirname(POSTED), exist_ok=True)
+    with open(POSTED, "w", encoding="utf-8") as fh:
+        json.dump(state, fh, ensure_ascii=False, indent=2)
+    print("[기록 완료]")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

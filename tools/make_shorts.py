@@ -23,6 +23,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -34,6 +35,9 @@ from src.cities import CITY_NAMES, CITY_REGION
 from src.models import REGION_NAMES
 from make_longform import _f, _sentence, _wrap, CORAL, INK, LINE, MUTED, PAPER
 from video_brief import _speakable, facts_from, load_items
+
+# 통신사 리드에서 앞머리를 뗀 뒤 남는 날짜 조각("1일 …", "9월 3일 …")
+_LEDE_DATE = re.compile(r"^(\d{1,2}월\s*)?\d{1,2}일\s+")
 
 W, H = 1080, 1920
 PAD = 84
@@ -110,7 +114,15 @@ def build(city: str) -> list[dict]:
     }]
     for n, fact in enumerate(facts, 1):
         # 쇼츠는 한 화면에 한 문장이다. 요약이 길면 제목만 읽는다.
-        line = _sentence(fact["summary"], 70) or _speakable(fact["headline"], 70)
+        summary = _sentence(fact["summary"], 70)
+        # 통신사 리드는 "[서울=뉴시스] 홍길동 기자 = 1일 태국 방콕에…" 꼴이라,
+        # 앞머리를 떼고 나면 날짜 조각으로 시작한다. 화면에 "1일 태국 방콕에
+        # 위치한…" 이 걸리면 읽는 사람은 무슨 1일인지 알 수 없다. 날짜를
+        # 잘라내는 대신 **제목으로 바꾼다** — "1일 왕복 2회" 같은 것을
+        # 잘못 자르지 않으려면 이쪽이 안전하다.
+        if _LEDE_DATE.match(summary or ""):
+            summary = ""
+        line = summary or _speakable(fact["headline"], 70)
         if not line:
             continue
         cite = f"{fact['outlet']} 보도" if fact["outlet"] else "현지 보도"
@@ -185,6 +197,52 @@ def render_silent(scene: dict, seconds: int = 40) -> Image.Image:
                         silent_text(scene), scene.get("outlet", ""))
 
 
+# 말이 끊긴 제목은 캡션에 쓰지 않는다. 원문이 잘려 들어오는 일이 있다 —
+# 실측: "다낭 관광의 브랜드 이미지를 향상시키기 위해" 가 그대로 나갈 뻔했다.
+# 영상 자막은 화면 안에서 맥락이 잡히지만, 캡션은 그 줄 하나만 읽힌다.
+_DANGLING = ("위해", "위한", "통해", "대한", "따라", "하여", "으로", "로써",
+             "에서", "관련", "맞아", "앞두고", "두고", "중인", "면서")
+
+
+def _dangling(head: str) -> bool:
+    return head.endswith(_DANGLING)
+
+
+def outlets_of(scenes: list[dict]) -> list[str]:
+    """인용한 매체. 사실은 각 매체의 보도이고 우리가 한 것은 고르고 묶은 일이다."""
+    out, seen = [], set()
+    for sc in scenes:
+        o = (sc.get("outlet") or "").strip()
+        if o and o not in seen:
+            seen.add(o)
+            out.append(o)
+    return out
+
+
+# 해시태그는 **큰 것부터** 단다. 팔로워가 적은 계정은 도달이 거의 전부
+# 탐색 탭에서 오는데, 니치 태그만 달면 노출 면적 자체가 사라진다.
+# (실측: 니치만 달았을 때 도달 197 → 83)
+BIG_TAGS = ["#여행", "#해외여행", "#여행스타그램", "#여행에미치다", "#travel"]
+
+
+def caption_for(city: str, scenes: list[dict]) -> str:
+    """지면에 실은 사실만 옮긴다. 영상에 없는 말은 캡션에도 쓰지 않는다."""
+    name = CITY_NAMES[city]
+    heads = [h for h in ((sc.get("headline") or "").strip()
+                         for sc in scenes if sc.get("kind") == "fact")
+             if h and not _dangling(h)]
+    # 건수는 **실제로 적은 줄 수**와 같아야 한다. 걸러낸 것까지 세면
+    # 캡션이 사실과 어긋난다.
+    lines = [f"{name} 이번 주 소식 {len(heads)}건", ""]
+    lines += [f"· {h}" for h in heads]
+    outlets = outlets_of(scenes)
+    lines += ["", f"인용 · {' · '.join(outlets)}" if outlets else "",
+              "전문은 waffletrip.com", ""]
+    tags = [f"#{name}", f"#{name}여행", f"#{name}자유여행"] + BIG_TAGS
+    lines.append(" ".join(tags))
+    return "\n".join(x for x in lines if x is not None).strip()
+
+
 def build_silent(city: str, out_dir: str) -> str:
     """무음 자막 쇼츠를 만든다. 오디오 트랙이 아예 없다."""
     import subprocess
@@ -223,7 +281,10 @@ def build_silent(city: str, out_dir: str) -> str:
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
     meta = out.rsplit(".", 1)[0] + ".json"
     with open(meta, "w", encoding="utf-8") as fh:
-        json.dump({"city": city, "kind": "silent", "scenes": len(scenes),
+        json.dump({"city": city, "name": CITY_NAMES[city],
+                   "caption": caption_for(city, scenes),
+                   "outlets": outlets_of(scenes),
+                   "kind": "silent", "scenes": len(scenes),
                    "seconds": round(total_sec, 1),
                    "poster": "/video/" + os.path.basename(poster),
                    "note": "무음. 발행 앱에서 트렌드 음원을 얹는다."},

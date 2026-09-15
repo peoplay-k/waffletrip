@@ -43,6 +43,9 @@ def _sentence(text: str, limit: int) -> str:
     return first
 
 KST = timezone(timedelta(hours=9))
+# 통신사 리드에서 앞머리를 뗀 뒤 남는 날짜 조각("1일 …", "9월 3일 …")
+_LEDE_DATE = re.compile(r"^(\d{1,2}월\s*)?\d{1,2}일\s+")
+
 W, H = 1920, 1080
 # 한글 폰트. 맥에서 만들고 리눅스(CI)에서도 만든다. 리눅스 러너에는 애플
 # 폰트가 없고, PIL 의 기본 폰트는 한글을 못 그려 화면이 네모로 찬다.
@@ -266,8 +269,15 @@ def build_script(items: list[dict]) -> list[dict]:
         for n, fact in enumerate(facts, 1):
             # 요약이 한 문장으로 끝나면 그걸 읽고, 아니면 제목을 읽는다.
             # 제목은 원래 한 덩어리라 중간에서 끊기지 않는다.
-            line = _sentence(fact["summary"], 100) or _speakable(
-                fact["headline"], 100)
+            summary = _sentence(fact["summary"], 100)
+            # 통신사 리드는 "[서울=뉴시스] 홍길동 기자 = 1일 태국 방콕에…" 꼴이라,
+            # 앞머리를 떼고 나면 날짜 조각으로 시작한다. 화면에 "1일 태국 방콕에
+            # 위치한…" 이 걸리면 읽는 사람은 무슨 1일인지 알 수 없다. 날짜를
+            # 잘라내는 대신 **제목으로 바꾼다** — "1일 왕복 2회" 같은 것을
+            # 잘못 자르지 않으려면 이쪽이 안전하다.
+            if _LEDE_DATE.match(summary or ""):
+                summary = ""
+            line = summary or _speakable(fact["headline"], 100)
             if not line:
                 continue
             cite = f"{fact['outlet']} 보도" if fact["outlet"] else "현지 보도"
