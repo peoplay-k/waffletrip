@@ -878,6 +878,7 @@
     "63b78a6630fdaa972913c919983c832a1b88dc17",
     "63e9182c22f9b8093d90821f5a963b00704e9c85",
     "641fb374a2d400057a846b890f387862dc9b688a",
+    "646263a7960e65b6f4963adacdd6b17e219c2d26",
     "646f8609d79c7c13c90d23fd3f678b8b00dd7230",
     "6477c224a3c6f74c22f0ced817b4f63384b52b18",
     "648f5cc55922cdb33d5c992a75298fbb3790cefe",
@@ -2259,6 +2260,7 @@
     "fde0d1483fabb3da0622476ccff11ed6508a2b58",
     "fdff75a406a89ebdc9478364ab7561a4c9b006e3",
     "fe052a6ca7fb2039edaf1e5cc524f2d1a2cc66be",
+    "fe1144adb19f1ffad812f4ef7862e10969f082c2",
     "fe2f52c825332994d3f859ac23f6015115148bd7",
     "fe3969aed6cd1830dae320b3df126213fc05d059",
     "fe3a5da6d53d0183a428b2bcea73b096fbedb8b8",
@@ -17644,6 +17646,20 @@
     {
       "id": "37ad760c0fbaeb4a54b24704abb8b4446aa1825d",
       "title": "일본 대중에게 호이안과 다낭의 문화유산과 관광을 홍보합니다.",
+      "date": "2026-09-15",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "646263a7960e65b6f4963adacdd6b17e219c2d26",
+      "title": "겨울 여행 미리 준비…에어프레미아, 삿포로 노선 신규 취항",
+      "date": "2026-09-15",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "fe1144adb19f1ffad812f4ef7862e10969f082c2",
+      "title": "나트랑 해변 달리기 대회 시작, 장애 아동 수술 기금 마련",
       "date": "2026-09-15",
       "region": "vietnam",
       "grade": "B"
