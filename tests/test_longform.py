@@ -94,11 +94,19 @@ def test_환율표가_바닥선을_넘지_않는다(n):
     """
     import make_longform as lf
 
-    rows = [(f"지역{i}", f"1 USD = 약 {1000 + i}원") for i in range(n)]
     top, floor_y = 370, lf.H - 96 - 40
-    pitch = min(96, (floor_y - top) // max(len(rows), 1))
-    마지막_밑줄 = top + (len(rows) - 1) * pitch + pitch - 20
-    assert 마지막_밑줄 < lf.H - 96, f"{n}줄일 때 바닥선을 넘는다: {마지막_밑줄}"
+    pitch = min(96, (floor_y - top) // max(n, 1))
+
+    # 마지막 줄이 통째로 바닥선 위에 들어가야 한다
+    마지막_줄_바닥 = top + n * pitch
+    assert 마지막_줄_바닥 < lf.H - 96, f"{n}줄일 때 바닥선을 넘는다: {마지막_줄_바닥}"
+
+    # 글자도 같이 줄어야 한다. 간격만 줄였더니 밑줄이 값 글자를 관통했다
+    # (2026-09-15 라이브 실측 — 같은 카드에서 두 번 깨졌다).
+    name_size = min(48, pitch - 26)
+    value_size = min(42, pitch - 32)
+    assert name_size > 0 and value_size > 0, f"{n}줄일 때 글자가 사라진다"
+    assert name_size + 14 < pitch, f"{n}줄일 때 글자가 간격보다 크다"
 
     # 그림까지 그려 보지는 않는다. CI 는 테스트를 폰트 설치보다 **먼저**
     # 돌려서 `_f()` 가 "한글 폰트를 찾지 못했다" 로 죽는다. 2026-09-15 에

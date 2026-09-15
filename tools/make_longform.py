@@ -169,18 +169,28 @@ def card_data(rows: list[tuple[str, str]]) -> Image.Image:
     d.text((PAD, 190), "오늘의 데이터", font=_f(34), fill=CORAL)
     d.text((PAD, 240), "환율과 날씨는 저희가 매일 직접 만듭니다",
            font=_f(40), fill=MUTED)
-    # 줄 간격을 남은 공간에 맞춰 잰다. 96 으로 고정했더니 일곱 줄일 때
-    # 마지막 밑줄이 y=1020 까지 내려가 바닥선(y=984)과 겹쳤다.
-    # 2026-09-15 라이브 실측: 하와이 줄이 "waffletrip.com" 위에 포개졌다.
+    # 줄 수가 늘면 **간격도 글자도** 같이 줄인다. 셋 다 고정이었더니
+    # 2026-09-15 라이브에서 두 번 깨졌다 — 일곱 줄일 때는 마지막 밑줄이
+    # 바닥선을 넘었고, 간격만 줄였더니 이번엔 밑줄이 값 글자를 관통했다.
     top, floor_y = 370, H - 96 - 40     # 바닥선 위로 40px 은 비워 둔다
-    rows = rows[:8]
+    rows = rows[:9]
     pitch = min(96, (floor_y - top) // max(len(rows), 1))
+    name_f = _f(min(48, pitch - 26))
+    value_f = _f(min(42, pitch - 32))
+
+    # 값이 시작하는 자리는 **가장 긴 이름** 뒤로 잡는다. 300 으로 박아
+    # 뒀더니 "코타키나발루" 가 값과 맞붙었다.
+    label_w = max((d.textlength(n, font=name_f) for n, _ in rows), default=0)
+    value_x = PAD + max(300, int(label_w) + 48)
+
     y = top
     for name, value in rows:
-        d.text((PAD, y), name, font=_f(48), fill=INK)
-        d.text((PAD + 300, y + 6), value, font=_f(42), fill=MUTED)
-        d.line([(PAD, y + pitch - 20), (W - PAD, y + pitch - 20)],
-               fill=LINE, width=2)
+        d.text((PAD, y), name, font=name_f, fill=INK)
+        d.text((value_x, y + 6), value, font=value_f, fill=MUTED)
+        # 밑줄은 글자 아래로. 글자 높이를 재서 그 밑에 긋는다.
+        below = max(d.textbbox((0, y), name, font=name_f)[3],
+                    d.textbbox((0, y + 6), value, font=value_f)[3])
+        d.line([(PAD, below + 8), (W - PAD, below + 8)], fill=LINE, width=2)
         y += pitch
     return img
 
