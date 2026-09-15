@@ -24,6 +24,7 @@ import argparse
 import json
 import os
 import re
+from datetime import datetime, timedelta, timezone
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -155,6 +156,7 @@ def render(scene: dict) -> Image.Image:
 # ── 무음 자막 ────────────────────────────────────────────────────────
 # 목소리가 없으면 화면이 정보를 전부 져야 한다. 나레이션으로 읽어줄 문장을
 # 그대로 얹는다. 짧게 줄이면 무음 영상은 아무 말도 하지 않는 영상이 된다.
+KST = timezone(timedelta(hours=9))
 FPS = 30
 READ_CPS = 8.5          # 초당 읽는 글자. 폰으로 편하게 읽히는 속도
 READ_FLOOR = 2.8        # 아무리 짧아도 이만큼은 둔다
@@ -281,13 +283,24 @@ def build_silent(city: str, out_dir: str) -> str:
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
     meta = out.rsplit(".", 1)[0] + ".json"
     with open(meta, "w", encoding="utf-8") as fh:
-        json.dump({"city": city, "name": CITY_NAMES[city],
-                   "caption": caption_for(city, scenes),
-                   "outlets": outlets_of(scenes),
-                   "kind": "silent", "scenes": len(scenes),
-                   "seconds": round(total_sec, 1),
-                   "poster": "/video/" + os.path.basename(poster),
-                   "note": "무음. 발행 앱에서 트렌드 음원을 얹는다."},
+        meta = {"city": city, "name": CITY_NAMES[city],
+                "caption": caption_for(city, scenes),
+                "outlets": outlets_of(scenes),
+                "kind": "silent", "scenes": len(scenes),
+                "seconds": round(total_sec, 1),
+                "poster": "/video/" + os.path.basename(poster),
+                "note": "무음. 발행 앱에서 트렌드 음원을 얹는다."}
+        json.dump(meta, fh, ensure_ascii=False, indent=2)
+    # 발행 잡은 저장소를 새로 받아온다. `static/video` 의 숏폼 메타는
+    # gitignore 라 거기엔 없다. 그래서 **글자만 담은 작은 파일**을 따로
+    # 남겨 커밋한다 — 이게 없으면 발행기가 오늘 뭘 올릴지 알 수 없다.
+    latest = os.path.join("data", "shorts_latest.json")
+    os.makedirs("data", exist_ok=True)
+    with open(latest, "w", encoding="utf-8") as fh:
+        json.dump({"stem": f"waffletrip-{city}-silent", "city": city,
+                   "name": CITY_NAMES[city], "caption": meta["caption"],
+                   "seconds": meta["seconds"],
+                   "built_at": datetime.now(KST).isoformat(timespec="seconds")},
                   fh, ensure_ascii=False, indent=2)
     return out
 

@@ -51,11 +51,31 @@ def load_posted() -> dict:
     return {"posted": [], "log": []}
 
 
+LATEST = os.path.join("data", "shorts_latest.json")
+
+
 def pick(state: dict) -> dict | None:
-    """아직 안 올린 숏폼 하나. 같은 것을 두 번 올리지 않는다."""
+    """오늘 구운 숏폼. 같은 것을 두 번 올리지 않는다.
+
+    `data/shorts_latest.json` 을 먼저 본다. 발행 잡은 저장소를 새로 받아오는데
+    `static/video` 의 숏폼 메타는 gitignore 라 거기엔 없다 — 그래서 빌드가
+    글자만 담은 이 파일을 커밋해 둔다. 없으면 로컬 폴더를 훑는다(손으로 돌릴 때).
+    """
     done = set(state.get("posted", []))
+
+    if os.path.exists(LATEST):
+        with open(LATEST, encoding="utf-8") as fh:
+            meta = json.load(fh)
+        stem = meta.get("stem", "")
+        if stem and stem not in done:
+            meta["video_url"] = f"{SITE}/video/{stem}.mp4"
+            return meta
+        return None
+
+    if not os.path.isdir(VIDEO_DIR):
+        return None
     for name in sorted(os.listdir(VIDEO_DIR)):
-        if not (name.endswith("-silent.json")):
+        if not name.endswith("-silent.json"):
             continue
         stem = name[: -len(".json")]
         if stem in done:
@@ -120,6 +140,17 @@ def main() -> int:
     if not args.post:
         print("\n확인만 했습니다. 실제로 올리려면 --post 를 붙이세요.")
         return 0
+
+    # 인스타가 받아갈 주소가 실제로 살아 있는지 먼저 본다. 배포가 늦어
+    # 어제 파일이 걸려 있거나 404 면 여기서 멈추는 편이 낫다.
+    try:
+        req = urllib.request.Request(nxt["video_url"], method="HEAD")
+        with urllib.request.urlopen(req, timeout=30) as r:
+            size = int(r.headers.get("Content-Length") or 0)
+        print(f"  영상 확인 · {size // 1024}KB")
+    except Exception as e:
+        print(f"[중단] 영상 주소를 못 읽었습니다: {e}", file=sys.stderr)
+        return 1
 
     c = api("POST", f"{uid}/media", {
         "media_type": "REELS", "video_url": nxt["video_url"],
