@@ -440,6 +440,7 @@
     "2f06a7c0305e071ff4fe88869f855aa462b04e8e",
     "2f10d9e92c1c736162d31b0199a435de80757258",
     "2f2eedbb95d45bef57df1334191fa23bfb3351e5",
+    "2f30a6d67f53c3c4150eb5430453cfd31eb126c6",
     "2f347c2bf30676ff19d42d7e21afdd9c4bab2e97",
     "2f3f676a90596b39197f09fa20661eaf5a552678",
     "2f4219ee8926f0305b21204fb241db3acc601160",
@@ -555,6 +556,7 @@
     "3c60dc3f2000735bfba8cfa9eeaa56f4850ac766",
     "3c8ec1ee8964b968cbd1fdb7a535f62d21f1d226",
     "3c921ee86ad4491f7ba9fa6ca96eb3506ef13061",
+    "3cce7ec7967ca01becb7b79c55e43a7c739ab497",
     "3ceec9be8a8cd6275bf8fa326319fd24bb7d3425",
     "3cf3057da448a7a2c459b574b0d4b8fb3ee8ffd5",
     "3d572ad638a69584aee6d4375b03c04667661668",
@@ -881,6 +883,7 @@
     "5fdbe3560a40fe309e59363e20ee914607d609b6",
     "5fe75042fae6e946e29bd4a3896212fbbe3a4429",
     "6008e8ca361af75c4a2498268f2cd2574642f2a8",
+    "602bbf71f5ab17f56e4f3a3a77956ab38ade895d",
     "60531402bbd15fbd4e1946d1765f236a5d8811f6",
     "609d338c0af5e608e589b718559c57b993996727",
     "60a2afe20b9161bd7fe449109f619a70a4dc61e9",
@@ -1601,6 +1604,7 @@
     "b1ff41a32a5830acfc83717d1f1ee82bbb901e9b",
     "b203b0233850265b0332e27ef12a55fb7d309e3e",
     "b245d48e26fbd97172b613b74118872abbcb4837",
+    "b247f84530741e68d82d84fd283249644663762e",
     "b256e043321889a92e2647f3008cabd68d4e4ea3",
     "b2a0a2db8378a37b9614c3a311b2f6243800637c",
     "b2c67582362784404ced235ec29517dc10043925",
@@ -1647,6 +1651,7 @@
     "b59e68e427e3ce233d8e0d7ff8e5c803c505f6ab",
     "b5c1a29aa5f005c5775baa05169f3789baa06a65",
     "b5d2d275f6c55b30d9004411dabcef3c2bd6a6b2",
+    "b5d31036f6bf753215501c0f143cd1ded10f5305",
     "b61b045ffc5c08f68bfcf32c6bf2affef7f98e45",
     "b625fabba1b5b47722d7e8431d540a326cb69b19",
     "b63c3b5cefbe1740b0d648b5bd59916b1170292a",
@@ -1769,6 +1774,7 @@
     "c0a2b93a977c031c7004036146db7294816887ba",
     "c0ac53450083b4cd494490fdc8ed6593a23c5012",
     "c0ae7eb5319670a740d706282f257effadaa8551",
+    "c0dbfb02b6e5d3fce1c7408a3a5d618dc1bdde27",
     "c0ee47aec2ec093177ac72237173cccc59d9cbf1",
     "c139eb5e56b82a85c0ccc453d6c346662634f2ba",
     "c1684965baaf57da70e24cdbc8f4a412f2afc5b4",
@@ -2049,6 +2055,7 @@
     "dd353562fd37c77968e3501a4e9aeb455de634ec",
     "dd77b6bfa8f3492a87dec557e661d68cba286fc4",
     "dd817150908a81d9555952ce880a9d53bd3ad2c0",
+    "ddb6e776461f02f121af66a0b49ae44df120c692",
     "de404d7ced70c81574c4654366bb8279cb3e2b18",
     "de4cf07deb0a8c16a0983e576cca78b4b4b5685c",
     "de6847fe14d41dc5140137d308c44b1040c49e53",
@@ -18526,6 +18533,55 @@
       "title": "VPUB – 디엔비엔 주 대표단이 라오스와 태국을 방문하여 관광 개발 연계를 증진하기 위한 활동을 펼쳤습니다.",
       "date": "2026-09-16",
       "region": "laos",
+      "grade": "B"
+    },
+    {
+      "id": "b5d31036f6bf753215501c0f143cd1ded10f5305",
+      "title": "일본 자위대 무인정찰기 동해상서 실종…기체 추정 물체 발견",
+      "date": "2026-09-16",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "ddb6e776461f02f121af66a0b49ae44df120c692",
+      "title": "현대차그룹, 제주 그린수소 포럼서 수소 모빌리티 역할 강조",
+      "date": "2026-09-16",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "c0dbfb02b6e5d3fce1c7408a3a5d618dc1bdde27",
+      "title": "태국 2026 왕실 바지선 행렬 개최… 11월 본의식 앞두고 9월부터 대규모 리허설",
+      "date": "2026-09-16",
+      "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "b247f84530741e68d82d84fd283249644663762e",
+      "title": "일본: 1억 1천만 달러 상당의 정찰기가 연락이 두절되어 해상에 추락한 것으로 추정된다.",
+      "date": "2026-09-16",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "3cce7ec7967ca01becb7b79c55e43a7c739ab497",
+      "title": "2 dead, 3 injured in crash near Lolo, drug use suspected by Montana Highway Patrol",
+      "date": "2026-09-16",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "2f30a6d67f53c3c4150eb5430453cfd31eb126c6",
+      "title": "One Family Vacation Upgrade Parents Want Has Nothing to Do With the Hotel",
+      "date": "2026-09-16",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "602bbf71f5ab17f56e4f3a3a77956ab38ade895d",
+      "title": "일본 가나가와현에서 베트남 관광을 홍보합니다 - 국제협력기구",
+      "date": "2026-09-16",
+      "region": "japan",
       "grade": "B"
     }
   ]
