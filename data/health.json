@@ -71,8 +71,8 @@
     },
     {
       "date": "2026-09-16",
-      "collected": 663,
-      "published": 72,
+      "collected": 666,
+      "published": 73,
       "failed_sources": [
         "guam_pdn",
         "guam_post"

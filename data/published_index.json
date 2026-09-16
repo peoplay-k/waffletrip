@@ -121,6 +121,7 @@
     "0c848c5ac1e79b8915c79c3cc188a144448a7800",
     "0cf73f6955b5a3ec9a32d462b19597282300de73",
     "0d021e30dad8be41c6ca183af74c320a96d7ee57",
+    "0d240ac340a9dcd5015d4f070054eb7416145cd8",
     "0d33f3ad948ecc6906d2b228320e5823e468331a",
     "0d4aab72e3c78095a8a17a5b7517ab08e786c533",
     "0d7aafbaf54f89b87a1fc01ccae5d005809191c2",
@@ -18380,14 +18381,14 @@
     },
     {
       "id": "29111ad081b1406b68eeed0fb440f952cf782dbf",
-      "title": "First Alert Forecast: Wet Weather On the Way",
+      "title": "오아후 윈드워드·마우이 동부에 소나기, 앞바다엔 더 강한 비",
       "date": "2026-09-16",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "d9c2b4c88a85bffdd264b71c2c6cf6c8eb4b0b38",
-      "title": "PMRF dims lights to protect fledgling seabirds on Kauai",
+      "title": "카우아이 PMRF, 12월15일까지 바닷새 보호 위해 조명 낮춘다",
       "date": "2026-09-16",
       "region": "hawaii",
       "grade": "B"
@@ -18506,14 +18507,14 @@
     },
     {
       "id": "767825e2cc85192cdae8f4f5ae16237f1219002d",
-      "title": "AirAsia Starts Kota Kinabalu – Sibu and Kota Kinabalu – Bintulu Flights in November 2026",
+      "title": "에어아시아, 11월부터 코타키나발루~시부·코타키나발루~빈툴루 노선 신설",
       "date": "2026-09-16",
       "region": "kota",
       "grade": "B"
     },
     {
       "id": "dd817150908a81d9555952ce880a9d53bd3ad2c0",
-      "title": "Delegates want to expand visa waiver program to improve tourism in Guam, CNMI",
+      "title": "괌·북마리아나 비자면제 확대 법안 발의, 필리핀·베트남 등 포함",
       "date": "2026-09-16",
       "region": "guam",
       "grade": "B"
@@ -18656,6 +18657,13 @@
       "title": "Man found dead in flood-ravaged Wainiha after Hurricane Lowell",
       "date": "2026-09-16",
       "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "0d240ac340a9dcd5015d4f070054eb7416145cd8",
+      "title": "Uzbek mother-son duo arrested over $4,000 Changi Airport shop thefts",
+      "date": "2026-09-16",
+      "region": "vietnam",
       "grade": "B"
     },
     {
