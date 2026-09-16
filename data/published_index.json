@@ -695,6 +695,7 @@
     "4a9639ba4aebe49d7b4cf791ad1a79f470f1561b",
     "4ac7ce8b1ae0b84430d0d5080f6d673e9efe57e2",
     "4b105f86f79f9e4c8abe9881e3ccbfd35cfe1730",
+    "4b17741adcc4da69b3f6e38d4e441d7991e5034b",
     "4b2bf4f2275e839c590c8c820b076b59a2e6c5d0",
     "4b55d0e58483c6b818ced3cc59f627d2c681bc85",
     "4b83744fa0ba5d9e20b587a8479fb533539bbc1d",
@@ -898,6 +899,7 @@
     "617adf4332a8947c57b4d7deeb1ea92720c86cb4",
     "6191f8447a23fba53e59f7ec8425f481e5f24a76",
     "61a2d2ae09a2e5e18da80a3f2b85a281f37353f1",
+    "61bd3a3133d392386bad80945e64c71a1a9c6559",
     "61ceed8c49fe1dcfb746b8eb5e5ba38a69e02369",
     "6212db98eda537c648b70084670c418e266b35fd",
     "62178f8d32bf5af9ac5342940e21f2c93a5baa38",
@@ -1044,6 +1046,7 @@
     "722c9574cd7062b6f1380a7addc8251499ae9b35",
     "725365a05ce42b820e47bda69513207e432aa126",
     "72b123bc279f789d22487957a50fb5c2115b5391",
+    "72dcedeba525341cb7186fdde2d68100621326a1",
     "72e1fedc5ba530a775da536b3dd70bfcc7d71068",
     "7334e9edac7c40ac312cb02bd962e2e266222911",
     "7336d9bb371dddce1710d0b99a5022c0e38d3bd8",
@@ -1120,6 +1123,7 @@
     "7a8d1844e5e8121e1dfae613c6cb2dfd242e691d",
     "7aa402f79e4f9bdfbd84aa76cdfe85609cbe46fd",
     "7abe98376c2c944a1bda2f4f7a8ebeeb6322d102",
+    "7ac4e4ec264822bd290d7420e706abef2995a699",
     "7af74316943b1fbd8d7924f8fdf98d0a69d0ef56",
     "7afb19ee77a47b5900ded9a3b4a298d3dea96abb",
     "7b2c55f6d3ea61241f8d9f255473a14c97f2bf29",
@@ -1748,12 +1752,17 @@
     "c-2967626cfd6c4403a784d2d7f73ab7a55317d0bf",
     "c-2a0155de363558f1d7623398fb03184ef333f6ae",
     "c-2a82e75891fa407360eed25e325cf1f1bf7477ee",
+    "c-2c040ac9240ab8c55731a6842c54cf0a6a8100a5",
     "c-2ccdf87770442f44947cb96be104f193d4a3854a",
     "c-36d2381a59b0c106826d22c54816af2e29721e99",
+    "c-45043eda14ea244ddda25069ef99f408dc411c7b",
     "c-46f969de7e104a2a2663d3e764d46ed0d643a6f9",
     "c-4b85315badf80b1a2a994993056e1a9e17de69ed",
     "c-5149b14bd37255bf7ac3ad6e761c81c83f204c77",
+    "c-58caaf115d87e835b0a3fc605c05e98bf112c539",
     "c-6bca23da2467b9fb59641d9a279c1db34a3216a0",
+    "c-7827d12375eb1d899321e1b535b896e080c93455",
+    "c-7b7ce519f5ce6af7bb9dc703c0c23328aa8703d9",
     "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
     "c-a5911ba8a9be497027995aef8207f85c95438fd4",
     "c-afcabf8c020770d43b528d4f046bd8ee64fb8407",
@@ -1763,6 +1772,7 @@
     "c-d005fb78aa042dc01529263c24b297e69677cace",
     "c-f858426d92f6fe21b440696997346a65f743e70e",
     "c-fb2990625d8cf5f28c8d0904099f8a2e5f81d2cc",
+    "c-fed69cb753b9d6e90cea339f8d93b9d8c22e1467",
     "c004847cd194009d8257ad4f87af5f5629d9ed01",
     "c019d7238582dd35535fd2b729094a990f2944b7",
     "c02481c5dd612623d73174508b05ce040b0c997b",
@@ -18590,6 +18600,76 @@
       "title": "관광 산업 발전을 위해 라오스 및 태국과의 연계 및 협력을 강화합니다.",
       "date": "2026-09-16",
       "region": "laos",
+      "grade": "B"
+    },
+    {
+      "id": "c-58caaf115d87e835b0a3fc605c05e98bf112c539",
+      "title": "에어프레미아 삿포로 12월 2일 취항, 인천발 아침 9시40분",
+      "date": "2026-09-16",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "c-fed69cb753b9d6e90cea339f8d93b9d8c22e1467",
+      "title": "괌 관광객 37% 줄자 나온 카드, 12월 국제 댄스 페스티벌",
+      "date": "2026-09-16",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "c-7b7ce519f5ce6af7bb9dc703c0c23328aa8703d9",
+      "title": "추자도·우도 숙박비 최대 5만원 할인, 부속섬 전용으로 신설",
+      "date": "2026-09-16",
+      "region": "jeju",
+      "grade": "C"
+    },
+    {
+      "id": "c-45043eda14ea244ddda25069ef99f408dc411c7b",
+      "title": "APEC 2027 앞둔 푸꾸옥, 호텔 경쟁 본격화",
+      "date": "2026-09-16",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "c-2c040ac9240ab8c55731a6842c54cf0a6a8100a5",
+      "title": "대만 재방문객 지원금 최대 8000대만달러, 갈수록 보도에서 빠졌다",
+      "date": "2026-09-16",
+      "region": "taiwan",
+      "grade": "C"
+    },
+    {
+      "id": "c-7827d12375eb1d899321e1b535b896e080c93455",
+      "title": "태국 왕실 바지선 행렬, 11월 6일 본행사 앞두고 이달부터 리허설",
+      "date": "2026-09-16",
+      "region": "thailand",
+      "grade": "C"
+    },
+    {
+      "id": "4b17741adcc4da69b3f6e38d4e441d7991e5034b",
+      "title": "제주 드림타워 ‘그랜드 키친’ 전면 리뉴얼…K푸드 강화",
+      "date": "2026-09-16",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "72dcedeba525341cb7186fdde2d68100621326a1",
+      "title": "Man found dead in flood-ravaged Wainiha after Hurricane Lowell",
+      "date": "2026-09-16",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "7ac4e4ec264822bd290d7420e706abef2995a699",
+      "title": "Visit Malaysia 2026 extended through 2027 amid Hormuz, haze disruptions",
+      "date": "2026-09-16",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "61bd3a3133d392386bad80945e64c71a1a9c6559",
+      "title": "日자위대 무인정찰기 글로벌호크 비행 중 통신두절…\"추락 추정\"(종합)",
+      "date": "2026-09-16",
+      "region": "japan",
       "grade": "B"
     }
   ]
