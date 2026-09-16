@@ -183,6 +183,24 @@ def place_name(key: str) -> str:
     return CITY_NAMES.get(key) or REGION_NAMES.get(key) or key
 
 
+MIN_FACTS = 3           # 한 건짜리 영상은 릴스로 낼 값이 안 된다
+
+
+def is_korean(text: str) -> bool:
+    """우리말 글자가 절반을 넘나.
+
+    지역 매체 제목이 영문 그대로 들어온다. 신문 지면은 `title_ko` 로 옮겨
+    싣지만 브리핑 본문은 원문이라, 영상·캡션에는 영어가 그대로 나간다.
+    2026-09-16 실측: 인스타에 "First Alert Forecast: Mostly dry trade winds"
+    한 줄이 그대로 올라갔다. 한국어로 읽는 독자에게 그건 빈 화면과 같다.
+    """
+    letters = [c for c in (text or "") if c.isalpha()]
+    if not letters:
+        return False
+    ko = sum(1 for c in letters if "\uac00" <= c <= "\ud7a3")
+    return ko / len(letters) >= 0.5
+
+
 MIN_PHOTOS = 5          # 장면 수만큼은 있어야 같은 사진이 반복되지 않는다
 
 
@@ -211,9 +229,13 @@ def build(city: str) -> list[dict]:
     if not pool:
         raise SystemExit(f"{name} 브리핑이 없다. 기사가 더 쌓여야 한다.")
     pool.sort(key=lambda i: i.get("published_at") or "", reverse=True)
-    facts = facts_from(pool[0], focus=name)[:MAX_FACTS]
-    if not facts:
-        raise SystemExit(f"{name} 브리핑에 쓸 사실이 없다.")
+    facts = [f for f in facts_from(pool[0], focus=name)
+             if is_korean(f.get("headline") or "")][:MAX_FACTS]
+    if len(facts) < MIN_FACTS:
+        raise SystemExit(
+            f"{name} 은(는) 우리말 소식이 {len(facts)}건뿐이라 영상을 만들지 않는다.\n"
+            f"  한 건짜리 영상은 릴스로 낼 값이 안 되고, 영문 제목은 한국어로\n"
+            f"  읽는 독자에게 빈 화면과 같다.")
 
     scenes = [{
         "kind": "open", "name": name, "count": len(facts),
@@ -524,6 +546,9 @@ def main() -> int:
     ap.add_argument("--city", default="tokyo")
     ap.add_argument("--frames", default="")
     ap.add_argument("--script", action="store_true")
+    ap.add_argument("--rotate", default="",
+                    help="후보를 공백으로 나열한다. 오늘 날짜에서 시작해 "
+                         "**만들 수 있는 첫 곳**을 만든다.")
     ap.add_argument("--voiced", action="store_true",
                     help="나레이션을 얹는다(일레븐랩스 · 크레딧 0원).")
     ap.add_argument("--silent", action="store_true",
@@ -531,7 +556,27 @@ def main() -> int:
     ap.add_argument("--out", default="static/video")
     args = ap.parse_args()
 
-    scenes = build(args.city)
+    # 고정 도시로 하면 그날 그곳에 우리말 소식이 모자랄 때 아무것도 안
+    # 나온다. 2026-09-16 실측: 다섯 곳 중 사이판 하나만 통과했다.
+    # 순서는 유지하되(한 곳만 계속 나가지 않게) **되는 곳까지 내려간다.**
+    if args.rotate:
+        places = args.rotate.split()
+        start = datetime.now(KST).toordinal() % len(places)
+        order = places[start:] + places[:start]
+        for place in order:
+            try:
+                scenes = build(place)
+            except SystemExit as why:
+                print(f"  건너뜀 · {place} — {str(why).splitlines()[0]}")
+                continue
+            args.city = place
+            print(f"오늘 만들 곳: {place}")
+            break
+        else:
+            print("오늘은 만들 수 있는 곳이 없다.", file=sys.stderr)
+            return 0
+    else:
+        scenes = build(args.city)
     chars = sum(len(s["narration"]) for s in scenes)
     print(f"장면 {len(scenes)}개 · {chars}자 · 예상 {chars // 6}초")
     for n, s in enumerate(scenes, 1):

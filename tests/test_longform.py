@@ -200,3 +200,18 @@ def test_하루_한_편은_간격이_아니라_날짜로_센다():
     assert posted_today({"log": [{"at": 어제늦게.strftime("%Y-%m-%d %H:%M:%S")}]}) == ""
     # 오늘 이미 나갔으면 예비 크론이 깨도 막힌다
     assert posted_today({"log": [{"at": 오늘.strftime("%Y-%m-%d %H:%M:%S")}]})
+
+
+def test_영문_제목은_영상에_안_올린다():
+    """지역 매체 제목이 영문 그대로 들어온다.
+
+    2026-09-16 실측: 인스타에 "First Alert Forecast: Mostly dry trade winds"
+    한 줄짜리 하와이 편이 그대로 올라갔다. 한국어로 읽는 독자에게 영문
+    제목은 빈 화면과 같고, 한 건짜리는 릴스로 낼 값이 안 된다.
+    """
+    import make_shorts as ms
+
+    assert ms.is_korean("괌정부관광청, 팸트립 개최")
+    assert not ms.is_korean("First Alert Forecast: Mostly dry trade winds")
+    assert not ms.is_korean("")
+    assert ms.MIN_FACTS >= 3, "한 건짜리 영상은 내지 않는다"
