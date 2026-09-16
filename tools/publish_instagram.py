@@ -28,7 +28,6 @@ KST = timezone(timedelta(hours=9))
 SITE = "https://waffletrip.com"
 VIDEO_DIR = os.path.join("static", "video")
 POSTED = os.path.join("data", "instagram_posted.json")
-MIN_GAP_HOURS = 18      # 하루 1편. 예비 크론이 자정을 넘겨도 두 번 안 나간다
 
 
 def api(method: str, path: str, params: dict) -> dict:
@@ -90,13 +89,22 @@ def pick(state: dict) -> dict | None:
     return None
 
 
-def too_soon(state: dict) -> float:
-    log = state.get("log") or []
-    if not log:
-        return 0.0
-    last = datetime.strptime(log[-1]["at"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=KST)
-    gap = (datetime.now(KST) - last).total_seconds() / 3600
-    return max(0.0, MIN_GAP_HOURS - gap)
+def posted_today(state: dict) -> str:
+    """오늘(한국 날짜) 이미 올렸으면 그 시각. 안 올렸으면 빈 문자열.
+
+    처음에는 "마지막 발행에서 18시간"으로 막았는데, 그게 매일 정해진 시각에
+    도는 일정과 어긋난다. 2026-09-16 실측: 전날 17:14 에 나갔더니 이튿날
+    10:05 회차가 **1.1시간 모자라** 건너뛰었고 그날은 한 편도 안 나갔다.
+    깃허브 크론은 몇 시간씩 밀리므로 간격으로 재면 이런 날이 계속 생긴다.
+
+    "하루 한 편"은 날짜로 세는 것이 맞다. 예비 크론이 같은 날 또 깨도
+    막히고, 날이 바뀌면 시각과 무관하게 나간다.
+    """
+    today = datetime.now(KST).strftime("%Y-%m-%d")
+    for row in reversed(state.get("log") or []):
+        if (row.get("at") or "").startswith(today):
+            return row["at"]
+    return ""
 
 
 def main() -> int:
@@ -121,9 +129,9 @@ def main() -> int:
     print(f"계정 확인 · @{me['username']}")
 
     state = load_posted()
-    wait = too_soon(state)
-    if wait > 0:
-        print(f"아직 {wait:.1f}시간 남았습니다 — 하루 1편. 건너뜁니다.")
+    already = posted_today(state)
+    if already:
+        print(f"오늘 이미 올렸습니다({already}) — 하루 1편. 건너뜁니다.")
         return 0
 
     nxt = pick(state)

@@ -385,6 +385,80 @@ def caption_for(city: str, scenes: list[dict]) -> str:
     return "\n".join(x for x in lines if x is not None).strip()
 
 
+def build_voiced(city: str, out_dir: str) -> str:
+    """나레이션을 얹은 숏폼. 장면 길이를 **말하는 길이**에 맞춘다.
+
+    무음판은 읽는 속도로 길이를 잡았는데, 목소리가 생기면 그럴 이유가 없다.
+    말이 끝나기 전에 화면이 넘어가면 문장이 잘린 것처럼 들린다 —
+    말이 끝나고 짧게 숨을 두고 넘긴다.
+    """
+    import subprocess
+    import tempfile
+
+    import imageio_ffmpeg
+    from narrate import speak
+
+    scenes = build(city)
+    ff = imageio_ffmpeg.get_ffmpeg_exe()
+    work = tempfile.mkdtemp(prefix="waffle-voiced-")
+    TAIL = 0.6                      # 말끝에 두는 숨(초)
+
+    parts, total = [], 0.0
+    for n, scene in enumerate(scenes):
+        mp3 = os.path.join(work, f"a{n:02d}.mp3")
+        speak(scene["narration"], mp3)
+        probe = subprocess.run([ff, "-i", mp3], capture_output=True, text=True)
+        m = re.search(r"Duration: (\d+):(\d+):([\d.]+)", probe.stderr)
+        secs = ((int(m.group(1)) * 3600 + int(m.group(2)) * 60 + float(m.group(3)))
+                if m else 4.0) + TAIL
+        total += secs
+
+        frame = os.path.join(work, f"f{n:02d}.png")
+        render(scene).save(frame)
+        clip = os.path.join(work, f"c{n:02d}.mp4")
+        subprocess.run([
+            ff, "-y", "-loglevel", "error", "-loop", "1", "-i", frame, "-i", mp3,
+            "-filter_complex",
+            f"[1:a]apad=pad_dur={TAIL},aresample=44100[a];"
+            f"[0:v]scale={W}:{H},format=yuv420p,fps={FPS}[v]",
+            "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium",
+            "-crf", "23", "-c:a", "aac", "-b:a", "128k", "-t", f"{secs:.2f}", clip,
+        ], check=True)
+        parts.append(clip)
+
+    listing = os.path.join(work, "list.txt")
+    with open(listing, "w", encoding="utf-8") as fh:
+        for clip in parts:
+            fh.write(f"file '{os.path.abspath(clip)}'\n")
+    os.makedirs(out_dir, exist_ok=True)
+    out = os.path.join(out_dir, f"waffletrip-{city}-voiced.mp4")
+    subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
+                    "-i", listing, "-c", "copy", out], check=True)
+    poster = out.rsplit(".", 1)[0] + ".jpg"
+    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "0.5", "-i", out,
+                    "-frames:v", "1", "-q:v", "3", poster], check=True)
+    _write_meta(city, scenes, out, poster, round(total, 1), "voiced")
+    return out
+
+
+def _write_meta(city, scenes, out, poster, seconds, kind):
+    meta = {"city": city, "name": place_name(city),
+            "caption": caption_for(city, scenes),
+            "outlets": outlets_of(scenes), "kind": kind,
+            "scenes": len(scenes), "seconds": seconds,
+            "poster": "/video/" + os.path.basename(poster)}
+    with open(out.rsplit(".", 1)[0] + ".json", "w", encoding="utf-8") as fh:
+        json.dump(meta, fh, ensure_ascii=False, indent=2)
+    latest = os.path.join("data", "shorts_latest.json")
+    os.makedirs("data", exist_ok=True)
+    stem = os.path.basename(out).rsplit(".", 1)[0]
+    with open(latest, "w", encoding="utf-8") as fh:
+        json.dump({"stem": stem, "city": city, "name": place_name(city),
+                   "caption": meta["caption"], "seconds": seconds, "kind": kind,
+                   "built_at": datetime.now(KST).isoformat(timespec="seconds")},
+                  fh, ensure_ascii=False, indent=2)
+
+
 def build_silent(city: str, out_dir: str) -> str:
     """무음 자막 쇼츠를 만든다. 오디오 트랙이 아예 없다."""
     import subprocess
@@ -450,6 +524,8 @@ def main() -> int:
     ap.add_argument("--city", default="tokyo")
     ap.add_argument("--frames", default="")
     ap.add_argument("--script", action="store_true")
+    ap.add_argument("--voiced", action="store_true",
+                    help="나레이션을 얹는다(일레븐랩스 · 크레딧 0원).")
     ap.add_argument("--silent", action="store_true",
                     help="무음 자막 영상을 만든다(나레이션 없음·비용 0).")
     ap.add_argument("--out", default="static/video")
@@ -465,6 +541,9 @@ def main() -> int:
         for n, s in enumerate(scenes):
             render(s).save(os.path.join(args.frames, f"s{n:02d}.png"))
         print(f"화면 {len(scenes)}장 → {args.frames}")
+    if args.voiced:
+        out = build_voiced(args.city, args.out)
+        print(f"나레이션 영상 → {out}")
     if args.silent:
         out = build_silent(args.city, args.out)
         seconds = sum(read_seconds(silent_text(sc)) for sc in scenes)

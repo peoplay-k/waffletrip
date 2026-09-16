@@ -175,3 +175,28 @@ def test_영상_속_사진은_그_지역_것이다():
     got = ms.region_photos("saipan")
     assert got, "사이판 사진을 못 찾았다"
     assert set(got) <= files, "다른 지역 사진이 섞였다"
+
+
+def test_하루_한_편은_간격이_아니라_날짜로_센다():
+    """간격으로 재면 매일 정해진 시각에 도는 일정과 어긋난다.
+
+    2026-09-16 실측: 전날 17:14 에 나갔더니 이튿날 10:05 회차가 18시간에
+    1.1시간 모자라 건너뛰었고, 그날은 한 편도 안 나갔다. 깃허브 크론은
+    몇 시간씩 밀리므로 간격 규칙으로는 이런 날이 계속 생긴다.
+    """
+    import sys
+    from datetime import datetime, timedelta, timezone
+
+    sys.path.insert(0, "tools")
+    from publish_instagram import posted_today
+
+    KST = timezone(timedelta(hours=9))
+    now = datetime.now(KST)
+    어제늦게 = (now - timedelta(days=1)).replace(hour=17, minute=14)
+    오늘 = now.replace(hour=10, minute=5)
+
+    assert posted_today({"log": []}) == ""
+    # 어제 늦게 나갔어도 오늘은 나가야 한다
+    assert posted_today({"log": [{"at": 어제늦게.strftime("%Y-%m-%d %H:%M:%S")}]}) == ""
+    # 오늘 이미 나갔으면 예비 크론이 깨도 막힌다
+    assert posted_today({"log": [{"at": 오늘.strftime("%Y-%m-%d %H:%M:%S")}]})
