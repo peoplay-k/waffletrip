@@ -244,6 +244,30 @@
       "origin": "NAS #DSLR/#괌",
       "hero": true,
       "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250418_071410866_03.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250418_071410866_03.webp",
+      "bytes": 206360,
+      "baked_at": "2026-09-16T15:36:26+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250418_071410866_05.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250418_071410866_05.webp",
+      "bytes": 323274,
+      "baked_at": "2026-09-16T15:36:32+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250421_083202906.jpg",
+      "file": "assets/photos/guam/KakaoTalk_20250421_083202906.webp",
+      "bytes": 84698,
+      "baked_at": "2026-09-16T15:36:38+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true
     }
   ],
   "hawaii": [
