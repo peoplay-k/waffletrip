@@ -217,6 +217,33 @@
       "origin": "NAS #DSLR/#괌",
       "hero": true,
       "overrode": "얼굴 6건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/투몬무역센터(핑크 건물)/PEO_3913.JPG",
+      "file": "assets/photos/guam/PEO_3913.webp",
+      "bytes": 165226,
+      "baked_at": "2026-09-16T14:03:08+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true,
+      "overrode": "얼굴 3건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/투몬무역센터(핑크 건물)/PEO_3954.JPG",
+      "file": "assets/photos/guam/PEO_3954.webp",
+      "bytes": 93718,
+      "baked_at": "2026-09-16T14:03:12+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/투몬무역센터(핑크 건물)/PEO_3956.JPG",
+      "file": "assets/photos/guam/PEO_3956.webp",
+      "bytes": 152318,
+      "baked_at": "2026-09-16T14:03:17+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "hero": true,
+      "overrode": "얼굴 2건 검출"
     }
   ],
   "hawaii": [
