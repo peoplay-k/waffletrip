@@ -1,12 +1,18 @@
 {
   "posted": [
-    "waffletrip-bangkok-silent"
+    "waffletrip-bangkok-silent",
+    "waffletrip-hawaii-voiced"
   ],
   "log": [
     {
       "file": "waffletrip-bangkok-silent",
       "media_id": "18111499721026843",
       "at": "2026-09-15 17:14:02"
+    },
+    {
+      "file": "waffletrip-hawaii-voiced",
+      "media_id": "18106458956524904",
+      "at": "2026-09-16 11:47:50"
     }
   ]
 }
