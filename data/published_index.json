@@ -1479,7 +1479,6 @@
     "a36bd4db5855361b9eaf3b76b22027caee76459b",
     "a37a40b6e6abd689e16d3dea4864c3e6b3664bfc",
     "a3b32b8354aaf0c0b62aa1c9be6b2a9ab3234ffa",
-    "a3bde7aefd76ec4a19d3f6130ade0a82a344934a",
     "a3e1c4ad79a0e3834c02d6c38f489f6bb36ae3fd",
     "a3f7b438a1c9f96f4499363431d3cf16ad7c30c1",
     "a41bcbdff85062358a34634bab8cd4f624093f46",
@@ -1857,6 +1856,7 @@
     "ca1f1ef285603e32954f542dd60ba8e9795cd6c1",
     "ca22589851c43b6fe6ef35c00b243e997d823fa5",
     "ca358367642a0ade14d49413e181c07d22afe394",
+    "ca477b63c887a999828b29020e8d10552bd6a491",
     "ca6369b4e8e1cd94a2b870e96d506507c633a16a",
     "ca6d6aa23839a2d64e85c1e3769903ceb969f455",
     "ca6f29e67ba94d83d911fc9f50d07df67e8aecac",
@@ -18586,10 +18586,10 @@
       "grade": "B"
     },
     {
-      "id": "a3bde7aefd76ec4a19d3f6130ade0a82a344934a",
-      "title": "세기 넘어 방콕 물길 가르는 왕실 유산…태국관광청, '2026 왕실 바지선 행렬' 초대",
+      "id": "ca477b63c887a999828b29020e8d10552bd6a491",
+      "title": "관광 산업 발전을 위해 라오스 및 태국과의 연계 및 협력을 강화합니다.",
       "date": "2026-09-16",
-      "region": "thailand",
+      "region": "laos",
       "grade": "B"
     }
   ]
