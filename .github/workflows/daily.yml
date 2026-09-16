@@ -138,6 +138,13 @@ jobs:
 
       # 조용한 실패를 잡는다. 이상하면 exit 1 로 죽어 Actions 실패 메일이 간다.
       # 빌드 뒤에 두는 이유 — 오늘치 사이트는 일단 내보내고 나서 경보를 울린다.
+      # 오늘 쓴 해설이 약속대로 됐는지 본다. 원문 링크가 빠졌거나 너무
+      # 짧으면 여기 찍힌다. 잡을 죽이지는 않는다 — 신문은 이미 나갔고,
+      # 고칠 사람이 보라고 남기는 기록이다.
+      - name: 해설 점검
+        run: python tools/check_articles.py
+        continue-on-error: true
+
       - name: 건강검진
         run: python -m src.health
 
