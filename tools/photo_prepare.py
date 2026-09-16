@@ -351,13 +351,20 @@ def warn_near_duplicates(results: list[dict]) -> None:
               file=sys.stderr)
 
 
-def gather(source: str, limit: int) -> list[str]:
+def gather(source: str, limit: int, skip: int = 0) -> list[str]:
+    """폴더의 사진 목록. `skip` 으로 앞을 건너뛴다.
+
+    1,658장짜리 폴더를 한 번에 검사하면 세 시간이 걸린다. 400장씩 나눠
+    돌리려면 "앞 400장 다음" 을 가리킬 방법이 있어야 한다. 정렬이 고정이라
+    같은 폴더면 같은 순서가 나온다 — 그래서 건너뛴 만큼이 곧 다음 묶음이다.
+    """
     exts = (".jpg", ".jpeg", ".png", ".heic", ".heif", ".webp")
     found = []
     for root, _, files in os.walk(source):
         for name in sorted(files):
             if name.lower().endswith(exts) and not name.startswith("."):
                 found.append(os.path.join(root, name))
+    found = found[skip:]
     return found[:limit] if limit else found
 
 
@@ -366,6 +373,8 @@ def main() -> int:
     ap.add_argument("--region", required=True)
     ap.add_argument("--from", dest="source", required=True)
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--skip", type=int, default=0,
+                    help="앞에서 이만큼 건너뛴다. 큰 폴더를 나눠 돌릴 때 쓴다.")
     ap.add_argument("--approve", default="",
                     help="콘택트시트를 눈으로 본 뒤 구울 번호. 예: 1,4,7-9")
     ap.add_argument("--city", default="",
@@ -384,7 +393,7 @@ def main() -> int:
         print(f"모르는 지역: {args.region}. 가능한 값 {REGIONS}", file=sys.stderr)
         return 1
 
-    paths = gather(os.path.expanduser(args.source), args.limit)
+    paths = gather(os.path.expanduser(args.source), args.limit, args.skip)
     if not paths:
         print(f"사진이 없다: {args.source}", file=sys.stderr)
         return 1

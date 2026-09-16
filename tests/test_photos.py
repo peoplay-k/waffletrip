@@ -574,3 +574,23 @@ def test_긁어온_후보_이미지는_NAS_안에_있어도_못_쓴다():
     # 같은 NAS 의 우리 촬영본은 그대로 통과해야 한다
     좋음 = f"{NAS}/#괌/액티비티/괌 남부 택시투어/솔레다드 요새/PEO_3153.JPG"
     assert prepare.origin_of(좋음) == "NAS #DSLR/#괌"
+
+
+def test_큰_폴더는_나눠_돌릴_수_있다(tmp_path):
+    """1,658장을 한 번에 검사하면 세 시간이 걸린다.
+
+    400장씩 나눠 돌리려면 "앞 400장 다음"을 가리킬 수 있어야 한다.
+    정렬이 고정이라 같은 폴더면 같은 순서가 나오고, 건너뛴 만큼이 곧
+    다음 묶음이다 — 겹치거나 빠지는 장이 있으면 안 된다.
+    """
+    prepare = pytest.importorskip("tools.photo_prepare")
+
+    for i in range(10):
+        (tmp_path / f"p{i:02d}.jpg").write_bytes(b"x")
+    앞 = prepare.gather(str(tmp_path), 4, 0)
+    뒤 = prepare.gather(str(tmp_path), 4, 4)
+    끝 = prepare.gather(str(tmp_path), 0, 8)
+
+    assert len(앞) == 4 and len(뒤) == 4 and len(끝) == 2
+    assert not set(앞) & set(뒤), "겹치면 같은 사진을 두 번 본다"
+    assert len(set(앞) | set(뒤) | set(끝)) == 10, "빠지는 장이 있으면 안 된다"
