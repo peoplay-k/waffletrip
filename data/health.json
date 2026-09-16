@@ -71,10 +71,15 @@
     },
     {
       "date": "2026-09-16",
-      "collected": 692,
-      "published": 61,
+      "collected": 667,
+      "published": 62,
       "failed_sources": [
-        "guam_post"
+        "guam_post",
+        "kr_tournews21",
+        "kr_traveldaily",
+        "kr_traveltimes",
+        "kr_travie",
+        "kr_ttlnews"
       ]
     }
   ]

@@ -1479,6 +1479,7 @@
     "a36bd4db5855361b9eaf3b76b22027caee76459b",
     "a37a40b6e6abd689e16d3dea4864c3e6b3664bfc",
     "a3b32b8354aaf0c0b62aa1c9be6b2a9ab3234ffa",
+    "a3bde7aefd76ec4a19d3f6130ade0a82a344934a",
     "a3e1c4ad79a0e3834c02d6c38f489f6bb36ae3fd",
     "a3f7b438a1c9f96f4499363431d3cf16ad7c30c1",
     "a41bcbdff85062358a34634bab8cd4f624093f46",
@@ -18582,6 +18583,13 @@
       "title": "일본 가나가와현에서 베트남 관광을 홍보합니다 - 국제협력기구",
       "date": "2026-09-16",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "a3bde7aefd76ec4a19d3f6130ade0a82a344934a",
+      "title": "세기 넘어 방콕 물길 가르는 왕실 유산…태국관광청, '2026 왕실 바지선 행렬' 초대",
+      "date": "2026-09-16",
+      "region": "thailand",
       "grade": "B"
     }
   ]
