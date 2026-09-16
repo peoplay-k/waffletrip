@@ -554,7 +554,7 @@ def test_admin_write_keeps_korean_readable(tmp_path):
     assert "\\u" not in raw
 
 
-def test_quoted_article_without_summary_is_noindexed(tmp_path):
+def test_인용_기사는_요약이_있어도_색인에서_뺀다(tmp_path):
     """제목 한 줄짜리 인용 페이지가 수백 개 색인되면 사이트 전체가 얇게 평가된다."""
     from src.render.site import render_site
     from src.models import Item
@@ -576,8 +576,12 @@ def test_quoted_article_without_summary_is_noindexed(tmp_path):
              for p in out.glob("japan/*/index.html")}
     thin_html = next(h for n, h in pages.items() if n.startswith("t1"))
     full_html = next(h for n, h in pages.items() if n.startswith("t2"))
+    # 2026-09-16 부터 **인용 기사는 요약이 있든 없든 색인에서 뺀다.**
+    # 130자짜리 인용 쪽이 수백 개면 도메인이 통째로 얇은 매체로 평가돼
+    # 우리가 쓴 해설까지 묻힌다. 독자에게는 그대로 보여주고 원문으로는
+    # 따라가게 둔다(follow).
     assert 'content="noindex, follow"' in thin_html
-    assert "noindex" not in full_html
+    assert 'content="noindex, follow"' in full_html
 
 
 def test_front_order_puts_photo_articles_first():
@@ -831,3 +835,30 @@ def test_공개_문장이_스스로를_신문이라_부르지_않는다(tmp_path
         visible = re.sub(r"<!--.*?-->", "", html, flags=re.S)
         visible = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", visible, flags=re.S)
         assert "신문" not in re.sub(r"<[^>]+>", " ", visible), page
+
+
+def test_인용_기사는_검색에서_뺀다(tmp_path):
+    """130자짜리 인용 쪽이 수백 개면 도메인이 통째로 얇은 매체로 평가된다.
+
+    2026-09-16 실측: 사이트맵 799쪽 중 대부분이 남의 보도를 두 문장으로
+    옮긴 쪽이었다. 우리가 쓴 해설까지 같이 묻힌다. 독자에게는 계속 보여주고
+    원문 링크도 따라가게 두되(follow), 색인에서만 뺀다.
+    """
+    import re
+
+    src = open("src/render/templates/article.html", encoding="utf-8").read()
+    m = re.search(r"\{% block robots %\}(.*?)\{% endblock %\}", src, re.S)
+    assert m, "robots 블록이 없다"
+    rule = m.group(1)
+    assert "item.grade == 'B'" in rule, "인용 기사 전체를 빼야 한다"
+    assert "noindex, follow" in rule, "원문으로는 따라가게 둔다"
+
+
+def test_사이트맵에는_우리가_쓴_것만_넣는다():
+    """사이트맵이 noindex 쪽을 가리키면 검색엔진이 신호를 못 믿는다."""
+    import inspect
+
+    from src.render import feeds
+
+    code = inspect.getsource(feeds.render_sitemap)
+    assert 'grade not in ("A", "B")' in code, "A·B 를 사이트맵에서 빼야 한다"

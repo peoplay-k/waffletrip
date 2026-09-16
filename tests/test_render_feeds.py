@@ -114,9 +114,20 @@ def test_sitemap_lists_the_standing_pages(tmp_path):
     assert "/flight/</loc>" not in text
 
 
-def test_sitemap_lists_article_urls(tmp_path):
-    path = render_sitemap([make("abcdef1234", "괌 소식")], str(tmp_path), TODAY)
-    assert "/guam/abcdef12-" in Path(path).read_text(encoding="utf-8")
+def test_sitemap_lists_our_own_articles(tmp_path):
+    """사이트맵에는 **우리가 쓴 해설(C)** 만 넣는다.
+
+    인용 기사(B)는 2026-09-16 부터 색인에서 뺐다. 사이트맵이 noindex 쪽을
+    가리키면 검색엔진이 그 신호를 못 믿는다. 환율·날씨(A)는 원래 빠져 있다.
+    """
+    ours = make("abcdef1234", "괌 관광 재도약, 무엇이 달라지나", grade="C")
+    quoted = make("bbbbbb2222", "괌 소식", grade="B")
+    data = make("cccccc3333", "오늘의 환율", grade="A")
+    text = Path(render_sitemap([ours, quoted, data], str(tmp_path), TODAY)).read_text(
+        encoding="utf-8")
+    assert "/guam/abcdef12-" in text, "우리가 쓴 것은 들어가야 한다"
+    assert "/guam/bbbbbb22-" not in text, "인용 기사는 빠져야 한다"
+    assert "/guam/cccccc33-" not in text, "환율·날씨는 빠져야 한다"
 
 
 def test_robots_allows_crawling_and_points_at_sitemap(tmp_path):

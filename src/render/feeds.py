@@ -128,10 +128,11 @@ def render_sitemap(items: list[Item], out_dir: str, today: str) -> str:
     urls += [f"{base}/{page}/" for page in
              ("about", "contact", "privacy", "youth", "search", "subscribe",
               "ethics")]
-    # 요약 없는 인용 기사는 페이지에 noindex 를 달았으니 사이트맵에서도 뺀다.
+    # 인용 기사(B)는 페이지에 noindex 를 달았으니 사이트맵에서도 뺀다.
     # 사이트맵이 noindex 페이지를 가리키면 검색엔진이 신호를 못 믿는다.
+    # 남는 것은 **우리가 쓴 해설(C)** 과 지역·부문·도시 같은 묶음 쪽이다.
     urls += [base + article_url(i) for i in items
-             if i.grade != "A" and not (i.grade == "B" and not i.summary)]
+             if i.grade not in ("A", "B")]
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
