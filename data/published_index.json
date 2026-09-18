@@ -484,6 +484,7 @@
     "2f4219ee8926f0305b21204fb241db3acc601160",
     "2f7a565dc047d1d4647485fa4c4c0992eec2cad4",
     "2f8db98f823f47abf7b15347d614776d2ea5d97d",
+    "2faca9eb5b75cabace6c4666b8508e5cb2e1fe23",
     "2fb19a3a94c7f0cb2c113e952868af0cc0145681",
     "2fb2288b78f7f6a9e8fca16c2b5e661193e3219c",
     "2fc7713553cfa46c957490ec19f420c4b7292c98",
@@ -2179,6 +2180,7 @@
     "d98fa88f137c68372bfc74c4bd37aded4a9aed67",
     "d999fad3aa05e0c2614c931aed178c569df2adf3",
     "d9a6f3247a14811989effdfd677f2641712b6f90",
+    "d9c10c7858f74c5c08ec6a07c03b157b40f0887c",
     "d9c2b4c88a85bffdd264b71c2c6cf6c8eb4b0b38",
     "d9e40fe0f46f46b6aa7ffcceb3a7459b2bcd63ed",
     "d9fa7bbfa7f722163dfef2c0309ae9a99c1b0b94",
@@ -19596,7 +19598,7 @@
     },
     {
       "id": "4cd9e150a52f63ddd7b96a70008935105b87cb0a",
-      "title": "First Alert Forecast: Flood Advisories issued for Hawaii Island",
+      "title": "하와이섬 코나·카우 지구에 홍수주의보",
       "date": "2026-09-18",
       "region": "hawaii",
       "grade": "B"
@@ -19610,7 +19612,7 @@
     },
     {
       "id": "cae208fd4a92be42960b32f7e9f361ae2cabb17e",
-      "title": "World's 100 best hotels list includes one from Vietnam, a 47-room tribute to 1920s opera",
+      "title": "세계 100대 호텔에 베트남 호텔 한 곳, 오페라하우스 오마주 47실",
       "date": "2026-09-18",
       "region": "vietnam",
       "grade": "B"
@@ -19666,7 +19668,7 @@
     },
     {
       "id": "0ed44dc7b46cfb268148f3a18bf6fca8f6f68278",
-      "title": "25K more visitors, $11M projected from Philippines inclusion in Guam-CNMI Visa Waiver Program",
+      "title": "필리핀 괌·북마리아나 무비자 편입, 방문객 2만5000명·1100만달러 전망",
       "date": "2026-09-18",
       "region": "guam",
       "grade": "B"
@@ -19764,7 +19766,7 @@
     },
     {
       "id": "4586025504b68440c655f969f0b64f4e8250e308",
-      "title": "Kota Kinabalu airport runway reopens after repair, safety checks",
+      "title": "코타키나발루 공항 활주로, 보수·점검 마치고 재개통",
       "date": "2026-09-18",
       "region": "kota",
       "grade": "B"
@@ -19806,14 +19808,14 @@
     },
     {
       "id": "41b8e5b4dbe0d55fe3d792e7bdad26082b4e6ba0",
-      "title": "Laos temporarily extends e-Visa validity from 60 to 180 days",
+      "title": "라오스 전자비자 승인서 유효기간 60일서 180일로 한시 연장",
       "date": "2026-09-18",
       "region": "laos",
       "grade": "B"
     },
     {
       "id": "ba5b43030df9b66386a4477ba3c8171c15472bc3",
-      "title": "GVB FY2027 Budget: $28.97M Approved for Guam Tourism",
+      "title": "괌관광청, 2027회계연도 예산 2897만달러 승인",
       "date": "2026-09-18",
       "region": "guam",
       "grade": "B"
@@ -19827,7 +19829,7 @@
     },
     {
       "id": "0fb0072bee1e3be171264c854548b894e037231c",
-      "title": "3 Vietnamese restaurants earn platinum status in global fine dining list",
+      "title": "베트남 레스토랑 3곳, 세계 파인다이닝 리스트 플래티넘 등급",
       "date": "2026-09-18",
       "region": "vietnam",
       "grade": "B"
@@ -19925,7 +19927,7 @@
     },
     {
       "id": "70c1b8c8cc20c89f5464007edb3224ea77ab88eb",
-      "title": "Guam Expands Japan Tourism Links With New Educational Travel Partnership for Future Visitors",
+      "title": "괌, 일본 교육여행 파트너십으로 관광 연계 확대",
       "date": "2026-09-18",
       "region": "guam",
       "grade": "B"
@@ -20043,6 +20045,13 @@
       "grade": "B"
     },
     {
+      "id": "d9c10c7858f74c5c08ec6a07c03b157b40f0887c",
+      "title": "Brush fire on Maui prompts lane closure along Kuihelani Highway",
+      "date": "2026-09-18",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
       "id": "a780d4956870660f2cf18f45c913b18113917c9a",
       "title": "Australia gets tough: Visa overstayers face detention",
       "date": "2026-09-18",
@@ -20103,6 +20112,13 @@
       "title": "Kota Kinabalu airport runway reopens",
       "date": "2026-09-18",
       "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "2faca9eb5b75cabace6c4666b8508e5cb2e1fe23",
+      "title": "Is Your Home Insurance Enough to Weather a Disaster? How to Check",
+      "date": "2026-09-18",
+      "region": "guam",
       "grade": "B"
     },
     {
