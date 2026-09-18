@@ -85,6 +85,16 @@
       "failed_sources": [
         "guam_pdn"
       ]
+    },
+    {
+      "date": "2026-09-18",
+      "collected": 681,
+      "published": 78,
+      "failed_sources": [
+        "guam_pdn",
+        "guam_post",
+        "saipan_tribune"
+      ]
     }
   ]
 }

@@ -1,24 +1,31 @@
-# 오늘 쓸 기사거리 (2026-09-17)
+# 오늘 쓸 기사거리 (2026-09-18)
 
 여러 매체가 같은 건을 쓴 것부터 놓았다. **문장을 옮기지 말고**
 사실만 가져다 우리 문장으로 쓴다. 인용한 매체는 본문에 밝힌다.
 
 ## 괌
 
+### [괌여행] 투몬 베이 백사장 있는 리조트
+- 매체 1곳 · 국제뉴스
+  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 수영장에서 본 해변 풍경. 투몬 베이(투몬만)는 괌에서 주요 호텔리조트와 쇼핑몰, 레스토랑이 밀집한 관광의 중심지로서 국제공항에서도 가까우며, 길다란 백사장과 에메랄드빛 바다
+    https://www.gukjenews.com/news/articleView.html?idxno=3698705
+
 ### [ET-여행/ 괌 롯데호텔 ①] ‘익숙함’도 경쟁력이다… 가족 여행객을 사로 잡는 법
 - 매체 1곳 · 미래를 보는 창 - 전자신문
   - 미래를 보는 창 - 전자신문: 괌에는 세계적인 호텔 브랜드가 즐비하다. 투몬 해변을 따라 이름만 들어도 알 만한 호텔과 리조트들이 줄지어 자리한다.
     https://www.etnews.com/20260916000310
 
-### [ET-여행/ 괌 롯데호텔 ②] 아이가 잠들면 어른들의 시간이 시작된다… 롯데호텔 괌의 밤
-- 매체 1곳 · 미래를 보는 창 - 전자신문
-  - 미래를 보는 창 - 전자신문: 괌 여행에서 호텔 수영장의 주인공은 대부분 아이들이다. 한낮부터 물놀이를 즐기던 아이들이 객실로 돌아가면 수영장도 하루를 마무리한다.
-    https://www.etnews.com/20260916000316
+### [괌여행] 관광 허브 투몬 지역 1년차 야시장
+- 매체 1곳 · 국제뉴스
+  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 6일 괌 투몬 야시장. 매주 수요일 아갓냐에서 열리는 차모로 야시장에 이어 괌정부관광청이 관광객들이 주로 머무는 투몬 지역에서 매주 일요일 개최하는 야시장으로서, 교통이 통제된 도로 일대에서 괌의 다양한 미식을 골라서 즐기는 재미에 2025년 개장 직후부
+    https://www.gukjenews.com/news/articleView.html?idxno=3698729
 
-### [괌 현지 르포③] "괌의 경쟁력은 사람"…차모로 환대로 관광 재도약 승부
-- 매체 1곳 · 뉴스저널리즘
-  - 뉴스저널리즘: [열대 산호초와 야자수가 늘어선 해변 등 천혜의 자연경관을 지닌 괌이 관광 산업 성장 엔진을 다시 켠다. 괌정부관광청은 지난 3일부터 7일까지 ‘2026 메가 팸투어’를 개최했다.
-    https://www.ngetnews.com/news/articleView.html?idxno=553298
+## 사이판
+
+### 이랜드파크 코럴 오션 리조트 사이판, '골투' 패키지 출시
+- 매체 1곳 · 뉴스핌
+  - 뉴스핌: [서울=뉴스핌] 김용석 기자 = 이랜드파크 코럴 오션 리조트 사이판이 겨울철 해외 골프 여행을 계획하는 고객을 위해 골프와 관광을 함께 즐길 수 있는 '골투(골프+투어)' 패키지를 출시했다고 18일 밝혔다. 투숙은 11월 26일부터 내년 3월 31일까지 가능하
+    https://www.newspim.com/news/view/20260918000069
 
 ## 하와이
 
@@ -27,11 +34,6 @@
   - 국제뉴스: (서울=국제뉴스) 유지현 기자 = 오래 전부터 휴양지의 대명사로 통해온 하와이는 그림같은 열대 자연과 훌륭한 호텔 시설, 안전한 치안과 미국의 선진 인프라에 쇼핑까지 갖춰 3대가 같이 가도 좋은 가족여행에 필요한 모든 조건을 갖춘 여행지로 손꼽힌다. 하와이 가족여행 계획을 세울 때 우선
     https://www.gukjenews.com/news/articleView.html?idxno=3697179
 
-### 아시아나, 2년만에 하와이~인천 노선 재개
-- 매체 1곳 · 미주조선일보
-  - 미주조선일보: 
-    https://chosundaily.com/bbs/board.php?bo_table=hotclick&wr_id=5070&sca=%EA%B2%BD%EC%A0%9C&sst=wr_hit&sod=desc&sop=and&spt=-12262&page=63
-
 ### [인터뷰] “하와이는 거대한 멜팅팟”…한 접시에 섬을 담는 토코로 셰프
 - 매체 1곳 · 디지털데일리
   - 디지털데일리: 레니 토코로 세라 신임 헤드 세프가 요리를 선보이고 있다. [사진=르네상스 호놀룰루 호텔 앤 스파][디지털데일리 장주영 기자] “하와이다움을 잃지 않으면서도 누구나 편하게 즐길 수.
@@ -39,63 +41,44 @@
 
 ## 베트남
 
-### #선월드바나힐스; 선그룹; 다낭 관광; 골든브릿지; 추아산; 세계 관광 아이콘
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: #선월드바나힐스; 선그룹; 다낭 관광; 골든브릿지; 추아산; 세계 관광 아이콘
-    https://www.vietnam.vn/ko/tag/sun-world-ba-na-hills-sun-group-du-lich-da-nang-cau-vang-nui-chua-bieu-tuong-du-lich-the-gioi
-
-### 다낭의 이야기를 담은 지역 특산품
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: TP - 돗자리는 전통 공예 마을의 이야기를, 에센셜 오일 한 병은 약초 산지의 이야기를, 지역 특산물은 농촌의 이야기를 들려줍니다. 이러한 "시골의 선물"들을 관광 체험 공간에 배치하면, 다낭의 이야기가 관광객들에게 감동을 주고 그들과 함께 더 오래도록 기억될 기회를 얻게 됩니다.
-    https://www.vietnam.vn/ko/qua-que-ke-chuyen-da-nang
-
-### 신한투자증권, 일본·홍콩·베트남서 글로벌 투자 협력 박차
-- 매체 1곳 · TTL뉴스
-  - TTL뉴스: 국내 증권업계가 국내 투자자의 해외 투자 유치에 집중하던 기존 영업 궤도에서 벗어나 해외 큰손을 한국 자본시장으로 끌어들이는 인바운드 금융망 구축에 속도를 내고 있다. 신한투자증권 이선훈 대표이사는 최근 일본 도쿄, 홍콩, 베트남 하노이를 잇달아 방문해 글로벌 기관투자가 유치와 외국인 
-    http://www.ttlnews.com/news/articleView.html?idxno=3143588
-
-## 코타키나발루
-
-### 코타키나발루 항공권 예약 전 주목
+### 서울관광재단, 베트남 현지 서울관광 프로모션 성료
 - 매체 1곳 · 트래블데일리
-  - 트래블데일리: 수트라하버리조트(Sutera Harbour Resort)가 제주항공 이용객을 대상으로 9월 15일부터 가을 맞이 특별 프로모션을 진행한다. 제주항공 코타키나발루 항
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72083
+  - 트래블데일리: 서울관광재단은 지난 9월 11일부터 13일까지 3일간 베트남 하노이에서 개최한 체험형 서울관광 홍보부스 ‘SEOUL NIGHT MARKET’을 성황리에 마쳤다. 이번 행사는 동남아 최대 방한 시장인 베트남의 잠재 관광 수요를 정조준해 ‘서울의 밤’을 주제로 한 다채로운 야간관광 콘텐츠와
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72096
 
-### AirAsia Starts Kota Kinabalu – Sibu and Kota Kinabalu – Bintulu Flights in November 2026
-- 매체 2곳 · KUCHINGBORNEO · Nomad Lawyer  ← 여러 곳이 썼다
-  - KUCHINGBORNEO: AirAsia will strengthen Sabah-Sarawak connectivity with direct Kota Kinabalu flights to Sibu and Bintulu starting in November 2026.
-    https://kuchingborneo.info/airasia-starts-kota-kinabalu-sibu-and-kota-kinabalu-bintulu-flights-in-november-2026/
-  - Nomad Lawyer: Discover AirAsia's restored Kota Kinabalu to Bintulu and Sibu flights. Explore flight schedules, Borneo river gateways, and insider East Malaysia travel advice.
-    https://www.nomadlawyer.org/airasia-restores-kota-kinabalu-bintulu-sibu-flights-2026
+### 나트랑 기차역은 중심부에서 이전하지 않고 문화 관광지로 향합니다
+- 매체 1곳 · Laodong.vn
+  - Laodong.vn: 카인호아 - 나트랑 역은 현재 위치에 유지되는 동시에 건축적, 역사적 가치를 보존하고 증진하는 방안을 연구합니다.
+    https://ko.laodong.vn/xa-hoi/ga-nha-trang-khong-di-doi-khoi-trung-tam-huong-toi-diem-du-lich-van-hoa-1767010.ldo
+
+### 다낭에서 대규모 소방, 구조 및 구호 훈련을 실시할 준비가 되었습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 9월 15일, 윈덤 솔레이 다낭 호텔과 페트롤리멕스 다낭 유한회사 티반 빌딩에서 황응옥후인 공안부 소방·진압·구조경찰국 부국장과 쩐민응우옌 다낭시 경찰국 부국장이 공동으로 현장 조사를 실시하고 대규모 소방·구조·구호 훈련을 위한 준비 작업을 진행했습니다.
+    https://www.vietnam.vn/ko/san-sang-cho-thuc-tap-phuong-an-chua-chay-cuu-nan-cuu-ho-quy-mo-lon-tai-da-nang
 
 ## 라오스
 
-### VPUB – 디엔비엔 주 대표단이 라오스와 태국을 방문하여 관광 개발 연계를 증진하기 위한 활동을 펼쳤습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: Dienbien.gov.vn - 까오 티 투엣 란(Cao Thi Tuyet Lan) 디엔비엔성 당위원회 상임위원 겸 성 인민위원회 상임부주석을 단장으로 하는 디엔비엔성 대표단이 2026년 9월 14일부터 20일까지 우돔사이(Udomxay)와 보커오(Bokeo)성(라오스 인민민주공화국),
-    https://www.vietnam.vn/ko/vpub-doan-dai-bieu-tinh-dien-bien-tham-lam-viec-tai-lao-thai-lan-thuc-day-lien-ket-phat-trien-du-lich
-
-### 관광 산업 발전을 위해 라오스 및 태국과의 연계 및 협력을 강화합니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 9월 14일부터 20일까지, 까오 티 투엣 란 디엔비엔성 인민위원회 상임 부주석을 단장으로 하는 디엔비엔성 대표단이 우돔사이성과 보커오성(라오스 인민민주공화국), 그리고 치앙라이성과 치앙마이성(태국)을 방문하여 우호 관계를 강화하고 관광 개발 협력을 증진하며, 떠이짱 국제 국경 검문소를
-    https://www.vietnam.vn/ko/tang-cuong-ket-noi-hop-tac-voi-lao-va-thai-lan-phat-trien-du-lich
+### 관광 협력을 강화하고 라오스-베트남-태국 도로망을 연결합니다.
+- 매체 1곳 · Vietnam.vn
+  - Vietnam.vn: 
+    https://www.vietnam.vn/ko/tang-cuong-hop-tac-du-lich-ket-noi-tuyen-duong-bo-lao-viet-nam-thai-lan
 
 ## 제주
 
-### 제주시정신건강복지센터, ‘숲 힐링 행사’ 생명존중 문화 확산
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 제주시정신건강복지센터(센터장 강지언)는 지난 6월 17일에 이어 9월 16일 제주시 비자림에서 경제적·사회적 어려움을 겪는 중장년층 50여 명을 대상으로 ‘2026년 중장년 숲 힐링 행사’를 진행했다. 제주중장년내일센터와의 업무협약을 바탕으로 공동 주관한 이번 행사는 제주시 거주 중장년
-    https://www.jejusori.net/news/articleView.html?idxno=506599
-
-### 제주 해양쓰레기 감시 위성, 누리호 5차 포함 '우주'로
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 10월7일 발사가 예정된 누리호 5차 발사때도 제주 관련 위성이 탑재된다. 최근 우주항공청은 국내 최초로 군집위성을 주탑재위성으로 발사하는 누리호 5차 발사를 앞둬 준비 현황을 세상에 공개했다.
-    https://www.jejusori.net/news/articleView.html?idxno=506620
+### 서울관협, ‘제주 힐링 잇는 이음여행’ 성료
+- 매체 1곳 · 트래블데일리
+  - 트래블데일리: 서울시관광협회는 보호대상아동의 관광 향유 기회를 넓히고 여행을 통한 정서적 회복과 성장을 지원하기 위해 추진한 ‘2026년 제주의 자연 속에서 힐링을 잇는 이음여행’ 행사를 지난 8월 24일부터 9월 4일까지 성공적으로 마무리했다. 이번 사업은 서울시 내 보호대상아동을 대상으로 제주특별
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72103
 
 ### 40년간 임대료 515억...제주항공 서울 사옥 마련
 - 매체 1곳 · 제주의소리
   - 제주의소리: 제주에 본사를 둔 제주항공이 창립 21년 만에 서울에 단독 사옥을 마련했다. 16일 제주항공에 따르면 안정적인 사업 운영과 지속 가능 성장을 준비하기 위해 2027년 상반기에 서울지사를 단독 사옥으로 이전한다.
     https://www.jejusori.net/news/articleView.html?idxno=506596
+
+### 제주국제공항 폭파 예고글 작성한 30대에 2277만원 배상 판결
+- 매체 1곳 · 제주일보
+  - 제주일보: 제주국제공항 등 전국 5개 공항을 폭파하겠다는 허위 협박 글을 잇달아 올린 30대 남성이 국가에 2000만원 넘는 배상금을 물게 됐다. 17일 제주경찰청에 따르면 제주지법 제5-2민사부는 지난 8일 경찰이 30대 남성 A씨를 상대로 제기한 손해배상 청구 소송 항소심에서 불법행위 책임을 
+    http://www.jejunews.com/news/articleView.html?idxno=2227800
 
 ## 일본
 
@@ -108,15 +91,50 @@
   - 뉴스1: 
     https://www.news1.kr/industry/general-industry/6292635
 
-### 9월 15일부터 일본 '규슈' 숙박 & 여행비 최대 60% 할인!
-- 매체 1곳 · 트래비
-  - 트래비: 올가을 일본 여행을 고민하고 있다면 먼저 규슈를 살펴봐야겠다. 일본 관광청은 2026년 구마모토 지진 이후 감소한 관광 수요를 회복하기 위해 ‘규슈 부흥 응원 할인(九州ふっこう応援割)’ 프로모션에 나선다.
-    https://www.travie.com/news/articleView.html?idxno=55987
+### 시부야·긴자·아사쿠사 구경하며 스시 맛봐요…도쿄 ‘회전초밥 버스’ 10월 달린다
+- 매체 2곳 · 에너지뉴스 · 투어코리아  ← 여러 곳이 썼다
+  - 투어코리아: [투어코리아=조성란 기자] 도쿄 여행에서 스시 맛집을 찾아다니는 대신, 스시집이 도쿄를 달린다면 어떨까. 2층 오픈톱 버스에 회전초밥 레일을 설치해 도쿄 도심 풍경과 스시를 동시에 즐기는 이색 관광 콘텐츠가 등장한다.
+    https://www.tournews21.com/news/articleView.html?idxno=143768
+  - 에너지뉴스: 달리는 회전초밥 스시버스란 무엇인가2층 오픈톱 버스와 회전초밥을 결합한 새로운 관광 콘텐츠 스시버스(SUSHI BUS)가 2026년 10월부터 일본 도쿄에서 운행
+    https://www.2news.co.kr/news/articleView.html?idxno=25686
 
-### 원 호텔 도쿄의 뱀포드 웰니스 스파, 교토 스킨케어 브랜드 '코토시나(KOTOSHINA)'와 함께 오리지널 트리트먼트 출시
-- 매체 1곳 · Holiday Travel
-  - Holiday Travel: 2026년 9월 23일부터 아카사카에 위치한 원 호텔 도쿄 38층 뱀포드 웰니스 스파에서 교토 유기농 스킨케어 브랜드 '코토시나'와 협업한 3가지 오리지널 트리트먼트를 선보입니다. 제품과 일본 전통 웰니스 및 페이셜 기법을 결합한 특별한 관리를 만나보세요.
-    https://www.haveagood-holiday.com/ko/articles/1-hotel-tokyo-kotoshina-spa-treatments
+### 에어서울, 연말·연초 여행용 전 노선 ‘사이다 특가’…도쿄 9만9900원부터
+- 매체 1곳 · 핀포인트뉴스
+  - 핀포인트뉴스: 에어서울은 추석 황금연휴를 맞아 연말·연초 여행을 미리 준비하는 고객을 위해 전 노선 대상 할인 프로모션 ‘사이다 특가’를 실시한다고 17일 밝혔다. 노선별로 순차 오픈되며 탑승 기간은 2027년 3월 27일까지다.
+    https://www.pinpointnews.co.kr/news/articleView.html?idxno=488114
+
+## 태국
+
+### [방콕호텔] 시암 켐핀스키 방콕 로비
+- 매체 1곳 · 국제뉴스  ← 여러 곳이 썼다
+  - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok) 로비. 방콕 번화가에서 대규모 야외 수영장과 정원이 있는 5성급 호텔로, 다수의 미쉐린 레스토랑이 푸드코드에 입점해 있는 시암 파라곤 쇼핑몰과 직접 
+    https://www.gukjenews.com/news/articleView.html?idxno=3698809
+  - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok) 이그제큐티브 라운지 저녁 시간 디저트. 이그제큐티브 룸 이상의 상위 카테고리 객실 투숙객만을 위한 라운지로서, 호텔 최상층에서 방콕 시내의 탁 트인 
+    https://www.gukjenews.com/news/articleView.html?idxno=3698807
+
+### 12월 1일: 타이항공, 다낭과 방콕을 연결하는 신규 노선 취항.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 9월 17일 오전, 타이항공은 후옹장 항공 서비스 유한회사(HG Aviation)와 협력하여 다낭과 방콕을 연결하는 새로운 노선을 소개하는 "2026년 다낭과 세계를 연결하다"라는 제목의 세미나를 다낭에서 개최했습니다.
+    https://www.vietnam.vn/ko/ngay-1-12-thai-airways-khai-truong-duong-bay-moi-ket-noi-da-nang-voi-bangkok
+
+### 카펠라 방콕, '2026 세계 50대 호텔' 2위 수상
+- 매체 1곳 · 국제뉴스
+  - 국제뉴스: (서울=국제뉴스) 유지현 기자 = 태국 방콕을 대표하는 럭셔리 호텔 '카펠라 방콕(Capella Bangkok)'이 '2026 세계 50대 호텔(The World's 50 Best Hotels 2026)'에서 2위를 차지했다. 지난해에 이어 아시아 지역 호텔들의 강세가 두드러진 가운데,
+    https://www.gukjenews.com/news/articleView.html?idxno=3698948
+
+## 대만
+
+### 대구시, 대만 관광시장 공략으로 외래 관광객 유치 총력
+- 매체 2곳 · 국제뉴스 · 시사뉴스  ← 여러 곳이 썼다
+  - 시사뉴스: [시사뉴스 하정수 기자] 대구광역시가 대구공항 입국객 중 가장 큰 비중을 차지하는 대만 시장을 정조준해 (재)대구문화예술진흥원 관광본부와 지난 9월 15일부터 17일까지 대만 타이중과 타이베이를 방문해 관광객 유치 마케팅을 펼쳤다. 이번 방문은 현지 여행업계 및 관광 유관기관과의 협력을
+    https://www.sisa-news.com/news/article.html?no=276212
+  - 국제뉴스: (대구=국제뉴스) 백운용 기자 = 황보란 대구시 문화체육관광국장은 (재)대구문화예술진흥원 관광본부와 함께 지난 9월 15일부터 17일까지 대만 타이중과 타이베이를 방문해 대구공항 입국객 중 비중이 큰 대만 시장을 대상으로 관광객 유치 활동을 전개했다고 말했다. 이번 현지 방문은 대만 여
+    https://www.gukjenews.com/news/articleView.html?idxno=3698803
+
+### 대구시, 입국객 1위 '대만' 정조준… 현지 관광 마케팅 총력전
+- 매체 1곳 · 불교방송
+  - 불교방송: 대구광역시가 대구공항 입국객 중 가장 큰 비중을 차지하는 대만 시장을 공략하기 위해, 대구문화예술진흥원 관광본부와 함께 지난 15일부터 17일까지 대만 현지 마케팅을 펼쳤습니다. 이번 일정은 대만의 주요 도시인 타이중과 타이베이를 방문해 현지 여행업계와의 협력을 강화하고, 직항 전세기
+    https://news.bbsi.co.kr/news/articleView.html?idxno=4107217
 
 ---
-거리 19건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 21건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
