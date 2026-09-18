@@ -88,8 +88,8 @@
     },
     {
       "date": "2026-09-18",
-      "collected": 681,
-      "published": 78,
+      "collected": 674,
+      "published": 101,
       "failed_sources": [
         "guam_pdn",
         "guam_post",

@@ -32,6 +32,7 @@
     "029f2224a67d1edf8d0511ae245cddee43658e2b",
     "02c8f009e706ab7cca6508cb20bd7bdfaf2afea1",
     "02c902712ef6739fc481108badc3e6e6e9704946",
+    "02cf28da3c688a190609c07626dab78a9debfcf1",
     "02e8ff805b76b5fc526bc5a6d49fbcf3b547d5d5",
     "0300e754bc80b230c09961fb1b6d18b0941af3e2",
     "03150fb98d39a84d0536dbddd2b2cddf53337ac4",
@@ -118,6 +119,7 @@
     "0ad082b3383a7aace35cde0fb1f507624ed73213",
     "0b119bcb978cf4f540fad2d89c8225052f13b76b",
     "0b29a3fe8c5e813964c6520d08d0c0729d621f30",
+    "0b4f2f282628bc7bc069a40d56f44cce245ff8f1",
     "0b5e352665416245e637ec07ffbfd852eeb31a06",
     "0bb13197fa08c85567991ccb43c09218e41c20d2",
     "0bb52fb207422013eb87b04e1a508d6e6c40a229",
@@ -307,6 +309,7 @@
     "1d535e01fc89cef01cc78c32d29fc3929d020e4a",
     "1d7359c0acaa3dbcc4221cdd86ee2f56ecc1cdfb",
     "1d783dd079d2ede9eff901366ee3073a1e357ecc",
+    "1d8672ec41f3a6a785c3737e738e17bd2ffa8837",
     "1dae04691c49581ca059836e2188f7ba1ec13fb0",
     "1dce478faef6e90e62e998ab5d72714ceeb8785d",
     "1dd7d2069dc6dd65ed8cb63d3cabdd6ec44d93d3",
@@ -361,6 +364,7 @@
     "229f0648ee0c7e73caf857a68bceaee3b0774eaf",
     "22a9f3c0c865e10e17323076f06cbb49825736ae",
     "22b59a36570541454fd2b3aecccbab1666c66a05",
+    "22ba8129ff86640e24a8442f5c69c4d17a861b00",
     "22f9e8b4e9fefae8f22c81ad5d8a7a1d2042f5a3",
     "232797a24c45ad8a0f162659d4d7051e5adf6009",
     "23360614f910c7f39af9cb5acc8d014d3169521d",
@@ -699,6 +703,7 @@
     "46a31452c65ef46c28bfc70ec1b785cafafb6bc7",
     "46f520c9640db24bf1bdf4f34b600d274e8edcdf",
     "46f7dbc52e6339b39d9e99a3650cd0b4d8e08c01",
+    "4700bc6f73439660933e4f6bf16b6e089c154d8e",
     "471b6acd97cafb8a2c6aadec365849c24f433307",
     "474256ac9e6e1363a8f1e8f94cf0c16bb17038fc",
     "4746d2d0c7a156fe82dfc4e5613d8910bc3ca712",
@@ -923,6 +928,7 @@
     "5d512181b5c7b304b8e6b39fd3b1aa8d32f8ef1e",
     "5d66d5dc6ab839b285451624d7da15dfafb9e2e6",
     "5d821657aed24ef5f34a87eb734289771aae5c20",
+    "5d8a6b7902887ba51608a03eafb6dafedfbe4781",
     "5d8d46ed0b942607050f74cb139c37148f84a1a0",
     "5d94338fe823a257ed04b2bd97f4c89e88c0c05f",
     "5d9f7d407a455a7594e1bdf194fd446efe642c65",
@@ -943,6 +949,7 @@
     "5edfd89f72806da64d56104d43099ea5a5293490",
     "5ee025c97bbcafc3b39dde0ab29e592f82dc2b14",
     "5ee2dc221101abd481eaf08876b657b1fb2aef96",
+    "5f3cd714b54b9c129a9b75906d0115c60dde3e59",
     "5f73e74bae4f945497977419286c17710de32b5b",
     "5fc4283e5ec704bf73755dd9995359b35e0ef93c",
     "5fd29846fea4679bac7336db4f095a98f145b860",
@@ -962,6 +969,7 @@
     "612a3e5ac23dcb50ec698f8d1d7f452decdf8dca",
     "613c6dc315727fa3254325ab9eeb6f39d8d19f78",
     "61456e47169857a1c97d5afdb1b3a6ba7e48f209",
+    "6175ead3a0cd75288887aa67811c5dc404a504b9",
     "617adf4332a8947c57b4d7deeb1ea92720c86cb4",
     "6191f8447a23fba53e59f7ec8425f481e5f24a76",
     "61a2d2ae09a2e5e18da80a3f2b85a281f37353f1",
@@ -981,6 +989,7 @@
     "62dde32e19eab109db0b9aac98f48f1a8a532ea1",
     "62ecac0149efcee9b9744a7aa5fd69211a13d00b",
     "638d088cf1b0ae2bed9f624da059781a1f0e41a6",
+    "639da69c1967db20892ed2224c890d836dba491e",
     "63b78a6630fdaa972913c919983c832a1b88dc17",
     "63c6cdb6229faabfe1657fc347451cd6a7225f2e",
     "63e9182c22f9b8093d90821f5a963b00704e9c85",
@@ -1617,6 +1626,7 @@
     "a74516c1ea5dcb1e1290f5bcceb16fb6cf40f479",
     "a74b11b2b401774ce8b72f0b4cea91c72b21bc2a",
     "a74e4b512d8026c84f391e524ad252b3835bd078",
+    "a780d4956870660f2cf18f45c913b18113917c9a",
     "a79098e467441300c9baeb72a2e16f488f0e5d5f",
     "a7b8c17d60f022813397d2b071e686dd0ec81109",
     "a7e57e82487fbcc2b36fe53888a33676477d63d4",
@@ -1650,6 +1660,7 @@
     "aa090bcc114c2427d5cbc285b42d68a8a8550d2c",
     "aa0e27bca90f855de6172d2973f5530aa3914fef",
     "aa32aea6acc507ad0aad65deae5c7640a9a2b338",
+    "aa433618a3bfc4d3cf67a503c60a6c0e7d838479",
     "aa8781bc023e6c4ed917e636c696a7572bba97f1",
     "aa9375cb5f4a2efca15fbc28ef206d874068d364",
     "aab51cfb9c28553a77a8357a7606cbda05cc281b",
@@ -1871,25 +1882,32 @@
     "c-2a82e75891fa407360eed25e325cf1f1bf7477ee",
     "c-2c040ac9240ab8c55731a6842c54cf0a6a8100a5",
     "c-2ccdf87770442f44947cb96be104f193d4a3854a",
+    "c-327e8f8f385e38e8f3cd7d1a7f9afc3b4ba360c8",
     "c-36d2381a59b0c106826d22c54816af2e29721e99",
     "c-45043eda14ea244ddda25069ef99f408dc411c7b",
     "c-46f969de7e104a2a2663d3e764d46ed0d643a6f9",
+    "c-476d90e5f0184375b06d8ff03977a1db60649af4",
     "c-4b85315badf80b1a2a994993056e1a9e17de69ed",
     "c-5149b14bd37255bf7ac3ad6e761c81c83f204c77",
     "c-58caaf115d87e835b0a3fc605c05e98bf112c539",
+    "c-64c48b3e67a16a421acade9a2a2c911c0a221523",
     "c-6bca23da2467b9fb59641d9a279c1db34a3216a0",
     "c-6e4489c1aeacb1a851b367da7bbab1775482795f",
     "c-7827d12375eb1d899321e1b535b896e080c93455",
+    "c-7ad540dc446a7a635fa55d651508432075fdfd2e",
     "c-7b7ce519f5ce6af7bb9dc703c0c23328aa8703d9",
     "c-87f3a157e4fafcea850a81b846c9322f68e5ff56",
     "c-98c5e87e58d4518fa494eee6b0df1a4a03009381",
     "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
     "c-a5911ba8a9be497027995aef8207f85c95438fd4",
+    "c-ac2fdaccb82bd479e124594634eb2ae26b694d5f",
     "c-afcabf8c020770d43b528d4f046bd8ee64fb8407",
     "c-b3493629870f2884069f87f1af2adc800cdf65ec",
     "c-b5c568d4df0deabf534e6ae1f072e9c092e81421",
+    "c-bed94ffed7f91de65596d0a5b5ce88774e95008d",
     "c-cc9a7df4d96910cc13f3d717fee13e0239fad72a",
     "c-d005fb78aa042dc01529263c24b297e69677cace",
+    "c-dfa62dff755df38e917494ba98f6595a14941e19",
     "c-f858426d92f6fe21b440696997346a65f743e70e",
     "c-fb2990625d8cf5f28c8d0904099f8a2e5f81d2cc",
     "c-fed69cb753b9d6e90cea339f8d93b9d8c22e1467",
@@ -1990,6 +2008,7 @@
     "c9bca066911f00a9885ec84d145c345682e04cdd",
     "ca1f1ef285603e32954f542dd60ba8e9795cd6c1",
     "ca22589851c43b6fe6ef35c00b243e997d823fa5",
+    "ca2f89c3459ca1e529e2de98e47e719224bb264a",
     "ca358367642a0ade14d49413e181c07d22afe394",
     "ca477b63c887a999828b29020e8d10552bd6a491",
     "ca6369b4e8e1cd94a2b870e96d506507c633a16a",
@@ -2053,6 +2072,7 @@
     "ce958e06ff2f7aaadaa43baac180d10fcfe0e32e",
     "cee2f128aa31ac627781ca83e17dcdde9240dbc1",
     "cee51d0c96da24d78a3cbe677b07f0419f0f3e66",
+    "cf3c7fb46cb673308fdb7da23e1126649eedfe1c",
     "cf480dbdd98b46238905181c493efec1706a3341",
     "cf5d4cae9de92b83b83a3c3937ee3e055f05e95c",
     "cf73e10115dfee4781f7128f74d9556437fe65ab",
@@ -2110,6 +2130,7 @@
     "d4d8d37a5f8cbd4ed676eaa1378154d17e101e7f",
     "d4dd0f8b0401934238a06ec9d064bc3ab574a6b7",
     "d4f17516f31b0b3b63c24fff6c929cb43cae72ca",
+    "d50618da25f04445eefbc7d4cd8e5d12a5a4fe00",
     "d507967924965af06bc2d4343c5162dcf60315d9",
     "d51c76b7e4a83721fe427cf0b14c75d1f0fb7d58",
     "d532952dc48a9fd79e00749e999a062a1f4c3f7d",
@@ -2484,6 +2505,7 @@
     "f9319e3dfb7f0d871dd90ea9ed3d061da8ff6ba7",
     "f93b1d09ebcd1b85f0ec3c3d4cbc95ddd47417f4",
     "f983139d4b67fc596e56a5319b91a0e61a58116c",
+    "f984bb31c733b650c0a12c093f1c813e98ba8907",
     "f994e2e819734f7777f86007017ecbae70e27663",
     "f999a2d91a113c7da5b8d0a43f5a523219e11149",
     "f9b9b16a34e410ddf5f0353ed915fc9b94ba2482",
@@ -2516,6 +2538,7 @@
     "fb7cecd2da46db4a00539c4a9a9cf5e51318f533",
     "fb7fd912dd6ad25b2720c297b5b99ccc670401b0",
     "fba43cbefaad1755446280a3048fcf7215009015",
+    "fbdcc0b9b86e40e68ee92747521e464b4a7896f5",
     "fbe0c81206c3767ca7abb1c1ec0948b567962a4b",
     "fbeedf41700645a7f963e96fc1dbad02b2f31827",
     "fc00f5a990089010e83b2179b083948080d03a0e",
@@ -19926,6 +19949,167 @@
       "title": "나트랑은 추석 기간 동안 한국인 관광객들이 가장 많이 검색하는 여행지 2위 안에 드는 곳입니다.",
       "date": "2026-09-18",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "c-64c48b3e67a16a421acade9a2a2c911c0a221523",
+      "title": "괌관광청, 예산 390억 확정에 필리핀 무비자 효과까지 겹쳤다",
+      "date": "2026-09-18",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "c-dfa62dff755df38e917494ba98f6595a14941e19",
+      "title": "도쿄에 '달리는 회전초밥' 등장, 10월부터 시부야·긴자·아사쿠사 돈다",
+      "date": "2026-09-18",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "c-bed94ffed7f91de65596d0a5b5ce88774e95008d",
+      "title": "라오스 전자비자 승인서 유효기간, 60일에서 180일로 늘었다",
+      "date": "2026-09-18",
+      "region": "laos",
+      "grade": "C"
+    },
+    {
+      "id": "c-7ad540dc446a7a635fa55d651508432075fdfd2e",
+      "title": "이랜드파크 코럴 오션 리조트 사이판, 겨울 골프+투어 '골투' 패키지 출시",
+      "date": "2026-09-18",
+      "region": "saipan",
+      "grade": "C"
+    },
+    {
+      "id": "c-327e8f8f385e38e8f3cd7d1a7f9afc3b4ba360c8",
+      "title": "대구시, 대만 입국객 1위 시장에 전세기 유치까지 나섰다",
+      "date": "2026-09-18",
+      "region": "taiwan",
+      "grade": "C"
+    },
+    {
+      "id": "c-ac2fdaccb82bd479e124594634eb2ae26b694d5f",
+      "title": "카펠라 방콕 세계 2위, 그 사이 태국은 다낭 노선을 넓힌다",
+      "date": "2026-09-18",
+      "region": "thailand",
+      "grade": "C"
+    },
+    {
+      "id": "c-476d90e5f0184375b06d8ff03977a1db60649af4",
+      "title": "나트랑, 추석 검색 2위에 오르자 기차역도 그대로 남긴다",
+      "date": "2026-09-18",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "02cf28da3c688a190609c07626dab78a9debfcf1",
+      "title": "[레저] 괌 대표 럭셔리 호텔 ‘더 츠바키타워’, 인피니티풀과 투몬 베이를 잇는 전용 계단 새롭게 오픈",
+      "date": "2026-09-18",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "639da69c1967db20892ed2224c890d836dba491e",
+      "title": "[방콕호텔] 시암 켐핀스키, 해 질 무렵에는 라운지로",
+      "date": "2026-09-18",
+      "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "1d8672ec41f3a6a785c3737e738e17bd2ffa8837",
+      "title": "[괌여행] 두짓타니 괌 자쿠지에서 바다멍 해보기",
+      "date": "2026-09-18",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "fbdcc0b9b86e40e68ee92747521e464b4a7896f5",
+      "title": "‘건축 마법사’ 빌 벤슬리 설계… 다낭 인터컨티넨털 리조트, ‘관광 오스카상’ 7회 수상",
+      "date": "2026-09-18",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "6175ead3a0cd75288887aa67811c5dc404a504b9",
+      "title": "후에-다낭 잇는 증기기관 관광열차 오는 10월 시범 운행",
+      "date": "2026-09-18",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "cf3c7fb46cb673308fdb7da23e1126649eedfe1c",
+      "title": "이랜드파크 코럴 오션 리조트 사이판, 골프·관광 결합 패키지 출시",
+      "date": "2026-09-18",
+      "region": "saipan",
+      "grade": "B"
+    },
+    {
+      "id": "a780d4956870660f2cf18f45c913b18113917c9a",
+      "title": "Australia gets tough: Visa overstayers face detention",
+      "date": "2026-09-18",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "f984bb31c733b650c0a12c093f1c813e98ba8907",
+      "title": "Hanoi restaurant makes world's top 3 fine dining list",
+      "date": "2026-09-18",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "aa433618a3bfc4d3cf67a503c60a6c0e7d838479",
+      "title": "Michelin-starred restaurant fined $11,000 for serving dessert topped with ants",
+      "date": "2026-09-18",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "d50618da25f04445eefbc7d4cd8e5d12a5a4fe00",
+      "title": "인센티브 여행을 통해 껀터와 일본 간 관광 시장을 연결할 수 있는 기회.",
+      "date": "2026-09-18",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "0b4f2f282628bc7bc069a40d56f44cce245ff8f1",
+      "title": "바람으로 맺은 제주·베트남 카인호아성 교류, 한층 더 커진다",
+      "date": "2026-09-18",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "ca2f89c3459ca1e529e2de98e47e719224bb264a",
+      "title": "Catamaran grounded during Lowell removed from Nawiliwili Harbor",
+      "date": "2026-09-18",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "5f3cd714b54b9c129a9b75906d0115c60dde3e59",
+      "title": "Japan welcomes 3.1 million tourists in August",
+      "date": "2026-09-18",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "5d8a6b7902887ba51608a03eafb6dafedfbe4781",
+      "title": "제주 관광객 1000만명 ‘전년대비 8일 빨라’",
+      "date": "2026-09-18",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "22ba8129ff86640e24a8442f5c69c4d17a861b00",
+      "title": "Kota Kinabalu airport runway reopens",
+      "date": "2026-09-18",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "4700bc6f73439660933e4f6bf16b6e089c154d8e",
+      "title": "KB국민카드·마스터카드, '도쿄 마라톤 2027' 출전권 이벤트",
+      "date": "2026-09-18",
+      "region": "japan",
       "grade": "B"
     }
   ]

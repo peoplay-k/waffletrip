@@ -5,9 +5,11 @@ section: news
 title: 도쿄에 '달리는 회전초밥' 등장, 10월부터 시부야·긴자·아사쿠사 돈다
 source_name: ''
 source_url: ''
-summary: 2층 오픈톱 버스에 회전초밥 레일을 설치한 '스시버스(SUSHI BUS)'가 10월부터 도쿄에서 운행을 시작한다. 국내외 네 개
-  매체가 이 소식을 전했다.
-status: approved
+summary: 2층 오픈톱 버스에 회전초밥 레일을 설치한 '스시버스(SUSHI BUS)'가 10월부터 도쿄에서 운행을 시작한다. 국내외 네 개 매체가
+  이 소식을 전했다.
+status: published
+published_id: c-dfa62dff755df38e917494ba98f6595a14941e19
+published_on: '2026-09-18'
 ---
 도쿄 시내를 도는 2층 버스 안에서 회전초밥을 즐기는 관광 상품이 10월부터 등장한다. 이 소식은 국내외 매체 네 곳이 거의 동시에 전할 만큼 화제를 모았다.
 

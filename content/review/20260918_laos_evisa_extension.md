@@ -5,9 +5,11 @@ section: news
 title: 라오스 전자비자 승인서 유효기간, 60일에서 180일로 늘었다
 source_name: ''
 source_url: ''
-summary: 라오스 당국이 전자비자(e-Visa) 승인서 유효기간을 기존 60일에서 180일로 한시적으로 늘렸다. 승인 통보서에 이 조치가
-  명시되고 있다.
-status: approved
+summary: 라오스 당국이 전자비자(e-Visa) 승인서 유효기간을 기존 60일에서 180일로 한시적으로 늘렸다. 승인 통보서에 이 조치가 명시되고
+  있다.
+status: published
+published_id: c-bed94ffed7f91de65596d0a5b5ce88774e95008d
+published_on: '2026-09-18'
 ---
 라오스 여행을 준비 중이라면 전자비자(e-Visa) 신청 시점을 좀 더 여유 있게 잡아도 될 것으로 보인다. 여행 비자 전문 매체 VisasNews는 9월 17일 라오스 당국이 **e-Visa 승인서(approval letter)의 유효기간을 기존 60일에서 180일로 한시적으로 늘렸다**고 보도했다.
 
