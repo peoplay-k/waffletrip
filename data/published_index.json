@@ -116,6 +116,7 @@
     "0a3e7e231074d280768769327cd2b721996cb514",
     "0a46d2a66cad464e42819d7ff346e02ac37247e4",
     "0a6edabb05dc0d228d35417a21e5aa34e602f6a7",
+    "0a8c538d339dec07a332a0fd74966c4007070247",
     "0a93d0884e9ee1454cb77150b6cf0a3807758c30",
     "0ab174031b5b2735a11a0111aac6bba503dda4fb",
     "0ad082b3383a7aace35cde0fb1f507624ed73213",
@@ -302,6 +303,7 @@
     "1ba269c0c5a1eba6adf12fe5fe8a30361f95c319",
     "1bb7e9f9007311b3a91a509584e7b6462045d10d",
     "1bd11dde4b8e99b770c6bd07ac2827af1dc8fe8d",
+    "1bee08b9b65b409aa98cb84c70b5a41f67652885",
     "1bee30fe5b932f990e64c91734d475df047e8782",
     "1c42fd350e492b03b9ee6b1fa695d3ae9cb17e31",
     "1c92cb8357738d4106b95e56d0eac6284b5b0250",
@@ -748,6 +750,7 @@
     "490180e766db172524228e0cafc43b3d2b186982",
     "49073942e39b12d77f1fd2091f00d6b01dbe6076",
     "491486d10d7fe91163687eaf9fd801d2983d09bd",
+    "4919b234f09a76cce6b219121fe77e8f0c3fe5a6",
     "491bf73f895ef21d3ac2d579788d6a14e5740876",
     "491d669d747c789dd3dab4a559dae99e0aa95f4a",
     "4937fe80c43e09f061b97bbc9bab94472cf7ef9c",
@@ -856,6 +859,7 @@
     "52f0830b90738c1474690f5dc54658d021bb7ebd",
     "5329953348a11a2c0a63982b3c2607aed97ae892",
     "532d288456188edb039c3e6ff2e815f772b4f57b",
+    "532e3d2f08a5f54349db281ae562aeb392f2fe49",
     "53402e135abd316570fbcda5f1289596cc12f921",
     "538feb7f594a085165b2a9782f8bb875aeb3f7e4",
     "539f6e038ebe6c471e55d4a92f46f68080905884",
@@ -1040,6 +1044,7 @@
     "665fb4e36977e62a4f84ed0f154d7b813236d475",
     "666836be180888dff65b80797e26344acf8c2c26",
     "6681a8e7f05ee63ae6268b041b4b46e4cab24bdf",
+    "6684a1de27eb1ac9e0e6dded5ba9679d80b46c1f",
     "6684af07a91f61ad5832f929957433f3aec8d4fb",
     "6697ae9d9d2045b0c1e7687291c6b8d15dbf993c",
     "66af0432c726ad8b1995f09dc3c3ec3b0dd129ab",
@@ -1931,6 +1936,7 @@
     "c-2ccdf87770442f44947cb96be104f193d4a3854a",
     "c-327e8f8f385e38e8f3cd7d1a7f9afc3b4ba360c8",
     "c-36d2381a59b0c106826d22c54816af2e29721e99",
+    "c-43098c38c0dd69692ac31a351092899c254fd452",
     "c-45043eda14ea244ddda25069ef99f408dc411c7b",
     "c-46f969de7e104a2a2663d3e764d46ed0d643a6f9",
     "c-476d90e5f0184375b06d8ff03977a1db60649af4",
@@ -1943,7 +1949,10 @@
     "c-7827d12375eb1d899321e1b535b896e080c93455",
     "c-7ad540dc446a7a635fa55d651508432075fdfd2e",
     "c-7b7ce519f5ce6af7bb9dc703c0c23328aa8703d9",
+    "c-80da6562d6bedb262398ee67f43f336da01f20d9",
     "c-87f3a157e4fafcea850a81b846c9322f68e5ff56",
+    "c-8e65d237212ca0103d3c21f87e3610376be860ed",
+    "c-977a2deec9114116f12cc0637429a443eb3fcc4a",
     "c-98c5e87e58d4518fa494eee6b0df1a4a03009381",
     "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
     "c-a5911ba8a9be497027995aef8207f85c95438fd4",
@@ -1954,6 +1963,7 @@
     "c-bed94ffed7f91de65596d0a5b5ce88774e95008d",
     "c-cc9a7df4d96910cc13f3d717fee13e0239fad72a",
     "c-d005fb78aa042dc01529263c24b297e69677cace",
+    "c-d46b2f3f5d2e67202804ec885c6324c4f961dc70",
     "c-dfa62dff755df38e917494ba98f6595a14941e19",
     "c-f858426d92f6fe21b440696997346a65f743e70e",
     "c-fb2990625d8cf5f28c8d0904099f8a2e5f81d2cc",
@@ -2460,6 +2470,7 @@
     "ef1da3916cdf44d226c7e3dbf593510cce209da6",
     "ef38941fa949e4d1c4941b0da9fdd14aef1b3654",
     "ef433211bf65d986de2aa55424155a8a61f81438",
+    "ef7df35be48943d9ba6e249c1ff50cc3f0fc7ec3",
     "ef861ef758813e2194e919cb7f9df6bb9f39e0ea",
     "efa89a189bebb2e7b57766db0961edcf9980d65b",
     "efbc5f5a972c05066804e5ea7fe1f2c9dc3f9010",
@@ -2599,6 +2610,7 @@
     "fc00f5a990089010e83b2179b083948080d03a0e",
     "fc0dd7616ea8dba9ad2f28b8877138a8cf4b58fe",
     "fc1628b5a4bbbcf96b5eb734a94a87339bca2b6d",
+    "fc2c800d2087d3f725e12f288ad1a0876251e7e0",
     "fc302037e00e5b4984537c678ef043fccca4eb77",
     "fc3670b67e9c9c6af17a4f3d4d99abdd28255b58",
     "fc492aea4e470ff125ede471bba7073baed6973e",
@@ -20330,7 +20342,7 @@
     },
     {
       "id": "8e14c522820b5a155d62f15484b827a51a91dd9f",
-      "title": "Insurance helping Hawaii conservationists repair coral reefs after Lala, Lowell storms",
+      "title": "하와이 산호초 복구, 라라·로웰 폭풍 이후 보험금이 돕는다",
       "date": "2026-09-19",
       "region": "hawaii",
       "grade": "B"
@@ -20372,14 +20384,14 @@
     },
     {
       "id": "7cbff429bfd5613f17f6ea0ae17491a5437b9c02",
-      "title": "E-Land Park Coral Ocean Resort Saipan Launches Combined Golf and Sightseeing Package",
+      "title": "이랜드파크 코럴오션리조트 사이판, 골프+관광 패키지 출시",
       "date": "2026-09-19",
       "region": "saipan",
       "grade": "B"
     },
     {
       "id": "009ecd4dc2e84efd79f3472df322d5ba43674cc4",
-      "title": "Localities work to expand Laos–Viet Nam–Thailand tourism links",
+      "title": "라오스·베트남·태국, 관광 연계망 넓힌다",
       "date": "2026-09-19",
       "region": "laos",
       "grade": "B"
@@ -20470,14 +20482,14 @@
     },
     {
       "id": "3dc86e49b115050baa2902908c683f8b5b8b0d72",
-      "title": "Mala Ocean Tavern Beat Mama’s. Then Happy Hour Beat Dinner.",
+      "title": "마우이 라하이나 맛집, 말라 오션 태번 화제",
       "date": "2026-09-19",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "e3b9f9b293bea517142f36f77577fb40c900c313",
-      "title": "Kauai Reopening, But Six Famous Parks Remain Closed",
+      "title": "카우아이 재개 중이지만 유명 공원 6곳은 아직 폐쇄",
       "date": "2026-09-19",
       "region": "hawaii",
       "grade": "B"
@@ -20498,7 +20510,7 @@
     },
     {
       "id": "296f5a097094b943d564883fb4e8dca4335f69dd",
-      "title": "World's No. 2 pickleball player explores Ha Giang by motorbike",
+      "title": "세계랭킹 2위 피클볼 선수, 오토바이로 하장 여행",
       "date": "2026-09-19",
       "region": "vietnam",
       "grade": "B"
@@ -20550,6 +20562,90 @@
       "title": "다낭은 태국과의 관광 및 무역 협력을 확대하고 있습니다.",
       "date": "2026-09-19",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "c-977a2deec9114116f12cc0637429a443eb3fcc4a",
+      "title": "투몬 지구, 야시장 1주년 맞자 옆 호텔은 계단부터 새로 놨다",
+      "date": "2026-09-19",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "c-80da6562d6bedb262398ee67f43f336da01f20d9",
+      "title": "카우아이, 공원 여섯 곳은 아직 닫혀 있고 산호초는 보험금으로 고친다",
+      "date": "2026-09-19",
+      "region": "hawaii",
+      "grade": "C"
+    },
+    {
+      "id": "c-8e65d237212ca0103d3c21f87e3610376be860ed",
+      "title": "태풍 앞둔 하네다·나리타, 그 사이 트리니티항공은 나고야를 더했다",
+      "date": "2026-09-19",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "c-d46b2f3f5d2e67202804ec885c6324c4f961dc70",
+      "title": "코타키나발루 공항 활주로, 밤 11시 반에 다시 열렸다",
+      "date": "2026-09-19",
+      "region": "kota",
+      "grade": "C"
+    },
+    {
+      "id": "c-43098c38c0dd69692ac31a351092899c254fd452",
+      "title": "나트랑에 야간관광 상품 생기고, 알로라 나트랑엔 국제 호텔 기준 들어온다",
+      "date": "2026-09-19",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "532e3d2f08a5f54349db281ae562aeb392f2fe49",
+      "title": "이번 주 사이판에서 나온 소식 3건",
+      "date": "2026-09-19",
+      "region": "saipan",
+      "grade": "C"
+    },
+    {
+      "id": "ef7df35be48943d9ba6e249c1ff50cc3f0fc7ec3",
+      "title": "제주해녀 유네스코 등재 10년 ‘살아 있는 문화’",
+      "date": "2026-09-19",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "1bee08b9b65b409aa98cb84c70b5a41f67652885",
+      "title": "Single mother ‘taking it day by day,’ after Hurricane Lowell ruins her Haena home",
+      "date": "2026-09-19",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "4919b234f09a76cce6b219121fe77e8f0c3fe5a6",
+      "title": "Four killed in crash involving 12 motorcycles, two cars and bus",
+      "date": "2026-09-19",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "0a8c538d339dec07a332a0fd74966c4007070247",
+      "title": "Guam EPA warns of 12 polluted beaches",
+      "date": "2026-09-19",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "fc2c800d2087d3f725e12f288ad1a0876251e7e0",
+      "title": "First Alert Forecast: Drier Weekend... Wet Next Week",
+      "date": "2026-09-19",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "6684a1de27eb1ac9e0e6dded5ba9679d80b46c1f",
+      "title": "U.S. DOJ issues subpoenas in investigation of Newsom’s international travel",
+      "date": "2026-09-19",
+      "region": "guam",
       "grade": "B"
     }
   ]
