@@ -17,15 +17,15 @@
 
 ## 사이판
 
-### 올 겨울 사이판서 가성비 여행 즐겨봐? 이랜드 코럴 오션 리조트 추천 ‘패키지’
-- 매체 1곳 · 문화일보
-  - 문화일보: 이랜드파크 코럴 오션 리조트 사이판은 겨울철 해외 골프 여행을 계획하는 고객을 위해 사이판에서 골프와 관광을 함께 즐길 수 있는 ‘골투(골프+투어)’ 패키지를 출시했다고 20일 밝혔다. 투숙은 오는 11월 26일부터 내년 3월 31일까지 가능하다.
-    https://www.munhwa.com/article/11618278
-
 ### 골프만 치러 안 간다…사이판·베트남서 라운딩에 관광까지 묶었다
 - 매체 1곳 · 세계일보
   - 세계일보: 추운 겨울을 피해 해외로 떠나는 골프 여행이 달라지고 있다. 골프장에서 라운딩만 하고 돌아오는 일정 대신 숙박과 식사, 관광, 공항 이동까지 한꺼번에 해결하는 체류형 상품이 늘고 있다.
     https://www.segye.com/newsView/20260919505354
+
+### 올 겨울 사이판서 가성비 여행 즐겨봐? 이랜드 코럴 오션 리조트 추천 ‘패키지’
+- 매체 1곳 · 문화일보
+  - 문화일보: 이랜드파크 코럴 오션 리조트 사이판은 겨울철 해외 골프 여행을 계획하는 고객을 위해 사이판에서 골프와 관광을 함께 즐길 수 있는 ‘골투(골프+투어)’ 패키지를 출시했다고 20일 밝혔다. 투숙은 오는 11월 26일부터 내년 3월 31일까지 가능하다.
+    https://www.munhwa.com/article/11618278
 
 ## 하와이
 
@@ -34,27 +34,29 @@
   - 연합뉴스: (서울=연합뉴스) 성연재 기자 = 높은 외식비로 여행객들의 부담이 큰 하와이 와이키키에서 처음으로 '레스토랑 위크'가 열린다.
     https://www.yna.co.kr/view/AKR20260919040600542
 
-### 아웃리거, 하와이 '와이키키 레스토랑 위크' 개최 및 미식 프로모션 진행
-- 매체 1곳 · 디스커버리뉴스(DISCOVERYNEWS)
-  - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 아웃리거 리조트가 오는 10월 1일부터 11일까지 개최되는 ‘플레이버스 오브 와이키키 레스토랑 위크(Flavors of Waikīkī Restaurant Week)’에 맞춰 숙박 및 식음료 혜택을 연계한 미식 프로그램을 선보인다. 참여 레스토랑 및 주요 메
-    https://www.discoverynews.kr/news/articleView.html?idxno=1102054
+### First Alert Forecast: Drier Weekend... Wet Next Week
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: There are a few lingering showers as the remnants of Norbert make their exit stage right. Upslope Kailua-Kona even has some thunder and lightning this afternoon
+    https://www.hawaiinewsnow.com/2026/09/19/first-alert-forecast-drier-weekend-wet-next-week/
+  - Hawaii News Now: Stable trade wind weekend weather is expected, but remnants of Tropical Depression 15-E may bring more showers and humidity by Tuesday.
+    https://www.hawaiinewsnow.com/2026/09/20/first-alert-forecast-drier-weekend-more-tropical-moisture-horizon/
 
 ## 베트남
 
-### 다낭 왕복 292만원 취소했더니 77만원…땡처리 항공권 `이중 수수료`
-- 매체 1곳 · 매일신문
-  - 매일신문: 한성숙 국무총리가 7일 서울 종로구 정부서울청사에서 쩐 타인. ..
-    https://www.imaeil.com/page/view/2026091821384119757
-
-### 다낭의 인프라가 빠르게 발전하고 있습니다. 어떤 부동산 모델이 투자를 유치할까요?
+### 나트랑에 새로운 야간 관광 상품이 추가되었습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: TOD(대중교통 중심 개발) 모델에 기반한 다낭-호이안 도시철도 노선 연구는 다낭 남부 지역에 더 많은 개발 기회를 열어주고 있습니다. 쯔엉사 대로에 위치하고, 바다와 인접해 있으며, 골프장과 국제적인 리조트 생태계와 연결된 뉴타운 다이아몬드는 장기적인 소유 자산으로서의 기반을 갖추고 
-    https://www.vietnam.vn/ko/ha-tang-da-nang-cat-canh-mo-hinh-bat-dong-san-nao-don-dau-dong-tien
+  - vietnam.vn: VHO - 스카이 블루 스테이션의 야간 식사 및 엔터테인먼트 공간 개장은 관광객들에게 더욱 다양한 경험 옵션을 제공하며, 나트랑(칸화성)의 야간 관광 상품 및 서비스 시스템 확장과 점진적인 개선에 기여합니다.
+    https://www.vietnam.vn/ko/nha-trang-them-san-pham-du-lich-ve-dem
 
-### 다낭은 왜 결의안 26호에 명시된 "관광 성장 거점 3대 도시"에 자신 있게 합류하는 것일까요?
+### 다낭: 꼬투족 고유의 문화적 가치를 전파합니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 다낭이 하노이, 호치민시와 함께 2030년까지 베트남 관광 성장의 3대 중심지로 꼽힌 것은 결코 우연이 아닙니다.
-    https://www.vietnam.vn/ko/vi-sao-da-nang-dinh-dac-buoc-vao-bo-ba-cuc-tang-truong-du-lich-cua-nghi-quyet-26
+  - vietnam.vn: "2026 호아방 꼬뚜 축제"는 다낭시의 꼬뚜족이 지닌 독특한 전통문화적 가치를 기리고 널리 알리는 문화, 스포츠, 관광 축제입니다.
+    https://www.vietnam.vn/ko/da-nang-lan-toa-gia-tri-van-hoa-dac-sac-cua-dong-bao-co-tu
+
+### 다낭은 해외 관광객 재방문율에서 아시아 6위를 차지하고 있습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 온라인 여행 플랫폼 아고다가 2026년 9월 초에 발표한 2026년 상반기 예약 데이터에 따르면, 다낭은 해외 관광객 재방문율이 가장 높은 아시아 도시 6위를 기록했으며, 이는 전년 대비 두 단계 상승한 순위입니다.
+    https://www.vietnam.vn/ko/da-nang-dung-thu-6-chau-a-ve-ty-le-khach-quoc-te-quay-tro-lai
 
 ## 라오스
 
@@ -65,20 +67,20 @@
 
 ## 제주
 
-### [기고] 제주의 관광, 이제는 숫자보다 환경을 봐야 한다
+### 도두 바당에서 건진 가장 특별한 선물, 제주해녀의 사인
 - 매체 1곳 · 제주의소리
-  - 제주의소리: 추석 연휴가 다가오면 제주공항은 제주를 찾는 방문객들로 붐빈다. 오랜만에 가족과 함께 제주를 찾는 관광객에게는 설레는 여행이지만, 제주도에는 반가운 손님을 맞이하는 일이 또 다른 과제가 된다.
-    https://www.jejusori.net/news/articleView.html?idxno=506700
+  - 제주의소리: 제주 도두항에서 지역 관광업체와 마을 해녀들이 손잡고 만든 상생형 해양관광 프로그램이 국내외 관광객들에게 제주에서의 특별한 감동과 경험을 선사하고 있어 주목된다. 지난 6월부터 3자 간 상생형 해양관광 프로그램을 운영 중인 주인공은 도두어촌계(부태신 어촌계장)·도두해녀회(회장 김방진)와
+    https://www.jejusori.net/news/articleView.html?idxno=506720
 
-### 제주해녀 유네스코 등재 10년 ‘살아 있는 문화’
+### 세계유산 10년의 숨비소리…제주해녀축제 19일 개막
 - 매체 1곳 · 제주의소리
-  - 제주의소리: 제주해녀문화의 유네스코 인류무형문화유산 등재 10주년을 맞아 전 세계 전문가와 현장 해녀들이 제주에 모여 지속 가능한 전승과 보전 방안을 논의했다. 제주관광공사는 18일 메종글래드 제주호텔에서 ‘제주해녀문화 유네스코 인류무형문화유산 등재 10주년 기념포럼’을 열었다.
-    https://www.jejusori.net/news/articleView.html?idxno=506711
+  - 제주의소리: 세계인의 사랑을 받는 제주해녀문화가 유네스코 인류무형문화유산 등재 10주년을 맞은 가운데, 이를 기념하는 제주해녀축제가 막을 올렸다. 제주도는 19일 제주시 구좌읍 해녀박물관 일대에서 ‘인류무형문화유산 등재 10년의 발자취, 숨비소리에 실어 보낸 고백’을 주제로 제19회 제주해녀축제와 
+    https://www.jejusori.net/news/articleView.html?idxno=506715
 
-### 장애인·비장애인이 이웃으로…서귀포 ‘두배마을’ 성과 공유
+### 제주를 새기고 표현한 ‘각자도생-풍경해독’ 전시 열려
 - 매체 1곳 · 제주의소리
-  - 제주의소리: 장애인과 비장애인이 함께 어우러지는 마을 환경을 조성하기 위한 ‘장애친화두배마을사업’의 성과와 발전 방향을 논의하는 자리가 마련된다. 서귀포시장애인종합복지관(관장 윤보철)은 오는 30일 오후 3시 Y리조트에서 ‘우리가 만든 변화, 함께 만드는 장애친화두배마을’을 주제로 두배마을워크숍을 
-    https://www.jejusori.net/news/articleView.html?idxno=506697
+  - 제주의소리: 제주문화예술재단은 ‘2026년 원도심 예술공간 전시실 대관공모’ 선정전으로 한승희 개인전 ‘각자도생(刻字陶生) 2026’과 한희선 개인전 ‘풍경해독(諷經解讀)’을 개최한다. 오는 23일부터 10월 4일까지 산지천갤러리에서 열리는 전시다.
+    https://www.jejusori.net/news/articleView.html?idxno=506699
 
 ## 일본
 
@@ -89,15 +91,15 @@
   - 메가경제: 
     https://m.megaeconomy.co.kr/news/amp.html?ncode=1065598707024258
 
-### 삿포로 파크 호텔 테라스 레스토랑 피아레, 마코토 사나다 총괄 셰프의 특별 테이스팅 디너 개최
-- 매체 1곳 · Holiday Travel
-  - Holiday Travel: 2026년 10월 6일 화요일부터 10월 8일 목요일까지, 삿포로 파크 호텔의 테라스 레스토랑 피아레에서 마코토 사나다 총괄 셰프가 이끄는 특별 테이스팅 디너가 열립니다. 홋카이도의 가을 해산물과 시레토코 와규를 주재료로 한 풀 코스 요리와 와인 페어링을 즐기실 수 있습니다.
-    https://www.haveagood-holiday.com/ko/articles/sapporo-park-hotel-piare-tasting-dinner
-
 ### 대한항공, 일본 도쿄 하네타-나리타 항공편 태풍 영향→비정상 운항 예상
 - 매체 1곳 · 톱스타뉴스
   - 톱스타뉴스: 18일 대한항공 측은 공식 채널을 통해 “악기상 영향으로 항공편의 비정상 운항이 예상된다”는 공지를 게재했다.
     https://www.topstarnews.net/news/articleView.html?idxno=16199045
+
+### 대한항공 10월 유류할증료, 뉴욕은 오르고 도쿄는 내린다
+- 매체 1곳 · 파이낸셜뉴스
+  - 파이낸셜뉴스: (서울=뉴스1) 김성식 기자 = 대한항공(003490)의 오는 10월 국제선 유류 할증료가 국제 유가 상승과 달러·원 환율 하락 영향을 동시에 받으면서 노선별로 엇갈렸다. 미국 동부 노선은 왕복 기준 이달 대비 1만7200원가량 운임이 오를 것으로 예상되는 반면 동북아 주요 ..
+    https://www.fnnews.com/news/202609161122282200
 
 ## 태국
 
@@ -107,6 +109,10 @@
     https://www.gukjenews.com/news/articleView.html?idxno=3700802
   - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok) 이그제큐티브 라운지 저녁 시간. 이그제큐티브 룸 이상의 상위 카테고리 객실 투숙객만을 위한 라운지로서, 호텔 최상층에서 방콕 시내의 탁 트인 풍경을 
     https://www.gukjenews.com/news/articleView.html?idxno=3700805
+  - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok) 수영장. 방콕 번화가에서 대규모 야외 수영장과 정원이 있는 5성급 호텔로, 다수의 미쉐린 레스토랑이 푸드코드에 입점해 있는 시암 파라곤 쇼핑몰과 직접
+    https://www.gukjenews.com/news/articleView.html?idxno=3701184
+  - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok) 이그제큐티브 라운지 저녁 시간에 준비된 와인. 이그제큐티브 룸 이상의 상위 카테고리 객실 투숙객만을 위한 라운지로서, 호텔 최상층에서 방콕 시내의 탁
+    https://www.gukjenews.com/news/articleView.html?idxno=3701190
 
 ---
 거리 17건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
