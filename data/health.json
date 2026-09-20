@@ -103,6 +103,12 @@
         "guam_post",
         "saipan_tribune"
       ]
+    },
+    {
+      "date": "2026-09-20",
+      "collected": 696,
+      "published": 53,
+      "failed_sources": []
     }
   ]
 }
