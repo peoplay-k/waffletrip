@@ -1,105 +1,108 @@
-# 오늘 쓸 기사거리 (2026-09-20)
+# 오늘 쓸 기사거리 (2026-09-21)
 
 여러 매체가 같은 건을 쓴 것부터 놓았다. **문장을 옮기지 말고**
 사실만 가져다 우리 문장으로 쓴다. 인용한 매체는 본문에 밝힌다.
 
 ## 괌
 
+### 괌 더 츠바키 타워, 전용 비치 액세스 오픈
+- 매체 1곳 · 트래블데일리
+  - 트래블데일리: 괌의 럭셔리 호텔 더 츠바키 타워(The Tsubaki Tower)가 호텔 인피니티 풀과 투몬 베이를 바로 연결하는 투숙객 전용 계단을 새롭게 오픈했다. 이번 전용 계단 오픈으로 투숙객들은 인피니티 풀에서 휴식을 즐긴 후 계단을 통해 투몬 베이로 바로 이동할 수 있게 됐다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72134
+
 ### [괌여행] 두짓타니 괌 객실 전망
 - 매체 1곳 · 국제뉴스
   - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 객실 발코니에서 본 해변 풍경. 투몬 베이(투몬만)는 괌에서 주요 호텔리조트와 쇼핑몰, 레스토랑이 밀집한 관광의 중심지로서 국제공항에서도 가까우며, 길다란 백사장과 에메랄드빛
     https://www.gukjenews.com/news/articleView.html?idxno=3700707
 
-### 괌 더츠바키타워, 인피니티풀·투몬베이 전용계단 개방
-- 매체 1곳 · 파이낸셜뉴스
-  - 파이낸셜뉴스: 괌의 럭셔리 호텔 더 츠바키 타워가 인피니티풀과 투몬 베이를 직접 연결하는 투숙객 전용 계단을 새롭게 운영한다. 이에 따라 투숙객은 인피니티풀에서 계단을 통해 투몬 베이 해변으로 바로 이동할 수 있다.
-    https://www.fnnews.com/news/202609181452191280
-
 ## 사이판
 
-### 올 겨울 사이판서 가성비 여행 즐겨봐? 이랜드 코럴 오션 리조트 추천 ‘패키지’
-- 매체 1곳 · 문화일보
-  - 문화일보: 이랜드파크 코럴 오션 리조트 사이판은 겨울철 해외 골프 여행을 계획하는 고객을 위해 사이판에서 골프와 관광을 함께 즐길 수 있는 ‘골투(골프+투어)’ 패키지를 출시했다고 20일 밝혔다. 투숙은 오는 11월 26일부터 내년 3월 31일까지 가능하다.
-    https://www.munhwa.com/article/11618278
+### 샴발라 포천·재팬과 사이판·태국의 제휴 골프장 통합 이용
+- 매체 1곳 · 조선일보
+  - 조선일보: 샴발라 골프앤리조트가 국내외 직영 및 제휴 시설을 이용할 수 있는 통합회원권을 출시함. 포천과 일본 시설을 포함해 사이판, 태국 골프장과 연계하며, 2030년까지 글로벌 네트워크를 10곳 이상으로 확대하기 위한 대규모 투자와 코스 증설을 추진하고 있음.
+    https://www.chosun.com/special/special_section/2026/09/21/ZGXD4KAAMNCH7DHC44WSGSVV5Y/
 
 ### 골프만 치러 안 간다…사이판·베트남서 라운딩에 관광까지 묶었다
 - 매체 1곳 · 세계일보
   - 세계일보: 추운 겨울을 피해 해외로 떠나는 골프 여행이 달라지고 있다. 골프장에서 라운딩만 하고 돌아오는 일정 대신 숙박과 식사, 관광, 공항 이동까지 한꺼번에 해결하는 체류형 상품이 늘고 있다.
     https://www.segye.com/newsView/20260919505354
 
+### 올 겨울 사이판서 가성비 여행 즐겨봐? 이랜드 코럴 오션 리조트 추천 ‘패키지’
+- 매체 1곳 · 문화일보
+  - 문화일보: 이랜드파크 코럴 오션 리조트 사이판은 겨울철 해외 골프 여행을 계획하는 고객을 위해 사이판에서 골프와 관광을 함께 즐길 수 있는 ‘골투(골프+투어)’ 패키지를 출시했다고 20일 밝혔다. 투숙은 오는 11월 26일부터 내년 3월 31일까지 가능하다.
+    https://www.munhwa.com/article/11618278
+
 ## 하와이
+
+### 하와이 물가 부담 덜고 미식 즐긴다
+- 매체 1곳 · 트래블데일리
+  - 트래블데일리: 높은 물가로 유명한 하와이에서 숙박과 미식을 조금 더 알차게 즐길 수 있는 기회가 찾아온다. 와이키키 중심에 위치한 아웃리거 리조트가 10월 1일부터 11일까지 처음 열리는 ‘플레이버스 오브 와이키키 레스토랑 위크(Flavors of Waikīkī Restaurant Week)’에 맞춰
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72125
 
 ### [여행소식] 비싼 하와이 외식비 낮춘다…와이키키서 첫 '레스토랑 위크'
 - 매체 1곳 · 연합뉴스
   - 연합뉴스: (서울=연합뉴스) 성연재 기자 = 높은 외식비로 여행객들의 부담이 큰 하와이 와이키키에서 처음으로 '레스토랑 위크'가 열린다.
     https://www.yna.co.kr/view/AKR20260919040600542
 
-### First Alert Forecast: Drier Weekend... Wet Next Week
-- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
-  - Hawaii News Now: There are a few lingering showers as the remnants of Norbert make their exit stage right. Upslope Kailua-Kona even has some thunder and lightning this afternoon
-    https://www.hawaiinewsnow.com/2026/09/19/first-alert-forecast-drier-weekend-wet-next-week/
-  - Hawaii News Now: Stable trade wind weekend weather is expected, but remnants of Tropical Depression 15-E may bring more showers and humidity by Tuesday.
-    https://www.hawaiinewsnow.com/2026/09/20/first-alert-forecast-drier-weekend-more-tropical-moisture-horizon/
-
 ## 베트남
-
-### 다낭은 콜롬비아와의 협력 및 문화·관광 교류를 강화하고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: DNO - 9월 18일 오전, 다낭시 인민위원회 부위원장 호꽝부는 다낭을 방문 중인 콜롬비아 대사 카밀라 폴로 플로레스와 회담을 주재했습니다.
-    https://www.vietnam.vn/ko/da-nang-day-manh-hop-tac-giao-luu-van-hoa-du-lich-voi-colombia
-
-### 다낭: 꼬투족 고유의 문화적 가치를 전파합니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: "2026 호아방 꼬뚜 축제"는 다낭시의 꼬뚜족이 지닌 독특한 전통문화적 가치를 기리고 널리 알리는 문화, 스포츠, 관광 축제입니다.
-    https://www.vietnam.vn/ko/da-nang-lan-toa-gia-tri-van-hoa-dac-sac-cua-dong-bao-co-tu
 
 ### 다낭 호텔 아만다 부티크 호텔 - 스카이스캐너
 - 매체 1곳 · Skyscanner
   - Skyscanner: 
     https://www.skyscanner.net/kh/ko-kr/khr/hotels/vietnam/da-nang-hotels/amanda-boutique-hotel/ht-223270389
 
+### [글로벌플랫폼] 호텔신라, '신라모노그램 하노이 웨스트레이크' 내달 개관…다낭·강릉·시안 이어 네 번째
+- 매체 1곳 · 서울STV뉴스
+  - 서울STV뉴스: 호텔신라가 베트남 하노이의 신도시 스타레이크에 5성급 라이프스타일 호텔 '신라모노그램 하노이 웨스트레이크'를 다음달 23일 개관한다. 신라모노그램 하노이 웨스트레이크는 신라모노그램 브랜드로는 네 번째로 선보이는 호텔이다.
+    https://www.stvnews.kr/news/articleView.html?idxno=16345
+
+### 호텔신라, 6년 만에 베트남 영토 넓힌다 … 다낭 이어 하노이 진출
+- 매체 1곳 · 뉴데일리 경제
+  - 뉴데일리 경제: 호텔신라가 베트남에서 두 번째 신라모노그램을 선보인다. 휴양 수요 중심의 다낭에서 수도 하노이의 비즈니스 수요까지 공략 지역을 넓히며 위탁운영을 통한 글로벌 호텔 사업 확대에 속도를 낸다.
+    https://biz.newdaily.co.kr/site/data/html/2026/09/20/2026092000012.amp.html
+
 ## 라오스
 
-### 라오스 인민민주공화국 보케오 주 관광 개발 협력 증진.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 디엔비엔 주 대표단은 라오스와 태국을 순방하는 일정의 일환으로 2026년 9월 15일과 16일 라오스 인민민주공화국 보케오 주를 방문하여 현지 조사를 실시하고, 양 지역 간 협력 및 관광 개발 연계 방안을 논의했습니다.
-    https://www.vietnam.vn/ko/thuc-day-hop-tac-phat-trien-du-lich-tai-tinh-bo-keo-nuoc-cong-hoa-dan-chu-nhan-dan-lao
+### [군장의 하루] 군장대, 라오스와 ‘교육 ODA’ 넓힌다…유학생 군산문화속으로
+- 매체 1곳 · 타파인
+  - 타파인: (군산=TAPAIN) 김진주 기자 = 군장대학교가 라오스 대학과의 교육 공적개발원조(ODA)를 산업현장 중심의 실무교육으로 넓히는 한편, 국내에서 공부하는 외국인 유학생에게는 군산의 역사·문화를 직접 경험하게 하며 국제화의 폭을 넓히고 있다. 군장대 국제협력선도대학육성지원사업단(LUPI
+    https://tapain.com/news/article.html?no=17213
 
 ## 제주
 
-### 제주 바다에서 ‘크로스핏·하이록스’ 이색 대회
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 제주관광공사(사장 고승철)가 10월4일까지 온라인 채널을 통해 해변 스포츠 축제인 ‘2026 제주 비치 게임즈’의 참가자를 모집한다. 제주 비치 게임즈는 기능성 피트니스를 해변에서 즐기는 신개념 스포츠다.
-    https://www.jejusori.net/news/articleView.html?idxno=506709
+### 제19회 제주해녀축제 퍼레이드
+- 매체 1곳 · 제주일보
+  - 제주일보: 19일 제주시 구좌읍 해녀박물관 일원에서 ‘제19회 제주해녀축제’가 열린 가운데 해녀들이 축제의 시작을 알리는 거리퍼레이드를 펼치고 있다. 고봉수 기자
+    http://www.jejunews.com/news/articleView.html?idxno=2227817
 
-### 장애인·비장애인이 이웃으로…서귀포 ‘두배마을’ 성과 공유
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 장애인과 비장애인이 함께 어우러지는 마을 환경을 조성하기 위한 ‘장애친화두배마을사업’의 성과와 발전 방향을 논의하는 자리가 마련된다. 서귀포시장애인종합복지관(관장 윤보철)은 오는 30일 오후 3시 Y리조트에서 ‘우리가 만든 변화, 함께 만드는 장애친화두배마을’을 주제로 두배마을워크숍을 
-    https://www.jejusori.net/news/articleView.html?idxno=506697
+### 위성곤, 中 다이빙 대사에 "칭다오 항로 정상화 나서달라"
+- 매체 1곳 · 제주일보
+  - 제주일보: 위성곤 제주도지사는 지난 17일 주한중국대사관에서 다이빙 주한중국대사를 만나 제주~칭다오 항로의 정상화에 대한 관심과 지원을 요청했다. 위 지사는 제주~칭다오 항로는 양국 교류의 통로로, 제주도와 중국 측 선사가 진행 중인 협상이 조속히 마무리돼 노선이 정상 운영되기를 바란다고 요청했다
+    http://www.jejunews.com/news/articleView.html?idxno=2227841
 
-### [기고] 제주의 관광, 이제는 숫자보다 환경을 봐야 한다
+### 서귀포시 동홍동 주택서 불나 주민 3명 대피
 - 매체 1곳 · 제주의소리
-  - 제주의소리: 추석 연휴가 다가오면 제주공항은 제주를 찾는 방문객들로 붐빈다. 오랜만에 가족과 함께 제주를 찾는 관광객에게는 설레는 여행이지만, 제주도에는 반가운 손님을 맞이하는 일이 또 다른 과제가 된다.
-    https://www.jejusori.net/news/articleView.html?idxno=506700
+  - 제주의소리: 제주의 한 주택에서 불이 났지만, 인명피해는 없었다. 19일 제주소방안전본부에 따르면 지난 18일 오후 8시19분께 서귀포시 동홍동의 한 주택에서 불이 났다는 신고가 접수됐다.
+    https://www.jejusori.net/news/articleView.html?idxno=506713
 
 ## 일본
 
-### 트리니티항공, 日 노선 네트워크 확대…나고야·고베 매일 운항
-- 매체 2곳 · 뉴시스 · 메가경제  ← 여러 곳이 썼다
-  - 뉴시스: [대구=뉴시스] 박준 기자 = 트리니티항공이 일본 노선 네트워크 확대에 나섰다
-    https://mobile.newsis.com/view_amp.html?ar_id=NISX20260918_0003795876
-  - 메가경제: 
-    https://m.megaeconomy.co.kr/news/amp.html?ncode=1065598707024258
-
-### 도쿄 롯폰기 미드타운에서 가볼 만한 곳 4
-- 매체 1곳 · 트래비
-  - 트래비: 롯폰기에 자리한 도쿄 미드타운은 단순히 브랜드 매장을 모아놓은 쇼핑몰이라기보다, 쇼핑과 식사, 예술과 디자인, 녹지를 한 동선 안에서 경험할 수 있도록 설계된 도심형 복합 공간이다. 녹지와 미술관·디자인 시설, 호텔과 상업시설이 함께 들어서 있어 하루를 가득 채워 시간을 보내기 좋다.
-    https://www.travie.com/news/articleView.html?idxno=55943
-
 ### 에어프레미아, 12월 日삿포로 신규 취항
-- 매체 1곳 · 세계일보
+- 매체 2곳 · 세계일보 · 조선비즈  ← 여러 곳이 썼다
   - 세계일보: 
     https://m.segye.com/ampView/20260918504169
+  - 조선비즈: 에어프레미아, 인천~삿포로 취항 기념 할인 행사 진행
+    https://biz.chosun.com/industry/company/2026/09/21/FTODQSUUJNB6TMIBXJKWUPNJBI/
+
+### 일본 기업 관계자들 서울서 원격근무·관광 체험…서울시, 맞춤형 관광 사업 전개
+- 매체 1곳 · 국제뉴스
+  - 국제뉴스: (서울=국제뉴스) 최영규 기자 = 서울시와 서울관광재단이 9월 15일부터 17일까지 마곡 서울MICE플라자에서 일본 스타트업, 경제단체, 미디어 관계자들을 대상으로 '서울 워케이션 팸투어'를 진행했다. 이번 행사는 해외 기업 관계자들이 서울에서 실제로 근무와 회의, 워크숍을 하며 관광 
+    https://www.gukjenews.com/news/articleView.html?idxno=3701411
+
+### 지아 라이는 일본 관광 시장과 소통하고 활용하기 위해 혁신을 거듭하고 있습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 일본 가나가와성에서 열린 베트남 관광 진흥 워크숍에서 자라이성은 특색 있는 관광 상품을 소개하고, 일본 관광객에게 적합한 상품 개발 전략을 제시했으며, 항공편 확대를 통해 2026년 국가 관광의 해에 국제 관광객 유치 기회를 더욱 확대하고자 했습니다.
+    https://www.vietnam.vn/ko/gia-lai-doi-moi-ket-noi-khai-thac-thi-truong-du-lich-nhat-ban
 
 ## 태국
 
@@ -115,4 +118,4 @@
     https://www.gukjenews.com/news/articleView.html?idxno=3701190
 
 ---
-거리 17건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 18건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
