@@ -1381,7 +1381,6 @@
     "7ba5b1d125e60186717ea0fdb4a59fadc1632059",
     "7bb4c92d05bb0a4d8206cbecb38c3e3e43f79390",
     "7bb81e3ae048fafe80591d252d8b569a353e2280",
-    "7bcae95127dd73cda51a00501ae2d096c99c2ca9",
     "7c2b8a0466e071e0d636d5e5ed0719ee66eb2e48",
     "7c3ef4898fb843a8ffea154a5ad3e61b0598476a",
     "7c6d6abc643a5fe69a35d900bf44a5847bd24862",
@@ -1724,6 +1723,7 @@
     "9ca74a4b15feec3d37d5ef2069cf60bfb939ff01",
     "9caac14a85b4ebee78d1e436f3195e542d2a3f3b",
     "9ce09c1d8fe6cdce3127c5b737a14475d4d28e68",
+    "9d01e65c44541b5802389b2e9883b66bbd806fa2",
     "9d092cffeca7d8078974060281faafb2deea8f5f",
     "9d190df0930070018c429c570df69c60646b4ed9",
     "9d2149d7722258c66a64e8353dd38511f6c2b247",
@@ -1733,6 +1733,7 @@
     "9d808868bfba2957896023c5cad58f8bdb1e7000",
     "9da31d473b6f84ab67b1b8c265929ea8c3915a57",
     "9dd5941b82aed33e203ad7b6e5e6cc6ad442d928",
+    "9dd6a0e3d47cc5ff05abc74c955d2180b70b0938",
     "9ddcbdbe46ef582b9a84ad3bcacdc186a205df6d",
     "9de8bc542f839cfe79f9182bdfc1ce84f9b73837",
     "9dfe8c6f4913223fdbe9424b2a4a4e73b70344c9",
@@ -22314,7 +22315,7 @@
     },
     {
       "id": "e23bc94d476a6b1db7878be3092a963f119721e8",
-      "title": "What it takes to be the Aloha Festivals’ pau queen",
+      "title": "알로하 페스티벌 '파우 여왕'의 조건",
       "date": "2026-09-22",
       "region": "hawaii",
       "grade": "B"
@@ -22377,7 +22378,7 @@
     },
     {
       "id": "8de801cd9a358c93ecd4d27ba1b33b97562b659e",
-      "title": "Cutting Hawaiian Check-In Close? That All Changes In October.",
+      "title": "하와이안항공, 10월부터 달라지는 체크인 마감시간",
       "date": "2026-09-22",
       "region": "hawaii",
       "grade": "B"
@@ -22391,14 +22392,14 @@
     },
     {
       "id": "a3250ee8527607253531fc3bfe0f2ce959be9146",
-      "title": "Laos launches digital tourism platform to modernise travel services",
+      "title": "라오스, 디지털 관광 플랫폼 출범",
       "date": "2026-09-22",
       "region": "laos",
       "grade": "B"
     },
     {
       "id": "08b103e41e4e7013108f3efd93020200b221d45a",
-      "title": "What Really Happened Aboard Maui Flight: Pilots On Oxygen",
+      "title": "마우이발 여객기 기내 매연, 조종사도 산소마스크 착용",
       "date": "2026-09-22",
       "region": "hawaii",
       "grade": "B"
@@ -22538,7 +22539,7 @@
     },
     {
       "id": "50be97eaf628bd6b83b90c5b4358e2b180c0de9f",
-      "title": "Southeast Asia has 9 airlines in world's top 100",
+      "title": "스카이트랙스 100대 항공사, 동남아 9곳 포함",
       "date": "2026-09-22",
       "region": "vietnam",
       "grade": "B"
@@ -22601,7 +22602,7 @@
     },
     {
       "id": "d153e1897bd7c4feac652f033e05befc5d692e02",
-      "title": "Sun Group's airline named Asia's Best Leisure Airline at Skytrax Awards",
+      "title": "선푸꾸옥항공, 스카이트랙스 '아시아 최고 레저항공사' 선정",
       "date": "2026-09-22",
       "region": "vietnam",
       "grade": "B"
@@ -22629,7 +22630,7 @@
     },
     {
       "id": "4d45722c229efd64128099205ab6483aa14541e6",
-      "title": "Localities work to expand Laos–Vietnam–Thailand tourism links",
+      "title": "라오스·베트남·태국, 관광 연계 확대",
       "date": "2026-09-22",
       "region": "laos",
       "grade": "B"
@@ -22747,6 +22748,13 @@
       "grade": "B"
     },
     {
+      "id": "9dd6a0e3d47cc5ff05abc74c955d2180b70b0938",
+      "title": "\"'풀뿌리원탁회의' 포함 제주 주민자치회 조례 제정하라\" 요구",
+      "date": "2026-09-22",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
       "id": "284967439a37bc88f5a8d3c0241695584b6da9c3",
       "title": "Eva Air no longer world's cleanest airline",
       "date": "2026-09-22",
@@ -22810,7 +22818,7 @@
       "grade": "B"
     },
     {
-      "id": "7bcae95127dd73cda51a00501ae2d096c99c2ca9",
+      "id": "9d01e65c44541b5802389b2e9883b66bbd806fa2",
       "title": "Study warns kids to face twice as much ‘fire weather’ as grandparents",
       "date": "2026-09-22",
       "region": "guam",
