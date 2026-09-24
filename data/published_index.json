@@ -1225,6 +1225,7 @@
     "698091f97052e8efb2edd04340ab8e5f98275351",
     "69902bd39c7451a83ba933f7c8abe5b317e86173",
     "699342f5d7a410be54b592918b75c7009920e18a",
+    "69ba4ae71688f15a15a0a533213103e85fe1bfa2",
     "69eaf995818684129883e333a751e75afe9a2be3",
     "69fb76bad8a94f7c918ab26f6fb27d2729fc918e",
     "6a10366d753c33d915a484bf5516d3e9c2f7a896",
@@ -2048,6 +2049,7 @@
     "b2c67582362784404ced235ec29517dc10043925",
     "b2c737aca9817a9c18be357eeccfc6f699c61316",
     "b2ca4220027d555779b6d99dd1137748c1080826",
+    "b2d774c31a46b0fe899e0b06c771cf3bc2a47bdc",
     "b2da6b470f691927fafef840b88fbde7c103ff39",
     "b2fd4c89511c8cec658c0f5c34415ba9284173f5",
     "b304284c821150fa47b15a1998e8a32d8e4d73b4",
@@ -23568,7 +23570,7 @@
     },
     {
       "id": "c6aab5baa1188031a755b3b4951c791d0e8e1a0a",
-      "title": "Utility companies prepare for possible severe weather impacts",
+      "title": "하와이 전력업체들, 악천후 대비 나서",
       "date": "2026-09-24",
       "region": "hawaii",
       "grade": "B"
@@ -23582,56 +23584,56 @@
     },
     {
       "id": "c2420a2f7c4a6017d183e522d501ceabe5cb3f47",
-      "title": "County of Maui officials urge preparedness ahead of Tropical Storm Nolo",
+      "title": "마우이 당국, 열대폭풍 놀로 대비 당부",
       "date": "2026-09-24",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "983a4d4e141b12c35cda27907dea6738f8bb02be",
-      "title": "Storm refuge areas: Where to find emergency shelter on Hawaii Island",
+      "title": "하와이섬 태풍 대피소 위치 안내",
       "date": "2026-09-24",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "168e74e68064ecc05f3e04255aab3ddd0efacb43",
-      "title": "Hawaii Island residents urged to store drinking water ahead of approaching storm",
+      "title": "하와이섬, 태풍 대비 식수 비축 당부",
       "date": "2026-09-24",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "64d721f5ac2fa8d2746da16a59893054b35b1baf",
-      "title": "Coast Guard sets heavy weather condition for Hawaii counties",
+      "title": "美 해안경비대, 하와이 전역에 악천후 경보",
       "date": "2026-09-24",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "5067c5f5de83f71027d3b23c380c130d4a624ecc",
-      "title": "Tropical Storm Nolo: Island-by-island list of Hawaii closures, cancellations",
+      "title": "열대폭풍 놀로, 하와이 섬별 휴업·행사 취소 현황",
       "date": "2026-09-24",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "4044a35012fcd855f5eb01fc2e8d5315e450077f",
-      "title": "Gov. Green provides update on 2026 natural disasters, approaching storm, recovery efforts",
+      "title": "그린 하와이 주지사, 태풍·재해 복구 현황 브리핑",
       "date": "2026-09-24",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "2d9a841b795dc7bdfdac6653dec9b5724030eb10",
-      "title": "Boom in domestic tourism",
+      "title": "말레이시아 국내관광 호황",
       "date": "2026-09-24",
       "region": "kota",
       "grade": "B"
     },
     {
       "id": "a2dcc335dbc172662371e5af3f7bea369ac2b5de",
-      "title": "Hawaii Airport Food Is About To Look Very Different",
+      "title": "하와이 공항 식당가, 대개편 예고",
       "date": "2026-09-24",
       "region": "hawaii",
       "grade": "B"
@@ -23743,7 +23745,7 @@
     },
     {
       "id": "a51ddafa21abe3f8129fada3c8bb4823206a6116",
-      "title": "GVB Announces Collaboration with GuamTime for “Jingle on the Block,” Guam’s Official Holiday Kick-Off Celebration",
+      "title": "괌관광청, 12월 홀리데이 축제 '징글 온 더 블록' 개최",
       "date": "2026-09-24",
       "region": "guam",
       "grade": "B"
@@ -23778,7 +23780,7 @@
     },
     {
       "id": "1db23eafe0576982a95e01b444b6bf45e1b7f8f9",
-      "title": "New Beijing-Kota Kinabalu Route on the Cards as China Eastern Eyes More Sabah Flights",
+      "title": "중국동방항공, 베이징~코타키나발루 직항 검토",
       "date": "2026-09-24",
       "region": "kota",
       "grade": "B"
@@ -23799,7 +23801,7 @@
     },
     {
       "id": "b28b34da67f232a3e13d61efdf4ef0ee3a5f8d06",
-      "title": "Laos cracks down on zero-dollar tours",
+      "title": "라오스, '제로달러 투어' 단속 강화",
       "date": "2026-09-24",
       "region": "laos",
       "grade": "B"
@@ -23827,7 +23829,7 @@
     },
     {
       "id": "03fe66c2e85db1284b7137b4effb341a975b83e6",
-      "title": "Korean singer likens Phu Quoc basket boat ride to a thrill ride",
+      "title": "가수 이창섭, 푸꾸옥 바구니배 타고 '롤러코스터 같다'",
       "date": "2026-09-24",
       "region": "vietnam",
       "grade": "B"
@@ -23924,6 +23926,13 @@
       "grade": "C"
     },
     {
+      "id": "b2d774c31a46b0fe899e0b06c771cf3bc2a47bdc",
+      "title": "캐피탈 스퀘어는 다낭 관광 생태계에 새로운 요소를 더합니다.",
+      "date": "2026-09-24",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
       "id": "a14d609ac61f34a1c3c708f1680fedfb1e8c7b61",
       "title": "Kauai firefighter took emergency calls during Lowell while his own house flooded",
       "date": "2026-09-24",
@@ -23998,6 +24007,13 @@
       "title": "요텔, 태국 첫 진출…방콕 ‘클라우드 11’에 10월 호텔 개장",
       "date": "2026-09-24",
       "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "69ba4ae71688f15a15a0a533213103e85fe1bfa2",
+      "title": "괌정부관광청, 대한항공 스타링크 기내광고 도입과 함께 괌 알린다",
+      "date": "2026-09-24",
+      "region": "guam",
       "grade": "B"
     }
   ]
