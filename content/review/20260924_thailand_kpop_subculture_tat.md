@@ -5,11 +5,12 @@ section: news
 title: 태국관광청, 지수 뮤비 촬영지에 K팝 관광 공간 만든다
 source_name: ''
 source_url: ''
-summary: 태국관광청이 K팝 팬덤을 겨냥한 '서브컬처 경제' 전략을 가동했습니다. 첫 무대는 블랙핑크 지수의 신곡 'CLICK' 뮤직비디오
-  촬영지인 방콕 시암 어메이징 파크입니다.
-status: approved
+summary: 태국관광청이 K팝 팬덤을 겨냥한 '서브컬처 경제' 전략을 가동했습니다. 첫 무대는 블랙핑크 지수의 신곡 'CLICK' 뮤직비디오 촬영지인
+  방콕 시암 어메이징 파크입니다.
+status: published
+published_id: c-fb61c773430136fd1bb6e8a3ab07acde59757f7e
+published_on: '2026-09-24'
 ---
-
 태국관광청이 글로벌 K팝 팬덤을 겨냥한 **'서브컬처 경제(Sub-Culture Economy)'** 전략을 본격 가동했다. 첫 무대로 고른 곳은 그룹 블랙핑크 멤버 지수(JISOO)의 신곡 'CLICK' 뮤직비디오 촬영지인 방콕 **시암 어메이징 파크(Siam Amazing Park)**다.
 
 ## K팝 팬덤을 관광 수요로
