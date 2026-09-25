@@ -13,6 +13,9 @@
     python3 tools/naver_blog.py --blog hannyndannys --post
 """
 from __future__ import annotations
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 
 import argparse
 import glob
@@ -215,7 +218,7 @@ def to_blog(item: dict) -> tuple[str, list[str]]:
     paras.append("")
     paras.append("─" * 20)
     paras.append("기사 원문과 매일 갱신되는 환율·날씨는 피플로드에서 보실 수 있습니다.")
-    paras.append("https://waffletrip.com")
+    paras.append(SITE_URL)
     return title, [p for p in paras]
 
 

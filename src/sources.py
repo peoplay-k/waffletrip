@@ -8,7 +8,8 @@ import yaml
 
 # 지역 목록은 src/models.py 가 정본이다. 두 곳에 적어두면 반드시 어긋난다 —
 # 실제로 지역을 늘렸는데 여기가 옛 목록이라 소스 등록이 막혔다.
-from src.models import REGIONS as _MODEL_REGIONS
+from src.models import CHANNELS, REGIONS as _MODEL_REGIONS
+from src.topics import ENT_TOPIC_NAMES
 
 REGIONS = _MODEL_REGIONS + ("all", "auto")
 SECTIONS = ("flight", "news", "data", "promo")
@@ -31,6 +32,9 @@ class Source:
     lang: str
     enabled: bool
     curated: bool = False
+    # 채널. 기본은 여행. 연예 소스(channel: ent)는 지역 판정을 건너뛰고 category 를 싣는다.
+    channel: str = "travel"
+    category: str = ""
 
 
 def load_sources(path: str) -> list[Source]:
@@ -62,6 +66,15 @@ def load_sources(path: str) -> list[Source]:
             raise SourceConfigError(
                 f"{where}: 알 수 없는 type '{e['type']}' (허용: {TYPES})")
 
+        channel = e.get("channel", "travel")
+        if channel not in CHANNELS:
+            raise SourceConfigError(
+                f"{where}: 알 수 없는 channel '{channel}' (허용: {CHANNELS})")
+        category = e.get("category", "") or ""
+        if channel == "ent" and category and category not in ENT_TOPIC_NAMES:
+            raise SourceConfigError(
+                f"{where}: 알 수 없는 연예 부문 '{category}' (허용: {tuple(ENT_TOPIC_NAMES)})")
+
         if not e["enabled"]:
             continue
 
@@ -69,6 +82,7 @@ def load_sources(path: str) -> list[Source]:
             id=sid, region=e["region"], section=e["section"], name=e["name"],
             type=e["type"], url=e["url"], lang=e["lang"], enabled=True,
             curated=bool(e.get("curated", False)),
+            channel=channel, category=category if channel == "ent" else "",
         ))
 
     return result

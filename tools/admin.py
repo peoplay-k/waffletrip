@@ -12,10 +12,14 @@
   · 초안 목록 (작성중 / 발행대기 / 발행됨)
   · 새 기사 만들기
   · 제목·채널(여행/연예)·지역·연예 부문·요약·필자·상태·본문 편집
-  · 저장하면 content/review/*.md 에 그대로 쓴다
+  · 저장하면 content/review/*.md 에 쓰고 **커밋·푸시까지 한다**(2026-09-16 설계 §2.1).
+    푸시가 거부되면 pull --rebase --autostash 뒤 한 번 더. 실패하면 화면에 그대로 보여준다.
+  · 대표 사진 한 장을 올릴 수 있다. 저장 전에 **이 맥에서 먼저 얼굴·사람 검사**
+    (photo_prepare.inspect)를 돌려 잡히면 그 자리에서 거부한다 — 커밋되지 않는다.
+    통과분은 content/uploads/ 에 두고 프론트매터에 /content/uploads/<파일> 을 적는다.
+    웹 편집실과 같은 형식이라 CI 의 사진 반입(tools/photo_intake.py)이 같은 길로 굽는다.
 
-사진은 여기서 올리지 않는다. CMS 업로드는 얼굴 검사(person_scan)를
-건너뛰기 때문이다. 사진은 tools/photo_prepare.py 로만 들여온다.
+    python3 tools/admin.py --no-push   # 저장만 하고 커밋·푸시는 안 한다(시험용)
 """
 from __future__ import annotations
 
@@ -33,8 +37,12 @@ import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REVIEW = os.path.join(ROOT, "content/review")
+UPLOADS = os.path.join(ROOT, "content/uploads")
 KST = timezone(timedelta(hours=9))
 PORT = 8080
+PUSH = "--no-push" not in sys.argv
+MAX_UPLOAD = 25 * 1024 * 1024
+_SAFE_NAME = re.compile(r"[^A-Za-z0-9_.-]")
 
 REGIONS = [("guam", "괌"), ("saipan", "사이판"), ("hawaii", "하와이"),
            ("vietnam", "베트남"), ("kota", "코타키나발루"),
@@ -138,6 +146,82 @@ def drafts() -> list[dict]:
     return sorted(out, key=lambda d: (order.get(d.get("status"), 9), d["file"]))
 
 
+def inspect_upload(path: str) -> tuple[bool, str]:
+    """이 맥에서 먼저 검사한다. cv2 가 없으면 막는다 — 검사 없이 올리지 않는다."""
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "tools"))
+        import photo_prepare
+    except Exception as e:                       # cv2 없음 등
+        return False, f"검사기를 쓸 수 없어 올리지 않았다 ({type(e).__name__})"
+    v = photo_prepare.inspect(path)
+    return bool(v.get("ok")), v.get("reason") or ""
+
+
+def save_upload(filename: str, data: bytes) -> tuple[str, str]:
+    """업로드를 검사하고 content/uploads/ 에 둔다. (웹 경로, 오류). 오류면 파일이 남지 않는다."""
+    name = _SAFE_NAME.sub("", os.path.basename(filename or "")) or "photo.jpg"
+    if len(data) > MAX_UPLOAD:
+        return "", "사진이 너무 크다(25MB 초과)"
+    os.makedirs(UPLOADS, exist_ok=True)
+    stamp = datetime.now(KST).strftime("%Y%m%d%H%M%S")
+    name = f"{stamp}_{name}"
+    path = os.path.join(UPLOADS, name)
+    with open(path, "wb") as f:
+        f.write(data)
+    ok, reason = inspect_upload(path)
+    if not ok:
+        os.remove(path)
+        return "", f"사진을 올리지 않았다 — {reason}. 얼굴·사람이 보이는 사진은 지면에 못 싣는다."
+    return f"/content/uploads/{name}", ""
+
+
+def commit_and_push(message: str) -> str:
+    """저장 = 커밋 + 푸시. 성공하면 빈 문자열, 실패하면 그 이유(화면에 그대로 보여준다)."""
+    if not PUSH:
+        return ""
+    def run(*args):
+        return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True)
+    run("add", "content/review", "content/uploads")
+    if run("diff", "--cached", "--quiet").returncode == 0:
+        return ""                                 # 바뀐 것이 없다
+    r = run("commit", "-q", "-m", message)
+    if r.returncode != 0:
+        return "커밋 실패: " + (r.stderr or r.stdout).strip()
+    for _ in range(2):
+        r = run("push")
+        if r.returncode == 0:
+            return ""
+        run("pull", "--rebase", "--autostash")
+    return "푸시 실패 — 로컬에는 커밋됐다. 네트워크를 확인하고 git push 를 직접 하라: " + \
+        (r.stderr or r.stdout).strip()[-400:]
+
+
+def parse_multipart(body: bytes, content_type: str) -> tuple[dict, dict]:
+    """multipart/form-data → (필드, 파일). 파일은 {name: (filename, bytes)}. 표준 라이브러리만 쓴다."""
+    m = re.search(r'boundary="?([^";]+)"?', content_type or "")
+    if not m:
+        return {}, {}
+    boundary = m.group(1).encode()
+    fields: dict[str, str] = {}
+    files: dict[str, tuple[str, bytes]] = {}
+    for part in body.split(b"--" + boundary):
+        part = part.strip(b"\r\n")
+        if not part or part == b"--":
+            continue
+        head, _, data = part.partition(b"\r\n\r\n")
+        disp = re.search(rb'name="([^"]*)"', head)
+        if not disp:
+            continue
+        name = disp.group(1).decode("utf-8", "replace")
+        fn = re.search(rb'filename="([^"]*)"', head)
+        if fn:
+            if fn.group(1):
+                files[name] = (fn.group(1).decode("utf-8", "replace"), data)
+        else:
+            fields[name] = data.decode("utf-8", "replace")
+    return fields, files
+
+
 def sel(name: str, opts, cur: str) -> str:
     o = "".join(
         f'<option value="{html.escape(v)}"{" selected" if v == cur else ""}>'
@@ -169,6 +253,9 @@ class Handler(http.server.BaseHTTPRequestHandler):
             rows = drafts()
             flash = ('<div class="flash">저장했습니다. 발행대기로 두면 다음 '
                      '발행 때 지면에 나갑니다.</div>') if "saved" in q else ""
+            if q.get("err"):
+                flash += ('<div class="flash" style="background:#FFF0EC;border-color:#F04E37">'
+                          + html.escape(q["err"][0]) + '</div>')
             if not rows:
                 body = flash + '<p class="empty">아직 초안이 없습니다.</p>'
             else:
@@ -189,8 +276,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
                         '<th style="width:130px">지면</th><th>제목</th></tr>'
                         + trs + "</table>")
             body += ('<div class="bar"><a class="btn" href="/new">새 기사 쓰기</a>'
-                     '<span class="note">사진은 여기서 올리지 않습니다 — '
-                     'photo_prepare.py 의 얼굴 검사를 거쳐야 합니다.</span></div>')
+                     '<span class="note">저장하면 커밋·푸시까지 됩니다. 대표 사진은 이 맥에서 '
+                     '얼굴 검사를 거친 뒤에만 올라갑니다.</span></div>')
             return self._send(page("기사 목록", body))
 
         if u.path == "/new":
@@ -215,7 +302,12 @@ class Handler(http.server.BaseHTTPRequestHandler):
             if not os.path.isfile(path):
                 return self._send(page("없음", '<p class="empty">그런 초안이 없습니다.</p>'), 404)
             front, body_md = read(path)
-            body = f"""<form class="edit" method="post" action="/save">
+            photo = str(front.get("photo") or "")
+            note = str(front.get("photo_note") or "")
+            err = (q.get("err") or [""])[0]
+            body = (f'<div class="flash" style="background:#FFF0EC;border-color:#F04E37">{html.escape(err)}</div>'
+                    if err else "")
+            body += f"""<form class="edit" method="post" action="/save" enctype="multipart/form-data">
 <input type="hidden" name="file" value="{html.escape(name)}">
 <label>제목<input type="text" name="title" value="{html.escape(str(front.get('title','')))}" required></label>
 <div class="row">
@@ -235,6 +327,9 @@ class Handler(http.server.BaseHTTPRequestHandler):
 <input type="text" name="source_url" value="{html.escape(str(front.get('source_url') or ''))}"></label>
 </div>
 <label>상태{sel("status", STATUSES, front.get("status","draft"))}</label>
+<label>대표 사진<span class="hint">직접 찍은 사진 한 장. 저장 전에 이 맥에서 얼굴 검사를 합니다 — 잡히면 올라가지 않습니다. 공개 저장소라 올린 원본은 이력에 남습니다.{(" 지금: " + html.escape(photo)) if photo else ""}{(" · 검사 결과: " + html.escape(note)) if note else ""}</span>
+<input type="file" name="photo_file" accept="image/*"></label>
+<label><input type="checkbox" name="photo_hero" value="1"{" checked" if front.get("photo_hero") else ""}> 1면용 풍경 사진(사람 없음)</label>
 <label>본문<span class="hint">표를 적극적으로 씁니다. 공개하는 가격은 소비자가와 실제 결제가뿐입니다. 상품 링크·전화번호는 넣지 않습니다.</span>
 <textarea name="body">{html.escape(body_md)}</textarea></label>
 <div class="bar"><button class="btn" type="submit">저장</button>
@@ -246,7 +341,14 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
     def do_POST(self):
         length = int(self.headers.get("Content-Length") or 0)
-        form = urllib.parse.parse_qs(self.rfile.read(length).decode("utf-8"))
+        raw = self.rfile.read(length)
+        ctype = self.headers.get("Content-Type") or ""
+        files: dict = {}
+        if ctype.startswith("multipart/form-data"):
+            fields, files = parse_multipart(raw, ctype)
+            form = {k: [v] for k, v in fields.items()}
+        else:
+            form = urllib.parse.parse_qs(raw.decode("utf-8"))
         g = lambda k: (form.get(k) or [""])[0]
         u = urllib.parse.urlparse(self.path)
 
@@ -270,6 +372,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                              "section": g("section"),
                              "title": title, "source_name": "", "source_url": "",
                              "summary": "", "status": "draft"}, body)
+            commit_and_push(f"편집실: 새 기사 {title[:40]}")
             return self._redirect(f"/edit?f={urllib.parse.quote(name)}")
 
         if u.path == "/save":
@@ -284,8 +387,20 @@ class Handler(http.server.BaseHTTPRequestHandler):
                           "section": g("section"),
                           "title": g("title"), "summary": g("summary"),
                           "source_name": g("source_name"),
-                          "source_url": g("source_url"), "status": g("status")})
+                          "source_url": g("source_url"), "status": g("status"),
+                          "photo_hero": bool(g("photo_hero"))})
+            err = ""
+            if "photo_file" in files:
+                fname, data = files["photo_file"]
+                web, err = save_upload(fname, data)
+                if web:
+                    front["photo"] = web
+                    front["photo_note"] = "이 맥에서 검사 통과 — CI 반입 대기"
             write(path, front, g("body"))
+            push_err = commit_and_push(f"편집실: {front.get('title', name)[:40]}")
+            msg = " / ".join(x for x in (err, push_err) if x)
+            if msg:
+                return self._redirect(f"/edit?f={urllib.parse.quote(name)}&err={urllib.parse.quote(msg)}")
             return self._redirect("/?saved=1")
 
         return self._redirect("/")

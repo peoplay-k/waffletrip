@@ -11,6 +11,9 @@
 환경변수: WAFFLETRIP_IG_USER_ID, WAFFLETRIP_IG_ACCESS_TOKEN
 """
 from __future__ import annotations
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 
 import argparse
 import json
@@ -25,7 +28,7 @@ from datetime import datetime, timedelta, timezone
 HOST = "https://graph.instagram.com"
 VER = "v21.0"
 KST = timezone(timedelta(hours=9))
-SITE = "https://waffletrip.com"
+SITE = SITE_URL
 VIDEO_DIR = os.path.join("static", "video")
 POSTED = os.path.join("data", "instagram_posted.json")
 

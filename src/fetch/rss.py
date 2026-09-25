@@ -34,7 +34,7 @@ NOT_AN_ARTICLE = re.compile(
     r"한눈에 보는 오늘|편성표|오늘의 운세|방송/가요|주요 뉴스 모아보기")
 from src.sources import Source
 
-USER_AGENT = "PeopleRoadBot/1.0 (+https://waffletrip.com/about/)"
+from src.brand import BOT_UA as USER_AGENT  # noqa: E402 — 정본은 brand.py
 TIMEOUT = 15.0
 
 _TAG = re.compile(r"<[^>]+>")
@@ -137,11 +137,13 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
         # 제목이 그 지역을 말하지 않으면 그 지역 기사가 아니다.
         # 제목만 보는 이유는 아래 auto 판정과 같다. 승부(tag_region)가 아니라
         # 언급 여부를 묻는다 — "제주·후쿠오카 인기"는 두 지역 다 맞는 기사다.
-        if google_news and not mentions_region(title, source.region):
+        ent = getattr(source, "channel", "travel") == "ent"
+        if google_news and not ent and not mentions_region(title, source.region):
             continue
 
         # 국내 여행 전문 매체는 목적지가 섞여 오므로 기사마다 지역을 정한다.
-        region = source.region
+        # 연예 소스는 지역이 없다 — 지역 판정을 아예 하지 않는다.
+        region = "" if ent else source.region
         if region == "auto":
             # 제목에서만 판정한다. 요약까지 봤더니 실측에서 요약전용 매칭 8건 중
             # 5건이 오탐이었다 — "티웨이항공 타고 싱가포르"가 제주로, 여행 기사도
@@ -152,7 +154,9 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
                 continue  # 우리가 다루지 않는 목적지
 
         # 실을 수 없는 출처와 기사 아닌 것을 여기서 버린다. 위 SKIP_OUTLETS
-        # 주석에 이유가 있다.
+        # 주석에 이유가 있다. 연예 채널도 같은 목록을 쓴다 — 가십 전문지와 포털
+        # 재배포는 연예 지면에도 싣지 않는다(편집원칙 3번). 공식 발표를 옮긴
+        # 종합지·통신사·전문지 보도만 남는다.
         if display_name in SKIP_OUTLETS or NOT_AN_ARTICLE.search(title):
             continue
 
@@ -169,6 +173,8 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
             collected_at=collected_at,
             status="draft",
             title_hash=title_hash(title),
+            channel="ent" if ent else "travel",
+            category=(getattr(source, "category", "") or "") if ent else "",
         ))
 
     return items

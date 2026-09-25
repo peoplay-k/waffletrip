@@ -125,14 +125,14 @@ def test_홈에는_숏폼이_아니라_롱폼이_걸린다(tmp_path):
 
     from src.render.site import load_video
 
-    for name, sec in [("waffletrip-week", 254), ("waffletrip-zzz-silent", 30)]:
+    for name, sec in [("peopleroad-week", 254), ("peopleroad-zzz-silent", 30)]:
         (tmp_path / f"{name}.json").write_text(
             _json.dumps({"title": name, "seconds": sec, "region": "japan"}),
             encoding="utf-8")
         (tmp_path / f"{name}.mp4").write_bytes(b"x")
 
     got = load_video(str(tmp_path))
-    assert got and got["src"] == "/video/waffletrip-week.mp4", got
+    assert got and got["src"] == "/video/peopleroad-week.mp4", got
 
 
 def test_사진_없는_곳은_영상을_만들지_않는다():

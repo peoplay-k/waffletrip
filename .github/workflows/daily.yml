@@ -21,7 +21,7 @@ permissions:
   id-token: write           # Pages 인증
 
 concurrency:
-  group: waffletrip-daily
+  group: peopleroad-daily
   cancel-in-progress: false # 발행 중 취소는 이력만 어긋나게 만든다
 
 jobs:
@@ -60,6 +60,14 @@ jobs:
 
       - name: 편집
         run: python -m src.edit
+
+      # 편집실에서 올린 사진을 검사해 굽는다. **해설 발행 바로 앞**이어야 한다 —
+      # publish_drafts 가 프론트매터 photo 를 읽기 전에 웹 경로로 바꿔 놓아야 한다.
+      # 얼굴·사람이 잡히면 지면에 안 나가고 사유가 photo_note 에 남는다.
+      # 검사기(cv2)를 못 쓰면 아무것도 통과시키지 않는다. 실패해도 신문은 나간다.
+      - name: 사진 반입
+        run: python tools/photo_intake.py
+        continue-on-error: true
 
       # 승인된 해설 초안을 내보낸다. edit 가 쓴 오늘자 jsonl 에 이어쓰므로
       # 반드시 편집 뒤, 빌드 앞이어야 한다.
@@ -150,14 +158,17 @@ jobs:
 
       - name: 발행 이력 커밋
         run: |
-          git config user.name  "waffletrip-bot"
+          git config user.name  "peopleroad-bot"
           git config user.email "bot@waffletrip.com"
           # health.json 을 빼면 건강검진이 매일 돌고도 기록이 러너와 함께
           # 사라진다. '3일 연속 발행 0건' 같은 검사는 과거 기록이 있어야
           # 성립하므로, 빠뜨리면 검진 세 개 중 두 개가 꺼진 것과 같다.
           git add data/items data/published_index.json data/resolved.json \
                   data/health.json content/review longform_script.json \
-                  data/shorts_latest.json data/story_material.md || true
+                  data/shorts_latest.json data/story_material.md \
+                  assets/photos data/photos/used.json data/photo_intake.json || true
+          # 사진 반입이 원본을 지운 것을 커밋에 담는다(-A 가 삭제를 잡는다).
+          git add -A content/uploads || true
           if git diff --cached --quiet; then
             echo "변경 없음 — 커밋 생략"
           else
@@ -249,7 +260,7 @@ jobs:
       # 사라지면 매일 같은 영상을 올리게 된다 — 재발행은 가장 나쁜 사고다.
       - name: 발행 기록 커밋
         run: |
-          git config user.name  "waffletrip-bot"
+          git config user.name  "peopleroad-bot"
           git config user.email "bot@waffletrip.com"
           git add data/instagram_posted.json || true
           if git diff --cached --quiet; then

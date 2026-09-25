@@ -529,14 +529,18 @@ def test_admin_is_deployed_but_not_indexed(tmp_path):
     assert 'name="robots" content="noindex, nofollow"' in html
 
 
-def test_admin_config_does_not_allow_media_upload():
-    """CMS 업로드는 얼굴 검사를 건너뛴다. 사진은 승인 도구로만 들여온다."""
+def test_admin_config_allows_exactly_one_photo_upload():
+    """업로드는 허용하되 대표 사진 한 장뿐이다. 업로드는 content/uploads 로 가고
+    CI 의 사진 반입(tools/photo_intake.py)이 얼굴 검사를 거친 뒤에만 지면에 싣는다."""
     import yaml
     cfg = yaml.safe_load(open("static/admin/config.yml", encoding="utf-8"))
-    assert cfg.get("media_folder") == ""
+    assert cfg.get("media_folder") == "content/uploads"
+    assert cfg.get("public_folder") == "/content/uploads"
     for col in cfg["collections"]:
-        widgets = {f["widget"] for f in col["fields"]}
-        assert "image" not in widgets and "file" not in widgets
+        images = [f["name"] for f in col["fields"] if f["widget"] in ("image", "file")]
+        assert images == ["photo"], images
+        names = {f["name"] for f in col["fields"]}
+        assert {"channel", "category", "photo_hero", "photo_note"} <= names
 
 
 def test_admin_config_points_at_the_right_repo():

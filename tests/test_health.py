@@ -89,7 +89,7 @@ def test_묵은_홈영상을_잡는다(tmp_path):
 
     from src.health import video_age_days
     KST = timezone(timedelta(hours=9))
-    meta = tmp_path / "waffletrip-week.json"
+    meta = tmp_path / "peopleroad-week.json"
 
     assert video_age_days(str(tmp_path)) is None          # 영상 자체가 없다
 

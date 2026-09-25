@@ -211,10 +211,11 @@ def render_llms_txt(items: list[Item], out_dir: str) -> str:
     return _write(os.path.join(out_dir, "llms.txt"), "\n".join(lines) + "\n")
 
 
-def render_cname(out_dir: str, domain: str = "waffletrip.com") -> str:
+def render_cname(out_dir: str, domain: str | None = None) -> str:
     """GitHub Pages 커스텀 도메인 설정 파일.
 
     빌드마다 다시 만든다. public/ 을 통째로 갈아엎어도 도메인이 풀리지 않게
     하기 위해서다.
     """
-    return _write(os.path.join(out_dir, "CNAME"), domain + "\n")
+    from src.brand import DOMAIN
+    return _write(os.path.join(out_dir, "CNAME"), (domain or DOMAIN) + "\n")

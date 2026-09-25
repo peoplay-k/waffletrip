@@ -237,3 +237,66 @@ def test_star_trips_render_only_with_consent(tmp_path, monkeypatch):
     # 다른 연예 부문에는 표가 없다
     assert "피플레이와 함께한 스타" not in (out / "ent" / "movie" / "index.html").read_text(encoding="utf-8")
 
+
+
+# ── 연예 소스 수집 경로 ────────────────────────────────────────────
+def test_sources_yaml_carries_ent_sources_with_categories():
+    from src.sources import load_sources
+    ent_sources = [s for s in load_sources("sources.yaml") if s.channel == "ent"]
+    assert ent_sources, "연예 소스가 하나도 없다"
+    for s in ent_sources:
+        assert s.category in {t for t, _, _ in ENT_TOPICS}, s.id
+        assert s.region == "all"
+
+
+def test_unknown_channel_or_category_in_sources_is_rejected(tmp_path):
+    from src.sources import SourceConfigError, load_sources
+    base = ("sources:\n  - id: x\n    region: all\n    section: news\n    name: n\n"
+            "    type: rss\n    url: https://e\n    lang: ko\n    enabled: true\n")
+    p = tmp_path / "s.yaml"
+    p.write_text(base + "    channel: radio\n", encoding="utf-8")
+    import pytest
+    with pytest.raises(SourceConfigError):
+        load_sources(str(p))
+    p.write_text(base + "    channel: ent\n    category: gossip\n", encoding="utf-8")
+    with pytest.raises(SourceConfigError):
+        load_sources(str(p))
+
+
+def test_google_news_ent_feed_skips_region_check_and_tags_channel():
+    from src.fetch.rss import parse_feed
+    from src.sources import Source
+    src = Source(id="gn_ent_movie", region="all", section="news", name="영화 소식",
+                 type="rss", url="https://news.google.com/rss/search?q=x", lang="ko",
+                 enabled=True, channel="ent", category="movie")
+    xml = """<?xml version="1.0"?><rss><channel>
+      <item><title>영화 ○○ 9월 30일 개봉 확정 - 연합뉴스</title><link>https://e/1</link>
+        <pubDate>Thu, 25 Sep 2026 01:00:00 GMT</pubDate></item>
+      <item><title>배우 ○○ 열애설 부인 - 디스패치</title><link>https://e/2</link>
+        <pubDate>Thu, 25 Sep 2026 01:00:00 GMT</pubDate></item>
+    </channel></rss>"""
+    items = parse_feed(src, xml, "2026-09-25T10:00:00+09:00")
+    assert [i.title for i in items] == ["영화 ○○ 9월 30일 개봉 확정"]   # 디스패치는 SKIP_OUTLETS
+    item = items[0]
+    assert item.channel == "ent" and item.category == "movie" and item.region == ""
+    assert item.source_name == "연합뉴스"
+
+
+def test_edit_keeps_ent_news_but_drops_gossip_and_travel_filter_does_not_apply():
+    from src.edit import edit_items
+    from src.guards.dup_guard import PublishedIndex
+    good = ent("1", "영화 ○○ 제작발표회 개최", "movie", grade="B", summary="배급사가 밝혔다.")
+    good.source_name = "연합뉴스"; good.source_url = "https://e/1"
+    gossip = ent("2", "배우 ○○ 열애설에 소속사 입장", "star", grade="B", summary="")
+    gossip.source_name = "연합뉴스"; gossip.source_url = "https://e/2"
+    got = edit_items([good, gossip], PublishedIndex(set(), []), [], set())
+    kept = {i.id for i in got["publish"]}
+    assert "1" in kept and "2" not in kept
+    assert {i.id for i in got["off_topic"]} == {"2"}
+
+
+def test_ent_exclusion_keywords():
+    from src.relevance import is_ent_excluded
+    assert is_ent_excluded("○○ 결별설 해명")
+    assert is_ent_excluded("○○ 비키니 몸매 공개")
+    assert not is_ent_excluded("○○ 월드투어 서울 공연 추가")

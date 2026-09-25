@@ -26,6 +26,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from PIL import Image, ImageDraw, ImageFont  # noqa: E402
 
+from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.models import REGION_NAMES  # noqa: E402
 from video_brief import _speakable, facts_from, load_items  # noqa: E402
 
@@ -121,7 +122,7 @@ def _base() -> tuple[Image.Image, ImageDraw.ImageDraw]:
     d.text((PAD + d.textlength("피플로드", font=brand), 64), ".",
            font=brand, fill=CORAL)
     d.line([(PAD, H - 96), (W - PAD, H - 96)], fill=LINE, width=2)
-    d.text((PAD, H - 78), "waffletrip.com", font=_f(26), fill=MUTED)
+    d.text((PAD, H - 78), DOMAIN, font=_f(26), fill=MUTED)
     return img, d
 
 
@@ -292,9 +293,9 @@ def build_script(items: list[dict]) -> list[dict]:
     scenes.append({
         "kind": "title",
         "headline": "매일 아침 8시",
-        "sub": "waffletrip.com",
+        "sub": DOMAIN,
         "narration": "피플로드은 매일 아침 여덟 시에 새 기사를 올립니다. "
-                     "waffletrip.com 에서 보실 수 있습니다.",
+                     f"{DOMAIN} 에서 보실 수 있습니다.",
     })
     return scenes
 
@@ -378,7 +379,7 @@ def read_seconds(text: str) -> float:
 
 
 def build_silent(scenes: list[dict], out_dir: str,
-                 name: str = "waffletrip-week") -> str:
+                 name: str = "peopleroad-week") -> str:
     """무음 롱폼을 만든다. 오디오 트랙이 아예 없다. 비용 0원."""
     import tempfile
 

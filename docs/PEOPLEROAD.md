@@ -22,7 +22,7 @@
 | 기자 | 4대보험 정규직 5명 이상, 실명 바이라인. 코드에 명부(REPORTERS) 자리만 만들어 둠 [미결] |
 | 일정 | 2027년 1월 인터넷신문(전문매체·문화) 등록 신청 → 1년 운영 → 2028년 네이버 심사, 확률 50:50 [녹취] |
 | 스타×여행 | `data/star_trips.yaml` — 피플레이와 함께 여행한 스타 명부. **비어 있음.** 동의 있는 항목만 지면에 [결정] |
-| 개발 상태 | 이번 커밋으로 구조 전환 완료. 테스트 602개 통과. 편집실 로그인(A)·사진 업로드(B)는 그대로 대기 |
+| 개발 상태 | 1차(09-25 오전) 구조 전환 + 2차(09-25 오후) 사진 업로드·연예 수집·브랜드 자산까지 완료. 테스트 629개 통과. 편집실 로그인(A)만 워커 주소 대기 |
 
 ---
 
@@ -135,8 +135,12 @@
 - 남의 연예인 사진 **금지**(저작권 + 초상권). AI 인물(유나 등)은 연예 기사에 못 쓴다.
 - 열애설·사생활·루머 **금지** — 편집원칙 3번에 명시했다.
 - 첫 3개월은 관계 만들기. 국장 네트워크로 현장 출입. 화보·PPL 수익은 등록 후, 그것도 파생 채널에서.
-- **수집 파이프라인(보도자료 RSS 자동 수집)은 아직 없다.** 편집실에서 사람이 쓴다. 공식 RSS 를
-  붙일 때는 `sources.yaml` 에 channel 항목을 더하는 작업이 따로 필요하다.
+- **수집 경로(2차에서 붙임)**: `sources.yaml` 에 연예 소스 4개(영화·드라마·방송·음악·공연·스타의 여행,
+  구글뉴스 검색 피드, `channel: ent`). 수집 → 편집 단계에서 가십·사건·스팸을 거르고(`relevance.
+  ENT_EXCLUDE_KEYWORDS`, `rss.SKIP_OUTLETS` 의 가십 전문지·포털 재배포 차단) B등급(큐레이션,
+  검색 색인 제외)으로 `/ent/<부문>/` 에 실린다. 우리가 쓰는 C등급 연예 기사는 여전히 편집실에서
+  사람이 쓴다. `data/story_material.md` 에 "연예" 절이 따로 묶여 재료가 된다.
+  ★네 소스는 클라우드에서 네트워크가 막혀 실물 응답을 못 봤다 — 첫 실행의 건강검진에서 확인한다.
 
 ### 2-2. 스타의 여행 · 피플레이와 함께한 스타 [결정]
 
@@ -165,6 +169,8 @@
 | 매체 소개 | "여행 정보 매체" | "여행·연예 문화 전문 매체". 여전히 '신문'이라 부르지 않는다(미등록). 편집국 표에 문화부 추가, 운영사 이해관계 명시 | `about.html` |
 | 서명 | 데스크명 | 데스크명 유지 + `REPORTERS` 명부 자리. 실명이 정해지면 초안 `source_name` 에 적으면 그대로 서명된다 | `src/desks.py` |
 | 현장 기사 | 없음 | 국장 소스 양식(`--field`) 마련. 실제 현장은 사람이 가야 한다 | `tools/new_article.py` |
+| 사진 업로드 | 편집실 업로드 금지 | **허용(설계서 B 구현).** 웹 편집실은 대표 사진 한 장을 `content/uploads/` 로, 맥 편집실은 저장 전에 그 자리에서 얼굴 검사. CI '사진 반입'이 4방향 얼굴 + 사람 면적 검사 후 통과분만 굽고 원본은 지운다. 연예 사진은 `assets/photos/ent/` | `tools/photo_intake.py`, `tools/admin.py`, `static/admin/config.yml`, `daily.yml` |
+| 로고·OG·파비콘 | 와플트립 그림 | 피플로드로 재생성. 이름은 `src/brand.py` 에서 읽는 스크립트라 다음에 바뀌어도 한 번에 | `tools/make_brand_images.py` |
 
 ### 3-1. 대표의 1차 목표(판매 유도)는 어디로 갔나
 
@@ -233,15 +239,32 @@
 | 점검 | `tools/check_articles.py` | 연예 현장 기사에는 외부 링크를 요구하지 않음 |
 | 문서 | `docs/DAILY_COMMENTARY.md`, `tools/channel_profiles.md`, `인수인계.md`, 이 문서 | 연예 지침, 상업 금지, SNS 프로필 문구 |
 | 자료 | `data/star_trips.yaml` | 비어 있는 명부 + 형식 |
-| 테스트 | `tests/test_channels.py`(신설 22개) 외 갱신 | 총 602개 통과 |
+| 테스트 | `tests/test_channels.py`(신설) 외 갱신 | 1차 602개 통과 |
 
-**바꾸지 않은 것(의도)**: 도메인·CNAME(waffletrip.com), SNS 계정 핸들, 인스타 발행기 계정 잠금
-`waffletrip06`, 영상 파일명 `waffletrip-week.*`, 봇 이메일 `bot@waffletrip.com`, 이미 발행된 기사 본문의
-"와플트립이 정리했다"(기록), 로고·OG 이미지(이미지 재제작 필요), 편집실 로그인 A·사진 업로드 B(설계서대로 별도).
+### 7-1. 2차(09-25 오후, "전체적으로 다 손봐") 에서 더 바뀐 것
+
+| 영역 | 파일 | 내용 |
+|---|---|---|
+| 브랜드 정본 | `src/brand.py`(신설) | 이름·영문명·태그라인·성격·운영사·도메인·연락처·봇 UA 를 한 곳에. site/desks/feeds/fetch/trending/도구가 여기서 읽는다. 도메인을 옮기는 날 `DOMAIN` 한 줄(+ `tools/oauth-worker.js` 의 ALLOWED_ORIGIN) |
+| 이미지 | `tools/make_brand_images.py`(신설), `static/logo.png`·`og-default.jpg`·`favicon.svg` | 피플로드 제호로 재생성 |
+| 영상 | `tools/make_longform.py`, `tools/make_shorts.py`, `src/health.py`, `src/render/site.py`, `static/video/peopleroad-*` | 파일 이름 stem `waffletrip-` → `peopleroad-`. 자막 도메인은 brand 에서 |
+| 연예 수집 | `src/sources.py`, `src/fetch/rss.py`, `src/edit.py`, `src/relevance.py`, `sources.yaml`, `tools/story_material.py` | `Source.channel/category`, 연예 소스는 지역 판정 생략, 가십 제외 필터, 기사거리 연예 절 |
+| 사진 업로드 | `tools/photo_intake.py`(신설), `tools/admin.py`, `static/admin/config.yml`, `content/uploads/`, `requirements.txt`(opencv-headless), `.github/workflows/daily.yml` | 설계서 B 전부. 맥 편집실은 저장 = 커밋·푸시(`--no-push` 로 끌 수 있음) |
+| 점검 | `tools/check_articles.py` | 연예 현장 기사에는 외부 링크를 요구하지 않음 |
+| 문서 | `README.md`(신설), 이 문서, `인수인계.md`, `docs/DAILY_COMMENTARY.md` | |
+| 테스트 | `tests/test_photo_intake.py`, `tests/test_admin.py`(신설), `tests/test_channels.py` 확장 | 629개 통과 |
+
+**여전히 바꾸지 않은 것(의도)**: 도메인·CNAME(waffletrip.com — 사장님 "도메인은 그대로"), SNS 계정 핸들과
+인스타 발행기 계정 잠금 `waffletrip06`(계정을 바꾸는 날 함께), 봇 이메일 `bot@waffletrip.com`(내부),
+이미 발행된 기사 본문의 "와플트립이 정리했다"(기록), 편집실 로그인 A(사장님이 Cloudflare 워커 주소를
+주면 `config.yml` 한 줄), `data/star_trips.yaml` 의 명단(사장님이 채움).
 
 ---
 
 ## 8. Kim 저장소(SNS 자동 발행)와의 관계
+
+- 2차에서 `brand_guard.py` 의 OWNER 에 네 번째 브랜드 `peopleroad`(핸들 빈 값)를 등록했다. 핸들이
+  비어 있는 동안 발행기는 이 브랜드로 아무것도 내보내지 않는다. 계정을 정하면 핸들과 시크릿을 채운다.
 
 - `peoplay-k/Kim` 은 개인(@onlyouonekim)·괌플레이(@guam_play)·과미(@guami_travel) 세 계정의 자동
   발행기다. `brand_guard.py` 가 세 브랜드를 절대 섞지 않게 막는다. 피플로드 파생 채널을 붙일 때도

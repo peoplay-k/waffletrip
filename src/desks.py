@@ -14,7 +14,7 @@
 """
 from __future__ import annotations
 
-BRAND = "피플로드"
+from src.brand import SITE_NAME as BRAND  # noqa: E402 — 정본은 brand.py
 
 # 실명 기자 명부. 결정 ③(기자 5명 — 누구를, 언제)이 나오면 채운다.
 # 이름 → 맡은 지면. 여기에 없는 이름이 서명에 나오면 check_articles 가 짚는다.

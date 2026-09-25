@@ -32,16 +32,10 @@ from src.models import CHANNEL_NAMES, Item
 # 제호. 2026-09-16 편집국장 제안 — "피플레이 이름 맞춰서 피플로드라고 하셔도 되고.
 # 그렇게 하면 엔터까지 담을 수 있잖아요. 사람이니까." 2026-09-25 사장님이 확정.
 # 와플트립은 "여행 사이트 같다"(국장)라 신문 제호로 맞지 않았다.
-SITE_NAME = "피플로드"
-SITE_TAGLINE = "여행과 연예, 사람이 다니는 길"
-# 인터넷신문 미등록 상태다. 스스로를 '신문'이라 부르는 공개 문장은 두지 않는다.
-SITE_KIND = "여행·연예 문화 전문 매체"
-# 정식 주소. 커스텀 도메인이 붙기 전에는 실제로 열리는 곳을 가리켜야 한다 —
-# canonical 이 안 열리는 도메인을 가리키면 검색엔진이 색인을 못 한다.
-# ★제호는 피플로드로 바꿨지만 도메인은 아직 waffletrip.com 이다. peopleroad.com·.kr 은
-# 타인 소유(2026-09-16 whois 실측). 새 도메인을 사서 DNS 를 붙인 뒤 이 값과
-# render_cname 의 domain 을 바꾸고, 옛 주소는 301 로 넘긴다(docs/PEOPLEROAD.md).
-SITE_URL = os.environ.get("WAFFLE_SITE_URL", "https://waffletrip.com").rstrip("/")
+# 이름·도메인·연락처의 정본은 src/brand.py 다. 여기 이름들은 그것을 다시 내보낸다 —
+# 템플릿과 테스트가 site.SITE_NAME 을 오래 써 왔기 때문이다.
+from src.brand import (CONTACT_EMAIL, DOMAIN, SITE_KIND, SITE_NAME, SITE_NAME_EN,
+                       SITE_TAGLINE, SITE_URL)
 
 from src.models import REGION_NAMES  # 정본은 models.py
 
@@ -74,8 +68,6 @@ PRODUCT_LINKS = {
     "thailand": "",
     "taiwan": "",
 }
-
-CONTACT_EMAIL = "peoplay@thepeoplay.com"
 
 # ★상업 요소 게이트. 네이버 뉴스 제휴 심사까지(2027년 신청 → 2028년 심사) 지면에
 # 상품 링크·제휴 링크·전화번호·광고를 두지 않는다. 네이버는 정성평가로 "광고가
@@ -173,7 +165,7 @@ def load_video(src: str = os.path.join("static", "video")) -> dict | None:
     # 홈에 거는 것은 **롱폼 한 편**으로 못박는다. 예전에는 파일명을 정렬해
     # 마지막 것을 집었는데, 이름순은 내용과 아무 상관이 없다. 숏폼을 매일
     # 굽기 시작하면 도시 이름에 따라 세로 영상이 홈을 차지할 수 있다.
-    WEEK = "waffletrip-week.json"
+    WEEK = "peopleroad-week.json"
     if os.path.exists(os.path.join(src, WEEK)):
         metas = [WEEK]
     else:
@@ -562,7 +554,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             "@context": "https://schema.org",
             "@type": "NewsMediaOrganization",
             "name": SITE_NAME,
-            "alternateName": "PeopleRoad",
+            "alternateName": SITE_NAME_EN,
             "url": SITE_URL + BASE_PATH + "/",
             "logo": SITE_URL + BASE_PATH + "/og-default.jpg",
             "description": f"{SITE_KIND}. {SITE_TAGLINE}",

@@ -1,3 +1,7 @@
+> **구현 상태(2026-09-25)**: B(사진 업로드)·C(채널) 구현 완료 — `tools/photo_intake.py`,
+> `tools/admin.py`, `src/models.py` 등. 제호는 와플트립 → 피플로드(`src/brand.py`).
+> A(로그인)는 사장님이 Cloudflare 워커 주소를 주면 `static/admin/config.yml` 한 줄.
+
 # 편집실 로그인 · 사진 업로드 · 채널(여행/연예) — 설계
 
 2026-09-16. 사장님 지시: "지금 있는 것에서 수정한다. 구조를 살짝 바꾼다.

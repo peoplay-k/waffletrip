@@ -29,6 +29,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.cities import CITY_NAMES  # noqa: E402
 from src.relevance import is_spam
 from src.models import REGION_NAMES  # noqa: E402
@@ -195,14 +196,14 @@ def script_for(item: dict) -> dict:
     scenes.append({
         "n": len(scenes) + 1,
         "narration": f"{name} 소식은 피플로드에서 매일 정리합니다.",
-        "caption": "waffletrip.com",
-        "screen": "매일 아침 8시\nwaffletrip.com",
+        "caption": DOMAIN,
+        "screen": f"매일 아침 8시\n{DOMAIN}",
         "note": "마무리 CTA. 채널 핸들은 개설 뒤 확정.",
     })
     return {
         "source_title": title,
         "region": region_name,
-        "url": f"https://waffletrip.com/{item.get('region')}/",
+        "url": f"{SITE_URL}/{item.get('region')}/",
         "scenes": scenes,
         "outlets": sorted({f["outlet"] for f in facts if f["outlet"]}),
         "seconds": round(sum(len(s["narration"]) for s in scenes) / 6.5),

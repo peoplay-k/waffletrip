@@ -32,6 +32,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from PIL import Image, ImageDraw, ImageOps
 
+from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.cities import CITY_NAMES, CITY_REGION
 from src.models import REGION_NAMES
 from make_longform import _f, _sentence, _wrap, CORAL, INK, LINE, MUTED, PAPER
@@ -173,7 +174,7 @@ def card_close(photo: str | None = None) -> Image.Image:
     y = TEXT_TOP + 240
     d.text((PAD, y), "매일 아침 8시", font=_f(96), fill=ink)
     d.line([(PAD, y + 140), (PAD + 160, y + 140)], fill=CORAL, width=8)
-    d.text((PAD, y + 190), "waffletrip.com", font=_f(64), fill=CORAL)
+    d.text((PAD, y + 190), DOMAIN, font=_f(64), fill=CORAL)
     d.text((PAD, y + 310), "여행 뉴스를 정리해 올립니다", font=_f(44), fill=muted)
     return img
 
@@ -401,7 +402,7 @@ def caption_for(city: str, scenes: list[dict]) -> str:
     lines += [f"· {tidy(h)}" for h in heads]
     outlets = outlets_of(scenes)
     lines += ["", f"인용 · {' · '.join(outlets)}" if outlets else "",
-              "전문은 waffletrip.com", ""]
+              f"전문은 {DOMAIN}", ""]
     tags = [f"#{name}", f"#{name}여행", f"#{name}자유여행"] + BIG_TAGS
     lines.append(" ".join(tags))
     return "\n".join(x for x in lines if x is not None).strip()
@@ -453,7 +454,7 @@ def build_voiced(city: str, out_dir: str) -> str:
         for clip in parts:
             fh.write(f"file '{os.path.abspath(clip)}'\n")
     os.makedirs(out_dir, exist_ok=True)
-    out = os.path.join(out_dir, f"waffletrip-{city}-voiced.mp4")
+    out = os.path.join(out_dir, f"peopleroad-{city}-voiced.mp4")
     subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
                     "-i", listing, "-c", "copy", out], check=True)
     poster = out.rsplit(".", 1)[0] + ".jpg"
@@ -511,7 +512,7 @@ def build_silent(city: str, out_dir: str) -> str:
         for clip in parts:
             fh.write(f"file '{clip}'\n")
     os.makedirs(out_dir, exist_ok=True)
-    out = os.path.join(out_dir, f"waffletrip-{city}-silent.mp4")
+    out = os.path.join(out_dir, f"peopleroad-{city}-silent.mp4")
     subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
                     "-i", listing, "-c", "copy", out], check=True)
     poster = out.rsplit(".", 1)[0] + ".jpg"
@@ -533,7 +534,7 @@ def build_silent(city: str, out_dir: str) -> str:
     latest = os.path.join("data", "shorts_latest.json")
     os.makedirs("data", exist_ok=True)
     with open(latest, "w", encoding="utf-8") as fh:
-        json.dump({"stem": f"waffletrip-{city}-silent", "city": city,
+        json.dump({"stem": f"peopleroad-{city}-silent", "city": city,
                    "name": place_name(city), "caption": meta["caption"],
                    "seconds": meta["seconds"],
                    "built_at": datetime.now(KST).isoformat(timespec="seconds")},
