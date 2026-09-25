@@ -5,39 +5,53 @@
 
 ## 괌
 
-### [괌여행] 밤에는 호텔 근처에서 카레라 관람
+### [괌여행] 두짓타니 괌, 그야말로 파노라마 바다 뷰!
 - 매체 1곳 · 국제뉴스
-  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 5일 괌 샌드캐슬 극장에서 열린 카레라(KÅRERA) 쇼. 카레라 쇼는 괌에서 오래 전부터 다양한 엔터테인먼트와 F&B를 선보여온 발디가 그룹이 세계적 전문가를 모아 야심차게 제작한 괌 최대 규모의 상설 멀티미디어 라이브 공연으로서, 세 명의 주인공이 새
-    https://www.gukjenews.com/news/articleView.html?idxno=3705771
+  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 객실에서 본 해변 풍경. 투몬 베이(투몬만)는 괌에서 주요 호텔리조트와 쇼핑몰, 레스토랑이 밀집한 관광의 중심지로서 국제공항에서도 가까우며, 길다란 백사장과 에메랄드빛 바다의
+    https://www.gukjenews.com/news/articleView.html?idxno=3705465
 
 ### 괌정부관광청, 대한항공 스타링크 기내광고 도입과 함께 괌 알린다
 - 매체 1곳 · 미디어원
   - 미디어원: 괌정부관광청은 대한항공의 스타링크 기반 기내 와이파이 서비스에 새롭게 도입된 기내광고를 통해 괌 공식 홍보 영상을 선보인다. 대한항공의 신규 기내 와이파이 이용객은 서비스 접속 과정에서 괌의 다양한 매력을 담은 홍보 영상을 만나볼 수 있다.
     https://media1.or.kr/2026/09/%EA%B4%8C%EC%A0%95%EB%B6%80%EA%B4%80%EA%B4%91%EC%B2%AD-%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5-%EC%8A%A4%ED%83%80%EB%A7%81%ED%81%AC-%EA%B8%B0%EB%82%B4%EA%B4%91%EA%B3%A0-%EB%8F%84%EC%9E%85%EA%B3%BC/
 
-### [괌여행] 두짓타니 괌 리조트 조식 키즈 코너
-- 매체 1곳 · 국제뉴스
-  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 내 아쿠아 레스토랑 조식의 키즈 코너. 통유리창 너머로 보이는 시원한 투몬만 파노라마 오션뷰가 있는 뷔페 레스토랑으로서 두짓타니의 조식 레스토랑이자 저녁에는 환상적인 투몬만 
-    https://www.gukjenews.com/news/articleView.html?idxno=3705467
+### 괌정부관광청, 대한항공 스타링크에서 괌 홍보영상 공개
+- 매체 1곳 · 뉴스케이프
+  - 뉴스케이프: [뉴스케이프 권진욱 기자] 괌정부관광청이 대한항공 기내 와이파이를 새로운 관광 홍보 채널로 활용한다. 괌정부관광청은 대한항공의 스타링크 기반 기내 와이파이 서비스에 괌 공식 홍보 영상을 선보인다고 밝혔다.
+    http://www.newscape.co.kr/news/articleView.html?idxno=124734
 
 ## 사이판
-
-### 그랜드 하얏트 인천 ‘테이스트 오브 교토’→코럴오션 리조트 사이판 '골투 패키지'
-- 매체 1곳 · 싱글리스트
-  - 싱글리스트: 그랜드 하얏트 인천이 오는 10월 2~11일 하얏트 리젠시 교토의 이토 히로카츠 셰프를 초청해 레스토랑 8에서 ‘테이스트 오브 교토’ 프로모션을 선보인다. 이번 프로모션은 일본의 계절감과 교토의 미식 문화를 담은 특별 메뉴를 통해 교토의 미식을 경험할 수 있도록 마련됐다.
-    https://www.slist.kr/news/articleView.html?idxno=767307
-
-### 마리아나관광청, 마나가하섬 재개장·겨울방학 영어캠프로 준비하는 사이판 가족여행
-- 매체 1곳 · 이로운뉴스
-  - 이로운뉴스: [이로운뉴스 : 허승규 국장] 마리아나관광청은 태풍 피해 복구와 마나가하섬 등 주요 관광지 재정비를 진행하며 사이판 여행 재개를 위한 준비에 속도를 내고 있다.
-    https://www.erounews.kr/news/articleView.html?idxno=5230
 
 ### “활기 찾는 서태평양의 낙원”… 마리아나관광청, 주요 명소 정비 및 관광 활성화 박차
 - 매체 1곳 · 열린뉴스통신
   - 열린뉴스통신: (서울=열린뉴스통신) 박소연 기자 = 태풍 피해를 딛고 재정비에 나선 마리아나가 스포츠 성과와 주요 관광지 운영 재개에 힘입어 본격적인 관광 활성화에 나선다. 마리아나관광청은 스포츠 앰배서더인 KLPGA 프로골퍼 박보겸 선수의 메이저 대회 우승 소식과 함께, 마나가하섬 재개장 및 겨울방
     https://www.onews.tv/news/articleView.html?idxno=287771
 
+### 다시 활기 찾는 마리아나, 골프와 가족 영어캠프 등 취향 맞춤 여행 매력 더한다
+- 매체 1곳 · 이트레블뉴스
+  - 이트레블뉴스: [이트레블뉴스=이성훈 기자] 서태평양의 대표적인 휴양지 마리아나가 태풍 피해 복구 작업을 신속히 마무리하고 주요 관광 인프라를 대대적으로 재정비
+    https://www.momonews.com/81278
+
+### 마리아나관광청, 마나가하섬 재개장·겨울방학 영어캠프로 준비하는 사이판 가족여행
+- 매체 1곳 · 이로운뉴스
+  - 이로운뉴스: [이로운뉴스 : 허승규 국장] 마리아나관광청은 태풍 피해 복구와 마나가하섬 등 주요 관광지 재정비를 진행하며 사이판 여행 재개를 위한 준비에 속도를 내고 있다.
+    https://www.erounews.kr/news/articleView.html?idxno=5230
+
 ## 하와이
+
+### Maui braces for Hurricane Nolo as officials urge residents to prepare
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: Maui residents and businesses are bracing for Tropical Storm Nolo as officials warn of heavy rain, high winds, and severe flood risks along South Kīhei Road.
+    https://www.hawaiinewsnow.com/2026/09/25/maui-braces-tropical-storm-nolo-officials-urge-residents-prepare/
+  - Hawaii News Now: State insurance officials urge Hawaii residents to check their policies ahead of Hurricane Nolo, warning standard plans don't cover hurricane or flood damage.
+    https://www.hawaiinewsnow.com/2026/09/25/state-urges-residents-review-insurance-policies-hurricane-nolo-approaches/
+
+### First Alert Forecast: Nolo is now a Hurricane
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: At 5pm, the National Hurricane Center classified Nolo as a category 1 hurricane with sustained winds of 75 mph. It was centered 270 miles south of South Point o
+    https://www.hawaiinewsnow.com/2026/09/25/first-alert-forecast-nolo-is-now-hurricane/
+  - Hawaii News Now: Hurricane Nolo is moving north-northeast tonight, located south of South Point on the Big Island as it slowly churns and intensifies.
+    https://www.hawaiinewsnow.com/2026/09/25/first-alert-forecast-nolo-will-intensify-become-major-hurricane/
 
 ### Storm refuge areas: Where to find emergency shelter on Hawaii Island
 - 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
@@ -46,36 +60,22 @@
   - Hawaii News Now: Emergency management officials have designated several hurricane refuge areas across Hawaii Island as Tropical Storm Nolo approaches the state.
     https://www.hawaiinewsnow.com/2026/09/25/storm-refuge-areas-where-find-emergency-shelter-across-state/
 
-### County of Maui officials urge preparedness ahead of Tropical Storm Nolo
-- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
-  - Hawaii News Now: County of Maui officials are urging residents and visitors to prepare for severe weather.
-    https://www.hawaiinewsnow.com/2026/09/23/county-maui-officials-urge-preparedness-ahead-tropical-storm-nolo/
-  - Hawaii News Now: Several cancellations are being announced as Tropical Storm Nolo is expected to bring high winds and heavy rains across the state.
-    https://www.hawaiinewsnow.com/2026/09/23/tropical-storm-nolo-list-hawaii-closures-cancellations/
-
-### Nolo now a hurricane, set to rapidly intensify as it nears Hawaii Island
-- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
-  - Hawaii News Now: The hurricane is expected to bring heavy rainfall to Hawaii Island for the next several days.
-    https://www.hawaiinewsnow.com/2026/09/25/nolo-now-hurricane-set-rapidly-intensify-it-nears-hawaii-island/
-  - Hawaii News Now: Catastrophic and life-threatening flooding will be possible for Hawaii Island for the next several days.
-    https://www.hawaiinewsnow.com/2026/09/25/hurricane-nolo-strengthening-it-moves-slowly-toward-hawaii-island/
-
 ## 베트남
 
-### 다낭의 "모범 금연 호텔" 모니터링
+### 캐피탈 스퀘어는 다낭 관광 생태계에 새로운 요소를 더합니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: VHO - 9월 23일부터 26일까지, '최우수 금연 호텔' 선정 프로그램 조직위원회는 2025년 선정 대상인 다낭의 호텔 11곳을 대상으로 실사 방문을 실시했습니다.
-    https://www.vietnam.vn/ko/giam-sat-khach-san-tieu-bieu-khong-thuoc-la-tai-da-nang
+  - vietnam.vn: 한강변 도심 한가운데에 위치한 캐피탈 스퀘어는 고급 아파트와 다양한 편의시설, 쇼핑, 식사, 체험 활동을 하나의 단지 안에 조화롭게 배치했습니다. 이 프로젝트는 고품질 주거 수요를 충족하고, 상업 및 서비스 산업을 활성화하며, 다낭의 도시 관광 경험을 풍요롭게 하는 데 기여합니다.
+    https://www.vietnam.vn/ko/capital-square-bo-sung-manh-ghep-moi-cho-he-sinh-thai-du-lich-da-nang
 
-### 주요 시장에서 다낭 관광을 홍보합니다.
+### 캐피탈 스퀘어 - 다낭 중심부에 새로운 관광 공간을 조성합니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 다낭의 관광 산업은 유연한 접근 방식을 통해 국제 시장에서의 입지를 강화하고, 항공편 연결을 확대하며, 문화 및 자연적 가치를 홍보하고, 주요 목표 시장에 맞춰 서비스를 제공하고 있습니다. 이러한 노력은 다낭을 매력적인 관광지로 널리 알리는 데 기여하는 동시에 협력 기회를 창출하고 해외
-    https://www.vietnam.vn/ko/xuc-tien-du-lich-da-nang-tai-thi-truong-trong-diem
+  - vietnam.vn: (단찌신문) - 한강변에 위치한 캐피털 스퀘어는 다낭 중심부에 고급 아파트와 다양한 편의시설, 쇼핑 및 서비스를 제공하는 복합 도시 단지로 개발되었습니다.
+    https://www.vietnam.vn/ko/capital-square-kien-tao-khong-gian-du-lich-moi-tai-loi-trung-tam-da-nang
 
-### 다낭, 2027년 아시아 주요 관광지 목록에 포함될 예정
+### 결의안 26호는 다낭이 축제 도시로 발돋움하는 데 필요한 동력을 제공합니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: VTV.vn - 다낭은 바다, 자연, 음식, 유적지 투어 등 다양한 매력을 바탕으로 론리 플래닛이 선정한 2027년 아시아 최고의 여행지 ​​5곳 중 하나로 선정되었습니다.
-    https://www.vietnam.vn/ko/da-nang-vao-danh-sach-diem-den-noi-bat-cua-chau-a-nam-2027
+  - vietnam.vn: 정치국 결의안 26-NQ/TW는 국가 경제 및 관광 인프라 목록에 "축제 도시"라는 개념을 처음으로 포함시켰습니다. 다낭은 약 10년 전부터 진정한 축제 도시의 이미지를 구축하기 위해 꾸준히 노력해 왔습니다.
+    https://www.vietnam.vn/ko/nghi-quyet-26-tao-da-de-da-nang-vuon-tam-do-thi-le-hoi
 
 ## 코타키나발루
 
@@ -95,37 +95,37 @@
 
 ## 제주
 
-### 곤떡 대신 케이크, 문중 벌초는 가족별로…간소해진 ‘멩질’
+### 죄와 벌
+- 매체 1곳 · 제주일보
+  - 제주일보: 희영 씨는 잘 나가던 무속인이다. 작두 타는 능력은 한 수 아래 마른하늘에서 비를 불러내고 태풍의 진로를 원하는 방향으로 틀어낸다.
+    http://www.jejunews.com/news/articleView.html?idxno=2227912
+
+### 제주 추석날 보름달 보기 어려워…연휴 후반 귀경길엔 비
 - 매체 1곳 · 제주의소리
-  - 제주의소리: 제주에서 추석을 보내는 풍경이 달라지고 있다. 온 가족이 차례상을 차리고 친척 집을 돌던 명절은 간소해지고, 차례 대신 휴식이나 외식·여행을 선택하는 사례가 늘고 있다.
-    https://www.jejusori.net/news/articleView.html?idxno=506681
+  - 제주의소리: 올해 추석 당일 제주에서는 흐린 날씨로 보름달을 보기 어려울 전망이다. 연휴 후반인 26일부터 27일 오전까지는 비가 예보돼 귀경길 교통안전에 주의가 필요하다.
+    https://www.jejusori.net/news/articleView.html?idxno=506831
 
 ### 식탁의 변화
 - 매체 1곳 · 제주일보
   - 제주일보: 저녁 식탁 앞이다. “당신이 해준 음식이 맛집보다 훨씬 맛있어.
     http://www.jejunews.com/news/articleView.html?idxno=2227913
 
-### 우리가 입고 버리는 것은 옷만이 아니다
-- 매체 1곳 · 제주일보
-  - 제주일보: 계절마다 매장에는 새로운 옷들이 선보인다. 유행은 빠르게 변하고, 소비자의 시선은 하루가 다르게 새로운 디자인을 좇는다.
-    http://www.jejunews.com/news/articleView.html?idxno=2227911
-
 ## 일본
 
-### 싱가포르항공 '세계 최고 항공사' 선정→에어프레미아, 삿포로 신규 취항 프로모션
-- 매체 1곳 · 싱글리스트
-  - 싱글리스트: 항공사들이 서비스 경쟁력을 인정받거나 신규 노선 프로모션을 마련하며 여행객 접점을 넓히고 있다. 싱가포르항공은 올해 세계 항공 대상에서 최고상을 포함한 주요 부문을 석권했다.
-    https://www.slist.kr/news/articleView.html?idxno=767741
-
-### 민단 오사카, ‘2026 의결기관 연수회’ 개최
-- 매체 1곳 · 월드코리안뉴스
-  - 월드코리안뉴스: (서울=월드코리안신문) 이종환 기자재일본대한민국민단 오사카부 본부는 9월 19일 오사카 신사이바시에 위치한 뉴오사카호텔에서 &lsquo;2026 민단 오사카 의결기관 연수회&rsquo;를 개최했다. 이날 연수회에는 민단 오사카와 지부 의결기관, 민단 중앙, 오사카총영사관 등에서 56명이
-    https://www.worldkorean.net/news/articleView.html?idxno=57833
+### 전주시, 아시아 최대 관광박람회서 일본인 여행객의 발길을 이끌다
+- 매체 1곳 · 전북도민일보
+  - 전북도민일보: 전주시가 82개 국가 여행 관계자와 관람객이 모인 아시아 최대 규모 관광박람회에 참가해 일본 관광시장 공략에 나섰다. 시는 지난 24일부터 27일까지 나흘간 일본 도쿄 빅사이트에서 열린 ‘투어리즘 엑스포 재팬 2026(TEJ)’에 참가해 한국홍보관 내 전주 관광 홍보부스를 운영했다.
+    https://www.domin.co.kr/news/articleView.html?idxno=1569978
 
 ### 나리타공항 입국 빨라진다…입국·세관 정보 한 번에
 - 매체 1곳 · 여행신문
   - 여행신문: 일본 나리타국제공항 제1·2터미널의 입국 절차가 간소화된다. 9월 24일부터 입국 심사와 세관 신고에 필요한 정보를 한 번에 제출할 수 있는 ‘공동 키오스크’가 운영된다.
     https://www.traveltimes.co.kr/news/articleView.html?idxno=500458
+
+### 태풍 ‘두쥐안’ 日 수도권 접근... 항공·철도 잇따라 운행 중단
+- 매체 1곳 · 한국재난뉴스
+  - 한국재난뉴스: 강한 대형 태풍 ‘두쥐안’이 일본 도쿄 등의 수도권으로 접근하면서 항공·철도 운행 중단과 시설 휴관이 잇따르고 있다. 일본 기상청과 요미우리신문 등에 따르면 두쥐안은 오늘(21일) 낮부터 밤늦게까지 이즈 제도와 간토 등 수도권에 접근할 전망이다.
+    https://www.hjnews.co.kr/news/articleView.html?idxno=24675
 
 ## 태국
 
@@ -145,26 +145,12 @@
   - 뉴스트래블: [뉴스트래블=정국환 기사] 글로벌 호텔 브랜드 요텔(YOTEL)이 태국에 처음 진출한다. ‘요텔 방콕 수쿰윗’은 10월 15일 방콕 남부 수쿰윗의 복합개발단지 클라우드 11에 250개 객실 규모로 문을 연다.
     https://www.newstravel.co.kr/news/article.html?no=27666
 
-### [방콕호텔] 시내 중심 번화가 한복판 안식처
+### [방콕호텔] 호캉스의 동반자 이그제큐티브 라운지
 - 매체 1곳 · 국제뉴스
-  - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok).방콕 번화가에서 대규모 야외 수영장과 정원이 있는 5성급 호텔로, 다수의 미쉐린 레스토랑이 푸드코드에 입점해 있는 시암 파라곤 쇼핑몰과 직접 연결되어
-    https://www.gukjenews.com/news/articleView.html?idxno=3705472
+  - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok) 이그제큐티브 라운지 저녁 시간에 준비된 간식. 이그제큐티브 룸 이상의 상위 카테고리 객실 투숙객만을 위한 라운지로서, 호텔 최상층에서 방콕 시내의 탁
+    https://www.gukjenews.com/news/articleView.html?idxno=3705473
 
 ## 연예 (편집실이 쓴다 — 자동 해설 대상 아님)
-
-### [movie] 유연석·고아성, 부산국제영화제 ‘올해의 배우상’ 심사
-- 매체 2곳 · 국민일보 · 뉴스핌  ← 여러 곳이 썼다
-  - 국민일보: 배우 유연석과 고아성이 제31회 부산국제영화제 ‘올해의 배우상’ 심사위원을 맡아 한국영화의 새로운 얼굴을 찾는다. 부산국제영화제는 올해 ‘올해의 배우상’ 심사위원으로 유연석과 고아성을 선정했다고 23일 밝혔다.
-    https://www.kmib.co.kr/article/view.asp?arcid=9000016839&code=61181511&sid1=ens
-  - 뉴스핌: [서울=뉴스핌] 양진영 기자 = 제31회 부산국제영화제가 올해의 배우상 심사위원으로 배우 유연석과 고아성을 선정했다. 올해의 배우상은 &apos;비전 - 한국 섹션&apos; 작품을 대상으로, 빛나는 연기와 가능성을 보여준 배우를 발굴하기 위한 상이다.
-    https://www.newspim.com/news/view/20260923000082
-
-### [startrip] ‘은중과 상연’, 박지현, 美여배우 최초로 국제 에미상 후보
-- 매체 2곳 · 문화일보 · 한겨레  ← 여러 곳이 썼다
-  - 문화일보: 넷플릭스 시리즈 ‘은중과 상연’에 출연한 배우 박지현이 한국 여배우 최초로 국제 에미상 후보에 올랐다. 23일(현지시간) 국제텔레비전예술과학아카데미가 발표한 ‘2026 국제 에미상’ 후보에 따르면, 박지현은 지난해 9월 공개된 넷플릭스 시리즈 ‘은중과 상연’(극본 송혜
-    https://www.munhwa.com/article/11619432
-  - 한겨레: 배우 박지현이 넷플릭스 드라마 ‘은중과 상연’으로 한국 여배우 최초로 국제에미상 여자연기상 후보에 올랐다. 국제텔레비전예술과학아카데미가 지난 23일(현지시각) 발표한 제54회 국제에미상 후보 명단을 25일 보면, 박지현은 ‘은중과 상연’으로 여자연기상 후보에 이름을 올
-    https://www.hani.co.kr/arti/culture/entertainment/1279467.html
 
 ### [movie] 완주 아동권리영화제에 전국서 174편 접수
 - 매체 2곳 · 더펜뉴스 · 완주신문  ← 여러 곳이 썼다
@@ -172,6 +158,13 @@
     https://www.wj1news.com/news/article.html?no=17437
   - 더펜뉴스: 인공지능(AI)이 빠르게 일상으로 들어오는 시대에 아동·청소년이 체감하는 권리의 변화와 고민이 영화에 담겼다. 완주에서 열리는 아동권리영화제 공모에 전국에서 170편이 넘는 작품이 접수되면서 아동권리와 AI라는 동시대적 의제를 어린이와 청소년의 시선으로 들여다보는 장이 마련됐다.
     https://www.thepennews.net/news/article.html?no=45005
+
+### [movie] 유연석·고아성, 부산국제영화제 ‘올해의 배우상’ 심사
+- 매체 2곳 · 국민일보 · 뉴스핌  ← 여러 곳이 썼다
+  - 국민일보: 배우 유연석과 고아성이 제31회 부산국제영화제 ‘올해의 배우상’ 심사위원을 맡아 한국영화의 새로운 얼굴을 찾는다. 부산국제영화제는 올해 ‘올해의 배우상’ 심사위원으로 유연석과 고아성을 선정했다고 23일 밝혔다.
+    https://www.kmib.co.kr/article/view.asp?arcid=9000016839&code=61181511&sid1=ens
+  - 뉴스핌: [서울=뉴스핌] 양진영 기자 = 제31회 부산국제영화제가 올해의 배우상 심사위원으로 배우 유연석과 고아성을 선정했다. 올해의 배우상은 &apos;비전 - 한국 섹션&apos; 작품을 대상으로, 빛나는 연기와 가능성을 보여준 배우를 발굴하기 위한 상이다.
+    https://www.newspim.com/news/view/20260923000082
 
 ### [drama] 단독 유재명·이선빈, '거장항준' 첫 게스트…10월 15일 첫 방송
 - 매체 2곳 · star.ytn.co.kr · 브릿지경제  ← 여러 곳이 썼다
@@ -188,9 +181,18 @@
     https://www.korearailroad.kr/news/articleView.html?idxno=199122
 
 ### [drama] 리센느 미나미, 첫 단독 예능에 화제성 1위…‘라스’ 자체 최고 기록까지
-- 매체 1곳 · 스포츠동아
+- 매체 2곳 · iMBC 연예 · 스포츠동아  ← 여러 곳이 썼다
   - 스포츠동아: [동아닷컴 김승현 기자] 리센느(RESCENE) 미나미가 첫 단독 예능 나들이에서 화제성 1위에 오르며 ‘라디오스타’의 자체 최고 기록까지 이끌었다. 화제성 분석 기관 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 9월 3주 차 조사에 따르면 지난 16일 방송된 M…
     https://sports.donga.com/ent/article/all/20260922/134721944/1
+  - iMBC 연예: MBC '라디오스타'가 출연진의 솔직한 이야기와 거침없는 입담을 앞세워 2026년 자체 최고 화제성 기록을 새롭게 썼다. 화제성 분석 기관 굿데이터코퍼레이션 펀덱스(FUNdex)가 공개한 9월 3주 차 조사 결과에 따르면, 지난 16일 방송된 '라디오스타'에 출연한 그룹 리센느(RESC
+    https://enews.imbc.com/News/RetrieveNewsInfo/519076
+
+### [startrip] ‘은중과 상연’, 박지현, 美여배우 최초로 국제 에미상 후보
+- 매체 2곳 · 문화일보 · 한겨레  ← 여러 곳이 썼다
+  - 문화일보: 넷플릭스 시리즈 ‘은중과 상연’에 출연한 배우 박지현이 한국 여배우 최초로 국제 에미상 후보에 올랐다. 23일(현지시간) 국제텔레비전예술과학아카데미가 발표한 ‘2026 국제 에미상’ 후보에 따르면, 박지현은 지난해 9월 공개된 넷플릭스 시리즈 ‘은중과 상연’(극본 송혜
+    https://www.munhwa.com/article/11619432
+  - 한겨레: 배우 박지현이 넷플릭스 드라마 ‘은중과 상연’으로 한국 여배우 최초로 국제에미상 여자연기상 후보에 올랐다. 국제텔레비전예술과학아카데미가 지난 23일(현지시각) 발표한 제54회 국제에미상 후보 명단을 25일 보면, 박지현은 ‘은중과 상연’으로 여자연기상 후보에 이름을 올
+    https://www.hani.co.kr/arti/culture/entertainment/1279467.html
 
 ---
 거리 29건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
