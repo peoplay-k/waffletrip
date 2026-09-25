@@ -312,6 +312,48 @@ def slugify(text: str) -> str:
     return slug[:40].strip("-") or "article"
 
 
+_OUTLET_TAIL = re.compile(r"\s+[-–|]\s+([^\s\-–|]{2,15})$")
+
+
+def strip_outlet_suffix(title: str, source_name: str = "") -> str:
+    """제목 끝의 " - 매체명" 을 뗀다.
+
+    구글뉴스 피드는 제목 뒤에 " - 머니투데이" 를 붙여 준다. 수집 단계에서 떼지만
+    이전에 들어온 것과 다른 경로로 온 것이 남아 지면에 "… - 머니투데이" 로 실렸다
+    (2026-09-25 실측 9건). 꼬리가 띄어쓰기 없는 짧은 한 덩어리일 때만 뗀다 —
+    "제주 - 서귀포 1박" 처럼 본문 일부인 경우는 뒤에 더 말이 붙는다.
+    """
+    title = (title or "").strip()
+    m = _OUTLET_TAIL.search(title)
+    if not m:
+        return title
+    tail = m.group(1)
+    head = title[: m.start()].strip()
+    if len(head) < 8:
+        return title
+    if source_name and tail.lower() == source_name.strip().lower():
+        return head
+    # 매체명이 아니면 숫자·단위 같은 꼬리는 남긴다("… - 2편").
+    if re.fullmatch(r"[0-9]+[가-힣A-Za-z%]*", tail):
+        return title
+    return head
+
+
+def og_fallback_for(item) -> str:
+    """사진 없는 기사의 공유 그림. 연예는 부문 카드, 그 밖에는 기본 카드.
+
+    연예 기사에는 남의 사진을 못 쓰니(초상권) 사진이 거의 없다. 카톡·페북에
+    보냈을 때 매번 같은 기본 카드가 나오는 대신 '피플로드 연예 · 영화·드라마'
+    카드가 나온다. 파일이 없으면 기본 카드로 돌아간다.
+    """
+    if is_ent(item):
+        cat = ent_category_of(item)
+        rel = f"/og-ent-{cat}.jpg"
+        if os.path.exists(os.path.join("static", rel.lstrip("/"))):
+            return rel
+    return "/og-default.jpg"
+
+
 def tag_of(item) -> dict:
     """기사 앞에 붙는 작은 꼬리표와 그 링크. 여행은 지역면, 연예는 연예 부문.
 
@@ -478,6 +520,10 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 발행한 숏폼. static/video 의 .json 을 읽어 가장 최근 것을 홈에 건다.
     # 영상은 우리가 직접 만든 것이라 지면에 올려도 남의 것이 아니다.
     video = load_video()
+
+    # 제목 꼬리의 " - 매체명" 을 지면·피드·색인 어디서나 같이 뗀다.
+    for it in items:
+        it.title = strip_outlet_suffix(it.title, getattr(it, "source_name", "") or "")
 
     # 지역과 무관한 외신 잡보는 지면 목록에서 뺀다. 코타 지면에 프랑스 미술관
     # 도난이, 베트남 지면에 마이애미 활주로 사고가 실려 있었다(2026-09-09).
@@ -829,7 +875,10 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
                 region_name=tag_of(item)["label"],
                 tag=tag_of(item),
                 product_link=product_link_for(item.region) if not is_ent(item) else "",
-                **common),
+                og_fallback=og_fallback_for(item),
+                # 공유 버튼이 홈이 아니라 이 기사를 가리키게. 기사 1,093쪽 전부
+                # 홈 주소를 공유하고 있었다(2026-09-25 실측).
+                **{**common, "canonical": SITE_URL + BASE_PATH + urls[item.id]}),
             written,
         )
 

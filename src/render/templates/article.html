@@ -12,7 +12,7 @@
 {% block og_type %}article{% endblock %}
 {% block og_title %}{{ item.title|clean_title }}{% endblock %}
 {% block og_desc %}{{ item.summary or item.title }}{% endblock %}
-{% block og_image %}{% if item.photo %}{{ site_base }}{{ og_photo(item.photo) }}{% else %}{{ site_base }}/og-default.jpg{% endif %}{% endblock %}
+{% block og_image %}{% if item.photo %}{{ site_base }}{{ og_photo(item.photo) }}{% else %}{{ site_base }}{{ og_fallback|default("/og-default.jpg") }}{% endif %}{% endblock %}
 {% block tw_title %}{{ item.title|clean_title }}{% endblock %}
 {% block tw_desc %}{{ item.summary or item.title }}{% endblock %}
 {% block tw_image %}{% if item.photo %}{{ site_base }}{{ og_photo(item.photo) }}{% else %}{{ site_base }}/og-default.jpg{% endif %}{% endblock %}

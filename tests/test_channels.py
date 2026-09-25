@@ -397,3 +397,63 @@ def test_home_top_three_mix_both_channels_when_possible(tmp_path):
     home = (tmp_path / "index.html").read_text(encoding="utf-8")
     top = home.split('class="data-strip"')[0] if 'class="data-strip"' in home else home.split('class="headline-grid"')[0]
     assert "연예 · 영화·드라마" in top and "괌 소식" in top
+
+
+# ── 2026-09-25 밤 전수 점검에서 잡은 것 ─────────────────────────────
+def test_share_buttons_point_at_the_article_not_home(tmp_path):
+    """기사 1,093쪽 전부 네이버·X·페북 공유 링크가 홈 주소를 가리키고 있었다."""
+    items = [make("1", "괌 소식", region="guam"), ent("c-2", "영화 ○○ 개봉", "movie")]
+    render_site(items, str(tmp_path), TODAY)
+    expected = {
+        tmp_path / "ent" / "c-2-영화-개봉" / "index.html":
+            "shareView?url=https%3A//waffletrip.com/ent/c-2-%EC%98%81%ED%99%94-%EA%B0%9C%EB%B4%89/&",
+        tmp_path / "guam" / "1-괌-소식" / "index.html":
+            "shareView?url=https%3A//waffletrip.com/guam/1-%EA%B4%8C-%EC%86%8C%EC%8B%9D/&",
+    }
+    for page, share in expected.items():
+        html = page.read_text(encoding="utf-8")
+        assert "shareView?url=https%3A//waffletrip.com/&" not in html
+        assert share in html
+        # X·페북도 같은 주소
+        assert html.count(share.split("&")[0].split("url=")[1]) >= 3
+
+
+def test_ent_article_without_photo_gets_a_category_share_card(tmp_path):
+    render_site([ent("c-2", "영화 ○○ 개봉", "movie"),
+                 ent("c-3", "○○ 콘서트 개최", "music"),
+                 make("4", "괌 소식", region="guam")], str(tmp_path), TODAY)
+    movie = (tmp_path / "ent" / "c-2-영화-개봉" / "index.html").read_text(encoding="utf-8")
+    music = (tmp_path / "ent" / "c-3-콘서트-개최" / "index.html").read_text(encoding="utf-8")
+    assert 'property="og:image" content="https://waffletrip.com/og-ent-movie.jpg"' in movie
+    assert 'property="og:image" content="https://waffletrip.com/og-ent-music.jpg"' in music
+    travel = next((tmp_path / "guam").rglob("index.html")).read_text(encoding="utf-8")
+    assert "og-ent-" not in travel
+
+
+def test_outlet_suffix_is_stripped_from_titles():
+    from src.render.site import strip_outlet_suffix
+    assert strip_outlet_suffix("'승리 소주병 위협' CCTV 공개 - 머니투데이", "머니투데이") == "'승리 소주병 위협' CCTV 공개"
+    assert strip_outlet_suffix("에어프레미아, 12월 인천~삿포로 노선 신규 취항 - 조선비즈", "") == "에어프레미아, 12월 인천~삿포로 노선 신규 취항"
+    assert strip_outlet_suffix("다낭 호텔 아만다 부티크 호텔 - 스카이스캐너") == "다낭 호텔 아만다 부티크 호텔"
+    # 본문 일부인 꼬리는 남긴다
+    assert strip_outlet_suffix("제주 - 서귀포") == "제주 - 서귀포"
+    assert strip_outlet_suffix("괌 자유여행 준비물 정리 - 2편") == "괌 자유여행 준비물 정리 - 2편"
+    assert strip_outlet_suffix("괌 호텔 가격 비교 - 성수기 vs 비수기") == "괌 호텔 가격 비교 - 성수기 vs 비수기"
+    assert strip_outlet_suffix("") == ""
+
+
+def test_rendered_titles_lose_outlet_suffix(tmp_path):
+    it = make("1", "오키나와 프리미엄 패키지 선봬 - 머니투데이", region="jeju")
+    it.source_name = "머니투데이"
+    render_site([it], str(tmp_path), TODAY)
+    home = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert "선봬 - 머니투데이" not in home
+    assert "오키나와 프리미엄 패키지 선봬" in home
+
+
+def test_ent_filter_drops_crime_and_newsletter_items():
+    from src.relevance import is_ent_excluded
+    assert is_ent_excluded("\"너 하나 죽이는 거 일도 아냐\"…'승리 소주병 위협' CCTV 공개\n", "머니투데이")
+    assert is_ent_excluded("소연 솔로곡이 차트 1위를 싹쓸이 한 사연 👀🎧", "뉴닉")
+    assert not is_ent_excluded("‘은중과 상연’ 박지현, 국제 에미상 후보", "문화일보")
+    assert not is_ent_excluded("BTS 월드투어, 3분기 누적 전 세계 투어 매출 1위", "KBS 뉴스")

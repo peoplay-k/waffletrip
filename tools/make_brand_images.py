@@ -24,6 +24,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from src.brand import DOMAIN, SITE_KIND, SITE_NAME, SITE_NAME_EN, SITE_TAGLINE  # noqa: E402
+from src.topics import ENT_TOPICS  # noqa: E402
 
 INK = (14, 14, 15)
 PAPER = (255, 255, 255)
@@ -95,6 +96,24 @@ def make_og(path: str, fpath: str | None) -> None:
     im.save(path, "JPEG", quality=90, optimize=True)
 
 
+def make_og_ent(path: str, fpath: str | None, label: str) -> None:
+    """연예 부문 공유 카드. 사진 없는 연예 기사가 카톡·페북에서 이 카드로 나온다."""
+    im = Image.new("RGB", (1200, 630), PAPER)
+    d = ImageDraw.Draw(im)
+    d.rectangle((0, 0, 1200, 10), fill=INK)
+    small = font(fpath, 40)
+    d.text((80, 150), f"{SITE_NAME} 연예", font=small, fill=MUTED)
+    big = font(fpath, 112)
+    d.text((80, 220), label, font=big, fill=INK)
+    x = 80 + _w(d, label, big) + 6
+    d.ellipse((x, 312, x + 26, 338), fill=CORAL)
+    d.line((80, 440, 1120, 440), fill=(234, 234, 231), width=2)
+    d.text((84, 468), "공식 발표와 현장만 · 사생활은 다루지 않습니다", font=font(fpath, 30), fill=INK)
+    d.text((84, 520), f"{SITE_NAME_EN} · {DOMAIN}", font=font(fpath, 26), fill=MUTED)
+    d.rectangle((0, 620, 1200, 630), fill=CORAL)
+    im.save(path, "JPEG", quality=90, optimize=True)
+
+
 def make_favicon(path: str) -> None:
     """SVG 는 글꼴을 브라우저가 그린다. 첫 글자 '피' 와 코랄 점."""
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
@@ -120,7 +139,10 @@ def main() -> int:
     make_logo(os.path.join(args.out, "logo.png"), fpath)
     make_og(os.path.join(args.out, "og-default.jpg"), fpath)
     make_favicon(os.path.join(args.out, "favicon.svg"))
-    print(f"글꼴 {fpath}\n→ {args.out}/logo.png · og-default.jpg · favicon.svg")
+    for cat, name, _desc in ENT_TOPICS:
+        make_og_ent(os.path.join(args.out, f"og-ent-{cat}.jpg"), fpath, name)
+    print(f"글꼴 {fpath}\n→ {args.out}/logo.png · og-default.jpg · favicon.svg · "
+          + " · ".join(f"og-ent-{c}.jpg" for c, _n, _d in ENT_TOPICS))
     return 0
 
 
