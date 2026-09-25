@@ -2897,6 +2897,7 @@
     "e1c5c68942bfbb09e190e22a0672c69e68105d58",
     "e1cce6f0d7094ffacdab73eba6605195c5fb8cbf",
     "e1d71941b8f5054be184844f0223b19f8706170f",
+    "e1e032f59e15d9552641e16db454a5c721687fef",
     "e1fb8d6c898d0cd4d23c1690a6f44e070f7afe8e",
     "e2027b4ca13c01b5f4c870947ca6527970b22349",
     "e2035efc196a04de2157e19e910b1bb32ec7af17",
@@ -3173,6 +3174,7 @@
     "f6b3c6f7582bfcdde4f512de8c36408f5df1d5f8",
     "f6da1ddda25364cfff87d73063551f3b58a49895",
     "f6f2211c3da61dabb90337cce2cb4018d499bd7d",
+    "f72be39cb51780b08ff671accd57f4729617b08c",
     "f743420225925e42992abc4f28ff6db817db77a0",
     "f748742b74b30a7af3ecb69fe8cd4d9571533b5d",
     "f74b10316c7651d73275ba850d6b4fc6394aac0a",
@@ -24617,7 +24619,7 @@
     },
     {
       "id": "20b9b8c5f1b5866159a231a132f11aae2b6d5a79",
-      "title": "First Alert Forecast: Nolo is now a Hurricane",
+      "title": "놀로, 허리케인으로 발달 — 하와이 기상 특보",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
@@ -24638,21 +24640,21 @@
     },
     {
       "id": "654f98cb3afe2ce9bc4b91b69cdfe4ef5e923d3f",
-      "title": "Maui braces for Hurricane Nolo as officials urge residents to prepare",
+      "title": "마우이, 허리케인 놀로 대비 태세…당국 \"주민 준비하라\"",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "53301e7e525e5f78b225e3fbb9826b4f069af158",
-      "title": "Nolo now a hurricane, set to rapidly intensify as it nears Hawaii Island",
+      "title": "허리케인 놀로, 하와이섬 접근하며 급속 강화 전망",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "d83c2173f8271b41a2f6ba047c15c9866e5e85e5",
-      "title": "Storm refuge areas: Where to find emergency shelter across the state",
+      "title": "하와이 주 전역 비상 대피소 안내 — 폭풍 대피 장소는 어디",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
@@ -24666,28 +24668,28 @@
     },
     {
       "id": "a9145b9abf84413860ac7e72640b3937fc24ac41",
-      "title": "Rapid Recovery: Koa Kea Resort Reopens After Hurricane Lowell’s Storm Surge",
+      "title": "코아 케아 리조트, 허리케인 로웰 해일 피해 딛고 재개장",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "97e9cc10cfd57b04cb2d20abdc25103478bceb46",
-      "title": "Passengers evaluated for sickness upon arrival at Honolulu Airport",
+      "title": "호놀룰루 공항 도착 승객들, 기내 질환 의심으로 검사",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "f9cfe1edb9464ca234734abce7528b933be69f4e",
-      "title": "Asia's second best airport braces for record foreign arrivals during China's Golden Week",
+      "title": "'아시아 2위 공항' 베트남, 중국 국경절 연휴 외국인 입국 최대 기록 전망",
       "date": "2026-09-25",
       "region": "vietnam",
       "grade": "B"
     },
     {
       "id": "6d5dade5a891bf49ef45604fee53320056e61bac",
-      "title": "Da Nang makes Lonely Planet's list of destinations to inspire 2027 travel",
+      "title": "다낭, 론리플래닛 '2027년 가볼 만한 여행지' 목록에",
       "date": "2026-09-25",
       "region": "vietnam",
       "grade": "B"
@@ -24708,7 +24710,7 @@
     },
     {
       "id": "ac74c7705d8c43872999e2651a387ca095cc2f23",
-      "title": "New Beijing-Kota Kinabalu route on the cards as China Eastern eyes more Sabah flights",
+      "title": "중국동방항공, 베이징–코타키나발루 신규 노선 검토…사바 증편 추진",
       "date": "2026-09-25",
       "region": "kota",
       "grade": "B"
@@ -24757,42 +24759,42 @@
     },
     {
       "id": "e61b7a76b8061b377b16fbe315ed9d3505468839",
-      "title": "Hanoi's oldest hotel: A century of change, with guests from Charlie Chaplin to Tim Cook",
+      "title": "하노이 최고(最古) 호텔의 100년 — 채플린부터 팀 쿡까지 머문 곳",
       "date": "2026-09-25",
       "region": "vietnam",
       "grade": "B"
     },
     {
       "id": "ae9f6cc98cedbacdf6f7eb7543d23681fe6fc20e",
-      "title": "Asia's second best airport expects 1.1 million passengers during 4-day autumn holiday",
+      "title": "'아시아 2위 공항', 나흘 연휴에 승객 110만 명 예상",
       "date": "2026-09-25",
       "region": "vietnam",
       "grade": "B"
     },
     {
       "id": "eaab6eedaf28e894a9d3590bd5c9c1b9e575ca73",
-      "title": "Back-to-back storms batter Hawaii coffee farms during critical harvest season",
+      "title": "연이은 폭풍에 하와이 커피 농가 타격…수확철 피해",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "941d2089edcd36241cc5aa87b144b2afb4fa1ed1",
-      "title": "Hurricane Nolo strengthening as it moves slowly toward Hawaii Island",
+      "title": "허리케인 놀로, 하와이섬 향해 서서히 이동하며 세력 강화",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "d2ba894d22a28757e32534be26ea974972465630",
-      "title": "First Alert Forecast: Nolo will intensify and become a major hurricane",
+      "title": "놀로, '메이저 허리케인'으로 발달 전망 — 하와이 기상 특보",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "ac943e9ef0cffe71d05ddd9cb69d39e060f0e000",
-      "title": "Tourism leaders focus on disaster response as Hurricane Nolo threatens Hawaii travel",
+      "title": "하와이 관광업계, 허리케인 놀로 대비 재난 대응 논의",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
@@ -24890,7 +24892,7 @@
     },
     {
       "id": "236ecb632de235d0de93fcbef3100b8f289bfe72",
-      "title": "Guam Museum hosting 100th anniversary celebration on Oct. 3",
+      "title": "괌 박물관, 10월 3일 100주년 기념행사",
       "date": "2026-09-25",
       "region": "guam",
       "grade": "B"
@@ -25114,7 +25116,7 @@
     },
     {
       "id": "5eb9ddd9af1d674b22801c7f1a0e1e40db7f534f",
-      "title": "Guam, SEA destinations featured at Travel Sale Expo",
+      "title": "괌·동남아 여행지, '트래블 세일 엑스포'에 소개",
       "date": "2026-09-25",
       "region": "guam",
       "grade": "B"
@@ -25191,7 +25193,7 @@
     },
     {
       "id": "f326087af2bfb9c0f873c33bf2b0f1277fc6005d",
-      "title": "Tourism's success becomes Guam's success",
+      "title": "관광의 성공이 곧 괌의 성공 — 괌 데일리 포스트",
       "date": "2026-09-25",
       "region": "guam",
       "grade": "B"
@@ -25838,6 +25840,20 @@
       "title": "'라스' 리센느 미나미, 첫 단독 예능 출연에 TV·OTT 화제성 1위",
       "date": "2026-09-25",
       "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "f72be39cb51780b08ff671accd57f4729617b08c",
+      "title": "다낭은 러시아와 CIS 국가 출신의 장기 체류 관광객을 유치하는 것을 목표로 하고 있습니다.",
+      "date": "2026-09-25",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "e1e032f59e15d9552641e16db454a5c721687fef",
+      "title": "China-Laos ‘Peace Train-2026’ mission successfully concludes",
+      "date": "2026-09-25",
+      "region": "laos",
       "grade": "B"
     }
   ]
