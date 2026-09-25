@@ -60,7 +60,10 @@ def edit_items(raw_items: list[Item], index: PublishedIndex,
     kept, dropped = filter_items(relevant)
     clustered = cluster_batch(kept)
     fresh, duplicates = filter_unpublished(clustered, index)
-    candidates = pick_c_candidates(fresh, trending)
+    # 해설 후보는 여행만. 연예 기사는 예약 해설 에이전트가 쓰지 않고 편집실에서
+    # 사람이 쓴다 — 후보 초안을 만들어 봐야 48시간 뒤 버려질 뿐이다.
+    candidates = pick_c_candidates(
+        [i for i in fresh if getattr(i, "channel", "travel") != "ent"], trending)
     return {"publish": fresh, "c_candidates": candidates,
             "dropped": dropped, "duplicates": duplicates,
             "off_topic": off_topic}
@@ -85,7 +88,9 @@ def write_drafts(review_dir: str, candidates: list[tuple[Item, str]],
         front_matter = yaml.safe_dump(
             {
                 "id": item.id,
+                "channel": getattr(item, "channel", "travel") or "travel",
                 "region": item.region,
+                "category": getattr(item, "category", "") or "",
                 "section": item.section,
                 "title": item.title,
                 "source_name": item.source_name,

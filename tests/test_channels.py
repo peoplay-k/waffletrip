@@ -300,3 +300,16 @@ def test_ent_exclusion_keywords():
     assert is_ent_excluded("○○ 결별설 해명")
     assert is_ent_excluded("○○ 비키니 몸매 공개")
     assert not is_ent_excluded("○○ 월드투어 서울 공연 추가")
+
+
+def test_ent_items_are_never_commentary_candidates():
+    """연예는 편집실이 쓴다. 자동 해설 후보 초안을 만들지 않는다."""
+    from src.edit import edit_items
+    from src.guards.dup_guard import PublishedIndex
+    rows = []
+    for n in range(3):
+        it = ent(str(n), "영화 ○○ 제작발표회", "movie", grade="B")
+        it.source_name = f"매체{n}"; it.source_url = f"https://e/{n}"
+        rows.append(it)
+    got = edit_items(rows, PublishedIndex(set(), []), ["제작발표회"], set())
+    assert got["c_candidates"] == []
