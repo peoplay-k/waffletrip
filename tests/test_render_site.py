@@ -62,9 +62,10 @@ def test_split_panel_separates_grade_a():
 def test_render_site_writes_index(tmp_path):
     render_site([make("1", "괌 신규 취항")], str(tmp_path), TODAY)
     html = (tmp_path / "index.html").read_text(encoding="utf-8")
-    assert "와플트립" in html
-    assert "매일 아침 여행 뉴스" in html
+    assert "피플로드" in html
+    assert "여행과 연예, 사람이 다니는 길" in html
     assert "괌 신규 취항" in html
+    assert "와플트립<span" not in html          # 옛 제호가 마스트헤드에 남지 않는다
 
 
 def test_every_page_opens_with_the_doctype(tmp_path):
@@ -117,12 +118,31 @@ def test_region_page_shows_data_panel(tmp_path):
     assert "오늘의 환율" in html
 
 
-def test_region_page_links_to_the_product_site(tmp_path):
-    """확인된 링크가 있는 지역(괌)으로 한정한다. 다른 지역은 빈 값이다."""
-    from src.render.site import PRODUCT_LINKS
+def test_region_page_has_no_product_link_before_naver_registration(tmp_path):
+    """네이버 제휴 심사 전까지 지면에 상품 링크를 두지 않는다(2026-09-16 편집국장).
+
+    게이트(COMMERCIAL_LINKS)가 닫혀 있으면 소유가 확인된 괌에도 버튼이 없다.
+    """
+    from src.render.site import COMMERCIAL_LINKS, PRODUCT_LINKS
+    assert COMMERCIAL_LINKS is False
+    item = make("1", "괌 소식", region="guam")
+    render_site([item], str(tmp_path), TODAY)
+    html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
+    assert PRODUCT_LINKS["guam"] not in html
+    assert "여행 상품 보러가기" not in html
+    import glob as _g
+    for p in _g.glob(str(tmp_path / "guam" / "*" / "index.html")):
+        assert "여행 상품 보러가기" not in open(p, encoding="utf-8").read()
+
+
+def test_region_page_links_to_the_product_site_when_the_gate_opens(tmp_path, monkeypatch):
+    """등록 뒤 게이트를 열면 확인된 지역(괌)에만 상품 링크가 붙는다. 다른 지역은 빈 값이다."""
+    import src.render.site as site
+    monkeypatch.setattr(site, "COMMERCIAL_LINKS", True)
     render_site([make("1", "괌 소식", region="guam")], str(tmp_path), TODAY)
     html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
-    assert PRODUCT_LINKS["guam"] in html
+    assert site.PRODUCT_LINKS["guam"] in html
+    assert "본 매체 운영사가 판매하는 상품입니다" in html
 
 
 def test_regions_without_a_product_site_show_no_button(tmp_path):
@@ -404,13 +424,15 @@ def test_about_page_states_no_invented_reporters(tmp_path):
     html = (tmp_path / "about" / "index.html").read_text(encoding="utf-8")
     assert "편집국 구성" in html
     assert "실재하지 않는 기자 이름을 쓰지 않습니다" in html
-    assert "와플트립 괌 데스크" in html
+    assert "피플로드 괌 데스크" in html
+    assert "피플로드 문화부" in html            # 연예 데스크도 밝힌다
+    assert "피플레이" in html                   # 운영사와 이해관계를 밝힌다
 
 
 def test_region_page_names_its_desk(tmp_path):
     render_site([], str(tmp_path), TODAY)
     html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
-    assert "와플트립 괌 데스크" in html
+    assert "피플로드 괌 데스크" in html
 
 
 # ── 런칭 필수 항목 ────────────────────────────────────────────────
@@ -507,14 +529,18 @@ def test_admin_is_deployed_but_not_indexed(tmp_path):
     assert 'name="robots" content="noindex, nofollow"' in html
 
 
-def test_admin_config_does_not_allow_media_upload():
-    """CMS 업로드는 얼굴 검사를 건너뛴다. 사진은 승인 도구로만 들여온다."""
+def test_admin_config_allows_exactly_one_photo_upload():
+    """업로드는 허용하되 대표 사진 한 장뿐이다. 업로드는 content/uploads 로 가고
+    CI 의 사진 반입(tools/photo_intake.py)이 얼굴 검사를 거친 뒤에만 지면에 싣는다."""
     import yaml
     cfg = yaml.safe_load(open("static/admin/config.yml", encoding="utf-8"))
-    assert cfg.get("media_folder") == ""
+    assert cfg.get("media_folder") == "content/uploads"
+    assert cfg.get("public_folder") == "/content/uploads"
     for col in cfg["collections"]:
-        widgets = {f["widget"] for f in col["fields"]}
-        assert "image" not in widgets and "file" not in widgets
+        images = [f["name"] for f in col["fields"] if f["widget"] in ("image", "file")]
+        assert images == ["photo"], images
+        names = {f["name"] for f in col["fields"]}
+        assert {"channel", "category", "photo_hero", "photo_note"} <= names
 
 
 def test_admin_config_points_at_the_right_repo():

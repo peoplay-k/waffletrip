@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""와플트립 롱폼(16:9)을 만든다. 사진 없이 지면처럼 보이는 카드로 채운다.
+"""피플로드 롱폼(16:9)을 만든다. 사진 없이 지면처럼 보이는 카드로 채운다.
 
 사진이 모자라 만든 방식이 아니라, 뉴스 롱폼이 원래 쓰는 방식이다. 우리가
 가진 것은 **글과 숫자**이고 그것을 읽기 좋게 짜면 화면이 된다. 사진은
@@ -26,6 +26,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from PIL import Image, ImageDraw, ImageFont  # noqa: E402
 
+from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.models import REGION_NAMES  # noqa: E402
 from video_brief import _speakable, facts_from, load_items  # noqa: E402
 
@@ -117,11 +118,11 @@ def _base() -> tuple[Image.Image, ImageDraw.ImageDraw]:
     d = ImageDraw.Draw(img)
     # 제호는 늘 같은 자리에. 어느 장면을 캡처해도 매체를 알 수 있어야 한다.
     brand = _f(34)
-    d.text((PAD, 64), "와플트립", font=brand, fill=INK)
-    d.text((PAD + d.textlength("와플트립", font=brand), 64), ".",
+    d.text((PAD, 64), "피플로드", font=brand, fill=INK)
+    d.text((PAD + d.textlength("피플로드", font=brand), 64), ".",
            font=brand, fill=CORAL)
     d.line([(PAD, H - 96), (W - PAD, H - 96)], fill=LINE, width=2)
-    d.text((PAD, H - 78), "waffletrip.com", font=_f(26), fill=MUTED)
+    d.text((PAD, H - 78), DOMAIN, font=_f(26), fill=MUTED)
     return img, d
 
 
@@ -222,9 +223,9 @@ def build_script(items: list[dict]) -> list[dict]:
     today = max((i.get("published_at") or "")[:10] for i in items)
     scenes.append({
         "kind": "title",
-        "narration": "안녕하세요, 와플트립입니다. 이번 주 여행 뉴스를 정리해 드립니다.",
+        "narration": "안녕하세요, 피플로드입니다. 이번 주 여행 뉴스를 정리해 드립니다.",
         "headline": "이번 주 여행 뉴스",
-        "sub": f"{today[:4]}년 {int(today[5:7])}월 {int(today[8:10])}일 · 와플트립",
+        "sub": f"{today[:4]}년 {int(today[5:7])}월 {int(today[8:10])}일 · 피플로드",
     })
 
     facts_rows = []
@@ -292,9 +293,9 @@ def build_script(items: list[dict]) -> list[dict]:
     scenes.append({
         "kind": "title",
         "headline": "매일 아침 8시",
-        "sub": "waffletrip.com",
-        "narration": "와플트립은 매일 아침 여덟 시에 새 기사를 올립니다. "
-                     "waffletrip.com 에서 보실 수 있습니다.",
+        "sub": DOMAIN,
+        "narration": "피플로드은 매일 아침 여덟 시에 새 기사를 올립니다. "
+                     f"{DOMAIN} 에서 보실 수 있습니다.",
     })
     return scenes
 
@@ -312,7 +313,7 @@ def render(scene: dict) -> Image.Image:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="와플트립 롱폼")
+    ap = argparse.ArgumentParser(description="피플로드 롱폼")
     ap.add_argument("--script-only", action="store_true")
     ap.add_argument("--out", default="public/video")
     ap.add_argument("--frames", default="")
@@ -378,7 +379,7 @@ def read_seconds(text: str) -> float:
 
 
 def build_silent(scenes: list[dict], out_dir: str,
-                 name: str = "waffletrip-week") -> str:
+                 name: str = "peopleroad-week") -> str:
     """무음 롱폼을 만든다. 오디오 트랙이 아예 없다. 비용 0원."""
     import tempfile
 

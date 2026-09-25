@@ -12,7 +12,9 @@ from urllib.parse import urlsplit, urlunsplit
 import httpx
 import feedparser
 
-UA = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+from src.brand import BOT_UA as UA  # noqa: E402 — 정본은 brand.py
 TIMEOUT = 10.0
 DELAY = 1.0  # 요청 간 지연(초) — 같은 호스트에 연속 요청하지 않는다 (스펙 5절 규칙 4)
 

@@ -1,5 +1,5 @@
 /**
- * 와플트립 편집실 로그인 중개기 (Cloudflare Worker)
+ * 피플로드 편집실 로그인 중개기 (Cloudflare Worker)
  *
  * Decap CMS 가 GitHub 에 글을 쓰려면 OAuth 로그인이 필요한데, GitHub 은
  * 클라이언트 비밀키를 브라우저에 두는 것을 허용하지 않는다. 그래서 아주 작은

@@ -122,6 +122,26 @@ SPAM_SOURCES: frozenset[str] = frozenset({"Histoire pour tous"})
 NON_NEWS_SOURCES: tuple[str, ...] = ("브런치", "네이버 블로그", "티스토리", "유튜브", "youtube")
 
 
+# ── 연예 — 싣지 않는 것 ────────────────────────────────────────────
+# 편집원칙 3번: 공식 발표되지 않은 열애·가족·건강·주거 정보, 확인되지 않은 소문,
+# 악의적인 댓글을 옮긴 기사. 검색 피드는 이런 제목이 절반이다. 제목에 이 낱말이
+# 있으면 사실이어도 우리 지면의 일이 아니다 — 놓치는 쪽으로 틀리게 만든다.
+ENT_EXCLUDE_KEYWORDS: tuple[str, ...] = (
+    "열애", "결별", "이혼", "파경", "불화", "루머", "찌라시", "폭로", "저격", "논란",
+    "해명", "사과문", "갑질", "학폭", "마약", "음주", "성추문", "성희롱", "송사",
+    "고소", "고발", "소송", "법정", "구속", "입건", "송치", "실형", "집행유예",
+    "비난", "악플", "댓글 테러", "몸매", "노출", "비키니", "속옷", "19금",
+    "사망설", "위독", "응급실", "투병", "건강 이상", "임신설", "결혼설", "재혼설",
+)
+
+
+def is_ent_excluded(text: str) -> bool:
+    """연예 기사 가운데 우리 지면에 싣지 않는 것인가."""
+    if not text:
+        return False
+    return any(k in text for k in ENT_EXCLUDE_KEYWORDS)
+
+
 def is_spam(text: str, source_name: str = "") -> bool:
     """검색 피드에 섞여 오는 도박 홍보 글인가."""
     if source_name and source_name in SPAM_SOURCES:

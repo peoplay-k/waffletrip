@@ -11,6 +11,9 @@
 2. **본문이 비면 발행하지 않는다.** status 만 approved 로 바꾸고 본문을 안 쓴
    초안이 빈 기사로 나가는 것을 막는다.
 3. **내보낸 초안은 status 를 published 로 바꾼다.** 다음 실행에서 또 나가지 않는다.
+4. **채널을 지킨다.** 여행 초안은 region 이 지역 목록 안에 있어야 한다 — 예전엔 빈
+   region 이 조용히 통과해 `//` 주소가 났다. 연예 초안(channel: ent)은 region 을
+   무시하고 category(연예 부문)를 싣는다. 편집실 두 곳이 같은 프론트매터를 쓴다.
 """
 from __future__ import annotations
 
@@ -24,7 +27,8 @@ import yaml
 
 from src.guards.dup_guard import PublishedIndex
 from src.guards.privacy_guard import find_violations
-from src.models import Item, item_to_dict, title_hash
+from src.models import CHANNELS, REGIONS, Item, item_to_dict, title_hash
+from src.topics import ENT_TOPIC_NAMES
 
 KST = timezone(timedelta(hours=9))
 
@@ -117,10 +121,32 @@ def collect_approved(review_dir: str, day: str) -> list[tuple[str, Item]]:
             print(f"  제목이 없어 건너뛴다: {name}", file=sys.stderr)
             continue
 
+        channel = str(front.get("channel") or "travel").strip()
+        if channel not in CHANNELS:
+            print(f"  모르는 채널이라 건너뛴다: {name} — channel={channel!r}",
+                  file=sys.stderr)
+            continue
+        region = str(front.get("region") or "").strip()
+        category = str(front.get("category") or "").strip()
+        if channel == "ent":
+            region = ""                # 연예 기사는 지역면이 없다
+            if category and category not in ENT_TOPIC_NAMES:
+                print(f"  모르는 연예 부문이라 건너뛴다: {name} — category={category!r}",
+                      file=sys.stderr)
+                continue
+        else:
+            category = ""
+            if region not in REGIONS:
+                print(f"  지역이 없거나 모르는 지역이라 건너뛴다: {name} — region={region!r}",
+                      file=sys.stderr)
+                continue
+
         out.append((path, Item(
             id=commentary_id(source_id, day),
             grade="C",
-            region=str(front.get("region") or ""),
+            region=region,
+            channel=channel,
+            category=category,
             section=str(front.get("section") or "news"),
             title=title,
             summary=_summary_of(front, text),
@@ -197,7 +223,7 @@ def main(data_dir: str = "data", review_dir: str = "content/review") -> int:
 
     print(f"해설 기사 발행: {len(published)}건")
     for _, item in published:
-        print(f"  [{item.region}] {item.title[:50]}")
+        print(f"  [{item.region or ('ent/' + (item.category or 'star'))}] {item.title[:50]}")
     return 0
 
 

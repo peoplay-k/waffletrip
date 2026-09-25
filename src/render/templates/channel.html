@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{# 채널 허브 — /travel/ 과 /ent/. 네비의 '여행'·'연예' 글자가 가리키는 곳이다.
+   부문과 지역면으로 가는 입구를 먼저 두고, 그 아래 최근 기사를 깐다.
+   기사가 0건이어도 이 쪽은 있어야 한다 — 네비가 가리키는 주소가 404 면 안 된다. #}
+{% block title %}{{ channel_name }} — {{ site_name }}{% endblock %}
+{% block description %}{{ channel_desc }}{% endblock %}
+{% block head_extra %}<link rel="alternate" type="application/rss+xml" title="{{ site_name }} {{ channel_name }}" href="{% if channel_key == 'ent' %}/ent/rss.xml{% else %}/rss.xml{% endif %}">{% endblock %}
+{% block content %}
+<div class="page-head">
+  <span class="kicker">채널</span>
+  <h1>{{ channel_name }}</h1>
+  <p class="note">{{ channel_desc }}</p>
+</div>
+
+<div class="headline-grid" style="margin-bottom:30px">
+  {% for href, name, desc in sections %}
+  <a href="{{ href }}"><span class="n">→</span><span><b>{{ name }}</b> <span class="empty-s">{{ desc }}</span></span></a>
+  {% endfor %}
+</div>
+
+{% if places %}
+<nav class="citystrip" aria-label="지역면">
+  <span class="cs-label">지역면</span>
+  {% for href, name in places %}<a href="{{ href }}">{{ name }}</a>{% endfor %}
+</nav>
+{% endif %}
+
+{% if items %}
+<section class="block">
+  <h2 class="block-title">최근 기사</h2>
+  <div class="cards">
+    {% for item in items %}
+    <article class="card{% if not item.photo %} text-only{% endif %}">
+      {% if item.photo %}<a href="{{ article_urls[item.id] }}"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy" {{ dims(item.photo) }}></a>{% endif %}
+      {% set tg = tag_of(item) %}<a class="rg" href="{{ tg.href }}">{{ tg.label }}</a>
+      <h3>{% if item.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[item.id] }}">{{ item.title|clean_title }}</a></h3>
+      <div class="byline">{{ item.source_name }} · {{ item.published_at[:10] }}</div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% else %}
+  <p class="empty">아직 실린 기사가 없습니다. 부문을 먼저 열어 두고 채워 갑니다.</p>
+{% endif %}
+{% endblock %}

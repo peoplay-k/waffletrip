@@ -9,7 +9,10 @@
 지면에서 다시 찾아보시겠어요?</p>
 <div class="headline-grid" style="margin-top:24px">
   {% for tid, tname, _ in topics %}
-  <a href="/{{ tid }}/"><span class="n">→</span><span>{{ tname }}</span></a>
+  <a href="/{{ tid }}/"><span class="n">→</span><span>{{ channel_names.travel }} · {{ tname }}</span></a>
+  {% endfor %}
+  {% for tid, tname, _ in ent_topics %}
+  <a href="/ent/{{ tid }}/"><span class="n">→</span><span>{{ channel_names.ent }} · {{ tname }}</span></a>
   {% endfor %}
 </div>
 <p class="note"><a href="/search/">기사 검색</a> · <a href="/">첫 쪽으로</a></p>

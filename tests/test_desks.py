@@ -22,7 +22,21 @@ def test_data_goes_to_the_data_desk():
 
 
 def test_commentary_goes_to_the_region_desk():
-    assert byline_for(make("C", region="hawaii")) == "와플트립 하와이 데스크"
+    assert byline_for(make("C", region="hawaii")) == "피플로드 하와이 데스크"
+
+
+def test_entertainment_commentary_goes_to_the_culture_desk():
+    """연예 기사는 지역이 없다. 문화부가 서명한다."""
+    from src.desks import ENT_DESK
+    item = make("C", region="")
+    item.channel = "ent"
+    assert byline_for(item) == ENT_DESK == "피플로드 문화부"
+
+
+def test_named_writer_beats_the_culture_desk():
+    item = make("C", region="", source_name="홍길동")
+    item.channel = "ent"
+    assert byline_for(item) == "홍길동"
 
 
 def test_named_writer_is_respected():
@@ -36,9 +50,10 @@ def test_every_region_has_a_desk():
 
 def test_no_desk_looks_like_a_personal_name():
     """부서명이어야 한다. 사람 이름으로 읽히면 지어낸 기자가 된다."""
-    for name in list(REGION_DESKS.values()) + [DATA_DESK]:
+    from src.desks import ENT_DESK
+    for name in list(REGION_DESKS.values()) + [DATA_DESK, ENT_DESK]:
         assert name.startswith(BRAND)
-        assert name.endswith(("데스크", "데이터팀", "편집팀"))
+        assert name.endswith(("데스크", "데이터팀", "편집팀", "문화부"))
 
 
 def test_every_desk_declares_how_it_makes_articles():
@@ -50,10 +65,11 @@ def test_every_desk_declares_how_it_makes_articles():
     """
     from src.desks import DESK_DUTIES
     from src.models import REGIONS
-    # 지역 데스크 + 데이터팀 + 편집팀. 숫자를 박아두면 지역을 늘릴 때마다 깨진다.
-    assert len(DESK_DUTIES) == len(REGIONS) + 2
+    # 지역 데스크 + 데이터팀 + 편집팀 + 문화부. 숫자를 박아두면 지역을 늘릴 때마다 깨진다.
+    from src.desks import ENT_HOW
+    assert len(DESK_DUTIES) == len(REGIONS) + 3
     for name, duty, how in DESK_DUTIES:
-        assert how in ("자동", "AI 작성 · 사람 지침"), (name, how)
+        assert how in ("자동", "AI 작성 · 사람 지침", ENT_HOW), (name, how)
         assert duty.strip()
 
 

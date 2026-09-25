@@ -24,7 +24,7 @@ import httpx
 
 KST = timezone(timedelta(hours=9))
 FEED_URL = "https://trends.google.com/trending/rss?geo=KR"
-USER_AGENT = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
+from src.brand import BOT_UA as USER_AGENT  # noqa: E402 — 정본은 brand.py
 TIMEOUT = 15.0
 MAX_KEYWORDS = 30
 MIN_LENGTH = 2      # 한 글자 키워드는 아무 제목에나 걸린다

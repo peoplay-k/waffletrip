@@ -176,8 +176,9 @@ def test_sitemap_urls_carry_the_base_path(tmp_path, monkeypatch):
 # ── llms.txt (AI 검색이 읽는 안내문) ────────────────────────────────
 def test_llms_txt_opens_with_the_site_name_and_summary(tmp_path):
     text = Path(render_llms_txt([], str(tmp_path))).read_text(encoding="utf-8")
-    assert text.startswith("# 와플트립")
-    assert "> 매일 아침 여행 뉴스" in text
+    assert text.startswith("# 피플로드")
+    assert "> 여행·연예 문화 전문 매체" in text
+    assert "## 연예 — 부문" in text and "/ent/startrip/" in text
 
 
 def test_llms_txt_lists_every_region_and_topic(tmp_path):

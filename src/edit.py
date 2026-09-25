@@ -24,7 +24,8 @@ from src.autowrite import build_city_roundup, build_daily, build_roundup
 from src.guards.dup_guard import (PublishedIndex, cluster_batch,
                                   filter_unpublished)
 from src.models import Item, item_from_dict, item_to_dict
-from src.relevance import is_crime_report, is_spam, is_travel_related
+from src.relevance import (is_crime_report, is_ent_excluded, is_spam,
+                           is_travel_related)
 from src.sources import load_sources
 
 DRAFT_NAME = re.compile(r"^(\d{4}-\d{2}-\d{2})_(.+)\.md$")
@@ -43,11 +44,17 @@ def edit_items(raw_items: list[Item], index: PublishedIndex,
     off_topic: list[Item] = []
     for item in raw_items:
         text = f"{item.title} {item.summary}"
-        keep = (item.grade == "A"
-                or item.source_name in curated_sources
-                or (is_travel_related(text)
+        if getattr(item, "channel", "travel") == "ent":
+            # 연예 기사는 여행 관련성을 묻지 않는다. 대신 가십·사건·스팸을 거른다.
+            keep = (not is_ent_excluded(f"{item.title} {item.summary}")
                     and not is_crime_report(text)
-                    and not is_spam(text, item.source_name)))
+                    and not is_spam(text, item.source_name))
+        else:
+            keep = (item.grade == "A"
+                    or item.source_name in curated_sources
+                    or (is_travel_related(text)
+                        and not is_crime_report(text)
+                        and not is_spam(text, item.source_name)))
         (relevant if keep else off_topic).append(item)
 
     kept, dropped = filter_items(relevant)

@@ -123,12 +123,16 @@ def main() -> int:
     items = load(args.days)
     mine = already_written(items)
     by_region: dict[str, list[dict]] = defaultdict(list)
+    ent_rows: list[dict] = []
     for row in items:
         title = row.get("title") or ""
         if row.get("grade") != "B" or not title:
             continue
         if is_incident(title):
             continue                      # 사건·사고는 싣지 않는다
+        if row.get("channel") == "ent":
+            ent_rows.append(row)          # 연예는 지역이 없다. 따로 묶는다
+            continue
         by_region[row.get("region", "")].append(row)
 
     today = datetime.now(KST).strftime("%Y-%m-%d")
@@ -174,6 +178,31 @@ def main() -> int:
                 if i.get("source_url"):
                     lines.append(f"    {i['source_url']}")
             lines.append("")
+    # 연예 거리. 지역이 없으므로 한 절에 모은다. 여기 있는 것은 **편집실에서 사람이
+    # 쓴다** — 예약 해설 에이전트는 연예 기사를 쓰지 않는다(DAILY_COMMENTARY.md).
+    # 가십은 edit 단계에서 이미 걸렀지만, 보도자료성 발표만 재료로 삼는다.
+    if ent_rows:
+        groups = cluster(ent_rows)
+        groups.sort(key=lambda g: (-len(g),
+                                   -max((i.get("published_at") or "") for i in g).__hash__()))
+        picked = groups[:args.per_region * 2]
+        if picked:
+            lines.append("## 연예 (편집실이 쓴다 — 자동 해설 대상 아님)")
+            lines.append("")
+            for g in picked:
+                total += 1
+                outlets = sorted({(i.get("source_name") or "").strip()
+                                  for i in g if i.get("source_name")})
+                cat = g[0].get("category") or "star"
+                lines.append(f"### [{cat}] {g[0]['title']}")
+                lines.append(f"- 매체 {len(outlets)}곳 · {' · '.join(outlets) or '미상'}"
+                             f"{'  ← 여러 곳이 썼다' if len(g) > 1 else ''}")
+                for i in g[:4]:
+                    summ = re.sub(r"\s+", " ", (i.get("summary") or "")).strip()
+                    lines.append(f"  - {i.get('source_name', '?')}: {summ[:160]}")
+                    if i.get("source_url"):
+                        lines.append(f"    {i['source_url']}")
+                lines.append("")
     lines.append(f"---\n거리 {total}건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.")
 
     os.makedirs("data", exist_ok=True)

@@ -33,8 +33,12 @@ def check(day: str) -> int:
         title = re.search(r"^title:\s*(.+)", text, re.M)
         name = (title.group(1).strip().strip("'\"") if title else os.path.basename(path))
         외부 = re.findall(r"\]\((https?://[^)]+)\)", body)
+        # 연예·현장 취재 기사는 원문이 우리 자신이다. 보도자료를 정리했으면 링크가
+        # 있어야 하지만 "현장 취재"라고 밝힌 글에는 링크를 요구하지 않는다.
+        연예 = re.search(r"^channel:\s*ent\s*$", text, re.M) is not None
+        현장 = "현장 취재" in body
         문제 = []
-        if not 외부:
+        if not 외부 and not (연예 and 현장):
             문제.append("원문 링크 없음")
         if len(body) < MIN_CHARS:
             문제.append(f"{len(body)}자")

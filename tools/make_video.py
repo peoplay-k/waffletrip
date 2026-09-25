@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""와플트립 숏폼을 만든다. 유료 도구를 쓰지 않는다.
+"""피플로드 숏폼을 만든다. 유료 도구를 쓰지 않는다.
 
 - 나레이션: macOS 내장 음성(`say`). AI 음성 크레딧을 쓰지 않는다.
 - 화면: 우리가 직접 찍은 사진 + 자막. 남의 영상·이미지는 0컷이다.
@@ -91,8 +91,8 @@ def compose(photo: str | None, caption: str, index: int, total: int) -> Image.Im
 
     # 제호와 장면 번호. 어느 매체인지 화면에서 바로 보여야 한다.
     brand = _font(40)
-    draw.text((PAD, 84), "와플트립", font=brand, fill=(255, 255, 255))
-    dot_x = PAD + draw.textlength("와플트립", font=brand)
+    draw.text((PAD, 84), "피플로드", font=brand, fill=(255, 255, 255))
+    dot_x = PAD + draw.textlength("피플로드", font=brand)
     draw.text((dot_x, 84), ".", font=brand, fill=(240, 78, 55))
     small = _font(30)
     tag = f"{index}/{total}"
@@ -205,7 +205,7 @@ def build(region: str, voice: str, out_dir: str, keep_photos: bool) -> str:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="와플트립 숏폼 (무료 도구만)")
+    ap = argparse.ArgumentParser(description="피플로드 숏폼 (무료 도구만)")
     ap.add_argument("--region", default="guam")
     ap.add_argument("--voice", default="Yuna")
     ap.add_argument("--out", default="public/video")

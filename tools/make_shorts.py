@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""와플트립 쇼츠(9:16)를 만든다. 롱폼과 다른 물건이다.
+"""피플로드 쇼츠(9:16)를 만든다. 롱폼과 다른 물건이다.
 
 롱폼은 한 주치를 훑는 3분짜리이고, 쇼츠는 **한 도시 한 편**의 40초짜리다.
 같은 재료를 잘라 쓰는 것이 아니라 구성을 따로 짠다 — 쇼츠는 첫 3초에
@@ -32,6 +32,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from PIL import Image, ImageDraw, ImageOps
 
+from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.cities import CITY_NAMES, CITY_REGION
 from src.models import REGION_NAMES
 from make_longform import _f, _sentence, _wrap, CORAL, INK, LINE, MUTED, PAPER
@@ -126,8 +127,8 @@ def _base(photo: str | None = None):
         ink, muted = INK, MUTED
     d = ImageDraw.Draw(img)
     brand = _f(38)
-    d.text((PAD, 96), "와플트립", font=brand, fill=ink)
-    d.text((PAD + d.textlength("와플트립", font=brand), 96), ".",
+    d.text((PAD, 96), "피플로드", font=brand, fill=ink)
+    d.text((PAD + d.textlength("피플로드", font=brand), 96), ".",
            font=brand, fill=CORAL)
     return img, d, ink, muted
 
@@ -173,7 +174,7 @@ def card_close(photo: str | None = None) -> Image.Image:
     y = TEXT_TOP + 240
     d.text((PAD, y), "매일 아침 8시", font=_f(96), fill=ink)
     d.line([(PAD, y + 140), (PAD + 160, y + 140)], fill=CORAL, width=8)
-    d.text((PAD, y + 190), "waffletrip.com", font=_f(64), fill=CORAL)
+    d.text((PAD, y + 190), DOMAIN, font=_f(64), fill=CORAL)
     d.text((PAD, y + 310), "여행 뉴스를 정리해 올립니다", font=_f(44), fill=muted)
     return img
 
@@ -267,7 +268,7 @@ def build(city: str) -> list[dict]:
         })
     scenes.append({
         "kind": "close",
-        "narration": "와플트립은 매일 아침 여덟 시에 여행 뉴스를 정리해 올립니다.",
+        "narration": "피플로드은 매일 아침 여덟 시에 여행 뉴스를 정리해 올립니다.",
     })
 
     # 장면마다 사진 한 장. 사진이 없으면 **영상을 만들지 않는다** —
@@ -401,7 +402,7 @@ def caption_for(city: str, scenes: list[dict]) -> str:
     lines += [f"· {tidy(h)}" for h in heads]
     outlets = outlets_of(scenes)
     lines += ["", f"인용 · {' · '.join(outlets)}" if outlets else "",
-              "전문은 waffletrip.com", ""]
+              f"전문은 {DOMAIN}", ""]
     tags = [f"#{name}", f"#{name}여행", f"#{name}자유여행"] + BIG_TAGS
     lines.append(" ".join(tags))
     return "\n".join(x for x in lines if x is not None).strip()
@@ -453,7 +454,7 @@ def build_voiced(city: str, out_dir: str) -> str:
         for clip in parts:
             fh.write(f"file '{os.path.abspath(clip)}'\n")
     os.makedirs(out_dir, exist_ok=True)
-    out = os.path.join(out_dir, f"waffletrip-{city}-voiced.mp4")
+    out = os.path.join(out_dir, f"peopleroad-{city}-voiced.mp4")
     subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
                     "-i", listing, "-c", "copy", out], check=True)
     poster = out.rsplit(".", 1)[0] + ".jpg"
@@ -511,7 +512,7 @@ def build_silent(city: str, out_dir: str) -> str:
         for clip in parts:
             fh.write(f"file '{clip}'\n")
     os.makedirs(out_dir, exist_ok=True)
-    out = os.path.join(out_dir, f"waffletrip-{city}-silent.mp4")
+    out = os.path.join(out_dir, f"peopleroad-{city}-silent.mp4")
     subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
                     "-i", listing, "-c", "copy", out], check=True)
     poster = out.rsplit(".", 1)[0] + ".jpg"
@@ -533,7 +534,7 @@ def build_silent(city: str, out_dir: str) -> str:
     latest = os.path.join("data", "shorts_latest.json")
     os.makedirs("data", exist_ok=True)
     with open(latest, "w", encoding="utf-8") as fh:
-        json.dump({"stem": f"waffletrip-{city}-silent", "city": city,
+        json.dump({"stem": f"peopleroad-{city}-silent", "city": city,
                    "name": place_name(city), "caption": meta["caption"],
                    "seconds": meta["seconds"],
                    "built_at": datetime.now(KST).isoformat(timespec="seconds")},
@@ -542,7 +543,7 @@ def build_silent(city: str, out_dir: str) -> str:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="와플트립 쇼츠")
+    ap = argparse.ArgumentParser(description="피플로드 쇼츠")
     ap.add_argument("--city", default="tokyo")
     ap.add_argument("--frames", default="")
     ap.add_argument("--script", action="store_true")

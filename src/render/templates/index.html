@@ -11,7 +11,7 @@
 <div class="top-zone">
   <section class="lead-box">
     {% if lead %}
-      <a class="eyebrow" href="/{{ lead_topic }}/">{{ topic_names.get(lead_topic, '') }}</a>
+      {% if lead.channel == 'ent' %}<a class="eyebrow" href="{{ lead_tag.href }}">{{ lead_tag.label }}</a>{% else %}<a class="eyebrow" href="/{{ lead_topic }}/">{{ topic_names.get(lead_topic, '') }}</a>{% endif %}
       {% if lead.photo %}<a href="{{ article_urls[lead.id] }}"><img class="lead-photo" src="{{ lead.photo }}" alt="{{ lead.title }}" loading="eager" {{ dims(lead.photo) }}></a>{% endif %}
       <h1 class="lead-title">{% if lead.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[lead.id] }}">{{ lead.title|clean_title }}</a></h1>
       {% if lead.summary %}<p class="lead-sum">{{ lead.summary }}</p>{% endif %}
@@ -25,7 +25,7 @@
     {% for it in sub_leads[:2] %}
     <article class="side-lead">
       {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="eager" {{ dims(it.photo) }}></a>{% endif %}
-      <a class="rg" href="/{{ it.region }}/">{{ region_names.get(it.region, it.region) }}</a>
+      {% set tg = tag_of(it) %}<a class="rg" href="{{ tg.href }}">{{ tg.label }}</a>
       <h3>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[it.id] }}">{{ it.title|clean_title }}</a></h3>
       <div class="byline">{{ it.source_name }}</div>
     </article>
@@ -80,7 +80,7 @@
 </nav>
 {% endif %}
 
-{# ── 부문별 ── #}
+{# ── 여행 부문별 ── #}
 {% for tid, tname, _ in topics %}
   {% if by_topic.get(tid) %}
   <section class="block">
@@ -90,6 +90,24 @@
       <article class="card{% if not it.photo %} text-only{% endif %}">
         {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="lazy" {{ dims(it.photo) }}></a>{% endif %}
         <h3>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}{% if it.grade == 'A' %}{{ it.title }}{% else %}<a href="{{ article_urls[it.id] }}">{{ it.title|clean_title }}</a>{% endif %}</h3>
+        <div class="byline">{{ it.source_name }}</div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+{% endfor %}
+
+{# ── 연예 부문별 ── 기사가 있는 부문만 그린다. 빈 블록은 없다. #}
+{% for tid, tname, _ in ent_topics %}
+  {% if by_ent.get(tid) %}
+  <section class="block">
+    <h2 class="block-title"><a href="/ent/{{ tid }}/">{{ channel_names.ent }} · {{ tname }}</a></h2>
+    <div class="cards">
+      {% for it in by_ent[tid][:4] %}
+      <article class="card{% if not it.photo %} text-only{% endif %}">
+        {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="lazy" {{ dims(it.photo) }}></a>{% endif %}
+        <h3>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[it.id] }}">{{ it.title|clean_title }}</a></h3>
         <div class="byline">{{ it.source_name }}</div>
       </article>
       {% endfor %}

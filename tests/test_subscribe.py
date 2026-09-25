@@ -28,7 +28,7 @@ def test_지역_피드는_그_지역_기사만_담는다(tmp_path):
     xml = Path(path).read_text(encoding="utf-8")
     assert path.endswith("guam/rss.xml")
     assert "괌 신규 취항" in xml and "제주 축제" not in xml
-    assert "/guam/rss.xml" in xml and "<title>와플트립 괌</title>" in xml
+    assert "/guam/rss.xml" in xml and "<title>피플로드 괌</title>" in xml
 
 
 def test_지역면이_지역_피드를_알린다(tmp_path):

@@ -107,7 +107,7 @@ def video_age_days(src: str = os.path.join("static", "video")) -> float | None:
     여행 뉴스" 가 아흐레 묵은 것은 그냥 틀린 화면이다. 그 사이 화면에
     박힌 환율도 9월 3일 값(855원)이었고 그날 실제 값은 871원이었다.
     """
-    meta = os.path.join(src, "waffletrip-week.json")
+    meta = os.path.join(src, "peopleroad-week.json")
     if not os.path.exists(meta):
         return None
     try:

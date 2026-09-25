@@ -5,3 +5,6 @@ Jinja2==3.1.4
 pytest==8.3.3
 Pillow==11.3.0
 imageio-ffmpeg==0.6.0
+# 사진 반입(tools/photo_intake.py)의 얼굴·사람 검사. 첫 설치만 느리고 pip 캐시 뒤엔 수 초.
+opencv-python-headless==4.10.0.84
+numpy<2.3

@@ -16,6 +16,15 @@ REGIONS = ("guam", "saipan", "hawaii", "vietnam", "kota", "laos", "jeju",
            "japan", "thailand", "taiwan")
 STATUSES = ("draft", "approved", "published")
 
+# 채널. 피플로드는 문화 전문 매체이고 그 아래 두 축이 있다 — 여행과 연예.
+# (2026-09-16 편집국장 미팅: "여행과 엔터를 같이 하셔야 돼요… 인터넷신문 중
+# 전문매체, 네이버 기준 문화 영역".)
+#   travel — 지금까지의 와플트립 지면 전부. 지역(REGIONS)이 곧 지면이다.
+#   ent    — 연예. 지역이 없다. 부문(topics.ENT_TOPICS)이 지면이다.
+# 기존 jsonl 에는 channel 이 없다. item_from_dict 가 travel 로 읽는다.
+CHANNELS = ("travel", "ent")
+CHANNEL_NAMES = {"travel": "여행", "ent": "연예"}
+
 # 지역의 한글 이름. 여기가 정본이다 — 모듈마다 따로 적어두면 지역을 늘릴 때
 # 한 곳만 고치게 되고, 그러면 지면에 "이번 주 japan에서 나온 소식"처럼
 # 영문 키가 그대로 나간다. 실제로 그렇게 나갔다.
@@ -51,6 +60,12 @@ class Item:
     title_orig: str | None = None     # 번역 전 원제목. 빌드 때만 채워진다(주소·병기용)
     off_topic: bool = False           # 그 지역과 무관한 외신 잡보. 목록·색인에서 뺀다
     related: list[str] = field(default_factory=list)
+    channel: str = "travel"           # travel | ent. 연예 기사는 region 을 쓰지 않는다
+    category: str = ""                # 연예 부문 id (topics.ENT_TOPICS). travel 은 빈 값
+
+    @property
+    def is_ent(self) -> bool:
+        return self.channel == "ent"
 
 
 def normalize_url(url: str) -> str:
@@ -137,6 +152,7 @@ def item_to_dict(item: Item) -> dict:
         "published_at": item.published_at, "collected_at": item.collected_at,
         "status": item.status, "title_hash": item.title_hash, "photo": item.photo,
         "body_md": item.body_md, "related": list(item.related),
+        "channel": item.channel or "travel", "category": item.category or "",
     }
 
 
@@ -149,4 +165,6 @@ def item_from_dict(d: dict) -> Item:
         title_hash=d["title_hash"], body_md=d.get("body_md"),
         photo=d.get("photo"),
         related=list(d.get("related") or []),
+        channel=d.get("channel") or "travel",
+        category=d.get("category") or "",
     )
