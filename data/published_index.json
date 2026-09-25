@@ -803,6 +803,7 @@
     "408b5c3171ca9939d33dfb4c84d6202d04cc7fc2",
     "408d11d435bb2a9a2c64e2dd56a95777bf330a1d",
     "4091855e6c200c0a236d6c3c7f85e3804d856ed6",
+    "40c31054b5872ea8853fc6596b64dbcea5ecf211",
     "40c5fd0d95649e0774c10b878156f2de414f852d",
     "40c8e46dea34bc7e7e075b58a6f1ca5e9d6dd1b2",
     "40dae5a3f1ee2cd2ff7c5a09314d48486f5c37c8",
@@ -971,6 +972,7 @@
     "4da0cfacd906c72a5711d1259ee226662f6a07ae",
     "4da7bafe81e4496b66590b20f38a8b9e6901a376",
     "4dc3b335748acf93ec0bdb859f986f0cc8a4dc20",
+    "4dc510cd076a8bd14b87f1a96ca24594975b1ae4",
     "4dd2fd45c41480c514385f449500328efc2eb951",
     "4de233af9774e418e2950d542630e90d8cde0f93",
     "4df494f4d676ec9a4896ce172f4f8c7017ddf3d2",
@@ -1003,7 +1005,6 @@
     "4f81538126fc39043e6db4dbf914116ad78eac50",
     "4f8ab7343f354bbe297b186efd91f7f6ef7fd53a",
     "4f8e9b3cbba7e59bedfe69f3c69f6fb64f5fd890",
-    "4f94f87817e7760fd1cc3b6fc2a16c8ec4bd8620",
     "4fac60165a793a9a251cac46dfcbf0e3e7b7baaa",
     "4fcfba68bb91f0149fc3e307a5eb3ac886d79dd9",
     "4fd94724f0b855f58d93e47baa8c7ea155a8034e",
@@ -1134,6 +1135,7 @@
     "5adf073c8c46a4701df74e4cb0f16bc291e87d4d",
     "5ae7d87dd492d5d7c092f52096433fa11ddf6e50",
     "5af5fe3f942e0528dd5a3e806ca3fb6828cd1292",
+    "5b1a7900c91d84ca0c217637f7ecea3cebc34fce",
     "5b1cdbe8b6f1399e14cf25f34fc2d82578efdeb4",
     "5b234c65593393380db54df0cdec5859c9eec2fa",
     "5b433d70b97bcfd149ea74cc4ff607b72fb716db",
@@ -2767,7 +2769,6 @@
     "d9a6f3247a14811989effdfd677f2641712b6f90",
     "d9c10c7858f74c5c08ec6a07c03b157b40f0887c",
     "d9c2b4c88a85bffdd264b71c2c6cf6c8eb4b0b38",
-    "d9dc6da36f62a74432fed354e4d256cd97de45b7",
     "d9e40fe0f46f46b6aa7ffcceb3a7459b2bcd63ed",
     "d9fa7bbfa7f722163dfef2c0309ae9a99c1b0b94",
     "da03ddbcd7e6d0522acbf719aec2579c2a7cc592",
@@ -3083,6 +3084,7 @@
     "f1184a5c134a7e2c4524a6ff3c1fcad69ac397e4",
     "f11b5bcfc031a778d1c9bfa3648bcbcac35ca298",
     "f1219085213a66c4d30bd294c645f9473155d25a",
+    "f127ed1ea1f9f61964a99d6ce3025e6df3aea4a9",
     "f136af661d564e9a5f2d7778197543258dfa9b46",
     "f144f9ad002774ed8b491d84c1cc6d469b87ae9c",
     "f15e843629292612323f082a6d673d8ed821285a",
@@ -25668,22 +25670,8 @@
       "grade": "B"
     },
     {
-      "id": "4f94f87817e7760fd1cc3b6fc2a16c8ec4bd8620",
-      "title": "‘모친 징역형 선고’ 장윤정, 부친과의 안타까운 사연 공개 “죽으러 두 번이나 서해대교 가셨다”",
-      "date": "2026-09-25",
-      "region": "",
-      "grade": "B"
-    },
-    {
       "id": "36065faa6833cfec52d2544f8098a65624773315",
       "title": "‘은중과 상연’ 박지현, 한국 여배우 최초 국제에미상 여자연기상 후보",
-      "date": "2026-09-25",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "d9dc6da36f62a74432fed354e4d256cd97de45b7",
-      "title": "[핌 포커스] 추석 연휴 볼 만한 공연, '곤 투모로우' '겨울왕국' '스미레미용실'",
       "date": "2026-09-25",
       "region": "",
       "grade": "B"
@@ -25698,6 +25686,13 @@
     {
       "id": "19a979300492df4c3a971dd07d176e9049de553c",
       "title": "유연석·고아성, 부산국제영화제 '올해의 배우상' 심사위원 선정",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "f127ed1ea1f9f61964a99d6ce3025e6df3aea4a9",
+      "title": "베니스 은사자상 '가능한 사랑' 오늘 개봉...11월 넷플릭스 공개",
       "date": "2026-09-25",
       "region": "",
       "grade": "B"
@@ -25731,6 +25726,20 @@
       "grade": "B"
     },
     {
+      "id": "4dc510cd076a8bd14b87f1a96ca24594975b1ae4",
+      "title": "싱가포르항공 '세계 최고 항공사' 선정→에어프레미아, 삿포로 신규 취항 프로모션",
+      "date": "2026-09-25",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "5b1a7900c91d84ca0c217637f7ecea3cebc34fce",
+      "title": "최민식·한소희 ‘인턴’, 첫 주말 1위...추석 韓영화 개봉 랠리 돌입",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
       "id": "1cef97bfc41b5ac3a65e247e3f1aedd44df79153",
       "title": "‘첫세계’ 심수빈, 제51회 토론토국제영화제 뒤흔들었다…국제무대서 증명한 스펙트럼",
       "date": "2026-09-25",
@@ -25742,6 +25751,13 @@
       "title": "베니스영화제 은자사상 심사위원상에 빛나는 '가능한 사랑' 주역들",
       "date": "2026-09-25",
       "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "40c31054b5872ea8853fc6596b64dbcea5ecf211",
+      "title": "그랜드 하얏트 인천 ‘테이스트 오브 교토’→코럴오션 리조트 사이판 '골투 패키지'",
+      "date": "2026-09-25",
+      "region": "saipan",
       "grade": "B"
     }
   ]
