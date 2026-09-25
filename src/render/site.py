@@ -35,6 +35,7 @@ from src.models import CHANNEL_NAMES, Item
 # 와플트립은 "여행 사이트 같다"(국장)라 신문 제호로 맞지 않았다.
 # 이름·도메인·연락처의 정본은 src/brand.py 다. 여기 이름들은 그것을 다시 내보낸다 —
 # 템플릿과 테스트가 site.SITE_NAME 을 오래 써 왔기 때문이다.
+from src.brand import legal_lines
 from src.brand import (CONTACT_EMAIL, DOMAIN, SITE_KIND, SITE_NAME, SITE_NAME_EN,
                        SITE_TAGLINE, SITE_URL)
 
@@ -594,6 +595,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "video": video,
         "topics": TOPICS, "topic_names": TOPIC_NAMES,
         "contact_email": CONTACT_EMAIL, "desk_duties": DESK_DUTIES,
+        "legal_lines": legal_lines(),
+        "youth_officer": next((s.split(" ", 1)[1] for s in legal_lines() if s.startswith("청소년보호책임자 ")), ""),
         "analytics": ANALYTICS,
         "canonical": SITE_URL + BASE_PATH + "/",
         "site_base": SITE_URL + BASE_PATH,

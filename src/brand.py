@@ -27,3 +27,24 @@ CONTACT_EMAIL = "peoplay@thepeoplay.com"
 
 # 수집 봇의 이름. 매체 소개 쪽이 이 이름을 밝히고, 소스 robots.txt 검토 기록도 이 이름을 쓴다.
 BOT_UA = f"{SITE_NAME_EN}Bot/1.0 (+{SITE_URL}/about/)"
+
+# 발행 정보. 신문법 시행령이 인터넷신문 지면에 밝히라고 하는 것들 — 발행인·편집인·
+# 청소년보호책임자·등록번호·등록일·발행소. 정해지는 대로 여기만 채우면 푸터와
+# 청소년보호정책 쪽에 나간다. 비어 있는 항목은 지면에 나가지 않는다.
+# 등록번호·등록일은 2027년 1월 등록 뒤에 생긴다(docs/PEOPLEROAD.md §5).
+PUBLISHER = ""        # 발행인
+EDITOR = ""           # 편집인
+YOUTH_OFFICER = ""    # 청소년보호책임자
+REG_NO = ""           # 인터넷신문 등록번호
+REG_DATE = ""         # 등록일 (예: 2027-01-15)
+ADDRESS = ""          # 발행소 주소
+
+
+def legal_lines() -> list[str]:
+    """푸터에 넣을 "발행인 ○○○" 식 조각. 값이 있는 것만."""
+    import sys
+    me = sys.modules[__name__]
+    pairs = (("발행인", me.PUBLISHER), ("편집인", me.EDITOR),
+             ("청소년보호책임자", me.YOUTH_OFFICER),
+             ("등록번호", me.REG_NO), ("등록일", me.REG_DATE), ("발행소", me.ADDRESS))
+    return [f"{label} {value.strip()}" for label, value in pairs if value and value.strip()]

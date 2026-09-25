@@ -457,3 +457,22 @@ def test_ent_filter_drops_crime_and_newsletter_items():
     assert is_ent_excluded("소연 솔로곡이 차트 1위를 싹쓸이 한 사연 👀🎧", "뉴닉")
     assert not is_ent_excluded("‘은중과 상연’ 박지현, 국제 에미상 후보", "문화일보")
     assert not is_ent_excluded("BTS 월드투어, 3분기 누적 전 세계 투어 매출 1위", "KBS 뉴스")
+
+
+def test_legal_notice_appears_only_when_filled(tmp_path, monkeypatch):
+    """발행인·편집인·청소년보호책임자·등록번호는 정해진 것만 푸터에 나간다."""
+    import src.brand as brand
+    render_site([make("1", "괌 소식", region="guam")], str(tmp_path), TODAY)
+    home = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert "발행인" not in home and 'class="legal"' not in home
+    youth = (tmp_path / "youth" / "index.html").read_text(encoding="utf-8")
+    assert "청소년보호책임자</strong>" not in youth
+
+    monkeypatch.setattr(brand, "PUBLISHER", "홍길동")
+    monkeypatch.setattr(brand, "YOUTH_OFFICER", "김철수")
+    render_site([make("1", "괌 소식", region="guam")], str(tmp_path), TODAY)
+    home = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert "발행인 홍길동 · 청소년보호책임자 김철수" in home
+    assert "편집인" not in home and "등록번호" not in home
+    youth = (tmp_path / "youth" / "index.html").read_text(encoding="utf-8")
+    assert "청소년보호책임자</strong> 김철수" in youth

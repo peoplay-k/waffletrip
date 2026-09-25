@@ -371,6 +371,7 @@
   </div>
   <p class="name">{{ site_name }}</p>
   <p>{{ site_kind }} · {{ site_tagline }}</p>
+  {% if legal_lines %}<p class="legal">{{ legal_lines|join(" · ") }}</p>{% endif %}
   <p>기사 요약은 원문 출처를 표기하고 링크로 연결합니다. 저작권은 각 매체에 있습니다.<br>
   직접 취재하고 촬영한 기사와 사진에는 그 사실을 밝힙니다. 연예인 사진은 직접 촬영하고 동의를 받은 것만 씁니다.<br>
   운영사 피플레이는 여행 상품을 판매합니다. 지면에는 상품 링크와 광고를 두지 않습니다.</p>

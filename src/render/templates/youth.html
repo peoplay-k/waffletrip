@@ -25,4 +25,5 @@
 <h2>유해 정보를 발견하셨다면</h2>
 <p>아래로 알려주시면 확인 후 조치하고, 무엇을 어떻게 고쳤는지 밝힙니다.</p>
 <p><a href="mailto:{{ contact_email }}">{{ contact_email }}</a></p>
+{% if youth_officer %}<p><strong>청소년보호책임자</strong> {{ youth_officer }} · 문의 <a href="mailto:{{ contact_email }}">{{ contact_email }}</a></p>{% endif %}
 {% endblock %}
