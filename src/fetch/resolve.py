@@ -89,12 +89,54 @@ _META = {
 }
 
 
+_META_CHARSET = re.compile(rb"""<meta[^>]+charset=["']?\s*([A-Za-z0-9_-]+)""", re.I)
+
+
+def decode_page(raw: bytes, header_charset: str | None = None) -> str:
+    """페이지 바이트를 문자열로. 헤더 charset → <meta charset> → utf-8 → cp949 순.
+
+    2026-09-25 실측: 국제신문(EUC-KR, 헤더에 charset 없음)을 utf-8 로 읽어 매체명이
+    "�����Ź�" 로 깨진 채 지면에 실렸다. 누가 썼는지 밝힐 수 없는 서명은 없느니만 못하다.
+    """
+    def _try(enc: str) -> str | None:
+        try:
+            return raw.decode(enc)
+        except (LookupError, UnicodeDecodeError):
+            return None
+
+    if header_charset:
+        got = _try(header_charset)
+        if got is not None:
+            return got
+    m = _META_CHARSET.search(raw[:8192])
+    if m:
+        got = _try(m.group(1).decode("ascii", "ignore"))
+        if got is not None:
+            return got
+    for enc in ("utf-8", "cp949", "euc-kr"):
+        got = _try(enc)
+        if got is not None:
+            return got
+    return raw.decode("utf-8", errors="replace")
+
+
+def _header_charset(r) -> str | None:
+    ctype = ""
+    try:
+        ctype = r.headers.get("content-type", "") or ""
+    except Exception:
+        return None
+    m = re.search(r"charset=([A-Za-z0-9_-]+)", ctype, re.I)
+    return m.group(1) if m else None
+
+
 def read_page(url: str, client: httpx.Client) -> dict:
     """기사 페이지에서 매체명·요약·발행시각. 없는 값은 빈 문자열."""
     out = {"outlet": "", "summary": "", "published": ""}
     try:
         r = client.get(url)
-        html = r.text
+        raw = getattr(r, "content", None)
+        html = decode_page(raw, _header_charset(r)) if isinstance(raw, (bytes, bytearray)) else r.text
     except httpx.HTTPError:
         return out
     for key, patterns in _META.items():
@@ -133,7 +175,9 @@ def apply(row: dict, got: dict) -> bool:
     changed = False
     if got.get("url") and row.get("source_url") != got["url"]:
         row["source_url"] = got["url"]; changed = True
-    if got.get("outlet") and row.get("source_name") != got["outlet"]:
+    # 깨진 매체명(�)은 입히지 않는다 — 원래 값(구글뉴스가 준 매체명)이 낫다.
+    if got.get("outlet") and "\ufffd" not in got["outlet"] \
+            and row.get("source_name") != got["outlet"]:
         row["source_name"] = got["outlet"]; changed = True
     if got.get("summary") and not (row.get("summary") or "").strip():
         row["summary"] = got["summary"]; changed = True

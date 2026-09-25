@@ -339,3 +339,10 @@ def test_home_shows_an_entertainment_block_near_the_top(tmp_path):
     first_travel_block = home.index('class="block-title"><a href="/world/">') if '/world/">' in home else len(home)
     assert ent_pos < first_travel_block          # 연예 톱이 여행 부문 블록보다 위
     assert home.count("영화 ○○ 개봉 0") == 1     # 같은 기사가 두 번 걸리지 않는다
+
+
+def test_ent_skips_broken_outlet_names_and_offtopic_outlets():
+    from src.relevance import is_ent_excluded
+    assert is_ent_excluded("영화 개봉", source_name="��신문")
+    assert is_ent_excluded("영화 개봉", source_name="sortiraparis.com")
+    assert is_ent_excluded("영화 개봉", source_name="레디앙")

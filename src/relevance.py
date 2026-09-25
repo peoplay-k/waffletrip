@@ -146,15 +146,21 @@ ENT_TRANSLATED_MARKS: tuple[str, ...] = (
     "VND", "동(", "하노이 극장", "호치민 극장",
 )
 # 연예 지면에 싣지 않는 출처(번역·해외 종합지). 여행 쪽 SKIP_OUTLETS 와 별개다.
+# 2026-09-25 165번 실행 실측: vietnam.vn 4건, sortiraparis.com(프랑스) 2건, newsinstar.com(뉴스인스타 — 연예 매체라 남긴다),
+# 레디앙(정치)·에너지경제신문·인천투데이(지역 행정) 각 1건이 연예면에 들어왔다.
 ENT_SKIP_OUTLETS: tuple[str, ...] = (
     "VnExpress", "Vietnam.vn", "VietnamPlus", "Báo", "Tuoi Tre", "Thanh Nien",
     "Kenh14", "Zing", "조선비즈", "Histoire pour tous",
+    "sortiraparis", "레디앙", "에너지경제", "인천투데이",
 )
 
 
 def is_ent_excluded(text: str, source_name: str = "") -> bool:
     """연예 기사 가운데 우리 지면에 싣지 않는 것인가 — 가십·사건·비연예·기계번역·해외 번역 매체."""
     if source_name and any(k.lower() in source_name.lower() for k in ENT_SKIP_OUTLETS):
+        return True
+    # 매체 이름이 깨져 왔으면(EUC-KR 페이지를 잘못 읽은 것) 누가 썼는지 밝힐 수 없다. 싣지 않는다.
+    if source_name and "\ufffd" in source_name:
         return True
     if not text:
         return False

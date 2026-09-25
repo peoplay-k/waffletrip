@@ -86,3 +86,26 @@ def test_summary_without_spaces_is_garbage():
     with httpx.Client(transport=httpx.MockTransport(
             lambda r: httpx.Response(200, text=page))) as c:
         assert read_page("https://x", c)["summary"] == ""
+
+
+# ── 인코딩 ──────────────────────────────────────────────────────────
+def test_decode_page_reads_euc_kr_from_meta_charset():
+    """국제신문처럼 헤더에 charset 이 없고 <meta> 에만 있는 EUC-KR 페이지."""
+    from src.fetch.resolve import decode_page
+    raw = ('<html><head><meta http-equiv="Content-Type" content="text/html; charset=euc-kr">'
+           '<meta property="og:site_name" content="국제신문"></head></html>').encode("euc-kr")
+    assert "국제신문" in decode_page(raw)
+
+
+def test_decode_page_prefers_header_charset_then_falls_back():
+    from src.fetch.resolve import decode_page
+    raw = "<meta property='og:site_name' content='뉴스1'>".encode("cp949")
+    assert "뉴스1" in decode_page(raw, "cp949")
+    assert "뉴스1" in decode_page(raw)           # 헤더 없음 → utf-8 실패 → cp949
+
+
+def test_broken_outlet_is_not_applied():
+    from src.fetch.resolve import apply
+    row = {"source_name": "국제신문", "source_url": "u", "summary": "", "published_at": ""}
+    assert apply(row, {"outlet": "��신문"}) is False
+    assert row["source_name"] == "국제신문"
