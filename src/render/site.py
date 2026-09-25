@@ -316,6 +316,21 @@ def slugify(text: str) -> str:
 _OUTLET_TAIL = re.compile(r"\s+[-–|]\s+([^\s\-–|]{2,15})$")
 
 
+def outlet_or_domain(source_name: str, source_url: str) -> str:
+    """매체 이름이 깨져 왔으면(EUC-KR 페이지를 잘못 읽은 "�����Ź�") 원문 도메인으로 대신한다.
+
+    수집 쪽은 고쳤지만(resolve.decode_page) 이미 기록된 항목은 그대로라 뉴스 지면에
+    깨진 글자가 실렸다(2026-09-25). 이름을 지어내지 않고 도메인만 밝힌다.
+    """
+    if "\ufffd" not in source_name:
+        return source_name
+    from urllib.parse import urlparse
+    host = urlparse(source_url).netloc.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    return host or "출처 미상"
+
+
 def strip_outlet_suffix(title: str, source_name: str = "") -> str:
     """제목 끝의 " - 매체명" 을 뗀다.
 
@@ -525,6 +540,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 제목 꼬리의 " - 매체명" 을 지면·피드·색인 어디서나 같이 뗀다.
     for it in items:
         it.title = strip_outlet_suffix(it.title, getattr(it, "source_name", "") or "")
+        it.source_name = outlet_or_domain(getattr(it, "source_name", "") or "",
+                                          getattr(it, "source_url", "") or "")
 
     # 지역과 무관한 외신 잡보는 지면 목록에서 뺀다. 코타 지면에 프랑스 미술관
     # 도난이, 베트남 지면에 마이애미 활주로 사고가 실려 있었다(2026-09-09).

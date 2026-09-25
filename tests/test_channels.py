@@ -476,3 +476,15 @@ def test_legal_notice_appears_only_when_filled(tmp_path, monkeypatch):
     assert "편집인" not in home and "등록번호" not in home
     youth = (tmp_path / "youth" / "index.html").read_text(encoding="utf-8")
     assert "청소년보호책임자</strong> 김철수" in youth
+
+
+def test_broken_outlet_name_falls_back_to_domain(tmp_path):
+    from src.render.site import outlet_or_domain
+    assert outlet_or_domain("\ufffd\ufffd\ufffd\ufffd\ufffd\u0139\ufffd", "https://www.kookje.co.kr/news2011/asp/newsbody.asp?key=1") == "kookje.co.kr"
+    assert outlet_or_domain("국제신문", "https://www.kookje.co.kr/") == "국제신문"
+    assert outlet_or_domain("\ufffd", "") == "출처 미상"
+    it = make("1", "에어부산 일본 편도 특가", region="japan")
+    it.source_name = "\ufffd\ufffd\ufffd"; it.source_url = "https://www.kookje.co.kr/x"
+    render_site([it], str(tmp_path), TODAY)
+    home = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert "\ufffd" not in home and "kookje.co.kr" in home
