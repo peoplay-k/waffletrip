@@ -387,3 +387,13 @@ def test_old_section_urls_redirect_to_the_merged_sections(tmp_path):
     for old, new in (("drama", "movie"), ("star", "startrip")):
         html = (tmp_path / "ent" / old / "index.html").read_text(encoding="utf-8")
         assert f'url=/ent/{new}/' in html
+
+
+def test_home_top_three_mix_both_channels_when_possible(tmp_path):
+    """톱·사이드 셋이 한 채널로만 채워지면 한쪽 사이트로 읽힌다."""
+    items = [ent(f"c-e{n}", f"영화 {n} 개봉", "movie") for n in range(4)]
+    items += [make(f"c-t{n}", f"괌 소식 {n}") for n in range(4)]
+    render_site(items, str(tmp_path), TODAY)
+    home = (tmp_path / "index.html").read_text(encoding="utf-8")
+    top = home.split('class="data-strip"')[0] if 'class="data-strip"' in home else home.split('class="headline-grid"')[0]
+    assert "연예 · 영화·드라마" in top and "괌 소식" in top

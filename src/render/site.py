@@ -576,9 +576,20 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 부문 블록에 다시 나왔다. 지면이 정리 안 된 것으로 보인다.
     articles = [i for i in listed if i.grade != "A"]
     lead = articles[0] if articles else None
-    sub_leads = articles[1:3]          # 사이드 두 건
-    headlines = articles[3:15]         # 헤드라인 띠 열두 건
-    shown = {i.id for i in articles[:15]}
+    # 사이드 두 건 — 첫 화면 셋이 한 채널로만 채워지지 않게 한다. 두 축 매체인데
+    # 톱·사이드가 전부 연예(또는 전부 여행)면 한쪽 사이트로 읽힌다(2026-09-25 실측:
+    # 연예 기사 다섯 편을 낸 날 첫 화면 셋이 모두 연예였다). 최신순은 그 안에서 지킨다.
+    rest = articles[1:]
+    sub_leads: list = []
+    if lead is not None:
+        other = [i for i in rest if is_ent(i) != is_ent(lead)]
+        same = [i for i in rest if is_ent(i) == is_ent(lead)]
+        sub_leads = ([same[0]] if same else []) + ([other[0]] if other else [])
+        if len(sub_leads) < 2:
+            sub_leads = rest[:2]
+    top_ids = ([lead.id] if lead else []) + [i.id for i in sub_leads]
+    headlines = [i for i in rest if i.id not in top_ids][:12]   # 헤드라인 띠 열두 건
+    shown = set(top_ids) | {i.id for i in headlines}
 
     # 부문 페이지는 그 부문 전체를 보여준다 — 통계·리포트에는 환율·날씨가
     # 있어야 한다. 홈의 부문 블록만 따로 추린다.
@@ -664,8 +675,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         os.path.join(out_dir, "ent", "index.html"),
         env.get_template("channel.html").render(
             channel_key="ent", channel_name=CHANNEL_NAMES["ent"],
-            channel_desc=("영화·드라마·방송·음악·공연·인물, 그리고 여행과 연예가 만나는 "
-                          "'스타의 여행'. 소속사·배급사 발표와 현장 취재로 씁니다. "
+            channel_desc=("영화·드라마, 음악·공연, 그리고 여행과 연예가 만나는 '스타의 여행'. "
+                          "소속사·배급사·방송사 발표와 현장 취재로 씁니다. "
                           "사진은 저희가 직접 찍은 것만 씁니다."),
             sections=[(f"/ent/{tid}/", name, desc) for tid, name, desc in ENT_TOPICS],
             places=[], items=ent_listed[:24], star_trips=[], **common),
