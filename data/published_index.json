@@ -78,6 +78,7 @@
     "0637298094002f57fa949f8377e5011db4c4ea63",
     "063e25ea89c4ed313d22b53485b6eb9b95cd75d2",
     "065f44f1cb4e1fa799c6e7ccd33fac830c990d75",
+    "06664feeedf0624b079c7af3013401c328e3777b",
     "0683752ec87caea2a452aed41363a3c319362fb5",
     "069960743ff0e243f759fab9fcdbef2282e1f036",
     "069c7607ba33c84856504f4204d7c014e5dff453",
@@ -335,6 +336,7 @@
     "197ec717dc0c2b0ca36fa882ce50c85edd09fb73",
     "198194d1d4e941a30a38c751aaf8b07105413420",
     "19a796b9116c01009b63e12cf3fd9411fc02de7b",
+    "19a979300492df4c3a971dd07d176e9049de553c",
     "19af893b851a2d91a57f7763df1f7b3eda49e56e",
     "19d3cd4a92e39612eb88c5c1d73098fd1f0e6f80",
     "19dbaac012a6b10e1db0ac537fb25f2454b98ec4",
@@ -373,6 +375,7 @@
     "1cda3270509d3e46f8434439e5d3378697402e12",
     "1ce1b5fe9805c4c9725c20499e5876c0e39f5c6e",
     "1ceb6566969d008634c33ead3cb3b600dfecba13",
+    "1cef97bfc41b5ac3a65e247e3f1aedd44df79153",
     "1d015ea94494714ce07045f5e2b351cafae1b66d",
     "1d15c14f2a50dc14407352bc652ecb3ab90f766f",
     "1d379f15ae4d9c04a203a7f9e73a97320d6e8fd5",
@@ -668,7 +671,9 @@
     "35b64ba13eb6072f3b421fede92d967e3dbea988",
     "35d13093da7a4580c2de7a9e7f1f6d9f2f82b16b",
     "35d7a6062531f8cfc779278724703a2776daf092",
+    "35e290ca7be8ba18dad762970ca6dee8962f8949",
     "35fe26ae99dc4c297829dd36a571c56a290fbf86",
+    "36065faa6833cfec52d2544f8098a65624773315",
     "362045ea7dea9d2d18d41db0dbdfe510e983d810",
     "362f6c3a9b2012297221075d9fca3a17ae11b806",
     "363d7bbdf4e2029b2396e9fa9a9abf7e3044afba",
@@ -789,6 +794,7 @@
     "3fd8772cb1db069377c3af8804b42c877b308ac8",
     "3fda7301d0e70b7e0ae8e1f30c7f2561c5043f0e",
     "3fe3076d05e23a76d4c1044d5d4094f0285d6e58",
+    "401655d1456e10a59ec8384fffd4927da690c18d",
     "402c60d253db3094b29933b86ee85122bc51318c",
     "4044a35012fcd855f5eb01fc2e8d5315e450077f",
     "404f858a2da4a9ffcaf948ccabf401bd7e97cfd7",
@@ -997,6 +1003,7 @@
     "4f81538126fc39043e6db4dbf914116ad78eac50",
     "4f8ab7343f354bbe297b186efd91f7f6ef7fd53a",
     "4f8e9b3cbba7e59bedfe69f3c69f6fb64f5fd890",
+    "4f94f87817e7760fd1cc3b6fc2a16c8ec4bd8620",
     "4fac60165a793a9a251cac46dfcbf0e3e7b7baaa",
     "4fcfba68bb91f0149fc3e307a5eb3ac886d79dd9",
     "4fd94724f0b855f58d93e47baa8c7ea155a8034e",
@@ -1921,6 +1928,7 @@
     "9d2abb53883fbd4a00168bcb359e592dff6f0e2c",
     "9d5abe854d311cf1b929776febcb872cedc4d8fe",
     "9d640a014c87500078c58184f6dd13d6588de9ad",
+    "9d79901bd7be594e1c714ab1d61ce46d8964a0e4",
     "9d808868bfba2957896023c5cad58f8bdb1e7000",
     "9da31d473b6f84ab67b1b8c265929ea8c3915a57",
     "9dd5941b82aed33e203ad7b6e5e6cc6ad442d928",
@@ -2649,6 +2657,7 @@
     "d0d475d840c776d51e0926eff73f2dda8a05a473",
     "d0ed03c90d919b300bca7f92098ae54f9f29025f",
     "d0f0bc3baf62626b54c245556da7936708ddbf68",
+    "d0fd19779d2fb333e974beed689c88c08c720813",
     "d10134ffd7ff1b56401c8b62cf0e6a80233dd29e",
     "d105967904c321faca6c16a3d122ae9fbb59cbb4",
     "d10900385d579b5dfc99c46edb457526f7f5b777",
@@ -2758,6 +2767,7 @@
     "d9a6f3247a14811989effdfd677f2641712b6f90",
     "d9c10c7858f74c5c08ec6a07c03b157b40f0887c",
     "d9c2b4c88a85bffdd264b71c2c6cf6c8eb4b0b38",
+    "d9dc6da36f62a74432fed354e4d256cd97de45b7",
     "d9e40fe0f46f46b6aa7ffcceb3a7459b2bcd63ed",
     "d9fa7bbfa7f722163dfef2c0309ae9a99c1b0b94",
     "da03ddbcd7e6d0522acbf719aec2579c2a7cc592",
@@ -2767,6 +2777,7 @@
     "da43a026ead3c49e5ffc0c07b8a86e2e3a451e2f",
     "da738e3898737d13710f678e87a4bad32c66ed32",
     "da82661af0e476771f5b854e2ec149f13160ff0d",
+    "da8608a3baeaf12a9d67faf39eb9056deacb2850",
     "daa9c86cc6cc6adcdf5f8301a57daaf866e6c727",
     "dad7e6a76e08ed4cde6af9ee4b036193dfeba625",
     "dad9f528caef79f995f35f6607cc976a84c9a77c",
@@ -25652,6 +25663,83 @@
     {
       "id": "ecfc050d2adf49997e5e99676fa9ab7f3b67badc",
       "title": "방탄소년단 정국, 美빌보드 글로벌 차트 亞 최초 통산 165주째 진입",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "4f94f87817e7760fd1cc3b6fc2a16c8ec4bd8620",
+      "title": "‘모친 징역형 선고’ 장윤정, 부친과의 안타까운 사연 공개 “죽으러 두 번이나 서해대교 가셨다”",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "36065faa6833cfec52d2544f8098a65624773315",
+      "title": "‘은중과 상연’ 박지현, 한국 여배우 최초 국제에미상 여자연기상 후보",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "d9dc6da36f62a74432fed354e4d256cd97de45b7",
+      "title": "[핌 포커스] 추석 연휴 볼 만한 공연, '곤 투모로우' '겨울왕국' '스미레미용실'",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "d0fd19779d2fb333e974beed689c88c08c720813",
+      "title": "＂나를 패배자라고 생각하냐＂ 소주병 든 승리, 일행이 황급히 제지…그날 CCTV 공개",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "19a979300492df4c3a971dd07d176e9049de553c",
+      "title": "유연석·고아성, 부산국제영화제 '올해의 배우상' 심사위원 선정",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "9d79901bd7be594e1c714ab1d61ce46d8964a0e4",
+      "title": "찬란 수입작 6편, 부산국제영화제 예매 오픈과 동시에 매진",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "35e290ca7be8ba18dad762970ca6dee8962f8949",
+      "title": "심은경, 제31회 부산국제영화제 뉴커런츠상 심사위원 위촉 - 머니투데이",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "da8608a3baeaf12a9d67faf39eb9056deacb2850",
+      "title": "베네치아 남우주연상 거머쥔 `와일드 호스 나인`…부국제서 국내 첫선",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "06664feeedf0624b079c7af3013401c328e3777b",
+      "title": "베네치아영화제 화제작 '와일드 호스 나인', 11월 4일 국내 개봉",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "1cef97bfc41b5ac3a65e247e3f1aedd44df79153",
+      "title": "‘첫세계’ 심수빈, 제51회 토론토국제영화제 뒤흔들었다…국제무대서 증명한 스펙트럼",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "401655d1456e10a59ec8384fffd4927da690c18d",
+      "title": "베니스영화제 은자사상 심사위원상에 빛나는 '가능한 사랑' 주역들",
       "date": "2026-09-25",
       "region": "",
       "grade": "B"
