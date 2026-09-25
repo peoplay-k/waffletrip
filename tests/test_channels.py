@@ -488,3 +488,12 @@ def test_broken_outlet_name_falls_back_to_domain(tmp_path):
     render_site([it], str(tmp_path), TODAY)
     home = (tmp_path / "index.html").read_text(encoding="utf-8")
     assert "\ufffd" not in home and "kookje.co.kr" in home
+
+
+def test_garbled_summary_is_dropped_not_rendered(tmp_path):
+    it = make("1", "에어부산 일본 편도 특가", region="japan", summary="\ufffd\ufffd\ufffd \ufffd\ufffd")
+    it.body_md = "\ufffd\ufffd 21\ufffd\ufffd"
+    render_site([it], str(tmp_path), TODAY)
+    page = next((tmp_path / "japan").rglob("1-*/index.html")).read_text(encoding="utf-8")
+    assert "\ufffd" not in page
+    assert "에어부산 일본 편도 특가" in page

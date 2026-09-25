@@ -542,6 +542,11 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         it.title = strip_outlet_suffix(it.title, getattr(it, "source_name", "") or "")
         it.source_name = outlet_or_domain(getattr(it, "source_name", "") or "",
                                           getattr(it, "source_url", "") or "")
+        # 요약·본문이 깨져 왔으면(EUC-KR 오독 "�ֹν� �Ѽ���") 비운다. 지어낼 수 없고,
+        # 깨진 글자를 meta description 과 주간 소식 묶음에 그대로 내보내고 있었다.
+        for field in ("summary", "body_md"):
+            if "\ufffd" in (getattr(it, field, "") or ""):
+                setattr(it, field, "")
 
     # 지역과 무관한 외신 잡보는 지면 목록에서 뺀다. 코타 지면에 프랑스 미술관
     # 도난이, 베트남 지면에 마이애미 활주로 사고가 실려 있었다(2026-09-09).
