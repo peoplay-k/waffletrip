@@ -255,6 +255,21 @@
       padding-top:26px}
     .sec-lead:has(img){grid-template-columns:1fr}
   }
+  /* 좁은 화면 — 메뉴를 두 줄로. 한 줄 가로 스크롤이면 '연예' 그룹이 화면 밖으로 밀려
+     두 축 매체가 여행 사이트로 보인다(2026-09-25 390px 실측). 채널 사이 세로선이
+     줄바꿈 구실을 한다. 구독·문의·검색은 둘째 줄 끝에 붙는다. */
+  @media (max-width:720px){
+    .gnb .wrap{flex-wrap:wrap;overflow-x:visible;padding:0 16px}
+    .gnb a{padding:11px 10px;font-size:14px}
+    .gnb a:first-child{padding-left:0}
+    .gnb .ch{padding-left:0}
+    .gnb .bar{flex-basis:100%;height:0;margin:0;background:transparent}
+    .gnb .sep{display:none}
+    .gnb .minor{font-size:12px;padding:11px 8px}
+    .wrap{padding:0 16px}
+    .mast .wrap{padding:22px 16px 14px}
+    .mast .meta{text-align:left}
+  }
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 
 /* 도시 띠 — 검색은 나라가 아니라 도시로 들어온다 */
