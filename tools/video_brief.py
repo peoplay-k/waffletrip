@@ -109,6 +109,10 @@ def _speakable(text: str, limit: int) -> str:
     text = _DESK.sub("", (text or "").strip())
     text = _REPORTER.sub("", text)
     text = _WIRE.sub("", text).strip(" =·-—")
+    # 방송사 크레딧("■ 방송 : 아시아경제 '소종섭의 시사쇼' ■ 진행 : … ■ 연출 : …")은
+    # 문장이 아니라 편성표다. 2026-09-25 홈 영상 첫 장면에 그대로 읽혔다. 버린다.
+    if text.startswith("■") or re.search(r"■\s*(방송|진행|연출|출연)\s*:", text):
+        return ""
     if not text:
         return ""
     parts = re.split(r"(?<=[.!?。])\s+", text)

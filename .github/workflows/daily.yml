@@ -102,8 +102,13 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq fonts-noto-cjk
-          python tools/make_longform.py --silent --out static/video \
-                                        --frames video-frames
+          # 롱폼에도 나레이션을 얹는다(2026-09-25 사장님). 키가 없거나 실패하면
+          # 도구가 스스로 무음으로 떨어진다.
+          if [ -n "$ELEVENLABS_API_KEY" ]; then
+            python tools/make_longform.py --voiced --out static/video --frames video-frames
+          else
+            python tools/make_longform.py --silent --out static/video --frames video-frames
+          fi
           # 대본은 저장소 루트에 남긴다. --frames 만 주면 public/video 로
           # 가는데 거기는 gitignore 라 다음 빌드가 지운다.
           python tools/make_longform.py --script-only

@@ -268,7 +268,7 @@ def build(city: str) -> list[dict]:
         })
     scenes.append({
         "kind": "close",
-        "narration": "피플로드은 매일 아침 여덟 시에 여행 뉴스를 정리해 올립니다.",
+        "narration": "피플로드는 매일 아침 여덟 시에 여행 뉴스를 정리해 올립니다.",
     })
 
     # 장면마다 사진 한 장. 사진이 없으면 **영상을 만들지 않는다** —

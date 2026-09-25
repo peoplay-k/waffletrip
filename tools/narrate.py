@@ -7,7 +7,7 @@
 1/6 쯤 쓴다.
 
 목소리는 **브랜드 자산**이다. 온리·유나 목소리를 피플로드에 쓰면 브랜드가
-섞인다(docs 의 voice-per-brand 규칙). 피플로드은 아래 하나로 고정한다.
+섞인다(docs 의 voice-per-brand 규칙). 피플로드는 아래 하나로 고정한다.
 
     python3 tools/narrate.py --text "읽을 문장" --out a.mp3
 """

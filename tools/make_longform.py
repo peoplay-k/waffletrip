@@ -294,7 +294,7 @@ def build_script(items: list[dict]) -> list[dict]:
         "kind": "title",
         "headline": "매일 아침 8시",
         "sub": DOMAIN,
-        "narration": "피플로드은 매일 아침 여덟 시에 새 기사를 올립니다. "
+        "narration": "피플로드는 매일 아침 여덟 시에 새 기사를 올립니다. "
                      f"{DOMAIN} 에서 보실 수 있습니다.",
     })
     return scenes
@@ -319,6 +319,8 @@ def main() -> int:
     ap.add_argument("--frames", default="")
     ap.add_argument("--silent", action="store_true",
                     help="무음 영상까지 굽는다(나레이션 없음·비용 0원).")
+    ap.add_argument("--voiced", action="store_true",
+                    help="나레이션(일레븐랩스)을 얹어 굽는다. 키가 없거나 실패하면 무음으로 떨어진다.")
     args = ap.parse_args()
 
     scenes = build_script(load_items())
@@ -333,6 +335,17 @@ def main() -> int:
             render(s).save(os.path.join(args.frames, f"s{n:02d}.png"))
         print(f"화면 {len(scenes)}장 → {args.frames}")
 
+    if args.voiced:
+        # 2026-09-25 사장님: "영상 나레이션도 없고!" — 롱폼에도 목소리를 얹는다.
+        # 숏폼과 같은 목소리(narrate.VOICE_ID)라 브랜드가 한결같다. 실패하면 무음으로
+        # 떨어진다 — 영상이 아예 안 나가는 것보다 낫고, 홈에 옛 영상이 남는 것도 막는다.
+        try:
+            out = build_voiced(scenes, args.out)
+            print(f"나레이션 영상 → {out}")
+        except BaseException as e:      # SystemExit(키 없음·API 오류)도 잡는다
+            print(f"나레이션 실패 — 무음으로 만든다: {type(e).__name__}: {e}",
+                  file=sys.stderr)
+            args.silent = True
     if args.silent:
         out = build_silent(scenes, args.out)
         secs = sum(read_seconds(screen_text(s)) for s in scenes)
@@ -378,6 +391,94 @@ def read_seconds(text: str) -> float:
     return round(max(READ_FLOOR, len(text or "") / READ_CPS + READ_LEAD), 2)
 
 
+def _outlets(scenes: list[dict]) -> list[str]:
+    outlets, seen = [], set()
+    for sc in scenes:
+        o = (sc.get("outlet") or "").strip()
+        if o and o not in seen:
+            seen.add(o)
+            outlets.append(o)
+    return outlets
+
+
+def _write_longform_meta(scenes: list[dict], out: str, poster: str,
+                         seconds: float, kind: str) -> None:
+    # 인용한 매체는 화면 밖에도 밝힌다. 사실은 각 매체의 보도이고 우리가
+    # 한 것은 고르고 묶은 일이다.
+    region = next((sc["region"] for sc in scenes if sc.get("region")), "japan")
+    meta = {
+        "title": scenes[0].get("headline", "이번 주 여행 뉴스"),
+        "region": region,
+        "seconds": round(seconds),
+        "poster": "/video/" + os.path.basename(poster),
+        "outlets": _outlets(scenes),
+        "kind": kind,
+        "photos": False,             # 지면 카드로 만든다. 사진 영상이 아니다
+        "built_at": datetime.now(KST).isoformat(timespec="seconds"),
+    }
+    with open(out.rsplit(".", 1)[0] + ".json", "w", encoding="utf-8") as fh:
+        json.dump(meta, fh, ensure_ascii=False, indent=2)
+
+
+def build_voiced(scenes: list[dict], out_dir: str,
+                 name: str = "peopleroad-week") -> str:
+    """나레이션을 얹은 롱폼. 장면 길이를 **말하는 길이**에 맞춘다.
+
+    make_shorts.build_voiced 와 같은 방식이다 — 장면마다 mp3 를 받고, 말이 끝난 뒤
+    짧게 숨을 두고 넘긴다. 나레이션 문장은 build_script 가 이미 만들어 둔 것이라
+    여기서 새로 쓰지 않는다(지어내지 않는다).
+    """
+    import tempfile
+
+    import imageio_ffmpeg
+    from narrate import speak
+
+    ff = imageio_ffmpeg.get_ffmpeg_exe()
+    work = tempfile.mkdtemp(prefix="peopleroad-longform-voiced-")
+    TAIL = 0.6
+
+    clips, total = [], 0.0
+    for n, scene in enumerate(scenes):
+        text = (scene.get("narration") or "").strip()
+        if not text:
+            continue
+        mp3 = os.path.join(work, f"a{n:02d}.mp3")
+        speak(text, mp3)
+        probe = subprocess.run([ff, "-i", mp3], capture_output=True, text=True)
+        m = re.search(r"Duration: (\d+):(\d+):([\d.]+)", probe.stderr)
+        secs = ((int(m.group(1)) * 3600 + int(m.group(2)) * 60 + float(m.group(3)))
+                if m else 4.0) + TAIL
+        total += secs
+        frame = os.path.join(work, f"f{n:02d}.png")
+        render(scene).save(frame)
+        clip = os.path.join(work, f"c{n:02d}.mp4")
+        subprocess.run([
+            ff, "-y", "-loglevel", "error", "-loop", "1", "-i", frame, "-i", mp3,
+            "-filter_complex",
+            f"[1:a]apad=pad_dur={TAIL},aresample=44100[a];"
+            f"[0:v]scale={W}:{H},format=yuv420p,fps=25[v]",
+            "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium",
+            "-crf", "22", "-c:a", "aac", "-b:a", "128k", "-t", f"{secs:.2f}", clip,
+        ], check=True)
+        clips.append(clip)
+    if not clips:
+        raise RuntimeError("읽을 장면이 없다")
+
+    listing = os.path.join(work, "list.txt")
+    with open(listing, "w", encoding="utf-8") as fh:
+        for clip in clips:
+            fh.write(f"file '{os.path.abspath(clip)}'\n")
+    os.makedirs(out_dir, exist_ok=True)
+    out = os.path.join(out_dir, f"{name}.mp4")
+    subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
+                    "-i", listing, "-c", "copy", out], check=True)
+    poster = out.rsplit(".", 1)[0] + ".jpg"
+    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
+                    "-frames:v", "1", "-q:v", "3", poster], check=True)
+    _write_longform_meta(scenes, out, poster, total, "voiced")
+    return out
+
+
 def build_silent(scenes: list[dict], out_dir: str,
                  name: str = "peopleroad-week") -> str:
     """무음 롱폼을 만든다. 오디오 트랙이 아예 없다. 비용 0원."""
@@ -414,26 +515,7 @@ def build_silent(scenes: list[dict], out_dir: str,
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
 
-    # 인용한 매체는 화면 밖에도 밝힌다. 사실은 각 매체의 보도이고 우리가
-    # 한 것은 고르고 묶은 일이다.
-    outlets, seen = [], set()
-    for sc in scenes:
-        o = (sc.get("outlet") or "").strip()
-        if o and o not in seen:
-            seen.add(o)
-            outlets.append(o)
-    region = next((sc["region"] for sc in scenes if sc.get("region")), "japan")
-    meta = {
-        "title": scenes[0].get("headline", "이번 주 여행 뉴스"),
-        "region": region,
-        "seconds": round(sum(durations)),
-        "poster": "/video/" + os.path.basename(poster),
-        "outlets": outlets,
-        "kind": "silent",
-        "built_at": datetime.now(KST).isoformat(timespec="seconds"),
-    }
-    with open(out.rsplit(".", 1)[0] + ".json", "w", encoding="utf-8") as fh:
-        json.dump(meta, fh, ensure_ascii=False, indent=2)
+    _write_longform_meta(scenes, out, poster, sum(durations), "silent")
     return out
 
 

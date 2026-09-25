@@ -756,7 +756,9 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             continue
         related = [by_id[r] for r in item.related if r in by_id]
 
-        pool = [i for i in items
+        # 목록·색인에서 뺀 기사(off_topic — 지역과 무관하거나 숨긴 것)는 여기서도 뺀다.
+        # 2026-09-25 실측: 숨긴 베트남 번역 기사가 영화 기사 아래 '더 보기'에 그대로 걸렸다.
+        pool = [i for i in listed
                 if i.id != item.id and i.grade != "A"
                 and i.id not in {r.id for r in related}]
         if is_ent(item):

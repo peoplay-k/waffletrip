@@ -215,3 +215,29 @@ def test_영문_제목은_영상에_안_올린다():
     assert not ms.is_korean("First Alert Forecast: Mostly dry trade winds")
     assert not ms.is_korean("")
     assert ms.MIN_FACTS >= 3, "한 건짜리 영상은 내지 않는다"
+
+
+def test_speakable_drops_broadcast_credit_blocks():
+    import sys
+    sys.path.insert(0, "tools")
+    from video_brief import _speakable
+    assert _speakable("■ 방송 : 아시아경제 '소종섭의 시사쇼'■ 진행 : 소종섭 정치스페셜리스트■ 연출 : 이미리 PD", 150) == ""
+    assert _speakable("일본에서 스시자로 열풍이 불고 있다. 두 번째 문장.", 150).startswith("일본에서")
+
+
+def test_voiced_flag_falls_back_to_silent_when_narration_fails(tmp_path, monkeypatch):
+    """키가 없으면 나레이션이 SystemExit 을 던진다. 그래도 영상은 나가야 한다."""
+    import sys
+    sys.path.insert(0, "tools")
+    import make_longform as lf
+    monkeypatch.setattr(lf, "build_script", lambda items: [{"kind": "open", "headline": "h",
+                                                              "narration": "안녕하세요", "region": "japan"}])
+    monkeypatch.setattr(lf, "load_items", lambda: [])
+    monkeypatch.setattr(lf, "build_voiced", lambda scenes, out: (_ for _ in ()).throw(SystemExit("[중단] 키 없음")))
+    called = {}
+    monkeypatch.setattr(lf, "build_silent", lambda scenes, out: called.setdefault("silent", out) or str(tmp_path / "x.mp4"))
+    monkeypatch.setattr(lf, "read_seconds", lambda t: 1.0)
+    monkeypatch.setattr(lf, "screen_text", lambda s: "x")
+    monkeypatch.setattr(sys, "argv", ["make_longform", "--voiced", "--out", str(tmp_path)])
+    assert lf.main() == 0
+    assert called.get("silent") == str(tmp_path)

@@ -85,7 +85,7 @@
   <div class="reel-txt">
     <span class="kicker">이번 주 영상</span>
     <h2>{{ video.title }}</h2>
-    <p class="note">{{ video.seconds }}초 · 직접 촬영한 사진으로 만들었습니다.
+    <p class="note">{{ video.seconds }}초 · {% if video.kind == 'voiced' %}나레이션 있음 · {% endif %}{% if video.photos %}직접 촬영한 사진으로 만들었습니다.{% else %}이번 주 지면을 카드로 옮겼습니다.{% endif %}
     {% if video.outlets %}<br>인용한 매체 · {{ video.outlets|join(' · ') }}{% endif %}</p>
     <p class="note"><a href="/{{ video.region }}/">{{ region_names.get(video.region, video.region) }} 지면에서 기사 보기</a></p>
   </div>

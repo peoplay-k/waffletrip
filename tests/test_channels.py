@@ -346,3 +346,16 @@ def test_ent_skips_broken_outlet_names_and_offtopic_outlets():
     assert is_ent_excluded("영화 개봉", source_name="��신문")
     assert is_ent_excluded("영화 개봉", source_name="sortiraparis.com")
     assert is_ent_excluded("영화 개봉", source_name="레디앙")
+
+
+def test_more_list_excludes_hidden_articles(tmp_path):
+    """숨긴(off_topic) 기사는 기사 하단 '더 보기'에도 나오지 않는다."""
+    a = ent("c-a", "영화 A 개봉", "movie", grade="B")
+    hidden = ent("c-h", "베트남 영화 수익 분석해 봅시다", "movie", grade="B")
+    hidden.off_topic = True
+    others = [ent(f"c-{n}", f"영화 {n} 개봉", "movie", grade="B") for n in range(3)]
+    render_site([a, hidden] + others, str(tmp_path), TODAY)
+    import glob as _g
+    html = open(_g.glob(str(tmp_path / "ent" / "c-a-*" / "index.html"))[0], encoding="utf-8").read()
+    assert "분석해 봅시다" not in html
+    assert "영화 0 개봉" in html
