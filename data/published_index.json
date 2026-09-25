@@ -1086,6 +1086,7 @@
     "55398ea2f0c309d27a5dfaa565b02afa9583bfd9",
     "553e400b14ce33dc3099102defe6c9c81f63d58d",
     "55447a143a4b92a0c0c12a1aa64292f7bfac269d",
+    "554e993ee8800523b68f84d73bd3d24409a32b19",
     "55649f7ceb17393c328072ae0f2792de20868799",
     "55895064db6323381671762e9d03ad0fdaa6ef0d",
     "55930e063d2ad24c8ccfdefa716e391e2cbaafde",
@@ -25982,6 +25983,13 @@
       "title": "25년 전 작품인데...공개 단 하루 만에 '넷플릭스 1위' 찍은 한국 영화 정체",
       "date": "2026-09-25",
       "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "554e993ee8800523b68f84d73bd3d24409a32b19",
+      "title": "Flight attendants evaluated for sickness upon arrival at Honolulu Airport",
+      "date": "2026-09-25",
+      "region": "hawaii",
       "grade": "B"
     }
   ]
