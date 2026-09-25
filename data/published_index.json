@@ -2389,16 +2389,19 @@
     "c-4928d3f0e1f611908e579d7ae28c908ceae3e386",
     "c-4b85315badf80b1a2a994993056e1a9e17de69ed",
     "c-4c83ebc9ee2528ad05cd60766c9a13d0b4f0d5d5",
+    "c-4cf7f1a267eba521a55ea7cb1a6d4a85b48934a3",
     "c-5149b14bd37255bf7ac3ad6e761c81c83f204c77",
     "c-53ad37c60a5c1208d8537db495f2cac7d3363ada",
     "c-58caaf115d87e835b0a3fc605c05e98bf112c539",
     "c-64c48b3e67a16a421acade9a2a2c911c0a221523",
     "c-67730aac5297f09be0d0baec645be918b41147d5",
+    "c-6983e90928c5718e723b8d326aaa4c5520843378",
     "c-6bca23da2467b9fb59641d9a279c1db34a3216a0",
     "c-6e4489c1aeacb1a851b367da7bbab1775482795f",
     "c-6f63594988f16f4cf1c7d706d082c80114e725cc",
     "c-75d97574ec1a4af285af000333cc5ab30c3f3b35",
     "c-7827d12375eb1d899321e1b535b896e080c93455",
+    "c-789bfe979a09f930417ff7433b108e70c417f2d0",
     "c-7ad540dc446a7a635fa55d651508432075fdfd2e",
     "c-7b7ce519f5ce6af7bb9dc703c0c23328aa8703d9",
     "c-80da6562d6bedb262398ee67f43f336da01f20d9",
@@ -2408,6 +2411,7 @@
     "c-8e966a7c786a08e9f08b4d66f5136ec46f54a9d3",
     "c-969e2e7fb75ef842235f99420c2e748132524060",
     "c-977a2deec9114116f12cc0637429a443eb3fcc4a",
+    "c-982b8722fae524d0c76b18a3de0dd6b5151c22a6",
     "c-98c5e87e58d4518fa494eee6b0df1a4a03009381",
     "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
     "c-a5911ba8a9be497027995aef8207f85c95438fd4",
@@ -2428,6 +2432,7 @@
     "c-dee2d6be08078648738677f0ae57393674a83d4f",
     "c-dfa62dff755df38e917494ba98f6595a14941e19",
     "c-ea6a1f045965dd90ab5f7f8acc07981f77afd186",
+    "c-f4f35f998cff3ee6e68e95842bbda392dbd8d6c8",
     "c-f858426d92f6fe21b440696997346a65f743e70e",
     "c-fb2990625d8cf5f28c8d0904099f8a2e5f81d2cc",
     "c-fb61c773430136fd1bb6e8a3ab07acde59757f7e",
@@ -2769,6 +2774,7 @@
     "d9a6f3247a14811989effdfd677f2641712b6f90",
     "d9c10c7858f74c5c08ec6a07c03b157b40f0887c",
     "d9c2b4c88a85bffdd264b71c2c6cf6c8eb4b0b38",
+    "d9dc6da36f62a74432fed354e4d256cd97de45b7",
     "d9e40fe0f46f46b6aa7ffcceb3a7459b2bcd63ed",
     "d9fa7bbfa7f722163dfef2c0309ae9a99c1b0b94",
     "da03ddbcd7e6d0522acbf719aec2579c2a7cc592",
@@ -25758,6 +25764,48 @@
       "title": "그랜드 하얏트 인천 ‘테이스트 오브 교토’→코럴오션 리조트 사이판 '골투 패키지'",
       "date": "2026-09-25",
       "region": "saipan",
+      "grade": "B"
+    },
+    {
+      "id": "c-982b8722fae524d0c76b18a3de0dd6b5151c22a6",
+      "title": "10월 6일 개막 부산국제영화제, 심사위원 윤곽…샤를로트 갱스부르 온다",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-f4f35f998cff3ee6e68e95842bbda392dbd8d6c8",
+      "title": "이번 주 차트…소연 '퇴사할게여' 일간 1위 싹쓸이, 임영웅 빌보드 코리아 13곡, 튜이드 이머징 1위",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-6983e90928c5718e723b8d326aaa4c5520843378",
+      "title": "추석 극장가, '암살자(들)' 첫날 28만으로 1위…'타짜' 2위, 이창동 '가능한 사랑' 가세",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-789bfe979a09f930417ff7433b108e70c417f2d0",
+      "title": "10월 안방극장 라인업…'100일의 거짓말'·'라이어' 첫 방송, '거장항준' 15일 출발",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-4cf7f1a267eba521a55ea7cb1a6d4a85b48934a3",
+      "title": "스타가 간 곳…토론토 4,256석 매진시킨 이민호, 타이베이→도쿄 김재원, 10월 서울 오는 고레에다",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "d9dc6da36f62a74432fed354e4d256cd97de45b7",
+      "title": "[핌 포커스] 추석 연휴 볼 만한 공연, '곤 투모로우' '겨울왕국' '스미레미용실'",
+      "date": "2026-09-25",
+      "region": "",
       "grade": "B"
     }
   ]
