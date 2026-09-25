@@ -5,20 +5,20 @@
 
 ## 괌
 
-### [괌여행] 두짓타니 괌 리조트 조식 키즈 코너
-- 매체 1곳 · 국제뉴스
-  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 내 아쿠아 레스토랑 조식의 키즈 코너. 통유리창 너머로 보이는 시원한 투몬만 파노라마 오션뷰가 있는 뷔페 레스토랑으로서 두짓타니의 조식 레스토랑이자 저녁에는 환상적인 투몬만 
-    https://www.gukjenews.com/news/articleView.html?idxno=3705467
-
 ### [괌여행] 밤에는 호텔 근처에서 카레라 관람
 - 매체 1곳 · 국제뉴스
   - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 5일 괌 샌드캐슬 극장에서 열린 카레라(KÅRERA) 쇼. 카레라 쇼는 괌에서 오래 전부터 다양한 엔터테인먼트와 F&B를 선보여온 발디가 그룹이 세계적 전문가를 모아 야심차게 제작한 괌 최대 규모의 상설 멀티미디어 라이브 공연으로서, 세 명의 주인공이 새
     https://www.gukjenews.com/news/articleView.html?idxno=3705771
 
-### 괌정부관광청, 대한항공 스타링크에서 괌 홍보영상 공개
-- 매체 1곳 · 뉴스케이프
-  - 뉴스케이프: [뉴스케이프 권진욱 기자] 괌정부관광청이 대한항공 기내 와이파이를 새로운 관광 홍보 채널로 활용한다. 괌정부관광청은 대한항공의 스타링크 기반 기내 와이파이 서비스에 괌 공식 홍보 영상을 선보인다고 밝혔다.
-    http://www.newscape.co.kr/news/articleView.html?idxno=124734
+### 괌정부관광청, 대한항공 스타링크 기내광고 도입과 함께 괌 알린다
+- 매체 1곳 · 미디어원
+  - 미디어원: 괌정부관광청은 대한항공의 스타링크 기반 기내 와이파이 서비스에 새롭게 도입된 기내광고를 통해 괌 공식 홍보 영상을 선보인다. 대한항공의 신규 기내 와이파이 이용객은 서비스 접속 과정에서 괌의 다양한 매력을 담은 홍보 영상을 만나볼 수 있다.
+    https://media1.or.kr/2026/09/%EA%B4%8C%EC%A0%95%EB%B6%80%EA%B4%80%EA%B4%91%EC%B2%AD-%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5-%EC%8A%A4%ED%83%80%EB%A7%81%ED%81%AC-%EA%B8%B0%EB%82%B4%EA%B4%91%EA%B3%A0-%EB%8F%84%EC%9E%85%EA%B3%BC/
+
+### [괌여행] 두짓타니 괌 리조트 조식 키즈 코너
+- 매체 1곳 · 국제뉴스
+  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 내 아쿠아 레스토랑 조식의 키즈 코너. 통유리창 너머로 보이는 시원한 투몬만 파노라마 오션뷰가 있는 뷔페 레스토랑으로서 두짓타니의 조식 레스토랑이자 저녁에는 환상적인 투몬만 
+    https://www.gukjenews.com/news/articleView.html?idxno=3705467
 
 ## 사이판
 
@@ -32,19 +32,12 @@
   - 이로운뉴스: [이로운뉴스 : 허승규 국장] 마리아나관광청은 태풍 피해 복구와 마나가하섬 등 주요 관광지 재정비를 진행하며 사이판 여행 재개를 위한 준비에 속도를 내고 있다.
     https://www.erounews.kr/news/articleView.html?idxno=5230
 
-### 다시 활기 찾는 마리아나, 골프와 가족 영어캠프 등 취향 맞춤 여행 매력 더한다
-- 매체 1곳 · 이트레블뉴스
-  - 이트레블뉴스: [이트레블뉴스=이성훈 기자] 서태평양의 대표적인 휴양지 마리아나가 태풍 피해 복구 작업을 신속히 마무리하고 주요 관광 인프라를 대대적으로 재정비
-    https://www.momonews.com/81278
+### “활기 찾는 서태평양의 낙원”… 마리아나관광청, 주요 명소 정비 및 관광 활성화 박차
+- 매체 1곳 · 열린뉴스통신
+  - 열린뉴스통신: (서울=열린뉴스통신) 박소연 기자 = 태풍 피해를 딛고 재정비에 나선 마리아나가 스포츠 성과와 주요 관광지 운영 재개에 힘입어 본격적인 관광 활성화에 나선다. 마리아나관광청은 스포츠 앰배서더인 KLPGA 프로골퍼 박보겸 선수의 메이저 대회 우승 소식과 함께, 마나가하섬 재개장 및 겨울방
+    https://www.onews.tv/news/articleView.html?idxno=287771
 
 ## 하와이
-
-### County of Maui officials urge preparedness ahead of Tropical Storm Nolo
-- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
-  - Hawaii News Now: County of Maui officials are urging residents and visitors to prepare for severe weather.
-    https://www.hawaiinewsnow.com/2026/09/23/county-maui-officials-urge-preparedness-ahead-tropical-storm-nolo/
-  - Hawaii News Now: Several cancellations are being announced as Tropical Storm Nolo is expected to bring high winds and heavy rains across the state.
-    https://www.hawaiinewsnow.com/2026/09/23/tropical-storm-nolo-list-hawaii-closures-cancellations/
 
 ### Storm refuge areas: Where to find emergency shelter on Hawaii Island
 - 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
@@ -53,29 +46,36 @@
   - Hawaii News Now: Emergency management officials have designated several hurricane refuge areas across Hawaii Island as Tropical Storm Nolo approaches the state.
     https://www.hawaiinewsnow.com/2026/09/25/storm-refuge-areas-where-find-emergency-shelter-across-state/
 
-### Maui braces for Hurricane Nolo as officials urge residents to prepare
+### County of Maui officials urge preparedness ahead of Tropical Storm Nolo
 - 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
-  - Hawaii News Now: Maui residents and businesses are bracing for Tropical Storm Nolo as officials warn of heavy rain, high winds, and severe flood risks along South Kīhei Road.
-    https://www.hawaiinewsnow.com/2026/09/25/maui-braces-tropical-storm-nolo-officials-urge-residents-prepare/
-  - Hawaii News Now: State insurance officials urge Hawaii residents to check their policies ahead of Hurricane Nolo, warning standard plans don't cover hurricane or flood damage.
-    https://www.hawaiinewsnow.com/2026/09/25/state-urges-residents-review-insurance-policies-hurricane-nolo-approaches/
+  - Hawaii News Now: County of Maui officials are urging residents and visitors to prepare for severe weather.
+    https://www.hawaiinewsnow.com/2026/09/23/county-maui-officials-urge-preparedness-ahead-tropical-storm-nolo/
+  - Hawaii News Now: Several cancellations are being announced as Tropical Storm Nolo is expected to bring high winds and heavy rains across the state.
+    https://www.hawaiinewsnow.com/2026/09/23/tropical-storm-nolo-list-hawaii-closures-cancellations/
+
+### Nolo now a hurricane, set to rapidly intensify as it nears Hawaii Island
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: The hurricane is expected to bring heavy rainfall to Hawaii Island for the next several days.
+    https://www.hawaiinewsnow.com/2026/09/25/nolo-now-hurricane-set-rapidly-intensify-it-nears-hawaii-island/
+  - Hawaii News Now: Catastrophic and life-threatening flooding will be possible for Hawaii Island for the next several days.
+    https://www.hawaiinewsnow.com/2026/09/25/hurricane-nolo-strengthening-it-moves-slowly-toward-hawaii-island/
 
 ## 베트남
-
-### 사누바 다낭 호텔은 "모범적인 금연 호텔" 모델을 효과적으로 유지하고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: VHO - 9월 23일부터 26일까지, '최우수 금연 호텔' 선정 프로그램 조직위원회는 2025년 선정 대상 호텔 11곳을 중심으로 다낭시에서 실태 조사 방문을 실시했습니다. 사누바 다낭 호텔(Sanouva Danang Hotel)을 참관한 결과, 해당 호텔은 금연 기준을 성실하고 창의
-    https://www.vietnam.vn/ko/khach-san-sanouva-danang-duy-tri-hieu-qua-mo-hinh-khach-san-tieu-bieu-khong-thuoc-la
 
 ### 다낭의 "모범 금연 호텔" 모니터링
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: VHO - 9월 23일부터 26일까지, '최우수 금연 호텔' 선정 프로그램 조직위원회는 2025년 선정 대상인 다낭의 호텔 11곳을 대상으로 실사 방문을 실시했습니다.
     https://www.vietnam.vn/ko/giam-sat-khach-san-tieu-bieu-khong-thuoc-la-tai-da-nang
 
-### 다낭 관광, 국가적 차원으로 도약 목표로 - 최종편: 경쟁력 강화를 위한 획기적인 발전
+### 주요 시장에서 다낭 관광을 홍보합니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 국가 관광 성장 중심지 3곳 중 하나로 선정된 다낭은 더욱 폭넓은 경쟁 환경 속에서 입지를 다져야 합니다. 관광 성장 중심지로 거듭나기 위해서는 단순히 관광객 수를 늘리는 것을 넘어, 방문객 한 명 한 명으로부터 더 높은 가치를 창출해야 하며, 동시에 베트남 중부 지역 관광 산업에서 선
-    https://www.vietnam.vn/ko/du-lich-da-nang-khat-vong-vuon-tam-quoc-gia-bai-cuoi-dot-pha-de-tang-suc-canh-tranh
+  - vietnam.vn: 다낭의 관광 산업은 유연한 접근 방식을 통해 국제 시장에서의 입지를 강화하고, 항공편 연결을 확대하며, 문화 및 자연적 가치를 홍보하고, 주요 목표 시장에 맞춰 서비스를 제공하고 있습니다. 이러한 노력은 다낭을 매력적인 관광지로 널리 알리는 데 기여하는 동시에 협력 기회를 창출하고 해외
+    https://www.vietnam.vn/ko/xuc-tien-du-lich-da-nang-tai-thi-truong-trong-diem
+
+### 다낭, 2027년 아시아 주요 관광지 목록에 포함될 예정
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: VTV.vn - 다낭은 바다, 자연, 음식, 유적지 투어 등 다양한 매력을 바탕으로 론리 플래닛이 선정한 2027년 아시아 최고의 여행지 ​​5곳 중 하나로 선정되었습니다.
+    https://www.vietnam.vn/ko/da-nang-vao-danh-sach-diem-den-noi-bat-cua-chau-a-nam-2027
 
 ## 코타키나발루
 
@@ -100,32 +100,32 @@
   - 제주의소리: 제주에서 추석을 보내는 풍경이 달라지고 있다. 온 가족이 차례상을 차리고 친척 집을 돌던 명절은 간소해지고, 차례 대신 휴식이나 외식·여행을 선택하는 사례가 늘고 있다.
     https://www.jejusori.net/news/articleView.html?idxno=506681
 
-### 죄와 벌
+### 식탁의 변화
 - 매체 1곳 · 제주일보
-  - 제주일보: 희영 씨는 잘 나가던 무속인이다. 작두 타는 능력은 한 수 아래 마른하늘에서 비를 불러내고 태풍의 진로를 원하는 방향으로 틀어낸다.
-    http://www.jejunews.com/news/articleView.html?idxno=2227912
+  - 제주일보: 저녁 식탁 앞이다. “당신이 해준 음식이 맛집보다 훨씬 맛있어.
+    http://www.jejunews.com/news/articleView.html?idxno=2227913
 
-### AI가 똑똑해질수록, 정치는 더 인간다워져야 한다
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 우리는 지금 AI 시대의 한가운데를 살아가고 있다. 산업과 행정, 관광과 농업에 이르기까지 AI가 빠지지 않는 곳이 없다.
-    https://www.jejusori.net/news/articleView.html?idxno=506825
+### 우리가 입고 버리는 것은 옷만이 아니다
+- 매체 1곳 · 제주일보
+  - 제주일보: 계절마다 매장에는 새로운 옷들이 선보인다. 유행은 빠르게 변하고, 소비자의 시선은 하루가 다르게 새로운 디자인을 좇는다.
+    http://www.jejunews.com/news/articleView.html?idxno=2227911
 
 ## 일본
 
-### 호텔 인터컨티넨탈 도쿄 베이, 2026년 크리스마스 시즌 맞이 '채플 드 크리스마스 나이트 프로포즈 플랜' 공개
-- 매체 1곳 · Holiday Travel
-  - Holiday Travel: 호텔 인터컨티넨탈 도쿄 베이는 2026년 12월 18일~20일 및 12월 23일~26일 한정으로 '채플 드 크리스마스 나이트 프로포즈 플랜'을 선보입니다. 크리스마스 장식으로 꾸며진 촛불 채플, 21송이의 반짝이는 '주얼 로즈' 꽃다발, 바이올린과 오르간 라이브 연주, 그리고 호텔 4개
-    https://www.haveagood-holiday.com/ko/articles/intercontinental-tokyo-bay-chapel-christmas-night-proposal-2026
+### 싱가포르항공 '세계 최고 항공사' 선정→에어프레미아, 삿포로 신규 취항 프로모션
+- 매체 1곳 · 싱글리스트
+  - 싱글리스트: 항공사들이 서비스 경쟁력을 인정받거나 신규 노선 프로모션을 마련하며 여행객 접점을 넓히고 있다. 싱가포르항공은 올해 세계 항공 대상에서 최고상을 포함한 주요 부문을 석권했다.
+    https://www.slist.kr/news/articleView.html?idxno=767741
 
-### WTTC-JATA-투어리즘 엑스포 재팬, 일본 관광부문 글로벌 도약 위한 업무협약 체결
-- 매체 1곳 · 국제뉴스
-  - 국제뉴스: (서울=국제뉴스) 유지현 기자 = 자타가 공인하는 일본 최대 여행박람회 투어리즘 엑스포 재팬이 국제 무대로 도약에 나선다. 세계여행관광협의회(WTTC)와 일본여행업협회(JATA), 투어리즘 엑스포 재팬(TEJ) 실행위원회가 일본의 입지를 글로벌 여행 및 관광 생태계의 중심축으로 강화하기
-    https://www.gukjenews.com/news/articleView.html?idxno=3705772
+### 민단 오사카, ‘2026 의결기관 연수회’ 개최
+- 매체 1곳 · 월드코리안뉴스
+  - 월드코리안뉴스: (서울=월드코리안신문) 이종환 기자재일본대한민국민단 오사카부 본부는 9월 19일 오사카 신사이바시에 위치한 뉴오사카호텔에서 &lsquo;2026 민단 오사카 의결기관 연수회&rsquo;를 개최했다. 이날 연수회에는 민단 오사카와 지부 의결기관, 민단 중앙, 오사카총영사관 등에서 56명이
+    https://www.worldkorean.net/news/articleView.html?idxno=57833
 
-### 후쿠오카 호텔에서 무료로 사용할 수 있는 '신기'를 대만인이 극찬 = '놀랐다', '이건 최고!' -대만 언론
-- 매체 1곳 · Record China
-  - Record China: 대만 언론 중시신문망은 29일, 일본 호텔의 무료 '신기'를 대만인 여행자가 극찬했다고 보도했다.
-    https://www.recordchina.co.jp/ko/newsinfo?id=988419
+### 나리타공항 입국 빨라진다…입국·세관 정보 한 번에
+- 매체 1곳 · 여행신문
+  - 여행신문: 일본 나리타국제공항 제1·2터미널의 입국 절차가 간소화된다. 9월 24일부터 입국 심사와 세관 신고에 필요한 정보를 한 번에 제출할 수 있는 ‘공동 키오스크’가 운영된다.
+    https://www.traveltimes.co.kr/news/articleView.html?idxno=500458
 
 ## 태국
 
@@ -145,19 +145,12 @@
   - 뉴스트래블: [뉴스트래블=정국환 기사] 글로벌 호텔 브랜드 요텔(YOTEL)이 태국에 처음 진출한다. ‘요텔 방콕 수쿰윗’은 10월 15일 방콕 남부 수쿰윗의 복합개발단지 클라우드 11에 250개 객실 규모로 문을 연다.
     https://www.newstravel.co.kr/news/article.html?no=27666
 
-### [방콕호텔] 도심에서 5성급 호캉스 기다리는 곳
+### [방콕호텔] 시내 중심 번화가 한복판 안식처
 - 매체 1곳 · 국제뉴스
-  - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok) 로비. 방콕 번화가에서 대규모 야외 수영장과 정원이 있는 5성급 호텔로, 다수의 미쉐린 레스토랑이 푸드코드에 입점해 있는 시암 파라곤 쇼핑몰과 직접 
-    https://www.gukjenews.com/news/articleView.html?idxno=3705782
+  - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok).방콕 번화가에서 대규모 야외 수영장과 정원이 있는 5성급 호텔로, 다수의 미쉐린 레스토랑이 푸드코드에 입점해 있는 시암 파라곤 쇼핑몰과 직접 연결되어
+    https://www.gukjenews.com/news/articleView.html?idxno=3705472
 
 ## 연예 (편집실이 쓴다 — 자동 해설 대상 아님)
-
-### [movie] 완주 아동권리영화제에 전국서 174편 접수
-- 매체 2곳 · 더펜뉴스 · 완주신문  ← 여러 곳이 썼다
-  - 완주신문: 완주군이 주최하는 ‘2026 완주 아동권리영화제’ 작품 공모에 전국에서 총 174편이 접수됐다. 완주군에 따르면 지난 6월 30일부터 9월 18일까지 진행한 작품 공모에는 아동·청소년팀 107편과 가족팀 67편이 출품됐다.
-    https://www.wj1news.com/news/article.html?no=17437
-  - 더펜뉴스: 인공지능(AI)이 빠르게 일상으로 들어오는 시대에 아동·청소년이 체감하는 권리의 변화와 고민이 영화에 담겼다. 완주에서 열리는 아동권리영화제 공모에 전국에서 170편이 넘는 작품이 접수되면서 아동권리와 AI라는 동시대적 의제를 어린이와 청소년의 시선으로 들여다보는 장이 마련됐다.
-    https://www.thepennews.net/news/article.html?no=45005
 
 ### [movie] 유연석·고아성, 부산국제영화제 ‘올해의 배우상’ 심사
 - 매체 2곳 · 국민일보 · 뉴스핌  ← 여러 곳이 썼다
@@ -166,12 +159,19 @@
   - 뉴스핌: [서울=뉴스핌] 양진영 기자 = 제31회 부산국제영화제가 올해의 배우상 심사위원으로 배우 유연석과 고아성을 선정했다. 올해의 배우상은 &apos;비전 - 한국 섹션&apos; 작품을 대상으로, 빛나는 연기와 가능성을 보여준 배우를 발굴하기 위한 상이다.
     https://www.newspim.com/news/view/20260923000082
 
-### [movie] 지하철에서 만나는 210초 영화…국제지하철영화제 24일 개막
-- 매체 2곳 · 더글로벌기빙뉴스 · 한국철도일보  ← 여러 곳이 썼다
-  - 더글로벌기빙뉴스: 서울 지하철 역사에서 210초 분량의 초단편영화를 만나는 ‘제17회 서울교통공사 국제지하철영화제(이하 국제지하철영화제)’가 24일 개막해 10월 23일까지 약 한 달간 열린다. 24일 서울교통공사(사장 김태균)에 따르면 이번 영화제에는 56개국에서 총 1,709편이.
-    https://theggnews.com/ko-kr/articles/27887
-  - 한국철도일보: [한국철도일보 박지현 기자] 제17회 서울교통공사 국제지하철영화제가 오는 24일부터 10월 23일까지 약 한 달간 열린다. 서울교통공사와 서울국제초단편영상제가 공동 주최하는 이번 영화제에는 CGV와 하겐다즈, 홍콩AI영화제, 탭나우 등이 후원사로 참여하며 바르셀로나 지하철영화제와의 협력
-    https://www.korearailroad.kr/news/articleView.html?idxno=199122
+### [startrip] ‘은중과 상연’, 박지현, 美여배우 최초로 국제 에미상 후보
+- 매체 2곳 · 문화일보 · 한겨레  ← 여러 곳이 썼다
+  - 문화일보: 넷플릭스 시리즈 ‘은중과 상연’에 출연한 배우 박지현이 한국 여배우 최초로 국제 에미상 후보에 올랐다. 23일(현지시간) 국제텔레비전예술과학아카데미가 발표한 ‘2026 국제 에미상’ 후보에 따르면, 박지현은 지난해 9월 공개된 넷플릭스 시리즈 ‘은중과 상연’(극본 송혜
+    https://www.munhwa.com/article/11619432
+  - 한겨레: 배우 박지현이 넷플릭스 드라마 ‘은중과 상연’으로 한국 여배우 최초로 국제에미상 여자연기상 후보에 올랐다. 국제텔레비전예술과학아카데미가 지난 23일(현지시각) 발표한 제54회 국제에미상 후보 명단을 25일 보면, 박지현은 ‘은중과 상연’으로 여자연기상 후보에 이름을 올
+    https://www.hani.co.kr/arti/culture/entertainment/1279467.html
+
+### [movie] 완주 아동권리영화제에 전국서 174편 접수
+- 매체 2곳 · 더펜뉴스 · 완주신문  ← 여러 곳이 썼다
+  - 완주신문: 완주군이 주최하는 ‘2026 완주 아동권리영화제’ 작품 공모에 전국에서 총 174편이 접수됐다. 완주군에 따르면 지난 6월 30일부터 9월 18일까지 진행한 작품 공모에는 아동·청소년팀 107편과 가족팀 67편이 출품됐다.
+    https://www.wj1news.com/news/article.html?no=17437
+  - 더펜뉴스: 인공지능(AI)이 빠르게 일상으로 들어오는 시대에 아동·청소년이 체감하는 권리의 변화와 고민이 영화에 담겼다. 완주에서 열리는 아동권리영화제 공모에 전국에서 170편이 넘는 작품이 접수되면서 아동권리와 AI라는 동시대적 의제를 어린이와 청소년의 시선으로 들여다보는 장이 마련됐다.
+    https://www.thepennews.net/news/article.html?no=45005
 
 ### [drama] 단독 유재명·이선빈, '거장항준' 첫 게스트…10월 15일 첫 방송
 - 매체 2곳 · star.ytn.co.kr · 브릿지경제  ← 여러 곳이 썼다
@@ -180,17 +180,17 @@
   - 브릿지경제: 장항준 감독이 자신의 이름을 내건 새 예능으로 돌아온다. SBS는 신규 예능 프로그램 ‘거장항준’의 첫 방송일을 오는 10월 15일로 확정하고, 독특한 분위기의 티저 포스터를 22일 공개했다.
     https://www.viva100.com/article/20260922500463
 
-### [startrip] ‘은중과 상연’, 박지현, 美여배우 최초로 국제 에미상 후보
-- 매체 2곳 · 문화일보 · 한겨레  ← 여러 곳이 썼다
-  - 문화일보: 넷플릭스 시리즈 ‘은중과 상연’에 출연한 배우 박지현이 한국 여배우 최초로 국제 에미상 후보에 올랐다. 23일(현지시간) 국제텔레비전예술과학아카데미가 발표한 ‘2026 국제 에미상’ 후보에 따르면, 박지현은 지난해 9월 공개된 넷플릭스 시리즈 ‘은중과 상연’(극본 송혜
-    https://www.munhwa.com/article/11619432
-  - 한겨레: 배우 박지현이 넷플릭스 드라마 ‘은중과 상연’으로 한국 여배우 최초로 국제에미상 여자연기상 후보에 올랐다. 국제텔레비전예술과학아카데미가 지난 23일(현지시각) 발표한 제54회 국제에미상 후보 명단을 25일 보면, 박지현은 ‘은중과 상연’으로 여자연기상 후보에 이름을 올
-    https://www.hani.co.kr/arti/culture/entertainment/1279467.html
+### [movie] 지하철에서 만나는 210초 영화…국제지하철영화제 24일 개막
+- 매체 2곳 · 더글로벌기빙뉴스 · 한국철도일보  ← 여러 곳이 썼다
+  - 더글로벌기빙뉴스: 서울 지하철 역사에서 210초 분량의 초단편영화를 만나는 ‘제17회 서울교통공사 국제지하철영화제(이하 국제지하철영화제)’가 24일 개막해 10월 23일까지 약 한 달간 열린다. 24일 서울교통공사(사장 김태균)에 따르면 이번 영화제에는 56개국에서 총 1,709편이.
+    https://theggnews.com/ko-kr/articles/27887
+  - 한국철도일보: [한국철도일보 박지현 기자] 제17회 서울교통공사 국제지하철영화제가 오는 24일부터 10월 23일까지 약 한 달간 열린다. 서울교통공사와 서울국제초단편영상제가 공동 주최하는 이번 영화제에는 CGV와 하겐다즈, 홍콩AI영화제, 탭나우 등이 후원사로 참여하며 바르셀로나 지하철영화제와의 협력
+    https://www.korearailroad.kr/news/articleView.html?idxno=199122
 
-### [startrip] ＂나를 패배자라고 생각하냐＂ 소주병 든 승리, 일행이 황급히 제지…그날 CCTV 공개
-- 매체 1곳 · wowtv.co.kr
-  - wowtv.co.kr: 그룹 빅뱅 출신 승리(본명 이승현)가 특수폭행 혐의로 피소된 가운데 사건 당시 모습이 담긴 폐쇄회로(CC)TV 영상이 공개됐다. JTBC는 23일 지난달 서울 청담동 한 식당에서 승리와 30대 남성 A씨가 실랑이를 벌이는 ...
-    https://m.wowtv.co.kr/NewsCenter/News/Read?articleId=A202609240040
+### [drama] 리센느 미나미, 첫 단독 예능에 화제성 1위…‘라스’ 자체 최고 기록까지
+- 매체 1곳 · 스포츠동아
+  - 스포츠동아: [동아닷컴 김승현 기자] 리센느(RESCENE) 미나미가 첫 단독 예능 나들이에서 화제성 1위에 오르며 ‘라디오스타’의 자체 최고 기록까지 이끌었다. 화제성 분석 기관 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 9월 3주 차 조사에 따르면 지난 16일 방송된 M…
+    https://sports.donga.com/ent/article/all/20260922/134721944/1
 
 ---
 거리 29건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.

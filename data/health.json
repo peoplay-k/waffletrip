@@ -149,9 +149,13 @@
     },
     {
       "date": "2026-09-25",
-      "collected": 815,
-      "published": 224,
-      "failed_sources": []
+      "collected": 755,
+      "published": 227,
+      "failed_sources": [
+        "guam_pdn",
+        "guam_post",
+        "saipan_tribune"
+      ]
     }
   ]
 }

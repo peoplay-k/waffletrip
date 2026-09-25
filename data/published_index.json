@@ -1877,6 +1877,7 @@
     "98cfa9313b83659e4c7f7ac1f70e63ddfd45f74a",
     "98dce2457830cfd6a9f2319fe4bfaae6676dde29",
     "98fa6108be0dd2f8c0e3e1d6f304b23f689cfa03",
+    "99034694b71a7ab4a6b04c4992e8347f8e61942f",
     "9909b7678f85fd22f9b939d2ee7316573274975f",
     "99175ce242824cc81d2e3b530c158b7cc12d7452",
     "994b64247de74d66e2873faa8e42005ca75521f4",
@@ -2520,6 +2521,7 @@
     "c6394ea3703c06f68c55f67fa5b89d58decece38",
     "c640066deda2513054e271cfdfee8696e4e3a348",
     "c643f2dc08c749bc8f9a0806660aeb6246167b90",
+    "c645484216ec81fdd0b59e628f757d494ffac7e2",
     "c64fd5f79ed9458a0907aadd79de3450e85811e3",
     "c6aab5baa1188031a755b3b4951c791d0e8e1a0a",
     "c6b68d2dca2c4a9c8b5b84817c01da3484aeb9d0",
@@ -2956,6 +2958,7 @@
     "e660ff55be6ad9bf8c8785f93e47d4b26f48a001",
     "e66a13d705218f45345fdefba3233f7b8260e003",
     "e68f8ac340b4fbd4ec499179058387d5735725bf",
+    "e69af0b500091c36ca509c81ce5e961c20d614c3",
     "e6b0b9e45af0bccabde642feb8be31885d6ed531",
     "e6bce42e75ce5678afd0b15dc85a08470f7a0c63",
     "e6bf63b81971c7fbe18f9842e6a4d2d7bc507450",
@@ -25804,6 +25807,27 @@
     {
       "id": "d9dc6da36f62a74432fed354e4d256cd97de45b7",
       "title": "[핌 포커스] 추석 연휴 볼 만한 공연, '곤 투모로우' '겨울왕국' '스미레미용실'",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "c645484216ec81fdd0b59e628f757d494ffac7e2",
+      "title": "Phu My Hung to launch luxury project near Crescent Lake",
+      "date": "2026-09-25",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "99034694b71a7ab4a6b04c4992e8347f8e61942f",
+      "title": "토니안 \"데뷔 30주년 예상 못해…H.O.T. 첫 무대 아직도 생생\"",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "e69af0b500091c36ca509c81ce5e961c20d614c3",
+      "title": "\"너 하나 죽이는 거 일도 아냐\"…'승리 소주병 위협' CCTV 공개 - 머니투데이",
       "date": "2026-09-25",
       "region": "",
       "grade": "B"
