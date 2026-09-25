@@ -5,20 +5,20 @@
 
 ## 괌
 
-### [괌여행] 두짓타니 괌 리조트 조식 키즈 코너
-- 매체 1곳 · 국제뉴스
-  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 내 아쿠아 레스토랑 조식의 키즈 코너. 통유리창 너머로 보이는 시원한 투몬만 파노라마 오션뷰가 있는 뷔페 레스토랑으로서 두짓타니의 조식 레스토랑이자 저녁에는 환상적인 투몬만 
-    https://www.gukjenews.com/news/articleView.html?idxno=3705467
-
-### [괌여행] 투몬 비치까지 5초 거리 리조트
-- 매체 1곳 · 국제뉴스
-  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 수영장. 두짓타니 괌은 총 421개의 객실과 태국식 웰니스 호스피탤리티로 무장한 괌의 최신 호텔 중 하나로서, 투몬만 중심에서 탁 트인 바다의 파노라마 뷰가 보이는 위치에 풀
-    https://www.gukjenews.com/news/articleView.html?idxno=3705464
-
 ### [괌여행] 밤에는 호텔 근처에서 카레라 관람
 - 매체 1곳 · 국제뉴스
   - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 5일 괌 샌드캐슬 극장에서 열린 카레라(KÅRERA) 쇼. 카레라 쇼는 괌에서 오래 전부터 다양한 엔터테인먼트와 F&B를 선보여온 발디가 그룹이 세계적 전문가를 모아 야심차게 제작한 괌 최대 규모의 상설 멀티미디어 라이브 공연으로서, 세 명의 주인공이 새
     https://www.gukjenews.com/news/articleView.html?idxno=3705771
+
+### [괌여행] 두짓타니 괌, 그야말로 파노라마 바다 뷰!
+- 매체 1곳 · 국제뉴스
+  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 객실에서 본 해변 풍경. 투몬 베이(투몬만)는 괌에서 주요 호텔리조트와 쇼핑몰, 레스토랑이 밀집한 관광의 중심지로서 국제공항에서도 가까우며, 길다란 백사장과 에메랄드빛 바다의
+    https://www.gukjenews.com/news/articleView.html?idxno=3705465
+
+### 괌정부관광청, 대한항공 스타링크에서 괌 홍보영상 공개
+- 매체 1곳 · 뉴스케이프
+  - 뉴스케이프: [뉴스케이프 권진욱 기자] 괌정부관광청이 대한항공 기내 와이파이를 새로운 관광 홍보 채널로 활용한다. 괌정부관광청은 대한항공의 스타링크 기반 기내 와이파이 서비스에 괌 공식 홍보 영상을 선보인다고 밝혔다.
+    http://www.newscape.co.kr/news/articleView.html?idxno=124734
 
 ## 사이판
 
@@ -39,19 +39,19 @@
 
 ## 하와이
 
+### Nolo now a hurricane, set to rapidly intensify as it nears Hawaii Island
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: The hurricane is expected to bring heavy rainfall to Hawaii Island for the next several days.
+    https://www.hawaiinewsnow.com/2026/09/25/nolo-now-hurricane-set-rapidly-intensify-it-nears-hawaii-island/
+  - Hawaii News Now: Catastrophic and life-threatening flooding will be possible for Hawaii Island for the next several days.
+    https://www.hawaiinewsnow.com/2026/09/25/hurricane-nolo-strengthening-it-moves-slowly-toward-hawaii-island/
+
 ### Storm refuge areas: Where to find emergency shelter on Hawaii Island
 - 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
   - Hawaii News Now: Emergency management officials have designated several hurricane refuge areas across Hawaii Island as Tropical Storm Nolo approaches the state.
     https://www.hawaiinewsnow.com/2026/09/24/storm-refuge-areas-where-find-emergency-shelter-hawaii-island/
   - Hawaii News Now: Emergency management officials have designated several hurricane refuge areas across Hawaii Island as Tropical Storm Nolo approaches the state.
     https://www.hawaiinewsnow.com/2026/09/25/storm-refuge-areas-where-find-emergency-shelter-across-state/
-
-### Maui braces for Hurricane Nolo as officials urge residents to prepare
-- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
-  - Hawaii News Now: Maui residents and businesses are bracing for Tropical Storm Nolo as officials warn of heavy rain, high winds, and severe flood risks along South Kīhei Road.
-    https://www.hawaiinewsnow.com/2026/09/25/maui-braces-tropical-storm-nolo-officials-urge-residents-prepare/
-  - Hawaii News Now: State insurance officials urge Hawaii residents to check their policies ahead of Hurricane Nolo, warning standard plans don't cover hurricane or flood damage.
-    https://www.hawaiinewsnow.com/2026/09/25/state-urges-residents-review-insurance-policies-hurricane-nolo-approaches/
 
 ### County of Maui officials urge preparedness ahead of Tropical Storm Nolo
 - 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
@@ -62,20 +62,20 @@
 
 ## 베트남
 
-### 러시아와 독립국가연합(CIS) 국가들은 다낭을 찾는 관광객들을 끌어들이는 주요 명소로 떠올랐습니다.
+### 관광 산업의 성장으로 다낭과 호이안의 부동산 투자 기회가 확대되고 있습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: VHO - 2026년 첫 8개월 동안 러시아 및 CIS(독립국가연합)에서 40만 명 이상의 관광객이 다낭을 방문했으며, 이는 94.2% 증가한 수치로 리조트, 의료 및 문화 체험 상품 개발에 더 많은 기회를 제공합니다.
-    https://www.vietnam.vn/ko/nga-cis-tro-thanh-diem-sang-hut-khach-cua-da-nang
+  - vietnam.vn: 베트남 관광 산업은 심층적인 성장 단계에 접어들면서, 단순히 방문객 수를 늘리는 데서 그치지 않고 장기 체류하며 높은 소비력을 가진 관광객을 유치하는 데 초점을 맞추고 있습니다. 이러한 추세는 관광 도시에 새로운 요구를 제기하고 있으며, 다낭과 호이안의 부동산 시장에는 주거, 경험, 그
+    https://www.vietnam.vn/ko/tang-truong-du-lich-mo-rong-du-dia-cho-bat-dong-san-da-nang-hoi-an
 
-### 다낭, 2027년 아시아 주요 관광지 목록에 포함될 예정
+### 론리 플래닛은 다낭을 2027년 최고의 여행지 ​​50곳 중 하나로 선정하고, 골든 브릿지를 대표적인 랜드마크로 꼽았습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: VTV.vn - 다낭은 바다, 자연, 음식, 유적지 투어 등 다양한 매력을 바탕으로 론리 플래닛이 선정한 2027년 아시아 최고의 여행지 ​​5곳 중 하나로 선정되었습니다.
-    https://www.vietnam.vn/ko/da-nang-vao-danh-sach-diem-den-noi-bat-cua-chau-a-nam-2027
+  - vietnam.vn: 다낭이 론리 플래닛이 선정한 '2027년 최고의 여행지 ​​50곳'에 이름을 올렸으며, 썬 월드 바나힐의 골든 브릿지가 발표 페이지에 소개되었습니다. 미케 해변, 손트라 반도, 그리고 베트남 중부의 유적지를 탐방하는 투어와 함께 바나힐은 론리 플래닛이 추천하는 다낭 3일 여행 일정에도 
+    https://www.vietnam.vn/ko/lonely-planet-goi-ten-da-nang-trong-50-diem-den-nam-2027-chon-cau-vang-lam-bieu-tuong
 
-### 사누바 다낭 호텔은 "모범적인 금연 호텔" 모델을 효과적으로 유지하고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: VHO - 9월 23일부터 26일까지, '최우수 금연 호텔' 선정 프로그램 조직위원회는 2025년 선정 대상 호텔 11곳을 중심으로 다낭시에서 실태 조사 방문을 실시했습니다. 사누바 다낭 호텔(Sanouva Danang Hotel)을 참관한 결과, 해당 호텔은 금연 기준을 성실하고 창의
-    https://www.vietnam.vn/ko/khach-san-sanouva-danang-duy-tri-hieu-qua-mo-hinh-khach-san-tieu-bieu-khong-thuoc-la
+### 다낭행 에어서울 여객기서 불…보조배터리 발화 추정
+- 매체 1곳 · 신아일보
+  - 신아일보: 인천국제공항을 출발해 베트남 다낭으로 향하려던 에어서울 항공기 내에서 불이 나 출발이 지연됐다. 25일 업계에 따르면, 지난 24일 오후 9시경 이륙을 준비하던 인
+    https://www.shinailbo.co.kr/news/articleView.html?idxno=5065754
 
 ## 코타키나발루
 
@@ -95,10 +95,10 @@
 
 ## 제주
 
-### 우리가 입고 버리는 것은 옷만이 아니다
+### '노래하며 우는 새' 따라 걷는 신촌리
 - 매체 1곳 · 제주일보
-  - 제주일보: 계절마다 매장에는 새로운 옷들이 선보인다. 유행은 빠르게 변하고, 소비자의 시선은 하루가 다르게 새로운 디자인을 좇는다.
-    http://www.jejunews.com/news/articleView.html?idxno=2227911
+  - 제주일보: 2026 제주아동문학협회(회장 박희순) 초청으로 송재찬 동화작가가 1박2일 문학 행사를 위해 제주를 찾았다. 첫날은 후배 제주 아동문학가 역량 강화와 작가 생가를 찾아 가보고, 고향 신촌길을 걷는 투어를 진행하고, 다음날 제주 문학관에서 2026 도민과 함께 하는 작가초청 강연까지 준비
+    http://www.jejunews.com/news/articleView.html?idxno=2227918
 
 ### 곤떡 대신 케이크, 문중 벌초는 가족별로…간소해진 ‘멩질’
 - 매체 1곳 · 제주의소리
@@ -112,20 +112,20 @@
 
 ## 일본
 
+### 태풍 ‘두쥐안’ 日 수도권 접근... 항공·철도 잇따라 운행 중단
+- 매체 1곳 · 한국재난뉴스
+  - 한국재난뉴스: 강한 대형 태풍 ‘두쥐안’이 일본 도쿄 등의 수도권으로 접근하면서 항공·철도 운행 중단과 시설 휴관이 잇따르고 있다. 일본 기상청과 요미우리신문 등에 따르면 두쥐안은 오늘(21일) 낮부터 밤늦게까지 이즈 제도와 간토 등 수도권에 접근할 전망이다.
+    https://www.hjnews.co.kr/news/articleView.html?idxno=24675
+
 ### 전주시, 아시아 최대 관광박람회서 일본인 여행객의 발길을 이끌다
 - 매체 1곳 · 전북도민일보
   - 전북도민일보: 전주시가 82개 국가 여행 관계자와 관람객이 모인 아시아 최대 규모 관광박람회에 참가해 일본 관광시장 공략에 나섰다. 시는 지난 24일부터 27일까지 나흘간 일본 도쿄 빅사이트에서 열린 ‘투어리즘 엑스포 재팬 2026(TEJ)’에 참가해 한국홍보관 내 전주 관광 홍보부스를 운영했다.
     https://www.domin.co.kr/news/articleView.html?idxno=1569978
 
-### 싱가포르항공 '세계 최고 항공사' 선정→에어프레미아, 삿포로 신규 취항 프로모션
-- 매체 1곳 · 싱글리스트
-  - 싱글리스트: 항공사들이 서비스 경쟁력을 인정받거나 신규 노선 프로모션을 마련하며 여행객 접점을 넓히고 있다. 싱가포르항공은 올해 세계 항공 대상에서 최고상을 포함한 주요 부문을 석권했다.
-    https://www.slist.kr/news/articleView.html?idxno=767741
-
-### 나리타공항 입국 빨라진다…입국·세관 정보 한 번에
-- 매체 1곳 · 여행신문
-  - 여행신문: 일본 나리타국제공항 제1·2터미널의 입국 절차가 간소화된다. 9월 24일부터 입국 심사와 세관 신고에 필요한 정보를 한 번에 제출할 수 있는 ‘공동 키오스크’가 운영된다.
-    https://www.traveltimes.co.kr/news/articleView.html?idxno=500458
+### 한국인은 추석에 어디로 떠나나…日·中 넘어 중앙아시아까지
+- 매체 1곳 · 녹색경제신문
+  - 녹색경제신문: [녹색경제신문 = 한승진 기자]올해 추석 해외여행 수요가 일본과 중국 등 단거리 지역으로 몰리고 있다. 지난해 긴 황금연휴를 활용해 동남아와 미주 등 장거리까지 여행 수요가 분산됐던 것과 달리 올해는 3박4일의 짧은 연휴 탓에 비행시간 5시간 안팎 여행지가 인기를 끌고 있다.
+    https://www.greened.kr/news/articleView.html?idxno=350797
 
 ## 태국
 
@@ -145,19 +145,12 @@
   - 뉴스트래블: [뉴스트래블=정국환 기사] 글로벌 호텔 브랜드 요텔(YOTEL)이 태국에 처음 진출한다. ‘요텔 방콕 수쿰윗’은 10월 15일 방콕 남부 수쿰윗의 복합개발단지 클라우드 11에 250개 객실 규모로 문을 연다.
     https://www.newstravel.co.kr/news/article.html?no=27666
 
-### [방콕호텔] 도심에서 5성급 호캉스 기다리는 곳
-- 매체 1곳 · 국제뉴스
-  - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok) 로비. 방콕 번화가에서 대규모 야외 수영장과 정원이 있는 5성급 호텔로, 다수의 미쉐린 레스토랑이 푸드코드에 입점해 있는 시암 파라곤 쇼핑몰과 직접 
-    https://www.gukjenews.com/news/articleView.html?idxno=3705782
+### 새롭게 리뉴얼한 '아난타라 시암 방콕' 태국 호캉스
+- 매체 1곳 · 에스콰이어 코리아
+  - 에스콰이어 코리아: 40년 역사를 가진 태국의 상징적인 럭셔리 호텔 '아난타라 시암 방콕'을 소개합니다. 고급스러운 호캉스를 즐길 수 있는 호텔의 시설과 다양한 프로그램을 지금 바로 확인해 보세요.
+    https://www.esquirekorea.co.kr/article/1909890
 
 ## 연예 (편집실이 쓴다 — 자동 해설 대상 아님)
-
-### [drama] 리센느 미나미, 첫 단독 예능에 화제성 1위…‘라스’ 자체 최고 기록까지
-- 매체 2곳 · iMBC 연예 · 스포츠동아  ← 여러 곳이 썼다
-  - 스포츠동아: [동아닷컴 김승현 기자] 리센느(RESCENE) 미나미가 첫 단독 예능 나들이에서 화제성 1위에 오르며 ‘라디오스타’의 자체 최고 기록까지 이끌었다. 화제성 분석 기관 굿데이터코퍼레이션 펀덱스(FUNdex)가 발표한 9월 3주 차 조사에 따르면 지난 16일 방송된 M…
-    https://sports.donga.com/ent/article/all/20260922/134721944/1
-  - iMBC 연예: MBC '라디오스타'가 출연진의 솔직한 이야기와 거침없는 입담을 앞세워 2026년 자체 최고 화제성 기록을 새롭게 썼다. 화제성 분석 기관 굿데이터코퍼레이션 펀덱스(FUNdex)가 공개한 9월 3주 차 조사 결과에 따르면, 지난 16일 방송된 '라디오스타'에 출연한 그룹 리센느(RESC
-    https://enews.imbc.com/News/RetrieveNewsInfo/519076
 
 ### [movie] 완주 아동권리영화제에 전국서 174편 접수
 - 매체 2곳 · 더펜뉴스 · 완주신문  ← 여러 곳이 썼다
@@ -165,13 +158,6 @@
     https://www.wj1news.com/news/article.html?no=17437
   - 더펜뉴스: 인공지능(AI)이 빠르게 일상으로 들어오는 시대에 아동·청소년이 체감하는 권리의 변화와 고민이 영화에 담겼다. 완주에서 열리는 아동권리영화제 공모에 전국에서 170편이 넘는 작품이 접수되면서 아동권리와 AI라는 동시대적 의제를 어린이와 청소년의 시선으로 들여다보는 장이 마련됐다.
     https://www.thepennews.net/news/article.html?no=45005
-
-### [drama] 단독 유재명·이선빈, '거장항준' 첫 게스트…10월 15일 첫 방송
-- 매체 2곳 · star.ytn.co.kr · 브릿지경제  ← 여러 곳이 썼다
-  - star.ytn.co.kr: 배우 유재명과 이선빈이 신규 예능프로그램 '거장항준'의 첫 게스트로 나선다. 오늘(22일) YTN Star 취재 결과, 유재명과 이선빈은 SBS 새 시네마틱 토크 예능 '거장항준'의 첫 게스트로 낙점돼 최근 녹화를 마쳤다.
-    https://star.ytn.co.kr/_sn/0117_202609221020195135
-  - 브릿지경제: 장항준 감독이 자신의 이름을 내건 새 예능으로 돌아온다. SBS는 신규 예능 프로그램 ‘거장항준’의 첫 방송일을 오는 10월 15일로 확정하고, 독특한 분위기의 티저 포스터를 22일 공개했다.
-    https://www.viva100.com/article/20260922500463
 
 ### [movie] 유연석·고아성, 부산국제영화제 ‘올해의 배우상’ 심사
 - 매체 2곳 · 국민일보 · 뉴스핌  ← 여러 곳이 썼다
@@ -186,6 +172,20 @@
     https://theggnews.com/ko-kr/articles/27887
   - 한국철도일보: [한국철도일보 박지현 기자] 제17회 서울교통공사 국제지하철영화제가 오는 24일부터 10월 23일까지 약 한 달간 열린다. 서울교통공사와 서울국제초단편영상제가 공동 주최하는 이번 영화제에는 CGV와 하겐다즈, 홍콩AI영화제, 탭나우 등이 후원사로 참여하며 바르셀로나 지하철영화제와의 협력
     https://www.korearailroad.kr/news/articleView.html?idxno=199122
+
+### [drama] "이현욱·장혁·김강우·박성웅 합류"… KBS 대하드라마 '문무', 역대급 라인업과 대본리딩 공개
+- 매체 2곳 · 뉴스버즈(newsbuzz) · 일간스포츠  ← 여러 곳이 썼다
+  - 뉴스버즈(newsbuzz): KBS가 선보이는 새로운 대하드라마 '문무'가 묵직한 에너지로 가득한 대본리딩 현장과 제작기 영상을 공개하며 정통 사극의 화려한 부활을 알렸다. 22일 KBS에 따르면 오는 11월 첫 방송 예정인 KBS 2TV 새 대하드라마 '문무'(극본 김리헌·홍진이, 연출 김영조·구성준, 제작 키이
+    https://www.newsbuzz.co.kr/news/articleView.html?idxno=25377
+  - 일간스포츠: 대하드라마 ‘문무’ 대본리딩 현장과 제작기가 공개됐다. 오는 11월 첫 방송 예정인 KBS2 대하드라마 ‘문무’는 600년간 이어진 전쟁과.
+    https://isplus.com/article/view/isp202609220016
+
+### [drama] 단독 유재명·이선빈, '거장항준' 첫 게스트…10월 15일 첫 방송
+- 매체 2곳 · star.ytn.co.kr · 브릿지경제  ← 여러 곳이 썼다
+  - star.ytn.co.kr: 배우 유재명과 이선빈이 신규 예능프로그램 '거장항준'의 첫 게스트로 나선다. 오늘(22일) YTN Star 취재 결과, 유재명과 이선빈은 SBS 새 시네마틱 토크 예능 '거장항준'의 첫 게스트로 낙점돼 최근 녹화를 마쳤다.
+    https://star.ytn.co.kr/_sn/0117_202609221020195135
+  - 브릿지경제: 장항준 감독이 자신의 이름을 내건 새 예능으로 돌아온다. SBS는 신규 예능 프로그램 ‘거장항준’의 첫 방송일을 오는 10월 15일로 확정하고, 독특한 분위기의 티저 포스터를 22일 공개했다.
+    https://www.viva100.com/article/20260922500463
 
 ### [startrip] ‘은중과 상연’, 박지현, 美여배우 최초로 국제 에미상 후보
 - 매체 2곳 · 문화일보 · 한겨레  ← 여러 곳이 썼다
