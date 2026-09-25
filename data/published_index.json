@@ -219,6 +219,7 @@
     "1148120e8c2bdbf4d15107ac50a8dc82261b9288",
     "1156625d4d20560bb44b14ca78e5ac8774fe450c",
     "115c00a217ffb13aa5457acfa7fb1b22401a62a1",
+    "115e4bab1c755c4b09e5941ae394d7fef0e47c6c",
     "11631f42d9b0ffbb0599672aae0bc5df4fac1989",
     "11887a7c0d38888fbf666031e14199faac6b2ee2",
     "11a67d0f9ae474cf1b95e5e7fde9997a73ad41cc",
@@ -1681,6 +1682,7 @@
     "868852096996c13130c5e217ed340d43935b4b3a",
     "8696ff4ef8176b8431055a612aa57c95a6a328bc",
     "869dd53348a43f2746c3f258df80161c790378c6",
+    "86b9b372ccc1405fd26c9e17a6a9020b292c5465",
     "86e837d83edb0f6bf93ecad999ce17ce0e6ce97f",
     "86ee2e8cb65f88f1163099046a2596f532310568",
     "8723ace5d58d69503138d62e119706089e0e2f06",
@@ -2915,6 +2917,7 @@
     "e1c5c68942bfbb09e190e22a0672c69e68105d58",
     "e1cce6f0d7094ffacdab73eba6605195c5fb8cbf",
     "e1d71941b8f5054be184844f0223b19f8706170f",
+    "e1e032f59e15d9552641e16db454a5c721687fef",
     "e1fb8d6c898d0cd4d23c1690a6f44e070f7afe8e",
     "e2027b4ca13c01b5f4c870947ca6527970b22349",
     "e2035efc196a04de2157e19e910b1bb32ec7af17",
@@ -25987,9 +25990,30 @@
     },
     {
       "id": "554e993ee8800523b68f84d73bd3d24409a32b19",
-      "title": "Flight attendants evaluated for sickness upon arrival at Honolulu Airport",
+      "title": "호놀룰루 공항 도착 승무원들, 기내 질환 의심으로 검사",
       "date": "2026-09-25",
       "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "115e4bab1c755c4b09e5941ae394d7fef0e47c6c",
+      "title": "‘은중과 상연’ 박지현 국제에미상 여자 연기상 후보",
+      "date": "2026-09-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "86b9b372ccc1405fd26c9e17a6a9020b292c5465",
+      "title": "Guam Museum hosting 100th anniversary celebration on Oct. 3",
+      "date": "2026-09-25",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "e1e032f59e15d9552641e16db454a5c721687fef",
+      "title": "China-Laos ‘Peace Train-2026’ mission successfully concludes",
+      "date": "2026-09-25",
+      "region": "laos",
       "grade": "B"
     }
   ]
