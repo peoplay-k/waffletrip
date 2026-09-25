@@ -1,18 +1,19 @@
-# 오늘 쓸 기사거리 (2026-09-24)
+# 오늘 쓸 기사거리 (2026-09-25)
 
 여러 매체가 같은 건을 쓴 것부터 놓았다. **문장을 옮기지 말고**
 사실만 가져다 우리 문장으로 쓴다. 인용한 매체는 본문에 밝힌다.
 
 ## 괌
 
-### 괌정부관광청, 대한항공 스타링크 기내 디지털 광고로 ‘괌 여행 매력’ 알린다
-- 매체 3곳 · 미디어원 · 비즈월드 · 투어코리아  ← 여러 곳이 썼다
-  - 투어코리아: [투어코리아=조성란 기자] 대한항공 기내에서 와이파이를 연결하는 순간, 에메랄드빛 바다와 따뜻한 햇살이 펼쳐진 괌이 여행객을 먼저 만난다. 괌정부관광청이 대한항공의 스타링크 기반 기내 와이파이 서비스에 새롭게 도입된 디지털 광고를 활용해 괌 알리기에 나선다.
-    https://www.tournews21.com/news/articleView.html?idxno=144171
-  - 비즈월드: [비즈월드] 인천을 떠나 남태평양으로 향하는 비행기 안, 기내 와이파이에 접속하는 순간 에메랄드빛 바다와 따뜻한 햇살이 펼쳐지는 괌의 풍경이 화면을 채운다. 해외 여행의 출발점인 '기내'에서부터 잠재 여행객의 시선을 사로잡는 이색 디지털 마케팅이 첫선을 보인다.
-    https://www.bizwnews.com/news/articleView.html?idxno=147223
-  - 미디어원: 괌정부관광청은 대한항공의 스타링크 기반 기내 와이파이 서비스에 새롭게 도입된 기내광고를 통해 괌 공식 홍보 영상을 선보인다. 대한항공의 신규 기내 와이파이 이용객은 서비스 접속 과정에서 괌의 다양한 매력을 담은 홍보 영상을 만나볼 수 있다.
-    https://media1.or.kr/2026/09/%EA%B4%8C%EC%A0%95%EB%B6%80%EA%B4%80%EA%B4%91%EC%B2%AD-%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5-%EC%8A%A4%ED%83%80%EB%A7%81%ED%81%AC-%EA%B8%B0%EB%82%B4%EA%B4%91%EA%B3%A0-%EB%8F%84%EC%9E%85%EA%B3%BC/
+### [괌여행] 두짓타니 괌 리조트 조식 키즈 코너
+- 매체 1곳 · 국제뉴스
+  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 내 아쿠아 레스토랑 조식의 키즈 코너. 통유리창 너머로 보이는 시원한 투몬만 파노라마 오션뷰가 있는 뷔페 레스토랑으로서 두짓타니의 조식 레스토랑이자 저녁에는 환상적인 투몬만 
+    https://www.gukjenews.com/news/articleView.html?idxno=3705467
+
+### [괌여행] 투몬 비치까지 5초 거리 리조트
+- 매체 1곳 · 국제뉴스
+  - 국제뉴스: (괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 수영장. 두짓타니 괌은 총 421개의 객실과 태국식 웰니스 호스피탤리티로 무장한 괌의 최신 호텔 중 하나로서, 투몬만 중심에서 탁 트인 바다의 파노라마 뷰가 보이는 위치에 풀
+    https://www.gukjenews.com/news/articleView.html?idxno=3705464
 
 ### 괌정부관광청, 대한항공 스타링크에서 괌 홍보영상 공개
 - 매체 1곳 · 뉴스케이프
@@ -21,53 +22,46 @@
 
 ## 사이판
 
-### 마리아나관광청, 마나가하섬 재개장·겨울방학 영어캠프로 준비하는 사이판 가족여행
-- 매체 1곳 · 이로운뉴스
-  - 이로운뉴스: [이로운뉴스 : 허승규 국장] 마리아나관광청은 태풍 피해 복구와 마나가하섬 등 주요 관광지 재정비를 진행하며 사이판 여행 재개를 위한 준비에 속도를 내고 있다.
-    https://www.erounews.kr/news/articleView.html?idxno=5230
+### “활기 찾는 서태평양의 낙원”… 마리아나관광청, 주요 명소 정비 및 관광 활성화 박차
+- 매체 1곳 · 열린뉴스통신
+  - 열린뉴스통신: (서울=열린뉴스통신) 박소연 기자 = 태풍 피해를 딛고 재정비에 나선 마리아나가 스포츠 성과와 주요 관광지 운영 재개에 힘입어 본격적인 관광 활성화에 나선다. 마리아나관광청은 스포츠 앰배서더인 KLPGA 프로골퍼 박보겸 선수의 메이저 대회 우승 소식과 함께, 마나가하섬 재개장 및 겨울방
+    https://www.onews.tv/news/articleView.html?idxno=287771
 
 ### 다시 활기 찾는 마리아나, 골프와 가족 영어캠프 등 취향 맞춤 여행 매력 더한다
 - 매체 1곳 · 이트레블뉴스
   - 이트레블뉴스: [이트레블뉴스=이성훈 기자] 서태평양의 대표적인 휴양지 마리아나가 태풍 피해 복구 작업을 신속히 마무리하고 주요 관광 인프라를 대대적으로 재정비
     https://www.momonews.com/81278
 
-### “활기 찾는 서태평양의 낙원”… 마리아나관광청, 주요 명소 정비 및 관광 활성화 박차
-- 매체 1곳 · 열린뉴스통신
-  - 열린뉴스통신: (서울=열린뉴스통신) 박소연 기자 = 태풍 피해를 딛고 재정비에 나선 마리아나가 스포츠 성과와 주요 관광지 운영 재개에 힘입어 본격적인 관광 활성화에 나선다. 마리아나관광청은 스포츠 앰배서더인 KLPGA 프로골퍼 박보겸 선수의 메이저 대회 우승 소식과 함께, 마나가하섬 재개장 및 겨울방
-    https://www.onews.tv/news/articleView.html?idxno=287771
+### 마리아나관광청, 마나가하섬 재개장·겨울방학 영어캠프로 준비하는 사이판 가족여행
+- 매체 1곳 · 이로운뉴스
+  - 이로운뉴스: [이로운뉴스 : 허승규 국장] 마리아나관광청은 태풍 피해 복구와 마나가하섬 등 주요 관광지 재정비를 진행하며 사이판 여행 재개를 위한 준비에 속도를 내고 있다.
+    https://www.erounews.kr/news/articleView.html?idxno=5230
 
 ## 하와이
 
-### “지금 가자 하와이” 10월 레스토랑 축제, 아웃리거 가성비 미식여행
-- 매체 1곳 · 헤럴드경제
-  - 헤럴드경제: [헤럴드경제=함영훈 기자] 하와이가 10월 미식축제때 파격적인 프로모션으로 가성비 높은 여행은 유도한다. 와이키키 중심에 위치한 아웃리거 리조트는 10월 1일부터 11일
-    https://biz.heraldcorp.com/article/10879570
+### County of Maui officials urge preparedness ahead of Tropical Storm Nolo
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: County of Maui officials are urging residents and visitors to prepare for severe weather.
+    https://www.hawaiinewsnow.com/2026/09/23/county-maui-officials-urge-preparedness-ahead-tropical-storm-nolo/
+  - Hawaii News Now: Several cancellations are being announced as Tropical Storm Nolo is expected to bring high winds and heavy rains across the state.
+    https://www.hawaiinewsnow.com/2026/09/23/tropical-storm-nolo-list-hawaii-closures-cancellations/
 
 ## 베트남
 
-### 다낭 관광, 국가적 차원으로 도약 목표로 - 최종편: 경쟁력 강화를 위한 획기적인 발전
+### 다낭의 "모범 금연 호텔" 모니터링
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 국가 관광 성장 중심지 3곳 중 하나로 선정된 다낭은 더욱 폭넓은 경쟁 환경 속에서 입지를 다져야 합니다. 관광 성장 중심지로 거듭나기 위해서는 단순히 관광객 수를 늘리는 것을 넘어, 방문객 한 명 한 명으로부터 더 높은 가치를 창출해야 하며, 동시에 베트남 중부 지역 관광 산업에서 선
-    https://www.vietnam.vn/ko/du-lich-da-nang-khat-vong-vuon-tam-quoc-gia-bai-cuoi-dot-pha-de-tang-suc-canh-tranh
+  - vietnam.vn: VHO - 9월 23일부터 26일까지, '최우수 금연 호텔' 선정 프로그램 조직위원회는 2025년 선정 대상인 다낭의 호텔 11곳을 대상으로 실사 방문을 실시했습니다.
+    https://www.vietnam.vn/ko/giam-sat-khach-san-tieu-bieu-khong-thuoc-la-tai-da-nang
 
-### 다낭: 여행사 운영 품질 향상.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 9월 17일, 다낭시 문화체육관광국은 여행 서비스 사업자를 위한 법규를 보급하고 안내하기 위한 설명회를 개최했습니다.
-    https://www.vietnam.vn/ko/da-nang-nang-cao-chat-luong-hoat-dong-cua-doanh-nghiep-lu-hanh
+### 다낭행 에어서울 여객기서 불…보조배터리 발화 추정
+- 매체 1곳 · 신아일보
+  - 신아일보: 인천국제공항을 출발해 베트남 다낭으로 향하려던 에어서울 항공기 내에서 불이 나 출발이 지연됐다. 25일 업계에 따르면, 지난 24일 오후 9시경 이륙을 준비하던 인
+    https://www.shinailbo.co.kr/news/articleView.html?idxno=5065754
 
-### 다낭은 추석 연휴 기간 동안 한국인 관광객들에게 5,000개가 넘는 선물과 상품권을 증정합니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: VHO - 다낭시는 2026년 추석 관광 시즌을 맞아 9월 21일부터 27일까지 다낭을 방문하는 한국인 관광객에게 5,000개 이상의 선물과 할인 쿠폰을 제공하는 "다낭을 사랑해요" 프로그램을 시작합니다.
-    https://www.vietnam.vn/ko/da-nang-tang-hon-5-000-phan-qua-voucher-cho-du-khach-han-quoc-dip-chuseok
-
-## 코타키나발루
-
-### First Iran flights cancelled as US sanctions set to come into force
-- 매체 1곳 · New Straits Times  ← 여러 곳이 썼다
-  - New Straits Times: TEHERAN: Flights from Iran to the capitals of Iraq and Oman will be cancelled as of midnight, local media reported Tuesday, hours before expanded US sanctions w
-    https://www.nst.com.my/business/corporate/2026/09/1538865/first-iran-flights-cancelled-us-sanctions-set-come-force
-  - New Straits Times: TEHERAN: Iranian airlines were forced to cancel some international flights on Wednesday after the US tightened sanctions on Iran’s aviation industry in a new ef
-    https://www.nst.com.my/world/world/2026/09/1539672/iran-airlines-cancel-flights-us-sanctions-hit
+### 베트남 다낭, 한국 관광객에 ‘추석 선물’ 보따리 푼다…최대 고객에 감사 인사
+- 매체 1곳 · VOV5.VN
+  - VOV5.VN: [VOVWORLD] - 한국의 최대 명절인 추석을 맞아 베트남 중부 인기 해양 관광지 다낭(Đà Nẵng)시가 한국 관광객을 대상으로 5,000여 개의 사은품과 다양한 혜택을 제공하며, 다낭의 최대 외국인 관광 시장인 한국에 깊은 감사의 뜻을 전한다.
+    https://vovworld.vn/ko-KR/nyuseu/beteunam-danang-hangug-gwangwanggaege-chuseog-seonmul-bottali-pundachoedae-gogaege-gamsa-insa-2467532.vov5
 
 ## 라오스
 
@@ -76,44 +70,39 @@
   - vietnam.vn: 9월 23일, 캄판 분파콤 라오스 법무부 차관을 단장으로 하는 라오스 인민혁명당 차관급 이상 고위 관리들로 구성된 대표단이 타이닌 방문 및 업무차 바덴산 국립 관광지구를 시찰했습니다.
     https://www.vietnam.vn/ko/doan-can-bo-cap-thu-truong-va-tuong-duong-cua-dang-nhan-dan-cach-mang-lao-tham-quan-nui-ba-den
 
-### 라오스는 새로운 플랫폼을 통해 관광 산업의 디지털 전환을 가속화하고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 라오스 문화관광부는 민간 부문과 협력하여 라오스 여행 플랫폼(Lao Travel Platform)을 출시했습니다. 이 새로운 디지털 관광 플랫폼은 라오스 여행 계획 수립 및 관광 서비스 이용을 더욱 편리하고 쉽게 만들어주도록 설계되었습니다.
-    https://www.vietnam.vn/ko/lao-day-manh-chuyen-doi-so-nganh-du-lich-voi-nen-tang-moi
-
 ## 제주
-
-### 가족과 함께 살아갈 권리
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 얼마 전 외국인 노동자(미숙련 비자의 노동자)와 함께 일을 한 적이 있다. 20대 중반 이후부터 30대 중반까지 대체로 젊은 외국인 청년들이었다.
-    https://www.jejusori.net/news/articleView.html?idxno=506818
-
-### 제주 애월읍 가족들, 자연 속에서 소통한 특별한 1박2일
-- 매체 1곳 · 제주일보
-  - 제주일보: 제주시 애월읍 가족들이 자연 속에서 함께 걷고 체험하며 가족 간 소통을 나누는 특별한 시간을 보냈다. 2026년 애월읍 주민참여예산 지원사업인 ‘가족과 함께하는 자연탐방 플로깅&애월 이야기’가 지난 19~20일 제주 노꼬메펜션캠핑장에서 관내 9가정을 대상으로 진행됐다.
-    http://www.jejunews.com/news/articleView.html?idxno=2227903
 
 ### 제주 추석날 보름달 보기 어려워…연휴 후반 귀경길엔 비
 - 매체 1곳 · 제주의소리
   - 제주의소리: 올해 추석 당일 제주에서는 흐린 날씨로 보름달을 보기 어려울 전망이다. 연휴 후반인 26일부터 27일 오전까지는 비가 예보돼 귀경길 교통안전에 주의가 필요하다.
     https://www.jejusori.net/news/articleView.html?idxno=506831
 
+### 죄와 벌
+- 매체 1곳 · 제주일보
+  - 제주일보: 희영 씨는 잘 나가던 무속인이다. 작두 타는 능력은 한 수 아래 마른하늘에서 비를 불러내고 태풍의 진로를 원하는 방향으로 틀어낸다.
+    http://www.jejunews.com/news/articleView.html?idxno=2227912
+
+### '노래하며 우는 새' 따라 걷는 신촌리
+- 매체 1곳 · 제주일보
+  - 제주일보: 2026 제주아동문학협회(회장 박희순) 초청으로 송재찬 동화작가가 1박2일 문학 행사를 위해 제주를 찾았다. 첫날은 후배 제주 아동문학가 역량 강화와 작가 생가를 찾아 가보고, 고향 신촌길을 걷는 투어를 진행하고, 다음날 제주 문학관에서 2026 도민과 함께 하는 작가초청 강연까지 준비
+    http://www.jejunews.com/news/articleView.html?idxno=2227918
+
 ## 일본
 
-### 도쿄 달리며 회전초밥 무제한…세계 첫 ‘스시 버스’ 10월 뜬다
-- 매체 1곳 · 연합투데이
-  - 연합투데이: 도쿄 도심을 달리는 2층 오픈톱 버스에서 시부야와 긴자, 아사쿠사 등 주요 관광지를 바라보며 회전초밥을 즐기는 이색 관광상품이 등장한다. 19일 도쿄관광한국사무소와 현지 운영사 등에 따르면 주식회사 SUSHI BUS와 WILLER ACROSS는 오는 10월부터 도쿄에서 회전초밥과 시내 
-    https://www.yhtoday.co.kr/news/articleView.html?idxno=74093
+### 후쿠오카 호텔에서 무료로 사용할 수 있는 '신기'를 대만인이 극찬 = '놀랐다', '이건 최고!' -대만 언론
+- 매체 1곳 · Record China
+  - Record China: 대만 언론 중시신문망은 29일, 일본 호텔의 무료 '신기'를 대만인 여행자가 극찬했다고 보도했다.
+    https://www.recordchina.co.jp/ko/newsinfo?id=988419
 
-### 일본을 강타한 태풍 두쥐안으로 4명이 사망하고 6명이 실종됐다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 태풍 두쥐안은 도쿄와 주변 지역에 폭우, 홍수, 산사태를 일으켜 최소 4명의 사망자를 발생시켰습니다. 일본 당국은 160만 명이 넘는 주민들에게 대피령을 내렸고, 항공사들은 270편 이상의 항공편을 취소하여 수만 명의 승객에게 영향을 미쳤습니다.
-    https://www.vietnam.vn/ko/bao-dujuan-tai-nhat-ban-khien-4-nguoi-thiet-mang-6-nguoi-mat-tich
+### 민단 오사카, ‘2026 의결기관 연수회’ 개최
+- 매체 1곳 · 월드코리안뉴스
+  - 월드코리안뉴스: (서울=월드코리안신문) 이종환 기자재일본대한민국민단 오사카부 본부는 9월 19일 오사카 신사이바시에 위치한 뉴오사카호텔에서 &lsquo;2026 민단 오사카 의결기관 연수회&rsquo;를 개최했다. 이날 연수회에는 민단 오사카와 지부 의결기관, 민단 중앙, 오사카총영사관 등에서 56명이
+    https://www.worldkorean.net/news/articleView.html?idxno=57833
 
-### 경남, 도쿄 한일축제한마당서 관광·문화 콘텐츠 선보인다
-- 매체 1곳 · STN NEWS
-  - STN NEWS: [STN뉴스] 박요한 기자┃경상남도가 일본 도쿄에서 열리는 한일 문화교류 행사에 참가해 지역의 관광자원과 문화유산, 특산품을 알리는 현장 홍보에 나선다. 경남도 동
-    https://www.stnsports.co.kr/news/articleView.html?idxno=323115
+### 호텔 인터컨티넨탈 도쿄 베이, 2026년 크리스마스 시즌 맞이 '채플 드 크리스마스 나이트 프로포즈 플랜' 공개
+- 매체 1곳 · Holiday Travel
+  - Holiday Travel: 호텔 인터컨티넨탈 도쿄 베이는 2026년 12월 18일~20일 및 12월 23일~26일 한정으로 '채플 드 크리스마스 나이트 프로포즈 플랜'을 선보입니다. 크리스마스 장식으로 꾸며진 촛불 채플, 21송이의 반짝이는 '주얼 로즈' 꽃다발, 바이올린과 오르간 라이브 연주, 그리고 호텔 4개
+    https://www.haveagood-holiday.com/ko/articles/intercontinental-tokyo-bay-chapel-christmas-night-proposal-2026
 
 ## 태국
 
@@ -125,14 +114,16 @@
     https://www.newstravel.co.kr/news/article.html?no=27666
 
 ### [방콕호텔] 메인풀을 내것처럼 '시암 켐핀스키 방콕'
-- 매체 1곳 · 국제뉴스
+- 매체 1곳 · 국제뉴스  ← 여러 곳이 썼다
   - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok) 듀플렉스 카바나 객실에서 본 바깥 풍경. 시암 켐핀스키 방콕에서 호캉스의 진수가 기다리는 듀플렉스 카바나는 메인 수영장과 직접 연결되는 복층 구조의 
     https://www.gukjenews.com/news/articleView.html?idxno=3704422
+  - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok) 듀플렉스 카바나 객실. 시암 켐핀스키 방콕에서 호캉스의 진수가 기다리는 듀플렉스 카바나는 메인 수영장과 직접 연결되는 복층 구조의 스위트룸으로, 1층
+    https://www.gukjenews.com/news/articleView.html?idxno=3705469
 
-### 태국관광청, K-팝 연계 ‘서브컬처 경제’ 전략 가동… 방콕 테마파크에 팝컬처 관광 공간 조성
-- 매체 1곳 · 디스커버리뉴스(DISCOVERYNEWS)
-  - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 태국관광청이 글로벌 K-팝 팬덤 및 대중문화를 현지 관광 수요와 연계하는 '서브컬처 경제(Sub-Culture Economy)' 추진 전략을 본격 가동한다. 태국관광청은 그룹 블랙핑크 멤버 지수(JISOO)의 신곡 'CLICK' 뮤직비디오 촬영지인 방콕 '
-    https://www.discoverynews.kr/news/articleView.html?idxno=1102463
+### 새롭게 리뉴얼한 '아난타라 시암 방콕' 태국 호캉스
+- 매체 1곳 · 에스콰이어 코리아
+  - 에스콰이어 코리아: 40년 역사를 가진 태국의 상징적인 럭셔리 호텔 '아난타라 시암 방콕'을 소개합니다. 고급스러운 호캉스를 즐길 수 있는 호텔의 시설과 다양한 프로그램을 지금 바로 확인해 보세요.
+    https://www.esquirekorea.co.kr/article/1909890
 
 ---
-거리 21건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 20건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
