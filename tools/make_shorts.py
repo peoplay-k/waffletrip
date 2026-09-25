@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""와플트립 쇼츠(9:16)를 만든다. 롱폼과 다른 물건이다.
+"""피플로드 쇼츠(9:16)를 만든다. 롱폼과 다른 물건이다.
 
 롱폼은 한 주치를 훑는 3분짜리이고, 쇼츠는 **한 도시 한 편**의 40초짜리다.
 같은 재료를 잘라 쓰는 것이 아니라 구성을 따로 짠다 — 쇼츠는 첫 3초에
@@ -126,8 +126,8 @@ def _base(photo: str | None = None):
         ink, muted = INK, MUTED
     d = ImageDraw.Draw(img)
     brand = _f(38)
-    d.text((PAD, 96), "와플트립", font=brand, fill=ink)
-    d.text((PAD + d.textlength("와플트립", font=brand), 96), ".",
+    d.text((PAD, 96), "피플로드", font=brand, fill=ink)
+    d.text((PAD + d.textlength("피플로드", font=brand), 96), ".",
            font=brand, fill=CORAL)
     return img, d, ink, muted
 
@@ -267,7 +267,7 @@ def build(city: str) -> list[dict]:
         })
     scenes.append({
         "kind": "close",
-        "narration": "와플트립은 매일 아침 여덟 시에 여행 뉴스를 정리해 올립니다.",
+        "narration": "피플로드은 매일 아침 여덟 시에 여행 뉴스를 정리해 올립니다.",
     })
 
     # 장면마다 사진 한 장. 사진이 없으면 **영상을 만들지 않는다** —
@@ -542,7 +542,7 @@ def build_silent(city: str, out_dir: str) -> str:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="와플트립 쇼츠")
+    ap = argparse.ArgumentParser(description="피플로드 쇼츠")
     ap.add_argument("--city", default="tokyo")
     ap.add_argument("--frames", default="")
     ap.add_argument("--script", action="store_true")

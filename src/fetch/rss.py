@@ -34,7 +34,7 @@ NOT_AN_ARTICLE = re.compile(
     r"한눈에 보는 오늘|편성표|오늘의 운세|방송/가요|주요 뉴스 모아보기")
 from src.sources import Source
 
-USER_AGENT = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
+USER_AGENT = "PeopleRoadBot/1.0 (+https://waffletrip.com/about/)"
 TIMEOUT = 15.0
 
 _TAG = re.compile(r"<[^>]+>")

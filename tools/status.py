@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""와플트립 전체 상태를 한 화면에 보여준다.
+"""피플로드 전체 상태를 한 화면에 보여준다.
 
 이 도구의 목적은 **무엇이 막혀 있고 그게 누구 손에 있는지**를 분명히 하는 것이다.
 "진행 상황이 어떻게 되나"를 물어볼 필요가 없게 만드는 것이 목표다.
@@ -215,7 +215,7 @@ def section_photos():
 def main() -> int:
     net = "--no-net" not in sys.argv
     now = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
-    print(f"\n\033[1m와플트립 상태\033[0m  {now} KST")
+    print(f"\n\033[1m피플로드 상태\033[0m  {now} KST")
 
     blocked = []
     blocked += section_deploy(net)

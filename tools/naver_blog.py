@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""와플트립 기사를 네이버 블로그에 올린다.
+"""피플로드 기사를 네이버 블로그에 올린다.
 
 **계정과 블로그는 인자로만 받는다.** 회사 채널과 개인 채널이 같은 브라우저에
 떠 있어서, 기본값을 두면 언젠가 엉뚱한 곳에 올라간다. 실제로 상주 브라우저에
@@ -161,7 +161,7 @@ def make_tags(item: dict, facts: list[dict]) -> list[str]:
         for word in ("호텔", "항공", "축제", "면세", "온천", "맛집", "리조트"):
             if word in text and f"{place}{word}" not in tags:
                 tags.append(f"{place}{word}")
-    tags.append("와플트립")
+    tags.append("피플로드")
     return tags[:10]
 
 
@@ -214,7 +214,7 @@ def to_blog(item: dict) -> tuple[str, list[str]]:
 
     paras.append("")
     paras.append("─" * 20)
-    paras.append("기사 원문과 매일 갱신되는 환율·날씨는 와플트립에서 보실 수 있습니다.")
+    paras.append("기사 원문과 매일 갱신되는 환율·날씨는 피플로드에서 보실 수 있습니다.")
     paras.append("https://waffletrip.com")
     return title, [p for p in paras]
 
@@ -275,7 +275,7 @@ def post(blog_id: str, title: str, paras: list[str], commit: bool,
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="와플트립 → 네이버 블로그")
+    ap = argparse.ArgumentParser(description="피플로드 → 네이버 블로그")
     ap.add_argument("--blog", required=True, help="블로그 아이디 (blog.naver.com/<여기>)")
     ap.add_argument("--post", action="store_true", help="실제로 발행한다")
     ap.add_argument("--dry-run", action="store_true", help="글만 만들어 보여준다")

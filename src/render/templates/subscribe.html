@@ -3,12 +3,16 @@
 {% block description %}{{ site_name }}을 RSS 로 받아보는 법. 전체 피드와 지역별 피드.{% endblock %}
 {% block content %}
 <h1>구독</h1>
-<p>{{ site_name }}은 매일 아침 새 기사를 냅니다. 앱을 깔거나 회원가입을 할 필요 없이 <b>RSS</b> 로 받아볼 수 있습니다. 광고도, 알고리즘도 없습니다.</p>
+<p>{{ site_name }}는 매일 새 기사를 냅니다. 앱을 깔거나 회원가입을 할 필요 없이 <b>RSS</b> 로 받아볼 수 있습니다. 광고도, 알고리즘도 없습니다.</p>
 
 <h2>전체 피드</h2>
 <p class="feed"><code id="feed-all">{{ site_base }}/rss.xml</code> <button type="button" class="share-btn" data-copy="feed-all">주소 복사</button></p>
 
-<h2>지역별 피드</h2>
+<h2>연예 피드</h2>
+<p>영화·드라마·방송·음악·공연·인물과 스타의 여행만 받습니다.</p>
+<p class="feed"><code id="feed-ent">{{ site_base }}/ent/rss.xml</code> <button type="button" class="share-btn" data-copy="feed-ent">주소 복사</button></p>
+
+<h2>여행 지역별 피드</h2>
 <p>관심 있는 지역만 받으려면 그 지역 피드를 씁니다.</p>
 <ul class="feeds">
 {% for slug, name in region_names.items() %}  <li><b>{{ name }}</b> <code>{{ site_base }}/{{ slug }}/rss.xml</code></li>

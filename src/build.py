@@ -121,8 +121,11 @@ def build(items: list[Item], out_dir: str, today: str,
     written = render_site(items, out_dir, today)
     written.append(render_rss(listed, out_dir, built_at))
     # 지역별 피드. 관심 지역만 받는 독자용(/구독 페이지가 안내한다).
-    for region in sorted({i.region for i in listed}):
+    # 연예 기사는 region 이 빈 값이라 지역 피드를 만들지 않는다.
+    for region in sorted({i.region for i in listed if i.region and i.channel != "ent"}):
         written.append(render_rss(listed, out_dir, built_at, region=region))
+    # 연예 피드. 기사가 없어도 만든다 — 구독 페이지가 주소를 안내하고 있다.
+    written.append(render_rss(listed, out_dir, built_at, channel="ent"))
     written.append(render_sitemap(listed, out_dir, today))
     written.append(render_robots(out_dir))
     written.append(render_llms_txt(items, out_dir))

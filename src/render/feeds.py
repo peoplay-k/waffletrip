@@ -13,8 +13,9 @@ from datetime import datetime
 from urllib.parse import quote, urlsplit, urlunsplit
 
 from src.models import Item
-from src.render.site import (BASE_PATH, REGION_NAMES, SITE_NAME, SITE_TAGLINE, SITE_URL,
-                             article_url)
+from src.render.site import (BASE_PATH, REGION_NAMES, SITE_KIND, SITE_NAME,
+                             SITE_TAGLINE, SITE_URL, article_url)
+from src.topics import is_ent
 
 RSS_MAX_ITEMS = 50
 
@@ -73,30 +74,37 @@ def _write(path: str, text: str) -> str:
 
 
 def render_rss(items: list[Item], out_dir: str, built_at: str,
-               region: str | None = None) -> str:
-    """전체 피드, 또는 region 을 주면 그 지역만 담은 피드(/<region>/rss.xml)."""
-    from src.models import REGION_NAMES
-    name = REGION_NAMES.get(region, region) if region else None
-    prefix = f"/{region}" if region else ""
+               region: str | None = None, channel: str | None = None) -> str:
+    """전체 피드, region 을 주면 그 지역 피드(/<region>/rss.xml),
+    channel="ent" 를 주면 연예 피드(/ent/rss.xml)."""
+    from src.models import CHANNEL_NAMES, REGION_NAMES
+    if channel:
+        name = CHANNEL_NAMES.get(channel, channel)
+        prefix = f"/{channel}"
+    else:
+        name = REGION_NAMES.get(region, region) if region else None
+        prefix = f"/{region}" if region else ""
     ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
     rss = ET.Element("rss", {"version": "2.0"})
-    channel = ET.SubElement(rss, "channel")
+    ch = ET.SubElement(rss, "channel")
     # 피드 자기 주소. 검증기가 없으면 경고하고, 리더는 이걸로 중복 구독을 가른다.
-    ET.SubElement(channel, "{http://www.w3.org/2005/Atom}link",
+    ET.SubElement(ch, "{http://www.w3.org/2005/Atom}link",
                   {"href": SITE_URL + BASE_PATH + prefix + "/rss.xml", "rel": "self",
                    "type": "application/rss+xml"})
-    ET.SubElement(channel, "title").text = f"{SITE_NAME} {name}" if name else SITE_NAME
-    ET.SubElement(channel, "link").text = SITE_URL + BASE_PATH + prefix + "/"
-    ET.SubElement(channel, "description").text = f"{name} 여행 소식" if name else SITE_TAGLINE
-    ET.SubElement(channel, "language").text = "ko"
-    ET.SubElement(channel, "lastBuildDate").text = _rfc822(built_at)
+    ET.SubElement(ch, "title").text = f"{SITE_NAME} {name}" if name else SITE_NAME
+    ET.SubElement(ch, "link").text = SITE_URL + BASE_PATH + prefix + "/"
+    ET.SubElement(ch, "description").text = (
+        f"{name} 소식" if channel else (f"{name} 여행 소식" if name else SITE_TAGLINE))
+    ET.SubElement(ch, "language").text = "ko"
+    ET.SubElement(ch, "lastBuildDate").text = _rfc822(built_at)
 
     # A등급(환율·날씨)은 매일 값만 바뀌는 데이터라 피드에 넣으면 소음이 된다.
     articles = [i for i in items if i.grade != "A"
-                and (not region or i.region == region)][:RSS_MAX_ITEMS]
+                and (not region or (i.region == region and not is_ent(i)))
+                and (not channel or (channel == "ent") == is_ent(i))][:RSS_MAX_ITEMS]
 
     for item in articles:
-        node = ET.SubElement(channel, "item")
+        node = ET.SubElement(ch, "item")
         link = encoded_url(SITE_URL + BASE_PATH + article_url(item))
         ET.SubElement(node, "title").text = _xml_safe(item.title)
         ET.SubElement(node, "link").text = link
@@ -107,7 +115,8 @@ def render_rss(items: list[Item], out_dir: str, built_at: str,
         ET.SubElement(node, "source").text = _xml_safe(item.source_name)
 
     xml = ET.tostring(rss, encoding="unicode")
-    return _write(os.path.join(out_dir, region, "rss.xml") if region else os.path.join(out_dir, "rss.xml"),
+    sub = channel or region
+    return _write(os.path.join(out_dir, sub, "rss.xml") if sub else os.path.join(out_dir, "rss.xml"),
                   '<?xml version="1.0" encoding="UTF-8"?>\n' + xml)
 
 
@@ -116,15 +125,16 @@ def render_sitemap(items: list[Item], out_dir: str, today: str) -> str:
     # 바뀔 때마다 어긋난다 — 실제로 사라진 /flight/ 를 계속 가리키고
     # 새 부문 일곱 개가 통째로 빠져 있었다.
     from src.cities import group_by_city
-    from src.topics import TOPICS
+    from src.topics import ENT_TOPICS, TOPICS
 
     base = SITE_URL + BASE_PATH
-    urls = [base + "/"]
+    urls = [base + "/", f"{base}/travel/", f"{base}/ent/"]
     urls += [f"{base}/{key}/" for key in REGION_NAMES]
     urls += [f"{base}/{tid}/" for tid, _, _ in TOPICS]
+    urls += [f"{base}/ent/{tid}/" for tid, _, _ in ENT_TOPICS]
     # 도시 페이지도 같은 이유로 파생시킨다. 기사가 쌓여 새 도시 페이지가
     # 생기는 날 사이트맵이 저절로 따라와야 한다.
-    urls += [f"{base}/city/{slug}/" for slug in group_by_city(items)]
+    urls += [f"{base}/city/{slug}/" for slug in group_by_city([i for i in items if not is_ent(i)])]
     urls += [f"{base}/{page}/" for page in
              ("about", "contact", "privacy", "youth", "search", "subscribe",
               "ethics")]
@@ -161,28 +171,33 @@ def render_llms_txt(items: list[Item], out_dir: str) -> str:
     사라진 부문을 계속 가리키던 것과 같은 사고를 되풀이하지 않기 위해서다.
     """
     from src.cities import group_by_city
-    from src.topics import TOPICS
+    from src.topics import ENT_TOPICS, TOPICS
 
     base = SITE_URL + BASE_PATH
     regions = "·".join(REGION_NAMES.values())
 
-    lines = [f"# {SITE_NAME}", "",
-             f"> {SITE_TAGLINE}. {regions} 일곱 곳의 여행 뉴스를 매일 "
-             f"05:00(KST)에 새로 낸다. 현지 매체와 관광청 발표를 원문 출처와 "
-             f"함께 옮기고, 확인되지 않은 사실은 싣지 않는다.", ""]
+    lines = [f"# {SITE_NAME} (PeopleRoad)", "",
+             f"> {SITE_KIND}. {SITE_TAGLINE}. 여행 채널은 {regions} 열 곳의 "
+             f"여행 뉴스를 매일 아침(KST) 새로 내고, 연예 채널은 영화·드라마·방송·"
+             f"음악·공연·인물과 '스타의 여행'을 다룬다. 현지 매체·관광청·소속사 "
+             f"발표를 원문 출처와 함께 옮기고, 확인되지 않은 사실은 싣지 않는다. "
+             f"사진은 직접 촬영한 것만 쓴다. 운영사는 여행사 피플레이다.", ""]
 
-    lines += ["## 지역면", ""]
+    lines += ["## 여행 — 지역면", ""]
     lines += [f"- [{name}]({base}/{key}/): {name} 여행 뉴스"
               for key, name in REGION_NAMES.items()]
 
-    lines += ["", "## 부문", ""]
+    lines += ["", "## 여행 — 부문", ""]
     lines += [f"- [{name}]({base}/{tid}/): {desc}" for tid, name, desc in TOPICS]
+
+    lines += ["", "## 연예 — 부문", ""]
+    lines += [f"- [{name}]({base}/ent/{tid}/): {desc}" for tid, name, desc in ENT_TOPICS]
 
     lines += ["", "## 매체 정보", "",
               f"- [매체 소개]({base}/about/): 발행 주체와 편집 원칙",
               f"- [제보·문의]({base}/contact/)",
               f"- [전체 주소 목록]({base}/sitemap.xml)",
-              f"- [RSS]({base}/rss.xml)", ""]
+              f"- [RSS 전체]({base}/rss.xml) · [연예 RSS]({base}/ent/rss.xml)", ""]
 
     # A등급(환율·날씨 같은 자동 생성 데이터)은 기사가 아니라 빼둔다.
     # sitemap 과 같은 기준이다.

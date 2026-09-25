@@ -12,7 +12,7 @@ from urllib.parse import urlsplit, urlunsplit
 import httpx
 import feedparser
 
-UA = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
+UA = "PeopleRoadBot/1.0 (+https://waffletrip.com/about/)"
 TIMEOUT = 10.0
 DELAY = 1.0  # 요청 간 지연(초) — 같은 호스트에 연속 요청하지 않는다 (스펙 5절 규칙 4)
 

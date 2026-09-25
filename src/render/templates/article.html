@@ -32,7 +32,7 @@
 {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
 {% if item.body_md %}<div class="body">{{ item.body_md|md }}</div>{% endif %}
 {% set source_href = item.source_url|safe_url %}
-{# 원문 링크가 있을 때만 출처를 단다. 우리가 쓴 기사에 "원문 보기: 와플트립
+{# 원문 링크가 있을 때만 출처를 단다. 우리가 쓴 기사에 "원문 보기: 피플로드
    괌 데스크" 가 붙으면 무슨 말인지 알 수 없다. #}
 {% if source_href %}
 <p class="src">원문 보기: <a href="{{ source_href }}" rel="nofollow noopener" target="_blank">{{ item.source_name }}</a></p>
@@ -61,13 +61,15 @@
   <ul class="more-list">
     {% for m in more %}
     <li><a href="{{ article_urls[m.id] }}">{{ m.title|clean_title }}</a>
-      <span class="more-meta">{{ m.source_name or '와플트립' }} · {{ m.published_at[:10] }}</span></li>
+      <span class="more-meta">{{ m.source_name or site_name }} · {{ m.published_at[:10] }}</span></li>
     {% endfor %}
   </ul>
   <p class="note"><a href="{{ more_link }}">{{ more_label }} 기사 전체 보기</a></p>
 </section>
 {% endif %}
-{% if product_link %}<a class="cta" href="{{ product_link }}">{{ region_name }} 여행 상품 보러가기</a>{% endif %}
+{# 상품 링크. 네이버 제휴 심사 전까지는 site.COMMERCIAL_LINKS 가 닫혀 있어
+   여기로 아무것도 오지 않는다. 열릴 때도 운영사 상품임을 함께 밝힌다. #}
+{% if product_link %}<aside class="cta-box"><a class="cta" href="{{ product_link }}" rel="noopener">{{ region_name }} 여행 상품 보러가기</a><p class="note">본 매체 운영사가 판매하는 상품입니다.</p></aside>{% endif %}
 <script>
 (function(){var b=document.querySelector('[data-share]');if(!b)return;
 b.addEventListener('click',function(){var u=location.href,t=document.title;

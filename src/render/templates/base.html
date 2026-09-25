@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}{{ site_name }}{% endblock %}</title>
 {% block robots %}{% endblock %}
-<meta name="description" content="{% block description %}{{ site_tagline }} — 일본·태국·대만·베트남·괌·사이판·하와이·코타키나발루·라오스·제주{% endblock %}">
+<meta name="description" content="{% block description %}{{ site_kind }}. 여행 — 일본·태국·대만·베트남·괌·사이판·하와이·코타키나발루·라오스·제주. 연예 — 영화·드라마·방송·음악·공연·인물·스타의 여행{% endblock %}">
 <link rel="canonical" href="{{ canonical }}">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate" type="application/rss+xml" title="{{ site_name }}" href="/rss.xml">
@@ -87,6 +87,10 @@
   .gnb a:first-child{padding-left:0}
   .gnb a:hover{color:var(--coral);border-bottom-color:var(--coral)}
   .gnb .sep{flex:1;min-width:20px}
+  /* 채널 이름 — 여행 / 연예. 부문 앞에 서서 어느 축인지 알린다. */
+  .gnb .ch{color:var(--coral);letter-spacing:-.02em}
+  .gnb .ch:hover{border-bottom-color:transparent}
+  .gnb .bar{flex:0 0 auto;width:1px;height:18px;background:var(--line);margin:0 10px 0 6px}
   .gnb .minor{font-size:13px;font-weight:500;color:var(--muted);padding:14px 10px}
   .gnb .minor:hover{color:var(--coral);border-bottom-color:transparent}
 
@@ -306,18 +310,24 @@
 </div>
 
 <header class="mast"><div class="wrap">
-  <a class="brand" href="/">와플트립<span class="dot">.</span></a>
+  <a class="brand" href="/">{{ site_name }}<span class="dot">.</span></a>
   <div class="meta">
     <b>{{ site_tagline }}</b>
-    편집 {{ today }}
+    {{ site_kind }} · 편집 {{ today }}
   </div>
 </div></header>
 
+{# 두 채널을 한 줄에 둔다 — 여행 ▸ 부문 일곱 | 연예 ▸ 부문 다섯.
+   문화 전문매체는 여행과 연예 두 축이고, 네비가 그 구조를 그대로 보여야 한다. #}
 <nav class="gnb" aria-label="주요 메뉴"><div class="wrap">
+  <a class="ch" href="/travel/">{{ channel_names.travel }}</a>
   {% for tid, tname, _ in topics %}<a href="/{{ tid }}/">{{ tname }}</a>{% endfor %}
+  <span class="bar" aria-hidden="true"></span>
+  <a class="ch" href="/ent/">{{ channel_names.ent }}</a>
+  {% for tid, tname, _ in ent_topics %}<a href="/ent/{{ tid }}/">{{ tname }}</a>{% endfor %}
   <span class="sep"></span>
   <a class="minor" href="/subscribe/">구독</a>
-  <a class="minor" href="/contact/">광고문의</a>
+  <a class="minor" href="/contact/">제보·문의</a>
   <a class="minor" href="/search/">검색</a>
 </div></nav>
 
@@ -325,7 +335,12 @@
 
 <footer class="foot" id="foot"><div class="wrap">
   <div class="links">
+    <a href="/travel/">{{ channel_names.travel }}</a>
     {% for tid, tname, _ in topics %}<a href="/{{ tid }}/">{{ tname }}</a>{% endfor %}
+  </div>
+  <div class="links">
+    <a href="/ent/">{{ channel_names.ent }}</a>
+    {% for tid, tname, _ in ent_topics %}<a href="/ent/{{ tid }}/">{{ tname }}</a>{% endfor %}
   </div>
   {% if city_links %}
   <div class="links cities">
@@ -333,16 +348,17 @@
   </div>
   {% endif %}
   <div class="links">
-    <a href="/about/">매체소개</a><a href="/contact/">기사제보·광고문의</a>
+    <a href="/about/">매체소개</a><a href="/contact/">기사제보·문의</a>
     <a href="/ethics/">편집원칙·정정보도</a>
     <a href="/privacy/">개인정보처리방침</a><a href="/youth/">청소년보호정책</a>
     <a href="/search/">검색</a><a href="/rss.xml">RSS</a>
     <a href="/sitemap.xml">사이트맵</a>
   </div>
   <p class="name">{{ site_name }}</p>
-  <p>{{ site_tagline }}</p>
+  <p>{{ site_kind }} · {{ site_tagline }}</p>
   <p>기사 요약은 원문 출처를 표기하고 링크로 연결합니다. 저작권은 각 매체에 있습니다.<br>
-  직접 취재하고 촬영한 기사와 사진에는 그 사실을 밝힙니다.</p>
+  직접 취재하고 촬영한 기사와 사진에는 그 사실을 밝힙니다. 연예인 사진은 직접 촬영하고 동의를 받은 것만 씁니다.<br>
+  운영사 피플레이는 여행 상품을 판매합니다. 지면에는 상품 링크와 광고를 두지 않습니다.</p>
 </div></footer>
 {# 방문 분석. analytics.yaml 에 값이 있을 때만 붙는다.
    붙으면 개인정보처리방침 문구도 함께 바뀐다 — 따로 관리하면 어긋난다. #}

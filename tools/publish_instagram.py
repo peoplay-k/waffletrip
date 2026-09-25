@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""와플트립 숏폼을 @waffletrip06 릴스로 올린다.
+"""피플로드 숏폼을 @waffletrip06 릴스로 올린다.
 
 영상은 이미 waffletrip.com 에 공개로 올라가 있어 **인스타가 직접 받아간다.**
 파일을 업로드하지 않으므로 맥이 꺼져 있어도 클라우드에서 돈다.

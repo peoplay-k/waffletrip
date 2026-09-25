@@ -214,7 +214,7 @@ def write_all() -> int:
             "region": region,
             "section": section,
             "title": title,
-            "source_name": "와플트립",
+            "source_name": "피플로드",
             "source_url": "",
             "reason": "지면 구성 샘플",
             "summary": "지면 구성을 보기 위한 샘플입니다. 실제 취재 내용이 아닙니다.",

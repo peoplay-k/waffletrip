@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""와플트립 편집실 — 이 맥에서 도는 글쓰기 화면.
+"""피플로드 편집실 — 이 맥에서 도는 글쓰기 화면.
 
     python3 tools/admin.py        →  http://localhost:8080
 
@@ -11,7 +11,7 @@
 하는 일
   · 초안 목록 (작성중 / 발행대기 / 발행됨)
   · 새 기사 만들기
-  · 제목·지역·부문·요약·필자·상태·본문 편집
+  · 제목·채널(여행/연예)·지역·연예 부문·요약·필자·상태·본문 편집
   · 저장하면 content/review/*.md 에 그대로 쓴다
 
 사진은 여기서 올리지 않는다. CMS 업로드는 얼굴 검사(person_scan)를
@@ -38,7 +38,12 @@ PORT = 8080
 
 REGIONS = [("guam", "괌"), ("saipan", "사이판"), ("hawaii", "하와이"),
            ("vietnam", "베트남"), ("kota", "코타키나발루"),
-           ("laos", "라오스"), ("jeju", "제주")]
+           ("laos", "라오스"), ("jeju", "제주"), ("japan", "일본"),
+           ("thailand", "태국"), ("taiwan", "대만")]
+CHANNELS = [("travel", "여행 — 지역면"), ("ent", "연예 — /ent/ 부문")]
+CATEGORIES = [("", "(여행 기사는 비움)"), ("movie", "영화"), ("drama", "드라마·방송"),
+              ("music", "음악·공연"), ("star", "인물"),
+              ("startrip", "스타의 여행 — 촬영지·스타가 간 곳")]
 SECTIONS = [("news", "일반 소식·해설"), ("flight", "항공·노선"),
             ("data", "데이터·통계"), ("promo", "안내")]
 STATUSES = [("draft", "작성중 — 지면에 안 나감"),
@@ -93,9 +98,9 @@ textarea{min-height:460px;font-family:ui-monospace,SFMono-Regular,Menlo,monospac
 def page(title: str, body: str) -> bytes:
     return f"""<!doctype html><html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{html.escape(title)} · 와플트립 편집실</title><style>{CSS}</style></head><body>
+<title>{html.escape(title)} · 피플로드 편집실</title><style>{CSS}</style></head><body>
 <header><div class="wrap">
-  <h1><a href="/">와플트립 편집실<span>.</span></a></h1>
+  <h1><a href="/">피플로드 편집실<span>.</span></a></h1>
   <div class="sub">이 맥에서만 도는 화면입니다</div>
 </div></header>
 <div class="wrap">{body}</div></body></html>""".encode("utf-8")
@@ -171,14 +176,17 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 for d in rows:
                     st = d.get("status", "draft")
                     label = dict((v, l.split(" —")[0]) for v, l in STATUSES).get(st, st)
-                    rg = dict(REGIONS).get(d.get("region"), d.get("region", "-"))
+                    if d.get("channel") == "ent":
+                        rg = "연예 · " + dict(CATEGORIES).get(d.get("category") or "", "인물").split(" —")[0]
+                    else:
+                        rg = dict(REGIONS).get(d.get("region"), d.get("region", "-"))
                     trs += (f'<tr><td><span class="pill s-{st}">{html.escape(label)}</span></td>'
                             f'<td>{html.escape(rg)}</td>'
                             f'<td class="t"><a href="/edit?f={urllib.parse.quote(d["file"])}">'
                             f'{html.escape(str(d.get("title") or d["file"]))}</a></td></tr>')
                 body = (flash +
                         '<table><tr><th style="width:92px">상태</th>'
-                        '<th style="width:110px">지역면</th><th>제목</th></tr>'
+                        '<th style="width:130px">지면</th><th>제목</th></tr>'
                         + trs + "</table>")
             body += ('<div class="bar"><a class="btn" href="/new">새 기사 쓰기</a>'
                      '<span class="note">사진은 여기서 올리지 않습니다 — '
@@ -189,6 +197,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
             body = f"""<form class="edit" method="post" action="/create">
 <label>제목<span class="hint">지면에 그대로 나갑니다.</span>
 <input type="text" name="title" required autofocus></label>
+<div class="row">
+<label>채널<span class="hint">연예를 고르면 지역면은 무시됩니다.</span>{sel("channel", CHANNELS, "travel")}</label>
+<label>연예 부문<span class="hint">연예 기사만.</span>{sel("category", CATEGORIES, "")}</label>
+</div>
 <div class="row">
 <label>지역면{sel("region", REGIONS, "guam")}</label>
 <label>부문{sel("section", SECTIONS, "news")}</label>
@@ -207,19 +219,23 @@ class Handler(http.server.BaseHTTPRequestHandler):
 <input type="hidden" name="file" value="{html.escape(name)}">
 <label>제목<input type="text" name="title" value="{html.escape(str(front.get('title','')))}" required></label>
 <div class="row">
+<label>채널<span class="hint">연예를 고르면 지역면은 무시됩니다.</span>{sel("channel", CHANNELS, front.get("channel","travel"))}</label>
+<label>연예 부문<span class="hint">연예 기사만.</span>{sel("category", CATEGORIES, front.get("category") or "")}</label>
+</div>
+<div class="row">
 <label>지역면{sel("region", REGIONS, front.get("region",""))}</label>
 <label>부문{sel("section", SECTIONS, front.get("section","news"))}</label>
 </div>
 <label>요약<span class="hint">목록·검색·카톡 공유 카드에 나옵니다. 한두 문장.</span>
 <input type="text" name="summary" value="{html.escape(str(front.get('summary') or ''))}"></label>
 <div class="row">
-<label>필자<span class="hint">비우면 지역 데스크가 붙습니다. 실제로 쓴 사람만 적습니다.</span>
+<label>필자<span class="hint">비우면 데스크(여행은 지역 데스크, 연예는 문화부)가 붙습니다. 실제로 쓴 사람만 적습니다.</span>
 <input type="text" name="source_name" value="{html.escape(str(front.get('source_name') or ''))}"></label>
 <label>원문 링크<span class="hint">다른 매체 보도를 정리한 경우에만.</span>
 <input type="text" name="source_url" value="{html.escape(str(front.get('source_url') or ''))}"></label>
 </div>
 <label>상태{sel("status", STATUSES, front.get("status","draft"))}</label>
-<label>본문<span class="hint">표를 적극적으로 씁니다. 공개하는 가격은 소비자가와 실제 결제가뿐입니다.</span>
+<label>본문<span class="hint">표를 적극적으로 씁니다. 공개하는 가격은 소비자가와 실제 결제가뿐입니다. 상품 링크·전화번호는 넣지 않습니다.</span>
 <textarea name="body">{html.escape(body_md)}</textarea></label>
 <div class="bar"><button class="btn" type="submit">저장</button>
 <a class="btn ghost" href="/">목록</a>
@@ -243,11 +259,17 @@ class Handler(http.server.BaseHTTPRequestHandler):
             os.makedirs(REVIEW, exist_ok=True)
             path = os.path.join(REVIEW, name)
             if not os.path.exists(path):
-                write(path, {"id": f"art-{g('region')}-{day.replace('-', '')}",
-                             "region": g("region"), "section": g("section"),
+                channel = g("channel") or "travel"
+                key = f"ent-{g('category') or 'star'}" if channel == "ent" else g("region")
+                body = ("## 무엇이 있었나\n\n\n\n## 현장\n\n\n\n## 알아둘 점\n\n\n\n"
+                        "**출처** · (보도자료·현장 취재)\n") if channel == "ent" else \
+                       "## 무엇을 확인했나\n\n\n\n## 실측\n\n| 항목 | 값 | 확인일 |\n|---|---|---|\n|  |  |  |\n\n## 정리\n"
+                write(path, {"id": f"art-{key}-{day.replace('-', '')}",
+                             "channel": channel, "region": g("region"),
+                             "category": g("category") if channel == "ent" else "",
+                             "section": g("section"),
                              "title": title, "source_name": "", "source_url": "",
-                             "summary": "", "status": "draft"},
-                      "## 무엇을 확인했나\n\n\n\n## 실측\n\n| 항목 | 값 | 확인일 |\n|---|---|---|\n|  |  |  |\n\n## 정리\n")
+                             "summary": "", "status": "draft"}, body)
             return self._redirect(f"/edit?f={urllib.parse.quote(name)}")
 
         if u.path == "/save":
@@ -256,7 +278,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
             if not os.path.isfile(path):
                 return self._redirect("/")
             front, _ = read(path)
-            front.update({"region": g("region"), "section": g("section"),
+            channel = g("channel") or "travel"
+            front.update({"channel": channel, "region": g("region"),
+                          "category": g("category") if channel == "ent" else "",
+                          "section": g("section"),
                           "title": g("title"), "summary": g("summary"),
                           "source_name": g("source_name"),
                           "source_url": g("source_url"), "status": g("status")})

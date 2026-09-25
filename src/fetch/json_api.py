@@ -9,7 +9,7 @@ from __future__ import annotations
 from src.models import Item, make_id, title_hash
 from src.sources import Source
 
-USER_AGENT = "WaffleTripBot/1.0 (+https://waffletrip.com/about/)"
+USER_AGENT = "PeopleRoadBot/1.0 (+https://waffletrip.com/about/)"
 TIMEOUT = 15.0
 
 # 저액면 통화는 1단위 환율이 1원에 못 미쳐 그대로 쓰면 "1 VND = 약 0원"이 된다.

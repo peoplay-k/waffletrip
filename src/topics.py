@@ -1,11 +1,20 @@
 """기사를 편집 부문으로 가른다.
 
-부문 구성은 여행신문의 지면 구성을 그대로 따른다.
-  여행BIZ · 이슈·동향 · 관광정책 · 기획·연재 · 국제 · 피플·오피니언 · 통계·리포트
+피플로드는 문화 전문 매체이고 그 아래 두 채널이 있다 — 여행과 연예.
+
+  여행: 여행BIZ · 이슈·동향 · 관광정책 · 기획·연재 · 국제 · 피플·오피니언 · 통계·리포트
+        (여행신문의 지면 구성을 그대로 따른다)
+  연예: 영화 · 드라마·방송 · 음악·공연 · 인물 · 스타의 여행
+
+"스타의 여행"은 두 채널이 만나는 자리다 — 촬영지, 스타가 간 곳, 드라마 로케이션,
+해외 공연 원정. 여행 매체도 연예 매체도 잘 안 다루는 자리라 우리만 쓸 수 있는
+기사가 여기서 나온다. (2026-09-16 편집국장: "여행은 배경, 엔터가 주인공".)
 
 부문은 저장하지 않고 렌더 시점에 계산한다. Item 에 필드를 늘리면 기존 jsonl 을
 전부 옮겨야 하는데, 분류 규칙은 앞으로도 손볼 것이라 그때마다 과거 데이터가
 어긋난다. 규칙이 바뀌면 다음 빌드에 전체가 따라온다.
+연예 기사만은 예외로 `category` 를 저장한다 — 편집실에서 사람이 고르는 값이라
+규칙이 아니라 결정이고, 규칙으로는 영화 기사와 배우 인터뷰를 가를 수 없다.
 """
 from __future__ import annotations
 
@@ -23,6 +32,25 @@ TOPICS = (
 )
 TOPIC_NAMES = {tid: name for tid, name, _ in TOPICS}
 TOPIC_DESCS = {tid: desc for tid, _, desc in TOPICS}
+
+# 연예 부문. 여행 쪽 people(피플·오피니언)과 겹치지 않게 인물은 star 다.
+# 경로는 /ent/<id>/ 라 여행 부문 id 와 같아도 충돌하지 않지만, 코드에서
+# 부문 id 하나로 채널을 알 수 있게 겹치지 않는 이름을 골랐다.
+ENT_TOPICS = (
+    ("movie", "영화", "개봉·시사회·제작발표회. 배급사 발표와 현장 취재로 씁니다."),
+    ("drama", "드라마·방송", "드라마·예능·OTT. 제작사와 방송사 발표를 정리합니다."),
+    ("music", "음악·공연", "앨범·콘서트·쇼케이스. 공연은 현장에서 봅니다."),
+    ("star", "인물", "배우·가수·크리에이터. 인터뷰와 소속사 공식 발표입니다."),
+    ("startrip", "스타의 여행",
+     "촬영지, 스타가 간 곳, 드라마 로케이션, 해외 공연 원정. 여행과 연예가 만나는 자리입니다."),
+)
+ENT_TOPIC_NAMES = {tid: name for tid, name, _ in ENT_TOPICS}
+ENT_TOPIC_DESCS = {tid: desc for tid, _, desc in ENT_TOPICS}
+ENT_DEFAULT = "star"
+# 교차 부문 id. 홈·문서에서 이름으로 부르지 않게 한 곳에 둔다.
+STARTRIP = "startrip"
+
+ALL_TOPIC_NAMES = {**TOPIC_NAMES, **ENT_TOPIC_NAMES}
 
 # 한글은 조사가 붙어 오므로 부분일치, 영문은 단어 경계로 본다.
 # 영문을 부분일치로 두면 air 가 chair 에, eat 가 great 에 걸린다.
@@ -48,6 +76,16 @@ _RULES: tuple[tuple[str, tuple[str, ...], tuple[str, ...]], ...] = (
       "festival", "reopen", "quake", "crowd")),
 )
 
+# 연예 기사에 category 가 비어 올 때만 쓰는 보조 규칙. 편집실이 고른 값이 늘 이긴다.
+# 교차 부문(startrip)이 먼저다 — "촬영지"가 있으면 영화 기사여도 여행 쪽이 살아야 한다.
+_ENT_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
+    ("startrip", ("촬영지", "로케이션", "로케", "여행", "다녀온", "원정", "성지순례",
+                  "투어", "휴가", "괌", "사이판", "하와이", "제주", "다낭")),
+    ("movie", ("영화", "개봉", "시사회", "제작발표회", "박스오피스", "관객", "감독")),
+    ("drama", ("드라마", "예능", "방송", "OTT", "넷플릭스", "시청률", "종영", "첫방")),
+    ("music", ("앨범", "콘서트", "공연", "쇼케이스", "컴백", "음원", "투어 공연", "페스티벌")),
+)
+
 
 def _hit(text: str, korean: tuple[str, ...], english: tuple[str, ...]) -> bool:
     if any(w in text for w in korean):
@@ -56,14 +94,34 @@ def _hit(text: str, korean: tuple[str, ...], english: tuple[str, ...]) -> bool:
     return any(re.search(r"\b" + re.escape(w) + r"\b", lowered) for w in english)
 
 
+def is_ent(item) -> bool:
+    return getattr(item, "channel", "travel") == "ent"
+
+
+def ent_category_of(item) -> str:
+    """연예 기사의 부문. 편집실이 정한 category 가 있으면 그것, 없으면 제목으로 추정,
+    그래도 모르면 인물."""
+    cat = getattr(item, "category", "") or ""
+    if cat in ENT_TOPIC_NAMES:
+        return cat
+    text = f"{getattr(item, 'title', '')} {getattr(item, 'summary', '')}"
+    for topic_id, korean in _ENT_RULES:
+        if any(w in text for w in korean):
+            return topic_id
+    return ENT_DEFAULT
+
+
 def topic_of(item) -> str:
     """기사의 부문.
 
-    등급이 부문을 이긴다 — 우리가 만든 데이터(A)와 우리가 쓴 기사(C)는
+    연예 기사는 채널이 부문을 정한다 — 여행 규칙(항공·관광청…)을 태우지 않는다.
+    여행 기사는 등급이 부문을 이긴다 — 우리가 만든 데이터(A)와 우리가 쓴 기사(C)는
     소재가 무엇이든 그 부문에 속한다.
     어디에도 안 걸리면 국제로 보낸다. 우리 기사는 전부 해외발이고,
     버리면 지면에서 통째로 빠진다.
     """
+    if is_ent(item):
+        return ent_category_of(item)
     if getattr(item, "grade", "") == "A":
         return "data"
     # 우리가 만든 데이터 기사는 등급이 C(자체 생산)지만 성격은 통계·리포트다.
@@ -83,7 +141,23 @@ def topic_of(item) -> str:
 
 
 def group_by_topic(items) -> dict:
+    """여행 기사를 여행 부문으로 묶는다. 연예 기사는 group_by_ent_topic 이 맡는다.
+
+    두 채널을 한 사전에 넣지 않는 이유: 부문 페이지·네비가 채널별로 따로 그려지고,
+    빈 연예 부문이 여행 네비에 섞이면 안 되기 때문이다.
+    """
     out: dict[str, list] = {tid: [] for tid, _, _ in TOPICS}
     for item in items:
+        if is_ent(item):
+            continue
         out[topic_of(item)].append(item)
+    return out
+
+
+def group_by_ent_topic(items) -> dict:
+    """연예 기사를 연예 부문으로 묶는다. 부문마다 칸이 있다 — 빈 칸은 그리는 쪽이 뺀다."""
+    out: dict[str, list] = {tid: [] for tid, _, _ in ENT_TOPICS}
+    for item in items:
+        if is_ent(item):
+            out[ent_category_of(item)].append(item)
     return out

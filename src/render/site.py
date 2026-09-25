@@ -1,7 +1,11 @@
 """정규화된 항목을 정적 HTML 로 만든다.
 
 이 모듈은 수집 과정을 모른다. 항목 리스트와 출력 경로만 받는다.
-디자인 컨셉은 와플 격자 — 7개 지역이 격자 칸에 놓인다.
+
+지면은 두 채널이다 — 여행(지역면 + 여행 부문)과 연예(연예 부문). 피플로드는
+인터넷신문 중 전문매체, 네이버 기준 '문화' 영역으로 간다(2026-09-16 편집국장).
+연예 기사는 region 이 없다. 지역면·도시면·사진 자동 배정·환율 패널은 전부
+region 기준이므로 연예 기사는 거기 섞이지 않고 /ent/ 아래에서만 산다.
 """
 from __future__ import annotations
 
@@ -13,20 +17,30 @@ import shutil
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
 
-from src.desks import DESK_DUTIES, REGION_DESKS, byline_for
+from src.desks import DESK_DUTIES, ENT_DESK, REGION_DESKS, byline_for
 from src.photos import (assign as assign_photos, copy_into, load_manifest, og_path,
                         photo_dims, photo_places, render_og_images,
                         load_used, save_used)
 from src.render.md import render as md_render
 from src.cities import CITY_NAMES, CITY_REGION, cities_of, group_by_city
-from src.topics import TOPIC_DESCS, TOPIC_NAMES, TOPICS, group_by_topic, topic_of
+from src.topics import (ENT_TOPIC_DESCS, ENT_TOPIC_NAMES, ENT_TOPICS, STARTRIP,
+                        TOPIC_DESCS, TOPIC_NAMES, TOPICS, ent_category_of,
+                        group_by_ent_topic, group_by_topic, is_ent, topic_of)
 
-from src.models import Item
+from src.models import CHANNEL_NAMES, Item
 
-SITE_NAME = "와플트립"
-SITE_TAGLINE = "매일 아침 여행 뉴스"
+# 제호. 2026-09-16 편집국장 제안 — "피플레이 이름 맞춰서 피플로드라고 하셔도 되고.
+# 그렇게 하면 엔터까지 담을 수 있잖아요. 사람이니까." 2026-09-25 사장님이 확정.
+# 와플트립은 "여행 사이트 같다"(국장)라 신문 제호로 맞지 않았다.
+SITE_NAME = "피플로드"
+SITE_TAGLINE = "여행과 연예, 사람이 다니는 길"
+# 인터넷신문 미등록 상태다. 스스로를 '신문'이라 부르는 공개 문장은 두지 않는다.
+SITE_KIND = "여행·연예 문화 전문 매체"
 # 정식 주소. 커스텀 도메인이 붙기 전에는 실제로 열리는 곳을 가리켜야 한다 —
 # canonical 이 안 열리는 도메인을 가리키면 검색엔진이 색인을 못 한다.
+# ★제호는 피플로드로 바꿨지만 도메인은 아직 waffletrip.com 이다. peopleroad.com·.kr 은
+# 타인 소유(2026-09-16 whois 실측). 새 도메인을 사서 DNS 를 붙인 뒤 이 값과
+# render_cname 의 domain 을 바꾸고, 옛 주소는 301 로 넘긴다(docs/PEOPLEROAD.md).
 SITE_URL = os.environ.get("WAFFLE_SITE_URL", "https://waffletrip.com").rstrip("/")
 
 from src.models import REGION_NAMES  # 정본은 models.py
@@ -62,6 +76,56 @@ PRODUCT_LINKS = {
 }
 
 CONTACT_EMAIL = "peoplay@thepeoplay.com"
+
+# ★상업 요소 게이트. 네이버 뉴스 제휴 심사까지(2027년 신청 → 2028년 심사) 지면에
+# 상품 링크·제휴 링크·전화번호·광고를 두지 않는다. 네이버는 정성평가로 "광고가
+# 가독성을 얼마나 해치느냐"를 보고, 여행 매체는 "순결을 끝까지 유지"해야 한다
+# (2026-09-16 편집국장 01:03:33~01:05:59). 판매 유도는 SNS 파생 채널로 옮긴다.
+# 등록 뒤에 켤 때도 국장 방식대로 한다 — 네이버용 기사와 링크 있는 구글용 기사를
+# 따로 낸다. PRODUCT_LINKS 자체는 그때를 위해 남긴다.
+COMMERCIAL_LINKS = False
+
+
+def product_link_for(region: str) -> str:
+    """지면에 그릴 상품 링크. 게이트가 닫혀 있으면 어느 지역이든 빈 값이다."""
+    if not COMMERCIAL_LINKS:
+        return ""
+    return PRODUCT_LINKS.get(region, "")
+
+
+# 피플레이와 함께 여행한 스타 명부. 여행과 연예가 실제로 만나는 우리만의 자료다.
+# 동의(consent) 없는 항목은 지면에 나가지 않는다 — 연예인 이름을 상업 매체가
+# 쓰는 것은 초상권·퍼블리시티권 문제라 소속사 서면 동의가 먼저다.
+STAR_TRIPS = os.path.join("data", "star_trips.yaml")
+
+
+def load_star_trips(path: str | None = None) -> list[dict]:
+    import yaml
+    try:
+        with open(path or STAR_TRIPS, encoding="utf-8") as f:
+            data = yaml.safe_load(f) or {}
+    except Exception:
+        return []
+    rows = []
+    for row in data.get("entries") or []:
+        if not isinstance(row, dict) or not row.get("consent"):
+            continue
+        if not (row.get("name") or "").strip():
+            continue
+        rows.append({
+            "name": str(row.get("name", "")).strip(),
+            "group": str(row.get("group") or "").strip(),
+            "region": str(row.get("region") or "").strip(),
+            "region_name": REGION_NAMES.get(str(row.get("region") or ""), str(row.get("region") or "")),
+            "place": str(row.get("place") or "").strip(),
+            "when": str(row.get("when") or "").strip(),
+            "play": str(row.get("play") or "").strip(),
+            "purpose": str(row.get("purpose") or "").strip(),
+            "article": str(row.get("article") or "").strip(),
+        })
+    # 최근 것이 위로
+    rows.sort(key=lambda r: r["when"], reverse=True)
+    return rows
 
 # 하위 경로 배포용 접두사. GitHub Pages 는 커스텀 도메인이 없으면
 # https://<user>.github.io/<repo>/ 에서 서비스한다. 우리 링크는 전부 "/..." 로
@@ -255,15 +319,35 @@ def slugify(text: str) -> str:
     return slug[:40].strip("-") or "article"
 
 
+def tag_of(item) -> dict:
+    """기사 앞에 붙는 작은 꼬리표와 그 링크. 여행은 지역면, 연예는 연예 부문.
+
+    템플릿 여섯 곳이 `/{{ item.region }}/` 을 직접 만들고 있었다. 연예 기사는
+    region 이 없어 그대로 두면 `//` 링크가 된다. 한 곳에서 정한다.
+    """
+    if is_ent(item):
+        cat = ent_category_of(item)
+        return {"href": f"/ent/{cat}/",
+                "label": f"{CHANNEL_NAMES['ent']} · {ENT_TOPIC_NAMES.get(cat, cat)}"}
+    region = getattr(item, "region", "") or ""
+    return {"href": f"/{region}/" if region else "/",
+            "label": REGION_NAMES.get(region, region)}
+
+
 def article_url(item: Item) -> str:
     """기사 경로. id·region 도 정제한다.
+
+    연예 기사는 /ent/<id8>-<slug>/ 다. 지역이 없으니 채널이 첫 칸을 맡는다.
 
     제목은 slugify 가 이미 정제하지만 id·region 은 그대로 경로에 들어간다.
     둘 중 하나에 "../" 가 섞이면 출력 디렉터리 밖에 파일이 써진다. 지금은
     id 가 sha1 이고 region 이 검증된 값이라 도달할 수 없지만, 방어가 없는 것과
     도달 못 하는 것은 다르다.
     """
-    region = _SAFE_SEGMENT.sub("", item.region) or "etc"
+    if is_ent(item):
+        region = "ent"
+    else:
+        region = _SAFE_SEGMENT.sub("", item.region) or "etc"
     ident = _SAFE_SEGMENT.sub("", item.id)[:8] or "0"
     # 제목이 번역돼도 주소는 원제목으로 — 이미 색인된 주소가 바뀌면 죽은 링크가 된다.
     return f"/{region}/{ident}-{slugify(getattr(item, 'title_orig', None) or item.title)}/"
@@ -321,24 +405,32 @@ def _write(path: str, html: str, written: list[str]) -> None:
 
 
 def _crumb_ld(item, urls: dict) -> str:
-    """검색 결과에 경로를 보여준다 — 와플트립 › 일본 › 기사.
+    """검색 결과에 경로를 보여준다 — 피플로드 › 일본 › 기사,
+    연예는 피플로드 › 연예 › 영화 › 기사.
 
-    지역면이 기사보다 위라는 사실을 기계에게도 알린다. 지역면이 색인에서
+    지역면(부문면)이 기사보다 위라는 사실을 기계에게도 알린다. 색인에서
     기사와 나란히 놓이는 대신 상위 페이지로 이해된다.
     """
     base = SITE_URL + BASE_PATH
-    region = REGION_NAMES.get(item.region, item.region)
+    crumbs = [{"@type": "ListItem", "position": 1, "name": SITE_NAME,
+               "item": base + "/"}]
+    if is_ent(item):
+        cat = ent_category_of(item)
+        crumbs.append({"@type": "ListItem", "position": 2,
+                       "name": CHANNEL_NAMES["ent"], "item": f"{base}/ent/"})
+        crumbs.append({"@type": "ListItem", "position": 3,
+                       "name": ENT_TOPIC_NAMES.get(cat, cat),
+                       "item": f"{base}/ent/{cat}/"})
+    else:
+        crumbs.append({"@type": "ListItem", "position": 2,
+                       "name": REGION_NAMES.get(item.region, item.region),
+                       "item": f"{base}/{item.region}/"})
+    crumbs.append({"@type": "ListItem", "position": len(crumbs) + 1,
+                   "name": item.title, "item": base + urls[item.id]})
     return json.dumps({
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": SITE_NAME,
-             "item": base + "/"},
-            {"@type": "ListItem", "position": 2, "name": region,
-             "item": f"{base}/{item.region}/"},
-            {"@type": "ListItem", "position": 3,
-             "name": item.title, "item": base + urls[item.id]},
-        ],
+        "itemListElement": crumbs,
     }, ensure_ascii=False)
 
 
@@ -370,6 +462,12 @@ def _article_ld(item, urls: dict) -> str:
     }
     if item.summary:
         data["description"] = item.summary
+    # 검색엔진에 지면(부문)을 알린다. 문화 전문매체로 심사받을 때 기사가 어느
+    # 영역인지 기계가 읽을 수 있어야 한다.
+    if is_ent(item):
+        data["articleSection"] = ENT_TOPIC_NAMES.get(ent_category_of(item), "연예")
+    else:
+        data["articleSection"] = TOPIC_NAMES.get(topic_of(item), "여행")
     if getattr(item, "title_orig", None):
         data["alternativeHeadline"] = item.title_orig
     # 리치결과는 1200×630 JPG 를 원한다. 없으면 기본 카드라도 넣는다 — image 가
@@ -394,8 +492,12 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     def listed_only(rows):
         return [i for i in rows if not getattr(i, "off_topic", False)]
 
+    def travel_only(rows):
+        return [i for i in rows if not is_ent(i)]
+
     # 도시별 묶음. 푸터 링크가 모든 페이지에 들어가므로 common 보다 먼저 만든다.
-    by_city = group_by_city(listed_only(items))
+    # 연예 기사는 도시 이름이 나와도("도쿄돔 콘서트") 도시 여행면에 넣지 않는다.
+    by_city = group_by_city(travel_only(listed_only(items)))
 
     # 서명. 사람 이름을 지어내지 않고 부서로 나눈다.
     for item in items:
@@ -404,9 +506,12 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     manifest = load_manifest()
     if manifest:
         # 지역면 단위로 배정한다. 한 화면에 같은 사진이 두 번 걸리지 않게.
+        # 연예 기사에는 지역 사진을 자동으로 붙이지 않는다 — 괌 해변 사진이
+        # 영화 개봉 기사에 붙으면 거짓 그림이 된다. 연예 사진은 편집실에서
+        # 직접 찍어 올린 것(프론트매터 photo)만 쓴다.
         by_region: dict[str, list] = {}
         for item in items:
-            if not item.photo and item.grade != "A":
+            if not item.photo and item.grade != "A" and not is_ent(item):
                 by_region.setdefault(item.region, []).append(item)
         # 사용 이력을 이어받는다. 한 번 쓴 사진은 다시 배정되지 않는다.
         used = load_used()
@@ -427,11 +532,19 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     urls = {i.id: article_url(i) for i in items}
     by_id = {i.id: i for i in items}
     listed = listed_only(items)
-    grouped = group_by_region(listed)
+    grouped = group_by_region(travel_only(listed))
+    ent_listed = [i for i in listed if is_ent(i)]
+    by_ent = group_by_ent_topic(ent_listed)
+    star_trips = load_star_trips()
 
     common = {
         "site_name": SITE_NAME, "site_tagline": SITE_TAGLINE,
+        "site_kind": SITE_KIND,
         "site_url": SITE_URL, "region_names": REGION_NAMES,
+        "channel_names": CHANNEL_NAMES,
+        "ent_topics": ENT_TOPICS, "ent_topic_names": ENT_TOPIC_NAMES,
+        "ent_count": len(ent_listed),
+        "tag_of": tag_of,
         "today": today, "article_urls": urls,
         # 푸터 도시 링크. 기사가 쌓인 도시만 들어온다.
         "city_links": [(slug, CITY_NAMES[slug]) for slug in by_city],
@@ -449,9 +562,10 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             "@context": "https://schema.org",
             "@type": "NewsMediaOrganization",
             "name": SITE_NAME,
+            "alternateName": "PeopleRoad",
             "url": SITE_URL + BASE_PATH + "/",
             "logo": SITE_URL + BASE_PATH + "/og-default.jpg",
-            "description": SITE_TAGLINE,
+            "description": f"{SITE_KIND}. {SITE_TAGLINE}",
             # 자동 생성 기사가 있다는 사실을 기계도 읽을 수 있게 밝힌다.
             "publishingPrinciples": SITE_URL + BASE_PATH + "/about/",
             "email": CONTACT_EMAIL,
@@ -484,6 +598,9 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         tid: [i for i in got if i.grade != "A" and i.id not in shown]
         for tid, got in by_topic.items()
     }
+    # 연예 블록도 같은 규칙 — 위에 안 나온 것만, 없으면 블록 자체를 안 그린다.
+    home_ent = {tid: [i for i in got if i.id not in shown]
+                for tid, got in by_ent.items()}
 
     # "많이 본 뉴스" 자리에는 조회수를 쓰지 않는다 — 우리는 그 숫자가 없고,
     # 없는 숫자로 순위를 만들면 그건 지어낸 것이다. 대신 우리가 실제로 가진
@@ -510,8 +627,9 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         env.get_template("index.html").render(
             counts={k: len(v) for k, v in grouped.items()},
             top_by_region=top_by_region, lead=lead, sub_leads=sub_leads,
-            data_panel=data_panel, by_topic=home_topics,
+            data_panel=data_panel, by_topic=home_topics, by_ent=home_ent,
             lead_topic=topic_of(lead) if lead else '',
+            lead_tag=tag_of(lead) if lead else None,
             headlines=headlines, **common),
         written,
     )
@@ -523,8 +641,48 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             os.path.join(out_dir, key, "index.html"),
             env.get_template("region.html").render(
                 region_key=key, region_name=name, panel=panel,
-                articles=articles, product_link=PRODUCT_LINKS[key],
+                articles=articles, product_link=product_link_for(key),
                 desk=REGION_DESKS.get(key, ""), **common),
+            written,
+        )
+
+    # 여행 허브 — /travel/. 네비의 '여행' 글자가 가리키는 곳. 지역면 열 곳과
+    # 여행 부문으로 가는 입구이고, 최근 여행 기사를 함께 보여준다.
+    _write(
+        os.path.join(out_dir, "travel", "index.html"),
+        env.get_template("channel.html").render(
+            channel_key="travel", channel_name=CHANNEL_NAMES["travel"],
+            channel_desc=("괌·사이판·하와이·베트남·코타키나발루·라오스·제주·일본·태국·대만 "
+                          "열 곳의 여행 소식. 지역면과 부문으로 나눠 매일 냅니다."),
+            sections=[(f"/{tid}/", name, desc) for tid, name, desc in TOPICS],
+            places=[(f"/{key}/", name) for key, name in REGION_NAMES.items()],
+            items=[i for i in travel_only(listed) if i.grade != "A"][:24],
+            star_trips=[], **common),
+        written,
+    )
+
+    # 연예 채널 — /ent/ 와 부문 페이지. 기사가 0건이어도 쪽은 만든다.
+    # 네비에서 가리키는 주소가 404 면 안 된다. 빈 쪽은 "아직 없다"고 말한다.
+    _write(
+        os.path.join(out_dir, "ent", "index.html"),
+        env.get_template("channel.html").render(
+            channel_key="ent", channel_name=CHANNEL_NAMES["ent"],
+            channel_desc=("영화·드라마·방송·음악·공연·인물, 그리고 여행과 연예가 만나는 "
+                          "'스타의 여행'. 소속사·배급사 발표와 현장 취재로 씁니다. "
+                          "사진은 저희가 직접 찍은 것만 씁니다."),
+            sections=[(f"/ent/{tid}/", name, desc) for tid, name, desc in ENT_TOPICS],
+            places=[], items=ent_listed[:24], star_trips=[], **common),
+        written,
+    )
+    for topic_id, topic_name, topic_desc in ENT_TOPICS:
+        _write(
+            os.path.join(out_dir, "ent", topic_id, "index.html"),
+            env.get_template("section.html").render(
+                section_title=f"{topic_name}", section_desc=topic_desc,
+                section_kicker=CHANNEL_NAMES["ent"],
+                items=by_ent[topic_id], desk=ENT_DESK,
+                star_trips=star_trips if topic_id == STARTRIP else [],
+                **common),
             written,
         )
 
@@ -583,8 +741,10 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 검색은 8/8 이 갖추고 있다. 정적 사이트라 서버가 없으므로 색인을 내려
     # 브라우저에서 찾는다. 색인에는 제목·지역·부문만 넣는다 — 본문을 넣으면
     # 남의 기사 요약을 통째로 배포하는 셈이 된다.
-    index = [{"t": i.title, "u": urls[i.id], "k": i.region,
-              "r": REGION_NAMES.get(i.region, i.region),
+    # k 는 꼬리표 링크의 경로 조각이다 — 여행은 "guam", 연예는 "ent/movie".
+    index = [{"t": i.title, "u": urls[i.id],
+              "k": tag_of(i)["href"].strip("/"),
+              "r": tag_of(i)["label"],
               "g": i.grade, "d": i.published_at[:10]}
              for i in listed if i.grade != "A"]
     _write(os.path.join(out_dir, "search.json"),
@@ -600,28 +760,42 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             continue
         related = [by_id[r] for r in item.related if r in by_id]
 
-        # 같은 도시 → 없으면 같은 지역. 도시가 더 가까운 맥락이다.
-        mine = cities_of(item)
         pool = [i for i in items
                 if i.id != item.id and i.grade != "A"
                 and i.id not in {r.id for r in related}]
-        more = [i for i in pool if mine and set(cities_of(i)) & set(mine)]
-        more_label = (CITY_NAMES[mine[0]] if mine and mine[0] in CITY_NAMES
-                      else REGION_NAMES.get(item.region, item.region))
-        more_link = (f"/city/{mine[0]}/" if mine and mine[0] in by_city
-                     else f"/{item.region}/")
-        if len(more) < 4:
-            seen_ids = {i.id for i in more}
-            more += [i for i in pool
-                     if i.region == item.region and i.id not in seen_ids]
-            more_label = REGION_NAMES.get(item.region, item.region)
-            more_link = f"/{item.region}/"
-        more = more[:5]
+        if is_ent(item):
+            # 연예 기사는 같은 부문 → 없으면 연예 전체. 지역·도시·환율은 없다.
+            cat = ent_category_of(item)
+            more = [i for i in pool if is_ent(i) and ent_category_of(i) == cat]
+            more_label = ENT_TOPIC_NAMES.get(cat, cat)
+            more_link = f"/ent/{cat}/"
+            if len(more) < 4:
+                seen_ids = {i.id for i in more}
+                more += [i for i in pool if is_ent(i) and i.id not in seen_ids]
+                more_label, more_link = CHANNEL_NAMES["ent"], "/ent/"
+            more = more[:5]
+            facts = []
+        else:
+            # 같은 도시 → 없으면 같은 지역. 도시가 더 가까운 맥락이다.
+            pool = [i for i in pool if not is_ent(i)]
+            mine = cities_of(item)
+            more = [i for i in pool if mine and set(cities_of(i)) & set(mine)]
+            more_label = (CITY_NAMES[mine[0]] if mine and mine[0] in CITY_NAMES
+                          else REGION_NAMES.get(item.region, item.region))
+            more_link = (f"/city/{mine[0]}/" if mine and mine[0] in by_city
+                         else f"/{item.region}/")
+            if len(more) < 4:
+                seen_ids = {i.id for i in more}
+                more += [i for i in pool
+                         if i.region == item.region and i.id not in seen_ids]
+                more_label = REGION_NAMES.get(item.region, item.region)
+                more_link = f"/{item.region}/"
+            more = more[:5]
 
-        # 그 지역의 오늘 값. 우리가 만든 사실이라 기사에 붙여도 남의 것이 아니고,
-        # 여행 기사를 읽는 사람에게 실제로 쓸모가 있다.
-        facts = next((row["facts"] for row in data_panel
-                      if row["region"] == item.region), [])
+            # 그 지역의 오늘 값. 우리가 만든 사실이라 기사에 붙여도 남의 것이 아니고,
+            # 여행 기사를 읽는 사람에게 실제로 쓸모가 있다.
+            facts = next((row["facts"] for row in data_panel
+                          if row["region"] == item.region), [])
 
         _write(
             os.path.join(out_dir, urls[item.id].strip("/"), "index.html"),
@@ -630,8 +804,9 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
                 more_label=more_label, more_link=more_link, facts=facts,
                 article_ld=_article_ld(item, urls),
                 crumb_ld=_crumb_ld(item, urls),
-                region_name=REGION_NAMES.get(item.region, item.region),
-                product_link=PRODUCT_LINKS.get(item.region, SITE_URL),
+                region_name=tag_of(item)["label"],
+                tag=tag_of(item),
+                product_link=product_link_for(item.region) if not is_ent(item) else "",
                 **common),
             written,
         )

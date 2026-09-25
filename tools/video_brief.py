@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""와플트립 기사에서 그날의 영상 소재를 골라 대본 초안을 만든다.
+"""피플로드 기사에서 그날의 영상 소재를 골라 대본 초안을 만든다.
 
 **우리가 만든 것만 영상으로 만든다.** 인용 기사(B등급)는 남의 취재다.
 그것을 우리 영상으로 재포장하면 남의 노동을 가져다 쓰는 것이 되고, 사진도
@@ -194,7 +194,7 @@ def script_for(item: dict) -> dict:
         })
     scenes.append({
         "n": len(scenes) + 1,
-        "narration": f"{name} 소식은 와플트립에서 매일 정리합니다.",
+        "narration": f"{name} 소식은 피플로드에서 매일 정리합니다.",
         "caption": "waffletrip.com",
         "screen": "매일 아침 8시\nwaffletrip.com",
         "note": "마무리 CTA. 채널 핸들은 개설 뒤 확정.",
@@ -210,7 +210,7 @@ def script_for(item: dict) -> dict:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="와플트립 영상 소재와 대본 초안")
+    ap = argparse.ArgumentParser(description="피플로드 영상 소재와 대본 초안")
     ap.add_argument("--count", type=int, default=3)
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--data-dir", default="data")

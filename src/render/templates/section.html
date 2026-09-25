@@ -3,16 +3,38 @@
 {% block description %}{{ section_desc }}{% endblock %}
 {% block content %}
 <div class="page-head">
+  {% if section_kicker %}<span class="kicker">{{ section_kicker }}</span>{% endif %}
   <h1>{{ section_title }}</h1>
   <p class="note">{{ section_desc }}</p>
+  {% if desk %}<p class="desk">이 지면은 <b>{{ desk }}</b>가 맡습니다.</p>{% endif %}
 </div>
+
+{# 피플레이와 함께 여행한 스타. 여행과 연예가 실제로 만난 기록이라 우리만 낼 수 있다.
+   data/star_trips.yaml 에서 동의(consent)가 있는 항목만 온다. 없으면 표를 안 그린다. #}
+{% if star_trips %}
+<section class="block" style="margin:0 0 40px">
+  <h2 class="block-title">피플레이와 함께한 스타</h2>
+  <p class="note" style="margin:0 0 14px">운영사 피플레이(괌플레이·사이판플레이 등)의 여행에 함께한 분들입니다.
+  본인과 소속사의 동의를 받은 항목만 싣습니다. 운영사와의 관계는 <a href="/ethics/">편집원칙</a>에 밝혀 두었습니다.</p>
+  <div class="tw"><table>
+    <thead><tr><th>이름</th><th>소속·작품</th><th>여행지</th><th>시기</th><th>함께한 곳</th><th>기사</th></tr></thead>
+    <tbody>
+    {% for s in star_trips %}
+      <tr><td>{{ s.name }}</td><td>{{ s.group }}</td><td>{{ s.region_name }}{% if s.place %} · {{ s.place }}{% endif %}</td>
+      <td>{{ s.when }}</td><td>{{ s.play }}{% if s.purpose %} · {{ s.purpose }}{% endif %}</td>
+      <td>{% if s.article %}<a href="{{ s.article }}">보기</a>{% endif %}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+{% endif %}
 
 {% if items %}
 <div class="cards">
   {% for item in items %}
   <article class="card{% if not item.photo %} text-only{% endif %}">
     {% if item.photo and item.grade != 'A' %}<a href="{{ article_urls[item.id] }}"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy" {{ dims(item.photo) }}></a>{% endif %}
-    <a class="rg" href="/{{ item.region }}/">{{ region_names.get(item.region, item.region) }}</a>
+    {% set tg = tag_of(item) %}<a class="rg" href="{{ tg.href }}">{{ tg.label }}</a>
     <h3>{% if item.title is sample %}<span class="badge">샘플</span>{% endif %}{% if item.grade == 'A' %}{{ item.title }}{% else %}<a href="{{ article_urls[item.id] }}">{{ item.title|clean_title }}</a>{% endif %}</h3>
     {% if item.grade == 'A' and item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
     <div class="byline">{{ item.source_name }} · {{ item.published_at[:10] }}</div>
