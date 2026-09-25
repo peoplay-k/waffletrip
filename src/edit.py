@@ -24,8 +24,8 @@ from src.autowrite import build_city_roundup, build_daily, build_roundup
 from src.guards.dup_guard import (PublishedIndex, cluster_batch,
                                   filter_unpublished)
 from src.models import Item, item_from_dict, item_to_dict
-from src.relevance import (is_crime_report, is_ent_excluded, is_spam,
-                           is_travel_related)
+from src.relevance import (is_crime_report, is_ent_excluded, is_ent_newsworthy,
+                           is_spam, is_travel_related)
 from src.sources import load_sources
 
 DRAFT_NAME = re.compile(r"^(\d{4}-\d{2}-\d{2})_(.+)\.md$")
@@ -48,7 +48,9 @@ def edit_items(raw_items: list[Item], index: PublishedIndex,
             # 연예 기사는 여행 관련성을 묻지 않는다. 대신 가십·사건·스팸을 거른다.
             keep = (not is_ent_excluded(f"{item.title}\n{item.summary}", item.source_name)
                     and not is_crime_report(text)
-                    and not is_spam(text, item.source_name))
+                    and not is_spam(text, item.source_name)
+                    # 부문 없는 일반 피드(연예 헤드라인·시상식)는 공식 발표성 제목만
+                    and (bool(getattr(item, "category", "")) or is_ent_newsworthy(item.title)))
         else:
             keep = (item.grade == "A"
                     or item.source_name in curated_sources

@@ -359,3 +359,18 @@ def test_more_list_excludes_hidden_articles(tmp_path):
     html = open(_g.glob(str(tmp_path / "ent" / "c-a-*" / "index.html"))[0], encoding="utf-8").read()
     assert "분석해 봅시다" not in html
     assert "영화 0 개봉" in html
+
+
+def test_generic_ent_feed_requires_an_official_announcement_keyword():
+    from src.edit import edit_items
+    from src.guards.dup_guard import PublishedIndex
+    def row(i, title, cat=""):
+        it = ent(str(i), title, cat, grade="B"); it.source_name = f"연합뉴스{i}"; it.source_url = f"https://e/{i}"; return it
+    rows = [row(1, "BTS 월드투어 3분기 누적 전 세계 투어 매출 1위"),          # 투어 → 실린다
+            row(2, "신현준, 이국적 외모 가족사진 공개"),                      # 가족사진 → 제외
+            row(3, "심형래, 179억 빚에 파산까지"),                            # 빚·파산 → 제외
+            row(4, "지창욱 얼굴 좋아하죠"),                                    # 발표성 낱말 없음 → 제외
+            row(5, "주상욱♥차예련, 9세 딸 첫 공개"),                          # ♥ → 제외
+            row(6, "영암서 내달 9일 환경영화제 개막…초등생 제작 영화 상영", "movie")]  # 초등생 → 제외
+    got = edit_items(rows, PublishedIndex(set(), []), [], set())
+    assert {i.id for i in got["publish"]} == {"1"}
