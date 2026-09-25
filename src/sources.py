@@ -9,7 +9,7 @@ import yaml
 # 지역 목록은 src/models.py 가 정본이다. 두 곳에 적어두면 반드시 어긋난다 —
 # 실제로 지역을 늘렸는데 여기가 옛 목록이라 소스 등록이 막혔다.
 from src.models import CHANNELS, REGIONS as _MODEL_REGIONS
-from src.topics import ENT_TOPIC_NAMES
+from src.topics import ENT_ALIASES, ENT_TOPIC_NAMES
 
 REGIONS = _MODEL_REGIONS + ("all", "auto")
 SECTIONS = ("flight", "news", "data", "promo")
@@ -71,7 +71,7 @@ def load_sources(path: str) -> list[Source]:
             raise SourceConfigError(
                 f"{where}: 알 수 없는 channel '{channel}' (허용: {CHANNELS})")
         category = e.get("category", "") or ""
-        if channel == "ent" and category and category not in ENT_TOPIC_NAMES:
+        if channel == "ent" and category and category not in ENT_TOPIC_NAMES and category not in ENT_ALIASES:
             raise SourceConfigError(
                 f"{where}: 알 수 없는 연예 부문 '{category}' (허용: {tuple(ENT_TOPIC_NAMES)})")
 

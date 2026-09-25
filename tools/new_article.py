@@ -37,8 +37,10 @@ REGIONS = {"guam": "괌", "saipan": "사이판", "hawaii": "하와이",
 SECTIONS = {"news": "일반 소식·해설", "flight": "항공·노선",
             "data": "데이터·통계", "promo": "안내"}
 # 연예 부문. src/topics.py ENT_TOPICS 와 같다.
-CATEGORIES = {"movie": "영화", "drama": "드라마·방송", "music": "음악·공연",
-              "star": "인물", "startrip": "스타의 여행 (촬영지·스타가 간 곳)"}
+CATEGORIES = {"movie": "영화·드라마", "music": "음악·공연",
+              "startrip": "스타의 여행 (인물·촬영지·해외 공연)",
+              # 옛 id 도 받는다 — 발행 경로가 새 부문으로 붙인다
+              "drama": "(옛) 드라마·방송 → 영화·드라마", "star": "(옛) 인물 → 스타의 여행"}
 
 # 연예 기사 양식. 보도자료와 현장으로만 쓴다 — 루머·사생활은 편집원칙이 금한다.
 TEMPLATE_ENT = """## 무엇이 있었나
@@ -121,7 +123,7 @@ def create(region: str, title: str, section: str = "news",
     if os.path.exists(path):
         raise SystemExit(f"같은 이름의 초안이 이미 있다: {path}")
 
-    key = f"ent-{category or 'star'}" if ent else region
+    key = f"ent-{category or 'startrip'}" if ent else region
     front = {
         "id": f"art-{key}-{day.replace('-', '')}",
         "channel": "ent" if ent else "travel",
@@ -157,7 +159,7 @@ def queue() -> None:
                 front = yaml.safe_load(f.read().split("---")[1]) or {}
         except Exception:
             continue
-        where = (f"ent/{front.get('category') or 'star'}"
+        where = (f"ent/{front.get('category') or 'startrip'}"
                  if front.get("channel") == "ent" else front.get("region", "?"))
         rows.append((front.get("status", "?"), where,
                      front.get("title", name)[:44], name))

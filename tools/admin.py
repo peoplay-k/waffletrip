@@ -49,9 +49,8 @@ REGIONS = [("guam", "괌"), ("saipan", "사이판"), ("hawaii", "하와이"),
            ("laos", "라오스"), ("jeju", "제주"), ("japan", "일본"),
            ("thailand", "태국"), ("taiwan", "대만")]
 CHANNELS = [("travel", "여행 — 지역면"), ("ent", "연예 — /ent/ 부문")]
-CATEGORIES = [("", "(여행 기사는 비움)"), ("movie", "영화"), ("drama", "드라마·방송"),
-              ("music", "음악·공연"), ("star", "인물"),
-              ("startrip", "스타의 여행 — 촬영지·스타가 간 곳")]
+CATEGORIES = [("", "(여행 기사는 비움)"), ("movie", "영화·드라마"),
+              ("music", "음악·공연"), ("startrip", "스타의 여행 — 인물·촬영지·해외 공연")]
 SECTIONS = [("news", "일반 소식·해설"), ("flight", "항공·노선"),
             ("data", "데이터·통계"), ("promo", "안내")]
 STATUSES = [("draft", "작성중 — 지면에 안 나감"),
@@ -264,7 +263,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                     st = d.get("status", "draft")
                     label = dict((v, l.split(" —")[0]) for v, l in STATUSES).get(st, st)
                     if d.get("channel") == "ent":
-                        rg = "연예 · " + dict(CATEGORIES).get(d.get("category") or "", "인물").split(" —")[0]
+                        rg = "연예 · " + dict(CATEGORIES).get(d.get("category") or "", "스타의 여행").split(" —")[0]
                     else:
                         rg = dict(REGIONS).get(d.get("region"), d.get("region", "-"))
                     trs += (f'<tr><td><span class="pill s-{st}">{html.escape(label)}</span></td>'
@@ -362,7 +361,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             path = os.path.join(REVIEW, name)
             if not os.path.exists(path):
                 channel = g("channel") or "travel"
-                key = f"ent-{g('category') or 'star'}" if channel == "ent" else g("region")
+                key = f"ent-{g('category') or 'startrip'}" if channel == "ent" else g("region")
                 body = ("## 무엇이 있었나\n\n\n\n## 현장\n\n\n\n## 알아둘 점\n\n\n\n"
                         "**출처** · (보도자료·현장 취재)\n") if channel == "ent" else \
                        "## 무엇을 확인했나\n\n\n\n## 실측\n\n| 항목 | 값 | 확인일 |\n|---|---|---|\n|  |  |  |\n\n## 정리\n"

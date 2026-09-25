@@ -109,9 +109,10 @@ def test_sitemap_lists_the_standing_pages(tmp_path):
     """부문이 flight/data 에서 일곱 개로 바뀌었다. 사이트맵도 따라가야 한다."""
     path = render_sitemap([], str(tmp_path), TODAY)
     text = Path(path).read_text(encoding="utf-8")
-    for page in ("data", "about", "biz", "issue", "feature"):
+    for page in ("data", "about", "biz", "news", "feature"):
         assert f"/{page}/</loc>" in text, page
     assert "/flight/</loc>" not in text
+    assert "/issue/</loc>" not in text          # 합쳐진 옛 부문은 사이트맵에 없다
 
 
 def test_sitemap_lists_our_own_articles(tmp_path):

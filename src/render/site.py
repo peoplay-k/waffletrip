@@ -23,9 +23,10 @@ from src.photos import (assign as assign_photos, copy_into, load_manifest, og_pa
                         load_used, save_used)
 from src.render.md import render as md_render
 from src.cities import CITY_NAMES, CITY_REGION, cities_of, group_by_city
-from src.topics import (ENT_TOPIC_DESCS, ENT_TOPIC_NAMES, ENT_TOPICS, STARTRIP,
-                        TOPIC_DESCS, TOPIC_NAMES, TOPICS, ent_category_of,
-                        group_by_ent_topic, group_by_topic, is_ent, topic_of)
+from src.topics import (ENT_ALIASES, ENT_TOPIC_DESCS, ENT_TOPIC_NAMES, ENT_TOPICS,
+                        STARTRIP, TOPIC_ALIASES, TOPIC_DESCS, TOPIC_NAMES, TOPICS,
+                        ent_category_of, group_by_ent_topic, group_by_topic, is_ent,
+                        topic_of)
 
 from src.models import CHANNEL_NAMES, Item
 
@@ -693,6 +694,18 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
                 items=by_topic[topic_id], **common),
             written,
         )
+
+    # 옛 부문 주소. 2026-09-25 부문을 합치면서 /issue/ /world/ /policy/ /people/ 과
+    # /ent/drama/ /ent/star/ 가 사라졌다. 이미 색인되고 공유된 주소라 죽이지 않고
+    # 새 부문으로 넘긴다(meta refresh + canonical). 사이트맵에는 넣지 않는다.
+    for old, new in TOPIC_ALIASES.items():
+        _write(os.path.join(out_dir, old, "index.html"),
+               env.get_template("redirect.html").render(
+                   target=f"/{new}/", target_name=TOPIC_NAMES[new], **common), written)
+    for old, new in ENT_ALIASES.items():
+        _write(os.path.join(out_dir, "ent", old, "index.html"),
+               env.get_template("redirect.html").render(
+                   target=f"/ent/{new}/", target_name=ENT_TOPIC_NAMES[new], **common), written)
 
     # 도시 페이지 — /city/tokyo/ 같은 주소.
     # 지역면(일본)만으로는 "오사카 항공권" 검색을 받지 못한다. 사람들은

@@ -193,7 +193,7 @@ def main() -> int:
                 total += 1
                 outlets = sorted({(i.get("source_name") or "").strip()
                                   for i in g if i.get("source_name")})
-                cat = g[0].get("category") or "star"
+                cat = g[0].get("category") or "startrip"
                 lines.append(f"### [{cat}] {g[0]['title']}")
                 lines.append(f"- 매체 {len(outlets)}곳 · {' · '.join(outlets) or '미상'}"
                              f"{'  ← 여러 곳이 썼다' if len(g) > 1 else ''}")

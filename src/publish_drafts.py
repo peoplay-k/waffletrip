@@ -28,7 +28,7 @@ import yaml
 from src.guards.dup_guard import PublishedIndex
 from src.guards.privacy_guard import find_violations
 from src.models import CHANNELS, REGIONS, Item, item_to_dict, title_hash
-from src.topics import ENT_TOPIC_NAMES
+from src.topics import ent_canonical
 
 KST = timezone(timedelta(hours=9))
 
@@ -130,10 +130,11 @@ def collect_approved(review_dir: str, day: str) -> list[tuple[str, Item]]:
         category = str(front.get("category") or "").strip()
         if channel == "ent":
             region = ""                # 연예 기사는 지역면이 없다
-            if category and category not in ENT_TOPIC_NAMES:
+            if category and not ent_canonical(category):
                 print(f"  모르는 연예 부문이라 건너뛴다: {name} — category={category!r}",
                       file=sys.stderr)
                 continue
+            category = ent_canonical(category)
         else:
             category = ""
             if region not in REGIONS:
@@ -223,7 +224,7 @@ def main(data_dir: str = "data", review_dir: str = "content/review") -> int:
 
     print(f"해설 기사 발행: {len(published)}건")
     for _, item in published:
-        print(f"  [{item.region or ('ent/' + (item.category or 'star'))}] {item.title[:50]}")
+        print(f"  [{item.region or ('ent/' + (item.category or 'startrip'))}] {item.title[:50]}")
     return 0
 
 

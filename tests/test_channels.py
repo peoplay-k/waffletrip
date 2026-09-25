@@ -55,7 +55,9 @@ def test_ent_category_from_editor_wins_over_keywords():
 def test_ent_category_falls_back_to_keywords_then_star():
     assert ent_category_of(ent("1", "배우 ○○, 사이판 촬영지에서", "")) == "startrip"
     assert ent_category_of(ent("1", "○○ 신작 영화 개봉", "")) == "movie"
-    assert ent_category_of(ent("1", "○○ 소속사 이적", "")) == "star"
+    assert ent_category_of(ent("1", "○○ 소속사 이적", "")) == "startrip"   # 인물은 스타의 여행으로 합쳤다
+    assert ent_category_of(ent("1", "x", "drama")) == "movie"                 # 옛 id 는 새 부문으로
+    assert ent_category_of(ent("1", "x", "star")) == "startrip"
 
 
 def test_travel_rules_never_apply_to_ent_items():
@@ -83,7 +85,7 @@ def test_ent_article_url_lives_under_ent():
 
 
 def test_tag_of_points_ent_at_its_section_and_travel_at_its_region():
-    assert tag_of(ent("1", "x", "drama")) == {"href": "/ent/drama/", "label": "연예 · 드라마·방송"}
+    assert tag_of(ent("1", "x", "drama")) == {"href": "/ent/movie/", "label": "연예 · 영화·드라마"}
     assert tag_of(make("1", "x", region="jeju")) == {"href": "/jeju/", "label": "제주"}
 
 
@@ -121,8 +123,8 @@ def test_ent_article_renders_under_ent_and_not_in_region_pages(tmp_path):
 def test_ent_article_breadcrumb_goes_through_the_channel(tmp_path):
     render_site([ent("c-2", "영화 ○○ 개봉", "movie")], str(tmp_path), TODAY)
     html = (tmp_path / "ent" / "c-2-영화-개봉" / "index.html").read_text(encoding="utf-8")
-    assert '"name": "연예"' in html and '"name": "영화"' in html
-    assert '"articleSection": "영화"' in html
+    assert '"name": "연예"' in html and '"name": "영화·드라마"' in html
+    assert '"articleSection": "영화·드라마"' in html
 
 
 def test_search_index_tags_ent_articles_with_their_section(tmp_path):
@@ -130,7 +132,7 @@ def test_search_index_tags_ent_articles_with_their_section(tmp_path):
                 str(tmp_path), TODAY)
     rows = json.loads((tmp_path / "search.json").read_text(encoding="utf-8"))
     by = {r["t"]: r for r in rows}
-    assert by["영화 ○○ 개봉"]["k"] == "ent/movie" and by["영화 ○○ 개봉"]["r"] == "연예 · 영화"
+    assert by["영화 ○○ 개봉"]["k"] == "ent/movie" and by["영화 ○○ 개봉"]["r"] == "연예 · 영화·드라마"
     assert by["괌 소식"]["k"] == "guam"
 
 
@@ -194,7 +196,7 @@ def test_ent_draft_publishes_without_region(tmp_path):
     got = collect_approved(str(review), TODAY)
     assert len(got) == 1
     item = got[0][1]
-    assert item.channel == "ent" and item.category == "drama" and item.region == ""
+    assert item.channel == "ent" and item.category == "movie" and item.region == ""   # drama → movie
 
 
 def test_travel_draft_without_region_is_skipped(tmp_path):
@@ -245,8 +247,9 @@ def test_sources_yaml_carries_ent_sources_with_categories():
     ent_sources = [s for s in load_sources("sources.yaml") if s.channel == "ent"]
     assert ent_sources, "연예 소스가 하나도 없다"
     for s in ent_sources:
-        # 부문 없는 소스(연예 헤드라인·시상식)는 빈 값 — 제목으로 추정한다
-        assert s.category in {t for t, _, _ in ENT_TOPICS} | {""}, s.id
+        # 부문 없는 소스(연예 헤드라인·시상식)는 빈 값 — 제목으로 추정한다. 옛 id 도 허용.
+        from src.topics import ENT_ALIASES
+        assert s.category in {t for t, _, _ in ENT_TOPICS} | {""} | set(ENT_ALIASES), s.id
         assert s.region == "all"
 
 
@@ -336,7 +339,7 @@ def test_home_shows_an_entertainment_block_near_the_top(tmp_path):
     render_site(items, str(tmp_path), TODAY)
     home = (tmp_path / "index.html").read_text(encoding="utf-8")
     ent_pos = home.index('class="block-title"><a href="/ent/">')
-    first_travel_block = home.index('class="block-title"><a href="/world/">') if '/world/">' in home else len(home)
+    first_travel_block = home.index('class="block-title"><a href="/news/">') if '/news/">' in home else len(home)
     assert ent_pos < first_travel_block          # 연예 톱이 여행 부문 블록보다 위
     assert home.count("영화 ○○ 개봉 0") == 1     # 같은 기사가 두 번 걸리지 않는다
 
@@ -374,3 +377,13 @@ def test_generic_ent_feed_requires_an_official_announcement_keyword():
             row(6, "영암서 내달 9일 환경영화제 개막…초등생 제작 영화 상영", "movie")]  # 초등생 → 제외
     got = edit_items(rows, PublishedIndex(set(), []), [], set())
     assert {i.id for i in got["publish"]} == {"1"}
+
+
+def test_old_section_urls_redirect_to_the_merged_sections(tmp_path):
+    render_site([make("1", "괌 소식")], str(tmp_path), TODAY)
+    for old, new in (("issue", "news"), ("world", "news"), ("policy", "news"), ("people", "biz")):
+        html = (tmp_path / old / "index.html").read_text(encoding="utf-8")
+        assert f'url=/{new}/' in html and 'noindex' in html
+    for old, new in (("drama", "movie"), ("star", "startrip")):
+        html = (tmp_path / "ent" / old / "index.html").read_text(encoding="utf-8")
+        assert f'url=/ent/{new}/' in html

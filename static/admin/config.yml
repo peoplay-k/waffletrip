@@ -77,12 +77,10 @@ collections:
         widget: select
         required: false
         options:
-          - { label: 영화, value: movie }
-          - { label: 드라마·방송, value: drama }
+          - { label: 영화·드라마, value: movie }
           - { label: 음악·공연, value: music }
-          - { label: 인물, value: star }
-          - { label: 스타의 여행 (촬영지·스타가 간 곳), value: startrip }
-        hint: 연예 기사만 씁니다. 비우면 제목으로 추정하고, 모르면 인물로 갑니다.
+          - { label: 스타의 여행 (인물·촬영지·해외 공연), value: startrip }
+        hint: 연예 기사만 씁니다. 비우면 제목으로 추정하고, 모르면 스타의 여행으로 갑니다.
 
       - label: 부문
         name: section

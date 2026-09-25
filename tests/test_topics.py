@@ -29,10 +29,10 @@ def test_flight_section_goes_to_biz():
 
 
 @pytest.mark.parametrize("title,expected", [
-    ("괌정부관광청, 제주올레와 협약 체결", "policy"),
+    ("괌정부관광청, 제주올레와 협약 체결", "news"),     # 옛 관광정책 → 뉴스
     ("대한항공 괌 노선 증편", "biz"),
-    ("태풍 로웰 하와이 접근", "issue"),
-    ("신임 대표 취임 인터뷰", "people"),
+    ("태풍 로웰 하와이 접근", "news"),                # 옛 이슈·동향 → 뉴스
+    ("신임 대표 취임 인터뷰", "biz"),                 # 옛 피플·오피니언 → 업계·피플
 ])
 def test_korean_titles_land_in_the_right_topic(title, expected):
     assert topic_of(make(title)) == expected
@@ -40,8 +40,8 @@ def test_korean_titles_land_in_the_right_topic(title, expected):
 
 @pytest.mark.parametrize("title,expected", [
     ("Airline adds new route to Guam", "biz"),
-    ("Tropical Storm Lowell strengthens", "issue"),
-    ("Tourism board announces new policy", "policy"),
+    ("Tropical Storm Lowell strengthens", "news"),
+    ("Tourism board announces new policy", "news"),
 ])
 def test_english_titles_land_in_the_right_topic(title, expected):
     assert topic_of(make(title)) == expected
@@ -52,21 +52,21 @@ def test_english_titles_land_in_the_right_topic(title, expected):
     "Sea turtles nest along the coast",   # 아무 규칙에도 안 걸린다
 ])
 def test_english_matching_uses_word_boundaries(title):
-    """부분일치로 두면 chair 가 여행BIZ 로 간다."""
-    assert topic_of(make(title)) == "world"
+    """부분일치로 두면 chair 가 업계로 간다."""
+    assert topic_of(make(title)) == "news"
 
 
 def test_policy_wins_over_business():
-    """관광청 발표는 업계 소식이기도 하지만 정책이 먼저다."""
-    assert topic_of(make("관광청, 항공사와 노선 확대 협약")) == "policy"
+    """관광청 발표는 업계 소식이기도 하지만 정책(뉴스)이 먼저다."""
+    assert topic_of(make("관광청, 항공사와 노선 확대 협약")) == "news"
 
 
 def test_unmatched_goes_to_world_not_nowhere():
     """어디에도 안 걸린 기사가 사라지면 지면에서 통째로 빠진다.
 
-    우리 기사는 전부 해외발이라 국제로 보낸다.
+    우리 기사는 전부 해외발이라 뉴스로 보낸다(옛 국제).
     """
-    assert topic_of(make("World's second best islands named")) == "world"
+    assert topic_of(make("World's second best islands named")) == "news"
 
 
 def test_group_by_topic_keeps_every_item():
@@ -89,10 +89,13 @@ def test_every_topic_has_a_name_and_description():
 
 
 def test_topics_match_the_reference_masthead():
-    """여행신문 지면 구성을 따른다. 순서가 곧 네비 순서다."""
-    assert [name for _, name, _ in TOPICS] == [
-        "여행BIZ", "이슈·동향", "관광정책", "기획·연재", "국제",
-        "피플·오피니언", "통계·리포트"]
+    """2026-09-25 사장님 "카테고리가 너무 많다" — 넷으로 합쳤다. 순서가 곧 네비 순서다."""
+    assert [name for _, name, _ in TOPICS] == ["뉴스", "업계·피플", "기획·연재", "통계·리포트"]
+
+
+def test_old_topic_ids_alias_to_new_ones():
+    from src.topics import TOPIC_ALIASES
+    assert TOPIC_ALIASES == {"issue": "news", "world": "news", "policy": "news", "people": "biz"}
 
 
 def test_our_data_article_goes_to_statistics_not_features():

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{# 사라진 부문 주소가 가리키는 쪽. 검색엔진에는 canonical 로, 사람에게는 0초 refresh 로 새 부문을 알린다. #}
+{% block title %}{{ target_name }} — {{ site_name }}{% endblock %}
+{% block head_extra %}<link rel="canonical" href="{{ site_base }}{{ target }}">{% endblock %}
+{% block robots %}<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="0; url={{ target }}">{% endblock %}
+{% block description %}이 부문은 {{ target_name }}으로 합쳐졌습니다.{% endblock %}
+{% block content %}
+<div class="page-head"><h1>{{ target_name }}</h1></div>
+<p class="lead-note">이 부문은 <a href="{{ target }}">{{ target_name }}</a>으로 합쳐졌습니다. 잠시 뒤 자동으로 이동합니다.</p>
+{% endblock %}
