@@ -132,14 +132,36 @@ ENT_EXCLUDE_KEYWORDS: tuple[str, ...] = (
     "고소", "고발", "소송", "법정", "구속", "입건", "송치", "실형", "집행유예",
     "비난", "악플", "댓글 테러", "몸매", "노출", "비키니", "속옷", "19금",
     "사망설", "위독", "응급실", "투병", "건강 이상", "임신설", "결혼설", "재혼설",
+    # 연예가 아닌데 검색어에 걸리는 것 — 게임 '출시', 자동차 PPL 보도자료, 증권·인수 기사
+    "게임", "출시 전", "공식 출시", "얼리액세스", "스팀", "플레이스테이션", "닌텐도",
+    "GV80", "GV70", "제네시스 ", "신차", "하이브리드", "모터스튜디오",
+    "인수 눈앞", "지분", "주가", "증권", "투자 약속", "조선비즈",
+)
+
+# 기계 번역 티가 나는 제목. 2026-09-25 실측: 구글뉴스 한국어판에 베트남 매체의 자동 번역
+# 기사가 섞여 왔다("…영화가 인기를 끄는 이유를 분석해 봅시다", "…리뷰를 읽어보세요",
+# "…VOD로 시청 가능합니다", "…150억 VND 수익"). 남의 매체의 번역문은 우리 지면이 아니다.
+ENT_TRANSLATED_MARKS: tuple[str, ...] = (
+    "봅시다", "읽어보세요", "확인해 보세요", "알아보세요", "가능합니다", "습니다.",
+    "VND", "동(", "하노이 극장", "호치민 극장",
+)
+# 연예 지면에 싣지 않는 출처(번역·해외 종합지). 여행 쪽 SKIP_OUTLETS 와 별개다.
+ENT_SKIP_OUTLETS: tuple[str, ...] = (
+    "VnExpress", "Vietnam.vn", "VietnamPlus", "Báo", "Tuoi Tre", "Thanh Nien",
+    "Kenh14", "Zing", "조선비즈", "Histoire pour tous",
 )
 
 
-def is_ent_excluded(text: str) -> bool:
-    """연예 기사 가운데 우리 지면에 싣지 않는 것인가."""
+def is_ent_excluded(text: str, source_name: str = "") -> bool:
+    """연예 기사 가운데 우리 지면에 싣지 않는 것인가 — 가십·사건·비연예·기계번역·해외 번역 매체."""
+    if source_name and any(k.lower() in source_name.lower() for k in ENT_SKIP_OUTLETS):
+        return True
     if not text:
         return False
-    return any(k in text for k in ENT_EXCLUDE_KEYWORDS)
+    if any(k in text for k in ENT_EXCLUDE_KEYWORDS):
+        return True
+    title = text.split("\n", 1)[0]
+    return any(k in title for k in ENT_TRANSLATED_MARKS)
 
 
 def is_spam(text: str, source_name: str = "") -> bool:

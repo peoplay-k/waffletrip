@@ -590,8 +590,11 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         tid: [i for i in got if i.grade != "A" and i.id not in shown]
         for tid, got in by_topic.items()
     }
-    # 연예 블록도 같은 규칙 — 위에 안 나온 것만, 없으면 블록 자체를 안 그린다.
-    home_ent = {tid: [i for i in got if i.id not in shown]
+    # 연예 톱 — 헤드라인 띠 아래. 부문 가리지 않고 최신 여덟 건. 위에 안 나온 것만.
+    ent_top = [i for i in ent_listed if i.id not in shown][:8]
+    shown_ent = shown | {i.id for i in ent_top}
+    # 연예 부문 블록도 같은 규칙 — 위(톱·헤드라인·연예 톱)에 안 나온 것만, 없으면 블록 자체를 안 그린다.
+    home_ent = {tid: [i for i in got if i.id not in shown_ent]
                 for tid, got in by_ent.items()}
 
     # "많이 본 뉴스" 자리에는 조회수를 쓰지 않는다 — 우리는 그 숫자가 없고,
@@ -620,6 +623,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             counts={k: len(v) for k, v in grouped.items()},
             top_by_region=top_by_region, lead=lead, sub_leads=sub_leads,
             data_panel=data_panel, by_topic=home_topics, by_ent=home_ent,
+            ent_top=ent_top,
             lead_topic=topic_of(lead) if lead else '',
             lead_tag=tag_of(lead) if lead else None,
             headlines=headlines, **common),

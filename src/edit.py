@@ -46,7 +46,7 @@ def edit_items(raw_items: list[Item], index: PublishedIndex,
         text = f"{item.title} {item.summary}"
         if getattr(item, "channel", "travel") == "ent":
             # 연예 기사는 여행 관련성을 묻지 않는다. 대신 가십·사건·스팸을 거른다.
-            keep = (not is_ent_excluded(f"{item.title} {item.summary}")
+            keep = (not is_ent_excluded(f"{item.title}\n{item.summary}", item.source_name)
                     and not is_crime_report(text)
                     and not is_spam(text, item.source_name))
         else:

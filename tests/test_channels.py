@@ -245,7 +245,8 @@ def test_sources_yaml_carries_ent_sources_with_categories():
     ent_sources = [s for s in load_sources("sources.yaml") if s.channel == "ent"]
     assert ent_sources, "연예 소스가 하나도 없다"
     for s in ent_sources:
-        assert s.category in {t for t, _, _ in ENT_TOPICS}, s.id
+        # 부문 없는 소스(연예 헤드라인·시상식)는 빈 값 — 제목으로 추정한다
+        assert s.category in {t for t, _, _ in ENT_TOPICS} | {""}, s.id
         assert s.region == "all"
 
 
@@ -313,3 +314,28 @@ def test_ent_items_are_never_commentary_candidates():
         rows.append(it)
     got = edit_items(rows, PublishedIndex(set(), []), ["제작발표회"], set())
     assert got["c_candidates"] == []
+
+
+def test_ent_exclusion_catches_translated_and_non_entertainment_items():
+    from src.relevance import is_ent_excluded
+    assert is_ent_excluded("베트남 박스오피스에서 수빈의 영화가 인기를 끄는 이유를 분석해 봅시다")
+    assert is_ent_excluded("이번 주 수요일 영화 개봉작에 대한 리뷰를 읽어보세요")
+    assert is_ent_excluded("전기의 비너스가 VOD로 시청 가능합니다")
+    assert is_ent_excluded("공포 영화 개봉 Silent Hill Townfall 공식 출시 전에 불")
+    assert is_ent_excluded("제네시스 GV80 영화 인턴 등장 내달 하이브리드도 출격")
+    assert is_ent_excluded("영화 30편 15억달러 투자 약속 파라마운트 워너 인수 눈앞")
+    assert is_ent_excluded("아무 제목", source_name="VnExpress International")
+    assert not is_ent_excluded("2PM 더 리턴 콘서트 영화로 만난다 10월 21일 개봉", "연합뉴스")
+    assert not is_ent_excluded("MBC 새 금토드라마 라이어 대본리딩 현장 공개", "뉴스1")
+
+
+def test_home_shows_an_entertainment_block_near_the_top(tmp_path):
+    """두 축 매체다. 연예가 화면 맨 아래에만 있으면 여행 사이트로 읽힌다."""
+    items = [make(str(n), f"괌 소식 {n}", grade="B") for n in range(20)]
+    items += [ent(f"e{n}", f"영화 ○○ 개봉 {n}", "movie", grade="B") for n in range(3)]
+    render_site(items, str(tmp_path), TODAY)
+    home = (tmp_path / "index.html").read_text(encoding="utf-8")
+    ent_pos = home.index('class="block-title"><a href="/ent/">')
+    first_travel_block = home.index('class="block-title"><a href="/world/">') if '/world/">' in home else len(home)
+    assert ent_pos < first_travel_block          # 연예 톱이 여행 부문 블록보다 위
+    assert home.count("영화 ○○ 개봉 0") == 1     # 같은 기사가 두 번 걸리지 않는다

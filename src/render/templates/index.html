@@ -53,6 +53,27 @@
 </div>
 {% endif %}
 
+{# ── 연예 톱 — 헤드라인 띠 바로 아래. 두 축 매체인데 연예가 화면 맨 아래에만 있으면
+   여행 사이트로 읽힌다(2026-09-25 사장님 "지금 여행 쪽으로만 되어 있어").
+   부문 가리지 않고 최신 여덟 건. 위에 이미 나온 것은 뺀다. 없으면 안 그린다. #}
+{% if ent_top %}
+<section class="block" style="margin-top:44px">
+  <h2 class="block-title"><a href="/ent/">{{ channel_names.ent }}</a>
+    <span class="empty-s" style="font-weight:500;text-transform:none;letter-spacing:0;margin-left:10px">
+    {% for tid, tname, _ in ent_topics %}<a href="/ent/{{ tid }}/">{{ tname }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</span></h2>
+  <div class="cards">
+    {% for it in ent_top %}
+    <article class="card{% if not it.photo %} text-only{% endif %}">
+      {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="lazy" {{ dims(it.photo) }}></a>{% endif %}
+      {% set tg = tag_of(it) %}<a class="rg" href="{{ tg.href }}">{{ tg.label }}</a>
+      <h3>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[it.id] }}">{{ it.title|clean_title }}</a></h3>
+      <div class="byline">{{ it.source_name }} · {{ it.published_at[:10] }}</div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 {# 이번 주 영상. 우리가 직접 만든 것이라 지면에 건다.
    자동 재생하지 않는다 — 소리가 갑자기 나오면 읽던 사람을 쫓아낸다. #}
 {% if video %}
@@ -98,7 +119,7 @@
   {% endif %}
 {% endfor %}
 
-{# ── 연예 부문별 ── 기사가 있는 부문만 그린다. 빈 블록은 없다. #}
+{# ── 연예 부문별 ── 위 연예 톱에 안 나온 것만, 기사가 있는 부문만 그린다. 빈 블록은 없다. #}
 {% for tid, tname, _ in ent_topics %}
   {% if by_ent.get(tid) %}
   <section class="block">
