@@ -131,6 +131,7 @@
     "09618dec64f043abc101c51d21108db2d093be38",
     "0974098c7e602dbe130b0f3d7445f0d49fe4d5cb",
     "0983d0b01940091235a02458296f0a778cd803af",
+    "098ecca903043fd78434a2ea540effe3e3c0fbe7",
     "09bd0ad1266dd0c2f2a3193340ab5aa65e43da51",
     "0a0be6192554695c2172d21a218e8b8449929d9f",
     "0a3e7e231074d280768769327cd2b721996cb514",
@@ -402,6 +403,7 @@
     "2059751df8d9681c10013dc9f821e520f821d9dc",
     "2094d528882dc4ad4afd877931da89083275d889",
     "209fa3e11237364314a7f3f6bcd481140be32070",
+    "20b9b8c5f1b5866159a231a132f11aae2b6d5a79",
     "20c677412c457c93a486d35f5cd1063467665125",
     "20eef3bc84ee301940caf8d4438e935becc45a6d",
     "210de77f10bc4a45c0d3d4cce8802ff4e831f796",
@@ -521,6 +523,7 @@
     "2a33b623c9a5cef75abc7ca23d859a3ebd84636a",
     "2a41e1b67e0d29b6183a89d3c077a945fa2e0092",
     "2a493a81fd4031cee338a23e7cbd6eeab9ecc3bf",
+    "2a4b7be13127de272cb219152b83e7956c9fa6f2",
     "2a9f3e0c22688131b3429d4d11c6b33c7833c9ad",
     "2ab3038e382e0cf2a07d0121d70dfbebefa38b71",
     "2ad421da772c33fed90dc26d999a61a48edd4eb9",
@@ -999,6 +1002,7 @@
     "5329953348a11a2c0a63982b3c2607aed97ae892",
     "532d288456188edb039c3e6ff2e815f772b4f57b",
     "532e3d2f08a5f54349db281ae562aeb392f2fe49",
+    "53301e7e525e5f78b225e3fbb9826b4f069af158",
     "53402e135abd316570fbcda5f1289596cc12f921",
     "538feb7f594a085165b2a9782f8bb875aeb3f7e4",
     "539f6e038ebe6c471e55d4a92f46f68080905884",
@@ -1193,6 +1197,7 @@
     "64d721f5ac2fa8d2746da16a59893054b35b1baf",
     "64ef5c74bd9d4d54f49401d16ca3f3a8a866ddb7",
     "6519138e2e5e9201d4ed31c69fe53857e254c001",
+    "654f98cb3afe2ce9bc4b91b69cdfe4ef5e923d3f",
     "65592f82d1697f7b7392023784ffbd2cc1afe3c0",
     "656fe75241b7e6858865574a63bb1a238c369e88",
     "65c2d428336a4aea4c64dd2c85912607d6198f5a",
@@ -1293,8 +1298,10 @@
     "6d4e7fb0f70d532b00f9f045e61b824bce0908f1",
     "6d57f6cf9b9f639e33d4e461e35fb05592ea9257",
     "6d5931884aee2e042406b4b55875e88f64dc5d71",
+    "6d5dade5a891bf49ef45604fee53320056e61bac",
     "6d677df9c6f9c215d99541e5d9f0b44bd5089ca3",
     "6d869fcc29467b16eda5c744b3742cd804fc9505",
+    "6d89366047613e0f16ebaa8b620b030f9d26b5cf",
     "6d89c6ccb46a557a81f221bee5c3c6e23542afe7",
     "6d8cabe50e2f4e73e18d348eb5fd3ae1f705ea72",
     "6d9a8fe29145fb5b94421722ae8c533c85b958aa",
@@ -1769,6 +1776,7 @@
     "973579df295b8178882fe76c154129f4cbbc053c",
     "978b01996939279683999c8b0342ad36a6475521",
     "97a1c0d9572ba52db83f800e4ddc417cee2ed34c",
+    "97e9cc10cfd57b04cb2d20abdc25103478bceb46",
     "97f977e6cef8c5c9c0d4729f1b4ffb35caef21a1",
     "9802a3205b1fab27f790bbc279e73727a100a549",
     "9816745f69bbc097f83578ee2e7a54b79910b273",
@@ -1842,6 +1850,7 @@
     "9ddcbdbe46ef582b9a84ad3bcacdc186a205df6d",
     "9de8bc542f839cfe79f9182bdfc1ce84f9b73837",
     "9dfe8c6f4913223fdbe9424b2a4a4e73b70344c9",
+    "9e1736311886d2c756e38576ca2e646fdc21c9be",
     "9e1be00d90799e8b044ca0b3c94c99678d29c164",
     "9e1d7af748027da3eea85f72f0872ceedbcf3b20",
     "9e201d01ab852b083c69bd3c8ba7072b16facc51",
@@ -1973,6 +1982,7 @@
     "a8e8822aaff2ea9afda1fd8739106cbea13292a1",
     "a8fca92dfdfb42528fe35ce180621e22648edf15",
     "a902f2fa4bdac2915bd7f4ae7046172a5a5584db",
+    "a9145b9abf84413860ac7e72640b3937fc24ac41",
     "a9515da2bfba4dc7c641a510e92c9ab3db103a4c",
     "a95ba210093736eb3344a9b3cca22687c008d669",
     "a969749d71f367fdb16c41b770f3dd834562d965",
@@ -2250,6 +2260,7 @@
     "c-03cc677c9137489487e8db8826cba47680182a97",
     "c-07405d964d245ef286b605083f39ad08d3f79338",
     "c-1030671654d3a15d9bf8069f2fbc50d5881c7424",
+    "c-13b8ef3f796775947390933dc89fcc9ae607f118",
     "c-1588f487344bf941fafb218b097c04ad38658b6a",
     "c-161d78d645b86b5587ea42bbe6f3084456413c7c",
     "c-18c53dca481aeb2afe9958911681e2b7987964bb",
@@ -2261,6 +2272,7 @@
     "c-2a82e75891fa407360eed25e325cf1f1bf7477ee",
     "c-2c040ac9240ab8c55731a6842c54cf0a6a8100a5",
     "c-2ccdf87770442f44947cb96be104f193d4a3854a",
+    "c-2e4aebc97eec81fa4752fa26d703edafae109fd7",
     "c-327e8f8f385e38e8f3cd7d1a7f9afc3b4ba360c8",
     "c-34644421401faf2436bfbc9f6ec007e05a3b7b9d",
     "c-36d2381a59b0c106826d22c54816af2e29721e99",
@@ -2279,6 +2291,7 @@
     "c-67730aac5297f09be0d0baec645be918b41147d5",
     "c-6bca23da2467b9fb59641d9a279c1db34a3216a0",
     "c-6e4489c1aeacb1a851b367da7bbab1775482795f",
+    "c-6f63594988f16f4cf1c7d706d082c80114e725cc",
     "c-75d97574ec1a4af285af000333cc5ab30c3f3b35",
     "c-7827d12375eb1d899321e1b535b896e080c93455",
     "c-7ad540dc446a7a635fa55d651508432075fdfd2e",
@@ -2294,6 +2307,7 @@
     "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
     "c-a5911ba8a9be497027995aef8207f85c95438fd4",
     "c-a705c117943961a2bc29456955b5d8c35624ad7a",
+    "c-aabdac37218953d1b4621bb337ca3e849abe0cc0",
     "c-ac2fdaccb82bd479e124594634eb2ae26b694d5f",
     "c-afcabf8c020770d43b528d4f046bd8ee64fb8407",
     "c-b3493629870f2884069f87f1af2adc800cdf65ec",
@@ -2619,6 +2633,7 @@
     "d8241016d4763026447bc9b4a582f44a5fb34a6c",
     "d8352c2acc42bfd8c9abfbc5448f36a0cd063926",
     "d83b3c79a68a2c84a1413b1d71c60662eff45c01",
+    "d83c2173f8271b41a2f6ba047c15c9866e5e85e5",
     "d841eba0d12e0b9a5903b9727bf41ce1af59f67e",
     "d84213047072d011e0ec23928ab99b024767d0ff",
     "d8470269b59efc79e8f715819dacba52eba48011",
@@ -2701,6 +2716,7 @@
     "de8d38ff4a05333e4f951cfc73305bf8473c1aa5",
     "de9a88cf23bafad504db00e2963f1c6e45402039",
     "dec20c8ded98d2bff2bfd41e35553478a7eaf395",
+    "dec29a4c2215c6864a8dade8f814e76d6a839f99",
     "dec452a801a17db653018b01fea698d4c9b263e9",
     "dee0a1c4ec1fd558a727e6d1840e679c5d6ee762",
     "def5df30ddaf1087336d2ced0674fdfc1a4499db",
@@ -2838,6 +2854,7 @@
     "e94aaad304369af1b3b23a2e32ff647e6b32b5c9",
     "e9545df0cab2af43f0ea02e50c3eb3102badf669",
     "e959bbcd7cd4746a252342915d37913e8a279f84",
+    "e9702ae82b334cd60815c9295754d099a97bd5f4",
     "e9737bc95b1be13b95d77a7c94bb678dc3fb85c2",
     "e989f8473d7f61413f4b097fd61adb6cc84fa4dd",
     "e99d2e1d42c5931275555f25ceb7f2a67e12e74e",
@@ -3032,6 +3049,7 @@
     "f9b9b16a34e410ddf5f0353ed915fc9b94ba2482",
     "f9bd11797d2ba3d993e821fb04456b4161283e56",
     "f9c963ff94ed328502053b55e457fbc18f747d72",
+    "f9cfe1edb9464ca234734abce7528b933be69f4e",
     "f9f637ffa3b4dc3f6af0eec68fc09509f79b2318",
     "f9f758fa7fdba292a311cddddbf3e7b79716eb93",
     "fa0075f928da78d7bc03fc187f867a263abe1c42",
@@ -24398,6 +24416,132 @@
       "title": "호텔 인터컨티넨탈 도쿄 베이, 2026년 크리스마스 시즌 맞이 '채플 드 크리스마스 나이트 프로포즈 플랜' 공개",
       "date": "2026-09-25",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "c-13b8ef3f796775947390933dc89fcc9ae607f118",
+      "title": "로웰 복구 중인 하와이, 놀로가 허리케인급으로 다가온다",
+      "date": "2026-09-25",
+      "region": "hawaii",
+      "grade": "C"
+    },
+    {
+      "id": "c-aabdac37218953d1b4621bb337ca3e849abe0cc0",
+      "title": "짧아진 추석, 제주로 몰리는데 하늘은 흐리다",
+      "date": "2026-09-25",
+      "region": "jeju",
+      "grade": "C"
+    },
+    {
+      "id": "c-6f63594988f16f4cf1c7d706d082c80114e725cc",
+      "title": "요텔, 방콕 새 복합단지 '클라우드 11'에 태국 첫 호텔",
+      "date": "2026-09-25",
+      "region": "thailand",
+      "grade": "C"
+    },
+    {
+      "id": "c-2e4aebc97eec81fa4752fa26d703edafae109fd7",
+      "title": "다낭, 국제 인정과 한국 손님 선물 보따리 그리고 인천발 화재",
+      "date": "2026-09-25",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "2a4b7be13127de272cb219152b83e7956c9fa6f2",
+      "title": "[창간 81주년] 항공·해상 교통망 요충지…제주, MRO ‘최적지’",
+      "date": "2026-09-25",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "20b9b8c5f1b5866159a231a132f11aae2b6d5a79",
+      "title": "First Alert Forecast: Nolo is now a Hurricane",
+      "date": "2026-09-25",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "6d89366047613e0f16ebaa8b620b030f9d26b5cf",
+      "title": "캐피탈 스퀘어 - 다낭 중심부에 새로운 관광 공간을 조성합니다.",
+      "date": "2026-09-25",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "9e1736311886d2c756e38576ca2e646fdc21c9be",
+      "title": "결의안 26호는 다낭이 축제 도시로 발돋움하는 데 필요한 동력을 제공합니다.",
+      "date": "2026-09-25",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "654f98cb3afe2ce9bc4b91b69cdfe4ef5e923d3f",
+      "title": "Maui braces for Hurricane Nolo as officials urge residents to prepare",
+      "date": "2026-09-25",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "53301e7e525e5f78b225e3fbb9826b4f069af158",
+      "title": "Nolo now a hurricane, set to rapidly intensify as it nears Hawaii Island",
+      "date": "2026-09-25",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "d83c2173f8271b41a2f6ba047c15c9866e5e85e5",
+      "title": "Storm refuge areas: Where to find emergency shelter across the state",
+      "date": "2026-09-25",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "098ecca903043fd78434a2ea540effe3e3c0fbe7",
+      "title": "Kauai CC rallies behind students after Hurricane Lowell",
+      "date": "2026-09-25",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "a9145b9abf84413860ac7e72640b3937fc24ac41",
+      "title": "Rapid Recovery: Koa Kea Resort Reopens After Hurricane Lowell’s Storm Surge",
+      "date": "2026-09-25",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "97e9cc10cfd57b04cb2d20abdc25103478bceb46",
+      "title": "Passengers evaluated for sickness upon arrival at Honolulu Airport",
+      "date": "2026-09-25",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "f9cfe1edb9464ca234734abce7528b933be69f4e",
+      "title": "Asia's second best airport braces for record foreign arrivals during China's Golden Week",
+      "date": "2026-09-25",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "6d5dade5a891bf49ef45604fee53320056e61bac",
+      "title": "Da Nang makes Lonely Planet's list of destinations to inspire 2027 travel",
+      "date": "2026-09-25",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "dec29a4c2215c6864a8dade8f814e76d6a839f99",
+      "title": "곤떡 대신 케이크, 문중 벌초는 가족별로…간소해진 ‘멩질’",
+      "date": "2026-09-25",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "e9702ae82b334cd60815c9295754d099a97bd5f4",
+      "title": "사누바 다낭 호텔은 \"모범적인 금연 호텔\" 모델을 효과적으로 유지하고 있습니다.",
+      "date": "2026-09-25",
+      "region": "vietnam",
       "grade": "B"
     }
   ]
