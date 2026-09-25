@@ -2017,6 +2017,7 @@
     "abe0ed027c717cfc9778aa4dcafa1bb14fa119e7",
     "ac19f53d9f58daaa2d1211e5e89a7fddcfd9d949",
     "ac42982cbbd5ac044fd61498b92ecfed5f68f059",
+    "ac74c7705d8c43872999e2651a387ca095cc2f23",
     "ac9696a59e0849f4f79862163c508b17522eecc2",
     "acaae5a41372ef8dc0b97fc083cdf9e67f3d1a42",
     "acea53452a044f63a3732445727126ea3dbbc45c",
@@ -24231,28 +24232,28 @@
     },
     {
       "id": "b801b7e1c3b84e849728b10055c6209705cd675f",
-      "title": "Section 8 housing assistance payments to landlords may be delayed",
+      "title": "로웰 여파, 카우아이 임대인 주거지원금 지급 지연 우려",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "9ea1b2a60664b40933796c9f51334dc5d18b4c81",
-      "title": "Tropical Storm Nolo: List of Hawaii closures, cancellations",
+      "title": "하와이, 놀로 대비 휴업·행사 취소 목록 공개",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "7b4a59cff221aa56b9558d8f5418e3c245b27946",
-      "title": "Tropical storm warning in effect for Hawaii County as Nolo nears hurricane strength",
+      "title": "놀로 허리케인급 근접, 하와이 카운티 폭풍 경보 발효",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
     },
     {
       "id": "6755d2864afc855415ea054f47284629bcf9d324",
-      "title": "Malaysia Airlines expands China network, digital partnerships",
+      "title": "말레이시아항공, 중국 노선망·디지털 제휴 확대",
       "date": "2026-09-25",
       "region": "kota",
       "grade": "B"
@@ -24266,14 +24267,14 @@
     },
     {
       "id": "836a1c938977084f79022b62e27b549dd17e5f9e",
-      "title": "LETTER: Tourism's success becomes Guam's success",
+      "title": "독자기고: 관광의 성공이 곧 괌의 성공",
       "date": "2026-09-25",
       "region": "guam",
       "grade": "B"
     },
     {
       "id": "b6ad361a726303c8c0a4ca048a8ef27b894a48af",
-      "title": "Can’t Take Your Hawaii Trip: Come Now Or Lose All Your Money?",
+      "title": "폭풍 앞둔 하와이 여행, 강행 또는 환불 손실",
       "date": "2026-09-25",
       "region": "hawaii",
       "grade": "B"
@@ -24336,7 +24337,7 @@
     },
     {
       "id": "32231fe6904c478701b3b4ac63940fdc19578dd3",
-      "title": "Sun Group, Visa partner to develop digital tourism services in Vietnam",
+      "title": "선그룹·비자, 베트남 디지털 관광 서비스 제휴",
       "date": "2026-09-25",
       "region": "vietnam",
       "grade": "B"
@@ -24357,7 +24358,7 @@
     },
     {
       "id": "35137564ebee8ebee7f7a4669ced8e321c8cab89",
-      "title": "Southeast Asia has 7 airports in world's top 20 low-cost megahubs",
+      "title": "동남아 공항 7곳, 세계 저비용항공 메가허브 20위권 진입",
       "date": "2026-09-25",
       "region": "vietnam",
       "grade": "B"
@@ -24392,14 +24393,14 @@
     },
     {
       "id": "beab10e50f3efdb2a13565e4d4695199819c37c1",
-      "title": "'Thank you for all the years': Eggs 'n Things Guam closes its doors in Tumon",
+      "title": "투몬 명물 에그스앤띵스 괌, 12년 만에 폐업",
       "date": "2026-09-25",
       "region": "guam",
       "grade": "B"
     },
     {
       "id": "244744d143262c93ac50effec5ed664660c29efe",
-      "title": "Kota Kinabalu International Airport runway safety comes first: MAHB",
+      "title": "MAHB, 코타키나발루공항 활주로 안전 최우선 강조",
       "date": "2026-09-25",
       "region": "kota",
       "grade": "B"
@@ -24542,6 +24543,13 @@
       "title": "사누바 다낭 호텔은 \"모범적인 금연 호텔\" 모델을 효과적으로 유지하고 있습니다.",
       "date": "2026-09-25",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "ac74c7705d8c43872999e2651a387ca095cc2f23",
+      "title": "New Beijing-Kota Kinabalu route on the cards as China Eastern eyes more Sabah flights",
+      "date": "2026-09-25",
+      "region": "kota",
       "grade": "B"
     }
   ]
