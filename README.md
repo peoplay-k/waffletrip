@@ -11,9 +11,9 @@
 
 ```
 피플로드
-├─ 여행  /travel/   지역면 10곳(/guam/ …) × 부문 7개(/biz/ …) + 도시면(/city/tokyo/ …)
-├─ 연예  /ent/      영화 /ent/movie/ · 드라마·방송 /ent/drama/ · 음악·공연 /ent/music/
-│                   인물 /ent/star/ · 스타의 여행 /ent/startrip/ (피플레이와 함께한 스타 표)
+├─ 여행  /travel/   지역면 10곳(/guam/ …) × 부문 4개(뉴스 /news/ · 업계·피플 /biz/ · 기획·연재 /feature/ · 통계·리포트 /data/) + 도시면(/city/tokyo/ …)
+├─ 연예  /ent/      영화·드라마 /ent/movie/ · 음악·공연 /ent/music/ · 스타의 여행 /ent/startrip/ (피플레이와 함께한 스타 표)
+│                   옛 주소 /issue/ /world/ /policy/ /people/ /ent/drama/ /ent/star/ 는 새 부문으로 넘어간다
 └─ 매체  /about/ /ethics/ /contact/ /privacy/ /youth/ /subscribe/ /search/
 ```
 
