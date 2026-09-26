@@ -9,6 +9,7 @@ region 기준이므로 연예 기사는 거기 섞이지 않고 /ent/ 아래에�
 """
 from __future__ import annotations
 
+import glob
 import json
 import os
 import re
@@ -916,7 +917,11 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 파비콘·기본 OG 이미지·IndexNow 키
     # indexnow.txt 는 검색엔진이 "이 키를 쓰는 게 정말 이 사이트인가"를 확인하러
     # 온다. 루트에 없으면 통지가 전부 거부된다.
-    for name in ("favicon.svg", "og-default.jpg", "logo.png", "indexnow.txt", ".htaccess"):
+    # 연예 부문 공유 카드(og-ent-*.jpg)도 같이. 카드를 만들고 복사 목록에 안 넣어
+    # 라이브에서 og:image 가 404 였다(2026-09-26 실측).
+    brand_files = ["favicon.svg", "og-default.jpg", "logo.png", "indexnow.txt", ".htaccess"]
+    brand_files += sorted(os.path.basename(f) for f in glob.glob(os.path.join("static", "og-ent-*.jpg")))
+    for name in brand_files:
         src = os.path.join("static", name)
         if os.path.exists(src):
             shutil.copy2(src, os.path.join(out_dir, name))

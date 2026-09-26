@@ -497,3 +497,19 @@ def test_garbled_summary_is_dropped_not_rendered(tmp_path):
     page = next((tmp_path / "japan").rglob("1-*/index.html")).read_text(encoding="utf-8")
     assert "\ufffd" not in page
     assert "에어부산 일본 편도 특가" in page
+
+
+def test_ent_share_cards_are_copied_into_the_build(tmp_path):
+    """카드를 만들어 놓고 복사 목록에 안 넣어 라이브 og:image 가 404 였다."""
+    import os
+    render_site([ent("c-2", "영화 ○○ 개봉", "movie")], str(tmp_path), TODAY)
+    for name in ("og-default.jpg", "og-ent-movie.jpg", "og-ent-music.jpg", "og-ent-startrip.jpg"):
+        if os.path.exists(os.path.join("static", name)):
+            assert (tmp_path / name).exists(), name
+
+
+def test_press_release_wire_copy_is_spam():
+    from src.relevance import is_spam, is_ent_excluded
+    assert is_spam("Babylist Opens 20,000 Square Foot Showroom in New York City: NYSE Content Update")
+    assert not is_spam("At least 21 Hilo flights cancelled due to Hurricane Nolo")
+    assert is_ent_excluded("블러드 레거시 시즌 2, 넷플릭스가 그리는 가족", "Martin Cid Magazine")

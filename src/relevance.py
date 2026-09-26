@@ -113,6 +113,9 @@ def is_travel_related(text: str) -> bool:
 SPAM_KEYWORDS: tuple[str, ...] = (
     "카지노", "casino", "바카라", "baccarat", "슬롯머신", "슬롯 머신", "토토",
     "먹튀", "온라인 도박", "사설 베팅", "betting site", "online gambling",
+    # 해외 매체가 통째로 싣는 기업 보도자료 배급문(라오시안타임스 "NYSE Content Update", 2026-09-26)
+    "nyse content update", "prnewswire", "pr newswire", "business wire", "globe newswire",
+    "globenewswire", "accesswire", "newsfile corp",
 )
 # 실측으로 확인된 스팸 출처. 이름이 이렇게 풀리면 내용과 무관하게 버린다.
 SPAM_SOURCES: frozenset[str] = frozenset({"Histoire pour tous"})
@@ -168,6 +171,7 @@ ENT_SKIP_OUTLETS: tuple[str, ...] = (
     "Kenh14", "Zing", "조선비즈", "Histoire pour tous",
     "sortiraparis", "레디앙", "에너지경제", "인천투데이",
     "뉴닉",  # 뉴스레터 말투("…한 사연 👀🎧")가 지면 제목으로 안 맞는다
+    "Martin Cid",  # 스페인 매체의 기계번역 한국어판
 )
 
 
