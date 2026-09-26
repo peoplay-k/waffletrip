@@ -15542,12 +15542,6 @@
 "summary": "(괌=국제뉴스) 유지현 기자 = 4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 객실 발코니에서 본 투몬 베이 전경. 투몬 베이(투몬만)는 괌에서 주요 호텔리조트와 쇼핑몰, 레스토랑이 밀집한 관광의 중심지로서 국제공항에서도 가까우며, 길다란 백사장과 에메랄드빛 바다의 아름다운 풍경과 해양 액티비티까지 이곳에서만 머물러도 휴양",
 "published": "2026-09-26T14:05:13+09:00"
 },
-"0ba3f600dd01e26a25dfc1eb6859e663f801b40f": {
-"url": "https://www.histoire-pour-tous.fr/histoire-de-france/4880-maquillage-et-cosmetiques-sous-lancien-regime.html?ID=%EC%8A%AC%EB%A1%AF%EB%9E%9C%EB%93%9C%20%EB%AC%B4%EB%A3%8C%20%EC%B9%A9.html",
-"outlet": "",
-"summary": "Sous l'Ancien Régime, le maquillage est très codifié. Les dames de qualité doivent avoir le teint frais, blanc de préférence, rehaussé de rouge et de mouches, sans oublier de poudrer leurs",
-"published": ""
-},
 "8dd2988efbcfe9812e130027439f56a632efdbaa": {
 "url": "https://kbfd.com/?p=24984",
 "outlet": "KBFD",
@@ -15604,8 +15598,8 @@
 },
 "2d561d087d1072775f949fd1dc856ea0942fe1d7": {
 "url": "https://www.sentv.co.kr/article/view/sentv202609260011",
-"outlet": "",
-"summary": "",
+"outlet": "(주) 서울경제티브이",
+"summary": "허진호 감독의 영화 ‘암살자(들)’이 개봉 나흘 만에 관객 100만명을 넘어섰다. 배급사 하이브미디어코프는 영화 암살자(들)이 26일 오전 7시 기",
 "published": ""
 },
 "2551a90bb84e9f58e883dc8fa1d8fa45ee768dab": {
@@ -15613,6 +15607,12 @@
 "outlet": "파이낸셜뉴스",
 "summary": "박해일·유해진·이민호 주연의 영화 '암살자'이 개봉 나흘 만에 누적 관객 100만명을 돌파했다. 배급사 하이브미디어코프는 지난 23일 개봉한 '암살자'국내 박스오피스 1위에 오른 가운데 26일 오전 누적 관객 수가 105만명을 넘어섰다고 밝혔다.",
 "published": "2026-09-26T14:13:13+09:00"
+},
+"49a84a0e7bda1a2dde49e7d7048cd77d1d857484": {
+"url": "https://www.wikitree.co.kr/articles/1162121",
+"outlet": "위키트리",
+"summary": "",
+"published": "2026-09-26T15:07:00+09:00"
 },
 "be8db0fd085b8c10a9a11d7ee9aaaa205fd8b8f4": {
 "url": "https://www.chosun.com/entertainments/movie/2026/09/26/GRRDOYLCMY2GEZBXGY4DCZJYMI/",
@@ -15625,6 +15625,30 @@
 "outlet": "vietnam.vn",
 "summary": "(CLO) 9월 25일 개봉한 영화 '인신매매 수용소'는 개봉과 동시에 베트남 박스오피스 1위를 차지했습니다. 토니 즈엉 바오 안 감독의 이 작품은 거친 사회 문제, 생생한 생존 이야기, 그리고 1만 명이 넘는 인원이 참여한 기록적인 제작 규모로 관객들에게 깊은 인상을 남겼습니다.",
 "published": ""
+},
+"6fe0e37e230c7a36006dd59204ac2dd3823369e9": {
+"url": "https://www.wikitree.co.kr/articles/1160499",
+"outlet": "위키트리",
+"summary": "",
+"published": "2026-09-26T06:30:00+09:00"
+},
+"ab5c380978e2db9654370843fea9d7d991257cfb": {
+"url": "https://www.wikitree.co.kr/articles/1161414",
+"outlet": "위키트리",
+"summary": "",
+"published": "2026-09-23T17:33:00+09:00"
+},
+"eeb3120fcd2c793269b834a13cacde3751dfd589": {
+"url": "https://www.wikitree.co.kr/articles/1162144",
+"outlet": "위키트리",
+"summary": "",
+"published": "2026-09-26T17:01:00+09:00"
+},
+"c37fcf067e7a6a0f85f661896c05566ed94cdabb": {
+"url": "https://www.wikitree.co.kr/articles/1162083",
+"outlet": "위키트리",
+"summary": "",
+"published": "2026-09-26T09:04:00+09:00"
 },
 "b5cff2e35233c710be98b973a54106c084ada602": {
 "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/26/MQ3GGNZSHE4DEYRXG4ZGKYLBGU/",
@@ -15644,23 +15668,29 @@
 "summary": "정준하, 전 매니저 최코디에 통 큰 플렉스 딸 등록금, 내가 해줄 것하와수",
 "published": "2026-09-26T12:23:14.453Z"
 },
+"18d844ad6d3d1a32539ece887ca53062f1e0999b": {
+"url": "https://www.seoul.co.kr/news/entertainment/starinterN/2026/09/25/20260925500059",
+"outlet": "서울En",
+"summary": "서은혜가 남편 조영남과 함께 초음파 사진을 든 이미지를 공개해 임신설이 퍼졌으나, 실제 사진은 AI로 생성한 이미지였다. 아버지는 임신이 사실무근이라며, 즐거운 메시지를 담은 카드를 만들다 생긴 오해라고 설명했다.",
+"published": ""
+},
 "e03d38279e335d3626b52520aa6b6f1ff57f8d79": {
 "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/26/MUYTOZBZMM4TMMJQMRRTGY3EHE/",
 "outlet": "조선비즈",
 "summary": "바타♥ 지예은, 결혼 전 마지막 추석 이강인과 함께 보냈다",
 "published": "2026-09-26T08:52:46.381Z"
 },
-"ed93f864d9ecc5975ddf7deb9b833ffc4e31a683": {
-"url": "https://biz.chosun.com/entertainment/enter_general/2026/09/26/GAZDSOLFHAYWCY3BGE2DSZTCMU/",
-"outlet": "조선비즈",
-"summary": "이승철, 아겜·축구 제치고 시청률 1위. .전국투어도 잘 나간다",
-"published": "2026-09-26T06:37:50.973Z"
-},
 "b0db214dc68e809b774092ac8bce18ed2a2a580c": {
 "url": "https://www.nocutnews.co.kr/news/6583300",
 "outlet": "노컷뉴스",
 "summary": "가수 심수봉이 후배 김다현의 노래 실력에 대한 막말 평가 논란에 휘말린 가운데, 과거 그가 가수 정미애에게도 비슷한 취지의 평가를 내놨다는 주장이 나와 파장이 일고 있다.",
 "published": ""
+},
+"45d7f948b0b253af444cfd841b8ac6491d450402": {
+"url": "https://news.tvchosun.com/site/data/html_dir/2026/09/26/2026092690089.html",
+"outlet": "",
+"summary": "배현진 \"박진영, 진짜 무보수인지 국감서 확인할 것\"배현진 국민의힘 의원이 박진영 대중문화교류위원회 공동위원장의 국정감사 출석. .",
+"published": "2026-09-26T16:26:33+09:00"
 },
 "1a383a32aa7dee369a6ff0ee2b4125e7e9567dd2": {
 "url": "https://mhnse.com/news/articleView.html?idxno=1560285",
@@ -15674,12 +15704,6 @@
 "summary": "가수 겸 배우 손담비가 출산 후 맞이한 생일날 남편 이규혁, 딸 해이와 함께 보낸 단란한 일상을 SNS를 통해 공개했습니다. 예전과 달리 큰 욕심 없이 현재 가족의 건강과 화목을 최우선 소원으로 꼽으며, 엄마로서 느끼는 깊은 행복감과 가족에 대한 따뜻한 애정을 전해 대중의 관심을 모았습니다.",
 "published": "2026-09-24T22:37:24.634Z"
 },
-"bed9826f4ba3740b44f949628e4d65912b45c130": {
-"url": "https://www.kyeonggi.com/article/20260926580103",
-"outlet": "경기일보",
-"summary": "배현진 국민의힘 의원이 이재명 대통령 직속 기구인 대중문화교류위원회 공동위원장을 맡고 있는 박진영 JYP엔터테인먼트 대표 프로듀서를 오는 10월 국정감사 증인으로 부르겠다고 밝혔다. 26일 정치권에 따르면 배 의원은 전날 자신의 페이스북을 통해 “정부의 초대형 공연 프",
-"published": ""
-},
 "c41ecad17e9bcb9fd11a087ef2320156da5b1099": {
 "url": "https://mhnse.com/news/articleView.html?idxno=1560124",
 "outlet": "MHN / 엠에이치앤",
@@ -15691,12 +15715,6 @@
 "outlet": "경향신문",
 "summary": "■이숙경씨 별세, 최수종(배우)씨 모친상, 하희라(배우)씨 시모상, 조하문(가수, 사랑의빛공동체교회 담임목사)씨 장모상, 조태관(배우)씨 외조모상=25일 연세대학교 신촌세브란스. 발인 29일 (02)2227-7500",
 "published": "2026-09-26T10:40:00+09:00"
-},
-"0e2c4d9eb1158d28a09046f1ec818ba07ab25308": {
-"url": "https://m.wowtv.co.kr/NewsCenter/News/Read?articleId=AKR20260926039000075",
-"outlet": "",
-"summary": "LA 관객 만난 유지태 \"감독의 색깔 보이는 게 韓영화 경쟁력\"LA한국영화제서 관객과의 대화…\"디아스포라·동포 사회에 관심\"(로스앤젤레스=연합뉴스) 김경윤 특파원 = \"미국블록버스터 제작비는 4천억원인데, 한국 ...",
-"published": "2026-09-26T17:06:21Z"
 },
 "9a2309c0282afbe82ba4438d4ee00e47d0cc9409": {
 "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/26/MJTDMMLBGUZTANTDGQYTKOJVMM/",
@@ -15722,17 +15740,17 @@
 "summary": "김지석 여러 감정 보여드릴 수 있어 의미 있었던 시간그래이혼하자",
 "published": "2026-09-26T00:46:57.447Z"
 },
-"7625a08414cfbdbaa439f90ffa94224258e07d5a": {
-"url": "https://www.segye.com/newsView/20260926501248",
-"outlet": "세계일보",
-"summary": "가수 겸 작곡가 주영훈이 과거 청담동 대저택을 처분하고 미국으로 떠났던 가족사를 공개했다. 25일 유튜브 채널 '새롭게하소서'에는 '청담동 살다 학교 청소부 된 어머니'라는 제목의 영상이 공개됐다.",
-"published": "2026-09-26T11:07:59+09:00"
-},
 "88201a9c4075a1a7e505ecd34f1eb0f37ac7771b": {
 "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/26/MQ3DAOLCMM4WCZLCGM3TSNRVGQ/",
 "outlet": "조선비즈",
 "summary": "김희경, 조인성 품에 안겨 불가능한 사랑. .♥김기방도 합법적 바람 참나",
 "published": "2026-09-26T06:47:31.241Z"
+},
+"7625a08414cfbdbaa439f90ffa94224258e07d5a": {
+"url": "https://www.segye.com/newsView/20260926501248",
+"outlet": "세계일보",
+"summary": "가수 겸 작곡가 주영훈이 과거 청담동 대저택을 처분하고 미국으로 떠났던 가족사를 공개했다. 25일 유튜브 채널 '새롭게하소서'에는 '청담동 살다 학교 청소부 된 어머니'라는 제목의 영상이 공개됐다.",
+"published": "2026-09-26T11:07:59+09:00"
 },
 "0a75c002f09e2d1c924abe3e7b43fa17e825c50f": {
 "url": "https://www.segye.com/newsView/20260926503910",
@@ -15740,17 +15758,17 @@
 "summary": "그룹 어반자카파 조현아가 17㎏ 감량 뒤 달라진 모습을 공개했다. 조현아는 25일 소셜미디어에 KBS2 '더 시즌즈-성시경의 고막남친' 출연 당시 촬영한 영상과 사진을 올렸다.",
 "published": "2026-09-26T11:13:18+09:00"
 },
-"2961d7ddae67845f58a504cd8f56fd87949a23e0": {
-"url": "https://sports.donga.com/ent/article/all/20260925/134733341/1",
-"outlet": "스포츠동아",
-"summary": "[스포츠동아 이수진 기자] 배우 오윤아가 재혼한 남편과 웨딩화보를 촬영할 가능성을 언급했다. 25일 유튜브 채널 ‘Oh!윤아’에는 오윤아가 남편과 함께 일본을 여행하는 모습이 공개됐다.",
-"published": "2026-09-25T22:26:59+09:00"
-},
 "02062a7e7ad07047b01082be0d2320edeb8e27b7": {
 "url": "https://www.starnewskorea.com/star/2026/09/26/2026092610043521665",
 "outlet": "스타뉴스",
 "summary": "모델 겸 방송인 홍진경이 유튜브 영상에서 고(故) 최진실 관련 발언이 삭제된 이유를 밝혔다. 지난 25일 홍진경은 유튜브 채널 '공부왕찐천재 홍진경' 영상 댓글을 통해 \"제작진들이 이모할머니와 관련해 불필요하다고 판단한 부분을 삭제했다고 한다\"고 밝혔다.",
 "published": "2026-09-26T01:21:23.000Z"
+},
+"2961d7ddae67845f58a504cd8f56fd87949a23e0": {
+"url": "https://sports.donga.com/ent/article/all/20260925/134733341/1",
+"outlet": "스포츠동아",
+"summary": "[스포츠동아 이수진 기자] 배우 오윤아가 재혼한 남편과 웨딩화보를 촬영할 가능성을 언급했다. 25일 유튜브 채널 ‘Oh!윤아’에는 오윤아가 남편과 함께 일본을 여행하는 모습이 공개됐다.",
+"published": "2026-09-25T22:26:59+09:00"
 },
 "7d8fb6a9e7dbcf789e85fe1c921803abdb97e01e": {
 "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/26/MZQTIZRXGNTDQNBYGUZDQYTFME/",
@@ -15770,11 +15788,11 @@
 "summary": "박은영은 KBS 퇴사 6년 후에도 TV 프로그램 MC에 대한 갈증을 드러내며, 무보수로라도 방송에 출연하고 싶다는 소망을 밝혔다. 그동안 홈쇼핑을 통해 경제적으로는 여유를 갖고 있으나 방송 복귀에 대한 강한 의지를 보이고 있다.",
 "published": "2026-09-25T22:45:00+00:00"
 },
-"d05e6214d9c8e7ea1cdcc35665e282eca9b189d1": {
-"url": "https://www.mediaus.co.kr/news/articleView.html?idxno=318249",
-"outlet": "미디어스",
-"summary": "[미디어스=윤광은 칼럼] 10.26은 자꾸만 이야기 속으로 돌아오고 있다. 중앙정보부장 김재규가 박정희 전 대통령을 살해한 이 사건은 최근 몇 년 동안 세 차례 이야기의 주형틀 속으로 들어갔다.",
-"published": "2026-09-26T07:56:40+09:00"
+"829af76606e40adae49332dc9c305db0c5096298": {
+"url": "https://www.mk.co.kr/news/world/12161343",
+"outlet": "매일경제",
+"summary": "‘스트릿댄스 걸스 파이터2’에서 활약한 일본인 댄서 야마다 리아가 1년 넘는 투병 끝에 세상을 떠났다. 야마다 리아의 가족은 지난 24일 그의 공식 SNS를 통해 부고를 전하며 “2026년 9월 18일 리아가 세상을 떠났다”고 밝혔다.",
+"published": "2026-09-25T14:55:52+09:00"
 },
 "ca46e2c70b7a1fc1416c40986197f86540783682": {
 "url": "https://www.hankyung.com/article/202609232731H",
@@ -15812,17 +15830,17 @@
 "summary": "'줄이 칭칭 엉킨 USB 케이블, U2 노래만 흘러나오는 유선 아이폰' 손님의 편의는 눈 씻고 찾아볼 수 없는 엉뚱하고 불편한 편의점이 등장했다.",
 "published": ""
 },
-"dba6719c69545404ac6d02291d5844e1168fcf58": {
-"url": "https://www.chosun.com/entertainments/broadcast/2026/09/25/MJRGGMZQMU3TIYLBGBTGEMZYMI/",
-"outlet": "조선일보",
-"summary": "개그맨 겸 영화감독 심형래가 MBN 특종세상에 출연해 영화 제작 투자 실패로 179억 원의 채무를 지고 파산했던 과거를 고백했다. 그는 건강 악화와 가족의 투병 등 고통스러운 시기를 보냈으며, 최근 어머니를 그리워하며 다시 영화 제작에 도전하는 근황을 밝혔다.",
-"published": "2026-09-24T23:43:30.851Z"
-},
 "10978dd5feacab2f9baea5ebecdde8772547e5cf": {
 "url": "https://www.yna.co.kr/amp/view/AKR20260926022800005",
 "outlet": "연합뉴스",
 "summary": "(서울=연합뉴스) 이태수 기자 = 하이브의 한미 합작 걸그룹 캣츠아이가 영국 오피셜 차트에서 싱글 차트에 2곡, 앨범 차트에 1개 음반을 각각 ...",
 "published": "2026-09-26T10:24:23+09:00"
+},
+"c02b96f344da6f5da2fac98945b59c783bdaebbb": {
+"url": "https://www.wikitree.co.kr/articles/1162053",
+"outlet": "위키트리",
+"summary": "",
+"published": "2026-09-26T07:26:00+09:00"
 },
 "be8335fa80851fa0e70cecb236c8c5d2003849e3": {
 "url": "https://www.newsis.com/view/NISX20260921_0003797710",

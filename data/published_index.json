@@ -185,7 +185,6 @@
     "0d93d72f8478972f5c1e88ce2ef2a120d46a5f17",
     "0db1d8e3631df028cf5a23e5db4dd14aca3e6d70",
     "0dd87996c6ce86fa7f25b4b50c7794b87cc585b0",
-    "0e2c4d9eb1158d28a09046f1ec818ba07ab25308",
     "0e50e440478f77259674566d2d8cc3375805cbfb",
     "0e545960ece3b4240fb33849c9e2279510faad3a",
     "0e8fbfab28096eee202f9e78ec9f6b9ac0d5e9ba",
@@ -1387,7 +1386,6 @@
     "6a46b3be4854960da068a9b827788ad8e313a161",
     "6a67e37225c65d0ba09e832bc93052f7b65207d4",
     "6a69eaad1104209070170cd7be86c8405dccd70c",
-    "6a6c5a7da2fa7b3620e3d680795c1ded39618c79",
     "6a780f6a71132c99df4112fa248e3124dded0363",
     "6a84a909117a562bc16cf7c2cad38c500a82c69e",
     "6a9967e82fcab9b35f0ccec3c4f8ff5629eaa46c",
@@ -1466,6 +1464,7 @@
     "6f7765e8518f15c0a4cc572c95caad64a771b04f",
     "6fc36ee3e8b1fd6074b74ab0e52aeba4db3af74b",
     "6fd093fefadada866cdd5c441ac3a05fd7a70dc2",
+    "6fe0e37e230c7a36006dd59204ac2dd3823369e9",
     "6fe23219406d8e8742a1fb0cb0d2fb0e399e0151",
     "70009c7f59f9e35e53d39b3393e842f492de4a7a",
     "7020289765f4c1bc67d88f4196ccccd9c9288e6a",
@@ -2205,6 +2204,7 @@
     "ab308814cac8869a402817116f959cafd9d1a1e0",
     "ab437687d12d29802f422e6d5475a89566cce06c",
     "ab52f13ca156abef69b0bbcb025f27aa02d6e722",
+    "ab5c380978e2db9654370843fea9d7d991257cfb",
     "ab602961814328e44073ab87231a0760911afc9d",
     "ab667be225cc7942885c8da996c0ac1e7281ea43",
     "ab7c9ef7193fa1a01a1d8b1b8768c9612b2f8475",
@@ -2551,6 +2551,7 @@
     "c004847cd194009d8257ad4f87af5f5629d9ed01",
     "c019d7238582dd35535fd2b729094a990f2944b7",
     "c02481c5dd612623d73174508b05ce040b0c997b",
+    "c02b96f344da6f5da2fac98945b59c783bdaebbb",
     "c03b32e83de0cd1c3a9922bcc0d04ee855d9403f",
     "c03d0c16cf3311f5777a6ddc0ce228ebe2684bbb",
     "c05b38c3b2cf0aa1cc8a74e9d643c5b03d7a1682",
@@ -2603,6 +2604,7 @@
     "c34ec9131bb261936b9d041d8d1aaf9136b69255",
     "c36817d1cafa57afaa7431d3d78184dec88f877f",
     "c37f8f6948724796a5d25c07587fe7a7c299171d",
+    "c37fcf067e7a6a0f85f661896c05566ed94cdabb",
     "c389415448b46a5ac637ec173917e6f974546145",
     "c3a9e48fe91a1eb545da186f0d262d1a3d8644ce",
     "c3c6c955eae4d7c2f3ee4d25245c211362ec14ef",
@@ -3191,6 +3193,7 @@
     "ee8eaddd9ece600323062753c700ce6400f7ed0d",
     "eea078e657989235e00070ac8fa87b265b85b102",
     "eeae9cd5893942d56a786a18bbca05497c213e01",
+    "eeb3120fcd2c793269b834a13cacde3751dfd589",
     "eec35cfbe0782160f509ecc8b90db0c1e9a09320",
     "eed47b8a35ea49117d011320357c3837671610a1",
     "eeda74e9b77999e1db873906e5fb1e982d0c4ea2",
@@ -26670,8 +26673,8 @@
       "grade": "B"
     },
     {
-      "id": "0e2c4d9eb1158d28a09046f1ec818ba07ab25308",
-      "title": "LA 관객 만난 유지태 ＂감독의 색깔 보이는 게 韓영화 경쟁력＂",
+      "id": "eeb3120fcd2c793269b834a13cacde3751dfd589",
+      "title": "‘문무’ 백성현, 장군 고연무 역 맡아 첫 스틸 공개…11월 KBS2 방송",
       "date": "2026-09-26",
       "region": "",
       "grade": "B"
@@ -26796,10 +26799,10 @@
       "grade": "B"
     },
     {
-      "id": "6a6c5a7da2fa7b3620e3d680795c1ded39618c79",
-      "title": "고유가로 여행심리 위축됐지만‥일본·중국 여객 20%대↑",
+      "id": "c37fcf067e7a6a0f85f661896c05566ed94cdabb",
+      "title": "‘너에게 다이브’ 첫방 열자마자 심상찮다…조째즈 등장에 캠코더 비밀 터졌다",
       "date": "2026-09-26",
-      "region": "japan",
+      "region": "",
       "grade": "B"
     },
     {
@@ -26852,10 +26855,24 @@
       "grade": "B"
     },
     {
+      "id": "c02b96f344da6f5da2fac98945b59c783bdaebbb",
+      "title": "‘직장인들 시즌3’ 하와수 등판 예고에…박 차장·정 과장 DY 기획 새출발 시동",
+      "date": "2026-09-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
       "id": "1af1a4ca686b4b70e77bff71f01101598f9d7ba6",
       "title": "나트랑 관광대학이 개교 20주년을 맞아 1급 노동훈장을 수여받았습니다.",
       "date": "2026-09-26",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "6fe0e37e230c7a36006dd59204ac2dd3823369e9",
+      "title": "'파묘' 제친 300억 대작인데…오늘 TV에 풀리는 초호화 캐스팅 '한국 영화'",
+      "date": "2026-09-26",
+      "region": "",
       "grade": "B"
     },
     {
@@ -26919,6 +26936,13 @@
       "title": "허리케인 노로 접근…하와이 관광업계, 여행객 안전대책 점검",
       "date": "2026-09-26",
       "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "ab5c380978e2db9654370843fea9d7d991257cfb",
+      "title": "6년 전 개봉해 123만 관객 동원했는데...넷플릭스 2위 단숨에 꿰찬 '한국 영화'",
+      "date": "2026-09-26",
+      "region": "",
       "grade": "B"
     },
     {
