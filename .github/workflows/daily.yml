@@ -223,6 +223,37 @@ jobs:
         with:
           path: public
 
+      # 실행 요약 한 줄(빌드 잡의 맨 끝). 로그를 뒤지지 않고도 "오늘 영상에 목소리가 붙었나, 연예가
+      # 몇 건 실렸나"를 실행 화면의 Summary 에서 바로 본다(2026-09-26).
+      - name: 실행 요약
+        if: always()
+        run: |
+          python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import json, glob, os
+          meta = {}
+          try:
+              meta = json.load(open("static/video/peopleroad-week.json", encoding="utf-8"))
+          except Exception as e:
+              meta = {"kind": f"(없음: {e})"}
+          ent = trav = hidden = 0
+          try:
+              tk = json.load(open("data/title_ko.json", encoding="utf-8"))
+              hide = {k for k, v in tk.items() if str(v).strip() == "~"}
+              for f in glob.glob("data/items/*.jsonl"):
+                  for line in open(f, encoding="utf-8"):
+                      try: d = json.loads(line)
+                      except Exception: continue
+                      if d.get("id") in hide or d.get("off_topic"): hidden += 1; continue
+                      if d.get("channel") == "ent": ent += 1
+                      else: trav += 1
+          except Exception as e:
+              pass
+          pages = sum(1 for _ in glob.glob("public/**/index.html", recursive=True))
+          print(f"### 피플로드 실행 요약")
+          print(f"- 홈 롱폼: **{meta.get('kind','?')}** · {meta.get('seconds','?')}초 · 만든 시각 {meta.get('built_at','?')}")
+          print(f"- 지면: 여행 {trav}건 · 연예 {ent}건 · 숨김 {hidden}건 · 쪽 {pages}")
+          PY
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
