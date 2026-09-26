@@ -157,11 +157,10 @@
     },
     {
       "date": "2026-09-26",
-      "collected": 735,
-      "published": 52,
+      "collected": 790,
+      "published": 76,
       "failed_sources": [
-        "kota_nst",
-        "saipan_tribune"
+        "guam_pdn"
       ]
     }
   ]
