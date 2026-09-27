@@ -165,6 +165,16 @@
         "saipan_tribune",
         "weather"
       ]
+    },
+    {
+      "date": "2026-09-27",
+      "collected": 772,
+      "published": 47,
+      "failed_sources": [
+        "guam_pdn",
+        "guam_post",
+        "saipan_tribune"
+      ]
     }
   ]
 }
