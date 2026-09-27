@@ -17,15 +17,15 @@
   - 미주조선일보: 
     https://chosundaily.com/bbs/board.php?bo_table=hotclick&wr_id=18079&sca=%EA%B2%BD%EC%A0%9C&sst=wr_hit&sod=desc&sop=and&spt=-22473&page=46
 
-### 허리케인 노로 접근…하와이 관광업계, 여행객 안전대책 점검
-- 매체 1곳 · KBFD
-  - KBFD: 허리케인 노로가 하와이 남쪽 해상에서 세력을 키우면서 관광업계도 여행객 안전과 항공편 차질에 대비한 대응책 마련에 나섰습니다. 주요 관광시설과 행사들도 잇따라 취소되거나 운영이 중단되고 있습니다.
-    https://kbfd.com/?p=24984
-
 ### 비싼 하와이 외식비 부담 줄인다…와이키키 첫 ‘레스토랑 위크’
 - 매체 1곳 · 전남일보
   - 전남일보: 높은 외식비로 여행객들의 부담이 큰 하와이 와이키키에서 처음으로 '레스토랑 위크'가 열린다. 아웃리거 리조트는 다음 달 1일부터 11일까지 와이키키 일대 14개 레
     https://www.jnilbo.com/news/articleView.html?idxno=90000067116
+
+### 노윤서, 비키니 반전 매력 눈길…하와이 와이키키서 리정과 ‘절친 케미’ [MHN:피드]
+- 매체 1곳 · MHN / 엠에이치앤
+  - MHN / 엠에이치앤: 배우 노윤서가 하와이 와이키키에서 비키니 사진을 공개하며 반전 매력을 뽐냈다. 절친 리정과의 여행을 통해 보여주는 즐거운 순간들이 인상 깊게 비춰지며, 두 사람의 친한 관계가 더욱 주목받고 있다.
+    https://mhnse.com/news/articleView.html?idxno=1560557
 
 ## 베트남
 
@@ -36,15 +36,15 @@
   - vietnam.vn: VHO - 9월 26일, 나트랑 관광대학(문화체육관광부 산하)이 개교 20주년(2006~2026)을 기념하고 1급 노동훈장을 수여받았습니다. 람 티 푸엉 탄 문화체육관광부 장관이 축하 꽃다발을 전달했습니다.
     https://www.vietnam.vn/ko/truong-cddl-nha-trang-don-nhan-huan-chuong-lao-dong-hang-nhat
 
-### 다낭: 수준 높은 러시아 관광객을 유치하기 위해 무엇을 할 수 있을까요?
+### 다낭시 인민위원회는 추라이 공항에 투자할 수 있는 권한을 부여해 줄 것을 요청했습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 다낭을 방문하는 러시아 관광객 수는 151.4% 증가했지만, 고액 소비 관광객을 유치하기 위해서는 디지털 마케팅을 강화하고, 고급 인프라를 개발하며, 맞춤형 문화 체험을 제공해야 합니다.
-    https://www.vietnam.vn/ko/da-nang-lam-gi-de-thu-hut-du-khach-nga-chat-luong-cao
+  - vietnam.vn: 베트남 민간항공청의 제안에 따르면, 추라이 국제공항은 2030년까지 연간 500만 명, 2050년까지 연간 3천만 명의 승객을 수용할 수 있는 4F급 공항으로 건설될 예정이며, 이를 위해 약 81조 6,120억 VND의 투자가 필요할 것으로 추산됩니다.
+    https://www.vietnam.vn/ko/ubnd-tp-da-nang-de-nghi-duoc-giao-tham-quyen-thuc-hien-dau-tu-san-bay-chu-lai
 
-### 베트남을 찾는 러시아 관광객 수가 급증하면서 새로운 관광 트렌드가 나타나고 있다.
+### 다낭을 찾는 러시아 관광객 수가 급증하고 있으며, 숙박 및 투자 기회를 모색하기 시작했습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 러시아 관광객 수가 증가할 뿐만 아니라, 베트남을 방문하는 러시아 관광객들은 여행 습관도 바꾸고 있으며, 개별 여행, 휴식, 경험을 중시하고 있으며, 지출액도 늘릴 가능성이 있습니다.
-    https://www.vietnam.vn/ko/khach-nga-den-viet-nam-tang-manh-xu-huong-du-lich-moi-lo-dien
+  - vietnam.vn: 러시아 관광객 수가 크게 증가한 것 외에도, 다낭에서는 새로운 트렌드가 나타나고 있는데, 일부 관광객들이 도시에서 일하고, 주택을 임대하고, 장기 거주하는 기회에 관심을 보이기 시작한 것입니다.
+    https://www.vietnam.vn/ko/khach-nga-den-da-nang-tang-manh-bat-dau-tim-noi-o-va-co-hoi-dau-tu
 
 ## 코타키나발루
 
@@ -76,27 +76,29 @@
   - MBC 뉴스: 올해 들어 고유가로 여행심리가 위축됐는데도 국제선 항공여객이 지난해보다 약 10% 증가한 것으로 나타났습니다. 국토교통부 항공포털정보시스템 통계에 따르면 올해 1월에서 8월 국제선 여객은 6천843만5천 명으로 지난해 같은 기간보다 9.8% 증가했습니다.
     https://imnews.imbc.com/news/2026/econo/article/6854236_36933.html
 
-### 일본, 프랑스 여행시장서 판매망 넓힌다…현지 여행사 600곳 공략
-- 매체 1곳 · 뉴스트래블
-  - 뉴스트래블: [뉴스트래블=박주연 기자] 프랑스 여행시장에서 일본이 현지 여행사를 통한 상품 판매 확대에 속도를 내고 있다. 전체 여행상품 판매가 부진한 가운데서도 일본 여행수요가 증가하자 소비자를 직접 겨냥하기보다 프랑스 여행업계의 유통망을 넓히는 방식으로 시장 공략을 강화하는 모습이다.
-    https://www.newstravel.co.kr/news/article.html?no=27698
+### N차 여행 이어지자 일본 호텔 시장 선점 경쟁 후끈
+- 매체 1곳 · 매일경제
+  - 매일경제: '일본 여행 강자' 클룩, 日 호텔 1년새 164%↑액티비티·교통·숙박 '클룩 먼데이' 혜택
+    https://www.mk.co.kr/news/culture/12157447
 
-### 영주문화관광재단, 도쿄서 영주 관광 알린다…‘Tourism EXPO Japan 2026’ 참가
-- 매체 1곳 · 이투뉴스
-  - 이투뉴스: 영주문화관광재단이 일본 최대 규모의 종합관광박람회에 참가해 영주의 역사·문화·자연 관광자원을 알리고 일본 관광시장과의 접점 확대에 나선다. 영주문화관광재단은 오는 9월 24일부터 27일까지 일본 도쿄 빅사이트에서 개최되는 ‘Tourism EXPO Japan 2026’에 참가해 영주시 관
-    http://www.e2news.com/news/articleView.html?idxno=334481
+### 치솟은 유류할증료 동남아 직격…일본·중국 항공여객은 20%대↑
+- 매체 1곳 · SBS 뉴스
+  - SBS 뉴스: 엔저와 무비자 효과로 일본·중국 노선 이용객이 많이 늘어난 데다 중동 전쟁 영향으로 인천공항을 경유하는 환승 수요가 증가한 영향으로 풀이됩니다.
+    https://news.sbs.co.kr/news/endPage.do?news_id=N1008770532
 
 ## 태국
 
-### 태국은 공항에서 승객들을 돕기 위한 비상 조치를 시행하고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 태국은 장기간의 폭우와 홍수로 인한 항공편 지연 문제를 해결하고 사람들이 공항에 쉽게 접근할 수 있도록 지원하기 위한 비상 조치를 동시에 시행했습니다.
-    https://www.vietnam.vn/ko/thai-lan-trien-khai-giai-phap-khan-ho-tro-khach-ra-san-bay
+### 태국 정부가 방콕 침수 지역 관광객들을 지원하기 위한 긴급 채널을 개설했습니다.
+- 매체 1곳 · vietnam.vn  ← 여러 곳이 썼다
+  - vietnam.vn: 홍수에 대응하여 태국 당국은 주민과 관광객의 공항 이동을 지원하고 항공편 지연 및 결항 문제를 해결하기 위해 일련의 비상 조치를 시행했습니다.
+    https://www.vietnam.vn/ko/thai-lan-mo-cac-kenh-khan-cap-ho-tro-du-khach-trong-vung-ngap-lut-o-bangkok
+  - vietnam.vn: 방콕 주재 베트남 통신사 특파원에 따르면, 수도 방콕에 내린 폭우와 홍수로 심각한 교통 혼란이 발생하자 태국 당국은 주민과 관광객의 공항 이동을 지원하고 항공편 지연 및 결항 문제를 해결하기 위해 일련의 비상 조치를 시행했습니다.
+    https://www.vietnam.vn/ko/thai-lan-mo-cac-kenh-khan-cap-ho-tro-du-khach-trong-vung-lut-bangkok
 
-### 태국 방콕 수도의 홍수 재난 근접 촬영
-- 매체 1곳 · Laodong.vn
-  - Laodong.vn: 
-    https://ko.laodong.vn/ban-tin/can-canh-tham-hoa-ngap-lut-tai-thu-do-bangkok-thai-lan-1773335.ldo
+### [방콕호텔] 호텔 라운지에서 즐기는 방콕 여행
+- 매체 1곳 · 국제뉴스
+  - 국제뉴스: (태국=국제뉴스) 유지현 기자 = 1일 태국 방콕에 위치한 시암 켐핀스키 호텔 방콕(Siam Kempinski Hotel Bangkok) 이그제큐티브 라운지의 칵테일. 이그제큐티브 룸 이상의 상위 카테고리 객실 투숙객만을 위한 라운지로서, 호텔 최상층에서 방콕 시내의 탁 트인 풍경을 보
+    https://www.gukjenews.com/news/articleView.html?idxno=3706057
 
 ### [방콕호텔] 휴양지 리조트 온 듯한 방콕 여행
 - 매체 1곳 · 국제뉴스
@@ -114,6 +116,29 @@
   - 에너지뉴스: 허진호 감독의 신작 '암살자(들)'이 개봉 이후 3일 연속 박스오피스 정상을 지키며 추석 극장가의 흥행 주도권을 확보했다. 뉴스1에 따르면 영화진흥위원회 통합전산망
     https://www.2news.co.kr/news/articleView.html?idxno=26621
 
+### [movie] 영화 ‘암살자(들)’ 개봉 나흘째 100만 돌파... ‘타짜: 벨제붑의 노래’ 2위로 추격
+- 매체 3곳 · ER 이코노믹리뷰 · 조선일보 · 한국NGO신문  ← 여러 곳이 썼다
+  - 조선일보: 영화 암살자(들)이 개봉 4일 만에 관객 100만 명을 돌파하며 박스오피스 1위를 기록했습니다. 현재 실시간 예매율 27.1%를 차지하고 있으며, 타짜: 벨제붑의 노래, 오디세이 등 경쟁작들을 제치고 흥행 가도를 달리고 있는 상황입니다.
+    https://www.chosun.com/culture-life/culture_general/2026/09/26/HBKULGZIMVBDPHHSJ52GXJQETA/
+  - 한국NGO신문: 배우 유해진·박해일·이민호가 출연한 영화 ‘암살자(들)’​이 개봉과 동시에 박스오피스 1위에 오른 데 이어 나흘 만에 누적 관객 100만 명을 넘어섰다. 영화관입장
+    https://www.ngonews.kr/news/articleView.html?idxno=239265
+  - ER 이코노믹리뷰: ‘암살자(들)’이 4일 연속 박스오피스 1위를 지키며 개봉 4일차인 9월 26일까지 누적 관객 130만명을 돌파했다. 2위 ‘타짜: 벨제붑의 노래’는 누적 66만명, 4위 ‘인턴’은 70만명을 돌파했다.
+    https://www.econovill.com/news/articleView.html?idxno=751944
+
+### [movie] 청불 딱지 못 막았다…‘타짜: 벨제붑의 노래’, 개봉 첫날 판돈 싹쓸이
+- 매체 2곳 · 맥스무비닷컴 · 오뉴스  ← 여러 곳이 썼다
+  - 맥스무비닷컴: ‘타짜: 벨제붑의 노래’가 높은 좌판율을 기록하며 청불 범죄오락 영화 흥행 기록을 세웠다. 시리즈의 대미를 장식하는 ‘타짜: 벨제붑의 노래’(감독 최국희, 제작 싸
+    https://www.maxmovie.com/news/articleView.html?idxno=502077
+  - 오뉴스: [오뉴스=강수경 기자]='타짜: 벨제붑의 노래'가 개봉 이후 3일 연속 부동의 전체 영화 박스오피스 2위에 안착하며 언더독 영화의 대세 탈바꿈을 완전히 보여주고
+    https://www.ohnews.co.kr/news/articleView.html?idxno=30731
+
+### [movie] 1600만 흥행 신화 '왕과 사는 남자', SBS 추석특선영화로 TV 최초 방영
+- 매체 2곳 · 싱글리스트 · 프레임리스  ← 여러 곳이 썼다
+  - 프레임리스: 올해 극장가에서 1600만 관객을 동원하며 역대 한국영화 흥행 2위에 오른 영화 ‘왕과 사는 남자’가 추석 연휴 안방극장을 찾는다. SBS는 추석특선영화로 ‘왕과
+    https://www.frame-less.co.kr/news/articleView.html?idxno=5003
+  - 싱글리스트: 올해 극장가 최고 흥행작 중 하나인 ‘왕과 사는 남자’가 추석 특선영화로 안방극장을 찾는다. 26일 편성표에 따르면 SBS는 이날 오후 9시30분 추석 특선영화로 ‘왕과 사는 남자’를 방송한다.
+    https://www.slist.kr/news/articleView.html?idxno=768895
+
 ### [movie] 영화 ‘오디세이’ 박스오피스 1위 탈환…누적 매출액은?
 - 매체 2곳 · 이데일리 · 톱스타뉴스  ← 여러 곳이 썼다
   - 톱스타뉴스: 영화 '오디세이'가 박스오피스 1위 자리를 탈환했다. 누적 매출액은 1270억원을 넘어섰다.
@@ -127,25 +152,6 @@
     https://www.ytn.co.kr/_ln/0117_202609211501522283
   - 조선일보: 이창동 감독의 신작 영화 가능한 사랑의 언론시사회가 21일 서울 CGV 용산아이파크몰에서 개최되었습니다. 이 영화는 해고노동자 부부와 다큐멘터리 감독 부부가 조우하며 겪는 삶의 궤적과 내면의 욕망을 심도 있게 다루고 있습니다.
     https://www.chosun.com/entertainments/entertain_photo/2026/09/21/MMYTEMBYHE2TCNTGMUYTIYZVMY/
-
-### [movie] 청불 딱지 못 막았다…‘타짜: 벨제붑의 노래’, 개봉 첫날 판돈 싹쓸이
-- 매체 2곳 · 맥스무비닷컴 · 오뉴스  ← 여러 곳이 썼다
-  - 맥스무비닷컴: ‘타짜: 벨제붑의 노래’가 높은 좌판율을 기록하며 청불 범죄오락 영화 흥행 기록을 세웠다. 시리즈의 대미를 장식하는 ‘타짜: 벨제붑의 노래’(감독 최국희, 제작 싸
-    https://www.maxmovie.com/news/articleView.html?idxno=502077
-  - 오뉴스: [오뉴스=강수경 기자]='타짜: 벨제붑의 노래'가 개봉 이후 3일 연속 부동의 전체 영화 박스오피스 2위에 안착하며 언더독 영화의 대세 탈바꿈을 완전히 보여주고
-    https://www.ohnews.co.kr/news/articleView.html?idxno=30731
-
-### [movie] 영화 ‘암살자(들)’ 개봉 나흘째 100만 돌파... ‘타짜: 벨제붑의 노래’ 2위로 추격
-- 매체 2곳 · 조선일보 · 한국NGO신문  ← 여러 곳이 썼다
-  - 조선일보: 영화 암살자(들)이 개봉 4일 만에 관객 100만 명을 돌파하며 박스오피스 1위를 기록했습니다. 현재 실시간 예매율 27.1%를 차지하고 있으며, 타짜: 벨제붑의 노래, 오디세이 등 경쟁작들을 제치고 흥행 가도를 달리고 있는 상황입니다.
-    https://www.chosun.com/culture-life/culture_general/2026/09/26/HBKULGZIMVBDPHHSJ52GXJQETA/
-  - 한국NGO신문: 배우 유해진·박해일·이민호가 출연한 영화 ‘암살자(들)’​이 개봉과 동시에 박스오피스 1위에 오른 데 이어 나흘 만에 누적 관객 100만 명을 넘어섰다. 영화관입장
-    https://www.ngonews.kr/news/articleView.html?idxno=239265
-
-### [drama] 블러드 레거시 시즌 2, 넷플릭스가 그리는 사탕수수 제국을 지키려 뭉친 가족
-- 매체 1곳 · Martin Cid Magazine
-  - Martin Cid Magazine: 줄루어로 그려지는 가문 드라마가 시즌 2에서 자신의 전제를 뒤집는다. 스피어 인더스트리를 놓고 형제들이 다투던 1년을 지나, 은들로부 가문은 바깥의 적들에 맞서 뭉친다.
-    https://ko.martincid.com/tv-shows-ko/%EB%B8%94%EB%9F%AC%EB%93%9C-%EB%A0%88%EA%B1%B0%EC%8B%9C-%EC%8B%9C%EC%A6%8C-2-%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4%EA%B0%80-%EA%B7%B8%EB%A6%AC%EB%8A%94/
 
 ---
 거리 22건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
