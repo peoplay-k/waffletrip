@@ -4,7 +4,8 @@
     "waffletrip-hawaii-voiced",
     "waffletrip-saipan-voiced",
     "waffletrip-hanoi-voiced",
-    "peopleroad-saipan-voiced"
+    "peopleroad-saipan-voiced",
+    "peopleroad-hanoi-voiced"
   ],
   "log": [
     {
@@ -31,6 +32,11 @@
       "file": "peopleroad-saipan-voiced",
       "media_id": "18103927472263706",
       "at": "2026-09-25 20:21:00"
+    },
+    {
+      "file": "peopleroad-hanoi-voiced",
+      "media_id": "18197906479377506",
+      "at": "2026-09-28 10:28:20"
     }
   ]
 }
