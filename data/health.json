@@ -184,6 +184,15 @@
         "guam_post",
         "saipan_tribune"
       ]
+    },
+    {
+      "date": "2026-09-29",
+      "collected": 832,
+      "published": 120,
+      "failed_sources": [
+        "guam_pdn",
+        "guam_post"
+      ]
     }
   ]
 }
