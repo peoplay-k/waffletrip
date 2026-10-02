@@ -23,6 +23,7 @@ from datetime import datetime, timedelta, timezone
 KST = timezone(timedelta(hours=9))
 
 FAIL_AFTER_EMPTY_DAYS = 3      # 발행 0건이 이만큼 이어지면 실패
+SILENT_AFTER_DAYS = 2          # 우리 기사 0편이 이만큼 이어지면 경보(배포 뒤 실패로 알린다)
 WARN_AFTER_SOURCE_FAILS = 3    # 소스 연속 실패 경고 기준
 KEEP_DAYS = 30
 
@@ -43,14 +44,24 @@ def snapshot(data_dir: str, day: str) -> dict:
 
     items_path = os.path.join(data_dir, "items", f"{day}.jsonl")
     published = 0
+    ours = 0
     if os.path.exists(items_path):
         with open(items_path, encoding="utf-8") as f:
-            published = sum(1 for line in f if line.strip())
+            for line in f:
+                if not line.strip():
+                    continue
+                published += 1
+                try:
+                    # 해설·보도자료 정리 — 초안에서 나간 우리 기사는 id 가 c- 로 시작한다
+                    ours += json.loads(line).get("id", "").startswith("c-")
+                except ValueError:
+                    pass
 
     return {
         "date": day,
         "collected": collected,
         "published": published,
+        "ours": ours,
         "failed_sources": sorted(
             {e.get("source_id", "?") for e in errors if isinstance(e, dict)}),
     }
@@ -99,6 +110,21 @@ def diagnose(history: list[dict],
     return fatal, warn
 
 
+def own_silence(history: list[dict], today: str,
+                days: int = SILENT_AFTER_DAYS) -> bool:
+    """지난 days 일 연속 우리 기사가 0편이었나.
+
+    2026-10-02 부터 남의 기사 인용은 지면에 안 나간다. 그래서 해설 에이전트(매일
+    12:17)가 멈추면 지면은 환율·날씨만 남는데, 위 '발행 0건' 검사는 인용까지 세서
+    울리지 않는다. 오늘은 빼고 센다 — 아침 실행 때는 에이전트가 아직 안 돌았다.
+    'ours' 가 없는 옛 기록은 모르는 날이라 세지 않는다.
+    """
+    done = [h for h in history
+            if h.get("date", "") < today and h.get("ours") is not None]
+    tail = done[-days:]
+    return len(tail) >= days and all(h["ours"] == 0 for h in tail)
+
+
 def video_age_days(src: str = os.path.join("static", "video")) -> float | None:
     """홈에 걸린 롱폼이 며칠 묵었나. 영상이 아예 없으면 None.
 
@@ -128,7 +154,8 @@ def main(data_dir: str = "data") -> int:
     fatal, warn = diagnose(history)
 
     print(f"건강검진 {day}: 수집 {today['collected']}건 · "
-          f"발행 {today['published']}건 · 소스실패 {len(today['failed_sources'])}개")
+          f"발행 {today['published']}건(우리 기사 {today['ours']}편) · "
+          f"소스실패 {len(today['failed_sources'])}개")
     age = video_age_days()
     if age is None:
         warn.append("홈 영상이 없다 — 영상 단계가 실패했는지 본다.")
@@ -136,6 +163,16 @@ def main(data_dir: str = "data") -> int:
         fatal.append(f"홈 영상이 {age:.0f}일 묵었다. 매일 다시 구워야 한다.")
     elif age >= 2:
         warn.append(f"홈 영상이 {age:.1f}일 묵었다.")
+
+    # 배포를 막지 않으려고 여기서 죽지 않는다. 워크플로가 배포 뒤 notify 잡에서
+    # 이 값을 보고 실패로 끝내 알림 메일을 띄운다.
+    if own_silence(history, day):
+        warn.append(f"{SILENT_AFTER_DAYS}일 연속 우리 기사(해설·보도자료) 0편이다 — "
+                    "12:17 해설 에이전트가 멈췄을 수 있다. 인용이 지면에 안 나가므로 지면이 비어 간다.")
+        out = os.environ.get("GITHUB_OUTPUT")
+        if out:
+            with open(out, "a", encoding="utf-8") as f:
+                f.write("own_silent=true\n")
 
     for w in warn:
         print(f"  경고 {w}", file=sys.stderr)

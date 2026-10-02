@@ -68,7 +68,7 @@ def test_snapshot_counts_files(tmp_path):
 def test_snapshot_survives_missing_files(tmp_path):
     got = snapshot(str(tmp_path), "2026-09-02")
     assert got == {"date": "2026-09-02", "collected": 0, "published": 0,
-                   "failed_sources": []}
+                   "ours": 0, "failed_sources": []}
 
 
 def test_update_history_replaces_same_day(tmp_path):
@@ -105,3 +105,33 @@ def test_묵은_홈영상을_잡는다(tmp_path):
     # 올린 파일이 정확히 이 모양이었다 — built_at 이 아예 없었다.
     meta.write_text(json.dumps({"title": "이번 주 여행 뉴스"}), encoding="utf-8")
     assert video_age_days(str(tmp_path)) > 100
+
+
+# ── 2026-10-02 부터: 지면이 해설에 달렸다 ─────────────────────────
+def test_snapshot_counts_our_own_articles(tmp_path):
+    import json as _j
+    items = tmp_path / "items"
+    items.mkdir()
+    rows = [{"id": "c-1", "grade": "C"}, {"id": "c-2", "grade": "C"},
+            {"id": "ab12", "grade": "B"}, {"id": "cd34", "grade": "A"}]
+    (items / "2026-10-03.jsonl").write_text(
+        "\n".join(_j.dumps(r) for r in rows), encoding="utf-8")
+    snap = snapshot(str(tmp_path), "2026-10-03")
+    assert snap["published"] == 4 and snap["ours"] == 2
+
+
+def test_two_silent_days_raise_the_alarm_but_today_is_not_counted():
+    from src.health import own_silence
+    hist = [{"date": "2026-10-03", "ours": 0}, {"date": "2026-10-04", "ours": 0},
+            {"date": "2026-10-05", "ours": 0}]
+    assert own_silence(hist, "2026-10-05")             # 3일·4일이 0편
+    hist[1]["ours"] = 6
+    assert not own_silence(hist, "2026-10-05")
+    # 아침 실행: 오늘(5일)은 에이전트 전이라 0편이어도 세지 않는다
+    assert not own_silence([{"date": "2026-10-04", "ours": 7},
+                            {"date": "2026-10-05", "ours": 0}], "2026-10-05")
+
+
+def test_old_records_without_our_count_do_not_raise_the_alarm():
+    from src.health import own_silence
+    assert not own_silence([{"date": "2026-09-30"}, {"date": "2026-10-01"}], "2026-10-02")
