@@ -1,4 +1,5 @@
 import json
+from datetime import datetime, timedelta, timezone
 
 import pytest
 
@@ -7,6 +8,12 @@ from src.guards.dup_guard import (PublishedIndex, IndexUnavailable,
 from src.models import Item
 
 NOW = "2026-08-31T05:00:00+09:00"
+
+# 발행 이력의 "최근" 날짜. 저장할 때 오늘 기준 30일보다 오래된 제목은 지워진다.
+# 여기에 RECENT_DAY 을 박아 두었더니 30일이 지난 2026-09-30 부터 테스트 세 개가
+# 깨졌고, 테스트가 발행보다 먼저 돌아서 **사흘 동안 지면이 멈췄다.** 날짜는 오늘에서 센다.
+RECENT_DAY = (datetime.now(timezone(timedelta(hours=9))).date()
+              - timedelta(days=1)).isoformat()
 
 
 def make(item_id, title, source_name="A"):
@@ -109,7 +116,7 @@ def test_index_with_wrong_types_is_fail_closed(tmp_path):
 def test_previously_published_id_is_filtered_out(tmp_path):
     path = str(tmp_path / "idx.json")
     index = PublishedIndex.load(path)
-    index.add(make("1", "괌 신규 취항 확정"), "2026-08-30")
+    index.add(make("1", "괌 신규 취항 확정"), RECENT_DAY)
     index.save(path)
 
     reloaded = PublishedIndex.load(path)
@@ -121,7 +128,7 @@ def test_previously_published_id_is_filtered_out(tmp_path):
 def test_same_story_different_url_is_caught_by_title(tmp_path):
     path = str(tmp_path / "idx.json")
     index = PublishedIndex.load(path)
-    index.add(make("1", "괌 신규 취항 노선 확정 발표"), "2026-08-30")
+    index.add(make("1", "괌 신규 취항 노선 확정 발표"), RECENT_DAY)
     index.save(path)
 
     reloaded = PublishedIndex.load(path)
@@ -134,7 +141,7 @@ def test_same_story_different_url_is_caught_by_title(tmp_path):
 def test_unrelated_new_story_passes(tmp_path):
     path = str(tmp_path / "idx.json")
     index = PublishedIndex.load(path)
-    index.add(make("1", "괌 신규 취항 확정"), "2026-08-30")
+    index.add(make("1", "괌 신규 취항 확정"), RECENT_DAY)
     index.save(path)
 
     reloaded = PublishedIndex.load(path)
@@ -148,7 +155,7 @@ def test_save_prunes_titles_older_than_thirty_days(tmp_path):
     path = str(tmp_path / "idx.json")
     index = PublishedIndex.load(path)
     index.add(make("old", "아주 오래된 소식 제목"), "2026-01-01")
-    index.add(make("new", "최근 소식 제목"), "2026-08-30")
+    index.add(make("new", "최근 소식 제목"), RECENT_DAY)
     index.save(path)
 
     data = json.loads(open(path, encoding="utf-8").read())
@@ -162,8 +169,8 @@ def test_save_folds_duplicate_ids_in_recent(tmp_path):
     path = str(tmp_path / "idx.json")
     index = PublishedIndex.load(path)
     item = make("dup", "같은 기사 제목")
-    index.add(item, "2026-08-30")
-    index.add(item, "2026-08-30")
+    index.add(item, RECENT_DAY)
+    index.add(item, RECENT_DAY)
     index.save(path)
     data = json.loads(open(path, encoding="utf-8").read())
     assert len(data["recent"]) == 1
