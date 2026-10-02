@@ -57,6 +57,12 @@ STATUSES = [("draft", "작성중 — 지면에 안 나감"),
             ("approved", "발행대기 — 다음 발행 때 나감"),
             ("published", "발행됨")]
 
+# 필자는 명부에서 고른다. 손으로 치게 두면 명부에 없는 이름 — 지어낸 기자 — 가 생긴다.
+sys.path.insert(0, ROOT)
+from src.desks import KINDS, OWN_KINDS, REPORTERS  # noqa: E402
+WRITERS = [("", "자동 — 그 지면 담당 기자")] + [(n, f"{n} 기자") for n in REPORTERS]
+KIND_OPTS = [(k, f"{k} — 자체 기사" if k in OWN_KINDS else k) for k in KINDS]
+
 CSS = """
 :root{--ink:#0E0E0F;--muted:#6E6E73;--line:#EAEAE7;--coral:#F04E37;--paper:#FAFAF9}
 *{box-sizing:border-box}
@@ -320,12 +326,14 @@ class Handler(http.server.BaseHTTPRequestHandler):
 <label>요약<span class="hint">목록·검색·카톡 공유 카드에 나옵니다. 한두 문장.</span>
 <input type="text" name="summary" value="{html.escape(str(front.get('summary') or ''))}"></label>
 <div class="row">
-<label>필자<span class="hint">비우면 데스크(여행은 지역 데스크, 연예는 문화부)가 붙습니다. 실제로 쓴 사람만 적습니다.</span>
-<input type="text" name="source_name" value="{html.escape(str(front.get('source_name') or ''))}"></label>
+<label>필자<span class="hint">자동이면 그 지면 담당 기자가 붙습니다. 명부(src/desks.py)에 있는 사람만 고를 수 있습니다.</span>{sel("source_name", WRITERS, str(front.get("source_name") or "").replace(" 기자", ""))}</label>
 <label>원문 링크<span class="hint">다른 매체 보도를 정리한 경우에만.</span>
 <input type="text" name="source_url" value="{html.escape(str(front.get('source_url') or ''))}"></label>
 </div>
+<div class="row">
 <label>상태{sel("status", STATUSES, front.get("status","draft"))}</label>
+<label>기사 종류<span class="hint">취재·기획·인터뷰가 자체 기사입니다(네이버 심사: 50% 이상).</span>{sel("kind", KIND_OPTS, front.get("kind") or "취재")}</label>
+</div>
 <label>대표 사진<span class="hint">직접 찍은 사진 한 장. 저장 전에 이 맥에서 얼굴 검사를 합니다 — 잡히면 올라가지 않습니다. 공개 저장소라 올린 원본은 이력에 남습니다.{(" 지금: " + html.escape(photo)) if photo else ""}{(" · 검사 결과: " + html.escape(note)) if note else ""}</span>
 <input type="file" name="photo_file" accept="image/*"></label>
 <label><input type="checkbox" name="photo_hero" value="1"{" checked" if front.get("photo_hero") else ""}> 1면용 풍경 사진(사람 없음)</label>
@@ -370,7 +378,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                              "category": g("category") if channel == "ent" else "",
                              "section": g("section"),
                              "title": title, "source_name": "", "source_url": "",
-                             "summary": "", "status": "draft"}, body)
+                             "summary": "", "kind": "취재", "status": "draft"}, body)
             commit_and_push(f"편집실: 새 기사 {title[:40]}")
             return self._redirect(f"/edit?f={urllib.parse.quote(name)}")
 
@@ -385,7 +393,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                           "category": g("category") if channel == "ent" else "",
                           "section": g("section"),
                           "title": g("title"), "summary": g("summary"),
-                          "source_name": g("source_name"),
+                          "source_name": g("source_name"), "kind": g("kind") or "취재",
                           "source_url": g("source_url"), "status": g("status"),
                           "photo_hero": bool(g("photo_hero"))})
             err = ""

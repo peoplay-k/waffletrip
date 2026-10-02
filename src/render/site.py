@@ -18,7 +18,8 @@ import shutil
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
 
-from src.desks import DESK_DUTIES, ENT_DESK, REGION_DESKS, byline_for
+from src.desks import (BEATS, DESK_DUTIES, ENT_DESK, GENERAL_REPORTER,
+                       byline_for, staff_table)
 from src.photos import (assign as assign_photos, copy_into, load_manifest, og_path,
                         photo_dims, photo_places, render_og_images,
                         load_used, save_used)
@@ -315,6 +316,18 @@ def slugify(text: str) -> str:
 
 
 _OUTLET_TAIL = re.compile(r"\s+[-–|]\s+([^\s\-–|]{2,15})$")
+
+
+def source_label(item) -> str:
+    """'원문 보기:' 옆에 적을 이름.
+
+    인용(B)은 원문 매체 이름이 서명이라 그대로 쓴다. 우리 기사(C)의 서명은 우리 기자라
+    그걸 원문 이름으로 쓰면 "원문 보기: 김태성 기자" 가 남의 기사로 연결된다.
+    그때는 원문 주소의 도메인을 적는다.
+    """
+    if getattr(item, "grade", "") == "B":
+        return getattr(item, "source_name", "") or ""
+    return outlet_or_domain("\ufffd", getattr(item, "source_url", "") or "")
 
 
 def outlet_or_domain(source_name: str, source_url: str) -> str:
@@ -618,6 +631,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "video": video,
         "topics": TOPICS, "topic_names": TOPIC_NAMES,
         "contact_email": CONTACT_EMAIL, "desk_duties": DESK_DUTIES,
+        "staff": staff_table(),
         "legal_lines": legal_lines(),
         "youth_officer": next((s.split(" ", 1)[1] for s in legal_lines() if s.startswith("청소년보호책임자 ")), ""),
         "analytics": ANALYTICS,
@@ -722,7 +736,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             env.get_template("region.html").render(
                 region_key=key, region_name=name, panel=panel,
                 articles=articles, product_link=product_link_for(key),
-                desk=REGION_DESKS.get(key, ""), **common),
+                desk=f"{BEATS.get(key, GENERAL_REPORTER)} 기자", **common),
             written,
         )
 
@@ -895,6 +909,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             os.path.join(out_dir, urls[item.id].strip("/"), "index.html"),
             env.get_template("article.html").render(
                 item=item, related=related, more=more,
+                source_label=source_label(item),
                 more_label=more_label, more_link=more_link, facts=facts,
                 article_ld=_article_ld(item, urls),
                 crumb_ld=_crumb_ld(item, urls),

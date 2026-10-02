@@ -59,6 +59,17 @@ def is_incident(title: str) -> bool:
     return bool(_INCIDENT.search(t) or _INCIDENT_KO.search(t))
 
 
+# 다른 매체의 단독 기사. 그 매체가 직접 취재해 처음 낸 것이라 사실만 가져와도
+# 남의 취재를 우리 것처럼 싣게 된다. "단독 기사는(조·중·동) 안 된다"
+# (2026-10-01 편집국장). 조·중·동만이 아니라 어느 매체의 단독이든 거른다.
+_EXCLUSIVE = re.compile(r"[\[(<【〈「]\s*단독\s*[\])>】〉」]|^\s*단독\s*[:·]|^\s*exclusive\b",
+                        re.IGNORECASE)
+
+
+def is_exclusive(title: str) -> bool:
+    return bool(_EXCLUSIVE.search(title or ""))
+
+
 def is_korean_title(text: str) -> bool:
     letters = [c for c in (text or "") if c.isalpha()]
     if not letters:
@@ -130,6 +141,8 @@ def main() -> int:
             continue
         if is_incident(title):
             continue                      # 사건·사고는 싣지 않는다
+        if is_exclusive(title):
+            continue                      # 남의 단독 기사는 재료로 쓰지 않는다
         if row.get("channel") == "ent":
             ent_rows.append(row)          # 연예는 지역이 없다. 따로 묶는다
             continue

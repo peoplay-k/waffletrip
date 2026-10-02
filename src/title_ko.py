@@ -130,9 +130,10 @@ def merge(path_in: str, path: str = PATH, items=None) -> tuple[int, list[str]]:
 
 def _recent_items():
     from datetime import datetime
-    from src.build import KST, load_recent_items, one_roundup_per_week
+    from src.build import KST, load_recent_items, on_site, one_roundup_per_week
     today = datetime.now(KST).isoformat()[:10]
-    return one_roundup_per_week(load_recent_items(os.path.join("data", "items"), today))
+    # 지면에 나가는 것만. 2026-10-02 부터 인용은 재료로만 두므로 그 제목을 옮기는 건 헛일이다.
+    return on_site(one_roundup_per_week(load_recent_items(os.path.join("data", "items"), today)))
 
 
 def main(argv: list[str] | None = None) -> int:

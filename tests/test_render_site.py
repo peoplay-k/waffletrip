@@ -429,10 +429,54 @@ def test_about_page_states_no_invented_reporters(tmp_path):
     assert "피플레이" in html                   # 운영사와 이해관계를 밝힌다
 
 
-def test_region_page_names_its_desk(tmp_path):
+def test_region_page_names_its_reporter(tmp_path):
+    """지역면은 담당 기자가 맡는다(2026-10-01 편집국장 미팅)."""
     render_site([], str(tmp_path), TODAY)
     html = (tmp_path / "guam" / "index.html").read_text(encoding="utf-8")
-    assert "피플로드 괌 데스크" in html
+    assert "김태성 기자" in html
+
+
+def test_our_article_credits_the_original_outlet_not_our_reporter(tmp_path):
+    """우리 기사의 '원문 보기' 옆에 우리 기자 이름이 오면 남의 기사가 우리 기자 것이 된다."""
+    import glob as _g
+    item = make("1", "괌 신규 취항 정리", grade="C")
+    item.published_at = item.collected_at = "2026-10-02T09:00:00+09:00"
+    item.source_name = ""
+    item.source_url = "https://www.ttlnews.com/news/1"
+    render_site([item], str(tmp_path), "2026-10-02")
+    html = "".join(open(p, encoding="utf-8").read()
+                   for p in _g.glob(str(tmp_path / "guam" / "*" / "index.html")))
+    assert "김태성 기자" in html                      # 서명은 담당 기자
+    assert ">ttlnews.com</a>" in html                # 원문은 원문 도메인
+    assert ">김태성 기자</a>" not in html
+
+
+def test_about_page_lists_reporters_and_how_articles_are_made(tmp_path):
+    from src.desks import REPORTERS
+    render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "about" / "index.html").read_text(encoding="utf-8")
+    for name in REPORTERS:
+        assert f"{name} 기자" in html
+    assert "AI 작성" in html                         # 감추지 않는다
+    assert "10월부터는 싣지 않습니다" in html          # 인용을 그만둔 사실
+
+
+def test_ethics_page_says_we_rewrite_and_skip_exclusives(tmp_path):
+    render_site([], str(tmp_path), TODAY)
+    html = (tmp_path / "ethics" / "index.html").read_text(encoding="utf-8")
+    assert "남의 문장을 옮기지 않습니다" in html
+    assert "단독 보도는 옮기지 않습니다" in html
+
+
+def test_편집실_필자는_기자_명부에서만_고른다():
+    """손으로 치게 두면 명부에 없는 이름 — 지어낸 기자 — 가 생긴다."""
+    import yaml
+    from src.desks import KINDS, REPORTERS
+    cfg = yaml.safe_load(open("static/admin/config.yml", encoding="utf-8"))
+    fields = {f["name"]: f for f in cfg["collections"][0]["fields"]}
+    assert fields["source_name"]["widget"] == "select"
+    assert [o["value"] for o in fields["source_name"]["options"]] == [""] + list(REPORTERS)
+    assert [o["value"] for o in fields["kind"]["options"]] == list(KINDS)
 
 
 # ── 런칭 필수 항목 ────────────────────────────────────────────────

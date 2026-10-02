@@ -131,9 +131,11 @@ def create(region: str, title: str, section: str = "news",
         "category": (category or "") if ent else "",
         "section": section,
         "title": title,
-        # 비워두면 데스크 이름이 자동으로 붙는다(여행은 지역 데스크, 연예는 문화부).
-        # 실제 필자가 있으면 그 이름을 적는다.
+        # 비워두면 그 지면 담당 기자가 붙는다(src/desks.py REPORTERS).
+        # 다른 기자가 맡으면 명부의 이름을 적는다. 명부 밖 이름은 적지 않는다.
         "source_name": "",
+        # 취재·기획·인터뷰가 자체 기사다. 네이버 심사는 그 비중을 본다(50% 이상).
+        "kind": "취재",
         "source_url": "",
         "summary": "",
         "status": "draft",

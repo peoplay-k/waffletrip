@@ -18,7 +18,7 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 
 from src.guards.dup_guard import PublishedIndex
-from src.models import Item, item_from_dict
+from src.models import ADAPT_FROM, Item, item_from_dict
 from src.render.feeds import (render_cname, render_llms_txt, render_robots,
                               render_rss, render_sitemap)
 from src.render.site import render_site
@@ -61,6 +61,17 @@ def one_roundup_per_week(items: list[Item]) -> list[Item]:
     return [i for i in items
             if not (i.grade == "C" and i.title.startswith("이번 주 "))
             or i.id in keep]
+
+
+def on_site(items: list[Item]) -> list[Item]:
+    """지면에 내는 항목만 남긴다.
+
+    2026-10-02 부터 남의 기사 인용(B등급)은 지면에 내지 않는다 — "모든 기사는
+    각색해서 넣는다"(2026-10-01 편집국장 미팅). 수집은 계속하고 data/items 에도
+    그대로 쌓는다. 해설을 쓸 재료이기 때문이다. 그 전에 실린 인용은 그대로 둔다.
+    """
+    return [i for i in items
+            if not (i.grade == "B" and (i.collected_at or "")[:10] >= ADAPT_FROM)]
 
 
 def load_recent_items(items_dir: str, today: str,
@@ -164,7 +175,11 @@ def main(data_dir: str = "data", out_dir: str = "public") -> int:
               file=sys.stderr)
         return 1
 
-    written = build(items, out_dir, today, built_at)
+    shown = on_site(items)
+    material = len(items) - len(shown)
+    if material:
+        print(f"인용 기사 {material}건은 재료로만 두고 지면에 내지 않는다(각색 원칙)")
+    written = build(shown, out_dir, today, built_at)
 
     # 사이트가 실제로 나온 뒤에만 발행 이력을 갱신한다.
     index_path = os.path.join(data_dir, "published_index.json")

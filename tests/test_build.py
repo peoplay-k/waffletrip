@@ -186,3 +186,27 @@ def test_roundups_from_different_weeks_both_survive():
     got = one_roundup_per_week(
         [roundup("w36", "2026-09-06"), roundup("w37", "2026-09-09")])
     assert len(got) == 2
+
+
+def test_quoted_articles_stop_appearing_from_the_switch_day():
+    """"모든 기사는 각색해서 넣는다"(2026-10-01). 그 전에 실린 인용은 그대로 둔다."""
+    from src.build import on_site
+    from src.models import ADAPT_FROM
+    day = f"{ADAPT_FROM}T08:00:00+09:00"
+    old = make("old", "옛 인용")
+    old.collected_at = "2026-10-01T08:00:00+09:00"
+    new = make("new", "새 인용")
+    new.collected_at = day
+    ours = make("ours", "우리 기사", grade="C")
+    ours.collected_at = day
+    data = make("fx", "환율", grade="A")
+    data.collected_at = day
+    assert [i.id for i in on_site([old, new, ours, data])] == ["old", "ours", "fx"]
+
+
+def test_weekly_roundups_stop_from_the_switch_day():
+    """주간 소식 묶음은 남의 기사 목록이다. 전환일부터 만들지 않는다."""
+    from src.edit import roundups_open
+    from src.models import ADAPT_FROM
+    assert roundups_open("2026-10-01")
+    assert not roundups_open(ADAPT_FROM)

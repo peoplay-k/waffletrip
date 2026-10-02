@@ -78,3 +78,63 @@ def test_desk_list_covers_every_region():
     listed = {n for n, _, _ in DESK_DUTIES}
     for desk in REGION_DESKS.values():
         assert desk in listed, desk
+
+
+# ── 2026-10-02 부터: 실명 기자 ───────────────────────────────────
+AFTER = "2026-10-02T09:00:00+09:00"
+
+
+def made_after(grade="C", region="guam", source_name="", channel="travel"):
+    item = make(grade, region, source_name)
+    item.published_at = item.collected_at = AFTER
+    item.channel = channel
+    return item
+
+
+def test_after_switch_commentary_carries_the_region_reporter():
+    assert byline_for(made_after(region="guam")) == "김태성 기자"
+    assert byline_for(made_after(region="japan")) == "이병훈 기자"
+
+
+def test_after_switch_every_region_has_a_reporter():
+    from src.desks import BEATS
+    for region in REGIONS:
+        assert region in BEATS, region
+    assert "ent" in BEATS and "data" in BEATS
+
+
+def test_after_switch_entertainment_and_data_have_their_reporters():
+    assert byline_for(made_after(region="", channel="ent")) == "이수비 기자"
+    assert byline_for(made_after("A", region="jeju")) == "이승훈 기자"
+    assert byline_for(made_after(source_name=DATA_DESK)) == "이승훈 기자"
+
+
+def test_desk_name_in_a_draft_does_not_block_the_reporter():
+    item = made_after(region="japan", source_name="피플로드 일본 데스크")
+    assert byline_for(item) == "이병훈 기자"
+
+
+def test_named_reporter_in_a_draft_wins_and_is_stable():
+    """렌더가 서명을 source_name 에 써 넣은 뒤 다시 불러도 같아야 한다."""
+    item = made_after(region="japan", source_name="이수비")
+    once = byline_for(item)
+    item.source_name = once
+    assert once == byline_for(item) == "이수비 기자"
+
+
+def test_articles_before_the_switch_keep_their_desk():
+    """그때는 그 사람이 맡은 기사가 아니었다."""
+    assert byline_for(make("C", region="guam")) == "피플로드 괌 데스크"
+
+
+def test_quoted_articles_still_name_the_outlet_after_the_switch():
+    assert byline_for(made_after("B", source_name="TTL뉴스")) == "TTL뉴스"
+
+
+def test_reporters_are_people_not_desks():
+    """네이버 제휴는 실명 정규직 기자 5명 이상을 본다(2026-09-16 편집국장)."""
+    from src.desks import REPORTERS
+    assert len(REPORTERS) >= 5
+    for name in REPORTERS:
+        assert BRAND not in name
+        assert not name.endswith(("데스크", "팀", "부")), name

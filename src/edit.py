@@ -191,6 +191,12 @@ def drop_stale(items, today: str, max_age: int = PUBLISH_MAX_AGE_DAYS) -> list:
             or (getattr(i, "published_at", "") or "")[:10] >= cutoff]
 
 
+def roundups_open(today: str) -> bool:
+    """주간 소식 묶음을 만드는가. 2026-10-02(ADAPT_FROM) 부터는 만들지 않는다."""
+    from src.models import ADAPT_FROM
+    return today < ADAPT_FROM
+
+
 def main(data_dir: str = "data", review_dir: str = "content/review",
          sources_path: str = "sources.yaml") -> int:
     today = datetime.now(KST).date().isoformat()
@@ -227,8 +233,11 @@ def main(data_dir: str = "data", review_dir: str = "content/review",
 
     # 주간 지역 브리핑. 지난 이레치 발행분에서 만든다.
     # 같은 주에 두 번 나가지 않도록 발행 이력이 막는다.
-    recent = load_recent_for_roundup(data_dir, today)
+    # 2026-10-02 부터 만들지 않는다. 주간 소식 묶음은 남의 기사 제목·요약을
+    # 늘어놓은 것이라 "모든 기사는 각색해서 넣는다"(2026-10-01 편집국장)와 맞지 않고,
+    # 그 목록이 가리키는 인용 쪽도 이제 지면에 없다.
     from src.models import REGIONS
+    recent = load_recent_for_roundup(data_dir, today) if roundups_open(today) else []
     for region in REGIONS:
         art = build_roundup(recent, region, today)
         if art and not index.contains(art):

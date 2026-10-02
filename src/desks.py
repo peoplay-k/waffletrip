@@ -7,19 +7,53 @@
 대신 **부서로 나눈다.** 지면이 한 사람 손에서 나온 것처럼 보이지 않으면서
 거짓이 아니다 — 실제로 데이터는 파이프라인이 만들고, 해설은 지역별로 쓴다.
 
-**실명 바이라인으로 간다.** 네이버 뉴스 제휴는 4대보험 정규직 기자 5명 이상을
-보고, 지어낸 이름이 아니라 실제로 일하는 사람의 이름을 본다(2026-09-16 편집국장).
-기자가 정해지면 REPORTERS 에 이름을 올리고 초안의 `source_name` 에 그 이름을
-적는다 — byline_for 는 적힌 이름을 그대로 존중한다. 그 전까지는 데스크명이다.
+**2026-10-02 부터 실명 기자로 서명한다.** 2026-10-01 편집국장 미팅에서 정했다 —
+"모든 기사는 각색해서 넣어서 진행하고 저희 회사 직원 이름으로 진행한다." 피플레이
+직원 여섯 명이 지면을 나눠 맡는다(REPORTERS). 네이버 뉴스 제휴는 지어낸 이름이 아니라
+실제로 일하는 사람의 이름을 본다(2026-09-16 편집국장).
+
+그 전에 나간 기사는 데스크명 그대로 둔다 — 그때는 그 사람이 맡은 기사가 아니었다.
+
+AI 가 초안을 쓴 기사도 담당 기자 이름으로 나간다. 서명은 '이 기사를 맡은 사람'이고,
+정정 요청도 이 이름으로 온다. 그 사실은 매체 소개·편집원칙에 그대로 밝힌다.
 """
 from __future__ import annotations
 
 from src.brand import SITE_NAME as BRAND  # noqa: E402 — 정본은 brand.py
 
-# 실명 기자 명부. 결정 ③(기자 5명 — 누구를, 언제)이 나오면 채운다.
-# 이름 → 맡은 지면. 여기에 없는 이름이 서명에 나오면 check_articles 가 짚는다.
+from src.models import ADAPT_FROM, REGION_NAMES  # noqa: E402
+
+# 실명 기자 명부 — 2026-10-01 편집국장 미팅 회의록의 피플레이 직원 여섯 명.
+# 이름 → 맡은 지면. 지면 키는 지역(models.REGIONS)·"ent"(연예)·"data"(환율·날씨).
+#
+# 나눈 기준: 2026-09 한 달 우리 기사 228편의 지역별 건수를 여섯이 비슷하게 갖도록
+# (괌·사이판 49 · 일본 46 · 베트남·라오스 48 · 태국·코타·대만 45 · 하와이·제주 35 +
+# 데이터 · 연예). 회의록에는 누가 무엇을 맡는지 없어 이 나눔은 임시다 — 바꿀 때는
+# 여기만 고친다.
 # ★지어내지 않는다. 회사에 실제로 있는 사람만 올린다.
-REPORTERS: dict[str, str] = {}
+REPORTERS: dict[str, tuple[str, ...]] = {
+    "김태성": ("guam", "saipan"),
+    "이병훈": ("japan",),
+    "이우재": ("vietnam", "laos"),
+    "장미화": ("thailand", "kota", "taiwan"),
+    "이승훈": ("hawaii", "jeju", "data"),
+    "이수비": ("ent",),
+}
+# 맡은 사람이 없는 지면(새로 연 지역 등)은 이 사람이 맡는다.
+GENERAL_REPORTER = "이승훈"
+# 실명 서명이 시작되는 날. 2026-10-01 미팅 결정과 같은 날이다.
+REPORTERS_FROM = ADAPT_FROM
+# 지면 → 기자
+BEATS: dict[str, str] = {beat: name for name, beats in REPORTERS.items()
+                         for beat in beats}
+BEAT_NAMES: dict[str, str] = {**REGION_NAMES, "ent": "연예",
+                              "data": "환율·날씨"}
+
+# 기사 종류. 초안 앞머리의 `kind` 에 적는다. 네이버 제휴 심사는 자체 기사
+# (취재·기획·인터뷰) 비중을 본다 — 편집국장: 50~70%, 적어도 50%(2026-10-01).
+# 보도자료를 다시 쓴 것과 여러 보도를 묶은 해설은 자체 기사로 세지 않는다.
+KINDS = ("취재", "기획", "인터뷰", "해설", "보도자료")
+OWN_KINDS = ("취재", "기획", "인터뷰")
 
 # 지역 해설 기사의 데스크
 REGION_DESKS = {
@@ -70,15 +104,49 @@ DESK_DUTIES = (
 )
 
 
+def reporter_for(item) -> str:
+    """이 기사를 맡는 기자. 연예는 연예 담당, 환율·날씨는 데이터 담당, 나머지는 지역 담당."""
+    if getattr(item, "channel", "travel") == "ent":
+        return BEATS["ent"]
+    if getattr(item, "grade", "") == "A" or getattr(item, "source_name", "") == DATA_DESK:
+        return BEATS["data"]
+    return BEATS.get(getattr(item, "region", ""), GENERAL_REPORTER)
+
+
+# 사람 이름이 아닌 서명. 초안에 이게 적혀 있으면 '안 적힌 것'으로 본다.
+DESK_NAMES = set(REGION_DESKS.values()) | {DATA_DESK, EDIT_DESK, ENT_DESK, BRAND}
+
+
+def _named(item) -> str:
+    """초안에 적힌 필자. '김태성 기자'·'김태성' 둘 다 받는다."""
+    raw = (getattr(item, "source_name", "") or "").strip()
+    if raw.endswith(" 기자"):
+        raw = raw[: -len(" 기자")].strip()
+    return "" if raw in DESK_NAMES else raw
+
+
 def byline_for(item) -> str:
     """이 기사의 서명.
 
     B등급(큐레이션)은 원문 매체 이름을 그대로 둔다 — 그게 쓴 사람이다.
     바꾸면 남의 기사를 우리가 쓴 것처럼 보이게 만드는 것이라 하면 안 된다.
+    (2026-10-02 부터 B등급은 지면에 나가지 않는다. 그 전에 실린 것만 남는다.)
+
+    2026-10-02 부터 나간 우리 기사는 실명 기자다. 초안에 명부의 이름이 적혀 있으면
+    그 사람, 비어 있거나 데스크명이면 그 지면 담당이다. 명부 밖의 이름(외부 필자·
+    기고)이 적혀 있으면 적힌 그대로 둔다. 같은 기사에 두 번 불러도 결과가 같다.
     """
     grade = getattr(item, "grade", "")
     if grade == "B":
         return getattr(item, "source_name", "") or EDIT_DESK
+    day = (getattr(item, "published_at", "") or "")[:10]
+    if day >= REPORTERS_FROM:
+        named = _named(item)
+        if named in REPORTERS:
+            return f"{named} 기자"
+        if named:
+            return named
+        return f"{reporter_for(item)} 기자"
     if grade == "A":
         return DATA_DESK
     # C등급 — 우리가 쓴 글. 이미 필자가 적혀 있으면 존중한다.
@@ -88,3 +156,9 @@ def byline_for(item) -> str:
     if getattr(item, "channel", "travel") == "ent":
         return ENT_DESK
     return REGION_DESKS.get(getattr(item, "region", ""), EDIT_DESK)
+
+
+def staff_table() -> list[tuple[str, str]]:
+    """매체 소개의 편집국 표. (서명, 맡는 지면)."""
+    return [(f"{name} 기자", " · ".join(BEAT_NAMES.get(b, b) for b in beats))
+            for name, beats in REPORTERS.items()]
