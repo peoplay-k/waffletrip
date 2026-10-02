@@ -5,37 +5,37 @@
 
 ## 괌
 
-### 대한항공 스타링크 기내서 괌 만난다…괌정부관광청 홍보영상 송출
-- 매체 1곳 · 뉴스트래블
-  - 뉴스트래블: [뉴스트래블=박주성 기자] 괌정부관광청이 대한항공의 스타링크 기반 기내 와이파이 서비스를 활용해 괌 관광 홍보에 나선다. 기내 와이파이 접속 과정에서 괌의 관광 매력을 담은 공식 홍보 영상을 선보인다.
-    https://www.newstravel.co.kr/news/article.html?no=27663
-
-### 백석대, 괌 힐튼호텔 임원진 초청 글로벌 호텔·외식산업 특강 개최
-- 매체 1곳 · 중도일보
-  - 중도일보: 백석대학교(총장 송기신) 글로벌인재육성처는 28일 괌 힐튼호텔의 주요 임원진을 초청해 교내 글로벌외식관에서 호텔 및 외식조리 분야 재학생을 대상으로 특강을 개최했다. 이번 특강에는.
-    https://www.joongdo.co.kr/web/view.php?key=20260929010008589
+### [국정감사 전망] 괌 2827편 운항할 때 사이판 782편 급감… 이랜드·설해원·휴림 등 현지 진출 기업 연쇄 타격
+- 매체 1곳 · 퍼블릭뉴스통신(Public news-network for TTL)
+  - 퍼블릭뉴스통신(Public news-network for TTL): 지난해 11월, 괌을 출발해 부산 김해국제공항에 착륙한 대한항공 여객기에는 믿기 힘든 광경이 펼쳐졌다. 좌석 100여 개가 넘는 중대형 항공기에 탑승한 승객은 단
+    http://www.ttlnews.com/news/articleView.html?idxno=3147807
 
 ### 180석에 승객 3명인데…괌 항공편 못 줄이는 이유 [영상PICK]
 - 매체 1곳 · 메트로신문
   - 메트로신문: 괌 여행 수요가 급감하면서 항공사들이 공급 좌석을 줄여달라고 요청했지만 공정거래위원회가 이를 받아들이지 않았다. 대한항공과 아시아나항공의 기업결합 당시 부과한 공급 유지 조건을 변경할 정도의 새로운 사정이 발생하지 않았다는 판단이다.
     https://www.metroseoul.co.kr/article/20261001500322
 
-## 사이판
+### PIC 괌호텔, 추석 황금연휴 맞아 가족과 함께하는 전통놀이 한마당
+- 매체 1곳 · 대한일보
+  - 대한일보: [대한일보=권병창 기자/사진=PIC 괌호텔 제공] 추석 한가위 황금연휴를 맞아 미국령 괌을 찾은 가족 관광객들이 우리 고유의 전통놀이와 문화를 체험하며 특별한 명
+    https://www.daehanilbo.co.kr/news/articleView.html?idxno=67022
 
-### 마리아나, 취향 맞춤 여행 매력 더해
-- 매체 1곳 · 트래블데일리
-  - 트래블데일리: 마리아나가 태풍 피해 복구와 주요 관광지 재정비에 속도를 내며 여행객을 맞을 준비를 이어가고 있다. 마리아나관광청 스포츠 앰배서더인 KLPGA 프로골퍼 박보겸 선수의 생애 첫 메이저 대회 우승을 비롯해 마나가하섬 운영 재개, 사이판 겨울방학 영어캠프 모집 등 마리아나의 다채로운 매력을 
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72186
+## 사이판
 
 ### PIC·코럴오션 사이판 멤버십 ‘스플래시&스윙’ 출시…연 30박·골프 혜택 제공
 - 매체 1곳 · TTL뉴스
   - TTL뉴스: 국내 호텔·리조트 기업이 해외 거점 인프라를 하나로 묶는 통합 체류형 멤버십을 가동하며 충성 고객 확보에 나선다. 휴양 중심의 워터파크 시설과 정통 해변 골프 코스를 교차 이용하도록 설계해, 가족 단위 피서객과 골프 여행객의 반복 방문을 동시에 유도하는 락인 전략이다.
     http://www.ttlnews.com/news/articleView.html?idxno=3148883
 
-### 지난해 한국-사이판 항공편 31.7% 급감…마리아나관광청, 기업결합 공급 조치 재점검 촉구
-- 매체 1곳 · TTL뉴스
-  - TTL뉴스: 서태평양 휴양 노선을 둘러싼 항공 좌석 공급 불균형이 심화되면서 마리아나 제도 관광 생태계와 현지 진출 한국 기업들이 거센 후폭풍을 맞고 있다. 이와 관련해 마리아나관광청이 한국과 사이판을 잇는 직항 노선의 급격한 공급 위축 현상을 타개하기 위해 한국 정부와 항공업계를 향해 운항 편수 
-    http://www.ttlnews.com/news/articleView.html?idxno=3148911
+### 마리아나, 취향 맞춤 여행 매력 더해
+- 매체 1곳 · 트래블데일리
+  - 트래블데일리: 마리아나가 태풍 피해 복구와 주요 관광지 재정비에 속도를 내며 여행객을 맞을 준비를 이어가고 있다. 마리아나관광청 스포츠 앰배서더인 KLPGA 프로골퍼 박보겸 선수의 생애 첫 메이저 대회 우승을 비롯해 마나가하섬 운영 재개, 사이판 겨울방학 영어캠프 모집 등 마리아나의 다채로운 매력을 
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72186
+
+### 이랜드파크, 사이판 리조트 2곳 묶은 연간 멤버십 출시
+- 매체 1곳 · 연합뉴스
+  - 연합뉴스: (서울=연합뉴스) 구정모 기자 = 이랜드파크는 사이판에서 운영하는 PIC 사이판과 코럴 오션 리조트 사이판을 함께 이용할 수 있는 연간 통합 멤. ..
+    https://www.yna.co.kr/amp/view/AKR20261002043700030
 
 ## 하와이
 
@@ -63,27 +63,27 @@
   - vietnam.vn: 다낭 관광진흥센터는 9월 27일 몰디브에서 열린 2026년 아시아, 오세아니아 및 인도양 지역 월드 트래블 어워드 시상식에서 다낭이 아시아 부문 7개, 베트남 부문 6개를 포함해 총 13개의 상을 수상했다고 발표했습니다.
     https://www.vietnam.vn/ko/du-lich-da-nang-dat-13-giai-thuong-tai-world-travel-awards-2026
 
-### 다낭 관광은 객실 관리 감독 능력을 향상시킵니다.
+### 다낭은 관광 영역을 남쪽으로 확장하고 있다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: DNVN - 9월 29일, 다낭시 문화체육관광국(VH-TT&DL)은 베트남 객실관리경영클럽과 협력하여 시내 관광 숙박 시설의 객실관리 부서장 및 부서장들을 대상으로 "2026년 객실관리 감독 역량 강화 세미나"를 개최했습니다.
-    https://www.vietnam.vn/ko/du-lich-da-nang-nang-cao-nghiep-vu-giam-sat-buong-phong
+  - vietnam.vn: 다낭시는 남부 지역을 관광 산업의 새로운 성장 중심지로 탈바꿈시켜, 지역 주민들이 관광 활동에 더욱 적극적으로 참여하고 이러한 발전 과정의 혜택을 누릴 수 있도록 기회를 확대하는 것을 목표로 하고 있습니다.
+    https://www.vietnam.vn/ko/da-nang-mo-rong-khong-gian-du-lich-ve-phia-nam
 
-### 다낭시는 친환경 관광 숙박 시설 기준 적용에 관한 교육을 실시합니다.
+### 이 계획은 나트랑, 달랏 및 기타 지역에 있는 8개의 관광 전문대학을 통합하는 것을 포함합니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: VHO - 9월 30일 오후, 다낭시 문화체육관광국은 "베트남 지속가능발전을 위한 스위스 관광(ST4SD)" 프로젝트와 협력하여 "친환경 실천 - 관광지의 위상 제고"라는 주제로 다낭 그린스테이 기준 적용에 관한 교육 컨퍼런스를 개최했습니다.
-    https://www.vietnam.vn/ko/da-nang-tap-huan-ap-dung-bo-tieu-chi-co-so-luu-tru-du-lich-xanh
+  - vietnam.vn: 문화체육관광부는 하노이, 하이퐁, 후에, 다낭, 나트랑, 달랏, 껀터, 붕따우에 있는 8개 관광대학에 4개 대학으로 통합하는 계획을 수립하기 위해 협력해 줄 것을 요청했습니다.
+    https://www.vietnam.vn/ko/phuong-an-sap-nhap-8-truong-cao-dang-du-lich-tai-nha-trang-da-lat-va-cac-noi
 
 ## 코타키나발루
-
-### 3대가 함께 떠나는 코타키나발루…휴식·레저·미식 한자리에
-- 매체 1곳 · 미래를 보는 창 - 전자신문
-  - 미래를 보는 창 - 전자신문: 부모와 자녀, 손주까지 3대가 함께 떠나는 해외여행이 가족여행의 한 형태로 자리 잡고 있다. 여러 세대가 함께 움직이는 만큼 관광지를 많이 둘러보기보다 이동 부담을 줄이고, 한 공간에서 각자의 취향에 맞는 휴
-    https://www.etnews.com/20260928000288
 
 ### “부모님부터 손주까지!” 가을엔 3대가 함께 코타키나발루로
 - 매체 1곳 · 트래블데일리
   - 트래블데일리: 온 가족이 한자리에 모이는 명절 몇 가족 기념일. 최근에는 부모와 자녀, 손주까지 3대가 해외로 떠나 가성비 가심비로 여유로운 시간을 보내는 것이 새로운 가족 여행 트렌드로 자리 잡고 있다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72210
+
+### 3대가 함께 떠나는 코타키나발루…휴식·레저·미식 한자리에
+- 매체 1곳 · 미래를 보는 창 - 전자신문
+  - 미래를 보는 창 - 전자신문: 부모와 자녀, 손주까지 3대가 함께 떠나는 해외여행이 가족여행의 한 형태로 자리 잡고 있다. 여러 세대가 함께 움직이는 만큼 관광지를 많이 둘러보기보다 이동 부담을 줄이고, 한 공간에서 각자의 취향에 맞는 휴
+    https://www.etnews.com/20260928000288
 
 ## 라오스
 
@@ -101,13 +101,6 @@
 
 ## 제주
 
-### 가을 물놀이
-- 매체 2곳 · 여행신문 · 제주일보  ← 여러 곳이 썼다
-  - 제주일보: 30일 제주시 구좌읍 월정해수욕장에서 아이들이 물놀이를 하며 즐거운 시간을 보내고 있다. 고봉수 기자
-    http://www.jejunews.com/news/articleView.html?idxno=2228000
-  - 여행신문: 제주가 가을철 관광객 유치를 위해 수도권과 호남·충청권으로 현장 마케팅을 확대한다. 제주특별자치도와 제주도관광협회는 10월 한 달간 서울과 광주, 충남 등 주요 관광거점에서 ‘찾아가는 제주관광안내소’와 관광홍보관을 운영하고, 지역별 여행 수요를 제주 방문으로 연결하는 데 집중한다.
-    https://www.traveltimes.co.kr/news/articleView.html?idxno=500492
-
 ### 무지개로 산책
 - 매체 1곳 · 제주일보  ← 여러 곳이 썼다
   - 제주일보: 28일 제주시 도두동 무지개해안로를 찾은 관광객들이 사진 촬영과 산책을 하며 즐거운 시간을 보내고 있다. 고봉수 기자
@@ -115,26 +108,26 @@
   - 제주일보: 완연한 가을 날씨를 보인 1일 제주시 관음사를 찾은 관광객과 신도들이 노란 국화가 놓인 탐방로를 걸어가고 있다. 고봉수 기자
     http://www.jejunews.com/news/articleView.html?idxno=2228022
 
-### 공항 상공에 득실대는 '불법드론' 올해만 115건…항공기 안전 위협
-- 매체 1곳 · 제주일보
-  - 제주일보: 제주국제공항 인근에서 허가 없이 불법으로 드론을 띄우는 사례가 속출하고 있다. 항공기 이착륙을 방해해 안전을 위협하는 것은 물론, 항공편 지연 등 공항 운영에도 차질을 줄 수 있는 행위인 만큼 주의가 요구된다.
-    http://www.jejunews.com/news/articleView.html?idxno=2227999
+### 가을 물놀이
+- 매체 2곳 · 여행신문 · 제주일보  ← 여러 곳이 썼다
+  - 제주일보: 30일 제주시 구좌읍 월정해수욕장에서 아이들이 물놀이를 하며 즐거운 시간을 보내고 있다. 고봉수 기자
+    http://www.jejunews.com/news/articleView.html?idxno=2228000
+  - 여행신문: 제주가 가을철 관광객 유치를 위해 수도권과 호남·충청권으로 현장 마케팅을 확대한다. 제주특별자치도와 제주도관광협회는 10월 한 달간 서울과 광주, 충남 등 주요 관광거점에서 ‘찾아가는 제주관광안내소’와 관광홍보관을 운영하고, 지역별 여행 수요를 제주 방문으로 연결하는 데 집중한다.
+    https://www.traveltimes.co.kr/news/articleView.html?idxno=500492
+
+### ‘일본인이 사라졌다’ 달라진 제주 관광객 지형도
+- 매체 1곳 · 제주의소리
+  - 제주의소리: 제주를 찾는 외국인 관광 시장의 지형도가 급변하고 있다. 일본 시장이 주춤한 사이, 대만 관광객이 폭발적으로 늘면서 중화권 집중 현상이 심해지고 있다.
+    https://www.jejusori.net/news/articleView.html?idxno=506906
 
 ## 일본
 
-### 하나투어, 일본 여행 확대…가을 홋카이도·겨울 규슈 신상품 출시
-- 매체 2곳 · TTL뉴스 · 트래블데일리  ← 여러 곳이 썼다
-  - TTL뉴스: 하나투어(대표 조좌진)가 가을과 겨울 시즌을 겨냥해 일본 여행 상품을 확대한다. 짧은 일정의 단거리 여행 선호와 엔화 약세가 맞물리며 일본 여행에 대한 관심이 증가하고 있다.
-    http://www.ttlnews.com/news/articleView.html?idxno=3147255
-  - 트래블데일리: 하나투어가 가을·겨울 시즌을 겨냥해 하반기 일본 여행 상품을 확대한다. 최근 짧은 일정의 단거리 여행 선호와 엔화 약세가 겹치며, 일본 여행에 대한 관심이 높아지고 있다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72212
-
-### 호텔 오쿠라 도쿄 베이, 10월 1일부터 크리스마스 케이크 및 델리카트슨 예약 시작 - 신제품 케이크 2종 포함
-- 매체 1곳 · Holiday Travel  ← 여러 곳이 썼다
-  - Holiday Travel: 2026년 10월 1일부터 지바현 우라야스시에 위치한 호텔 오쿠라 도쿄 베이에서 새로운 '크리스마스 리스 타르트', '크리스마스 베이 초콜릿' 케이크를 비롯하여 로스트 치킨, 로스트 비프 등 7가지 테이크아웃 크리스마스 상품에 대한 예약을 받습니다.
-    https://www.haveagood-holiday.com/ko/articles/hotel-okura-tokyo-bay-christmas-cake-delicatessen-2026
-  - Holiday Travel: 오사카 메리어트 미야코 호텔은 2026년 10월 1일부터 아마오우 딸기 쇼트케이크, 피스타치오와 렌다이지 감 무스 케이크, 치즈 시부스트 타르트 등 세 가지 크리스마스 케이크 예약을 받습니다. 상품은 12월 23일부터 25일까지 M-부티크에서 수령 가능합니다.
-    https://www.haveagood-holiday.com/ko/articles/osaka-marriott-miyako-hotel-christmas-cakes-2026
+### 현대카드, 10월 연휴 해외여행 혜택 강화…항공·호텔부터 일본 현지 서비스까지
+- 매체 2곳 · Korea IT Times · 이지경제  ← 여러 곳이 썼다
+  - Korea IT Times: 현대카드가 10월 연휴를 앞두고 해외여행 수요를 겨냥해 항공과 호텔, 해외결제 등에 특화된 카드 상품과 현지 제휴 서비스를 확대하고 있다. 현대카드는 해외여행 특화 카드부터 항공 마일리지와 호텔 포인트 전환, 일본 현지 제휴 혜택 등을 통해 여행 준비 단계부터 현지 결제까지 활용할 수 
+    http://www.koreaittimes.com/news/articleView.html?idxno=157774
+  - 이지경제: 현대카드가 10월 연휴를 맞아 ▲해외 결제 할인 ▲항공 마일리지 ▲호텔 포인트 ▲공항 라운지까지 여행 수요에 맞춘 카드 상품과 서비스를 선보인다고 1일 밝혔다. 현대카드는 해외여행 특화 상품인 ▲the Green Edition4 ▲알파벳카드T와 항공 혜택을 강화한 ▲대한항공카드 Edit
+    https://www.ezyeconomy.com/news/articleView.html?idxno=240356
 
 ### 영주시, 일본 관광시장 공략 본격화…20여 곳과 비즈니스 미팅
 - 매체 2곳 · CWN뉴스 · 경북일보  ← 여러 곳이 썼다
@@ -142,6 +135,13 @@
     https://www.cwn.kr/news/articleView.html?idxno=57604
   - 경북일보: 영주시가 일본 관광시장에서 수도권과 대도시 중심의 한국 관광상품을 넘어 지방도시로 여행 수요를 넓히려는 움직임에 맞춰 현지 여행업계와 접점을 넓혔다. 단순 관광자원 홍보에 그치지 않고 일본 기업의 인센티브 관광과 지역 농특산물 유통까지 협력 범위를 확장하면서 해외 관광객 유치가 지역경제
     https://www.kyongbuk.co.kr/news/articleView.html?idxno=4086033
+
+### 트리니티항공, 일본 구마모토 공항과 공동 프로모션 진행 - 머니투데이
+- 매체 2곳 · 머니투데이 · 트래블데일리  ← 여러 곳이 썼다
+  - 머니투데이: 트리니티항공이 인천-구마모토 노선을 대상으로 구마모토 공항과 공동 프로모션을 진행한다고 29일 밝혔다. 선착순 특가 항공권과 더불어 프로모션 기간 동안 할인코드를 제공하며 최대 15% 할인된 가격에 항공권을 구매할 수 있다.
+    https://www.mt.co.kr/industry/2026/09/29/2026092908404121055
+  - 트래블데일리: 트리니티항공이 인천~구마모토 노선을 대상으로 구마모토 공항과 공동 프로모션을 진행한다. 구마모토 공항과의 협력을 통해 진행되는 이번 인천~구마모토 노선 프로모션은 10월 11일까지 진행되며 해당 탑승 기간은 10월 1일부터 12월 31일까지다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72218
 
 ## 태국
 
@@ -154,54 +154,54 @@
   - 전남일보: 태국 수도 방콕 일대에 쏟아진 폭우로 도심 곳곳이 침수되면서 한국인 승객 수백명이 수완나품 국제공항에서 10시간 넘게 발이 묶였다. 28일(현지시간) 태국 정부에
     https://www.jnilbo.com/news/articleView.html?idxno=90000069264
 
-### 태국 물폭탄에 비행기·자동차 다 멈췄다…관광·제조업 피해 확산
+### 태국 폭우에 공항까지 아수라장…직원 없고 카트까지 고장(종합2보)
 - 매체 1곳 · 뉴스1
   - 뉴스1: 
-    https://www.news1.kr/world/asia-australia/6304665
+    https://www.news1.kr/amp/world/asia-australia/6303601
 
-### 태국: 방콕 공항, 홍수 사태로 운영난 겪어.
+### 홍수로 인해 방콕 공항 운영이 차질을 빚으며 300편 이상의 항공편이 영향을 받았습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 방콕의 심각한 홍수 여파가 항공 시스템에까지 미치면서, 최근 태국 수완나품 국제공항은 터미널 곳곳에 수하물이 산더미처럼 쌓이고, 승객들은 소지품을 찾기 위해 몇 시간씩 줄을 서고, 항공편 일정은 끊임없이 바뀌는 등 악몽 같은 상황을 겪고 있습니다.
-    https://www.vietnam.vn/ko/thai-lan-san-bay-o-bangkok-chat-vat-giua-cuoc-khung-hoang-ngap-lut
+  - vietnam.vn: ANTD.VN - 태국의 국영 항공사인 타이항공은 방콕의 심각한 홍수로 인해 수완나품 공항 운영이 차질을 빚고 수천 개의 수하물이 쌓이는 등 여러 항공편 운항에 영향을 미친 것에 대해 승객들에게 사과했습니다.
+    https://www.vietnam.vn/ko/ngap-lut-gay-gian-doan-hoat-dong-tai-san-bay-bangkok-hon-300-chuyen-bay-bi-anh-huong
 
 ## 대만
 
-### 서울관광재단, 대만 타이베이서 ‘제4차 아시아 컨벤션 얼라이언스 협회 포럼’ 공동 개최
-- 매체 1곳 · 천지일보
-  - 천지일보: [천지일보=최치선 여행전문기자] 서울관광재단(대표이사 김병민)이 10월 1일(목) 대만 타이베이에서 ‘제4차 아시아 컨벤션 얼라이언스 협회 포럼(Asia Convention Alliance Association Forum 2026, 이하 ACAAF)’을 공동 개최한다. 아시아 주요 도
-    https://www.newscj.com/news/articleView.html?idxno=3436656
+### 진에어, 10월 한 달간 한·일·대만 신규 회원 유치 총력전
+- 매체 1곳 · TTL뉴스
+  - TTL뉴스: 동아시아 하늘길을 둘러싼 저비용항공사(LCC)들의 외국인 관광객 유치전이 한층 뜨거워지고 있다. 진에어는 10월 1일부터 31일까지 한 달간 한국과 일본, 대만 3개국 이용자를 아우르는 글로벌 신규 회원 확보 캠페인을 가동했다.
+    http://www.ttlnews.com/news/articleView.html?idxno=3148954
 
 ### 타이베이를 닮은 호텔, 만다린 오리엔탈 타이베이
 - 매체 1곳 · 하퍼스 바자 코리아
   - 하퍼스 바자 코리아: 미슐랭 다이닝부터 대만식 괄사까지, 오래된 타이베이와 지금의 타이베이를 하루에 경험하는 법.
     https://www.harpersbazaar.co.kr/article/1910240
 
-### 대만 여행, 아직도 타이베이만 간다고요?
-- 매체 1곳 · 트래비
-  - 트래비: 2026년 타이완관광청과 트래비가 공동 선발한 6인의 크리에이터, ‘타이완 콘텐츠 원정대’. 현재 SNS에서 활발히 활약 중인 이들은 타이완 곳곳으로 매혹적인 탐험을 하고 돌아왔다.
-    https://www.travie.com/news/articleView.html?idxno=56038
+### 서울관광재단, 대만 타이베이서 ‘제4차 아시아 컨벤션 얼라이언스 협회 포럼’ 공동 개최
+- 매체 1곳 · 천지일보
+  - 천지일보: [천지일보=최치선 여행전문기자] 서울관광재단(대표이사 김병민)이 10월 1일(목) 대만 타이베이에서 ‘제4차 아시아 컨벤션 얼라이언스 협회 포럼(Asia Convention Alliance Association Forum 2026, 이하 ACAAF)’을 공동 개최한다. 아시아 주요 도
+    https://www.newscj.com/news/articleView.html?idxno=3436656
 
 ## 연예 (편집실이 쓴다 — 자동 해설 대상 아님)
 
 ### [movie] '영화의 바다로 오세요'…부산국제영화제 10월 6일 개막
-- 매체 5곳 · KBS 뉴스 · Queen 이코노미퀸 · asiatoday.co.kr · ikbn.news · 연합뉴스  ← 여러 곳이 썼다
-  - 연합뉴스: 
-    https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JdGRIYTlLdVJ4TXJURU1xZGFVR014ckMzMUlyOWxLSS1TOFNzRm00VGhwQUJ4Vk5xbHVETGNIZjRDTEdHUXVtSHUtUWsxNXc4elo2NGEtVGN3VGZBaDJQNdIBYEFVX3lxTE1JdGRIYTlLdVJ4TXJURU1xZGFVR014ckMzMUlyOWxLSS1TOFNzRm00VGhwQUJ4Vk5xbHVETGNIZjRDTEdHUXVtSHUtUWsxNXc4elo2NGEtVGN3VGZBaDJQNQ?oc=5
-  - KBS 뉴스: 
-    https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tUm56WnBNX3NZNWdqVUFRSjdJLVhpQ3VRZ0RXdjk2WWV3QUlmMDdWNWUzQmJvYXB3UkdaT3FOQ0JjR0h4MloxMmRXam43ZmpISHVMX3ZsZzd5bHlfQ042cS1oSnJVQQ?oc=5
-  - ikbn.news: 
-    https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nTkdEY3A1bUpwZGE0X04yLUhzTmcxbzB5V3NMQ2dKbU9iWkxHdWlDWVFmYWd0VUpCVFhfRTVxRWl2MGloWjZfeExUNGVTckcteTNuQ0NkdWpvamtXZWc?oc=5
-  - asiatoday.co.kr: 
-    https://news.google.com/rss/articles/CBMibkFVX3lxTFBWNVZpV29mQThRYmEyMm5MWVBKSUhJckdyam9JRTdSc1luUlQ0NlVaOTJmaWU4bm1INE41MGtwam5pNE1aWm5JQ2hsWXpJR01hT3M3VjNSaWhBRkZBY0pjcUxHeXdQdndTWXE1ZEt3?oc=5
+- 매체 6곳 · KBS 뉴스 · Queen 이코노미퀸 · ikbn.news · 더쎈뉴스(The CEN News) · 아시아투데이 · 연합뉴스  ← 여러 곳이 썼다
+  - 연합뉴스: (부산=연합뉴스) 김선호 기자 = 제31회 부산국제영화제(BIFF)가 다음 달 6일부터 15일까지 영화의전당 등 부산 곳곳에서 열린다.
+    https://www.yna.co.kr/amp/view/AKR20260930020900051
+  - KBS 뉴스: 제31회 부산국제영화제가 오는 6일부터 15일까지 영화의전당 등 부산 곳곳에서 열립니다. 올해 영화제에서.
+    https://news.kbs.co.kr/news/pc/view/view.do?ncd=8675411
+  - ikbn.news: [부산/문종덕기자] 부산시(시장 전재수)는 오는 10월 6일부터 15일까지 열흘간 영화의전당을 비롯한 부산 곳곳에서 「제31회 부산국제영화제(BIFF)」를 개최한다. 시가 후원하고 (사)부산국제영화제가 주최·주관하는 이번 영화제에는 59개국 247편의 공식 초청작이 상영된다.
+    https://www.ikbn.news/news/article.html?no=215357
+  - 아시아투데이: 세계 각국의 영화와 영화인, 관객이 만나는 제31회 부산국제영화제(BIFF)가 10월 6일부터 15일까지 열흘간 영화의전당과 부산 곳곳에서 열린다. 김종관 감독의 개막작 ‘낮과 밤은 서로에게’를 세계 최초로 공개하고, 59개국 247편의 공식 초청작을 선보인다.
+    https://www.asiatoday.co.kr/kn/view.php?key=20260930010010569
 
 ### [movie] 칸·베니스 영화제와 어깨 나란히! 제31회 부산국제영화제 개막
-- 매체 3곳 · bplusnews.com · 코리아방송 · 환경일보  ← 여러 곳이 썼다
-  - 코리아방송: 
-    https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrc1RqU0VzdXREMnNBTzdXTUdKT3hKV2NsSnhYWVZGOEd1YVc3eDdNYU43N1FDaHVNQW1qZXpnOXNpTXhQZ0VZSmxNNllXUGRrN2JVbERBanJUUkNKUEtmWmVBellBNG8?oc=5
-  - 환경일보: 
-    https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzOG0yRDFwODRGTjlMcXc3MUVzblVLTjJCVGdIUzAxOEx4MXd3RlR5Z21GWC0yckZRTmtKYjdSUjYyMUxjaGNNVUpUR0ZPcFlRMmo4M2syV04xMlJIeUtDRDQ3UTZ4ektN?oc=5
-  - bplusnews.com: 
-    https://news.google.com/rss/articles/CBMia0FVX3lxTE1ELUt1SU42cFd0cm9EZE0xSTVJclkwQ3hZaFRGa0RwV1MwWWxUMkhQcktPVWNmZHE0SXg1Qm44amRaYUc5bllvYWp6REwtclpMbXNnQ3lhOUJJSF9nUmFpUlhyRnZpc0hiT29B?oc=5
+- 매체 3곳 · 비플러스 · 코리아방송 · 환경일보  ← 여러 곳이 썼다
+  - 코리아방송: [코리아방송=김일룡 PD]이재명 대통령이 부산국제영화제 공식 상영작을 관람하며 영화계와 깊은 소통을 나눈 가운데, 아시아를 넘어 세계적인 영화 축제로 도약한 제3
+    https://www.hnlife.kr/news/articleView.html?idxno=346087
+  - 환경일보: [부산=환경일보] 장가을 기자 = 부산시(시장 전재수)는 10월6~15일까지 열흘간 영화의전당을 비롯한 부산 곳곳에서 ‘제31회 부산국제영화제(BIFF)’를 개최한다. 시가 후원하고 (사)부산국제영화제가 주최·주관하는 이번 영화제에는 59개국 247편의 공식 초청작이 상영된다.
+    https://www.hkbs.co.kr/news/articleView.html?idxno=834522
+  - 비플러스: 부산시는 10월 6일부터 15일까지 영화의전당을 비롯한 부산 곳곳에서59개국 247편의 공식 초청작을 선보이는 「제31회 부산국제영화제」를 개최합니다. 부산의 10월 밤하늘 아래, 전 세계 영화 247편이 스크린을 밝히며 도시 전체를 하나의 거대한 영화관으로 물들입니다.
+    https://www.bplusnews.com/news/articleView.html?idxno=13463
 
 ### [movie] ‘옵세션’ 84만 관객 돌파⋯올해 청불 영화 흥행 1위
 - 매체 3곳 · 스포츠동아 · 이투데이 · 톱스타뉴스  ← 여러 곳이 썼다
@@ -209,29 +209,29 @@
     https://www.etoday.co.kr/news/view/2629879?trc=main_list_news
   - 톱스타뉴스: 커리 바커 감독의 공포 영화 ‘옵세션’이 누적 84만 9천 명을 돌파하며 올해 청불 영화 최고 흥행 타이틀을 지키고 있다. 인디 네버레티의 극찬받는 안면 연기와 이스터에그 비하인드 공개가 N차 관람으로 이어지며 장기 흥행을 만들고 있다.
     https://www.topstarnews.net/news/articleView.html?idxno=16221670
-  - 스포츠동아: 
-    https://news.google.com/rss/articles/CBMibkFVX3lxTE9VczhBcXZQUXZmdktBeWRabHNxVWVyU2ZRaFpzamM0RGREZ25YSF9ENDNtYm1RdTJ4aXVDdXUzc0ZkQ25LVHIwOGVwNmRJZW8wRGREaEpaUklSdFlKeFpDR1lPS3ByOTVFYzdUU1ln?oc=5
+  - 스포츠동아: [스포츠동아 이승미 기자] 영화 ‘옵세션’이 누적 관객 수 84만9000명을 돌파하며 장기 흥행을 이어가고 있다. 올해 청불 영화 최고 흥행 기록을 유지하고 있는 가운데, 관객들의 생생한 반응과 주연 배우의 강렬한 연기가 입소문을 뒷받침하고 있다.
+    https://sports.donga.com/ent/article/all/20260928/134740798/1
+
+### [movie] 대구시립국악단 특별기획 `영화 아리랑 개봉 100주년 기념 음악회` 개최
+- 매체 2곳 · 경상투데이 · 연합뉴스  ← 여러 곳이 썼다
+  - 경상투데이: 
+    https://www.gyeongsangtoday.com/news/view.php?idx=273575
+  - 연합뉴스: (서울=연합뉴스) 박원희 기자 = 나운규의 영화 '아리랑' 개봉 100주년을 맞아 다음 달 1일 이를 기념하는 영화 '나운규 아리랑'을 상영한다. ..
+    https://www.yna.co.kr/amp/view/AKR20260930095100005
 
 ### [movie] 영화 '사이버 카르텔' 10/8 개봉 확정.. 메인 포스터 공개!
 - 매체 2곳 · JTN EVENT · 뉴스인  ← 여러 곳이 썼다
   - 뉴스인: [뉴스인] 김영일 기자 = 거대 기업이 지배하는 디스토피아를 배경으로 펼쳐지는 네오 SF 스릴러 이 오는 10월 8일 개봉을 확정하고, 위험천만한 미래 도시의 모습을 담은 메인 포스터를 공개했다. [수입/배급 : ㈜더콘텐츠온 | 감독: 마이클 라이언 | 출연: 크리스티나 리치, 스티븐 
     https://www.newsin.co.kr/news/articleView.html?idxno=134113
-  - JTN EVENT: 
-    https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BX1MyZ3dJNHVoYTJOdEZZNmZOT3NNTE1oZkRjNlgyXzlaM1BqUVA1WkVqdUY2ZFlTMEI3cTlfNmRqcmFEX0JKRFJxVXVPUnprdC1DbmxLTl80YU0?oc=5
+  - JTN EVENT: [JTN뉴스 윤보라 기자] 2024 판타지아 국제영화제 감독상, 옐로우스톤 국제영화제 최우수 작품상 수상에 빛나는 영화 '매쉬빌'(감독 황욱)이 오는 10..
+    http://m.jtn.co.kr/view.php?m=culture&idx=79474
 
-### [drama] 넷플릭스(Netflix) 시리즈 '꿀알바​', 최소 시급 50배 보장! 10월 30일 공개 확정! 티저 포스터 및 예고편 공개
-- 매체 2곳 · rnx.kr · 대구신문  ← 여러 곳이 썼다
-  - rnx.kr: 
-    https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaOHJSSTgwMmtkREJfeHMyVDA4cU9wSUMtbi1XdWdzdDRuQWhLYU90T091RHZpQXVvRF80Z0JmZXlNUTRWTENlZ3hfX0xvYklWNWNPUlJEendvUlJ6ZmtzT3ZBRQ?oc=5
-  - 대구신문: 
-    https://news.google.com/rss/articles/CBMia0FVX3lxTFB4SVhGTWozMUh2T3NueUprZWNkTDgyRVdsbmtGNURISnFVOElvaF9rMFA4c3pxdDRKUFNwa21NUkpuX3ZQTFdGTmh2YzMwTU1aMnJRbjR6dU14V1VmdlROVXBWUkhJcmJ6NGdV?oc=5
-
-### [drama] 티빙, '신병4' 흥행에 전 시즌 '역주행'⋯효자 된 '프랜차이즈 IP'
-- 매체 2곳 · 글로벌뉴스통신GNA · 아이뉴스24  ← 여러 곳이 썼다
-  - 아이뉴스24: 티빙에 독점 공개되고 있는 '신병4 : 사보타주'의 흥행 열풍이 시즌 전체의 역주행으로 이어지며 프랜차이즈IP 파급력을 입증했다. 티빙은 OTT 독점 시리즈이자 ENA 월화드라마 '신병4 : 사보타주' 공개 후 4주간 이전 시즌(신병&middot;신병2&middot;신병3 및 스핀오프 
-    https://www.joynews24.com/view/2009805
-  - 글로벌뉴스통신GNA: 
-    https://news.google.com/rss/articles/CBMidEFVX3lxTE1mSDhLRDBsQzExRzJjamRmWndHRWJtWUpaVDNPSmxrTU9uanQ1bkxFOVpQZGRFMFpxSW5sd0RUUXRmOWhwdlBQTkx5NkpmNDVmQnlReGstYkdJLThEcHZCMmhBbU1DOTJWMFRGX2YtZXE3OEE4?oc=5
+### [drama] [NB스타]"피 튀겨도 자비란 없다"… '사극 장인' 장혁, KBS 대하드라마 '문무' 연개소문 첫 스틸 공개
+- 매체 2곳 · 뉴스버즈(newsbuzz) · 천지일보  ← 여러 곳이 썼다
+  - 뉴스버즈(newsbuzz): 배우 장혁이 KBS 2TV 새 대하드라마 '문무'를 통해 고구려의 불세출 전쟁 영웅이자 잔혹한 독재자 연개소문으로 파격 변신한다. 오는 11월 첫 방송 예정인 KBS 2TV 새 대하드라마 '문무'(극본 김리헌·홍진이, 연출 김영조·구성준, 제작 키이스트·몬스터유니온)는 600년간 이어
+    https://www.newsbuzz.co.kr/news/articleView.html?idxno=25572
+  - 천지일보: [천지일보=강은영 기자] 배우 장혁의 KBS 2TV 새 대하드라마 ‘문무’ 첫 스틸이 공개됐다. 오는 11월 첫 방송 예정인 KBS 2TV 새 대하드라마 ‘문무’는 600년간 이어진 전쟁과 삼국 내부의 격변 속에서 승리를 향해 나아간 지도자들의 이야기를 그린 작품이다.
+    https://www.newscj.com/news/articleView.html?idxno=3436551
 
 ---
 거리 34건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.

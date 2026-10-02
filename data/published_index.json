@@ -388,6 +388,7 @@
     "1828e669fe9ac793012d1f46e500b32468c48c25",
     "1838bf94ace5b1aa02acd62673a4011a8f1aa6db",
     "183bf3d493f22a733efe0f8f01f2c254ba4012bd",
+    "1856a1d639ba8627c009d390d9fa87ccdbc28b70",
     "1860c0a134b1dbced40bba6188311b46360e18e8",
     "186c15a66f3d14fb7a6f801f10ea279ccfbc49c6",
     "187d9716e11b8e7d3a43261c6b5e527283baca26",
@@ -29265,7 +29266,7 @@
     },
     {
       "id": "a8d7f80d4f03625793a8cfaf87198c767267266a",
-      "title": "괌 노선 텅...\"좌석 줄여달라\" 대한항공 요청 '퇴짜'",
+      "title": "괌 노선 텅...\"좌석 줄여달라\" 대한항공 요청 '퇴짜' - 머니투데이",
       "date": "2026-10-02",
       "region": "guam",
       "grade": "B"
@@ -29926,6 +29927,13 @@
       "title": "Guangxi Promotes Culture and Tourism Cooperation with Laos",
       "date": "2026-10-02",
       "region": "laos",
+      "grade": "B"
+    },
+    {
+      "id": "1856a1d639ba8627c009d390d9fa87ccdbc28b70",
+      "title": "부산국제영화제 ‘포럼 비프’ 10월 8일 개막…AI 시대 영화의 미래 논의",
+      "date": "2026-10-02",
+      "region": "",
       "grade": "B"
     }
   ]
