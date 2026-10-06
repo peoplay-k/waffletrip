@@ -8,7 +8,9 @@ title: 진에어, 10월 한 달 한·일·대만 신규 회원 유치전
 source_name: ''
 source_url: ''
 summary: 진에어가 10월 1일부터 31일까지 한국·일본·대만 3개국 이용자를 대상으로 한 달간 글로벌 신규 회원 확보 캠페인을 가동했습니다.
-status: approved
+status: published
+published_id: c-06fa29df201530c6e67c6350036ad9e03dc98f7d
+published_on: '2026-10-06'
 ---
 저비용항공사(LCC)들의 외국인 관광객 유치전이 뜨거워지는 가운데, **진에어가 한·일·대만 3개국을 겨냥한 신규 회원 캠페인을 열었다.**
 

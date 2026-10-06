@@ -9,7 +9,9 @@ source_name: ''
 source_url: ''
 summary: 중국-라오스 철도에 새 열차 C95가 투입돼 9월 28일 보텐역에서 출발했습니다. 라오스 북부와 수도를 잇는 도시 간 열차 서비스가
   새로 시작됐다고 두 매체가 보도했습니다.
-status: approved
+status: published
+published_id: c-f7658ef0eb6b84dce6af77615b4fdb387a0f1f9d
+published_on: '2026-10-06'
 ---
 중국-라오스 철도에 **새 열차 서비스**가 더해졌다. 라오스 북부 교통이 한층 편해졌다는 소식이다.
 

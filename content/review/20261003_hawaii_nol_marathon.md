@@ -9,7 +9,9 @@ source_name: ''
 source_url: ''
 summary: 놀유니버스가 운영하는 NOL이 호놀룰루 마라톤 참가와 와이키키 휴양을 묶은 5박7일 패키지를 출시했습니다. 12월 11일 출발하며
   러닝 전도사 안정은과 동행합니다.
-status: approved
+status: published
+published_id: c-ec190fd310db2a1d5e8b0785f2a21132fb3a7e68
+published_on: '2026-10-06'
 ---
 하와이 호놀룰루 마라톤에 참가하고 와이키키에서 휴양도 즐기는 여행상품이 나왔다. **놀유니버스가 운영하는 NOL**이 내놓은 패키지다.
 

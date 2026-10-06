@@ -196,6 +196,17 @@
       "failed_sources": [
         "saipan_tribune"
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "collected": 857,
+      "published": 201,
+      "ours": 14,
+      "failed_sources": [
+        "guam_pdn",
+        "guam_post",
+        "saipan_tribune"
+      ]
     }
   ]
 }

@@ -10,7 +10,9 @@ source_name: ''
 source_url: ''
 summary: KBS 2TV 새 대하드라마 '문무'가 장혁이 연개소문으로 파격 변신한 첫 스틸을 공개했습니다. 드라마는 11월 첫 방송을 앞두고
   있습니다.
-status: approved
+status: published
+published_id: c-ee82d04709f1ea1906068cddb924d3405305bb96
+published_on: '2026-10-06'
 ---
 배우 **장혁**이 고구려의 전쟁 영웅이자 독재자 **연개소문**으로 변신했다. KBS 2TV 새 대하드라마 **'문무'**가 첫 스틸을 공개하며 11월 첫 방송을 예고했다.
 

@@ -7,9 +7,10 @@ kind: 보도자료
 title: 하와이 관광청, 한국 겨냥 캠페인으로 PATA 골드 어워드 수상
 source_name: ''
 source_url: ''
-summary: 하와이 관광청이 한국 소비자를 겨냥한 오프라인 캠페인으로 8월 19일 말레이시아 사라왁에서 열린 2026 PATA 골드 어워즈를
-  받았습니다.
-status: approved
+summary: 하와이 관광청이 한국 소비자를 겨냥한 오프라인 캠페인으로 8월 19일 말레이시아 사라왁에서 열린 2026 PATA 골드 어워즈를 받았습니다.
+status: published
+published_id: c-71cc2cc75fff5219f2401651f8224dc9d844aa9f
+published_on: '2026-10-06'
 ---
 하와이 관광청이 한국 소비자를 겨냥한 캠페인으로 **국제 무대에서 상을 받았다.**
 

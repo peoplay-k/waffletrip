@@ -8,9 +8,10 @@ kind: 보도자료
 title: 네오 SF 스릴러 '사이버 카르텔', 10월 8일 개봉 확정
 source_name: ''
 source_url: ''
-summary: 거대 기업이 지배하는 디스토피아를 그린 네오 SF 스릴러 '사이버 카르텔'이 10월 8일 개봉을 확정하고 메인 포스터를
-  공개했습니다.
-status: approved
+summary: 거대 기업이 지배하는 디스토피아를 그린 네오 SF 스릴러 '사이버 카르텔'이 10월 8일 개봉을 확정하고 메인 포스터를 공개했습니다.
+status: published
+published_id: c-a801c4bdf0e823861d4d0df55d4e63e9d287b1be
+published_on: '2026-10-06'
 ---
 거대 기업이 지배하는 디스토피아 미래 도시를 그린 네오 SF 스릴러 **'사이버 카르텔'**이 **10월 8일** 개봉한다.
 
