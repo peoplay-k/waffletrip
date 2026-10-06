@@ -72,9 +72,13 @@ def test_snapshot_survives_missing_files(tmp_path):
 
 
 def test_update_history_replaces_same_day(tmp_path):
+    # 날짜는 오늘에서 센다. 기록은 최근 30일만 남기므로 "2026-09-02" 를 박아 두었더니
+    # 10-03 부터 이 테스트가 깨졌고, 테스트가 발행보다 먼저라 지면이 사흘 멈췄다.
+    from datetime import datetime, timedelta, timezone
+    day = (datetime.now(timezone(timedelta(hours=9))).date() - timedelta(days=1)).isoformat()
     path = str(tmp_path / "health.json")
-    update_history(path, _day("2026-09-02", collected=1))
-    history = update_history(path, _day("2026-09-02", collected=99))
+    update_history(path, _day(day, collected=1))
+    history = update_history(path, _day(day, collected=99))
     assert len(history) == 1 and history[0]["collected"] == 99
 
 

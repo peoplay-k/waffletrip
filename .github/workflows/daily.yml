@@ -31,6 +31,7 @@ jobs:
       TZ: Asia/Seoul
     outputs:
       own_silent: ${{ steps.health.outputs.own_silent }}
+      timebomb: ${{ steps.timebomb.outcome }}
     steps:
       - uses: actions/checkout@v4
 
@@ -44,6 +45,15 @@ jobs:
 
       - name: 테스트
         run: python -m pytest -q
+
+      # 시계를 45일 앞으로 돌려 한 번 더 돌린다. 날짜를 박아 둔 테스트는 코드가 멀쩡해도
+      # 시간이 지나 저절로 깨지고, 위 '테스트'가 발행보다 먼저라 그날 지면이 통째로 멈춘다
+      # (2026-09-30·10-03 두 번). 여기서 미리 깨지면 발행은 그대로 하고, 배포 뒤 notify
+      # 잡이 실패로 끝나 알림 메일을 띄운다 — 45일 안에 고치면 된다.
+      - name: 시한폭탄 검사
+        id: timebomb
+        continue-on-error: true
+        run: TEST_DAYS_AHEAD=45 python -m pytest -q
 
       - name: 수집
         run: python -m src.collect
@@ -344,4 +354,10 @@ jobs:
         if: needs.build.outputs.own_silent == 'true'
         run: |
           echo "::error::이틀 연속 우리 기사(해설·보도자료) 0편 — 해설 에이전트가 멈췄을 수 있다"
+          exit 1
+
+      - name: 시한폭탄 경보
+        if: needs.build.outputs.timebomb == 'failure'
+        run: |
+          echo "::error::45일 뒤 날짜로 돌린 테스트가 깨졌다 — 날짜를 박아 둔 테스트가 있다. 그날이 오면 발행이 멈춘다"
           exit 1
