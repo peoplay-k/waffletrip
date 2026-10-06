@@ -101,6 +101,7 @@
     "063e25ea89c4ed313d22b53485b6eb9b95cd75d2",
     "065f44f1cb4e1fa799c6e7ccd33fac830c990d75",
     "06664feeedf0624b079c7af3013401c328e3777b",
+    "066ba30ea197edf7ceaf6df705a269a8e108c6ee",
     "06816fb0423cfdb5b836b2830363ed5182dd8bd1",
     "0683752ec87caea2a452aed41363a3c319362fb5",
     "069960743ff0e243f759fab9fcdbef2282e1f036",
@@ -193,6 +194,7 @@
     "0b146c7a89a953059f82fefb18ccd626fe9e0bd0",
     "0b29a3fe8c5e813964c6520d08d0c0729d621f30",
     "0b2a44d1a53e3548fd58fc4ed28ea710abb99639",
+    "0b3084e0de34e945e2f428f7b4fc08abe13f43ac",
     "0b33d3a34cc450fd4dc8964c24e9f23e1754a101",
     "0b4f2f282628bc7bc069a40d56f44cce245ff8f1",
     "0b5e352665416245e637ec07ffbfd852eeb31a06",
@@ -404,6 +406,7 @@
     "17ffe422c08c4016d3f2736eb76256302a210e56",
     "1811ee98edaabb2d1b3ba0acead77115c7269ec0",
     "181705453b1b2815d85bfd259534320f88058e1d",
+    "18177bf0f65445a9be37aed7c1ac4a32a20a7243",
     "181bfbf6723fff1c36f70aed13cf7eccd1a39699",
     "181c96cc83fd63879ffa6f72f1e32e1ee4a98363",
     "1828e669fe9ac793012d1f46e500b32468c48c25",
@@ -443,6 +446,7 @@
     "1a0e02318faef837285ea5b60d63a56275602ad5",
     "1a0feba5cf9efff9e7cf04017b4ef4223070180b",
     "1a22735835dc1eb11b3e080eb748e6b618768734",
+    "1a3131eb825d12732dd7aa8db1b48bde7953587a",
     "1a32506120c784e43c8247bf1c465318fe0451dc",
     "1a3c86469dd6e37deecc48147f573a1dcd9c58f1",
     "1a589fb5fa0f7e310dfa48074aa6908dc2353eb8",
@@ -854,6 +858,7 @@
     "34a068297dab2c29d47cf3f1b277f9e5df5a647b",
     "34a37e3e9b8f1114c506be8bccd0025a79bea6ea",
     "34bcde044c2f7d92fa53800cde56c5541cc9a7f3",
+    "34bd2304aedae5b1dbf1ef66041ecf272ca7a7fc",
     "34d905e6615df52343f7829bed2a4d28d17bb14c",
     "34ee25d1024757ad6925e3f4823c03b5cff9536f",
     "35137564ebee8ebee7f7a4669ced8e321c8cab89",
@@ -885,6 +890,7 @@
     "367736e575adabf0c45ce697818612cad65afd40",
     "367839adf52a4da60da5d90da353dd5879e71a04",
     "367ab1e3592f80f6ab2874e49b9fa960ac79e3b4",
+    "3680ae521131ff51ee8f3ac496e291aabfd33f33",
     "369c803f4bd29708bd6f9bf369011d4bb05a517c",
     "36b20396fb2e47ec0a3c6e61457967f2e4833f64",
     "36b85ec4f61a6f431dd062b58d285cd002dfde3a",
@@ -978,6 +984,7 @@
     "3be3696699c22c93bb47e62a93708a0ac1375ce0",
     "3be5178afc0c36a4115687ff531431dcbc3119f8",
     "3c60dc3f2000735bfba8cfa9eeaa56f4850ac766",
+    "3c6144712712e604468438a77328578a85503352",
     "3c8ec1ee8964b968cbd1fdb7a535f62d21f1d226",
     "3c921ee86ad4491f7ba9fa6ca96eb3506ef13061",
     "3cbefbe9c982c2b91db5e56136aed1e35af59c65",
@@ -1915,6 +1922,7 @@
     "76f6c05a3d2b706cd74bc88ae913ff4ad3f1b22f",
     "76fdcbac4910e62733ce21af5efdc8163491d261",
     "7702b22618f24c913249557f4819628bb02db017",
+    "770d379fb30c4994981127976ba1548457f11d3f",
     "7723f2c825e4798c72c9025118463634acb40269",
     "7736b7bee09e26d178dd069e768ca172bd64defa",
     "777c5eb24c28528d35f3be5aab476c50af27b40c",
@@ -2686,6 +2694,7 @@
     "a902f2fa4bdac2915bd7f4ae7046172a5a5584db",
     "a90bb87c54a5902faa173a8c5957c0c3a45b52ab",
     "a9145b9abf84413860ac7e72640b3937fc24ac41",
+    "a9160f3d183e7535c7605b12f07584a0fbc71b72",
     "a94eece9370b4ef34ac4b774ad10f654f189d34d",
     "a9515da2bfba4dc7c641a510e92c9ab3db103a4c",
     "a95ba210093736eb3344a9b3cca22687c008d669",
@@ -2850,6 +2859,7 @@
     "b3af55002d56808aa14a8a7cdb45a15761c35ab3",
     "b3b1794ea941f377823330d007e77146524bb344",
     "b3baedca4fc58a4767cd80991717155f9a812421",
+    "b3c054a987f3c773778b0e01aa1802f1bd4ba4ea",
     "b3df283a34131704290f12b4ee412a743a7374ad",
     "b3f0a22ee2c9964ef9449d3c77b9e63f92696871",
     "b3f1455e6f55d0da95addf554f6079cc30099e18",
@@ -3308,6 +3318,7 @@
     "ca6d6aa23839a2d64e85c1e3769903ceb969f455",
     "ca6f29e67ba94d83d911fc9f50d07df67e8aecac",
     "ca7163242e17c3dfcbb1695bd9d8df6a88601b65",
+    "ca7bd5082736979641a5c6f0ecca5614316d6c69",
     "ca8189780c77c9810db835fbddda802be642bebb",
     "ca8740dd9b6e5f17873b567b00ec0e2c91c97f84",
     "caba04caf9beb26a8f393c7b1e3e76fed9e8fd02",
@@ -4162,6 +4173,7 @@
     "fd20a6d8fca46f7e36958fabcfd346dc8181d171",
     "fd2bddcaa098b87e979dc02d3eac20e19b043ecf",
     "fd302fd65b0a5837460ae20b47deadc40c8398f2",
+    "fd476709d0ce857b69b9f2e701454ab201b54209",
     "fd4c2e8e9f17c8f0738f07a6870427cc42d4747d",
     "fd4e9cf5652bb5b6671d80f87b97fa88f95b3b87",
     "fd5dfd726bf072dc5858f3c0590a20d358a5a12a",
@@ -23947,6 +23959,90 @@
       "title": "몽키트래블, ‘2026 어메이징 타일랜드 마라톤 방콕’ 참가권 한정 판매",
       "date": "2026-10-06",
       "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "34bd2304aedae5b1dbf1ef66041ecf272ca7a7fc",
+      "title": "특급호텔 수영장 소독약 오주입…한때 염소가스 '기준치 100배'",
+      "date": "2026-10-06",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "1a3131eb825d12732dd7aa8db1b48bde7953587a",
+      "title": "제주인디, 오사카 코스메 위크서 ‘지능형 뷰티 트래블’ 선봬",
+      "date": "2026-10-06",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "18177bf0f65445a9be37aed7c1ac4a32a20a7243",
+      "title": "부산국제영화제 오늘 개막…59개국 316편, 열흘간 영화의 바다",
+      "date": "2026-10-06",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "066ba30ea197edf7ceaf6df705a269a8e108c6ee",
+      "title": "Penang seeks 2027 Budget boost for air connectivity, tourism",
+      "date": "2026-10-06",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "770d379fb30c4994981127976ba1548457f11d3f",
+      "title": "Waiakea High School celebrates 50th anniversary after Hurricane Nolo threat",
+      "date": "2026-10-06",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "3680ae521131ff51ee8f3ac496e291aabfd33f33",
+      "title": "RMAF Anka-S logs 232.7 flight hours since deployment",
+      "date": "2026-10-06",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "0b3084e0de34e945e2f428f7b4fc08abe13f43ac",
+      "title": "제주 5성급 호텔 약품 사고, 기준치 100배 염소가스 누출",
+      "date": "2026-10-06",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "a9160f3d183e7535c7605b12f07584a0fbc71b72",
+      "title": "Shark warning signs posted at Haleiwa’s Alii Beach Park",
+      "date": "2026-10-06",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "fd476709d0ce857b69b9f2e701454ab201b54209",
+      "title": "Water restriction notice issued for South Kohala customers",
+      "date": "2026-10-06",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "3c6144712712e604468438a77328578a85503352",
+      "title": "Message in bottle drifts 10 years from Japan to Terengganu",
+      "date": "2026-10-06",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "b3c054a987f3c773778b0e01aa1802f1bd4ba4ea",
+      "title": "[뭐라노] 오늘 부산국제영화제 팡파르…사상 첫 화요일 개막",
+      "date": "2026-10-06",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "ca7bd5082736979641a5c6f0ecca5614316d6c69",
+      "title": "NAHA PORT AUTHORITY, CRUISE PORT NAHA G.K., MSC CRUISES AND ROYAL CARIBBEAN GROUP BEGIN CONSTRUCTION OF NEW CRUISE TERMINAL AT NAHA PORT, OKINAWA",
+      "date": "2026-10-06",
+      "region": "laos",
       "grade": "B"
     }
   ]
