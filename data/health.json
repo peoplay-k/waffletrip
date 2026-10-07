@@ -205,6 +205,15 @@
       "failed_sources": [
         "saipan_tribune"
       ]
+    },
+    {
+      "date": "2026-10-07",
+      "collected": 915,
+      "published": 158,
+      "ours": 0,
+      "failed_sources": [
+        "guam_pdn"
+      ]
     }
   ]
 }
