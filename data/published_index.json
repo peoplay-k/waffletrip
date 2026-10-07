@@ -59,6 +59,7 @@
     "0357ad9a797778f17104645735220cf7569a203d",
     "035909cc105b633dcfe6210158bb9f1345708858",
     "035bab06f8808d2e08586acf1ff51977fdf5212a",
+    "03715672ac997410a1bf67e05474728bf72090e3",
     "038ab7f1179d9a8edd0ac67a567af81a44abe3d9",
     "0398366a3a89ce642070bcedd187eae2c9ca1b76",
     "03a5f50e7dc0af1886086db5150111f438df33b6",
@@ -156,6 +157,7 @@
     "08b66df841e33a5d7d433d1c8e7435785260762c",
     "08b67226e1b3d9c6e7d96e906e187c40fcca5424",
     "08c0ddc3fdb67ea010044d4142d75bff0f52fd37",
+    "08d6ef38182b06ce16af54f0fba8ce2123d53ff6",
     "08f4fb9c6129f7bbc1559098adad72388bafaa44",
     "0900ab4543e83f951bd0341ad562ad754fe60c82",
     "0909491bc0177668a68eea99dfac57dbbefd8b5f",
@@ -210,6 +212,7 @@
     "0bb13197fa08c85567991ccb43c09218e41c20d2",
     "0bb52fb207422013eb87b04e1a508d6e6c40a229",
     "0be32bad8a23f269a2d2d64c132287d5b812af66",
+    "0bf0394a222a0efeeeb2e45cb9f8ee31f3d5884c",
     "0bfe14adf42bb627a793c670f07b2b76a014bb63",
     "0c0cb1992d21612a0d3699f0a194b50ce016c56b",
     "0c0fcb7598d93d48c46b3dbe618e57dd2549216a",
@@ -549,6 +552,7 @@
     "1f710d8e2fe2bce768a02c2aa5ff196a552acb72",
     "1f7fac8af2e21dacb8dd25dde98523b12cc076ff",
     "1f8cc5fb54828c2e4db25fb649c040126820cb3d",
+    "1f997cb0b8ecbdb11119fa4345ec7179bee2e54d",
     "1fb104d390330c54478a8897be43993d515e81ac",
     "1fbc2668e57ac2d235a1b915123cdb5e8650458b",
     "1fc4dd59f260e4b29b6d3030b8ac159e628e9e61",
@@ -740,6 +744,7 @@
     "2abbf3c45ab3af87f31685c09d028f71d31a6430",
     "2ad421da772c33fed90dc26d999a61a48edd4eb9",
     "2adf48283060183f3c45f48eb18862a5e63324ba",
+    "2afb0e0ded3518430b18c2f88f574fee7decbb40",
     "2b184cdf591b2c1ff67fc51808b515e2c07d5a00",
     "2b19b3f531ab773f5c5acd34ab51cf4db13e5db5",
     "2b1aebe8f4ba87ca17eecd5db71e263daa26ef53",
@@ -1065,6 +1070,7 @@
     "3eca70823e73b98f6c96139b0f6fb57912046b25",
     "3ecb0240a172dfeaaf5012667fe360f3cf900394",
     "3ecbee49995ec82ada47b28b9defd96243635255",
+    "3ed8e10217f033c7f590b17a23e0342a3d783134",
     "3edd81dedd07588a66adcc2bed9b6b30587ece79",
     "3ee96c3e4920bcd8ed8b9bc56ed884e9d11acb1e",
     "3ef0470f61d33b4827ebdc65f6aae8f3044ebb45",
@@ -2022,6 +2028,7 @@
     "7850d2218d3d7176cab594a7279d67504e949351",
     "786465890954cfcf291a32f7de35e1ffb15a85f9",
     "78666cb77513537c64302c510aca68583426c3ee",
+    "7873667e43950bbad6f93fbe992dd9ee0fed9770",
     "787c060a05c7134dd7a99d37957d491903675f42",
     "78823488d861d660727b208ab99517dd069330fa",
     "78ad41a3ab546b27721e6bdcb0b73ae67403f326",
@@ -2206,6 +2213,7 @@
     "8263ff52287692810020aef82b167fa8522aab4d",
     "8266cdf002e49bf40b9b59337886619e9b3f476a",
     "826a9ef94814fda71b5fdd9efc246167ac1e980b",
+    "8290eb1694f6c870de4a16917d5ef1dd46f3315f",
     "829a7875c71ed4bf74090111b68eec2ea20ffd24",
     "829b85cc4f6a872b01bc4d4d3d71e7bb2c2f85e6",
     "82ba76a1407f250586fe37aa9cfd54c14622278e",
@@ -2473,6 +2481,7 @@
     "933f16872e789c692e797d34baab5243900b1999",
     "93592adf3e4b5cebb7697aa17b68ca4169d7765f",
     "93661aec8708da8999d000424132bdab795b99bf",
+    "93662b590b973b46ac04445a324b0a61be7cba0b",
     "93693ae7b6b5d9dac434fa9f3bbb1718badfc014",
     "939fc19f48cb4995058e385895d7290a62ed811f",
     "93a6a175692010d936401f550c5b90fbd2dc1bee",
@@ -2694,6 +2703,7 @@
     "a1c3315a94a9a2ed03c3af89361716fae8e3164f",
     "a1d240a8221be36ba81a1bf16373f18b1be5396d",
     "a1d7d1c2fcb72fddee99d9f10969bfa162c0880e",
+    "a1e16e68a1650230439f150f330f32594e243a69",
     "a1ebb255b85e0450ea5100be8a93a980eef08392",
     "a1f0cc8a2d541f7bdaba1ee236e063796d3a653c",
     "a1fa2aa40229f91421805ab9a2d6e26ad9c04ca3",
@@ -2845,12 +2855,14 @@
     "ab0259bf973bdac4fb3e39e3e747f4f92b6f99b1",
     "ab07c5424a50cdb5bcdc0d240c3ff66d19d31752",
     "ab09ac6be3937b5ac6b3752b33e3e43f340058d1",
+    "ab1b38e6fd0ace463ca1d58c743005a8c33401e1",
     "ab308814cac8869a402817116f959cafd9d1a1e0",
     "ab437687d12d29802f422e6d5475a89566cce06c",
     "ab52f13ca156abef69b0bbcb025f27aa02d6e722",
     "ab5c380978e2db9654370843fea9d7d991257cfb",
     "ab602961814328e44073ab87231a0760911afc9d",
     "ab667be225cc7942885c8da996c0ac1e7281ea43",
+    "ab79f5933816fb8660b789058e776989096b6992",
     "ab7c9ef7193fa1a01a1d8b1b8768c9612b2f8475",
     "ab8a8a26a237868862e068b74a69839b4c31231a",
     "ab9471a6b153aef5b92e2ddd29edfaa13abe11f2",
@@ -3190,9 +3202,11 @@
     "c-03cc677c9137489487e8db8826cba47680182a97",
     "c-06fa29df201530c6e67c6350036ad9e03dc98f7d",
     "c-07405d964d245ef286b605083f39ad08d3f79338",
+    "c-090b3b3c7261eea261bd78e33efd5c0547dcbfc4",
     "c-0c9c86d1c232fce358e42ff8b744d5237441d5f9",
     "c-0fc957ecc5b348591eedd4e9ea374b88da7784e4",
     "c-1030671654d3a15d9bf8069f2fbc50d5881c7424",
+    "c-1054804476dabb99a5daaecf02b3fb84a5b09e5d",
     "c-13b8ef3f796775947390933dc89fcc9ae607f118",
     "c-1588f487344bf941fafb218b097c04ad38658b6a",
     "c-161d78d645b86b5587ea42bbe6f3084456413c7c",
@@ -3214,6 +3228,7 @@
     "c-2e4aebc97eec81fa4752fa26d703edafae109fd7",
     "c-327e8f8f385e38e8f3cd7d1a7f9afc3b4ba360c8",
     "c-34644421401faf2436bfbc9f6ec007e05a3b7b9d",
+    "c-3530f9e37c21d016ec504e62e7104616decfb7ab",
     "c-36d2381a59b0c106826d22c54816af2e29721e99",
     "c-3ce78eac5cd032a6ba55e497b03cf13db125bc7c",
     "c-3d5e3e044db054de10e62306ec96e214b439f8e7",
@@ -3258,6 +3273,7 @@
     "c-98c5e87e58d4518fa494eee6b0df1a4a03009381",
     "c-990db2b3e69e947eaf7daf8abb084b8b9e48e673",
     "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
+    "c-9f8703f155176a428c47e334ac8e49b7ffb4d961",
     "c-a1f06dcaf9ec15b3abdcc79bf1e2e064d3fcb63f",
     "c-a56197e2bab3863d2bfeeee6ec87806130c10c65",
     "c-a5911ba8a9be497027995aef8207f85c95438fd4",
@@ -3281,6 +3297,7 @@
     "c-ceb029d2f43c074a0c732707e03269db7cc3fb90",
     "c-d005fb78aa042dc01529263c24b297e69677cace",
     "c-d46b2f3f5d2e67202804ec885c6324c4f961dc70",
+    "c-d6b8c7eb9d1eeb03d04202bb278a49bb83edcddf",
     "c-d919376333c28b79eb34c195fcaffa9620edd2e8",
     "c-dab436d309d9a082d7c65030fa3378a6aad1dcdc",
     "c-de594e4b2bb1b24d97865c5358d0895193344e2a",
@@ -3434,6 +3451,7 @@
     "c7f00740aa9c084e71ac85ed742e28680d94f05b",
     "c8040d763e12f3b59a562cf40e3d308dc46616a7",
     "c81428e9aa364feb28eaa02a2c1e139130ea1a1c",
+    "c83fe502e6bcc8c2516d7338c784aa5bd33a8bf7",
     "c84801cf2eb6d73ac5e32b59acc79aac6d04b1fa",
     "c849d7939b12660eec3fbd4c7eefc4babea78eca",
     "c86889488eac25aec9ce5f6f5a615e69ef4bdcac",
@@ -3544,6 +3562,7 @@
     "ce12de3f3c39fc1e686b69a61d83fabfb53b4fa0",
     "ce16836ffc421b4af1715f1d46b291370fd85b75",
     "ce174f6d21b9df21c50792fce93ededda172863a",
+    "ce21950eb85748a1e22b36ab0c8f80baa971fbfd",
     "ce21aeff8a170ce147e09209a3df59b6f8598af5",
     "ce21d64fab8d481d6a4e84b8f780252e5565d437",
     "ce405748f741dd08e86c79e49da843e2c6614cfe",
@@ -3713,6 +3732,7 @@
     "d7c328c2c9066fbd68a55147e5086b7fda012aa0",
     "d7cb2828b9a77cebb69fccfac10ef0e207ef2959",
     "d7e4583f9c91a5c63749b52ad4059d2427423747",
+    "d7f33a5c452bde24f42c8894054267444f8eb777",
     "d8005812af65e3b9d734f17941822e23cb0e73f4",
     "d813245b404a6ed927084f81d295fe52e4178a77",
     "d8241016d4763026447bc9b4a582f44a5fb34a6c",
@@ -3800,6 +3820,7 @@
     "dcb15b9f47c9842e5e55eeac2ea279737d9d6884",
     "dcbf8fd3457cddea23dd9d74dcd7f38a3e559607",
     "dcc4bd9feee89a8ba3af89abe3e05b0676d54512",
+    "dce31c2e614d6feedca11c00340c3c50d2936547",
     "dcf042ff6861ce32c9bb5490efa05b4875ebb483",
     "dd0160e4607badd6e1acc9854c1b0c9e6396ce90",
     "dd09ed7d9048fd9d2a2ac633df04b54ee51ecdb4",
@@ -3942,6 +3963,7 @@
     "e48474ef9c584bf3882d40092ce59edea56b249a",
     "e496e70f3914101c0825fe501c296d2e83419df9",
     "e4ad7602e38588043395b320d391ce6568ae177d",
+    "e4de302a88cd07edcf43fe63e777db94128ffa8e",
     "e4e9cd2c4520e470ec497ba99e5b8006000fc610",
     "e4fa13c69a91d1876b1e3621a90c01940c0c7ab6",
     "e50794c9ade40447e7e09fe3760d06493679ae44",
@@ -24842,6 +24864,160 @@
       "title": "아시아나 마일리지 특별기 73편… 도쿄·오사카 등 5개 노선",
       "date": "2026-10-07",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "c-3530f9e37c21d016ec504e62e7104616decfb7ab",
+      "title": "11월 방콕 숙소 검색 늘었다…유로비전 아시아 그랜드파이널 효과",
+      "date": "2026-10-07",
+      "region": "thailand",
+      "grade": "C"
+    },
+    {
+      "id": "c-090b3b3c7261eea261bd78e33efd5c0547dcbfc4",
+      "title": "다낭, 올해 9개월 관광객 1600만명…매출 집계는 매체마다 다르다",
+      "date": "2026-10-07",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "c-9f8703f155176a428c47e334ac8e49b7ffb4d961",
+      "title": "제주 5성급 호텔 수영장 염소가스, 원인은 \"소독약 오투입\"…기준치 100배",
+      "date": "2026-10-07",
+      "region": "jeju",
+      "grade": "C"
+    },
+    {
+      "id": "c-1054804476dabb99a5daaecf02b3fb84a5b09e5d",
+      "title": "서울관광재단, 타이베이서 아시아 MICE 기관 포럼 공동 개최",
+      "date": "2026-10-07",
+      "region": "taiwan",
+      "grade": "C"
+    },
+    {
+      "id": "c-d6b8c7eb9d1eeb03d04202bb278a49bb83edcddf",
+      "title": "방콕 홍수 수하물 대란 책임…타이항공, CEO 직무정지·해임 절차",
+      "date": "2026-10-07",
+      "region": "thailand",
+      "grade": "C"
+    },
+    {
+      "id": "dce31c2e614d6feedca11c00340c3c50d2936547",
+      "title": "[O포토]판빙빙, 매혹적인 배우",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "d7f33a5c452bde24f42c8894054267444f8eb777",
+      "title": "[O포토] 김다현, 레드카펫에서 한컷",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "7873667e43950bbad6f93fbe992dd9ee0fed9770",
+      "title": "신라 모노그램 다낭, 2026 월드 럭셔리 어워즈 ‘최우수 럭셔리 비치 리조트’ 선정",
+      "date": "2026-10-07",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "ce21950eb85748a1e22b36ab0c8f80baa971fbfd",
+      "title": "BIFF #2호 [화보] 선선한 가을밤을 수놓은 화려한 레드카펫 ①",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "1f997cb0b8ecbdb11119fa4345ec7179bee2e54d",
+      "title": "'글로벌 보이그룹' 코이키즈, 7일 한·일 동시 데뷔",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "0bf0394a222a0efeeeb2e45cb9f8ee31f3d5884c",
+      "title": "[극장가] 손열음의 라벨·쇼스타코비치, CGV 단독 개봉",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "c83fe502e6bcc8c2516d7338c784aa5bd33a8bf7",
+      "title": "Penang looks to Europe with first Poland winter charter",
+      "date": "2026-10-07",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "03715672ac997410a1bf67e05474728bf72090e3",
+      "title": "개천절 연휴 16만명 제주로 ‘항공권 2만원대’",
+      "date": "2026-10-07",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "2afb0e0ded3518430b18c2f88f574fee7decbb40",
+      "title": "'암살자(들)' 논쟁 속 박스오피스·韓 영화 좌석판매율 1위",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "08d6ef38182b06ce16af54f0fba8ce2123d53ff6",
+      "title": "[SC-BIFF] '룩백' 고레에다 히로카즈 감독 \"개막식 화려하더라, 제 이름으로 노래 나와 기뻐\"",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "e4de302a88cd07edcf43fe63e777db94128ffa8e",
+      "title": "LETTER: Please fix tourism",
+      "date": "2026-10-07",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "93662b590b973b46ac04445a324b0a61be7cba0b",
+      "title": "부산국제영화제, 별들의 레드카펫",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "a1e16e68a1650230439f150f330f32594e243a69",
+      "title": "성유리, 이효리 콧구멍 찍고 굴욕샷 공개하며 도발 \"밀착 취재\"",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "ab1b38e6fd0ace463ca1d58c743005a8c33401e1",
+      "title": "\"세계를 향한 한걸음\"…제31회 부산국제영화제 화려한 개막",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "8290eb1694f6c870de4a16917d5ef1dd46f3315f",
+      "title": "화려하게 개막한 제31회 부산국제영화제",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "ab79f5933816fb8660b789058e776989096b6992",
+      "title": "‘타짜4, 벨제붑의 노래’ 146만 돌파",
+      "date": "2026-10-07",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "3ed8e10217f033c7f590b17a23e0342a3d783134",
+      "title": "톰 크루즈, ‘디거’ 흥행 참패에 웃음-흥행과 예술 구분하는 거장",
+      "date": "2026-10-07",
+      "region": "",
       "grade": "B"
     }
   ]

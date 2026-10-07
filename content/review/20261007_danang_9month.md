@@ -9,7 +9,9 @@ source_name: ''
 source_url: ''
 summary: 다낭이 올해 1~9월 외국인·내국인 합쳐 약 1600만명의 관광객을 맞았습니다. 같은 기간 관광 관련 매출을 두고는 52조 9450억
   VND과 57조 VND, 두 숫자가 따로 보도됐습니다.
-status: approved
+status: published
+published_id: c-090b3b3c7261eea261bd78e33efd5c0547dcbfc4
+published_on: '2026-10-07'
 ---
 베트남 다낭이 올해 1~9월 외국인·내국인을 합쳐 약 **1600만명**의 관광객을 맞았다. 같은 기간 관광 관련 매출은 매체에 따라 **52조 9450억 VND**과 **57조 VND**, 두 숫자가 따로 보도됐다.
 

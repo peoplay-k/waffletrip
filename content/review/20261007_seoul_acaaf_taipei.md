@@ -7,9 +7,11 @@ kind: 보도자료
 title: 서울관광재단, 타이베이서 아시아 MICE 기관 포럼 공동 개최
 source_name: ''
 source_url: ''
-summary: 서울관광재단이 10월 1일 대만 타이베이에서 제4차 아시아 컨벤션 얼라이언스 협회 포럼을 아시아 주요 MICE 기관들과 공동
-  개최했습니다. 도시 간 MICE 협력 확대가 목적입니다.
-status: approved
+summary: 서울관광재단이 10월 1일 대만 타이베이에서 제4차 아시아 컨벤션 얼라이언스 협회 포럼을 아시아 주요 MICE 기관들과 공동 개최했습니다.
+  도시 간 MICE 협력 확대가 목적입니다.
+status: published
+published_id: c-1054804476dabb99a5daaecf02b3fb84a5b09e5d
+published_on: '2026-10-07'
 ---
 서울관광재단(대표이사 김병민)이 지난 **10월 1일** 대만 타이베이에서 아시아 주요 MICE(기업회의·행사) 기관들과 함께 '제4차 아시아 컨벤션 얼라이언스 협회 포럼(Asia Convention Alliance Association Forum)'을 공동 개최했다.
 
