@@ -594,3 +594,12 @@ def test_큰_폴더는_나눠_돌릴_수_있다(tmp_path):
     assert len(앞) == 4 and len(뒤) == 4 and len(끝) == 2
     assert not set(앞) & set(뒤), "겹치면 같은 사진을 두 번 본다"
     assert len(set(앞) | set(뒤) | set(끝)) == 10, "빠지는 장이 있으면 안 된다"
+
+
+def test_테스트는_진짜_사진_사용기록을_건드리지_않는다(tmp_path):
+    # 2026-10-07: render_site 테스트가 data/photos/used.json 에 가짜 기사로 사진을 잡아
+    # CI 가 그것을 커밋했다. conftest 가 USED 를 임시 경로로 바꿔 끼우는지 못박는다.
+    import src.photos as photos
+    assert photos.USED != "data/photos/used.json"
+    photos.save_used({"/img/guam/x.webp": "n0"})
+    assert photos.load_used() == {"/img/guam/x.webp": "n0"}

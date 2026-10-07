@@ -19,8 +19,15 @@ USED = "data/photos/used.json"      # 사진 사용 이력. 재사용을 막는 
 PUBLIC_DIR = "img"          # public/ 아래 경로
 
 
-def load_used(path: str = USED) -> dict:
-    """사진 → 그 사진을 쓴 기사 id."""
+def load_used(path: str | None = None) -> dict:
+    """사진 → 그 사진을 쓴 기사 id.
+
+    경로 기본값을 정의 시점이 아니라 **부를 때** 읽는다. 테스트가 `USED` 를 임시 경로로
+    바꿔 끼울 수 있어야 하기 때문이다 — 2026-10-07 실측: 테스트의 render_site 가 진짜
+    used.json 에 가짜 기사(n0·n1·aaaaaaaa11 …)로 사진을 '사용' 처리했고, CI 가 테스트 뒤
+    그 기록을 커밋해 새로 넣은 사진이 다음 날 아침이면 바닥나 있었다.
+    """
+    path = path or USED
     try:
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
@@ -29,7 +36,8 @@ def load_used(path: str = USED) -> dict:
         return {}
 
 
-def save_used(used: dict, path: str = USED) -> None:
+def save_used(used: dict, path: str | None = None) -> None:
+    path = path or USED
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(used, f, ensure_ascii=False, indent=2, sort_keys=True)

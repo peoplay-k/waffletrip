@@ -28,3 +28,17 @@ def _shift_clock():
     target = datetime.now(timezone.utc) + timedelta(days=_AHEAD)
     with freeze_time(target, tick=True):
         yield
+
+
+@pytest.fixture(autouse=True)
+def _isolate_photo_usage(tmp_path_factory, monkeypatch):
+    """테스트가 진짜 사진 사용 기록(data/photos/used.json)을 쓰지 못하게 한다.
+
+    사진은 한 번 쓰면 다시 안 쓰므로, 테스트가 가짜 기사로 사진을 잡으면 그 사진은
+    지면에 영영 안 나간다. CI 는 테스트 뒤 data/ 를 커밋하므로 매일 사진이 새어 나갔다.
+    """
+    import src.photos as photos
+    # tmp_path 와 다른 폴더에 둔다 — 출력 폴더 밖에 파일이 생기는지 보는 테스트가 있다.
+    monkeypatch.setattr(photos, "USED",
+                        str(tmp_path_factory.mktemp("photo_usage") / "used.json"))
+    yield
