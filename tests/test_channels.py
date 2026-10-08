@@ -513,3 +513,26 @@ def test_press_release_wire_copy_is_spam():
     assert is_spam("Babylist Opens 20,000 Square Foot Showroom in New York City: NYSE Content Update")
     assert not is_spam("At least 21 Hilo flights cancelled due to Hurricane Nolo")
     assert is_ent_excluded("블러드 레거시 시즌 2, 넷플릭스가 그리는 가족", "Martin Cid Magazine")
+
+
+def test_photos_go_only_to_our_own_articles(tmp_path, monkeypatch):
+    """사진은 우리가 쓴 기사(C)에만 붙고, 인용(B)이 잡고 있던 사진은 풀려난다.
+
+    2026-10-08 실측: 새 사진 40장 중 29장이 10-01 전 인용에 붙었다. 인용은 14일 뒤
+    지면에서 사라지고 사진은 재사용하지 않아, 그 사진들은 그대로 버려진다.
+    """
+    import src.render.site as site
+    seeds, saved = [], {}
+    monkeypatch.setattr(site, "load_manifest", lambda: {"guam": [{"file": "a.webp"}]})
+    monkeypatch.setattr(site, "assign_photos",
+                        lambda m, region, group, used: seeds.extend(i.id for i in group) or {})
+    monkeypatch.setattr(site, "load_used",
+                        lambda: {"/img/guam/b.webp": "q1", "/img/guam/c.webp": "c-9"})
+    monkeypatch.setattr(site, "save_used", lambda used: saved.update(used))
+    monkeypatch.setattr(site, "photo_places", lambda m: {})
+    monkeypatch.setattr(site, "photo_dims", lambda m, p: {})
+    monkeypatch.setattr(site, "render_og_images", lambda *a, **k: 0)
+    render_site([make("q1", "괌 인용", grade="B"), make("c-1", "괌 해설", grade="C")],
+                str(tmp_path), TODAY)
+    assert seeds == ["c-1"]
+    assert saved == {"/img/guam/c.webp": "c-9"}

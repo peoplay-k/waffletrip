@@ -585,12 +585,20 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         # 연예 기사에는 지역 사진을 자동으로 붙이지 않는다 — 괌 해변 사진이
         # 영화 개봉 기사에 붙으면 거짓 그림이 된다. 연예 사진은 편집실에서
         # 직접 찍어 올린 것(프론트매터 photo)만 쓴다.
+        #
+        # **사진은 우리가 쓴 기사(C)에만 붙인다.** 2026-10-08 실측: 새로 넣은 사진
+        # 40장 중 29장이 10-01 전에 실린 인용(B)에 붙었다. 인용은 14일 뒤 지면에서
+        # 사라지고 사진은 재사용하지 않으므로, 그 사진들은 남의 기사 요약에 일주일
+        # 걸렸다가 영영 못 쓰게 된다. 인용이 잡고 있던 사진도 여기서 풀어 준다.
         by_region: dict[str, list] = {}
         for item in items:
-            if not item.photo and item.grade != "A" and not is_ent(item):
+            if not item.photo and item.grade == "C" and not is_ent(item):
                 by_region.setdefault(item.region, []).append(item)
         # 사용 이력을 이어받는다. 한 번 쓴 사진은 다시 배정되지 않는다.
         used = load_used()
+        quoted = {i.id for i in items if i.grade == "B"}
+        for photo in [p for p, aid in used.items() if aid in quoted]:
+            del used[photo]
         for region, group in by_region.items():
             mapping = assign_photos(manifest, region, page_order(group), used)
             for item in group:
