@@ -215,6 +215,17 @@
         "guam_post",
         "saipan_tribune"
       ]
+    },
+    {
+      "date": "2026-10-08",
+      "collected": 920,
+      "published": 123,
+      "ours": 0,
+      "failed_sources": [
+        "guam_pdn",
+        "guam_post",
+        "saipan_tribune"
+      ]
     }
   ]
 }
