@@ -9,7 +9,9 @@ source_name: ''
 source_url: ''
 summary: 라오스 정부가 관광업 허가 권한을 지방·지구 당국으로 넘기기로 했습니다. 제로달러 투어와 야생동물 관련 위반에 대한 단속도 강화해
   현지 사업자를 보호한다는 방침입니다.
-status: approved
+status: published
+published_id: c-de6a5fdf89bbc1c893e78d78146b113aeded484e
+published_on: '2026-10-10'
 ---
 라오스 정부가 관광업 허가 권한을 지방·지구 당국으로 넘기기로 했다. 제로달러 투어와 야생동물 관련 위반에 대한 단속도 함께 강화해 현지 사업자를 보호하겠다는 방침이다.
 

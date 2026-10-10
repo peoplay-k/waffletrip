@@ -9,7 +9,9 @@ source_name: ''
 source_url: ''
 summary: 제주시 탑동광장 일대에서 10월 17~18일 야간관광 축제 '섬夜시즌'이 열립니다. 같은 기간 서귀포에서는 은갈치 축제가 10일까지
   사흘간 이어집니다.
-status: approved
+status: published
+published_id: c-a72017ccb05cbf9c0624c23a1b92fb5adcbba8a9
+published_on: '2026-10-10'
 ---
 제주시 원도심에서 야간관광 축제가, 서귀포항에서는 은갈치 축제가 거의 동시에 열린다. 밤에 걷고 즐길 거리를 찾는 여행자라면 날짜를 겹쳐 묶어볼 만하다.
 

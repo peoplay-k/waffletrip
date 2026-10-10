@@ -344,6 +344,7 @@
     "11fa7a39634c691d2d3a3c4562e7cf0d76314941",
     "12097e408095e2a85a78060b9715450053f0b23c",
     "1215ecdece24327573aa0c65221bb909c543b0ac",
+    "1219ffdb95689f0c8791ec62928d1996d07a081a",
     "121c2bc06ed8c5c9f2da2745231e913930040fc0",
     "121edbc76f9d3b73bbaa0ad93671e4012e149bf0",
     "1220c17670c7d25ff0fc70de891871e174822d85",
@@ -520,6 +521,7 @@
     "1b35ded0a2cd39b695912cf2faccdabd7d44ffb7",
     "1b43de647cebc4df0b1b4c12fa28a6135d6a3304",
     "1b44487e8dfbf9661d471f4a48fe763b09799ea4",
+    "1b52eae929c40426619b82e9e85505ad7c07f9a5",
     "1b5852164d2e4368bb61269f8bb010d0f6dd4e48",
     "1b8992744cdc08d96c84696319771c466636bf0b",
     "1b89badad3da4c3461be5f76600571d552ddd736",
@@ -1034,6 +1036,7 @@
     "386c0772c97ce72d637d31395bded998829a4bee",
     "387d0e1af9e0eacfd54d90b63f20c6fc8f3155a1",
     "3885426fb5776f89368f6d9128448fd1d50809da",
+    "38957dab5b652b76399d9ff076a74ae47ea2bbdc",
     "389c42f3487ecd3e7f572139bdbb231ab1011308",
     "38a4487232073e08306f7c0c5ea464e24f2cd4bd",
     "38b651c7086e437c4b8b1a011ff939eb7b113000",
@@ -1526,6 +1529,7 @@
     "5279f1b2deadf2521d6ea540eef165320c7fd132",
     "52862dca5d3cdbb033528527791ecd96b8a7b7df",
     "528691b36f9a57b369f6e7f87213f687d9540338",
+    "5287b5a86898b12fe1e0d054deb9d932c724db98",
     "529f6091b96ff2d5d86564b46dcd82f7f531eba1",
     "52aa50bce79b9a9acea2fcffbe9788a8ec83b254",
     "52c529346744c40114a7cd19deacc9745579f8fe",
@@ -1699,6 +1703,7 @@
     "5cf337c160e3d10eb905e0b11e013dccfa60b0ec",
     "5d0331d1d8606c2f23c69270ab39357b84be6b5d",
     "5d0abad6f501543d698274e36a0bdc6643e213da",
+    "5d0c9f54e9db37ac2ed2c4164a40ae55abf5e50d",
     "5d25becd34dab69165481586e656b720959abec7",
     "5d389546d18fb16a95b211026ca43404260534db",
     "5d512181b5c7b304b8e6b39fd3b1aa8d32f8ef1e",
@@ -2642,6 +2647,7 @@
     "90dd18550021342db4f89897cddf76b59b8cccd4",
     "91112e8d2b80d1f7b176cfdc2b93dcdc52ea1fc5",
     "912e5900ad1efcdbb44a01876df6e67d88972baa",
+    "913490682f4481551266f5a010d946f00920ee54",
     "913fa5a2919d495a56751e8ca34a19cbf00f5850",
     "915bea9d1d38e897d48a0ab0a737e4345633aa43",
     "917c494af7e2ce9eea80cfe80923ebc4274efab6",
@@ -3135,6 +3141,7 @@
     "add588ef76b8f00e076cead4345e79a750f0a899",
     "addc7ae991ae9102bb7fd3af9a512642d9965198",
     "adedf5b839abc1040aabe417409d7219287897f9",
+    "ae215a566d82c9cd10adc24917d131055bf12b97",
     "ae2eb22a0f7384bb2e314c59d99903dd326016d8",
     "ae354003d1cfcdeaf43229921cf7977fc35c497b",
     "ae4d2905255130576fc3fa596b5c539e71845d6c",
@@ -3449,6 +3456,7 @@
     "bf5fa71fcdfcd18d182d7da7500e9f559e9c0246",
     "bf76e626f2a3203b904794d92f2e4f6e9b9ff5cc",
     "bf8fe2634615e6e6de7bfd9d996b60292f43aa68",
+    "bf9e5c72047ccbd85bf91e1c7a594771f3b2d7ea",
     "bfa52619a44d0fb25cd7832309c77eae6c498f4f",
     "bfa63cfff6a8eed861c46959603be0b472d4a313",
     "bfbbff0e8f6c45a3630aa02c1038499f66a430cf",
@@ -3458,6 +3466,7 @@
     "c-000822466fe8c716bca29b63aaaa5fc232cf01c2",
     "c-019660fcfe1265ac8500ecb4b7c407299bb4eb2c",
     "c-03cc677c9137489487e8db8826cba47680182a97",
+    "c-06113e87f7e7888c51d253d6dd79c10c90b3f937",
     "c-06fa29df201530c6e67c6350036ad9e03dc98f7d",
     "c-07405d964d245ef286b605083f39ad08d3f79338",
     "c-090b3b3c7261eea261bd78e33efd5c0547dcbfc4",
@@ -3525,6 +3534,7 @@
     "c-7ad540dc446a7a635fa55d651508432075fdfd2e",
     "c-7b7ce519f5ce6af7bb9dc703c0c23328aa8703d9",
     "c-80da6562d6bedb262398ee67f43f336da01f20d9",
+    "c-86d898570506f576f609988179926404b401669b",
     "c-87f3a157e4fafcea850a81b846c9322f68e5ff56",
     "c-8d2eada633bb32bb32ac1fed2bd3d6698efd4c60",
     "c-8e65d237212ca0103d3c21f87e3610376be860ed",
@@ -3542,11 +3552,13 @@
     "c-a56197e2bab3863d2bfeeee6ec87806130c10c65",
     "c-a5911ba8a9be497027995aef8207f85c95438fd4",
     "c-a705c117943961a2bc29456955b5d8c35624ad7a",
+    "c-a72017ccb05cbf9c0624c23a1b92fb5adcbba8a9",
     "c-a801c4bdf0e823861d4d0df55d4e63e9d287b1be",
     "c-a96099f479d82398fe9165fec8c1352f923ddef1",
     "c-aabdac37218953d1b4621bb337ca3e849abe0cc0",
     "c-ac2fdaccb82bd479e124594634eb2ae26b694d5f",
     "c-adbdb72e8776e94f7ac38b41c2c30a81bcec17d4",
+    "c-ae0f614643536d8516a26f78188cb2176169425b",
     "c-ae4320e2a89ed4a2ed0218af50f87d87f74a75fb",
     "c-afcabf8c020770d43b528d4f046bd8ee64fb8407",
     "c-b00f972ce56442f2cbbf3f958d6a302b030057d5",
@@ -3569,10 +3581,12 @@
     "c-d919376333c28b79eb34c195fcaffa9620edd2e8",
     "c-dab436d309d9a082d7c65030fa3378a6aad1dcdc",
     "c-de594e4b2bb1b24d97865c5358d0895193344e2a",
+    "c-de6a5fdf89bbc1c893e78d78146b113aeded484e",
     "c-dee2d6be08078648738677f0ae57393674a83d4f",
     "c-dfa62dff755df38e917494ba98f6595a14941e19",
     "c-e50a0821461c52efa7eda269a582c75cc1d12c5f",
     "c-e7980d5ae96e330ae58e1f8515992b648c6e9120",
+    "c-e87f6f2fe9242aaeae9c588b725810cc1d71d6ff",
     "c-e8956fef89f832abd1646785d7cf8fb4ca6883b6",
     "c-ea6a1f045965dd90ab5f7f8acc07981f77afd186",
     "c-ec190fd310db2a1d5e8b0785f2a21132fb3a7e68",
@@ -3755,6 +3769,7 @@
     "c990aa7bdd31ec618ae1a701f865b15c306b5b6c",
     "c99d76148e4ee907307b8a76f21fb1cd10337308",
     "c9b1cb3cd37715dec7c246b94f9be19f389f5e49",
+    "c9b725f5b88780a9875ccac6356dd5471b2f2bca",
     "c9bca066911f00a9885ec84d145c345682e04cdd",
     "c9e932640c75c0fcafb8af852d81591723ca06d1",
     "ca1f1ef285603e32954f542dd60ba8e9795cd6c1",
@@ -3823,6 +3838,7 @@
     "cd128617a774638a7d35a3f79cab553046083a11",
     "cd16656eb2da79a2a56d076a65cc842625f8259f",
     "cd1e38bfbfd58b27fcf32e594a14e212caad1ea4",
+    "cd25544079f029b3d78a5593a569fd7a4214ea11",
     "cd278badec6466c549c901af5e02bc61e24ec6c0",
     "cd35e6afb7f5a288af1da4deed3ea43299476f9e",
     "cd3753650c3d8a2afb23bb649046aeaf42afe6d0",
@@ -3835,6 +3851,7 @@
     "cd733fcb6b02b0f2642fb60976b53465fed78521",
     "cd7483e43b40777203bceffff757e2a440f1ca67",
     "cd7c885db29afb73e595da565195d88e4088506e",
+    "cd87288eb81ec7a4a797c552981948b05964ce46",
     "cd88df78b97117eb74f4ab89e77a84c0a1b2a4dd",
     "cd8a5ed151da1c782315a684ed54ff8a485fee41",
     "cd9628848c2416937f5e0a67a2bc4600cca74679",
@@ -4761,6 +4778,7 @@
     "fe9dc41591a5f999f19fcde584fb6d659d4f8806",
     "feaf74bc3b861dfa616502f58869cdc176bd62e6",
     "feb75b2a47d1d1705a25cd765d998d3b25d24d79",
+    "fec0edb400b870758d28e890572a8b257049c82a",
     "feeeffd06418f26147b5e5e841c04bb7a6d9c9a5",
     "feff9af1a34957de91d1b0e5631a18eeba1f3da3",
     "ff352c7607b971fa971dea461f85a5b1029097c6",
@@ -25475,6 +25493,132 @@
       "title": "한국행 10시간 지연까지…방콕 홍수 대응 논란에 타이항공 CEO 해임",
       "date": "2026-10-10",
       "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "c-86d898570506f576f609988179926404b401669b",
+      "title": "다낭 손트라반도 관광 전면 중단, 그래도 항공권은 '임박특가'",
+      "date": "2026-10-10",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
+      "id": "c-e87f6f2fe9242aaeae9c588b725810cc1d71d6ff",
+      "title": "부산국제영화제, 쿠아론 감독 첫 내한에 아시아콘텐츠마켓도 개막",
+      "date": "2026-10-10",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-ae0f614643536d8516a26f78188cb2176169425b",
+      "title": "엔화 약세 타고 늘어난 일본행, 모두투어 오키나와 '하이엔드' 기획전",
+      "date": "2026-10-10",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "c-06113e87f7e7888c51d253d6dd79c10c90b3f937",
+      "title": "제주공항 상습 지연, AI로 풀릴까…한국공항공사 연구 착수",
+      "date": "2026-10-10",
+      "region": "jeju",
+      "grade": "C"
+    },
+    {
+      "id": "c-a72017ccb05cbf9c0624c23a1b92fb5adcbba8a9",
+      "title": "제주 원도심 밤길에 2000명, 서귀포는 은갈치 축제",
+      "date": "2026-10-10",
+      "region": "jeju",
+      "grade": "C"
+    },
+    {
+      "id": "c-de6a5fdf89bbc1c893e78d78146b113aeded484e",
+      "title": "라오스, 관광업 허가 권한을 지방정부로 넘긴다",
+      "date": "2026-10-10",
+      "region": "laos",
+      "grade": "C"
+    },
+    {
+      "id": "1b52eae929c40426619b82e9e85505ad7c07f9a5",
+      "title": "BIFF #5호 [스페셜] 소녀, 소년을 만나다, 윤단비 감독",
+      "date": "2026-10-10",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "ae215a566d82c9cd10adc24917d131055bf12b97",
+      "title": "연상호 감독 \"부산영화제 덕에 먹고 산다\" 좋아하는 일을 직업으로 삼게 해준 계기 [BIFF]",
+      "date": "2026-10-10",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "913490682f4481551266f5a010d946f00920ee54",
+      "title": "Panama earthquake poses no tsunami threat to Hawaii",
+      "date": "2026-10-10",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "5287b5a86898b12fe1e0d054deb9d932c724db98",
+      "title": "FEMA rental aid available for Kona earthquake survivors",
+      "date": "2026-10-10",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "bf9e5c72047ccbd85bf91e1c7a594771f3b2d7ea",
+      "title": "Wildland fire near Great Falls burns 200 acres",
+      "date": "2026-10-10",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "fec0edb400b870758d28e890572a8b257049c82a",
+      "title": "Bracing for ‘Super El Niño’ | Insurify",
+      "date": "2026-10-10",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "c9b725f5b88780a9875ccac6356dd5471b2f2bca",
+      "title": "Helena crews prepare for weekend snow and road clearing",
+      "date": "2026-10-10",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "cd87288eb81ec7a4a797c552981948b05964ce46",
+      "title": "Spring or fall? Plants ‘confused’ after record hot summer",
+      "date": "2026-10-10",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "38957dab5b652b76399d9ff076a74ae47ea2bbdc",
+      "title": "Sewage sickness? Reports of illness after dips in UK waters climb",
+      "date": "2026-10-10",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "cd25544079f029b3d78a5593a569fd7a4214ea11",
+      "title": "정주리 감독 \"프로이트 도라를 전복한 게 '도라'입니다\"",
+      "date": "2026-10-10",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "5d0c9f54e9db37ac2ed2c4164a40ae55abf5e50d",
+      "title": "부산국제영화제 오늘(6일) 개막... 개막식 시간부터 배우 라인업까지",
+      "date": "2026-10-10",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "1219ffdb95689f0c8791ec62928d1996d07a081a",
+      "title": "[포토] ‘부산국제영화제 개막’ 막바지 준비로 분주",
+      "date": "2026-10-10",
+      "region": "",
       "grade": "B"
     }
   ]
