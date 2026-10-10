@@ -9,7 +9,9 @@ source_name: ''
 source_url: ''
 summary: 사바 관광·문화·환경부 장관이 코타키나발루 인기 섬 사피섬 인근에서 스노클링하던 사람들 가까이 헤엄친 악어가 목격돼 포획용 덫을 설치했다고
   밝혔습니다.
-status: approved
+status: published
+published_id: c-81f6613d719ca787a9edecfc259434821c55ca4e
+published_on: '2026-10-10'
 ---
 코타키나발루 앞바다의 인기 섬 사피섬 인근에서 악어가 목격돼 당국이 포획용 덫을 설치했다. 섬 호핑과 스노클링을 계획한 여행자라면 알아둘 소식이다.
 

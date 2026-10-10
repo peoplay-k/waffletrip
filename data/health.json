@@ -224,9 +224,9 @@
     },
     {
       "date": "2026-10-10",
-      "collected": 973,
-      "published": 98,
-      "ours": 6,
+      "collected": 960,
+      "published": 100,
+      "ours": 8,
       "failed_sources": [
         "guam_post",
         "saipan_tribune"

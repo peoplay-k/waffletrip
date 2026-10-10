@@ -344,7 +344,6 @@
     "11fa7a39634c691d2d3a3c4562e7cf0d76314941",
     "12097e408095e2a85a78060b9715450053f0b23c",
     "1215ecdece24327573aa0c65221bb909c543b0ac",
-    "1219ffdb95689f0c8791ec62928d1996d07a081a",
     "121c2bc06ed8c5c9f2da2745231e913930040fc0",
     "121edbc76f9d3b73bbaa0ad93671e4012e149bf0",
     "1220c17670c7d25ff0fc70de891871e174822d85",
@@ -1805,6 +1804,7 @@
     "62638aac5c5d63cbaf9c13d1559767fbc88c03c7",
     "6266054d0ee40c5eae2308af73b368f40f375520",
     "6275051ccdd593a904250ded06aed75790478771",
+    "6293e885268f3b880fb688ef584237df8bfbf861",
     "6298df82c0c73d963ff9c4efe79bd81b80ca1c2b",
     "62b6463cba6a0bc4f01b25ffeb3f97d1731a1c23",
     "62bb521751edd7857308f394f60b6542229c4225",
@@ -3533,7 +3533,9 @@
     "c-789bfe979a09f930417ff7433b108e70c417f2d0",
     "c-7ad540dc446a7a635fa55d651508432075fdfd2e",
     "c-7b7ce519f5ce6af7bb9dc703c0c23328aa8703d9",
+    "c-7f561b8f796a996b892e20e4b42332a8c4a3ab09",
     "c-80da6562d6bedb262398ee67f43f336da01f20d9",
+    "c-81f6613d719ca787a9edecfc259434821c55ca4e",
     "c-86d898570506f576f609988179926404b401669b",
     "c-87f3a157e4fafcea850a81b846c9322f68e5ff56",
     "c-8d2eada633bb32bb32ac1fed2bd3d6698efd4c60",
@@ -3838,7 +3840,6 @@
     "cd128617a774638a7d35a3f79cab553046083a11",
     "cd16656eb2da79a2a56d076a65cc842625f8259f",
     "cd1e38bfbfd58b27fcf32e594a14e212caad1ea4",
-    "cd25544079f029b3d78a5593a569fd7a4214ea11",
     "cd278badec6466c549c901af5e02bc61e24ec6c0",
     "cd35e6afb7f5a288af1da4deed3ea43299476f9e",
     "cd3753650c3d8a2afb23bb649046aeaf42afe6d0",
@@ -4062,6 +4063,7 @@
     "d85bfcb2ac6fadcc1d0f538add147df275ba438d",
     "d85de6c991241f29edcbfec93764b7c52a1a8500",
     "d870f5431792c71e571bec08c601bfa99c122b6b",
+    "d876ee308eb0fa5dc1b701fdaf5e8b9537db3f68",
     "d8dfa379a9614bf97bae63bd5301e54fce4ef122",
     "d8f7e2d5443f019de3a807b6a79b2c26f87f6efc",
     "d905359793ccaa810a7839b4009db691d3473936",
@@ -25531,10 +25533,24 @@
       "grade": "C"
     },
     {
+      "id": "c-81f6613d719ca787a9edecfc259434821c55ca4e",
+      "title": "코타키나발루 사피섬 인근에서 악어 목격, 당국이 덫 설치",
+      "date": "2026-10-10",
+      "region": "kota",
+      "grade": "C"
+    },
+    {
       "id": "c-de6a5fdf89bbc1c893e78d78146b113aeded484e",
       "title": "라오스, 관광업 허가 권한을 지방정부로 넘긴다",
       "date": "2026-10-10",
       "region": "laos",
+      "grade": "C"
+    },
+    {
+      "id": "c-7f561b8f796a996b892e20e4b42332a8c4a3ab09",
+      "title": "태국 홍수, 성수기 관광 타격…황금연휴 중국인 방문객 예상 밑돌아",
+      "date": "2026-10-10",
+      "region": "thailand",
       "grade": "C"
     },
     {
@@ -25601,8 +25617,8 @@
       "grade": "B"
     },
     {
-      "id": "cd25544079f029b3d78a5593a569fd7a4214ea11",
-      "title": "정주리 감독 \"프로이트 도라를 전복한 게 '도라'입니다\"",
+      "id": "d876ee308eb0fa5dc1b701fdaf5e8b9537db3f68",
+      "title": "제31회 부산국제영화제 화려한 개막…배우 김민하·전도연·김도연, 샤넬 룩 공개",
       "date": "2026-10-10",
       "region": "",
       "grade": "B"
@@ -25615,8 +25631,8 @@
       "grade": "B"
     },
     {
-      "id": "1219ffdb95689f0c8791ec62928d1996d07a081a",
-      "title": "[포토] ‘부산국제영화제 개막’ 막바지 준비로 분주",
+      "id": "6293e885268f3b880fb688ef584237df8bfbf861",
+      "title": "부산국제영화제 개막…열흘간 영화의 바다",
       "date": "2026-10-10",
       "region": "",
       "grade": "B"

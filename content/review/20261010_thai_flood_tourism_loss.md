@@ -9,7 +9,9 @@ source_name: ''
 source_url: ''
 summary: 방콕 등지의 광범위한 홍수가 태국 성수기 관광에 타격을 줬고, 황금연휴 기간 태국을 찾은 중국인 관광객이 예상치를 밑돌았다는 보도가
   나왔습니다.
-status: approved
+status: published
+published_id: c-7f561b8f796a996b892e20e4b42332a8c4a3ab09
+published_on: '2026-10-10'
 ---
 방콕을 비롯한 태국 여러 지역의 홍수가 항공편 차질을 넘어 관광업 전반으로 번지고 있다. 태국 관광업계가 홍수로 인한 손실을 우려하고 있다는 보도가 나왔다.
 
