@@ -1,14 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-09-10",
-      "collected": 670,
-      "published": 101,
-      "failed_sources": [
-        "guam_pdn"
-      ]
-    },
-    {
       "date": "2026-09-11",
       "collected": 681,
       "published": 62,
@@ -228,6 +220,47 @@
       "published": 100,
       "ours": 8,
       "failed_sources": [
+        "guam_post",
+        "saipan_tribune"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "collected": 412,
+      "published": 36,
+      "ours": 0,
+      "failed_sources": [
+        "gn_bangkok",
+        "gn_danang",
+        "gn_ent_awards",
+        "gn_ent_chart",
+        "gn_ent_drama",
+        "gn_ent_festival",
+        "gn_ent_kculture",
+        "gn_ent_movie",
+        "gn_ent_music",
+        "gn_ent_ott",
+        "gn_ent_overseas",
+        "gn_ent_startrip",
+        "gn_ent_top",
+        "gn_fukuoka",
+        "gn_guam",
+        "gn_guam_en",
+        "gn_hawaii",
+        "gn_japan",
+        "gn_kota",
+        "gn_laos",
+        "gn_laos_en",
+        "gn_nhatrang",
+        "gn_okinawa",
+        "gn_osaka",
+        "gn_sabah_en",
+        "gn_saipan",
+        "gn_saipan_en",
+        "gn_sapporo",
+        "gn_taiwan",
+        "gn_thailand",
+        "gn_tokyo",
         "guam_post",
         "saipan_tribune"
       ]
