@@ -7,8 +7,11 @@ kind: 보도자료
 title: 한국인의 베트남행, 2년째 줄고 있다
 source_name: ''
 source_url: ''
-summary: VnExpress는 한국인의 베트남 방문이 원화 약세, 항공편 감소, 경쟁 심화 속에 2년째 줄고 있다고 보도했습니다. 구체적인 감소율이나 방문객 수는 이번 보도에 나오지 않습니다.
-status: approved
+summary: VnExpress는 한국인의 베트남 방문이 원화 약세, 항공편 감소, 경쟁 심화 속에 2년째 줄고 있다고 보도했습니다. 구체적인 감소율이나
+  방문객 수는 이번 보도에 나오지 않습니다.
+status: published
+published_id: c-00f23792adf97dfc96279d907d5e7ef5abd606bf
+published_on: '2026-10-11'
 ---
 베트남을 찾는 한국인 관광객이 줄어드는 흐름이 꺾이지 않고 있다. VnExpress는 10월 10일 보도에서 한국인의 베트남 방문이 **2년째 감소세**라고 전했다.
 
