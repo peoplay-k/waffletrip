@@ -966,6 +966,7 @@
     "30f4c01c4315edb8d2373b33364149a53ee3ab72",
     "30f73b6947c61395665aa489d983f56e636762ae",
     "30fe91d0e83c3aeaf30205ec1e0cc7fa2fb53e53",
+    "310e28d31ce05b7c62d5e413e4f96903ffc4d7c2",
     "31227498fa6fbf10d8754695215d9582cb2b9b2c",
     "31267c5118e41d16e9d910c713392755d3b5cc8e",
     "313031895b5b9951c337517ed67fffb3444e79ad",
@@ -3687,6 +3688,7 @@
     "bff955db65d0d7114147048d15c00a303eb28eaf",
     "c-000822466fe8c716bca29b63aaaa5fc232cf01c2",
     "c-00f23792adf97dfc96279d907d5e7ef5abd606bf",
+    "c-013b96e2ebe896e40baada70bcafe1e74b873dcc",
     "c-019660fcfe1265ac8500ecb4b7c407299bb4eb2c",
     "c-03cc677c9137489487e8db8826cba47680182a97",
     "c-04e67a5fb50247ac26e1e2ef2b60e40b82fc5140",
@@ -3821,6 +3823,7 @@
     "c-dee2d6be08078648738677f0ae57393674a83d4f",
     "c-dfa62dff755df38e917494ba98f6595a14941e19",
     "c-e50a0821461c52efa7eda269a582c75cc1d12c5f",
+    "c-e590e5627613cc14e2bdd25bd158d5ab0449796a",
     "c-e7980d5ae96e330ae58e1f8515992b648c6e9120",
     "c-e87f6f2fe9242aaeae9c588b725810cc1d71d6ff",
     "c-e8956fef89f832abd1646785d7cf8fb4ca6883b6",
@@ -4267,7 +4270,6 @@
     "d577cc5b7e83792ac2def7e38f977496ff67ec59",
     "d58dd6b5ff556707d92cf2454789ee5f9eab03db",
     "d599c550f2c2645e4eb94cba735d606ee6322a74",
-    "d59b70574cda16bf14174f4a6bcc1ea405aa4c1a",
     "d5bee1b27fbbe7ae7dc5c014e768f826953f341e",
     "d5bf0c951fbcea5d771f986569e7ccafabf046e0",
     "d5c392ccaa3977ef440bf0ec267878fa4add6037",
@@ -26556,6 +26558,13 @@
       "grade": "C"
     },
     {
+      "id": "c-e590e5627613cc14e2bdd25bd158d5ab0449796a",
+      "title": "괌, '쉬는 여행'서 '움직이는 여행'으로…한국인 감소에 꺼낸 카드",
+      "date": "2026-10-13",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
       "id": "c-eca2aae9e316dc9b377c589dd35d3efddd1aae5d",
       "title": "청주·제주서 구마모토로, 이번 겨울 일본 소도시 노선이 늘어난다",
       "date": "2026-10-13",
@@ -26584,6 +26593,13 @@
       "grade": "C"
     },
     {
+      "id": "c-013b96e2ebe896e40baada70bcafe1e74b873dcc",
+      "title": "사이공-냐짱에 고품질 열차, 베트남 철도관광 손본다",
+      "date": "2026-10-13",
+      "region": "vietnam",
+      "grade": "C"
+    },
+    {
       "id": "50d371d9b2f4fcfece476e816bfcc82d30182131",
       "title": "신예부터 톱스타까지 12팀 확정…'2026 MAMA' 1차 라인업 공개",
       "date": "2026-10-13",
@@ -26598,10 +26614,10 @@
       "grade": "B"
     },
     {
-      "id": "d59b70574cda16bf14174f4a6bcc1ea405aa4c1a",
-      "title": "비하인드 더 신: 2026 부산 국제 록 페스티벌",
+      "id": "310e28d31ce05b7c62d5e413e4f96903ffc4d7c2",
+      "title": "More med spas than McDonald's? 2027 forecasts say yes.",
       "date": "2026-10-13",
-      "region": "",
+      "region": "guam",
       "grade": "B"
     },
     {

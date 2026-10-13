@@ -9,7 +9,9 @@ source_name: ''
 source_url: ''
 summary: 괌이 가족·태교여행지 이미지에서 '액티브 웰니스'·스포츠 데스티네이션으로 방향을 바꾸고 있습니다. PIC괌호텔은 올인클루시브 서비스를
   강화했고, 괌정부관광청은 서울 테니스 행사에 후원사로 참여해 액티비티 콘텐츠를 알렸습니다.
-status: approved
+status: published
+published_id: c-e590e5627613cc14e2bdd25bd158d5ab0449796a
+published_on: '2026-10-13'
 ---
 괌이 여행지 이미지를 바꾸고 있다. 동방일보는 10월 12일 보도에서 한동안 가족여행·태교여행의 대표 휴양지로 꼽혔던 괌이 **'액티브 웰니스(Active Wellness)'**와 **'스포츠 데스티네이션(Sports Destination)'**을 내세워 여행지 이미지를 빠르게 바꾸고 있다고 전했다.
 

@@ -7,9 +7,10 @@ kind: 보도자료
 title: 사이공-냐짱에 고품질 열차, 베트남 철도관광 손본다
 source_name: ''
 source_url: ''
-summary: 베트남 철도 운송 주식회사가 철도 관광 유치를 위해 사이공(호찌민)-냐짱(나트랑) 노선에 고품질 SNT1/SNT2 열차 서비스를
-  도입했습니다.
-status: approved
+summary: 베트남 철도 운송 주식회사가 철도 관광 유치를 위해 사이공(호찌민)-냐짱(나트랑) 노선에 고품질 SNT1/SNT2 열차 서비스를 도입했습니다.
+status: published
+published_id: c-013b96e2ebe896e40baada70bcafe1e74b873dcc
+published_on: '2026-10-13'
 ---
 베트남 철도 운송 주식회사가 사이공(호찌민)과 냐짱(나트랑)을 잇는 노선에 고품질 열차를 새로 넣었다. vietnam.vn은 10월 13일 보도에서 이 회사가 철도 관광 유치를 위해 **사이공-냐짱 노선**에 **고품질 SNT1/SNT2 열차 서비스**를 도입했다고 전했다.
 
