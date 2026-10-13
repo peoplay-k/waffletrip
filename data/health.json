@@ -232,10 +232,11 @@
     },
     {
       "date": "2026-10-13",
-      "collected": 987,
-      "published": 112,
-      "ours": 0,
+      "collected": 952,
+      "published": 121,
+      "ours": 5,
       "failed_sources": [
+        "guam_pdn",
         "guam_post",
         "saipan_tribune"
       ]

@@ -15,6 +15,7 @@
     "00ce9353a1256be62f5712840e63bf7d469dacee",
     "00e22a8e42f2fed30e4aedd98429e6d049cab82b",
     "00e245db65395c163dec7da62eb912d9f1c2efec",
+    "00f1dd0335597c4f103e50c2b16766d0eaf3942b",
     "00f3c4d6ed4e67afbddfb539093249c2410c28e4",
     "00fc32c0c2677a900ab6d70e167738a2762be139",
     "0100e10b2004de9b58249487827671b496a9810d",
@@ -1590,6 +1591,7 @@
     "50be97eaf628bd6b83b90c5b4358e2b180c0de9f",
     "50beca9fe1b85e16a32327cd6d8cd5a964b53ab8",
     "50d24e9f1939d34580e25285f41f0a48400298a1",
+    "50d371d9b2f4fcfece476e816bfcc82d30182131",
     "50dfdc2fee729d43feedb6ea1cfefc7db045c8eb",
     "5110fe42d535327dff54e1323da44895746d278a",
     "5118d8506e863fcfc7c591ed9bd2dc86905f33e8",
@@ -3722,6 +3724,7 @@
     "c-34644421401faf2436bfbc9f6ec007e05a3b7b9d",
     "c-3530f9e37c21d016ec504e62e7104616decfb7ab",
     "c-36d2381a59b0c106826d22c54816af2e29721e99",
+    "c-396587cb2df1338897079eaef534829e64717bdb",
     "c-3ce78eac5cd032a6ba55e497b03cf13db125bc7c",
     "c-3d5e3e044db054de10e62306ec96e214b439f8e7",
     "c-43098c38c0dd69692ac31a351092899c254fd452",
@@ -3735,12 +3738,14 @@
     "c-4b85315badf80b1a2a994993056e1a9e17de69ed",
     "c-4c83ebc9ee2528ad05cd60766c9a13d0b4f0d5d5",
     "c-4cf7f1a267eba521a55ea7cb1a6d4a85b48934a3",
+    "c-4f62ae09a6390760c75536ef96d3a0d5a69a7758",
     "c-5149b14bd37255bf7ac3ad6e761c81c83f204c77",
     "c-5190c438ce32daf49ef21f53454282ad6a33abe7",
     "c-53ad37c60a5c1208d8537db495f2cac7d3363ada",
     "c-56733933f9c19c51c01ad093a649c1f655f2e847",
     "c-58caaf115d87e835b0a3fc605c05e98bf112c539",
     "c-58f16ee74c5870b53151f0314304eb0cf73db1c9",
+    "c-628a505c92d0b6341ef8d98cb0379648fe7d55e7",
     "c-648ccef4562a57d526786ed2efe117a7a8b7f2a9",
     "c-64c48b3e67a16a421acade9a2a2c911c0a221523",
     "c-67730aac5297f09be0d0baec645be918b41147d5",
@@ -3822,6 +3827,7 @@
     "c-ea6a1f045965dd90ab5f7f8acc07981f77afd186",
     "c-ec190fd310db2a1d5e8b0785f2a21132fb3a7e68",
     "c-ec630a59ef0dbbc91582e3de964708f6fffe6f8c",
+    "c-eca2aae9e316dc9b377c589dd35d3efddd1aae5d",
     "c-ee82d04709f1ea1906068cddb924d3405305bb96",
     "c-f396e11705d21a4493e37067b9d7494e6c0eb601",
     "c-f3c9b0b2f0b0dc026ea55923b6b00cf1cf1b738a",
@@ -3830,6 +3836,7 @@
     "c-f7658ef0eb6b84dce6af77615b4fdb387a0f1f9d",
     "c-f858426d92f6fe21b440696997346a65f743e70e",
     "c-f87849906a13ee65e016390752c2dde9f6490b81",
+    "c-fab05d411dc788e456c65c863457569eea011daf",
     "c-fb2990625d8cf5f28c8d0904099f8a2e5f81d2cc",
     "c-fb61c773430136fd1bb6e8a3ab07acde59757f7e",
     "c-fcf469de877f4d28d5f181c3717f7168b5aa3b72",
@@ -4018,6 +4025,7 @@
     "c9b1cb3cd37715dec7c246b94f9be19f389f5e49",
     "c9b725f5b88780a9875ccac6356dd5471b2f2bca",
     "c9bca066911f00a9885ec84d145c345682e04cdd",
+    "c9c45aef9bc357b70a24dbdb0226bd23af4ef13e",
     "c9da1674055e7380d9097a4086f2c8e33cc0b255",
     "c9e932640c75c0fcafb8af852d81591723ca06d1",
     "ca1f1ef285603e32954f542dd60ba8e9795cd6c1",
@@ -4259,6 +4267,7 @@
     "d577cc5b7e83792ac2def7e38f977496ff67ec59",
     "d58dd6b5ff556707d92cf2454789ee5f9eab03db",
     "d599c550f2c2645e4eb94cba735d606ee6322a74",
+    "d59b70574cda16bf14174f4a6bcc1ea405aa4c1a",
     "d5bee1b27fbbe7ae7dc5c014e768f826953f341e",
     "d5bf0c951fbcea5d771f986569e7ccafabf046e0",
     "d5c392ccaa3977ef440bf0ec267878fa4add6037",
@@ -26537,6 +26546,69 @@
       "title": "도쿄 호텔 메트로폴리탄 에드몬트, 10월 9일부터 크리스마스 케이크 예약 시작 (케이크 6종 및 델리 3종)",
       "date": "2026-10-13",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "c-4f62ae09a6390760c75536ef96d3a0d5a69a7758",
+      "title": "데브시스터즈, 쿠키런 애니메이션 영화 만든다…2029년 글로벌 개봉 목표",
+      "date": "2026-10-13",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-eca2aae9e316dc9b377c589dd35d3efddd1aae5d",
+      "title": "청주·제주서 구마모토로, 이번 겨울 일본 소도시 노선이 늘어난다",
+      "date": "2026-10-13",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "c-396587cb2df1338897079eaef534829e64717bdb",
+      "title": "제주 버스 노선, 9년 만에 다시 짠다…마을 안길까지 순환버스 검토",
+      "date": "2026-10-13",
+      "region": "jeju",
+      "grade": "C"
+    },
+    {
+      "id": "c-fab05d411dc788e456c65c863457569eea011daf",
+      "title": "제주 외국인 관광객 소비 44%↑, 내국인은 거꾸로 줄었다",
+      "date": "2026-10-13",
+      "region": "jeju",
+      "grade": "C"
+    },
+    {
+      "id": "c-628a505c92d0b6341ef8d98cb0379648fe7d55e7",
+      "title": "베트남항공, 라오스·캄보디아와 MOU…인도차이나 관광 연결 넓힌다",
+      "date": "2026-10-13",
+      "region": "laos",
+      "grade": "C"
+    },
+    {
+      "id": "50d371d9b2f4fcfece476e816bfcc82d30182131",
+      "title": "신예부터 톱스타까지 12팀 확정…'2026 MAMA' 1차 라인업 공개",
+      "date": "2026-10-13",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "00f1dd0335597c4f103e50c2b16766d0eaf3942b",
+      "title": "日관광청 \"유명관광지 숙박세·이중요금제, 자율판단에 맡길 것\"",
+      "date": "2026-10-13",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "d59b70574cda16bf14174f4a6bcc1ea405aa4c1a",
+      "title": "비하인드 더 신: 2026 부산 국제 록 페스티벌",
+      "date": "2026-10-13",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "c9c45aef9bc357b70a24dbdb0226bd23af4ef13e",
+      "title": "'나는 자연인이다' 윤택·이승윤 동반 예능 출연..'자연인' 15년 방송 비하인드 공개",
+      "date": "2026-10-13",
+      "region": "",
       "grade": "B"
     }
   ]
