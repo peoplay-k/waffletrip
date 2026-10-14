@@ -9,7 +9,9 @@ source_name: ''
 source_url: ''
 summary: 나트랑으로 가는 고속열차 내부가 공개됐고, 호찌민-나트랑 크루즈는 8시간이 걸립니다. 연중 300일 넘는 맑은 날씨와 교통 인프라가
   나트랑을 사계절 관광지로 바꾸고 있다는 분석도 나왔습니다.
-status: approved
+status: published
+published_id: c-ef73bff944c02ccf04a3fba4837fc0e22eb51e30
+published_on: '2026-10-14'
 ---
 피플로드는 지난 13일 호찌민(사이공)-나트랑(냐짱) 노선에 고품질 열차 SNT1/SNT2가 새로 들어왔다고 전했다. 이번에는 그 열차의 내부와, 나트랑을 오가는 또 다른 교통수단의 모습이 추가로 드러났다.
 
