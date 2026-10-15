@@ -1,12 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-09-14",
-      "collected": 744,
-      "published": 143,
-      "failed_sources": []
-    },
-    {
       "date": "2026-09-15",
       "collected": 655,
       "published": 93,
@@ -239,6 +233,16 @@
       "ours": 6,
       "failed_sources": [
         "guam_post",
+        "saipan_tribune"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "collected": 949,
+      "published": 122,
+      "ours": 0,
+      "failed_sources": [
+        "guam_pdn",
         "saipan_tribune"
       ]
     }
