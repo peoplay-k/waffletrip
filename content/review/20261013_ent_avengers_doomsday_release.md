@@ -5,11 +5,13 @@ region: ''
 category: movie
 section: news
 kind: 보도자료
-title: "'어벤져스: 둠스데이' 12월 16일 개봉 확정"
+title: '''어벤져스: 둠스데이'' 12월 16일 개봉 확정'
 source_name: ''
 source_url: ''
-summary: "배급사 월트디즈니컴퍼니코리아는 12일 영화 '어벤져스: 둠스데이'가 12월 16일 개봉한다고 밝혔습니다."
-status: approved
+summary: '배급사 월트디즈니컴퍼니코리아는 12일 영화 ''어벤져스: 둠스데이''가 12월 16일 개봉한다고 밝혔습니다.'
+status: published
+published_id: c-db8c152de95ee856ebbc4cccabba0750843a01f0
+published_on: '2026-10-15'
 ---
 배급사 월트디즈니컴퍼니코리아는 10월 12일 영화 **'어벤져스: 둠스데이'**가 **12월 16일** 개봉한다고 밝혔다. 연합뉴스는 같은 날 보도에서 이 영화를 "올해 최고 기대작 중 하나"로 전했다.
 
