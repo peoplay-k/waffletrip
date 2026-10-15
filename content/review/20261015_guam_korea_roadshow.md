@@ -9,7 +9,9 @@ source_name: ''
 source_url: ''
 summary: 괌정부관광청이 10월 14일 서울 콘래드 서울에서 '2026 코리아 로드쇼'를 열고 SBS미디어넷과 MOU를 맺었습니다. 차모로 문화를
   강조하는 지속가능 여행지로의 체질 개선을 내걸고, 유튜브·방송 콘텐츠를 활용한 미디어 마케팅도 함께 알렸습니다.
-status: approved
+status: published
+published_id: c-08c81de084502b54516b419fdf28eff73f94fe4a
+published_on: '2026-10-15'
 ---
 괌정부관광청이 '체질 개선'을 선언했다. TTL뉴스는 10월 14일 보도에서 괌정부관광청이 이날 서울 여의도 콘래드 서울에서 **'2026 괌정부관광청 코리아 로드쇼(2026 Guam Visitors Bureau Korea Roadshow)'**를 열고, **'차모로 문화를 강조하는 지속가능 여행 목적지'**로 방향을 바꾸겠다고 밝혔다고 전했다.
 
