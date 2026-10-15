@@ -756,6 +756,7 @@
     "22b59a36570541454fd2b3aecccbab1666c66a05",
     "22ba8129ff86640e24a8442f5c69c4d17a861b00",
     "22c66d32a060ff090d83d7020459a29981f7e2b9",
+    "22e7648064a6a5ff0d024e1d58c08590eb99c6a0",
     "22f4afcb4433a782959627674c697c2ebed81d89",
     "22f9e8b4e9fefae8f22c81ad5d8a7a1d2042f5a3",
     "2305c061b1d13092d5969d7afc069abf197709ca",
@@ -4029,6 +4030,7 @@
     "c-08c81de084502b54516b419fdf28eff73f94fe4a",
     "c-090b3b3c7261eea261bd78e33efd5c0547dcbfc4",
     "c-0c9c86d1c232fce358e42ff8b744d5237441d5f9",
+    "c-0df028821c7e3f73dbb4ad36c76cb961c32c2a8e",
     "c-0fc957ecc5b348591eedd4e9ea374b88da7784e4",
     "c-1030671654d3a15d9bf8069f2fbc50d5881c7424",
     "c-1054804476dabb99a5daaecf02b3fb84a5b09e5d",
@@ -4051,6 +4053,7 @@
     "c-2b36fa788042ea56da4a8cb056b3f304962a6cbc",
     "c-2bd74855a9f16f1ae4bf4e8c7a776286f5bbeb66",
     "c-2c040ac9240ab8c55731a6842c54cf0a6a8100a5",
+    "c-2cc4445230580097e1a75d87f4b019380205c28f",
     "c-2ccdf87770442f44947cb96be104f193d4a3854a",
     "c-2ce9ab46baadcfefc98a4ad487bcafdeb1af9a1f",
     "c-2e4aebc97eec81fa4752fa26d703edafae109fd7",
@@ -28822,6 +28825,27 @@
       "title": "‘양적 관광 시대’의 함정, 질적 생태계 구축이 먼저다 [김기헌의 관광 시론]",
       "date": "2026-10-15",
       "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "c-0df028821c7e3f73dbb4ad36c76cb961c32c2a8e",
+      "title": "에어인디아 인천-델리, 26일부터 매일 운항…올해 두 번째 증편",
+      "date": "2026-10-15",
+      "region": "industry",
+      "grade": "C"
+    },
+    {
+      "id": "c-2cc4445230580097e1a75d87f4b019380205c28f",
+      "title": "3분기 패키지 모객 하나투어 11.5%·모두투어 19.4% 줄었다…그래도 '노쇼핑' 상품은 커졌다",
+      "date": "2026-10-15",
+      "region": "industry",
+      "grade": "C"
+    },
+    {
+      "id": "22e7648064a6a5ff0d024e1d58c08590eb99c6a0",
+      "title": "서부경남관광진흥협의회, 대만 관광설명회 개최",
+      "date": "2026-10-15",
+      "region": "taiwan",
       "grade": "B"
     }
   ]
