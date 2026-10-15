@@ -1688,6 +1688,7 @@
     "5118d8506e863fcfc7c591ed9bd2dc86905f33e8",
     "512d4a6fd601069bf339921599110ed5e6b3f356",
     "512e9b4f4cf66e25cf0d424f0324c237082105b1",
+    "514056e90d0e36efdba78c3dc1817e0fb8e40ef3",
     "514934cf1ba1814fa8fe71005813c5a4403cbdca",
     "5158f274b36d647e096954165fcf0cfcef704ed1",
     "5159e86dc263d78250c2f85f5a45c0e4aa6362c4",
@@ -2150,6 +2151,7 @@
     "67fa2a227f9f2f59dfd373d33f07c8f3327e9d48",
     "6812f9a8e3ca6275682146b7278c76880bb5ed53",
     "6816726670b29fe465fc0dd1c64a6903c8ab32dc",
+    "683233137629dbc4970cdec3ee400bcdd4c43743",
     "683faa05d76e4b439c59fc5c86276bc9cf9cae74",
     "684130b4da12c998674f0482a02e51cffa9e3599",
     "68604b0a8554575e3c3a3be67a5578f583b030ee",
@@ -2170,6 +2172,7 @@
     "690bb147a22d6334956d37c70468ff508347be61",
     "6911cf8314a8dd4104a2a9e713c71dc4a160c75e",
     "6936ce272219722a5b218c1bca1c55fd70531ef3",
+    "695f113d3aebdeb77cde0ad78fc269dec0c6428f",
     "6966f4a2c55a46552d56b66cb69b84b3777b5957",
     "696c29a79d31f6c4200a466e26735ddffa765969",
     "698091f97052e8efb2edd04340ab8e5f98275351",
@@ -3097,6 +3100,7 @@
     "97e473e84b65b84584ec017b4a76943b4dadb0da",
     "97e9cc10cfd57b04cb2d20abdc25103478bceb46",
     "97f977e6cef8c5c9c0d4729f1b4ffb35caef21a1",
+    "98020e3ee90f2506bbfa508cdf6f5b33d99fa56c",
     "9802a3205b1fab27f790bbc279e73727a100a549",
     "9814deb84fa205bdc6ab9bb5e3ed6816f9974cde",
     "9816745f69bbc097f83578ee2e7a54b79910b273",
@@ -3399,6 +3403,7 @@
     "a780d4956870660f2cf18f45c913b18113917c9a",
     "a7875dc81f17af16e6e7e7c0e7d434936e280142",
     "a79098e467441300c9baeb72a2e16f488f0e5d5f",
+    "a79119a15164331363f8ddab87b2507084b5a1d4",
     "a7a28185b63f015f4e6d84486dfe8dd4b5b83490",
     "a7b8c17d60f022813397d2b071e686dd0ec81109",
     "a7cec0a0033fe967658bf8beb45debdbf010462d",
@@ -3542,6 +3547,7 @@
     "ae215a566d82c9cd10adc24917d131055bf12b97",
     "ae2eb22a0f7384bb2e314c59d99903dd326016d8",
     "ae354003d1cfcdeaf43229921cf7977fc35c497b",
+    "ae3a85d77d5261d7b8c880143a58fd9125e3ef57",
     "ae4d2905255130576fc3fa596b5c539e71845d6c",
     "ae5b241f358b90a07b6cd758364b3e1b6de47ec4",
     "ae6f778169cc3ffc7c2ef234c5f240e68075c02b",
@@ -27660,6 +27666,48 @@
     {
       "id": "490d38c58dc31d72cf21fc16af59402d914f5e6d",
       "title": "'나를 충전해줘', 공개 3일 만에 글로벌 톱10 비영어 쇼 3위",
+      "date": "2026-10-15",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "a79119a15164331363f8ddab87b2507084b5a1d4",
+      "title": "금토드라마 '뜨거운 안녕' 강훈X조현철X김정진, 웃음 조준 완료! ‘개그 트리오 아수라’ 포스터 공개",
+      "date": "2026-10-15",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "695f113d3aebdeb77cde0ad78fc269dec0c6428f",
+      "title": "김슬기·우지현 주연 ‘베일러’, 부산국제영화제서 2관왕",
+      "date": "2026-10-15",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "683233137629dbc4970cdec3ee400bcdd4c43743",
+      "title": "Look beyond smokescreen amid recurring haze crisis",
+      "date": "2026-10-15",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "ae3a85d77d5261d7b8c880143a58fd9125e3ef57",
+      "title": "고흥교육지원청, 청소년 단편영화 프로젝트 참가 학생들 부산국제영화제 현장체험학습 성료",
+      "date": "2026-10-15",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "98020e3ee90f2506bbfa508cdf6f5b33d99fa56c",
+      "title": "CJ ENM, ‘피프스시즌’ 글로벌 OTT 차트 석권… 흥행·작품성 동시 입증",
+      "date": "2026-10-15",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "514056e90d0e36efdba78c3dc1817e0fb8e40ef3",
+      "title": "부산국제영화제 ‘비전의 밤’ 수상작 발표…‘멈춰서다’ 4관왕 영예",
       "date": "2026-10-15",
       "region": "",
       "grade": "B"
