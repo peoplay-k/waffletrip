@@ -37,7 +37,7 @@ REPORTERS: dict[str, tuple[str, ...]] = {
     "이우재": ("vietnam", "laos"),
     "장미화": ("thailand", "kota", "taiwan"),
     "이승훈": ("hawaii", "jeju", "data"),
-    "이수비": ("ent",),
+    "한수비": ("ent",),
 }
 # 맡은 사람이 없는 지면(새로 연 지역 등)은 이 사람이 맡는다.
 GENERAL_REPORTER = "이승훈"

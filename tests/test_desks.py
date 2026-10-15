@@ -104,7 +104,7 @@ def test_after_switch_every_region_has_a_reporter():
 
 
 def test_after_switch_entertainment_and_data_have_their_reporters():
-    assert byline_for(made_after(region="", channel="ent")) == "이수비 기자"
+    assert byline_for(made_after(region="", channel="ent")) == "한수비 기자"
     assert byline_for(made_after("A", region="jeju")) == "이승훈 기자"
     assert byline_for(made_after(source_name=DATA_DESK)) == "이승훈 기자"
 
@@ -116,10 +116,10 @@ def test_desk_name_in_a_draft_does_not_block_the_reporter():
 
 def test_named_reporter_in_a_draft_wins_and_is_stable():
     """렌더가 서명을 source_name 에 써 넣은 뒤 다시 불러도 같아야 한다."""
-    item = made_after(region="japan", source_name="이수비")
+    item = made_after(region="japan", source_name="한수비")
     once = byline_for(item)
     item.source_name = once
-    assert once == byline_for(item) == "이수비 기자"
+    assert once == byline_for(item) == "한수비 기자"
 
 
 def test_articles_before_the_switch_keep_their_desk():
