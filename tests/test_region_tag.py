@@ -63,7 +63,8 @@ def test_ties_break_by_fixed_region_order():
 
 
 def test_every_keyword_bucket_is_a_real_region():
-    assert set(REGION_KEYWORDS) == set(REGIONS)
+    from src.models import DESTINATIONS
+    assert set(REGION_KEYWORDS) == set(DESTINATIONS)
 
 
 def test_single_character_keywords_come_from_an_explicit_allowlist():
@@ -143,9 +144,9 @@ def test_new_regions_are_tagged(title, expected):
 
 def test_every_region_has_keywords():
     """지역을 늘리고 키워드를 잊으면 그 지역이 통째로 비어 버린다."""
-    from src.models import REGIONS
+    from src.models import DESTINATIONS
     from src.region_tag import REGION_KEYWORDS
-    missing = [r for r in REGIONS if not REGION_KEYWORDS.get(r)]
+    missing = [r for r in DESTINATIONS if not REGION_KEYWORDS.get(r)]
     assert not missing, f"키워드 없는 지역: {missing}"
 
 

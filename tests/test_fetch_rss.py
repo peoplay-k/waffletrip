@@ -130,7 +130,9 @@ def test_auto_source_ignores_regions_that_appear_only_in_the_summary():
     xml = """<?xml version="1.0"?><rss version="2.0"><channel>
     <item><title>신규 취항 소식</title><link>https://example.com/x</link>
     <description>제주 노선이 늘어난다.</description></item></channel></rss>"""
-    assert parse_feed(AUTO_SOURCE, xml, NOW) == []
+    got = parse_feed(AUTO_SOURCE, xml, NOW)
+    # 제주로 잡히면 안 된다. 목적지 없는 업계 소식으로 받는다(2026-10-15 여행업계면).
+    assert [i.region for i in got] == ["industry"]
 
 
 def test_korean_sentences_split_without_a_space_after_the_period():
@@ -253,3 +255,15 @@ def test_portal_redistribution_is_not_a_source():
 def test_a_portal_index_page_is_not_an_article():
     items = parse_feed(GOOGLE_SOURCE, PORTAL_FEED, NOW)
     assert all("한눈에 보는" not in i.title for i in items)
+
+
+def test_업계면을_끈_소스는_지명_없는_기사를_버린다():
+    """TTL뉴스는 종합 보도자료가 섞여 업계면에 넣지 않는다(2026-10-15)."""
+    from dataclasses import replace
+    xml = """<?xml version="1.0"?><rss version="2.0"><channel>
+    <item><title>하나금융 잡매칭 페스타 개막</title><link>https://example.com/y</link>
+    <description>강소기업 20곳이 참여한다.</description></item>
+    <item><title>괌 노선 증편</title><link>https://example.com/z</link>
+    <description>겨울 증편이다.</description></item></channel></rss>"""
+    got = parse_feed(replace(AUTO_SOURCE, industry=False), xml, NOW)
+    assert [i.region for i in got] == ["guam"]

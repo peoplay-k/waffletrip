@@ -361,6 +361,7 @@ sources:
     url: https://www.ttlnews.com/rss/allArticle.xml
     lang: ko
     enabled: true
+    industry: false   # 지명 없는 기사는 업계면에 넣지 않는다 — 종합 보도자료가 섞인다
     curated: true
 
   - id: kr_ktsketch

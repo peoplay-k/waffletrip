@@ -35,6 +35,10 @@ class Source:
     # 채널. 기본은 여행. 연예 소스(channel: ent)는 지역 판정을 건너뛰고 category 를 싣는다.
     channel: str = "travel"
     category: str = ""
+    # region: auto 소스에서 지명이 안 잡힌 기사를 여행업계면으로 받을지.
+    # 여행 전문지는 받는다. 종합 보도자료가 섞인 곳(TTL뉴스 — 2026-10-15 실측 37건 중
+    # 27건이 금융·교육청·식품 보도자료)은 sources.yaml 에서 industry: false 로 끈다.
+    industry: bool = True
 
 
 def load_sources(path: str) -> list[Source]:
@@ -83,6 +87,7 @@ def load_sources(path: str) -> list[Source]:
             type=e["type"], url=e["url"], lang=e["lang"], enabled=True,
             curated=bool(e.get("curated", False)),
             channel=channel, category=category if channel == "ent" else "",
+            industry=bool(e.get("industry", True)),
         ))
 
     return result

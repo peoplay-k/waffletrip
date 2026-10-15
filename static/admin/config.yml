@@ -70,6 +70,7 @@ collections:
           - { label: 일본, value: japan }
           - { label: 태국, value: thailand }
           - { label: 대만, value: taiwan }
+          - { label: 여행업계, value: industry }
         hint: 여행 기사는 반드시 고릅니다. 연예 기사는 아무거나 두어도 무시됩니다.
 
       - label: 연예 부문

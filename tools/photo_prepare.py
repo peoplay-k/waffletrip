@@ -388,9 +388,9 @@ def main() -> int:
                          "폴더가 바뀌어도 번호가 밀리지 않는다.")
     args = ap.parse_args()
 
-    from src.models import REGIONS
-    if args.region not in REGIONS:
-        print(f"모르는 지역: {args.region}. 가능한 값 {REGIONS}", file=sys.stderr)
+    from src.models import DESTINATIONS
+    if args.region not in DESTINATIONS:
+        print(f"모르는 지역: {args.region}. 가능한 값 {DESTINATIONS}", file=sys.stderr)
         return 1
 
     paths = gather(os.path.expanduser(args.source), args.limit, args.skip)

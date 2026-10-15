@@ -13,7 +13,10 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 GRADES = ("A", "B", "C")
 SECTIONS = ("flight", "news", "data", "promo")
 REGIONS = ("guam", "saipan", "hawaii", "vietnam", "kota", "laos", "jeju",
-           "japan", "thailand", "taiwan")
+           "japan", "thailand", "taiwan", "industry")
+# 실제 장소인 지면. "industry"(여행업계)는 목적지가 없는 업계 공통면이라 통화·
+# 지명 키워드·사진이 없다. 장소에만 해당하는 것은 이것을 본다.
+DESTINATIONS = tuple(r for r in REGIONS if r != "industry")
 STATUSES = ("draft", "approved", "published")
 
 # 2026-10-01 편집국장 미팅 결정이 지면에 적용되는 날(KST).
@@ -39,6 +42,10 @@ REGION_NAMES = {
     "guam": "괌", "saipan": "사이판", "hawaii": "하와이",
     "vietnam": "베트남", "kota": "코타키나발루", "laos": "라오스",
     "jeju": "제주", "japan": "일본", "thailand": "태국", "taiwan": "대만",
+    # 목적지가 없는 업계 공통 소식 — 유류할증료·항공 통합·패키지 실적·여행사 경영.
+    # 2026-10-15 실측: 여행신문 50건 중 39건이 우리 10개 지역 어디에도 안 걸려
+    # 버려지고 있었다. 사장님: "여행신문이랑 여행에 관한 기사들 보고 매일 올려".
+    "industry": "여행업계",
 }
 
 # 추적용 쿼리 파라미터 — 같은 기사인데 URL 만 달라 보이게 만드는 주범

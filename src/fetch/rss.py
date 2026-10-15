@@ -150,8 +150,13 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
             # 아닌 "금융취약계층 생필품 지원"이 제주로 잡혔다. 요약에는 다른 목적지가
             # 스쳐 지나가고, 소스에 따라 아예 다른 기사 본문이 실려 오기도 한다.
             region = tag_region(title)
+            if region is None and not getattr(source, "industry", True):
+                continue  # 종합 보도자료가 섞인 소스 — 지명이 있는 것만 받는다
             if region is None:
-                continue  # 우리가 다루지 않는 목적지
+                # auto 소스는 전부 국내 여행 전문지다(여행신문·트래블데일리 …).
+                # 목적지가 안 잡힌 기사는 버리지 않고 업계 공통면으로 받는다.
+                # 다른 나라 목적지 기사(파리·발리)도 여기 오지만 여행 기사이긴 하다.
+                region = "industry"
 
         # 실을 수 없는 출처와 기사 아닌 것을 여기서 버린다. 위 SKIP_OUTLETS
         # 주석에 이유가 있다. 연예 채널도 같은 목록을 쓴다 — 가십 전문지와 포털
