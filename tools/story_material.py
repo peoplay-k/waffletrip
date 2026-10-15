@@ -51,6 +51,14 @@ _TRAVEL_IMPACT_KO = re.compile(
     r"재개|복구|주의보|대피)")
 
 
+# 여행업계면은 하루 100건이 넘게 들어온다(2026-10-15 129건). 지역면처럼 세 건만
+# 보여주면 고를 거리가 없다. 그리고 업계 기사는 매체마다 결이 다르다 — 여행신문·
+# 트래블데일리는 업계 취재가 중심이고, 투어코리아는 지자체 보도자료가 많이 섞인다.
+INDUSTRY_PICKS = 8
+SOURCE_RANK = {"여행신문": 0, "트래블데일리": 0, "트래비": 0,
+               "트래블바이크뉴스": 1, "여행스케치": 1, "투어코리아": 2}
+
+
 def is_incident(title: str) -> bool:
     """사건·사고인가. 여행 일정에 영향을 주는 것은 사고여도 남긴다."""
     t = title or ""
@@ -163,17 +171,23 @@ def main() -> int:
         # 우리말 제목을 앞에 두는 이유: 한국 여행 매체가 그 목적지를 다뤘다는
         # 것 자체가 우리 독자와 맞닿았다는 뜻이다. 영문 지역지는 그 지역
         # 주민을 위한 기사가 대부분이라 재료로서 값이 떨어진다.
+        #
+        # 최신순은 날짜 문자열을 거꾸로 정렬해서 낸다. 예전에는 `-hash(날짜)` 를
+        # 키로 써서 사실상 무작위였다(2026-10-15 — 업계면 맨 앞에 충남지사 동정).
+        groups.sort(key=lambda g: max((i.get("published_at") or "") for i in g),
+                    reverse=True)
         groups.sort(key=lambda g: (
             0 if any(is_korean_title(i.get("title")) for i in g) else 1,
             -len(g),
-            -max((i.get("published_at") or "") for i in g).__hash__()))
+            min(SOURCE_RANK.get(i.get("source_name", ""), 1) for i in g)))
         # 이미 우리가 쓴 것과 겹치면 뺀다. 같은 걸 또 쓰는 것이 가장 나쁘다.
         groups = [g for g in groups
                   if not (len(g) == 1 and len(words(g[0]["title"]) & mine) >= 3)]
         # 영문 단독 기사는 재료로 쓰지 않는다. 여러 곳이 쓴 것이면 남긴다.
         groups = [g for g in groups
                   if len(g) > 1 or any(is_korean_title(i.get("title")) for i in g)]
-        picked = groups[:args.per_region]
+        limit = INDUSTRY_PICKS if region == "industry" else args.per_region
+        picked = groups[:limit]
         if not picked:
             continue
         lines.append(f"## {REGION_NAMES[region]}")
