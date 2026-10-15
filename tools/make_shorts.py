@@ -36,7 +36,7 @@ from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.cities import CITY_NAMES, CITY_REGION
 from src.models import REGION_NAMES
 from make_longform import _f, _sentence, _wrap, CORAL, INK, LINE, MUTED, PAPER
-from video_brief import _speakable, facts_from, load_items
+from video_brief import _speakable, load_items
 
 # 통신사 리드에서 앞머리를 뗀 뒤 남는 날짜 조각("1일 …", "9월 3일 …")
 _LEDE_DATE = re.compile(r"^(\d{1,2}월\s*)?\d{1,2}일\s+")
@@ -205,6 +205,60 @@ def is_korean(text: str) -> bool:
 MIN_PHOTOS = 5          # 장면 수만큼은 있어야 같은 사진이 반복되지 않는다
 
 
+def stem_of(city: str, now: datetime | None = None) -> str:
+    """영상 이름. **날짜를 넣는다.**
+
+    이름이 `peopleroad-saipan-voiced` 로 늘 같았다. 발행기는 올린 이름을 기록해
+    두 번 올리지 않으므로, 다섯 곳을 한 바퀴 돈 2026-09-28 뒤로는 매일 새로 만든
+    영상이 전부 '이미 올린 것'이 되어 릴스가 2주 넘게 한 편도 안 나갔다.
+    """
+    day = (now or datetime.now(KST)).strftime("%Y%m%d")
+    return f"peopleroad-{city}-{day}"
+
+
+def own_facts(items: list[dict], region: str, city: str, name: str,
+              days: int = 7, now: datetime | None = None) -> list[dict]:
+    """최근 days 일 동안 **우리가 쓴 기사(C)** 에서 영상 재료를 뽑는다.
+
+    2026-10-15 실측: 숏폼이 '이번 주 ○○에서 나온 소식' 묶음을 읽고 있었는데, 그
+    묶음은 10-02 각색 원칙("모든 기사는 각색해서 우리 이름으로")에 따라 더 나오지
+    않는다. 영상은 10-01 이전 묶음의 남의 기사 제목과 매체명("투어코리아 보도입니다")
+    을 계속 읽었다. 지면에 내지 않는 인용을 영상으로는 내보낸 셈이다.
+
+    city 가 있으면 제목·요약에 그 도시 이름이 든 기사만 쓴다.
+    """
+    from src.cities import CITIES
+    words = next((kw for slug, _n, _r, kw in CITIES if slug == city), ()) if city else ()
+    since = ((now or datetime.now(KST)) - timedelta(days=days)).isoformat()
+    pool = []
+    for i in items:
+        if (i.get("grade") != "C" or i.get("region") != region
+                or i.get("section") == "data" or i.get("channel") == "ent"):
+            continue
+        title = (i.get("title") or "").strip()
+        if not title or not is_korean(title) or title.startswith("이번 주 "):
+            continue
+        if (i.get("published_at") or "") < since:
+            continue
+        text = title + " " + (i.get("summary") or "")
+        if words and not any(w in text for w in words):
+            continue
+        pool.append(i)
+    pool.sort(key=lambda i: i.get("published_at") or "", reverse=True)
+    # 같은 소식을 이틀에 걸쳐 다시 쓴 기사가 있다(켄싱턴 사이판 패키지, 10-09·10-14).
+    # 영상에 같은 말이 두 번 나오면 안 되므로 요약이 많이 겹치면 최신 것만 둔다.
+    from difflib import SequenceMatcher
+    picked: list[dict] = []
+    for i in pool:
+        text = (i.get("summary") or i["title"])
+        if any(SequenceMatcher(None, text, (p.get("summary") or p["title"])).ratio() > 0.6
+               for p in picked):
+            continue
+        picked.append(i)
+    return [{"headline": i["title"], "summary": i.get("summary") or "", "outlet": ""}
+            for i in picked[:MAX_FACTS]]
+
+
 def build(city: str) -> list[dict]:
     """도시도 지역도 받는다.
 
@@ -221,22 +275,19 @@ def build(city: str) -> list[dict]:
         raise SystemExit(
             f"모르는 곳 '{city}'.\n  도시 {', '.join(CITY_NAMES)}\n"
             f"  지역 {', '.join(REGION_NAMES)}")
-    items = load_items()
-    pool = [i for i in items
-            if i.get("grade") == "C"
-            and (i.get("title") or "") == f"이번 주 {name}에서 나온 소식"
-            or (i.get("grade") == "C"
-                and (i.get("title") or "").startswith(f"이번 주 {name}에서"))]
-    if not pool:
-        raise SystemExit(f"{name} 브리핑이 없다. 기사가 더 쌓여야 한다.")
-    pool.sort(key=lambda i: i.get("published_at") or "", reverse=True)
-    facts = [f for f in facts_from(pool[0], focus=name)
-             if is_korean(f.get("headline") or "")][:MAX_FACTS]
+    # 장면마다 사진 한 장. 사진이 없으면 **영상을 만들지 않는다** —
+    # 글자만 넘어가는 영상은 릴스가 아니다(2026-09-15 사장님 지적).
+    photos = region_photos(region, city)
+    if len(photos) < MIN_PHOTOS:
+        raise SystemExit(
+            f"{name} 은(는) 쓸 사진이 {len(photos)}장뿐이라 영상을 만들지 않는다.\n"
+            f"  글자만 넘어가는 영상은 릴스가 아니고, 같은 사진을 돌려쓰면\n"
+            f"  그것대로 티가 난다. NAS 에서 더 캐면 그때 생긴다.")
+    facts = own_facts(load_items(), region, city, name)
     if len(facts) < MIN_FACTS:
         raise SystemExit(
-            f"{name} 은(는) 우리말 소식이 {len(facts)}건뿐이라 영상을 만들지 않는다.\n"
-            f"  한 건짜리 영상은 릴스로 낼 값이 안 되고, 영문 제목은 한국어로\n"
-            f"  읽는 독자에게 빈 화면과 같다.")
+            f"{name} 은(는) 이번 주 우리 기사가 {len(facts)}건뿐이라 영상을 만들지 않는다.\n"
+            f"  한 건짜리 영상은 릴스로 낼 값이 안 된다.")
 
     scenes = [{
         "kind": "open", "name": name, "count": len(facts),
@@ -255,7 +306,6 @@ def build(city: str) -> list[dict]:
         line = summary or _speakable(fact["headline"], 70)
         if not line:
             continue
-        cite = f"{fact['outlet']} 보도" if fact["outlet"] else "현지 보도"
         scenes.append({
             "kind": "fact", "n": n, "total": len(facts),
             "headline": _speakable(fact["headline"], 46),
@@ -264,21 +314,13 @@ def build(city: str) -> list[dict]:
             # "출처 · vietnam.vn" 이 이미 있다. 자막에까지 넣으면 한 화면에
             # 같은 말이 두 번 나온다(2026-09-10 프레임 검수).
             "line": line.rstrip(". "),
-            "narration": f"{line}. {cite}입니다.",
+            "narration": f"{line}.",
         })
     scenes.append({
         "kind": "close",
         "narration": "피플로드는 매일 아침 여덟 시에 여행 뉴스를 정리해 올립니다.",
     })
 
-    # 장면마다 사진 한 장. 사진이 없으면 **영상을 만들지 않는다** —
-    # 글자만 넘어가는 영상은 릴스가 아니다(2026-09-15 사장님 지적).
-    photos = region_photos(region, city)
-    if len(photos) < MIN_PHOTOS:
-        raise SystemExit(
-            f"{name} 은(는) 쓸 사진이 {len(photos)}장뿐이라 영상을 만들지 않는다.\n"
-            f"  글자만 넘어가는 영상은 릴스가 아니고, 같은 사진을 돌려쓰면\n"
-            f"  그것대로 티가 난다. NAS 에서 더 캐면 그때 생긴다.")
     for i, sc in enumerate(scenes):
         sc["photo"] = photos[i % len(photos)]
     return scenes
@@ -454,7 +496,7 @@ def build_voiced(city: str, out_dir: str) -> str:
         for clip in parts:
             fh.write(f"file '{os.path.abspath(clip)}'\n")
     os.makedirs(out_dir, exist_ok=True)
-    out = os.path.join(out_dir, f"peopleroad-{city}-voiced.mp4")
+    out = os.path.join(out_dir, f"{stem_of(city)}-voiced.mp4")
     subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
                     "-i", listing, "-c", "copy", out], check=True)
     poster = out.rsplit(".", 1)[0] + ".jpg"
@@ -512,7 +554,7 @@ def build_silent(city: str, out_dir: str) -> str:
         for clip in parts:
             fh.write(f"file '{clip}'\n")
     os.makedirs(out_dir, exist_ok=True)
-    out = os.path.join(out_dir, f"peopleroad-{city}-silent.mp4")
+    out = os.path.join(out_dir, f"{stem_of(city)}-silent.mp4")
     subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
                     "-i", listing, "-c", "copy", out], check=True)
     poster = out.rsplit(".", 1)[0] + ".jpg"
@@ -534,7 +576,7 @@ def build_silent(city: str, out_dir: str) -> str:
     latest = os.path.join("data", "shorts_latest.json")
     os.makedirs("data", exist_ok=True)
     with open(latest, "w", encoding="utf-8") as fh:
-        json.dump({"stem": f"peopleroad-{city}-silent", "city": city,
+        json.dump({"stem": f"{stem_of(city)}-silent", "city": city,
                    "name": place_name(city), "caption": meta["caption"],
                    "seconds": meta["seconds"],
                    "built_at": datetime.now(KST).isoformat(timespec="seconds")},
