@@ -1,16 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-09-15",
-      "collected": 655,
-      "published": 93,
-      "failed_sources": [
-        "guam_post",
-        "kota_nst",
-        "saipan_tribune"
-      ]
-    },
-    {
       "date": "2026-09-16",
       "collected": 666,
       "published": 73,
@@ -245,6 +235,18 @@
         "guam_pdn",
         "guam_post",
         "saipan_tribune"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "collected": 1216,
+      "published": 169,
+      "ours": 3,
+      "failed_sources": [
+        "guam_pdn",
+        "guam_post",
+        "saipan_tribune",
+        "weather"
       ]
     }
   ]
