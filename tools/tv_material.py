@@ -204,12 +204,17 @@ def ebs(c: httpx.Client, errors: list, limit: int = 15) -> list[dict]:
 
 
 def mbc(c: httpx.Client, errors: list, limit: int = 20) -> list[dict]:
-    out = []
-    try:
-        rows = c.get("https://mbcinfo.imbc.com/api/press/list",
-                     params={"page": 1, "size": limit}).json().get("list") or []
-    except Exception as e:
-        errors.append(f"MBC 목록: {e}")
+    out, rows = [], None
+    # 깃허브 러너(미국)에서 첫 요청이 20초를 넘겨 끊겼다(2026-10-16). 길게 한 번 더 본다.
+    for wait in (20, 45):
+        try:
+            rows = c.get("https://mbcinfo.imbc.com/api/press/list",
+                         params={"page": 1, "size": limit}, timeout=wait).json().get("list") or []
+            break
+        except Exception as e:
+            last = e
+    if rows is None:
+        errors.append(f"MBC 목록: {last}")
         return out
     for row in rows:
         code = row.get("code")
