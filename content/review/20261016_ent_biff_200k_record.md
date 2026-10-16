@@ -10,7 +10,9 @@ source_name: ''
 source_url: ''
 summary: 제31회 부산국제영화제가 유료 관객 20만 명을 11년 만에 다시 넘기며 폐막했습니다. 영화제 전체 참가자는 27만7,027명으로
   집계됐고, 폐막식에서는 경쟁 부문 수상작도 함께 발표됐습니다.
-status: approved
+status: published
+published_id: c-9acd1a0b254e6f1d9207dd46862cadb97f47fa67
+published_on: '2026-10-16'
 ---
 부산국제영화제(BIFF)가 11년 만에 다시 '관객 20만 명 시대'를 열고 막을 내렸다. 국제신문은 16일 보도에서 BIFF 사무국이 15일 제31회 BIFF 결산 자료를 발표하고 이 사실을 알렸다고 전했다.
 

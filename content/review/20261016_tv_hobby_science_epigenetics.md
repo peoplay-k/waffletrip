@@ -5,12 +5,14 @@ region: ''
 category: tv
 section: news
 kind: 보도자료
-title: "'취미는 과학', 유전자의 운명을 바꾸는 후성유전학"
+title: '''취미는 과학'', 유전자의 운명을 바꾸는 후성유전학'
 source_name: ''
 source_url: ''
 summary: EBS1 '취미는 과학'이 16일 밤 10시 50분 후성유전학을 주제로 방송된다. 꿀벌의 여왕벌·일벌 분화와 네덜란드 대기근 사례로
   환경이 유전자 발현을 바꾸는 원리를 짚고, 암세포 생존 전략에서 찾는 치료 실마리도 다룬다.
-status: approved
+status: published
+published_id: c-1301e979cd520cf188380bd0deb951cfa5ab1ed3
+published_on: '2026-10-16'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 취미는 과학 | 회차 · 후성유전학, 유전자의 운명을 바꿀 수 있을까
