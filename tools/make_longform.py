@@ -340,8 +340,12 @@ def main() -> int:
         # 숏폼과 같은 목소리(narrate.VOICE_ID)라 브랜드가 한결같다. 실패하면 무음으로
         # 떨어진다 — 영상이 아예 안 나가는 것보다 낫고, 홈에 옛 영상이 남는 것도 막는다.
         try:
-            out = build_voiced(scenes, args.out)
-            print(f"나레이션 영상 → {out}")
+            from narrate import reuse_today
+            if reuse_today("peopleroad-week", args.out, datetime.now(KST).strftime("%Y-%m-%d")):
+                print("오늘 구운 나레이션 롱폼을 다시 쓴다(크레딧 아끼기) → peopleroad-week")
+            else:
+                out = build_voiced(scenes, args.out)
+                print(f"나레이션 영상 → {out}")
         except BaseException as e:      # SystemExit(키 없음·API 오류)도 잡는다
             print(f"나레이션 실패 — 무음으로 만든다: {type(e).__name__}: {e}",
                   file=sys.stderr)

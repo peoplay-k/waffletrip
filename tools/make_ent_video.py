@@ -43,7 +43,7 @@ FONTS = ("/System/Library/Fonts/AppleSDGothicNeo.ttc",
          "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc")
 MIN_ITEMS = 2          # 한 편짜리는 '오늘의 방송'이 아니다
 MAX_LONG = 8
-MAX_SHORTS = 3         # 숏폼은 하루 세 편까지 — 나레이션 크레딧과 피드 피로를 아낀다
+MAX_SHORTS = 2         # 숏폼은 하루 두 편까지 — 2026-10-16 크레딧이 바닥나 셋에서 줄였다
 TAIL = 0.6             # 말끝에 두는 숨(초)
 READ_CPS, READ_FLOOR, READ_LEAD = 8.5, 3.0, 1.4
 
@@ -326,7 +326,18 @@ def main(argv=None) -> int:
     jobs = [(long_sc, render_long, (1920, 1080), os.path.join(args.out, f"{stem}.mp4"))]
     jobs += [(sc, render_short, (1080, 1920), os.path.join(args.out, f"{stem}-{k}.mp4"))
              for k, sc in enumerate(shorts, 1)]
+    # 오늘 이미 목소리로 구워 사이트에 올린 것은 다시 사지 않는다(크레딧, 2026-10-16).
+    live = {}
+    if args.voiced:
+        from narrate import fetch_live, live_meta
+        live = {v["file"]: v for v in ((live_meta(stem) or {}).get("videos") or [])
+                if v.get("kind") == "voiced"}
     for scenes, render, size, out in jobs:
+        name = os.path.basename(out)
+        if name in live and fetch_live(name, args.out):
+            made.append(live[name])
+            print(f"  → {out} 오늘 구운 나레이션판을 다시 쓴다")
+            continue
         try:
             secs = bake(scenes, render, size, out, voiced)
         except BaseException as e:       # 키 없음·API 오류(SystemExit)도 잡아 무음으로

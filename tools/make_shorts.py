@@ -630,8 +630,23 @@ def main() -> int:
             render(s).save(os.path.join(args.frames, f"s{n:02d}.png"))
         print(f"화면 {len(scenes)}장 → {args.frames}")
     if args.voiced:
-        out = build_voiced(args.city, args.out)
-        print(f"나레이션 영상 → {out}")
+        # 오늘 이미 목소리로 구워 올린 같은 영상이 있으면 다시 사지 않는다(크레딧, 2026-10-16).
+        from narrate import reuse_today
+        stem = f"{stem_of(args.city)}-voiced"
+        if reuse_today(stem, args.out, datetime.now(KST).strftime("%Y-%m-%d")):
+            with open(os.path.join(args.out, f"{stem}.json"), encoding="utf-8") as fh:
+                meta = json.load(fh)
+            os.makedirs("data", exist_ok=True)
+            with open(os.path.join("data", "shorts_latest.json"), "w", encoding="utf-8") as fh:
+                json.dump({"stem": stem, "city": args.city, "name": place_name(args.city),
+                           "caption": meta.get("caption", ""), "seconds": meta.get("seconds"),
+                           "kind": "voiced",
+                           "built_at": datetime.now(KST).isoformat(timespec="seconds")},
+                          fh, ensure_ascii=False, indent=2)
+            print(f"오늘 구운 나레이션 영상을 다시 쓴다 → {stem}")
+        else:
+            out = build_voiced(args.city, args.out)
+            print(f"나레이션 영상 → {out}")
     if args.silent:
         out = build_silent(args.city, args.out)
         seconds = sum(read_seconds(silent_text(sc)) for sc in scenes)

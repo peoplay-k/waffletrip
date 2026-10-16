@@ -42,3 +42,10 @@ def _isolate_photo_usage(tmp_path_factory, monkeypatch):
     monkeypatch.setattr(photos, "USED",
                         str(tmp_path_factory.mktemp("photo_usage") / "used.json"))
     yield
+
+
+@pytest.fixture(autouse=True)
+def _no_live_video(monkeypatch):
+    """영상 도구가 '오늘 구운 것 다시 쓰기'로 실제 사이트를 조회하지 않게 한다."""
+    monkeypatch.setenv("PEOPLEROAD_VIDEO_BASE", "http://127.0.0.1:9/video")
+    yield
