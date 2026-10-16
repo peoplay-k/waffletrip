@@ -354,6 +354,15 @@ def main() -> int:
     with open(os.path.join(args.out if not args.script_only else ".",
                            "longform_script.json"), "w", encoding="utf-8") as fh:
         json.dump(scenes, fh, ensure_ascii=False, indent=2)
+
+    # 연예 '오늘의 방송' 롱폼·숏폼(2026-10-16). 워크플로 파일은 이 저장소 토큰으로 못
+    # 고쳐서 여기서 함께 부른다. 실패해도 여행 롱폼과 신문은 그대로 나가야 한다.
+    if args.voiced or args.silent:
+        try:
+            import make_ent_video
+            make_ent_video.main(["--out", args.out, "--voiced" if args.voiced else "--silent"])
+        except BaseException as e:      # noqa: BLE001
+            print(f"오늘의 방송 영상 실패: {type(e).__name__}: {e}", file=sys.stderr)
     return 0
 
 

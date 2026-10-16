@@ -25,19 +25,23 @@ API = "https://api.elevenlabs.io/v1/text-to-speech"
 # "뉴스 리포터" 여자 톤 — 신문 매체에 맞는다. 바꾸려면 여기만 고친다.
 VOICE_ID = os.environ.get("WAFFLETRIP_VOICE_ID", "3AoqIoDy7aCSniSEoQRO")
 VOICE_NAME = "뉴스 리포터"
+# 연예 영상 목소리 — 여행과 갈라 둔다(2026-10-16 사장님: "AI 남자 성우로").
+# 일레븐랩스 공유 목소리 'MJ - Calm, Clear, Versatile'. 한국어 남성, 롱폼 해설용.
+ENT_VOICE_ID = os.environ.get("PEOPLEROAD_ENT_VOICE_ID", "l6fNdLYgoqjfTIPUeFc9")
+ENT_VOICE_NAME = "MJ"
 MODEL = "eleven_multilingual_v2"
 SETTINGS = {"stability": 0.5, "similarity_boost": 0.75,
             "style": 0.0, "use_speaker_boost": True}
 
 
-def speak(text: str, out_path: str) -> str:
+def speak(text: str, out_path: str, voice_id: str | None = None) -> str:
     key = os.environ.get("ELEVENLABS_API_KEY", "").strip()
     if not key:
         raise SystemExit("[중단] ELEVENLABS_API_KEY 가 없습니다.")
     body = json.dumps({"text": text, "model_id": MODEL,
                        "voice_settings": SETTINGS}).encode()
     req = urllib.request.Request(
-        f"{API}/{VOICE_ID}", data=body,
+        f"{API}/{voice_id or VOICE_ID}", data=body,
         headers={"xi-api-key": key, "Content-Type": "application/json",
                  "Accept": "audio/mpeg"})
     try:
