@@ -17,6 +17,8 @@ _BOLD = re.compile(r"\*\*([^*]+)\*\*")
 _CODE = re.compile(r"`([^`]+)`")
 _HEAD = re.compile(r"^(#{2,4})\s+(.*)$")
 _LIST = re.compile(r"^([-*·]|\d+\.)\s+")
+# 한 줄 전체가 사진일 때만 사진으로 본다. 캡션 자리에 출처를 쓴다 — "사진: KBS 1TV".
+_IMAGE = re.compile(r"^!\[([^\]]*)\]\((https://[^)\s]+)\)$")
 
 
 def _safe_href(url: str) -> str:
@@ -48,7 +50,7 @@ def _inline(text: str) -> str:
 
 
 def render(src: str) -> str:
-    """지원 문법: 소제목(##~####) · 문단 · 목록 · 표 · 인용 · 구분선."""
+    """지원 문법: 소제목(##~####) · 문단 · 목록 · 표 · 인용 · 구분선 · 사진(한 줄)."""
     if not src:
         return ""
     lines = src.split("\n")
@@ -62,6 +64,18 @@ def render(src: str) -> str:
 
         if set(stripped) == {"-"} and len(stripped) >= 3:
             out.append("<hr>")
+            i += 1
+            continue
+
+        # 방송사 보도용 스틸(2026-10-16 사장님: 출처를 밝혀 쓴다). https 만 받는다.
+        # 남의 서버에 걸린 사진이라 리퍼러를 보내지 않는다 — 핫링크 차단을 덜 맞고,
+        # 독자가 어느 기사에서 왔는지 남의 서버에 넘기지 않는다.
+        image = _IMAGE.match(stripped)
+        if image:
+            cap = html.escape(image.group(1), quote=True)
+            out.append('<figure class="still"><img src="%s" alt="%s" loading="lazy" '
+                       'referrerpolicy="no-referrer"><figcaption>%s</figcaption></figure>'
+                       % (html.escape(image.group(2), quote=True), cap, cap))
             i += 1
             continue
 

@@ -210,8 +210,9 @@ def main() -> int:
     # 가십은 edit 단계에서 이미 걸렀지만, 보도자료성 발표만 재료로 삼는다.
     if ent_rows:
         groups = cluster(ent_rows)
-        groups.sort(key=lambda g: (-len(g),
-                                   -max((i.get("published_at") or "") for i in g).__hash__()))
+        groups.sort(key=lambda g: max((i.get("published_at") or "") for i in g),
+                    reverse=True)
+        groups.sort(key=lambda g: -len(g))
         picked = groups[:args.per_region * 2]
         if picked:
             lines.append("## 연예 (편집실이 쓴다 — 자동 해설 대상 아님)")
@@ -231,6 +232,19 @@ def main() -> int:
                         lines.append(f"    {i['source_url']}")
                 lines.append("")
     lines.append(f"---\n거리 {total}건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.")
+
+    # 연예 '방송' 재료(오늘·내일 방송 회차의 보도자료). 워크플로가 커밋하는 파일이
+    # 이것뿐이라 여기에 덧붙인다 — 워크플로 파일은 이 저장소 토큰으로 못 고친다.
+    # 수집이 실패해도 기사거리는 그대로 나가야 한다.
+    try:
+        import tv_material
+        tv = tv_material.collect()
+        lines += ["", "", tv_material.to_markdown(tv).replace("# 방송 재료", "# 방송 재료 —", 1)]
+        print(f"방송 재료 {len(tv['items'])}건 {tv['counts']}"
+              + (f" · 실패 {len(tv['errors'])}" if tv["errors"] else ""))
+    except Exception as e:  # noqa: BLE001 — 어떤 실패도 기사거리를 막지 않는다
+        lines += ["", f"(방송 재료 수집 실패: {e})"]
+        print(f"방송 재료 수집 실패: {e}", file=sys.stderr)
 
     os.makedirs("data", exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:

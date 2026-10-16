@@ -80,6 +80,7 @@ collections:
         options:
           - { label: 영화·드라마, value: movie }
           - { label: 음악·공연, value: music }
+          - { label: 방송 (오늘 방송 회차 소개), value: tv }
           - { label: 스타의 여행 (인물·촬영지·해외 공연), value: startrip }
         hint: 연예 기사만 씁니다. 비우면 제목으로 추정하고, 모르면 스타의 여행으로 갑니다.
 

@@ -42,6 +42,7 @@ from src.brand import (CONTACT_EMAIL, DOMAIN, SITE_KIND, SITE_NAME, SITE_NAME_EN
                        SITE_TAGLINE, SITE_URL)
 
 from src.models import REGION_NAMES  # 정본은 models.py
+from src.render.tv_cards import attach_tv_cards
 
 # 지역별 상품 사이트. 확인된 것만 넣는다 — 다른 지역 페이지에 엉뚱한 브랜드를
 # 붙이면 브랜드가 섞인다. 빈 값이면 상품 버튼을 그리지 않는다.
@@ -605,6 +606,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             for item in group:
                 item.photo = mapping.get(item.id) or None
         save_used(used)
+    # 연예 '방송' 기사는 보도 스틸을 못 쓴다(방송사 무단 게재 금지) — 우리 카드를 그린다.
+    attach_tv_cards(items, out_dir)
     # 지면 순서를 여기서 한 번 정한다. 아래의 모든 묶음(부문·지역·도시·홈)이
     # 이 순서를 물려받으므로 페이지마다 따로 정렬하지 않는다.
     # 1면에만 적용했더니 부문·지역면 첫 줄이 영문으로 채워졌다 — 하와이면은

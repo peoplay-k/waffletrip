@@ -79,3 +79,19 @@ def test_external_links_keep_nofollow_and_new_tab():
     out = render("[원문](https://example.com/a)")
     assert 'rel="nofollow noopener"' in out
     assert 'target="_blank"' in out
+
+
+def test_한_줄_사진은_캡션과_함께_그린다():
+    """방송사 보도 스틸을 출처와 함께 싣는다(2026-10-16)."""
+    from src.render.md import render
+    got = render("![사진: KBS 1TV '인간극장'](https://img.kbs.co.kr/a.jpg)")
+    assert '<img src="https://img.kbs.co.kr/a.jpg"' in got
+    assert 'referrerpolicy="no-referrer"' in got
+    assert "<figcaption>사진: KBS 1TV &#x27;인간극장&#x27;</figcaption>" in got
+
+
+def test_사진은_https_만_받고_캡션은_이스케이프한다():
+    from src.render.md import render
+    assert "<img" not in render("![x](javascript:alert(1))")
+    assert "<img" not in render("![x](http://a.com/b.jpg)")
+    assert "<script>" not in render('![<script>](https://a.com/b.jpg)')
