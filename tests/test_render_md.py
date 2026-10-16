@@ -95,3 +95,10 @@ def test_사진은_https_만_받고_캡션은_이스케이프한다():
     assert "<img" not in render("![x](javascript:alert(1))")
     assert "<img" not in render("![x](http://a.com/b.jpg)")
     assert "<script>" not in render('![<script>](https://a.com/b.jpg)')
+
+
+def test_여러_줄_인용은_줄을_살린다():
+    from src.render.md import render
+    got = render("> **방송 정보**\n> 채널 · KBS1 | 프로그램 · 인간극장")
+    assert got == ("<blockquote><strong>방송 정보</strong><br>"
+                   "채널 · KBS1 | 프로그램 · 인간극장</blockquote>")

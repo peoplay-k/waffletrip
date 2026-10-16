@@ -112,7 +112,8 @@ def render(src: str) -> str:
             while i < len(lines) and lines[i].strip().startswith(">"):
                 buf.append(lines[i].strip()[1:].strip())
                 i += 1
-            out.append("<blockquote>%s</blockquote>" % _inline(" ".join(buf)))
+            # 줄을 살린다 — 방송 기사의 '방송 정보' 상자가 여러 줄 인용이다(2026-10-16).
+            out.append("<blockquote>%s</blockquote>" % "<br>".join(_inline(b) for b in buf))
             continue
 
         if _LIST.match(stripped):

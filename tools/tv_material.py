@@ -229,6 +229,8 @@ def mbc(c: httpx.Client, errors: list, limit: int = 20) -> list[dict]:
 
 
 SBS_BOARDS = {"sbspr_01": "드라마", "sbspr_02": "예능", "sbspr_03": "교양"}
+# 웹 주소의 메뉴 번호(SBS PR 프로그램 메뉴 API 에서 확인, 2026-10-16). 기사 출처 링크로 쓴다.
+SBS_MENU = {"sbspr_01": "65174", "sbspr_02": "65175", "sbspr_03": "65176"}
 
 
 def sbs(c: httpx.Client, errors: list, limit: int = 15) -> list[dict]:
@@ -247,7 +249,8 @@ def sbs(c: httpx.Client, errors: list, limit: int = 15) -> list[dict]:
                         "program": program_of(title), "title": title, "air_date": "",
                         "posted": row.get("REG_DATE") or "",
                         "text": plain(row.get("CONTENT") or ""),
-                        "url": f"https://programs.sbs.co.kr/pr/{code}/{row.get('NO')}"})
+                        "url": (f"https://programs.sbs.co.kr/special/sbspr/board/"
+                                f"{SBS_MENU[code]}?cmd=view&board_no={row.get('NO')}")})
     return out
 
 
