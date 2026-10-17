@@ -5,12 +5,14 @@ region: ''
 category: tv
 section: news
 kind: 보도자료
-title: "'동네 한 바퀴' 390화, 평창 산골에 쓴 인생 소설"
+title: '''동네 한 바퀴'' 390화, 평창 산골에 쓴 인생 소설'
 source_name: ''
 source_url: ''
 summary: KBS1 '동네 한 바퀴' 390화 '인생, 소설이 되다'가 17일 오후 7시 10분 방송된다. 강원 평창의 대관령 목장, 5대째
   심마니 청년, 봉평 메밀국수 부부, 돌탑을 쌓은 할아버지, 3대 송어 식당의 이야기를 담는다.
-status: approved
+status: published
+published_id: c-b6629d61ef0c34f3b256fd3d5e8da749e9bd715e
+published_on: '2026-10-17'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 동네 한 바퀴 | 회차 · 제390화 인생, 소설이 되다 – 강원특별자치도 평창군

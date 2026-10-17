@@ -5,12 +5,14 @@ region: ''
 category: tv
 section: news
 kind: 보도자료
-title: "'은행 너머 은행' 1부, 700년 은행사와 신용점수의 탄생"
+title: '''은행 너머 은행'' 1부, 700년 은행사와 신용점수의 탄생'
 source_name: ''
 source_url: ''
-summary: EBS1 경제 다큐멘터리 '은행 너머 은행' 1부 '은행이 사라졌다'가 17일 오후 3시 방송된다. 은행의 기원과 신용 사회가
-  형성된 과정을, 카드 카운팅과 LTCM 붕괴 같은 금융사의 장면을 통해 짚는다.
-status: approved
+summary: EBS1 경제 다큐멘터리 '은행 너머 은행' 1부 '은행이 사라졌다'가 17일 오후 3시 방송된다. 은행의 기원과 신용 사회가 형성된
+  과정을, 카드 카운팅과 LTCM 붕괴 같은 금융사의 장면을 통해 짚는다.
+status: published
+published_id: c-2336180cf811c6a3732712c5e6ac8c062fdd142b
+published_on: '2026-10-17'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 은행 너머 은행(Beyond Bank) | 회차 · 1부 '은행이 사라졌다'

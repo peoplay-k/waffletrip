@@ -241,11 +241,14 @@
     },
     {
       "date": "2026-10-17",
-      "collected": 1291,
-      "published": 94,
-      "ours": 0,
+      "collected": 1247,
+      "published": 136,
+      "ours": 14,
       "failed_sources": [
-        "guam_post"
+        "guam_pdn",
+        "guam_post",
+        "saipan_tribune",
+        "weather"
       ]
     }
   ]

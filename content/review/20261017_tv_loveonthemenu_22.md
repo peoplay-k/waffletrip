@@ -5,12 +5,14 @@ region: ''
 category: tv
 section: news
 kind: 보도자료
-title: "'사랑이 온다' 22회, 규림이 솔직한 마음을 털어놓는다"
+title: '''사랑이 온다'' 22회, 규림이 솔직한 마음을 털어놓는다'
 source_name: ''
 source_url: ''
-summary: KBS2 주말드라마 '사랑이 온다' 22회가 17일 밤 8시 방송된다. 무진의 기세에 눌린 규림이 솔직한 마음을 털어놓고,
-  한결이 궁금해진 옥선은 한결을 찾아가면서 규림도 옥선을 찾아간다.
-status: approved
+summary: KBS2 주말드라마 '사랑이 온다' 22회가 17일 밤 8시 방송된다. 무진의 기세에 눌린 규림이 솔직한 마음을 털어놓고, 한결이
+  궁금해진 옥선은 한결을 찾아가면서 규림도 옥선을 찾아간다.
+status: published
+published_id: c-d8779fafffc544bd280892bb0056a30c880d58f3
+published_on: '2026-10-17'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 주말드라마 사랑이 온다 | 회차 · 22회
