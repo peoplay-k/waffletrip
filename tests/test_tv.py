@@ -61,3 +61,34 @@ def test_방송_기사에만_우리_카드를_붙인다(tmp_path):
     assert tv_item.photo == "/img/tv/c-1.jpg"
     assert (tmp_path / "img/tv/c-1.jpg").exists() and (tmp_path / "og/tv/c-1.jpg").exists()
     assert movie.photo is None and has_photo.photo == "/img/x.webp"
+
+
+def test_예고편은_공식채널_날짜_프로그램이_다_맞아야_붙는다():
+    ok = {"id": "NTk5p8RJJ6k", "title": "［22회 예고］말 바꾸려고 [사랑이 온다] | KBS 방송",
+          "channel_id": "UChpjIaEgwtDZtmWEkzFulSA", "age_days": 1}
+    fan = {**ok, "channel_id": "UCxxxxxxxxxxxxxxxxxxxxxx"}
+    old = {**ok, "title": "［21회 예고］저 이혼 안 할 거예요 [사랑이 온다]"}
+    assert tv.pick_preview([fan, old, ok], "주말드라마 사랑이 온다", "2026-10-17", "22")["id"] == ok["id"]
+    assert tv.pick_preview([fan, old], "주말드라마 사랑이 온다", "2026-10-17", "22") is None
+
+
+def test_제목에_프로그램명이_없으면_설명으로_확인한다():
+    v = {"id": "DUeob9d4_y8", "title": "[10월 18일 예고] 김승수×송종호, 러브라인",
+         "channel_id": "UCmjNKt6kITwaZTqvWuaSPLg", "age_days": 1}
+    assert tv.pick_preview([v], "미운 우리 새끼", "2026-10-18", "") is None
+    assert tv.pick_preview([v], "미운 우리 새끼", "2026-10-18", "",
+                           confirm=lambda vid, key: key == "미운우리새끼")["id"] == v["id"]
+
+
+def test_편성표_머리말을_뗀다():
+    assert tv.core_name("주말드라마 사랑이 온다") == "사랑이 온다"
+    assert tv.core_name("일일드라마 욕망의 덫") == "욕망의 덫"
+    assert tv.core_name("미운 우리 새끼") == "미운 우리 새끼"
+
+
+def test_출연자_후보는_제목_출연줄_편성표에서_뽑는다():
+    item = {"title": "[SBS 비서진] 이서진, 지석진 연기에 돌직구", "program": "비서진",
+            "text": "출연: 김광규, 지예은\n본문"}
+    slots = [{"title": "비서진", "actors": "이서진,김광규", "time": "2310", "channel": "SBS"}]
+    names = tv.cast_names(item, slots)
+    assert names[:2] == ["이서진", "지석진"] and "김광규" in names and "지예은" in names

@@ -18,6 +18,8 @@ _CODE = re.compile(r"`([^`]+)`")
 _HEAD = re.compile(r"^(#{2,4})\s+(.*)$")
 _LIST = re.compile(r"^([-*·]|\d+\.)\s+")
 # 한 줄 전체가 사진일 때만 사진으로 본다. 캡션 자리에 출처를 쓴다 — "사진: KBS 1TV".
+# 방송사 공식 유튜브 예고편(2026-10-17). 영상 id 는 11자 고정 문자만 받는다.
+_YOUTUBE = re.compile(r"^@youtube\s+([\w-]{11})$")
 _IMAGE = re.compile(r"^!\[([^\]]*)\]\((https://[^)\s]+)\)$")
 
 
@@ -70,6 +72,16 @@ def render(src: str) -> str:
         # 방송사 보도용 스틸(2026-10-16 사장님: 출처를 밝혀 쓴다). https 만 받는다.
         # 남의 서버에 걸린 사진이라 리퍼러를 보내지 않는다 — 핫링크 차단을 덜 맞고,
         # 독자가 어느 기사에서 왔는지 남의 서버에 넘기지 않는다.
+        yt = _YOUTUBE.match(stripped)
+        if yt:
+            # nocookie 도메인 — 독자가 재생하기 전에는 유튜브가 쿠키를 심지 않는다.
+            out.append('<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/%s" '
+                       'title="방송사 공식 예고 영상" loading="lazy" allowfullscreen '
+                       'referrerpolicy="strict-origin-when-cross-origin" '
+                       'allow="encrypted-media; picture-in-picture"></iframe></div>' % yt.group(1))
+            i += 1
+            continue
+
         image = _IMAGE.match(stripped)
         if image:
             cap = html.escape(image.group(1), quote=True)

@@ -124,7 +124,8 @@ def schedules(c: httpx.Client, day: datetime, errors: list) -> list[dict]:
                 rows.append({"channel": name, "title": s.get("program_title") or "",
                              "time": str(s.get("service_start_time") or "")[:4],
                              "homepage": s.get("homepage_url") or "",
-                             "episode": str(s.get("program_sequence_number") or "")})
+                             "episode": str(s.get("program_sequence_number") or ""),
+                             "actors": str(s.get("program_actor") or "")})
     except Exception as e:
         errors.append(f"KBS 편성표: {e}")
     try:
@@ -301,6 +302,175 @@ def kbs_previews(c: httpx.Client, slots: list[dict], errors: list) -> list[dict]
     return out
 
 
+# ── 유튜브 예고편 ─────────────────────────────────────────────────
+#
+# 사진 대신 방송사가 올린 그 회차 예고 영상을 기사에 띄운다(2026-10-16 사장님 결정).
+# 유튜브 임베드는 유튜브 약관이 허용하는 방식이다. 남의 채널 영상은 쓰지 않는다 —
+# 공식 채널 목록(2026-10-17 채널 검색으로 확인)에 있는 것만. 채널 피드는 15곳 중
+# 10곳이 404·500 이라 못 쓰고, 프로그램명 검색 결과에서 공식 채널만 고른다.
+OFFICIAL_YT = {
+    "UCK1sVuXaDvJeNwl9noN5nOA": "KBS Entertain", "UChpjIaEgwtDZtmWEkzFulSA": "KBS Drama",
+    "UCHlSeJxRIXZWMARC2oMwmcQ": "KBS 교양", "UC4LW3sOslC14Vn5bcoNUBkg": "KBS 다큐",
+    "UC6wiUwl7dPhZOAM92lGgKPg": "KBS HUMAN", "UCmjNKt6kITwaZTqvWuaSPLg": "SBS Entertainment",
+    "UC6erIDuvbOaAO-OT5rB2Xew": "SBS 스브스 Drama", "UCiBr0bK06imaMbLc8sAEz0A": "MBCentertainment",
+    "UCBAEVMr0li9YYF8IwZHfusw": "MBC DRAMA", "UCFCtZJTuJhE18k8IXwmXTYQ": "EBSDocumentary",
+    "UCl_tB4AqPkkxuYcJQHz6dMw": "EBSCulture", "UCbeZPOz8uaHstEIbkqBOnGg": "EBS 세계테마기행",
+    "UCFL1sCAksD6_7JIZwwHcwjQ": "JTBC Entertainment", "UCkbJc8jMcTXwhtmN5VMwfXg": "JTBC Drama",
+    "UCsRIHt5FkbGc6cQtCxt-ufA": "tvN D ENT", "UC9w-h_ciMmX64TcLRcb1xPg": "tvN DRAMA",
+}
+_AGE = re.compile(r"(\d+)\s*(분|시간|일|주|개월|년)\s*전")
+
+
+def _days_ago(text: str) -> float:
+    m = _AGE.search(text or "")
+    if not m:
+        return 999
+    n, unit = int(m.group(1)), m.group(2)
+    return {"분": n / 1440, "시간": n / 24, "일": n, "주": n * 7, "개월": n * 30, "년": n * 365}[unit]
+
+
+def _unescape(raw: str) -> str:
+    """유튜브 페이지 안 JSON 문자열의 \\uXXXX·\\" 를 푼다(한글은 그대로 둔다)."""
+    raw = re.sub(r"\\u([0-9a-fA-F]{4})", lambda m: chr(int(m.group(1), 16)), raw)
+    return raw.replace('\\"', '"').replace("\\/", "/")
+
+
+def youtube_search(c: httpx.Client, query: str) -> list[dict]:
+    """유튜브 검색 결과(최신순). [{id, title, channel_id, age_days}]"""
+    r = c.get("https://www.youtube.com/results",
+              params={"search_query": query, "sp": "CAI%3D"},
+              headers={"Accept-Language": "ko-KR,ko"})
+    out = []
+    for m in re.finditer(r'"videoRenderer":\{"videoId":"([\w-]{11})"', r.text):
+        chunk = r.text[m.start():m.start() + 6000]
+        title = re.search(r'"title":\{"runs":\[\{"text":"([^"]+)"', chunk)
+        chan = re.search(r'"browseId":"(UC[\w-]+)"', chunk)
+        age = re.search(r'"publishedTimeText":\{"simpleText":"([^"]+)"', chunk)
+        out.append({"id": m.group(1),
+                    "title": _unescape(title.group(1)) if title else "",
+                    "channel_id": chan.group(1) if chan else "",
+                    "age_days": _days_ago(age.group(1) if age else "")})
+    return out
+
+
+def _norm(text: str) -> str:
+    return re.sub(r"[\s'‘’\"“”!?·:,.\-\[\]]", "", text or "")
+
+
+_GENRE = re.compile(r"^(?:(?:일일|주말|월화|수목|금토|토일|아침|저녁)?\s*드라마|특집\s*다큐|특집|예능)\s*[-·:]?\s*")
+
+
+def core_name(program: str) -> str:
+    """'주말드라마 사랑이 온다' → '사랑이 온다'. 편성표 머리말을 뗀다."""
+    return _GENRE.sub("", (program or "").strip()).strip() or program
+
+
+def _marks(air_date: str, episode: str) -> list[str]:
+    mon, day = int(air_date[5:7]), int(air_date[8:10])
+    out = [f"{mon}월{day}일", f"{mon}/{day}"]
+    if episode:
+        out += [f"{episode}화", f"{episode}회"]
+    return out
+
+
+def pick_preview(results: list[dict], program: str, air_date: str, episode: str,
+                 confirm=None) -> dict | None:
+    """그 회차 예고편 하나. 엉뚱한 영상을 붙이느니 안 붙인다.
+
+    조건: 공식 채널 · 열흘 안 · 제목에 그 방송일('10월 16일')이나 회차('39화')가 있다.
+    그리고 제목에 프로그램명이 있거나, 없으면 confirm(영상 id) 이 영상 설명에서
+    프로그램명을 확인해 줘야 한다 — SBS '미운 우리 새끼'는 제목이 "[10월 18일 예고] …" 뿐이다.
+    """
+    if not program or not air_date:
+        return None
+    key = _norm(core_name(program))
+    marks = [_norm(m) for m in _marks(air_date, episode)]
+    for v in results:
+        t = _norm(v["title"])
+        if v["channel_id"] not in OFFICIAL_YT or v["age_days"] > 10:
+            continue
+        if not any(m in t for m in marks):
+            continue
+        if key in t or (confirm and confirm(v["id"], key)):
+            return {**v, "channel": OFFICIAL_YT[v["channel_id"]]}
+    return None
+
+
+def _confirmer(c: httpx.Client):
+    def check(video_id: str, key: str) -> bool:
+        try:
+            page = c.get(f"https://www.youtube.com/watch?v={video_id}",
+                         headers={"Accept-Language": "ko-KR,ko"}).text
+        except Exception:
+            return False
+        desc = re.search(r'"shortDescription":"(.*?)","', page)
+        kw = re.search(r'"keywords":\[(.*?)\]', page)
+        text = _unescape((desc.group(1) if desc else "") + (kw.group(1) if kw else ""))
+        return key in _norm(text)
+    return check
+
+
+def attach_previews(c: httpx.Client, rows: list[dict], errors: list) -> None:
+    for it in rows:
+        if not it.get("program"):
+            continue
+        try:
+            found = youtube_search(c, f"{core_name(it['program'])} 예고")
+        except Exception as e:
+            errors.append(f"유튜브 {it['program']}: {e}")
+            continue
+        pv = pick_preview(found, it["program"], it["air_date"], it.get("episode", ""),
+                          confirm=_confirmer(c))
+        if pv:
+            it["youtube"] = {"id": pv["id"], "title": pv["title"], "channel": pv["channel"]}
+
+
+# ── 출연자 자유 이용 사진 ─────────────────────────────────────────
+_NAME = re.compile(r"(?<![가-힣])[가-힣]{2,4}(?![가-힣])")
+_STOP = {"방송", "오늘", "예고", "공개", "출연", "프로그램", "이번", "가족", "사람", "시청자",
+         "제작진", "주인공", "드라마", "예능", "다큐", "특집", "마지막", "첫방송", "최초"}
+
+
+def cast_names(item: dict, slots: list[dict]) -> list[str]:
+    """출연자일 만한 이름. 위키데이터가 연예인인지 확인하므로 여기선 넉넉히 뽑는다.
+
+    보도자료 제목(이름이 가장 자주 나온다) → 본문의 '출연' 줄 → KBS 편성표 출연자 순.
+    """
+    names: list[str] = []
+    title = re.sub(r"^\[[^\]]*\]", "", item.get("title") or "")
+    names += [n for n in _NAME.findall(re.sub(r"[×Xx·,]", " ", title))]
+    for m in re.finditer(r"출연\s*[:·]?\s*([^\n]{2,80})", item.get("text") or ""):
+        names += _NAME.findall(m.group(1))
+    slot = find_slot(item.get("program", ""), slots)
+    if slot and slot.get("actors"):
+        names += _NAME.findall(slot["actors"])
+    seen, out = set(), []
+    for n in names:
+        if n not in seen and n not in _STOP:
+            seen.add(n)
+            out.append(n)
+    return out[:6]
+
+
+def attach_photos(rows: list[dict], slots: list[dict], errors: list) -> None:
+    try:
+        import free_photos
+    except Exception as e:
+        errors.append(f"사진 모듈: {e}")
+        return
+    wanted = {it["id"] if "id" in it else it["url"]: cast_names(it, slots) for it in rows}
+    every = [n for names in wanted.values() for n in names]
+    try:
+        found = free_photos.photos_for_names(every)
+    except Exception as e:
+        errors.append(f"자유 이용 사진: {e}")
+        return
+    for it in rows:
+        key = it["id"] if "id" in it else it["url"]
+        it["photos"] = [{"name": n, "line": free_photos.markdown_line(found[n])}
+                        for n in wanted[key] if n in found][:3]
+
+
 # ── 모으기 ────────────────────────────────────────────────────────
 def collect(now: datetime | None = None) -> dict:
     now = now or datetime.now(KST)
@@ -335,6 +505,9 @@ def collect(now: datetime | None = None) -> dict:
         if key not in best or len(it["text"]) > len(best[key]["text"]):
             best[key] = it
     rows = sorted(best.values(), key=lambda i: (i["air_date"], i["air_time"] or "9999"))
+    with client() as c:
+        attach_previews(c, rows, errors)
+    attach_photos(rows, slots + slots_tomorrow, errors)
     return {"built_at": now.isoformat(timespec="seconds"), "today": today,
             "items": rows, "errors": errors,
             "counts": {"편성(오늘)": len(slots), "보도자료": len(items), "재료": len(rows)}}
@@ -350,7 +523,13 @@ def to_markdown(data: dict) -> str:
         ep = f" · {it['episode']}회" if it.get("episode") else ""
         lines += [f"## {it['channel']} {it['program'] or '?'}{ep} — {when}{tm} 방송",
                   f"- 출처: {it['source']} · {it['url']}",
-                  f"- 보도자료 제목: {it['title']}", "", it["text"], ""]
+                  f"- 보도자료 제목: {it['title']}"]
+        if it.get("youtube"):
+            y = it["youtube"]
+            lines.append(f"- 유튜브 예고(공식 {y['channel']}): `@youtube {y['id']}` — {y['title']}")
+        for ph in it.get("photos") or []:
+            lines.append(f"- 사진(자유 이용, 출연자 {ph['name']}): `{ph['line']}`")
+        lines += ["", it["text"], ""]
     if data["errors"]:
         lines += ["---", "수집 실패: " + " / ".join(data["errors"])]
     return "\n".join(lines)

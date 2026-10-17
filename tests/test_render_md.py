@@ -102,3 +102,11 @@ def test_여러_줄_인용은_줄을_살린다():
     got = render("> **방송 정보**\n> 채널 · KBS1 | 프로그램 · 인간극장")
     assert got == ("<blockquote><strong>방송 정보</strong><br>"
                    "채널 · KBS1 | 프로그램 · 인간극장</blockquote>")
+
+
+def test_유튜브_예고편은_id_만_받아_nocookie_로_띄운다():
+    from src.render.md import render
+    got = render("@youtube NTk5p8RJJ6k")
+    assert 'src="https://www.youtube-nocookie.com/embed/NTk5p8RJJ6k"' in got
+    assert "<iframe" not in render('@youtube "><script>x')
+    assert "<iframe" not in render("@youtube https://evil.example/aaaaaaaaaaa")
