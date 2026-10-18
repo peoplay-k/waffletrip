@@ -245,10 +245,11 @@
     },
     {
       "date": "2026-10-18",
-      "collected": 1255,
-      "published": 82,
-      "ours": 0,
+      "collected": 1236,
+      "published": 122,
+      "ours": 12,
       "failed_sources": [
+        "guam_pdn",
         "guam_post",
         "saipan_tribune"
       ]

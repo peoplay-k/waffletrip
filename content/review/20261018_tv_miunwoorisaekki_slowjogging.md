@@ -10,7 +10,9 @@ source_name: ''
 source_url: ''
 summary: SBS '미운 우리 새끼'가 18일 밤 9시 방송된다. 린·홍윤화·조째즈가 5km 떨어진 맛집을 목표로 인생 첫 슬로우조깅에 도전하고,
   홍윤화는 40kg 감량 후 겪은 부작용과 체질 테스트 결과를 공개한다.
-status: approved
+status: published
+published_id: c-183c03be9cca6c6aaa0ee1c1db0b0229060d32d3
+published_on: '2026-10-18'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 미운 우리 새끼 | 회차 · 10월 18일 방송

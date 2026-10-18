@@ -10,7 +10,9 @@ source_name: ''
 source_url: ''
 summary: KBS2 주말드라마 '사랑이 온다' 23회가 18일 밤 8시 방송된다. 다시 만나기로 한 무진과 규림이 서로에게 솔직해지고, 규오는
   희나에게 과거를 고백하며, 무진은 옥선을 찾아가 규림과의 관계를 허락해 달라고 청한다.
-status: approved
+status: published
+published_id: c-cd50603fac49bb399297cefb1a751b8a614880e5
+published_on: '2026-10-18'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 주말드라마 사랑이 온다 | 회차 · 23회

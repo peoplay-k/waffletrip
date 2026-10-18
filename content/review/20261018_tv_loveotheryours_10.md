@@ -10,7 +10,9 @@ source_name: ''
 source_url: ''
 summary: KBS2 '너 말고 다른 연애' 10회가 18일 밤 9시 20분 방송된다. 남궁과 미도는 가족들 앞에서 연인인 척 연기하고, 남궁은
   솔의 등장에 오랜 상처를 마주하며, 미도는 숨겨둔 비밀을 태승에게 고백한다.
-status: approved
+status: published
+published_id: c-40d100441e7d31047d49558816c561623209e0ce
+published_on: '2026-10-18'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 너 말고 다른 연애 | 회차 · 10회

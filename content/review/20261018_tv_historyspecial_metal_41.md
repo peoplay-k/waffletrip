@@ -10,7 +10,9 @@ source_name: ''
 source_url: ''
 summary: KBS1 '역사스페셜 시간여행자' 41회 '역사를 바꾼 과학기술 3부작' 1부가 18일 밤 9시 30분 방송된다. 고대 청동거울 정문경과
   백제금동대향로의 정밀 기술부터, 조선의 제련 기술이 일본으로 건너간 사례까지 금속이 바꾼 역사를 되짚는다.
-status: approved
+status: published
+published_id: c-56d9033571f2686ec6456ab853b57d09cc3f2b41
+published_on: '2026-10-18'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 역사스페셜 시간여행자 | 회차 · 41회
