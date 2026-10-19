@@ -9,7 +9,9 @@ source_name: ''
 source_url: ''
 summary: 2026 다낭 국제관광축제(DITF 2026)가 18일 다낭 아리야나 국제컨벤션센터에서 개막했다. 숙박·리조트·항공·마이스·골프·관광명소·식음료·의료
   등 다양한 서비스가 연결되는 비즈니스 공간이 꾸려졌다. 다낭시는 TripC.AI 플랫폼으로 스마트 관광 경험도 함께 넓히고 있다.
-status: approved
+status: published
+published_id: c-98f5f283a3c110b97c1bba9b3b964b32bece1139
+published_on: '2026-10-19'
 ---
 다낭이 관광축제와 AI 두 갈래로 여행객을 끌어모으고 있다. vietnam.vn은 18일 보도에서 2026 다낭 국제관광축제(DITF 2026) 개막식이 18일 오전 다낭 아리야나 국제컨벤션센터에서 열렸다고 전했다.
 

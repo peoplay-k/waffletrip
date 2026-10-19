@@ -10,7 +10,9 @@ source_name: ''
 source_url: ''
 summary: EBS1 'AI 석학 특강-넥스트 비전'에서 구글 브레인 공동창립자 제프 딘의 강연 마지막 편이 20일 오후 5시 50분 방송된다.
   신경망 연구부터 트랜스포머, 제미나이까지 오늘날 AI를 가능케 한 기술 발전을 들려준다.
-status: approved
+status: published
+published_id: c-f1852decc155dadd7ecf2b3fcbcb41a167341725
+published_on: '2026-10-19'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · AI 석학 특강-넥스트 비전 | 회차 · 제프 딘 강연 (16~20일 중 마지막 편)
