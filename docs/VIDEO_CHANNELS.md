@@ -25,8 +25,9 @@
 
 1. Google Cloud 콘솔 → 프로젝트 → **YouTube Data API v3** 사용 설정
 2. OAuth 동의 화면(외부, 게시 상태로) → OAuth 클라이언트 ID(데스크톱 앱) 만들기
-3. **@waffletrip 채널을 가진 구글 계정으로** 로그인해 refresh token 받기
-   (범위 `https://www.googleapis.com/auth/youtube.upload` 와 `youtube.readonly`)
+3. 맥 터미널에서 `python3 tools/youtube_auth.py` 실행 → 클라이언트 ID·보안 비밀 입력 → 브라우저에서
+   **@waffletrip 채널을 가진 구글 계정으로** 로그인·허용. 채널 핸들을 확인한 뒤 넣을 값을 출력해 준다
+   (@waffletrip 이 아니면 멈춘다)
 4. GitHub `peoplay-k/waffletrip` → Settings → Secrets and variables → Actions 에 세 개:
    `WAFFLETRIP_YT_CLIENT_ID`, `WAFFLETRIP_YT_CLIENT_SECRET`, `WAFFLETRIP_YT_REFRESH_TOKEN`
 5. 끝. 다음 매일 발행부터 올라간다. 값은 채팅·저장소에 붙여넣지 않는다
