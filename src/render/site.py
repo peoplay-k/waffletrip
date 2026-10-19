@@ -401,6 +401,18 @@ def tag_of(item) -> dict:
             "label": REGION_NAMES.get(region, region)}
 
 
+MOVED_URLS = os.path.join("data", "moved_urls.json")
+
+
+def load_moved_urls(path: str | None = None) -> dict[str, str]:
+    try:
+        with open(path or MOVED_URLS, encoding="utf-8") as f:
+            data = json.load(f)
+        return {str(k): str(v) for k, v in data.items()} if isinstance(data, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
+
 def article_url(item: Item) -> str:
     """기사 경로. id·region 도 정제한다.
 
@@ -815,6 +827,21 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         _write(os.path.join(out_dir, "ent", old, "index.html"),
                env.get_template("redirect.html").render(
                    target=f"/ent/{new}/", target_name=ENT_TOPIC_NAMES[new], **common), written)
+
+    # 제목을 고친 기사의 옛 주소. 주소는 제목에서 나오므로 제목을 바꾸면 주소도 바뀐다.
+    # 이미 공유·색인된 옛 주소가 죽지 않게 새 주소로 넘긴다(data/moved_urls.json:
+    # {"옛 경로": "기사 id"}). 2026-10-19 매체 인용 문구를 걷어내며 제목 5개를 고쳤다.
+    by_id = {i.id: i for i in items}
+    for old_path, item_id in load_moved_urls().items():
+        target = urls.get(item_id)
+        if not target or target == old_path or item_id not in by_id:
+            continue
+        seg = old_path.strip("/")
+        if not seg or ".." in seg.split("/"):
+            continue
+        _write(os.path.join(out_dir, seg, "index.html"),
+               env.get_template("redirect.html").render(
+                   target=target, target_name=by_id[item_id].title, moved_article=True, **common), written)
 
     # 도시 페이지 — /city/tokyo/ 같은 주소.
     # 지역면(일본)만으로는 "오사카 항공권" 검색을 받지 못한다. 사람들은

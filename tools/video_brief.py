@@ -6,9 +6,10 @@
 쓸 수 없다. 그래서 재료는 우리가 고르고 묶은 브리핑(C)과 우리가 만든
 데이터(A)뿐이다.
 
-브리핑 안의 개별 사실은 각 매체의 보도다. 대본에서 **출처를 말로 밝힌다** —
-"여행신문 보도에 따르면". 무엇을 골랐고 어떻게 묶었는지가 우리 몫이고,
-그 사실을 숨기지 않는 것이 큐레이션이 표절과 갈리는 지점이다.
+브리핑 안의 개별 사실은 각 매체의 보도다. 출처는 **화면 카드 아래 "출처 · 매체"**
+로 밝히고, 나레이션에서는 "○○ 보도입니다"를 말하지 않는다(2026-10-19 사장님:
+기사·영상에 매체 인용 문구를 두지 않는다). 무엇을 골랐고 어떻게 묶었는지가 우리
+몫이고, 출처를 화면에서 숨기지 않는 것이 큐레이션이 표절과 갈리는 지점이다.
 
 대본은 초안이다. 숫자와 표현은 사람이 확인하고 내보낸다 — 검수는
 자동화하지 않는다. 뉴스 채널은 정확도가 유일한 자산이라 근거 약한 한 편이
@@ -183,19 +184,18 @@ def script_for(item: dict) -> dict:
         "note": "첫 3초. 숫자나 단언으로 시작한다.",
     }]
     for n, fact in enumerate(facts[:SCENES - 2], start=2):
-        cite = f"{fact['outlet']} 보도" if fact["outlet"] else "현지 보도"
         line = _speakable(fact["summary"] or fact["headline"], CHARS_PER_SCENE)
         if not line:
             continue
         off = "" if name in fact["headline"] else f"  ⚠ 제목에 '{name}' 없음"
         scenes.append({
             "n": n,
-            "narration": f"{line}. {cite}입니다.",
+            "narration": f"{line}.",
             "caption": _speakable(fact["headline"], 26),
             # 화면 자막은 더 길게 잡는다. 26자에서 끊었더니 "…최대 150달러"
             # 처럼 말이 잘린 채 화면에 남았다. 네 줄까지 접힌다.
             "screen": _speakable(fact["headline"], 46),
-            "note": f"출처 {fact['outlet'] or '미상'} — 말로 밝힐 것{off}",
+            "note": f"출처 {fact['outlet'] or '미상'} — 화면 카드에 표시(말로는 안 함){off}",
         })
     scenes.append({
         "n": len(scenes) + 1,

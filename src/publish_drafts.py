@@ -25,6 +25,7 @@ from datetime import datetime, timedelta, timezone
 
 import yaml
 
+from src.attribution import find_media_attribution, media_names, strip_media_attribution
 from src.guards.dup_guard import PublishedIndex
 from src.guards.privacy_guard import find_violations
 from src.models import CHANNELS, REGIONS, Item, item_to_dict, title_hash
@@ -106,6 +107,22 @@ def collect_approved(review_dir: str, day: str) -> list[tuple[str, Item]]:
             print(f"  본문이 비어 있어 건너뛴다: {name}", file=sys.stderr)
             continue
 
+        # 본문에 매체 인용("PDN은 17일 보도에서 …전했다", "같은 보도에 따르면")을 두지 않는다
+        # (2026-10-19 사장님). 규칙으로 고칠 수 있는 건 고치고, 남으면 내보내지 않는다.
+        # 참고한 매체와 원문 주소는 맨 끝 **출처** 줄에만 밝힌다.
+        names = media_names(body)
+        text = strip_media_attribution(text, names)
+        front = dict(front)
+        if front.get("summary"):
+            front["summary"] = strip_media_attribution(str(front["summary"]), names)
+        left = (find_media_attribution(text, names)
+                + find_media_attribution(str(front.get("summary") or ""), names))
+        if left:
+            print(f"  발행 보류 {name}: 본문에 매체 인용 문장이 남았다 — 사실만 쓰고 매체는 출처 줄로", file=sys.stderr)
+            for s in left[:5]:
+                print(f"    · {s[:120]}", file=sys.stderr)
+            continue
+
         # 개인정보·거래단가는 발행 경로에서 막는다. 해설 기사는 여행사 운영
         # 기록에서 나오므로 원천에 고객 정보와 계약 숫자가 섞여 있다.
         violations = find_violations(f"{front.get('title', '')}\n{text}")
@@ -169,6 +186,11 @@ def _mark_published(path: str, item_id: str, day: str) -> None:
     front["status"] = "published"
     front["published_id"] = item_id
     front["published_on"] = day
+    # 발행한 본문과 원고가 같아야 다음에 고칠 때 어긋나지 않는다
+    names = media_names(body)
+    body = strip_media_attribution(body, names)
+    if front.get("summary"):
+        front["summary"] = strip_media_attribution(str(front["summary"]), names)
     with open(path, "w", encoding="utf-8") as f:
         f.write("---\n")
         yaml.safe_dump(front, f, allow_unicode=True, sort_keys=False)

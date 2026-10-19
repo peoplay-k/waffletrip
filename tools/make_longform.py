@@ -281,13 +281,12 @@ def build_script(items: list[dict]) -> list[dict]:
             line = summary or _speakable(fact["headline"], 100)
             if not line:
                 continue
-            cite = f"{fact['outlet']} 보도" if fact["outlet"] else "현지 보도"
             scenes.append({
                 "kind": "story", "n": n, "total": len(facts),
                 "headline": _speakable(fact["headline"], 60),
                 "summary": _speakable(fact["summary"], 150),
                 "outlet": fact["outlet"],
-                "narration": f"{line}. {cite}입니다.",
+                "narration": f"{line}.",
             })
 
     scenes.append({

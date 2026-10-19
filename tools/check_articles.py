@@ -17,6 +17,9 @@ import re
 import sys
 from datetime import datetime, timedelta, timezone
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from src.attribution import find_media_attribution, media_names  # noqa: E402
+
 KST = timezone(timedelta(hours=9))
 MIN_CHARS = 900          # 이보다 짧으면 재료가 얇았다는 뜻이다
 
@@ -42,6 +45,10 @@ def check(day: str) -> int:
             문제.append("원문 링크 없음")
         if len(body) < MIN_CHARS:
             문제.append(f"{len(body)}자")
+        # 본문에 매체 인용 금지(2026-10-19). 발행 단계가 이런 원고는 내보내지 않는다.
+        인용 = find_media_attribution(body, media_names(body))
+        if 인용:
+            문제.append(f"매체 인용 {len(인용)}곳 — 예: {인용[0][:50]}")
         if 문제:
             bad += 1
             print(f"  ✗ {name[:44]} — {' · '.join(문제)}")
