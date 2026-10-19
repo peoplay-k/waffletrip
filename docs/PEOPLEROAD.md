@@ -264,6 +264,7 @@
 4. **기자 5명 + 발행 정보** — 현 인원으로 가능한지, 실명 바이라인으로 누가 쓸지. 이름이 정해지면 `src/desks.py` REPORTERS. 발행인·편집인·청소년보호책임자·발행소 주소는 `src/brand.py` 의 PUBLISHER·EDITOR·YOUTH_OFFICER·ADDRESS 에 넣으면 푸터와 청소년보호정책 쪽에 나간다(비어 있으면 안 나감). 등록번호·등록일은 2027-01 등록 뒤. [미결 ③]
 5. **편집실 로그인** — 워커 코드는 `tools/oauth-worker.js` 에 완성돼 있다(허용 출처 waffletrip.com). Cloudflare 에 붙여넣어 배포하고 **주소만** 전달(비밀키는 워커 환경변수에만). 절차 `docs/P3-DECISIONS.md` §14. 주소를 받으면 `config.yml` 한 줄만 고친다.
 6. **SNS 핸들** — @waffletrip06 등 핸들 변경 시점 결정(커넥터 재연결이 필요해 한 번에).
+6-1. **영상 채널** — 유튜브 시크릿 3개 등록, 틱톡 @waffletrip 계정 연결. 절차 `docs/VIDEO_CHANNELS.md`.
 7. **비용 추정** — 기자 인건비·등록 비용·도메인. 1·4가 정해지면 붙인다.
 
 ---
@@ -432,6 +433,15 @@ Kim `config.json` 의 평문 토큰(§8).
 | 매체 문구 | `about.html`, `ethics.html` | "인용한 매체를 밝히고" → "참고한 매체와 원문 주소는 기사 끝 출처에 밝힙니다" |
 | 영상 | `tools/video_brief.py`, `tools/make_longform.py` | 나레이션의 "○○ 보도입니다" 삭제. 화면 카드의 "출처 · 매체" 는 유지 |
 | 테스트 | `tests/test_attribution.py` | 변환·차단·옛 주소 이동 |
+
+### 7-7. 10-19 "영상 와플트립 유튜브·클립·틱톡에 다 올리자"
+
+- **유튜브 @waffletrip**: 자동 발행기(`tools/publish_youtube.py`)를 매일 발행의 publish 잡에 붙였다. 쇼츠는 매일,
+  롱폼은 7일에 한 번. 토큰의 채널 핸들이 @waffletrip 이 아니면 올리지 않는다. **시크릿 3개(WAFFLETRIP_YT_*)가 없어
+  아직은 건너뛴다** — 절차는 `docs/VIDEO_CHANNELS.md`.
+- **틱톡**: Claude 에 연결된 틱톡 계정 다섯 개 중 @waffletrip 으로 확인되는 계정이 없어 올리지 않았다. 계정을
+  연결하면 사이트 영상을 가져와 발행 양식을 띄울 수 있다(게시 버튼은 사장님이 누름).
+- **네이버 클립**: 공개 업로드 API 가 없어 앱에서 사람이 올린다. 영상 주소·설명문 위치를 문서에 적었다.
 
 ## 8. Kim 저장소(SNS 자동 발행)와의 관계
 

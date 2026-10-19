@@ -311,17 +311,27 @@ jobs:
         run: python tools/publish_instagram.py --post
         continue-on-error: true
 
+      # 와플트립 유튜브(@waffletrip). 시크릿이 없으면 건너뛴다. 토큰의 채널 핸들이
+      # @waffletrip 이 아니면 올리지 않는다(브랜드 격리). 2026-10-19 사장님 지시.
+      - name: 유튜브 발행
+        env:
+          WAFFLETRIP_YT_CLIENT_ID: ${{ secrets.WAFFLETRIP_YT_CLIENT_ID }}
+          WAFFLETRIP_YT_CLIENT_SECRET: ${{ secrets.WAFFLETRIP_YT_CLIENT_SECRET }}
+          WAFFLETRIP_YT_REFRESH_TOKEN: ${{ secrets.WAFFLETRIP_YT_REFRESH_TOKEN }}
+        run: python tools/publish_youtube.py --post
+        continue-on-error: true
+
       # 발행 기록을 남겨야 내일 같은 편이 또 안 나간다. 기록이 러너와 함께
       # 사라지면 매일 같은 영상을 올리게 된다 — 재발행은 가장 나쁜 사고다.
       - name: 발행 기록 커밋
         run: |
           git config user.name  "peopleroad-bot"
           git config user.email "bot@waffletrip.com"
-          git add data/instagram_posted.json || true
+          git add data/instagram_posted.json data/youtube_posted.json 2>/dev/null || git add data/instagram_posted.json || true
           if git diff --cached --quiet; then
             echo "기록 변경 없음"
           else
-            git commit -m "chore: 인스타 발행 기록"
+            git commit -m "chore: 인스타·유튜브 발행 기록"
             for i in 1 2 3; do
               git push && exit 0
               git pull --rebase --autostash -X theirs origin main || true
