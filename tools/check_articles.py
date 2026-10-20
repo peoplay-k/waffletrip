@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 """오늘 쓴 해설이 약속대로 됐는지 본다.
 
-편집원칙에 "원문 링크까지 싣는다"고 적어 두었다. 적어만 두고 안 하면
-그게 제일 나쁘다 — 2026-09-16 실측: 그날 여섯 편 전부 외부 링크가 0개였다.
+2026-10-21 부터 출처는 지면에 안 나간다(사장님). 대신 앞머리 sources: 에 참고한
+원문 주소가 남아 있는지, 길이가 충분한지, 본문에 매체 이름이 없는지 본다.
 
     python3 tools/check_articles.py            # 오늘치
     python3 tools/check_articles.py --day 20260916
@@ -41,8 +41,10 @@ def check(day: str) -> int:
         연예 = re.search(r"^channel:\s*ent\s*$", text, re.M) is not None
         현장 = "현장 취재" in body
         문제 = []
-        if not 외부 and not (연예 and 현장):
-            문제.append("원문 링크 없음")
+        # 2026-10-21: 출처는 지면에 안 나간다. 대신 앞머리 sources: 에 근거 주소가 있어야 한다.
+        근거 = re.search(r"^sources:\s*\n(\s+-\s+https?://\S+\s*\n?)+", text, re.M)
+        if not 근거 and not (연예 and 현장):
+            문제.append("근거 주소(sources:) 없음")
         if len(body) < MIN_CHARS:
             문제.append(f"{len(body)}자")
         # 본문에 매체 인용 금지(2026-10-19). 발행 단계가 이런 원고는 내보내지 않는다.
@@ -53,7 +55,7 @@ def check(day: str) -> int:
             bad += 1
             print(f"  ✗ {name[:44]} — {' · '.join(문제)}")
         else:
-            print(f"  ✓ {name[:44]} — {len(body)}자 · 링크 {len(외부)}")
+            print(f"  ✓ {name[:44]} — {len(body)}자")
     print(f"\n{len(paths)}편 중 {bad}편에 문제.")
     return 1 if bad else 0
 

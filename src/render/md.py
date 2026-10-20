@@ -51,11 +51,37 @@ def _inline(text: str) -> str:
     return out
 
 
+_CREDIT_END = re.compile(r"^이 기사는 .*(?:정리|작성)했다\.?$")
+
+
+def strip_credits(src: str) -> str:
+    """기사 끝 `**출처**` 단락과 '이 기사는 … 피플로드가 정리했다' 줄을 지면에서 뺀다.
+
+    2026-10-21 사장님: "출처 같은 거 다 지우고". 이미 나간 기사에도 같이 적용되도록
+    그리는 단계에서 뺀다. 원문 주소는 초안 파일에 남는다(분쟁이 생기면 근거로 쓴다).
+    """
+    out, skipping = [], False
+    for line in src.split("\n"):
+        s = line.strip()
+        if s.startswith("**출처**"):
+            skipping = True
+            continue
+        if skipping and s:
+            continue                      # 출처 단락이 이어지는 줄
+        skipping = False
+        if _CREDIT_END.match(s):
+            continue
+        out.append(line)
+    while out and not out[-1].strip():
+        out.pop()
+    return "\n".join(out)
+
+
 def render(src: str) -> str:
     """지원 문법: 소제목(##~####) · 문단 · 목록 · 표 · 인용 · 구분선 · 사진(한 줄)."""
     if not src:
         return ""
-    lines = src.split("\n")
+    lines = strip_credits(src).split("\n")
     out: list[str] = []
     i = 0
     while i < len(lines):

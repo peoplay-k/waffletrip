@@ -464,8 +464,23 @@ def test_about_page_lists_reporters_and_how_articles_are_made(tmp_path):
 def test_ethics_page_says_we_rewrite_and_skip_exclusives(tmp_path):
     render_site([], str(tmp_path), TODAY)
     html = (tmp_path / "ethics" / "index.html").read_text(encoding="utf-8")
-    assert "남의 문장을 옮기지 않습니다" in html
-    assert "단독 보도는 옮기지 않습니다" in html
+    assert "남의 문장과 남의 취재를 옮기지 않습니다" in html
+    assert "단독 보도·인터뷰 발언·현장 묘사는 싣지 않습니다" in html
+
+
+def test_지면에는_출처_줄이_나가지_않는다(tmp_path):
+    """2026-10-21 사장님: "출처 같은 거 다 지우고". 이미 나간 기사에도 적용된다."""
+    from src.render.md import render
+    body = ("본문.\n\n**출처** · [TTL뉴스 「x」](https://a.com) (2026-09-16 보도).\n"
+            "이 기사는 위 보도를 바탕으로 피플로드가 정리했다.")
+    html = render(body)
+    assert "출처" not in html and "a.com" not in html and "정리했다" not in html
+    assert render("**출처가 궁금하다면** 이 문장은 출처 단락이 아니다") != ""
+
+
+def test_우리_카드에는_직접_촬영_캡션이_붙지_않는다():
+    tpl = open("src/render/templates/article.html", encoding="utf-8").read()
+    assert "item.photo.startswith('/img/tv/')" in tpl
 
 
 def test_편집실_필자는_기자_명부에서만_고른다():
