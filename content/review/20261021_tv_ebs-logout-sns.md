@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '세계는 로그아웃 중?' 호주·프랑스의 청소년 SNS 금지 이후를 찾아가다"
+title: EBS '세계는 로그아웃 중?' 호주·프랑스의 청소년 SNS 금지 이후를 찾아가다
 source_name: ''
 source_url: ''
-summary: EBS1이 10월 21일 오후 6시 50분 다큐멘터리 '세계는 로그아웃 중? - 내 아이의 폰은 오늘도'를 방송한다. 청소년 SNS를 규제한 호주와 프랑스의 현장과 청소년 571명 조사를 담았다.
+summary: EBS1이 10월 21일 오후 6시 50분 다큐멘터리 '세계는 로그아웃 중? - 내 아이의 폰은 오늘도'를 방송한다. 청소년 SNS를
+  규제한 호주와 프랑스의 현장과 청소년 571명 조사를 담았다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005539920
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005539920
+status: published
+published_id: c-62b146a9fc8a910419e3cd777eb5ae15bc52d4fc
+published_on: '2026-10-21'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 기획취재 세계는 로그아웃 중? - 내 아이의 폰은 오늘도

@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'서장훈의 이웃집 백만장자' 92세 박해룡, 제약회사 회장에서 70세 화가로"
+title: '''서장훈의 이웃집 백만장자'' 92세 박해룡, 제약회사 회장에서 70세 화가로'
 source_name: ''
 source_url: ''
-summary: EBS '서장훈의 이웃집 백만장자'가 10월 21일 밤 9시 55분 방송된다. 제약회사 회장을 지낸 뒤 70세에 붓을 잡은 92세 박해룡 작가와 사재 100억 원을 들인 미술관을 소개한다.
+summary: EBS '서장훈의 이웃집 백만장자'가 10월 21일 밤 9시 55분 방송된다. 제약회사 회장을 지낸 뒤 70세에 붓을 잡은 92세
+  박해룡 작가와 사재 100억 원을 들인 미술관을 소개한다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005543022
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005543022
+status: published
+published_id: c-cdb1f124005fcaf31379d9213e6eb66cdc1f18f0
+published_on: '2026-10-21'
 ---
 > **방송 정보**
 > 채널 · EBS | 프로그램 · 서장훈의 이웃집 백만장자
