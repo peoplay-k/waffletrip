@@ -15,7 +15,7 @@ BODY = ("> **방송 정보**\n> 채널 · KBS2 | 프로그램 · 욕망의 덫 |
 def test_방송_정보_상자를_읽는다():
     info = v.info_of({"body_md": BODY})
     assert info == {"channel": "KBS2", "program": "욕망의 덫", "episode": "39회",
-                    "when": "오후 7시 50분", "sort": 1950}
+                    "when": "오후 7시 50분", "sort": 1950, "day": "10/16"}
 
 
 def test_밤_시각은_저녁으로_센다():

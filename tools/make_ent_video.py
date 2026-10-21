@@ -43,7 +43,7 @@ FONTS = ("/System/Library/Fonts/AppleSDGothicNeo.ttc",
          "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc")
 # 화면 버전. 화면 디자인을 바꾸면 올린다 — 같은 날 이미 구운 목소리판을 다시 쓰는 장치가
 # 옛 화면을 계속 쓰지 않게(2026-10-21: 사진을 넣었는데 오전 판이 재사용됐다).
-RENDERER = "2026-10-21-photos"
+RENDERER = "2026-10-21-photos-wrap"
 MIN_ITEMS = 2          # 한 편짜리는 '오늘의 방송'이 아니다
 MAX_LONG = 8
 MAX_SHORTS = 2         # 숏폼은 하루 두 편까지 — 2026-10-16 크레딧이 바닥나 셋에서 줄였다
@@ -61,7 +61,18 @@ def _font(size: int):
 def _wrap(d, text: str, font, width: int, max_lines: int) -> list[str]:
     """낱말 단위로 줄을 나누고, 낱말이 너무 길면 글자 단위로 자른다."""
     lines, cur = [], ""
+    words = []
     for word in text.split():
+        # 한 낱말이 한 줄보다 길면('장나라·김혜윤·표지훈·박해진이') 글자 단위로 자른다.
+        # 2026-10-21 숏폼 제목이 화면 오른쪽 밖으로 잘려 나갔다.
+        while d.textlength(word, font=font) > width and len(word) > 1:
+            k = len(word)
+            while k > 1 and d.textlength(word[:k], font=font) > width:
+                k -= 1
+            words.append(word[:k])
+            word = word[k:]
+        words.append(word)
+    for word in words:
         trial = f"{cur} {word}".strip()
         if d.textlength(trial, font=font) <= width or not cur:
             cur = trial
@@ -78,7 +89,7 @@ def _wrap(d, text: str, font, width: int, max_lines: int) -> list[str]:
 
 # ── 재료 ──────────────────────────────────────────────────────────
 _BOX = re.compile(r"^>\s*채널\s*·\s*([^|]+)\|\s*프로그램\s*·\s*([^|\n]+)(?:\|\s*회차\s*·\s*(.+))?$", re.M)
-_WHEN = re.compile(r"^>\s*방송\s*·\s*(.+)$", re.M)
+_WHEN = re.compile(r"^>\s*(?:첫\s*)?방송\s*·\s*(.+)$", re.M)   # "첫 방송 ·" 꼴도 읽는다
 _TIME = re.compile(r"(오전|오후|밤|저녁|새벽)\s*(\d{1,2})시(?:\s*(\d{1,2})분)?")
 
 
@@ -87,6 +98,7 @@ def info_of(item: dict) -> dict:
     body = item.get("body_md") or ""
     box, when = _BOX.search(body), _WHEN.search(body)
     tm = _TIME.search(when.group(1)) if when else None
+    day = re.search(r"(\d{1,2})월\s*(\d{1,2})일", when.group(1)) if when else None
     hour = 0
     if tm:
         hour = int(tm.group(2)) % 12 + (12 if tm.group(1) in ("오후", "밤", "저녁") else 0)
@@ -94,7 +106,8 @@ def info_of(item: dict) -> dict:
     return {"channel": box.group(1).strip() if box else "",
             "program": box.group(2).strip() if box else "",
             "episode": (box.group(3) or "").strip() if box else "",
-            "when": tm.group(0) if tm else "", "sort": hour or 9999}
+            "when": tm.group(0) if tm else "", "sort": hour or 9999,
+            "day": f"{int(day.group(1))}/{int(day.group(2))}" if day else ""}
 
 
 # 기사 본문의 자유 이용 사진(위키미디어 공용, CC). 캡션에 이름·작성자·라이선스가 있다.
@@ -195,10 +208,14 @@ def script_long(items: list[dict], today: str) -> list[dict]:
 
 def script_short(item: dict) -> list[dict]:
     info = item["info"]
-    head = f"오늘 {info['when']} {info['channel']}".replace("  ", " ").strip()
     summ = re.split(r"(?<=[.!?다])\s+", (item.get("summary") or "").strip())
     pics = photos_of(item)
+    when_day = info.get("day", "")
+    today_md = item.get("_today_md", "")
+    head = (f"오늘 {info['when']} {info['channel']}" if not when_day or when_day == today_md
+            else f"{when_day.replace('/', '월 ')}일 {info['when']} {info['channel']}").replace("  ", " ").strip()
     scenes = [{"kind": "s_open", "info": info, "title": item["title"], "photo": pics[0] if pics else None,
+               "today_md": today_md,
                "narration": _spoken(f"{head}, {info['program']}.")}]
     for k, s in enumerate([x for x in summ if x][:2]):
         # 사진이 두 장이면 둘째 문장 화면에 둘째 사진을 쓴다 — 같은 사진을 거듭 보이지 않게.
@@ -263,7 +280,10 @@ def render_short(sc: dict) -> Image.Image:
     if sc.get("photo") and _paste_photo(im, d, sc["photo"], (P, 260, W - P, 960), 26):
         top = 1040                         # 사진 아래로 글을 내린다
     if sc["kind"] == "s_open":
-        d.text((P, top), "오늘 방송", font=_font(48), fill=CORAL)
+        # 오늘이 아닌 방송(첫 방송 예고 등)에 '오늘 방송'을 달지 않는다.
+        today_md = sc.get("today_md", "")
+        label = "오늘 방송" if not info.get("day") or info.get("day") == today_md else f"{info['day']} 방송"
+        d.text((P, top), label, font=_font(48), fill=CORAL)
         d.text((P, top + 70), " · ".join(x for x in (info.get("channel"), info.get("when")) if x),
                font=_font(56), fill=MUTED)
         y = top + 180
@@ -368,6 +388,9 @@ def main(argv=None) -> int:
         return 0
     long_sc = script_long(items, today)
     # 숏폼은 첫 화면에서 붙잡아야 한다 — 출연자 사진이 있는 기사를 먼저 고른다.
+    d0 = datetime.fromisoformat(today)
+    for it in items:
+        it["_today_md"] = f"{d0.month}/{d0.day}"
     picks = sorted(items, key=lambda it: 0 if photos_of(it) else 1)[:MAX_SHORTS]
     shorts = [script_short(it) for it in picks]
     print(f"오늘의 방송 {len(items)}편 · 롱폼 장면 {len(long_sc)} · 숏폼 {len(shorts)}편 "
