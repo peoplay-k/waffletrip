@@ -245,8 +245,8 @@
     },
     {
       "date": "2026-10-21",
-      "collected": 1144,
-      "published": 266,
+      "collected": 1186,
+      "published": 268,
       "ours": 3,
       "failed_sources": [
         "guam_pdn",
