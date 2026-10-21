@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS 인터뷰 콘텐츠 '블랭크' 23일 첫 공개, 신진서·곽튜브·윤하 등 학교 밖 출신 선배 12편"
+title: EBS 인터뷰 콘텐츠 '블랭크' 23일 첫 공개, 신진서·곽튜브·윤하 등 학교 밖 출신 선배 12편
 source_name: ''
 source_url: ''
-summary: EBS가 학교 밖 청소년 출신 선배와 청소년이 만나는 인터뷰 콘텐츠 '블랭크'를 10월 23일 오후 5시 유튜브 EBSCulture에서 처음 공개한다. 매주 금요일 총 12편이다.
+summary: EBS가 학교 밖 청소년 출신 선배와 청소년이 만나는 인터뷰 콘텐츠 '블랭크'를 10월 23일 오후 5시 유튜브 EBSCulture에서
+  처음 공개한다. 매주 금요일 총 12편이다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005543884
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005543884
+status: published
+published_id: c-e11dc9258972a6f4bf2338185e4e0caddd1ccdad
+published_on: '2026-10-22'
 ---
 > **공개 정보**
 > 채널 · 유튜브 EBSCulture, 학교 밖 청소년 플랫폼 '유스캠퍼스' | 프로그램 · 블랭크(BLANK)

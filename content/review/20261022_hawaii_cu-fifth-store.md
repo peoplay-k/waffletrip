@@ -7,10 +7,13 @@ kind: 해설
 title: CU 하와이 5호점 열었다…1호점 11개월 만, 관광지 대신 대학가·주거지로
 source_name: ''
 source_url: ''
-summary: 편의점 CU가 하와이에서 1호점 개장 11개월 만에 5호점을 열었다. 분기당 한 곳꼴로 출점하며, 관광지보다 오피스·주거지·대학가로 무게중심을 옮기고 있다.
+summary: 편의점 CU가 하와이에서 1호점 개장 11개월 만에 5호점을 열었다. 분기당 한 곳꼴로 출점하며, 관광지보다 오피스·주거지·대학가로
+  무게중심을 옮기고 있다.
 sources:
-  - https://www.dnews.co.kr/m_home/view.jsp?idxno=202610200943085920255
-status: approved
+- https://www.dnews.co.kr/m_home/view.jsp?idxno=202610200943085920255
+status: published
+published_id: c-89ab0d02e3b69d38e2501da05b149e027d0dabfa
+published_on: '2026-10-22'
 ---
 한국 편의점 CU가 하와이에서 다섯 번째 점포를 열었다. 1호점을 낸 지 **11개월** 만이고, 출점 속도는 **분기당 한 곳**이다. 처음 세웠던 초기 출점 목표의 절반을 채운 셈이다.
 

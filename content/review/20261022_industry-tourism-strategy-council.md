@@ -7,10 +7,13 @@ kind: 해설
 title: 국가관광전략회의, 대통령 소속으로 격상…국무회의서 규정 개정안 의결
 source_name: ''
 source_url: ''
-summary: 문화체육관광부는 20일 국무회의에서 국가관광전략회의의 구성·운영 규정 전부개정안이 의결됐다고 밝혔다. 이에 따라 이 회의는 대통령 소속으로 격상된다.
+summary: 문화체육관광부는 20일 국무회의에서 국가관광전략회의의 구성·운영 규정 전부개정안이 의결됐다고 밝혔다. 이에 따라 이 회의는 대통령
+  소속으로 격상된다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72414
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72414
+status: published
+published_id: c-d3c761c32d95d8cb480178a4f2d1e74d365ed89c
+published_on: '2026-10-22'
 ---
 국가관광전략회의가 **대통령 소속**으로 올라선다. 문화체육관광부는 20일 국무회의에서 '국가관광전략회의의 구성 및 운영에 관한 규정' 전부개정법령안이 의결됐다고 밝혔다.
 

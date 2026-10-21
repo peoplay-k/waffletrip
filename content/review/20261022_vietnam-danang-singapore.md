@@ -7,10 +7,13 @@ kind: 해설
 title: 다낭 찾은 싱가포르 관광객 10만 명 넘었다…올해 9개월 만에 37.3% 늘어
 source_name: ''
 source_url: ''
-summary: 올해 1~9월 다낭을 방문한 싱가포르 관광객이 10만 5천 명을 넘어 지난해 같은 기간보다 37.3% 늘었다. 다낭시는 고소득 해외 관광객을 겨냥해 홍보와 기업 연계, 상품 개발을 넓히고 있다.
+summary: 올해 1~9월 다낭을 방문한 싱가포르 관광객이 10만 5천 명을 넘어 지난해 같은 기간보다 37.3% 늘었다. 다낭시는 고소득 해외
+  관광객을 겨냥해 홍보와 기업 연계, 상품 개발을 넓히고 있다.
 sources:
-  - https://www.vietnam.vn/ko/da-nang-ket-noi-doi-tac-singapore-huong-den-dong-khach-du-lich-chat-luong-cao
-status: approved
+- https://www.vietnam.vn/ko/da-nang-ket-noi-doi-tac-singapore-huong-den-dong-khach-du-lich-chat-luong-cao
+status: published
+published_id: c-4c77263941176be4f21227437559a426c7bed724
+published_on: '2026-10-22'
 ---
 베트남 다낭이 싱가포르를 새 공략 시장으로 키우고 있다. 올해 1월부터 9월까지 다낭을 찾은 싱가포르 관광객은 **10만 5천 명**을 넘어, 지난해 같은 기간보다 **37.3%** 늘었다.
 

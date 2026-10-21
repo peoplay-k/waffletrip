@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'한국인의 밥상' 775회, 아우라지 뗏목길 따라 정선·영월·충주의 떼꾼 밥상"
+title: '''한국인의 밥상'' 775회, 아우라지 뗏목길 따라 정선·영월·충주의 떼꾼 밥상'
 source_name: ''
 source_url: ''
-summary: KBS1 '한국인의 밥상' 775회가 10월 22일 저녁 7시 40분 방송된다. 정선 아우라지에서 영월 동강, 충주 목계나루까지 뗏목길을 따라 강마을 밥상을 찾는다.
+summary: KBS1 '한국인의 밥상' 775회가 10월 22일 저녁 7시 40분 방송된다. 정선 아우라지에서 영월 동강, 충주 목계나루까지 뗏목길을
+  따라 강마을 밥상을 찾는다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/table
-status: approved
+- https://program.kbs.co.kr/1tv/culture/table
+status: published
+published_id: c-b6fa185fced66d0923f4cb50e3c803f0e59e1e75
+published_on: '2026-10-22'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 한국인의 밥상 | 회차 · 775회
