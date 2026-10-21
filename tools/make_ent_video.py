@@ -41,6 +41,9 @@ FONTS = ("/System/Library/Fonts/AppleSDGothicNeo.ttc",
          "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
          "/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc",
          "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc")
+# 화면 버전. 화면 디자인을 바꾸면 올린다 — 같은 날 이미 구운 목소리판을 다시 쓰는 장치가
+# 옛 화면을 계속 쓰지 않게(2026-10-21: 사진을 넣었는데 오전 판이 재사용됐다).
+RENDERER = "2026-10-21-photos"
 MIN_ITEMS = 2          # 한 편짜리는 '오늘의 방송'이 아니다
 MAX_LONG = 8
 MAX_SHORTS = 2         # 숏폼은 하루 두 편까지 — 2026-10-16 크레딧이 바닥나 셋에서 줄였다
@@ -391,8 +394,9 @@ def main(argv=None) -> int:
     live = {}
     if args.voiced:
         from narrate import fetch_live, live_meta
-        live = {v["file"]: v for v in ((live_meta(stem) or {}).get("videos") or [])
-                if v.get("kind") == "voiced"}
+        lm = live_meta(stem) or {}
+        if lm.get("renderer") == RENDERER:
+            live = {v["file"]: v for v in (lm.get("videos") or []) if v.get("kind") == "voiced"}
     for scenes, render, size, out in jobs:
         name = os.path.basename(out)
         if name in live and fetch_live(name, args.out):
@@ -410,7 +414,8 @@ def main(argv=None) -> int:
         made.append({"file": os.path.basename(out), "seconds": secs,
                      "kind": "voiced" if voiced else "silent"})
         print(f"  → {out} {secs}초 ({'나레이션' if voiced else '무음'})")
-    meta = {"date": today, "videos": made, "youtube": youtube_meta(items, today),
+    meta = {"date": today, "renderer": RENDERER, "videos": made,
+            "youtube": youtube_meta(items, today),
             "articles": [it["id"] for it in items]}
     with open(os.path.join(args.out, f"{stem}.json"), "w", encoding="utf-8") as fh:
         json.dump(meta, fh, ensure_ascii=False, indent=2)
