@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'인간극장' 새콤달콤 혜원이 왔다, 사과밭에서 2년 만에 맞는 첫 수확"
+title: '''인간극장'' 새콤달콤 혜원이 왔다, 사과밭에서 2년 만에 맞는 첫 수확'
 source_name: ''
 source_url: ''
-summary: KBS1 '인간극장'이 10월 19일부터 23일까지 강원도 화천 사과농가 조혜원 씨 가족의 가을을 5부작으로 전한다. 22일 방송은 그 가운데 4부다.
+summary: KBS1 '인간극장'이 10월 19일부터 23일까지 강원도 화천 사과농가 조혜원 씨 가족의 가을을 5부작으로 전한다. 22일 방송은
+  그 가운데 4부다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/human
-status: approved
+- https://program.kbs.co.kr/1tv/culture/human
+status: published
+published_id: c-ea2f7df1be621ca16dac7c4a57be1f5ed73d340d
+published_on: '2026-10-22'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 인간극장 | 편성 · 5부작 '새콤달콤 혜원이 왔다!' 중 4부
