@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'황신혜의 같이 삽시다' 378회, 장수 사진 특훈에 염색 대참사"
+title: '''황신혜의 같이 삽시다'' 378회, 장수 사진 특훈에 염색 대참사'
 source_name: ''
 source_url: ''
-summary: KBS1 '황신혜의 같이 삽시다' 378회가 10월 21일 저녁 7시 40분 방송된다. 마을 어르신께 장수 사진을 찍어드리기로 한 싱글즈가 사진관 특훈과 포천아트밸리 출사를 하고, 염색 연습 중 사고도 벌어진다.
+summary: KBS1 '황신혜의 같이 삽시다' 378회가 10월 21일 저녁 7시 40분 방송된다. 마을 어르신께 장수 사진을 찍어드리기로 한
+  싱글즈가 사진관 특훈과 포천아트밸리 출사를 하고, 염색 연습 중 사고도 벌어진다.
 sources:
-  - https://program.kbs.co.kr/1tv/enter/livetogether
-status: approved
+- https://program.kbs.co.kr/1tv/enter/livetogether
+status: published
+published_id: c-652b0f4163a074fae382bf9259721be3274f779c
+published_on: '2026-10-21'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 황신혜의 같이 삽시다 | 회차 · 378회

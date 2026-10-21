@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'골 때리는 그녀들' GIFA컵 4강 티켓 놓고 스트리밍파이터 신인 '우덕배' 데뷔전"
+title: '''골 때리는 그녀들'' GIFA컵 4강 티켓 놓고 스트리밍파이터 신인 ''우덕배'' 데뷔전'
 source_name: ''
 source_url: ''
-summary: SBS '골 때리는 그녀들'에서 10월 21일 밤 9시 '제3회 GIFA컵' 4강 진출을 걸고 FC스트리밍파이터와 FC원더우먼2026이 맞붙는다. 스트리밍파이터의 새 멤버 우덕배가 데뷔전을 치른다.
+summary: SBS '골 때리는 그녀들'에서 10월 21일 밤 9시 '제3회 GIFA컵' 4강 진출을 걸고 FC스트리밍파이터와 FC원더우먼2026이
+  맞붙는다. 스트리밍파이터의 새 멤버 우덕배가 데뷔전을 치른다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9267
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9267
+status: published
+published_id: c-a56580d0489655ea628c233fd8188dcb838b3d9e
+published_on: '2026-10-21'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 골 때리는 그녀들

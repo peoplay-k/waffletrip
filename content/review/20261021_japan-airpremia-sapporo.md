@@ -7,14 +7,17 @@ kind: 해설
 title: 에어프레미아, 12월 취항 삿포로·호치민 노선 항공권 26일까지 할인
 source_name: ''
 source_url: ''
-summary: 에어프레미아가 12월 취항하는 인천~삿포로, 인천~호치민 노선의 할인 판매를 20일 시작해 26일까지 이어간다. 판매처는 자사 홈페이지와 모바일 앱이다.
+summary: 에어프레미아가 12월 취항하는 인천~삿포로, 인천~호치민 노선의 할인 판매를 20일 시작해 26일까지 이어간다. 판매처는 자사 홈페이지와
+  모바일 앱이다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72396
-  - https://www.hansbiz.co.kr/news/articleView.html?idxno=874343
-  - https://www.kyeonggi.com/article/20261020580328
-  - https://biz.chosun.com/industry/company/2026/10/20/RYQIYOKWCRHU3ADVA7Z4AQSR2M/
-  - https://digitalchosun.dizzo.com/m/article.amp.html?contid=2026102180050
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72396
+- https://www.hansbiz.co.kr/news/articleView.html?idxno=874343
+- https://www.kyeonggi.com/article/20261020580328
+- https://biz.chosun.com/industry/company/2026/10/20/RYQIYOKWCRHU3ADVA7Z4AQSR2M/
+- https://digitalchosun.dizzo.com/m/article.amp.html?contid=2026102180050
+status: published
+published_id: c-b6129502c7cc262098a47572d06b516ee18eaa77
+published_on: '2026-10-21'
 ---
 에어프레미아가 올해 12월 문을 여는 인천~삿포로, 인천~호치민 두 노선의 항공권을 할인 판매한다. 아직 뜨지 않은 노선을 미리 사는 행사라, 판매 기간이 짧다는 점부터 챙겨야 한다.
 

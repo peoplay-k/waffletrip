@@ -7,11 +7,14 @@ kind: 해설
 title: 교원투어, 겨울 시즈오카 상품 내놔…동계 일본 상품 예약 134% 증가
 source_name: ''
 source_url: ''
-summary: 교원투어는 동계 시즌 출발분의 일본 여행상품 예약 건수가 지난해 같은 기간보다 134% 늘었다고 밝히고, 후지산과 소도시를 묶은 시즈오카 상품을 선보였다.
+summary: 교원투어는 동계 시즌 출발분의 일본 여행상품 예약 건수가 지난해 같은 기간보다 134% 늘었다고 밝히고, 후지산과 소도시를 묶은 시즈오카
+  상품을 선보였다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72395
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72392
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72395
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72392
+status: published
+published_id: c-4efab9268daf2d06166da1e6100519ace99db76a
+published_on: '2026-10-21'
 ---
 겨울 일본 여행의 무게중심이 대도시에서 소도시로 옮겨가고 있다. 교원투어는 이런 흐름에 맞춰 후지산을 낀 시즈오카 여행상품을 새로 내놨다고 밝혔다.
 

@@ -7,11 +7,14 @@ kind: 해설
 title: 베트남항공 하노이~아메다바드 11월 3일 취항, 캄란 바이자이 해변엔 멜리아 리조트 개관
 source_name: ''
 source_url: ''
-summary: 베트남항공이 11월 3일 하노이와 인도 아메다바드를 잇는 직항을 연다. 중남부 캄란 바이자이 해변에는 멜리아 세레니티 캄란 비치 리조트가 10월 1일 문을 열었다.
+summary: 베트남항공이 11월 3일 하노이와 인도 아메다바드를 잇는 직항을 연다. 중남부 캄란 바이자이 해변에는 멜리아 세레니티 캄란 비치 리조트가
+  10월 1일 문을 열었다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72389
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72399
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72389
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72399
+status: published
+published_id: c-b1f225c3d8ca46a205f2755348fb8162f05088bc
+published_on: '2026-10-21'
 ---
 베트남의 하늘길과 해변에서 새 소식이 하나씩 나왔다. 베트남항공은 인도로 가는 일곱 번째 노선을 열고, 캄란 해변에는 올인클루시브 리조트가 문을 열었다.
 
