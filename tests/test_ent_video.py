@@ -36,3 +36,10 @@ def test_유튜브_설명에_AI_음성임을_밝힌다():
     item = {"title": "t", "info": v.info_of({"body_md": BODY})}
     meta = v.youtube_meta([item], "2026-10-16")
     assert "AI 음성" in meta["description"] and meta["title"].startswith("[오늘의 방송] 10/16")
+
+
+def test_기사_본문의_자유_이용_사진을_읽는다():
+    body = BODY + "\n\n![김혜윤 · 사진 TV10 · CC BY 4.0 · 위키미디어 공용](https://upload.wikimedia.org/a/b.jpg)\n\n![x](https://evil.example/c.jpg)"
+    assert v.photos_of({"body_md": body}) == [
+        {"caption": "김혜윤 · 사진 TV10 · CC BY 4.0 · 위키미디어 공용",
+         "url": "https://upload.wikimedia.org/a/b.jpg"}]

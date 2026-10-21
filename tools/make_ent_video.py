@@ -94,6 +94,53 @@ def info_of(item: dict) -> dict:
             "when": tm.group(0) if tm else "", "sort": hour or 9999}
 
 
+# 기사 본문의 자유 이용 사진(위키미디어 공용, CC). 캡션에 이름·작성자·라이선스가 있다.
+_PHOTO = re.compile(r"^!\[([^\]]+)\]\((https://upload\.wikimedia\.org/[^)\s]+)\)\s*$", re.M)
+_PHOTO_CACHE: dict[str, object] = {}
+
+
+def photos_of(item: dict) -> list[dict]:
+    return [{"caption": m.group(1), "url": m.group(2)}
+            for m in _PHOTO.finditer(item.get("body_md") or "")]
+
+
+def fetch_photo(url: str):
+    """사진을 받아 PIL 이미지로. 실패하면 None — 사진 없이 글자 화면으로 간다."""
+    if url in _PHOTO_CACHE:
+        return _PHOTO_CACHE[url]
+    im = None
+    try:
+        import io
+        import urllib.request
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "PeopleRoadBot/1.0 (https://waffletrip.com; editorial)"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            im = Image.open(io.BytesIO(r.read())).convert("RGB")
+            from PIL import ImageOps
+            im = ImageOps.exif_transpose(im)
+    except Exception:
+        im = None
+    _PHOTO_CACHE[url] = im
+    return im
+
+
+def _paste_photo(canvas, d, photo: dict, box: tuple[int, int, int, int], credit_size: int) -> bool:
+    """box 안에 사진을 비율대로 넣고 아래에 출처 캡션을 단다(CC BY 조건)."""
+    im = fetch_photo(photo["url"])
+    if im is None:
+        return False
+    from PIL import ImageOps
+    x0, y0, x1, y1 = box
+    fitted = ImageOps.fit(im, (x1 - x0, y1 - y0), Image.LANCZOS, centering=(0.5, 0.3))
+    canvas.paste(fitted, (x0, y0))
+    cap = photo["caption"]
+    f = _font(credit_size)
+    while d.textlength(cap, font=f) > (x1 - x0) and len(cap) > 8:
+        cap = cap[:-2]
+    d.text((x0, y1 + 10), cap if cap == photo["caption"] else cap + "…", font=f, fill=MUTED)
+    return True
+
+
 def load_today(data_dir: str = "data", today: str = "") -> list[dict]:
     today = today or datetime.now(KST).strftime("%Y-%m-%d")
     rows, seen = [], set()
@@ -134,6 +181,7 @@ def script_long(items: list[dict], today: str) -> list[dict]:
     for n, it in enumerate(items, 1):
         info = it["info"]
         scenes.append({"kind": "story", "n": n, "total": len(items), "info": info,
+                       "photo": (photos_of(it) or [None])[0],
                        "title": it["title"], "summary": _sentences(it.get("summary"), 2),
                        # 요약에 이미 채널·시각이 들어 있다 — 앞에 또 붙이면 두 번 읽는다.
                        "narration": _spoken(_sentences(it.get("summary"), 2))})
@@ -146,10 +194,14 @@ def script_short(item: dict) -> list[dict]:
     info = item["info"]
     head = f"오늘 {info['when']} {info['channel']}".replace("  ", " ").strip()
     summ = re.split(r"(?<=[.!?다])\s+", (item.get("summary") or "").strip())
-    scenes = [{"kind": "s_open", "info": info, "title": item["title"],
+    pics = photos_of(item)
+    scenes = [{"kind": "s_open", "info": info, "title": item["title"], "photo": pics[0] if pics else None,
                "narration": _spoken(f"{head}, {info['program']}.")}]
-    for s in [x for x in summ if x][:2]:
-        scenes.append({"kind": "s_line", "info": info, "line": s, "narration": _spoken(s)})
+    for k, s in enumerate([x for x in summ if x][:2]):
+        # 사진이 두 장이면 둘째 문장 화면에 둘째 사진을 쓴다 — 같은 사진을 거듭 보이지 않게.
+        pic = pics[k + 1] if len(pics) > k + 1 else None
+        scenes.append({"kind": "s_line", "info": info, "line": s, "photo": pic,
+                       "narration": _spoken(s)})
     scenes.append({"kind": "s_close", "narration": "피플로드 연예였습니다."})
     return scenes
 
@@ -176,15 +228,19 @@ def render_long(sc: dict) -> Image.Image:
         d.text((P, 640), f"피플로드가 미리 본 {sc['count']}편", font=_font(48), fill=MUTED)
     elif sc["kind"] == "story":
         info = sc["info"]
+        text_w = W - P * 2
+        # 출연자 사진이 있으면 오른쪽에 둔다. 글은 왼쪽 폭으로 줄인다.
+        if sc.get("photo") and _paste_photo(im, d, sc["photo"], (W - P - 600, 190, W - P, 830), 22):
+            text_w = W - P * 2 - 660
         d.text((P, 190), f"{sc['n']:02d} / {sc['total']:02d}", font=_font(32), fill=CORAL)
         tag = " · ".join(x for x in (info["channel"], info["when"], info["episode"]) if x)
         d.text((P, 240), tag, font=_font(40), fill=MUTED)
         y = 320
-        for line in _wrap(d, sc["title"], _font(68), W - P * 2, 3):
+        for line in _wrap(d, sc["title"], _font(68), text_w, 4):
             d.text((P, y), line, font=_font(68), fill=INK)
             y += 92
         y += 30
-        for line in _wrap(d, sc["summary"], _font(40), W - P * 2, 4):
+        for line in _wrap(d, sc["summary"], _font(40), text_w, 5):
             d.text((P, y), line, font=_font(40), fill=MUTED)
             y += 58
     else:
@@ -200,18 +256,21 @@ def render_short(sc: dict) -> Image.Image:
     d = ImageDraw.Draw(im)
     _brand(d, P, 120, 40)
     info = sc.get("info") or {}
+    top = 520
+    if sc.get("photo") and _paste_photo(im, d, sc["photo"], (P, 260, W - P, 960), 26):
+        top = 1040                         # 사진 아래로 글을 내린다
     if sc["kind"] == "s_open":
-        d.text((P, 520), "오늘 방송", font=_font(48), fill=CORAL)
-        d.text((P, 590), " · ".join(x for x in (info.get("channel"), info.get("when")) if x),
+        d.text((P, top), "오늘 방송", font=_font(48), fill=CORAL)
+        d.text((P, top + 70), " · ".join(x for x in (info.get("channel"), info.get("when")) if x),
                font=_font(56), fill=MUTED)
-        y = 700
-        for line in _wrap(d, sc["title"], _font(84), W - P * 2, 5):
+        y = top + 180
+        for line in _wrap(d, sc["title"], _font(84), W - P * 2, 5 if top == 520 else 3):
             d.text((P, y), line, font=_font(84), fill=INK)
             y += 112
     elif sc["kind"] == "s_line":
-        d.text((P, 520), info.get("program", ""), font=_font(48), fill=CORAL)
-        y = 620
-        for line in _wrap(d, sc["line"], _font(72), W - P * 2, 7):
+        d.text((P, top), info.get("program", ""), font=_font(48), fill=CORAL)
+        y = top + 100
+        for line in _wrap(d, sc["line"], _font(72), W - P * 2, 7 if top == 520 else 4):
             d.text((P, y), line, font=_font(72), fill=INK)
             y += 100
     else:
@@ -305,7 +364,9 @@ def main(argv=None) -> int:
         print(f"오늘의 방송 영상: 방송 기사가 {len(items)}편뿐이라 만들지 않는다.")
         return 0
     long_sc = script_long(items, today)
-    shorts = [script_short(it) for it in items[:MAX_SHORTS]]
+    # 숏폼은 첫 화면에서 붙잡아야 한다 — 출연자 사진이 있는 기사를 먼저 고른다.
+    picks = sorted(items, key=lambda it: 0 if photos_of(it) else 1)[:MAX_SHORTS]
+    shorts = [script_short(it) for it in picks]
     print(f"오늘의 방송 {len(items)}편 · 롱폼 장면 {len(long_sc)} · 숏폼 {len(shorts)}편 "
           f"· 나레이션 {sum(len(s['narration']) for s in long_sc)}자")
     for s in long_sc:
