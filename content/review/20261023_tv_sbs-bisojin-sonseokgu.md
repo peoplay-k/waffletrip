@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '비서진' 손석구 편, 부산국제영화제 현장에서 이서진과 '브로맨스'"
+title: SBS '비서진' 손석구 편, 부산국제영화제 현장에서 이서진과 '브로맨스'
 source_name: ''
 source_url: ''
-summary: SBS '비서진'이 10월 23일 밤 11시 10분 방송된다. 부산국제영화제를 찾은 배우 손석구의 '비서'로 나선 이서진과 김광규의 하루를 담는다.
+summary: SBS '비서진'이 10월 23일 밤 11시 10분 방송된다. 부산국제영화제를 찾은 배우 손석구의 '비서'로 나선 이서진과 김광규의
+  하루를 담는다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9274
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9274
+status: published
+published_id: c-d4703ea510fb84c4b29cded2ba95ab3e95100381
+published_on: '2026-10-23'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 무엇이든 해줄지니 - 비서진

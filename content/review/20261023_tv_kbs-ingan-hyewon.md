@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'인간극장' 화천 사과 농부 조혜원 씨, 닷새 여정의 마지막 날"
+title: '''인간극장'' 화천 사과 농부 조혜원 씨, 닷새 여정의 마지막 날'
 source_name: ''
 source_url: ''
-summary: KBS1 '인간극장'이 10월 23일 오전 7시 50분 한 주 연속 방송의 마지막 회를 낸다. 사랑을 따라 강원 화천에서 사과 농사를 짓는 조혜원 씨 가족의 가을을 담았다.
+summary: KBS1 '인간극장'이 10월 23일 오전 7시 50분 한 주 연속 방송의 마지막 회를 낸다. 사랑을 따라 강원 화천에서 사과 농사를
+  짓는 조혜원 씨 가족의 가을을 담았다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/human
-status: approved
+- https://program.kbs.co.kr/1tv/culture/human
+status: published
+published_id: c-940e864b11d1e9af4567bae8567218c8dc9278b2
+published_on: '2026-10-23'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 인간극장

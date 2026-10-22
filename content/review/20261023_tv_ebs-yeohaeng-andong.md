@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '여행본색' 안동 편, 월영교 달배에서 도산서원·임청각까지"
+title: EBS '여행본색' 안동 편, 월영교 달배에서 도산서원·임청각까지
 source_name: ''
 source_url: ''
-summary: EBS1 '최태성 서경석의 여행본색'이 10월 24일 오후 2시 10분 안동 편을 방송한다. 월영교 야경, 하회마을, 도산서원, 임청각, 금소마을을 두 사람이 걷는다.
+summary: EBS1 '최태성 서경석의 여행본색'이 10월 24일 오후 2시 10분 안동 편을 방송한다. 월영교 야경, 하회마을, 도산서원, 임청각,
+  금소마을을 두 사람이 걷는다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005546184
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005546184
+status: published
+published_id: c-43acdda826c15bfa838aa6403c0bb6e99fa1c657
+published_on: '2026-10-23'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 최태성 서경석의 여행본색 | 편 · 갈동? 말동? 안동!
