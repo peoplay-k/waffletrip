@@ -9,8 +9,10 @@ source_name: ''
 source_url: ''
 summary: 에이투어스가 10월 14일 서울관광플라자에서 하이퐁 골프·리조트 로드쇼를 열었다. 하이퐁이 새 골프 여행지로 한국 시장에 나섰다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500572
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500572
+status: published
+published_id: c-237ffa276b5c56db18a280891efe894f7825816c
+published_on: '2026-10-23'
 ---
 베트남 북부 항구도시 하이퐁이 새로운 골프 여행지로 한국 시장에 나섰다. 에이투어스는 10월 14일 서울관광플라자에서 국내 여행사와 골프업계 관계자를 불러 '드래곤 골프 & 리조트 로드쇼'를 열었다.
 

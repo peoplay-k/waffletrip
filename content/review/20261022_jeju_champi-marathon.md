@@ -4,13 +4,16 @@ channel: travel
 region: jeju
 section: news
 kind: 해설
-title: "태풍 '참피' 제주 직접 영향권 벗어날 듯…25일 국제마라톤은 예정대로"
+title: 태풍 '참피' 제주 직접 영향권 벗어날 듯…25일 국제마라톤은 예정대로
 source_name: ''
 source_url: ''
-summary: 제30호 태풍 참피가 타이완을 지나며 세력이 약해지고 진로도 오른쪽으로 꺾일 전망이다. 25일 열리는 제18회 아름다운제주국제마라톤은 예정대로 진행된다.
+summary: 제30호 태풍 참피가 타이완을 지나며 세력이 약해지고 진로도 오른쪽으로 꺾일 전망이다. 25일 열리는 제18회 아름다운제주국제마라톤은
+  예정대로 진행된다.
 sources:
-  - https://www.jejusori.net/news/articleView.html?idxno=507590
-status: approved
+- https://www.jejusori.net/news/articleView.html?idxno=507590
+status: published
+published_id: c-2f76b4d99102b80143479d1bafc37f05fba87bcd
+published_on: '2026-10-23'
 ---
 25일 오전 열리는 제18회 아름다운제주국제마라톤이 예정대로 치러질 전망이다. 제30호 태풍 '참피'(CHAMPI)가 제주를 직접 비켜 갈 것으로 보이기 때문이다.
 

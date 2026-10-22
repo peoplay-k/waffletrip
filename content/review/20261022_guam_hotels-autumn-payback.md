@@ -7,10 +7,13 @@ kind: 해설
 title: 괌 호텔 5곳 '가을 페이백' 공동 프로모션…겨울방학·연말 여행객 겨냥
 source_name: ''
 source_url: ''
-summary: 괌 호텔 5곳이 숙박 할인과 골프·투어 혜택을 묶은 공동 프로모션을 연다. 골프장 이용료 20달러 할인, 투어 예약 시 아동 1명 무료 혜택이 붙는다.
+summary: 괌 호텔 5곳이 숙박 할인과 골프·투어 혜택을 묶은 공동 프로모션을 연다. 골프장 이용료 20달러 할인, 투어 예약 시 아동 1명
+  무료 혜택이 붙는다.
 sources:
-  - https://www.fnnews.com/news/202610171143442405
-status: approved
+- https://www.fnnews.com/news/202610171143442405
+status: published
+published_id: c-6cffb6847caec1655a7bf368d012f28927cf8a7f
+published_on: '2026-10-23'
 ---
 괌 호텔 5곳이 겨울 방학과 연말 여행객을 겨냥해 공동 프로모션을 내놓았다. 이름은 '가을 페이백'이고, 숙박 할인에 골프와 투어 혜택을 얹었다.
 

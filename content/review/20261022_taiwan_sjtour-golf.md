@@ -9,8 +9,10 @@ source_name: ''
 source_url: ''
 summary: SJ투어가 대만 중남부 골프를 핵심 사업 영역으로 삼고 동계 골프시장 공략에 나섰다. 지역별 특화 상품과 현지 직접 운영이 전략이다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500579
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500579
+status: published
+published_id: c-e7ee4d1020f9b128771f3532897ab494178c522a
+published_on: '2026-10-23'
 ---
 여행사 SJ투어가 대만 중남부 골프를 핵심 사업으로 키운다. 겨울 골프 수요를 노려 동계 시장 공략에 나섰다.
 

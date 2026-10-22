@@ -9,8 +9,10 @@ source_name: ''
 source_url: ''
 summary: 제65회 탐라문화제가 21일 제주시민복지타운광장에서 막을 내렸다. 17일부터 5일간 4개 마당, 16개 프로그램이 이어졌다.
 sources:
-  - https://www.jejunews.com/news/articleView.html?idxno=2228401
-status: approved
+- https://www.jejunews.com/news/articleView.html?idxno=2228401
+status: published
+published_id: c-6b67c169f8e21387754dd5156108a479a7f183ce
+published_on: '2026-10-23'
 ---
 제65회 탐라문화제가 21일 제주시민복지타운광장에서 막을 내렸다. 17일부터 닷새 동안 **4개 마당, 16개 프로그램**으로 꾸려졌다.
 

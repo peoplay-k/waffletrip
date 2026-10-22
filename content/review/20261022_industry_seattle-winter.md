@@ -7,11 +7,14 @@ kind: 보도자료
 title: 시애틀관광청, 연말 겨울 시즌 행사 소개…크리스마스 선박 퍼레이드·불꽃놀이
 source_name: ''
 source_url: ''
-summary: 시애틀관광청이 11월부터 연말연시까지 이어지는 홀리데이 행사와 겨울 명소를 소개했다. 크리스마스 선박 퍼레이드와 홀리데이 마켓, 새해맞이 불꽃놀이가 꼽혔다.
+summary: 시애틀관광청이 11월부터 연말연시까지 이어지는 홀리데이 행사와 겨울 명소를 소개했다. 크리스마스 선박 퍼레이드와 홀리데이 마켓, 새해맞이
+  불꽃놀이가 꼽혔다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72412
-  - https://www.tournews21.com/news/articleView.html?idxno=146296
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72412
+- https://www.tournews21.com/news/articleView.html?idxno=146296
+status: published
+published_id: c-fdbc1613c28c2be37fb7bfef74b85c4ed62691f4
+published_on: '2026-10-23'
 ---
 시애틀관광청이 다가오는 겨울 시즌의 여행 명소와 행사를 정리해 내놓았다. 11월부터 연말연시까지 시애틀 곳곳에서 이어지는 프로그램이 대상이다.
 
