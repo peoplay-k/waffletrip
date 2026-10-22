@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '거장항준' 2회, 진선규가 털어놓는 아내 박보경 청룡 수상의 눈물"
+title: SBS '거장항준' 2회, 진선규가 털어놓는 아내 박보경 청룡 수상의 눈물
 source_name: ''
 source_url: ''
-summary: SBS 시네마틱 토크 예능 '거장항준'이 22일 밤 9시 2회를 방송한다. 게스트로 나온 배우 진선규가 아내 박보경의 청룡 수상 당시 눈물과 복귀 첫 오디션 일화를 들려준다.
+summary: SBS 시네마틱 토크 예능 '거장항준'이 22일 밤 9시 2회를 방송한다. 게스트로 나온 배우 진선규가 아내 박보경의 청룡 수상 당시
+  눈물과 복귀 첫 오디션 일화를 들려준다.
 sources:
 - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9261
-status: approved
+status: published
+published_id: c-e08fbd6cd8323d51692586fb6b54ce4fcd818377
+published_on: '2026-10-22'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 거장항준 | 회차 · 2회

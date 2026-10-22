@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '위대한 수업, 그레이트 마인즈' 필리프 판 파레이스의 '21세기 정의론', 23일부터 7일간"
+title: EBS '위대한 수업, 그레이트 마인즈' 필리프 판 파레이스의 '21세기 정의론', 23일부터 7일간
 source_name: ''
 source_url: ''
-summary: EBS1 '위대한 수업, 그레이트 마인즈'가 23일부터 29일까지 평일 밤 11시 40분 정치철학자 필리프 판 파레이스의 '21세기 정의론'을 방송한다. 기본소득과 실질적 자유가 주제다.
+summary: EBS1 '위대한 수업, 그레이트 마인즈'가 23일부터 29일까지 평일 밤 11시 40분 정치철학자 필리프 판 파레이스의 '21세기
+  정의론'을 방송한다. 기본소득과 실질적 자유가 주제다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005546652
-status: approved
+status: published
+published_id: c-e512a5706e3bee0e8cd901fd069ac00ef44b84da
+published_on: '2026-10-22'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 위대한 수업, 그레이트 마인즈 | 주제 · 필리프 판 파레이스의 '21세기 정의론'
