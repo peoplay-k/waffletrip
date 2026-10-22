@@ -10,7 +10,8 @@
     "peopleroad-guam-20261016-voiced",
     "peopleroad-guam-20261020-voiced",
     "peopleroad-guam-20261021-voiced",
-    "peopleroad-guam-20261022-voiced"
+    "peopleroad-guam-20261022-voiced",
+    "peopleroad-guam-20261023-voiced"
   ],
   "log": [
     {
@@ -67,6 +68,11 @@
       "file": "peopleroad-guam-20261022-voiced",
       "media_id": "18078948614413581",
       "at": "2026-10-22 00:31:08"
+    },
+    {
+      "file": "peopleroad-guam-20261023-voiced",
+      "media_id": "18435806287150724",
+      "at": "2026-10-23 00:47:16"
     }
   ]
 }
