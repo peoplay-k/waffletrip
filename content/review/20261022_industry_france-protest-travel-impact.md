@@ -10,8 +10,10 @@ source_url: ''
 summary: 10월 17일 프랑스 전역에서 대규모 시위가 벌어져 주요 도시에서 경찰과 시위대가 충돌하고 관광시설도 피해를 입었다. 국내 여행상품에서
   예약 취소 사례가 나타났지만 영향은 제한적인 것으로 파악된다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500590
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500590
+status: published
+published_id: c-e1943d4c54b228d6add29d32d6bc2758c6a7baf7
+published_on: '2026-10-22'
 ---
 프랑스에서 번진 시위가 여행업계로도 번졌다. **10월 17일** 프랑스 전역에서 열린 대규모 시위로 주요 도시에서 경찰과 시위대가 충돌하고 관광시설도 피해를 입었다. 국내 여행상품에서는 **예약 취소 사례**가 나타났다.
 

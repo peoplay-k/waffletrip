@@ -10,8 +10,10 @@ source_url: ''
 summary: 대만관광청이 배우 김혜윤을 한국 시장 홍보대사로 위촉하고 신규 홍보 영상 4편을 공개했다. 10월 21일 서울에서 시사회와 위촉식을
   열고 한국 관광객 유치에 나섰다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500591
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500591
+status: published
+published_id: c-16919fd60c1c807098d8584a040e12b393e205d0
+published_on: '2026-10-22'
 ---
 대만관광청이 배우 김혜윤을 한국 시장 홍보대사로 세웠다. 10월 21일 서울에서 신규 캠페인 영상 시사회와 홍보대사 위촉식을 열고, 한국 관광객을 겨냥한 홍보 영상 **4편**을 함께 공개했다.
 

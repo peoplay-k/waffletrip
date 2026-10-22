@@ -8,13 +8,15 @@ kind: 해설
 title: 연상호 감독 '실낙원', 개봉 첫날 한국영화 박스오피스 1위
 source_name: ''
 source_url: ''
-summary: "연상호 감독의 심리 스릴러 '실낙원'이 개봉 첫날 2만625명을 동원해 한국영화 박스오피스 1위에 올랐다. 전체 박스오피스 1위는
-  '치이카와: 인어 섬의 비밀'이 8일 연속으로 지키고 있다."
+summary: '연상호 감독의 심리 스릴러 ''실낙원''이 개봉 첫날 2만625명을 동원해 한국영화 박스오피스 1위에 올랐다. 전체 박스오피스 1위는
+  ''치이카와: 인어 섬의 비밀''이 8일 연속으로 지키고 있다.'
 sources:
-  - https://www.bntnews.co.kr/article/view/bnt202610220030
-  - https://www.topstarnews.net/news/articleView.html?idxno=16254403
-  - https://www.econovill.com/news/articleView.html?idxno=754463
-status: approved
+- https://www.bntnews.co.kr/article/view/bnt202610220030
+- https://www.topstarnews.net/news/articleView.html?idxno=16254403
+- https://www.econovill.com/news/articleView.html?idxno=754463
+status: published
+published_id: c-05c1825b503e614e1bd8e61b1e4de12eafa589d6
+published_on: '2026-10-22'
 ---
 연상호 감독의 신작 '실낙원'이 개봉 첫날 **한국영화 박스오피스 1위**에 올랐다. 김현주와 배현성이 주연을 맡은 저예산 심리 스릴러다.
 

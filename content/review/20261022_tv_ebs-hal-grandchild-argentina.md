@@ -8,11 +8,13 @@ kind: 보도자료
 title: EBS '왔다! 내 손주', 페루 찍고 아르헨티나…삼대의 남미 대장정 마지막 편
 source_name: ''
 source_url: ''
-summary: EBS1 '왔다! 내 손주'가 10월 22일 밤 9시 55분 방송된다. 세 살 하루네 가족이 아르헨티나에서 현지 할머니·할아버지를 만나고,
-  내년 이주를 앞두고 새 보금자리를 찾아보는 남미 여정의 마지막 편이다.
+summary: EBS1 '왔다! 내 손주'가 10월 22일 밤 9시 55분 방송된다. 세 살 하루네 가족이 아르헨티나에서 현지 할머니·할아버지를
+  만나고, 내년 이주를 앞두고 새 보금자리를 찾아보는 남미 여정의 마지막 편이다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005543124
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005543124
+status: published
+published_id: c-90ae85b8fef02f6705dc7110deb4133e81224a0e
+published_on: '2026-10-22'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 왔다! 내 손주

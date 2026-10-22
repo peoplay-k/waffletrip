@@ -11,8 +11,10 @@ source_url: ''
 summary: EBS1 '명의'가 10월 23일 밤 9시 55분 방송된다. 신장내과 전문의 김동기 교수와 함께 만성콩팥병의 최신 치료제와 콩팥을
   지키는 생활 습관을 알아본다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005546179
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005546179
+status: published
+published_id: c-44d17d9744b48e9799bb533d329dec2c2354fef5
+published_on: '2026-10-22'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 명의
