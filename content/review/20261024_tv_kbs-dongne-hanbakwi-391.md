@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'동네 한 바퀴' 391화, 마이산 자락 진안에서 씨 없는 감과 가위 박물관을 만난다"
+title: '''동네 한 바퀴'' 391화, 마이산 자락 진안에서 씨 없는 감과 가위 박물관을 만난다'
 source_name: ''
 source_url: ''
-summary: KBS1 '동네 한 바퀴'가 10월 24일 토요일 오후 7시 10분 제391화 '가을이 오래 머물다'를 방송한다. 전북 진안군의 마이산, 마조마을 감, 가위박물관, 인삼, 용담호 쏘가리 매운탕이 나온다.
+summary: KBS1 '동네 한 바퀴'가 10월 24일 토요일 오후 7시 10분 제391화 '가을이 오래 머물다'를 방송한다. 전북 진안군의 마이산,
+  마조마을 감, 가위박물관, 인삼, 용담호 쏘가리 매운탕이 나온다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/town2
-status: approved
+- https://program.kbs.co.kr/1tv/culture/town2
+status: published
+published_id: c-1c454192bd1eb70b3f10c66cb6617d5455eb2707
+published_on: '2026-10-24'
 ---
-
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 동네 한 바퀴 | 회차 · 391화 '가을이 오래 머물다 – 전북특별자치도 진안군 편'
 > 방송 · 2026년 10월 24일(토) 오후 7시 10분

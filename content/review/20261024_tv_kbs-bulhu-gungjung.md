@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'불후의 명곡' 2026 궁중문화축전 편, 24일·31일 2주에 걸쳐 궁궐 무대"
+title: '''불후의 명곡'' 2026 궁중문화축전 편, 24일·31일 2주에 걸쳐 궁궐 무대'
 source_name: ''
 source_url: ''
-summary: KBS2 '불후의 명곡'이 10월 24일과 31일 토요일 오후 6시 5분 '2026 궁중문화축전 – 궁, 예술을 깨우다' 특집을 방송한다. 가수와 그룹 열여섯 팀이 출연한다.
+summary: KBS2 '불후의 명곡'이 10월 24일과 31일 토요일 오후 6시 5분 '2026 궁중문화축전 – 궁, 예술을 깨우다' 특집을 방송한다.
+  가수와 그룹 열여섯 팀이 출연한다.
 sources:
-  - https://program.kbs.co.kr/2tv/enter/satfreedom
-status: approved
+- https://program.kbs.co.kr/2tv/enter/satfreedom
+status: published
+published_id: c-0b8cfba4926d702c67d68dbd5a96fc7f5ac505ce
+published_on: '2026-10-24'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 불후의 명곡 | 특집 · 2026 궁중문화축전 – 궁, 예술을 깨우다
 > 방송 · 2026년 10월 24일(토) 오후 6시 5분, 31일(토) 같은 시각 (2주 편성)

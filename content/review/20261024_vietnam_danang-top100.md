@@ -7,15 +7,17 @@ kind: 보도자료
 title: 다낭시, '2026 다낭 100대 명소' 공개…후보 1,500건에서 6개 테마로 추렸다
 source_name: ''
 source_url: ''
-summary: 다낭시 문화체육관광국이 23일 '2026 다낭 100대 명소'를 발표했다. 후보 1,500건 가운데 100곳을 정체성·맛·청결함·평온함·순간·삶 여섯 테마로 나눴다.
+summary: 다낭시 문화체육관광국이 23일 '2026 다낭 100대 명소'를 발표했다. 후보 1,500건 가운데 100곳을 정체성·맛·청결함·평온함·순간·삶
+  여섯 테마로 나눴다.
 sources:
-  - https://www.vietnam.vn/ko/da-nang-cong-bo-va-trai-nghiem-top-100-diem-cham-da-nang-nam-2026
-  - https://www.vietnam.vn/ko/lo-dien-top-100-diem-cham-da-nang-2026
-  - https://www.vietnam.vn/ko/da-nang-cong-bo-top-100-diem-cham-du-lich-nam-2026
-  - https://www.vietnam.vn/ko/da-nang-cong-bo-top-100-diem-cham-nam-2026
-status: approved
+- https://www.vietnam.vn/ko/da-nang-cong-bo-va-trai-nghiem-top-100-diem-cham-da-nang-nam-2026
+- https://www.vietnam.vn/ko/lo-dien-top-100-diem-cham-da-nang-2026
+- https://www.vietnam.vn/ko/da-nang-cong-bo-top-100-diem-cham-du-lich-nam-2026
+- https://www.vietnam.vn/ko/da-nang-cong-bo-top-100-diem-cham-nam-2026
+status: published
+published_id: c-c8e5ed448819dc3c27496810446240c939e3176c
+published_on: '2026-10-24'
 ---
-
 다낭의 관광 명소 목록이 새로 나왔다. 다낭시 문화체육관광국은 23일 '2026 다낭 100대 명소'를 발표했다. 접수된 후보 **1,500건** 가운데 **100곳**을 추렸고, 이를 **여섯 개 테마**로 묶었다. 바나힐이나 미케비치처럼 이름이 익숙한 곳만 늘어놓는 대신, 체험과 음식, 자연, 주민의 일상까지 넓혀 도시를 소개하겠다는 구상이다.
 
 ## 여섯 개 테마
