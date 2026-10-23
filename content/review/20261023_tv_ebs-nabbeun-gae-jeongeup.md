@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '세상에 나쁜 개는 없다', 정읍 불개 보존에 평생 바친 정업 씨와 3년째 곁을 안 주는 '온새'"
+title: EBS '세상에 나쁜 개는 없다', 정읍 불개 보존에 평생 바친 정업 씨와 3년째 곁을 안 주는 '온새'
 source_name: ''
 source_url: ''
-summary: EBS1 '세상에 나쁜 개는 없다'가 10월 24일 토요일 밤 10시 정읍 불개 편을 방송한다. 토종견 불개를 지키는 정업 씨와 3년째 곁을 주지 않는 온새의 사연을 다룬다.
+summary: EBS1 '세상에 나쁜 개는 없다'가 10월 24일 토요일 밤 10시 정읍 불개 편을 방송한다. 토종견 불개를 지키는 정업 씨와 3년째
+  곁을 주지 않는 온새의 사연을 다룬다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005543849
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005543849
+status: published
+published_id: c-d678154ff3046845bd1fecc35d6659b73d022f06
+published_on: '2026-10-23'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 세상에 나쁜 개는 없다

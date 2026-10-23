@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS 특집 다큐 '은행 너머 은행' 2부 '은행이 나를 읽다', 금리·리볼빙·15초 해외송금"
+title: EBS 특집 다큐 '은행 너머 은행' 2부 '은행이 나를 읽다', 금리·리볼빙·15초 해외송금
 source_name: ''
 source_url: ''
-summary: EBS1이 10월 24일 토요일 오후 3시 특집 다큐 '은행 너머 은행' 2부를 방송한다. 은행의 행동 데이터 분석, 금리의 이면, 청년 부채, 해외송금 기술을 다룬다.
+summary: EBS1이 10월 24일 토요일 오후 3시 특집 다큐 '은행 너머 은행' 2부를 방송한다. 은행의 행동 데이터 분석, 금리의 이면,
+  청년 부채, 해외송금 기술을 다룬다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005544258
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005544258
+status: published
+published_id: c-532a43f6f0e9335d3b2de459ab9167f936ebe452
+published_on: '2026-10-23'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 특집 다큐멘터리 은행 너머 은행 | 회차 · 제2부 '은행이 나를 읽다'

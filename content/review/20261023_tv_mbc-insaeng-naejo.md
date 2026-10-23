@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "MBC '인생도 각본이 필요해' 2회, '내조의 여왕' 천지애로 푸는 피부 탄력과 콜라겐"
+title: MBC '인생도 각본이 필요해' 2회, '내조의 여왕' 천지애로 푸는 피부 탄력과 콜라겐
 source_name: ''
 source_url: ''
-summary: MBC '인생도 각본이 필요해' 2회가 10월 24일 토요일 오전 8시 10분 방송된다. 드라마 '내조의 여왕'을 매개로 피부 탄력 관리법을 전문의 의견과 함께 다룬다.
+summary: MBC '인생도 각본이 필요해' 2회가 10월 24일 토요일 오전 8시 10분 방송된다. 드라마 '내조의 여왕'을 매개로 피부 탄력
+  관리법을 전문의 의견과 함께 다룬다.
 sources:
-  - https://with.mbc.co.kr/pr/press/view.html?idx=36932
-status: approved
+- https://with.mbc.co.kr/pr/press/view.html?idx=36932
+status: published
+published_id: c-79b6bba5f7e35e939a3763a0ec8cd378f0b75043
+published_on: '2026-10-23'
 ---
 > **방송 정보**
 > 채널 · MBC | 프로그램 · 인생도 각본이 필요해 | 회차 · 2회
