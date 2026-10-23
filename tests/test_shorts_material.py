@@ -58,3 +58,30 @@ def test_영상_이름에_날짜가_들어가_매일_다르다():
 def test_캡션에_인용_매체가_없다():
     scenes = [{"kind": "fact", "headline": "괌 노선 증편", "outlet": ""}]
     assert "인용" not in caption_for("guam", scenes)
+
+
+def test_연예_숏폼을_릴스_대상으로_올린다(tmp_path, monkeypatch):
+    import json as _json
+    import make_shorts as ms
+    monkeypatch.chdir(tmp_path)
+    day = ms.datetime.now(ms.KST).strftime("%Y%m%d")
+    out = tmp_path / "video"
+    out.mkdir()
+    (out / f"peopleroad-tv-{day}-1.mp4").write_bytes(b"x")
+    (out / f"peopleroad-tv-{day}.json").write_text(_json.dumps({
+        "videos": [{"file": f"peopleroad-tv-{day}-1.mp4", "kind": "voiced", "seconds": 19}],
+        "youtube": {"title": "[오늘의 방송] 10/23 a", "description": "설명\n\n기사 전문 x", "tags": ["오늘의방송"]}}),
+        encoding="utf-8")
+    assert ms.use_ent_short(str(out))
+    latest = _json.loads((tmp_path / "data" / "shorts_latest.json").read_text(encoding="utf-8"))
+    assert latest["stem"] == f"peopleroad-tv-{day}-1" and "#오늘의방송" in latest["caption"]
+
+
+def test_연예_숏폼이_무음이면_올리지_않는다(tmp_path):
+    import json as _json
+    import make_shorts as ms
+    day = ms.datetime.now(ms.KST).strftime("%Y%m%d")
+    (tmp_path / f"peopleroad-tv-{day}-1.mp4").write_bytes(b"x")
+    (tmp_path / f"peopleroad-tv-{day}.json").write_text(_json.dumps({
+        "videos": [{"file": f"peopleroad-tv-{day}-1.mp4", "kind": "silent"}]}), encoding="utf-8")
+    assert not ms.use_ent_short(str(tmp_path))

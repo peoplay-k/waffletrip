@@ -125,6 +125,22 @@ def own_silence(history: list[dict], today: str,
     return len(tail) >= days and all(h["ours"] == 0 for h in tail)
 
 
+MIN_DAILY_OWN = 5      # 2026-10-23 사장님: "매일 글 5개 이상은 계속 발행"
+
+
+def short_day(history: list[dict], today: str,
+              minimum: int = MIN_DAILY_OWN) -> dict | None:
+    """어제(오늘 바로 앞 기록) 우리 기사가 minimum 편 미만이었으면 그 기록.
+
+    오늘은 세지 않는다 — 하루 네 번 쓰므로 낮에는 아직 덜 찼다. 'ours' 가 없는 옛
+    기록은 모르는 날이라 세지 않는다.
+    """
+    done = [h for h in history if h.get("date", "") < today and h.get("ours") is not None]
+    if done and done[-1]["ours"] < minimum:
+        return done[-1]
+    return None
+
+
 def video_age_days(src: str = os.path.join("static", "video")) -> float | None:
     """홈에 걸린 롱폼이 며칠 묵었나. 영상이 아예 없으면 None.
 
@@ -173,6 +189,15 @@ def main(data_dir: str = "data") -> int:
         if out:
             with open(out, "a", encoding="utf-8") as f:
                 f.write("own_silent=true\n")
+
+    low = short_day(history, day)
+    if low:
+        warn.append(f"{low['date']} 우리 기사가 {low['ours']}편 — 하루 {MIN_DAILY_OWN}편 약속에 못 미쳤다. "
+                    "6시간 해설 루틴이 돌았는지, 재료가 말랐는지 본다.")
+        out = os.environ.get("GITHUB_OUTPUT")
+        if out:
+            with open(out, "a", encoding="utf-8") as f:
+                f.write("own_silent=true\n")     # 같은 알림 경로(notify 잡)를 쓴다
 
     for w in warn:
         print(f"  경고 {w}", file=sys.stderr)

@@ -139,3 +139,13 @@ def test_two_silent_days_raise_the_alarm_but_today_is_not_counted():
 def test_old_records_without_our_count_do_not_raise_the_alarm():
     from src.health import own_silence
     assert not own_silence([{"date": "2026-09-30"}, {"date": "2026-10-01"}], "2026-10-02")
+
+
+def test_어제_우리_기사가_5편_미만이면_알린다():
+    from src.health import short_day
+    hist = [{"date": "2026-10-21", "ours": 13}, {"date": "2026-10-22", "ours": 3},
+            {"date": "2026-10-23", "ours": 0}]
+    assert short_day(hist, "2026-10-23")["date"] == "2026-10-22"
+    hist[1]["ours"] = 5
+    assert short_day(hist, "2026-10-23") is None
+    assert short_day([{"date": "2026-10-22"}], "2026-10-23") is None   # 모르는 날

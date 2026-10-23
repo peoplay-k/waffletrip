@@ -131,6 +131,13 @@ def main() -> int:
         return 1
     print(f"계정 확인 · @{me['username']}")
 
+    # 하루 첫 발행이 00시대라 릴스가 밤 12시 반에 나갔다(2026-10-21~23). 보는 사람이 있는
+    # 시각에만 올린다 — 그 밖이면 다음 실행(06·08·12·18시)이 올린다.
+    hour = datetime.now(KST).hour
+    if not (8 <= hour < 22):
+        print(f"지금 {hour}시 — 릴스는 08~22시에만 올립니다. 다음 실행에 넘깁니다.")
+        return 0
+
     state = load_posted()
     already = posted_today(state)
     if already:

@@ -584,6 +584,33 @@ def build_silent(city: str, out_dir: str) -> str:
     return out
 
 
+def use_ent_short(out_dir: str) -> bool:
+    """오늘 구운 연예 숏폼(목소리판)을 릴스 발행 대상으로 올린다. 올렸으면 True."""
+    day = datetime.now(KST).strftime("%Y%m%d")
+    meta_path = os.path.join(out_dir, f"peopleroad-tv-{day}.json")
+    video = os.path.join(out_dir, f"peopleroad-tv-{day}-1.mp4")
+    if not (os.path.exists(meta_path) and os.path.exists(video)):
+        return False
+    with open(meta_path, encoding="utf-8") as fh:
+        meta = json.load(fh)
+    short = next((v for v in meta.get("videos") or [] if v.get("file") == os.path.basename(video)), {})
+    if short.get("kind") != "voiced":
+        return False
+    yt = meta.get("youtube") or {}
+    tags = " ".join("#" + t for t in (yt.get("tags") or [])[:8])
+    caption = "\n".join(x for x in [yt.get("title", "오늘의 방송"), "",
+                                      (yt.get("description") or "").split("\n\n기사 전문")[0],
+                                      "", f"전문은 {DOMAIN}/ent/tv", "", tags + " #방송 #예능 #드라마"] if x is not None)
+    os.makedirs("data", exist_ok=True)
+    with open(os.path.join("data", "shorts_latest.json"), "w", encoding="utf-8") as fh:
+        json.dump({"stem": f"peopleroad-tv-{day}-1", "city": "tv", "name": "오늘의 방송",
+                   "caption": caption.strip(), "seconds": short.get("seconds"), "kind": "voiced",
+                   "built_at": datetime.now(KST).isoformat(timespec="seconds")},
+                  fh, ensure_ascii=False, indent=2)
+    print(f"오늘은 연예 숏폼을 릴스로 낸다 → peopleroad-tv-{day}-1")
+    return True
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="피플로드 쇼츠")
     ap.add_argument("--city", default="tokyo")
@@ -598,6 +625,13 @@ def main() -> int:
                     help="무음 자막 영상을 만든다(나레이션 없음·비용 0).")
     ap.add_argument("--out", default="static/video")
     args = ap.parse_args()
+
+    # 홀숫날은 연예 '오늘의 방송' 숏폼을 릴스로 낸다(2026-10-23). 여행 숏폼은 그 주 우리
+    # 기사가 세 편 넘는 곳이 괌뿐이라 사흘 내리 괌만 나갔다. 연예 숏폼은 make_longform 이
+    # 먼저 구워 둔다(같은 출력 폴더). 없으면 평소대로 여행 숏폼으로 간다.
+    if args.rotate and args.voiced and datetime.now(KST).toordinal() % 2 == 1:
+        if use_ent_short(args.out):
+            return 0
 
     # 고정 도시로 하면 그날 그곳에 우리말 소식이 모자랄 때 아무것도 안
     # 나온다. 2026-09-16 실측: 다섯 곳 중 사이판 하나만 통과했다.
