@@ -4,17 +4,19 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "한국방문의 해 민·관·학 워킹그룹 첫 회의, 9월 내국인 출국자는 1.4% 증가"
+title: 한국방문의 해 민·관·학 워킹그룹 첫 회의, 9월 내국인 출국자는 1.4% 증가
 source_name: ''
 source_url: ''
-summary: 한국방문의해위원회가 21일 워킹그룹 1차 회의를 열었다. 법무부 통계로 9월 내국인 출국자는 226만9,402명, 전년동월 대비 1.4% 늘었다.
+summary: 한국방문의해위원회가 21일 워킹그룹 1차 회의를 열었다. 법무부 통계로 9월 내국인 출국자는 226만9,402명, 전년동월 대비 1.4%
+  늘었다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72431
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500592
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500595
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72431
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500592
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500595
+status: published
+published_id: c-b61b7db325b26e0a0e8ab8c8f13e5d8355819487
+published_on: '2026-10-24'
 ---
-
 들어오는 관광객은 빠르게 늘고, 나가는 관광객은 제자리다. 한국방문의해위원회가 2027~2029 '한국방문의 해'를 준비하는 워킹그룹을 가동한 가운데, 법무부 통계로 9월 내국인 출국자는 226만9,402명에 그쳤다.
 
 ## 한국방문의 해 준비

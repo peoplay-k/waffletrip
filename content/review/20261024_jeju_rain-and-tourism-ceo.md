@@ -7,15 +7,17 @@ kind: 해설
 title: 제주 주말 비 26일까지, 제주관광공사 새 사장 청문회는 11월 5일
 source_name: ''
 source_url: ''
-summary: 태풍 참피의 간접 영향으로 제주에 23일 낮부터 26일까지 비가 이어지는 곳이 있다. 제주관광공사 사장 후보자 인사청문회는 11월 5일 열린다.
+summary: 태풍 참피의 간접 영향으로 제주에 23일 낮부터 26일까지 비가 이어지는 곳이 있다. 제주관광공사 사장 후보자 인사청문회는 11월
+  5일 열린다.
 sources:
-  - https://www.jejusori.net/news/articleView.html?idxno=507669
-  - https://www.jejusori.net/news/articleView.html?idxno=507580
-  - https://www.jejusori.net/news/articleView.html?idxno=507581
-  - https://www.jejusori.net/news/articleView.html?idxno=507642
-status: approved
+- https://www.jejusori.net/news/articleView.html?idxno=507669
+- https://www.jejusori.net/news/articleView.html?idxno=507580
+- https://www.jejusori.net/news/articleView.html?idxno=507581
+- https://www.jejusori.net/news/articleView.html?idxno=507642
+status: published
+published_id: c-c8099be9b5a96c43dcecb58d204d41dd91808aca
+published_on: '2026-10-24'
 ---
-
 제주 주말 여행은 비를 감안해야 한다. 제주지방기상청에 따르면 태풍 '참피'의 간접 영향으로 23일 낮부터 비가 시작돼 26일까지 이어지는 곳이 있겠다. 관광 쪽에서는 제주관광공사 새 사장 인선이 청문 절차에 들어갔다.
 
 ## 주말 날씨: 태풍 참피 간접 영향
