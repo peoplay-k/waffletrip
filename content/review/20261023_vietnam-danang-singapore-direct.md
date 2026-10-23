@@ -10,11 +10,13 @@ source_url: ''
 summary: 베트남항공이 11월 17일부터 다낭과 싱가포르 창이공항을 잇는 매일 직항편을 새로 띄운다. 베트남-싱가포르 노선은 주 42회로 늘고,
   다낭시는 같은 시기 싱가포르에서 고급·MICE 관광객을 겨냥한 홍보전도 펼쳤다.
 sources:
-  - https://www.dailybizon.com/news/articleView.html?idxno=71566
-  - https://www.vietnam.vn/ko/vietnam-airlines-mo-duong-bay-thang-da-nang-singapore-tu-ngay-17-11
-  - https://www.vietnam.vn/ko/bay-da-nang-di-singapore-chi-tu-5-26-trieu-dong
-  - https://www.vietnam.vn/ko/da-nang-xuc-tien-du-lich-tai-singapore
-status: approved
+- https://www.dailybizon.com/news/articleView.html?idxno=71566
+- https://www.vietnam.vn/ko/vietnam-airlines-mo-duong-bay-thang-da-nang-singapore-tu-ngay-17-11
+- https://www.vietnam.vn/ko/bay-da-nang-di-singapore-chi-tu-5-26-trieu-dong
+- https://www.vietnam.vn/ko/da-nang-xuc-tien-du-lich-tai-singapore
+status: published
+published_id: c-c6d1ef522761d80787d0f593fbcbb963a79d511b
+published_on: '2026-10-23'
 ---
 베트남항공이 **11월 17일**부터 다낭과 싱가포르 창이공항을 잇는 매일 직항편을 새로 띄운다. 그동안 하노이와 호치민에서만 운항하던 베트남-싱가포르 노선에 다낭이 세 번째 관문으로 더해진다.
 

@@ -7,11 +7,13 @@ kind: 보도자료
 title: 엔화 100엔 830원대·호주달러 930원대…해외여행 환율 부담 줄었다
 source_name: ''
 source_url: ''
-summary: 주요 해외여행 목적지 통화의 원화 환산 가치가 낮아지면서 환율 부담이 가벼워졌다. 일본 엔화는 100엔당 830원대, 호주달러는
-  1호주달러당 930원대로 내려왔다. 같은 날 와플트립이 집계한 아시아 주요 통화도 비슷한 흐름을 보였다.
+summary: 주요 해외여행 목적지 통화의 원화 환산 가치가 낮아지면서 환율 부담이 가벼워졌다. 일본 엔화는 100엔당 830원대, 호주달러는 1호주달러당
+  930원대로 내려왔다. 같은 날 와플트립이 집계한 아시아 주요 통화도 비슷한 흐름을 보였다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500594
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500594
+status: published
+published_id: c-036c1b69ca1d043d98d7456d84ca3fc7ce68b569
+published_on: '2026-10-23'
 ---
 주요 해외여행 목적지 통화의 원화 환산 가치가 낮아지면서 여행객들의 환율 부담이 가벼워졌다. 일본 엔화는 100엔당 **830원대**, 호주달러는 1호주달러당 **930원대**로 내려왔다.
 

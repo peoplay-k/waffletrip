@@ -11,8 +11,10 @@ source_url: ''
 summary: EBS1 '극한직업'이 10월 24일 밤 9시 5분 부산 부평깡통시장 야시장과 일본행 크루즈 승무원들의 하루를 다룬다. 7,500원
   이하 메뉴로 운영되는 상설 야시장과 2만 6천 톤급 크루즈 현장을 담았다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005550299
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005550299
+status: published
+published_id: c-02c298655a1b084ccf150b144451a3b70155cd68
+published_on: '2026-10-23'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 극한직업 | 편 · 부산 야시장과 일본행 크루즈

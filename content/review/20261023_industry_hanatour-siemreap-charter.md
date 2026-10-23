@@ -10,9 +10,11 @@ source_url: ''
 summary: 하나투어가 12월 24일부터 내년 2월 28일까지 인천-시엠립 직항 전세기를 운영한다. 트리니티항공을 이용해 유네스코 세계문화유산
   앙코르와트로 가는 길을 넓혔다.
 sources:
-  - https://www.tournews21.com/news/articleView.html?idxno=146390
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72432
-status: approved
+- https://www.tournews21.com/news/articleView.html?idxno=146390
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72432
+status: published
+published_id: c-8ec0d660829e192dcb303b73db75351ee9d61f58
+published_on: '2026-10-23'
 ---
 하나투어가 겨울 성수기에 맞춰 인천과 캄보디아 시엠립을 잇는 직항 전세기를 운영한다. 트리니티항공을 이용하는 이 전세기는 **12월 24일부터 2027년 2월 28일까지** 투입된다. 유네스코 세계문화유산 앙코르와트를 가장 가깝게 연결하는 노선이다.
 
