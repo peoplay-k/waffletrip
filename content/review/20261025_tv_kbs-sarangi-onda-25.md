@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS2 '사랑이 온다' 25회, 위기를 맞은 무진의 레스토랑과 규림의 선택"
+title: KBS2 '사랑이 온다' 25회, 위기를 맞은 무진의 레스토랑과 규림의 선택
 source_name: ''
 source_url: ''
-summary: KBS2 주말드라마 '사랑이 온다'가 10월 25일 일요일 오후 8시 25회를 방송한다. 뜻하지 않은 위기를 맞은 무진의 레스토랑과 그 곁을 지키려는 규림이 중심에 선다.
+summary: KBS2 주말드라마 '사랑이 온다'가 10월 25일 일요일 오후 8시 25회를 방송한다. 뜻하지 않은 위기를 맞은 무진의 레스토랑과
+  그 곁을 지키려는 규림이 중심에 선다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/loveonthemenu
-status: approved
+- https://program.kbs.co.kr/2tv/drama/loveonthemenu
+status: published
+published_id: c-63c32049517438f3e333aa87944a4ec8807b0e6c
+published_on: '2026-10-25'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 25회

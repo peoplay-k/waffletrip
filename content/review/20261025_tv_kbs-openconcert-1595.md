@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'열린음악회' 1595회 경찰의 날 특집, 임태경·소찬휘·FIFTY FIFTY 등 6팀 무대"
+title: '''열린음악회'' 1595회 경찰의 날 특집, 임태경·소찬휘·FIFTY FIFTY 등 6팀 무대'
 source_name: ''
 source_url: ''
-summary: KBS1 '열린음악회'가 10월 25일 일요일 오후 6시 제1595회 '경찰의 날' 편을 내보낸다. 임태경, 이오욱, 아웃사이더, FIFTY FIFTY, 박지현, 소찬휘가 13곡을 부른다.
+summary: KBS1 '열린음악회'가 10월 25일 일요일 오후 6시 제1595회 '경찰의 날' 편을 내보낸다. 임태경, 이오욱, 아웃사이더,
+  FIFTY FIFTY, 박지현, 소찬휘가 13곡을 부른다.
 sources:
-  - https://program.kbs.co.kr/1tv/enter/openconcert
-status: approved
+- https://program.kbs.co.kr/1tv/enter/openconcert
+status: published
+published_id: c-5fb6d7ac005ed485a318973cc4cbf1a8360f2e88
+published_on: '2026-10-25'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 열린음악회 | 회차 · 제1595회 '경찰의 날'

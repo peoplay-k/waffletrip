@@ -870,6 +870,7 @@
     "1f25201c3afefabf42338c450d63a54571d19fcb",
     "1f36033829db1cabbf8f63a327e9f25af86a0020",
     "1f39552b307033b19f48c5e6169db9a88d0bdbad",
+    "1f4666d9a63eaded687b0090280b1ed345698e84",
     "1f6adb60af513c418847366bf737d0fbeb40fe51",
     "1f710d8e2fe2bce768a02c2aa5ff196a552acb72",
     "1f7fac8af2e21dacb8dd25dde98523b12cc076ff",
@@ -1006,6 +1007,7 @@
     "23fac8633f50b52935c82f30ec1b4a454c62a9ff",
     "2407fac95a2c8fb983272aedc8f6c00111f2440b",
     "240ca330c96fd1e40dc4b3b0c4342e6c5d999945",
+    "241359fdf2b477e47b91751af8ef9042ab315c14",
     "2426b087007436aa008447bdbbce1d3037870cfc",
     "2427de43e769c7b9cec4c4cf2c8deb1621486c3b",
     "2445b9ab0b6d18b8020ca9bcc469c25f2d2c9efb",
@@ -1623,6 +1625,7 @@
     "3a7caa4d517b19bb4c3cb6e44925aae8db345e4c",
     "3a83133720ad24f297c1edec78660cb9d0554bf9",
     "3a85213be61c3785f8aea3923d785d34f03a235a",
+    "3a8ec3cfbf1f06e6109d3537f3ac23f1e1e53dc5",
     "3a90f8353cc14a19dd49d067b550765404e014bf",
     "3a980c7fe07afb42f1cfa43f433b0c77effbeb08",
     "3a9cb1c5bd4ef0fae800f365321a3df837976b1b",
@@ -4089,6 +4092,7 @@
     "912e5900ad1efcdbb44a01876df6e67d88972baa",
     "913490682f4481551266f5a010d946f00920ee54",
     "913fa5a2919d495a56751e8ca34a19cbf00f5850",
+    "914ff988364eb7df8b58c63cb8b144da8dfc6099",
     "915bea9d1d38e897d48a0ab0a737e4345633aa43",
     "917c494af7e2ce9eea80cfe80923ebc4274efab6",
     "9186d41690d1d7aab1a71fe3d05ae5eb097f9bf9",
@@ -4968,6 +4972,7 @@
     "b0f2a70c4a62ab2d44a011cfd32fbbc79667f8c4",
     "b10e8c1cb66a3bc1d3ea1fe2f7dce0bdb4002709",
     "b126da94772b375014693507a5ee8c8b13e9034f",
+    "b126e5a01fa265b70fe53685f5f983570b5839bd",
     "b133f850f44b866d519244b4b91230a737f4c399",
     "b1433f323300e38ce422bdc07fa6ac2341eff041",
     "b1654b92515410b22409a54f412ce19cf2189b5c",
@@ -5410,6 +5415,7 @@
     "c-07405d964d245ef286b605083f39ad08d3f79338",
     "c-08c81de084502b54516b419fdf28eff73f94fe4a",
     "c-090b3b3c7261eea261bd78e33efd5c0547dcbfc4",
+    "c-0a514739e2b3958fe00efb5879356afe196fc118",
     "c-0b8cfba4926d702c67d68dbd5a96fc7f5ac505ce",
     "c-0c9c86d1c232fce358e42ff8b744d5237441d5f9",
     "c-0df028821c7e3f73dbb4ad36c76cb961c32c2a8e",
@@ -5503,10 +5509,12 @@
     "c-58f16ee74c5870b53151f0314304eb0cf73db1c9",
     "c-5a631e34f927b5a28241a22adc0136a8ed1f243f",
     "c-5becf188d7ac0e98f29174b4089de4bcb18af1a2",
+    "c-5fb6d7ac005ed485a318973cc4cbf1a8360f2e88",
     "c-618d5c48e6367e156d5d6ece511e104528cf29b6",
     "c-61f1fb2d72a3e7bf7b657e074749298ee388edfd",
     "c-628a505c92d0b6341ef8d98cb0379648fe7d55e7",
     "c-62b146a9fc8a910419e3cd777eb5ae15bc52d4fc",
+    "c-63c32049517438f3e333aa87944a4ec8807b0e6c",
     "c-648ccef4562a57d526786ed2efe117a7a8b7f2a9",
     "c-64c48b3e67a16a421acade9a2a2c911c0a221523",
     "c-652b0f4163a074fae382bf9259721be3274f779c",
@@ -7048,6 +7056,7 @@
     "efa89a189bebb2e7b57766db0961edcf9980d65b",
     "efad86fed0d3c360b1df9252b2f047f6dc26aea9",
     "efbc5f5a972c05066804e5ea7fe1f2c9dc3f9010",
+    "efcde5e099545b3faf5400031767d9ab972eb1b3",
     "efd90aa8ec8b6c3486657d8579dde10a9e6ba6b2",
     "eff138f99a1305cd5ca4d0d31d32f0eab1a31021",
     "eff21d35a7979e9d0d1386a53648f7f225b116bf",
@@ -38671,6 +38680,69 @@
       "title": "포시즌스 호텔 도쿄 앳 마루노우치, 11월 맞이 '말차 애프터눈 티' 선보여",
       "date": "2026-10-25",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "c-5fb6d7ac005ed485a318973cc4cbf1a8360f2e88",
+      "title": "'열린음악회' 1595회 경찰의 날 특집, 임태경·소찬휘·FIFTY FIFTY 등 6팀 무대",
+      "date": "2026-10-25",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-63c32049517438f3e333aa87944a4ec8807b0e6c",
+      "title": "KBS2 '사랑이 온다' 25회, 위기를 맞은 무진의 레스토랑과 규림의 선택",
+      "date": "2026-10-25",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-0a514739e2b3958fe00efb5879356afe196fc118",
+      "title": "'이슈 PICK 쌤과 함께' 301회, 네팔 빙하 붕괴 홍수에서 본 붉은 지구의 경고",
+      "date": "2026-10-25",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "b126e5a01fa265b70fe53685f5f983570b5839bd",
+      "title": "2026 AFI 페스티벌 기간 '마우스' 시사회…켈리 오설리번 자리해",
+      "date": "2026-10-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "efcde5e099545b3faf5400031767d9ab972eb1b3",
+      "title": "National Desert Shield and Desert Storm Memorial opens Saturday",
+      "date": "2026-10-25",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "1f4666d9a63eaded687b0090280b1ed345698e84",
+      "title": "First Alert Forecast: Tuesday & Wednesday to be First Alert Weather days",
+      "date": "2026-10-25",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "914ff988364eb7df8b58c63cb8b144da8dfc6099",
+      "title": "‘데뷔 15년 차’ 비투비 서은광, 첫 경복궁 공연에 긴장 “세종대왕님이 보시는 듯”",
+      "date": "2026-10-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "3a8ec3cfbf1f06e6109d3537f3ac23f1e1e53dc5",
+      "title": "언더커버 셰프 스핀오프 29일 첫 방송…정지선·권성준, 본토 동료 한국 주방 초대",
+      "date": "2026-10-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "241359fdf2b477e47b91751af8ef9042ab315c14",
+      "title": "JTBC '파이널 테이블' 24일 첫 방송…한국인 셰프 경연 그린 토일드라마",
+      "date": "2026-10-25",
+      "region": "",
       "grade": "B"
     }
   ]

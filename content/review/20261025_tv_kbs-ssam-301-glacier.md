@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'이슈 PICK 쌤과 함께' 301회, 네팔 빙하 붕괴 홍수에서 본 붉은 지구의 경고"
+title: '''이슈 PICK 쌤과 함께'' 301회, 네팔 빙하 붕괴 홍수에서 본 붉은 지구의 경고'
 source_name: ''
 source_url: ''
-summary: KBS1 '이슈 PICK 쌤과 함께'가 10월 25일 일요일 오후 7시 10분 제301회를 방송한다. 서울대 환경대학원 정수종 교수와 함께 빙하 붕괴와 이상기후의 실체를 짚는다.
+summary: KBS1 '이슈 PICK 쌤과 함께'가 10월 25일 일요일 오후 7시 10분 제301회를 방송한다. 서울대 환경대학원 정수종 교수와
+  함께 빙하 붕괴와 이상기후의 실체를 짚는다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/ssam
-status: approved
+- https://program.kbs.co.kr/1tv/culture/ssam
+status: published
+published_id: c-0a514739e2b3958fe00efb5879356afe196fc118
+published_on: '2026-10-25'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 이슈 PICK 쌤과 함께 | 회차 · 제301회
