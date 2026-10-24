@@ -5,14 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'너 말고 다른 연애' 11회, 남궁의 집 아침상에 흐르는 묘한 감정"
+title: '''너 말고 다른 연애'' 11회, 남궁의 집 아침상에 흐르는 묘한 감정'
 source_name: ''
 source_url: ''
 summary: KBS2 '너 말고 다른 연애' 11회가 10월 24일 밤 9시 20분 방송된다. 남궁의 집에서 세 사람이 함께한 아침 식사가 묘한
   감정의 소용돌이로 이어지고, 태승은 미도를 위해 하루를 준비한다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/loveotherthanyours
-status: approved
+- https://program.kbs.co.kr/2tv/drama/loveotherthanyours
+status: published
+published_id: c-ad1fe393ef3f7175c3bb430330891de4d6df728e
+published_on: '2026-10-24'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 너 말고 다른 연애 | 회차 · 11회

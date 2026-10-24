@@ -7,12 +7,14 @@ kind: 보도자료
 title: 여수시, 하와이 카운티와 친환경농업·관광 교류 나섰다
 source_name: ''
 source_url: ''
-summary: 여수시가 2026여수세계섬박람회 참가를 계기로 방문한 미국 하와이 카운티 대표단과 친환경농업·바이오연료·관광 분야 교류 협력을
-  논의했다고 23일 밝혔다.
+summary: 여수시가 2026여수세계섬박람회 참가를 계기로 방문한 미국 하와이 카운티 대표단과 친환경농업·바이오연료·관광 분야 교류 협력을 논의했다고
+  23일 밝혔다.
 sources:
-  - http://www.enewstoday.co.kr/news/articleViewAmp.html?idxno=2483446
-  - https://www.dbltv.com/news/articleView.html?idxno=44915
-status: approved
+- http://www.enewstoday.co.kr/news/articleViewAmp.html?idxno=2483446
+- https://www.dbltv.com/news/articleView.html?idxno=44915
+status: published
+published_id: c-46d0c91bb8bd50ff77245e66c094dd8d061f1b59
+published_on: '2026-10-24'
 ---
 여수와 하와이가 섬이라는 공통점을 고리로 교류를 시작했다. 여수시는 2026여수세계섬박람회 참가를 계기로 방문한 미국 하와이 카운티 대표단과 친환경농업·바이오연료·관광 분야의 협력 방안을 논의했다고 23일 밝혔다.
 

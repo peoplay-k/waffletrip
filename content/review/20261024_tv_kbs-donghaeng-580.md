@@ -5,14 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'동행' 580회, 손주 공부시키는 일이 인생 후반전의 목표가 된 할머니"
+title: '''동행'' 580회, 손주 공부시키는 일이 인생 후반전의 목표가 된 할머니'
 source_name: ''
 source_url: ''
 summary: KBS1 '동행'이 10월 24일 토요일 오후 6시 제580회 '똑순이 할머니의 보물, 태서'를 방송한다. 전남의 한 시골집에서 손주를
   홀로 키우고 가르치는 할머니의 하루를 담았다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/accompany
-status: approved
+- https://program.kbs.co.kr/1tv/culture/accompany
+status: published
+published_id: c-128a57f1ac7bebb874184d5357037ddcb79e285a
+published_on: '2026-10-24'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 동행 | 회차 · 제580회

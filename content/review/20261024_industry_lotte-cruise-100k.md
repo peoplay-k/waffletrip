@@ -7,11 +7,13 @@ kind: 보도자료
 title: 롯데관광개발, 올해 외국인 크루즈 관광객 10만 명 넘겼다…작년의 두 배
 source_name: ''
 source_url: ''
-summary: 롯데관광개발이 올해 9월까지 외국인 크루즈 관광객 10만3,979명을 유치했다고 밝혔다. 지난해 연간 실적 5만 명의 두 배를
-  넘는 규모다.
+summary: 롯데관광개발이 올해 9월까지 외국인 크루즈 관광객 10만3,979명을 유치했다고 밝혔다. 지난해 연간 실적 5만 명의 두 배를 넘는
+  규모다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500593
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500593
+status: published
+published_id: c-0139a52883321f0b6339942493fb2839c1715f02
+published_on: '2026-10-24'
 ---
 한국행 크루즈를 찾는 외국인이 눈에 띄게 늘었다. 롯데관광개발은 올해 9월까지 외국인 크루즈 관광객 **10만3,979명**을 유치했다고 밝혔다. 지난해 연간 실적 **5만 명**의 두 배를 넘는 규모다.
 
