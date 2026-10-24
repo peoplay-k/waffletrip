@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS2 '사랑이 온다' 24회, 규림과의 만남 허락을 구하는 무진에게 옥선이 내건 조건"
+title: KBS2 '사랑이 온다' 24회, 규림과의 만남 허락을 구하는 무진에게 옥선이 내건 조건
 source_name: ''
 source_url: ''
-summary: 24일 밤 8시 KBS2 주말드라마 '사랑이 온다' 24회에서 옥선이 무진의 부탁에 조건을 내건다. 윤희는 뜻밖의 소식에 충격을 받고, 규영은 난감한 처지에 놓인다.
+summary: 24일 밤 8시 KBS2 주말드라마 '사랑이 온다' 24회에서 옥선이 무진의 부탁에 조건을 내건다. 윤희는 뜻밖의 소식에 충격을 받고,
+  규영은 난감한 처지에 놓인다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/loveonthemenu
-status: approved
+- https://program.kbs.co.kr/2tv/drama/loveonthemenu
+status: published
+published_id: c-f3db815428aa24b6ee797d0d3de797c307f17d7a
+published_on: '2026-10-24'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 24회
 > 방송 · 2026년 10월 24일(토) 오후 8시

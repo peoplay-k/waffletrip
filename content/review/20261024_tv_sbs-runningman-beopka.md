@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '런닝맨', 종로3가에서 '법카 어딧세이'…지예은 결혼식 사회는 유재석, 축가는 김종국"
+title: SBS '런닝맨', 종로3가에서 '법카 어딧세이'…지예은 결혼식 사회는 유재석, 축가는 김종국
 source_name: ''
 source_url: ''
-summary: 25일 오후 6시 10분 방송되는 SBS '런닝맨'은 종로3가를 무대로 법인 카드를 얻지 못하면 개인 카드로 결제하는 '법카 어딧세이' 레이스를 벌인다. 오프닝에서는 지예은의 결혼식 사회와 축가 라인업이 정해졌다.
+summary: 25일 오후 6시 10분 방송되는 SBS '런닝맨'은 종로3가를 무대로 법인 카드를 얻지 못하면 개인 카드로 결제하는 '법카 어딧세이'
+  레이스를 벌인다. 오프닝에서는 지예은의 결혼식 사회와 축가 라인업이 정해졌다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9281
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9281
+status: published
+published_id: c-8ddf056788aeb5d9ca5299a9888a7241ff85d541
+published_on: '2026-10-24'
 ---
-
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 런닝맨
 > 방송 · 2026년 10월 25일(일) 오후 6시 10분
