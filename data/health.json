@@ -251,13 +251,12 @@
     },
     {
       "date": "2026-10-24",
-      "collected": 1114,
-      "published": 65,
+      "collected": 1102,
+      "published": 115,
       "ours": 5,
       "failed_sources": [
         "guam_pdn",
-        "guam_post",
-        "saipan_tribune"
+        "guam_post"
       ]
     }
   ]
