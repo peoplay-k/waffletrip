@@ -4,16 +4,19 @@ channel: travel
 region: vietnam
 section: news
 kind: 해설
-title: "호이안 비수기 한산함 길어진다…다낭 당국 '한 달간의 휴식기'"
+title: 호이안 비수기 한산함 길어진다…다낭 당국 '한 달간의 휴식기'
 source_name: ''
 source_url: ''
-summary: 다낭 당국이 비수기 들어 관광객이 줄어든 호이안을 두고 한 달간의 휴식기라는 공식 입장을 냈다. 같은 시기 다낭 국제공항은 연간 1,000만~1,750만 명 규모 공항 부문 후보에 올랐다.
+summary: 다낭 당국이 비수기 들어 관광객이 줄어든 호이안을 두고 한 달간의 휴식기라는 공식 입장을 냈다. 같은 시기 다낭 국제공항은 연간 1,000만~1,750만
+  명 규모 공항 부문 후보에 올랐다.
 sources:
-  - https://www.vietnam.vn/ko/da-nang-noi-gi-ve-viec-pho-co-hoi-an-vang-khach-bat-thuong
-  - https://www.vietnam.vn/ko/da-nang-len-tieng-ve-tinh-trang-vang-khach-tai-pho-co-hoi-an
-  - https://www.vietnam.vn/ko/cang-hang-khong-quoc-te-da-nang-duoc-de-cu-san-bay-phuc-vu-tu-10-trieu-den-17-5-trieu-luot-hanh-khach-moi-nam
-  - https://www.vietnam.vn/ko/cang-hang-khong-quoc-te-da-nang-duoc-de-cu-hang-muc-phuc-vu-10-17-5-trieu-luot-hanh-khach-nam
-status: approved
+- https://www.vietnam.vn/ko/da-nang-noi-gi-ve-viec-pho-co-hoi-an-vang-khach-bat-thuong
+- https://www.vietnam.vn/ko/da-nang-len-tieng-ve-tinh-trang-vang-khach-tai-pho-co-hoi-an
+- https://www.vietnam.vn/ko/cang-hang-khong-quoc-te-da-nang-duoc-de-cu-san-bay-phuc-vu-tu-10-trieu-den-17-5-trieu-luot-hanh-khach-moi-nam
+- https://www.vietnam.vn/ko/cang-hang-khong-quoc-te-da-nang-duoc-de-cu-hang-muc-phuc-vu-10-17-5-trieu-luot-hanh-khach-nam
+status: published
+published_id: c-65a3deb45e4d69853d88b3c1233d0c290180c749
+published_on: '2026-10-25'
 ---
 베트남 중부 호이안 고대 도시가 비수기 들어 한산한 날이 이어지고 있다. 다낭 당국은 이를 두고 호이안이 **"한 달간의 휴식기"**를 보내는 중이라는 공식 입장을 내놨다. 관광객이 줄어든 상황 자체는 인정하되, 일시적인 계절 흐름으로 본다는 뜻이다.
 

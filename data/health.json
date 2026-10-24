@@ -1,15 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-09-24",
-      "collected": 620,
-      "published": 85,
-      "failed_sources": [
-        "guam_pdn",
-        "guam_post"
-      ]
-    },
-    {
       "date": "2026-09-25",
       "collected": 806,
       "published": 233,
@@ -256,6 +247,15 @@
       "ours": 13,
       "failed_sources": [
         "guam_pdn",
+        "guam_post"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "collected": 1112,
+      "published": 42,
+      "ours": 1,
+      "failed_sources": [
         "guam_post"
       ]
     }
