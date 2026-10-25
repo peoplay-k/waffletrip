@@ -5,14 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'너 말고 다른 연애' 12회, 위험 무릅쓴 수아를 막아선 남궁"
+title: '''너 말고 다른 연애'' 12회, 위험 무릅쓴 수아를 막아선 남궁'
 source_name: ''
 source_url: ''
 summary: KBS2 '너 말고 다른 연애' 12회가 10월 25일 밤 9시 20분 방송된다. 위험을 무릅쓴 수아를 남궁이 막아서며 갈등이 깊어지고,
   주혁의 압박으로 시골 마을에 간 태승은 뜻밖의 인물을 만난다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/loveotherthanyours
-status: approved
+- https://program.kbs.co.kr/2tv/drama/loveotherthanyours
+status: published
+published_id: c-02e5bc9041dede3e79ac1fb7d39bed2fb976b284
+published_on: '2026-10-25'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 너 말고 다른 연애 | 회차 · 12회
