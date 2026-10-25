@@ -12,7 +12,8 @@
     "peopleroad-guam-20261021-voiced",
     "peopleroad-guam-20261022-voiced",
     "peopleroad-guam-20261023-voiced",
-    "peopleroad-tv-20261024-1"
+    "peopleroad-tv-20261024-1",
+    "peopleroad-hawaii-20261025-voiced"
   ],
   "log": [
     {
@@ -79,6 +80,11 @@
       "file": "peopleroad-tv-20261024-1",
       "media_id": "18135609406658861",
       "at": "2026-10-24 10:23:56"
+    },
+    {
+      "file": "peopleroad-hawaii-20261025-voiced",
+      "media_id": "18181291192427638",
+      "at": "2026-10-25 09:52:04"
     }
   ]
 }
