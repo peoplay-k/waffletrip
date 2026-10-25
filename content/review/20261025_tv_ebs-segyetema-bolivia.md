@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'세계테마기행' 볼리비아 편, 26일 우유니 소금 사막에서 출발"
+title: '''세계테마기행'' 볼리비아 편, 26일 우유니 소금 사막에서 출발'
 source_name: ''
 source_url: ''
-summary: EBS1 '세계테마기행'이 10월 26일부터 29일까지 저녁 8시 40분 '우유니를 품은 나라, 볼리비아'를 방송한다. 첫 편은 해발 3,600m 고원 도시 우유니의 소금 사막이다.
+summary: EBS1 '세계테마기행'이 10월 26일부터 29일까지 저녁 8시 40분 '우유니를 품은 나라, 볼리비아'를 방송한다. 첫 편은 해발
+  3,600m 고원 도시 우유니의 소금 사막이다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551570
-status: approved
+status: published
+published_id: c-3dc16e5e7bda9f1bae69f33857eddd468084c82e
+published_on: '2026-10-25'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 세계테마기행 | 주제 · 우유니를 품은 나라, 볼리비아

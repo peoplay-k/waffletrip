@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'한국기행' 웬 떡이냐 편, 26일부터 닷새간 강화 6남매 떡집과 산사의 떡 공양"
+title: '''한국기행'' 웬 떡이냐 편, 26일부터 닷새간 강화 6남매 떡집과 산사의 떡 공양'
 source_name: ''
 source_url: ''
-summary: EBS1 '한국기행'이 10월 26일부터 30일까지 평일 밤 9시 35분 '웬 떡이냐'를 내보낸다. 첫날은 강화도 떡집 6남매, 둘째 날은 산사의 떡 이야기다.
+summary: EBS1 '한국기행'이 10월 26일부터 30일까지 평일 밤 9시 35분 '웬 떡이냐'를 내보낸다. 첫날은 강화도 떡집 6남매, 둘째
+  날은 산사의 떡 이야기다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551577
-status: approved
+status: published
+published_id: c-f5a7456d3b763aa6834dddc09ec5ec42472b85a8
+published_on: '2026-10-25'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 한국기행 | 주제 · 웬 떡이냐
