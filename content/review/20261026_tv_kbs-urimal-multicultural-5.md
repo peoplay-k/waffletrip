@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS1 '우리말 겨루기' 다문화 청소년 특집 5부, 마지막 결선 진출자 가린다"
+title: KBS1 '우리말 겨루기' 다문화 청소년 특집 5부, 마지막 결선 진출자 가린다
 source_name: ''
 source_url: ''
-summary: KBS1 '우리말 겨루기'가 10월 26일 오후 7시 40분 다문화 청소년 특집 5부를 방송한다. 결선 마지막 한 자리를 두고 네 명이 겨루며, 아이브와 육상 선수 나마디 조엘 진이 문제를 낸다.
+summary: KBS1 '우리말 겨루기'가 10월 26일 오후 7시 40분 다문화 청소년 특집 5부를 방송한다. 결선 마지막 한 자리를 두고 네
+  명이 겨루며, 아이브와 육상 선수 나마디 조엘 진이 문제를 낸다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/woorimal
-status: approved
+- https://program.kbs.co.kr/1tv/culture/woorimal
+status: published
+published_id: c-63e871d5435f5842aded59d2bc99c1a992f45283
+published_on: '2026-10-26'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 우리말 겨루기 | 회차 · 다문화 청소년 특집 5부

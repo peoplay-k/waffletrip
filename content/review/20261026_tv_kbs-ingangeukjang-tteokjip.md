@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS1 '인간극장' 떡집 사위 아베 신 편, 26일부터 닷새간 방송"
+title: KBS1 '인간극장' 떡집 사위 아베 신 편, 26일부터 닷새간 방송
 source_name: ''
 source_url: ''
-summary: KBS1 '인간극장'이 10월 26일부터 30일까지 평일 아침 7시 50분에 서울 떡집 부부와 일본인 사위의 1년을 담은 '떡집 사위 아베 신' 편을 5부작으로 내보낸다.
+summary: KBS1 '인간극장'이 10월 26일부터 30일까지 평일 아침 7시 50분에 서울 떡집 부부와 일본인 사위의 1년을 담은 '떡집 사위
+  아베 신' 편을 5부작으로 내보낸다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/human
-status: approved
+- https://program.kbs.co.kr/1tv/culture/human
+status: published
+published_id: c-f532604403da2055357c27a9c78bbd975fd18320
+published_on: '2026-10-26'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 인간극장 | 편 · 떡집 사위 아베 신
