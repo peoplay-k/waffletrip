@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'백세부자' 팔랑귀 남편의 '사업병' 편, 태양광 빚 37억 원 70대 부부의 노후"
+title: '''백세부자'' 팔랑귀 남편의 ''사업병'' 편, 태양광 빚 37억 원 70대 부부의 노후'
 source_name: ''
 source_url: ''
-summary: EBS1 '백세부자'가 26일 밤 10시 50분, 태양광·스마트팜·염소·달팽이까지 사업을 벌여 온 70대 남편과 속이 타는 아내의 사연을 다룬다.
+summary: EBS1 '백세부자'가 26일 밤 10시 50분, 태양광·스마트팜·염소·달팽이까지 사업을 벌여 온 70대 남편과 속이 타는 아내의
+  사연을 다룬다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005550294
-status: approved
+status: published
+published_id: c-a7dd5059e38bd48909937816f836c379d2341459
+published_on: '2026-10-26'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 백세부자 | 편명 · 팔랑귀 남편의 '사업병' 노후가 위험하다
 > 방송 · 2026년 10월 26일(월) 밤 10시 50분

@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'미리 가본 대학' 한국교원대 편, 슬리피가 옛 교복 입고 문법 수업 듣는다"
+title: '''미리 가본 대학'' 한국교원대 편, 슬리피가 옛 교복 입고 문법 수업 듣는다'
 source_name: ''
 source_url: ''
-summary: EBS1 '미리 가본 대학'이 26일 오전 9시 20분 한국교원대학교 편을 방송한다. MC 슬리피가 교육박물관과 초등교육과, 국어교육과 수업을 체험한다.
+summary: EBS1 '미리 가본 대학'이 26일 오전 9시 20분 한국교원대학교 편을 방송한다. MC 슬리피가 교육박물관과 초등교육과, 국어교육과
+  수업을 체험한다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005550288
-status: approved
+status: published
+published_id: c-d380add87ff6a0cbeeb6bddb309e0b340bee35ec
+published_on: '2026-10-26'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 미리 가본 대학(4부작) | 편명 · 한국교원대학교 편
 > 방송 · 2026년 10월 26일(월) 오전 9시 20분

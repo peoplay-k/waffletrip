@@ -10,9 +10,10 @@ source_url: ''
 summary: 서귀포시 관광지관리소가 27일부터 12월 23일까지 감귤박물관 안 과수원 2곳에서 2026년 감귤따기 체험을 연다.
 sources:
 - http://www.jejunews.com/news/articleView.html?idxno=2228453
-status: approved
+status: published
+published_id: c-50534eba85f666910d684b7c57c7c4559ce7f09a
+published_on: '2026-10-26'
 ---
-
 서귀포시 관광지관리소는 27일부터 12월 23일까지 감귤박물관에서 **'2026년 감귤따기 체험'** 프로그램을 운영한다고 밝혔다. 체험은 박물관 안에 마련된 과수원 2곳에서 진행된다.
 
 ## 운영 개요

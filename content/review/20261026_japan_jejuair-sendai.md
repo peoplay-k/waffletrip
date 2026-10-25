@@ -7,15 +7,17 @@ kind: 보도자료
 title: 제주항공, 내년 1월 8일 인천-센다이 주 3회 신규 취항
 source_name: ''
 source_url: ''
-summary: 제주항공이 2027년 1월 8일부터 인천-센다이 노선에 주 3회 정기편을 띄운다. 도쿄·오사카 대신 소도시를 찾는 일본 여행객이 늘어난 흐름에 맞춘 노선 확대다.
+summary: 제주항공이 2027년 1월 8일부터 인천-센다이 노선에 주 3회 정기편을 띄운다. 도쿄·오사카 대신 소도시를 찾는 일본 여행객이 늘어난
+  흐름에 맞춘 노선 확대다.
 sources:
 - https://www.yna.co.kr/amp/view/AKR20261023101300003
 - https://www.g-enews.com/article/Industry/2026/10/202610231428446345ea14faf6f5_1
 - https://www.bloter.net/news/articleView.html?idxno=676615
 - http://www.kdfnews.com/news/articleView.html?idxno=189809
-status: approved
+status: published
+published_id: c-ec0f1d5a159a7df721f7a86f91f119e27f81e367
+published_on: '2026-10-26'
 ---
-
 제주항공이 내년 1월 8일부터 인천과 일본 센다이를 잇는 정기편을 새로 띄운다. 운항은 **주 3회**다. 제주항공은 23일 이 노선을 신규 취항한다고 밝혔다.
 
 ## 소도시로 넓어지는 일본 노선

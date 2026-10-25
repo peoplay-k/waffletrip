@@ -5,17 +5,18 @@ category: movie
 region: ''
 section: news
 kind: 보도자료
-title: "'아기상어 크리스마스 스페셜: 산타 선발 대회' 12월 5일 CGV 개봉"
+title: '''아기상어 크리스마스 스페셜: 산타 선발 대회'' 12월 5일 CGV 개봉'
 source_name: ''
 source_url: ''
-summary: "더핑크퐁컴퍼니가 '아기상어 크리스마스 스페셜: 산타 선발 대회'를 12월 5일 CGV에서 개봉한다고 밝혔다."
+summary: '더핑크퐁컴퍼니가 ''아기상어 크리스마스 스페셜: 산타 선발 대회''를 12월 5일 CGV에서 개봉한다고 밝혔다.'
 sources:
 - https://www.thepinkfongcompany.com/news/pr/290
 - https://www.newstap.co.kr/news/articleView.html?idxno=336451
 - https://www.bntnews.co.kr/article/view/bnt202610220099
-status: approved
+status: published
+published_id: c-bc870244a92d18b845611cab55b710296c6b7314
+published_on: '2026-10-26'
 ---
-
 글로벌 패밀리 엔터테인먼트 기업 더핑크퐁컴퍼니(대표 김민석)는 '아기상어 크리스마스 스페셜: 산타 선발 대회'를 **12월 5일 CGV**에서 개봉한다고 밝혔다. '아기상어'가 올겨울 크리스마스 영화로 극장가를 찾는다.
 
 ## 개봉 정보
