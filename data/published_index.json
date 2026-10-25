@@ -16,6 +16,7 @@
     "0083a919ca34752bd13e414d2b5e26b90ecf72e2",
     "008a3dd5a685f08d25fe3290723c539d2a45876e",
     "008d8e95c85371d82d46ff8aecf7a0c96ea053c6",
+    "00900abc11b526bc33d60dce8ce96d63abb331c6",
     "0090453ac1b7484944b63530df96cc7a8c3e136e",
     "00991cc1c38d9062cb3310b5ead627ba4bc4c4e1",
     "009ecd4dc2e84efd79f3472df322d5ba43674cc4",
@@ -48,6 +49,7 @@
     "015671793c5c1f38d3099e65f44c7f87a8879efe",
     "0163f8ae31b8edb17e12cdd24cb76f907985f145",
     "01666436f1a3afac68db92dd0b63600fa5fe2a15",
+    "0168e88a1809165279282d4aecfce8858d473b44",
     "017f5f98af0e1a51deafcfd98d2a75bdf4bd6c07",
     "01856aa8350b44c107d3a1a9f0e96637c230cb19",
     "018a0675ee9c68e0c4cf90806801a43b3451f712",
@@ -522,6 +524,7 @@
     "121c2bc06ed8c5c9f2da2745231e913930040fc0",
     "121edbc76f9d3b73bbaa0ad93671e4012e149bf0",
     "1220c17670c7d25ff0fc70de891871e174822d85",
+    "1221d459280d18f388ef2e6c9bcb384d06764f7b",
     "124e6a5b799600da4c0c5299d5dba4c7b24aac8a",
     "124ebd94d9ede25765b0f2c71a6d89d0fb69f3f0",
     "125cbdcdffb69acd7b3711fe1c72eb7750477580",
@@ -2787,6 +2790,7 @@
     "63732d27b0bd44bb15c65d7baf2f130b5142baaa",
     "6378303e335e2c3cfc7dcfa619d7e8177ec705ab",
     "6378d0c02600975a9f8f431bf3fd0946a57a1e7d",
+    "637c99365bed011563f4b45fdf8ec1ca0055e110",
     "6385d117ce65781009663ecad9d89420c0a7b2cc",
     "638b6f6873efb9f0b492f4f47df329ab5830d348",
     "638d088cf1b0ae2bed9f624da059781a1f0e41a6",
@@ -3747,6 +3751,7 @@
     "84c3a0f3e424f43b86f23382210cf61cffd1bfd2",
     "84c740d344f44376003bac26f4de27be71fa8bc8",
     "84c9eaef6b64695fddb47ee17ee125673abca3ee",
+    "84d00fec6c510fd9d826039813cb167d9c223b49",
     "84db5ae8c7e100744e1b33a74c3a39ed8d39018f",
     "84e33933783e81d25e13d091e89f43276d828ed8",
     "84ea6e1f3955ebca68dcc0e423fbee9e699130ad",
@@ -4515,6 +4520,7 @@
     "a097705abad00131b778ce9e1b0ccb1e8f20cbfd",
     "a0ac6b71238918c278f3b9d842e9196f2b35f2e8",
     "a0af4ff46207ca0a2f61a04bff50c420d2c8c826",
+    "a0af5f85900ca9c23be2d7ea4ac827e912a754af",
     "a0b0006d4cddf875955455ead34bc8a3b45d3e30",
     "a0b5997e8f4845708c87bc0506ab825dac4c9dfb",
     "a0c3cdd32bdfbea340c952de99daa07faaec5a05",
@@ -4683,6 +4689,7 @@
     "a74e4b512d8026c84f391e524ad252b3835bd078",
     "a75fda2ce434b9b941e36a744a205ecaf4340a53",
     "a7676ad351aa8559376bc3c7ae7f2d85b2654923",
+    "a76978f933191332b049d77d6f908998373c2f36",
     "a780d4956870660f2cf18f45c913b18113917c9a",
     "a7875dc81f17af16e6e7e7c0e7d434936e280142",
     "a79098e467441300c9baeb72a2e16f488f0e5d5f",
@@ -4936,6 +4943,7 @@
     "af8a665a011b9b09c924885a47b6a11e48103911",
     "af959b81d8c2477d9f1614f3a934c9c048fd0979",
     "af9b679f0800dd3cef1c4a4c7ed6b99817ea84c7",
+    "afa5de34d336cdd85ebb950352c8ecf45197929a",
     "afa9e2701b8d46ebb1b3f721b27d95175e931e40",
     "afb15613fa04da0bc53a7d251cc7c429c62e4ac9",
     "afbdd70746dea9af62ec73956dd38a7b0cc28dd9",
@@ -7124,6 +7132,7 @@
     "f1b12e97670c4b93754e8278c14a55f1d7b8f568",
     "f1b90f9b0b0a577034b3adc25df212d4a9975aaa",
     "f1c8d486900164ef07f304aabb2387674ded64ed",
+    "f1da4a8617f2bcdb3dcf7c14dfbf10cfc970ad11",
     "f1e451c9048f0740a38beaf8e271948ce29fe3ac",
     "f1e516e7a92e2e21706e8b92ca63b1edfaf2d36c",
     "f1e5373c0950b63c493c37ac2462e5e2e78a3bc4",
@@ -7217,6 +7226,7 @@
     "f5962a890b5f7194bb5a455698f0ef6d6744b143",
     "f59a193d47ca033be3623f953929ab4a311d981a",
     "f59cc5b6df898564f9fe62ab5d01a50814801394",
+    "f5a17a82859dc148f9e21ccf2560f4da932da4b0",
     "f5a54d5f0ff37f5e2db1a7f4082579ced32ce948",
     "f5bbc41600d6f5455065bbb230ab64c791256132",
     "f5d72e3ebfd9eeab746c9291c4bbaa14afe734bc",
@@ -38741,6 +38751,76 @@
     {
       "id": "241359fdf2b477e47b91751af8ef9042ab315c14",
       "title": "JTBC '파이널 테이블' 24일 첫 방송…한국인 셰프 경연 그린 토일드라마",
+      "date": "2026-10-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "84d00fec6c510fd9d826039813cb167d9c223b49",
+      "title": "독도의 날, 독도에 펼쳐진 가로 30ｍ 초대형 태극기…글로벌 홍보 영상 공개",
+      "date": "2026-10-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "a76978f933191332b049d77d6f908998373c2f36",
+      "title": "플레이브, 미니 5집 초동 132만장…음원 차트도 강세",
+      "date": "2026-10-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "a0af5f85900ca9c23be2d7ea4ac827e912a754af",
+      "title": "충남도, 일본 규슈 라디오와 손잡고 충남관광 알린다",
+      "date": "2026-10-25",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "f5a17a82859dc148f9e21ccf2560f4da932da4b0",
+      "title": "궂은 날씨도 막지 못한 나눔의 질주...제18회 아름다운마라톤 힘찬 출발",
+      "date": "2026-10-25",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "f1da4a8617f2bcdb3dcf7c14dfbf10cfc970ad11",
+      "title": "White House holds little-known American art collection",
+      "date": "2026-10-25",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "0168e88a1809165279282d4aecfce8858d473b44",
+      "title": "WWE legend Ric Flair recovering after being hospitalized for fall, reports say",
+      "date": "2026-10-25",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "1221d459280d18f388ef2e6c9bcb384d06764f7b",
+      "title": "태풍 영향 경감...가랑비 내리는 아름다운마라톤 정상 운영",
+      "date": "2026-10-25",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "afa5de34d336cdd85ebb950352c8ecf45197929a",
+      "title": "#SHOWBIZ: Siti returns to stage for Cuckootopia 2026 with K-drama star Lee Junho [WATCH]",
+      "date": "2026-10-25",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "00900abc11b526bc33d60dce8ce96d63abb331c6",
+      "title": "\"방송 나가면 난 죽어\"…전현무 맛집 촬영 거절한 사장님",
+      "date": "2026-10-25",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "637c99365bed011563f4b45fdf8ec1ca0055e110",
+      "title": "라잇썸 \"일본 재데뷔는 전환점…2년 공백 버티길 잘했다 싶어요\"",
       "date": "2026-10-25",
       "region": "",
       "grade": "B"
