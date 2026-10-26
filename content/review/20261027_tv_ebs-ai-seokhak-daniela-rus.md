@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS 'AI 석학 특강 – 넥스트 비전', 27일 다니엘라 루스의 피지컬 AI…보스트롬·도킨스 강연 잇따라"
+title: EBS 'AI 석학 특강 – 넥스트 비전', 27일 다니엘라 루스의 피지컬 AI…보스트롬·도킨스 강연 잇따라
 source_name: ''
 source_url: ''
-summary: EBS1 'AI 석학 특강 – 넥스트 비전'이 27일 MIT 다니엘라 루스의 강연을 시작으로 닉 보스트롬, 리처드 도킨스 강연을 11월 2일까지 이어간다.
+summary: EBS1 'AI 석학 특강 – 넥스트 비전'이 27일 MIT 다니엘라 루스의 강연을 시작으로 닉 보스트롬, 리처드 도킨스 강연을 11월
+  2일까지 이어간다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005556310
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005556310
+status: published
+published_id: c-bae421a17382851a7d2b70f9d38cf9839f72cf47
+published_on: '2026-10-27'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · AI 석학 특강 – 넥스트 비전
 > 방송 · 2026년 10월 27일(화) 오후 5시 50분 (매주 월~금)

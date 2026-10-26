@@ -7,16 +7,18 @@ kind: 해설
 title: 트리니티항공 부산발 후쿠오카·삿포로 취항 1년, 탑승률 90% 넘고 약 30만 명 실어 날랐다
 source_name: ''
 source_url: ''
-summary: 트리니티항공이 26일 부산~후쿠오카·삿포로 노선 취항 1주년을 맞았다고 밝혔다. 두 노선 모두 평균 탑승률 90% 이상을 유지했고 누적 탑승객은 약 30만 명이다.
+summary: 트리니티항공이 26일 부산~후쿠오카·삿포로 노선 취항 1주년을 맞았다고 밝혔다. 두 노선 모두 평균 탑승률 90% 이상을 유지했고
+  누적 탑승객은 약 30만 명이다.
 sources:
-  - https://www.g-enews.com/article/Industry/2026/10/202610260928414400ea14faf6f5_1
-  - https://www.metroseoul.co.kr/article/20261026500206
-  - https://www.paxetv.com/news/articleView.html?idxno=285117
-  - https://www.newsis.com/view/NISX20261026_0003840417
-  - https://www.ebn.co.kr/news/articleView.html?idxno=1729210
-status: approved
+- https://www.g-enews.com/article/Industry/2026/10/202610260928414400ea14faf6f5_1
+- https://www.metroseoul.co.kr/article/20261026500206
+- https://www.paxetv.com/news/articleView.html?idxno=285117
+- https://www.newsis.com/view/NISX20261026_0003840417
+- https://www.ebn.co.kr/news/articleView.html?idxno=1729210
+status: published
+published_id: c-62afb5c7c3a6648bcd63f9d2410c3f3549281fc5
+published_on: '2026-10-27'
 ---
-
 트리니티항공은 26일, 김해국제공항에서 출발하는 부산~후쿠오카, 부산~삿포로 노선이 취항 1주년을 맞았다고 밝혔다. 지난해 10월 첫 운항을 시작한 이후 두 노선의 평균 탑승률은 **90% 이상**이고, 누적 탑승객은 **약 30만 명**이다.
 
 ## 숫자로 본 1년

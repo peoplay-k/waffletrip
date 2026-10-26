@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '틈만나면,' 서현진·이천희 출격, 유재석과 '패밀리가 떴다' 이후 16년 만의 재회"
+title: SBS '틈만나면,' 서현진·이천희 출격, 유재석과 '패밀리가 떴다' 이후 16년 만의 재회
 source_name: ''
 source_url: ''
-summary: SBS 예능 '틈만나면,'이 27일 밤 9시 서울 노원구를 찾는다. 게스트 서현진과 이천희가 나오며, 이천희는 유재석과 예능에서 16년 만에 다시 만난다.
+summary: SBS 예능 '틈만나면,'이 27일 밤 9시 서울 노원구를 찾는다. 게스트 서현진과 이천희가 나오며, 이천희는 유재석과 예능에서 16년
+  만에 다시 만난다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9295
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9295
+status: published
+published_id: c-8ad3d252722057012d70cff5d9cf97730196c36f
+published_on: '2026-10-27'
 ---
-
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 틈만나면, | 연출 · 최보필
 > 방송 · 2026년 10월 27일(화) 밤 9시
