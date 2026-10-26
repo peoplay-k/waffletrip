@@ -10,9 +10,11 @@ source_url: ''
 summary: 대만 교통부 관광서(대만관광청)가 21일 배우 김혜윤을 새 한국 시장 관광 홍보대사로 위촉했다. 타이난·일월담·가오슝·컨딩을 담은
   홍보 영상 4편도 함께 공개했다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72443
-  - http://www.travelnbike.com/news/articleView.html?idxno=92853
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72443
+- http://www.travelnbike.com/news/articleView.html?idxno=92853
+status: published
+published_id: c-28a77838bb996df630f53f3c46b05ce116c8f32a
+published_on: '2026-10-26'
 ---
 대만 교통부 관광서(대만관광청)가 21일 배우 김혜윤을 새로운 한국 시장 대만 관광 홍보대사로 위촉했다. 위촉식과 함께 신규 홍보 영상 시사회도 열렸다.
 

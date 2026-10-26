@@ -5,15 +5,17 @@ category: music
 region: ''
 section: news
 kind: 보도자료
-title: "임영웅 데뷔 10주년 콘서트 실황 영화 '아임 히어로 더 스타디움 2', 11월 18일 개봉"
+title: 임영웅 데뷔 10주년 콘서트 실황 영화 '아임 히어로 더 스타디움 2', 11월 18일 개봉
 source_name: ''
 source_url: ''
-summary: 소속사 물고기뮤직이 가수 임영웅의 데뷔 10주년 기념 스타디움 콘서트를 담은 실황 영화 '아임 히어로 더 스타디움 2'를 11월
-  18일 개봉한다고 밝혔다.
+summary: 소속사 물고기뮤직이 가수 임영웅의 데뷔 10주년 기념 스타디움 콘서트를 담은 실황 영화 '아임 히어로 더 스타디움 2'를 11월 18일
+  개봉한다고 밝혔다.
 sources:
-  - https://www.hankyung.com/article/202610264236H
-  - https://www.kizmom.com/news/articleView.html?idxno=113531
-status: approved
+- https://www.hankyung.com/article/202610264236H
+- https://www.kizmom.com/news/articleView.html?idxno=113531
+status: published
+published_id: c-1026b4506e03f98a369ed1f2af32fe73d466c278
+published_on: '2026-10-26'
 ---
 가수 임영웅의 데뷔 10주년을 기념한 스타디움 공연이 영화로 관객을 만난다. 소속사 물고기뮤직은 콘서트 실황 영화 '임영웅│아임 히어로 더 스타디움 2'를 **11월 18일** 개봉한다고 밝혔다.
 

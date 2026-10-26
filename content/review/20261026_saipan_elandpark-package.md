@@ -10,8 +10,10 @@ source_url: ''
 summary: 이랜드파크가 운영하는 사이판 호텔·리조트 3곳이 겨울철 가족여행 수요를 겨냥해 숙박 패키지와 워터파크·골프·액티비티 혜택을 강화한
   프로모션을 선보인다.
 sources:
-  - https://www.nanumy.co.kr/news/articleView.html?idxno=4010979
-status: approved
+- https://www.nanumy.co.kr/news/articleView.html?idxno=4010979
+status: published
+published_id: c-e3c38fd9c6ac3504bbf5a6fab02f220256b7494c
+published_on: '2026-10-26'
 ---
 이랜드파크가 운영하는 사이판 호텔·리조트 3곳이 **겨울철 가족여행 패키지**를 선보인다. 워터파크·골프·액티비티 혜택을 강화한 구성이다.
 

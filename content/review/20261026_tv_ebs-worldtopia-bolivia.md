@@ -8,11 +8,13 @@ kind: 보도자료
 title: '''세계테마기행'' 볼리비아 1부, 세계 최대 소금사막 우유니'
 source_name: ''
 source_url: ''
-summary: EBS1 '세계테마기행'이 26일 저녁 8시 40분 볼리비아 1부를 방송한다. 남미 여행 전문가 박우물이 해발 3,600m 고원
-  도시 우유니와 세계 최대 소금사막을 소개한다.
+summary: EBS1 '세계테마기행'이 26일 저녁 8시 40분 볼리비아 1부를 방송한다. 남미 여행 전문가 박우물이 해발 3,600m 고원 도시
+  우유니와 세계 최대 소금사막을 소개한다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551570
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551570
+status: published
+published_id: c-1b9d18a882ad5ed269fb4c3292e846af3f74809a
+published_on: '2026-10-26'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 세계테마기행 | 회차 · 1부(우유니 소금 사막과 사람들)

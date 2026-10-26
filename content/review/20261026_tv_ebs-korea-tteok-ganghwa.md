@@ -11,8 +11,10 @@ source_url: ''
 summary: EBS1 '한국기행'이 26일 밤 9시 35분 '웬 떡이냐' 1부를 방송한다. 강화도 박씨네 7남매 중 6명이 떡집 3곳에 흩어져
   각자 다른 떡을 만든다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551577
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551577
+status: published
+published_id: c-155aaf751930f3f13a6478eb70cc0bdc51059d13
+published_on: '2026-10-26'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 한국기행 | 회차 · 1부(강화의 맛, 떡 빚는 6남매)

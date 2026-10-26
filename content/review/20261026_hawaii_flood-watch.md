@@ -7,12 +7,14 @@ kind: 해설
 title: 하와이, 화요일·수요일 폭우·뇌우 대비 경보
 source_name: ''
 source_url: ''
-summary: 하와이 섬 남서쪽에서 발달한 저기압이 가까워지면서 이번 주 화요일과 수요일 불안정한 날씨와 열대성 다량의 수분이 유입될 것으로
-  보인다. 집중호우와 뇌우 가능성에 대비하라는 경보가 내려졌다.
+summary: 하와이 섬 남서쪽에서 발달한 저기압이 가까워지면서 이번 주 화요일과 수요일 불안정한 날씨와 열대성 다량의 수분이 유입될 것으로 보인다.
+  집중호우와 뇌우 가능성에 대비하라는 경보가 내려졌다.
 sources:
-  - https://www.hawaiinewsnow.com/2026/10/24/first-alert-forecast-tuesday-wednesday-first-alert-weather-days/
-  - https://www.hawaiinewsnow.com/2026/10/26/first-alert-weather-days-declared-flood-threat-tuesday-wednesday/
-status: approved
+- https://www.hawaiinewsnow.com/2026/10/24/first-alert-forecast-tuesday-wednesday-first-alert-weather-days/
+- https://www.hawaiinewsnow.com/2026/10/26/first-alert-weather-days-declared-flood-threat-tuesday-wednesday/
+status: published
+published_id: c-745feaccb84cba70a96f7ec34aa339eb1fff82a4
+published_on: '2026-10-26'
 ---
 하와이 섬 남서쪽에서 저기압이 발달하고 있다. 이 저기압이 앞으로 며칠 사이 섬에 가까워지면서 **화요일과 수요일 날씨가 불안정해질 것**으로 예보됐다. 집중호우와 홍수 위험에 대비하라는 경보가 내려졌다.
 
