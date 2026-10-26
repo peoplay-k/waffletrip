@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '딩동댕 딩동댕' 강릉 특집, 28·29일 관광캐릭터 '하슬랑'과 강릉 여행"
+title: EBS '딩동댕 딩동댕' 강릉 특집, 28·29일 관광캐릭터 '하슬랑'과 강릉 여행
 source_name: ''
 source_url: ''
-summary: EBS1 '딩동댕 딩동댕'이 28일과 29일 오전 8시 강릉 특집을 방송한다. 강릉시의 디지털 관광캐릭터 하슬랑이 오죽헌, 경포호, 정동진을 배경으로 등장한다.
+summary: EBS1 '딩동댕 딩동댕'이 28일과 29일 오전 8시 강릉 특집을 방송한다. 강릉시의 디지털 관광캐릭터 하슬랑이 오죽헌, 경포호,
+  정동진을 배경으로 등장한다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551617
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551617
+status: published
+published_id: c-97d90436548181770be44ab5c0b9db27d62d6609
+published_on: '2026-10-27'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 딩동댕 딩동댕 | 편성 · 강릉 특집 2부작
 > 방송 · 2026년 10월 28일(수)·29일(목) 오전 8시

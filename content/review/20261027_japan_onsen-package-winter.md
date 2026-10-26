@@ -9,11 +9,12 @@ source_name: ''
 source_url: ''
 summary: 모두투어는 지역별 온천과 제철 미식을 묶은 일본 기획전을, 노랑풍선은 간사이 관광에 온천호텔 숙박을 더한 오사카 풀패키지를 선보였다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72453
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72438
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72453
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72438
+status: published
+published_id: c-317802aafad3968ad8e0d1b47d9bc320a9de0fb8
+published_on: '2026-10-27'
 ---
-
 겨울 일본 여행 수요를 겨냥해 대형 여행사 두 곳이 온천을 앞세운 상품을 내놨다. 모두투어는 지역별 온천 기획전을, 노랑풍선은 간사이 일정에 온천호텔을 얹은 오사카 패키지를 냈다.
 
 ## 모두투어, 지역별 온천에 제철 미식

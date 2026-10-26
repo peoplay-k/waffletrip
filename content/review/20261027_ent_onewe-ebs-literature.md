@@ -5,15 +5,17 @@ category: music
 region: ''
 section: news
 kind: 보도자료
-title: "원위 용훈·강현·동명, 교육부×EBS '아이돌이 들려주는 교과서 속 문학' 28일 공개"
+title: 원위 용훈·강현·동명, 교육부×EBS '아이돌이 들려주는 교과서 속 문학' 28일 공개
 source_name: ''
 source_url: ''
-summary: 밴드 원위의 용훈, 강현, 동명이 교육부와 EBS의 오디오 학습 콘텐츠에 참여해 유충렬전, 별 헤는 밤, 눈물은 왜 짠가를 낭독한다. 28일 오전 9시 함께학교에서 무료로 공개된다.
+summary: 밴드 원위의 용훈, 강현, 동명이 교육부와 EBS의 오디오 학습 콘텐츠에 참여해 유충렬전, 별 헤는 밤, 눈물은 왜 짠가를 낭독한다.
+  28일 오전 9시 함께학교에서 무료로 공개된다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005557535
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005557535
+status: published
+published_id: c-b2f15271802eb414245fcb5d903eb06cee1c7cdf
+published_on: '2026-10-27'
 ---
-
 밴드 원위(ONEWE)의 용훈, 강현, 동명이 고등학교 문학 교과서 수록 작품을 목소리로 들려준다. 교육부와 EBS가 함께 기획한 오디오 학습 콘텐츠 '아이돌이 들려주는 교과서 속 문학'에 세 사람이 참여했고, 28일(수) 오전 9시 '함께학교' 홈페이지와 앱에서 무료로 공개된다.
 
 ## 어떤 콘텐츠인가

@@ -7,15 +7,17 @@ kind: 해설
 title: 마리아나관광청, 서울 노들섬에서 사이판 사진전·태풍 피해 복구 기부런 열었다
 source_name: ''
 source_url: ''
-summary: 마리아나관광청이 사진작가 최진성 감독, 소니코리아와 함께 10월 16~25일 서울 노들섬에서 사이판 사진전을 열고 태풍 피해 복구를 위한 5km 기부런을 진행했다.
+summary: 마리아나관광청이 사진작가 최진성 감독, 소니코리아와 함께 10월 16~25일 서울 노들섬에서 사이판 사진전을 열고 태풍 피해 복구를
+  위한 5km 기부런을 진행했다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72454
-  - https://www.discoverynews.kr/news/articleView.html?idxno=1104861
-  - https://www.ttlnews.com/news/articleView.html?idxno=3155152
-  - https://www.tournews21.com/news/articleView.html?idxno=146689
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72454
+- https://www.discoverynews.kr/news/articleView.html?idxno=1104861
+- https://www.ttlnews.com/news/articleView.html?idxno=3155152
+- https://www.tournews21.com/news/articleView.html?idxno=146689
+status: published
+published_id: c-6d52c817f009ce3808559e7c1c42415856209413
+published_on: '2026-10-27'
 ---
-
 마리아나관광청이 서울 한복판에서 사이판을 소개하는 행사를 마쳤다. 스포츠 전문 사진작가 겸 영상감독인 최진성 감독, 소니코리아와 손잡고 사이판 사진전을 열었고, 현지 태풍 피해 복구를 돕는 기부런도 함께 치렀다.
 
 ## 노들갤러리에 걸린 사이판 10년
