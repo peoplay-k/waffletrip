@@ -36,6 +36,7 @@
     "00fc32c0c2677a900ab6d70e167738a2762be139",
     "0100e10b2004de9b58249487827671b496a9810d",
     "01075023e23393edfe8d9fa79bf8fcc47ffa9e64",
+    "0115f5c463a999b072a895b1b34e9c4d972bc13d",
     "011bbc5775adda2d00206bf0e28d544140434511",
     "011f7e51c48fe1137f2ac8c44183b118ec3f8bd3",
     "01234a0f6e2a90c88e30b8abc0ebaddc22876fe1",
@@ -181,6 +182,7 @@
     "060d59e145883f9e45a4ad6145eaecc1fb72eaf7",
     "061b991b9d971d85dfa7bcc32b3e3644b36fe7be",
     "0620ee577869ef38b0b658e2f619269baa57ec8f",
+    "0623069d30a87aa64078db9ba7e2f830cc592a11",
     "062a0c7f07da15cc0dbe324f6c3229742da7ab9d",
     "062b181f3803cd5afd4551e5a1d7ec63f1b9d876",
     "0637298094002f57fa949f8377e5011db4c4ea63",
@@ -381,6 +383,7 @@
     "0c50b722fe6c0d8c36111a8e5b373ff3df786f79",
     "0c54098bd1357c7fc3c558567d385db77f30a501",
     "0c5b81e3116250759807e2b3f233d0aa3858feb9",
+    "0c62094ff2cc9c7c9a5ab317a6b8926765d4897d",
     "0c66fb5b2f88c1a1be9d91183dc0e20b4829b4e1",
     "0c6a0087963998a5d6b969fdf8454b3717225854",
     "0c6f400ba7f5bf16f4a3e1274baab424d15ade73",
@@ -461,6 +464,7 @@
     "0f6f0b1135073cc20cc5e465291b89ae9bfcf838",
     "0f7ac0c4d0b43fb80d6ac031c946503697b35172",
     "0f7cd70328e8d883c738d8f74f0625b660564da8",
+    "0f9244bddec5a92ce93fc5fbf361c5860f6fb275",
     "0f985517c6ec32caa62b79ecc0570fae0f005ab5",
     "0fb0072bee1e3be171264c854548b894e037231c",
     "0fb86c9977ef5da996b883ed9e925023851102f2",
@@ -528,6 +532,7 @@
     "11887a7c0d38888fbf666031e14199faac6b2ee2",
     "1198020eccaf9e79566e0d3c83e24fac5cb42f9e",
     "11a67d0f9ae474cf1b95e5e7fde9997a73ad41cc",
+    "11a7e2a09c404860c03368bd89fb262602819426",
     "11aaf77ac6ec387da51f6a26f4e9dcc3e08fe3c3",
     "11ace8ca84452cbb6859f4b23cb92a87ec2f5b4b",
     "11b1850d366a8a3b5f33e102b3b37a6c3f4a21b6",
@@ -557,6 +562,7 @@
     "12977b73dac9a9b6af7f05a51b1156b420ed3724",
     "129ba7625ee78a103363783db0e4de5d60d1256f",
     "129cfdb6d1941f1757fb8a0334aa376f01ba88ed",
+    "12a785a1d8ae61f9f2b2e32a7f5e54c5c3b7486e",
     "12be4542003daac2963b0048452f3aa03a68c597",
     "12c68e106beb66d4569d29c503c0ec34a77aa1f9",
     "12c85a4e810aa1d1f898193c99a745fee1276f5e",
@@ -594,6 +600,7 @@
     "1418a10e39c305bba568d24377a1a6c400d54166",
     "142628a39db0a631cd146b9e03645f3ba95c6c38",
     "1428cd5d28eef6e4d11396dfeb2a05b023f1f4d7",
+    "1433e46f3e568b93acfbdcbbb77c0afca49edae4",
     "143de51f6b8d87ea01723523bf41a56625e172bd",
     "143f9ce48492c0a2a4ddb0bdbfe91c707fea1bf6",
     "1445dc72c93bc21bac5ec98e8f17e77b24a7d141",
@@ -703,6 +710,7 @@
     "181bfbf6723fff1c36f70aed13cf7eccd1a39699",
     "181c96cc83fd63879ffa6f72f1e32e1ee4a98363",
     "182048c350f1f81af543db666417e83515498543",
+    "18208df8698a575334cd13ef2d1ee2ad57a73c6c",
     "1828e669fe9ac793012d1f46e500b32468c48c25",
     "1838bf94ace5b1aa02acd62673a4011a8f1aa6db",
     "183bf3d493f22a733efe0f8f01f2c254ba4012bd",
@@ -714,6 +722,7 @@
     "186c15a66f3d14fb7a6f801f10ea279ccfbc49c6",
     "18735d922e37f33b74711aa8a6d6eeab0cee4f90",
     "187d9716e11b8e7d3a43261c6b5e527283baca26",
+    "188f41cbab9a9448e057edc812d3634a18406c86",
     "189960361bc37f7d7aefe84630c4e934e8cde653",
     "18aca8bee634e8e58faf6fdafe1f06449a8578dd",
     "18b9a28263453b00a8cbc6c4f8f0b97cee0700f9",
@@ -732,6 +741,7 @@
     "1920e8da41a7a3ca589fb681dc5ba1a2a6853dfa",
     "1922cd83421408d47e439144e4a6f23889d0766e",
     "193e865c3573ffe709abe67a95a8f7d3f1a17957",
+    "194f3e36f3c9da832b22ac8ff9e78193bc7f6fc4",
     "195a31ff95f40e9ffe4fc656a6958ac375f5471e",
     "195a459bca6df52f02edff2424b59cd8c2c7d31f",
     "195ae213bdbfe92667db0152fdfdc677ec5b2d42",
@@ -1086,6 +1096,7 @@
     "2591b8bea7957a218fa78540ac419fa40710ff77",
     "25923cbccc3b16ac474365dab7d4edd659447776",
     "25964f9c372f4ecb4e5b2bdc27ebd4f49390cf8e",
+    "2597b630449066d9dfe17af42015a012f1762585",
     "2597bf2b71ec2b37c1c0e7ecbc0ed600263075a7",
     "259a6b1414b6d627e8f80617a8706cccbb24cd35",
     "25a741f75f564647f5b393b9a7eda9703560d713",
@@ -1114,6 +1125,7 @@
     "26374eb6274cc4281f1ba9c3e16e5c90ce2aeacb",
     "263938f72e42da109a3e3e633bba84aa07dc0c4b",
     "263e786d782d259fc4b53bb9162bbc52c675bad9",
+    "2644d2b357550283f2737dcbf11a48b46495f490",
     "2647401a6cfbb445e0ab9a857c5e40e04aa0a330",
     "2654979be193f27ebe06bdaec5ee172d8c4f33c4",
     "266500116a0cee15ec562adfc50b6513283fe5b4",
@@ -1280,6 +1292,7 @@
     "2c48c538ad0ced61bce0ba367939f2ff1028abe7",
     "2c49e1ed8456857dc106d8c0358a923e75d5e511",
     "2c729cf9071511258a0baf610ec37d5d9c436082",
+    "2c72a7356bcf60bb7ea2f7ca1fcd6faa9f1b1878",
     "2c8860b47b819a83a178122c7634b408b72f9502",
     "2c8db06ce59ce1e0265e276338da78b634891283",
     "2ca8b727a3c9d65bcb4746d6e795bc28896f9fb6",
@@ -1328,6 +1341,7 @@
     "2dd7e6aed797155bb36d59ab416c2a5fd9a64bfe",
     "2dd9b5f8fddc628c878d6e972385800af065dfa6",
     "2de1bcefc65584ca09d80a5e338f79092ce8d5ad",
+    "2e01f1f2d8044a8abdf2df39245f4727bd40af15",
     "2e0e903e3c51a08b0152506a778e10a4b737257b",
     "2e19131f759a1b9db3a184941cf462e1f6feca2f",
     "2e27f8682ce92004fc29e1f66391fbf017c1911b",
@@ -1576,6 +1590,7 @@
     "36d75d94665a19f961262477f035956f10fe2b65",
     "36dcbf25d3c37e1201fc37503cc81e4baa25887f",
     "36e02bc7892f3685133ebdc4203622cb857af637",
+    "36ec719d2d45938471c891818e4e2aad2715ddbb",
     "36f3da1e3d353ff24b564bf7585936a0eaa90f63",
     "36f499b6dd120bc49b912a94ac6a7fbf38dadbe1",
     "36f6ce2ca1543a2a4169e9c547117a9b2c70ec40",
@@ -1720,6 +1735,7 @@
     "3b9af6ac6b70afc4b0246212223ecc030ffb741d",
     "3b9f11c40fdf2d693e01c12189f5f7b575004a6e",
     "3b9f7058ddebd7f6000a2e96c5590f43a52b9c14",
+    "3ba36a511ecb11cbdd79f5f722f86a55778cac09",
     "3ba389abf3b9ac4189ffb94281cdd598affa97ab",
     "3bb28e1c4918c3a2e3d0a6169a3de32062d0ddab",
     "3bcbede1b90c8c3ededcc8dc325c2b8cc298707a",
@@ -1728,6 +1744,7 @@
     "3be3696699c22c93bb47e62a93708a0ac1375ce0",
     "3be5178afc0c36a4115687ff531431dcbc3119f8",
     "3bebcbe742b86713f23b6a1ea0db9124dd740e88",
+    "3c17567cd36b14d290c856c6059b350d0e2b7dab",
     "3c1f7ccaf678a013527c7455d5bf9c91f86b10cc",
     "3c45423f498b23f0e69aee6a6e6781cf2f4da4e4",
     "3c4ef80283203c7d1e2d08b3d7287c84d8feeab2",
@@ -1782,6 +1799,7 @@
     "3e27c24da9f41da2e502de04886ce02e1388cbd7",
     "3e2cda4f9055f248eaaf2ecfcaa8077745dbba78",
     "3e38e6d460d4ff6b4ac7e86c77b8b76c6eac0bb1",
+    "3e3f9ac8026ccfb4e52b7098a2bf7471430fe695",
     "3e4d08c37d52586713f271154a75befecfb2f192",
     "3e4efde077b329612050594e8b7240b7c4a474b7",
     "3e560180a2250a0a70b5eb45b4a0e5595e709a72",
@@ -1988,6 +2006,7 @@
     "450e3aadbc84d164d79d76d1ece3762eff100456",
     "450f6c357e38c49d8be34cf6741b3e4c85658f51",
     "45159a5146f57459b3e38db96a1787679564dd83",
+    "451c87ff4c26c754cffdf3b4a7c713600942cd69",
     "45212d2005e97e73a6045edb64b758f1be32c1d2",
     "453f3581b3206a54f7d9bedec34abd9cd8fa695d",
     "45465d14b46271e4e33eb921db3347e74f0e6399",
@@ -2033,6 +2052,7 @@
     "46620a683c2bd6986ec16e08e28e3f472dea1e37",
     "466650a668db8b89481ad99c1945309176f66eff",
     "4666a848485c8a100096b206f224e62d597ae39d",
+    "466a74ce29933e64df0c49eaf9c5faaa626ae4c0",
     "46779a614a4eb01dd700aa234e40938a950522e9",
     "467826900bfcd962eed39b83ea291ab991536f64",
     "46783fba952b37f2163900ca18486d825f9c96fd",
@@ -2085,6 +2105,7 @@
     "483beecb35969dcee413292eacba48f5776ae075",
     "483c98719ef362f41f210726171972e4a823c201",
     "483f5b777ca178925dedf6beb068b3f5707dec6a",
+    "4840827c0e048a782b57f0b5334f6b40f6f4171b",
     "484f4bae2bbecc832c9a268b90bf2d208b4ca26d",
     "4852a8ccca86b9d4ad07468c15ba2ea6e695bf20",
     "4855e5fdd432f3507fed8ff40becbdea8f2a337b",
@@ -2139,6 +2160,7 @@
     "49ccd976921f0c71cc62b8e89cd9f8dedf5be7fb",
     "49d39ce4a1818e93a94eec7d915bb3a8a8a48841",
     "49dab933d7e34f74d78248cca6b6febeddb914ae",
+    "49dbf1af5703df5e99e357d18904cbfbd964b281",
     "49e26ec2f25f29a6fe00b01ac96a17fb4563526a",
     "49ee2b7a2a230342b3bad92b19fa74269394a7d5",
     "49eecd2fb51d88372cdc6a7485b691d67d7e38f9",
@@ -2153,6 +2175,7 @@
     "4a38d95b8f944b74b08df1b263c2ebcd8e5882b1",
     "4a3a185109865edc961ff0eecb7e5561a0d5543f",
     "4a3ccd7ea41ecd2eca316cf5c8d1ff2b937c7581",
+    "4a44e0e676e0b0c02d3e5217b9918f9a489f26a8",
     "4a4544c19455ddc6c668c680a58d5a5f3e2dc46b",
     "4a4cb21c05e95282495b0737cae0346b5482a67d",
     "4a61af1eda1b3d304d43aa5790c16afe6a8834c5",
@@ -2548,6 +2571,7 @@
     "570a7e3490247b68827bd5a088ca41f60d68dd46",
     "571abc9644ac334ed82276341980001fe3798ffe",
     "5720ea9298f82887ef4889d8c9ed94efd894bb8d",
+    "572d21d18ba267ae250f495c0a3224e871fb878e",
     "572e4444b524f567cd35f348cbfabcf3e8e80e11",
     "57363f42e3422cc813e26d4409c9cfb16ac8d52b",
     "5737c351c247c0e997fe8e619a6f21144a2114f4",
@@ -2645,6 +2669,7 @@
     "5b234c65593393380db54df0cdec5859c9eec2fa",
     "5b29f1b123f923cf93c5069a958f122b6c07d25b",
     "5b433d70b97bcfd149ea74cc4ff607b72fb716db",
+    "5b44b6c6d4708c7fe76ecb907e0abec0812e6f13",
     "5b494e1e62128232f0bfa02b2dfb94c639a07f13",
     "5b4afea79142d6cac58663eecde7be907897afce",
     "5b4deeab3ccfc2d2cfb9762e7764e3b37bb1ed68",
@@ -2658,6 +2683,7 @@
     "5b96060e5fd0d7e550af6dd7fa36045898fc8fe8",
     "5b98a7f44f401745bb008b671f0620cb63254d86",
     "5b9ea40eeaa531eac44533d953c7fbd2fe2949a1",
+    "5ba2327eaaf7a7944931a2575aca4f642143a4d6",
     "5ba692a6993da7d2587fce034643f6a09b71ab5e",
     "5baf969b7b23a745cb5ee046b55ad2f9b2a67428",
     "5bba6aba156860e5c6f7fd2cd39027c7282a0088",
@@ -2680,6 +2706,7 @@
     "5c615a0cae2bcc1438f60250ea072d58181c4e03",
     "5c6518af292a083ca43b125a1c7f271910d83bde",
     "5c759da95bbd640dd016192055c210d91ca49aa3",
+    "5c7795440ab8253c185ed411367f0b66357283df",
     "5c7f2aeeac212f4bd5415bdcca9a0152d652d95f",
     "5c81a5b1cf948deed40fbedda57ea0904e71e8e5",
     "5c9de32081aa3e0087488e271ac438e3f43b5614",
@@ -2697,6 +2724,7 @@
     "5d226c56b0143c34ff46ff8efa8e5d32da853b55",
     "5d25becd34dab69165481586e656b720959abec7",
     "5d368f3a8c009cebdc727f0a2ceab58b413c1f6c",
+    "5d36a35fd564c315582cd2f24bcc122064c76606",
     "5d389546d18fb16a95b211026ca43404260534db",
     "5d512181b5c7b304b8e6b39fd3b1aa8d32f8ef1e",
     "5d66d5dc6ab839b285451624d7da15dfafb9e2e6",
@@ -2714,6 +2742,7 @@
     "5d9f7d407a455a7594e1bdf194fd446efe642c65",
     "5da8da3345d4f6e0847be5cb71c1eb2bc2b81e3a",
     "5db2eda2d5633327d12e09bebf00c5fb455b5f62",
+    "5db77d4193ee6f16fe1a140becd09308baea4ec6",
     "5dbb8fb773bde5f1763eb350797b5e024ccfbd0e",
     "5dbbeef53bd6c9e9d2b24c703710a0de5f7e1f95",
     "5dbcc60fa3866c5aa3f5090a48bc6140a2c36a2b",
@@ -2960,6 +2989,7 @@
     "662cd3043118a9af2bff473d1b6684c42ddbcde5",
     "662f5475269e7e60e3299d73636057502eb399c1",
     "663040d4085eeab21a7be9e81319d1f6db1543c4",
+    "66325df6f1965ce05176283fb7197b60a4416841",
     "6633abdadb1ddfa11595c24912664cb166c8263c",
     "664001f998ed1f53e1f678ceb1fede6ae2b7747c",
     "6640cd5c95bd99e0d5f84e0045d2dbe4221ff081",
@@ -3059,6 +3089,7 @@
     "692f0d8cab2edba9da06e5ad7bd3d55168cd96a8",
     "693186e76fb9b2d8764b9e47a2970d5d53b607f7",
     "6936ce272219722a5b218c1bca1c55fd70531ef3",
+    "694e165e8a05536690dda23bc39ef94d33270566",
     "695bab42194eddba30c04bfd7a93a11c1c0d2db0",
     "695f113d3aebdeb77cde0ad78fc269dec0c6428f",
     "6966f4a2c55a46552d56b66cb69b84b3777b5957",
@@ -3084,6 +3115,7 @@
     "6a307c5fc757c1565e034e85b99cb8b02cbf09c5",
     "6a43924b33947f8f18851b117d950b9305889790",
     "6a46b3be4854960da068a9b827788ad8e313a161",
+    "6a4ff0141ba31c8fe4afb14c1a755502189b6482",
     "6a5c7fab1a5b69487d1b7e1b281a76e894329642",
     "6a63b8021d4af5d337207a014826e1dc666ce417",
     "6a65f997f5acc4904968be13e22437efc59021b5",
@@ -3289,6 +3321,7 @@
     "7049453c7f9dac7948c199310da4bb63d39556a1",
     "704f6cf904499e175effc6ae4a81c9107eb7dfa4",
     "707458d9b8fffe5f771718cc4b59a96216119c4f",
+    "707c753d3ea515b93079acb3699bb2f03612e608",
     "707c9824b7469d0f5448923aba52b20514b6ca8e",
     "708ed3cdaff56e1af9b3e39701ded770feafb365",
     "70952188480132a64c1cab8ca4c8dbd6a0c606f1",
@@ -3470,11 +3503,13 @@
     "76f6c05a3d2b706cd74bc88ae913ff4ad3f1b22f",
     "76fdcbac4910e62733ce21af5efdc8163491d261",
     "7702b22618f24c913249557f4819628bb02db017",
+    "77033249e32f1f45a175d55de61dfdebaa391516",
     "770d379fb30c4994981127976ba1548457f11d3f",
     "771d5e846f79702e31636cdbdff85af5a63b004d",
     "7723f2c825e4798c72c9025118463634acb40269",
     "77282bce5f01869b27f0041590e0bdf835487510",
     "7736b7bee09e26d178dd069e768ca172bd64defa",
+    "7739fd0cda01b7e793db7b7fdd34f1498f92796d",
     "773ba2eed3e39661339ec62747be7a49ab7ecdc8",
     "7759094c1bf4d90decb89cb9389e15c072dfd886",
     "775e8351e4c81a14ea4be0536f0c6b4838b5ee9e",
@@ -3648,6 +3683,7 @@
     "7d3b6b88d90fc5a4d125ca7aa3637463f0899c7b",
     "7d44f630793cd6403ba62543bf66905ccc16d50b",
     "7d526a2b03e4158cdcdcd271b6cb54f5d98897be",
+    "7d54f63f1b98d5950c0e89016a6e1da5d1965712",
     "7d5577872b5ca1299e50b56584d1f18eac49b693",
     "7d577cd603c0fba5f9487d2ec32f2750a7066000",
     "7d5cbfe99a00abf5aae593dc5a5df886784c32af",
@@ -3685,6 +3721,7 @@
     "7e4bbfd5c0fb6670426e92a5c7bc79069e0fb463",
     "7e4e9fc5874e4ed4968c46adc68256c827bcf954",
     "7e5156ced5c06d2956c1836c57c4da73f62dc170",
+    "7e5c2b0c87f254881648ba2014c692bdeca1c1e3",
     "7e5c55d672a1ca235cb1604d1713260998ac1f61",
     "7e5e225155f59ffabf125d8b84932c29c292c56c",
     "7e6009f730f6be792e848942d276e4e494add1bc",
@@ -3792,6 +3829,7 @@
     "816322bec22e43fae3c64eaea20d9895c122b457",
     "817037ba324fe9e879eb4ef83e019efd89f7ce0b",
     "817767e2caa725fd542ea5a8b559e0f0fea9d2f0",
+    "81881fd24ad4a5a92bc87edeb2a3534d0242894c",
     "819a0f435b61f9a8a583ca15998e368f5cc8c5de",
     "819c762ec9294fbf7161ab3a17791bd3ed89c642",
     "81a5eb8e271657b5a99d4c5dc885f59ed5408d0a",
@@ -3801,6 +3839,7 @@
     "81f47fee95fdee629b0e6c8ec4ffc8c8abac0266",
     "8209e6480b12da5881347a6fd43071b586561e5e",
     "821062f2bdec201d93ccecbbb0a67a95934be765",
+    "821081c5e932e6dbd67bfca6ad75ac45c76f89a6",
     "82349616fbb5a83fb26c4429d7e5ba9e3d02737f",
     "8263ff52287692810020aef82b167fa8522aab4d",
     "8266cdf002e49bf40b9b59337886619e9b3f476a",
@@ -3808,6 +3847,7 @@
     "82747266009b361d132559283719951436602492",
     "827550bc0acae582effe551bf8aa0e98293d3721",
     "8276f5a131d78472fa17067ab7950621960ab45a",
+    "82829ae99d64f3b4ca2a42c8e5c070f83f216934",
     "828976d0bf1b8b824a0d55d883a863b3f34bb69e",
     "828b5fb141c807d110ddbe271bfa91f4f0070dc3",
     "8290eb1694f6c870de4a16917d5ef1dd46f3315f",
@@ -3829,6 +3869,7 @@
     "8325bf75fa9c59b212c102a7e4f91967b70ffab5",
     "832bed856fe62a0f6d7b886e8693846534b73479",
     "832ca7377cf1d28489a3422d4427f7c21ed1e59c",
+    "832f936a9365bf491eeafb1e045f0a974f12d2e4",
     "83349ba662a33c33e1862530ffadd43f584fb6cd",
     "8353e71dc9a08f6d17524149873b0ca1328c953f",
     "8358415e473158001ed276257e3a823068c22e1b",
@@ -3940,6 +3981,7 @@
     "8724f2b300fb0db77f122f7451a01b4e7be81fdb",
     "8726046809505b70974bcee07108debeae05d173",
     "8737db9d3162609d7968a362e5653397cab59293",
+    "873864a9d2a38a12fc0fa2ebe8d053895703ccfc",
     "873a3adab21d38462ef1590aa20680a4f86d05f4",
     "873d7254d690d7ea39b07d7f67c89b21a502a47a",
     "8746629cf49e59d4edb241bf8d7b2e6cc4913df7",
@@ -4006,6 +4048,7 @@
     "897d5818594b67a57ad355b6a0a47fa8d180ffc8",
     "8983e0e8c53e868b3e6fa5d70893c9a06e3b117b",
     "898ba68ad7948b2a249b7024aebe8dc5d8852fea",
+    "89961ddd8f8fead060a570519a4ca3bca212aa05",
     "89a37f7e5d5365d493adbff91eed2bdb3eac1fef",
     "89b486edcff2030ddf2d49796a0d28c88324c04b",
     "89b705af1aba16918f59a6eda1c2235ffa31f13e",
@@ -4124,6 +4167,7 @@
     "8d87f2a12afb07a361ffbfc433f91a5f4597c447",
     "8d8fbcc4bdcc22fd5146fbc897bf07956d45e98b",
     "8d98a8db7b6411fd0d05a759c72ec493ff7cfa69",
+    "8db53ab65878839ae6767f770a68b889e11777f8",
     "8dbcf6f19ffd39427b31bbf54a8eae074c1fd72c",
     "8dc6588a4fee80d89c68eb08558bc2de2f436a40",
     "8dc8206190e01ca108fbc18b46c3febd46fd76f9",
@@ -4276,6 +4320,7 @@
     "932902ab5b26103a4de481efb873e8c32f5870d7",
     "933949fb81ca3b170a6680c1d3aca486813be990",
     "933f16872e789c692e797d34baab5243900b1999",
+    "935113a41f8901233a0dcceb29efce465dfceb2e",
     "93592adf3e4b5cebb7697aa17b68ca4169d7765f",
     "93661aec8708da8999d000424132bdab795b99bf",
     "93662b590b973b46ac04445a324b0a61be7cba0b",
@@ -4291,6 +4336,7 @@
     "93be1aa73468ef5a4d852e63d418eed62537f5dd",
     "93c92719e69b2ce4f86bc5c4eb5bc7281a23bb07",
     "93cbc921b2ec07b43a4f930ff0850b3fc3a8212e",
+    "93d1a297b715ef24bbf0c625963eee39f3b61ce8",
     "93d301ccfc1e0b9d1db6ef54ec71f24f0b45c71b",
     "93d52aee007587828a2c61110fcdbbb0cc21083f",
     "93de00956511bdaf4654a683851880cfdc862428",
@@ -4567,6 +4613,7 @@
     "9da31d473b6f84ab67b1b8c265929ea8c3915a57",
     "9da5e0b854d4dbe1ec2b5495c2c1036af21fb4ab",
     "9dafa972cbb0a7fbf1816fe559859effc2f8beb5",
+    "9dbfa8d97ca1bbc0d139c5d76034d36091a8ab9b",
     "9dd5941b82aed33e203ad7b6e5e6cc6ad442d928",
     "9dd6a0e3d47cc5ff05abc74c955d2180b70b0938",
     "9ddcbdbe46ef582b9a84ad3bcacdc186a205df6d",
@@ -4658,6 +4705,7 @@
     "a05cd2d61d91a83e5d615c0b54ee015cd08d6140",
     "a064ff073059c90e6e2dcaa931dc0cf7daf8b0e1",
     "a0652ff67643fb144ac9422adb7782212458e063",
+    "a0758076c47c4bf56f4f495cb5e2cb596830f6c7",
     "a07b940bcf081e28a73a0fce19645e7064105f03",
     "a07d3ad7a75c53ef1f2162ba3d0f6a0981481df2",
     "a0826d8fcdd4e2ba47f2dd75dde47d243917a506",
@@ -4672,6 +4720,7 @@
     "a0c91553dff75e824707627b20aa4bf70ca80b8b",
     "a0dc7adde38b20a00875de7c940fd0dab00f2234",
     "a0e86d95e5d4f54f500252f95519cd8c9542254c",
+    "a0f1db7f74b89f39ee2801fbf3325888899cbf1b",
     "a0f3888ceb0335c424778b91d7e783999c06d210",
     "a1026a629c6deb9de9f7ff895f40d40c8268e6f1",
     "a10418b86cdcb7dce037f4c5881cc1c5f3d5a9ac",
@@ -4800,6 +4849,7 @@
     "a5c880876c5e37b1a50bde4bbc7aec51f31376b7",
     "a5d99fab014ec6683795140f50dbf517631d8cff",
     "a5da3454349ab224a7acd971c2e5c4f6536baa28",
+    "a5e4218f60ce9e6ef331536e10e85f21a6b1472b",
     "a5e619662723f9d168b1050f6f2ce391c422694f",
     "a5f29fded69ff82469d69baf53321972c2276a98",
     "a5f6d586e6bdb12d885a41a67cd22613e184cf2d",
@@ -4922,9 +4972,11 @@
     "a99061d440d769a331a4195e2215e1940128289c",
     "a99230395f69be87ea9688f5b1119b69fe27bec4",
     "a9a2817931d5fa817fa46da7685229a65813879e",
+    "a9a290bdc3cd6b1d1820d2b6bba3cb59c3b8b355",
     "a9a50318b207c24f37f26701bbf110387cf1365b",
     "a9a57f1dac85fd3c07342029470799f1fe500335",
     "a9a58ce12f293973a1076381bfcad4a1987c718e",
+    "a9ae4115c6a117393341b0bcf2605db54561f392",
     "a9bc7631d6684a88efa634acef6885a4b2bd1453",
     "a9c65342cbdf45d0526b15480b63fa5f698635ff",
     "a9d865c57026619c447b5eafceec58d46f087717",
@@ -4954,6 +5006,7 @@
     "aae214913914a366b1f4006da9c20e618e30f8a0",
     "aaed857739a31eda0990ab8d78ca263f1eb9a757",
     "aaedc7f8a2527e5e2ee9c75106a8470f8fb388bb",
+    "aaee4901e176fb85b110b897fd123d0b25666ce4",
     "aaf1b393563759be399d435e09df305595a0a325",
     "aaf34d73ab3abb2375de3cc7131c58f07bd100bb",
     "aaf7786121584225da8792277dde11809ee12b40",
@@ -4968,6 +5021,7 @@
     "ab437687d12d29802f422e6d5475a89566cce06c",
     "ab4ad5b71824d958c608c132c41e4dbf91f6c921",
     "ab52f13ca156abef69b0bbcb025f27aa02d6e722",
+    "ab5b3fd958a4c59b582b08b7ee1d449cb4c08252",
     "ab5c380978e2db9654370843fea9d7d991257cfb",
     "ab602961814328e44073ab87231a0760911afc9d",
     "ab667be225cc7942885c8da996c0ac1e7281ea43",
@@ -5359,6 +5413,7 @@
     "b843a1d7630c31ee211783af83318321091449bf",
     "b843d257e358d62f3223b1c09b814ee18a90d86a",
     "b8454a8a301b1ad43171b0d05c8fa4523020c62c",
+    "b8529ab0f99cee17ae5e0032a9a2d59a1172174c",
     "b85ac63bace2af793169e9e879bc53c736a54a6a",
     "b8741166aa96e9e0f2f7c15c56e39e18d0b722e2",
     "b87b13d63de1c06565724b8002bdfff448b44cf0",
@@ -5553,6 +5608,7 @@
     "bec7c9e0e5a1a70f6365b62e073a1adc699aede6",
     "bede98a8a83d649b33bc5b2016b657204da7775d",
     "bee76b9ae831607caddd90437d180de3dbd83aa5",
+    "bef805195192ffe00b4da16624833dfeeb109854",
     "befc84e95f2e5164213d59f4a465f7682dd3c3a2",
     "bf0e3ce4292a9f0b47921446c7c60ca3ae60d406",
     "bf0f2a740e9373b752daac50d1ab5f0daca64805",
@@ -5867,6 +5923,7 @@
     "c-e8956fef89f832abd1646785d7cf8fb4ca6883b6",
     "c-ea2f7df1be621ca16dac7c4a57be1f5ed73d340d",
     "c-ea6a1f045965dd90ab5f7f8acc07981f77afd186",
+    "c-ebf47fc6d8dfb82b684f42cfe96c519dc2a38368",
     "c-ec0f1d5a159a7df721f7a86f91f119e27f81e367",
     "c-ec190fd310db2a1d5e8b0785f2a21132fb3a7e68",
     "c-ec630a59ef0dbbc91582e3de964708f6fffe6f8c",
@@ -5877,6 +5934,7 @@
     "c-ef73bff944c02ccf04a3fba4837fc0e22eb51e30",
     "c-f0e1fcf2e1cf5e6dc643ef9932787a0b4f827074",
     "c-f1852decc155dadd7ecf2b3fcbcb41a167341725",
+    "c-f27e27f93f86df98d6b465b96b66f57fea42ab4a",
     "c-f2f425d9f44eb1bdf28ec9cb1a2c9a1f7db7ae98",
     "c-f30261aaecfa9783a4fbe82f76130d52f6a6cc3a",
     "c-f396e11705d21a4493e37067b9d7494e6c0eb601",
@@ -6049,6 +6107,7 @@
     "c4bf066b9e4752dc8558c7e1645377995d599247",
     "c4c42a1476cf930cf81e4985ab1390b902d27b90",
     "c4f6a4db92ce102aab9cf1b1035c2a3a01aea40d",
+    "c4ffd07cc179f728ef677d86674163ef3ad72e8a",
     "c5018281d9b4e036e8899ad23d532d8203ac3057",
     "c503429a4f1246fc87eb05488616450fe52926b4",
     "c5056c1b5f8591a2543b10dde3a5992c9278da38",
@@ -6083,6 +6142,7 @@
     "c643f2dc08c749bc8f9a0806660aeb6246167b90",
     "c645484216ec81fdd0b59e628f757d494ffac7e2",
     "c64fd5f79ed9458a0907aadd79de3450e85811e3",
+    "c6611dc7b809b92cda3e5ce7f898d517767ad196",
     "c683a6dcc2e0d587499adc0dae6ea4b00d8b8aed",
     "c68584f7e2bda411f0545919265a90e9b1821c41",
     "c68ee3c1501bf4c75a8e688dbff19d032d82b182",
@@ -6128,6 +6188,7 @@
     "c83a42e64afb5e06f341e8ebd5c110d6e0c54bff",
     "c83fe502e6bcc8c2516d7338c784aa5bd33a8bf7",
     "c8422509b39f4321533279ebaec7a09c4b646076",
+    "c8445fa16df6eafe2981b849c636cde027879714",
     "c84801cf2eb6d73ac5e32b59acc79aac6d04b1fa",
     "c849d7939b12660eec3fbd4c7eefc4babea78eca",
     "c858cd0be7446aa34550265d3439e933772b755e",
@@ -6170,6 +6231,7 @@
     "c957aabb0dd0ad0e9019560f2cebf8accab68f34",
     "c95c8326e2cb690b26bf960ba16da17fe65edede",
     "c97beabea4569da8c3d9c16ab24d8d9f46d949a1",
+    "c98091b88e007c04723f9e2bccff39f57eac7b73",
     "c990aa7bdd31ec618ae1a701f865b15c306b5b6c",
     "c994868d7e617e76128857f1f553334d2190fcff",
     "c998eda63dbb384b0247b6d968f3c50f76efd11e",
@@ -6241,6 +6303,7 @@
     "cbf0483854946258176c0fe327d7aa6d6c4ac860",
     "cbf1a35b0dd900d352a4a4c65fb3ca41d1607266",
     "cbf2c8c3d5c0a775e484ed1d0b678108fe9d37a4",
+    "cc0636079cd122d0b65214eaa9b1d3d4e0eae77d",
     "cc0a280aaa93368f84100fe103139ce5f1775532",
     "cc1f5c66dabebabefb60dd32270cc0cdad487d25",
     "cc1f90ef27078b619deabf804ac4dbec66e95af6",
@@ -6458,6 +6521,7 @@
     "d2c56a1ba18d57e7bb4e6ce0fed313be9fce2a60",
     "d2c5e28b3c4c31eaacba57338121ac4c0b6d2f13",
     "d2c90fb748c6c8351ba9c2c60d8dfb98c1c74c73",
+    "d2e6308706855da90a692b986540d7ef51d072fc",
     "d2e787a8933d4c079c0c88b6dd7fdd01bc558a7a",
     "d2e7d6073614adb73915b17080a71e4da6e6addb",
     "d2e9773a2094e02558237d1c039ebfb7624348fa",
@@ -6520,6 +6584,7 @@
     "d4f17516f31b0b3b63c24fff6c929cb43cae72ca",
     "d50618da25f04445eefbc7d4cd8e5d12a5a4fe00",
     "d507967924965af06bc2d4343c5162dcf60315d9",
+    "d50dd3bf94d33e0ff607d752f5aaeb01a6c3585e",
     "d51c76b7e4a83721fe427cf0b14c75d1f0fb7d58",
     "d532952dc48a9fd79e00749e999a062a1f4c3f7d",
     "d54b64f390b73b281a650508dfe783a4d9d8d6ce",
@@ -6764,11 +6829,13 @@
     "dd8b8a8355e13e3916b64a2d27efcdf33525956f",
     "dd8cb3cd7efd89baffe50f7bd2c6c2315508d856",
     "dd8d554da4335895d79d965268e730bf7bd6a74d",
+    "dd8f6f03c74664d047beff34ced765336bf3ad27",
     "dd9546635e9c2c0fd0ec4c8b7e34f9de9c24be0c",
     "dd9935b67fdfdb7ea40b1f910f03ec48ac8e56ee",
     "dda4f21be2492dc21f158e48b77ad28614e9e799",
     "ddb61f4f079624fbd5cab6da06cc803c2afc49e9",
     "ddb6e776461f02f121af66a0b49ae44df120c692",
+    "ddbddcc91de2703276a0c4ca83864294ad64cabc",
     "ddc0754d35602cdf9893b5bf35dbdee1ffad5ddf",
     "dde5f6efb80a2741f47a7d172f8fff4ab8c20e9b",
     "ddec074711376d22fe507d88f1df1fa0fa477535",
@@ -6967,6 +7034,7 @@
     "e3f59f4c80549bf0d8c456cd0b58a168d190752c",
     "e40df5c910be4a82c87d27c37675d98ad302dc9a",
     "e4153a3ba590e4e4f889934fc3ab8e3cbf742774",
+    "e41cb5d9291148922de7a397956df19d6cef0744",
     "e42e418963706f47a96910d211e3ab3688b76db0",
     "e432153e5ba3e0f327bb3c5521d0ccfeaf687e99",
     "e43e724732b8955bd6f9951e2297a2b57d68f660",
@@ -7012,6 +7080,7 @@
     "e594ffdf97f1f336c92ba84dcc2acb92bc1480a6",
     "e596d9535c5e73c8413ca18c55509d8adefdbd52",
     "e59e880b93826321600dd8c9aa59791570900321",
+    "e59eb6a69b2029f0c17089647b4b33e397f01667",
     "e5bbe653bdbf3a85b2e3b955f991aedc807794b2",
     "e5c4a96c4c13097d953c8d4cdd8295819c19cade",
     "e5c50158e69afe6dece40f6ef4d14cea7d2a96f2",
@@ -7053,6 +7122,7 @@
     "e6df9b9229411fdfc39d5eaac65e37cb84bcf25f",
     "e6e85f6edccaaddb8f3130c47d9a4fc11362d173",
     "e6ed3b65abd7a6d2116a56d9e7f7b3a19b977d02",
+    "e6f282c7e221981ee9c9273543a9449be8800484",
     "e70a4cf367616801242dc56d2b6209c62823ccf9",
     "e7298836c49a69f213a96257b76a147a3f2de423",
     "e7387a014c7b177cf10c6566ed6d6faa28f309e0",
@@ -7065,6 +7135,7 @@
     "e79a2febdb00a117bd9b1ba00909c584aff734bf",
     "e7a09f61332fe8214e09d58902356ec7f2a6bca6",
     "e7a2ef0f0830622d071771f326a33cbf572a1c7d",
+    "e7a4fd80b46937b6e2d5afa40f9a65d0b11409c3",
     "e7b5a6095673cd886b930b8251f14a2e36224d3e",
     "e7c0ef32e28b87b740f78437f9d019ab96c234e9",
     "e7c1aba0e6a99139723118c4e1f7d4d3b5cbe308",
@@ -7091,6 +7162,7 @@
     "e8300f99ffb719fa0a9c6b4aea93d0db3739c842",
     "e835925205b0af7896cf4e59c3d3c6b7f9ad5b56",
     "e8397b05a63b1e0696f43571e0ee68017fc373d4",
+    "e83a7721ed2db43a3d7e07701a63d6505cc294a9",
     "e83c85aedb8abd5d40e90af74590edeb761ca869",
     "e84a5c1901f4d36ba01bf4f0db939572de7fbf35",
     "e84d210a644f68787dce48a23ff043946f1fbfef",
@@ -7133,6 +7205,7 @@
     "e97618e63d0973289d8657c1ae6594d313321073",
     "e97bc61373f16fba60d56cdfd7a0c2915a619334",
     "e989f8473d7f61413f4b097fd61adb6cc84fa4dd",
+    "e99370a2e47a4ab6401feac7a9323580e1349c9f",
     "e99d2e1d42c5931275555f25ceb7f2a67e12e74e",
     "e9a19b098042fb38e46a762ccc110925cbcde633",
     "e9a618867f4345e27be33687a3204062c9e429d4",
@@ -7610,6 +7683,7 @@
     "fa2b73df3389873772837218dc2098e2adfa6fc8",
     "fa2d6915c4cb52e73e790f324f87aba0cca02366",
     "fa3e6919d7786941d2ef158927c38de4c81161ac",
+    "fa4301e7e523f4b705dea7cb0d1ee349a76600e5",
     "fa432c2c33b64ed379b73474de3290481930c0a2",
     "fa4c617c5073ca1517ae03f5e9bd46bda2b8ce64",
     "fa54728b01d07b4626326ce9bdb4e2f0c6660990",
@@ -39145,6 +39219,524 @@
       "title": "아부다비, 도시만 있는 게 아니라고요?",
       "date": "2026-10-26",
       "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "c-ebf47fc6d8dfb82b684f42cfe96c519dc2a38368",
+      "title": "'건축탐구 집' 이합집산, 사남매가 N분의 1로 지은 상주 별장과 청라 철옹성 집",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-f27e27f93f86df98d6b465b96b66f57fea42ab4a",
+      "title": "'지식채널e' 26~28일, 모기 취향부터 노비 수봉의 신분 세탁, 귀여움의 힘까지",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "89961ddd8f8fead060a570519a4ca3bca212aa05",
+      "title": "오늘 금값, 10월 26일 한국거래소 금시세 하락세 지속",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "3c17567cd36b14d290c856c6059b350d0e2b7dab",
+      "title": "“허니문만 가는 줄 알았는데”…친구들과 떠나는 피지, 8일간의 섬 여행",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "b8529ab0f99cee17ae5e0032a9a2d59a1172174c",
+      "title": "박정민, 연상호 감독과 ‘실낙원’ 스페셜 GV…‘얼굴’ 흥행 인연",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "821081c5e932e6dbd67bfca6ad75ac45c76f89a6",
+      "title": "제주도교육청, 31일 ‘제4회 정보축제’ 개최",
+      "date": "2026-10-26",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "a9ae4115c6a117393341b0bcf2605db54561f392",
+      "title": "中 최초의 AI 극장영화 개봉에…흥행은 '글쎄' 엇갈린 반응",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "5b44b6c6d4708c7fe76ecb907e0abec0812e6f13",
+      "title": "몬스타엑스, 북미 10개 도시 투어 성료…\"현재진행형 그룹 될 것\"",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "c6611dc7b809b92cda3e5ce7f898d517767ad196",
+      "title": "“사이판의 10년을 사진에 담다”…서울서 사진전 열고 5km 기부런까지",
+      "date": "2026-10-26",
+      "region": "saipan",
+      "grade": "B"
+    },
+    {
+      "id": "a0758076c47c4bf56f4f495cb5e2cb596830f6c7",
+      "title": "\"제주 관광·체류인구 반영해 경찰력 배치해야\"",
+      "date": "2026-10-26",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "2c72a7356bcf60bb7ea2f7ca1fcd6faa9f1b1878",
+      "title": "파르나스호텔앤리조트, 양양 낙산해변 39층 호텔 12월 18일 개관",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "873864a9d2a38a12fc0fa2ebe8d053895703ccfc",
+      "title": "효성·푸르메재단, 장애아동 가족과 2박 3일 가족여행",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "4a44e0e676e0b0c02d3e5217b9918f9a489f26a8",
+      "title": "주택금융공사, '스마트주택금융 앱' 개편…대출 진행 상황 한 화면에",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "3e3f9ac8026ccfb4e52b7098a2bf7471430fe695",
+      "title": "동아오츠카, '코엑스 코베 베이비페어' 참가…임산부 휴식 공간 마련",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "6a4ff0141ba31c8fe4afb14c1a755502189b6482",
+      "title": "엘앤에프, ‘DIFA 2026’ 전시 마무리…지역 인재 육성 프로그램 병행",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "d2e6308706855da90a692b986540d7ef51d072fc",
+      "title": "다이소몰, 겨울 의류·방한용품 기획전 진행",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "194f3e36f3c9da832b22ac8ff9e78193bc7f6fc4",
+      "title": "한국해양진흥공사, 해상풍력 선박·항만 금융 지원 공로로 기후부장관 표창",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "0f9244bddec5a92ce93fc5fbf361c5860f6fb275",
+      "title": "케이뱅크, 사내 AI 경진대회 ‘K/THON 26’ 마무리…직원들이 업무용 AI 에이전트 개발",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "66325df6f1965ce05176283fb7197b60a4416841",
+      "title": "한전, 소상공인 전기요금 부담 완화 공로로 행정안전부 장관상",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "188f41cbab9a9448e057edc812d3634a18406c86",
+      "title": "한국앤컴퍼니그룹, 사내 '지식나눔회'서 업무용 AI 활용법 공유",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "0115f5c463a999b072a895b1b34e9c4d972bc13d",
+      "title": "HWPL 글로벌03지부, 부산진구에 평화 허브 ‘피스온’ 개소… 시민 교류·평화교육 거점 마련",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "11a7e2a09c404860c03368bd89fb262602819426",
+      "title": "대웅제약 '씽크', 아주대병원 7개 병동 적용…최대 1,100병상 확대 검토",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "e41cb5d9291148922de7a397956df19d6cef0744",
+      "title": "“라스베이거스 여행상품 더 잘 팔려면?”…관광청·모두투어, 전문가 양성 나서",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "aaee4901e176fb85b110b897fd123d0b25666ce4",
+      "title": "서귀포시, 30일 원도심 문화 페스티벌 페막공연",
+      "date": "2026-10-26",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "ab5b3fd958a4c59b582b08b7ee1d449cb4c08252",
+      "title": "[토속음식순례] 고단백 저칼로리 가을철 보양푸드 “가을엔 메기탕이 최고랑게요”",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "fa4301e7e523f4b705dea7cb0d1ee349a76600e5",
+      "title": "[순례길 투어] 성벽과 초원 사이, 충남 당진 서산 순례길",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "c8445fa16df6eafe2981b849c636cde027879714",
+      "title": "3시간짜리 사기극에 홀렸다…북미 극장가 휩쓴 '테라노스 악녀'",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "18208df8698a575334cd13ef2d1ee2ad57a73c6c",
+      "title": "구리 마을버스 3번·6번, 11월 1일부터 노선 바뀐다",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "2644d2b357550283f2737dcbf11a48b46495f490",
+      "title": "남양주시, 지방우대지수 ‘3권역' 재지정 행안부에 요청",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "707c753d3ea515b93079acb3699bb2f03612e608",
+      "title": "남양주 광릉숲축제, 이틀간 출입제한 숲길 시민에 개방",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "0c62094ff2cc9c7c9a5ab317a6b8926765d4897d",
+      "title": "의정부시, 재개발·재건축 사업장 맞춤형 지원체계 도입 추진",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "d50dd3bf94d33e0ff607d752f5aaeb01a6c3585e",
+      "title": "[항공 & Now] 트리니티, '부산-쿠오카·삿포로' 취항 1년 등",
+      "date": "2026-10-26",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "a0f1db7f74b89f39ee2801fbf3325888899cbf1b",
+      "title": "“47년간의 기록”…웰메이드 다큐 영화 ‘어머니의 가계부’, 28일 개봉",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "e99370a2e47a4ab6401feac7a9323580e1349c9f",
+      "title": "美 유력 영화 매체 “전도연, 한국 최초 아카데미 여우주연상 후보 될 것”",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "ddbddcc91de2703276a0c4ca83864294ad64cabc",
+      "title": "'카라이 LXR 와이키키', 호텔 다이닝부터 스위트에서의 식사까지 가능한 하와이 신혼여행과 가족여행 제안",
+      "date": "2026-10-26",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "694e165e8a05536690dda23bc39ef94d33270566",
+      "title": "인천시, ‘ABC+E’ 비전 발표... 경제성장률 5% 달성 및 미래산업 전환 추진",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "e7a4fd80b46937b6e2d5afa40f9a65d0b11409c3",
+      "title": "[포토] 차량 통행 끊긴 잠수교 자전거 '씽씽'",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "dd8f6f03c74664d047beff34ced765336bf3ad27",
+      "title": "영천시장난감도서관, 개관 10+1주년 기념행사…가족 600여 명 참여",
+      "date": "2026-10-26",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "4840827c0e048a782b57f0b5334f6b40f6f4171b",
+      "title": "'나혼산', 차우민 일상 공개..4주 연속 주간 2054 예능 1위",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "7739fd0cda01b7e793db7b7fdd34f1498f92796d",
+      "title": "임영웅 '아임 히어로 더 스타디움 2', 11월 18일 CGV 단독 개봉",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "81881fd24ad4a5a92bc87edeb2a3534d0242894c",
+      "title": "“제주 가을여행, 최대 60% 할인”…서울 도심서 여행객 유치 나선 제주",
+      "date": "2026-10-26",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "2597b630449066d9dfe17af42015a012f1762585",
+      "title": "호시노 리조트, 11월 단풍 온천 스테이 4선 공개…교토·기누가와·아타미 다양",
+      "date": "2026-10-26",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "935113a41f8901233a0dcceb29efce465dfceb2e",
+      "title": "\"저 여배우 누구야?\"…600억짜리 영화 19억에 만든 비결 [차이나 워치]",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "cc0636079cd122d0b65214eaa9b1d3d4e0eae77d",
+      "title": "LS에코에너지, 베트남 생산법인에 650억원 투입…2027년 4월 울트라캐패시터 본격 양산",
+      "date": "2026-10-26",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "e6f282c7e221981ee9c9273543a9449be8800484",
+      "title": "Laos rises 10 places in global tourism development ranking",
+      "date": "2026-10-26",
+      "region": "laos",
+      "grade": "B"
+    },
+    {
+      "id": "77033249e32f1f45a175d55de61dfdebaa391516",
+      "title": "방콕·타이베이 홀린 노란 마법 가루… bhc, 4개국 팬덤 서울로 불러들였다",
+      "date": "2026-10-26",
+      "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "8db53ab65878839ae6767f770a68b889e11777f8",
+      "title": "한강변 수놓은 '사이판 쪽빛 파도'… 서울 러너들, 1km 1달러의 기적 뛰었다",
+      "date": "2026-10-26",
+      "region": "saipan",
+      "grade": "B"
+    },
+    {
+      "id": "c98091b88e007c04723f9e2bccff39f57eac7b73",
+      "title": "‘극장판 치이카와’ 3주 연속 주말 1위 [10월 23~25일 주말 영화 박스오피스]",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "832f936a9365bf491eeafb1e045f0a974f12d2e4",
+      "title": "여자아이 나체를 적나라하게…‘성적묘사’ 논란 나온 도쿄 제국호텔 전시",
+      "date": "2026-10-26",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "1433e46f3e568b93acfbdcbbb77c0afca49edae4",
+      "title": "임영웅, ‘더 스타디움2’ 영화로 본다…11월18일 개봉",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "572d21d18ba267ae250f495c0a3224e871fb878e",
+      "title": "“이타미 준이 지었다” 거짓 홍보한 제주 호텔·관계자 ‘벌금형’",
+      "date": "2026-10-26",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "451c87ff4c26c754cffdf3b4a7c713600942cd69",
+      "title": "Christopher Gee",
+      "date": "2026-10-26",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "5d36a35fd564c315582cd2f24bcc122064c76606",
+      "title": "다낭은 관광 산업의 구조를 재편하여 성장의 질을 향상시키고 있습니다.",
+      "date": "2026-10-26",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "5c7795440ab8253c185ed411367f0b66357283df",
+      "title": "베트남항공이 다낭과 싱가포르 간 직항 노선 개설을 준비하고 있다.",
+      "date": "2026-10-26",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "9dbfa8d97ca1bbc0d139c5d76034d36091a8ab9b",
+      "title": "Johor on track for 12mil tourists, plans to extend tourism drive",
+      "date": "2026-10-26",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "0623069d30a87aa64078db9ba7e2f830cc592a11",
+      "title": "Typhoon In-fa strengthening east of Marianas",
+      "date": "2026-10-26",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "2e01f1f2d8044a8abdf2df39245f4727bd40af15",
+      "title": "트리니티항공, 부산발 일본 노선 안착...\"후쿠오카·삿포로 90%대 탑승률\"",
+      "date": "2026-10-26",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "466a74ce29933e64df0c49eaf9c5faaa626ae4c0",
+      "title": "학교 밖 청소년들, 비날씨 뚫고 아름다운마라톤 10㎞ 완주",
+      "date": "2026-10-26",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "5db77d4193ee6f16fe1a140becd09308baea4ec6",
+      "title": "다낭시는 호이안으로 향하는 해안 관광 도로의 \"홍수 문제\"를 해결하기 위해 임시 배수관을 설치했습니다.",
+      "date": "2026-10-26",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "7e5c2b0c87f254881648ba2014c692bdeca1c1e3",
+      "title": "제주시 원도심의 심장 '제16회 산지천축제'",
+      "date": "2026-10-26",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "e83a7721ed2db43a3d7e07701a63d6505cc294a9",
+      "title": "부산~후쿠오카·삿포로 항공노선 가장 많이 이용한 연령대는",
+      "date": "2026-10-26",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "82829ae99d64f3b4ca2a42c8e5c070f83f216934",
+      "title": "트리니티항공 부산발 일본 노선 1주년, 누적 30만명 수송",
+      "date": "2026-10-26",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "3ba36a511ecb11cbdd79f5f722f86a55778cac09",
+      "title": "PD수첩 다큐 영화 ‘서울의 밤’, 계엄 2주년 맞아 12월 3일 개봉",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "a9a290bdc3cd6b1d1820d2b6bba3cb59c3b8b355",
+      "title": "Emirates named best international airline by Forbes Travel Guide",
+      "date": "2026-10-26",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "7d54f63f1b98d5950c0e89016a6e1da5d1965712",
+      "title": "First Alert Forecast: Heavy rain to spread across Hawaii beginning Tuesday",
+      "date": "2026-10-26",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "49dbf1af5703df5e99e357d18904cbfbd964b281",
+      "title": "Beach officer flies from Da Nang to Phu Quoc to return wedding ring to Portuguese tourists",
+      "date": "2026-10-26",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "12a785a1d8ae61f9f2b2e32a7f5e54c5c3b7486e",
+      "title": "1951년 이후 가장 늦은 태풍 ‘참피’ 지나자 31호 ‘인파’ 발생",
+      "date": "2026-10-26",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "93d1a297b715ef24bbf0c625963eee39f3b61ce8",
+      "title": "임영웅 고양 콘서트, 영화로 제작…다음 달 18일 개봉",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "a5e4218f60ce9e6ef331536e10e85f21a6b1472b",
+      "title": "변요한 해냈다..'타짜4', 청불 핸디캡에도 200만 '흥행 톱7 하루만 겹경사' [공식]",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "bef805195192ffe00b4da16624833dfeeb109854",
+      "title": "'100만 영웅시대와 만든 기적' 임영웅, 11월 18일 영화 개봉",
+      "date": "2026-10-26",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "c4ffd07cc179f728ef677d86674163ef3ad72e8a",
+      "title": "GVB encouraged by slight dip in tourists despite storms, costs",
+      "date": "2026-10-26",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "e59eb6a69b2029f0c17089647b4b33e397f01667",
+      "title": "Suspect in slaying at King's Restaurant in 2021, set to plead guilty Wednesday",
+      "date": "2026-10-26",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "5ba2327eaaf7a7944931a2575aca4f642143a4d6",
+      "title": "오사카만 보고 오기 아쉽다면…노랑풍선, 온천 더한 간사이 패키지",
+      "date": "2026-10-26",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "36ec719d2d45938471c891818e4e2aad2715ddbb",
+      "title": "‘닥터X’, 시청률 18.5%…넷플릭스 비영어쇼도 2주 연속 1위",
+      "date": "2026-10-26",
+      "region": "",
       "grade": "B"
     }
   ]

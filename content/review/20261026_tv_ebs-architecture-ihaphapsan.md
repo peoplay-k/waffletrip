@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'건축탐구 집' 이합집산, 사남매가 N분의 1로 지은 상주 별장과 청라 철옹성 집"
+title: '''건축탐구 집'' 이합집산, 사남매가 N분의 1로 지은 상주 별장과 청라 철옹성 집'
 source_name: ''
 source_url: ''
-summary: EBS1 '건축탐구 집'이 27일 밤 9시 55분 '모으니 좋구나! 이합집산'을 방송한다. 경북 상주에 사남매가 함께 지은 주말 별장과 인천 청라의 높은 외벽 집을 찾아간다.
+summary: EBS1 '건축탐구 집'이 27일 밤 9시 55분 '모으니 좋구나! 이합집산'을 방송한다. 경북 상주에 사남매가 함께 지은 주말 별장과
+  인천 청라의 높은 외벽 집을 찾아간다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551607
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551607
+status: published
+published_id: c-ebf47fc6d8dfb82b684f42cfe96c519dc2a38368
+published_on: '2026-10-26'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 건축탐구 집 | 회차 · '모으니 좋구나! 이합집산'

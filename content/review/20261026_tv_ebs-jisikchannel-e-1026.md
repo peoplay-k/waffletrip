@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'지식채널e' 26~28일, 모기 취향부터 노비 수봉의 신분 세탁, 귀여움의 힘까지"
+title: '''지식채널e'' 26~28일, 모기 취향부터 노비 수봉의 신분 세탁, 귀여움의 힘까지'
 source_name: ''
 source_url: ''
-summary: EBS1 '지식채널e'가 26일부터 28일까지 밤 12시 40분 모기가 사람을 고르는 기준, 17세기 노비 수봉 가문의 신분 상승, 귀여움이 태도에 미치는 영향을 차례로 다룬다.
+summary: EBS1 '지식채널e'가 26일부터 28일까지 밤 12시 40분 모기가 사람을 고르는 기준, 17세기 노비 수봉 가문의 신분 상승,
+  귀여움이 태도에 미치는 영향을 차례로 다룬다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551564
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551564
+status: published
+published_id: c-f27e27f93f86df98d6b465b96b66f57fea42ab4a
+published_on: '2026-10-26'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 지식채널e
