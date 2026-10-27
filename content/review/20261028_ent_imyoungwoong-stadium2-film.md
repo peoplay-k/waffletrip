@@ -5,18 +5,19 @@ category: movie
 region: ''
 section: news
 kind: 보도자료
-title: "임영웅 스타디움 콘서트 실황 영화 '아임 히어로 더 스타디움 2', 11월 18일 CGV 개봉"
+title: 임영웅 스타디움 콘서트 실황 영화 '아임 히어로 더 스타디움 2', 11월 18일 CGV 개봉
 summary: 소속사 물고기뮤직은 임영웅의 데뷔 10주년 기념 스타디움 콘서트 실황을 담은 영화를 11월 18일 전국 CGV에서 개봉한다고 밝혔다.
 sources:
-  - https://www.yna.co.kr/amp/view/AKR20261026040800005
-  - https://www.newspim.com/news/view/20261026000662
-  - https://www.kizmom.com/news/articleView.html?idxno=113531
-  - https://www.starnewskorea.com/star/2026/10/26/2026102608024650294
-  - https://www.munhwa.com/article/11626135
-  - https://www.yonhapnewstv.co.kr/news/AKR20261026100928ive
-status: approved
+- https://www.yna.co.kr/amp/view/AKR20261026040800005
+- https://www.newspim.com/news/view/20261026000662
+- https://www.kizmom.com/news/articleView.html?idxno=113531
+- https://www.starnewskorea.com/star/2026/10/26/2026102608024650294
+- https://www.munhwa.com/article/11626135
+- https://www.yonhapnewstv.co.kr/news/AKR20261026100928ive
+status: published
+published_id: c-b28020f356fc584b3e04af73ef9856fcb273c682
+published_on: '2026-10-28'
 ---
-
 가수 임영웅의 스타디움 콘서트가 영화관으로 간다. 소속사 물고기뮤직은 26일 콘서트 실황 영화 '임영웅│아임 히어로 더 스타디움 2'를 11월 18일 전국 CGV에서 개봉한다고 밝혔다. 데뷔 10주년을 기념해 열린 공연을 스크린에 옮긴 작품이다.
 
 ## 어떤 공연을 담았나

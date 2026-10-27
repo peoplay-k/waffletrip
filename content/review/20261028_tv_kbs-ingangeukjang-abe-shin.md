@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS1 '인간극장' 28일 오전 7시 50분, 떡집 사위가 된 일본 청년 아베 신 이야기"
-summary: KBS1 '인간극장'은 26일부터 30일까지 서울 떡집에 사위로 들어온 일본 청년 아베 신의 성장기를 5부작으로 방송한다. 28일 오전 7시 50분 방송분을 소개한다.
+title: KBS1 '인간극장' 28일 오전 7시 50분, 떡집 사위가 된 일본 청년 아베 신 이야기
+summary: KBS1 '인간극장'은 26일부터 30일까지 서울 떡집에 사위로 들어온 일본 청년 아베 신의 성장기를 5부작으로 방송한다. 28일
+  오전 7시 50분 방송분을 소개한다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/human
-status: approved
+- https://program.kbs.co.kr/1tv/culture/human
+status: published
+published_id: c-c5f27e7047d002a21daa6117b9e7183cc743be62
+published_on: '2026-10-28'
 ---
-
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 인간극장 | 편 제목 · 떡집 사위 아베 신
 > 방송 · 2026년 10월 28일(수) 오전 7시 50분

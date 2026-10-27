@@ -5,16 +5,18 @@ region: vietnam
 section: flight
 kind: 해설
 title: 베트남항공, 아시아 항공사 최초 '세계 최고 기내식' 선정…11월 17일 다낭-싱가포르 매일 직항
-summary: 베트남항공이 월드 컬리너리 어워즈에서 아시아 항공사 최초로 세계 최고 기내식 항공사에 올랐다. 11월 17일부터는 다낭과 싱가포르를 매일 직항으로 잇는다.
+summary: 베트남항공이 월드 컬리너리 어워즈에서 아시아 항공사 최초로 세계 최고 기내식 항공사에 올랐다. 11월 17일부터는 다낭과 싱가포르를
+  매일 직항으로 잇는다.
 sources:
-  - https://www.ttlnews.com/news/articleView.html?idxno=3155666
-  - https://www.erounews.kr/news/articleView.html?idxno=5487
-  - https://www.insidevina.com/news/articleView.html?idxno=44363
-  - https://www.vietnam.vn/ko/vietnam-airlines-chuan-bi-mo-duong-bay-thang-da-nang-singapore
-  - https://www.gukjenews.com/news/articleView.html?idxno=3733750
-status: approved
+- https://www.ttlnews.com/news/articleView.html?idxno=3155666
+- https://www.erounews.kr/news/articleView.html?idxno=5487
+- https://www.insidevina.com/news/articleView.html?idxno=44363
+- https://www.vietnam.vn/ko/vietnam-airlines-chuan-bi-mo-duong-bay-thang-da-nang-singapore
+- https://www.gukjenews.com/news/articleView.html?idxno=3733750
+status: published
+published_id: c-12ad81bb8eefb1278c44a3d10509c63faef83c2c
+published_on: '2026-10-28'
 ---
-
 베트남항공이 기내식 평가에서 아시아 항공사로는 처음으로 정상에 올랐다. 이 항공사는 10월 14일 월드 컬리너리 어워즈에서 '2026 세계 최고 기내식 항공사'로 선정됐다. 같은 시기에 다낭과 싱가포르를 잇는 직항 노선도 열린다. 베트남을 오가는 여행자에게는 기내 서비스와 노선 선택지가 함께 넓어지는 소식이다.
 
 ## 기내식 부문 세계 1위

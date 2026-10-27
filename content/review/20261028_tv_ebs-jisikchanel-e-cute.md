@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '지식채널e' 28일 밤 12시 40분 '귀여움이 세상을 구한다?'…모기·노비 이야기와 3부 연속"
-summary: EBS1 '지식채널e'가 26일부터 28일까지 모기, 노비 수봉 가문, 귀여움의 힘을 주제로 3편을 잇달아 방송한다. 28일 밤 12시 40분 방송분은 귀여움이 사람의 태도에 미치는 영향을 다룬다.
+title: EBS '지식채널e' 28일 밤 12시 40분 '귀여움이 세상을 구한다?'…모기·노비 이야기와 3부 연속
+summary: EBS1 '지식채널e'가 26일부터 28일까지 모기, 노비 수봉 가문, 귀여움의 힘을 주제로 3편을 잇달아 방송한다. 28일 밤 12시
+  40분 방송분은 귀여움이 사람의 태도에 미치는 영향을 다룬다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551564
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551564
+status: published
+published_id: c-1ee1d8b2ed15f4ac53fdbb43b4492e5fa38b425b
+published_on: '2026-10-28'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 지식채널e | 편 제목 · 귀여움이 세상을 구한다?
 > 방송 · 2026년 10월 28일(수) 밤 12시 40분
