@@ -11,7 +11,9 @@ summary: 호텔스닷컴이 공개한 익스피디아 그룹의 2027년 여행 �
   있다고 나타났다. 부산은 '2027 올해의 여행지' 10곳 중 한국에서 유일하게 이름을 올렸다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500603
-status: approved
+status: published
+published_id: c-b1e57139985bc571704b0787a7959978af7faf83
+published_on: '2026-10-27'
 ---
 호텔스닷컴이 익스피디아 그룹의 2027년 여행 트렌드를 담은 '언팩 27(Unpack 27)'을 공개했다. 한국인 **95%**가 여가 목적의 1박 호텔 숙박을 계획하고 있다는 조사 결과와 함께, 부산이 '2027 올해의 여행지' 10곳 가운데 한국에서 유일하게 이름을 올렸다는 소식이 담겼다.
 

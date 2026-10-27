@@ -8,14 +8,16 @@ kind: 해설
 title: '''치이카와: 인어 섬의 비밀'' 12일 연속 1위…올해 흥행 10위 등극'
 source_name: ''
 source_url: ''
-summary: "일본 애니메이션 '극장판 치이카와: 인어 섬의 비밀'이 12일 연속 박스오피스 1위를 지키며 누적 관객 약 224만 명을
-  넘어서 2026년 개봉작 흥행 순위 10위에 올랐다."
+summary: '일본 애니메이션 ''극장판 치이카와: 인어 섬의 비밀''이 12일 연속 박스오피스 1위를 지키며 누적 관객 약 224만 명을 넘어서
+  2026년 개봉작 흥행 순위 10위에 올랐다.'
 sources:
 - https://www.topstarnews.net/news/articleView.html?idxno=16257565
 - https://www.econovill.com/news/articleView.html?idxno=754797
 - https://www.econovill.com/news/articleView.html?idxno=754800
 - https://www.addnewsin.com/news/articleView.html?idxno=63122
-status: approved
+status: published
+published_id: c-e009bd8060e09121312f9ec442f96bf8b85cebaa
+published_on: '2026-10-27'
 ---
 일본 애니메이션 '극장판 치이카와: 인어 섬의 비밀'이 개봉 한 달 가까이 박스오피스 정상을 지키고 있다. 12일 연속 1위를 기록하며 누적 관객 약 **224만 명**을 넘어섰고, 2026년 개봉작 흥행 순위에서도 10위에 올랐다.
 

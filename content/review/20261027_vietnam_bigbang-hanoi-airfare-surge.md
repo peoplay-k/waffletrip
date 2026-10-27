@@ -7,11 +7,13 @@ kind: 해설
 title: 빅뱅 하노이 콘서트 끝나자 항공권 폭등, 좌석 있는 편은 600만 동 육박
 source_name: ''
 source_url: ''
-summary: 빅뱅의 하노이 콘서트 이틀째가 끝난 10월 26일, 하노이에서 호치민·다낭으로 가는 항공권이 부족해지며 일부 잔여 좌석 요금이
-  평소보다 훨씬 비싼 600만 동 가까이까지 올랐다.
+summary: 빅뱅의 하노이 콘서트 이틀째가 끝난 10월 26일, 하노이에서 호치민·다낭으로 가는 항공권이 부족해지며 일부 잔여 좌석 요금이 평소보다
+  훨씬 비싼 600만 동 가까이까지 올랐다.
 sources:
 - https://www.vietnam.vn/ko/sau-concert-bigbang-gia-ve-may-bay-roi-ha-noi-cao-chot-vot
-status: approved
+status: published
+published_id: c-41e9655048b1f4f53f19e2a24b32cc0739aafb0b
+published_on: '2026-10-27'
 ---
 그룹 빅뱅의 하노이 콘서트가 끝나자 하노이를 빠져나가는 항공권 요금이 치솟았다. 콘서트 이틀째가 끝난 10월 26일, 하노이에서 호치민과 다낭으로 가는 항공편 좌석이 부족해졌고 남은 좌석 요금은 평소보다 훨씬 비쌌다.
 

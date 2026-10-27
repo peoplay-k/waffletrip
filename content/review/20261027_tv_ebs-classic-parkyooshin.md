@@ -8,11 +8,13 @@ kind: 보도자료
 title: EBS FM '정경의 클래식 클래식', 28일 첼리스트 박유신 출연…바흐 무반주 생연주
 source_name: ''
 source_url: ''
-summary: EBS FM '정경의 클래식 클래식' 수요 초대석에 첼리스트 박유신이 28일 오전 10시 출연해 바흐 무반주 첼로 모음곡 1번
-  '프렐류드'와 '사라방드'를 생연주로 들려준다.
+summary: EBS FM '정경의 클래식 클래식' 수요 초대석에 첼리스트 박유신이 28일 오전 10시 출연해 바흐 무반주 첼로 모음곡 1번 '프렐류드'와
+  '사라방드'를 생연주로 들려준다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005565722
-status: approved
+status: published
+published_id: c-aa5817a94d022b31be47ab7c5974b982fe994529
+published_on: '2026-10-27'
 ---
 > **방송 정보**
 > 채널 · EBS FM(수도권 104.5MHz) | 프로그램 · 정경의 클래식 클래식 '수요 초대석' | 진행 · 정경

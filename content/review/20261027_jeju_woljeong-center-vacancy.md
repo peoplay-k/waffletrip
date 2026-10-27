@@ -11,7 +11,9 @@ summary: 제주시 월정해수욕장 어촌해양관광센터의 농산물 판�
   남아 있다.
 sources:
 - http://www.jejunews.com/news/articleView.html?idxno=2228485
-status: approved
+status: published
+published_id: c-10a97b8395ac22f3b8fcdbf37a55656a28006061
+published_on: '2026-10-27'
 ---
 제주시 구좌읍 월정해수욕장에 들어선 어촌해양관광센터의 농산물 판매장이 7년째 빈 공간으로 방치돼 있다. 피서철마다 5만 명이 찾는 해변 바로 옆 시설이다.
 

@@ -12,7 +12,9 @@ summary: KBS1 일일드라마 '엄마가 미쳤어요' 22회가 27일 밤 8시 3
   분노한 금순이 인성을 해고한다.
 sources:
 - https://program.kbs.co.kr/1tv/drama/mompossible
-status: approved
+status: published
+published_id: c-b93360b786064c6c0085595dc9f1ead115b6c8cc
+published_on: '2026-10-27'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 엄마가 미쳤어요 | 회차 · 22회
