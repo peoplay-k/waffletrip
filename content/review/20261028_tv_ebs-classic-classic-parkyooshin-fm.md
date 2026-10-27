@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS FM '정경의 클래식 클래식' 수요 초대석, 첼리스트 박유신이 들려주는 음악제 예술감독의 시간"
+title: EBS FM '정경의 클래식 클래식' 수요 초대석, 첼리스트 박유신이 들려주는 음악제 예술감독의 시간
 source_name: ''
 source_url: ''
-summary: EBS FM '정경의 클래식 클래식'이 28일 오전 10시 수요 초대석에 첼리스트 박유신을 초대한다. 바흐 무반주 첼로 모음곡 1번 중 두 곡을 라이브로 연주한다.
+summary: EBS FM '정경의 클래식 클래식'이 28일 오전 10시 수요 초대석에 첼리스트 박유신을 초대한다. 바흐 무반주 첼로 모음곡 1번
+  중 두 곡을 라이브로 연주한다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005565722
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005565722
+status: published
+published_id: c-e3cacad85943cd74ef801047aa568b8552abd5c6
+published_on: '2026-10-28'
 ---
 > **방송 정보**
 > 채널 · EBS FM(수도권 104.5MHz) | 프로그램 · 정경의 클래식 클래식 | 코너 · 수요 초대석

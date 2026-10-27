@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS1 '황신혜의 같이 삽시다' 379회, 포천 오일장에서 가을걷이 새참 배달까지"
+title: KBS1 '황신혜의 같이 삽시다' 379회, 포천 오일장에서 가을걷이 새참 배달까지
 source_name: ''
 source_url: ''
-summary: KBS1 '황신혜의 같이 삽시다' 379회가 28일 저녁 7시 40분 방송된다. 싱글즈가 포천 신읍5일장을 거쳐 추수철 마을에 새참을 배달하고, 황신혜는 처음으로 콤바인을 몰아 본다.
+summary: KBS1 '황신혜의 같이 삽시다' 379회가 28일 저녁 7시 40분 방송된다. 싱글즈가 포천 신읍5일장을 거쳐 추수철 마을에 새참을
+  배달하고, 황신혜는 처음으로 콤바인을 몰아 본다.
 sources:
-  - https://program.kbs.co.kr/1tv/enter/livetogether
-status: approved
+- https://program.kbs.co.kr/1tv/enter/livetogether
+status: published
+published_id: c-8a373e4859ca9d6e8766a4a6efbf7d9232d4ddd3
+published_on: '2026-10-28'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 황신혜의 같이 삽시다 | 회차 · 379회

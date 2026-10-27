@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "MBC '구해줘! 홈즈' 29일, 서울서 KTX 40분 아산 신도시 임장…장동민·박소영·강다은 출격"
+title: MBC '구해줘! 홈즈' 29일, 서울서 KTX 40분 아산 신도시 임장…장동민·박소영·강다은 출격
 source_name: ''
 source_url: ''
-summary: MBC '구해줘! 홈즈'가 29일 밤 10시 충남 아산 신도시를 찾는다. 장동민, 박소영, 강다은 아나운서가 천안아산역 도보권 주상복합 아파트를 둘러본다.
+summary: MBC '구해줘! 홈즈'가 29일 밤 10시 충남 아산 신도시를 찾는다. 장동민, 박소영, 강다은 아나운서가 천안아산역 도보권 주상복합
+  아파트를 둘러본다.
 sources:
-  - https://with.mbc.co.kr/pr/press/view.html?idx=36938
-status: approved
+- https://with.mbc.co.kr/pr/press/view.html?idx=36938
+status: published
+published_id: c-013466d64b38293597aaaa1d5a53c0f3b19eef29
+published_on: '2026-10-28'
 ---
 > **방송 정보**
 > 채널 · MBC | 프로그램 · 구해줘! 홈즈
