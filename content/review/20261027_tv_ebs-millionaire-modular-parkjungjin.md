@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '서장훈의 이웃집 백만장자', 월 매출 150억 모듈러 주택 공장 대표 박정진 편"
+title: EBS '서장훈의 이웃집 백만장자', 월 매출 150억 모듈러 주택 공장 대표 박정진 편
 source_name: ''
 source_url: ''
-summary: "EBS '서장훈의 이웃집 백만장자'가 28일 밤 9시 55분 모듈러 주택 업체 박정진 대표를 만난다. 공장에서 집을 만들어 택배처럼 배송하는 방식과 로봇 41대가 일하는 6천 평 공장 내부를 보여 준다."
+summary: EBS '서장훈의 이웃집 백만장자'가 28일 밤 9시 55분 모듈러 주택 업체 박정진 대표를 만난다. 공장에서 집을 만들어 택배처럼
+  배송하는 방식과 로봇 41대가 일하는 6천 평 공장 내부를 보여 준다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005569937
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005569937
+status: published
+published_id: c-526c6765b26fe4ade4c92818fc8c1b17943909ef
+published_on: '2026-10-27'
 ---
 > **방송 정보**
 > 채널 · EBS | 프로그램 · 서장훈의 이웃집 백만장자

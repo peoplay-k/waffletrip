@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "MBC 'PD수첩' 27일 밤 10시 20분, '암살자(들), 누가 선을 넘었는가'"
+title: MBC 'PD수첩' 27일 밤 10시 20분, '암살자(들), 누가 선을 넘었는가'
 source_name: ''
 source_url: ''
-summary: "MBC 'PD수첩'이 27일 밤 10시 20분 영화 '암살자(들)'을 둘러싼 논란을 다룬다. 한 달 가까이 말을 아낀 허진호 감독을 만나고, 영화의 의혹을 과거 취재 기록과 비교하며 창작의 자유와 비평의 자유의 경계를 짚는다."
+summary: MBC 'PD수첩'이 27일 밤 10시 20분 영화 '암살자(들)'을 둘러싼 논란을 다룬다. 한 달 가까이 말을 아낀 허진호 감독을
+  만나고, 영화의 의혹을 과거 취재 기록과 비교하며 창작의 자유와 비평의 자유의 경계를 짚는다.
 sources:
-  - https://with.mbc.co.kr/pr/press/view.html?idx=36936
-status: approved
+- https://with.mbc.co.kr/pr/press/view.html?idx=36936
+status: published
+published_id: c-bbb3c2bcf3849b8076552ea708fc8933d8b64aff
+published_on: '2026-10-27'
 ---
 > **방송 정보**
 > 채널 · MBC | 프로그램 · PD수첩
