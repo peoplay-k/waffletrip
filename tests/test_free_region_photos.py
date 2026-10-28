@@ -16,7 +16,7 @@ class _Resp:
 
 def _jpeg():
     buf = io.BytesIO()
-    Image.new("RGB", (40, 30), (20, 120, 200)).save(buf, "JPEG")
+    Image.new("RGB", (1000, 700), (20, 120, 200)).save(buf, "JPEG")
     return buf.getvalue()
 
 
@@ -138,3 +138,19 @@ def test_thumb_host_and_tracking_tail(tmp_path, monkeypatch):
     monkeypatch.setattr(frp, "PLACES", {"japan": (("Tokyo", "도쿄", "tokyo"),)})
     assert frp.fetch_region(_C(), {}, "japan", face_check=lambda img: False) == 1
     assert got == ["https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/T.jpg/1280px-T.jpg"]
+
+
+def test_small_originals_are_skipped(tmp_path, monkeypatch):
+    """400px 원본(김포공항)은 기사 머리에서 흐릿하다 — 800px 보다 좁으면 들이지 않는다."""
+    import io as _io
+
+    class _C(_Client):
+        def get(self, url, params=None):
+            if params is None:
+                buf = _io.BytesIO()
+                Image.new("RGB", (400, 300)).save(buf, "JPEG")
+                return _Resp(content=buf.getvalue())
+            return super().get(url, params)
+    monkeypatch.setattr(frp, "ROOT", str(tmp_path))
+    monkeypatch.setattr(frp, "PLACES", {"japan": (("Tokyo", "도쿄", "tokyo"),)})
+    assert frp.fetch_region(_C(), {}, "japan", face_check=lambda img: False) == 0

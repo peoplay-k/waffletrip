@@ -31,6 +31,7 @@ sys.path.insert(0, ROOT)
 
 MANIFEST = os.path.join(ROOT, "assets", "photos", "manifest.json")
 WD = "https://www.wikidata.org/w/api.php"
+MIN_WIDTH = 800       # 이보다 좁은 원본은 기사 머리에 걸면 흐릿하다(김포공항 400px, 2026-10-28)
 MIN_OWN = 6            # 우리 사진이 이만큼 있으면 그 지역은 건드리지 않는다
 WIDTH = 1280          # 위키미디어는 정해진 썸네일 폭(…960·1280…)만 바로 준다
 
@@ -272,6 +273,9 @@ def fetch_region(c, manifest: dict, region: str, *, dry_run: bool = False,
         except Exception:
             print(f"  [{region}] {name}: 사진을 열지 못했다({len(raw)}바이트) — 건너뜀")
             continue
+        if img.width < MIN_WIDTH:
+            print(f"  [{region}] {name}: 원본이 {img.width}px 로 작다 — 건너뜀")
+            continue
         if face_check(img):
             print(f"  [{region}] {name}: 얼굴이 잡혀 들이지 않는다")
             continue
@@ -291,12 +295,33 @@ def fetch_region(c, manifest: dict, region: str, *, dry_run: bool = False,
     return added
 
 
+def prune_small(manifest: dict) -> int:
+    """전에 들인 자유 이용 사진 중 MIN_WIDTH 보다 좁은 것을 뺀다. 뺀 장수."""
+    from PIL import Image
+    gone = 0
+    for region, rows in manifest.items():
+        keep = []
+        for e in rows if isinstance(rows, list) else []:
+            path = os.path.join(ROOT, e.get("file", "")) if isinstance(e, dict) else ""
+            if isinstance(e, dict) and e.get("free") and os.path.exists(path):
+                with Image.open(path) as im:
+                    if im.width < MIN_WIDTH:
+                        os.remove(path)
+                        print(f"  [{region}] {e.get('place')}: {im.width}px 라 뺀다")
+                        gone += 1
+                        continue
+            keep.append(e)
+        manifest[region] = keep
+    return gone
+
+
 def main(argv: list[str]) -> int:
     import httpx
     from tools.free_photos import UA
     dry = "--dry-run" in argv
     manifest = load_manifest()
     total = 0
+    pruned = 0 if dry else prune_small(manifest)
     with httpx.Client(headers=UA, timeout=30, follow_redirects=True) as c:
         for region in PLACES:
             if own_count(manifest, region) >= MIN_OWN:
@@ -305,7 +330,7 @@ def main(argv: list[str]) -> int:
                 total += fetch_region(c, manifest, region, dry_run=dry)
             except Exception as e:                 # 한 지역이 막혀도 나머지는 받는다
                 print(f"  [{region}] 받지 못했다 — {type(e).__name__}: {e}", file=sys.stderr)
-    if total and not dry:
+    if (total or pruned) and not dry:
         with open(MANIFEST, "w", encoding="utf-8") as f:
             json.dump(manifest, f, ensure_ascii=False, indent=2)
             f.write("\n")
