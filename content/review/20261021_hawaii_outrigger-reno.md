@@ -12,7 +12,9 @@ summary: 와이키키 해변 한가운데 있는 아웃리거 와이키키 비�
 sources:
 - https://www.traveldaily.co.kr/news/articleView.html?idxno=72391
 - https://stock.mk.co.kr/news/view/1176857
-status: approved
+status: published
+published_id: c-9fe373e5241e0662e1052313d6061f356abcdab4
+published_on: '2026-10-28'
 ---
 와이키키 해변 한가운데 있는 아웃리거 와이키키 비치 리조트가 객실 리노베이션을 마치고 새 객실을 선보였다. 1억 달러 규모로 진행되는 리조트 전체 개보수의 첫 번째 결과물이다.
 
