@@ -115,18 +115,91 @@ def own_count(manifest: dict, region: str) -> int:
 
 def place_image(c, query: str) -> str | None:
     """장소의 위키데이터 대표 사진 파일명. 없으면 None."""
-    found = c.get(WD, params={"action": "wbsearchentities", "search": query, "language": "en",
-                              "type": "item", "limit": 1, "format": "json"}).json()
+    found = _get_json(c, WD, {"action": "wbsearchentities", "search": query, "language": "en",
+                              "type": "item", "limit": 1, "format": "json"})
     hits = found.get("search") or []
     if not hits:
         return None
-    ent = c.get(WD, params={"action": "wbgetclaims", "entity": hits[0]["id"], "property": "P18",
-                            "format": "json"}).json()
+    ent = _get_json(c, WD, {"action": "wbgetclaims", "entity": hits[0]["id"], "property": "P18",
+                            "format": "json"})
     claims = (ent.get("claims") or {}).get("P18") or []
     try:
         return claims[0]["mainsnak"]["datavalue"]["value"]
     except (KeyError, IndexError, TypeError):
         return None
+
+
+COMMONS = "https://commons.wikimedia.org/w/api.php"
+FREE = re.compile(r"^(CC BY|CC0|Public domain|PD|KOGL|공공누리)", re.I)
+
+
+def _get_json(c, url: str, params: dict, tries: int = 4) -> dict:
+    """위키미디어 API 한 번. 'ratelimited'·'maxlag'·429 면 쉬었다 다시 묻는다.
+
+    2026-10-28 첫 실행: 공용 조회 85건 중 82건이 정보 없이 돌아와 '자유 라이선스가
+    아니다'로 읽혔다(도쿄 타워·불국사까지). GitHub 러너는 IP 를 여럿이 나눠 써
+    위키미디어 요청 제한에 걸린다. 오류 본문을 '라이선스 없음'으로 오판하지 않는다.
+    """
+    import time
+    last = {}
+    for n in range(tries):
+        r = c.get(url, params={**params, "maxlag": 5})
+        code = getattr(r, "status_code", 200)
+        try:
+            last = r.json()
+        except Exception:
+            last = {"error": {"code": f"http {code}"}}
+        err = (last.get("error") or {}).get("code") if isinstance(last, dict) else None
+        if code == 429 or err in ("ratelimited", "maxlag") or (err or "").startswith("http"):
+            wait = 3 * (n + 1)
+            try:
+                wait = max(wait, int(r.headers.get("retry-after", 0)))
+            except Exception:
+                pass
+            time.sleep(min(wait, 30))
+            continue
+        return last
+    return last
+
+
+def commons_credits(c, filenames: list[str]) -> dict[str, tuple[dict | None, str]]:
+    """공용 파일들의 썸네일·라이선스·작성자를 **한 번에** 묻는다(최대 50개씩).
+    파일명 → (credit 또는 None, 못 쓰는 이유)."""
+    import html as _html
+    out: dict[str, tuple[dict | None, str]] = {}
+    for i in range(0, len(filenames), 50):
+        chunk = filenames[i:i + 50]
+        r = _get_json(c, COMMONS, {"action": "query", "titles": "|".join(f"File:{f}" for f in chunk),
+                                   "prop": "imageinfo", "iiprop": "url|extmetadata",
+                                   "iiurlwidth": 960, "format": "json"})
+        if r.get("error"):
+            for f in chunk:
+                out[f] = (None, f"공용 API 오류 {r['error'].get('code')}")
+            continue
+        q = r.get("query") or {}
+        back = {n["to"]: n["from"] for n in q.get("normalized") or []}
+        for page in (q.get("pages") or {}).values():
+            title = page.get("title", "")
+            fname = back.get(title, title).split(":", 1)[-1]
+            info = (page.get("imageinfo") or [None])[0]
+            if not info:
+                out[fname] = (None, "공용에 파일 정보가 없다")
+                continue
+            meta = info.get("extmetadata") or {}
+            lic = (meta.get("LicenseShortName") or {}).get("value", "")
+            if not FREE.search(lic):
+                out[fname] = (None, f"라이선스 '{lic or '없음'}'")
+                continue
+            artist = _html.unescape(re.sub(r"<[^>]+>", "", (meta.get("Artist") or {}).get("value", "")))
+            url = (info.get("thumburl") or info.get("url") or "").split("?", 1)[0]
+            if not url.startswith("https://upload.wikimedia.org/"):
+                out[fname] = (None, "썸네일 주소가 공용이 아니다")
+                continue
+            out[fname] = ({"url": url, "page": info.get("descriptionurl"), "license": lic,
+                           "artist": re.sub(r"\s+", " ", artist).strip()[:60] or "작성자 미상"}, "")
+        for f in chunk:
+            out.setdefault(f, (None, "공용 응답에 없다"))
+    return out
 
 
 def _has_face(img) -> bool:
@@ -149,25 +222,36 @@ def _has_face(img) -> bool:
 def fetch_region(c, manifest: dict, region: str, *, dry_run: bool = False,
                  face_check=_has_face) -> int:
     """한 지역을 채운다. 새로 들인 장수."""
+    import time
     from PIL import Image
-    from tools.free_photos import file_credit
 
     entries = manifest.setdefault(region, [])
     have = {e.get("commons") for e in entries if isinstance(e, dict)}
     added = 0
+    wanted = []
     for query, name, city in PLACES.get(region, ()):
         filename = place_image(c, query)
-        if not filename or filename in have:
-            continue
-        credit = file_credit(c, filename)
-        if not credit or not (credit["url"] or "").startswith("https://upload.wikimedia.org/"):
-            print(f"  [{region}] {name}: 자유 라이선스가 아니거나 확인 안 됨 — 건너뜀")
+        if not filename:
+            print(f"  [{region}] {name}: 위키데이터에 대표 사진이 없다 — 건너뜀")
+        elif filename not in have:
+            wanted.append((query, name, city, filename))
+    credits = commons_credits(c, [w[3] for w in wanted]) if wanted else {}
+    for query, name, city, filename in wanted:
+        credit, why = credits.get(filename, (None, "공용 응답에 없다"))
+        if not credit:
+            print(f"  [{region}] {name}: {why} — 건너뜀")
             continue
         rel = f"assets/photos/{region}/free-{_slug(query)}.webp"
         print(f"  [{region}] {name}: {filename} · {credit['license']} · {credit['artist']}")
         if dry_run:
             continue
-        raw = c.get(credit["url"].replace(f"/{960}px-", f"/{WIDTH}px-")).content
+        raw = b""
+        for n in range(3):                     # 사진 서버도 요청 제한이 있다
+            r = c.get(credit["url"].replace(f"/{960}px-", f"/{WIDTH}px-"))
+            if getattr(r, "status_code", 200) != 429:
+                raw = r.content
+                break
+            time.sleep(5 * (n + 1))
         try:
             img = Image.open(io.BytesIO(raw))
             img.load()
