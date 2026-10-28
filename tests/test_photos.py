@@ -465,6 +465,11 @@ def test_신문_사진은_NAS_에서만_온다():
             assert 말 not in src, f"폰 사진이 섞였다: {src}"
         # 출처를 밝히지 않은 사진은 두지 않는다. 나중에 감사할 수 없다.
         assert e.get("origin"), f"출처 표시가 없다: {src}"
+        # 2026-10-28: 우리 사진이 없는 지역에 위키미디어 공용 자유 이용 사진(tools/free_region_photos.py).
+        # 폰 사진과 달리 출처가 공개된 사진이다 — 라이선스·작성자·공용 파일명이 다 있어야 한다.
+        if e.get("free"):
+            assert "위키미디어" in e["origin"] and e.get("license") and e.get("artist") and e.get("commons"), e
+            continue
         assert "NAS" in e["origin"] or "과미" in e["origin"], (src, e["origin"])
 
 
