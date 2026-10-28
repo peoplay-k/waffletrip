@@ -685,7 +685,13 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 겹쳐 썼더니 톱기사가 헤드라인 띠에 또 걸리고, 첫 화면 기사가 아래
     # 부문 블록에 다시 나왔다. 지면이 정리 안 된 것으로 보인다.
     articles = [i for i in listed if i.grade != "A"]
-    lead = articles[0] if articles else None
+    # 머리기사에는 반드시 사진이 들어간다(2026-10-28 사장님: "헤드기사에는 무조건 사진이
+    # 들어가야 해"). 사진 있는 기사 중 가장 최신 것을 머리로 올린다. 연예 기사는 남의
+    # 사진을 쓰지 않아 대개 사진이 없으므로 사이드·헤드라인 띠로 간다. 사진 있는 기사가
+    # 하나도 없을 때만 예전처럼 최신 기사를 쓴다.
+    lead = next((i for i in articles if i.photo), articles[0] if articles else None)
+    if lead is not None:
+        articles = [lead] + [i for i in articles if i.id != lead.id]
     # 사이드 두 건 — 첫 화면 셋이 한 채널로만 채워지지 않게 한다. 두 축 매체인데
     # 톱·사이드가 전부 연예(또는 전부 여행)면 한쪽 사이트로 읽힌다(2026-09-25 실측:
     # 연예 기사 다섯 편을 낸 날 첫 화면 셋이 모두 연예였다). 최신순은 그 안에서 지킨다.

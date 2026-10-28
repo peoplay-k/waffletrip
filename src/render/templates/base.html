@@ -124,8 +124,15 @@
   .side-lead h3 a:hover{color:var(--coral)}
 
   /* 데이터 — 회색 박스를 버리고 얇은 한 줄로 */
-  .data-strip{display:flex;gap:26px;overflow-x:auto;scrollbar-width:none;
-    padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .data-strip{overflow:hidden;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .data-strip .data-track{display:flex;width:max-content;animation:data-roll var(--dur,40s) linear infinite}
+  .data-strip:hover .data-track,.data-strip:focus-within .data-track{animation-play-state:paused}
+  .data-strip .data-set{display:flex;gap:26px;padding-right:26px;flex:0 0 auto}
+  @keyframes data-roll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){
+    .data-strip{overflow-x:auto;scrollbar-width:none}
+    .data-strip .data-track{animation:none}
+    .data-strip .data-set[aria-hidden]{display:none}}
   .data-strip::-webkit-scrollbar{display:none}
   .data-strip .d{flex:0 0 auto;display:flex;align-items:baseline;gap:9px;
     font-size:12.5px;white-space:nowrap}

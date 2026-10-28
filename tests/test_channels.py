@@ -536,3 +536,15 @@ def test_photos_go_only_to_our_own_articles(tmp_path, monkeypatch):
                 str(tmp_path), TODAY)
     assert seeds == ["c-1"]
     assert saved == {"/img/guam/c.webp": "c-9"}
+
+
+def test_home_lead_always_has_a_photo(tmp_path):
+    """머리기사에는 반드시 사진(2026-10-28 사장님). 최신 연예 기사(사진 없음)는 사이드로 간다."""
+    newer = ent("c-9", "영화 ○○ 6주차 1위", "movie")
+    older = make("c-8", "괌 노선 재개", region="guam", photo="/img/guam-1.jpg")
+    older.published_at = "2026-09-20T09:00:00+09:00"
+    render_site([older, newer], str(tmp_path), TODAY)
+    home = (tmp_path / "index.html").read_text(encoding="utf-8")
+    lead = home.split('class="lead-box"', 1)[1].split("</section>", 1)[0]
+    assert "lead-photo" in lead and "괌 노선 재개" in lead
+    assert "영화 ○○ 6주차 1위" in home and "영화 ○○ 6주차 1위" not in lead
