@@ -1669,6 +1669,18 @@
       "hero": true,
       "overrode": "얼굴 2건 검출",
       "origin": "NAS"
+    },
+    {
+      "file": "assets/photos/jeju/free-seongsan-ilchulbong.webp",
+      "hero": true,
+      "free": true,
+      "place": "성산일출봉",
+      "city": "",
+      "commons": "Seongsan Ilchulbong from the air.jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Korea.net / Korean Culture and Information Service",
+      "source": "https://commons.wikimedia.org/wiki/File:Seongsan_Ilchulbong_from_the_air.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
     }
   ],
   "japan": [
@@ -1682,6 +1694,54 @@
       "license": "CC BY-SA 3.0",
       "artist": "Birdman at Japanese Wikipedia",
       "source": "https://commons.wikimedia.org/wiki/File:Kumamotojo.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/japan/free-kiyomizu-dera.webp",
+      "hero": true,
+      "free": true,
+      "place": "교토 기요미즈데라",
+      "city": "osaka",
+      "commons": "Kiyomizu-dera, Kyoto, November 2016 -02.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Martin Falbisoner",
+      "source": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-02.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/japan/free-shuri-castle.webp",
+      "hero": true,
+      "free": true,
+      "place": "오키나와 슈리성",
+      "city": "okinawa",
+      "commons": "Naha Shuri Castle51s3s4200.jpg",
+      "license": "CC BY 2.5",
+      "artist": "663highland",
+      "source": "https://commons.wikimedia.org/wiki/File:Naha_Shuri_Castle51s3s4200.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/japan/free-mount-fuji.webp",
+      "hero": true,
+      "free": true,
+      "place": "후지산",
+      "city": "",
+      "commons": "Kodaki fuji frm shojinko refurb.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "名古屋太郎, (edited by Hannes_24)",
+      "source": "https://commons.wikimedia.org/wiki/File:Kodaki_fuji_frm_shojinko_refurb.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/japan/free-kenroku-en.webp",
+      "hero": true,
+      "free": true,
+      "place": "가나자와 겐로쿠엔",
+      "city": "",
+      "commons": "131109 Kenrokuen Kanazawa Ishikawa pref Japan00s3.jpg",
+      "license": "CC BY 2.5",
+      "artist": "663highland",
+      "source": "https://commons.wikimedia.org/wiki/File:131109_Kenrokuen_Kanazawa_Ishikawa_pref_Japan00s3.jpg",
       "origin": "위키미디어 공용(자유 이용)"
     }
   ],
@@ -1709,10 +1769,71 @@
       "artist": "Manfred Werner",
       "source": "https://commons.wikimedia.org/wiki/File:Koh_Samui_Lipa_Noi2.jpg",
       "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/thailand/free-tha-phae-gate.webp",
+      "hero": true,
+      "free": true,
+      "place": "치앙마이 타패 게이트",
+      "city": "chiangmai",
+      "commons": "Eastern Gate of Chiang Mai.jpg",
+      "license": "CC BY 4.0",
+      "artist": "Douglas Perkins",
+      "source": "https://commons.wikimedia.org/wiki/File:Eastern_Gate_of_Chiang_Mai.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/thailand/free-railay-beach.webp",
+      "hero": true,
+      "free": true,
+      "place": "끄라비 라일레이",
+      "city": "",
+      "commons": "Railay.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Wendy Harman",
+      "source": "https://commons.wikimedia.org/wiki/File:Railay.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/thailand/free-hua-hin.webp",
+      "hero": true,
+      "free": true,
+      "place": "후아힌",
+      "city": "",
+      "commons": "Hua Hin hotels.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Ahoerstemeier",
+      "source": "https://commons.wikimedia.org/wiki/File:Hua_Hin_hotels.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
     }
   ],
   "taiwan": [],
-  "laos": [],
+  "laos": [
+    {
+      "file": "assets/photos/laos/free-patuxai.webp",
+      "hero": true,
+      "free": true,
+      "place": "비엔티안 빠뚜싸이",
+      "city": "",
+      "commons": "Patuxay Monument - panoramio.jpg",
+      "license": "CC BY 3.0",
+      "artist": "gary4now",
+      "source": "https://commons.wikimedia.org/wiki/File:Patuxay_Monument_-_panoramio.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/laos/free-wat-xieng-thong.webp",
+      "hero": true,
+      "free": true,
+      "place": "루앙프라방 왓 씨엥통",
+      "city": "",
+      "commons": "Wat Xieng Thong Laos I.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Phillip Maiwald (Nikopol)",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Xieng_Thong_Laos_I.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    }
+  ],
   "korea": [
     {
       "file": "assets/photos/korea/free-nami-island.webp",
@@ -1724,6 +1845,30 @@
       "license": "CC BY-SA 3.0",
       "artist": "Namc87",
       "source": "https://commons.wikimedia.org/wiki/File:Namiseom_1.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/korea/free-bulguksa.webp",
+      "hero": true,
+      "free": true,
+      "place": "경주 불국사",
+      "city": "",
+      "commons": "Geungnakjeon, Bulguksa 01.jpg",
+      "license": "CC0",
+      "artist": "Bernard Gagnon",
+      "source": "https://commons.wikimedia.org/wiki/File:Geungnakjeon,_Bulguksa_01.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/korea/free-gyeongpodae.webp",
+      "hero": true,
+      "free": true,
+      "place": "강릉 경포대",
+      "city": "",
+      "commons": "Gyeongpo Lake Cherry Blossoms.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Scroozle",
+      "source": "https://commons.wikimedia.org/wiki/File:Gyeongpo_Lake_Cherry_Blossoms.JPG",
       "origin": "위키미디어 공용(자유 이용)"
     }
   ],
@@ -1738,6 +1883,18 @@
       "license": "CC BY-SA 3.0",
       "artist": "Cinnamon at ja.wikipedia",
       "source": "https://commons.wikimedia.org/wiki/File:Gimpo_airport.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/industry/free-incheon-international-airport.webp",
+      "hero": true,
+      "free": true,
+      "place": "인천국제공항",
+      "city": "",
+      "commons": "202403 Aerial View of Incheon International Airport.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "MNXANL",
+      "source": "https://commons.wikimedia.org/wiki/File:202403_Aerial_View_of_Incheon_International_Airport.jpg",
       "origin": "위키미디어 공용(자유 이용)"
     }
   ]

@@ -826,6 +826,7 @@
     "19a796b9116c01009b63e12cf3fd9411fc02de7b",
     "19a979300492df4c3a971dd07d176e9049de553c",
     "19af893b851a2d91a57f7763df1f7b3eda49e56e",
+    "19cf858f2f066f5d6c5521ab2d70d3fb3b0b6744",
     "19d3cd4a92e39612eb88c5c1d73098fd1f0e6f80",
     "19dbaac012a6b10e1db0ac537fb25f2454b98ec4",
     "19dd8436d0d8c732500f087e02ad5cd417555501",
@@ -979,6 +980,7 @@
     "1e72785e4bd5f66478d6865d160724f26e132a26",
     "1e745e8b74a53a4bf746088a21df67f0008e2b8b",
     "1e74a250cb25f37ccd43390882ae85aac8415fbc",
+    "1e8389cbf7eeab2a654016a86585402583c8e6e5",
     "1e8e359bf35cfd6927dba77ae5bfea1a1ae035e7",
     "1e93f1cce5c9e3a507aed06f26486843abf87909",
     "1ea6594230164b669a7b29d885018333c7061150",
@@ -2899,6 +2901,7 @@
     "593ae4b6eeb1a587300199ba4bd3ad0d9da8bb81",
     "593b3f721eba26b0ab4e508522a090c78293a6f4",
     "5940b7fa5d579a8800e9d7ecefaf8b8130b9453d",
+    "594561a55f336c9ee703974c0f5abd75dff76fb4",
     "595783c701377c7f53e7ff500ce130e0b30eca4e",
     "595d16ea6c5f25f0c394b1a93799d7dcf8d463e6",
     "595e9cb5b3952e3cf585ede67e92675950641c9d",
@@ -7306,6 +7309,7 @@
     "d5797da70d31023a661a5b832e224f1df84ebf94",
     "d57bf57c096164b90b5d2fc26d8027a77b47387f",
     "d57f40638b0b3ab753e8d02a1f8147d3192e8107",
+    "d588ef45d3d4b453cec270d598bdb72c555a0785",
     "d58dafe8ab82f7007f490c0b94db31d2e92dff1f",
     "d58dd6b5ff556707d92cf2454789ee5f9eab03db",
     "d598420b0207662bdc9cfa256b42d74f307cb25c",
@@ -8684,6 +8688,7 @@
     "febb0bbe4845eff64d97ebd1ee508db81572b152",
     "fec0edb400b870758d28e890572a8b257049c82a",
     "fec40106b05a1b4a699ba1b5072c619216253f26",
+    "fed3514614e0947fd7e8786a5dbdc1c0640aaa2f",
     "fed451e725223b2dfd2a95b81bc184c48d7c01d3",
     "fed4ec637ccf8480696020394d142e2a5113b328",
     "fedd8ae51f0b03a05f1616a2caf7ad74dcb3c4c0",
@@ -45213,6 +45218,41 @@
     {
       "id": "03241f7f1882ac11c5a14eff0a41a2604b674da7",
       "title": "궁남지 연못 따라 60m 국화터널…부여국화축제 30일 개막",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "1e8389cbf7eeab2a654016a86585402583c8e6e5",
+      "title": "[이슈/통영시, 하노이 ‘2026 한국대사관 돌담길 문화축제’ 참가] 통영의 밤, 베트남 관광객 만나다…하노이서 야간관광 매력 홍보",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "594561a55f336c9ee703974c0f5abd75dff76fb4",
+      "title": "영국 복귀한 메건 마클, 첫 방송은 예능 출연",
+      "date": "2026-10-28",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "19cf858f2f066f5d6c5521ab2d70d3fb3b0b6744",
+      "title": "11월 강원 추천 여행지에 평창 김장축제·고성 바다하늘길",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "d588ef45d3d4b453cec270d598bdb72c555a0785",
+      "title": "태안거리축제 31일 중앙로서 개최…128개 부스·차량 통제",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "fed3514614e0947fd7e8786a5dbdc1c0640aaa2f",
+      "title": "QR코드로 관광 혁신 이끈다…부산관광 스타트업, 현장실증으로 성장동력 확보",
       "date": "2026-10-28",
       "region": "korea",
       "grade": "B"
