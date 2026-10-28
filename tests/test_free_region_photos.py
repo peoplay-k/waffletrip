@@ -118,3 +118,23 @@ def test_non_wikimedia_thumbnail_is_refused(tmp_path, monkeypatch):
     monkeypatch.setattr(frp, "ROOT", str(tmp_path))
     monkeypatch.setattr(frp, "PLACES", {"japan": (("Tokyo", "도쿄", "tokyo"),)})
     assert frp.fetch_region(_C(), {}, "japan", face_check=lambda img: False) == 0
+
+
+def test_thumb_host_and_tracking_tail(tmp_path, monkeypatch):
+    """공용은 썸네일을 thumb.wikimedia.org 로, 끝에 ?utm_ 꼬리를 붙여 준다(2026-10-28 실측)."""
+    got = []
+
+    class _C(_Client):
+        def get(self, url, params=None):
+            if params is None:
+                got.append(url)
+            r = super().get(url, params)
+            if (params or {}).get("action") == "query":
+                for page in r._d["query"]["pages"].values():
+                    page["imageinfo"][0]["thumburl"] = (
+                        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/T.jpg/1280px-T.jpg?utm_source=x")
+            return r
+    monkeypatch.setattr(frp, "ROOT", str(tmp_path))
+    monkeypatch.setattr(frp, "PLACES", {"japan": (("Tokyo", "도쿄", "tokyo"),)})
+    assert frp.fetch_region(_C(), {}, "japan", face_check=lambda img: False) == 1
+    assert got == ["https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/T.jpg/1280px-T.jpg"]

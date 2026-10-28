@@ -132,9 +132,10 @@ def place_image(c, query: str) -> str | None:
 COMMONS = "https://commons.wikimedia.org/w/api.php"
 # 'Attribution' 은 공용의 저작자 표시 조건 자유 라이선스 틀이다(작성자만 밝히면 된다).
 FREE = re.compile(r"^(CC BY|CC0|Public domain|PD|KOGL|공공누리|Attribution)", re.I)
-# 썸네일을 주는 위키미디어 주소. 2026-10-28 실행에서 공용이 돌려준 썸네일 주소 대부분이
-# upload.wikimedia.org 로 시작하지 않아 82곳이 버려졌다 — 위키미디어 안의 주소면 받는다.
-_WIKIMEDIA_HOSTS = ("upload.wikimedia.org", "commons.wikimedia.org")
+# 썸네일을 주는 위키미디어 주소. 2026-10-28 실측: 공용은 썸네일을 thumb.wikimedia.org 로
+# 준다(원본은 upload.). upload. 만 받았더니 82곳이 버려졌다 — *.wikimedia.org 면 받는다.
+def _wikimedia(host: str) -> bool:
+    return host == "wikimedia.org" or host.endswith(".wikimedia.org")
 
 
 def _get_json(c, url: str, params: dict, tries: int = 4) -> dict:
@@ -199,8 +200,13 @@ def commons_credits(c, filenames: list[str]) -> dict[str, tuple[dict | None, str
             url = info.get("thumburl") or info.get("url") or ""
             if url.startswith("//"):
                 url = "https:" + url
-            host = urlparse(url).netloc
-            if not (url.startswith("https://") and host in _WIKIMEDIA_HOSTS):
+            from urllib.parse import parse_qsl, urlencode, urlunparse
+            parts = urlparse(url)
+            # 공용이 붙이는 추적 꼬리(utm_)만 뗀다. thumb.php 같은 주소는 쿼리가 본체다.
+            keep = [(k, v) for k, v in parse_qsl(parts.query) if not k.startswith("utm_")]
+            url = urlunparse(parts._replace(query=urlencode(keep)))
+            host = parts.netloc
+            if not (url.startswith("https://") and _wikimedia(host)):
                 out[fname] = (None, f"썸네일 주소가 위키미디어가 아니다: {url[:90] or '(빈 값)'}")
                 continue
             out[fname] = ({"url": url, "page": info.get("descriptionurl"), "license": lic,
