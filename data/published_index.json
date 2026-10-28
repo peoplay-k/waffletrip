@@ -118,6 +118,7 @@
     "03168a80936409d9b6606ca18399faf42501792a",
     "0319192451f98c88315a8da34f8e4a7c4f4c202c",
     "031b68ee15abf366f1d81383936a418daf409d3f",
+    "03241f7f1882ac11c5a14eff0a41a2604b674da7",
     "033329e737b8ffff05c157dabcc404ee70ea9b55",
     "03353fb5bb6e02cacfa45ef0f44f3392a848640c",
     "0336c690690daff4477a7132d6e49a634dc9163c",
@@ -151,6 +152,7 @@
     "043099ef88e12dd2b132af11c10d5ed36fde9d8f",
     "043201839747eef45e5208753790c32592d87922",
     "045bf3e4850b3f238db438affd1d00194a4dcc00",
+    "0466be262d3cec392fe11025e882090a3eaaf2de",
     "047cfc5719c1e759233c86eecda554a28dce9200",
     "048072ea734992c004a85dadf88229b5e93fb011",
     "04896e66a13a898fbc6e200d26b83db8aad2bce1",
@@ -5153,6 +5155,7 @@
     "9f86e005e8468dbd8b91e0741c285adb888c9ffa",
     "9f870bfcec34067fe8cc11381e666e5d93b08df9",
     "9f8ed22cbe9237f1e30a344906c748199d2836b0",
+    "9f969b87e772862b7e73cec1ec60c87dcbdc9db6",
     "9f9d35472cea9f47ec04d5f28946485aff347bae",
     "9f9da6871bb05512dc7dfadbe514d19d0765899f",
     "9f9e3e215d1971aa9bc0853f68d6c5a6636dcb7b",
@@ -7071,6 +7074,7 @@
     "cebe066fbb36648fb79e64367fb614bbc9559910",
     "cec0111b47a93428bbce0f56cef9b8c83edce263",
     "cecd1318b06841159b2edfb9efb1765155cc2386",
+    "cecefd3da3b093b8c6bd172e9b5dce84a74b194d",
     "cee11945e8cf7a6a534f6175f5f765c73a62ef27",
     "cee2f128aa31ac627781ca83e17dcdde9240dbc1",
     "cee51d0c96da24d78a3cbe677b07f0419f0f3e66",
@@ -45181,6 +45185,34 @@
     {
       "id": "ffffde8b78675bbfde57688b100a1a805c16f2a5",
       "title": "부여 궁남지 '국화축제' 30일 개막…10일간 가을 정취 선사 - 보도자료 | 기사",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "9f969b87e772862b7e73cec1ec60c87dcbdc9db6",
+      "title": "[오감강원2.0]11월 추천여행지 평창군·고성군",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "cecefd3da3b093b8c6bd172e9b5dce84a74b194d",
+      "title": "속초문화관광재단, ‘2026 실향민 문화 미래 포럼’ 개최",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "0466be262d3cec392fe11025e882090a3eaaf2de",
+      "title": "태안여중, 연극동아리 ‘연두빛 뜨락’ 역사·문화 탐방 및 연극축제 관람",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "03241f7f1882ac11c5a14eff0a41a2604b674da7",
+      "title": "궁남지 연못 따라 60m 국화터널…부여국화축제 30일 개막",
       "date": "2026-10-28",
       "region": "korea",
       "grade": "B"

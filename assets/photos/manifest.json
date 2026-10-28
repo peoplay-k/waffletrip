@@ -1685,7 +1685,32 @@
       "origin": "위키미디어 공용(자유 이용)"
     }
   ],
-  "thailand": [],
+  "thailand": [
+    {
+      "file": "assets/photos/thailand/free-wat-pho.webp",
+      "hero": true,
+      "free": true,
+      "place": "방콕 왓 포",
+      "city": "bangkok",
+      "commons": "Outside wall Wat Pho.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Emielwiki",
+      "source": "https://commons.wikimedia.org/wiki/File:Outside_wall_Wat_Pho.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/thailand/free-ko-samui.webp",
+      "hero": true,
+      "free": true,
+      "place": "사무이",
+      "city": "",
+      "commons": "Koh Samui Lipa Noi2.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Manfred Werner",
+      "source": "https://commons.wikimedia.org/wiki/File:Koh_Samui_Lipa_Noi2.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    }
+  ],
   "taiwan": [],
   "laos": [],
   "korea": [
