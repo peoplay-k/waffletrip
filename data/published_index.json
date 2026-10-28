@@ -1657,6 +1657,7 @@
     "35d6ff44c28c84b3f53440e7b805902ba857117d",
     "35d7a6062531f8cfc779278724703a2776daf092",
     "35da003fba56583963c2b34b2b043a8dbab390bb",
+    "35da3f9ad21e580035c7d0f522d570313a58fb3d",
     "35e290ca7be8ba18dad762970ca6dee8962f8949",
     "35e4eafbd42e185852518f5aad8f1beb08bbc03f",
     "35f6538f2f2c7379dde287858cab9aef888bf509",
@@ -1841,7 +1842,6 @@
     "3bd32df9c3eb8df59dd59cee7b0ebe63e0ddb566",
     "3bda942720e6ba8b557f9b8caf279fb332941af0",
     "3be1e4e772b1458fc2195af80a5fdb5eb1201092",
-    "3be22379bd5d917e9fdf5e782d9624efd0cdfe56",
     "3be3696699c22c93bb47e62a93708a0ac1375ce0",
     "3be5178afc0c36a4115687ff531431dcbc3119f8",
     "3be87f43064ec1bc34a4765316ad06294a6de3d1",
@@ -3128,7 +3128,6 @@
     "64a7150f03114181fcedca1a6033beaa4da64ea3",
     "64ac2437ecd6c0974647faa635930798fc32554c",
     "64b384566c17ea003bdb420c8fc8fc7e4656159f",
-    "64c2e3bcd5b0d8ce6569c9ee742d5c293510a497",
     "64c7b6fd6835621d29670c21fe5739894ce2eada",
     "64d0888b31be30e342e6f06bdb66e3a3616b152a",
     "64d721f5ac2fa8d2746da16a59893054b35b1baf",
@@ -7266,6 +7265,7 @@
     "dd5e6be6ce8a2cc98a738c52770010cad8e282ba",
     "dd6376a0a99711b3a04b0a8da72273d2ff1f224a",
     "dd64fd46bd602db3759beee472c6d50a0964f59d",
+    "dd6df6a8377ec250be0df981564d8417d23a909b",
     "dd7335c63aa19855c67a27676f71daeee9701b68",
     "dd77b6bfa8f3492a87dec557e661d68cba286fc4",
     "dd817150908a81d9555952ce880a9d53bd3ad2c0",
@@ -42425,13 +42425,6 @@
       "grade": "B"
     },
     {
-      "id": "3be22379bd5d917e9fdf5e782d9624efd0cdfe56",
-      "title": "나호준 기자 “어머니의 마지막 큰 선물”…국회 울린 뭉클한 수상 소감",
-      "date": "2026-10-28",
-      "region": "",
-      "grade": "B"
-    },
-    {
       "id": "12fcd4806aaeb127ae05b68a29f48d7c08edfeff",
       "title": "곽범·최예나…이한결, 신곡 챌린지 ‘지원사격’",
       "date": "2026-10-28",
@@ -42464,6 +42457,13 @@
       "title": "Bali yet again named Asia's best wedding destination",
       "date": "2026-10-28",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "dd6df6a8377ec250be0df981564d8417d23a909b",
+      "title": "송가인, 공연 방해 취객에 폭발…\"철창에 묶기 전 가만히 있어\"",
+      "date": "2026-10-28",
+      "region": "",
       "grade": "B"
     },
     {
@@ -42509,10 +42509,10 @@
       "grade": "B"
     },
     {
-      "id": "64c2e3bcd5b0d8ce6569c9ee742d5c293510a497",
-      "title": "다낭은 연말 관광 시즌을 맞아 항공편 연결을 강화합니다.",
+      "id": "35da3f9ad21e580035c7d0f522d570313a58fb3d",
+      "title": "GDOE make-up instructional day set for Nov. 3",
       "date": "2026-10-28",
-      "region": "vietnam",
+      "region": "guam",
       "grade": "B"
     },
     {
