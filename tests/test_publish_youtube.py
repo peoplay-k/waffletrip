@@ -33,8 +33,9 @@ def test_longform_at_most_weekly_and_only_voiced():
     assert yt.plan_longform({"posted": []}, {**META, "kind": "silent"}, now) is None
 
 
-def test_only_the_waffletrip_channel_passes():
-    assert yt.handle_ok("@waffletrip") and yt.handle_ok("@WaffleTrip") and yt.handle_ok("waffletrip")
+def test_only_the_peopleroad_channel_passes():
+    assert yt.handle_ok("@peopleroad") and yt.handle_ok("@PeopleRoad") and yt.handle_ok("peopleroad")
+    assert not yt.handle_ok("@waffletrip") and not yt.handle_ok("@피플로드")
     assert not yt.handle_ok("@guami_travel") and not yt.handle_ok("")
 
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""피플로드 영상을 와플트립 유튜브(@waffletrip)에 올린다.
+"""피플로드 영상을 피플로드 유튜브(@peopleroad)에 올린다.
 
 인스타 발행기(publish_instagram.py)와 같은 방식이다. 영상은 이미 waffletrip.com/video/
 에 공개로 올라가 있으므로 거기서 받아 유튜브에 올린다. GitHub Actions 의 publish
@@ -13,7 +13,8 @@
 - 롱폼: video/peopleroad-week.json 의 주간 롱폼(가로) → 일반 영상. **7일에 한 번만**.
   롱폼은 매 실행마다 새로 굽히므로 매일 올리면 같은 주간 영상이 쌓인다.
 
-★ 채널 확인: 토큰이 가리키는 채널의 핸들이 @waffletrip(WAFFLETRIP_YT_HANDLE 로 바꿀 수 있음)
+★ 채널 확인: 토큰이 가리키는 채널이 @peopleroad(채널 ID UCkhVoG8C8OtKX60WpCpP99A, 2026-10-28
+  사장님 확인 — "피플로드" 이름 채널이 둘이라 ID 로도 본다)
   이 아니면 **아무것도 올리지 않는다.** Kim 저장소의 브랜드 격리 규칙과 같은 취지다.
 
 환경변수(GitHub 저장소 Secrets): WAFFLETRIP_YT_CLIENT_ID, WAFFLETRIP_YT_CLIENT_SECRET,
@@ -40,7 +41,10 @@ POSTED = os.path.join("data", "youtube_posted.json")
 LATEST = os.path.join("data", "shorts_latest.json")
 LONGFORM_META_URL = f"{SITE_URL}/video/peopleroad-week.json"
 LONGFORM_EVERY_DAYS = 7
-HANDLE = os.environ.get("WAFFLETRIP_YT_HANDLE", "@waffletrip")
+HANDLE = os.environ.get("WAFFLETRIP_YT_HANDLE", "@peopleroad")
+# 같은 이름 '피플로드' 채널이 유튜브에 둘 있다(@피플로드 는 남의 것). 핸들은 바뀔 수 있으니
+# 바뀌지 않는 채널 ID 로도 확인한다.
+CHANNEL_ID = os.environ.get("WAFFLETRIP_YT_CHANNEL_ID", "UCkhVoG8C8OtKX60WpCpP99A")
 
 
 class UploadUnknown(RuntimeError):
@@ -147,6 +151,8 @@ def channel_handle(token: str) -> tuple[str, str]:
         items = json.load(r).get("items") or []
     if not items:
         return "", ""
+    if items[0].get("id") != CHANNEL_ID:
+        return "", f"(다른 채널 {items[0].get('id')})"
     sn = items[0].get("snippet") or {}
     return (sn.get("customUrl") or "").strip(), sn.get("title", "")
 

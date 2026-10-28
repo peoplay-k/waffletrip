@@ -10,7 +10,7 @@ config.json 의 youtube 항목(같은 회사 OAuth 앱)을 읽고, 채널을 확
 **화면에 찍지 않고** `gh secret set` 으로 바로 넣는다. 토큰은 채널마다 따로라 브랜드는 안 섞인다.
 
 1. Google Cloud 콘솔에서 만든 OAuth 클라이언트(데스크톱 앱)의 ID·비밀값을 묻는다(화면에 안 보임)
-2. 브라우저가 열리면 **@waffletrip 채널을 가진 구글 계정**으로 로그인해 허용한다
+2. 브라우저가 열리면 **@peopleroad 채널을 가진 구글 계정**으로 로그인해 허용한다
 3. 받은 토큰으로 채널 핸들을 확인하고, GitHub Secrets 에 넣을 세 값을 출력한다
 
 출력된 값은 GitHub → peoplay-k/waffletrip → Settings → Secrets and variables → Actions 에만
@@ -33,7 +33,8 @@ import webbrowser
 
 SCOPES = ("https://www.googleapis.com/auth/youtube.upload "
           "https://www.googleapis.com/auth/youtube.readonly")
-WANT = "@waffletrip"
+WANT = "@peopleroad"
+WANT_ID = "UCkhVoG8C8OtKX60WpCpP99A"   # 2026-10-28 사장님 확인. 이름이 같은 '@피플로드'는 남의 채널
 
 
 def _free_port() -> int:
@@ -94,7 +95,7 @@ def main() -> int:
     url = "https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode({
         "client_id": cid, "redirect_uri": redirect, "response_type": "code", "scope": SCOPES,
         "access_type": "offline", "prompt": "consent", "state": state})
-    print("\n브라우저에서 @waffletrip 채널 계정으로 로그인해 허용하세요. 안 열리면 아래 주소를 직접 여세요:\n" + url)
+    print("\n브라우저에서 @peopleroad 채널 계정으로 로그인해 허용하세요. 안 열리면 아래 주소를 직접 여세요:\n" + url)
     webbrowser.open(url)
     while "code" not in got and "error" not in got:
         threading.Event().wait(0.5)
@@ -117,6 +118,8 @@ def main() -> int:
     with urllib.request.urlopen(req, timeout=60) as r:
         items = json.load(r).get("items") or []
     handle = (items[0]["snippet"].get("customUrl") if items else "") or "(채널 없음)"
+    if items and items[0].get("id") != WANT_ID:
+        handle = f"{handle} (채널 ID 가 다르다 — {items[0].get('id')})"
     print(f"\n로그인한 채널: {handle}")
     if handle.lower().lstrip("@") != WANT.lstrip("@"):
         print(f"⚠ {WANT} 가 아니다. 이 토큰으로는 발행기가 아무것도 올리지 않는다. 다른 계정으로 다시 실행하세요.")
