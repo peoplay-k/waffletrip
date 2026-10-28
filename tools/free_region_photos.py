@@ -130,7 +130,11 @@ def place_image(c, query: str) -> str | None:
 
 
 COMMONS = "https://commons.wikimedia.org/w/api.php"
-FREE = re.compile(r"^(CC BY|CC0|Public domain|PD|KOGL|공공누리)", re.I)
+# 'Attribution' 은 공용의 저작자 표시 조건 자유 라이선스 틀이다(작성자만 밝히면 된다).
+FREE = re.compile(r"^(CC BY|CC0|Public domain|PD|KOGL|공공누리|Attribution)", re.I)
+# 썸네일을 주는 위키미디어 주소. 2026-10-28 실행에서 공용이 돌려준 썸네일 주소 대부분이
+# upload.wikimedia.org 로 시작하지 않아 82곳이 버려졌다 — 위키미디어 안의 주소면 받는다.
+_WIKIMEDIA_HOSTS = ("upload.wikimedia.org", "commons.wikimedia.org")
 
 
 def _get_json(c, url: str, params: dict, tries: int = 4) -> dict:
@@ -171,7 +175,7 @@ def commons_credits(c, filenames: list[str]) -> dict[str, tuple[dict | None, str
         chunk = filenames[i:i + 50]
         r = _get_json(c, COMMONS, {"action": "query", "titles": "|".join(f"File:{f}" for f in chunk),
                                    "prop": "imageinfo", "iiprop": "url|extmetadata",
-                                   "iiurlwidth": 960, "format": "json"})
+                                   "iiurlwidth": WIDTH, "format": "json"})
         if r.get("error"):
             for f in chunk:
                 out[f] = (None, f"공용 API 오류 {r['error'].get('code')}")
@@ -191,9 +195,13 @@ def commons_credits(c, filenames: list[str]) -> dict[str, tuple[dict | None, str
                 out[fname] = (None, f"라이선스 '{lic or '없음'}'")
                 continue
             artist = _html.unescape(re.sub(r"<[^>]+>", "", (meta.get("Artist") or {}).get("value", "")))
-            url = (info.get("thumburl") or info.get("url") or "").split("?", 1)[0]
-            if not url.startswith("https://upload.wikimedia.org/"):
-                out[fname] = (None, "썸네일 주소가 공용이 아니다")
+            from urllib.parse import urlparse
+            url = info.get("thumburl") or info.get("url") or ""
+            if url.startswith("//"):
+                url = "https:" + url
+            host = urlparse(url).netloc
+            if not (url.startswith("https://") and host in _WIKIMEDIA_HOSTS):
+                out[fname] = (None, f"썸네일 주소가 위키미디어가 아니다: {url[:90] or '(빈 값)'}")
                 continue
             out[fname] = ({"url": url, "page": info.get("descriptionurl"), "license": lic,
                            "artist": re.sub(r"\s+", " ", artist).strip()[:60] or "작성자 미상"}, "")
@@ -247,7 +255,7 @@ def fetch_region(c, manifest: dict, region: str, *, dry_run: bool = False,
             continue
         raw = b""
         for n in range(3):                     # 사진 서버도 요청 제한이 있다
-            r = c.get(credit["url"].replace(f"/{960}px-", f"/{WIDTH}px-"))
+            r = c.get(credit["url"])
             if getattr(r, "status_code", 200) != 429:
                 raw = r.content
                 break
@@ -256,6 +264,7 @@ def fetch_region(c, manifest: dict, region: str, *, dry_run: bool = False,
             img = Image.open(io.BytesIO(raw))
             img.load()
         except Exception:
+            print(f"  [{region}] {name}: 사진을 열지 못했다({len(raw)}바이트) — 건너뜀")
             continue
         if face_check(img):
             print(f"  [{region}] {name}: 얼굴이 잡혀 들이지 않는다")

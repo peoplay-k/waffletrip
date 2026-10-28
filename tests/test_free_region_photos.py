@@ -87,3 +87,34 @@ def test_rate_limit_is_retried_not_read_as_no_license(tmp_path, monkeypatch):
     monkeypatch.setattr(frp, "PLACES", {"japan": (("Tokyo", "도쿄", "tokyo"),)})
     manifest = {}
     assert frp.fetch_region(_Client(limited=2), manifest, "japan", face_check=lambda img: False) == 1
+
+
+def test_thumbnail_on_any_wikimedia_host_and_attribution_license(tmp_path, monkeypatch):
+    """공용이 upload. 이 아닌 위키미디어 주소로 썸네일을 주면 받는다. 'Attribution' 도 자유 라이선스."""
+    class _C(_Client):
+        def get(self, url, params=None):
+            r = super().get(url, params)
+            if (params or {}).get("action") == "query":
+                for page in r._d["query"]["pages"].values():
+                    info = page["imageinfo"][0]
+                    info["thumburl"] = "https://commons.wikimedia.org/w/thumb.php?f=Tokyo.jpg&w=1280"
+                    info["extmetadata"]["LicenseShortName"]["value"] = "Attribution"
+            return r
+    monkeypatch.setattr(frp, "ROOT", str(tmp_path))
+    monkeypatch.setattr(frp, "PLACES", {"japan": (("Tokyo", "도쿄", "tokyo"),)})
+    manifest = {}
+    assert frp.fetch_region(_C(), manifest, "japan", face_check=lambda img: False) == 1
+    assert manifest["japan"][0]["license"] == "Attribution"
+
+
+def test_non_wikimedia_thumbnail_is_refused(tmp_path, monkeypatch):
+    class _C(_Client):
+        def get(self, url, params=None):
+            r = super().get(url, params)
+            if (params or {}).get("action") == "query":
+                for page in r._d["query"]["pages"].values():
+                    page["imageinfo"][0]["thumburl"] = "https://example.com/x.jpg"
+            return r
+    monkeypatch.setattr(frp, "ROOT", str(tmp_path))
+    monkeypatch.setattr(frp, "PLACES", {"japan": (("Tokyo", "도쿄", "tokyo"),)})
+    assert frp.fetch_region(_C(), {}, "japan", face_check=lambda img: False) == 0
