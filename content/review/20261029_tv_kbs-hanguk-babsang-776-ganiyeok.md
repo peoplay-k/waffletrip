@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS1 '한국인의 밥상' 776회, 기차 떠난 간이역 곁에서 끓는 밥상"
+title: KBS1 '한국인의 밥상' 776회, 기차 떠난 간이역 곁에서 끓는 밥상
 source_name: ''
 source_url: ''
-summary: KBS1 '한국인의 밥상'이 29일 저녁 7시 40분 간이역 옆에서 평생을 산 사람들의 밥상을 찾아간다. 나주 장어탕, 서천 도토리묵, 예천 순대국밥이 나온다.
+summary: KBS1 '한국인의 밥상'이 29일 저녁 7시 40분 간이역 옆에서 평생을 산 사람들의 밥상을 찾아간다. 나주 장어탕, 서천 도토리묵,
+  예천 순대국밥이 나온다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/table
-status: approved
+- https://program.kbs.co.kr/1tv/culture/table
+status: duplicate
+duplicate_of: 20261022_tv_hankukin-bapsang-775.md
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 한국인의 밥상 | 회차 · 776회

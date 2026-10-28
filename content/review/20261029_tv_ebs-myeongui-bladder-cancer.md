@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '명의' 30일 밤 9시 55분, 통증 없는 혈뇨 뒤에 숨은 방광암"
+title: EBS '명의' 30일 밤 9시 55분, 통증 없는 혈뇨 뒤에 숨은 방광암
 source_name: ''
 source_url: ''
-summary: EBS1 '명의'가 30일 밤 9시 55분 방광암 편을 방송한다. 통증 없는 혈뇨라는 첫 신호부터 방광을 지키는 치료와 절제 뒤 인공방광 수술까지 다룬다.
+summary: EBS1 '명의'가 30일 밤 9시 55분 방광암 편을 방송한다. 통증 없는 혈뇨라는 첫 신호부터 방광을 지키는 치료와 절제 뒤 인공방광
+  수술까지 다룬다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005565720
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005565720
+status: published
+published_id: c-1a2c0495110addeafbdf1c13d757162ef4211b59
+published_on: '2026-10-29'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 명의
