@@ -217,21 +217,39 @@ def commons_credits(c, filenames: list[str]) -> dict[str, tuple[dict | None, str
     return out
 
 
+# 풍경 사진에서 '알아볼 만한 얼굴'만 본다. 편집실 업로드 검사(photo_prepare.inspect)는 네 방향으로
+# 돌려 32px 얼굴까지 잡는다 — 우리 직원 사진엔 맞지만, 2026-10-28 실측에서 공용 풍경 사진 66장 중
+# 53장을 막았다(르웨탄 위성사진·도쿄 타워까지). 지붕 기와·처마·석등이 얼굴로 잡힌다.
+# 편집원칙의 기준은 "사람 얼굴이 알아볼 만큼 담긴 사진"이다. 그래서 바로 선 방향만,
+# 짧은 변의 6% 이상인 얼굴만, 더 엄격한 일치(이웃 8)로 본다. 사람이 화면을 크게 차지하는
+# 사진은 업로드 검사와 같은 기준(PERSON_AREA_LIMIT)으로 막는다.
+FACE_MIN_SHARE = 0.06
+FACE_NEIGHBORS = 8
+
+
 def _has_face(img) -> bool:
-    """사진 반입(tools/photo_intake.py)과 같은 검사기 — 얼굴·사람이 잡히면 True.
-    검사기(cv2)를 못 쓰면 들이지 않는다(True, fail-closed)."""
-    import tempfile
+    """알아볼 만한 얼굴이나 사람이 크게 잡히면 True. 검사기(cv2)를 못 쓰면 True(fail-closed)."""
     try:
         sys.path.insert(0, os.path.join(ROOT, "tools"))
+        import cv2
+        import numpy as np
         import photo_prepare                                # noqa: WPS433
     except Exception:
         return True
-    with tempfile.NamedTemporaryFile(suffix=".jpg") as tmp:
-        img.convert("RGB").save(tmp.name, "JPEG", quality=90)
-        try:
-            return not photo_prepare.inspect(tmp.name).get("ok")
-        except Exception:
-            return True
+    try:
+        im = img.convert("RGB")
+        if max(im.size) > 1280:
+            k = 1280 / max(im.size)
+            im = im.resize((int(im.width * k), int(im.height * k)))
+        bgr = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR)
+        gray = cv2.equalizeHist(cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY))
+        side = max(48, int(min(im.size) * FACE_MIN_SHARE))
+        for cascade in (photo_prepare._FACE, photo_prepare._PROFILE):
+            if len(cascade.detectMultiScale(gray, 1.1, FACE_NEIGHBORS, minSize=(side, side))):
+                return True
+        return photo_prepare._person_area(bgr) >= photo_prepare.PERSON_AREA_LIMIT
+    except Exception:
+        return True
 
 
 def fetch_region(c, manifest: dict, region: str, *, dry_run: bool = False,
