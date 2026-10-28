@@ -49,3 +49,8 @@ def test_no_secrets_means_no_upload(monkeypatch, tmp_path, capsys):
     (tmp_path / "data" / "shorts_latest.json").write_text(__import__("json").dumps(LATEST), encoding="utf-8")
     assert yt.main(["--post"]) == 0
     assert "시크릿이 없어 건너뛴다" in capsys.readouterr().out
+
+
+def test_연예_숏폼은_여행_채널에_올리지_않는다():
+    latest = {"stem": "peopleroad-tv-20261028-1", "city": "tv", "caption": "x"}
+    assert yt.plan_short({"posted": []}, latest) is None

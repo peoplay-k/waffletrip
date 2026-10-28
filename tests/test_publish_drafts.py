@@ -195,3 +195,19 @@ def test_does_not_duplicate_when_already_in_todays_file(tmp_path, monkeypatch):
     main(str(data), str(review))
     lines = (data / "items" / f"{DAY}.jsonl").read_text(encoding="utf-8").splitlines()
     assert len(lines) == 1
+
+
+def test_같은_근거로_이미_낸_기사가_있으면_내보내지_않는다(tmp_path, monkeypatch):
+    """2026-10-28: 같은 EBS 보도자료로 10-25·10-26 에 거의 같은 글을 두 번 냈다."""
+    import src.publish_drafts as pd
+    review = tmp_path / "review"
+    review.mkdir()
+    head = "---\nid: art-ent-tv-{n}\nchannel: ent\nregion: ''\ncategory: tv\nsection: news\n" \
+           "kind: 보도자료\ntitle: '{t}'\nsource_name: ''\nsource_url: ''\nsummary: 요약.\n" \
+           "sources:\n  - https://about.ebs.co.kr/x?postId=1\nstatus: {st}\n{extra}---\n본문 문장이다.\n"
+    (review / "20261025_tv_a.md").write_text(head.format(
+        n="a", t="지식채널e 26~28일", st="published", extra="published_on: '2026-10-25'\n"), encoding="utf-8")
+    (review / "20261026_tv_b.md").write_text(head.format(
+        n="b", t="지식채널e 26~28일 다시", st="approved", extra=""), encoding="utf-8")
+    used = pd.already_used_sources(str(review), "2026-10-26")
+    assert used == {"https://about.ebs.co.kr/x?postId=1": "20261025_tv_a.md"}

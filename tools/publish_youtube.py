@@ -88,6 +88,10 @@ def _tags(caption: str) -> list[str]:
 def plan_short(state: dict, latest: dict | None) -> dict | None:
     if not latest or not latest.get("stem"):
         return None
+    # @peopleroad 는 **여행** 채널이다. 연예 '오늘의 방송' 숏폼(peopleroad-tv-*)은 올리지 않는다.
+    # 2026-10-28: 홀숫날 릴스용으로 연예 숏폼이 shorts_latest 에 들어가 여행 채널에 올라갔다.
+    if latest["stem"].startswith("peopleroad-tv-") or latest.get("city") == "tv":
+        return None
     key = f"short:{latest['stem']}"
     if already(state, key):
         return None

@@ -21,7 +21,7 @@ import hashlib
 import json
 import os
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import date as _date, datetime, timedelta, timezone
 
 import yaml
 
@@ -180,6 +180,54 @@ def collect_approved(review_dir: str, day: str) -> list[tuple[str, Item]]:
     return out
 
 
+SAME_SOURCE_DAYS = 10
+
+
+def _front(path: str) -> dict:
+    try:
+        with open(path, encoding="utf-8") as f:
+            return _split(f.read())[0] or {}
+    except Exception:
+        return {}
+
+
+def _sources(front: dict) -> set[str]:
+    src = front.get("sources") or []
+    return {str(u).strip() for u in (src if isinstance(src, list) else [src]) if str(u).strip()}
+
+
+def already_used_sources(review_dir: str, today: str, days: int = SAME_SOURCE_DAYS) -> dict[str, str]:
+    """최근 days 일에 이미 낸 기사의 근거 주소 → 그 파일 이름.
+
+    2026-10-28 실측: EBS 보도자료 하나('지식채널e 26~28일')를 10-25·10-26 에 거의 같은 글로
+    두 번 냈다. 하루 네 번 쓰고 보도자료가 며칠씩 재료에 남으니, 근거가 같은 글을 발행에서 막는다.
+    """
+    since = (_date.fromisoformat(today) - timedelta(days=days)).isoformat()
+    used: dict[str, str] = {}
+    if not os.path.isdir(review_dir):
+        return used
+    for name in os.listdir(review_dir):
+        if not name.endswith(".md"):
+            continue
+        front = _front(os.path.join(review_dir, name))
+        if front.get("status") == "published" and str(front.get("published_on") or "") >= since:
+            for u in _sources(front):
+                used.setdefault(u, name)
+    return used
+
+
+def _mark_duplicate(path: str, dup_of: str) -> None:
+    with open(path, encoding="utf-8") as f:
+        front, body = _split(f.read())
+    front["status"] = "duplicate"
+    front["duplicate_of"] = dup_of
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("---\n")
+        yaml.safe_dump(front, f, allow_unicode=True, sort_keys=False)
+        f.write("---\n")
+        f.write(body.lstrip("\n"))
+
+
 def _mark_published(path: str, item_id: str, day: str) -> None:
     with open(path, encoding="utf-8") as f:
         front, body = _split(f.read())
@@ -220,11 +268,22 @@ def main(data_dir: str = "data", review_dir: str = "content/review") -> int:
                     except Exception:
                         pass
 
+    used = already_used_sources(review_dir, today)
     published: list[tuple[str, Item]] = []
     for path, item in approved:
         if item.id in present:
             print(f"  오늘 지면에 이미 있다, 건너뛴다: {os.path.basename(path)}")
             continue
+        front = _front(path)
+        if front.get("status") == "approved":
+            same = [u for u in _sources(front) if u in used and used[u] != os.path.basename(path)]
+            if same:
+                print(f"  같은 근거로 이미 낸 기사가 있다, 내보내지 않는다: {os.path.basename(path)} "
+                      f"← {used[same[0]]}")
+                _mark_duplicate(path, used[same[0]])
+                continue
+            for u in _sources(front):
+                used.setdefault(u, os.path.basename(path))   # 같은 회차의 두 초안끼리도 막는다
         published.append((path, item))
 
     if not published:
