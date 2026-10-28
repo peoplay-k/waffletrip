@@ -3,7 +3,8 @@
 """오늘 쓴 해설이 약속대로 됐는지 본다.
 
 2026-10-21 부터 출처는 지면에 안 나간다(사장님). 대신 앞머리 sources: 에 참고한
-원문 주소가 남아 있는지, 길이가 충분한지, 본문에 매체 이름이 없는지 본다.
+원문 주소가 남아 있는지, 길이가 맞는지, 본문에 매체 이름이 없는지, 신문 기사 형식(문단만,
+소제목·목록·표·"알아둘 점" 없음 — 2026-10-28 사장님)을 지켰는지 본다.
 
     python3 tools/check_articles.py            # 오늘치
     python3 tools/check_articles.py --day 20260916
@@ -19,6 +20,7 @@ from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.attribution import find_media_attribution, media_names  # noqa: E402
+from src.article_format import format_problems  # noqa: E402
 
 KST = timezone(timedelta(hours=9))
 MIN_CHARS = 900          # 이보다 짧으면 재료가 얇았다는 뜻이다
@@ -45,8 +47,12 @@ def check(day: str) -> int:
         근거 = re.search(r"^sources:\s*\n(\s+-\s+https?://\S+\s*\n?)+", text, re.M)
         if not 근거 and not (연예 and 현장):
             문제.append("근거 주소(sources:) 없음")
-        if len(body) < MIN_CHARS:
+        # 2026-10-28: 신문 기사 형식(문단만). 길이도 여기서 본다. 방송 회차 기사는 따로 정한 형식.
+        방송 = re.search(r"^category:\s*tv\s*$", text, re.M) is not None
+        기획 = "[기획]" in name
+        if 방송 and len(body) < MIN_CHARS:
             문제.append(f"{len(body)}자")
+        문제 += format_problems(body, tv=방송, feature=기획)
         # 본문에 매체 인용 금지(2026-10-19). 발행 단계가 이런 원고는 내보내지 않는다.
         인용 = find_media_attribution(body, media_names(body))
         if 인용:
