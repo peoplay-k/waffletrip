@@ -140,15 +140,15 @@
 ## 국내
 
 ### 태안군, 맛·멋·흥 넘치는 2026 태안거리축제 31일 팡파르
-- 매체 5곳 · 글로벌뉴스통신GNA · 동양일보 · 신아일보 · 엠뉴스 · 충청일보  ← 여러 곳이 썼다
-  - 엠뉴스: 
-    https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QeHdqV2VMNXlvUUZnMkRLaWhCQlo5dE1RS29fMHYtYU5MWktSSDEyRmRpc1kzV3VFZlNCOGs5dFdwYnV1YkxCUXZjVzdzSDRwMGNVMUFHOHNBcGZVQk84LUtINjg5QQ?oc=5
-  - 신아일보: 
-    https://news.google.com/rss/articles/CBMicEFVX3lxTFBzNGJuNGVoNzE5VDNDQ3VZLUM3dUwxeVlXa0t1eDlyZXlXaXc5VnJ0VTlkQnFQa1YwWUppeFF5RDVTVkNQdWdtTGZaWTBlcm9aeGprVll5MUprT1VkUzNOLXRUbGMxdDZzVjJPSWE4YWw?oc=5
-  - 글로벌뉴스통신GNA: 
-    https://news.google.com/rss/articles/CBMidEFVX3lxTE1VVnVuNlhhUC1oT3ZzU2hvYUZJLWgtX3MzYzh1MjE4VkJRamdabVBrcFBXUUxNSzloa2lWTWIyd2R3emNpRzA0VmdVM0hCUFE0Uk9MLXdWRjQ2eFZqTnpVTXpDZ2ZSeXMtSEM5OHdPeVhWVzNJ?oc=5
-  - 동양일보: 
-    https://news.google.com/rss/articles/CBMia0FVX3lxTE40OHpueWxnVHhHVlpfUlBmS0c2d0NXRGNjS05jaFpHSGxrbm5zMXQ4WXg0MXNaMmtBblhDdjBoT2dkTUc2cnROUG5BdWlRYVUxT3A2aUd3dENjMnowUTIxSzFUZGpiRkc5RndF?oc=5
+- 매체 6곳 · 글로벌뉴스통신GNA · 동양일보 · 신아일보 · 엠뉴스 · 충청일보 · 투어코리아  ← 여러 곳이 썼다
+  - 엠뉴스: 태안군 원도심의 중심축인 태안읍 중앙로가 10월의 마지막 날 활력과 낭만이 넘쳐나는 축제의 거리로 완전히 탈바꿈한다. 태안군은 군민 화합을 도모.
+    http://www.cmni.news/news/articleView.html?idxno=106548
+  - 신아일보: 충남 태안군이 10월 마지막 날 태안읍 중앙로를 문화와 공연, 먹거리가 어우러진 축제 공간으로 조성해 원도심 상권 활성화와 군민 화합에 나선다. 군은 오는 31일
+    https://www.shinailbo.co.kr/news/articleView.html?idxno=5076433
+  - 글로벌뉴스통신GNA: [태안=글로벌뉴스통신] 태안군은 10월 31일(토) 오전 10시부터 오후 5시까지 태안읍 중앙로 일원에서 ‘2026년 태안거리축제’를 개최한다고 밝혔다. 태안거리축
+    https://www.globalnewsagency.kr/news/articleView.html?idxno=501277
+  - 동양일보: 태안군 태안읍 중앙로에서 오는 31일 2026 태안거리축제가 열린다. 원도심 경제 활성화를 위해 2002년 시작된 거리축제는 중앙로 광장~태안중 후문 구간 도로에 특산물판매장터, 먹거리 부스, 공예·체험부스 등 128동의 천막 부스가 들어서 방문객들을 맞이한다.
+    https://www.dynews.co.kr/news/articleView.html?idxno=871226
 
 ### 제31회 강원민속예술축제 오늘, 춘천서 개막
 - 매체 4곳 · G1방송 · 강원도민일보 · 연합뉴스 · 유스연합  ← 여러 곳이 썼다
@@ -162,15 +162,15 @@
     https://www.youthassembly.kr/news/1022177
 
 ### 군산 불꽃축제 11월 14일 개막…내항 가을 밤하늘 수놓는다
-- 매체 4곳 · https://www.localm.kr/ · 아시아경제 · 전북일보 인터넷신문 · 전북제일신문  ← 여러 곳이 썼다
-  - https://www.localm.kr/: 
-    https://news.google.com/rss/articles/CBMibEFVX3lxTFBYTzhXMzlvTlNvSmpWbFJBcWpCWUxraXEwUDM0M2JhTlhkd3B6ek9NSFRSUS10bnVpa3JiVkgtUXg0TGpTMi1nZW1sZm11dk0xaGxqQTVZaFFONDRxTnVJLWxYalcxdndneWQtRg?oc=5
-  - 전북일보 인터넷신문: 
-    https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FT1pJeDJpT2FqcG41QVA1XzNmMHI0dVYtUzlQNEI1U3dVaFdHUmhaamV5dUFUTDdILWpXal9pdVZ6N3U2UWNfUGg1REhEQlpaOGg5WtIBWEFVX3lxTE84cUNrajRDbDRwQmM3S21jbXFaUVBQeG5FRk4xU2lFeC1RaDdnOERZY1Btem9jNnFoVGV5RThFTzFEMkxPYmZLZTdISlIyblZyTm1Rd0xPSlM?oc=5
-  - 아시아경제: 
-    https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QX2oyUC1tNi1fbWdYMldBcEZieDI0OHRyWmstMlVFUjcxaldaX0N1akhpX3kwVjlSZThEY3YtX3ZYOTl5emNBVGFHUmhvaVVvdTc0R2sxdXQtQTg0YkZVbA?oc=5
-  - 전북제일신문: 
-    https://news.google.com/rss/articles/CBMiakFVX3lxTE55YWNkSGpBWXcwU3c0eVBNS3RtS0MtSWZDRmpjbDZRbUVLUERxWGI0NW1uQmZxYzNlZWVXYXhHVy1mRXU4eFM1NXBfQkotNlphd0x6TXZJSWw2aDk3eWN5clpoX00ydHRsRUE?oc=5
+- 매체 4곳 · 로컬엠 · 아시아경제 · 전북일보 인터넷신문 · 전북제일신문  ← 여러 곳이 썼다
+  - 로컬엠: 이번 축제는 ‘군산의 밤을 물들이다’를 주제로 진행된다. 축사 등 별도의 의식 행사는 생략하고 불꽃 연출에 집중하며, 약 1만 석 규모의 관람 구역을 마련한다.
+    https://www.localm.kr/bbs/board.php?bo_table=news&wr_id=5090
+  - 전북일보 인터넷신문: 늦가을 군산 내항의 밤하늘과 금강의 물결이 불꽃으로 물들 예정이다. 군산문화관광재단은 11월 14일 오후 8시 군산 내항 친수공원 일원(군산근대역사박물관 뒤편)에서 2026 군산불꽃축제 ‘군산의 밤을 물들이다’를 개최한다고 27일 밝혔다.
+    https://www.jjan.kr/article/20261027500008
+  - 아시아경제: 군산 내항의 밤하늘을 화려하게 수놓을 해상 불꽃 쇼가 다음 달 14일 펼쳐진다.
+    https://www.asiae.co.kr/article/2026102713522613785
+  - 전북제일신문: 군산문화관광재단이 오는 11월 14일 오후 8시 군산 내항 친수공원 일원에서 ‘2026 군산불꽃축제’를 개최한다. ‘군산의 밤을 물들이다’를 주제로 열리는 이번 축
+    https://www.jbjnews.com/news/articleView.html?idxno=329284
 
 ## 여행업계
 
@@ -213,6 +213,13 @@
   - 트래블데일리: 노랑풍선이 겨울 여행을 계획하는 고객들을 위해 여행 목적과 취향에 따라 상품을 선택할 수 있는 겨울 여행 기획전을 진행한다. 이번 기획전은 겨울방학을 맞아 가족과 함께 특별한 경험을 원하는 고객부터 계절의 풍경과 온천을 즐기려는 여행객, 추위를 피해 따뜻한 휴양지에서 여유를 찾으려는 고
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72451
 
+### 오늘 금값, 10월 27일 한국거래소 금시세 하락폭 축소 미니금은 제자리
+- 매체 1곳 · 투어코리아  ← 여러 곳이 썼다
+  - 투어코리아: [투어코리아=김동환 기자] 10월 27일 오늘 금값은 한국거래소 금 현물시장에서 순금이 소폭 하락하고 미니금은 보합을 기록했다. 전 거래일인 26일 두 종목이 모두 하락했던 것과 비교하면 가격 변동 폭이 축소된 모습이다.
+    https://www.tournews21.com/news/articleView.html?idxno=146802
+  - 투어코리아: [투어코리아=김동환 기자] 10월 28일 오늘 금값이 한국거래소 금 현물시장에서 상승세로 돌아섰다. 전 거래일인 27일 순금이 소폭 하락하고 미니금이 보합을 기록했던 것과 달리 28일에는 두 종목 모두 1% 이상 상승했다.
+    https://www.tournews21.com/news/articleView.html?idxno=146897
+
 ### [종합 환율] 10월 27일 장중 달러 엔 유로 등 주요 통화 하락
 - 매체 1곳 · 투어코리아  ← 여러 곳이 썼다
   - 투어코리아: [투어코리아=김동환 기자] 27일 오전 9시 46분 기준, 네이버페이 증권에 따르면 장중 주요 통화는 원화 대비 모두 하락하며 거래되고 있다. 원/달러 환율은 전거래일보다 2.6원(-0.2%) 내린 1,324.80원에 거래 중이다.
@@ -226,13 +233,6 @@
     https://www.tournews21.com/news/articleView.html?idxno=146782
   - 투어코리아: [투어코리아=이창호 기자] 인천시가 도심 속 복개 하천을 자연 친화적 생태 공간으로 되살려내며 전국 최고 수준의 하천 복원 및 치수 행정 역량을 입증했다. 인천광역시는 부평구와 함께 추진해 2025년 12월 준공한 ‘굴포천 생태하천 복원사업’이 행정안전부 주관 '2026년 소하천 정비사
     https://www.tournews21.com/news/articleView.html?idxno=146848
-
-### '롤러코스터 줌 회의' 670만 뷰…울산 남구, 제16회 대한민국 SNS 대상 최우수상
-- 매체 1곳 · 투어코리아  ← 여러 곳이 썼다
-  - 투어코리아: [투어코리아=김교환 기자] 울산 남구(구청장 임현철)가 '제16회 2026 대한민국 SNS 대상' 기초자치단체 부문에서 최우수상을 수상했다고 26일 밝혔다. 대한민국 SNS 대상은 (사)한국소셜콘텐츠진흥협회가 주최·주관하고 과학기술정보통신부 등이 후원하는 소셜미디어 시상식이다.
-    https://www.tournews21.com/news/articleView.html?idxno=146706
-  - 투어코리아: [투어코리아=유경훈 기자 ] 경기관광공사(이하 공사)가 어제(26일) 열린 ‘2026 대한민국 SNS 대상’에서 공공기관 공사 부문 최우수상을 수상했다. 지난해에 이어 2년 연속 최우수상 획득으로 차별화된 디지털 소통 역량과 관광 마케팅 경쟁력을 인정받았다.
-    https://www.tournews21.com/news/articleView.html?idxno=146789
 
 ## 연예 (편집실이 쓴다 — 자동 해설 대상 아님)
 
