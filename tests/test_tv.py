@@ -51,16 +51,33 @@ def _ent(item_id, category, photo=None):
                 body_md="본문", photo=photo, channel="ent", category=category)
 
 
-def test_방송_기사에만_우리_카드를_붙인다(tmp_path):
+def test_사진_없는_문화_기사에는_우리_카드를_붙인다(tmp_path):
+    """처음엔 방송만, 2026-10-28 부터 사진 없는 문화 기사 전부("사진도 좀 다 넣어")."""
     tv_item, movie, has_photo = _ent("c-1", "tv"), _ent("c-2", "movie"), _ent("c-3", "tv", "/img/x.webp")
     made = attach_tv_cards([tv_item, movie, has_photo], str(tmp_path))
     if made == 0:                      # 한글 글꼴이 없는 환경 — 사진 없이 나가는 것이 맞다
         assert tv_item.photo is None
         return
-    assert made == 1
-    assert tv_item.photo == "/img/tv/c-1.jpg"
+    assert made == 2
+    assert tv_item.photo == "/img/tv/c-1.jpg" and movie.photo == "/img/tv/c-2.jpg"
     assert (tmp_path / "img/tv/c-1.jpg").exists() and (tmp_path / "og/tv/c-1.jpg").exists()
-    assert movie.photo is None and has_photo.photo == "/img/x.webp"
+    assert has_photo.photo == "/img/x.webp"          # 사진이 있으면 그대로
+
+
+def test_카드_제목은_어절_단위로_줄을_바꾼다():
+    """'US/B', '무/대' 처럼 낱말 중간에서 끊기던 것(2026-10-28 사장님: "줄간격 등도 맞추고")."""
+    from PIL import Image, ImageDraw
+    from src.render.tv_cards import _font, _wrap
+    font = _font(64)
+    if font is None:
+        return
+    d = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    title = "EBS '스페이스 공감', 색소포니스트 송하철·비브라포니스트 김예찬의 재즈 무대"
+    lines = _wrap(d, title, font, 1040, 3)
+    words = set(title.split())
+    for line in lines:
+        for w in line.rstrip("…").split():
+            assert w in words or any(x.startswith(w) for x in words), w
 
 
 def test_예고편은_공식채널_날짜_프로그램이_다_맞아야_붙는다():

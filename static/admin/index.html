@@ -5,14 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>피플로드 편집실</title>
-<style>
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif}
-  #nc-root:empty::after{content:"편집실을 불러오는 중…";display:block;padding:60px;
-    text-align:center;color:#6E6E73;font-size:15px}
-</style>
 </head>
 <body>
-<div id="nc-root"></div>
-<script src="https://unpkg.com/decap-cms@^3.8.0/dist/decap-cms.js"></script>
+<!-- 편집실(2026-10-28). Decap CMS 는 GitHub 로그인을 중개할 서버(tools/oauth-worker.js)가
+     있어야 했는데, 그 서버를 끝내 세우지 못해 로그인이 한 번도 안 됐다. 같은 설정 파일을
+     그대로 읽는 Sveltia CMS 로 바꿨다 — GitHub 개인 액세스 토큰으로 바로 로그인한다.
+     토큰은 이 브라우저에만 남는다. 만드는 법은 docs/ADMIN.md. 판은 고정한다(바뀌면 시험 후 올린다). -->
+<script src="https://unpkg.com/@sveltia/cms@0.235.1/dist/sveltia-cms.js"></script>
 </body>
 </html>

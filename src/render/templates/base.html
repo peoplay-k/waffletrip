@@ -386,7 +386,7 @@ body{overflow-x:clip}
 .band .side-leads{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;
   border:none;padding:26px 0 0;margin-top:22px;border-top:1px solid var(--line)}
 .band .side-lead img{aspect-ratio:16/10;max-height:none}
-.band .side-lead h3{font-size:16.5px;line-height:1.35;margin:4px 0 4px;
+.band .side-lead h3{font-size:16.5px;line-height:1.35;margin:4px 0 4px;min-height:2.7em;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .data-strip{margin-top:0;border-top:none}
 
@@ -420,7 +420,8 @@ body{overflow-x:clip}
 .pgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 22px}
 .pcard img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:2px;margin-bottom:9px}
 .pcard.text-only{border-top:1px solid var(--line);padding-top:12px}
-.pcard h3{font-size:15px;line-height:1.4;margin:4px 0 0;font-weight:700;letter-spacing:-.03em;
+/* 제목 칸을 두 줄 높이로 맞춘다 — 한 줄짜리 제목 옆에서 판이 들쭉날쭉했다(2026-10-28 "줄간격 맞추고") */
+.pcard h3{font-size:15px;line-height:1.4;margin:4px 0 0;font-weight:700;letter-spacing:-.03em;min-height:2.8em;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 ol.headline-grid{list-style:none;margin:0;padding:0;display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;grid-auto-flow:column;
@@ -499,6 +500,7 @@ ol.headline-grid img{flex:0 0 72px;width:72px;height:48px;object-fit:cover;borde
   .band .side-lead{display:grid;grid-template-columns:minmax(0,1fr) 110px;gap:4px 14px;
     padding:13px 0;border-bottom:1px solid var(--line)}
   .band .side-lead:last-child{border-bottom:none}
+  .band .side-lead h3,.pcard h3{min-height:0}
   .band .side-lead > a:first-child{grid-column:2;grid-row:1/4;align-self:center}
   .band .side-lead img{margin:0;aspect-ratio:3/2}
   .blk-top{grid-template-columns:1fr;gap:6px}

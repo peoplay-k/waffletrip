@@ -187,7 +187,21 @@ def photo_places(manifest: dict) -> dict[str, str]:
     for entries in manifest.values():
         for e in entries if isinstance(entries, list) else []:
             if isinstance(e, dict) and e.get("file"):
-                out[web_path(e["file"])] = names.get(e.get("city") or "", "")
+                # 자유 이용 사진은 받을 때 장소 이름을 적어 둔다(tools/free_region_photos.py)
+                out[web_path(e["file"])] = e.get("place") or names.get(e.get("city") or "", "")
+    return out
+
+
+def photo_credits(manifest: dict) -> dict[str, dict]:
+    """웹 경로 → 자유 이용 사진의 작성자·라이선스·원본 주소. 직접 찍은 사진은 없다.
+    캡션에 밝힌다(CC BY 조건). '직접 촬영'을 달면 안 되는 사진을 가려내는 데도 쓴다."""
+    out: dict[str, dict] = {}
+    for entries in manifest.values():
+        for e in entries if isinstance(entries, list) else []:
+            if isinstance(e, dict) and e.get("file") and e.get("free"):
+                out[web_path(e["file"])] = {"artist": e.get("artist") or "작성자 미상",
+                                            "license": e.get("license") or "",
+                                            "source": e.get("source") or ""}
     return out
 
 

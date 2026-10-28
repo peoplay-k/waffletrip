@@ -86,6 +86,18 @@ jobs:
       - name: 해설 발행
         run: python -m src.publish_drafts
 
+      # 편집실(/admin/)에서 이미 실린 기사를 고치면 발행 기록에도 옮긴다. 지면은 발행
+      # 기록을 읽으므로 이게 없으면 고쳐도 라이브가 안 바뀐다. 제목이 바뀌면 옛 주소를 넘긴다.
+      - name: 고친 기사 반영
+        run: python -m src.sync_edits
+
+      # 우리 사진이 없는 지역(일본·태국·대만·라오스·국내·업계·제주)에 자유 이용 풍경 사진을
+      # 들인다(2026-10-28 사장님: "사진도 좀 다 넣어"). 라이선스가 확인된 것만, 얼굴 검사를
+      # 지난 것만. 이미 받은 것은 다시 받지 않는다. 실패해도 신문은 나간다.
+      - name: 자유 이용 사진
+        run: python tools/free_region_photos.py
+        continue-on-error: true
+
       # 2026-09-06 waffletrip.com 연결. 이제 사이트가 도메인 루트에서
       # 서비스되므로 경로 접두사를 주지 않는다(src/render/site.py 기본값).
       # 오늘 쓸 기사거리를 묶는다. 해설 에이전트가 12:17 에 이걸 읽는다.
@@ -185,7 +197,7 @@ jobs:
           # (2026-09-25 실측: 아직 안 생긴 data/photo_intake.json) 명령 전체를
           # 죽여 **아무것도 스테이징되지 않고** "변경 없음"으로 넘어간다 —
           # 그날 발행 이력이 통째로 안 남는다. 재발행은 가장 나쁜 사고다.
-          for p in data/items data/published_index.json data/resolved.json \
+          for p in data/items data/published_index.json data/resolved.json data/moved_urls.json \
                    data/health.json content/review longform_script.json \
                    data/shorts_latest.json data/story_material.md \
                    assets/photos data/photos/used.json data/photo_intake.json; do

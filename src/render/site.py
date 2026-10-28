@@ -20,7 +20,7 @@ from markupsafe import Markup
 
 from src.desks import (BEATS, DESK_DUTIES, ENT_DESK, GENERAL_REPORTER,
                        byline_for, staff_table)
-from src.photos import (assign as assign_photos, copy_into, load_manifest, og_path,
+from src.photos import (photo_credits, assign as assign_photos, copy_into, load_manifest, og_path,
                         photo_dims, photo_places, render_og_images,
                         load_used, save_used)
 from src.render.md import render as md_render
@@ -441,9 +441,18 @@ def group_by_region(items: list[Item]) -> dict[str, list[Item]]:
 
 
 def split_panel(items: list[Item]) -> tuple[list[Item], list[Item]]:
-    """A등급(사실 데이터)은 상단 패널로, 나머지는 기사 목록으로."""
+    """A등급(사실 데이터)은 상단 패널로, 나머지는 기사 목록으로.
+
+    지면은 14일치를 담으므로 A등급도 날짜별로 쌓인다. 그대로 걸면 지역면 머리에
+    환율·날씨가 2주치 줄줄이 붙는다(2026-10-28 사장님: "지역면 환율도 오늘 것만").
+    가장 최근 날짜 것만, 같은 항목은 한 번만 건다. 홈 데이터 띠와 같은 규칙이다.
+    """
     panel = [i for i in items if i.grade == "A"]
-    by_topic = group_by_topic(items)
+    if panel:
+        latest = max((i.published_at or "")[:10] for i in panel)
+        seen: set = set()
+        panel = [i for i in panel if (i.published_at or "")[:10] == latest
+                 and not (i.title in seen or seen.add(i.title))]
     articles = [i for i in items if i.grade != "A"]
     return panel, articles
 
@@ -595,6 +604,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         item.source_name = byline_for(item)
 
     manifest = load_manifest()
+    credits = photo_credits(manifest) if manifest else {}
     if manifest:
         # 지역면 단위로 배정한다. 한 화면에 같은 사진이 두 번 걸리지 않게.
         # 연예 기사에는 지역 사진을 자동으로 붙이지 않는다 — 괌 해변 사진이
@@ -651,6 +661,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         "city_links": [(slug, CITY_NAMES[slug]) for slug in by_city],
         # 사진 캡션에 촬영지를 밝힌다. 지역 사진이라도 어느 도시인지 말해야 정직하다.
         "photo_places": photo_places(manifest) if manifest else {},
+        "photo_credits": credits,
         "og_photo": (lambda ph: og_path(ph) if ph else ""),
         "dims": _dims_attr(photo_dims(manifest, [i.photo for i in items if i.photo]) if manifest else {}),
         "video": video,
@@ -727,9 +738,10 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     if lead is not None:
         def _pic_first(rows):
             return [i for i in rows if i.photo] + [i for i in rows if not i.photo]
-        same = _pic_first([i for i in pool if is_ent(i) == is_ent(lead)])
-        other = _pic_first([i for i in pool if is_ent(i) != is_ent(lead)])
-        sub_leads = same[:2] + other[:1]
+        # 여행 둘 · 문화 하나 — 머리가 어느 채널이든(여행이 먼저, 2026-10-28)
+        travel = _pic_first([i for i in pool if not is_ent(i)])
+        culture = _pic_first([i for i in pool if is_ent(i)])
+        sub_leads = travel[:2] + culture[:1]
         if len(sub_leads) < 3:
             sub_leads += [i for i in pool if i not in sub_leads][:3 - len(sub_leads)]
     shown = used | {i.id for i in sub_leads}
@@ -773,8 +785,9 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     places = photo_places(manifest) if manifest else {}
     photo_strip = []
     for i in listed:
+        # '직접 찍은 사진' 줄이다 — 자유 이용 사진(위키미디어 공용)은 넣지 않는다
         if (_real_photo(i) and not is_ent(i) and i.photo not in seen_photos
-                and i.region in REGION_NAMES):
+                and i.photo not in credits and i.region in REGION_NAMES):
             seen_photos.add(i.photo)
             photo_strip.append({"src": i.photo, "region": i.region,
                                 "place": places.get(i.photo) or REGION_NAMES[i.region]})

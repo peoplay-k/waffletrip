@@ -11,15 +11,12 @@ backend:
   name: github
   repo: peoplay-k/waffletrip
   branch: main
-  # GitHub 로그인을 중개하는 주소. tools/oauth-worker.js 를 배포하고
-  # 그 주소를 여기에 넣는다. 넣기 전에는 로그인이 되지 않는다.
-  base_url: https://REPLACE-ME.workers.dev
-  auth_endpoint: auth
+  # 로그인은 GitHub 개인 액세스 토큰으로 한다(Sveltia CMS, 2026-10-28). 로그인을 중개할
+  # 서버(base_url)는 두지 않는다 — 세우지 못해 예전 편집실은 로그인이 한 번도 안 됐다.
+  # 토큰 만드는 법: docs/ADMIN.md
 
-# 로컬에서 시험할 때: npx decap-server 를 띄우고 아래를 true 로.
-local_backend: false
-
-locale: ko
+# 화면 언어는 브라우저 언어(한국어)를 따른다. 로컬 저장소로 일하려면 로그인 화면의
+# 'Work with Local Repository'(크롬·엣지)로 저장소 폴더를 고른다.
 publish_mode: simple
 media_folder: content/uploads
 public_folder: /content/uploads
@@ -39,7 +36,7 @@ collections:
       - { label: 발행대기, field: status, pattern: approved }
       - { label: 발행됨, field: status, pattern: published }
       - { label: 여행, field: channel, pattern: travel }
-      - { label: 연예, field: channel, pattern: ent }
+      - { label: 문화, field: channel, pattern: ent }
     fields:
       - label: 제목
         name: title
@@ -52,8 +49,8 @@ collections:
         default: travel
         options:
           - { label: 여행 — 지역면에 실립니다, value: travel }
-          - { label: 연예 — /ent/ 부문에 실립니다, value: ent }
-        hint: 연예를 고르면 아래 '지역면'은 무시되고 '연예 부문'이 지면이 됩니다.
+          - { label: 문화 — /ent/ 부문에 실립니다, value: ent }
+        hint: 문화를 고르면 아래 '지역면'은 무시되고 '문화 부문'이 지면이 됩니다.
 
       - label: 지역면
         name: region
@@ -72,7 +69,7 @@ collections:
           - { label: 대만, value: taiwan }
           - { label: 국내, value: korea }
           - { label: 여행업계, value: industry }
-        hint: 여행 기사는 반드시 고릅니다. 연예 기사는 아무거나 두어도 무시됩니다.
+        hint: 여행 기사는 반드시 고릅니다. 문화 기사는 아무거나 두어도 무시됩니다.
 
       - label: 문화 부문
         name: category
@@ -147,14 +144,13 @@ collections:
         default: draft
         options:
           - { label: 작성중 (지면에 안 나감), value: draft }
-          - { label: 발행대기 (다음 발행 때 나감), value: approved }
-          - { label: 발행됨, value: published }
+          - { label: 발행대기 (저장하면 몇 분 안에 나감), value: approved }
+          - { label: 발행됨 (고치면 몇 분 안에 지면도 바뀜), value: published }
 
       - label: 대표 사진
         name: photo
         widget: image
         required: false
-        allow_multiple: false
         hint: >-
           직접 찍은 사진만. 얼굴이 보이면 지면에 안 나갑니다(자동 검사).
           공개 저장소라 올린 원본은 지워도 이력에 남습니다. 본문 안 이미지는 받지 않습니다.
@@ -173,9 +169,20 @@ collections:
         required: false
         hint: 발행 파이프라인이 적습니다. 손대지 않습니다. "얼굴 2건 검출 — 지면에 싣지 않았다" 처럼.
 
+      # 발행 파이프라인이 쓰는 칸. 화면에는 안 보이지만 저장할 때 지우면 안 된다 —
+      # published_id 가 없어지면 고친 내용이 지면에 안 옮겨지고(src/sync_edits.py),
+      # sources 가 없어지면 같은 근거로 두 번 내는 것을 못 막는다.
+      - { label: 원고 id, name: id, widget: hidden }
+      - { label: 발행 id, name: published_id, widget: hidden }
+      - { label: 발행일, name: published_on, widget: hidden }
+      - { label: 근거 주소, name: sources, widget: hidden }
+      - { label: 보류 사유, name: reason, widget: hidden }
+      - { label: 중복 원고, name: duplicate_of, widget: hidden }
+
       - label: 본문
         name: body
         widget: markdown
         hint: >-
-          표를 적극적으로 씁니다. 실측값은 문장으로 풀지 말고 표로 놓습니다.
-          공개하는 가격은 소비자가와 실제 결제가뿐입니다. 상품 링크·전화번호는 넣지 않습니다.
+          신문 기사 형식(2026-10-28): 요약 문단 → 발표 문단("○○는 N일 …했다고 밝혔다") →
+          세부 문단 → 관계자 말. 소제목·목록·표·굵은 글씨·"알아둘 점"은 쓰지 않습니다.
+          매체 이름("○○ 보도에 따르면")은 본문에 쓰지 않습니다. 상품 링크·전화번호도 넣지 않습니다.

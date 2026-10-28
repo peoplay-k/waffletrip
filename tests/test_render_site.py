@@ -947,3 +947,15 @@ def test_사이트맵에는_우리가_쓴_것만_넣는다():
 
     code = inspect.getsource(feeds.render_sitemap)
     assert 'grade not in ("A", "B")' in code, "A·B 를 사이트맵에서 빼야 한다"
+
+
+def test_region_panel_shows_only_the_latest_day():
+    """지역면 머리 환율·날씨는 오늘 것만(2026-10-28 사장님). 2주치가 줄줄이 붙었다."""
+    old = make("a1", "오늘의 환율 — 1 USD", grade="A")
+    old.published_at = "2026-10-20T08:00:00+09:00"
+    new = make("a2", "오늘의 환율 — 1 USD", grade="A")
+    new.published_at = "2026-10-28T08:00:00+09:00"
+    wx = make("a3", "오늘의 날씨 — 하갓냐", grade="A")
+    wx.published_at = "2026-10-28T08:00:00+09:00"
+    panel, _ = split_panel([old, new, wx])
+    assert [i.id for i in panel] == ["a2", "a3"]

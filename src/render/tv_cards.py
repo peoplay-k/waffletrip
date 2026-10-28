@@ -1,4 +1,5 @@
-"""연예 '방송' 기사의 대표 이미지 — 우리가 그린 카드.
+"""문화 기사의 대표 이미지 — 우리가 그린 카드. 처음엔 '방송' 기사만(2026-10-16),
+2026-10-28 부터 사진 없는 문화 기사 전부.
 
 방송사들이 보도 스틸의 무단 게재를 금지한다(2026-10-16 실측: MBC "사전 동의 없이
 무단 전재 및 게재를 할 수 없습니다", SBS·EBS 무단 전재 금지). 사장님 결정으로 사진
@@ -13,6 +14,7 @@ import os
 import re
 
 from src.brand import DOMAIN, SITE_NAME, SITE_NAME_EN
+from src.topics import ENT_TOPIC_NAMES, ent_category_of
 
 W, H = 1200, 630
 INK = (14, 14, 15)
@@ -42,24 +44,41 @@ def _font(size: int):
 
 
 def _wrap(draw, text: str, font, width: int, max_lines: int) -> list[str]:
-    """글자 단위로 줄을 나눈다. 한국어 제목은 띄어쓰기가 적어 낱말 단위로 못 자른다.
-    넘치면 마지막 줄 끝을 '…' 로 줄인다."""
-    lines, cur, used = [], "", 0
-    for ch in text:
-        if draw.textlength(cur + ch, font=font) > width and cur:
-            lines.append(cur.rstrip())
-            used += len(cur)
-            cur = ch.lstrip()
-            if len(lines) == max_lines:
-                break
-        else:
-            cur += ch
-    else:
-        if cur:
+    """어절(띄어쓰기) 단위로 줄을 나눈다. 넘치면 마지막 줄 끝을 '…' 로 줄인다.
+
+    예전에는 글자 단위로 잘라 "USB" 가 "US/B", "무대" 가 "무/대" 로 끊겼다
+    (2026-10-28 사장님: "줄간격 등도 맞추고"). 한 어절이 한 줄보다 길 때만 글자로 자른다.
+    """
+    words = text.split()
+    lines: list[str] = []
+    cur = ""
+    i = 0
+    while i < len(words):
+        w = words[i]
+        cand = f"{cur} {w}" if cur else w
+        if draw.textlength(cand, font=font) <= width:
+            cur, i = cand, i + 1
+            continue
+        if cur:                                   # 이 어절은 다음 줄로
             lines.append(cur)
-            used += len(cur)
-    if used < len(text) and lines:
-        lines[-1] = lines[-1][:-1] + "…"
+            cur = ""
+        else:                                     # 어절 하나가 한 줄보다 길다 — 글자로
+            cut = len(w)
+            while cut > 1 and draw.textlength(w[:cut], font=font) > width:
+                cut -= 1
+            lines.append(w[:cut])
+            words[i] = w[cut:]
+        if len(lines) == max_lines:
+            break
+    if cur and len(lines) < max_lines:
+        lines.append(cur)
+        i = len(words)
+    if (i < len(words) or len(lines) > max_lines) and lines:
+        lines = lines[:max_lines]
+        last = lines[-1]
+        while last and draw.textlength(last + "…", font=font) > width:
+            last = last[:-1]
+        lines[-1] = last.rstrip() + "…"
     return lines[:max_lines]
 
 
@@ -67,7 +86,8 @@ def card_name(item) -> str:
     return re.sub(r"[^0-9A-Za-z_-]", "", str(item.id))[:60] or "card"
 
 
-def draw_card(title: str, date: str, path: str, kicker: str = "오늘 방송") -> bool:
+def draw_card(title: str, date: str, path: str, kicker: str = "오늘 방송",
+              section: str = "방송·드라마") -> bool:
     """카드 한 장. 글꼴이 없으면 False — 사진 없는 기사로 나간다."""
     from PIL import Image, ImageDraw
     big = _font(64)
@@ -76,7 +96,8 @@ def draw_card(title: str, date: str, path: str, kicker: str = "오늘 방송") -
     im = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(im)
     d.rectangle((0, 0, W, 10), fill=INK)
-    d.text((80, 70), f"{SITE_NAME} 문화 · 방송·드라마", font=_font(34), fill=MUTED)
+    head = f"{SITE_NAME} 문화 · {section}" if kicker != section else f"{SITE_NAME} 문화"
+    d.text((80, 70), head, font=_font(34), fill=MUTED)
     d.ellipse((80, 140, 104, 164), fill=CORAL)
     d.text((118, 128), kicker, font=_font(34), fill=CORAL)
     y = 210
@@ -101,17 +122,23 @@ def attach_tv_cards(items, out_dir: str) -> int:
     """
     made = 0
     for item in items:
-        if (getattr(item, "channel", "") != "ent" or getattr(item, "category", "") != "tv"
-                or item.photo):
+        # 문화 기사는 남의 사진을 쓰지 않아 대개 사진이 없다. 방송만이 아니라 문화 기사
+        # 전부에 카드를 붙인다(2026-10-28 사장님: "사진도 좀 다 넣어").
+        if getattr(item, "channel", "") != "ent" or item.photo:
             continue
+        cat = ent_category_of(item)
+        section = ENT_TOPIC_NAMES.get(cat, "문화")
         name = card_name(item)
         day = (item.published_at or "")[:10].replace("-", ".")
         web = f"/img/tv/{name}.jpg"
         dst = os.path.join(out_dir, "img", "tv", f"{name}.jpg")
         # 방송·드라마 부문에는 회차 예고 말고 드라마 소식도 들어온다(2026-10-28).
         # '오늘 방송'은 방송 정보 상자가 있는 회차 예고에만 붙인다.
-        kicker = "오늘 방송" if "방송 정보" in (item.body_md or "") else "방송·드라마"
-        if not draw_card(item.title, day, dst, kicker):
+        if cat == "tv" and "방송 정보" in (item.body_md or ""):
+            kicker = "오늘 방송"
+        else:
+            kicker = section
+        if not draw_card(item.title, day, dst, kicker, section):
             continue
         og = os.path.join(out_dir, "og", "tv", f"{name}.jpg")
         os.makedirs(os.path.dirname(og), exist_ok=True)

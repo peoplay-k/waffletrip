@@ -345,7 +345,7 @@ def test_home_shows_travel_blocks_then_the_culture_block(tmp_path):
     first_travel_block = home.index('class="block-title"><a href="/news/">')
     assert first_travel_block < ent_pos          # 여행 부문 블록이 문화 블록보다 위
     assert home.count('class="block-title"><a href="/ent/">') == 1   # 여행 부문마다 되풀이되지 않는다
-    assert home.count("영화 ○○ 개봉 0") == 1     # 같은 기사가 두 번 걸리지 않는다
+    assert home.count(">영화 ○○ 개봉 0<") == 1   # 같은 기사가 두 번 걸리지 않는다(사진 alt 는 빼고 센다)
 
 
 def test_ent_skips_broken_outlet_names_and_offtopic_outlets():
@@ -422,7 +422,11 @@ def test_share_buttons_point_at_the_article_not_home(tmp_path):
         assert html.count(share.split("&")[0].split("url=")[1]) >= 3
 
 
-def test_ent_article_without_photo_gets_a_category_share_card(tmp_path):
+def test_ent_article_without_photo_gets_a_category_share_card(tmp_path, monkeypatch):
+    """사진 없는 문화 기사는 기사마다 글자 카드를 받는다(2026-10-28). 카드를 못 그리는
+    환경(한글 글꼴 없음)에서는 부문 공유 카드로 돌아간다."""
+    from src.render import tv_cards
+    monkeypatch.setattr(tv_cards, "draw_card", lambda *a, **k: False)
     render_site([ent("c-2", "영화 ○○ 개봉", "movie"),
                  ent("c-3", "○○ 콘서트 개최", "music"),
                  make("4", "괌 소식", region="guam")], str(tmp_path), TODAY)

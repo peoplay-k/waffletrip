@@ -29,7 +29,7 @@
   <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u={{ canonical|urlencode }}" target="_blank" rel="noopener">페이스북</a>
 </div>
 {% if item.photo %}<figure class="hero"><img src="{{ item.photo }}" alt="{{ item.title }}" loading="lazy" decoding="async" {{ dims(item.photo) }}>{# 직접 찍은 사진(/img/<지역>/)에만 '직접 촬영'을 단다. 방송 기사 카드(/img/tv/)는 우리가
-   만든 글자 카드다 — 2026-10-21 '직접 촬영'이 카드에 붙어 있던 것을 고쳤다. #}{% if not item.photo.startswith('/img/tv/') %}<figcaption>직접 촬영{% if photo_places.get(item.photo) %} · {{ photo_places[item.photo] }}{% endif %}</figcaption>{% endif %}</figure>{% endif %}
+   만든 글자 카드다 — 2026-10-21 '직접 촬영'이 카드에 붙어 있던 것을 고쳤다. #}{% set cr = photo_credits.get(item.photo) %}{% if cr %}<figcaption>{% if photo_places.get(item.photo) %}{{ photo_places[item.photo] }} · {% endif %}사진 {{ cr.artist }} · {{ cr.license }} · {% if cr.source %}<a href="{{ cr.source }}" rel="nofollow noopener">위키미디어 공용</a>{% else %}위키미디어 공용{% endif %}</figcaption>{% elif not item.photo.startswith('/img/tv/') %}<figcaption>직접 촬영{% if photo_places.get(item.photo) %} · {{ photo_places[item.photo] }}{% endif %}</figcaption>{% endif %}</figure>{% endif %}
 {% if item.summary %}<p class="summary">{{ item.summary }}</p>{% endif %}
 {% if item.body_md %}<div class="body">{{ item.body_md|md }}</div>{% endif %}
 {% set source_href = item.source_url|safe_url %}
