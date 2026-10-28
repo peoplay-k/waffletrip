@@ -703,36 +703,90 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 톱·사이드가 전부 연예(또는 전부 여행)면 한쪽 사이트로 읽힌다(2026-09-25 실측:
     # 연예 기사 다섯 편을 낸 날 첫 화면 셋이 모두 연예였다). 최신순은 그 안에서 지킨다.
     rest = articles[1:]
+
+    # ── 홈 짜임(2026-10-28 사장님: "https://www.ppss.kr/ 여기와 비슷하게 만들어줘. 여행이
+    # 먼저"). PPSS 1면을 따른다 — 회색 띠 안에 넘기는 큰 기사(제목 왼쪽·사진 오른쪽)와
+    # 그 아래 사진 기사 셋, 그다음 본문 두 단(왼쪽 부문 블록 · 오른쪽 사이드), 맨 아래 포토.
+    # 광고 자리는 두지 않는다(상업 요소 게이트) — 사이드에는 지역·부문 길잡이를 둔다.
+    # 한 화면에 같은 기사가 두 번 나오지 않게 위에서부터 차례로 덜어 쓴다.
+    hero_slides = [lead] if lead is not None else []
+    if lead is not None and _real_photo(lead):
+        for want_ent in (False, True):
+            for i in rest:
+                if len(hero_slides) >= 4:
+                    break
+                if _real_photo(i) and is_ent(i) == want_ent and i not in hero_slides:
+                    hero_slides.append(i)
+    used = {i.id for i in hero_slides}
+    pool = [i for i in rest if i.id not in used]
+    # 띠 아래 셋 — 첫 화면이 한 채널로만 채워지지 않게 한다. 두 축 매체인데
+    # 첫 화면이 전부 연예(또는 전부 여행)면 한쪽 사이트로 읽힌다(2026-09-25 실측:
+    # 연예 기사 다섯 편을 낸 날 첫 화면이 모두 연예였다). 여행 둘 · 문화 하나.
+    # 사진 있는 기사를 앞에 세운다 — PPSS 처럼 셋 다 그림이 있는 판이 되게.
     sub_leads: list = []
     if lead is not None:
-        other = [i for i in rest if is_ent(i) != is_ent(lead)]
-        same = [i for i in rest if is_ent(i) == is_ent(lead)]
-        sub_leads = ([same[0]] if same else []) + ([other[0]] if other else [])
-        if len(sub_leads) < 2:
-            sub_leads = rest[:2]
-    top_ids = ([lead.id] if lead else []) + [i.id for i in sub_leads]
-    # 헤드라인 띠도 여행이 먼저, 그다음 연예. 각 묶음 안에서는 최신순(2026-10-28 사장님).
-    _hl = [i for i in rest if i.id not in top_ids]
-    headlines = ([i for i in _hl if not is_ent(i)] + [i for i in _hl if is_ent(i)])[:12]   # 열두 건
-    shown = set(top_ids) | {i.id for i in headlines}
+        def _pic_first(rows):
+            return [i for i in rows if i.photo] + [i for i in rows if not i.photo]
+        same = _pic_first([i for i in pool if is_ent(i) == is_ent(lead)])
+        other = _pic_first([i for i in pool if is_ent(i) != is_ent(lead)])
+        sub_leads = same[:2] + other[:1]
+        if len(sub_leads) < 3:
+            sub_leads += [i for i in pool if i not in sub_leads][:3 - len(sub_leads)]
+    shown = used | {i.id for i in sub_leads}
 
     # 부문 페이지는 그 부문 전체를 보여준다 — 통계·리포트에는 환율·날씨가
     # 있어야 한다. 홈의 부문 블록만 따로 추린다.
     by_topic = group_by_topic(listed)
 
-    # 홈 부문 블록은 위에 안 나온 것으로만 채운다. 남는 게 없으면 그 블록은
-    # 내보내지 않는다 — 모자란다고 이미 실은 기사를 다시 넣으면 도로 중복이다.
+    def _photo_first(rows):
+        """블록 머리에는 사진 있는 기사를 세운다. 없으면 그대로."""
+        k = next((n for n, i in enumerate(rows) if i.photo), None)
+        return rows if not k else [rows[k]] + rows[:k] + rows[k + 1:]
+
+    # 여행 부문 블록 — 머리 하나 + 오른쪽 목록 넷 + 아래 두 줄 목록 여섯.
+    # 위에 안 나온 것으로만 채운다. 남는 게 없으면 그 블록은 내보내지 않는다.
     # 환율·날씨(A)는 데이터 띠가 맡으므로 여기서 뺀다.
-    home_topics = {
-        tid: [i for i in got if i.grade != "A" and i.id not in shown]
-        for tid, got in by_topic.items()
-    }
-    # 연예 톱 — 헤드라인 띠 아래. 부문 가리지 않고 최신 여덟 건. 위에 안 나온 것만.
-    ent_top = [i for i in ent_listed if i.id not in shown][:8]
-    shown_ent = shown | {i.id for i in ent_top}
-    # 연예 부문 블록도 같은 규칙 — 위(톱·헤드라인·연예 톱)에 안 나온 것만, 없으면 블록 자체를 안 그린다.
-    home_ent = {tid: [i for i in got if i.id not in shown_ent]
-                for tid, got in by_ent.items()}
+    home_topics: dict = {}
+    for tid, got in by_topic.items():
+        rows = _photo_first([i for i in got if i.grade != "A" and i.id not in shown])[:11]
+        home_topics[tid] = rows
+        shown |= {i.id for i in rows}
+    # 문화 톱 — 여행 블록 다음. 부문 가리지 않고 최신 여섯 건(3×2 사진 판).
+    ent_top = [i for i in ent_listed if i.id not in shown][:6]
+    shown |= {i.id for i in ent_top}
+    # 문화 부문 블록 — 머리 하나 + 목록 넷. 위에 안 나온 것만, 없으면 블록을 안 그린다.
+    home_ent: dict = {}
+    for tid, got in by_ent.items():
+        rows = _photo_first([i for i in got if i.id not in shown])[:5]
+        home_ent[tid] = rows
+        shown |= {i.id for i in rows}
+    # 최신 기사 — 위에 안 나온 것 열 건, 여행 먼저. "많이 본 뉴스"가 아니다(아래 주석).
+    _left = [i for i in articles if i.id not in shown]
+    headlines = ([i for i in _left if not is_ent(i)] + [i for i in _left if is_ent(i)])[:10]
+
+    # 포토 — 우리가 찍은 사진을 한 줄로. 기사가 아니라 사진을 건다: 캡션은 찍은 곳,
+    # 누르면 그 지역면으로 간다. 기사 제목을 달면 위에 실린 기사가 한 화면에 또 나온다.
+    # 이 화면에 이미 그림으로 나온 사진도 뺀다.
+    on_page = hero_slides + sub_leads + headlines + ent_top
+    on_page += [i for rows in list(home_topics.values()) + list(home_ent.values()) for i in rows]
+    seen_photos = {i.photo for i in on_page if i.photo}
+    places = photo_places(manifest) if manifest else {}
+    photo_strip = []
+    for i in listed:
+        if (_real_photo(i) and not is_ent(i) and i.photo not in seen_photos
+                and i.region in REGION_NAMES):
+            seen_photos.add(i.photo)
+            photo_strip.append({"src": i.photo, "region": i.region,
+                                "place": places.get(i.photo) or REGION_NAMES[i.region]})
+        if len(photo_strip) >= 8:
+            break
+    # 사이드 길잡이 — 지역면과 문화 부문. 기사 수는 지면(14일)에 실린 수 그대로.
+    side_regions = sorted(
+        ((k, REGION_NAMES[k], sum(1 for i in v if i.grade != "A"))
+         for k, v in grouped.items()
+         if k in REGION_NAMES and any(i.grade != "A" for i in v)),
+        key=lambda r: -r[2])
+    side_ent = [(tid, name, len(by_ent.get(tid, []))) for tid, name, _ in ENT_TOPICS]
 
     # "많이 본 뉴스" 자리에는 조회수를 쓰지 않는다 — 우리는 그 숫자가 없고,
     # 없는 숫자로 순위를 만들면 그건 지어낸 것이다. 대신 우리가 실제로 가진
@@ -759,6 +813,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         env.get_template("index.html").render(
             counts={k: len(v) for k, v in grouped.items()},
             top_by_region=top_by_region, lead=lead, sub_leads=sub_leads,
+            hero_slides=hero_slides, photo_strip=photo_strip,
+            side_regions=side_regions, side_ent=side_ent,
             data_panel=data_panel, by_topic=home_topics, by_ent=home_ent,
             ent_top=ent_top,
             lead_topic=topic_of(lead) if lead else '',

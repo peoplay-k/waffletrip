@@ -333,6 +333,180 @@
 .reel-txt a{color:var(--coral);font-weight:600}
 @media (max-width:720px){.reel{grid-template-columns:1fr}
   .reel-box{max-width:100%}}
+/* ── 2026-10-28 PPSS 짜임 ─────────────────────────────────────────── */
+:root{--band:#F3F3F1}
+@media (prefers-color-scheme: dark){:root{--band:#17171A}}
+body{overflow-x:clip}
+.util{border-bottom:1px solid var(--line);font-size:12px;color:var(--muted)}
+.util .wrap{display:flex;justify-content:space-between;gap:12px;padding-top:7px;padding-bottom:7px}
+.util a{margin-right:14px}.util .u-r a{margin:0 0 0 14px}
+.util a:hover{color:var(--coral)}
+.util .u-r{font-variant-numeric:tabular-nums;color:var(--dim)}
+.util .u-search{display:none}
+.mast .wrap{flex-direction:column;align-items:center;justify-content:center;gap:8px;
+  padding:26px 28px 20px;text-align:center}
+.brand{font-size:clamp(34px,4.6vw,50px)}
+.mast .meta{text-align:center}
+.mast .meta b{display:inline;margin-right:8px}
+.mast .meta span{color:var(--dim)}
+.gnb{border-top:1px solid var(--line);border-bottom:none;box-shadow:0 1px 0 var(--line)}
+.gnb .gnb-row{justify-content:center}
+.gnb .sep{flex:0 0 18px}
+.gnb .search{display:inline-flex;align-items:center;padding:12px 6px}
+.rnav{border-top:1px solid var(--line);background:var(--bg);border-bottom:1px solid var(--line)}
+.rnav .wrap{display:flex;justify-content:center;gap:2px 0;overflow-x:auto;scrollbar-width:none}
+.rnav .wrap::-webkit-scrollbar{display:none}
+.rnav a{font-size:12.5px;color:var(--muted);padding:8px 11px;white-space:nowrap}
+.rnav a:hover{color:var(--coral)}
+/* main 의 위 여백은 .wrap 이 덮어 0 이다 — 부문·지역면 제목이 메뉴에 붙지 않게 따로 띄운다 */
+.page-head{padding-top:30px}
+
+/* 회색 띠 — 화면 끝까지 */
+.band{background:var(--band);margin:0 calc(50% - 50vw) 0;padding:30px 0 34px}
+.band-in{max-width:var(--w);margin:0 auto;padding:0 28px}
+.lead-box{position:relative}
+.hero-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;
+  scroll-behavior:smooth}
+.hero-track::-webkit-scrollbar{display:none}
+.slide{flex:0 0 100%;scroll-snap-align:start;display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:34px;align-items:center;padding:0 46px}
+.slide.no-photo{grid-template-columns:1fr}
+.slide .lead-title{font-size:clamp(26px,3.2vw,38px);line-height:1.18;letter-spacing:-.05em;margin:10px 0 14px}
+.slide .lead-sum{font-size:15px;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.slide-ph img,.slide .lead-photo{width:100%;aspect-ratio:16/10;max-height:none;object-fit:cover;margin:0;border-radius:2px}
+.eyebrow{font-size:12.5px;font-weight:800;color:var(--coral);letter-spacing:.02em}
+.hero-nav{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;
+  border-radius:50%;border:1px solid var(--line);background:var(--bg);color:var(--ink);
+  font-size:22px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0 0 3px}
+.hero-nav:hover{border-color:var(--coral);color:var(--coral)}
+.hero-nav.prev{left:0}.hero-nav.next{right:0}
+.hero-dots{display:flex;gap:6px;justify-content:center;margin-top:16px}
+.hero-dots span{width:7px;height:7px;border-radius:50%;background:var(--dim);opacity:.35}
+.hero-dots span.on{opacity:1;background:var(--coral);width:18px;border-radius:4px}
+.band .side-leads{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;
+  border:none;padding:26px 0 0;margin-top:22px;border-top:1px solid var(--line)}
+.band .side-lead img{aspect-ratio:16/10;max-height:none}
+.band .side-lead h3{font-size:16.5px;line-height:1.35;margin:4px 0 4px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.data-strip{margin-top:0;border-top:none}
+
+/* 본문 두 단 */
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:48px;margin-top:8px}
+.col-main .block:first-child{margin-top:34px}
+.col-main .block{margin-top:46px}
+.block-title{font-size:16px;letter-spacing:-.02em;text-transform:none;border-bottom:2px solid var(--rule);
+  display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:18px}
+.blk-subs{font-size:12.5px;font-weight:500;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap}
+.blk-subs a:hover{color:var(--coral)}
+.blk-top{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px;
+  padding-bottom:18px;border-bottom:1px solid var(--line)}
+.blk-lead img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:2px;margin-bottom:12px}
+.blk-lead h3{font-size:20px;line-height:1.3;margin:5px 0 7px;font-weight:800;letter-spacing:-.04em}
+.blk-lead h3 a:hover,.tlist a:hover span,.tgrid a:hover span,.pcard h3 a:hover,.headline-grid a:hover .t{color:var(--coral)}
+.blk-lead .summary{font-size:14px;margin:0 0 8px;line-height:1.55}
+.tlist,.tgrid,.side-list{list-style:none;margin:0;padding:0}
+.tlist li{border-bottom:1px solid var(--line)}
+.tlist li:last-child{border-bottom:none}
+.tlist a{display:flex;gap:14px;align-items:center;justify-content:space-between;padding:11px 0}
+.tlist span{font-size:15px;font-weight:600;line-height:1.4;letter-spacing:-.03em;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;word-break:keep-all}
+.tlist img{flex:0 0 96px;width:96px;height:64px;object-fit:cover;border-radius:2px}
+.tgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin-top:4px}
+.tgrid li{border-bottom:1px solid var(--line)}
+.tgrid a{display:flex;gap:12px;align-items:center;padding:11px 0}
+.tgrid img{flex:0 0 84px;width:84px;height:56px;object-fit:cover;border-radius:2px}
+.tgrid span{font-size:14.5px;font-weight:600;line-height:1.4;letter-spacing:-.03em;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;word-break:keep-all}
+.pgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 22px}
+.pcard img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:2px;margin-bottom:9px}
+.pcard.text-only{border-top:1px solid var(--line);padding-top:12px}
+.pcard h3{font-size:15px;line-height:1.4;margin:4px 0 0;font-weight:700;letter-spacing:-.03em;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+ol.headline-grid{list-style:none;margin:0;padding:0;display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;grid-auto-flow:column;
+  grid-template-rows:repeat(5,auto)}
+ol.headline-grid li{border-bottom:1px solid var(--line)}
+ol.headline-grid a{display:flex;align-items:center;gap:12px;padding:11px 0;border:none;font-size:15px}
+ol.headline-grid .n{font-size:17px;font-weight:800;color:var(--ink);width:26px;flex:0 0 26px;padding:0;white-space:nowrap}
+ol.headline-grid li:nth-child(-n+3) .n{color:var(--coral)}
+ol.headline-grid .t{flex:1;line-height:1.4;font-weight:600;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+ol.headline-grid img{flex:0 0 72px;width:72px;height:48px;object-fit:cover;border-radius:2px}
+
+/* 사이드 — 광고 자리 대신 길잡이 */
+.col-side{padding-top:34px;display:flex;flex-direction:column;gap:30px}
+.side-title{font-size:15px;font-weight:800;margin:0 0 10px;padding-bottom:9px;
+  border-bottom:2px solid var(--rule);letter-spacing:-.02em}
+.side-title a:hover{color:var(--coral)}
+.side-list li{border-bottom:1px solid var(--line)}
+.side-list a{display:flex;justify-content:space-between;padding:9px 2px;font-size:14.5px;font-weight:600}
+.side-list a span{font-size:12px;color:var(--dim);font-weight:500;font-variant-numeric:tabular-nums}
+.side-list a:hover{color:var(--coral)}
+.col-side .citystrip{display:block;margin:0;padding:0;border:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips a{font-size:13px;padding:5px 11px;border:1px solid var(--line);border-radius:999px;color:var(--ink)}
+.chips a:hover{border-color:var(--coral);color:var(--coral);text-decoration:none}
+.col-side .reel{display:block;margin:0;padding:0;border:none}
+.col-side .reel-box{aspect-ratio:16/9}
+.reel-h{font-size:15.5px;line-height:1.35;margin:10px 0 6px;letter-spacing:-.03em}
+.sub-box{background:var(--band);padding:18px 18px 20px;border-radius:2px}
+.sub-box .side-title{border:none;padding:0;margin-bottom:6px}
+.sub-box p{font-size:13.5px;color:var(--muted);margin:0 0 12px;line-height:1.55}
+.sub-btn{display:inline-block;font-size:13px;font-weight:700;padding:8px 14px;background:var(--ink);color:var(--bg);border-radius:2px}
+.sub-btn:hover{background:var(--coral)}
+
+/* 포토 */
+.photo-row{margin-top:56px;padding-top:4px}
+.photo-row .block-title{align-items:center}
+.row-nav{margin-left:auto;display:flex;gap:6px}
+.row-nav button{width:28px;height:28px;border:1px solid var(--line);background:var(--bg);color:var(--ink);
+  border-radius:50%;cursor:pointer;font-size:17px;line-height:1;padding:0 0 2px}
+.row-nav button:hover{border-color:var(--coral);color:var(--coral)}
+.photo-track{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 5*16px)/6);gap:16px;
+  overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.photo-track::-webkit-scrollbar{display:none}
+.ph{scroll-snap-align:start;display:block}
+.ph img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:2px;margin-bottom:8px}
+.ph-place{display:block;font-size:11.5px;font-weight:800;color:var(--coral)}
+.ph-t{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  font-size:13.5px;font-weight:600;line-height:1.4;letter-spacing:-.03em}
+.ph:hover .ph-t{color:var(--coral)}
+
+/* 매체정보 — 제호 왼쪽 */
+.foot-info{display:grid;grid-template-columns:180px minmax(0,1fr);gap:24px;padding-top:8px}
+.foot .name .dot{color:var(--coral)}
+.foot .copy{color:var(--dim);margin-top:10px}
+
+@media (max-width:1020px){
+  .cols{grid-template-columns:1fr;gap:0}
+  .col-side{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:28px}
+  .photo-track{grid-auto-columns:calc((100% - 3*14px)/3.4)}
+}
+@media (max-width:720px){
+  .util .u-l a:nth-child(n+3){display:none}
+  .util .u-search{display:inline}
+  .gnb .sep,.gnb .search{display:none}   /* 검색은 맨 위 작은 줄로 — 메뉴가 셋째 줄로 넘친다 */
+  .mast .wrap{padding:18px 16px 14px}
+  .mast .meta span{display:none}
+  .gnb .gnb-row{justify-content:flex-start}
+  .rnav .wrap{justify-content:flex-start;padding:0 10px}
+  .band{padding:18px 0 24px}
+  .band-in{padding:0 16px}
+  .slide{grid-template-columns:1fr;gap:14px;padding:0}
+  .slide .slide-ph{order:-1}
+  .hero-nav{display:none}
+  .band .side-leads{grid-template-columns:1fr;gap:0;padding-top:6px}
+  .band .side-lead{display:grid;grid-template-columns:minmax(0,1fr) 110px;gap:4px 14px;
+    padding:13px 0;border-bottom:1px solid var(--line)}
+  .band .side-lead:last-child{border-bottom:none}
+  .band .side-lead > a:first-child{grid-column:2;grid-row:1/4;align-self:center}
+  .band .side-lead img{margin:0;aspect-ratio:3/2}
+  .blk-top{grid-template-columns:1fr;gap:6px}
+  .tgrid,ol.headline-grid{grid-template-columns:1fr;grid-auto-flow:row;grid-template-rows:none}
+  .pgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 14px}
+  .photo-track{grid-auto-columns:42%}
+  .foot-info{grid-template-columns:1fr;gap:4px}
+}
 </style>
 </head>
 <body>
@@ -341,27 +515,30 @@
   <a href="#foot">매체정보 바로가기</a>
 </div>
 
+{# 머리 — PPSS 짜임(2026-10-28 사장님): 맨 위 작은 줄, 가운데 제호, 가운데 메뉴.
+   PPSS 는 메뉴 아래에 한 줄을 더 두지만 우리는 지역명을 상단에 늘어놓지 않는다 —
+   목적지 디렉터리로 보인다. 지역 입구는 홈 사이드 '지역별 여행'이 맡는다. #}
+<div class="util"><div class="wrap">
+  <span class="u-l"><a href="/about/">매체소개</a><a href="/contact/">기사제보</a><a href="/ethics/">편집원칙</a><a href="/subscribe/">구독</a></span>
+  <span class="u-r">발행일 {{ today }}<a href="/rss.xml">RSS</a><a class="u-search" href="/search/">검색</a></span>
+</div></div>
 <header class="mast"><div class="wrap">
   <a class="brand" href="/">{{ site_name }}<span class="dot">.</span></a>
-  <div class="meta">
-    <b>{{ site_tagline }}</b>
-    {{ site_kind }} · 편집 {{ today }}
-  </div>
+  <div class="meta"><b>{{ site_tagline }}</b><span>{{ site_kind }}</span></div>
 </div></header>
 
 {# 두 채널을 한 줄에 둔다 — 여행 ▸ 부문 넷 | 문화 ▸ 부문 다섯.
    여행·문화 전문매체는 두 축이고, 네비가 그 구조를 그대로 보여야 한다. #}
-<nav class="gnb" aria-label="주요 메뉴"><div class="wrap">
+<nav class="gnb" aria-label="주요 메뉴"><div class="wrap gnb-row">
   <a class="ch" href="/travel/">{{ channel_names.travel }}</a>
   {% for tid, tname, _ in topics %}<a href="/{{ tid }}/">{{ tname }}</a>{% endfor %}
   <span class="bar" aria-hidden="true"></span>
   <a class="ch" href="/ent/">{{ channel_names.ent }}</a>
   {% for tid, tname, _ in ent_topics %}<a href="/ent/{{ tid }}/">{{ tname }}</a>{% endfor %}
   <span class="sep"></span>
-  <a class="minor" href="/subscribe/">구독</a>
-  <a class="minor" href="/contact/">제보·문의</a>
-  <a class="minor" href="/search/">검색</a>
-</div></nav>
+  <a class="minor search" href="/search/" aria-label="검색"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span class="sr">검색</span></a>
+</div>
+</nav>
 
 <main id="main" class="wrap">{% block content %}{% endblock %}</main>
 
@@ -386,12 +563,17 @@
     <a href="/search/">검색</a><a href="/rss.xml">RSS</a>
     <a href="/sitemap.xml">사이트맵</a>
   </div>
-  <p class="name">{{ site_name }}</p>
+  <div class="foot-info">
+  <p class="name">{{ site_name }}<span class="dot">.</span></p>
+  <div>
   <p>{{ site_kind }} · {{ site_tagline }}</p>
   {% if legal_lines %}<p class="legal">{{ legal_lines|join(" · ") }}</p>{% endif %}
   <p>기사는 공개된 발표와 자료에서 사실을 확인해 피플로드가 직접 씁니다. 다른 매체의 기사와 사진은 옮기지 않습니다.<br>
   직접 촬영한 사진에는 그 사실을, 자유 이용 사진에는 작성자와 라이선스를 밝힙니다.<br>
   운영사 피플레이는 여행 상품을 판매합니다. 지면에는 상품 링크와 광고를 두지 않습니다.</p>
+  <p class="copy">Copyright © {{ today[:4] }} {{ site_name }}. All rights reserved.</p>
+  </div>
+  </div>
 </div></footer>
 {# 방문 분석. analytics.yaml 에 값이 있을 때만 붙는다.
    붙으면 개인정보처리방침 문구도 함께 바뀐다 — 따로 관리하면 어긋난다. #}

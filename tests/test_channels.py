@@ -561,11 +561,13 @@ def test_home_puts_travel_before_entertainment(tmp_path):
     film = ent("c-9", "영화 ○○ 6주차 1위", "movie")
     trip = make("c-8", "괌 노선 재개", region="guam", photo="/img/guam-1.jpg")
     trip.published_at = "2026-09-20T09:00:00+09:00"
-    render_site([trip, film, tv], str(tmp_path), TODAY)
+    more = [make(f"c-g{n}", f"괌 소식 {n}", region="guam") for n in range(12)]
+    more += [ent(f"c-m{n}", f"영화 ○○ {n}", "movie") for n in range(4)]
+    render_site([trip, film, tv] + more, str(tmp_path), TODAY)
     home = (tmp_path / "index.html").read_text(encoding="utf-8")
     lead = home.split('class="lead-box"', 1)[1].split("</section>", 1)[0]
     assert "괌 노선 재개" in lead
-    body = home.split("</section>", 1)[1]
+    body = home.split("</section>", 1)[1].split('class="col-side"', 1)[0]   # 본문 단만 본다
     first_ent = body.find('href="/ent/"')
     first_travel = min(x for x in (body.find(f'href="/{t}/"') for t in ("news", "biz", "feature", "data")) if x >= 0)
     assert first_travel < first_ent

@@ -5,39 +5,60 @@
 {% block head_extra %}<script type="application/ld+json">{{ site_ld|ld }}</script>{% endblock %}
 {% block content %}
 
-{# ── 첫 화면: 사진 셋 + 데이터 띠 + 헤드라인 2열 ──
-   조사한 여행매체 10곳은 첫 화면 사진 면적이 18~23% 였는데 우리는 2% 였다.
-   큰 제목 하나가 화면을 다 먹고 정보량이 13개뿐이었다. #}
-<div class="top-zone">
-  <section class="lead-box">
+{# ── 홈 짜임 — PPSS(ppss.kr) 1면을 따른다(2026-10-28 사장님). 여행이 먼저.
+   회색 띠: 넘기는 큰 기사(제목 왼쪽 · 사진 오른쪽) → 사진 기사 셋.
+   본문 두 단: 왼쪽 여행 부문 블록 → 문화 → 최신 기사 / 오른쪽 길잡이.
+   맨 아래 포토. 광고 자리는 두지 않는다. #}
+
+{% macro tag(it) %}{% if it.channel == 'ent' %}{% set tg = tag_of(it) %}<a class="rg" href="{{ tg.href }}">{{ tg.label }}</a>{% else %}<a class="rg" href="/{{ it.region }}/">{{ region_names.get(it.region, '') }}</a>{% endif %}{% endmacro %}
+{% macro ttl(it) %}{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}{{ it.title|clean_title }}{% endmacro %}
+
+<div class="band">
+<div class="band-in">
+  <section class="lead-box" aria-roledescription="carousel" aria-label="주요 기사">
     {% if lead %}
-      {% if lead.channel == 'ent' %}<a class="eyebrow" href="{{ lead_tag.href }}">{{ lead_tag.label }}</a>{% else %}<a class="eyebrow" href="/{{ lead_topic }}/">{{ topic_names.get(lead_topic, '') }}</a>{% endif %}
-      {% if lead.photo %}<a href="{{ article_urls[lead.id] }}"><img class="lead-photo" src="{{ lead.photo }}" alt="{{ lead.title }}" loading="eager" {{ dims(lead.photo) }}></a>{% endif %}
-      <h1 class="lead-title">{% if lead.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[lead.id] }}">{{ lead.title|clean_title }}</a></h1>
-      {% if lead.summary %}<p class="lead-sum">{{ lead.summary }}</p>{% endif %}
-      <div class="byline">{{ lead.source_name }} · {{ lead.published_at[:10] }}</div>
+    <div class="hero-track" tabindex="0">
+      {% for it in hero_slides %}
+      <article class="slide{% if not it.photo %} no-photo{% endif %}" aria-roledescription="slide" aria-label="{{ loop.index }} / {{ hero_slides|length }}">
+        <div class="slide-txt">
+          {% if loop.first %}{% if it.channel == 'ent' %}<a class="eyebrow" href="{{ lead_tag.href }}">{{ lead_tag.label }}</a>{% else %}<a class="eyebrow" href="/{{ lead_topic }}/">{{ topic_names.get(lead_topic, '') }}</a>{% endif %}{% else %}{{ tag(it) }}{% endif %}
+          {% if loop.first %}<h1 class="lead-title">{% else %}<h2 class="lead-title">{% endif %}<a href="{{ article_urls[it.id] }}">{{ ttl(it) }}</a>{% if loop.first %}</h1>{% else %}</h2>{% endif %}
+          {% if it.summary %}<p class="lead-sum">{{ it.summary }}</p>{% endif %}
+          <div class="byline">{{ it.source_name }} · {{ it.published_at[:10] }}</div>
+        </div>
+        {% if it.photo %}<a class="slide-ph" href="{{ article_urls[it.id] }}" tabindex="-1"><img{% if loop.first %} class="lead-photo"{% endif %} src="{{ it.photo }}" alt="{{ it.title }}" loading="{{ 'eager' if loop.first else 'lazy' }}" {{ dims(it.photo) }}></a>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+    {% if hero_slides|length > 1 %}
+    <button class="hero-nav prev" type="button" aria-label="이전 기사">‹</button>
+    <button class="hero-nav next" type="button" aria-label="다음 기사">›</button>
+    <div class="hero-dots" aria-hidden="true">{% for it in hero_slides %}<span{% if loop.first %} class="on"{% endif %}></span>{% endfor %}</div>
+    {% endif %}
     {% else %}
       <p class="empty">오늘 실을 기사가 아직 없습니다.</p>
     {% endif %}
   </section>
 
+  {% if sub_leads %}
   <div class="side-leads">
-    {% for it in sub_leads[:2] %}
+    {% for it in sub_leads %}
     <article class="side-lead">
       {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="eager" {{ dims(it.photo) }}></a>{% endif %}
-      {% set tg = tag_of(it) %}<a class="rg" href="{{ tg.href }}">{{ tg.label }}</a>
-      <h3>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[it.id] }}">{{ it.title|clean_title }}</a></h3>
+      {{ tag(it) }}
+      <h3><a href="{{ article_urls[it.id] }}">{{ ttl(it) }}</a></h3>
       <div class="byline">{{ it.source_name }}</div>
     </article>
     {% endfor %}
   </div>
+  {% endif %}
+</div>
 </div>
 
-{# 데이터는 가로 띠로. 세로 사이드바로 두면 첫 화면을 통째로 차지했다. #}
+{# 데이터는 가로 띠로. 옆으로 흐른다(2026-10-28 사장님: "괌, 사이판 달러 부분 옆으로
+   돌아가게 해줘"). 같은 줄을 두 번 이어 붙여 끊김 없이 돈다. 두 번째 줄은 화면 읽기에서
+   뺀다. 마우스를 올리면 멈추고, '움직임 줄이기' 설정이면 돌지 않고 손으로 넘긴다. #}
 {% if data_panel %}
-{# 옆으로 흐르는 띠(2026-10-28 사장님: "괌, 사이판 달러 부분 옆으로 돌아가게 해줘").
-   같은 줄을 두 번 이어 붙여 끊김 없이 돈다. 두 번째 줄은 화면 읽기에서 뺀다.
-   마우스를 올리면 멈추고, '움직임 줄이기' 설정이면 돌지 않고 손으로 넘긴다. #}
 <div class="data-strip" aria-label="오늘의 환율·날씨">
   <div class="data-track" style="--dur: {{ [data_panel|length * 7, 30]|max }}s">
     {% for copy in [0, 1] %}
@@ -54,97 +75,189 @@
 </div>
 {% endif %}
 
-{% if headlines %}
-<div class="headline-grid">
-  {% for it in headlines %}
-  <a href="{{ article_urls[it.id] }}"><span class="n">{{ "%02d"|format(loop.index) }}</span><span>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}{{ it.title|clean_title }}</span></a>
-  {% endfor %}
-</div>
-{% endif %}
+<div class="cols">
+<div class="col-main">
 
-{# ── 연예 톱 — 헤드라인 띠 바로 아래. 두 축 매체인데 연예가 화면 맨 아래에만 있으면
-   여행 사이트로 읽힌다(2026-09-25 사장님 "지금 여행 쪽으로만 되어 있어").
-   부문 가리지 않고 최신 여덟 건. 위에 이미 나온 것은 뺀다. 없으면 안 그린다. #}
-{# 여행 부문 블록을 연예보다 먼저(2026-10-28 사장님: "연예보단 여행 먼저 넣어야돼"). #}
+{# ── 여행 부문별 — 머리(사진) + 오른쪽 목록 넷, 아래 두 줄 목록. 여행이 먼저. #}
 {% for tid, tname, _ in topics %}
-  {% if by_topic.get(tid) %}
+  {% set rows = by_topic.get(tid) or [] %}
+  {% if rows %}
   <section class="block">
     <h2 class="block-title"><a href="/{{ tid }}/">{{ tname }}</a></h2>
-    <div class="cards">
-      {% for it in by_topic[tid][:4] %}
-      <article class="card{% if not it.photo %} text-only{% endif %}">
-        {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="lazy" {{ dims(it.photo) }}></a>{% endif %}
-        <h3>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}{% if it.grade == 'A' %}{{ it.title }}{% else %}<a href="{{ article_urls[it.id] }}">{{ it.title|clean_title }}</a>{% endif %}</h3>
-        <div class="byline">{{ it.source_name }}</div>
+    <div class="blk-top">
+      {% set hd = rows[0] %}
+      <article class="blk-lead">
+        {% if hd.photo %}<a href="{{ article_urls[hd.id] }}"><img src="{{ hd.photo }}" alt="{{ hd.title }}" loading="lazy" {{ dims(hd.photo) }}></a>{% endif %}
+        {{ tag(hd) }}
+        <h3>{% if hd.grade == 'A' %}{{ hd.title }}{% else %}<a href="{{ article_urls[hd.id] }}">{{ ttl(hd) }}</a>{% endif %}</h3>
+        {% if not hd.photo and hd.summary %}<p class="summary">{{ hd.summary|truncate(120) }}</p>{% endif %}
+        <div class="byline">{{ hd.source_name }}</div>
       </article>
-      {% endfor %}
+      {% if rows|length > 1 %}
+      <ul class="tlist">
+        {% for it in rows[1:5] %}
+        <li><a href="{{ article_urls[it.id] }}"><span>{{ ttl(it) }}</span>{% if it.photo %}<img src="{{ it.photo }}" alt="" loading="lazy" {{ dims(it.photo) }}>{% endif %}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </div>
+    {% if rows|length > 5 %}
+    <ul class="tgrid">
+      {% for it in rows[5:] %}
+      <li><a href="{{ article_urls[it.id] }}">{% if it.photo %}<img src="{{ it.photo }}" alt="" loading="lazy" {{ dims(it.photo) }}>{% endif %}<span>{{ ttl(it) }}</span></a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
   </section>
   {% endif %}
 {% endfor %}
 
+{# ── 문화 — 여행 다음. 3×2 판. #}
 {% if ent_top %}
-<section class="block" style="margin-top:44px">
+<section class="block">
   <h2 class="block-title"><a href="/ent/">{{ channel_names.ent }}</a>
-    <span class="empty-s" style="font-weight:500;text-transform:none;letter-spacing:0;margin-left:10px">
-    {% for tid, tname, _ in ent_topics %}<a href="/ent/{{ tid }}/">{{ tname }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</span></h2>
-  <div class="cards">
+    <span class="blk-subs">{% for tid, tname, _ in ent_topics %}<a href="/ent/{{ tid }}/">{{ tname }}</a>{% endfor %}</span></h2>
+  <div class="pgrid">
     {% for it in ent_top %}
-    <article class="card{% if not it.photo %} text-only{% endif %}">
+    <article class="pcard{% if not it.photo %} text-only{% endif %}">
       {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="lazy" {{ dims(it.photo) }}></a>{% endif %}
-      {% set tg = tag_of(it) %}<a class="rg" href="{{ tg.href }}">{{ tg.label }}</a>
-      <h3>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[it.id] }}">{{ it.title|clean_title }}</a></h3>
-      <div class="byline">{{ it.source_name }} · {{ it.published_at[:10] }}</div>
+      {{ tag(it) }}
+      <h3><a href="{{ article_urls[it.id] }}">{{ ttl(it) }}</a></h3>
     </article>
     {% endfor %}
   </div>
 </section>
 {% endif %}
 
-{# 이번 주 영상. 우리가 직접 만든 것이라 지면에 건다.
-   자동 재생하지 않는다 — 소리가 갑자기 나오면 읽던 사람을 쫓아낸다. #}
-{% if video %}
-<section class="reel">
-  <div class="reel-box">
-    <video src="{{ video.src }}" controls preload="none" playsinline
-           poster="{{ video.poster or '' }}"></video>
-  </div>
-  <div class="reel-txt">
-    <span class="kicker">이번 주 영상</span>
-    <h2>{{ video.title }}</h2>
-    <p class="note">{{ video.seconds }}초 · {% if video.kind == 'voiced' %}나레이션 있음 · {% endif %}{% if video.photos %}직접 촬영한 사진으로 만들었습니다.{% else %}이번 주 지면을 카드로 옮겼습니다.{% endif %}
-    {% if video.outlets %}<br>인용한 매체 · {{ video.outlets|join(' · ') }}{% endif %}</p>
-    <p class="note"><a href="/{{ video.region }}/">{{ region_names.get(video.region, video.region) }} 지면에서 기사 보기</a></p>
-  </div>
-</section>
-{% endif %}
-
-{# 도시 띠. 상단 네비는 편집 부문만 둔다 — 목적지 디렉터리처럼 보이면 안 된다.
-   사람들은 "일본"이 아니라 "오사카"로 검색하므로 도시 입구는 있어야 한다. #}
-{% if city_links %}
-<nav class="citystrip" aria-label="도시별 여행뉴스">
-  <span class="cs-label">도시별</span>
-  {% for slug, name in city_links %}<a href="/city/{{ slug }}/">{{ name }}</a>{% endfor %}
-</nav>
-{% endif %}
-
-
-{# ── 연예 부문별 ── 위 연예 톱에 안 나온 것만, 기사가 있는 부문만 그린다. 빈 블록은 없다. #}
+{# ── 문화 부문별 — 위에 안 나온 것만, 기사가 있는 부문만. #}
 {% for tid, tname, _ in ent_topics %}
-  {% if by_ent.get(tid) %}
+  {% set rows = by_ent.get(tid) or [] %}
+  {% if rows %}
   <section class="block">
     <h2 class="block-title"><a href="/ent/{{ tid }}/">{{ channel_names.ent }} · {{ tname }}</a></h2>
-    <div class="cards">
-      {% for it in by_ent[tid][:4] %}
-      <article class="card{% if not it.photo %} text-only{% endif %}">
-        {% if it.photo %}<a href="{{ article_urls[it.id] }}"><img src="{{ it.photo }}" alt="{{ it.title }}" loading="lazy" {{ dims(it.photo) }}></a>{% endif %}
-        <h3>{% if it.title is sample %}<span class="badge">샘플</span>{% endif %}<a href="{{ article_urls[it.id] }}">{{ it.title|clean_title }}</a></h3>
-        <div class="byline">{{ it.source_name }}</div>
+    <div class="blk-top">
+      {% set hd = rows[0] %}
+      <article class="blk-lead">
+        {% if hd.photo %}<a href="{{ article_urls[hd.id] }}"><img src="{{ hd.photo }}" alt="{{ hd.title }}" loading="lazy" {{ dims(hd.photo) }}></a>{% endif %}
+        <h3><a href="{{ article_urls[hd.id] }}">{{ ttl(hd) }}</a></h3>
+        {% if not hd.photo and hd.summary %}<p class="summary">{{ hd.summary|truncate(120) }}</p>{% endif %}
+        <div class="byline">{{ hd.source_name }}</div>
       </article>
-      {% endfor %}
+      {% if rows|length > 1 %}
+      <ul class="tlist">
+        {% for it in rows[1:] %}
+        <li><a href="{{ article_urls[it.id] }}"><span>{{ ttl(it) }}</span>{% if it.photo %}<img src="{{ it.photo }}" alt="" loading="lazy" {{ dims(it.photo) }}>{% endif %}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </div>
   </section>
   {% endif %}
 {% endfor %}
 
+{# ── 최신 기사. "많이 본 뉴스"가 아니다 — 우리는 조회수가 없고, 없는 숫자로 순위를
+   만들면 지어낸 것이다. 위에 안 나온 기사를 최신순으로, 여행 먼저. #}
+{% if headlines %}
+<section class="block">
+  <h2 class="block-title">최신 기사</h2>
+  <ol class="headline-grid">
+    {% for it in headlines %}
+    <li><a href="{{ article_urls[it.id] }}"><span class="n">{{ loop.index }}</span><span class="t">{{ ttl(it) }}</span>{% if it.photo %}<img src="{{ it.photo }}" alt="" loading="lazy" {{ dims(it.photo) }}>{% endif %}</a></li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
+</div>
+
+{# ── 사이드 — 광고 자리 대신 길잡이. 기사를 또 걸지 않는다(한 화면 한 번). #}
+<aside class="col-side" aria-label="길잡이">
+  {% if video %}
+  <section class="side-box reel">
+    <h2 class="side-title">이번 주 영상</h2>
+    <div class="reel-box">
+      <video src="{{ video.src }}" controls preload="none" playsinline
+             poster="{{ video.poster or '' }}"></video>
+    </div>
+    <h3 class="reel-h">{{ video.title }}</h3>
+    <p class="note">{{ video.seconds }}초 · {% if video.kind == 'voiced' %}나레이션 있음 · {% endif %}{% if video.photos %}직접 촬영한 사진으로 만들었습니다.{% else %}이번 주 지면을 카드로 옮겼습니다.{% endif %}
+    {% if video.outlets %}<br>인용한 매체 · {{ video.outlets|join(' · ') }}{% endif %}</p>
+    <p class="note"><a href="/{{ video.region }}/">{{ region_names.get(video.region, video.region) }} 지면에서 기사 보기</a></p>
+  </section>
+  {% endif %}
+
+  {% if side_regions %}
+  <section class="side-box">
+    <h2 class="side-title"><a href="/travel/">지역별 여행</a></h2>
+    <ul class="side-list">
+      {% for key, name, n in side_regions %}<li><a href="/{{ key }}/">{{ name }}<span>{{ n }}</span></a></li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <section class="side-box">
+    <h2 class="side-title"><a href="/ent/">{{ channel_names.ent }}</a></h2>
+    <ul class="side-list">
+      {% for tid, name, n in side_ent %}<li><a href="/ent/{{ tid }}/">{{ name }}{% if n %}<span>{{ n }}</span>{% endif %}</a></li>{% endfor %}
+    </ul>
+  </section>
+
+  {# 도시 입구. 사람들은 "일본"이 아니라 "오사카"로 검색한다. #}
+  {% if city_links %}
+  <nav class="side-box citystrip" aria-label="도시별 여행뉴스">
+    <h2 class="side-title">도시별</h2>
+    <div class="chips">{% for slug, name in city_links %}<a href="/city/{{ slug }}/">{{ name }}</a>{% endfor %}</div>
+  </nav>
+  {% endif %}
+
+  <section class="side-box sub-box">
+    <h2 class="side-title">구독</h2>
+    <p>매일 아침 새 기사를 RSS 로 받아 보세요. 지역별·부문별로 고를 수 있습니다.</p>
+    <a class="sub-btn" href="/subscribe/">구독 방법 보기</a>
+  </section>
+</aside>
+</div>
+
+{# ── 포토 — 우리가 찍은 사진. 기사가 아니라 사진을 건다(누르면 그 지역면). #}
+{% if photo_strip|length >= 4 %}
+<section class="block photo-row">
+  <h2 class="block-title">포토 <span class="blk-subs"><span>피플로드가 직접 찍은 사진</span></span>
+    <span class="row-nav"><button type="button" class="pr" aria-label="이전 사진">‹</button><button type="button" class="nx" aria-label="다음 사진">›</button></span></h2>
+  <div class="photo-track">
+    {% for ph in photo_strip %}
+    <a class="ph" href="/{{ ph.region }}/">
+      <img src="{{ ph.src }}" alt="{{ ph.place }}에서 찍은 사진" loading="lazy" {{ dims(ph.src) }}>
+      <span class="ph-place">{{ region_names[ph.region] }}{% if ph.place != region_names[ph.region] %} · {{ ph.place }}{% endif %}</span>
+      <span class="ph-t">지면 보기 ›</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<script>
+/* 넘기는 큰 기사. 스크립트가 없으면 손으로 옆으로 넘긴다(scroll-snap). 6초마다 넘어가고,
+   마우스·포커스가 있으면 멈춘다. '움직임 줄이기' 설정이면 저절로 넘기지 않는다. */
+(function(){
+  var box=document.querySelector('.lead-box'); if(!box) return;
+  var tr=box.querySelector('.hero-track'); if(!tr) return;
+  var n=tr.children.length, dots=box.querySelectorAll('.hero-dots span'), i=0, hold=false;
+  function mark(){ for(var k=0;k<dots.length;k++) dots[k].className = k===i ? 'on' : ''; }
+  function go(k){ i=(k+n)%n; tr.scrollTo({left:tr.clientWidth*i,behavior:'smooth'}); mark(); }
+  var p=box.querySelector('.prev'), x=box.querySelector('.next');
+  if(p) p.onclick=function(){ go(i-1); };
+  if(x) x.onclick=function(){ go(i+1); };
+  tr.addEventListener('scroll',function(){ var k=Math.round(tr.scrollLeft/Math.max(tr.clientWidth,1)); if(k!==i){ i=k; mark(); } },{passive:true});
+  box.addEventListener('mouseenter',function(){hold=true}); box.addEventListener('mouseleave',function(){hold=false});
+  box.addEventListener('focusin',function(){hold=true}); box.addEventListener('focusout',function(){hold=false});
+  var still=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(n>1&&!still) setInterval(function(){ if(!hold&&!document.hidden) go(i+1); },6000);
+})();
+(function(){
+  var row=document.querySelector('.photo-row'); if(!row) return;
+  var tr=row.querySelector('.photo-track');
+  row.querySelector('.pr').onclick=function(){ tr.scrollBy({left:-tr.clientWidth*0.8,behavior:'smooth'}); };
+  row.querySelector('.nx').onclick=function(){ tr.scrollBy({left:tr.clientWidth*0.8,behavior:'smooth'}); };
+})();
+</script>
 {% endblock %}
