@@ -253,12 +253,11 @@
     },
     {
       "date": "2026-10-28",
-      "collected": 1053,
-      "published": 192,
+      "collected": 1072,
+      "published": 202,
       "ours": 14,
       "failed_sources": [
-        "guam_pdn",
-        "guam_post"
+        "guam_pdn"
       ]
     }
   ]
