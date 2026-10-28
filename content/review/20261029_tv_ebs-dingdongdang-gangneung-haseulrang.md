@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '딩동댕 딩동댕' 강릉 특집, 관광캐릭터 하슬랑과 29일 오전 8시 두 번째 이야기"
+title: EBS '딩동댕 딩동댕' 강릉 특집, 관광캐릭터 하슬랑과 29일 오전 8시 두 번째 이야기
 source_name: ''
 source_url: ''
-summary: EBS1 '딩동댕 딩동댕'이 강릉시와 함께 만든 강릉 특집을 28일과 29일 오전 8시에 방송한다. 29일에는 하슬랑과 딩딩·동동·댕댕이 강릉을 여행하는 이야기가 나온다.
+summary: EBS1 '딩동댕 딩동댕'이 강릉시와 함께 만든 강릉 특집을 28일과 29일 오전 8시에 방송한다. 29일에는 하슬랑과 딩딩·동동·댕댕이
+  강릉을 여행하는 이야기가 나온다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551617
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005551617
+status: duplicate
+duplicate_of: 20261027_tv_ebs-dingdongdang-gangneung.md
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 딩동댕 딩동댕 | 강릉 특집

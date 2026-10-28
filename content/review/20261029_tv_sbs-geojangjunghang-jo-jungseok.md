@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '거장항준' 29일 밤 10시 20분, 조정석 게스트 출격"
+title: SBS '거장항준' 29일 밤 10시 20분, 조정석 게스트 출격
 source_name: ''
 source_url: ''
 summary: SBS 예능 '거장항준'이 29일 밤 10시 20분 배우 조정석을 게스트로 맞는다. '좀비딸' 출연 비하인드가 공개된다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9306
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9306
+status: published
+published_id: c-72d2d058e65e9c10100880aedeedeccc45fb619e
+published_on: '2026-10-29'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 거장항준

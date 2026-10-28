@@ -4,16 +4,18 @@ channel: travel
 region: hawaii
 section: news
 kind: 해설
-title: "제주도, 하와이와 자매결연 40주년 기념 리셉션 개최"
+title: 제주도, 하와이와 자매결연 40주년 기념 리셉션 개최
 source_name: ''
 source_url: ''
-summary: 제주도가 28일 하와이 대표단을 초청해 자매결연 40주년 기념 리셉션을 열었다. 관광으로 시작한 두 지역의 교류는 기후·에너지 협력으로 넓어지고 있다.
+summary: 제주도가 28일 하와이 대표단을 초청해 자매결연 40주년 기념 리셉션을 열었다. 관광으로 시작한 두 지역의 교류는 기후·에너지 협력으로
+  넓어지고 있다.
 sources:
-  - http://www.jemin.com/news/articleView.html?idxno=845626
-  - https://www.fnnews.com/news/202610281525255287
-status: approved
+- http://www.jemin.com/news/articleView.html?idxno=845626
+- https://www.fnnews.com/news/202610281525255287
+status: published
+published_id: c-68e508db7113d0604d01677c244d819606309435
+published_on: '2026-10-29'
 ---
-
 제주도가 하와이주와 맺은 자매결연 40주년을 맞아 하와이 대표단을 불러 기념 리셉션을 열었다. 1985년 하와이 주지사의 제주 방문으로 시작된 교류는 관광에서 출발해 기후·에너지 협력으로 영역을 넓히는 중이다.
 
 제주도는 28일 해리티크제주에서 '제주도-하와이 자매결연 40주년 기념 리셉션'을 열었다고 밝혔다. 하와이 쪽에서는 제임스 쿠나네 토키오카 기업경제개발관광국장이 대표로 참석했고, 하와이주 상·하원의원과 하와이관광청, 민간 기관·단체 관계자 등 26명이 함께했다. 제주 쪽에서는 박천수 행정부지사와 관계 공무원들이 자리를 지켰다.

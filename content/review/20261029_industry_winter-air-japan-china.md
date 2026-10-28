@@ -4,15 +4,17 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "올겨울 국제선 항공 공급, 일본·중국 노선에 집중"
+title: 올겨울 국제선 항공 공급, 일본·중국 노선에 집중
 source_name: ''
 source_url: ''
-summary: 올겨울 국제선 하늘길이 코로나19 이전 수준을 넘어 늘어나지만 증편은 일본과 중국에 몰렸다. 김해·청주공항의 운항 여력이 커지면서 지방 출발 노선에는 기회가 열릴 전망이다.
+summary: 올겨울 국제선 하늘길이 코로나19 이전 수준을 넘어 늘어나지만 증편은 일본과 중국에 몰렸다. 김해·청주공항의 운항 여력이 커지면서
+  지방 출발 노선에는 기회가 열릴 전망이다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500620
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500620
+status: published
+published_id: c-3723bbfbed58dd13cb9641fea804911c37af0bd5
+published_on: '2026-10-29'
 ---
-
 올겨울 국제선 하늘길이 코로나19 이전 수준을 넘어서며 확대된다. 다만 늘어나는 항공 공급은 일본과 중국 노선에 더욱 집중되는 모습이다.
 
 동계 운항 일정을 보면 항공사들은 일본과 중국 노선을 중심으로 좌석을 늘리고 있다. 전체 공급이 늘어나는 가운데서도 노선별로 증편과 감편이 엇갈리는 흐름이 나타난다.

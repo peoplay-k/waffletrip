@@ -4,17 +4,19 @@ channel: travel
 region: vietnam
 section: news
 kind: 해설
-title: "다낭시, 할랄 관광 개발 국제 워크숍 개최"
+title: 다낭시, 할랄 관광 개발 국제 워크숍 개최
 source_name: ''
 source_url: ''
-summary: 베트남 사회과학원 산하 연구소가 27일 다낭에서 할랄 관광 개발을 주제로 국제 워크숍을 열었다. 100여 명이 참석했고, 다낭시는 관광 인프라와 항공망을 강점으로 내세웠다.
+summary: 베트남 사회과학원 산하 연구소가 27일 다낭에서 할랄 관광 개발을 주제로 국제 워크숍을 열었다. 100여 명이 참석했고, 다낭시는
+  관광 인프라와 항공망을 강점으로 내세웠다.
 sources:
-  - https://www.vietnam.vn/ko/khai-thac-tiem-nang-phat-trien-du-lich-halal-tai-da-nang
-  - https://www.vietnam.vn/ko/da-nang-khai-pha-tiem-nang-du-lich-halal
-  - https://www.vietnam.vn/ko/da-nang-tim-co-hoi-phat-trien-du-lich-halal
-status: approved
+- https://www.vietnam.vn/ko/khai-thac-tiem-nang-phat-trien-du-lich-halal-tai-da-nang
+- https://www.vietnam.vn/ko/da-nang-khai-pha-tiem-nang-du-lich-halal
+- https://www.vietnam.vn/ko/da-nang-tim-co-hoi-phat-trien-du-lich-halal
+status: published
+published_id: c-37a1c67b6de7b4bec35b2f661511554a724cbb8f
+published_on: '2026-10-29'
 ---
-
 베트남 다낭시가 이슬람권 여행객을 겨냥한 할랄 관광 개발에 나선다. 27일 오전 다낭에서는 관련 국제 워크숍이 열려 해외 사례와 다낭의 가능성을 짚었다.
 
 워크숍은 베트남 사회과학원 산하 남아시아·서아시아·아프리카 연구소가 관련 기관과 손잡고 마련했다. 주제는 '다낭의 할랄 관광 개발을 위한 국제적 경험과 잠재력'이다. 대표단과 전문가, 기업 관계자 100여 명이 참석했고, 응우옌 티 안 티 다낭시 인민위원회 부위원장도 자리했다.
