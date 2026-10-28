@@ -1670,5 +1670,50 @@
       "overrode": "얼굴 2건 검출",
       "origin": "NAS"
     }
+  ],
+  "japan": [
+    {
+      "file": "assets/photos/japan/free-kumamoto-castle.webp",
+      "hero": true,
+      "free": true,
+      "place": "구마모토성",
+      "city": "",
+      "commons": "Kumamotojo.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Birdman at Japanese Wikipedia",
+      "source": "https://commons.wikimedia.org/wiki/File:Kumamotojo.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    }
+  ],
+  "thailand": [],
+  "taiwan": [],
+  "laos": [],
+  "korea": [
+    {
+      "file": "assets/photos/korea/free-nami-island.webp",
+      "hero": true,
+      "free": true,
+      "place": "남이섬",
+      "city": "",
+      "commons": "Namiseom 1.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Namc87",
+      "source": "https://commons.wikimedia.org/wiki/File:Namiseom_1.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    }
+  ],
+  "industry": [
+    {
+      "file": "assets/photos/industry/free-gimpo-international-airport.webp",
+      "hero": true,
+      "free": true,
+      "place": "김포국제공항",
+      "city": "",
+      "commons": "Gimpo airport.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Cinnamon at ja.wikipedia",
+      "source": "https://commons.wikimedia.org/wiki/File:Gimpo_airport.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
+    }
   ]
 }
