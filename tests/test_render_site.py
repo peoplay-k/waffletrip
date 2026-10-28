@@ -63,7 +63,7 @@ def test_render_site_writes_index(tmp_path):
     render_site([make("1", "괌 신규 취항")], str(tmp_path), TODAY)
     html = (tmp_path / "index.html").read_text(encoding="utf-8")
     assert "피플로드" in html
-    assert "여행과 연예, 사람이 다니는 길" in html
+    assert "여행과 문화, 사람이 다니는 길" in html
     assert "괌 신규 취항" in html
     assert "와플트립<span" not in html          # 옛 제호가 마스트헤드에 남지 않는다
 

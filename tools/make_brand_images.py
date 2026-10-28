@@ -102,7 +102,7 @@ def make_og_ent(path: str, fpath: str | None, label: str) -> None:
     d = ImageDraw.Draw(im)
     d.rectangle((0, 0, 1200, 10), fill=INK)
     small = font(fpath, 40)
-    d.text((80, 150), f"{SITE_NAME} 연예", font=small, fill=MUTED)
+    d.text((80, 150), f"{SITE_NAME} 문화", font=small, fill=MUTED)
     big = font(fpath, 112)
     d.text((80, 220), label, font=big, fill=INK)
     x = 80 + _w(d, label, big) + 6

@@ -1,4 +1,4 @@
-"""여행 / 연예 두 채널. 피플로드는 문화 전문 매체이고 그 아래 두 축이 있다.
+"""여행 / 문화(옛 연예) 두 채널. 피플로드는 문화 전문 매체이고 그 아래 두 축이 있다.
 
 지켜야 할 것: 연예 기사는 /ent/ 아래에서만 살고 지역면·도시면·환율 패널에 섞이지
 않는다. 연예 부문 쪽은 기사가 없어도 존재한다(네비가 가리키는 주소가 404 면 안 된다).
@@ -56,7 +56,7 @@ def test_ent_category_falls_back_to_keywords_then_star():
     assert ent_category_of(ent("1", "배우 ○○, 사이판 촬영지에서", "")) == "startrip"
     assert ent_category_of(ent("1", "○○ 신작 영화 개봉", "")) == "movie"
     assert ent_category_of(ent("1", "○○ 소속사 이적", "")) == "startrip"   # 인물은 스타의 여행으로 합쳤다
-    assert ent_category_of(ent("1", "x", "drama")) == "movie"                 # 옛 id 는 새 부문으로
+    assert ent_category_of(ent("1", "x", "drama")) == "tv"                    # 옛 id 는 새 부문으로
     assert ent_category_of(ent("1", "x", "star")) == "startrip"
 
 
@@ -85,7 +85,7 @@ def test_ent_article_url_lives_under_ent():
 
 
 def test_tag_of_points_ent_at_its_section_and_travel_at_its_region():
-    assert tag_of(ent("1", "x", "drama")) == {"href": "/ent/movie/", "label": "연예 · 영화·드라마"}
+    assert tag_of(ent("1", "x", "drama")) == {"href": "/ent/tv/", "label": "문화 · 방송·드라마"}
     assert tag_of(make("1", "x", region="jeju")) == {"href": "/jeju/", "label": "제주"}
 
 
@@ -97,7 +97,7 @@ def test_ent_pages_exist_even_with_zero_ent_articles(tmp_path):
     for tid, _, _ in ENT_TOPICS:
         assert (tmp_path / "ent" / tid / "index.html").exists(), tid
     home = (tmp_path / "index.html").read_text(encoding="utf-8")
-    assert "연예 · 영화" not in home              # 빈 블록은 그리지 않는다
+    assert "문화 · 영화" not in home              # 빈 블록은 그리지 않는다
     assert 'href="/ent/"' in home and 'href="/travel/"' in home   # 네비에는 있다
 
 
@@ -107,7 +107,7 @@ def test_ent_article_renders_under_ent_and_not_in_region_pages(tmp_path):
     page = tmp_path / "ent" / "c-2-영화-개봉" / "index.html"
     assert page.exists()
     html = page.read_text(encoding="utf-8")
-    assert "연예 · 영화" in html
+    assert "문화 · 영화" in html
     assert "피플로드 문화부" in html
     assert "오늘</span>" not in html          # 환율·날씨 띠는 여행 기사에만 붙는다
     assert "여행 상품 보러가기" not in html
@@ -123,8 +123,8 @@ def test_ent_article_renders_under_ent_and_not_in_region_pages(tmp_path):
 def test_ent_article_breadcrumb_goes_through_the_channel(tmp_path):
     render_site([ent("c-2", "영화 ○○ 개봉", "movie")], str(tmp_path), TODAY)
     html = (tmp_path / "ent" / "c-2-영화-개봉" / "index.html").read_text(encoding="utf-8")
-    assert '"name": "연예"' in html and '"name": "영화·드라마"' in html
-    assert '"articleSection": "영화·드라마"' in html
+    assert '"name": "문화"' in html and '"name": "영화"' in html
+    assert '"articleSection": "영화"' in html
 
 
 def test_search_index_tags_ent_articles_with_their_section(tmp_path):
@@ -132,7 +132,7 @@ def test_search_index_tags_ent_articles_with_their_section(tmp_path):
                 str(tmp_path), TODAY)
     rows = json.loads((tmp_path / "search.json").read_text(encoding="utf-8"))
     by = {r["t"]: r for r in rows}
-    assert by["영화 ○○ 개봉"]["k"] == "ent/movie" and by["영화 ○○ 개봉"]["r"] == "연예 · 영화·드라마"
+    assert by["영화 ○○ 개봉"]["k"] == "ent/movie" and by["영화 ○○ 개봉"]["r"] == "문화 · 영화"
     assert by["괌 소식"]["k"] == "guam"
 
 
@@ -159,7 +159,7 @@ def test_ent_feed_holds_only_ent_and_region_feed_holds_only_travel(tmp_path):
     ent_path = render_rss(items, str(tmp_path), NOW, channel="ent")
     xml = Path(ent_path).read_text(encoding="utf-8")
     assert ent_path.endswith("ent/rss.xml")
-    assert "영화 개봉" in xml and "괌 소식" not in xml and "<title>피플로드 연예</title>" in xml
+    assert "영화 개봉" in xml and "괌 소식" not in xml and "<title>피플로드 문화</title>" in xml
     guam = Path(render_rss(items, str(tmp_path), NOW, region="guam")).read_text(encoding="utf-8")
     assert "괌 소식" in guam and "영화 개봉" not in guam
 
@@ -196,7 +196,7 @@ def test_ent_draft_publishes_without_region(tmp_path):
     got = collect_approved(str(review), TODAY)
     assert len(got) == 1
     item = got[0][1]
-    assert item.channel == "ent" and item.category == "movie" and item.region == ""   # drama → movie
+    assert item.channel == "ent" and item.category == "tv" and item.region == ""      # drama → 방송·드라마
 
 
 def test_travel_draft_without_region_is_skipped(tmp_path):
@@ -332,15 +332,19 @@ def test_ent_exclusion_catches_translated_and_non_entertainment_items():
     assert not is_ent_excluded("MBC 새 금토드라마 라이어 대본리딩 현장 공개", "뉴스1")
 
 
-def test_home_shows_an_entertainment_block_near_the_top(tmp_path):
-    """두 축 매체다. 연예가 화면 맨 아래에만 있으면 여행 사이트로 읽힌다."""
+def test_home_shows_travel_blocks_then_the_culture_block(tmp_path):
+    """두 축 매체지만 여행이 먼저다(2026-10-28 사장님: "연예보단 여행 먼저").
+    문화 블록은 여행 부문 블록 바로 뒤에 온다."""
     items = [make(str(n), f"괌 소식 {n}", grade="B") for n in range(20)]
+    items += [make(f"b{n}", f"대한항공 괌 증편 {n}", grade="B") for n in range(20)]
     items += [ent(f"e{n}", f"영화 ○○ 개봉 {n}", "movie", grade="B") for n in range(3)]
     render_site(items, str(tmp_path), TODAY)
     home = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert 'class="block-title"><a href="/biz/">' in home
     ent_pos = home.index('class="block-title"><a href="/ent/">')
-    first_travel_block = home.index('class="block-title"><a href="/news/">') if '/news/">' in home else len(home)
-    assert ent_pos < first_travel_block          # 연예 톱이 여행 부문 블록보다 위
+    first_travel_block = home.index('class="block-title"><a href="/news/">')
+    assert first_travel_block < ent_pos          # 여행 부문 블록이 문화 블록보다 위
+    assert home.count('class="block-title"><a href="/ent/">') == 1   # 여행 부문마다 되풀이되지 않는다
     assert home.count("영화 ○○ 개봉 0") == 1     # 같은 기사가 두 번 걸리지 않는다
 
 
@@ -384,7 +388,7 @@ def test_old_section_urls_redirect_to_the_merged_sections(tmp_path):
     for old, new in (("issue", "news"), ("world", "news"), ("policy", "news"), ("people", "biz")):
         html = (tmp_path / old / "index.html").read_text(encoding="utf-8")
         assert f'url=/{new}/' in html and 'noindex' in html
-    for old, new in (("drama", "movie"), ("star", "startrip")):
+    for old, new in (("drama", "tv"), ("star", "startrip")):
         html = (tmp_path / "ent" / old / "index.html").read_text(encoding="utf-8")
         assert f'url=/ent/{new}/' in html
 
@@ -396,7 +400,7 @@ def test_home_top_three_mix_both_channels_when_possible(tmp_path):
     render_site(items, str(tmp_path), TODAY)
     home = (tmp_path / "index.html").read_text(encoding="utf-8")
     top = home.split('class="data-strip"')[0] if 'class="data-strip"' in home else home.split('class="headline-grid"')[0]
-    assert "연예 · 영화·드라마" in top and "괌 소식" in top
+    assert "문화 · 영화" in top and "괌 소식" in top
 
 
 # ── 2026-09-25 밤 전수 점검에서 잡은 것 ─────────────────────────────
@@ -548,3 +552,34 @@ def test_home_lead_always_has_a_photo(tmp_path):
     lead = home.split('class="lead-box"', 1)[1].split("</section>", 1)[0]
     assert "lead-photo" in lead and "괌 노선 재개" in lead
     assert "영화 ○○ 6주차 1위" in home and "영화 ○○ 6주차 1위" not in lead
+
+
+def test_home_puts_travel_before_entertainment(tmp_path):
+    """여행이 먼저(2026-10-28 사장님). 방송 글자 카드는 머리기사 사진으로 치지 않는다."""
+    tv = ent("c-7", "KBS '동네 한 바퀴' 390화", "tv")
+    tv.photo = "/img/tv/c-7.jpg"
+    film = ent("c-9", "영화 ○○ 6주차 1위", "movie")
+    trip = make("c-8", "괌 노선 재개", region="guam", photo="/img/guam-1.jpg")
+    trip.published_at = "2026-09-20T09:00:00+09:00"
+    render_site([trip, film, tv], str(tmp_path), TODAY)
+    home = (tmp_path / "index.html").read_text(encoding="utf-8")
+    lead = home.split('class="lead-box"', 1)[1].split("</section>", 1)[0]
+    assert "괌 노선 재개" in lead
+    body = home.split("</section>", 1)[1]
+    first_ent = body.find('href="/ent/"')
+    first_travel = min(x for x in (body.find(f'href="/{t}/"') for t in ("news", "biz", "feature", "data")) if x >= 0)
+    assert first_travel < first_ent
+
+
+def test_culture_sections_follow_the_2026_10_28_layout():
+    """문화 — 영화, 방송·드라마, 음악, 공연·전시, 스타의 여행(2026-10-28 사장님)."""
+    assert [n for _, n, _ in ENT_TOPICS] == ["영화", "방송·드라마", "음악", "공연·전시", "스타의 여행"]
+
+
+def test_old_combined_sections_split_by_title():
+    """옛 '영화·드라마'·'음악·공연'으로 저장된 기사는 제목이 분명할 때만 새 부문으로 옮긴다."""
+    assert ent_category_of(ent("1", "KBS 대하드라마 '문무' 첫 스틸 공개", "movie")) == "tv"
+    assert ent_category_of(ent("1", "드라마 원작 영화 개봉", "movie")) == "movie"
+    assert ent_category_of(ent("1", "뮤지컬 ○○ 재연 확정", "music")) == "stage"
+    assert ent_category_of(ent("1", "○○ 콘서트 뮤지컬 넘버 무대", "music")) == "music"
+    assert ent_category_of(ent("1", "국립현대미술관 특별전 개막", "")) == "stage"

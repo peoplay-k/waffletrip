@@ -178,8 +178,8 @@ def render_llms_txt(items: list[Item], out_dir: str) -> str:
 
     lines = [f"# {SITE_NAME} (PeopleRoad)", "",
              f"> {SITE_KIND}. {SITE_TAGLINE}. 여행 채널은 {regions} 열 곳의 "
-             f"여행 뉴스를 매일 아침(KST) 새로 내고, 연예 채널은 영화·드라마, "
-             f"음악·공연, 그리고 '스타의 여행'을 다룬다. 현지 매체·관광청·소속사 "
+             f"여행 뉴스를 매일 아침(KST) 새로 내고, 문화 채널은 영화, 방송·드라마, "
+             f"음악, 공연·전시, 그리고 '스타의 여행'을 다룬다. 현지 매체·관광청·소속사 "
              f"발표를 원문 출처와 함께 옮기고, 확인되지 않은 사실은 싣지 않는다. "
              f"사진은 직접 촬영한 것만 쓴다. 운영사는 여행사 피플레이다.", ""]
 
@@ -190,14 +190,14 @@ def render_llms_txt(items: list[Item], out_dir: str) -> str:
     lines += ["", "## 여행 — 부문", ""]
     lines += [f"- [{name}]({base}/{tid}/): {desc}" for tid, name, desc in TOPICS]
 
-    lines += ["", "## 연예 — 부문", ""]
+    lines += ["", "## 문화 — 부문", ""]
     lines += [f"- [{name}]({base}/ent/{tid}/): {desc}" for tid, name, desc in ENT_TOPICS]
 
     lines += ["", "## 매체 정보", "",
               f"- [매체 소개]({base}/about/): 발행 주체와 편집 원칙",
               f"- [제보·문의]({base}/contact/)",
               f"- [전체 주소 목록]({base}/sitemap.xml)",
-              f"- [RSS 전체]({base}/rss.xml) · [연예 RSS]({base}/ent/rss.xml)", ""]
+              f"- [RSS 전체]({base}/rss.xml) · [문화 RSS]({base}/ent/rss.xml)", ""]
 
     # A등급(환율·날씨 같은 자동 생성 데이터)은 기사가 아니라 빼둔다.
     # sitemap 과 같은 기준이다.

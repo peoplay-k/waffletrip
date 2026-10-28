@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}{{ site_name }}{% endblock %}</title>
 {% block robots %}{% endblock %}
-<meta name="description" content="{% block description %}{{ site_kind }}. 여행 — 일본·태국·대만·베트남·괌·사이판·하와이·코타키나발루·라오스·제주. 연예 — 영화·드라마·음악·공연·스타의 여행{% endblock %}">
+<meta name="description" content="{% block description %}{{ site_kind }}. 여행 — 일본·태국·대만·베트남·괌·사이판·하와이·코타키나발루·라오스·제주. 문화 — 영화·방송·드라마·음악·공연·전시·스타의 여행{% endblock %}">
 <link rel="canonical" href="{{ canonical }}">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate" type="application/rss+xml" title="{{ site_name }}" href="/rss.xml">
@@ -155,6 +155,8 @@
     letter-spacing:.04em;text-transform:uppercase;border-bottom:2px solid var(--rule)}
   .block-title a:hover{color:var(--coral)}
   .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:32px}
+  /* 방송 기사의 글자 카드(1200×630)는 자르면 글자가 끊긴다 — 제 비율 그대로 */
+  img[src*="/img/tv/"]{aspect-ratio:1200/630!important;object-fit:contain!important;max-height:none!important;background:var(--paper)}
   .card img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:2px;
     margin-bottom:13px}
   .card.text-only{border-top:1px solid var(--line);padding-top:14px}
@@ -268,12 +270,13 @@
       padding-top:26px}
     .sec-lead:has(img){grid-template-columns:1fr}
   }
-  /* 좁은 화면 — 메뉴를 두 줄로. 한 줄 가로 스크롤이면 '연예' 그룹이 화면 밖으로 밀려
+  /* 좁은 화면 — 메뉴를 두 줄로. 한 줄 가로 스크롤이면 '문화' 그룹이 화면 밖으로 밀려
      두 축 매체가 여행 사이트로 보인다(2026-09-25 390px 실측). 채널 사이 세로선이
      줄바꿈 구실을 한다. 구독·문의·검색은 둘째 줄 끝에 붙는다. */
   @media (max-width:720px){
     .gnb .wrap{flex-wrap:wrap;overflow-x:visible;padding:0 16px}
-    .gnb a{padding:11px 10px;font-size:14px}
+    /* 문화 부문이 다섯이 되면서(2026-10-28) 둘째 줄이 390px 를 넘었다 — 간격을 줄인다 */
+    .gnb a{padding:11px 6px;font-size:13.5px;letter-spacing:-.02em}
     .gnb a:first-child{padding-left:0}
     .gnb .ch{padding-left:0}
     .gnb .bar{flex-basis:100%;height:0;margin:0;background:transparent}
@@ -346,8 +349,8 @@
   </div>
 </div></header>
 
-{# 두 채널을 한 줄에 둔다 — 여행 ▸ 부문 일곱 | 연예 ▸ 부문 다섯.
-   문화 전문매체는 여행과 연예 두 축이고, 네비가 그 구조를 그대로 보여야 한다. #}
+{# 두 채널을 한 줄에 둔다 — 여행 ▸ 부문 넷 | 문화 ▸ 부문 다섯.
+   여행·문화 전문매체는 두 축이고, 네비가 그 구조를 그대로 보여야 한다. #}
 <nav class="gnb" aria-label="주요 메뉴"><div class="wrap">
   <a class="ch" href="/travel/">{{ channel_names.travel }}</a>
   {% for tid, tname, _ in topics %}<a href="/{{ tid }}/">{{ tname }}</a>{% endfor %}

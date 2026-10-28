@@ -375,7 +375,7 @@ def og_fallback_for(item) -> str:
     """사진 없는 기사의 공유 그림. 연예는 부문 카드, 그 밖에는 기본 카드.
 
     연예 기사에는 남의 사진을 못 쓰니(초상권) 사진이 거의 없다. 카톡·페북에
-    보냈을 때 매번 같은 기본 카드가 나오는 대신 '피플로드 연예 · 영화·드라마'
+    보냈을 때 매번 같은 기본 카드가 나오는 대신 '피플로드 문화 · 영화'
     카드가 나온다. 파일이 없으면 기본 카드로 돌아간다.
     """
     if is_ent(item):
@@ -544,7 +544,7 @@ def _article_ld(item, urls: dict) -> str:
     # 검색엔진에 지면(부문)을 알린다. 문화 전문매체로 심사받을 때 기사가 어느
     # 영역인지 기계가 읽을 수 있어야 한다.
     if is_ent(item):
-        data["articleSection"] = ENT_TOPIC_NAMES.get(ent_category_of(item), "연예")
+        data["articleSection"] = ENT_TOPIC_NAMES.get(ent_category_of(item), CHANNEL_NAMES["ent"])
     else:
         data["articleSection"] = TOPIC_NAMES.get(topic_of(item), "여행")
     if getattr(item, "title_orig", None):
@@ -689,7 +689,13 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 들어가야 해"). 사진 있는 기사 중 가장 최신 것을 머리로 올린다. 연예 기사는 남의
     # 사진을 쓰지 않아 대개 사진이 없으므로 사이드·헤드라인 띠로 간다. 사진 있는 기사가
     # 하나도 없을 때만 예전처럼 최신 기사를 쓴다.
-    lead = next((i for i in articles if i.photo), articles[0] if articles else None)
+    # 방송 기사의 글자 카드(/img/tv/)는 사진이 아니다. 여행이 먼저다(같은 날 "연예보단 여행
+    # 먼저") — 실제 사진이 있는 여행 기사 → 실제 사진이 있는 기사 → 그림이 있는 기사 순.
+    def _real_photo(i):
+        return bool(i.photo) and not str(i.photo).startswith("/img/tv/")
+    lead = (next((i for i in articles if _real_photo(i) and not is_ent(i)), None)
+            or next((i for i in articles if _real_photo(i)), None)
+            or next((i for i in articles if i.photo), articles[0] if articles else None))
     if lead is not None:
         articles = [lead] + [i for i in articles if i.id != lead.id]
     # 사이드 두 건 — 첫 화면 셋이 한 채널로만 채워지지 않게 한다. 두 축 매체인데
@@ -704,7 +710,9 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         if len(sub_leads) < 2:
             sub_leads = rest[:2]
     top_ids = ([lead.id] if lead else []) + [i.id for i in sub_leads]
-    headlines = [i for i in rest if i.id not in top_ids][:12]   # 헤드라인 띠 열두 건
+    # 헤드라인 띠도 여행이 먼저, 그다음 연예. 각 묶음 안에서는 최신순(2026-10-28 사장님).
+    _hl = [i for i in rest if i.id not in top_ids]
+    headlines = ([i for i in _hl if not is_ent(i)] + [i for i in _hl if is_ent(i)])[:12]   # 열두 건
     shown = set(top_ids) | {i.id for i in headlines}
 
     # 부문 페이지는 그 부문 전체를 보여준다 — 통계·리포트에는 환율·날씨가
@@ -791,8 +799,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         os.path.join(out_dir, "ent", "index.html"),
         env.get_template("channel.html").render(
             channel_key="ent", channel_name=CHANNEL_NAMES["ent"],
-            channel_desc=("영화·드라마, 음악·공연, 그리고 여행과 연예가 만나는 '스타의 여행'. "
-                          "소속사·배급사·방송사 발표와 현장 취재로 씁니다. "
+            channel_desc=("영화, 방송·드라마, 음악, 공연·전시, 그리고 여행과 문화가 만나는 '스타의 여행'. "
+                          "소속사·배급사·방송사·제작사 발표와 현장 취재로 씁니다. "
                           "사진은 저희가 직접 찍은 것만 씁니다."),
             sections=[(f"/ent/{tid}/", name, desc) for tid, name, desc in ENT_TOPICS],
             places=[], items=ent_listed[:24], star_trips=[], **common),

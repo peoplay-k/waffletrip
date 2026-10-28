@@ -46,7 +46,7 @@ REPORTERS_FROM = ADAPT_FROM
 # 지면 → 기자
 BEATS: dict[str, str] = {beat: name for name, beats in REPORTERS.items()
                          for beat in beats}
-BEAT_NAMES: dict[str, str] = {**REGION_NAMES, "ent": "연예",
+BEAT_NAMES: dict[str, str] = {**REGION_NAMES, "ent": "문화",
                               "data": "환율·날씨"}
 
 # 기사 종류. 초안 앞머리의 `kind` 에 적는다. 네이버 제휴 심사는 자체 기사
@@ -102,7 +102,7 @@ DESK_DUTIES = (
     (REGION_DESKS["taiwan"], "대만 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
     (REGION_DESKS["industry"], "항공·여행사·정책 등 목적지를 가리지 않는 업계 소식을 맡습니다.",
      "AI 작성 · 사람 지침"),
-    (ENT_DESK, "영화·드라마, 음악·공연, '스타의 여행' 기사를 맡습니다. "
+    (ENT_DESK, "영화, 방송·드라마, 음악, 공연·전시, '스타의 여행' 기사를 맡습니다. "
                "소속사·배급사 보도자료와 현장 취재로 씁니다.", ENT_HOW),
 )
 

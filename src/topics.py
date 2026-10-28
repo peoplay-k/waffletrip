@@ -3,12 +3,14 @@
 피플로드는 문화 전문 매체이고 그 아래 두 채널이 있다 — 여행과 연예.
 
   여행: 뉴스 · 업계·피플 · 기획·연재 · 통계·리포트
-  연예: 영화·드라마 · 음악·공연 · 스타의 여행
+  문화: 영화 · 방송·드라마 · 음악 · 공연·전시 · 스타의 여행
 
 2026-09-25 사장님: "카테고리가 너무 많아, 합칠 게 많다." 여행 일곱(여행BIZ·이슈·동향·
 관광정책·기획·연재·국제·피플·오피니언·통계·리포트)을 넷으로, 연예 다섯(영화·드라마·방송·
 음악·공연·인물·스타의 여행)을 셋으로 합쳤다. 옛 부문 id 는 TOPIC_ALIASES·ENT_ALIASES 로
 새 부문에 붙고, 옛 주소(/issue/ /ent/drama/ …)는 새 주소로 넘어가는 쪽을 따로 낸다.
+2026-10-28 사장님: 연예 → 문화, 부문은 영화 · 방송·드라마 · 음악 · 공연·전시 · 스타의 여행.
+옛 '영화·드라마'·'음악·공연'으로 저장된 기사는 ent_category_of 가 제목으로 다시 가른다.
 
 "스타의 여행"은 두 채널이 만나는 자리다 — 촬영지, 스타가 간 곳, 드라마 로케이션,
 해외 공연 원정. 여행 매체도 연예 매체도 잘 안 다루는 자리라 우리만 쓸 수 있는
@@ -40,18 +42,22 @@ TOPIC_ALIASES = {"issue": "news", "world": "news", "policy": "news", "people": "
 # 경로는 /ent/<id>/ 라 여행 부문 id 와 같아도 충돌하지 않지만, 코드에서
 # 부문 id 하나로 채널을 알 수 있게 겹치지 않는 이름을 골랐다.
 ENT_TOPICS = (
-    ("movie", "영화·드라마",
-     "개봉·시사회·제작발표회, 드라마·예능·OTT. 배급사·제작사·방송사 발표와 현장 취재로 씁니다."),
-    ("music", "음악·공연", "앨범·컴백·차트·콘서트·쇼케이스. 공연은 현장에서 봅니다."),
-    ("tv", "방송",
-     "오늘 방송되는 예능·교양·드라마 회차를 미리 봅니다. 방송사 보도자료로 씁니다."),
+    ("movie", "영화",
+     "개봉·시사회·제작발표회·박스오피스·영화제. 배급사·제작사 발표와 현장 취재로 씁니다."),
+    ("tv", "방송·드라마",
+     "드라마·예능·OTT, 그리고 오늘 방송되는 회차. 방송사·제작사 보도자료로 씁니다."),
+    ("music", "음악", "앨범·컴백·차트·콘서트·쇼케이스. 공연은 현장에서 봅니다."),
+    ("stage", "공연·전시",
+     "뮤지컬·연극·클래식·무용, 그리고 미술관·박물관 전시. 제작사·기관 발표로 씁니다."),
     ("startrip", "스타의 여행",
-     "배우·가수의 소식과 스타가 간 곳 — 촬영지, 해외 공연·팬미팅, 로케이션. 여행과 연예가 만나는 자리입니다."),
+     "배우·가수의 소식과 스타가 간 곳 — 촬영지, 해외 공연·팬미팅, 로케이션. 여행과 문화가 만나는 자리입니다."),
 )
 ENT_TOPIC_NAMES = {tid: name for tid, name, _ in ENT_TOPICS}
 ENT_TOPIC_DESCS = {tid: desc for tid, _, desc in ENT_TOPICS}
 # 옛 연예 부문 → 새 부문. 편집실·소스·초안이 옛 id 를 써도 여기로 붙는다.
-ENT_ALIASES = {"drama": "movie", "star": "startrip"}
+# 2026-10-28 사장님: "문화 — 영화, 방송-드라마, 음악, 공연-전시, 스타의 여행".
+# 옛 drama(드라마·방송)는 영화가 아니라 방송·드라마로 간다.
+ENT_ALIASES = {"drama": "tv", "star": "startrip"}
 ENT_DEFAULT = "startrip"
 
 
@@ -89,26 +95,38 @@ _RULES: tuple[tuple[str, tuple[str, ...], tuple[str, ...]], ...] = (
       "festival", "reopen", "quake", "crowd")),
 )
 
+_MOVIE_WORDS = ("영화", "개봉", "시사회", "제작발표회", "박스오피스", "관객", "감독", "영화제",
+                "칸", "베니스", "베네치아", "토론토", "은사자", "극장")
+_DRAMA_WORDS = ("드라마", "예능", "방송", "OTT", "넷플릭스", "티빙", "디즈니+", "웨이브",
+                "시청률", "종영", "첫방", "회차", "시즌")
+_STAGE_WORDS = ("뮤지컬", "연극", "오페라", "발레", "무용", "오케스트라", "교향악", "클래식",
+                "전시", "展", "미술관", "박물관", "갤러리", "비엔날레", "아트페어")
+_MUSIC_WORDS = ("앨범", "컴백", "음원", "신곡", "차트", "빌보드", "콘서트", "쇼케이스", "가수",
+                "아이돌", "밴드", "OST")
+
 # 연예 기사에 category 가 비어 올 때만 쓰는 보조 규칙. 편집실이 고른 값이 늘 이긴다.
 # 교차 부문(startrip)이 먼저다 — "촬영지"가 있으면 영화 기사여도 여행 쪽이 살아야 한다.
 _ENT_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("startrip", ("촬영지", "로케이션", "로케", "여행", "다녀온", "원정", "성지순례",
                   "해외 팬미팅", "日 팬미팅", "美 팬미팅", "내한", "휴가", "괌", "사이판",
                   "하와이", "제주", "다낭", "도쿄", "방콕", "타이베이")),
-    ("movie", ("영화", "개봉", "시사회", "제작발표회", "박스오피스", "관객", "감독", "영화제",
-               "칸", "베니스", "베네치아", "토론토", "은사자")),
+    ("movie", _MOVIE_WORDS),
     ("star", ("에미상", "시상식", "수상", "후보", "인터뷰", "화보")),
-    ("drama", ("드라마", "예능", "방송", "OTT", "넷플릭스", "시청률", "종영", "첫방")),
+    ("drama", _DRAMA_WORDS),
+    ("stage", _STAGE_WORDS),
     ("music", ("앨범", "콘서트", "공연", "쇼케이스", "컴백", "음원", "투어 공연", "페스티벌",
-               "뮤지컬", "빌보드", "차트", "신곡", "히트곡", "OST", "가곡", "월드투어 매출")),
+               "빌보드", "차트", "신곡", "히트곡", "OST", "가곡", "월드투어 매출")),
 )
-
 
 def _hit(text: str, korean: tuple[str, ...], english: tuple[str, ...]) -> bool:
     if any(w in text for w in korean):
         return True
     lowered = text.lower()
     return any(re.search(r"\b" + re.escape(w) + r"\b", lowered) for w in english)
+
+
+def _any(text: str, words: tuple[str, ...]) -> bool:
+    return any(w in text for w in words)
 
 
 def is_ent(item) -> bool:
@@ -118,10 +136,17 @@ def is_ent(item) -> bool:
 def ent_category_of(item) -> str:
     """연예 기사의 부문. 편집실이 정한 category 가 있으면 그것, 없으면 제목으로 추정,
     그래도 모르면 인물."""
-    cat = ent_canonical(getattr(item, "category", "") or "")
+    raw = (getattr(item, "category", "") or "").strip()
+    cat = ent_canonical(raw)
+    text = f"{getattr(item, 'title', '')} {getattr(item, 'summary', '')}"
+    # 옛 '영화·드라마'(movie)·'음악·공연'(music)으로 저장된 기사를 새 부문으로 가른다.
+    # 제목이 분명히 다른 쪽일 때만 옮긴다 — 애매하면 편집실이 고른 값을 둔다.
+    if cat == "movie" and _any(text, _DRAMA_WORDS) and not _any(text, _MOVIE_WORDS):
+        return "tv"
+    if cat == "music" and _any(text, _STAGE_WORDS) and not _any(text, _MUSIC_WORDS):
+        return "stage"
     if cat:
         return cat
-    text = f"{getattr(item, 'title', '')} {getattr(item, 'summary', '')}"
     for topic_id, korean in _ENT_RULES:
         if any(w in text for w in korean):
             return ent_canonical(topic_id) or ENT_DEFAULT

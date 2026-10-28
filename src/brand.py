@@ -14,9 +14,9 @@ import os
 
 SITE_NAME = "피플로드"
 SITE_NAME_EN = "PeopleRoad"
-SITE_TAGLINE = "여행과 연예, 사람이 다니는 길"
+SITE_TAGLINE = "여행과 문화, 사람이 다니는 길"
 # 인터넷신문 미등록 상태다. 스스로를 '신문'이라 부르는 공개 문장은 두지 않는다.
-SITE_KIND = "여행·연예 문화 전문 매체"
+SITE_KIND = "여행·문화 전문 매체"
 OWNER = "피플레이"                      # 운영사. 여행사이자 마케팅 대행사
 
 DOMAIN = os.environ.get("WAFFLE_SITE_DOMAIN", "waffletrip.com")

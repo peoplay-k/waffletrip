@@ -49,8 +49,9 @@ REGIONS = [("guam", "괌"), ("saipan", "사이판"), ("hawaii", "하와이"),
            ("laos", "라오스"), ("jeju", "제주"), ("japan", "일본"),
            ("thailand", "태국"), ("taiwan", "대만")]
 CHANNELS = [("travel", "여행 — 지역면"), ("ent", "연예 — /ent/ 부문")]
-CATEGORIES = [("", "(여행 기사는 비움)"), ("movie", "영화·드라마"),
-              ("music", "음악·공연"), ("startrip", "스타의 여행 — 인물·촬영지·해외 공연")]
+CATEGORIES = [("", "(여행 기사는 비움)"), ("movie", "영화"),
+              ("tv", "방송·드라마"), ("music", "음악"), ("stage", "공연·전시"),
+              ("startrip", "스타의 여행 — 인물·촬영지·해외 공연")]
 SECTIONS = [("news", "일반 소식·해설"), ("flight", "항공·노선"),
             ("data", "데이터·통계"), ("promo", "안내")]
 STATUSES = [("draft", "작성중 — 지면에 안 나감"),

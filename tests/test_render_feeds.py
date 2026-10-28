@@ -178,8 +178,8 @@ def test_sitemap_urls_carry_the_base_path(tmp_path, monkeypatch):
 def test_llms_txt_opens_with_the_site_name_and_summary(tmp_path):
     text = Path(render_llms_txt([], str(tmp_path))).read_text(encoding="utf-8")
     assert text.startswith("# 피플로드")
-    assert "> 여행·연예 문화 전문 매체" in text
-    assert "## 연예 — 부문" in text and "/ent/startrip/" in text
+    assert "> 여행·문화 전문 매체" in text
+    assert "## 문화 — 부문" in text and "/ent/startrip/" in text
 
 
 def test_llms_txt_lists_every_region_and_topic(tmp_path):

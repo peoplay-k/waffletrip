@@ -33,7 +33,7 @@ ADAPT_FROM = "2026-10-02"
 #   ent    — 연예. 지역이 없다. 부문(topics.ENT_TOPICS)이 지면이다.
 # 기존 jsonl 에는 channel 이 없다. item_from_dict 가 travel 로 읽는다.
 CHANNELS = ("travel", "ent")
-CHANNEL_NAMES = {"travel": "여행", "ent": "연예"}
+CHANNEL_NAMES = {"travel": "여행", "ent": "문화"}  # 2026-10-28 사장님: "연예 빼고 문화로". 주소(/ent/)는 그대로
 
 # 지역의 한글 이름. 여기가 정본이다 — 모듈마다 따로 적어두면 지역을 늘릴 때
 # 한 곳만 고치게 되고, 그러면 지면에 "이번 주 japan에서 나온 소식"처럼

@@ -67,7 +67,7 @@ def card_name(item) -> str:
     return re.sub(r"[^0-9A-Za-z_-]", "", str(item.id))[:60] or "card"
 
 
-def draw_card(title: str, date: str, path: str) -> bool:
+def draw_card(title: str, date: str, path: str, kicker: str = "오늘 방송") -> bool:
     """카드 한 장. 글꼴이 없으면 False — 사진 없는 기사로 나간다."""
     from PIL import Image, ImageDraw
     big = _font(64)
@@ -76,9 +76,9 @@ def draw_card(title: str, date: str, path: str) -> bool:
     im = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(im)
     d.rectangle((0, 0, W, 10), fill=INK)
-    d.text((80, 70), f"{SITE_NAME} 연예 · 방송", font=_font(34), fill=MUTED)
+    d.text((80, 70), f"{SITE_NAME} 문화 · 방송·드라마", font=_font(34), fill=MUTED)
     d.ellipse((80, 140, 104, 164), fill=CORAL)
-    d.text((118, 128), "오늘 방송", font=_font(34), fill=CORAL)
+    d.text((118, 128), kicker, font=_font(34), fill=CORAL)
     y = 210
     for line in _wrap(d, title, big, W - 160, 3):
         d.text((80, y), line, font=big, fill=INK)
@@ -108,7 +108,10 @@ def attach_tv_cards(items, out_dir: str) -> int:
         day = (item.published_at or "")[:10].replace("-", ".")
         web = f"/img/tv/{name}.jpg"
         dst = os.path.join(out_dir, "img", "tv", f"{name}.jpg")
-        if not draw_card(item.title, day, dst):
+        # 방송·드라마 부문에는 회차 예고 말고 드라마 소식도 들어온다(2026-10-28).
+        # '오늘 방송'은 방송 정보 상자가 있는 회차 예고에만 붙인다.
+        kicker = "오늘 방송" if "방송 정보" in (item.body_md or "") else "방송·드라마"
+        if not draw_card(item.title, day, dst, kicker):
             continue
         og = os.path.join(out_dir, "og", "tv", f"{name}.jpg")
         os.makedirs(os.path.dirname(og), exist_ok=True)
