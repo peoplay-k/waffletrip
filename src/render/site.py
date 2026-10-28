@@ -72,6 +72,7 @@ PRODUCT_LINKS = {
     "japan": "",
     "thailand": "",
     "taiwan": "",
+    "korea": "",
     "industry": "",          # 업계 공통면 — 목적지가 없어 상품도 없다
 }
 

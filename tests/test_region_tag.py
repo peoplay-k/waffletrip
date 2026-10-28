@@ -200,3 +200,16 @@ def test_부곡하와이는_하와이가_아니다():
     assert tag_region(title) is None
     assert not mentions_region(title, "hawaii")
     assert tag_region("팜투어, 하와이 신혼여행 호텔 현명하게 선택하는 방법") == "hawaii"
+
+
+# ── 국내(2026-10-28 사장님: "기사는 국내여행 기사도 가지고와") ──────────────
+def test_korea_needs_a_place_and_a_travel_word():
+    assert tag_region("강릉 커피축제 개막") == "korea"
+    assert tag_region("순천만국가정원, 관람객 300만 명 돌파") == "korea"
+    assert tag_region("공주시의회 행정사무감사 352건 개선 요구") is None   # 지자체 행정은 여행이 아니다
+
+
+def test_korea_departure_city_does_not_make_a_domestic_story():
+    assert tag_region("부산~다낭 신규 취항") == "vietnam"
+    assert tag_region("에어부산, 부산발 후쿠오카 증편") == "japan"
+    assert tag_region("[여행단신] 에어부산 신규 노선") is None

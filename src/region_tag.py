@@ -21,7 +21,7 @@ from src.models import REGIONS
 # 뜻하지 않는다.
 # '부곡하와이'는 경남 창녕의 온천 리조트다. 2026-09-09 실측: "폐조선소·부곡하와이까지…
 # 경남도 관광개발" 이 하와이로 잡혔다.
-REGION_EXCLUSIONS = ("제주항공", "하와이안항공", "부곡하와이")
+REGION_EXCLUSIONS = ("제주항공", "하와이안항공", "부곡하와이", "에어부산")
 
 # 국적 항공사(베트남항공·라오항공)는 일부러 넣지 않았다. 그 항공사 소식은 거의 항상
 # 자국 관련이라 지우면 진짜 기사를 잃는다. 제주항공은 전 세계로 날아가는 한국 LCC 라,
@@ -31,6 +31,19 @@ REGION_EXCLUSIONS = ("제주항공", "하와이안항공", "부곡하와이")
 # '괌'은 한국어에서 다른 단어의 부분문자열로 거의 나타나지 않아 안전하다
 # (오사카·파리·도쿄·방콕·세부·유류할증료·여권·발리 에서 오탐 없음을 실측 확인).
 SINGLE_CHAR_ALLOWED = frozenset({"괌"})
+
+# 국내 공항 도시가 노선의 출발지로만 나오는 표현. "부산~다낭 취항"은 베트남 기사다.
+# 국내 지명이 목적지가 아니라 출발지일 때는 세지 않는다.
+# 국내 지명은 지자체 소식(의회·복지·행정)에 훨씬 많이 나온다. 지명만으로 국내 여행면에
+# 올리면 "공주시의회 행정사무감사"가 여행 기사가 된다(2026-10-28 실측 116건 중 절반).
+# 국내는 제목에 여행으로 읽히는 말이 함께 있을 때만 잡는다. 해외 지역은 지명만 본다 —
+# 해외 지명이 한국 매체 제목에 나오면 거의 항상 여행·항공 기사다.
+KOREA_TRAVEL_CUES = ("관광", "여행", "축제", "명소", "해변", "해수욕", "호텔", "리조트",
+                     "숙박", "투어", "단풍", "둘레길", "산행", "국립공원", "정원", "박람회",
+                     "캠핑", "미식", "맛집", "체험", "야경", "케이블카", "온천", "섬 ",
+                     "트레킹", "걷기", "방문객", "관람객", "나들이", "가볼 만한", "가볼만한",
+                     "카약", "서핑", "레저", "여행객", "관광객", "로컬", "문화유산", "세계유산")
+_DEPARTURE = re.compile(r"(부산|김해|대구|청주|무안|양양|광주|인천|김포)\s*(~|-|–|→|발|출발|·김해)")
 
 # 순서가 동점 처리 순서다. REGIONS 와 같은 순서로 유지한다.
 REGION_KEYWORDS: dict[str, tuple[str, ...]] = {
@@ -63,6 +76,15 @@ REGION_KEYWORDS: dict[str, tuple[str, ...]] = {
     "taiwan": ("대만", "taiwan", "타이베이", "taipei", "타이완",
                "가오슝", "kaohsiung", "타이중", "taichung",
                "타오위안", "taoyuan", "지우펀", "화롄", "타이난", "臺灣", "台灣"),
+    # 국내(제주 제외). 서울·인천은 넣지 않는다 — 업계 행사·공항 기사가 대부분이라
+    # 여행지 기사가 아닌데 국내로 잡힌다. 여행지로 읽히는 도시·군·섬 이름만 둔다.
+    # 동점이면 앞선 해외 지역이 이긴다("강릉~다낭"은 없지만 "여수·다낭"은 베트남).
+    "korea": ("국내여행", "국내 여행", "국내관광", "국내 관광", "강원", "강릉", "속초",
+              "양양", "춘천", "평창", "정선", "삼척", "인제", "가평", "양평", "강화도",
+              "경주", "안동", "포항", "울릉", "독도", "부산", "해운대", "통영", "거제",
+              "남해", "하동", "진주", "창녕", "여수", "순천", "담양", "목포", "보성",
+              "전주", "군산", "남원", "단양", "제천", "충주", "공주", "부여", "태안",
+              "보령", "DMZ", "비무장지대"),
 }
 
 
@@ -86,7 +108,7 @@ def tag_region(text: str) -> str | None:
     if not text:
         return None
 
-    lowered = text.lower()
+    lowered = _DEPARTURE.sub(" ", text).lower()
     for phrase in REGION_EXCLUSIONS:
         lowered = lowered.replace(phrase.lower(), " ")
 
@@ -102,6 +124,8 @@ def tag_region(text: str) -> str | None:
         for abbr_region, pattern in _HANJA_ABBR:
             if abbr_region == region:
                 hits += len(pattern.findall(text))
+        if region == "korea" and hits and not any(c in text for c in KOREA_TRAVEL_CUES):
+            hits = 0
         if hits > best_hits:
             best_region, best_hits = region, hits
 
@@ -117,9 +141,11 @@ def mentions_region(text: str, region: str) -> bool:
     """
     if not text:
         return False
-    lowered = text.lower()
+    lowered = _DEPARTURE.sub(" ", text).lower()
     for phrase in REGION_EXCLUSIONS:
         lowered = lowered.replace(phrase.lower(), " ")
+    if region == "korea" and not any(c in text for c in KOREA_TRAVEL_CUES):
+        return False
     if any(k.lower() in lowered for k in REGION_KEYWORDS.get(region, ())):
         return True
     return any(p.search(text) for r, p in _HANJA_ABBR if r == region)

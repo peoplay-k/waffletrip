@@ -33,7 +33,7 @@ KST = timezone(timedelta(hours=9))
 REGIONS = {"guam": "괌", "saipan": "사이판", "hawaii": "하와이",
            "vietnam": "베트남", "kota": "코타키나발루",
            "laos": "라오스", "jeju": "제주", "japan": "일본",
-           "thailand": "태국", "taiwan": "대만"}
+           "thailand": "태국", "taiwan": "대만", "korea": "국내"}
 SECTIONS = {"news": "일반 소식·해설", "flight": "항공·노선",
             "data": "데이터·통계", "promo": "안내"}
 # 연예 부문. src/topics.py ENT_TOPICS 와 같다.

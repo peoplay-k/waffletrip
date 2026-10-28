@@ -36,7 +36,7 @@ REPORTERS: dict[str, tuple[str, ...]] = {
     "이병훈": ("japan",),
     "이우재": ("vietnam", "laos"),
     "장미화": ("thailand", "kota", "taiwan"),
-    "이승훈": ("hawaii", "jeju", "data", "industry"),
+    "이승훈": ("hawaii", "jeju", "korea", "data", "industry"),
     "한수비": ("ent",),
 }
 # 맡은 사람이 없는 지면(새로 연 지역 등)은 이 사람이 맡는다.
@@ -67,6 +67,7 @@ REGION_DESKS = {
     "japan": f"{BRAND} 일본 데스크",
     "thailand": f"{BRAND} 태국 데스크",
     "taiwan": f"{BRAND} 대만 데스크",
+    "korea": f"{BRAND} 국내 데스크",
     "industry": f"{BRAND} 여행업계 데스크",
 }
 DATA_DESK = f"{BRAND} 데이터팀"
@@ -100,6 +101,7 @@ DESK_DUTIES = (
     (REGION_DESKS["japan"], "일본 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
     (REGION_DESKS["thailand"], "태국 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
     (REGION_DESKS["taiwan"], "대만 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
+    (REGION_DESKS["korea"], "제주를 뺀 국내 여행지 기사를 맡습니다.", "AI 작성 · 사람 지침"),
     (REGION_DESKS["industry"], "항공·여행사·정책 등 목적지를 가리지 않는 업계 소식을 맡습니다.",
      "AI 작성 · 사람 지침"),
     (ENT_DESK, "영화, 방송·드라마, 음악, 공연·전시, '스타의 여행' 기사를 맡습니다. "

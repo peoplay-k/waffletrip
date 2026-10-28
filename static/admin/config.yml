@@ -70,19 +70,21 @@ collections:
           - { label: 일본, value: japan }
           - { label: 태국, value: thailand }
           - { label: 대만, value: taiwan }
+          - { label: 국내, value: korea }
           - { label: 여행업계, value: industry }
         hint: 여행 기사는 반드시 고릅니다. 연예 기사는 아무거나 두어도 무시됩니다.
 
-      - label: 연예 부문
+      - label: 문화 부문
         name: category
         widget: select
         required: false
         options:
-          - { label: 영화·드라마, value: movie }
-          - { label: 음악·공연, value: music }
-          - { label: 방송 (오늘 방송 회차 소개), value: tv }
+          - { label: 영화, value: movie }
+          - { label: 방송·드라마 (드라마·예능·오늘 방송 회차), value: tv }
+          - { label: 음악, value: music }
+          - { label: 공연·전시 (뮤지컬·연극·클래식·전시), value: stage }
           - { label: 스타의 여행 (인물·촬영지·해외 공연), value: startrip }
-        hint: 연예 기사만 씁니다. 비우면 제목으로 추정하고, 모르면 스타의 여행으로 갑니다.
+        hint: 문화 기사만 씁니다. 비우면 제목으로 추정하고, 모르면 스타의 여행으로 갑니다.
 
       - label: 부문
         name: section

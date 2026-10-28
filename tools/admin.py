@@ -47,7 +47,7 @@ _SAFE_NAME = re.compile(r"[^A-Za-z0-9_.-]")
 REGIONS = [("guam", "괌"), ("saipan", "사이판"), ("hawaii", "하와이"),
            ("vietnam", "베트남"), ("kota", "코타키나발루"),
            ("laos", "라오스"), ("jeju", "제주"), ("japan", "일본"),
-           ("thailand", "태국"), ("taiwan", "대만")]
+           ("thailand", "태국"), ("taiwan", "대만"), ("korea", "국내")]
 CHANNELS = [("travel", "여행 — 지역면"), ("ent", "연예 — /ent/ 부문")]
 CATEGORIES = [("", "(여행 기사는 비움)"), ("movie", "영화"),
               ("tv", "방송·드라마"), ("music", "음악"), ("stage", "공연·전시"),
