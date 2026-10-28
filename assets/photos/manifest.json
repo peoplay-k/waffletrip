@@ -2045,6 +2045,18 @@
       "artist": "Sergey S. Dukachev",
       "source": "https://commons.wikimedia.org/wiki/File:Pattaya_beach_from_view_point.jpg",
       "origin": "위키미디어 공용(자유 이용)"
+    },
+    {
+      "file": "assets/photos/thailand/free-wat-arun.webp",
+      "hero": true,
+      "free": true,
+      "place": "방콕 왓 아룬",
+      "city": "bangkok",
+      "commons": "Wat Arun from Chao Phraya River.jpg",
+      "license": "CC BY 2.5",
+      "artist": "Diliff",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Arun_from_Chao_Phraya_River.jpg",
+      "origin": "위키미디어 공용(자유 이용)"
     }
   ],
   "taiwan": [

@@ -388,6 +388,7 @@
     "0b3084e0de34e945e2f428f7b4fc08abe13f43ac",
     "0b33d3a34cc450fd4dc8964c24e9f23e1754a101",
     "0b4f2f282628bc7bc069a40d56f44cce245ff8f1",
+    "0b5352418e1d30f750edf784899dcc33a6244a67",
     "0b5e352665416245e637ec07ffbfd852eeb31a06",
     "0b743f29558ae0b5d96f7e6c3237f19e945a954e",
     "0b764a1cc6f3286a216cd14aee8bd7a25f347e88",
@@ -1741,6 +1742,7 @@
     "363d7bbdf4e2029b2396e9fa9a9abf7e3044afba",
     "3651de6cb05f2de911d569e499a7a046ac0b0b6e",
     "3657365cc3b27459ddd1854731b3ce558a25fbc4",
+    "3657a4de4a99100cfe803a864d67ac03905fb4b9",
     "3665be20a0c550f48fc9eeaffc9749d7f0d6dcf6",
     "366781403dc4798b5a5938dc803332cdba151a48",
     "36743525924a6f32054c9718b9c468b2f81463f7",
@@ -2606,6 +2608,7 @@
     "4fdfceb71f5dc0eb7e9427393bbc4fc5fbe995a3",
     "4fe8ec2c32be9943fefde9ef213ceabd73a94afc",
     "4ff308cb4d66817bd03fd67a8996313b758098b5",
+    "4ffa8119701dde900492f47f1fd28bf24aefbee1",
     "4ffe46e5c3593b28e6873f472dbfcf9b5fe21ecf",
     "500233e215e0c0eab844f4bf418b1870883d0f07",
     "50031827ad067823d601ad766433fa013dbf0a93",
@@ -6698,6 +6701,7 @@
     "c2b429daa006175134702bd9d1379533bc3e3faf",
     "c2b52b48a1a779dd772b6267b789dee70277bfd1",
     "c2c58b96251b9e823c15c9f548c7788827c17a2a",
+    "c2ce94ecc4ccf7ce007ad848d6b89bba0bfa0547",
     "c2d644cf285deb954ba7065575cc619534f392b7",
     "c2eae8ec75288ae064befff915a24ab2bfe2a409",
     "c2ee04815a2d466900a1c2a4f60785da70857ab9",
@@ -8006,6 +8010,7 @@
     "e9c1c6b8466d28615e59fb3e4f68971f95e7268d",
     "e9cce41894b6643b3d81f81b12ba951d3b21726c",
     "e9d1592a43116c30c3742c03ffedac82cfa2218d",
+    "e9d3506a3520330a987769ff1626f8ab10b43cbc",
     "e9df30808d5b75e421114190a0547bd638a3d258",
     "e9e2e2e7566167aab3f3e42cbbaa735ff6acf423",
     "e9e624118b3a8a868fd428d0ed87f23ba266d5a8",
@@ -8531,6 +8536,7 @@
     "fa54728b01d07b4626326ce9bdb4e2f0c6660990",
     "fa567bf5dcdc09a01d38379df34bd2b6c5755d3d",
     "fa5df84bb134dbc830fa416892d2e368a8a6793b",
+    "fa5f34f8202e6c23e2d8b6f82c9b630816bf4513",
     "fa60e60fbe8af7fb1e2f0438777b466a84cd10ed",
     "fa69f9ffec1d5fd4ac2a0e8f564fb7aff80e5f33",
     "fa6bfada45949901912f372236801318a069b0ce",
@@ -45357,6 +45363,48 @@
     {
       "id": "9282dbaff3136db634ec6b62e1eab416465cc3be",
       "title": "세계 관광 리더들, 부산 해운대에 총집결",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "3657a4de4a99100cfe803a864d67ac03905fb4b9",
+      "title": "[포토] 넷플릭스 '꿀알바' 30일 첫공개",
+      "date": "2026-10-28",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "e9d3506a3520330a987769ff1626f8ab10b43cbc",
+      "title": "‘반려동물과 낭만 여행 즐기고 상금까지’ 태안군, 반려동물 동반 여행 사진 공모전 11월 1일부터 접수",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "0b5352418e1d30f750edf784899dcc33a6244a67",
+      "title": "포항국제불빛축제, 내달 19~21일 개최…안전관리 점검 본격화",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "4ffa8119701dde900492f47f1fd28bf24aefbee1",
+      "title": "“관광객 30명 창고 감금에 특산품 강매?”…울릉도 발칵 뒤집은 유튜브 영상",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "fa5f34f8202e6c23e2d8b6f82c9b630816bf4513",
+      "title": "거제 관광, 대만 여행사에 알렸다…현지 상품 개발 협력 논의",
+      "date": "2026-10-28",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "c2ce94ecc4ccf7ce007ad848d6b89bba0bfa0547",
+      "title": "부산관광공사, ‘비짓부산패스’ 무료 가맹점 신규 모집",
       "date": "2026-10-28",
       "region": "korea",
       "grade": "B"
