@@ -5,13 +5,15 @@ region: industry
 section: news
 kind: 해설
 title: 하나투어·노랑풍선, 겨울 여행 기획전 잇따라 공개
-summary: 여행사들이 겨울 성수기를 앞두고 기획전을 잇따라 내놓았다. 하나투어는 호주관광청과 공동 마케팅 기획전을, 노랑풍선은 취향별로
-  나눈 겨울 여행 기획전을 각각 선보였다. KATA는 11월 25일 정기총회 일정을 밝혔다.
+summary: 여행사들이 겨울 성수기를 앞두고 기획전을 잇따라 내놓았다. 하나투어는 호주관광청과 공동 마케팅 기획전을, 노랑풍선은 취향별로 나눈
+  겨울 여행 기획전을 각각 선보였다. KATA는 11월 25일 정기총회 일정을 밝혔다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72455
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72451
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72460
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72455
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72451
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72460
+status: published
+published_id: c-30279a0f0beece90ae299d0ce194ca08fbcd6d13
+published_on: '2026-10-28'
 ---
 여행사들이 겨울 성수기를 앞두고 기획전을 잇따라 내놓고 있다. 하나투어는 호주관광청과 손잡고 공동 마케팅 기획전을, 노랑풍선은 여행 목적과 취향에 따라 상품을 나눈 겨울 여행 기획전을 선보였다. 같은 시기 한국여행업협회(KATA)는 정기총회 일정을 공개했다.
 

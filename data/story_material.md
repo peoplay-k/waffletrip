@@ -3,13 +3,6 @@
 여러 매체가 같은 건을 쓴 것부터 놓았다. **문장을 옮기지 말고**
 사실만 가져다 우리 문장으로 쓴다. 인용한 매체는 본문에 밝힌다.
 
-## 괌
-
-### 대구공항, 오는 12월부터 괌 노선 재개...괌 수요 떨어진 시점에 흥행 가능할까?
-- 매체 1곳 · 대구일보
-  - 대구일보: 최근 발표된 국토교통부의 국제선 운송 계획에 따라 대구공항의 괌 노선이 재개된다. 하지만 최근 괌 여행 수요가 극심한 침체를 겪고 있어, 이번 괌 노선 운항 재개가 실제로 결실을 볼 수 있을지에는 우려의 목소리가 나오고 있다.
-    https://www.idaegu.com/news/articleView.html?idxno=666532
-
 ## 사이판
 
 ### 마리아나, 최진성 감독과 사진전·기부런 진행
@@ -28,20 +21,21 @@
 
 ## 하와이
 
-### 하와이 카운티 방문단, 인천 영종도 리메인지호텔서 문화·예술 교류 방안 논의
-- 매체 1곳 · 헤럴드경제
-  - 헤럴드경제: 인천국제영화제와 연계한 문화·예술 교류 가능성을 논의하는 자리가 인천 영종도에서 마련됐다. 하와이 카운티 방문단은 미단시티에 위치한 리메인지호텔을 찾아 명추국
-    https://biz.heraldcorp.com/article/10917120
-
 ### 하와이 프린스 와이키키, 신임 경영진 선임 및 동계 나눔 워크숍 개최
 - 매체 1곳 · 디스커버리뉴스(DISCOVERYNEWS)
   - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 하와이 오아후섬 와이키키에 위치한 ‘프린스 와이키키(Prince Waikiki)’의 운영사 프린스 리조트 하와이(Prince Resorts Hawaii)가 신임 사장 및 총지배인을 선임하며 경영진 체제를 정비했다. 프린스 리조트 하와이는 이시이 유스케(Yu
     https://www.discoverynews.kr/news/articleView.html?idxno=1105124
 
-### 하와이 카운티 방문단, 리메인지호텔 명추국 회장과 회동… 국제 문화교류 협력 모색
-- 매체 1곳 · 잡포스트(JOBPOST)
-  - 잡포스트(JOBPOST): 잡포스트 양동주 기자 = 하와이 카운티 주요 인사들로 구성된 방문단이 리메인지호텔에서 명추국 회장을 만나 한국과 하와이 간 문화교류 확대 및 국제 협력 가능성을
-    https://www.job-post.co.kr/news/articleView.html?idxno=234636
+### First Alert Forecast: Flood Watch in effect starting Tuesday for the entire state, heavy rain expected through Wednesday
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: Deep tropical moisture will bring the potential for heavy rain and thunderstorms across the state starting early Tuesday and lasting through at least Thursday.
+    https://www.hawaiinewsnow.com/2026/10/26/first-alert-forecast-flood-watch-effect-starting-tuesday-entire-state-heavy-rain-expected-through-wednesday/
+  - Hawaii News Now: Getting ready for heavy periods of rain and thunderstorms! First Alert Weather Days Tuesday into Wednesday with lingering rain into Thursday.
+    https://www.hawaiinewsnow.com/2026/10/27/first-alert-forecast-thunderstorms-periods-heavy-rain-heading-hawaii-tuesday-into-wednesday/
+  - Hawaii News Now: First Alert Forecast: Flood Watch posted for all islands, heavy rain expected today through tomorrow
+    https://www.hawaiinewsnow.com/2026/10/27/first-alert-forecast-flood-watch-posted-all-islands-heavy-rain-expected-today-through-tomorrow/
+  - Hawaii News Now: A flood watch is in effect through early Thursday as a trough brings showers, thunderstorms and possible locally heavy rain, with improvement expected Thursday 
+    https://www.hawaiinewsnow.com/2026/10/28/first-alert-weather-days-flood-watch-effect-through-early-thursday/
 
 ## 베트남
 
@@ -54,15 +48,24 @@
   - 인사이드비나: 국영 베트남항공(Vietnam Airlines)이 내달부터 다낭과 싱가포르를 잇는 노선을 신규 취항한다. 이로써 베트남항공의 싱가포르 국제선 노선은 주 42회로
     https://www.insidevina.com/news/articleView.html?idxno=44363
 
+### 다낭은 할랄 관광의 잠재력을 탐구하고 있습니다.
+- 매체 1곳 · vietnam.vn  ← 여러 곳이 썼다
+  - vietnam.vn: 10월 27일 오전, 100여 명의 대표단, 전문가 및 기업 관계자들이 참석한 가운데 "다낭의 할랄 관광 개발을 위한 국제적 경험과 잠재력"이라는 주제로 국제 워크숍이 개최되었습니다.
+    https://www.vietnam.vn/ko/da-nang-khai-pha-tiem-nang-du-lich-halal
+  - vietnam.vn: 다낭은 유리한 관광 인프라, 풍부한 문화 자원, 그리고 국제 항공 연결망을 바탕으로 잠재적으로 수익성이 높은 할랄 관광 시장을 공략할 충분한 여지를 가지고 있습니다.
+    https://www.vietnam.vn/ko/da-nang-tim-co-hoi-phat-trien-du-lich-halal
+
 ### “하이퐁, 베트남의 새로운 골프 여행지로 키울 것”
 - 매체 1곳 · 여행신문
   - 여행신문: 베트남 북부 하이퐁이 새로운 골프 여행지로 주목받고 있다. 하이퐁 도선(Do Son)에 위치한 드림 드래곤 리조트 & 드래곤 골프 링크(Dream Dragon Resort & Dragon Golf Link)는 골프와 해안 휴양을 결합해 한국 시장 공략에 나섰다.
     https://www.traveltimes.co.kr/news/articleView.html?idxno=500562
 
-### 2026년 다낭은 연말 축제로 북적였습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: VHO - 다낭은 창의적인 예술 및 문화유산 체험부터 등불 축제, 크리스마스 및 새해 축하 행사까지 2026년 마지막 몇 달 동안 다채로운 행사를 제공합니다. 날씨 예보와 함께 이러한 행사들은 관광객들이 도시 탐방 계획을 더욱 적극적으로 세울 수 있도록 다양한 선택지를 제공합니다.
-    https://www.vietnam.vn/ko/da-nang-soi-dong-mua-le-hoi-cuoi-nam-2026
+## 코타키나발루
+
+### 코타키나발루에서 즐기는 ‘오싹한 밤’…수트라하버 핼러윈 뷔페
+- 매체 1곳 · 미래를 보는 창 - 전자신문
+  - 미래를 보는 창 - 전자신문: 한여름 같은 날씨가 이어지는 코타키나발루의 리조트가 핼러윈을 맞아 색다른 분위기로 변신한다. 낮에는 수영과 골프, 바다를 즐기고 저녁에는 공포 테마로 꾸며진 공간에서 시즌 만찬을 즐기는 일정이다.
+    https://www.etnews.com/20261028000177
 
 ## 라오스
 
@@ -83,10 +86,10 @@
   - 제주일보: 며칠 전에 삼양해수욕장을 찾았다. 모래는 여전히 쌓여 있었다.
     http://www.jejunews.com/news/articleView.html?idxno=2228516
 
-### 커피 한 잔의 응원부터 제주 바다 환경정화활동까지... 기업들, 지역사회와 함께하는 사회공헌
-- 매체 1곳 · TTL뉴스
-  - TTL뉴스: 스타벅스와 하이트진로가 지역사회 구성원과 환경을 위한 사회공헌 활동을 이어가고 있다. 스타벅스는 고객 참여형 커피 나눔 캠페인을 통해 돌봄 교육 현장의 이웃 5천여 명을 응원했고, 하이트진로는 제주 해안 정화활동으로 연간 4.5톤의 쓰레기를 수거하며 지역 연대의 의미를 더했다.
-    http://www.ttlnews.com/news/articleView.html?idxno=3155955
+### ‘나눔’ 넘어 혁신·평화·창업까지…제주 김만덕 콘텐츠 ‘재탄생’
+- 매체 1곳 · 제주의소리
+  - 제주의소리: 제주를 빛낸 김만덕을 다양한 콘텐츠로 활용할 방안에 대해 논의하는 심포지엄이 열렸다. 역사와 여성, 문화, 관광, 스타트업 등 다양한 분야에 걸쳐 김만덕과 김만덕기념관 브랜드를 활용할 사업 모델을 제시하고 기관 간 공동사업 및 정책 연계를 고민하는 논의의 장이다.
+    https://www.jejusori.net/news/articleView.html?idxno=507803
 
 ## 일본
 
@@ -127,6 +130,15 @@
     https://www.tournews21.com/news/articleView.html?idxno=146758
 
 ## 여행업계
+
+### 대원들 격려하는 하만식 해양경찰청장
+- 매체 1곳 · 투어코리아  ← 여러 곳이 썼다
+  - 투어코리아: [투어코리아=이창호 기자] 하만식 해양경찰청장이 28일 오전 중부특공대에서 개최된 '제17회 해양경찰특공대 전술종합평가대회'에 참석하여 대원들을 격려하고 있다.
+    https://www.tournews21.com/news/articleView.html?idxno=146866
+  - 투어코리아: [투어코리아=이창호 기자] 하만식 해양경찰청장이 28일 오전 중부특공대에서 열린 '제17회 해양경찰특공대 전술종합평가대회'에서 장비·전술 시연에 앞서 대회 참가자들에게 당부사항을 전달하고 있다.
+    https://www.tournews21.com/news/articleView.html?idxno=146867
+  - 투어코리아: [투어코리아=이창호 기자] 하만식 해양경찰청장이 28일 오전 중부특공대에서 열린 '제17회 해양경찰특공대 전술종합평가대회'에서 개회사를 하고 있다.
+    https://www.tournews21.com/news/articleView.html?idxno=146868
 
 ### 화성특례시, 대한민국 SNS 대상 공공부문 최우수상…시민 소통 역량 입증
 - 매체 1곳 · 투어코리아  ← 여러 곳이 썼다
@@ -179,11 +191,6 @@
   - 투어코리아: [투어코리아=유경훈 기자 ] 경기관광공사(이하 공사)가 어제(26일) 열린 ‘2026 대한민국 SNS 대상’에서 공공기관 공사 부문 최우수상을 수상했다. 지난해에 이어 2년 연속 최우수상 획득으로 차별화된 디지털 소통 역량과 관광 마케팅 경쟁력을 인정받았다.
     https://www.tournews21.com/news/articleView.html?idxno=146789
 
-### “릴스 찍으러 식당 간다?”…아시아 관광업계가 주목한 미식 여행의 변화
-- 매체 1곳 · 여행신문
-  - 여행신문: 여행지에서 무엇을 먹을지 고민하던 시대를 넘어, 이제는 먹고 싶은 음식을 찾아 여행지를 결정하는 시대다. 인스타그램과 틱톡에서 발견한 레스토랑이 여행의 목적지가 되고, 사진과 릴스에 잘 나오도록 설계된 식당까지 등장하고 있다.
-    https://www.traveltimes.co.kr/news/articleView.html?idxno=500605
-
 ## 연예 (편집실이 쓴다 — 자동 해설 대상 아님)
 
 ### [movie] ‘극장판 치이카와’ 3주 연속 박스오피스 1위… 224만명 돌파
@@ -235,7 +242,7 @@
     https://www.mediagn.co.kr/news/articleView.html?idxno=30704
 
 ---
-거리 33건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 32건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 방송 재료 — (2026-10-28)
@@ -253,7 +260,6 @@ KBS1 <황신혜의 같이 삽시다> 시장 나들이 중 떠오른 신계숙의
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
 - 보도자료 제목: [일일드라마 욕망의 덫] 10월 28일 예고편 / 19:50 방송
 - 유튜브 예고(공식 KBS Drama): `@youtube _ZGmYUc1OHo` — [46화 예고] 변호사님, 대체 뭘 찾고 있던 거예요 [욕망의 덫] | KBS 방송
-- 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
 
 46회 은설은 현재가 남긴 USB를 열어 보고 깊은 의문에 빠진다. 한편 정선이 미란을 견제할수록, 미란은 영훈의 마음을 더 깊이 파고드는데...
 

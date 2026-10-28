@@ -5,12 +5,14 @@ region: hawaii
 section: news
 kind: 해설
 title: 하와이 카운티 방문단, 인천 리메인지호텔서 문화교류 논의
-summary: 하와이 카운티 주요 인사로 구성된 방문단이 인천 영종도 미단시티의 리메인지호텔을 찾아 명추국 회장과 회동하고, 인천국제영화제와
-  연계한 문화·예술 교류 가능성을 논의했다.
+summary: 하와이 카운티 주요 인사로 구성된 방문단이 인천 영종도 미단시티의 리메인지호텔을 찾아 명추국 회장과 회동하고, 인천국제영화제와 연계한
+  문화·예술 교류 가능성을 논의했다.
 sources:
-  - https://biz.heraldcorp.com/article/10917120
-  - https://www.job-post.co.kr/news/articleView.html?idxno=234636
-status: approved
+- https://biz.heraldcorp.com/article/10917120
+- https://www.job-post.co.kr/news/articleView.html?idxno=234636
+status: published
+published_id: c-a6ff830afc02d1d29dc27f6c66e4be3c9ebaaa05
+published_on: '2026-10-28'
 ---
 하와이 카운티 주요 인사로 구성된 방문단이 인천 영종도 미단시티의 리메인지호텔을 찾았다. 방문단은 호텔을 운영하는 명추국 회장과 회동하며 한국과 하와이 간 문화교류 확대 가능성을 논의했다.
 

@@ -11,8 +11,10 @@ source_url: ''
 summary: KBS2 일일드라마 '욕망의 덫' 46회가 28일 저녁 7시 50분 방송된다. 은설이 현재가 남긴 USB를 열어 보고 의문에 빠지고,
   정선이 미란을 견제할수록 미란은 영훈의 마음을 더 깊이 파고든다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+- https://program.kbs.co.kr/2tv/drama/yokmang
+status: published
+published_id: c-c5886c6825f73c32564446afce31d17b6c141697
+published_on: '2026-10-28'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 욕망의 덫 | 회차 · 46회

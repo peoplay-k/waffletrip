@@ -8,11 +8,13 @@ kind: 보도자료
 title: EBS '스페이스 공감', 색소포니스트 송하철·비브라포니스트 김예찬의 재즈 무대
 source_name: ''
 source_url: ''
-summary: EBS '스페이스 공감'이 28일 밤 10시 50분 '다이브 인투 재즈'라는 부제로 색소포니스트 송하철과 비브라포니스트 김예찬의
-  무대를 전한다.
+summary: EBS '스페이스 공감'이 28일 밤 10시 50분 '다이브 인투 재즈'라는 부제로 색소포니스트 송하철과 비브라포니스트 김예찬의 무대를
+  전한다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005574105
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005574105
+status: published
+published_id: c-a4a0cd939d3c62cad5d0bec11b1c481cf5aae1f3
+published_on: '2026-10-28'
 ---
 > **방송 정보**
 > 채널 · EBS | 프로그램 · 스페이스 공감

@@ -8,8 +8,10 @@ title: 대구공항, 12월 괌 노선 재개
 summary: 국토교통부의 국제선 운송 계획에 따라 대구공항의 괌 노선이 오는 12월 재개된다. 괌행 수요가 가라앉은 시점이라 흥행 여부에 관심이
   모인다.
 sources:
-  - https://www.idaegu.com/news/articleView.html?idxno=666532
-status: approved
+- https://www.idaegu.com/news/articleView.html?idxno=666532
+status: published
+published_id: c-d710e747de64545280a9f8bba7add79250de4775
+published_on: '2026-10-28'
 ---
 대구공항에서 괌으로 가는 항공편이 오는 12월 다시 열린다. 국토교통부의 국제선 운송 계획에 포함된 노선 재개 소식이지만, 괌행 수요가 크게 가라앉은 시점이라 흥행 여부를 둘러싼 우려가 나온다.
 

@@ -9,11 +9,13 @@ title: 영화 '암살자(들)', 개봉 6주차에도 박스오피스 1위
 summary: 영화 '암살자(들)'이 개봉 6주차에도 한국영화 박스오피스 1위를 지켰다. 누적 관객 수는 338만명을 넘어서며 장기 흥행을 이어가고
   있다.
 sources:
-  - https://www.bntnews.co.kr/article/view/bnt202610270030
-  - https://sports.donga.com/ent/article/all/20261012/134823387/1
-  - https://www.bntnews.co.kr/article/view/bnt202610140041
-  - https://www.econovill.com/news/articleView.html?idxno=755139
-status: approved
+- https://www.bntnews.co.kr/article/view/bnt202610270030
+- https://sports.donga.com/ent/article/all/20261012/134823387/1
+- https://www.bntnews.co.kr/article/view/bnt202610140041
+- https://www.econovill.com/news/articleView.html?idxno=755139
+status: published
+published_id: c-7568bea58be4a68bab525659e298b03569d1070c
+published_on: '2026-10-28'
 ---
 허진호 감독의 영화 '암살자(들)'이 개봉 6주차에도 한국영화 박스오피스 1위 자리를 지켰다. 누적 관객 수는 338만명을 넘어섰다.
 
