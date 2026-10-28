@@ -1645,6 +1645,7 @@
     "3587dc399bf087f0ebb4eb3c9c42cf54d8fdd824",
     "358dbc6b3eda5a08cec736a3e5e7e22a5e3f6836",
     "358e5eda4b4ff0a550ce588990bf8b26f87f5fb9",
+    "3592f10fd3327d926dfdf6e6a9ba818fe6bcb17c",
     "359838c55fa8bb2f09dc9ae6e61a498263dc923e",
     "35a4e737db51f6ebff0bf4221c0ce920cd80de9c",
     "35a9e4cbc8f99264f06954432e88193e74aed252",
@@ -1842,6 +1843,7 @@
     "3bd32df9c3eb8df59dd59cee7b0ebe63e0ddb566",
     "3bda942720e6ba8b557f9b8caf279fb332941af0",
     "3be1e4e772b1458fc2195af80a5fdb5eb1201092",
+    "3be22379bd5d917e9fdf5e782d9624efd0cdfe56",
     "3be3696699c22c93bb47e62a93708a0ac1375ce0",
     "3be5178afc0c36a4115687ff531431dcbc3119f8",
     "3be87f43064ec1bc34a4765316ad06294a6de3d1",
@@ -3128,6 +3130,7 @@
     "64a7150f03114181fcedca1a6033beaa4da64ea3",
     "64ac2437ecd6c0974647faa635930798fc32554c",
     "64b384566c17ea003bdb420c8fc8fc7e4656159f",
+    "64c2e3bcd5b0d8ce6569c9ee742d5c293510a497",
     "64c7b6fd6835621d29670c21fe5739894ce2eada",
     "64d0888b31be30e342e6f06bdb66e3a3616b152a",
     "64d721f5ac2fa8d2746da16a59893054b35b1baf",
@@ -42527,6 +42530,27 @@
       "title": "'국민 걸그룹' 리센느, 컴백 전 수록곡 메들리 공개",
       "date": "2026-10-28",
       "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "3be22379bd5d917e9fdf5e782d9624efd0cdfe56",
+      "title": "나호준 기자 “어머니의 마지막 큰 선물”…국회 울린 뭉클한 수상 소감",
+      "date": "2026-10-28",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "3592f10fd3327d926dfdf6e6a9ba818fe6bcb17c",
+      "title": "A2O LITE, 빌보드 코리아 '글로벌 K-송즈' 차트 1위",
+      "date": "2026-10-28",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "64c2e3bcd5b0d8ce6569c9ee742d5c293510a497",
+      "title": "다낭은 연말 관광 시즌을 맞아 항공편 연결을 강화합니다.",
+      "date": "2026-10-28",
+      "region": "vietnam",
       "grade": "B"
     }
   ]
