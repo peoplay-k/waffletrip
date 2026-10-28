@@ -66,7 +66,9 @@ def region_photos(region: str, city: str = "") -> list[str]:
     """
     from src.photos import load_manifest
     manifest = load_manifest()
-    entries = [e for e in (manifest.get(region) or []) if e.get("file")]
+    # 자유 이용 사진(위키미디어 공용)은 영상에 쓰지 않는다 — 인스타·유튜브에는 작성자·라이선스를
+    # 사진마다 밝힐 자리가 없고, 영상은 "직접 촬영한 사진으로 만들었다"고 밝힌다(2026-10-28).
+    entries = [e for e in (manifest.get(region) or []) if e.get("file") and not e.get("free")]
     if city:
         mine = [e for e in entries if (e.get("city") or "") in ("", city)]
         if any((e.get("city") or "") == city for e in mine):

@@ -145,9 +145,12 @@ def test_사진_없는_곳은_영상을_만들지_않는다():
     import make_shorts as ms
 
     assert ms.MIN_PHOTOS >= 3, "장면 수만큼은 있어야 반복이 안 보인다"
+    # 방콕에는 2026-10-28 부터 자유 이용 사진(위키미디어 공용)이 있지만 영상에는 쓰지 않는다 —
+    # 자사 촬영본은 여전히 0장이다.
+    assert ms.region_photos("thailand", "bangkok") == []
     with pytest.raises(SystemExit) as e:
         ms.build("bangkok")
-    assert "사진" in str(e.value)
+    assert "사진" in str(e.value) or "기사" in str(e.value)
 
 
 def test_제목_끝에_붙은_분류_딱지를_뗀다():

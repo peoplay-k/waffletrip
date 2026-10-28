@@ -154,3 +154,14 @@ def test_small_originals_are_skipped(tmp_path, monkeypatch):
     monkeypatch.setattr(frp, "ROOT", str(tmp_path))
     monkeypatch.setattr(frp, "PLACES", {"japan": (("Tokyo", "도쿄", "tokyo"),)})
     assert frp.fetch_region(_C(), {}, "japan", face_check=lambda img: False) == 0
+
+
+def test_rejected_photos_never_come_back(tmp_path, monkeypatch):
+    """사람이 보고 뺀 사진(free_rejected.json)은 다음 실행에서 다시 들이지 않는다."""
+    import json as _json
+    rej = tmp_path / "rej.json"
+    rej.write_text(_json.dumps([{"commons": "Tokyo_tower.jpg", "reason": "시험"}]), encoding="utf-8")
+    monkeypatch.setattr(frp, "REJECTED", str(rej))
+    monkeypatch.setattr(frp, "ROOT", str(tmp_path))
+    monkeypatch.setattr(frp, "PLACES", {"japan": (("Tokyo", "도쿄", "tokyo"),)})
+    assert frp.fetch_region(_Client(), {}, "japan", face_check=lambda img: False) == 0

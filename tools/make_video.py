@@ -122,8 +122,9 @@ def photos_for(region: str, count: int) -> list[str]:
     """그 지역의 **아직 쓰지 않은** 사진. 모자라면 모자란 대로 돌려준다."""
     manifest = load_manifest()
     used = json.load(open(USED, encoding="utf-8")) if os.path.exists(USED) else {}
+    # 자유 이용 사진(위키미디어 공용)은 영상에 쓰지 않는다 — 사진마다 작성자를 밝힐 자리가 없다
     free = [p for p in manifest.get(region, [])
-            if web_path(p["file"]) not in used]
+            if web_path(p["file"]) not in used and not p.get("free")]
     return [p["file"] for p in free[:count]]
 
 

@@ -30,6 +30,16 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 
 MANIFEST = os.path.join(ROOT, "assets", "photos", "manifest.json")
+# 사람이 눈으로 보고 뺀 사진(공용 파일명). 다시 들이지 않는다. 2026-10-28 첫 검토에서 4장.
+REJECTED = os.path.join(ROOT, "assets", "photos", "free_rejected.json")
+
+
+def load_rejected(path: str | None = None) -> set[str]:
+    try:
+        with open(path or REJECTED, encoding="utf-8") as f:
+            return {str(r.get("commons")) for r in json.load(f) if isinstance(r, dict)}
+    except (OSError, ValueError):
+        return set()
 WD = "https://www.wikidata.org/w/api.php"
 MIN_WIDTH = 800       # 이보다 좁은 원본은 기사 머리에 걸면 흐릿하다(김포공항 400px, 2026-10-28)
 MIN_OWN = 6            # 우리 사진이 이만큼 있으면 그 지역은 건드리지 않는다
@@ -259,7 +269,7 @@ def fetch_region(c, manifest: dict, region: str, *, dry_run: bool = False,
     from PIL import Image
 
     entries = manifest.setdefault(region, [])
-    have = {e.get("commons") for e in entries if isinstance(e, dict)}
+    have = {e.get("commons") for e in entries if isinstance(e, dict)} | load_rejected()
     added = 0
     wanted = []
     for query, name, city in PLACES.get(region, ()):

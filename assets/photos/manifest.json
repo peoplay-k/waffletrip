@@ -2085,30 +2085,6 @@
       "origin": "위키미디어 공용(자유 이용)"
     },
     {
-      "file": "assets/photos/taiwan/free-longshan-temple.webp",
-      "hero": true,
-      "free": true,
-      "place": "타이베이 룽산쓰",
-      "city": "taipei",
-      "commons": "台北市艋舺龍山寺.jpg",
-      "license": "CC BY-SA 3.0",
-      "artist": "Goranq",
-      "source": "https://commons.wikimedia.org/wiki/File:%E5%8F%B0%E5%8C%97%E5%B8%82%E8%89%8B%E8%88%BA%E9%BE%8D%E5%B1%B1%E5%AF%BA.jpg",
-      "origin": "위키미디어 공용(자유 이용)"
-    },
-    {
-      "file": "assets/photos/taiwan/free-pier-2-art-center.webp",
-      "hero": true,
-      "free": true,
-      "place": "가오슝 보얼예술특구",
-      "city": "kaohsiung",
-      "commons": "Pier-2 Art Center.jpg",
-      "license": "CC BY 2.0",
-      "artist": "Anav Rin from Gushan, Kaohsiung, Taipei",
-      "source": "https://commons.wikimedia.org/wiki/File:Pier-2_Art_Center.jpg",
-      "origin": "위키미디어 공용(자유 이용)"
-    },
-    {
       "file": "assets/photos/taiwan/free-taroko-national-park.webp",
       "hero": true,
       "free": true,
@@ -2118,18 +2094,6 @@
       "license": "CC BY-SA 3.0",
       "artist": "Tommy.In",
       "source": "https://commons.wikimedia.org/wiki/File:Eternal_Spring_Shrine_in_Taroko.JPG",
-      "origin": "위키미디어 공용(자유 이용)"
-    },
-    {
-      "file": "assets/photos/taiwan/free-sun-moon-lake.webp",
-      "hero": true,
-      "free": true,
-      "place": "르웨탄",
-      "city": "",
-      "commons": "Sun Moon Lake Sentinel-2B MSI 2024-04-04.jpg",
-      "license": "Attribution",
-      "artist": "Original data: ESA Copernicus Sentinel-2 Processed by Tioura",
-      "source": "https://commons.wikimedia.org/wiki/File:Sun_Moon_Lake_Sentinel-2B_MSI_2024-04-04.jpg",
       "origin": "위키미디어 공용(자유 이용)"
     },
     {
@@ -2146,18 +2110,6 @@
     }
   ],
   "laos": [
-    {
-      "file": "assets/photos/laos/free-patuxai.webp",
-      "hero": true,
-      "free": true,
-      "place": "비엔티안 빠뚜싸이",
-      "city": "",
-      "commons": "Patuxay Monument - panoramio.jpg",
-      "license": "CC BY 3.0",
-      "artist": "gary4now",
-      "source": "https://commons.wikimedia.org/wiki/File:Patuxay_Monument_-_panoramio.jpg",
-      "origin": "위키미디어 공용(자유 이용)"
-    },
     {
       "file": "assets/photos/laos/free-wat-xieng-thong.webp",
       "hero": true,
