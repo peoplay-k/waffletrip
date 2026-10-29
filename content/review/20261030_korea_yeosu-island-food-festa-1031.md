@@ -4,15 +4,18 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "여수시, 31일 세계박람회장서 '2026 여수 섬 푸드 페스타' 개최"
+title: 여수시, 31일 세계박람회장서 '2026 여수 섬 푸드 페스타' 개최
 source_name: ''
 source_url: ''
-summary: 여수시가 10월 31일 여수세계박람회장 엑스포디지털갤러리에서 섬 식재료와 음식문화를 주제로 한 '2026 여수 섬 푸드 페스타'를 연다. 같은 날 같은 곳에서 여수밤바다 불꽃축제도 열린다.
+summary: 여수시가 10월 31일 여수세계박람회장 엑스포디지털갤러리에서 섬 식재료와 음식문화를 주제로 한 '2026 여수 섬 푸드 페스타'를
+  연다. 같은 날 같은 곳에서 여수밤바다 불꽃축제도 열린다.
 sources:
-  - https://www.m-i.kr/news/articleView.html?idxno=2011471
-  - http://www.kstnews.co.kr/news/articleView.html?idxno=42523
-  - http://news.lghellovision.net/news/articleView.html?idxno=559529
-status: approved
+- https://www.m-i.kr/news/articleView.html?idxno=2011471
+- http://www.kstnews.co.kr/news/articleView.html?idxno=42523
+- http://news.lghellovision.net/news/articleView.html?idxno=559529
+status: published
+published_id: c-2f5fcaac678f35662939938dea41a490e2614033
+published_on: '2026-10-30'
 ---
 여수시가 31일 여수세계박람회장에서 섬의 식재료와 전통 음식문화를 내세운 미식 축제 '2026 여수 섬 푸드 페스타'를 연다. 같은 날 같은 장소에서 불꽃축제도 열려 저녁까지 이어서 즐길 수 있다.
 

@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '취미는 과학', 별이 죽으며 남기는 것들과 베텔게우스 폭발 가능성"
+title: EBS '취미는 과학', 별이 죽으며 남기는 것들과 베텔게우스 폭발 가능성
 source_name: ''
 source_url: ''
-summary: EBS1 '취미는 과학'이 10월 30일 밤 10시 50분 방송된다. 서울대 윤성철 교수와 별의 최후, 생명에 필요한 원소의 기원, 베텔게우스 초신성 가능성을 이야기한다.
+summary: EBS1 '취미는 과학'이 10월 30일 밤 10시 50분 방송된다. 서울대 윤성철 교수와 별의 최후, 생명에 필요한 원소의 기원,
+  베텔게우스 초신성 가능성을 이야기한다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005574576
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005574576
+status: published
+published_id: c-5a71fe570a9394949d17ad17a6a899b9476adf7a
+published_on: '2026-10-30'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 취미는 과학

@@ -5,15 +5,18 @@ category: tv
 region: ''
 section: news
 kind: 해설
-title: "KBS 드라마스페셜 2026 '사운드:트랙', 8편 단막극 11월 18일 첫 방송"
+title: KBS 드라마스페셜 2026 '사운드:트랙', 8편 단막극 11월 18일 첫 방송
 source_name: ''
 source_url: ''
-summary: KBS 드라마스페셜 2026 '사운드:트랙'이 1차 티저 영상을 공개했다. 우다비·표예진·주종혁·임수향 등이 출연하는 단막극 8편이 11월 18일 수요일부터 방송된다.
+summary: KBS 드라마스페셜 2026 '사운드:트랙'이 1차 티저 영상을 공개했다. 우다비·표예진·주종혁·임수향 등이 출연하는 단막극 8편이
+  11월 18일 수요일부터 방송된다.
 sources:
-  - https://www.bntnews.co.kr/article/view/bnt202610280102
-  - https://www.topstarnews.net/news/articleView.html?idxno=16260787
-  - https://www.rnx.kr/news/articleView.html?idxno=910099
-status: approved
+- https://www.bntnews.co.kr/article/view/bnt202610280102
+- https://www.topstarnews.net/news/articleView.html?idxno=16260787
+- https://www.rnx.kr/news/articleView.html?idxno=910099
+status: published
+published_id: c-039c3543fce90402af47ff5c3297535d83e1de33
+published_on: '2026-10-30'
 ---
 > **방송 정보**
 > 채널 · KBS | 프로그램 · KBS 드라마스페셜 2026 '사운드:트랙'

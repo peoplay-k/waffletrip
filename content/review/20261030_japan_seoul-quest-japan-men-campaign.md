@@ -4,15 +4,18 @@ channel: travel
 region: japan
 section: news
 kind: 해설
-title: "서울관광재단, 일본 20~50대 남성 겨냥 영상 캠페인 '서울 퀘스트' 시작"
+title: 서울관광재단, 일본 20~50대 남성 겨냥 영상 캠페인 '서울 퀘스트' 시작
 source_name: ''
 source_url: ''
-summary: 서울관광재단이 일본 20~50대 남성 여행객을 대상으로 한 도전형 영상 캠페인 '서울 퀘스트'를 28일 비짓서울 공식 소셜미디어에서 공개했다. 한강 러닝, 야간 미식, 웰니스 등 쇼핑·뷰티 밖의 서울을 보여 준다.
+summary: 서울관광재단이 일본 20~50대 남성 여행객을 대상으로 한 도전형 영상 캠페인 '서울 퀘스트'를 28일 비짓서울 공식 소셜미디어에서
+  공개했다. 한강 러닝, 야간 미식, 웰니스 등 쇼핑·뷰티 밖의 서울을 보여 준다.
 sources:
-  - http://www.ttlnews.com/news/articleView.html?idxno=3156140
-  - https://www.newscj.com/news/articleView.html?idxno=3443823
-  - https://www.munhwa.com/article/11626797
-status: approved
+- http://www.ttlnews.com/news/articleView.html?idxno=3156140
+- https://www.newscj.com/news/articleView.html?idxno=3443823
+- https://www.munhwa.com/article/11626797
+status: published
+published_id: c-9345476c0fc7642fa4084655b6eb4d8c94309a82
+published_on: '2026-10-30'
 ---
 서울관광재단이 일본 20~50대 남성 여행객을 겨냥한 도전형 영상 캠페인 '서울 퀘스트'를 시작했다. 쇼핑과 K-뷰티에 쏠렸던 서울 여행 이미지를 한강 러닝과 골목 미식, 웰니스로 넓히려는 시도다.
 
