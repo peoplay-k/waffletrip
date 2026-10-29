@@ -16,7 +16,8 @@
     "peopleroad-hawaii-20261025-voiced",
     "peopleroad-tv-20261026-1",
     "peopleroad-hawaii-20261027-voiced",
-    "peopleroad-tv-20261028-1"
+    "peopleroad-tv-20261028-1",
+    "peopleroad-hawaii-20261029-voiced"
   ],
   "log": [
     {
@@ -103,6 +104,11 @@
       "file": "peopleroad-tv-20261028-1",
       "media_id": "18107709538965357",
       "at": "2026-10-28 11:05:48"
+    },
+    {
+      "file": "peopleroad-hawaii-20261029-voiced",
+      "media_id": "18134241143495541",
+      "at": "2026-10-29 11:11:50"
     }
   ]
 }
