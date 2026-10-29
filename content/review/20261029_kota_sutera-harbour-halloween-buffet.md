@@ -4,15 +4,18 @@ channel: travel
 region: kota
 section: news
 kind: 보도자료
-title: "코타키나발루 수트라하버 리조트, 핼러윈 맞아 공포 테마 뷔페 운영"
+title: 코타키나발루 수트라하버 리조트, 핼러윈 맞아 공포 테마 뷔페 운영
 source_name: ''
 source_url: ''
-summary: 말레이시아 코타키나발루의 수트라하버 리조트가 핼러윈 시즌을 맞아 공포 콘셉트로 꾸민 공간에서 '오싹한 미식의 향연 - 핼러윈 뷔페'를 연다.
+summary: 말레이시아 코타키나발루의 수트라하버 리조트가 핼러윈 시즌을 맞아 공포 콘셉트로 꾸민 공간에서 '오싹한 미식의 향연 - 핼러윈 뷔페'를
+  연다.
 sources:
-  - https://www.onews.tv/news/articleView.html?idxno=290235
-  - https://www.etnews.com/20261028000177
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72481
-status: approved
+- https://www.onews.tv/news/articleView.html?idxno=290235
+- https://www.etnews.com/20261028000177
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72481
+status: published
+published_id: c-3c2597356727e1a0f2c26b1923bbe8c8c8fc64d0
+published_on: '2026-10-29'
 ---
 말레이시아 코타키나발루의 수트라하버 리조트가 핼러윈 시즌 특선 뷔페를 연다. 공포를 주제로 꾸민 공간에서 시즌 메뉴를 내는 행사로, 행사 이름은 '오싹한 미식의 향연 - 핼러윈 뷔페(A Feast of Frights - Halloween Buffet)'다.
 

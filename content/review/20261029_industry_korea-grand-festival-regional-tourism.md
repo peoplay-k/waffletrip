@@ -4,14 +4,17 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "정부, 방한객 3,000만 시대 대비 지역관광 중심 성장 기반 확충"
+title: 정부, 방한객 3,000만 시대 대비 지역관광 중심 성장 기반 확충
 source_name: ''
 source_url: ''
-summary: 정부가 방한객 3,000만 명 시대를 준비하며 지방공항 중심 관광권을 키우고 숙박·교통 수용태세를 개선한다. 코리아 그랜드 페스티벌과 연계해 외국인의 지역 소비도 넓힌다.
+summary: 정부가 방한객 3,000만 명 시대를 준비하며 지방공항 중심 관광권을 키우고 숙박·교통 수용태세를 개선한다. 코리아 그랜드 페스티벌과
+  연계해 외국인의 지역 소비도 넓힌다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500631
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500625
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500631
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500625
+status: published
+published_id: c-f15091a56abc829bc5a770c612850d0598a3728b
+published_on: '2026-10-29'
 ---
 정부가 방한 외국인 관광객 3,000만 명 시대에 대비해 지역관광 중심의 성장 기반 확충에 나선다. 지방공항을 거점으로 한 관광권을 육성하고, 대규모 소비축제에 관광·문화 프로그램을 결합해 외국인의 지역 방문과 소비를 늘린다는 구상이다.
 

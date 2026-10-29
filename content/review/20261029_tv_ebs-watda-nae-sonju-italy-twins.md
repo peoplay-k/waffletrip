@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '왔다! 내 손주', 이탈리아 피렌체 쌍둥이네에 조부모가 출동"
+title: EBS '왔다! 내 손주', 이탈리아 피렌체 쌍둥이네에 조부모가 출동
 source_name: ''
 source_url: ''
-summary: EBS1 '왔다! 내 손주'가 29일 밤 9시 55분 '달콤살벌 이탈리아! 쌍둥이는 못 말려' 편을 방송한다. 피렌체에 사는 7세 이란성 쌍둥이의 일상을 담는다.
+summary: EBS1 '왔다! 내 손주'가 29일 밤 9시 55분 '달콤살벌 이탈리아! 쌍둥이는 못 말려' 편을 방송한다. 피렌체에 사는 7세
+  이란성 쌍둥이의 일상을 담는다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005570431
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005570431
+status: published
+published_id: c-818eea17931a52dd394a6f40f1483bf9d7d4e0d3
+published_on: '2026-10-29'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 왔다! 내 손주 | 편 · 달콤살벌 이탈리아! 쌍둥이는 못 말려

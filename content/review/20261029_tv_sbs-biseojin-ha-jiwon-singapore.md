@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '비서진' 하지원 편, 30일 방송…이서진과 '다모' 이후 23년 만의 재회"
+title: SBS '비서진' 하지원 편, 30일 방송…이서진과 '다모' 이후 23년 만의 재회
 source_name: ''
 source_url: ''
-summary: SBS '무엇이든 해줄지니 - 비서진'이 30일 밤 11시 10분 하지원 편을 방송한다. 이서진·김광규와 싱가포르에서 '비서진' 첫 해외 출장을 떠난다.
+summary: SBS '무엇이든 해줄지니 - 비서진'이 30일 밤 11시 10분 하지원 편을 방송한다. 이서진·김광규와 싱가포르에서 '비서진' 첫
+  해외 출장을 떠난다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9309
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9309
+status: published
+published_id: c-7f49acb51072724429e263e16fafafc896895791
+published_on: '2026-10-29'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 무엇이든 해줄지니 - 비서진
@@ -22,7 +25,7 @@ SBS 금요 예능 '무엇이든 해줄지니 - 비서진'이 30일(금) 밤 11�
 
 ## 방송 전 공개된 영상
 
-SBS는 하지원 편의 예고 영상이 공개 직후부터 조회수가 꾸준히 올라 약 100만 회에 이르렀다고 밝혔다. 지난 27일 추가로 내놓은 스페셜 선공개 영상은 하루 만에 300만 회를 넘겼고, 두 영상을 합치면 400만 회에 가깝다.
+하지원 편의 예고 영상이 공개 직후부터 조회수가 꾸준히 올라 약 100만 회에 이르렀다. 지난 27일 추가로 내놓은 스페셜 선공개 영상은 하루 만에 300만 회를 넘겼고, 두 영상을 합치면 400만 회에 가깝다.
 
 ## 23년 만의 재회
 

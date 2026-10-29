@@ -4,13 +4,16 @@ channel: travel
 region: jeju
 section: news
 kind: 해설
-title: "제주~광저우 직항 10년 만에 재취항, 동계 중국 노선 4곳 신설·증편"
+title: 제주~광저우 직항 10년 만에 재취항, 동계 중국 노선 4곳 신설·증편
 source_name: ''
 source_url: ''
-summary: 동계시즌을 맞아 제주와 중국을 잇는 하늘길이 넓어진다. 광저우 직항이 10년 만에 돌아오고 화북·화동·화남 지역 4개 노선이 새로 열리거나 운항이 늘어난다.
+summary: 동계시즌을 맞아 제주와 중국을 잇는 하늘길이 넓어진다. 광저우 직항이 10년 만에 돌아오고 화북·화동·화남 지역 4개 노선이 새로
+  열리거나 운항이 늘어난다.
 sources:
-  - http://www.jejunews.com/news/articleView.html?idxno=2228548
-status: approved
+- http://www.jejunews.com/news/articleView.html?idxno=2228548
+status: published
+published_id: c-5765affcf1b00154fcdb8084088b8d06883679b1
+published_on: '2026-10-29'
 ---
 제주와 중국을 잇는 하늘길이 올겨울 넓어진다. 광저우 직항 노선이 10년 만에 다시 열리고, 중국 화북·화동·화남 지역을 잇는 노선들도 새로 생기거나 운항 횟수가 늘어난다.
 
