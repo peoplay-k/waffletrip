@@ -10,9 +10,11 @@ source_url: ''
 summary: 미국 정부가 30일부터 북마리아나제도(사이판)에서 중국 국적자의 무비자 입국을 중단한다. 출산관광과 인신매매 등 불법행위에 악용될
   가능성을 이유로 든 조치다.
 sources:
-  - https://www.factinnews.co.kr/news/articleView.html?idxno=300693
-  - https://dspdaily.com/news/view.php?no=28016
-status: approved
+- https://www.factinnews.co.kr/news/articleView.html?idxno=300693
+- https://dspdaily.com/news/view.php?no=28016
+status: published
+published_id: c-3dda3747f37dd4a9f90e8b863bf61311448b67ce
+published_on: '2026-10-29'
 ---
 미국 정부가 30일부터 북마리아나제도(사이판)에서 중국 국적자의 무비자 입국을 받지 않는다. 그동안 비자 없이 사이판에 들어올 수 있었던 중국인 관광객은 앞으로 별도 비자를 갖춰야 한다.
 

@@ -10,8 +10,10 @@ source_url: ''
 summary: 하나카드가 대만 최대 모바일 결제 플랫폼 라인페이 대만과 업무협약을 맺었다. 서울 명동에 몰렸던 방한 대만 관광객의 결제망을 부산
   등 지방 상권과 소규모 가맹점까지 넓히는 것이 목표다.
 sources:
-  - http://www.ttlnews.com/news/articleView.html?idxno=3156602
-status: approved
+- http://www.ttlnews.com/news/articleView.html?idxno=3156602
+status: published
+published_id: c-c5a85ae8b438201acf3b7b525bf06ab2fc3eb6c5
+published_on: '2026-10-29'
 ---
 하나카드가 대만 최대 모바일 결제 플랫폼 라인페이 대만과 손잡고 대만 관광객을 위한 모바일 직결 결제망을 구축한다. 서울 명동 등 핵심 상권에 몰렸던 방한 외국인의 결제망을 지방 상권과 소규모 가맹점까지 넓히는 것이 목표다.
 

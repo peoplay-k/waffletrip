@@ -8,11 +8,12 @@ kind: 보도자료
 title: KBS2 '욕망의 덫' 47회, 나 부장 유품 둘러싼 연희의 말
 source_name: ''
 source_url: ''
-summary: KBS2 일일드라마 '욕망의 덫' 47회가 29일 저녁 7시 50분 방송된다. 은설은 나 부장의 유품이 현재에게 있었다는 연희의
-  말을 듣고, 석진은 영훈이 무섭다는 소연의 말이 마음에 걸린다.
+summary: KBS2 일일드라마 '욕망의 덫' 47회가 29일 저녁 7시 50분 방송된다. 은설은 나 부장의 유품이 현재에게 있었다는 연희의 말을
+  듣고, 석진은 영훈이 무섭다는 소연의 말이 마음에 걸린다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+- https://program.kbs.co.kr/2tv/drama/yokmang
+status: duplicate
+duplicate_of: 20261022_tv_yokmang-43.md
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 욕망의 덫 | 회차 · 47회

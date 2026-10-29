@@ -11,9 +11,10 @@ source_url: ''
 summary: 일본 애니메이션 '극장판 치이카와, 인어 섬의 비밀'이 국내 박스오피스에서 15일 연속 1위를 지켰다. 누적 관객 수는 234만명을
   넘어섰다.
 sources:
-  - https://www.econovill.com/news/articleView.html?idxno=755139
-  - https://www.econovill.com/news/articleView.html?idxno=755283
-status: approved
+- https://www.econovill.com/news/articleView.html?idxno=755139
+- https://www.econovill.com/news/articleView.html?idxno=755283
+status: duplicate
+duplicate_of: 20261028_ent_assassins-6weeks-boxoffice.md
 ---
 일본 애니메이션 '극장판 치이카와: 인어 섬의 비밀'이 국내 박스오피스에서 15일 연속 1위를 지켰다. 누적 관객 수는 234만명을 넘어섰다.
 

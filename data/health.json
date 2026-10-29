@@ -253,9 +253,9 @@
     },
     {
       "date": "2026-10-29",
-      "collected": 1430,
-      "published": 233,
-      "ours": 5,
+      "collected": 1431,
+      "published": 280,
+      "ours": 8,
       "failed_sources": [
         "guam_pdn",
         "guam_post"

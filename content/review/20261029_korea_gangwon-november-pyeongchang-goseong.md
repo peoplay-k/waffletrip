@@ -7,14 +7,16 @@ kind: 해설
 title: 강원도, 11월 추천 여행지로 평창 고랭지 김장축제·고성 송지호 바다 하늘길 선정
 source_name: ''
 source_url: ''
-summary: 강원특별자치도와 강원관광재단이 '2026 강원 방문의 해' 11월 이달의 추천 여행지로 평창군과 고성군을 선정했다. 산과 바다가
-  어우러진 강원도 특색을 살린 코스다.
+summary: 강원특별자치도와 강원관광재단이 '2026 강원 방문의 해' 11월 이달의 추천 여행지로 평창군과 고성군을 선정했다. 산과 바다가 어우러진
+  강원도 특색을 살린 코스다.
 sources:
-  - https://www.kado.net/news/articleView.html?idxno=2081048
-  - https://www.munhwa.com/article/11626791
-  - https://www.yna.co.kr/amp/view/AKR20261028037900062
-  - https://www.asiatoday.co.kr/kn/view.php?key=20261028010009735
-status: approved
+- https://www.kado.net/news/articleView.html?idxno=2081048
+- https://www.munhwa.com/article/11626791
+- https://www.yna.co.kr/amp/view/AKR20261028037900062
+- https://www.asiatoday.co.kr/kn/view.php?key=20261028010009735
+status: published
+published_id: c-417e779cec75069b1c0f1f46f00e55cdf5322484
+published_on: '2026-10-29'
 ---
 강원도가 11월 추천 여행지로 평창 고랭지 김장축제와 고성 송지호 바다 하늘길을 선정했다. 산과 바다가 어우러진 강원도의 늦가을 정취를 함께 즐길 수 있는 곳들이다.
 

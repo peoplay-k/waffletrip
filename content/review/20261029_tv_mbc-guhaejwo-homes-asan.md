@@ -11,8 +11,9 @@ source_url: ''
 summary: MBC '구해줘! 홈즈'가 29일 밤 10시 충남 아산 신도시 임장에 나선다. 아산 출신 장동민과 아나운서 박소영·강다은이 KTX
   역세권 아파트와 아산의 생활 인프라를 둘러본다.
 sources:
-  - https://with.mbc.co.kr/pr/press/view.html?idx=36938
-status: approved
+- https://with.mbc.co.kr/pr/press/view.html?idx=36938
+status: duplicate
+duplicate_of: 20261028_tv_mbc-homes-asan-kangdaeun.md
 ---
 > **방송 정보**
 > 채널 · MBC | 프로그램 · 구해줘! 홈즈 | 회차 · 아산 신도시 임장 편
