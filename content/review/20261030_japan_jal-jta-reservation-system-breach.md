@@ -4,16 +4,18 @@ channel: travel
 region: japan
 section: news
 kind: 해설
-title: "일본항공·JTA, 예약시스템 해킹으로 9만2천 명 개인정보 유출 가능성"
+title: 일본항공·JTA, 예약시스템 해킹으로 9만2천 명 개인정보 유출 가능성
 source_name: ''
 source_url: ''
-summary: 일본항공과 일본트랜스오션항공이 예약·발권 시스템 해킹으로 약 9만2000명의 개인정보가 유출됐을 가능성이 있다고 28일 발표했다. 대상은 2023년 8월부터 2026년 9월 사이 예약 이용자 일부다.
+summary: 일본항공과 일본트랜스오션항공이 예약·발권 시스템 해킹으로 약 9만2000명의 개인정보가 유출됐을 가능성이 있다고 28일 발표했다.
+  대상은 2023년 8월부터 2026년 9월 사이 예약 이용자 일부다.
 sources:
-  - https://zdnet.co.kr/view/?no=20261029143545
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500633
-status: approved
+- https://zdnet.co.kr/view/?no=20261029143545
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500633
+status: published
+published_id: c-d365083969c855c9b219a1c5deeddd942bbdd232
+published_on: '2026-10-30'
 ---
-
 일본항공(JAL)과 계열사 일본트랜스오션항공(JTA)의 예약·발권 시스템이 해킹을 당해 이용자 약 9만2000명의 개인정보가 빠져나갔을 수 있다. 두 항공사는 28일 이 사실을 공식 발표했다.
 
 피해 가능성이 있는 사람은 2023년 8월 10일부터 2026년 9월 23일 사이에 두 항공사 가운데 한 곳의 항공편을 예약한 이용자 일부다. 유출 가능성이 제기된 정보에는 이름과 탑승일이 들어 있다. 기간이 3년 넘게 이어져 일본 노선을 자주 타는 한국 여행객도 해당될 여지가 있다.

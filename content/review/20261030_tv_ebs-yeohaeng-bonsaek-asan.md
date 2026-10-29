@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '여행본색', 31일 아산 편서 온양온천역 오일장·외암마을·공세리성당 찾는다"
+title: EBS '여행본색', 31일 아산 편서 온양온천역 오일장·외암마을·공세리성당 찾는다
 source_name: ''
 source_url: ''
-summary: EBS1 '최태성 서경석의 여행본색'이 31일 오후 2시 10분 충남 아산을 찾는다. 온양온천역 오일장과 온양온천, 현충사, 외암민속마을, 공세리성당을 돈다.
+summary: EBS1 '최태성 서경석의 여행본색'이 31일 오후 2시 10분 충남 아산을 찾는다. 온양온천역 오일장과 온양온천, 현충사, 외암민속마을,
+  공세리성당을 돈다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005569949
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005569949
+status: published
+published_id: c-c5b5b049234d56e9ebbcdc062067fe4b0707c5f5
+published_on: '2026-10-30'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 최태성 서경석의 여행본색
 > 방송 · 2026년 10월 31일(토) 오후 2시 10분

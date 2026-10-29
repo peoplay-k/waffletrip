@@ -5,15 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'인간극장' 떡집 사위 아베 신 편 마지막 날, 일본 청년의 추석 대목 나기"
+title: '''인간극장'' 떡집 사위 아베 신 편 마지막 날, 일본 청년의 추석 대목 나기'
 source_name: ''
 source_url: ''
-summary: KBS1 '인간극장'이 30일 오전 7시 50분 일본인 사위가 서울 떡집에서 일을 배우는 한 주를 마무리한다. 추석 대목과 삼척 외할머니댁 나들이가 담긴다.
+summary: KBS1 '인간극장'이 30일 오전 7시 50분 일본인 사위가 서울 떡집에서 일을 배우는 한 주를 마무리한다. 추석 대목과 삼척 외할머니댁
+  나들이가 담긴다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/human
-status: approved
+- https://program.kbs.co.kr/1tv/culture/human
+status: duplicate
+duplicate_of: 20261028_tv_kbs-ingangeukjang-abe-shin.md
 ---
-
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 인간극장
 > 방송 · 2026년 10월 30일(금) 오전 7시 50분 (26일~30일 5부작)
