@@ -44,6 +44,11 @@
 
 ## 베트남
 
+### 육지 체류 8시간, 이동 3시간: 나트랑 관광의 '골칫거리'.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 크루즈선 승객들은 육지에 약 8시간 정도밖에 머물지 못하는데, 깜란 국제항에서 나트랑 시내 중심부까지, 그리고 그 반대로 이동하는 데 최대 3시간이 걸립니다. 이는 칸화성 크루즈 관광의 주요 병목 현상 중 하나입니다.
+    https://www.vietnam.vn/ko/len-bo-8-tieng-di-chuyen-mat-3-tieng-con-dau-dau-cua-du-lich-nha-trang
+
 ### 다낭은 2026년 말에 다양한 독특한 축제와 행사를 개최할 예정입니다.
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 2026년 마지막 몇 달 동안 다낭시는 다양한 장소에서 문화, 예술, 유산 및 새해 축제 행사를 개최하여 관광 상품을 다양화하고 시장을 활성화하며 국내외 관광객을 유치하는 데 기여할 것입니다.
@@ -53,11 +58,6 @@
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 호주 인명구조협회는 손트라 반도 및 다낭 해변 관리 위원회 인명구조팀 대원들을 대상으로 이틀간의 전문성 개발 프로그램을 개최했습니다.
     https://www.vietnam.vn/ko/hiep-hoi-cuu-ho-uc-tap-huan-cho-doi-cuu-ho-bien-cac-bai-bien-du-lich-da-nang
-
-### 창의적인 예술은 다낭 관광의 매력을 더해줍니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 20개 이상의 문화, 예술, 창의적 체험 프로그램을 제공하는 다낭 창의예술커넥션 2026은 새로운 관광 상품을 선보이며 연말 관광객 유치에 기여할 것으로 기대됩니다.
-    https://www.vietnam.vn/ko/nghe-thuat-sang-tao-mo-them-suc-hut-cho-du-lich-da-nang
 
 ## 코타키나발루
 
@@ -80,15 +80,15 @@
   - TTL뉴스: 내 차에 캠핑 장비를 그득히 실어 바다를 건너고, 사랑하는 반려동물과 함께 해안 도로를 누비는 로망이 현실로 다가온다. 하늘길 대신 바닷길을 택해 제주를 즐기는 새로운 여행 트렌드가 아웃도어 매니아들의 마음을 설레게 하고 있다.
     http://www.ttlnews.com/news/articleView.html?idxno=3157288
 
+### 학교 밖 청소년들의 아름다운 비행… 달성군, 2박 3일 제주 문화 체험 투어 성료
+- 매체 1곳 · 문화뉴스
+  - 문화뉴스: (더쎈뉴스 / The CEN News) 허성호 기자 대구 달성군학교밖청소년지원센터(센터장 김지향, 이하 달성군 꿈드림)가 학교라는 울타리를 벗어나 새로운 내일을 준비하는 청소년들을 위해 특별한 성장과 소통의 무대를 선물했다.
+    https://www.mhns.co.kr/news/articleView.html?idxno=766768
+
 ### 제주국제공항 진입로 700m 열선 깐다
 - 매체 1곳 · 제주의소리
   - 제주의소리: 제주국제공항 진입로에 도로 열선이 설치된다. 30일 제주도에 따르면 겨울철 도로 결빙 사고를 막기 위해 상습 결빙구간 5곳 2210m에 도로 열선이 설치된다.
     https://www.jejusori.net/news/articleView.html?idxno=507879
-
-### 내 곁에 있는 경청 : ‘마을 경청 활동가’가 여는 일상 속 청취
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 1500만이라는 화려한 관광객 숫자 뒤에 소외된 현장의 질문에 답하고자 합니다. “우리 마을은 무얼 먹고 살아야 할까?
-    https://www.jejusori.net/news/articleView.html?idxno=507874
 
 ## 일본
 
@@ -106,10 +106,10 @@
   - 뉴스1: 
     https://www.news1.kr/industry/general-industry/6331415
 
-### [비포&애프터] 오키나와 하버뷰 호텔
-- 매체 1곳 · 숙박매거진
-  - 숙박매거진: 1975년 오키나와 국제해양박람회 개최를 계기로 문을 연 오키나와 하버뷰 호텔(Okinawa Harborview Hotel)이 개관 50주년을 맞아 대대적인 리뉴얼을 단행했다. 반세기 동안 나하시를 대표하는 도심형 호텔로 자리해 온 이곳은 객실과 로비, 레스토랑, 클럽라운지, 수영장
-    http://www.sukbakmagazine.com/news/articleView.html?idxno=69825
+### 모두투어, ‘녜두투어’ 홋카이도 캠핑투어 성료
+- 매체 1곳 · 트래블데일리
+  - 트래블데일리: 모두투어는 캠핑 전문 유튜버와 공동 기획한 ‘녜두투어’의 신규 캠핑 지역인 일본 홋카이도에서 캠핑투어를 성공적으로 마무리하며 취향 기반 테마여행의 운영 지역을 확대했다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72499
 
 ## 대만
 
