@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'동네 한 바퀴' 392화, 불국사에서 금리단길까지 경주 한 바퀴"
+title: '''동네 한 바퀴'' 392화, 불국사에서 금리단길까지 경주 한 바퀴'
 source_name: ''
 source_url: ''
-summary: KBS1 '동네 한 바퀴'가 31일 저녁 7시 10분 경주 편을 방송한다. 불국사에서 출발해 금리단길과 신라문화제, 성동시장, 두산리 명주 마을을 돈다.
+summary: KBS1 '동네 한 바퀴'가 31일 저녁 7시 10분 경주 편을 방송한다. 불국사에서 출발해 금리단길과 신라문화제, 성동시장, 두산리
+  명주 마을을 돈다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/town2
-status: approved
+- https://program.kbs.co.kr/1tv/culture/town2
+status: duplicate
+duplicate_of: 20261024_tv_kbs-dongne-hanbakwi-391.md
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 동네 한 바퀴 | 회차 · 392화

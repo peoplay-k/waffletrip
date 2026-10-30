@@ -4,14 +4,17 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "파르나스호텔, 낙산해변 앞 '인스케이프 양양' 12월 18일 개관"
+title: 파르나스호텔, 낙산해변 앞 '인스케이프 양양' 12월 18일 개관
 source_name: ''
 source_url: ''
-summary: 파르나스호텔앤리조트가 강원도 양양 낙산해변 앞에 39층 규모의 '인스케이프 양양'을 12월 18일 연다. 서울과 제주에 이은 동해안 첫 호텔이다.
+summary: 파르나스호텔앤리조트가 강원도 양양 낙산해변 앞에 39층 규모의 '인스케이프 양양'을 12월 18일 연다. 서울과 제주에 이은 동해안
+  첫 호텔이다.
 sources:
-  - https://www.newspim.com/news/view/20261026000699
-  - https://www.mk.co.kr/news/business/12185560
-status: approved
+- https://www.newspim.com/news/view/20261026000699
+- https://www.mk.co.kr/news/business/12185560
+status: published
+published_id: c-7f61e10e38fc5f868e9d0cba6da3c19987d30410
+published_on: '2026-10-31'
 ---
 파르나스호텔앤리조트가 강원도 양양 낙산해변 앞에 39층 호텔 '인스케이프 양양'을 12월 18일 연다. 스위트 중심 객실과 사계절 온수 인피니티 풀을 앞세워 가족 여행객과 고급 휴양 수요를 겨냥한다.
 

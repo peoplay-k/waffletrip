@@ -4,16 +4,19 @@ channel: travel
 region: vietnam
 section: news
 kind: 해설
-title: "푸꾸옥공항 3,300m 제2활주로 개통, 광동체 여객기 뜨고 내린다"
+title: 푸꾸옥공항 3,300m 제2활주로 개통, 광동체 여객기 뜨고 내린다
 source_name: ''
 source_url: ''
-summary: 베트남 푸꾸옥 국제공항이 29일 길이 3,300m의 제2활주로를 열었다. 8개월 공사 끝에 완공했고, 2027년 APEC을 앞두고 광동체 항공기 수용 여건을 갖췄다.
+summary: 베트남 푸꾸옥 국제공항이 29일 길이 3,300m의 제2활주로를 열었다. 8개월 공사 끝에 완공했고, 2027년 APEC을 앞두고
+  광동체 항공기 수용 여건을 갖췄다.
 sources:
-  - https://www.vietnam.vn/ko/dua-vao-khai-thac-duong-cat-ha-canh-so-2-cang-hang-khong-quoc-te-phu-quoc
-  - https://www.vietnam.vn/ko/cang-hang-khong-quoc-te-phu-quoc-dua-duong-bang-so-2-vao-khai-thac
-  - https://www.vietnam.vn/ko/38-chuyen-bay-mo-hang-duong-bang-so-2-moi-toanh-tai-san-bay-phu-quoc
-  - https://www.vietnam.vn/ko/san-bay-phu-quoc-se-tam-dong-duong-cat-ha-canh-so-1-de-nang-cap-mo-rong
-status: approved
+- https://www.vietnam.vn/ko/dua-vao-khai-thac-duong-cat-ha-canh-so-2-cang-hang-khong-quoc-te-phu-quoc
+- https://www.vietnam.vn/ko/cang-hang-khong-quoc-te-phu-quoc-dua-duong-bang-so-2-vao-khai-thac
+- https://www.vietnam.vn/ko/38-chuyen-bay-mo-hang-duong-bang-so-2-moi-toanh-tai-san-bay-phu-quoc
+- https://www.vietnam.vn/ko/san-bay-phu-quoc-se-tam-dong-duong-cat-ha-canh-so-1-de-nang-cap-mo-rong
+status: published
+published_id: c-556840e83a6104a67691c213b0489e62d7e48475
+published_on: '2026-10-31'
 ---
 베트남 남부 휴양지 푸꾸옥의 국제공항이 두 번째 활주로를 열었다. 길이 3,300m의 새 활주로는 보잉 787·777, 에어버스 A350 같은 광동체 여객기가 오르내릴 수 있는 규격이다.
 

@@ -4,14 +4,17 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "목포 근대역사문화공간서 '국가유산 야행' 11월 1일까지, 6곳 야간 개방"
+title: 목포 근대역사문화공간서 '국가유산 야행' 11월 1일까지, 6곳 야간 개방
 source_name: ''
 source_url: ''
-summary: 전남광주통합특별시와 목포시가 30일부터 11월 1일까지 목포 근대역사문화공간에서 '2026 목포 국가유산 야행'을 연다. 국가유산 6곳을 밤에 개방한다.
+summary: 전남광주통합특별시와 목포시가 30일부터 11월 1일까지 목포 근대역사문화공간에서 '2026 목포 국가유산 야행'을 연다. 국가유산
+  6곳을 밤에 개방한다.
 sources:
-  - https://www.kgfnews.com/news/article.html?no=492297
-  - https://www.ikbc.co.kr/article/view/kbc202610300051
-status: approved
+- https://www.kgfnews.com/news/article.html?no=492297
+- https://www.ikbc.co.kr/article/view/kbc202610300051
+status: published
+published_id: c-48b2afb30e3910fb67134473359dab1fde90b545
+published_on: '2026-10-31'
 ---
 목포의 밤거리가 개항기 풍경으로 채워진다. 전남광주통합특별시와 목포시가 30일부터 11월 1일까지 사흘 동안 목포 근대역사문화공간 일대에서 '2026 목포 국가유산 야행(夜行)'을 연다.
 
