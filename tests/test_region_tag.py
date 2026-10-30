@@ -262,3 +262,48 @@ def test_industry_story_is_read_from_travel_words_in_the_title():
     assert not is_industry_story("세종대, 하반기 취업반 모집")
     assert not is_industry_story("경북교육청, 체험 교육 행사 개최")   # '체험'·'행사' 는 어느 보도자료에나 있다
     assert not is_industry_story("")
+
+
+# ── 2026-10-30 소스 확장(사장님: "왜 3군데만 봐 다른곳도 다 봐") — 새 도시 철자와 영문 지명 ──
+@pytest.mark.parametrize("title,expected", [
+    ("푸켓 직항 재개", "thailand"),                 # 푸껫과 푸켓 두 철자 다 쓴다
+    ("크라비 리조트 특가", "thailand"),
+    ("Hua Hin beach resorts fill up for long weekend", "thailand"),
+    ("타이페이 야시장 투어 인기", "taiwan"),        # 타이베이·타이페이
+    ("까오슝 직항 신설", "taiwan"),
+    ("Tainan food tour draws visitors", "taiwan"),
+    ("Hualien reopens Taroko trails", "taiwan"),
+    ("비엔티엔 신규 호텔 개관", "laos"),
+    ("Laotian tourism board targets Korean visitors", "laos"),
+    ("Garapan hotels report full occupancy", "saipan"),
+    ("CNMI visitor arrivals climb in October", "saipan"),
+    ("푸쿠옥 리조트 패키지 출시", "vietnam"),
+    ("Dalat flower festival returns", "vietnam"),
+    ("Hiroshima hotels add Korean-language staff", "japan"),
+    ("Kagoshima ferry service resumes", "japan"),
+    ("Big Island resort reopens after storm", "hawaii"),
+    ("Tamuning hotel row expansion approved", "guam"),
+    ("Sabah Tourism Board courts Korean airlines", "kota"),
+])
+def test_added_spellings_and_english_place_names_are_tagged(title, expected):
+    assert tag_region(title) == expected
+
+
+@pytest.mark.parametrize("title", [
+    "Canada later this year opens new routes",     # 'da lat' 는 넣지 않았다 — "Canada later" 에 들어 있다
+    "사바사바 하는 관광업계",                         # '사바' 는 넣지 않았다 — '사바주' 만
+    "A philosophy of slow travel in Kyoto",         # 'hilo' 는 넣지 않았다 — "philosophy" 에 들어 있다
+    "로타리클럽 자선 골프대회",                       # '로타' 는 넣지 않았다 — 로타리·로타바이러스
+])
+def test_english_and_korean_substrings_left_out_on_purpose(title):
+    assert tag_region(title) in (None, "japan")   # 위 '교토'만 일본이다
+    assert tag_region(title) not in ("vietnam", "kota", "hawaii", "saipan")
+
+
+def test_ascii_industry_cues_do_not_match_inside_english_words():
+    """영문 피드를 region: auto 로 붙이자 'ota' 가 Toyota·quota·Kota 에 걸려 전부 업계 기사가 됐다."""
+    from src.region_tag import is_industry_story
+    assert not is_industry_story("Toyota opens new plant in Texas")
+    assert not is_industry_story("Quota rotation announced")
+    assert is_industry_story("OTA업계, 수수료 인하 경쟁")        # 한글 사이는 그대로 잡는다
+    assert is_industry_story("Agoda signs IHG partnership")

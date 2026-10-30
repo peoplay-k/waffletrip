@@ -519,20 +519,24 @@ sources:
     url: https://news.google.com/rss/search?q=%EC%98%A4%EC%82%AC%EC%B9%B4%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
     lang: ko
     enabled: true
+  # 2026-10-30: 질의가 "태국 방콕 (…)"·"대만 타이베이 (…)"라 두 지명이 **다** 있어야 걸렸다 — 2주 실측
+  # 태국 9건·대만 26건. 나라 이름 하나로 풀고 도시는 아래 gn_bangkok·gn_taipei 등 도시 피드가 맡는다.
   - id: gn_thailand
     region: thailand
     section: news
     name: 태국 여행뉴스
     type: rss
-    url: https://news.google.com/rss/search?q=%ED%83%9C%EA%B5%AD%20%EB%B0%A9%EC%BD%95%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    url: https://news.google.com/rss/search?q=%ED%83%9C%EA%B5%AD%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
     lang: ko
     enabled: true
+  # 2026-10-30: 질의가 "태국 방콕 (…)"·"대만 타이베이 (…)"라 두 지명이 **다** 있어야 걸렸다 — 2주 실측
+  # 태국 9건·대만 26건. 나라 이름 하나로 풀고 도시는 아래 gn_bangkok·gn_taipei 등 도시 피드가 맡는다.
   - id: gn_taiwan
     region: taiwan
     section: news
     name: 대만 여행뉴스
     type: rss
-    url: https://news.google.com/rss/search?q=%EB%8C%80%EB%A7%8C%20%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    url: https://news.google.com/rss/search?q=%EB%8C%80%EB%A7%8C%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
     lang: ko
     enabled: true
   - id: gn_fukuoka
@@ -780,5 +784,925 @@ sources:
     name: 한류·관광
     type: rss
     url: https://news.google.com/rss/search?q=%28%ED%95%9C%EB%A5%98%20%EA%B4%80%EA%B4%91%20OR%20K%ED%8C%9D%20%EA%B4%80%EA%B4%91%20OR%20%EC%B4%AC%EC%98%81%EC%A7%80%20%EA%B4%80%EA%B4%91%20OR%20%EB%93%9C%EB%9D%BC%EB%A7%88%20%EC%B4%AC%EC%98%81%EC%A7%80%20OR%20%EC%84%B1%EC%A7%80%EC%88%9C%EB%A1%80%20OR%20%ED%8C%AC%20%ED%88%AC%EC%96%B4%29%20-%EC%97%B4%EC%95%A0%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+
+  # ════════════════════════════════════════════════════════════════════════════════
+  # 2026-10-30 소스 확장. 사장님: "내가 말한 거기는 그냥 그런거고 너가 기사를 다 찾아서 넣어야지
+  # 왜 3군데만 봐 다른곳도 다 봐" — TTL뉴스·문화뉴스·ㅍㅍㅅㅅ는 예였다. 여행 기사가 실제로 나오는
+  # 곳을 전부 붙인다. 2주 실측(10-17~30)으로 본 지면 사정: 투어코리아 혼자 865건, 그다음이
+  # 트래블데일리 119건이고 태국 9건·사이판 20건·라오스 21건·대만 26건이 전부였다. 태국·대만 검색
+  # 피드는 질의가 "태국 방콕"처럼 두 낱말을 다 요구해서 거의 안 걸렸다(아래에서 고쳤다).
+  #
+  # 여기(클라우드)는 네트워크가 막혀 어느 주소도 실물 응답을 못 봤다. 주소는 전부 확립된 패턴이다 —
+  #   · 국내 매체 중 기사 주소가 /news/articleView.html?idxno= 인 CMS(ndsoft) → /rss/allArticle.xml
+  #   · 워드프레스 → /feed/
+  #   · 자체 RSS 가 없거나 못 믿는 매체 → 구글뉴스 site: 검색 피드(원문 해결 단계가 실제 주소로 푼다)
+  # 첫 실행 로그의 `실패 <id>` 줄을 보고 죽은 것을 끈다(지우지 않는다 — 맨 위 규칙).
+  #
+  # 설정 원칙
+  #   · 여행 전문지(ndsoft 피드) → region: auto, curated: true (여행신문과 같다)
+  #   · 종합지·통신사의 site: 검색 → region: auto, industry: false, curated: false
+  #     제목에 지명이나 여행 말이 없으면 수집 단계가 버리고(src/fetch/rss.py), 편집 단계의
+  #     여행 관련성·사건·스팸 필터를 그대로 지난다. 금융·교육청·지자체 보도자료는 못 들어온다.
+  #   · 지역이 하나뿐인 현지 영문 매체 → 그 지역으로 고정, lang: en. 영문 제목은 해설 에이전트가
+  #     우리말로 옮긴다(src/title_ko.py). 여행 전문이 아니면 curated 를 끈다.
+  #   · 여러 나라를 다루는 영문 매체 → region: auto, industry: false — 우리 지역 이름이 제목에 있는
+  #     기사만 남는다.
+  # ════════════════════════════════════════════════════════════════════════════════
+
+  # ── (a) 국내 여행·관광·호텔 전문지 — 아직 없던 곳 ──────────────────────────────
+  # 세계여행신문(gtn.co.kr). 여행신문과 함께 가장 오래된 여행업계 전문지. ndsoft CMS 패턴.
+  - id: kr_gtn
+    region: auto
+    section: news
+    name: 세계여행신문
+    type: rss
+    url: https://www.gtn.co.kr/rss/allArticle.xml
+    lang: ko
+    enabled: true
+    curated: true
+  # 한국관광신문(ktnbm.co.kr). 관광 정책·지자체 관광 소식이 많다. ndsoft CMS 패턴.
+  - id: kr_ktnbm
+    region: auto
+    section: news
+    name: 한국관광신문
+    type: rss
+    url: https://www.ktnbm.co.kr/rss/allArticle.xml
+    lang: ko
+    enabled: true
+    curated: true
+  # 트래블프레스(travelpress.co.kr). 여행사·항공사 업계지. ndsoft CMS 패턴.
+  - id: kr_travelpress
+    region: auto
+    section: news
+    name: 트래블프레스
+    type: rss
+    url: https://www.travelpress.co.kr/rss/allArticle.xml
+    lang: ko
+    enabled: true
+    curated: true
+  # 호텔앤레스토랑(hotelrestaurant.co.kr). 호텔 업계지인데 외식·와인·식자재 기사가 절반이라
+  # industry: false 로 제목에 호텔·리조트·여행 말이 있는 것만 받는다. ndsoft CMS 패턴.
+  - id: kr_hotelrestaurant
+    region: auto
+    section: news
+    name: 호텔앤레스토랑
+    type: rss
+    url: https://www.hotelrestaurant.co.kr/rss/allArticle.xml
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  # 호텔아비아(hotelavia.net). 호텔·항공 업계지. 위와 같은 이유로 industry: false. ndsoft CMS 패턴.
+  - id: kr_hotelavia
+    region: auto
+    section: news
+    name: 호텔아비아
+    type: rss
+    url: https://www.hotelavia.net/rss/allArticle.xml
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  # 한국면세뉴스(kdfnews.com). 면세점·공항·관광객 통계가 주력이고 화장품 업계 기사가 섞인다.
+  # '면세'는 여행업계 말(region_tag.INDUSTRY_TRAVEL_CUES)이라 면세 기사는 지명 없이도 받는다. ndsoft CMS 패턴.
+  - id: kr_kdfnews
+    region: auto
+    section: news
+    name: 한국면세뉴스
+    type: rss
+    url: https://www.kdfnews.com/rss/allArticle.xml
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+
+  # ── (b) 종합지·통신사·방송의 여행 기사 — 구글뉴스 site: 검색 ────────────────────
+  # 큰 매체는 공개 RSS 가 없거나 전체 기사가 섞여 온다. 매체를 site: 로 묶고 여행 말을 함께 건다.
+  # 질의의 여행 말은 본문에만 있어도 걸리므로, 수집 단계가 **제목**으로 다시 가른다(industry: false):
+  # 제목에 우리 지역 이름이나 여행·항공·호텔 말이 없으면 버린다. 매체마다 하나씩이다 — 구글뉴스 검색
+  # 피드는 한 번에 100건까지라 묶으면 매체당 몫이 준다. 출처는 구글이 아니라 그 매체로 밝힌다.
+  - id: gn_yna
+    region: auto
+    section: news
+    name: 연합뉴스 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Ayna.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_newsis
+    region: auto
+    section: news
+    name: 뉴시스 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Anewsis.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_news1
+    region: auto
+    section: news
+    name: 뉴스1 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Anews1.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_newspim
+    region: auto
+    section: news
+    name: 뉴스핌 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Anewspim.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_hankookilbo
+    region: auto
+    section: news
+    name: 한국일보 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Ahankookilbo.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_khan
+    region: auto
+    section: news
+    name: 경향신문 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Akhan.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_chosun
+    region: auto
+    section: news
+    name: 조선일보 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Achosun.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_joongang
+    region: auto
+    section: news
+    name: 중앙일보 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Ajoongang.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_donga
+    region: auto
+    section: news
+    name: 동아일보 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Adonga.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_hani
+    region: auto
+    section: news
+    name: 한겨레 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Ahani.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_segye
+    region: auto
+    section: news
+    name: 세계일보 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Asegye.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_kmib
+    region: auto
+    section: news
+    name: 국민일보 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Akmib.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_seoul
+    region: auto
+    section: news
+    name: 서울신문 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aseoul.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_munhwa
+    region: auto
+    section: news
+    name: 문화일보 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Amunhwa.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_mk
+    region: auto
+    section: news
+    name: 매일경제 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Amk.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_hankyung
+    region: auto
+    section: news
+    name: 한국경제 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Ahankyung.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_mt
+    region: auto
+    section: news
+    name: 머니투데이 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Amt.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_asiae
+    region: auto
+    section: news
+    name: 아시아경제 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aasiae.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_edaily
+    region: auto
+    section: news
+    name: 이데일리 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aedaily.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_herald
+    region: auto
+    section: news
+    name: 헤럴드경제 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aheraldcorp.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_fnnews
+    region: auto
+    section: news
+    name: 파이낸셜뉴스 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Afnnews.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_sedaily
+    region: auto
+    section: news
+    name: 서울경제 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Asedaily.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_nocut
+    region: auto
+    section: news
+    name: 노컷뉴스 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Anocutnews.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_ohmynews
+    region: auto
+    section: news
+    name: 오마이뉴스 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aohmynews.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_kbs
+    region: auto
+    section: news
+    name: KBS 뉴스 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Anews.kbs.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_sbs
+    region: auto
+    section: news
+    name: SBS 뉴스 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Anews.sbs.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_mbc
+    region: auto
+    section: news
+    name: MBC 뉴스 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aimnews.imbc.com%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_ytn
+    region: auto
+    section: news
+    name: YTN 여행
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aytn.co.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%20OR%20%ED%98%B8%ED%85%94%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+
+  # ── (b-2) 업계 주체로 거는 검색 — 매체를 안 가리고 항공사·여행사·해외여행 소식 ──────
+  # 회사 이름은 여행업계 말(INDUSTRY_TRAVEL_CUES)이라 지명이 없어도 업계면으로 받는다.
+  - id: gn_airlines
+    region: auto
+    section: news
+    name: 항공사 소식
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%EB%8C%80%ED%95%9C%ED%95%AD%EA%B3%B5%20OR%20%EC%95%84%EC%8B%9C%EC%95%84%EB%82%98%ED%95%AD%EA%B3%B5%20OR%20%EC%A7%84%EC%97%90%EC%96%B4%20OR%20%ED%8B%B0%EC%9B%A8%EC%9D%B4%ED%95%AD%EA%B3%B5%20OR%20%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5%20OR%20%EC%97%90%EC%96%B4%EB%B6%80%EC%82%B0%20OR%20%EC%97%90%EC%96%B4%EC%84%9C%EC%9A%B8%20OR%20%EC%97%90%EC%96%B4%ED%94%84%EB%A0%88%EB%AF%B8%EC%95%84%20OR%20%EC%9D%B4%EC%8A%A4%ED%83%80%ED%95%AD%EA%B3%B5%20OR%20%EC%97%90%EC%96%B4%EB%A1%9C%EC%BC%80%EC%9D%B4%20OR%20%ED%8C%8C%EB%9D%BC%ED%83%80%ED%95%AD%EA%B3%B5%29%20%28%EC%B7%A8%ED%95%AD%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EC%A6%9D%ED%8E%B8%20OR%20%EC%9A%B4%ED%95%AD%20OR%20%ED%95%AD%EA%B3%B5%EA%B6%8C%20OR%20%ED%8A%B9%EA%B0%80%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_agencies
+    region: auto
+    section: news
+    name: 여행사·플랫폼 소식
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%ED%95%98%EB%82%98%ED%88%AC%EC%96%B4%20OR%20%EB%AA%A8%EB%91%90%ED%88%AC%EC%96%B4%20OR%20%EB%85%B8%EB%9E%91%ED%92%8D%EC%84%A0%20OR%20%EC%B0%B8%EC%A2%8B%EC%9D%80%EC%97%AC%ED%96%89%20OR%20%EA%B5%90%EC%9B%90%ED%88%AC%EC%96%B4%20OR%20%EC%9D%B8%ED%84%B0%ED%8C%8C%ED%81%AC%ED%88%AC%EC%96%B4%20OR%20%EB%A7%88%EC%9D%B4%EB%A6%AC%EC%96%BC%ED%8A%B8%EB%A6%BD%20OR%20%EC%95%BC%EB%86%80%EC%9E%90%20OR%20%EC%97%AC%EA%B8%B0%EC%96%B4%EB%95%8C%20OR%20%ED%8A%B8%EB%A6%BD%EB%8B%B7%EC%BB%B4%20OR%20%EC%95%84%EA%B3%A0%EB%8B%A4%29%20%28%EC%97%AC%ED%96%89%20OR%20%ED%8C%A8%ED%82%A4%EC%A7%80%20OR%20%EC%98%88%EC%95%BD%20OR%20%EC%B6%9C%EC%8B%9C%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_overseas
+    region: auto
+    section: news
+    name: 해외여행 뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%ED%95%B4%EC%99%B8%EC%97%AC%ED%96%89%20%28%ED%8C%A8%ED%82%A4%EC%A7%80%20OR%20%ED%95%AD%EA%B3%B5%EA%B6%8C%20OR%20%EC%98%88%EC%95%BD%20OR%20%EC%88%98%EC%9A%94%20OR%20%EC%9D%B8%EA%B8%B0%20OR%20%EC%84%B1%EC%88%98%EA%B8%B0%20OR%20%EC%97%B0%ED%9C%B4%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+
+  # ── (c) 정부·공공 — 관광 정책 발표 ────────────────────────────────────────────
+  # 정책브리핑(korea.kr)·한국관광공사·문화체육관광부·공항공사는 자체 RSS 주소를 확신할 수 없어
+  # 구글뉴스 검색으로 받는다. 기관 이름을 걸면 기관 발표를 옮긴 모든 매체 기사가 온다.
+  # 편집 단계의 TRAVEL_EXCLUSIONS 가 '공항공사' 자체는 여행 말로 세지 않으므로 채용·입찰
+  # 공고는 못 들어온다.
+  - id: gn_korea_kr
+    region: auto
+    section: news
+    name: 정책브리핑 관광
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Akorea.kr%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%95%AD%EA%B3%B5%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_kto
+    region: auto
+    section: news
+    name: 한국관광공사 소식
+    type: rss
+    url: https://news.google.com/rss/search?q=%22%ED%95%9C%EA%B5%AD%EA%B4%80%EA%B4%91%EA%B3%B5%EC%82%AC%22%20%28%EC%97%AC%ED%96%89%20OR%20%EA%B4%80%EA%B4%91%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_mcst
+    region: auto
+    section: news
+    name: 문화체육관광부 관광
+    type: rss
+    url: https://news.google.com/rss/search?q=%22%EB%AC%B8%ED%99%94%EC%B2%B4%EC%9C%A1%EA%B4%80%EA%B4%91%EB%B6%80%22%20%28%EA%B4%80%EA%B4%91%20OR%20%EC%97%AC%ED%96%89%20OR%20%EB%B0%A9%ED%95%9C%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_airports
+    region: auto
+    section: news
+    name: 공항 소식
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%EC%9D%B8%EC%B2%9C%EA%B3%B5%ED%95%AD%20OR%20%EC%9D%B8%EC%B2%9C%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD%20OR%20%EA%B9%80%ED%95%B4%EA%B3%B5%ED%95%AD%20OR%20%EA%B9%80%ED%8F%AC%EA%B3%B5%ED%95%AD%20OR%20%EC%B2%AD%EC%A3%BC%EA%B3%B5%ED%95%AD%20OR%20%EB%8C%80%EA%B5%AC%EA%B3%B5%ED%95%AD%20OR%20%EB%AC%B4%EC%95%88%EA%B3%B5%ED%95%AD%29%20%28%EB%85%B8%EC%84%A0%20OR%20%EC%B7%A8%ED%95%AD%20OR%20%EC%97%AC%EA%B0%9D%20OR%20%EC%9D%B4%EC%9A%A9%EA%B0%9D%20OR%20%EB%A9%B4%EC%84%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_tourism_orgs
+    region: auto
+    section: news
+    name: 지역 관광재단·관광공사
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%EA%B4%80%EA%B4%91%EC%9E%AC%EB%8B%A8%20OR%20%EA%B4%80%EA%B4%91%EA%B3%B5%EC%82%AC%29%20%28%EC%97%AC%ED%96%89%20OR%20%EC%B6%95%EC%A0%9C%20OR%20%EA%B4%80%EA%B4%91%EA%B0%9D%20OR%20%EA%B4%80%EA%B4%91%EC%83%81%ED%92%88%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
+
+  # ── (d) 지역별 현지·영문 매체 — 얇은 지면부터 ─────────────────────────────────
+  # 영문 제목은 해설 에이전트가 우리말로 옮긴다(src/title_ko.py, 하와이 뉴스 나우와 같은 길).
+  # 여행 전문이 아닌 종합지는 curated 를 꺼 편집 단계의 여행 관련성·사건 필터를 태운다.
+
+  # 태국 — 2주 실측 9건. 방콕포스트 여행면 RSS(/rss/data/<섹션>.xml 은 방콕포스트 RSS 색인의 형식),
+  # 타이거(워드프레스), 태국관광청 뉴스룸(워드프레스, 관광청 공식 발표라 curated).
+  - id: thailand_bangkokpost_travel
+    region: thailand
+    section: news
+    name: Bangkok Post - Travel
+    type: rss
+    url: https://www.bangkokpost.com/rss/data/travel.xml
+    lang: en
+    enabled: true
+    curated: false
+  - id: thailand_thaiger
+    region: thailand
+    section: news
+    name: The Thaiger
+    type: rss
+    url: https://thethaiger.com/feed
+    lang: en
+    enabled: true
+    curated: false
+  - id: thailand_tatnews
+    region: thailand
+    section: news
+    name: TAT Newsroom
+    type: rss
+    url: https://www.tatnews.org/feed/
+    lang: en
+    enabled: true
+    curated: true
+  - id: gn_thailand_en
+    region: thailand
+    section: news
+    name: Thailand travel news
+    type: rss
+    url: https://news.google.com/rss/search?q=%28Thailand%20OR%20Bangkok%20OR%20Phuket%20OR%20%22Chiang%20Mai%22%20OR%20Pattaya%20OR%20Krabi%29%20%28tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%20OR%20visa%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+
+  # 대만 — 2주 실측 26건. 타이베이타임스는 /xml/index.rss 가 오래된 공개 주소(확신은 못 한다).
+  # 포커스타이완(중앙통신 영문)·타이완뉴스는 자체 RSS 주소를 몰라 구글뉴스 site: 로 받는다.
+  - id: taiwan_taipeitimes
+    region: taiwan
+    section: news
+    name: Taipei Times
+    type: rss
+    url: https://www.taipeitimes.com/xml/index.rss
+    lang: en
+    enabled: true
+    curated: false
+  - id: gn_focustaiwan_en
+    region: taiwan
+    section: news
+    name: Focus Taiwan
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Afocustaiwan.tw%20%28travel%20OR%20tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: gn_taiwannews_en
+    region: taiwan
+    section: news
+    name: Taiwan News
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Ataiwannews.com.tw%20%28travel%20OR%20tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: gn_taiwan_en
+    region: taiwan
+    section: news
+    name: Taiwan travel news
+    type: rss
+    url: https://news.google.com/rss/search?q=%28Taiwan%20OR%20Taipei%20OR%20Kaohsiung%20OR%20Taichung%20OR%20Tainan%29%20%28tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%20OR%20visa%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+
+  # 라오스 — 비엔티안타임스는 RSS 가 없다(2026-08-31 조사). 구글뉴스 site: 로 받는다. 제목에
+  # Laos·Vientiane·Luang Prabang·Laotian 이 있어야 남는다(검색 피드 공통 규칙).
+  - id: gn_vientianetimes_en
+    region: laos
+    section: news
+    name: Vientiane Times
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Avientianetimes.org.la%20%28tourism%20OR%20tourists%20OR%20travel%20OR%20airline%20OR%20hotel%20OR%20visa%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+
+  # 사이판·괌 — 마리아나스 버라이어티는 robots 전면 차단(건드리지 않는다), KUAM·관광청은 RSS 가 없다.
+  # 대신 한국어 검색을 하나씩 더 건다 — 기존 질의(항공·노선·관광·호텔·리조트)에 없는 여행 말로.
+  - id: gn_saipan_ko2
+    region: saipan
+    section: news
+    name: 사이판 여행 소식
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%EC%82%AC%EC%9D%B4%ED%8C%90%20OR%20%ED%8B%B0%EB%8B%88%EC%95%88%20OR%20%EB%A7%88%EB%A6%AC%EC%95%84%EB%82%98%29%20%28%EC%97%AC%ED%96%89%20OR%20%ED%8C%A8%ED%82%A4%EC%A7%80%20OR%20%EC%A7%81%ED%95%AD%20OR%20%EC%97%90%EC%96%B4%ED%85%94%20OR%20%ED%9C%B4%EC%96%91%20OR%20%EC%8B%A0%ED%98%BC%EC%97%AC%ED%96%89%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_guam_ko2
+    region: guam
+    section: news
+    name: 괌 여행 소식
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%EA%B4%8C%20OR%20%ED%88%AC%EB%AA%AC%29%20%28%EC%97%AC%ED%96%89%20OR%20%ED%8C%A8%ED%82%A4%EC%A7%80%20OR%20%EC%A7%81%ED%95%AD%20OR%20%EC%97%90%EC%96%B4%ED%85%94%20OR%20%EC%8B%A0%ED%98%BC%EC%97%AC%ED%96%89%20OR%20%EA%B0%80%EC%A1%B1%EC%97%AC%ED%96%89%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+
+  # 하와이 — 시빌비트(워드프레스, 비영리 탐사보도라 정치가 많다 → 필터), KHON2(넥스타 워드프레스),
+  # 하와이 매거진(여행지라 curated), 마우이 나우(퍼시픽 미디어 그룹 워드프레스). 영문 검색 하나.
+  - id: hawaii_civilbeat
+    region: hawaii
+    section: news
+    name: Honolulu Civil Beat
+    type: rss
+    url: https://www.civilbeat.org/feed/
+    lang: en
+    enabled: true
+    curated: false
+  - id: hawaii_khon2
+    region: hawaii
+    section: news
+    name: KHON2
+    type: rss
+    url: https://www.khon2.com/feed/
+    lang: en
+    enabled: true
+    curated: false
+  - id: hawaii_magazine
+    region: hawaii
+    section: news
+    name: Hawaii Magazine
+    type: rss
+    url: https://www.hawaiimagazine.com/feed/
+    lang: en
+    enabled: true
+    curated: true
+  - id: hawaii_mauinow
+    region: hawaii
+    section: news
+    name: Maui Now
+    type: rss
+    url: https://mauinow.com/feed/
+    lang: en
+    enabled: true
+    curated: false
+  - id: gn_hawaii_en
+    region: hawaii
+    section: news
+    name: Hawaii travel news
+    type: rss
+    url: https://news.google.com/rss/search?q=%28Hawaii%20OR%20Honolulu%20OR%20Waikiki%20OR%20Maui%20OR%20Oahu%20OR%20Kauai%29%20%28tourism%20OR%20tourists%20OR%20visitors%20OR%20flight%20OR%20airline%20OR%20hotel%20OR%20resort%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+
+  # 코타키나발루 — 데일리익스프레스·보르네오포스트는 직접 받으면 봇 차단(2026-08-31). 구글뉴스 site: 로
+  # 받되 제목에 Kinabalu 가 있어야 남는다. 더스타 여행면은 말레이시아 전역·세계를 다뤄 region: auto 다.
+  - id: gn_sabah_press_en
+    region: kota
+    section: news
+    name: Sabah press
+    type: rss
+    url: https://news.google.com/rss/search?q=%28site%3Adailyexpress.com.my%20OR%20site%3Atheborneopost.com%29%20%28%22Kota%20Kinabalu%22%20OR%20Kinabalu%20OR%20Sabah%29%20%28tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%20OR%20resort%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: kota_thestar_travel
+    region: auto
+    section: news
+    name: The Star - Travel
+    type: rss
+    url: https://www.thestar.com.my/rss/Lifestyle/Travel
+    lang: en
+    enabled: true
+    industry: false
+    curated: false
+  - id: gn_kota_ko2
+    region: kota
+    section: news
+    name: 코타키나발루 여행 소식
+    type: rss
+    url: https://news.google.com/rss/search?q=%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%28%EC%97%AC%ED%96%89%20OR%20%ED%8C%A8%ED%82%A4%EC%A7%80%20OR%20%EC%A7%81%ED%95%AD%20OR%20%EC%97%90%EC%96%B4%ED%85%94%20OR%20%EC%8B%A0%ED%98%BC%EC%97%AC%ED%96%89%20OR%20%EA%B0%80%EC%A1%B1%EC%97%AC%ED%96%89%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+
+  # 베트남 — 베트남뉴스(vietnamnews.vn)는 자체 피드의 인코딩 선언이 깨져 못 읽었다(위 비활성 항목).
+  # 구글뉴스 site: 로 돌아간다. 뚜오이쩨·베트남플러스·사이고니어도 같은 길.
+  - id: gn_vietnamnews_en
+    region: vietnam
+    section: news
+    name: Vietnam News
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Avietnamnews.vn%20%28travel%20OR%20tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%20OR%20resort%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: gn_tuoitre_en
+    region: vietnam
+    section: news
+    name: Tuoi Tre News
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Atuoitrenews.vn%20%28travel%20OR%20tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%20OR%20resort%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: gn_vietnamplus_en
+    region: vietnam
+    section: news
+    name: VietnamPlus
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aen.vietnamplus.vn%20%28travel%20OR%20tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%20OR%20resort%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: gn_saigoneer_en
+    region: vietnam
+    section: news
+    name: Saigoneer
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Asaigoneer.com%20%28travel%20OR%20tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%20OR%20resort%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+
+  # 일본 — 재팬투데이(/feed)·재팬타임스(/feed/)·소라뉴스24(워드프레스, 여행·음식 가벼운 기사).
+  # 닛폰닷컴·교도통신 영문은 자체 RSS 주소를 몰라 구글뉴스 site: 로. 일본정부관광국(JNTO) 발표는
+  # 기관 이름으로 건다.
+  - id: japan_japantoday
+    region: japan
+    section: news
+    name: Japan Today
+    type: rss
+    url: https://japantoday.com/feed
+    lang: en
+    enabled: true
+    curated: false
+  - id: japan_japantimes
+    region: japan
+    section: news
+    name: The Japan Times
+    type: rss
+    url: https://www.japantimes.co.jp/feed/
+    lang: en
+    enabled: true
+    curated: false
+  - id: japan_soranews
+    region: japan
+    section: news
+    name: SoraNews24
+    type: rss
+    url: https://soranews24.com/feed/
+    lang: en
+    enabled: true
+    curated: false
+  - id: gn_nippon_en
+    region: japan
+    section: news
+    name: nippon.com
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Anippon.com%20%28travel%20OR%20tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%20OR%20visitors%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: gn_kyodo_en
+    region: japan
+    section: news
+    name: Kyodo News
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aenglish.kyodonews.net%20%28travel%20OR%20tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%20OR%20visitors%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: gn_jnto_en
+    region: japan
+    section: news
+    name: JNTO
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%22Japan%20National%20Tourism%20Organization%22%20OR%20JNTO%20OR%20%22visitors%20to%20Japan%22%20OR%20%22inbound%20tourists%22%20Japan%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+  - id: gn_japan_en
+    region: japan
+    section: news
+    name: Japan travel news
+    type: rss
+    url: https://news.google.com/rss/search?q=%28Japan%20OR%20Tokyo%20OR%20Osaka%20OR%20Kyoto%20OR%20Fukuoka%20OR%20Okinawa%20OR%20Hokkaido%29%20%28tourism%20OR%20tourists%20OR%20flight%20OR%20airline%20OR%20hotel%20OR%20visa%29&hl=en-US&gl=US&ceid=US%3Aen
+    lang: en
+    enabled: true
+
+  # ── (e) 도시별 한국어 검색 — 기존 gn_<도시> 와 같은 꼴(도시 + 항공·노선·관광·호텔·리조트) ─
+  # 사람들은 나라가 아니라 도시로 검색하고, 한국 매체 제목도 도시를 쓴다. 철자가 둘인 도시는 둘 다
+  # 걸고 지역 키워드(config/site.json)에도 둘 다 넣었다 — 제목 검증(mentions_region)이 그 표를 본다.
+  - id: gn_phuket
+    region: thailand
+    section: news
+    name: 푸껫 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%ED%91%B8%EA%BB%AB%20OR%20%ED%91%B8%EC%BC%93%29%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_chiangmai
+    region: thailand
+    section: news
+    name: 치앙마이 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_pattaya
+    region: thailand
+    section: news
+    name: 파타야 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%ED%8C%8C%ED%83%80%EC%95%BC%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_krabi
+    region: thailand
+    section: news
+    name: 끄라비 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%EB%81%84%EB%9D%BC%EB%B9%84%20OR%20%ED%81%AC%EB%9D%BC%EB%B9%84%29%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_samui
+    region: thailand
+    section: news
+    name: 코사무이 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%EC%BD%94%EC%82%AC%EB%AC%B4%EC%9D%B4%20OR%20%EC%82%AC%EB%AC%B4%EC%9D%B4%29%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_taipei
+    region: taiwan
+    section: news
+    name: 타이베이 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4%20OR%20%ED%83%80%EC%9D%B4%ED%8E%98%EC%9D%B4%29%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_kaohsiung
+    region: taiwan
+    section: news
+    name: 가오슝 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%EA%B0%80%EC%98%A4%EC%8A%9D%20OR%20%EA%B9%8C%EC%98%A4%EC%8A%9D%29%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_taichung
+    region: taiwan
+    section: news
+    name: 타이중 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%ED%83%80%EC%9D%B4%EC%A4%91%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_tainan
+    region: taiwan
+    section: news
+    name: 타이난 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%ED%83%80%EC%9D%B4%EB%82%9C%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_luangprabang
+    region: laos
+    section: news
+    name: 루앙프라방 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EB%A3%A8%EC%95%99%ED%94%84%EB%9D%BC%EB%B0%A9%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_vientiane
+    region: laos
+    section: news
+    name: 비엔티안 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88%20OR%20%EB%B9%84%EC%97%94%ED%8B%B0%EC%97%94%29%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_hochiminh
+    region: vietnam
+    section: news
+    name: 호찌민 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%ED%98%B8%EC%B0%8C%EB%AF%BC%20OR%20%ED%98%B8%EC%B9%98%EB%AF%BC%29%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_hanoi
+    region: vietnam
+    section: news
+    name: 하노이 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%ED%95%98%EB%85%B8%EC%9D%B4%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_phuquoc
+    region: vietnam
+    section: news
+    name: 푸꾸옥 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%28%ED%91%B8%EA%BE%B8%EC%98%A5%20OR%20%ED%91%B8%EC%BF%A0%EC%98%A5%29%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_hoian
+    region: vietnam
+    section: news
+    name: 호이안 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%ED%98%B8%EC%9D%B4%EC%95%88%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_dalat
+    region: vietnam
+    section: news
+    name: 달랏 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EB%8B%AC%EB%9E%8F%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_kyoto
+    region: japan
+    section: news
+    name: 교토 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EA%B5%90%ED%86%A0%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_nagoya
+    region: japan
+    section: news
+    name: 나고야 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EB%82%98%EA%B3%A0%EC%95%BC%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_hiroshima
+    region: japan
+    section: news
+    name: 히로시마 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%ED%9E%88%EB%A1%9C%EC%8B%9C%EB%A7%88%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_nagasaki
+    region: japan
+    section: news
+    name: 나가사키 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EB%82%98%EA%B0%80%EC%82%AC%ED%82%A4%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_kagoshima
+    region: japan
+    section: news
+    name: 가고시마 여행뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=%EA%B0%80%EA%B3%A0%EC%8B%9C%EB%A7%88%20%28%ED%95%AD%EA%B3%B5%20OR%20%EB%85%B8%EC%84%A0%20OR%20%EA%B4%80%EA%B4%91%20OR%20%ED%98%B8%ED%85%94%20OR%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%29&hl=ko&gl=KR&ceid=KR%3Ako
     lang: ko
     enabled: true

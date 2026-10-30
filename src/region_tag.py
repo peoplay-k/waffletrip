@@ -65,12 +65,23 @@ INDUSTRY_TRAVEL_CUES: tuple[str, ...] = (
 )
 
 
+# 영문 약어(OTA·IHG)는 영문자 사이에 끼어 있으면 세지 않는다. 2026-10-30 영문 피드를
+# region: auto 로 붙이면서 드러났다 — "ota" 가 Toyota·quota·rotation·Kota 안에 들어 있어
+# 영문 제목이 전부 여행업계 기사가 됐다. 한글 사이("OTA업계")는 그대로 잡는다.
+_ASCII_CUE = {c: re.compile(rf"(?<![A-Za-z]){re.escape(c.lower())}(?![A-Za-z])")
+              for c in INDUSTRY_TRAVEL_CUES if c.isascii()}
+
+
 def is_industry_story(title: str) -> bool:
     """지명 없는 제목이 여행업계 기사로 읽히는가."""
     if not title:
         return False
     lowered = title.lower()
-    return any(c.lower() in lowered for c in INDUSTRY_TRAVEL_CUES)
+    for c in INDUSTRY_TRAVEL_CUES:
+        pattern = _ASCII_CUE.get(c)
+        if pattern.search(lowered) if pattern else c.lower() in lowered:
+            return True
+    return False
 
 # 순서가 동점 처리 순서다. REGIONS 와 같은 순서로 유지한다.
 # 2026-10-30 부터 정본은 config/site.json(regions[].keywords) — 편집실에서 사장님이 고친다.

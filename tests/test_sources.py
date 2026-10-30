@@ -226,3 +226,66 @@ def test_owner_named_sources_are_registered_and_enabled():
         assert by_id[sid].region == "auto" and by_id[sid].industry is False
     assert by_id["kr_mhns"].culture is True
     assert by_id["kr_ppss"].curated is False     # 여행 전문지가 아니다 — 편집 필터를 태운다
+
+
+# ── 2026-10-30 소스 확장 — 사장님: "내가 말한 거기는 그냥 그런거고 너가 기사를 다 찾아서 넣어야지
+#    왜 3군데만 봐 다른곳도 다 봐" ─────────────────────────────────────────────────────
+def _real():
+    return {s.id: s for s in load_sources("sources.yaml")}
+
+
+def test_major_outlets_are_searched_one_feed_each_as_auto_industry_off():
+    """종합지·통신사는 site: 검색으로 받고, 지명·여행 말이 없는 기사는 수집 단계가 버리는 설정이어야 한다."""
+    by_id = _real()
+    for sid in ("gn_yna", "gn_newsis", "gn_news1", "gn_chosun", "gn_joongang", "gn_donga", "gn_mk",
+                "gn_hankyung", "gn_khan", "gn_hankookilbo", "gn_herald", "gn_kbs", "gn_ytn"):
+        s = by_id[sid]
+        assert "news.google.com/rss/search" in s.url and "site%3A" in s.url, sid
+        assert s.region == "auto" and s.industry is False and s.curated is False, sid
+
+
+def test_every_auto_google_search_source_turns_industry_off():
+    """region: auto 인 검색 피드는 어떤 매체든 섞여 오므로 industry: false 가 아니면 보도자료가 새어 든다."""
+    for s in _real().values():
+        if s.region == "auto" and "news.google.com" in s.url:
+            assert s.industry is False and s.curated is False, s.id
+
+
+def test_new_korean_trade_press_is_curated_auto():
+    by_id = _real()
+    for sid in ("kr_gtn", "kr_ktnbm", "kr_travelpress"):
+        assert by_id[sid].region == "auto" and by_id[sid].curated is True, sid
+        assert by_id[sid].url.endswith("/rss/allArticle.xml"), sid
+    for sid in ("kr_hotelrestaurant", "kr_hotelavia", "kr_kdfnews"):   # 외식·화장품이 섞인다
+        assert by_id[sid].industry is False and by_id[sid].curated is False, sid
+
+
+def test_thin_regions_got_local_and_city_sources():
+    by_id = _real()
+    expect = {
+        "thailand": ("thailand_bangkokpost_travel", "thailand_tatnews", "gn_phuket", "gn_chiangmai", "gn_pattaya"),
+        "taiwan": ("taiwan_taipeitimes", "gn_focustaiwan_en", "gn_taipei", "gn_kaohsiung", "gn_tainan"),
+        "laos": ("gn_vientianetimes_en", "gn_luangprabang", "gn_vientiane"),
+        "saipan": ("gn_saipan_ko2",),
+        "kota": ("gn_sabah_press_en", "gn_kota_ko2"),
+        "japan": ("japan_japantoday", "gn_kyoto", "gn_hiroshima", "gn_kagoshima"),
+        "vietnam": ("gn_vietnamnews_en", "gn_hochiminh", "gn_phuquoc"),
+        "hawaii": ("hawaii_civilbeat", "hawaii_magazine"),
+    }
+    for region, ids in expect.items():
+        for sid in ids:
+            assert sid in by_id, sid
+            assert by_id[sid].region == region, (sid, by_id[sid].region)
+
+
+def test_english_sources_declare_their_language():
+    """영문 제목은 해설 에이전트가 옮긴다(src/title_ko.py). lang 이 맞아야 그 길로 간다."""
+    by_id = _real()
+    for sid in ("thailand_thaiger", "japan_japantimes", "hawaii_khon2", "kota_thestar_travel", "gn_japan_en"):
+        assert by_id[sid].lang == "en", sid
+    assert by_id["kota_thestar_travel"].region == "auto" and by_id["kota_thestar_travel"].industry is False
+
+
+def test_enabled_sources_do_not_share_a_url():
+    urls = [s.url for s in _real().values()]
+    assert len(urls) == len(set(urls))

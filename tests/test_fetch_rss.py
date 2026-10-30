@@ -369,3 +369,51 @@ def test_요약은_인용_한도_안에서_자른다():
     assert len(got) <= MAX_SUMMARY_CHARS and got.endswith("…") and not got.endswith(" …")
     # 짧은 두 문장은 그대로
     assert first_sentences("첫 문장이다. 둘째 문장이다. 셋째는 버린다.") == "첫 문장이다. 둘째 문장이다."
+
+
+# ── region: auto 인 구글뉴스 검색 소스(2026-10-30 "왜 3군데만 봐 다른곳도 다 봐") ──────────
+# ㅍㅍㅅㅅ와 종합지 site: 검색 피드는 지역이 고정돼 있지 않다. 그런데 검색 피드 공통의 제목 검증
+# (mentions_region)이 "auto" 에는 지명 키워드가 없어 늘 거짓이었고, ㅍㅍㅅㅅ는 붙인 날부터 0건이었다.
+GOOGLE_AUTO_SOURCE = Source(
+    id="gn_yna", region="auto", section="news", name="연합뉴스 여행", type="rss",
+    url="https://news.google.com/rss/search?q=site%3Ayna.co.kr%20%28%EC%97%AC%ED%96%89%29",
+    lang="ko", enabled=True, industry=False)
+
+GOOGLE_AUTO_FEED = """<?xml version="1.0"?><rss version="2.0"><channel>
+<item><title>오사카 여행에서 배운 것 - ㅍㅍㅅㅅ</title><link>https://example.com/a</link>
+<pubDate>Wed, 02 Sep 2026 01:00:00 GMT</pubDate></item>
+<item><title>하나투어, 겨울 패키지 출시 - 연합뉴스</title><link>https://example.com/b</link>
+<pubDate>Wed, 02 Sep 2026 01:00:00 GMT</pubDate></item>
+<item><title>신한투자증권, 크로스보더 펀드 결성 - 연합뉴스</title><link>https://example.com/c</link>
+<pubDate>Wed, 02 Sep 2026 01:00:00 GMT</pubDate></item>
+<item><title>포항시, 일본 치바시와 교류의향서 체결 - 연합뉴스</title><link>https://example.com/d</link>
+<pubDate>Wed, 02 Sep 2026 01:00:00 GMT</pubDate></item>
+</channel></rss>"""
+
+
+def test_auto_소스의_구글뉴스_검색은_기사마다_지역을_정한다():
+    got = parse_feed(GOOGLE_AUTO_SOURCE, GOOGLE_AUTO_FEED, NOW)
+    assert [(i.title[:4], i.region, i.source_name) for i in got] == [
+        ("오사카 ", "japan", "ㅍㅍㅅㅅ"), ("하나투어", "industry", "연합뉴스")]
+
+
+def test_auto_소스의_구글뉴스_검색도_여행_말_없는_보도자료는_버린다():
+    """종합지를 site: 로 묶으면 금융·지자체 기사가 같이 온다. industry: false 규칙이 그대로 막는다."""
+    got = parse_feed(GOOGLE_AUTO_SOURCE, GOOGLE_AUTO_FEED, NOW)
+    assert all("증권" not in i.title and "교류의향서" not in i.title for i in got)
+
+
+def test_지역이_고정된_구글뉴스_검색은_여전히_제목으로_지역을_검증한다():
+    """auto 예외가 기존 목적지 피드의 검증을 풀어서는 안 된다."""
+    items = parse_feed(GOOGLE_SOURCE, GOOGLE_FEED, NOW)
+    assert [i.title[:3] for i in items] == ["오사카"]
+
+
+def test_구글뉴스가_이름으로_돌려주는_연예_매체도_싣지_않는다():
+    """2026-10-30 2주 실측: '스포츠동아' 24건·'bntnews' 40건이 도메인 표기를 비켜 들어왔다."""
+    xml = """<?xml version="1.0"?><rss version="2.0"><channel>
+    <item><title>배우 ○○, 도쿄 호텔서 포착 - 스포츠동아</title><link>https://example.com/s1</link>
+    <pubDate>Wed, 02 Sep 2026 01:00:00 GMT</pubDate></item>
+    <item><title>도쿄 하네다 노선 증편 - 여행신문</title><link>https://example.com/s2</link>
+    <pubDate>Wed, 02 Sep 2026 02:00:00 GMT</pubDate></item></channel></rss>"""
+    assert [i.source_name for i in parse_feed(GOOGLE_SOURCE, xml, NOW)] == ["여행신문"]

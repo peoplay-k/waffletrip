@@ -198,7 +198,9 @@
         "투몬",
         "tumon",
         "하갓냐",
-        "데데도"
+        "데데도",
+        "hagatna",
+        "tamuning"
       ],
       "desk_duty": "괌 지역의 해설·답사 기사를 맡습니다.",
       "visible": true,
@@ -220,7 +222,11 @@
         "북마리아나",
         "마나가하",
         "managaha",
-        "마리아나"
+        "마리아나",
+        "cnmi",
+        "northern mariana",
+        "garapan",
+        "가라판"
       ],
       "desk_duty": "사이판 지역의 해설·답사 기사를 맡습니다.",
       "visible": true,
@@ -252,7 +258,8 @@
         "힐로",
         "라나이",
         "lanai",
-        "몰로카이"
+        "몰로카이",
+        "big island"
       ],
       "desk_duty": "하와이 지역의 해설·답사 기사를 맡습니다.",
       "visible": true,
@@ -298,7 +305,11 @@
         "꾸이년",
         "quy nhon",
         "닌빈",
-        "ninh binh"
+        "ninh binh",
+        "푸쿠옥",
+        "dalat",
+        "phong nha",
+        "con dao"
       ],
       "desk_duty": "베트남 지역의 해설·답사 기사를 맡습니다.",
       "visible": true,
@@ -318,7 +329,9 @@
         "코타 키나발루",
         "kota kinabalu",
         "키나발루",
-        "kinabalu"
+        "kinabalu",
+        "sabah tourism",
+        "사바주"
       ],
       "desk_duty": "코타키나발루 지역의 해설·답사 기사를 맡습니다.",
       "visible": true,
@@ -343,7 +356,10 @@
         "vang vieng",
         "팍세",
         "pakse",
-        "루앙남타"
+        "루앙남타",
+        "비엔티엔",
+        "laotian",
+        "lao pdr"
       ],
       "desk_duty": "라오스 지역의 해설·답사 기사를 맡습니다.",
       "visible": true,
@@ -477,7 +493,16 @@
         "센트레아",
         "후쿠오카공항",
         "신치토세공항",
-        "간사이국제공항"
+        "간사이국제공항",
+        "hiroshima",
+        "nagasaki",
+        "kagoshima",
+        "kumamoto",
+        "sendai",
+        "beppu",
+        "hakata",
+        "niseko",
+        "chitose"
       ],
       "desk_duty": "일본 지역의 해설·답사 기사를 맡습니다.",
       "visible": true,
@@ -524,7 +549,11 @@
         "phi phi",
         "팡아",
         "깐짜나부리",
-        "kanchanaburi"
+        "kanchanaburi",
+        "푸켓",
+        "크라비",
+        "hua hin",
+        "suvarnabhumi"
       ],
       "desk_duty": "태국 지역의 해설·답사 기사를 맡습니다.",
       "visible": true,
@@ -575,7 +604,13 @@
         "tamsui",
         "진과스",
         "이란현",
-        "yilan"
+        "yilan",
+        "타이페이",
+        "까오슝",
+        "tainan",
+        "hualien",
+        "jiufen",
+        "keelung"
       ],
       "desk_duty": "대만 지역의 해설·답사 기사를 맡습니다.",
       "visible": true,

@@ -8,6 +8,7 @@ from __future__ import annotations
 import json
 import os
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 
@@ -41,6 +42,10 @@ def collect_one(source: Source, client, collected_at: str) -> list[Item]:
     raise ValueError(f"알 수 없는 소스 타입 '{source.type}' (id={source.id})")
 
 
+# 429 뒤 다시 청하기 전에 쉬는 시간. 구글뉴스는 같은 주소에서 몰아 오면 잠깐 막는다.
+RETRY_PAUSE_SECONDS = 6.0
+
+
 def collect_with_retry(source: Source, client, collected_at: str
                        ) -> tuple[list[Item], str | None]:
     """한 소스를 받는다. 막히면 원인에 맞게 한 번 더 두드린다.
@@ -67,6 +72,10 @@ def collect_with_retry(source: Source, client, collected_at: str
     try:
         if isinstance(first, httpx.HTTPStatusError) and \
                 first.response.status_code in (403, 429):
+            # 429 는 "너무 빨리 왔다"는 뜻이다. 바로 다시 두드리면 또 429 다. 2026-10-30 구글뉴스
+            # 검색 피드를 30 → 110여 개로 늘리면서 숨을 돌리고 다시 청한다(시험은 0 으로 둔다).
+            if first.response.status_code == 429:
+                time.sleep(RETRY_PAUSE_SECONDS)
             with httpx.Client(headers={"User-Agent": _BROWSER_UA},
                               timeout=30.0, follow_redirects=True) as c2:
                 return collect_one(source, c2, collected_at), None
@@ -84,7 +93,7 @@ def collect_with_retry(source: Source, client, collected_at: str
 
 
 def collect_all(sources: list[Source], client, collected_at: str,
-                max_workers: int = 8) -> tuple[list[Item], list[dict]]:
+                max_workers: int = 5) -> tuple[list[Item], list[dict]]:
     items: list[Item] = []
     errors: list[dict] = []
 

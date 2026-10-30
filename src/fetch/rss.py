@@ -29,6 +29,9 @@ SKIP_OUTLETS = frozenset({
     "위키트리", "인사이트", "bntnews.co.kr", "직썰", "티브이데일리",
     "네이트 뉴스", "모바일 네이트 뉴스", "네이트", "v.daum.net", "다음뉴스",
     "ZUM 뉴스", "줌뉴스",
+    # 2026-10-30 실측(2주치): 구글뉴스가 같은 매체를 도메인이 아니라 이름으로 돌려준다 —
+    # "스포츠동아" 24건, "bntnews" 40건이 위 도메인 표기를 비켜 들어왔다. 이름 표기도 막는다.
+    "스포츠동아", "bntnews",
 })
 
 # 기사가 아니라 목록·편성표·운세다. 제목만 봐도 갈린다.
@@ -160,8 +163,14 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
         # 제목이 그 지역을 말하지 않으면 그 지역 기사가 아니다.
         # 제목만 보는 이유는 아래 auto 판정과 같다. 승부(tag_region)가 아니라
         # 언급 여부를 묻는다 — "제주·후쿠오카 인기"는 두 지역 다 맞는 기사다.
+        # region: auto 인 검색 소스(ㅍㅍㅅㅅ, 그리고 2026-10-30 부터 연합뉴스·뉴시스… 종합지의
+        # site: 검색 피드)는 여기서 묻지 않는다 — "auto" 에는 지명 키워드가 없어 mentions_region 이
+        # 늘 거짓이고, 그래서 ㅍㅍㅅㅅ는 붙인 날부터 0건이었다(2026-10-30 실측). 지역은 바로 아래
+        # auto 판정이 기사마다 제목으로 정한다. 사장님: "너가 기사를 다 찾아서 넣어야지 왜 3군데만 봐
+        # 다른곳도 다 봐".
         ent = getattr(source, "channel", "travel") == "ent"
-        if google_news and not ent and not mentions_region(title, source.region):
+        if google_news and not ent and source.region != "auto" \
+                and not mentions_region(title, source.region):
             continue
 
         # 국내 여행 전문 매체는 목적지가 섞여 오므로 기사마다 지역을 정한다.
