@@ -1353,6 +1353,7 @@
     "26a7a3ef9e8ff0435c4c47ee0cf1f1e7d777ca80",
     "26a7b2d6b0d03bfe2807dbbd1a000fe022fc07dc",
     "26bb9a13f9dd5e2169a3d48a34ddf828b1a90177",
+    "26c075cd136abd58c457cb402cbb3ca262f1a4bd",
     "26ce3ac18aaaad4a910d433ec48fa533cdf12293",
     "26db4d7515f1cede919c0a9f37f6e2d97864477b",
     "26ed9ad61a5b7f098a9bb6519dc9edae9bb3b06d",
@@ -4208,6 +4209,7 @@
     "77a5a015306af73eebd5cf502cedc8b3fe317f80",
     "77b84e204d4a6de635b67ddda6d73fbfbb29f320",
     "77ba4a0e545e20e8cbaacd1dec8d875565967306",
+    "77c4142bf57a6f93166fbbdf7dd40b6c41ce5818",
     "77ca51bf5728cdda8d88c3742cce25bf437c2d9c",
     "77cf611533123c9d9c968b6af8c93c3818176466",
     "77cf93d8d1917b91a6d7826d2a277fd9f3a55d04",
@@ -4383,6 +4385,7 @@
     "7c803578fd90bdfde072597baaaf76b67c7c9eb6",
     "7c8728fd62f450854bff82fcc6302048923dbe20",
     "7c87eb77f1d94a431f837f5d0b98e5587a4c9f96",
+    "7c91bbab442b580e546f564b6ed2c4b304733c62",
     "7c96a773939e94a219a5688b9fcb1eada9b5887c",
     "7cbaa7961ac6162be2033512616af2d94ada6a90",
     "7cbff429bfd5613f17f6ea0ae17491a5437b9c02",
@@ -4669,6 +4672,7 @@
     "848793b5599a788395561cf69e50908057701f24",
     "84b6365a24d77fe2a75fc5230ca68d78255897e2",
     "84bb3e868c40f5202d897c58d9d6409e4431ce27",
+    "84c2f9dbd8ea14a07c876ebc46dbee09a15c6e8b",
     "84c3a0f3e424f43b86f23382210cf61cffd1bfd2",
     "84c740d344f44376003bac26f4de27be71fa8bc8",
     "84c9eaef6b64695fddb47ee17ee125673abca3ee",
@@ -8276,6 +8280,7 @@
     "dfd971c5bab66f49c8160ee2d6b54eb29d6cbccc",
     "dfdae151ae45a65d58def8da0f4be6c29054cf3e",
     "dfdb46120a3b6780ae2a151f74067ab31c493792",
+    "dfdb7f3aa515dd15e5616b093de455de3646748f",
     "dfe56d54643eda58dd84f8b1e4ffe149b9ebcda0",
     "dffb0ae243b535c96cedb3b5e6e85c0247e182e1",
     "dffbe0c149132ac8442cb6d487cb041b433bb470",
@@ -8299,6 +8304,7 @@
     "e0475a47f72fd9519678c93ab33e4849c82e8f6a",
     "e047ca2b2210b2854cb29480267dbeb91b4910f0",
     "e04a82860ea8521bd63730589e34a83887fb109f",
+    "e053a6bc420938e1d76f5ca4f1b93510586f8556",
     "e05c345ce4edc5909314fc184a908819de3a727c",
     "e05d3d7b8718938e5072d2b94ce971a298fd393c",
     "e064df66d139b79934e1d6a7a02bcb45e4bcd93f",
@@ -8541,6 +8547,7 @@
     "e67320b1d213184706cdeb9ea9f21b5dfcb6d7e5",
     "e68f8ac340b4fbd4ec499179058387d5735725bf",
     "e69af0b500091c36ca509c81ce5e961c20d614c3",
+    "e69bb0325838695b99ef8d4dcff2dd27a4ec4277",
     "e6b0b9e45af0bccabde642feb8be31885d6ed531",
     "e6b33acb30bfe3ce4d1cdbb01ec21ca98bf2e8c7",
     "e6bce42e75ce5678afd0b15dc85a08470f7a0c63",
@@ -49300,6 +49307,55 @@
       "title": "'더 리슨' 이승기 '예능신' 강림… 이영현 '체념' 레전드 라이브 28일 공개",
       "date": "2026-10-30",
       "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "84c2f9dbd8ea14a07c876ebc46dbee09a15c6e8b",
+      "title": "[위클리오늘] 강릉시, 강릉트래블마트 연계 글로벌 인바운드 팸투어 ‘트래블로드’ 성료",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "7c91bbab442b580e546f564b6ed2c4b304733c62",
+      "title": "영화 ‘호루몽’의 언론배급시사회 개최",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "e053a6bc420938e1d76f5ca4f1b93510586f8556",
+      "title": "'하트 오브 비스트', '치이카와' 독주 막고 박스오피스 1위",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "77c4142bf57a6f93166fbbdf7dd40b6c41ce5818",
+      "title": "부산 영도다리 축제 개막…3일간 해양·역사·문화 행사",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "e69bb0325838695b99ef8d4dcff2dd27a4ec4277",
+      "title": "HSBC raises Malaysia's GDP forecast to 5.5pct, highest since 2022",
+      "date": "2026-10-30",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "dfdb7f3aa515dd15e5616b093de455de3646748f",
+      "title": "5 flights delayed after runway subsidence at Bangkok airport",
+      "date": "2026-10-30",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "26c075cd136abd58c457cb402cbb3ca262f1a4bd",
+      "title": "한국관광공사, 충북 단양구경시장서 ‘2026 단양 갈릭 페스티벌 시즌2’ 개최",
+      "date": "2026-10-30",
+      "region": "korea",
       "grade": "B"
     }
   ]
