@@ -281,9 +281,11 @@ def test_thin_regions_got_local_and_city_sources():
 def test_english_sources_declare_their_language():
     """영문 제목은 해설 에이전트가 옮긴다(src/title_ko.py). lang 이 맞아야 그 길로 간다."""
     by_id = _real()
-    for sid in ("thailand_thaiger", "japan_japantimes", "hawaii_khon2", "kota_thestar_travel", "gn_japan_en"):
+    for sid in ("thailand_thaiger", "japan_japantimes", "hawaii_khon2", "gn_sabah_press_en", "gn_japan_en"):
         assert by_id[sid].lang == "en", sid
-    assert by_id["kota_thestar_travel"].region == "auto" and by_id["kota_thestar_travel"].industry is False
+    # 더스타 여행면(kota_thestar_travel)은 첫 실행에 404 라 꺼 두었다 — 켜면 auto/industry:false 여야 한다
+    if "kota_thestar_travel" in by_id:
+        assert by_id["kota_thestar_travel"].region == "auto" and by_id["kota_thestar_travel"].industry is False
 
 
 def test_enabled_sources_do_not_share_a_url():
