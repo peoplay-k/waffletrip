@@ -12,27 +12,31 @@
 
 인스타 @waffletrip06 은 이미 자동 발행 중이다(`tools/publish_instagram.py`).
 
-## 유튜브 @waffletrip — 자동 발행 준비 끝, 시크릿 3개만 넣으면 돈다
+## 유튜브 — 두 채널로 나눈다(2026-10-30 사장님 '둘 다 나눠서')
 
-`tools/publish_youtube.py` 가 매일 발행의 publish 잡에서 돈다.
+| 채널 | 무엇 | 시크릿 | 상태 |
+|---|---|---|---|
+| @peopleroad (UCkhVoG8C8OtKX60WpCpP99A) | 여행 쇼츠(하루걸러) + 주간 롱폼(7일에 1번) | `WAFFLETRIP_YT_CLIENT_ID` · `_CLIENT_SECRET` · `_REFRESH_TOKEN` (10/28 등록) | 돌고 있음 |
+| @waffletrip (UCixhDwh_YbJqyB6SYiadRAA) | 연예 '오늘의 방송' 롱폼 + 숏폼 — 하루 2편(`WAFFLETRIP_ENT_YT_MAX`) | `WAFFLETRIP_ENT_YT_REFRESH_TOKEN` (클라이언트는 위와 같은 앱) | **사장님 두 가지 하면 돈다** |
 
-- 그날 쇼츠 → 유튜브 쇼츠(제목 끝 `#Shorts`). 같은 편은 두 번 안 올린다(`data/youtube_posted.json`)
-- 주간 롱폼 → 일반 영상, **7일에 한 번만**. 목소리 없는 판은 올리지 않는다
-- **토큰의 채널 핸들이 `@waffletrip` 이 아니면 아무것도 올리지 않는다**(브랜드 격리)
-- 업로드 중 끊기면 "결과 불명"으로 적고 다시 올리지 않는다(중복 방지)
+- 발행기 `tools/publish_youtube.py`. 채널 ID·핸들이 맞지 않으면 그 채널엔 아무것도 안 올린다(브랜드 격리).
+  여행 채널엔 연예 영상이 가지 않고, 연예 채널엔 그날(`video/peopleroad-tv-YYYYMMDD.json` 의 date 가 오늘)만, 롱폼 먼저.
+- 중복: `data/youtube_posted.json`(연예는 `channel: ent`) + 연예 채널 최근 업로드 제목 대조(못 읽으면 안 올림).
+- ★ OAuth 앱이 과미 유튜브(Kim 저장소 `GWAMI_YT_*`, 같은 클라이언트)와 같아 **하루 업로드 할당량 10,000(업로드 1편 ≈1,600)을 같이 쓴다.**
+  그래서 연예는 하루 2편으로 두고, quotaExceeded 가 나면 그날 멈춘다. 늘리려면 GCP 프로젝트를 따로 만들어 `WAFFLETRIP_ENT_YT_CLIENT_ID/SECRET` 을 넣는다.
 
-사장님이 하실 일(한 번):
-
-1. Google Cloud 콘솔 → 프로젝트 → **YouTube Data API v3** 사용 설정
-2. OAuth 동의 화면(외부, 게시 상태로) → OAuth 클라이언트 ID(데스크톱 앱) 만들기
-3. 맥 터미널에서 `python3 tools/youtube_auth.py` 실행 → 클라이언트 ID·보안 비밀 입력 → 브라우저에서
-   **@waffletrip 채널을 가진 구글 계정으로** 로그인·허용. 채널 핸들을 확인한 뒤 넣을 값을 출력해 준다
-   (@waffletrip 이 아니면 멈춘다)
-4. GitHub `peoplay-k/waffletrip` → Settings → Secrets and variables → Actions 에 세 개:
-   `WAFFLETRIP_YT_CLIENT_ID`, `WAFFLETRIP_YT_CLIENT_SECRET`, `WAFFLETRIP_YT_REFRESH_TOKEN`
-5. 끝. 다음 매일 발행부터 올라간다. 값은 채팅·저장소에 붙여넣지 않는다
-
-과미(@guami_travel)용 시크릿 `GWAMI_YT_*` 은 Kim 저장소에 있고 다른 채널이다. 섞어 쓰면 핸들 확인에서 막힌다.
+### 사장님이 하실 일 (연예 채널 켜기)
+1. 인텔 맥 터미널에서 — 브라우저가 열리면 **@waffletrip 채널을 가진 구글 계정**으로 로그인, 채널 고르는 화면이 나오면 **waffletrip** 을 골라 허용:
+   ```
+   cd ~/Desktop/여행신문 && python3 tools/youtube_auth.py --target ent
+   ```
+   @waffletrip 이 아니면 등록하지 않고 멈춘다. @peopleroad 시크릿은 건드리지 않는다.
+2. GitHub 웹에서 `.github/workflows/daily.yml` 의 '유튜브' 단계 `env:` 에 한 줄을 더한다(Claude 토큰은 워크플로 파일을 못 고친다).
+   `WAFFLETRIP_YT_REFRESH_TOKEN: ...` 줄 바로 아래:
+   ```yaml
+             WAFFLETRIP_ENT_YT_REFRESH_TOKEN: ${{ secrets.WAFFLETRIP_ENT_YT_REFRESH_TOKEN }}
+   ```
+   두 가지가 끝나면 다음 매일 발행부터 연예 영상이 @waffletrip 에 올라간다. 하나라도 빠지면 연예는 조용히 건너뛴다(여행은 그대로).
 
 ## 틱톡 @waffletrip — 계정 연결이 필요하다
 

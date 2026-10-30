@@ -4,6 +4,7 @@
 
     python3 tools/youtube_auth.py            # 자동발행 저장소의 OAuth 앱을 빌려 쓰고, 비밀값까지 등록
     python3 tools/youtube_auth.py --ask      # 클라이언트 ID·비밀을 직접 입력
+    python3 tools/youtube_auth.py --target ent   # ★ 2026-10-30 연예 채널 @waffletrip 토큰(WAFFLETRIP_ENT_YT_REFRESH_TOKEN 만 등록)
 
 2026-10-28: 사장님이 명령 한 줄로 끝내도록 고쳤다. 클라이언트 ID·비밀은 자동발행 저장소
 config.json 의 youtube 항목(같은 회사 OAuth 앱)을 읽고, 채널을 확인한 뒤 세 값을
@@ -35,6 +36,9 @@ SCOPES = ("https://www.googleapis.com/auth/youtube.upload "
           "https://www.googleapis.com/auth/youtube.readonly")
 WANT = "@peopleroad"
 WANT_ID = "UCkhVoG8C8OtKX60WpCpP99A"   # 2026-10-28 사장님 확인. 이름이 같은 '@피플로드'는 남의 채널
+# ★ 2026-10-30 사장님 '유튜브 둘 다 나눠서' — 연예 '오늘의 방송' 영상은 @waffletrip
+ENT_WANT = "@waffletrip"
+ENT_WANT_ID = "UCixhDwh_YbJqyB6SYiadRAA"
 
 
 def _free_port() -> int:
@@ -69,6 +73,8 @@ def _set_secret(name: str, value: str) -> bool:
 
 
 def main() -> int:
+    ent = "--target" in sys.argv and sys.argv[sys.argv.index("--target") + 1:][:1] == ["ent"]
+    want, want_id = (ENT_WANT, ENT_WANT_ID) if ent else (WANT, WANT_ID)
     cid, sec = _client("--ask" in sys.argv)
     if not cid or not sec:
         print("둘 다 필요하다.")
@@ -95,7 +101,8 @@ def main() -> int:
     url = "https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode({
         "client_id": cid, "redirect_uri": redirect, "response_type": "code", "scope": SCOPES,
         "access_type": "offline", "prompt": "consent", "state": state})
-    print("\n브라우저에서 @peopleroad 채널 계정으로 로그인해 허용하세요. 안 열리면 아래 주소를 직접 여세요:\n" + url)
+    print(f"\n브라우저에서 {want} 채널을 가진 구글 계정으로 로그인하고, 채널 선택이 나오면 {want} 를 골라 허용하세요."
+          " 안 열리면 아래 주소를 직접 여세요:\n" + url)
     webbrowser.open(url)
     while "code" not in got and "error" not in got:
         threading.Event().wait(0.5)
@@ -118,16 +125,21 @@ def main() -> int:
     with urllib.request.urlopen(req, timeout=60) as r:
         items = json.load(r).get("items") or []
     handle = (items[0]["snippet"].get("customUrl") if items else "") or "(채널 없음)"
-    if items and items[0].get("id") != WANT_ID:
+    if items and items[0].get("id") != want_id:
         handle = f"{handle} (채널 ID 가 다르다 — {items[0].get('id')})"
     print(f"\n로그인한 채널: {handle}")
-    if handle.lower().lstrip("@") != WANT.lstrip("@"):
-        print(f"⚠ {WANT} 가 아니다. 이 토큰으로는 발행기가 아무것도 올리지 않는다. 다른 계정으로 다시 실행하세요.")
+    if handle.lower().lstrip("@") != want.lstrip("@"):
+        print(f"⚠ {want} 가 아니다. 이 토큰으로는 발행기가 아무것도 올리지 않는다. 다른 계정·채널로 다시 실행하세요.")
         return 1
     print("\nGitHub Secrets 에 등록한다(값은 화면에 안 찍는다):")
-    ok = all([_set_secret("WAFFLETRIP_YT_CLIENT_ID", cid),
-              _set_secret("WAFFLETRIP_YT_CLIENT_SECRET", sec),
-              _set_secret("WAFFLETRIP_YT_REFRESH_TOKEN", refresh)])
+    if ent:   # 연예 채널은 토큰만 따로 — @peopleroad 시크릿은 건드리지 않는다(같은 OAuth 앱이면 클라이언트는 공유)
+        ok = _set_secret("WAFFLETRIP_ENT_YT_REFRESH_TOKEN", refresh)
+        if ok and os.environ.get("WAFFLETRIP_ENT_SEPARATE_APP") == "1":
+            ok = _set_secret("WAFFLETRIP_ENT_YT_CLIENT_ID", cid) and _set_secret("WAFFLETRIP_ENT_YT_CLIENT_SECRET", sec)
+    else:
+        ok = all([_set_secret("WAFFLETRIP_YT_CLIENT_ID", cid),
+                  _set_secret("WAFFLETRIP_YT_CLIENT_SECRET", sec),
+                  _set_secret("WAFFLETRIP_YT_REFRESH_TOKEN", refresh)])
     print("\n완료 — 다음 매일 발행부터 쇼츠가 올라갑니다." if ok else
           "\n등록 실패가 있다. 위 메시지를 클로드에게 알려 주세요.")
     return 0 if ok else 1
