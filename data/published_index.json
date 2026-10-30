@@ -1495,6 +1495,7 @@
     "2a14f54f2e3666bcb087a5026f1ec7e2362502ad",
     "2a194b29d238c8b84df8d1f121ab30797d5ed3c3",
     "2a2bc0e0bb370c21b3f40a0a46c548bc20e1f76f",
+    "2a2faa619f02d4ea5c18ce1456ce48954fe67a26",
     "2a33b623c9a5cef75abc7ca23d859a3ebd84636a",
     "2a41e1b67e0d29b6183a89d3c077a945fa2e0092",
     "2a493a81fd4031cee338a23e7cbd6eeab9ecc3bf",
@@ -1702,6 +1703,7 @@
     "300eb0b9c165897dcf1883964e84147688d6e5e3",
     "30106005972dc592051db8d6be92f8ba110d8f97",
     "30167e365731cebb04bb661a74a2a353563223a0",
+    "301d00ff6c01a3df061b20d44b3c9d15f24f2511",
     "3028f067b0c59c733d6198ce3138352638c51056",
     "30317e597f49645790080d58629520366c8f923b",
     "303ad797da6a1eb8d9eed93c4d6ab9883ce392be",
@@ -3153,6 +3155,7 @@
     "581594a3813f4cac8263081dc697f3681ff5ec47",
     "581c8bd3fa59b0b5dfe0e0233d7f230cda757f73",
     "5821957784cc48cb344b5be574a20b0064099772",
+    "58274d4c499024689651f186c0e86f142dbd5767",
     "582783564d884fa13921ed7780ef9557104955a1",
     "582e656a81ca41bca11b04560bff384daba9b725",
     "5831e2a1eed75cae08cd58cc764ed0055aea15c0",
@@ -5024,6 +5027,7 @@
     "8c97a3a3b19e0599f03b98b0c2d0fe20f8c95326",
     "8cb9a4f3cbd60d5429963bdf16fa496fd644868e",
     "8cc09d43cdb1d0028abd66b096ce73185631e33e",
+    "8cc98887a9b7564c2de1f644b5a8861f381c8858",
     "8cd00f0c85361fa1e3c13da42b72dc5603d84a16",
     "8cd1e26b6b9176e3656fba1ba81467a769b288a3",
     "8cd4e7464d6b865cb8a9fbbbedb488fa51622144",
@@ -6914,6 +6918,7 @@
     "c-1dc7b7918ea92b6bb91d785b19feadbaa2c3c6eb",
     "c-1ee1d8b2ed15f4ac53fdbb43b4492e5fa38b425b",
     "c-1f2ebb6d2480a5ce6bba2f6d36f8caae165ae333",
+    "c-21d96a600fb07f829ca1792788b08c14ac92366c",
     "c-2336180cf811c6a3732712c5e6ac8c062fdd142b",
     "c-235e6f5f0a7274dc33a05562d14e4a2d663bec1b",
     "c-237ffa276b5c56db18a280891efe894f7825816c",
@@ -7018,6 +7023,7 @@
     "c-68e508db7113d0604d01677c244d819606309435",
     "c-6920e46217d2278f6b259d8a83b7ada3876a3c12",
     "c-6983e90928c5718e723b8d326aaa4c5520843378",
+    "c-6a815ae8e1099da60393fc8f825e9b704a2d2f93",
     "c-6b67c169f8e21387754dd5156108a479a7f183ce",
     "c-6bca23da2467b9fb59641d9a279c1db34a3216a0",
     "c-6cffb6847caec1655a7bf368d012f28927cf8a7f",
@@ -7210,6 +7216,7 @@
     "c-ec630a59ef0dbbc91582e3de964708f6fffe6f8c",
     "c-ec701e8a62d573484b7d0f3c7265c04bd2d7821b",
     "c-eca2aae9e316dc9b377c589dd35d3efddd1aae5d",
+    "c-ecbeb33a485870ec1dc6d78357db729a253ff747",
     "c-edca3948870647e110abe0b4f893bd95b09143d4",
     "c-ee82d04709f1ea1906068cddb924d3405305bb96",
     "c-ef73bff944c02ccf04a3fba4837fc0e22eb51e30",
@@ -50532,6 +50539,55 @@
       "title": "First Alert Forecast: Flash Flood Warnings Expire for East Maui and East Big Island",
       "date": "2026-10-30",
       "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "c-ecbeb33a485870ec1dc6d78357db729a253ff747",
+      "title": "크루지아, 대만 기륭 출발 '스타 내비게이터' 오키나와 크루즈 일정 공개",
+      "date": "2026-10-30",
+      "region": "taiwan",
+      "grade": "C"
+    },
+    {
+      "id": "c-21d96a600fb07f829ca1792788b08c14ac92366c",
+      "title": "EBS '세상에 나쁜 개는 없다', 임산부 엄마 곁에서 3년째 싸우는 자매견",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-6a815ae8e1099da60393fc8f825e9b704a2d2f93",
+      "title": "MBC '인생도 각본이 필요해' 시즌2 3회, '전원일기'로 풀어 보는 혈당 관리",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "301d00ff6c01a3df061b20d44b3c9d15f24f2511",
+      "title": "[인터뷰] 애니메이션만의 비약과 시적 허용 - 시노미야 요시토시 감독",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "8cc98887a9b7564c2de1f644b5a8861f381c8858",
+      "title": "고흥 청소년들이 만든 영화…스크린에 꿈과 열정 가득",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "58274d4c499024689651f186c0e86f142dbd5767",
+      "title": "First Alert Weather Day: Rain lingers on Hawaii Island, conditions to improve Friday",
+      "date": "2026-10-30",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "2a2faa619f02d4ea5c18ce1456ce48954fe67a26",
+      "title": "속초지역 어린이 2,000명 한자리에 모여 놀이·체험 즐겼다",
+      "date": "2026-10-30",
+      "region": "korea",
       "grade": "B"
     }
   ]

@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '세상에 나쁜 개는 없다', 임산부 엄마 곁에서 3년째 싸우는 자매견"
+title: EBS '세상에 나쁜 개는 없다', 임산부 엄마 곁에서 3년째 싸우는 자매견
 source_name: ''
 source_url: ''
-summary: EBS1 '세상에 나쁜 개는 없다'가 10월 31일 밤 10시 '임산부 엄마의 SOS! 위기의 자매' 편을 방송한다. 출산을 앞둔 부부의 반려견 설탕이와 쿠키의 다툼을 다룬다.
+summary: EBS1 '세상에 나쁜 개는 없다'가 10월 31일 밤 10시 '임산부 엄마의 SOS! 위기의 자매' 편을 방송한다. 출산을 앞둔
+  부부의 반려견 설탕이와 쿠키의 다툼을 다룬다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005580515
-status: approved
+status: published
+published_id: c-21d96a600fb07f829ca1792788b08c14ac92366c
+published_on: '2026-10-30'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 세상에 나쁜 개는 없다

@@ -4,15 +4,18 @@ channel: travel
 region: taiwan
 section: news
 kind: 보도자료
-title: "크루지아, 대만 기륭 출발 '스타 내비게이터' 오키나와 크루즈 일정 공개"
+title: 크루지아, 대만 기륭 출발 '스타 내비게이터' 오키나와 크루즈 일정 공개
 source_name: ''
 source_url: ''
-summary: 크루즈 예약 플랫폼 크루지아가 대만 기륭항을 모항으로 하는 '스타 내비게이터'의 2026년 12월~2027년 9월 운항 일정을 공개했다. 오키나와 2~4박 항차와 타이베이 여행을 잇는 동선이다.
+summary: 크루즈 예약 플랫폼 크루지아가 대만 기륭항을 모항으로 하는 '스타 내비게이터'의 2026년 12월~2027년 9월 운항 일정을 공개했다.
+  오키나와 2~4박 항차와 타이베이 여행을 잇는 동선이다.
 sources:
 - https://www.traveldaily.co.kr/news/articleView.html?idxno=72482
 - https://www.discoverynews.kr/news/articleView.html?idxno=1105152
 - https://thetravelnews.co.kr/2026/10/cruisia-keelung-okinawa-star-navigator/
-status: approved
+status: published
+published_id: c-ecbeb33a485870ec1dc6d78357db729a253ff747
+published_on: '2026-10-30'
 ---
 크루즈 예약 플랫폼 크루지아가 대만 기륭항에서 출발하는 스타드림 크루즈의 '스타 내비게이터' 운항 일정을 공개했다. 대만 도시 관광과 일본 오키나와 크루즈를 한 여정으로 묶을 수 있는 동선이다.
 

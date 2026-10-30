@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "MBC '인생도 각본이 필요해' 시즌2 3회, '전원일기'로 풀어 보는 혈당 관리"
+title: MBC '인생도 각본이 필요해' 시즌2 3회, '전원일기'로 풀어 보는 혈당 관리
 source_name: ''
 source_url: ''
-summary: MBC 건강 교양 '인생도 각본이 필요해' 시즌2 3회가 10월 31일 오전 8시 10분 방송된다. 드라마 '전원일기'를 매개로 악력과 당뇨병의 관계, 식후 혈당을 다룬다.
+summary: MBC 건강 교양 '인생도 각본이 필요해' 시즌2 3회가 10월 31일 오전 8시 10분 방송된다. 드라마 '전원일기'를 매개로 악력과
+  당뇨병의 관계, 식후 혈당을 다룬다.
 sources:
 - https://with.mbc.co.kr/pr/press/view.html?idx=36946
-status: approved
+status: published
+published_id: c-6a815ae8e1099da60393fc8f825e9b704a2d2f93
+published_on: '2026-10-30'
 ---
 > **방송 정보**
 > 채널 · MBC | 프로그램 · 인생도 각본이 필요해 시즌2 | 회차 · 3회
