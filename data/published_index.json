@@ -135,6 +135,7 @@
     "0336c690690daff4477a7132d6e49a634dc9163c",
     "0341277f0b29da8d0b0391465656d03b20ab0b0c",
     "0348447793754e7ad9d813ea4087804520b5c4eb",
+    "034d8d78d4f4e400c5bd376187e65f1fd556002f",
     "0357ad9a797778f17104645735220cf7569a203d",
     "035909cc105b633dcfe6210158bb9f1345708858",
     "035bab06f8808d2e08586acf1ff51977fdf5212a",
@@ -153,6 +154,7 @@
     "03bc54984fe0132ddf46dc4382308047369de4a4",
     "03c5ecdd102965ae58ed122da9499414eeb677ef",
     "03d9127ffc168d34f07b13e0c757f848a5b48902",
+    "03dfbed4db0228eaebfe1bc821e9c6bd491e78d6",
     "03e2279f242d9fb2af44853bcff912082765ddc0",
     "03e453a5fe28bf05160eee8fe7ead0f6eb5134fa",
     "03e7693d04a8f713a41ae0dc3d60a86a8bb6495d",
@@ -353,6 +355,7 @@
     "098ecca903043fd78434a2ea540effe3e3c0fbe7",
     "09902a117ac21e3f73fcd4700988bbb37c195c35",
     "0999bc80ee3da9c932d6c0567ddf55be4bf98420",
+    "099caa064dc7749c7eab47f525edada6df15830a",
     "09abf0ab6a6c67f8a1cf582cc6f8457cf0dc78b7",
     "09ac925c2a3203c552d07c4f78f3df0e2bcb4220",
     "09b8a39018dbf07d904a9d106548ffaea9da6382",
@@ -695,6 +698,7 @@
     "1379eefc793f6b7f0bfda33de5e4f802e9faf8c9",
     "138823a2a25aa014f99361a8c44bc97cb354aaa6",
     "138d764e14c766eb89e4c7cf63157e32c5201b50",
+    "138dd770af8cb19a81e0b088775833bda07c231e",
     "138e4e2a02c398c8f0d4545284df87bdadc18793",
     "13a7488bfea300d6e2af1c80b1877f65d15a1752",
     "13a8b733bdac5347cdd34573dbb5180124e536da",
@@ -1223,6 +1227,7 @@
     "22e7648064a6a5ff0d024e1d58c08590eb99c6a0",
     "22f4afcb4433a782959627674c697c2ebed81d89",
     "22f9e8b4e9fefae8f22c81ad5d8a7a1d2042f5a3",
+    "230279cd249d6873dd950cda472f218f55724cad",
     "2305c061b1d13092d5969d7afc069abf197709ca",
     "231b15efe094b91f2d1930f27d72f07de87a8d3e",
     "231b9d228c02027ec096b3ad1c9d319405dc01ed",
@@ -1779,6 +1784,7 @@
     "337c4541afa21fd273dfd1dda5f23ad8cfc6f154",
     "33860189e08c038ff19c47f8516be0cca276b485",
     "3390dd5972dbbcd36c524ac818abe4f26532d8a9",
+    "3393bb0ab38201b40504f4239c743f32389085bf",
     "339705b086c9dc8dbb07a0fd149d369664943de1",
     "339bb55015b50cca14c0ce72b08cc27705851f60",
     "33a7b6fa0491477fc7b660eb659dff57b8af8de6",
@@ -2228,6 +2234,7 @@
     "406240a2214253dc5c265430ec59693d242ce370",
     "40768132a187fe0475e479ee9172a75fec94ef1d",
     "4077cd113d99ad58b45d0b878ed13dc6a0b681b1",
+    "407c7a935f1261d2c22ad0f8b156dceebf31f95a",
     "407cb9208484270ebf8cdd629a7dec4bcdba95c2",
     "40885fc01651bd0e7d2e26d4f10705df7cd002a3",
     "408b5c3171ca9939d33dfb4c84d6202d04cc7fc2",
@@ -2932,6 +2939,7 @@
     "532d288456188edb039c3e6ff2e815f772b4f57b",
     "532e3d2f08a5f54349db281ae562aeb392f2fe49",
     "53301e7e525e5f78b225e3fbb9826b4f069af158",
+    "53306bcb7b1bf666b2d9c9a9babefe1e6061c4d0",
     "53402e135abd316570fbcda5f1289596cc12f921",
     "53485c33779956c9cc8c0034ae32708d5ea12e86",
     "534cbfa7a9ac519d7e5d35435d284df270ecc3d3",
@@ -2947,6 +2955,7 @@
     "537689af09a68d71f9bf079e9053556e95b1efbb",
     "538005b475d3c793550f7362de3ddbdeadccac08",
     "53821af78e23a93755a67efde9aff6227025d42f",
+    "5388e69c6288d4cada3a6f3d7acb210186159081",
     "538feb7f594a085165b2a9782f8bb875aeb3f7e4",
     "5390588ced850481d1f520cb5e8d6ad5fc9b0c62",
     "5396784101d66a14cc5909a8cad90f899cf096e7",
@@ -5738,6 +5747,7 @@
     "a3681240d834ca25ab1c1f063d592c3f9bb50720",
     "a3692b7722f56d4039ffd0947f76f087b206770a",
     "a36bd4db5855361b9eaf3b76b22027caee76459b",
+    "a371d7edc40dd5a57a957a08b8b0cdaf7026fa91",
     "a37a40b6e6abd689e16d3dea4864c3e6b3664bfc",
     "a383be11fc43c3cb7f51ad4285e7d6e649deb28f",
     "a38481c5880457a557ee611436423393925756a6",
@@ -5973,6 +5983,7 @@
     "aa090bcc114c2427d5cbc285b42d68a8a8550d2c",
     "aa0e27bca90f855de6172d2973f5530aa3914fef",
     "aa116270425ba6e95fd12cf1747da1505fcd2106",
+    "aa1fb623ee02aebf42062ba5b7e78140ebf23f27",
     "aa296c823c797fe1eb346e69dcfb5cabc5cd1fce",
     "aa32aea6acc507ad0aad65deae5c7640a9a2b338",
     "aa433618a3bfc4d3cf67a503c60a6c0e7d838479",
@@ -6150,6 +6161,7 @@
     "aeedd09b49b4cdcfe0f5eea9ec83aa0b44f8556e",
     "aeef6590592cd36dbfe5f0d0c69de84f63b3b668",
     "aeef90b6640e9761d1b5a84d5a80fe938451646c",
+    "aef22319d05ed94674995999364cb5eb3a951359",
     "af0472e20472f37b470c23f1b7c393cb273a27c0",
     "af0b87d9e765e213a18b1d4eef98bcff95b77028",
     "af1653284c4ba99e95228966d5cf763d4f9cda26",
@@ -8652,6 +8664,7 @@
     "e959bbcd7cd4746a252342915d37913e8a279f84",
     "e95be93d5b5ddc9dda5e871ea4f8663aeb82c415",
     "e95e9f7f4dcec3836ad1fcf87e8dc80e2bbb42ed",
+    "e96219f9e0ca8e7156910fca2624baf4758abf51",
     "e96f49bc5fb18f4228c8433eb941a2fd30020db3",
     "e9702ae82b334cd60815c9295754d099a97bd5f4",
     "e9737bc95b1be13b95d77a7c94bb678dc3fb85c2",
@@ -8832,6 +8845,7 @@
     "eeb3120fcd2c793269b834a13cacde3751dfd589",
     "eeb7a44459951803ed42213f234be61027aa3f15",
     "eec35cfbe0782160f509ecc8b90db0c1e9a09320",
+    "eecd6b59bdfc1e801d24a25cf48edde6e30f6eb3",
     "eecdc0549808b20fa120c0751f520d687b5dd9a7",
     "eecfac253e51ac103338fe5a7525042a2aeafbba",
     "eed47b8a35ea49117d011320357c3837671610a1",
@@ -8910,6 +8924,7 @@
     "f113205e17dadd9f6adc4be472898e5150b9b428",
     "f1149c779211080d2c8c9b6a44915e33fdd7aa86",
     "f1184a5c134a7e2c4524a6ff3c1fcad69ac397e4",
+    "f11934c3a7be93d6da9a207b8a3fbf8d9a81c6f7",
     "f11b5bcfc031a778d1c9bfa3648bcbcac35ca298",
     "f1219085213a66c4d30bd294c645f9473155d25a",
     "f127ed1ea1f9f61964a99d6ce3025e6df3aea4a9",
@@ -49354,6 +49369,111 @@
     {
       "id": "26c075cd136abd58c457cb402cbb3ca262f1a4bd",
       "title": "한국관광공사, 충북 단양구경시장서 ‘2026 단양 갈릭 페스티벌 시즌2’ 개최",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "e96219f9e0ca8e7156910fca2624baf4758abf51",
+      "title": "곽범, 울릉도 여행비 162만원에 경악…“숙소 70만원? 잠만 잘 건데”",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "53306bcb7b1bf666b2d9c9a9babefe1e6061c4d0",
+      "title": "부산관광공사, 북항 상어 '부캉이' 관광상품 개발 나선다",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "099caa064dc7749c7eab47f525edada6df15830a",
+      "title": "이랜드 PIC 사이판, 겨울방학 가족 패키지 판매…현지 학교 연계",
+      "date": "2026-10-30",
+      "region": "saipan",
+      "grade": "B"
+    },
+    {
+      "id": "5388e69c6288d4cada3a6f3d7acb210186159081",
+      "title": "공주소방서,핼러윈데이 축제와 행사시 인파집중예상, 다중인파 밀집 안전사고를 예방 시민들에게 주의 당부",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "034d8d78d4f4e400c5bd376187e65f1fd556002f",
+      "title": "드라큘라도 반한 단양마늘…단양구경시장 핼러윈 축제로 들썩",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "407c7a935f1261d2c22ad0f8b156dceebf31f95a",
+      "title": "영화 ‘공무도하’ 11월 25일 개봉 확정…유바리 대상 포함 해외 영화제 4관왕",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "a371d7edc40dd5a57a957a08b8b0cdaf7026fa91",
+      "title": "순천문화재단, '2026 순천 클래식 페스타' 개최…가을 정원에 울리는 선율",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "3393bb0ab38201b40504f4239c743f32389085bf",
+      "title": "3 dead in Oregon helicopter collision, including flight instructor and student pilot",
+      "date": "2026-10-30",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "aef22319d05ed94674995999364cb5eb3a951359",
+      "title": "부산 여행 예약 62.7% 증가⋯아태 성장률 상위 3위",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "230279cd249d6873dd950cda472f218f55724cad",
+      "title": "단양 전통시장에 드라큘라가⋯마늘 만찬·야간 축제 열린다",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "aa1fb623ee02aebf42062ba5b7e78140ebf23f27",
+      "title": "Hurricanes deliver $140M blow to Hawaii tourism",
+      "date": "2026-10-30",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "eecd6b59bdfc1e801d24a25cf48edde6e30f6eb3",
+      "title": "12K gallons of wastewater spill reported on Lanai",
+      "date": "2026-10-30",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "03dfbed4db0228eaebfe1bc821e9c6bd491e78d6",
+      "title": "Bank Negara appoints Ahmad Fauwaz Fadzil to Syariah Advisory Council",
+      "date": "2026-10-30",
+      "region": "kota",
+      "grade": "B"
+    },
+    {
+      "id": "138dd770af8cb19a81e0b088775833bda07c231e",
+      "title": "책 향기 물드는 가을, 전주시 사립작은도서관 책축제 문학대공원서 개최",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "f11934c3a7be93d6da9a207b8a3fbf8d9a81c6f7",
+      "title": "가을 골목길에 피어난 초록빛 쉼표 제1회 순천 저전동 정원마을 축제 개막",
       "date": "2026-10-30",
       "region": "korea",
       "grade": "B"
