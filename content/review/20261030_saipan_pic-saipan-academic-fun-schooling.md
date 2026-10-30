@@ -4,17 +4,19 @@ channel: travel
 region: saipan
 section: news
 kind: 해설
-title: "이랜드파크 PIC 사이판, 겨울방학 교육여행 상품 '아카데믹 펀 스쿨링' 운영"
+title: 이랜드파크 PIC 사이판, 겨울방학 교육여행 상품 '아카데믹 펀 스쿨링' 운영
 source_name: ''
 source_url: ''
 summary: 이랜드파크 해외호텔법인이 운영하는 PIC 사이판이 겨울방학을 앞두고 현지 정규 사립학교 수업과 리조트 영어 프로그램을 결합한 가족
   교육여행 상품 '아카데믹 펀 스쿨링'을 30일부터 운영한다.
 sources:
-  - http://www.ttlnews.com/news/articleView.html?idxno=3157106
-  - https://www.ngonews.kr/news/articleView.html?idxno=241917
-  - https://www.financialpost.co.kr/news/articleView.html?idxno=283544
-  - https://www.thefairnews.co.kr/news/articleView.html?idxno=92432
-status: approved
+- http://www.ttlnews.com/news/articleView.html?idxno=3157106
+- https://www.ngonews.kr/news/articleView.html?idxno=241917
+- https://www.financialpost.co.kr/news/articleView.html?idxno=283544
+- https://www.thefairnews.co.kr/news/articleView.html?idxno=92432
+status: published
+published_id: c-f691403f81d2a27c54ce635ff6b0365641bcdf41
+published_on: '2026-10-30'
 ---
 이랜드파크가 운영하는 사이판의 리조트 PIC 사이판이 겨울방학을 앞두고 자녀 영어 교육과 가족 휴양을 함께 묶은 체류형 상품을 내놓았다. 현지 사립학교 수업과 리조트 영어 프로그램을 하루 일정 안에 묶어, 아이는 공부하고 부모는 쉴 수 있게 짠 구성이다.
 

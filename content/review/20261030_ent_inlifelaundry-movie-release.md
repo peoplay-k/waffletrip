@@ -5,15 +5,17 @@ category: movie
 region: ''
 section: news
 kind: 해설
-title: "영화 '인생세탁소', 제주 해녀 다룬 가족드라마로 11월 4일 개봉"
+title: 영화 '인생세탁소', 제주 해녀 다룬 가족드라마로 11월 4일 개봉
 source_name: ''
 source_url: ''
 summary: 영화 '인생세탁소'가 11월 4일 개봉한다. 제주 탑동의 마지막 해녀를 중심으로 가족의 갈등과 화해를 그리며, 강진아·문희경·김유석이
   출연한다.
 sources:
-  - https://www.jemin.com/news/articleView.html?idxno=845615
-  - https://www.topstarnews.net/news/articleView.html?idxno=16261513
-status: approved
+- https://www.jemin.com/news/articleView.html?idxno=845615
+- https://www.topstarnews.net/news/articleView.html?idxno=16261513
+status: published
+published_id: c-417cd5ad553d037e65d14f6891d11479e8fc28b3
+published_on: '2026-10-30'
 ---
 영화 '인생세탁소'가 11월 4일 개봉한다. 사라져가는 제주의 옛 풍경 속에서 서로의 상처를 보듬고 새로운 삶을 찾아가는 가족의 이야기를 그린다.
 

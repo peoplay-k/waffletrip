@@ -5,14 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '극한직업', 9,000원 뷔페식당과 리퍼브 할인매장 사람들의 하루"
+title: EBS '극한직업', 9,000원 뷔페식당과 리퍼브 할인매장 사람들의 하루
 source_name: ''
 source_url: ''
 summary: EBS1 '극한직업'이 10월 31일 밤 9시 5분 9,000원에 40여 가지 음식을 내는 뷔페식당과 폐업·부도 매장 재고를 파는
   리퍼브 할인매장의 하루를 담는다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005579944
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005579944
+status: published
+published_id: c-66d4e56a222c8f7277b0eaa8c90fd2a75f4b1cb9
+published_on: '2026-10-30'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 극한직업 | 편 · 9,000원 뷔페식당과 리퍼브 할인매장

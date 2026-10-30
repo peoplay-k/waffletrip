@@ -7,11 +7,13 @@ kind: 보도자료
 title: 크리에이트립, 방한 외국인 7명 중 1명 2년 내 재방문
 source_name: ''
 source_url: ''
-summary: 여행 플랫폼 크리에이트립이 2026년 1~9월 예약 데이터를 분석한 결과 외국인 이용객 7명 중 1명이 최근 2년간 한국을 두
-  차례 이상 방문한 것으로 나타났다.
+summary: 여행 플랫폼 크리에이트립이 2026년 1~9월 예약 데이터를 분석한 결과 외국인 이용객 7명 중 1명이 최근 2년간 한국을 두 차례
+  이상 방문한 것으로 나타났다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72512
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72512
+status: published
+published_id: c-85b411d3c76b5d5549afe46c2bbae5f407c89589
+published_on: '2026-10-30'
 ---
 여행 플랫폼 크리에이트립이 외국인 방한객의 재방문 흐름을 데이터로 분석한 결과를 내놓았다. 최근 2년 안에 한국을 두 번 이상 찾은 이용객이 전체의 7명 중 1명꼴로 나타났다.
 

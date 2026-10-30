@@ -5,14 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS2 '욕망의 덫' 48회, 현재의 유품 손에 쥔 은설…라이터 미끼 든 미란"
+title: KBS2 '욕망의 덫' 48회, 현재의 유품 손에 쥔 은설…라이터 미끼 든 미란
 source_name: ''
 source_url: ''
 summary: KBS2 일일드라마 '욕망의 덫' 48회가 30일 저녁 7시 50분 방송된다. 은설은 마침내 현재가 남긴 물건을 손에 넣고, 미란은
   석진의 방에서 찾은 라이터를 미끼로 영훈의 숨겨진 과거를 건드린다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+- https://program.kbs.co.kr/2tv/drama/yokmang
+status: duplicate
+duplicate_of: 20261022_tv_yokmang-43.md
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 욕망의 덫 | 회차 · 48회

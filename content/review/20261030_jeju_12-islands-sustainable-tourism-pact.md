@@ -10,9 +10,11 @@ source_url: ''
 summary: 제주특별자치도가 하와이·발리·오키나와·갈라파고스 등 세계 12개 섬 지역과 기후위기 대응과 지속가능한 관광을 위해 협력하기로 하고
   공동성명을 채택했다.
 sources:
-  - https://www.mediajeju.com/news/articleView.html?idxno=367099
-  - https://mnlnews.net/news/view.php?bIdx=51260
-status: approved
+- https://www.mediajeju.com/news/articleView.html?idxno=367099
+- https://mnlnews.net/news/view.php?bIdx=51260
+status: published
+published_id: c-9bb13e66c171396c66c28b55b430da00c6347542
+published_on: '2026-10-30'
 ---
 제주특별자치도가 하와이와 발리, 오키나와, 갈라파고스 등 세계 12개 섬 지역과 함께 기후위기에 대응하고 지속가능한 관광을 이끌어가기 위한 공동성명을 채택했다.
 

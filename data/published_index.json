@@ -151,6 +151,7 @@
     "03ac021e8de14216d0181d03fc434e7d361418cc",
     "03b7cf4dfe12d1bc44e101e5b1991f8569bb2596",
     "03bc54984fe0132ddf46dc4382308047369de4a4",
+    "03c5ecdd102965ae58ed122da9499414eeb677ef",
     "03d9127ffc168d34f07b13e0c757f848a5b48902",
     "03e2279f242d9fb2af44853bcff912082765ddc0",
     "03e453a5fe28bf05160eee8fe7ead0f6eb5134fa",
@@ -222,6 +223,7 @@
     "0651845d4c0c33421543614cfe1ac3bebe3cdfbd",
     "065311775c36f83ca2c0f0abfcf2ec86ae5b5967",
     "06572be5e6c21af3fd1f43b2ac109a7618017b1d",
+    "0658e39aae6fd3063a87d4f4671fd35f9b9b9075",
     "065f44f1cb4e1fa799c6e7ccd33fac830c990d75",
     "065f4e0a809c63ad20919161463840d9b26db68b",
     "06664feeedf0624b079c7af3013401c328e3777b",
@@ -906,6 +908,7 @@
     "19dbaac012a6b10e1db0ac537fb25f2454b98ec4",
     "19dd8436d0d8c732500f087e02ad5cd417555501",
     "19dec5ec5f6ead19006d5d15be3daa9039fae4c1",
+    "19e4d011b28edf53d4f3b9122a1772e6d6a873b7",
     "19f933372364157f821e5f62f894b203a984ab4c",
     "19fdee761ca374b4cfc1e5b2a7fe63acdfc5337f",
     "19fdfb0cda1f468aaf49e98bb27ce8a3cc3924ab",
@@ -2102,6 +2105,7 @@
     "3d04ef9ce6bd9826ff56931e0a868067f5d4e616",
     "3d089a31536b0a38f4899af5db0427f9ed01776f",
     "3d1861ae2414d93302cf459219249f0b5638fc5a",
+    "3d211f1a491a3a9a74b83ed9f4a0addd56ec4562",
     "3d27d584a088291899ed753b2a6996e1e88b8ccc",
     "3d3506cc399948c3430ab877adaa4787a5ac1af7",
     "3d3cf2d32402fdb9f672d3c5cb34f30e10d2699b",
@@ -2218,6 +2222,7 @@
     "404da16109d01dcd249a59adab1116b1ee7fb8b6",
     "404f858a2da4a9ffcaf948ccabf401bd7e97cfd7",
     "4050faecd443d4ebd03326728d92d4352b34fa73",
+    "40510e7ed56d3ff7883cf1b50e7659dea4fce324",
     "40623514eb4cf37b08ac8b55827892950450bf07",
     "406240a2214253dc5c265430ec59693d242ce370",
     "40768132a187fe0475e479ee9172a75fec94ef1d",
@@ -2476,6 +2481,7 @@
     "475d339919d4d6293848cd7f2f9726b4ecce6102",
     "4764cc24d307756698582c8e3fa116eee8dec83f",
     "476e17314da75341e42cff445bb5114250059213",
+    "476f8b961fe41deb141496ac9dd33aad1857552c",
     "4777f7168ac361803df83f5aee74381ac9a687b7",
     "47798d7cc57d2fb5bcc689207e74aac1afc9e216",
     "477e93c8c0eda3335a7cda561c9ccab069e04d92",
@@ -2938,6 +2944,7 @@
     "53712556f0abab95081f0a94de61f74677ed4669",
     "5376628e16e58be74ec938032ecf9fa1532d1029",
     "537689af09a68d71f9bf079e9053556e95b1efbb",
+    "538005b475d3c793550f7362de3ddbdeadccac08",
     "53821af78e23a93755a67efde9aff6227025d42f",
     "538feb7f594a085165b2a9782f8bb875aeb3f7e4",
     "5390588ced850481d1f520cb5e8d6ad5fc9b0c62",
@@ -3642,6 +3649,7 @@
     "67a1a4ebe70b8d0fc1b66a94bd494cf8c49d0760",
     "67ae729fce987899ab056f24338c136e8aa70cb2",
     "67bf0958ad0d57f93968e96b56bf6e832c38b819",
+    "67bfdc777ad778efd4fbf59bb0ed8c35fbf00db9",
     "67c965f547ad651fedb993acacb5c37fc2d8dff3",
     "67cba2d3ae771d9fc73393be2140de0f53723178",
     "67cd0988dab8aa17231afee4ba2f39b8d5b834b2",
@@ -4260,6 +4268,7 @@
     "796d93566d874655110e7ec217d7d7536d083480",
     "79749c0889d6ee86cc0a3322bb16a1270d61c554",
     "797cb328508bede08a3a9e685ccc47cb1a47b854",
+    "797fbe575451c62cc314a77282c5dd0b6cd49483",
     "798a6dc747e85b029c71119314fb4bbe268c01b6",
     "798bb3b031682e82cb279026944c78f388a9c84b",
     "7996def78fb1a86f23d190797a5c14192a227426",
@@ -4356,6 +4365,7 @@
     "7bf0c4871a5c85cb2a25d7ae887b8f3b0d7ac6d4",
     "7bf40ae09cae9b785410684031526c5736ced198",
     "7c00bf7528891eb80aa01fa40d61262e5f858faf",
+    "7c140aa5b69769343952f8052b1e38c12f092e72",
     "7c2b8a0466e071e0d636d5e5ed0719ee66eb2e48",
     "7c2c872a18c6051811fb7915cb0ad71a7c6fcf51",
     "7c3dd8ac62a182a89d24d8e9f1f62ba05c584e88",
@@ -5201,6 +5211,7 @@
     "9427125ed60ca19911bf42ff30200ff18ad7b521",
     "94323e5d63a11531215379f7ba1222554f2a134e",
     "9435d9dd81b242ade92ec263184c84ac19525870",
+    "94444cb2c118fd5eaf985f1fe3426b11aa85e19b",
     "94499ed33d894f942f1565211aab52f20c26b9e6",
     "9449a1e5b77eca1f4713a79808df1439c8e5a1db",
     "945088bb7c2d93beda867eed27d9f4f8e7245ccf",
@@ -5607,6 +5618,7 @@
     "a00a475a3209c7131f717f189800fb1dbfb49f5c",
     "a0102dd808365e1c0890240554c04b903bb32c0c",
     "a01328e6d11d8c7888dc3f6b116035ede1fe4e6d",
+    "a01b5aa70dbf7b84e2d072b1b0bff97df83d2a58",
     "a028eba79fa7a8f1d327786002f8c938ca7693c1",
     "a029634a0fd5cbeface2400100da116fdcc73722",
     "a02e9be77dbb3403a450220e23369a473032c772",
@@ -5635,6 +5647,7 @@
     "a0b734add3094c9f4da431afcc1175d6f86b3a26",
     "a0c3cdd32bdfbea340c952de99daa07faaec5a05",
     "a0c91553dff75e824707627b20aa4bf70ca80b8b",
+    "a0d6020ac5afd7ca564174c8b7a6ff151d1b0340",
     "a0d697a8089adb45b4b97ad4808025a9feeda1ea",
     "a0dc7adde38b20a00875de7c940fd0dab00f2234",
     "a0e86d95e5d4f54f500252f95519cd8c9542254c",
@@ -6292,6 +6305,7 @@
     "b3266d5b4ecc7fefb55eb895c58ef5611bb0bc72",
     "b3343b210e1be1aaaa1508b281c9e2b77ad5a06f",
     "b340cf16808a6d54d4a70bb1cfaa6435acb4d834",
+    "b34361c57cff69fe5cb167be88f6c0c315034cf4",
     "b349aee022509e96286e82c0f975c239f4036d6e",
     "b34d8f830cd58a8027485b8b5775b11e5c10cb6f",
     "b355bc4e23e4309cc4c4c5fa7f84449afa440062",
@@ -6338,6 +6352,7 @@
     "b47c0d2705055ebce53d130b76a2fe8df2947665",
     "b47e6f40b79772b5498c17d8f3e4dd1d1973d8a1",
     "b47f738b32c52e02fe8f82d1f89c5a60038fc324",
+    "b485b0badab1fe24552b5ccc70e461ef5a723c62",
     "b487df494ff98a71150cb7022b9923b9a41f9e0a",
     "b48937024da90cbcff94c17119cf4cdc7653f9ac",
     "b48b03bbbed321a839dac37602dd3cb067cbb1aa",
@@ -6830,6 +6845,7 @@
     "c-3f67d2de4284451f43d09984097c8fb7bb10296f",
     "c-3f9423f1fccd485ea8e2cd89be38a237884e1243",
     "c-40d100441e7d31047d49558816c561623209e0ce",
+    "c-417cd5ad553d037e65d14f6891d11479e8fc28b3",
     "c-417e779cec75069b1c0f1f46f00e55cdf5322484",
     "c-41e9655048b1f4f53f19e2a24b32cc0739aafb0b",
     "c-43098c38c0dd69692ac31a351092899c254fd452",
@@ -6883,6 +6899,7 @@
     "c-652b0f4163a074fae382bf9259721be3274f779c",
     "c-6595f895a359d7f1794a85a71cd309e3a5e9f316",
     "c-65a3deb45e4d69853d88b3c1233d0c290180c749",
+    "c-66d4e56a222c8f7277b0eaa8c90fd2a75f4b1cb9",
     "c-66e16c08a5f0a359d2ad0ec5ee0f37ad4e3415eb",
     "c-67730aac5297f09be0d0baec645be918b41147d5",
     "c-678f5e1684cd3bb0d2cfc2cb38849358aecef2f1",
@@ -6925,6 +6942,7 @@
     "c-8175ef87e18dcb8ba7ce6784e8e4f349a1b244c0",
     "c-818eea17931a52dd394a6f40f1483bf9d7d4e0d3",
     "c-81f6613d719ca787a9edecfc259434821c55ca4e",
+    "c-85b411d3c76b5d5549afe46c2bbae5f407c89589",
     "c-86d898570506f576f609988179926404b401669b",
     "c-87f3a157e4fafcea850a81b846c9322f68e5ff56",
     "c-89ab0d02e3b69d38e2501da05b149e027d0dabfa",
@@ -6956,6 +6974,7 @@
     "c-9ad6f99c3e3301b1788e63d0df5e3052940034f4",
     "c-9b352524634a2973b113f7de27307b98f8758335",
     "c-9b5b166c8085e57e179e50bddb9d7431fab98c56",
+    "c-9bb13e66c171396c66c28b55b430da00c6347542",
     "c-9db06b1f9514fb7aa65639dbfe5be0b4b2d99d39",
     "c-9f8703f155176a428c47e334ac8e49b7ffb4d961",
     "c-9fe373e5241e0662e1052313d6061f356abcdab4",
@@ -7097,6 +7116,7 @@
     "c-f51443bb67aa098c4ed87633cf61f6e42294ec2c",
     "c-f532604403da2055357c27a9c78bbd975fd18320",
     "c-f5a7456d3b763aa6834dddc09ec5ec42472b85a8",
+    "c-f691403f81d2a27c54ce635ff6b0365641bcdf41",
     "c-f7658ef0eb6b84dce6af77615b4fdb387a0f1f9d",
     "c-f858426d92f6fe21b440696997346a65f743e70e",
     "c-f87849906a13ee65e016390752c2dde9f6490b81",
@@ -7354,6 +7374,7 @@
     "c73b7960b70389e76a9cde91f1265bd471612c3c",
     "c747928661e325defa475716e2b324bf38214ad9",
     "c74c22ba0f1b39f7e136410710ca7fd752aa626f",
+    "c7512a908a2b1e887e218c32ae77fb165482e344",
     "c7669b4db328df8a106b11d10ae1a35ca1849fe1",
     "c76d034107d72b9c16f20227f4010c54d450dcd8",
     "c76f33604efd4fcbba22a313a4ec1e8264982bd3",
@@ -7475,6 +7496,7 @@
     "ca7bd5082736979641a5c6f0ecca5614316d6c69",
     "ca8189780c77c9810db835fbddda802be642bebb",
     "ca8740dd9b6e5f17873b567b00ec0e2c91c97f84",
+    "ca8e2b91fee260d9e33886ba9b2a89bd687c05b7",
     "ca954f94aa80d64e3611e32405a6d20ecb4e213d",
     "ca9d1eb61b5a55dea43fc529677f1152b8ffbcb2",
     "caa18e6c8e3ff3511aa5ac59794b348bba11158a",
@@ -7651,6 +7673,7 @@
     "cf1340881b097642b954986be4db05632aaeffcc",
     "cf1d01a3525e37de83b1f9d3131ac4d52091ecd1",
     "cf2506a4b00cb501efcf49e6d1fd37349b88f6b8",
+    "cf28ec02d20cc7671e9c905192bc1c462c2dbd7a",
     "cf3a712c9b5fc6c72c4a42e2d546d293da1d2c9b",
     "cf3c7fb46cb673308fdb7da23e1126649eedfe1c",
     "cf41a0039c922bee7f78fbd19c888658f9b2a296",
@@ -7658,6 +7681,7 @@
     "cf53162967b1827ea6c89a1583d7cf5dba5d0248",
     "cf5469a4fe3a902ba6ff8abc26e1196147200d02",
     "cf5d4cae9de92b83b83a3c3937ee3e055f05e95c",
+    "cf66804ba821fb39235e4a2b87c2c3ab09790e9a",
     "cf6c3a7db8204ab0388697d306d7436116c93e9e",
     "cf73e10115dfee4781f7128f74d9556437fe65ab",
     "cf84319b8fe520c1f3638cdc2d1c9ed9e0cf9adc",
@@ -8308,6 +8332,7 @@
     "e0e5dc30c04f27f92c04a1b893ea37c578ba7983",
     "e0ea0241b39326669a20a968fe2c80400f4b45e2",
     "e0f9517afc858be5c90d0e9aabe80ebc7eb27b93",
+    "e0fbfbe155e981e675be48ada60372123c8f4b21",
     "e102f8fdf46267eec59ea2f89b341bf49cd6d56f",
     "e109400d898c4e811b519c7279e2224260a4a09f",
     "e112dece0482ba3d04ca9878d6fe0285046f3efe",
@@ -49100,6 +49125,181 @@
       "title": "트리니티항공, 부산발 후쿠오카·삿포로 취항 1주년…탑승객 30만명",
       "date": "2026-10-30",
       "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "c-417cd5ad553d037e65d14f6891d11479e8fc28b3",
+      "title": "영화 '인생세탁소', 제주 해녀 다룬 가족드라마로 11월 4일 개봉",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-85b411d3c76b5d5549afe46c2bbae5f407c89589",
+      "title": "크리에이트립, 방한 외국인 7명 중 1명 2년 내 재방문",
+      "date": "2026-10-30",
+      "region": "industry",
+      "grade": "C"
+    },
+    {
+      "id": "c-9bb13e66c171396c66c28b55b430da00c6347542",
+      "title": "제주도, 하와이·발리 등 세계 12개 섬과 지속가능 관광 공동성명 채택",
+      "date": "2026-10-30",
+      "region": "jeju",
+      "grade": "C"
+    },
+    {
+      "id": "c-f691403f81d2a27c54ce635ff6b0365641bcdf41",
+      "title": "이랜드파크 PIC 사이판, 겨울방학 교육여행 상품 '아카데믹 펀 스쿨링' 운영",
+      "date": "2026-10-30",
+      "region": "saipan",
+      "grade": "C"
+    },
+    {
+      "id": "c-66d4e56a222c8f7277b0eaa8c90fd2a75f4b1cb9",
+      "title": "EBS '극한직업', 9,000원 뷔페식당과 리퍼브 할인매장 사람들의 하루",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "19e4d011b28edf53d4f3b9122a1772e6d6a873b7",
+      "title": "순천, 가을 문화예술 축제 잇따라…지역경제에도 활력",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "67bfdc777ad778efd4fbf59bb0ed8c35fbf00db9",
+      "title": "'실낙원' '얼굴' 흥행 뒤 돌아온 연상호!",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "cf66804ba821fb39235e4a2b87c2c3ab09790e9a",
+      "title": "낭만적인 해변과 섬, 파노라마 뷰를 즐기는 여수 가볼 만한 곳",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "b34361c57cff69fe5cb167be88f6c0c315034cf4",
+      "title": "“다낭 말고 단양으로!” 서울 청년 대상 1박 2일 여행 프로젝트 참가팀 모집",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "538005b475d3c793550f7362de3ddbdeadccac08",
+      "title": "목포시, 국가유산 야행 오늘 개막…“근대 목포로 시간여행 오세요”",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "7c140aa5b69769343952f8052b1e38c12f092e72",
+      "title": "2026 순천문화기획학교 로컬기획자 페스티벌 ‘ST.ART’ 개최",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "cf28ec02d20cc7671e9c905192bc1c462c2dbd7a",
+      "title": "춘천 청소년문화축제, 31일 시청 광장에서 개최",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "797fbe575451c62cc314a77282c5dd0b6cd49483",
+      "title": "제천문화관광재단, 삼한의 초록길·의림지서 환경정화 봉사활동",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "0658e39aae6fd3063a87d4f4671fd35f9b9b9075",
+      "title": "강릉, 여행사 관계자 60여 명 초청 팸투어 마쳐",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "3d211f1a491a3a9a74b83ed9f4a0addd56ec4562",
+      "title": "[종합 환율] 10월 30일 장중 주요 통화 전거래일 대비 일제히 하락",
+      "date": "2026-10-30",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "a0d6020ac5afd7ca564174c8b7a6ff151d1b0340",
+      "title": "여수시, 11~12월 산불조심기간 운영",
+      "date": "2026-10-30",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "476f8b961fe41deb141496ac9dd33aad1857552c",
+      "title": "日전문가 \"中 군사위협 심각…4년새 항공자위대 하나더 만든격\"",
+      "date": "2026-10-30",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "e0fbfbe155e981e675be48ada60372123c8f4b21",
+      "title": "[허프 트렌드] 고성·양양에 호텔·리조트 몰린다 : 이랜드파크·호반그룹 개발 참여하며 '체류형 관광지’ 탈바꿈 전망",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "b485b0badab1fe24552b5ccc70e461ef5a723c62",
+      "title": "브래드 피트 주연 ‘하트 오브 비스트’ 1위…‘극장판 치이카와’ 2위로 [10월 29일 영화 박스오피스]",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "a01b5aa70dbf7b84e2d072b1b0bff97df83d2a58",
+      "title": "동남아 증편 주춤···일본·중국 인기에 하늘길 재편",
+      "date": "2026-10-30",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "ca8e2b91fee260d9e33886ba9b2a89bd687c05b7",
+      "title": "리센느 미나미·메이도 떴다… 아이돌 ‘한국어 대결’ 유튜브 예능 공개",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "40510e7ed56d3ff7883cf1b50e7659dea4fce324",
+      "title": "First Alert Weather Day: Flash flood warning for Hawaii Island, warning canceled for East Maui",
+      "date": "2026-10-30",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "03c5ecdd102965ae58ed122da9499414eeb677ef",
+      "title": "Building housing Happy Days restaurant in Kaimuki listed for $1.9M",
+      "date": "2026-10-30",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "c7512a908a2b1e887e218c32ae77fb165482e344",
+      "title": "겨울 비수기 맞는 울릉도, 핵심 관광명소 문턱 대폭 낮춘다",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "94444cb2c118fd5eaf985f1fe3426b11aa85e19b",
+      "title": "'더 리슨' 이승기 '예능신' 강림… 이영현 '체념' 레전드 라이브 28일 공개",
+      "date": "2026-10-30",
+      "region": "",
       "grade": "B"
     }
   ]
