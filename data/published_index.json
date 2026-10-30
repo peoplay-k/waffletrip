@@ -828,6 +828,7 @@
     "1766e53800e95ff1a0d297a4786cbc938ec26ed4",
     "177504dde18ef02c7456fb06ff535e728a74d5f6",
     "177939f063b9f9f03f1967a09ce03528cd73146b",
+    "177b04a0cd868fe62d8e8d1db2bf04da87d3696a",
     "177b65adacd26e341bafe355bd53e0084484c085",
     "178bba7624ee031182f42320f55555af5b8f25ea",
     "17ac8b94595b8ea4b6fc333275d170a460fe8d10",
@@ -1129,6 +1130,7 @@
     "200a189338bd7d5cd4dec73caab87cda65da21c4",
     "201153e9b359d05e04650ab7cd27ea5222f240aa",
     "20136b56361d900612b952604496bbfeb65c3a46",
+    "20161f65664f8e06938bfae92d234c6402e98ace",
     "201c445ab9499e234d2ca5d2c9a69e8491c9885a",
     "201d382bbb2f71be85e84e878a30279520898e0c",
     "202901656270b58e6a93701e33f1e008204af2ca",
@@ -2862,6 +2864,7 @@
     "50d24e9f1939d34580e25285f41f0a48400298a1",
     "50d371d9b2f4fcfece476e816bfcc82d30182131",
     "50dfdc2fee729d43feedb6ea1cfefc7db045c8eb",
+    "50e343ead159c6a5620fd12f2b992f83d848e688",
     "50e7289bb5cf4643a7f77bb3a388a53cdbfff16d",
     "50f0fb20254afcf43be2dff2d7c16b68be1f2a7b",
     "5110fe42d535327dff54e1323da44895746d278a",
@@ -6173,6 +6176,7 @@
     "ae9f6cc98cedbacdf6f7eb7543d23681fe6fc20e",
     "aea70c03921e2136bd8233b6040ff2129e10eb5c",
     "aea8314f3411439ad87f90807ca7480208e58e4e",
+    "aeadecdc1329be0f8cd17f5d7ab6fdcc9883d3f7",
     "aeafd917c6dbccf1697bb92b75c8672ae443bf09",
     "aeb906e4199184bf4cad428387199a96f10b4d85",
     "aebaa5c3b787b94fbb934c1030e85315ef4630b2",
@@ -6218,6 +6222,7 @@
     "af9fdca34fd9828cc8ae4dd0976379ec22634060",
     "afa5de34d336cdd85ebb950352c8ecf45197929a",
     "afa9e2701b8d46ebb1b3f721b27d95175e931e40",
+    "afae9d236a9f2f997a649bd53b095c93332f1460",
     "afb15613fa04da0bc53a7d251cc7c429c62e4ac9",
     "afbdd70746dea9af62ec73956dd38a7b0cc28dd9",
     "afc0d7cc02d314563c3520e4c4cd678de768714d",
@@ -6364,6 +6369,7 @@
     "b38d20e295a9fd85ad912f60edf1acc9423df67f",
     "b39e74f0c0017dddd4afebeabbef92f401580fa2",
     "b3a563a44cd850746e94d556bc98a546378e746f",
+    "b3aa4d4e0ddb4b0487dcb5ee3d2170fe7e979319",
     "b3af55002d56808aa14a8a7cdb45a15761c35ab3",
     "b3b1794ea941f377823330d007e77146524bb344",
     "b3b437b264e1fe5a86f7f12a2a2b3a5d870b3f3a",
@@ -6427,6 +6433,7 @@
     "b54cb2db81c92e00209e071f51f0d5b125f6d924",
     "b56565decec92be51696b46520a6f8e395ddbc2f",
     "b56b09ac7a311277e71ebaa0b44b666397533cb4",
+    "b57783fff9224c8494542d3168ff83b68d7a5732",
     "b57c8a15d0e795a4755083386b3a817cbe71bdf2",
     "b588ee25eb4ae73162da2449006ea60c7ab0cb28",
     "b58fd9c3a9e4db28b313e526f8195e2fc71837eb",
@@ -49844,6 +49851,55 @@
       "title": "McKay Brothers Links Illinois and New Jersey with Columbus and Ashburn via Wireless Transport",
       "date": "2026-10-30",
       "region": "laos",
+      "grade": "B"
+    },
+    {
+      "id": "177b04a0cd868fe62d8e8d1db2bf04da87d3696a",
+      "title": "보령 성주면, 11월 7일 성주산 단풍축제 연다",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "b3aa4d4e0ddb4b0487dcb5ee3d2170fe7e979319",
+      "title": "강릉시, 국내외 인바운드 팸투어 ‘트래블로드’ 성료",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "afae9d236a9f2f997a649bd53b095c93332f1460",
+      "title": "용산구육아종합지원센터, 마음치유열차 ‘오감으로 느끼는 부여 힐링 여행’ 진행",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "b57783fff9224c8494542d3168ff83b68d7a5732",
+      "title": "\"129년 전 개항장으로 시간여행\"…목포의 가을밤이 특별해진다",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "50e343ead159c6a5620fd12f2b992f83d848e688",
+      "title": "[포토] 강릉시, GTM 2026 연계 팸투어 성료…오죽헌·전통문화·야간관광 집중 소개",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "aeadecdc1329be0f8cd17f5d7ab6fdcc9883d3f7",
+      "title": "수만송이 국화의 향연이 펼쳐진다… 태안국화축제. 10일간의 향연 ‘팡파르’",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "20161f65664f8e06938bfae92d234c6402e98ace",
+      "title": "“온가족이 김장 여행 가볼까?”…평창 고랭지 김장축제, 11월4일 개막",
+      "date": "2026-10-30",
+      "region": "korea",
       "grade": "B"
     }
   ]
