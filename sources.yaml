@@ -353,6 +353,11 @@ sources:
     enabled: true
     curated: true
 
+  # industry: false — 종합 보도자료(금융·교육청·식품)가 섞인다. 2026-10-15 에는 지명 없는 기사를
+  # 통째로 버렸는데 진짜 여행업계 기사도 같이 버려져 하루 1~6건만 남았다(2026-10-20~30 실측).
+  # 2026-10-30 사장님: "여행 기사 더 만들어 … 여기 기사들 많은데 뭐하는거야? 좀 챙겨서 가지고와서
+  # 좀 올려". 이제 지명이 아니라 여행 말로 가른다(src/fetch/rss.py) — 제목에 여행·항공·호텔·여행사
+  # 말이 있으면 지명이 없어도 여행업계면으로 받고, 지명만 있는 증권·제약 보도자료는 버린다.
   - id: kr_ttlnews
     region: auto
     section: news
@@ -361,8 +366,42 @@ sources:
     url: https://www.ttlnews.com/rss/allArticle.xml
     lang: ko
     enabled: true
-    industry: false   # 지명 없는 기사는 업계면에 넣지 않는다 — 종합 보도자료가 섞인다
+    industry: false
     curated: true
+
+  # 문화뉴스(mhns.co.kr). 2026-10-30 사장님이 TTL뉴스·ㅍㅍㅅㅅ와 함께 짚은 매체 — 그동안 소스가
+  # 아니었고 구글뉴스 국내 검색(gn_korea)에 우연히 걸린 것만 하루 2~3건 들어왔다(10-28 부터).
+  # 문화 전문지라 여행면과 영화·공연·전시·방송면이 한 피드로 온다. 지명·여행 말이 있으면 여행,
+  # 아니면 문화 발표인지 보고 문화 채널로(culture: true), 둘 다 아니면 버린다.
+  # 피드 주소는 같은 CMS(/news/articleView.html?idxno=) 매체 8곳이 전부 쓰는 패턴이다 — 다만
+  # 여기(클라우드)서는 네트워크가 막혀 실물 응답을 못 봤다. 첫 실행의 _errors.json 에서 확인한다.
+  - id: kr_mhns
+    region: auto
+    section: news
+    name: 문화뉴스
+    type: rss
+    url: https://www.mhns.co.kr/rss/allArticle.xml
+    lang: ko
+    enabled: true
+    industry: false
+    culture: true
+    curated: true
+
+  # ㅍㅍㅅㅅ(ppss.kr). 2026-10-30 사장님이 짚은 세 매체 중 셋째. 워드프레스라 표준 피드 주소(/feed)를
+  # 쓴다 — 역시 실물 응답은 못 봤다. 피드가 막혀 있으면 수집 단계가 _errors.json 에 남기고 사흘 뒤
+  # 건강검진이 경고한다(신문은 그대로 나간다). 에세이·칼럼 매체라 대부분이 여행 글이 아니다 —
+  # 제목에 지명이나 여행 말이 있는 글만 받고(industry: false) 나머지는 버린다. 여행 전문지가
+  # 아니므로 curated 를 끄고 편집 단계의 여행 관련성·사건·스팸 필터를 그대로 태운다.
+  - id: kr_ppss
+    region: auto
+    section: news
+    name: ㅍㅍㅅㅅ
+    type: rss
+    url: https://www.ppss.kr/feed
+    lang: ko
+    enabled: true
+    industry: false
+    curated: false
 
   - id: kr_ktsketch
     region: auto

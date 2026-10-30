@@ -39,6 +39,11 @@ class Source:
     # 여행 전문지는 받는다. 종합 보도자료가 섞인 곳(TTL뉴스 — 2026-10-15 실측 37건 중
     # 27건이 금융·교육청·식품 보도자료)은 sources.yaml 에서 industry: false 로 끈다.
     industry: bool = True
+    # region: auto 소스에서 여행 기사가 아닌 것 가운데 문화(영화·공연·전시·방송) 발표를 문화 채널로
+    # 받을지. 문화뉴스처럼 여행면과 문화면이 한 피드로 오는 매체용(2026-10-30 사장님: "여행 기사 더
+    # 만들어 … 여기 기사들 많은데 뭐하는거야? 좀 챙겨서 가지고와서 좀 올려"). 지명·여행 말이 있으면
+    # 여행이 먼저다 — 문화는 그다음이다(src/fetch/rss.py).
+    culture: bool = False
 
 
 def load_sources(path: str) -> list[Source]:
@@ -79,6 +84,12 @@ def load_sources(path: str) -> list[Source]:
             raise SourceConfigError(
                 f"{where}: 알 수 없는 연예 부문 '{category}' (허용: {tuple(ENT_TOPIC_NAMES)})")
 
+        culture = bool(e.get("culture", False))
+        if culture and (e["region"] != "auto" or channel != "travel"):
+            raise SourceConfigError(
+                f"{where}: culture 는 region: auto 인 여행 소스에만 둔다 — 기사마다 채널을 가르는 것이라 "
+                f"지역이 고정된 소스나 연예 소스에는 뜻이 없다")
+
         if not e["enabled"]:
             continue
 
@@ -88,6 +99,7 @@ def load_sources(path: str) -> list[Source]:
             curated=bool(e.get("curated", False)),
             channel=channel, category=category if channel == "ent" else "",
             industry=bool(e.get("industry", True)),
+            culture=culture,
         ))
 
     return result

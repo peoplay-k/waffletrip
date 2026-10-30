@@ -133,7 +133,9 @@ def test_tags_hawaii_from_island_names():
 
 # ── 새 지역 (일본·태국·대만) ──────────────────────────────────────
 @pytest.mark.parametrize("title,expected", [
-    ("아시아나항공, 인천~고베 매일 띄운다", None),
+    # 고베는 2026-10-30 까지 키워드에 없어 None 이었다. 빠진 도시 이름을 채우며 일본이 됐다 —
+    # 인천은 출발지라 세지 않고(_DEPARTURE) 고베가 목적지다.
+    ("아시아나항공, 인천~고베 매일 띄운다", "japan"),
     ("피치항공, 오사카 당일치기 여행 상품 선보여", "japan"),
     ("도쿄 관광객 역대 최다", "japan"),
     ("후쿠오카 노선 증편", "japan"),
@@ -215,3 +217,48 @@ def test_korea_departure_city_does_not_make_a_domestic_story():
     assert tag_region("부산~다낭 신규 취항") == "vietnam"
     assert tag_region("에어부산, 부산발 후쿠오카 증편") == "japan"
     assert tag_region("[여행단신] 에어부산 신규 노선") is None
+
+
+# ── 2026-10-30 빠진 도시·섬 이름을 채웠다(사장님: "여행 기사 더 만들어 … 좀 챙겨서 가지고와서 좀 올려") ──
+@pytest.mark.parametrize("title,expected", [
+    ("호찌민 신규 노선 취항", "vietnam"),
+    ("하롱베이 크루즈 운항 재개", "vietnam"),
+    ("가나자와 당일치기 관광 인기", "japan"),
+    ("유후인 온천 료칸 예약 급증", "japan"),
+    ("카우아이 호텔 재개장", "hawaii"),
+    ("치앙라이 직항 신설", "thailand"),
+    ("컨딩 해변 리조트 오픈", "taiwan"),
+    ("팍세 볼라벤 고원 투어", "laos"),
+    ("한라산 단풍 절정", "jeju"),
+    ("울진 금강송 숲길 여행", "korea"),
+    ("광안리 드론쇼에 관광객 몰려", "korea"),
+])
+def test_added_city_and_island_names_are_tagged(title, expected):
+    assert tag_region(title) == expected
+
+
+@pytest.mark.parametrize("title", [
+    "교토 여행 후에 들른 가게",      # '후에'(베트남 도시)는 넣지 않았다 — 조사다
+    "경우도 있다는 관광업계 반응",   # '우도' 가 '경우도' 에 들어 있다
+    "사파리 투어 상품 출시",         # '사파' 가 '사파리' 에
+    "고성능 와이파이 갖춘 호텔",     # '고성' 이 '고성능' 에
+    "일본 강진, 관광객 대피령",      # '강진'(전남)은 지진이다
+    "관광 예산 확대 편성",           # '예산'(충남)은 돈이다
+])
+def test_keywords_that_live_inside_common_words_were_left_out(title):
+    """지명 하나 더 잡자고 흔한 낱말을 넣으면 그 낱말이 든 기사가 전부 그 지역이 된다."""
+    assert tag_region(title) in (None, "japan")   # 위 '교토'·'일본' 만 일본이다
+    assert tag_region(title) != "korea" and tag_region(title) != "jeju" and tag_region(title) != "vietnam"
+
+
+# ── 지명 없는 여행업계 기사(2026-10-30) ──────────────────────────────────
+def test_industry_story_is_read_from_travel_words_in_the_title():
+    from src.region_tag import is_industry_story
+    assert is_industry_story("하나투어, 겨울 패키지 3종 출시")
+    assert is_industry_story("대한항공, 비즈니스 기내식 개편")
+    assert is_industry_story("노랑풍선, 3분기 실적 발표")        # 업체 이름으로 잡는다
+    assert is_industry_story("호텔스닷컴, 추석 대체 여행지 발표")
+    assert not is_industry_story("신한투자증권, 크로스보더 펀드 결성")
+    assert not is_industry_story("세종대, 하반기 취업반 모집")
+    assert not is_industry_story("경북교육청, 체험 교육 행사 개최")   # '체험'·'행사' 는 어느 보도자료에나 있다
+    assert not is_industry_story("")

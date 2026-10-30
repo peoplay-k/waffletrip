@@ -589,3 +589,22 @@ def test_old_combined_sections_split_by_title():
     assert ent_category_of(ent("1", "뮤지컬 ○○ 재연 확정", "music")) == "stage"
     assert ent_category_of(ent("1", "○○ 콘서트 뮤지컬 넘버 무대", "music")) == "music"
     assert ent_category_of(ent("1", "국립현대미술관 특별전 개막", "")) == "stage"
+
+
+# ── 문화 부문 힌트(2026-10-30 문화뉴스 소스) ─────────────────────────────
+def test_culture_section_hint_is_empty_when_nothing_matches():
+    """ent_category_of 는 모르면 기본 부문을 주지만, 수집은 '모르겠다' 를 알아야 버릴 수 있다."""
+    from src.topics import culture_section_hint
+    assert culture_section_hint("'라라랜드' 개봉 10주년 맞아 재개봉") == "movie"
+    assert culture_section_hint("국립현대미술관 특별전 개막") == "stage"
+    assert culture_section_hint("이세돌, KBS 새 예능 23일 첫 방송") == "tv"
+    assert culture_section_hint("○○시, 하반기 일자리 박람회 개최") == ""
+    assert culture_section_hint("") == ""
+
+
+def test_exhibition_and_theatre_announcements_count_as_newsworthy():
+    """공연·전시 부문이 생겼는데 '전시'·'연극' 발표가 공식 발표성 목록에 없어 전부 떨어지고 있었다."""
+    from src.relevance import is_ent_newsworthy
+    assert is_ent_newsworthy("국립현대미술관 특별전 개막")
+    assert is_ent_newsworthy("연극 '햄릿' 재연 확정")
+    assert not is_ent_newsworthy("○○시, 하반기 일자리 박람회 개최")

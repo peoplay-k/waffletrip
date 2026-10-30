@@ -257,13 +257,94 @@ def test_a_portal_index_page_is_not_an_article():
     assert all("한눈에 보는" not in i.title for i in items)
 
 
-def test_업계면을_끈_소스는_지명_없는_기사를_버린다():
-    """TTL뉴스는 종합 보도자료가 섞여 업계면에 넣지 않는다(2026-10-15)."""
+# ── 종합 보도자료가 섞인 소스(industry: false) — TTL뉴스·문화뉴스·ㅍㅍㅅㅅ ──────────
+# 2026-10-30 사장님: "여행 기사 더 만들어 … 여기 기사들 많은데 뭐하는거야? 좀 챙겨서 가지고와서
+# 좀 올려". 지명으로만 가르던 것을 여행 말로 가른다.
+
+def _feed(*rows):
+    items = "".join(
+        f"<item><title>{t}</title><link>https://example.com/{i}</link>"
+        f"<description>{d}</description></item>" for i, (t, d) in enumerate(rows))
+    return f'<?xml version="1.0"?><rss version="2.0"><channel>{items}</channel></rss>'
+
+
+def test_업계면을_끈_소스는_여행_말_없는_보도자료를_버린다():
+    """TTL뉴스는 종합 보도자료가 섞여 있다(2026-10-15 실측 37건 중 27건이 금융·교육청·식품)."""
     from dataclasses import replace
-    xml = """<?xml version="1.0"?><rss version="2.0"><channel>
-    <item><title>하나금융 잡매칭 페스타 개막</title><link>https://example.com/y</link>
-    <description>강소기업 20곳이 참여한다.</description></item>
-    <item><title>괌 노선 증편</title><link>https://example.com/z</link>
-    <description>겨울 증편이다.</description></item></channel></rss>"""
+    xml = _feed(("하나금융 잡매칭 페스타 개막", "강소기업 20곳이 참여한다."),
+                ("괌 노선 증편", "겨울 증편이다."))
     got = parse_feed(replace(AUTO_SOURCE, industry=False), xml, NOW)
     assert [i.region for i in got] == ["guam"]
+
+
+def test_업계면을_끈_소스도_여행업계_말이_있으면_지명_없이_업계면으로_받는다():
+    """지명이 없다고 통째로 버리니 진짜 여행업계 기사까지 사라져 TTL뉴스가 하루 1~6건만 남았다."""
+    from dataclasses import replace
+    xml = _feed(("하나투어, 겨울 패키지 3종 출시", "동남아 상품이다."),
+                ("대한항공, 비즈니스 기내식 개편", "와인을 강화한다."),
+                ("노랑풍선, 3분기 실적 발표", "매출이 늘었다."),
+                ("신한투자증권, 크로스보더 펀드 결성", "벤처 투자다."),
+                ("세종대, 하반기 취업반 모집", "3·4학년 대상."))
+    got = parse_feed(replace(AUTO_SOURCE, industry=False), xml, NOW)
+    assert [(i.title[:4], i.region) for i in got] == [
+        ("하나투어", "industry"), ("대한항공", "industry"), ("노랑풍선", "industry")]
+    assert all(i.channel == "travel" for i in got)
+
+
+def test_업계면을_끈_소스는_지명만_있는_보도자료도_버린다():
+    """2026-09~10 실측: TTL뉴스 발행 88건 중 27건이 "SK어스온, 베트남 광구서 첫 원유 생산" 같은
+    증권·제약·지자체 교류 보도자료였다. 지명이 있어도 제목·요약에 여행 말이 없으면 여행 기사가 아니다."""
+    from dataclasses import replace
+    xml = _feed(("SK어스온, 베트남 15-1/05 광구서 첫 원유 생산", "추정 매장량 6000만 배럴."),
+                ("포항시, 일본 치바시와 교류의향서 체결", "지자체 교류다."),
+                ("베트남항공, 한국 노선 대거 증편", "7월부터다."),
+                ("태국 왕실 바지선 행렬 개최", "방콕 짜오프라야강에서 관광객을 맞는다."))
+    got = parse_feed(replace(AUTO_SOURCE, industry=False), xml, NOW)
+    assert [(i.title[:4], i.region) for i in got] == [("베트남항", "vietnam"), ("태국 왕", "thailand")]
+
+
+def test_여행_전문지는_그대로_전부_받는다():
+    """industry 기본값(True)인 소스는 바뀐 것이 없다 — 지명 없는 기사도 업계면으로."""
+    xml = _feed(("신한투자증권, 크로스보더 펀드 결성", "벤처 투자다."))
+    assert [i.region for i in parse_feed(AUTO_SOURCE, xml, NOW)] == ["industry"]
+
+
+CULTURE_SOURCE = Source(id="mhns", region="auto", section="news", name="문화뉴스", type="rss",
+                        url="https://example.com/rss", lang="ko", enabled=True,
+                        curated=True, industry=False, culture=True)
+
+
+def test_문화_소스는_여행은_여행으로_문화_발표는_문화_채널로_가른다():
+    """문화뉴스는 여행면과 영화·공연·전시·방송면이 한 피드로 온다."""
+    xml = _feed(("담양 죽녹원에 빛 더한다…야간관광 확대", "야간 개장이다."),
+                ("포시즌스 호텔 방콕, 현지 문화 체험 프로그램 확대", "가을 시즌."),
+                ("가을 호캉스 패키지 총정리", "전국 호텔."),
+                ("'라라랜드' 개봉 10주년 맞아 재개봉", "11월 극장."),
+                ("국립현대미술관 특별전 개막", "11월까지 전시한다."),
+                ("이세돌, KBS 새 예능 23일 첫 방송", "바둑 은퇴 후."),
+                ("○○시, 하반기 일자리 박람회 개최", "구인 기업 50곳."))
+    got = parse_feed(CULTURE_SOURCE, xml, NOW)
+    assert [(i.channel, i.region) for i in got] == [
+        ("travel", "korea"), ("travel", "thailand"), ("travel", "industry"),
+        ("ent", ""), ("ent", ""), ("ent", "")]
+    # 부문은 비워 둔다 — 편집 단계가 공식 발표성 제목만 남기고 지면이 제목으로 부문을 정한다.
+    assert all(i.category == "" for i in got if i.channel == "ent")
+
+
+def test_문화_소스가_아니면_문화_발표도_버린다():
+    """TTL뉴스에 영화 기사가 섞여 와도 문화면에 넣지 않는다 — 문화 매체가 아니다."""
+    from dataclasses import replace
+    xml = _feed(("'라라랜드' 개봉 10주년 맞아 재개봉", "11월 극장."))
+    assert parse_feed(replace(AUTO_SOURCE, industry=False), xml, NOW) == []
+
+
+def test_문화_채널로_보낸_기사는_편집_단계의_연예_필터를_그대로_지난다():
+    """수집이 문화로 보낸 것이 편집에서 공식 발표성·가십 필터를 거쳐 발행 대상이 된다."""
+    from src.edit import edit_items
+    from src.guards.dup_guard import PublishedIndex
+    xml = _feed(("'라라랜드' 개봉 10주년 맞아 재개봉", "11월 극장."),
+                ("배우 ○○, 결혼식 사진 공개…영화 개봉 앞두고", "축하."))
+    got = parse_feed(CULTURE_SOURCE, xml, NOW)
+    assert len(got) == 2
+    result = edit_items(got, PublishedIndex(set(), []), [], {"문화뉴스"})
+    assert [i.title[:6] for i in result["publish"]] == ["'라라랜드'"]

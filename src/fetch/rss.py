@@ -12,7 +12,9 @@ from datetime import datetime, timezone
 import feedparser
 
 from src.models import Item, make_id, title_hash
-from src.region_tag import mentions_region, tag_region
+from src.region_tag import is_industry_story, mentions_region, tag_region
+from src.relevance import is_ent_newsworthy, is_travel_related
+from src.topics import culture_section_hint
 
 # 싣지 않을 출처. 두 부류다.
 #
@@ -150,8 +152,30 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
             # 아닌 "금융취약계층 생필품 지원"이 제주로 잡혔다. 요약에는 다른 목적지가
             # 스쳐 지나가고, 소스에 따라 아예 다른 기사 본문이 실려 오기도 한다.
             region = tag_region(title)
-            if region is None and not getattr(source, "industry", True):
-                continue  # 종합 보도자료가 섞인 소스 — 지명이 있는 것만 받는다
+            if not getattr(source, "industry", True):
+                # 종합 보도자료가 섞인 소스(TTL뉴스·문화뉴스·ㅍㅍㅅㅅ). 2026-10-15 부터 지명 없는
+                # 기사를 통째로 버렸는데 그 안의 진짜 여행업계 기사("하나투어 겨울 패키지 출시",
+                # "대한항공 기내식 개편")까지 같이 버려져 TTL뉴스가 하루 1~6건만 남았다. 거꾸로
+                # 지명만 있는 "SK어스온, 베트남 광구서 첫 원유 생산"·"신한투자증권, 日 펀드 결성"은
+                # 지역면에 실렸다 — 2026-09~10 실측 TTL뉴스 발행 95건 중 30건 안팎이 증권·제약·
+                # 지자체 교류 보도자료였다. 2026-10-30 사장님: "여행 기사 더 만들어 … 여기 기사들
+                # 많은데 뭐하는거야? 좀 챙겨서 가지고와서 좀 올려". 그래서 지명이 아니라 **여행 말**로
+                # 가른다.
+                #   · 제목에 여행업계 말(region_tag.INDUSTRY_TRAVEL_CUES) → 지명이 있으면 그 지역,
+                #     없으면 여행업계면
+                #   · 지명은 있는데 제목·요약에 여행 말이 없다 → 버린다. 여행 기사가 아니다
+                #   · 둘 다 아니다 → 문화 소스(culture: true)면 문화 발표(영화·공연·전시·방송)인지
+                #     보고 문화 채널로 보낸다. 부문은 비워 둔다 — 편집 단계가 공식 발표성 제목만
+                #     남기고, 지면은 제목으로 부문을 정한다(연예 헤드라인 피드와 같은 길).
+                #     아니면 버린다
+                travel = is_industry_story(title) or (
+                    region is not None and is_travel_related(f"{title} {summary}"))
+                if not travel:
+                    if (getattr(source, "culture", False)
+                            and is_ent_newsworthy(title) and culture_section_hint(title)):
+                        ent, region = True, ""
+                    else:
+                        continue
             if region is None:
                 # auto 소스는 전부 국내 여행 전문지다(여행신문·트래블데일리 …).
                 # 목적지가 안 잡힌 기사는 버리지 않고 업계 공통면으로 받는다.

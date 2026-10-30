@@ -164,3 +164,65 @@ sources:
     curated: true
 """)
     assert load_sources(path)[0].curated is True
+
+
+# ── culture: 여행·문화가 섞인 매체(문화뉴스, 2026-10-30) ───────────────────────
+def test_culture_defaults_to_false(tmp_path):
+    path = write(tmp_path, """
+sources:
+  - id: travelmag
+    region: auto
+    section: news
+    name: 여행신문
+    type: rss
+    url: https://example.com/rss
+    lang: ko
+    enabled: true
+""")
+    assert load_sources(path)[0].culture is False
+
+
+def test_culture_can_be_set_on_an_auto_source(tmp_path):
+    path = write(tmp_path, """
+sources:
+  - id: mhns
+    region: auto
+    section: news
+    name: 문화뉴스
+    type: rss
+    url: https://example.com/rss
+    lang: ko
+    enabled: true
+    industry: false
+    culture: true
+""")
+    src = load_sources(path)[0]
+    assert src.culture is True and src.industry is False
+
+
+def test_culture_is_rejected_outside_auto_sources(tmp_path):
+    """지역이 고정된 소스나 연예 소스에는 기사마다 채널을 가를 일이 없다."""
+    path = write(tmp_path, """
+sources:
+  - id: fixed
+    region: guam
+    section: news
+    name: 괌 매체
+    type: rss
+    url: https://example.com/rss
+    lang: ko
+    enabled: true
+    culture: true
+""")
+    with pytest.raises(SourceConfigError, match="culture"):
+        load_sources(path)
+
+
+def test_owner_named_sources_are_registered_and_enabled():
+    """2026-10-30 사장님이 짚은 세 매체 — TTL뉴스·문화뉴스·ㅍㅍㅅㅅ — 가 전부 켜져 있어야 한다."""
+    by_id = {s.id: s for s in load_sources("sources.yaml")}
+    for sid in ("kr_ttlnews", "kr_mhns", "kr_ppss"):
+        assert sid in by_id, sid
+        assert by_id[sid].region == "auto" and by_id[sid].industry is False
+    assert by_id["kr_mhns"].culture is True
+    assert by_id["kr_ppss"].curated is False     # 여행 전문지가 아니다 — 편집 필터를 태운다

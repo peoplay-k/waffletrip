@@ -129,10 +129,20 @@ def ent_category_of(item) -> str:
         return "stage"
     if cat:
         return cat
+    return culture_section_hint(text) or ENT_DEFAULT
+
+
+def culture_section_hint(text: str) -> str:
+    """제목이 문화 부문 규칙(site.json culture_rules)에 걸리면 그 부문 id, 아니면 빈 문자열.
+
+    ent_category_of 와 달리 '모르겠다'를 빈 값으로 돌려준다. 수집 단계가 여행·문화가 섞인
+    매체(문화뉴스, 2026-10-30)의 기사를 문화 채널로 보낼지 정할 때 쓴다 — 문화 말이 하나도
+    없는 기사를 기본 부문(스타의 여행)에 억지로 넣으면 안 된다.
+    """
     for topic_id, korean in _ENT_RULES:
         if any(w in text for w in korean):
             return ent_canonical(topic_id) or ENT_DEFAULT
-    return ENT_DEFAULT
+    return ""
 
 
 def topic_of(item) -> str:
