@@ -253,8 +253,8 @@
     },
     {
       "date": "2026-10-30",
-      "collected": 1386,
-      "published": 290,
+      "collected": 1347,
+      "published": 316,
       "ours": 12,
       "failed_sources": [
         "guam_pdn",
