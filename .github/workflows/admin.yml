@@ -135,9 +135,16 @@ jobs:
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add "$f"
           git commit -m "편집실 주소를 /admin/ 입구에 적는다"
+          # D1 단계가 wrangler.toml 에 실제 id 를 써 두었다 — 그대로 두면 rebase 가 거부한다
+          git checkout -- admin/wrangler.toml
+          pushed=""
           for i in 1 2 3; do
-            git pull --rebase -q origin main && git push -q origin HEAD:main && break
+            if git pull --rebase -q origin main && git push -q origin HEAD:main; then pushed=1; break; fi
             sleep $((i * 5))
           done
+          if [ -z "$pushed" ]; then
+            echo "::error::/admin/ 입구 커밋을 푸시하지 못했다. 편집실 주소: $URL"
+            exit 1
+          fi
           # 봇 커밋은 발행을 깨우지 않는다 — 직접 깨운다.
           gh workflow run daily.yml --ref main

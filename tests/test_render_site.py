@@ -1,3 +1,4 @@
+import re
 from pathlib import Path
 
 from src.models import Item
@@ -585,7 +586,7 @@ def test_admin_is_deployed_but_not_indexed(tmp_path):
     html = (tmp_path / "admin" / "index.html").read_text(encoding="utf-8")
     assert 'name="robots" content="noindex, nofollow"' in html
     # 배포(.github/workflows/admin.yml)가 이 한 줄을 찾아 편집실 주소를 적는다
-    assert html.count('var EDITOR_URL = "";') == 1
+    assert len(re.findall(r'^var EDITOR_URL = "[^"]*";$', html, re.M)) == 1
 
 
 
