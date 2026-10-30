@@ -78,6 +78,9 @@
 <div class="cols">
 <div class="col-main">
 
+{# 블록 순서는 편집실의 '홈 배치'(config/site.json home.order)를 따른다(2026-10-30). #}
+{% for blk in home_order %}
+{% if blk == 'travel' %}
 {# ── 여행 부문별 — 머리(사진) + 오른쪽 목록 넷, 아래 두 줄 목록. 여행이 먼저. #}
 {% for tid, tname, _ in topics %}
   {% set rows = by_topic.get(tid) or [] %}
@@ -112,6 +115,7 @@
   {% endif %}
 {% endfor %}
 
+{% elif blk == 'culture' %}
 {# ── 문화 — 여행 다음. 3×2 판. #}
 {% if ent_top %}
 <section class="block">
@@ -129,6 +133,7 @@
 </section>
 {% endif %}
 
+{% elif blk == 'culture_sections' %}
 {# ── 문화 부문별 — 위에 안 나온 것만, 기사가 있는 부문만. #}
 {% for tid, tname, _ in ent_topics %}
   {% set rows = by_ent.get(tid) or [] %}
@@ -155,6 +160,7 @@
   {% endif %}
 {% endfor %}
 
+{% elif blk == 'latest' %}
 {# ── 최신 기사. "많이 본 뉴스"가 아니다 — 우리는 조회수가 없고, 없는 숫자로 순위를
    만들면 지어낸 것이다. 위에 안 나온 기사를 최신순으로, 여행 먼저. #}
 {% if headlines %}
@@ -167,6 +173,8 @@
   </ol>
 </section>
 {% endif %}
+{% endif %}
+{% endfor %}
 
 </div>
 

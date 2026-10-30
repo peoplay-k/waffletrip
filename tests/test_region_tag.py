@@ -63,8 +63,10 @@ def test_ties_break_by_fixed_region_order():
 
 
 def test_every_keyword_bucket_is_a_real_region():
+    """키워드는 실제 장소인 지면에만 있다. 지역 목록은 편집실이 바꾸므로(config/site.json)
+    '모든 지역에 키워드가 있다'를 못 박지 않는다 — 사장님이 지역을 더하는 순간 발행이 멈춘다."""
     from src.models import DESTINATIONS
-    assert set(REGION_KEYWORDS) == set(DESTINATIONS)
+    assert set(REGION_KEYWORDS) <= set(DESTINATIONS)
 
 
 def test_single_character_keywords_come_from_an_explicit_allowlist():

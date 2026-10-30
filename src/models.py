@@ -1,7 +1,7 @@
 """파이프라인 전체가 주고받는 자료형.
 
-이 모듈은 아무것도 import 하지 않는다(표준 라이브러리 제외).
-수집·편집·렌더가 전부 여기에 의존하므로 의존성이 한 방향으로만 흐른다.
+이 모듈은 사이트 구조 파일(src/site_config.py — 표준 라이브러리만 쓴다) 말고는 아무것도
+import 하지 않는다. 수집·편집·렌더가 전부 여기에 의존하므로 의존성이 한 방향으로만 흐른다.
 """
 from __future__ import annotations
 
@@ -10,14 +10,19 @@ import re
 from dataclasses import dataclass, field
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
+from src import site_config as _sc
+
 GRADES = ("A", "B", "C")
 SECTIONS = ("flight", "news", "data", "promo")
-REGIONS = ("guam", "saipan", "hawaii", "vietnam", "kota", "laos", "jeju",
-           "japan", "thailand", "taiwan", "korea", "industry")
+# 지역(지면). 2026-10-30 부터 정본은 config/site.json — 편집실에서 사장님이 더하고 숨기고 이름을 바꾼다.
+# 숨긴 지역도 여기 남는다 — 옛 기사와 옛 주소가 살아 있어야 한다. 목록·메뉴는 VISIBLE_REGIONS 를 본다.
+REGIONS = _sc.regions(_sc.CONFIG)
+VISIBLE_REGIONS = _sc.visible_regions(_sc.CONFIG)
 # 실제 장소인 지면. "industry"(여행업계)는 목적지가 없는 업계 공통면이라 통화·
-# 지명 키워드·사진이 없다. 장소에만 해당하는 것은 이것을 본다.
-DESTINATIONS = tuple(r for r in REGIONS if r != "industry")
-STATUSES = ("draft", "approved", "published")
+# 지명 키워드·사진이 없다(site.json 의 destination: false). 장소에만 해당하는 것은 이것을 본다.
+DESTINATIONS = _sc.destinations(_sc.CONFIG)
+# 원고 상태. review(기자 검토요청)·hidden(내림)은 2026-10-30 편집실과 함께 생겼다.
+STATUSES = ("draft", "review", "approved", "published", "hidden")
 
 # 2026-10-01 편집국장 미팅 결정이 지면에 적용되는 날(KST).
 #   · 모든 기사는 우리 문장으로 다시 써서(각색) 싣는다 — 남의 기사 제목·요약을
@@ -33,23 +38,13 @@ ADAPT_FROM = "2026-10-02"
 #   ent    — 연예. 지역이 없다. 부문(topics.ENT_TOPICS)이 지면이다.
 # 기존 jsonl 에는 channel 이 없다. item_from_dict 가 travel 로 읽는다.
 CHANNELS = ("travel", "ent")
-CHANNEL_NAMES = {"travel": "여행", "ent": "문화"}  # 2026-10-28 사장님: "연예 빼고 문화로". 주소(/ent/)는 그대로
+# 이름은 site.json 에서(2026-10-28 사장님: "연예 빼고 문화로"). 주소(/travel/, /ent/)는 그대로
+CHANNEL_NAMES = _sc.channel_names(_sc.CONFIG)
 
-# 지역의 한글 이름. 여기가 정본이다 — 모듈마다 따로 적어두면 지역을 늘릴 때
-# 한 곳만 고치게 되고, 그러면 지면에 "이번 주 japan에서 나온 소식"처럼
-# 영문 키가 그대로 나간다. 실제로 그렇게 나갔다.
-REGION_NAMES = {
-    "guam": "괌", "saipan": "사이판", "hawaii": "하와이",
-    "vietnam": "베트남", "kota": "코타키나발루", "laos": "라오스",
-    "jeju": "제주", "japan": "일본", "thailand": "태국", "taiwan": "대만",
-    # 제주를 뺀 국내 여행지. 2026-10-28 사장님: "기사는 국내여행 기사도 가지고와".
-    # 그전에는 강릉·경주·여수 기사가 지명을 못 찾아 여행업계면으로 떨어졌다.
-    "korea": "국내",
-    # 목적지가 없는 업계 공통 소식 — 유류할증료·항공 통합·패키지 실적·여행사 경영.
-    # 2026-10-15 실측: 여행신문 50건 중 39건이 우리 10개 지역 어디에도 안 걸려
-    # 버려지고 있었다. 사장님: "여행신문이랑 여행에 관한 기사들 보고 매일 올려".
-    "industry": "여행업계",
-}
+# 지역의 한글 이름. 모듈마다 따로 적어두면 지역을 늘릴 때 한 곳만 고치게 되고, 그러면 지면에
+# "이번 주 japan에서 나온 소식"처럼 영문 키가 그대로 나간다. 실제로 그렇게 나갔다.
+# 정본은 config/site.json (국내 2026-10-28 "기사는 국내여행 기사도 가지고와", 여행업계 2026-10-15).
+REGION_NAMES = _sc.region_names(_sc.CONFIG)
 
 # 추적용 쿼리 파라미터 — 같은 기사인데 URL 만 달라 보이게 만드는 주범
 _TRACKING_PREFIXES = ("utm_",)
@@ -79,6 +74,8 @@ class Item:
     related: list[str] = field(default_factory=list)
     channel: str = "travel"           # travel | ent. 연예 기사는 region 을 쓰지 않는다
     category: str = ""                # 연예 부문 id (topics.ENT_TOPICS). travel 은 빈 값
+    topic: str = ""                   # 편집실에서 직접 고른 여행 부문. 비면 규칙으로 정한다
+    hidden: bool = False              # 편집실에서 내린 기사. 지면·목록·검색·피드에서 빠진다
 
     @property
     def is_ent(self) -> bool:
@@ -170,6 +167,8 @@ def item_to_dict(item: Item) -> dict:
         "status": item.status, "title_hash": item.title_hash, "photo": item.photo,
         "body_md": item.body_md, "related": list(item.related),
         "channel": item.channel or "travel", "category": item.category or "",
+        **({"topic": item.topic} if item.topic else {}),
+        **({"hidden": True} if item.hidden else {}),
     }
 
 
@@ -184,4 +183,6 @@ def item_from_dict(d: dict) -> Item:
         related=list(d.get("related") or []),
         channel=d.get("channel") or "travel",
         category=d.get("category") or "",
+        topic=d.get("topic") or "",
+        hidden=bool(d.get("hidden")),
     )

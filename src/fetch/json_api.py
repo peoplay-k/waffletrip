@@ -6,6 +6,7 @@ API 마다 응답 모양이 다르므로 공통 파서를 만들 수 없다.
 """
 from __future__ import annotations
 
+from src import site_config as _sc
 from src.models import Item, make_id, title_hash
 from src.sources import Source
 
@@ -22,17 +23,8 @@ QUOTE_UNIT = {"USD": 1, "MYR": 1, "VND": 100, "LAK": 100,
 # 개발 시점에 잡는다(test_every_currency_has_a_quote_unit).
 
 # 제주는 원화권이라 환율 항목이 없다.
-CURRENCY_BY_REGION = {
-    "guam": "USD",
-    "saipan": "USD",
-    "hawaii": "USD",
-    "vietnam": "VND",
-    "kota": "MYR",
-    "laos": "LAK",
-    "japan": "JPY",
-    "thailand": "THB",
-    "taiwan": "TWD",
-}
+# 2026-10-30 부터 정본은 config/site.json(regions[].currency). 원화권(제주·국내)은 비워 둔다.
+CURRENCY_BY_REGION = _sc.currencies(_sc.CONFIG)
 
 
 class UnknownJsonSource(Exception):
@@ -88,18 +80,8 @@ def _parse_exchange_rate(source: Source, payload: dict,
 # 응답은 요청한 좌표 순서대로 배열이 온다. 그런데 **순서에 의존하지 않는다** —
 # sources.yaml 의 URL 을 누가 고치면 지역이 통째로 뒤바뀌고, 그 오보를 아무도
 # 눈치채지 못한다. 응답이 돌려주는 좌표로 지역을 되찾는다.
-WEATHER_SITES = (
-    ("guam", "하갓냐", 13.4443, 144.7937),
-    ("saipan", "사이판", 15.1850, 145.7467),
-    ("hawaii", "호놀룰루", 21.3069, -157.8583),
-    ("vietnam", "다낭", 16.0544, 108.2022),
-    ("kota", "코타키나발루", 5.9804, 116.0735),
-    ("laos", "비엔티안", 17.9757, 102.6331),
-    ("jeju", "제주", 33.4996, 126.5312),
-    ("japan", "오사카", 34.6937, 135.5023),
-    ("thailand", "방콕", 13.7563, 100.5018),
-    ("taiwan", "타이베이", 25.0330, 121.5654),
-)
+# 정본은 config/site.json(regions[].weather {city, lat, lon}).
+WEATHER_SITES = _sc.weather_sites(_sc.CONFIG)
 
 # 좌표는 API 가 격자에 맞춰 반올림해 돌려준다. 0.5도면 이웃 지역과 섞이지 않으면서
 # 반올림 오차를 흡수한다 (가장 가까운 두 지점이 8도 이상 떨어져 있다).

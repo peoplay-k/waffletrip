@@ -26,13 +26,12 @@ from __future__ import annotations
 
 import re
 
-# (id, 이름, 설명) — 표시 순서가 곧 네비 순서다
-TOPICS = (
-    ("news", "뉴스", "지금 여행지에서 벌어지는 일, 관광청·정부 발표, 현지 매체가 전하는 해외 소식입니다."),
-    ("biz", "업계·피플", "항공사·여행사·호텔·플랫폼 소식, 그리고 사람과 의견입니다."),
-    ("feature", "기획·연재", "저희가 직접 취재하고 정리한 기사입니다."),
-    ("data", "통계·리포트", "환율과 날씨. 매일 아침 저희가 직접 만드는 값입니다."),
-)
+from src import site_config as _sc
+
+# (id, 이름, 설명) — 표시 순서가 곧 네비 순서다. 2026-10-30 부터 정본은 config/site.json
+# (travel_sections) — 편집실에서 사장님이 이름·순서·숨김을 바꾸고 새 부문을 만든다.
+# 숨긴 부문은 여기 없다. 그 부문으로 갈 기사는 첫 부문으로 간다(_travel).
+TOPICS = _sc.travel_sections(_sc.CONFIG)
 TOPIC_NAMES = {tid: name for tid, name, _ in TOPICS}
 TOPIC_DESCS = {tid: desc for tid, _, desc in TOPICS}
 # 옛 부문 → 새 부문. 규칙과 옛 주소가 이 표를 거친다.
@@ -41,24 +40,16 @@ TOPIC_ALIASES = {"issue": "news", "world": "news", "policy": "news", "people": "
 # 연예 부문. 여행 쪽 people(피플·오피니언)과 겹치지 않게 인물은 star 다.
 # 경로는 /ent/<id>/ 라 여행 부문 id 와 같아도 충돌하지 않지만, 코드에서
 # 부문 id 하나로 채널을 알 수 있게 겹치지 않는 이름을 골랐다.
-ENT_TOPICS = (
-    ("movie", "영화",
-     "개봉·시사회·제작발표회·박스오피스·영화제. 배급사·제작사 발표와 현장 취재로 씁니다."),
-    ("tv", "방송·드라마",
-     "드라마·예능·OTT, 그리고 오늘 방송되는 회차. 방송사·제작사 보도자료로 씁니다."),
-    ("music", "음악", "앨범·컴백·차트·콘서트·쇼케이스. 공연은 현장에서 봅니다."),
-    ("stage", "공연·전시",
-     "뮤지컬·연극·클래식·무용, 그리고 미술관·박물관 전시. 제작사·기관 발표로 씁니다."),
-    ("startrip", "스타의 여행",
-     "배우·가수의 소식과 스타가 간 곳 — 촬영지, 해외 공연·팬미팅, 로케이션. 여행과 문화가 만나는 자리입니다."),
-)
+# 2026-10-30 부터 정본은 config/site.json(culture_sections). 숨긴 부문은 여기 없다.
+ENT_TOPICS = _sc.culture_sections(_sc.CONFIG)
 ENT_TOPIC_NAMES = {tid: name for tid, name, _ in ENT_TOPICS}
 ENT_TOPIC_DESCS = {tid: desc for tid, _, desc in ENT_TOPICS}
 # 옛 연예 부문 → 새 부문. 편집실·소스·초안이 옛 id 를 써도 여기로 붙는다.
 # 2026-10-28 사장님: "문화 — 영화, 방송-드라마, 음악, 공연-전시, 스타의 여행".
 # 옛 drama(드라마·방송)는 영화가 아니라 방송·드라마로 간다.
-ENT_ALIASES = {"drama": "tv", "star": "startrip"}
-ENT_DEFAULT = "startrip"
+ENT_ALIASES = dict(_sc.CONFIG.get("culture_aliases") or {})
+# 부문을 모를 때 가는 곳. 스타의 여행이 숨겨지거나 지워졌으면 첫 부문.
+ENT_DEFAULT = "startrip" if "startrip" in ENT_TOPIC_NAMES else ENT_TOPICS[0][0]
 
 
 def ent_canonical(cat: str) -> str:
@@ -106,17 +97,8 @@ _MUSIC_WORDS = ("앨범", "컴백", "음원", "신곡", "차트", "빌보드", "
 
 # 연예 기사에 category 가 비어 올 때만 쓰는 보조 규칙. 편집실이 고른 값이 늘 이긴다.
 # 교차 부문(startrip)이 먼저다 — "촬영지"가 있으면 영화 기사여도 여행 쪽이 살아야 한다.
-_ENT_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
-    ("startrip", ("촬영지", "로케이션", "로케", "여행", "다녀온", "원정", "성지순례",
-                  "해외 팬미팅", "日 팬미팅", "美 팬미팅", "내한", "휴가", "괌", "사이판",
-                  "하와이", "제주", "다낭", "도쿄", "방콕", "타이베이")),
-    ("movie", _MOVIE_WORDS),
-    ("star", ("에미상", "시상식", "수상", "후보", "인터뷰", "화보")),
-    ("drama", _DRAMA_WORDS),
-    ("stage", _STAGE_WORDS),
-    ("music", ("앨범", "콘서트", "공연", "쇼케이스", "컴백", "음원", "투어 공연", "페스티벌",
-               "빌보드", "차트", "신곡", "히트곡", "OST", "가곡", "월드투어 매출")),
-)
+# 2026-10-30 부터 정본은 config/site.json(culture_rules) — 순서대로, 먼저 걸리는 줄이 이긴다.
+_ENT_RULES: tuple[tuple[str, tuple[str, ...]], ...] = _sc.culture_rules(_sc.CONFIG)
 
 def _hit(text: str, korean: tuple[str, ...], english: tuple[str, ...]) -> bool:
     if any(w in text for w in korean):
@@ -164,6 +146,19 @@ def topic_of(item) -> str:
     """
     if is_ent(item):
         return ent_category_of(item)
+    # 편집실에서 부문을 직접 골랐으면 그것(2026-10-30). 사장님이 새로 만든 부문은 이 길로만 채워진다.
+    chosen = getattr(item, "topic", "") or ""
+    if chosen in TOPIC_NAMES:
+        return chosen
+    return _travel(_travel_rule(item))
+
+
+def _travel(tid: str) -> str:
+    """규칙이 고른 부문이 숨겨졌거나 지워졌으면 첫 부문으로 보낸다 — 기사가 지면에서 사라지지 않게."""
+    return tid if tid in TOPIC_NAMES else TOPICS[0][0]
+
+
+def _travel_rule(item) -> str:
     if getattr(item, "grade", "") == "A":
         return "data"
     # 우리가 만든 데이터 기사는 등급이 C(자체 생산)지만 성격은 통계·리포트다.

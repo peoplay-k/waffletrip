@@ -29,6 +29,10 @@ MOVED_URLS = os.path.join("data", "moved_urls.json")
 
 def wanted_fields(front: dict, body: str) -> tuple[dict | None, str]:
     """원고 → 발행 기록에 들어갈 값. 실을 수 없으면 (None, 사유)."""
+    # 편집실에서 내린 기사(2026-10-30). 내용은 건드리지 않고 지면에서만 뺀다 — 다시 '발행됨'으로
+    # 돌리면 그대로 돌아온다.
+    if front.get("status") == "hidden":
+        return {"hidden": True}, ""
     title = str(front.get("title") or "").strip()
     if not title:
         return None, "제목이 없다"
@@ -62,6 +66,9 @@ def wanted_fields(front: dict, body: str) -> tuple[dict | None, str]:
         "channel": channel, "region": region, "category": category,
         "section": str(front.get("section") or "news"),
         "source_name": str(front.get("source_name") or ""),
+        # 편집실에서 직접 고른 여행 부문(비면 규칙). 문화 기사는 쓰지 않는다.
+        "topic": "" if channel == "ent" else str(front.get("topic") or "").strip(),
+        "hidden": False,
     }
     # 사진은 웹 경로가 된 것만 옮긴다. 편집실에서 막 올린 원본(content/uploads)은
     # 사진 반입이 검사해 웹 경로로 바꾼 다음에야 지면에 오른다.
@@ -72,7 +79,7 @@ def wanted_fields(front: dict, body: str) -> tuple[dict | None, str]:
 
 
 _DEFAULTS = {"channel": "travel", "category": "", "region": "", "section": "news",
-             "source_name": "", "summary": "", "body_md": ""}
+             "source_name": "", "summary": "", "body_md": "", "topic": "", "hidden": False}
 
 
 def _now(d: dict, key: str):
@@ -96,7 +103,7 @@ def _load_reviews(review_dir: str) -> dict[str, tuple[str, dict, str]]:
         except Exception:
             continue
         pid = str(front.get("published_id") or "")
-        if front.get("status") == "published" and pid:
+        if front.get("status") in ("published", "hidden") and pid:
             out[pid] = (os.path.basename(path), front, body)
     return out
 

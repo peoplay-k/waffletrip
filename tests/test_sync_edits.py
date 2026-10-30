@@ -50,3 +50,41 @@ def test_edit_with_private_data_is_held(tmp_path):
     data, review = _setup(tmp_path, body="예약자 연락처 010-1234-5678 로 문의.\n")
     assert sync(str(data), str(review)) == 0
     assert _rec(data)["body_md"] == "옛 본문"
+
+
+def _set_status(review, status, extra=""):
+    p = review / "a.md"
+    s = p.read_text(encoding="utf-8").replace("status: published", f"status: {status}{extra}")
+    p.write_text(s, encoding="utf-8")
+
+
+def test_hidden_article_leaves_the_site_and_comes_back(tmp_path):
+    """편집실 '내리기'(status: hidden) — 발행 기록에 hidden 이 서고, 다시 발행됨으로 돌리면 풀린다."""
+    data, review = _setup(tmp_path)
+    sync(str(data), str(review))
+    _set_status(review, "hidden")
+    assert sync(str(data), str(review)) == 1
+    rec = _rec(data)
+    assert rec["hidden"] is True and rec["body_md"].startswith("대구공항")   # 내용은 그대로
+    _set_status(review, "published")
+    p = review / "a.md"
+    p.write_text(p.read_text(encoding="utf-8").replace("status: hidden", "status: published"), encoding="utf-8")
+    sync(str(data), str(review))
+    assert _rec(data)["hidden"] is False
+
+
+def test_chosen_travel_section_is_kept(tmp_path):
+    data, review = _setup(tmp_path)
+    _set_status(review, "published", "\ntopic: biz")
+    sync(str(data), str(review))
+    assert _rec(data)["topic"] == "biz"
+
+
+def test_hidden_items_are_not_on_site():
+    from src.build import on_site
+    from src.models import item_from_dict
+    base = {"id": "c-1", "grade": "C", "region": "guam", "section": "news", "title": "t", "summary": "",
+            "source_name": "", "source_url": "", "published_at": "2026-10-30T09:00:00+09:00",
+            "collected_at": "2026-10-30T09:00:00+09:00", "status": "published", "title_hash": "x"}
+    shown = on_site([item_from_dict(base), item_from_dict({**base, "id": "c-2", "hidden": True})])
+    assert [i.id for i in shown] == ["c-1"]

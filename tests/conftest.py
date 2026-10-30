@@ -12,6 +12,12 @@
 from __future__ import annotations
 
 import os
+
+# **사이트 구조는 얼려 둔 사본으로 시험한다.** 진짜 config/site.json 은 편집실에서 사장님이 고친다
+# (2026-10-30). 시험이 진짜 파일을 읽으면 사장님이 '영화'를 '시네마'로 바꾸는 순간 "문화 · 영화"를
+# 확인하는 시험이 깨지고, 시험이 발행보다 먼저 돌므로 그날 지면이 멈춘다. 진짜 파일은
+# test_site_config.py 가 규칙(형식·참조)으로만 본다. 이 줄은 src 를 import 하기 전에 돌아야 한다.
+os.environ.setdefault("SITE_CONFIG", os.path.join(os.path.dirname(__file__), "fixtures", "site.json"))
 from datetime import datetime, timedelta, timezone
 
 import pytest

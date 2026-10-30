@@ -41,7 +41,10 @@ from src.brand import legal_lines
 from src.brand import (CONTACT_EMAIL, DOMAIN, SITE_KIND, SITE_NAME, SITE_NAME_EN,
                        SITE_TAGLINE, SITE_URL)
 
-from src.models import REGION_NAMES  # 정본은 models.py
+from src.models import DESTINATIONS, REGION_NAMES, VISIBLE_REGIONS  # 정본은 config/site.json
+from src import site_config as _sc
+# 홈 배치 — 편집실 '홈 배치'(config/site.json home). 빠진 칸은 기본값.
+HOME = _sc.home(_sc.CONFIG)
 from src.render.tv_cards import attach_tv_cards
 
 # 지역별 상품 사이트. 확인된 것만 넣는다 — 다른 지역 페이지에 엉뚱한 브랜드를
@@ -573,7 +576,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 승인된 사진만 붙는다. 매니페스트가 없으면 조용히 사진 없이 간다.
     # 발행한 숏폼. static/video 의 .json 을 읽어 가장 최근 것을 홈에 건다.
     # 영상은 우리가 직접 만든 것이라 지면에 올려도 남의 것이 아니다.
-    video = load_video()
+    video = load_video() if HOME["show_video"] else None
 
     # 제목 꼬리의 " - 매체명" 을 지면·피드·색인 어디서나 같이 뗀다.
     for it in items:
@@ -590,7 +593,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 도난이, 베트남 지면에 마이애미 활주로 사고가 실려 있었다(2026-09-09).
     # 기사 페이지는 그대로 만든다 — 이미 나간 주소를 없애면 죽은 링크가 된다.
     def listed_only(rows):
-        return [i for i in rows if not getattr(i, "off_topic", False)]
+        # 편집실에서 내린 기사(hidden)도 뺀다. 기사 쪽 자체도 만들지 않는다(build.on_site).
+        return [i for i in rows if not getattr(i, "off_topic", False) and not getattr(i, "hidden", False)]
 
     def travel_only(rows):
         return [i for i in rows if not is_ent(i)]
@@ -651,7 +655,11 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     common = {
         "site_name": SITE_NAME, "site_tagline": SITE_TAGLINE,
         "site_kind": SITE_KIND,
-        "site_url": SITE_URL, "region_names": REGION_NAMES,
+        "site_url": SITE_URL, "region_names": REGION_NAMES, "visible_regions": VISIBLE_REGIONS,
+        # 소개 글에 들어가는 목록 — 편집실에서 바꾼 지역·부문이 그대로 나가게(2026-10-30)
+        "place_list": "·".join(REGION_NAMES[k] for k in VISIBLE_REGIONS if k in DESTINATIONS),
+        "culture_list": ", ".join(name for _, name, _ in ENT_TOPICS),
+        "travel_section_list": "·".join(name for _, name, _ in TOPICS),
         "channel_names": CHANNEL_NAMES,
         "ent_topics": ENT_TOPICS, "ent_topic_names": ENT_TOPIC_NAMES,
         "ent_count": len(ent_listed),
@@ -705,7 +713,11 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 먼저") — 실제 사진이 있는 여행 기사 → 실제 사진이 있는 기사 → 그림이 있는 기사 순.
     def _real_photo(i):
         return bool(i.photo) and not str(i.photo).startswith("/img/tv/")
-    lead = (next((i for i in articles if _real_photo(i) and not is_ent(i)), None)
+    # 편집실 '홈 배치'에서 머리기사를 고정했으면 그것(2026-10-30). 내렸거나 지면 기간이 지나
+    # 목록에 없으면 자동으로 돌아간다.
+    pinned = next((i for i in articles if HOME["pinned_lead"] and i.id == HOME["pinned_lead"]), None)
+    lead = (pinned
+            or next((i for i in articles if _real_photo(i) and not is_ent(i)), None)
             or next((i for i in articles if _real_photo(i)), None)
             or next((i for i in articles if i.photo), articles[0] if articles else None))
     if lead is not None:
@@ -724,7 +736,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     if lead is not None and _real_photo(lead):
         for want_ent in (False, True):
             for i in rest:
-                if len(hero_slides) >= 4:
+                if len(hero_slides) >= HOME["hero_count"]:
                     break
                 if _real_photo(i) and is_ent(i) == want_ent and i not in hero_slides:
                     hero_slides.append(i)
@@ -760,21 +772,21 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 환율·날씨(A)는 데이터 띠가 맡으므로 여기서 뺀다.
     home_topics: dict = {}
     for tid, got in by_topic.items():
-        rows = _photo_first([i for i in got if i.grade != "A" and i.id not in shown])[:11]
+        rows = _photo_first([i for i in got if i.grade != "A" and i.id not in shown])[:HOME["travel_block_size"]]
         home_topics[tid] = rows
         shown |= {i.id for i in rows}
     # 문화 톱 — 여행 블록 다음. 부문 가리지 않고 최신 여섯 건(3×2 사진 판).
-    ent_top = [i for i in ent_listed if i.id not in shown][:6]
+    ent_top = [i for i in ent_listed if i.id not in shown][:HOME["culture_grid"]]
     shown |= {i.id for i in ent_top}
     # 문화 부문 블록 — 머리 하나 + 목록 넷. 위에 안 나온 것만, 없으면 블록을 안 그린다.
     home_ent: dict = {}
     for tid, got in by_ent.items():
-        rows = _photo_first([i for i in got if i.id not in shown])[:5]
+        rows = _photo_first([i for i in got if i.id not in shown])[:HOME["culture_block_size"]]
         home_ent[tid] = rows
         shown |= {i.id for i in rows}
     # 최신 기사 — 위에 안 나온 것 열 건, 여행 먼저. "많이 본 뉴스"가 아니다(아래 주석).
     _left = [i for i in articles if i.id not in shown]
-    headlines = ([i for i in _left if not is_ent(i)] + [i for i in _left if is_ent(i)])[:10]
+    headlines = ([i for i in _left if not is_ent(i)] + [i for i in _left if is_ent(i)])[:HOME["latest_count"]]
 
     # 포토 — 우리가 찍은 사진을 한 줄로. 기사가 아니라 사진을 건다: 캡션은 찍은 곳,
     # 누르면 그 지역면으로 간다. 기사 제목을 달면 위에 실린 기사가 한 화면에 또 나온다.
@@ -791,13 +803,13 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
             seen_photos.add(i.photo)
             photo_strip.append({"src": i.photo, "region": i.region,
                                 "place": places.get(i.photo) or REGION_NAMES[i.region]})
-        if len(photo_strip) >= 8:
+        if len(photo_strip) >= HOME["photo_row"]:
             break
     # 사이드 길잡이 — 지역면과 문화 부문. 기사 수는 지면(14일)에 실린 수 그대로.
     side_regions = sorted(
         ((k, REGION_NAMES[k], sum(1 for i in v if i.grade != "A"))
          for k, v in grouped.items()
-         if k in REGION_NAMES and any(i.grade != "A" for i in v)),
+         if k in VISIBLE_REGIONS and any(i.grade != "A" for i in v)),
         key=lambda r: -r[2])
     side_ent = [(tid, name, len(by_ent.get(tid, []))) for tid, name, _ in ENT_TOPICS]
 
@@ -805,7 +817,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 없는 숫자로 순위를 만들면 그건 지어낸 것이다. 대신 우리가 실제로 가진
     # 사실 데이터(환율·날씨)를 놓는다.
     data_panel = []
-    for key, name in REGION_NAMES.items():
+    for key, name in ((k, REGION_NAMES[k]) for k in VISIBLE_REGIONS if HOME["show_data_strip"]):
         # 지면은 14일치를 담으므로 A등급(환율·날씨)도 날짜별로 쌓인다.
         # 그대로 늘어놓으면 한 줄에 "1 USD 1,361원 … 1 USD 1,377원" 처럼
         # 이틀치 환율이 나란히 걸린다. 가장 최근 날짜 것만 쓴다.
@@ -826,7 +838,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         env.get_template("index.html").render(
             counts={k: len(v) for k, v in grouped.items()},
             top_by_region=top_by_region, lead=lead, sub_leads=sub_leads,
-            hero_slides=hero_slides, photo_strip=photo_strip,
+            hero_slides=hero_slides, photo_strip=photo_strip if HOME["show_photo_row"] else [],
+            home_order=HOME["order"],
             side_regions=side_regions, side_ent=side_ent,
             data_panel=data_panel, by_topic=home_topics, by_ent=home_ent,
             ent_top=ent_top,
@@ -854,10 +867,11 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         os.path.join(out_dir, "travel", "index.html"),
         env.get_template("channel.html").render(
             channel_key="travel", channel_name=CHANNEL_NAMES["travel"],
-            channel_desc=("괌·사이판·하와이·베트남·코타키나발루·라오스·제주·일본·태국·대만 "
-                          "열 곳의 여행 소식. 지역면과 부문으로 나눠 매일 냅니다."),
+            channel_desc=(_sc.CONFIG["channels"]["travel"].get("desc")
+                          or "·".join(REGION_NAMES[k] for k in VISIBLE_REGIONS if k in DESTINATIONS)
+                          + "의 여행 소식. 지역면과 부문으로 나눠 매일 냅니다."),
             sections=[(f"/{tid}/", name, desc) for tid, name, desc in TOPICS],
-            places=[(f"/{key}/", name) for key, name in REGION_NAMES.items()],
+            places=[(f"/{key}/", REGION_NAMES[key]) for key in VISIBLE_REGIONS],
             items=[i for i in travel_only(listed) if i.grade != "A"][:24],
             star_trips=[], **common),
         written,
@@ -869,7 +883,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         os.path.join(out_dir, "ent", "index.html"),
         env.get_template("channel.html").render(
             channel_key="ent", channel_name=CHANNEL_NAMES["ent"],
-            channel_desc=("영화, 방송·드라마, 음악, 공연·전시, 그리고 여행과 문화가 만나는 '스타의 여행'. "
+            channel_desc=(_sc.CONFIG["channels"]["ent"].get("desc")
+                          or ", ".join(name for _, name, _ in ENT_TOPICS) + ". "
                           "소속사·배급사·방송사·제작사 발표와 현장 취재로 씁니다. "
                           "사진은 저희가 직접 찍은 것만 씁니다."),
             sections=[(f"/ent/{tid}/", name, desc) for tid, name, desc in ENT_TOPICS],

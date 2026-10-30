@@ -176,6 +176,8 @@ def collect_approved(review_dir: str, day: str) -> list[tuple[str, Item]]:
             title_hash=title_hash(title),
             body_md=text,
             photo=(str(front.get("photo") or "") or None),
+            # 편집실에서 직접 고른 여행 부문(2026-10-30). 비면 규칙으로 정한다.
+            topic="" if channel == "ent" else str(front.get("topic") or "").strip(),
         )))
     return out
 

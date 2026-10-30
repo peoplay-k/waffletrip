@@ -174,14 +174,18 @@ def render_llms_txt(items: list[Item], out_dir: str) -> str:
     from src.topics import ENT_TOPICS, TOPICS
 
     base = SITE_URL + BASE_PATH
-    regions = "·".join(REGION_NAMES.values())
+    from src.models import VISIBLE_REGIONS
+    # 지역·부문 목록은 편집실이 바꾼다(config/site.json) — 글에 박아 두지 않는다.
+    regions = "·".join(REGION_NAMES[k] for k in VISIBLE_REGIONS)
+    culture = ", ".join(name for _, name, _ in ENT_TOPICS)
 
     lines = [f"# {SITE_NAME} (PeopleRoad)", "",
-             f"> {SITE_KIND}. {SITE_TAGLINE}. 여행 채널은 {regions} 열 곳의 "
-             f"여행 뉴스를 매일 아침(KST) 새로 내고, 문화 채널은 영화, 방송·드라마, "
-             f"음악, 공연·전시, 그리고 '스타의 여행'을 다룬다. 현지 매체·관광청·소속사 "
+             f"> {SITE_KIND}. {SITE_TAGLINE}. 여행 채널은 {regions}의 "
+             f"여행 뉴스를 매일 아침(KST) 새로 내고, 문화 채널은 {culture}을(를) "
+             f"다룬다. 현지 매체·관광청·소속사 "
              f"발표를 원문 출처와 함께 옮기고, 확인되지 않은 사실은 싣지 않는다. "
-             f"사진은 직접 촬영한 것만 쓴다. 운영사는 여행사 피플레이다.", ""]
+             f"사진은 직접 촬영한 것을 먼저 쓰고, 자유 이용 사진에는 작성자와 라이선스를 밝힌다. "
+             f"운영사는 여행사 피플레이다.", ""]
 
     lines += ["## 여행 — 지역면", ""]
     lines += [f"- [{name}]({base}/{key}/): {name} 여행 뉴스"

@@ -1,0 +1,629 @@
+{
+  "_about": "피플로드 사이트 구조. 편집실(관리자 화면)이 고치는 파일이다. 손으로 고칠 때는 JSON 형식을 지킨다. 2026-10-30 코드에서 옮겼다.",
+  "channels": {
+    "travel": {
+      "name": "여행",
+      "desc": ""
+    },
+    "ent": {
+      "name": "문화",
+      "desc": "영화, 방송·드라마, 음악, 공연·전시, 그리고 여행과 문화가 만나는 '스타의 여행'. 소속사·배급사·방송사·제작사 발표와 현장 취재로 씁니다. 사진은 저희가 직접 찍은 것만 씁니다."
+    }
+  },
+  "travel_sections": [
+    {
+      "id": "news",
+      "name": "뉴스",
+      "desc": "지금 여행지에서 벌어지는 일, 관광청·정부 발표, 현지 매체가 전하는 해외 소식입니다.",
+      "visible": true
+    },
+    {
+      "id": "biz",
+      "name": "업계·피플",
+      "desc": "항공사·여행사·호텔·플랫폼 소식, 그리고 사람과 의견입니다.",
+      "visible": true
+    },
+    {
+      "id": "feature",
+      "name": "기획·연재",
+      "desc": "저희가 직접 취재하고 정리한 기사입니다.",
+      "visible": true
+    },
+    {
+      "id": "data",
+      "name": "통계·리포트",
+      "desc": "환율과 날씨. 매일 아침 저희가 직접 만드는 값입니다.",
+      "visible": true
+    }
+  ],
+  "culture_sections": [
+    {
+      "id": "movie",
+      "name": "영화",
+      "desc": "개봉·시사회·제작발표회·박스오피스·영화제. 배급사·제작사 발표와 현장 취재로 씁니다.",
+      "visible": true
+    },
+    {
+      "id": "tv",
+      "name": "방송·드라마",
+      "desc": "드라마·예능·OTT, 그리고 오늘 방송되는 회차. 방송사·제작사 보도자료로 씁니다.",
+      "visible": true
+    },
+    {
+      "id": "music",
+      "name": "음악",
+      "desc": "앨범·컴백·차트·콘서트·쇼케이스. 공연은 현장에서 봅니다.",
+      "visible": true
+    },
+    {
+      "id": "stage",
+      "name": "공연·전시",
+      "desc": "뮤지컬·연극·클래식·무용, 그리고 미술관·박물관 전시. 제작사·기관 발표로 씁니다.",
+      "visible": true
+    },
+    {
+      "id": "startrip",
+      "name": "스타의 여행",
+      "desc": "배우·가수의 소식과 스타가 간 곳 — 촬영지, 해외 공연·팬미팅, 로케이션. 여행과 문화가 만나는 자리입니다.",
+      "visible": true
+    }
+  ],
+  "culture_rules_note": "문화 기사에 부문이 비어 오면 제목으로 정한다. 위에서부터 먼저 걸리는 줄의 부문이 된다.",
+  "culture_rules": [
+    {
+      "section": "startrip",
+      "keywords": [
+        "촬영지",
+        "로케이션",
+        "로케",
+        "여행",
+        "다녀온",
+        "원정",
+        "성지순례",
+        "해외 팬미팅",
+        "日 팬미팅",
+        "美 팬미팅",
+        "내한",
+        "휴가",
+        "괌",
+        "사이판",
+        "하와이",
+        "제주",
+        "다낭",
+        "도쿄",
+        "방콕",
+        "타이베이"
+      ]
+    },
+    {
+      "section": "movie",
+      "keywords": [
+        "영화",
+        "개봉",
+        "시사회",
+        "제작발표회",
+        "박스오피스",
+        "관객",
+        "감독",
+        "영화제",
+        "칸",
+        "베니스",
+        "베네치아",
+        "토론토",
+        "은사자",
+        "극장"
+      ]
+    },
+    {
+      "section": "startrip",
+      "keywords": [
+        "에미상",
+        "시상식",
+        "수상",
+        "후보",
+        "인터뷰",
+        "화보"
+      ]
+    },
+    {
+      "section": "tv",
+      "keywords": [
+        "드라마",
+        "예능",
+        "방송",
+        "OTT",
+        "넷플릭스",
+        "티빙",
+        "디즈니+",
+        "웨이브",
+        "시청률",
+        "종영",
+        "첫방",
+        "회차",
+        "시즌"
+      ]
+    },
+    {
+      "section": "stage",
+      "keywords": [
+        "뮤지컬",
+        "연극",
+        "오페라",
+        "발레",
+        "무용",
+        "오케스트라",
+        "교향악",
+        "클래식",
+        "전시",
+        "展",
+        "미술관",
+        "박물관",
+        "갤러리",
+        "비엔날레",
+        "아트페어"
+      ]
+    },
+    {
+      "section": "music",
+      "keywords": [
+        "앨범",
+        "콘서트",
+        "공연",
+        "쇼케이스",
+        "컴백",
+        "음원",
+        "투어 공연",
+        "페스티벌",
+        "빌보드",
+        "차트",
+        "신곡",
+        "히트곡",
+        "OST",
+        "가곡",
+        "월드투어 매출"
+      ]
+    }
+  ],
+  "culture_aliases": {
+    "drama": "tv",
+    "star": "startrip"
+  },
+  "regions": [
+    {
+      "id": "guam",
+      "name": "괌",
+      "keywords": [
+        "괌",
+        "guam",
+        "투몬",
+        "tumon",
+        "하갓냐",
+        "데데도"
+      ],
+      "desk_duty": "괌 지역의 해설·답사 기사를 맡습니다.",
+      "visible": true,
+      "currency": "USD",
+      "weather": {
+        "city": "하갓냐",
+        "lat": 13.4443,
+        "lon": 144.7937
+      }
+    },
+    {
+      "id": "saipan",
+      "name": "사이판",
+      "keywords": [
+        "사이판",
+        "saipan",
+        "티니안",
+        "tinian",
+        "북마리아나",
+        "마나가하",
+        "managaha",
+        "마리아나"
+      ],
+      "desk_duty": "사이판 지역의 해설·답사 기사를 맡습니다.",
+      "visible": true,
+      "currency": "USD",
+      "weather": {
+        "city": "사이판",
+        "lat": 15.185,
+        "lon": 145.7467
+      }
+    },
+    {
+      "id": "hawaii",
+      "name": "하와이",
+      "keywords": [
+        "하와이",
+        "hawaii",
+        "호놀룰루",
+        "honolulu",
+        "와이키키",
+        "waikiki",
+        "마우이",
+        "maui",
+        "오아후",
+        "oahu",
+        "빅아일랜드"
+      ],
+      "desk_duty": "하와이 지역의 해설·답사 기사를 맡습니다.",
+      "visible": true,
+      "currency": "USD",
+      "weather": {
+        "city": "호놀룰루",
+        "lat": 21.3069,
+        "lon": -157.8583
+      }
+    },
+    {
+      "id": "vietnam",
+      "name": "베트남",
+      "keywords": [
+        "베트남",
+        "vietnam",
+        "다낭",
+        "danang",
+        "da nang",
+        "호이안",
+        "hoi an",
+        "나트랑",
+        "냐짱",
+        "nha trang",
+        "푸꾸옥",
+        "phu quoc",
+        "하노이",
+        "hanoi",
+        "호치민",
+        "ho chi minh",
+        "달랏"
+      ],
+      "desk_duty": "베트남 지역의 해설·답사 기사를 맡습니다.",
+      "visible": true,
+      "currency": "VND",
+      "weather": {
+        "city": "다낭",
+        "lat": 16.0544,
+        "lon": 108.2022
+      }
+    },
+    {
+      "id": "kota",
+      "name": "코타키나발루",
+      "keywords": [
+        "코타키나발루",
+        "코타키나바루",
+        "코타 키나발루",
+        "kota kinabalu"
+      ],
+      "desk_duty": "코타키나발루 지역의 해설·답사 기사를 맡습니다.",
+      "visible": true,
+      "currency": "MYR",
+      "weather": {
+        "city": "코타키나발루",
+        "lat": 5.9804,
+        "lon": 116.0735
+      }
+    },
+    {
+      "id": "laos",
+      "name": "라오스",
+      "keywords": [
+        "라오스",
+        "laos",
+        "비엔티안",
+        "vientiane",
+        "루앙프라방",
+        "luang prabang",
+        "방비엥",
+        "vang vieng"
+      ],
+      "desk_duty": "라오스 지역의 해설·답사 기사를 맡습니다.",
+      "visible": true,
+      "currency": "LAK",
+      "weather": {
+        "city": "비엔티안",
+        "lat": 17.9757,
+        "lon": 102.6331
+      }
+    },
+    {
+      "id": "jeju",
+      "name": "제주",
+      "keywords": [
+        "제주",
+        "jeju",
+        "서귀포"
+      ],
+      "desk_duty": "제주 지역의 해설·답사 기사를 맡습니다.",
+      "visible": true,
+      "weather": {
+        "city": "제주",
+        "lat": 33.4996,
+        "lon": 126.5312
+      }
+    },
+    {
+      "id": "japan",
+      "name": "일본",
+      "keywords": [
+        "일본",
+        "japan",
+        "도쿄",
+        "tokyo",
+        "오사카",
+        "osaka",
+        "후쿠오카",
+        "fukuoka",
+        "삿포로",
+        "sapporo",
+        "교토",
+        "kyoto",
+        "오키나와",
+        "okinawa",
+        "나고야",
+        "nagoya",
+        "규슈",
+        "kyushu",
+        "홋카이도",
+        "hokkaido",
+        "간사이",
+        "kansai",
+        "벳푸",
+        "나리타",
+        "narita",
+        "하네다",
+        "haneda",
+        "신치토세",
+        "하카타",
+        "간사이공항",
+        "니세코",
+        "구마모토",
+        "가고시마",
+        "나가사키",
+        "히로시마",
+        "센다이",
+        "다카마쓰",
+        "시즈오카",
+        "엔저"
+      ],
+      "desk_duty": "일본 지역의 해설·답사 기사를 맡습니다.",
+      "visible": true,
+      "currency": "JPY",
+      "weather": {
+        "city": "오사카",
+        "lat": 34.6937,
+        "lon": 135.5023
+      }
+    },
+    {
+      "id": "thailand",
+      "name": "태국",
+      "keywords": [
+        "태국",
+        "thailand",
+        "방콕",
+        "bangkok",
+        "푸껫",
+        "phuket",
+        "치앙마이",
+        "chiang mai",
+        "파타야",
+        "pattaya",
+        "수완나품",
+        "끄라비",
+        "krabi",
+        "사무이",
+        "samui",
+        "후아힌"
+      ],
+      "desk_duty": "태국 지역의 해설·답사 기사를 맡습니다.",
+      "visible": true,
+      "currency": "THB",
+      "weather": {
+        "city": "방콕",
+        "lat": 13.7563,
+        "lon": 100.5018
+      }
+    },
+    {
+      "id": "taiwan",
+      "name": "대만",
+      "keywords": [
+        "대만",
+        "taiwan",
+        "타이베이",
+        "taipei",
+        "타이완",
+        "가오슝",
+        "kaohsiung",
+        "타이중",
+        "taichung",
+        "타오위안",
+        "taoyuan",
+        "지우펀",
+        "화롄",
+        "타이난",
+        "臺灣",
+        "台灣"
+      ],
+      "desk_duty": "대만 지역의 해설·답사 기사를 맡습니다.",
+      "visible": true,
+      "currency": "TWD",
+      "weather": {
+        "city": "타이베이",
+        "lat": 25.033,
+        "lon": 121.5654
+      }
+    },
+    {
+      "id": "korea",
+      "name": "국내",
+      "keywords": [
+        "국내여행",
+        "국내 여행",
+        "국내관광",
+        "국내 관광",
+        "강원",
+        "강릉",
+        "속초",
+        "양양",
+        "춘천",
+        "평창",
+        "정선",
+        "삼척",
+        "인제",
+        "가평",
+        "양평",
+        "강화도",
+        "경주",
+        "안동",
+        "포항",
+        "울릉",
+        "독도",
+        "부산",
+        "해운대",
+        "통영",
+        "거제",
+        "남해",
+        "하동",
+        "진주",
+        "창녕",
+        "여수",
+        "순천",
+        "담양",
+        "목포",
+        "보성",
+        "전주",
+        "군산",
+        "남원",
+        "단양",
+        "제천",
+        "충주",
+        "공주",
+        "부여",
+        "태안",
+        "보령",
+        "DMZ",
+        "비무장지대"
+      ],
+      "desk_duty": "제주를 뺀 국내 여행지 기사를 맡습니다.",
+      "visible": true,
+      "require_travel_word": true
+    },
+    {
+      "id": "industry",
+      "name": "여행업계",
+      "keywords": [],
+      "desk_duty": "항공·여행사·정책 등 목적지를 가리지 않는 업계 소식을 맡습니다.",
+      "visible": true,
+      "destination": false
+    }
+  ],
+  "korea_travel_words": [
+    "관광",
+    "여행",
+    "축제",
+    "명소",
+    "해변",
+    "해수욕",
+    "호텔",
+    "리조트",
+    "숙박",
+    "투어",
+    "단풍",
+    "둘레길",
+    "산행",
+    "국립공원",
+    "정원",
+    "박람회",
+    "캠핑",
+    "미식",
+    "맛집",
+    "체험",
+    "야경",
+    "케이블카",
+    "온천",
+    "섬 ",
+    "트레킹",
+    "걷기",
+    "방문객",
+    "관람객",
+    "나들이",
+    "가볼 만한",
+    "가볼만한",
+    "카약",
+    "서핑",
+    "레저",
+    "여행객",
+    "관광객",
+    "로컬",
+    "문화유산",
+    "세계유산"
+  ],
+  "reporters": [
+    {
+      "name": "김태성",
+      "beats": [
+        "guam",
+        "saipan"
+      ]
+    },
+    {
+      "name": "이병훈",
+      "beats": [
+        "japan"
+      ]
+    },
+    {
+      "name": "이우재",
+      "beats": [
+        "vietnam",
+        "laos"
+      ]
+    },
+    {
+      "name": "장미화",
+      "beats": [
+        "thailand",
+        "kota",
+        "taiwan"
+      ]
+    },
+    {
+      "name": "이승훈",
+      "beats": [
+        "hawaii",
+        "jeju",
+        "korea",
+        "data",
+        "industry"
+      ]
+    },
+    {
+      "name": "한수비",
+      "beats": [
+        "ent"
+      ]
+    }
+  ],
+  "general_reporter": "이승훈",
+  "home": {
+    "hero_count": 4,
+    "travel_block_size": 11,
+    "culture_grid": 6,
+    "culture_block_size": 5,
+    "latest_count": 10,
+    "photo_row": 8,
+    "show_data_strip": true,
+    "show_photo_row": true,
+    "show_video": true,
+    "order": [
+      "travel",
+      "culture",
+      "culture_sections",
+      "latest"
+    ],
+    "pinned_lead": ""
+  }
+}

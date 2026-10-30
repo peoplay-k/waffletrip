@@ -70,8 +70,10 @@ def on_site(items: list[Item]) -> list[Item]:
     각색해서 넣는다"(2026-10-01 편집국장 미팅). 수집은 계속하고 data/items 에도
     그대로 쌓는다. 해설을 쓸 재료이기 때문이다. 그 전에 실린 인용은 그대로 둔다.
     """
+    # 편집실에서 내린 기사(hidden, 2026-10-30)는 기사 쪽·목록·피드·사이트맵 어디에도 내지 않는다.
     return [i for i in items
-            if not (i.grade == "B" and (i.collected_at or "")[:10] >= ADAPT_FROM)]
+            if not (i.grade == "B" and (i.collected_at or "")[:10] >= ADAPT_FROM)
+            and not getattr(i, "hidden", False)]
 
 
 def load_recent_items(items_dir: str, today: str,

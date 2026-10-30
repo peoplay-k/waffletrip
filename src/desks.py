@@ -21,7 +21,8 @@ from __future__ import annotations
 
 from src.brand import SITE_NAME as BRAND  # noqa: E402 — 정본은 brand.py
 
-from src.models import ADAPT_FROM, REGION_NAMES  # noqa: E402
+from src import site_config as _sc  # noqa: E402
+from src.models import ADAPT_FROM, REGION_NAMES, VISIBLE_REGIONS  # noqa: E402
 
 # 실명 기자 명부 — 2026-10-01 편집국장 미팅 회의록의 피플레이 직원 여섯 명.
 # 이름 → 맡은 지면. 지면 키는 지역(models.REGIONS)·"ent"(연예)·"data"(환율·날씨).
@@ -31,22 +32,16 @@ from src.models import ADAPT_FROM, REGION_NAMES  # noqa: E402
 # 데이터 · 연예). 회의록에는 누가 무엇을 맡는지 없어 이 나눔은 임시다 — 바꿀 때는
 # 여기만 고친다.
 # ★지어내지 않는다. 회사에 실제로 있는 사람만 올린다.
-REPORTERS: dict[str, tuple[str, ...]] = {
-    "김태성": ("guam", "saipan"),
-    "이병훈": ("japan",),
-    "이우재": ("vietnam", "laos"),
-    "장미화": ("thailand", "kota", "taiwan"),
-    "이승훈": ("hawaii", "jeju", "korea", "data", "industry"),
-    "한수비": ("ent",),
-}
+# 2026-10-30 부터 정본은 config/site.json(reporters, general_reporter) — 편집실에서 사장님이 고친다.
+REPORTERS: dict[str, tuple[str, ...]] = _sc.reporters(_sc.CONFIG)
 # 맡은 사람이 없는 지면(새로 연 지역 등)은 이 사람이 맡는다.
-GENERAL_REPORTER = "이승훈"
+GENERAL_REPORTER = _sc.CONFIG.get("general_reporter") or next(iter(REPORTERS), "")
 # 실명 서명이 시작되는 날. 2026-10-01 미팅 결정과 같은 날이다.
 REPORTERS_FROM = ADAPT_FROM
 # 지면 → 기자
 BEATS: dict[str, str] = {beat: name for name, beats in REPORTERS.items()
                          for beat in beats}
-BEAT_NAMES: dict[str, str] = {**REGION_NAMES, "ent": "문화",
+BEAT_NAMES: dict[str, str] = {**REGION_NAMES, "ent": _sc.CONFIG["channels"]["ent"]["name"],
                               "data": "환율·날씨"}
 
 # 기사 종류. 초안 앞머리의 `kind` 에 적는다. 네이버 제휴 심사는 자체 기사
@@ -56,20 +51,7 @@ KINDS = ("취재", "기획", "인터뷰", "해설", "보도자료")
 OWN_KINDS = ("취재", "기획", "인터뷰")
 
 # 지역 해설 기사의 데스크
-REGION_DESKS = {
-    "guam": f"{BRAND} 괌 데스크",
-    "saipan": f"{BRAND} 사이판 데스크",
-    "hawaii": f"{BRAND} 하와이 데스크",
-    "vietnam": f"{BRAND} 베트남 데스크",
-    "kota": f"{BRAND} 코타키나발루 데스크",
-    "laos": f"{BRAND} 라오스 데스크",
-    "jeju": f"{BRAND} 제주 데스크",
-    "japan": f"{BRAND} 일본 데스크",
-    "thailand": f"{BRAND} 태국 데스크",
-    "taiwan": f"{BRAND} 대만 데스크",
-    "korea": f"{BRAND} 국내 데스크",
-    "industry": f"{BRAND} 여행업계 데스크",
-}
+REGION_DESKS = {rid: f"{BRAND} {name} 데스크" for rid, name in REGION_NAMES.items()}
 DATA_DESK = f"{BRAND} 데이터팀"
 EDIT_DESK = f"{BRAND} 편집팀"
 # 연예 채널의 기본 서명. 지역이 없으므로 데스크가 하나다.
@@ -91,19 +73,9 @@ DESK_DUTIES = (
      "자동"),
     (EDIT_DESK, "다른 매체의 보도를 골라 제목과 두 문장 요약에 원문 링크를 답니다.",
      "자동"),
-    (REGION_DESKS["guam"], "괌 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
-    (REGION_DESKS["saipan"], "사이판 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
-    (REGION_DESKS["hawaii"], "하와이 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
-    (REGION_DESKS["vietnam"], "베트남 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
-    (REGION_DESKS["kota"], "코타키나발루 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
-    (REGION_DESKS["laos"], "라오스 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
-    (REGION_DESKS["jeju"], "제주 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
-    (REGION_DESKS["japan"], "일본 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
-    (REGION_DESKS["thailand"], "태국 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
-    (REGION_DESKS["taiwan"], "대만 지역의 해설·답사 기사를 맡습니다.", "AI 작성 · 사람 지침"),
-    (REGION_DESKS["korea"], "제주를 뺀 국내 여행지 기사를 맡습니다.", "AI 작성 · 사람 지침"),
-    (REGION_DESKS["industry"], "항공·여행사·정책 등 목적지를 가리지 않는 업계 소식을 맡습니다.",
-     "AI 작성 · 사람 지침"),
+    # 지역 데스크 — 하는 일 설명은 config/site.json(regions[].desk_duty). 숨긴 지역은 소개하지 않는다.
+    *((REGION_DESKS[rid], duty, "AI 작성 · 사람 지침")
+      for rid, duty in _sc.desk_duties(_sc.CONFIG).items() if rid in VISIBLE_REGIONS),
     (ENT_DESK, "영화, 방송·드라마, 음악, 공연·전시, '스타의 여행' 기사를 맡습니다. "
                "소속사·배급사 보도자료와 현장 취재로 씁니다.", ENT_HOW),
 )
