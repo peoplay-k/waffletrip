@@ -253,7 +253,8 @@ def test_every_auto_google_search_source_turns_industry_off():
 
 def test_new_korean_trade_press_is_curated_auto():
     by_id = _real()
-    for sid in ("kr_gtn", "kr_ktnbm", "kr_travelpress"):
+    # kr_gtn(세계여행신문)은 첫 실행에 404 라 꺼 두었다(sources.yaml 주석) — 켜진 것만 본다
+    for sid in ("kr_ktnbm", "kr_travelpress"):
         assert by_id[sid].region == "auto" and by_id[sid].curated is True, sid
         assert by_id[sid].url.endswith("/rss/allArticle.xml"), sid
     for sid in ("kr_hotelrestaurant", "kr_hotelavia", "kr_kdfnews"):   # 외식·화장품이 섞인다
