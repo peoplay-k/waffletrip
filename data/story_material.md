@@ -14,8 +14,8 @@
 
 ### 박수홍♥김다예, '비행기 민폐 논란' 괌 여행기는 없다…'딸 없이' 떠난 여행부터 공개 [엑's 이슈]
 - 매체 1곳 · 엑스포츠뉴스
-  - 엑스포츠뉴스: 
-    https://news.google.com/rss/articles/CBMiVEFVX3lxTE05WVNhN1lmT0xwdlNia2JfZjhGUWRIdXFOMEhQQlpUNTQyYVphRWtTOXNUWGdQZlZhS3ZKRmZhWmNPVURNSF9OU3EyTDNDWmN5dUZfdg?oc=5
+  - 엑스포츠뉴스: (엑스포츠뉴스 김수아 기자) 방송인 박수홍이 비행기 민폐 논란이 불거졌던 괌 여행을 공개하지 않은 가운데, 아내 김다예와 단둘이 떠난 뉴질랜드 여행기를 공개해 눈길을 끈다. 26일 박수홍 가족의 유튜브 채널에는 '아빠 박수홍 뉴질랜드로 떠나다!
+    https://www.xportsnews.com/article/2212028
 
 ## 사이판
 
@@ -26,15 +26,15 @@
   - TTL뉴스: 겨울방학을 앞두고 자녀의 어학 교육과 가족 단위 여가를 결합한 체류형 교육 여행 상품이 주목받고 있다. 이랜드파크 해외호텔법인이 운영하는 PIC 사이판은 현지 정규 사립학교 수업과 리조트 액티비티를 결합한 겨울방학 프로그램인 아카데믹 펀 스쿨링을 10월 30일부터 운영한다고 밝혔다.
     http://www.ttlnews.com/news/articleView.html?idxno=3157106
 
+### [유통레이더] 롯데홈쇼핑, 신세계인터내셔날, PIC 사이판, 모두투어, 에이스침대, 에스트라 外
+- 매체 1곳 · 데일리한국
+  - 데일리한국: [데일리한국 김보라, 안세진, 남궁휘 기자]◇에이스침대, 가을 맞이 ‘Fall in Sleep’ 대형 프로모션 진행에이스침대가 본격적인 가을·겨울 시즌을 맞아 오는 12월 6일까지 전국 대리점, 백화점, 온라인몰에서 ‘Fall in Sleep’ 프로모션을 전개한다.
+    https://daily.hankooki.com/news/articleView.html?idxno=1420053
+
 ### 이랜드파크 PIC사이판, 방학 맞아 ‘에듀캉스’ 프로모션
 - 매체 1곳 · 파이낸셜포스트
   - 파이낸셜포스트: 이랜드파크 해외호텔법인이 운영하는 PIC사이판은 자녀의 영어 교육과 가족 휴양을 동시에 원하는 고객을 위한 ‘아카데믹 펀 스쿨링(Academic Fun Schooling)’ 특별 프로모션을 선보인다고 30일 밝혔다. 이번 상품은 PIC사이판이 겨울방학을 앞두고 마련한 상품으로, 202
     https://www.financialpost.co.kr/news/articleView.html?idxno=283544
-
-### [유통레이더] 롯데홈쇼핑, 신세계인터내셔날, PIC 사이판, 모두투어, 에이스침대, 에스트라 外
-- 매체 1곳 · 데일리한국
-  - 데일리한국: 
-    https://news.google.com/rss/articles/CBMib0FVX3lxTE9ka0VzSklSd0w0dHdqTWxaQklpN0VKSTUzcjVrZEVWM2s4SFg4UGgwdFBwMkc3dW95U3pROWNEdExhY2stRTJoUnRQMXVhWXFCamZObHhTajFZMFg1eEhJWFdUZmhwdEVBbDlBT1E4MNIBc0FVX3lxTE1wWEE4Z3BoWlp4b3pvRU9pSTllbTJsTkZreVJ2VzFpSTNVM0hWT05nZk5YaGFqdnVrc251ME9vNkxOeEwzNzUxSlRnajNvMW5aVGQ5dUMtM1NjVXVraDlFUGhlS21HWUM2cnpWM3d1NTFBN1E?oc=5
 
 ### 미국, 중국인의 북마리아나 제도 비자 면제 중단, 출산 여행 및 안보 우려―프랑스 매체
 - 매체 1곳 · Record China
@@ -94,35 +94,41 @@
 ## 베트남
 
 ### 진에어, 12월 24일부터 인천~호찌민 노선 신규 취항
-- 매체 5곳 · www.ebn.co.kr · 글로벌이코노믹 · 뉴스1 · 데일리로그 · 조선비즈  ← 여러 곳이 썼다
+- 매체 6곳 · 글로벌이코노믹 · 뉴스1 · 데일리로그 · 이비엔(EBN)뉴스센터 · 조선비즈 · 파이낸셜뉴스  ← 여러 곳이 썼다
   - 조선비즈: 진에어, 12월 24일부터 인천~호찌민 노선 신규 취항
     https://biz.chosun.com/industry/company/2026/10/27/7VYQCZZ44JB75PZYHIWX6KQOG4/
-  - www.ebn.co.kr: 
-    https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qWDJpWkhKekRDUHFJMkVLclpGcDNFYzJ6ZWNtQlhJMkFtZkpPc2V1bnZtRDRFQkZOLWlaalpZLVlCaGdQMXpheWxzM0xNeG1NUzFweXdjU09WTTByZlN4MHNGeHAwVGo1?oc=5
+  - 이비엔(EBN)뉴스센터: 진에어, 12월 24일 '인천-호찌민' 노선 신규 취항진에어는 오는 12월 24일부터 인천-호찌민 노선에 신규 취항한다고 27일 밝혔다. 인천-호찌민 노선에는 1
+    https://www.ebn.co.kr/news/articleView.html?idxno=1729372
   - 뉴스1: 
-    https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XcGJxSVdrVFlLQmtYdTVTa2RjTkNvWWJ4YTFJWWIyTUJMTUhncVRRN19jelNObmhDQ1ZJZHpGa0NDRE1XdG1FQjBvSE1CT255Rm1HZEc1VzJhYnVXRW1OZnJGN1g?oc=5
-  - 글로벌이코노믹: 
-    https://news.google.com/rss/articles/CBMihgFBVV95cUxNNWZwQjZWWFZMbTJCYlEtaFZ1UGJrYzdqMmV2VV9pLTJSSVhIb1M2QmJzYmlUamxGNXBZckFXVkpyZ2RqTUFsRUFxeTJZRWF5UW5Xb3BMZ0Y0ekNGQjNRR3JFYnp0MzZZNXBIanM3elV3UkljWnhyTXRQYmtKTURra3lWNzJiQQ?oc=5
+    https://www.news1.kr/industry/general-industry/6333039
+  - 글로벌이코노믹: 진에어가 겨울철 해외여행 수요를 겨냥해 베트남 호찌민에 새 정기편을 띄우며 동남아 노선망 확장에 나섰다. 진에어는 오는 12월 24일부터 인천-호찌민 노선에 주 7회 일정으로 신규 취항한다고 27일 밝혔다.
+    https://www.g-enews.com/article/Industry/2026/10/202610271045434763ea14faf6f5_1
 
-### 육지 체류 8시간, 이동 3시간: 나트랑 관광의 '골칫거리'.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 크루즈선 승객들은 육지에 약 8시간 정도밖에 머물지 못하는데, 깜란 국제항에서 나트랑 시내 중심부까지, 그리고 그 반대로 이동하는 데 최대 3시간이 걸립니다. 이는 칸화성 크루즈 관광의 주요 병목 현상 중 하나입니다.
-    https://www.vietnam.vn/ko/len-bo-8-tieng-di-chuyen-mat-3-tieng-con-dau-dau-cua-du-lich-nha-trang
+### 전북문화관광재단, 베트남 관광객 유치 나선다
+- 매체 3곳 · 강소기업뉴스 · 웹이코노미 · 투데이안  ← 여러 곳이 썼다
+  - 투데이안: -하노이서 관광설명회 개최… 현지 여행업계 40여 명에 전북 관광 홍보-내년 3월 팸투어 추진… 계절별 축제 연계 관광상품 개발 협력[투데이안] 전북특별자치도문화관광재단이 베트남 현지 여행업계와 협력해 전북 관광상품 개발과 외국인 관광객 유치에 나섰다.
+    https://www.todayan.com/news/articleView.html?idxno=634998
+  - 웹이코노미: 
+    https://news.google.com/rss/articles/CBMickFVX3lxTFBLcTNEb1FyMnhabnVmSzJIQ2tvcXcwcXMwTmY5ZlY1dXpJa2lPbF9HQVhUbUkyM19IZkZtNTg2SEoyODVPeFN1QTdaY3BwU1RuSzBfbU5iRGxmUDd0SDFzUHViamtfZ3h4VzdBR2JFcXpFdw?oc=5
+  - 강소기업뉴스: 
+    https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxeHhNRG80bGotb3NpSy1scDJJbnJnaHJ5ZG9qZ0czR0R3enNZTFRxOUdWMFo4WU95LWZMcTNUT2JVaXhEMElPeGY5RTJXeWxYX2pF?oc=5
 
-### 다낭은 2026년 말에 다양한 독특한 축제와 행사를 개최할 예정입니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 2026년 마지막 몇 달 동안 다낭시는 다양한 장소에서 문화, 예술, 유산 및 새해 축제 행사를 개최하여 관광 상품을 다양화하고 시장을 활성화하며 국내외 관광객을 유치하는 데 기여할 것입니다.
-    https://www.vietnam.vn/ko/da-nang-to-chuc-nhieu-le-hoi-su-kien-dac-sac-dip-cuoi-nam-2026
+### 필로폰 초코파이 포장지 속 항공택배 밀수…베트남인 무더기 검거
+- 매체 2곳 · 뉴스1 · 동아일보  ← 여러 곳이 썼다
+  - 동아일보: 자국에서 마약을 밀수해서 국내에 유통하고 이를 구매해 투약한 베트남 국적의 외국인들이 무더기로 검거됐다. 목포해양경찰서는 마약류관리법 위반(향정) 등 혐의로 베트남 국적 외국인 9명을 송치했다고 26일 밝혔다.
+    https://www.donga.com/news/Society/article/all/20261026/134909787/1
+  - 뉴스1: 
+    https://www.news1.kr/local/gwangju-jeonnam/6332000
 
-### 호주 인명구조협회는 다낭의 관광 해변을 위한 해변 구조팀을 훈련시키고 있습니다.
+### 다낭 리조트 지역 중심부에 위치한 해변 아파트의 매력.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 호주 인명구조협회는 손트라 반도 및 다낭 해변 관리 위원회 인명구조팀 대원들을 대상으로 이틀간의 전문성 개발 프로그램을 개최했습니다.
-    https://www.vietnam.vn/ko/hiep-hoi-cuu-ho-uc-tap-huan-cho-doi-cuu-ho-bien-cac-bai-bien-du-lich-da-nang
+  - vietnam.vn: 세계에서 가장 아름다운 해변의 멋진 전망을 자랑하는 쯔엉사 거리에 위치한 뉴타운 다이아몬드는 세계 100대 관광, 리조트 및 골프 코스 생태계와 연결되어 있어 주거, 휴가 및 투자 기회에 대한 모든 요구를 충족하는 최적의 선택입니다.
+    https://www.vietnam.vn/ko/suc-hut-cua-can-ho-huong-bien-tai-tam-diem-nghi-duong-da-nang
 
-### 창의적인 예술은 다낭 관광의 매력을 더해줍니다.
+### 다낭시 문화체육관광국은 일련의 인사 변동을 발표하고 세 개의 산하 부서를 신설합니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 20개 이상의 문화, 예술, 창의적 체험 프로그램을 제공하는 다낭 창의예술커넥션 2026은 새로운 관광 상품을 선보이며 연말 관광객 유치에 기여할 것으로 기대됩니다.
-    https://www.vietnam.vn/ko/nghe-thuat-sang-tao-mo-them-suc-hut-cho-du-lich-da-nang
+  - vietnam.vn: VHO - 다낭 문화유산박물관관리센터, 다낭예술극장, 시립스포츠훈련경기센터 등 3개의 새로운 시설이 공식 설립되었습니다.
+    https://www.vietnam.vn/ko/so-vhttdl-tp-da-nang-cong-bo-loat-nhan-su-va-thanh-lap-3-don-vi-truc-thuoc
 
 ## 코타키나발루
 
@@ -181,8 +187,8 @@
 - 매체 2곳 · 에너지경제신문 · 트래블데일리  ← 여러 곳이 썼다
   - 트래블데일리: 모두투어는 캠핑 전문 유튜버와 공동 기획한 ‘녜두투어’의 신규 캠핑 지역인 일본 홋카이도에서 캠핑투어를 성공적으로 마무리하며 취향 기반 테마여행의 운영 지역을 확대했다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72499
-  - 에너지경제신문: 
-    https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXMXB2eHh1MEp6WnZxOFBSZHg3cFI0U3Q0NHFJN2NnQ2NGQkJfNE9XcnpSNllaVUVfd3haVjZKamhpa1p3am9PNElHaUZpWkRUdGpCMVJ0N0lPUV9wUTgydENn?oc=5
+  - 에너지경제신문: ◇ 하나투어, 2일차 오로라 헌팅·북홍촌 설원…하얼빈-모허 국내선 포함 하나투어가 중국 최북단 도시 `모허`에서 오로라를 찾아 나서는 신상품 `하얼빈/모허 5일`을 내. .
+    http://www.ekn.kr/web/view.php?key=20261029026333076
 
 ### 크루지아, 대만 기륭 출발 ‘스타 내비게이터’ 오키나와 크루즈 운항 일정 공개
 - 매체 2곳 · 디스커버리뉴스(DISCOVERYNEWS) · 잡포스트(JOBPOST)  ← 여러 곳이 썼다
@@ -212,30 +218,36 @@
 
 ## 태국
 
+### 지아 라이 시장은 푸껫 공항 2번 활주로 개통식을 갖고 국제선 항공편 운항을 환영했습니다.
+- 매체 1곳 · vietnam.vn  ← 여러 곳이 썼다
+  - vietnam.vn: 호꾸옥중 부총리는 푸껫 공항 제2활주로 개통이 지아라이주가 무역을 확대하고, 투자를 유치하고, 관광 및 서비스 산업을 발전시키고, 지역 및 국제적 연계를 강화할 수 있는 특별한 기회라고 밝혔습니다.
+    https://www.vietnam.vn/ko/gia-lai-khanh-thanh-duong-bang-so-2-san-bay-phu-cat-va-don-chuyen-bay-quoc-te
+  - vietnam.vn: 435일 밤낮의 공사 끝에 총 3조 2450억 VND가 투자된 푸껫 공항(자라이성)의 제2 활주로 건설 및 관련 기술 기반 시설 공사가 완료되어 상업 항공편 운항 준비를 마쳤습니다.
+    https://www.vietnam.vn/ko/duong-bang-san-bay-phu-cat-truoc-ngay-khanh-thanh
+  - vietnam.vn: 푸캇 공항과 플레이쿠 공항, 특히 활주로가 두 개인 푸캇 공항을 보유한 지아라이는 항공 노선을 확장 및 유지하고 안정적인 승객 공급원을 확보하여 관광 발전을 촉진할 수 있는 더 많은 기회를 가지고 있습니다.
+    https://www.vietnam.vn/ko/khai-thac-duong-bang-so-2-san-bay-phu-cat-cu-hich-cho-du-lich-gia-lai-cat-canh
+
+### 밤부 에어웨이즈가 푸껫 공항 2번 활주로를 개통했습니다.
+- 매체 1곳 · vietnam.vn  ← 여러 곳이 썼다
+  - vietnam.vn: 마카오에서 172명의 승객을 태운 직항편이 푸껫 공항에 착륙하면서 공항의 두 번째 활주로가 개통되었습니다.
+    https://www.vietnam.vn/ko/bamboo-airways-khai-truong-duong-bang-so-2-san-bay-phu-cat
+  - vietnam.vn: 10월 29일, 자라이성은 제2 활주로 건설 준공식을 개최하고 밤부 에어웨이즈가 운항하는 마카오(중국)발 국제선 항공편의 취항을 환영했습니다.
+    https://www.vietnam.vn/ko/gia-lai-khanh-thanh-duong-cat-ha-canh-so-2-cang-hang-khong-phu-cat
+
+### 태국 남부 호텔업계, 서울서 한국 여행사와 관광 협력 논의
+- 매체 1곳 · 디스커버리뉴스(DISCOVERYNEWS)
+  - 디스커버리뉴스(DISCOVERYNEWS): 태국 남부 관광업계가 한국 여행사들과 숙박 및 관광상품 개발을 위한 협의에 나섰다. 푸껫에 집중된 관광 일정을 인접한 팡아와 크라비까지 연결하고, 여행객의 체류 목적에 맞춰 해안 리조트와 현지 체험시설을 결합하는 방안이 논의됐다.
+    https://www.discoverynews.kr/news/articleView.html?idxno=1105279
+
 ### [관광/경제] 태국, 베트남을 5대 핵심 관광시장으로 선정…맞춤형 관광 전략 강화
 - 매체 1곳 · 굿모닝베트남미디어
   - 굿모닝베트남미디어: 【굿모닝베트남미디어】 태국이 베트남을 아시아 5대 핵심 관광시장 중 하나로 선정하고, 베트남 관광객 유치를 위한 맞춤형 마케팅 전략을 강화한다. 태국 관광청(TAT)은 베트남을 대만(중국), 말레이시아, 인도네시아, 싱가포르와 함께 주요 관광시장으로 분류하고, 관광객의 소비 특성과 여행
     https://www.goodmorningvietnam.co.kr/news/article.html?no=84320
 
-### 태국, 출국세 도입 연기…"관광산업 성장이 더 중요"
-- 매체 1곳 · 아세안익스프레스
-  - 아세안익스프레스: 태국 정부가 모든 출국 여행객에게 1인당 1,000바트(약 4만3,000원)의 출국세를 부과하는 방안을 일단 보류하기로 했다. 관광객 수 감소와 에너지 가격 상승 등으로 관광산업의 불확실성이 커진 상황에서, 추가적인 비용 부담을 피하고 관광산업 회복을 우선시하기로 한 것이다.
-    https://www.aseanexpress.co.kr/news/article.html?no=13169
-
-### 태국 호텔 148곳 폐업…부진한 관광 수요에 직격탄
-- 매체 1곳 · 베트남 교민잡지 ! 씬짜오 베트남
-  - 베트남 교민잡지 ! 씬짜오 베트남: 2026년 1~9월 태국에서 호텔·숙박업소 148곳이 폐업 신고를 한 것으로 나타났다. 이는 전년 동기 대비 42% 증가한 수치로, 관광 수요 부진과 경쟁 심화, 비용 상승이 복합적으로 작용한 결과다.
-    https://chaovietnam.co.kr/192719/
-
-### 태국은 베트남 관광객을 '핵심 목표 고객'으로 보고 있다.
+### 푸껫 공항의 제2 활주로가 개통되었으며, 마카오(중국)발 전세기가 환영받았습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 태국 관광청은 베트남을 아시아 5대 핵심 시장 중 하나로 선정하고, 가족 여행객, 밀레니얼 세대, Z세대 및 고급 관광객 유치에 집중하고 있습니다.
-    https://www.vietnam.vn/ko/thai-lan-xac-dinh-khach-viet-la-trong-diem
-
-### 태국이 베트남 관광객을 5대 주요 목표 시장에 포함시키는 이유는 무엇일까요?
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 태국은 지정학적 불확실성, 에너지 가격, 기술 변화와 관련된 세계적인 불확실성에도 불구하고 강력한 경제 성장을 경험할 것으로 예상되는 아시아 주요 시장의 관광객 유치에 집중할 것입니다.
-    https://www.vietnam.vn/ko/ly-do-thai-lan-dua-du-khach-viet-nam-vao-nhom-5-thi-truong-trong-diem
+  - vietnam.vn: (GLO) - 10월 29일 오후, 자라이성 인민위원회는 푸껫 공항 제2활주로 및 관련 시설 건설 투자 사업 준공식을 개최하고, 마카오(중국)발 국제 전세기를 맞이했다.
+    https://www.vietnam.vn/ko/khanh-thanh-duong-cat-ha-canh-so-2-cang-hang-khong-phu-cat-va-don-chuyen-bay-charter-tu-macau-trung-quoc
 
 ## 대만
 
@@ -265,6 +277,17 @@
     https://www.newsphere.kr/news/articleView.html?idxno=3229
 
 ## 국내
+
+### 11월 1일 보령 은행마을 단풍축제 개막
+- 매체 5곳 · 굿모닝충청 · 녹색경제신문 · 에이티엔뉴스 · 충남내포뉴스 · 한국사회복지저널  ← 여러 곳이 썼다
+  - 충남내포뉴스: 보령시는 11월 1일부터 15일까지 청라면 은행마을 일대에서 제12회 은행마을 단풍축제를 연다. 이번 축제는 '노랑마을이 진짜일까요?
+    https://www.naeponews.co.kr/news/articleView.html?idxno=71038
+  - 에이티엔뉴스: (충남=에이티엔뉴스) 박성민기자= 보령 성주산의 늦가을 정취를 만끽할 수 있는 ‘제23회 성주산 단풍축제’가 오는 11월 7일 성주문화복지센터 일원에서 열린다. 보
+    https://www.atnnews.co.kr/news/articleView.html?idxno=111831
+  - 한국사회복지저널: 보령시 성주면이 오는 11월 7일 성주문화복지센터 일원에서 제23회 성주산 단풍축제를 엽니다. 이번 행사는 성주산의 가을 풍경을 배경으로 면민과 방문객이 함께 어울리는 자리로 마련됐습니다.
+    http://www.ksw-news.com/news/articleView.html?idxno=3054757
+  - 녹색경제신문: [녹색경제신문 = 박웅현 기자]충남 보령 성주산의 가을 풍경을 즐기며 지역 주민들과 관광객들이 함께 어울리는 단풍축제가 오는 11월 7일 성주문화복지센터 일원에서 열린다. ◇ 풍물 길놀이부터 노래자랑까지…주민들이 만드는 축제올해로 23회째를 맞는 성주산 단풍축제는 단풍 관광에 주민 참여
+    https://www.greened.kr/news/articleView.html?idxno=353548
 
 ### 순천 저전동 정원마을 축제 31일 첫 개최…가을 체험 프로그램 운영
 - 매체 4곳 · 남도일보 · 백제뉴스 · 이트레블뉴스 · 한국사회복지저널  ← 여러 곳이 썼다
@@ -308,15 +331,6 @@
   - 트래블데일리: 부산관광공사가 남해군, 남해관광문화재단과 손잡고 ‘부산-남해 초광역 관광 활성화 및 지역 상생발전을 위한 3자 업무협약(MOU)’을 바탕으로 남해안 권역 관광 생태계 구축에 본격 나섰다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72504
 
-### 11월 1일 보령 은행마을 단풍축제 개막
-- 매체 3곳 · 에이티엔뉴스 · 충남내포뉴스 · 한국사회복지저널  ← 여러 곳이 썼다
-  - 충남내포뉴스: 보령시는 11월 1일부터 15일까지 청라면 은행마을 일대에서 제12회 은행마을 단풍축제를 연다. 이번 축제는 '노랑마을이 진짜일까요?
-    https://www.naeponews.co.kr/news/articleView.html?idxno=71038
-  - 에이티엔뉴스: (충남=에이티엔뉴스) 박성민기자= 보령 성주산의 늦가을 정취를 만끽할 수 있는 ‘제23회 성주산 단풍축제’가 오는 11월 7일 성주문화복지센터 일원에서 열린다. 보
-    https://www.atnnews.co.kr/news/articleView.html?idxno=111831
-  - 한국사회복지저널: 보령시 성주면이 오는 11월 7일 성주문화복지센터 일원에서 제23회 성주산 단풍축제를 엽니다. 이번 행사는 성주산의 가을 풍경을 배경으로 면민과 방문객이 함께 어울리는 자리로 마련됐습니다.
-    http://www.ksw-news.com/news/articleView.html?idxno=3054757
-
 ## 여행업계
 
 ### 9월에도 한국인 해외여행 제자리걸음
@@ -331,7 +345,7 @@
     https://www.hankyung.com/article/202610230424g
 
 ### 이스타항공, 인천~샤먼 노선 취항
-- 매체 6곳 · Chosunbiz · www.ebn.co.kr · 뉴스1 · 뉴스핌 · 아시아경제 · 트래블데일리  ← 여러 곳이 썼다
+- 매체 6곳 · Chosunbiz · 뉴스1 · 뉴스핌 · 아시아경제 · 이비엔(EBN)뉴스센터 · 트래블데일리  ← 여러 곳이 썼다
   - 트래블데일리: 이스타항공이 28일 오전, 중국 샤먼 노선에 신규 취항했다. 이스타항공의 인천~샤먼 노선은 주 4회(수, 목, 토, 일) 일정으로 운항한다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72486
   - 뉴스1: 
@@ -347,8 +361,8 @@
     https://www.segye.com/newsView/20261029508541
   - 마켓인: 국토교통부가 올해 동계기간 국제선 264개, 국내선 20개 노선의 정기 항공편 운항 일정을 확정했다. 일본과 중국 노선을 중심으로 국제선 운항이 늘어나고 부산과 청주 등 지방공항에서 출발하는 중국 직항 노선도 새롭게 개설된다.
     https://marketin.edaily.co.kr/News/ReadE?newsId=01433366645616528
-  - 경기일보: 
-    https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MeEpzRm9DdUlwZndYaXU5NS1PMUczSWdCUDByblN3QXFJcExGLTRKakx6U3BiY0lDLUcwbGRyS1duYlVGOE8xWW1HS0RhbkVfUDNyTGNreWVyUms?oc=5
+  - 경기일보: 한국공항공사는 오는 2027년 3월27일까지 이어지는 2026년 겨울 시즌 동안 전국 14개 공항에서 주 1만208편(1일 1천458편)의 정기편을 확대 운항한다고 28일 밝혔다. 이는 직전 여름 시즌 보다 주 110편(약 1.1%) 늘어난 규모로, 특히 국제선은 주
+    https://www.kyeonggi.com/article/20261028580345
   - 뉴스투데이: 
     https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SLTlKaWs5cmUzemFRNGhBel9CcUF6SU5NczFvMTM1anFjLTZhOFJKMFZ0UkFkcTgzdUE5S1ZreTZPdDYzdE1URE9qMUxjaEU5N0E0dVZhZEJObTBkLUE?oc=5
 
@@ -358,8 +372,26 @@
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72477
   - 뉴시스: [서울=뉴시스]송연주 기자 = 겨울방학을 앞두고 자녀의 연령과 관심사, 여행 목적에 따라 여행 상품을 선택할 수 있도록 기획전이 마련됐다. 교원투어 여행이지는 가족 여행객을 위한 '아이와 함께 떠나는 슬기로운 겨울여행' 기획전을 진행한다고 28일 밝혔다.
     https://www.newsis.com/view/NISX20261028_0003844160
-  - 파이낸셜포스트: 
-    https://news.google.com/rss/articles/CBMidEFVX3lxTE9tZWM2ZVVBaFFFdVBKR3FuUVQxYWpsUXNPSWRONkFIQWtkZlAwUG53NUlEN3Joay0zS3Y1YUswQVNmU0M1RWtOSkxkM2pYWFVkbFlxcFFtVUJRdnc1TmZvZVFNZ2d0M3l2OFVDcVF6ejcwZGMx?oc=5
+  - 파이낸셜포스트: 교원투어 여행이지가 겨울방학을 앞두고 가족 여행객을 위한 ‘아이와 함께 떠나는 슬기로운 겨울여행’ 기획전을 진행한다고 28일 밝혔다. 이번 기획전은 자녀의 연령과 관심사, 여행 목적에 따라 여행상품을 선택할 수 있도록 ▲교육 ▲체험&자연 ▲역사&문화 ▲박물관&미술관 ▲휴양 ▲3대가 함께
+    https://www.financialpost.co.kr/news/articleView.html?idxno=283003
+
+### 관광공사, 관광기념품 수상작 판로 확대…면세점 이어 약국까지
+- 매체 3곳 · 에너지경제신문 · 연합뉴스 · 오토레이싱  ← 여러 곳이 썼다
+  - 연합뉴스: (서울=연합뉴스) 구정모 기자 = 한국관광공사는 외국인 관광객의 주요 쇼핑 거점인 면세점과 즉시환급 사후면세 약국으로 대한민국 관광공모전 기념품. ..
+    https://www.yna.co.kr/amp/view/AKR20261030033700030
+  - 오토레이싱: 한국관광공사가 대한민국 관광공모전 기념품 부문 수상작의 유통 채널을 면세점과 주요 약국으로 넓히며 외국인 관광객과의 접점을 확대한다. 한국관광공사는 10월부터 판판면세점과 롯데면세점 제주점, 신세계면세점 명동점 등에 수상작 입점을 지원하고 있다.
+    https://www.autoracing.co.kr/news/articleView.html?idxno=50276
+  - 에너지경제신문: 한국관광공사가 대한민국 관광공모전(기념품 부문) 수상작을 이달부터 판판면세점·롯데면세점 제주점·신세계면세점 명동점에 차례로 입점시키고, 다음달부터는 즉시환급 사후면세 약국으로 판매. .
+    http://www.ekn.kr/web/view.php?key=20261030028553514
+
+### 청주공항 주말 슬롯 25% 확대…동계 국제선 21개 노선 편성
+- 매체 3곳 · YTN · 굿모닝충청 · 축제뉴스  ← 여러 곳이 썼다
+  - 축제뉴스: 청주국제공항의 동계기간 하루 운항 가능횟수가 평일 149회, 주말 180회로 확대됐다. 국제선 정기편은 5개 국가·지역, 21개 노선이 인가됐다.
+    https://www.chookjenews.kr/news/articleView.html?idxno=83538
+  - YTN: 
+    https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xUndITXFNYjA3aGhqM3hLbDFCcmhESlFmVE1iRGEzQXozazBUWHhzeE5UdGttWnhwbW9WUzh2WEQyUVd1QzRwSk5fVnhpQTdxdzk0Vy1yY29POGpXVGc?oc=5
+  - 굿모닝충청: 
+    https://news.google.com/rss/articles/CBMickFVX3lxTE1GQkFjWDJPX2RGT2gyeWlFQWJmaHktTllZN25tdWx3cXZjcW8wWEVYRUpMUENJdnU1QjJGMERLVW5wcU10VDBHLVpoUng1aHFXRTFMbDg3cXRjenRXbmllRzFmdllHNmRVUFV5Yzc5QnlfUQ?oc=5
 
 ### 경북 구미서 28~30일 ‘항공방위물류 박람회’···역대 최대 규모
 - 매체 3곳 · 경향신문 · 조선일보 · 파이낸셜뉴스  ← 여러 곳이 썼다
@@ -395,20 +427,6 @@
   - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 하이브리드 항공사(HSC) 에어프레미아가 동계 운항 시즌을 맞아 인천발 미주 및 아시아 전 노선의 탑승 스케줄 및 신규 취항 노선 일정을 발했다. 에어프레미아가 인천 출발 전 노선을 대상으로 운임 할인 및 혜택을 제공하는 ‘블랙프라이데이’ 프로모션을 진행한
     https://www.discoverynews.kr/news/articleView.html?idxno=1105337
 
-### “오로라 보러 북유럽?”…중국 최북단 ‘모허’로 떠나는 겨울 이색여행
-- 매체 2곳 · 투어코리아 · 트래블데일리  ← 여러 곳이 썼다
-  - 투어코리아: [투어코리아=조성란 기자] 오로라를 보기 위해 반드시 북유럽까지 갈 필요가 없어졌다. 하나투어가 중국 최북단 도시 모허를 찾는 겨울 여행 상품 ‘하얼빈·모허 5일’을 출시했다.
-    https://www.tournews21.com/news/articleView.html?idxno=146975
-  - 트래블데일리: 하나투어가 중국으로 오로라 헌팅을 떠날 수 있는 ‘모허’ 지역 신상품을 선보인다. 모허는 ‘중국의 북극’이라 불릴 만큼 청정 설경으로 잘 알려진 도시다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72511
-
-### ‘로컬 드라이브 캠페인’ 진행
-- 매체 2곳 · 아시아투데이 · 트래블데일리  ← 여러 곳이 썼다
-  - 트래블데일리: 문화체육관광부와 한국관광공사는 티맵(TMAP)과 함께 자동차로 지역 곳곳을 여행하며 다양한 혜택을 받을 수 있는 ‘로컬 드라이브 캠페인’을 11월 30일까지 진행한다. 이번 캠페인은 국민이 자동차 여행을 통해 잘 알려지지 않은 인구감소지역의 숨은 매력을 발견하고 실질적인 여행 혜택까지 
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72502
-  - 아시아투데이: 
-    https://news.google.com/rss/articles/CBMibkFVX3lxTE9BdnF4RjJaU1dCWXdfczZfX0ZzMjdiQnVqVEg5eU9mU29uZlk2OTZZanJvaUU4TkpEdzBxV0F1bTN3Q1NIZ1lpSnVxQmNKNzFFaXc0YmNiQTJfMkRQLUhWRDlfSERZaU9FWHh0ejRB?oc=5
-
 ## 연예 (편집실이 쓴다 — 자동 해설 대상 아님)
 
 ### [movie] 영화 ‘인생세탁소’ 다음달 4일 개봉 확정
@@ -432,6 +450,15 @@
     https://www.chosun.com/entertainments/2026/10/30/33D67LIYBREFJCZMQWJ25WAFFQ/
   - ER 이코노믹리뷰: ‘하트 오브 비스트’가 10월 29일 하루 2만1474명을 동원하며 박스오피스 1위에 올랐다. 개봉 첫날 2위로 출발한 뒤 하루 만에 정상을 차지했다.
     https://www.econovill.com/news/articleView.html?idxno=755465
+
+### [drama] 웨이브, 11월 콘텐츠 라인업 공개...'연애남매2'부터 'MAMA 2026 중계'까지 풍성
+- 매체 3곳 · 뉴스컬처 · 스탠딩아웃 · 아이러브PC방  ← 여러 곳이 썼다
+  - 뉴스컬처: [뉴스컬처 김지연 기자] 웨이브(Wavve)가 11월 신규 콘텐츠 라인업을 공개하며 다채로운 장르의 작품으로 시청자 공략에 나선다. 오리지널 연애 예능 ‘연애남매
+    https://www.nc.press/news/articleView.html?idxno=629814
+  - 스탠딩아웃: [스탠딩아웃 이강유 기자] =온라인 동영상 서비스(OTT) 웨이브(Wavve)가 11월 '먼슬리 웨이브'를 통해 강력한 오리지널 예능부터 독점 생중계, 지상파 기
+    https://www.standingout.kr/news/articleView.html?idxno=1775
+  - 아이러브PC방: 웨이브(대표 이양기)는 ‘먼슬리 웨이브’ 영상을 통해 오리지널 예능 ‘연애남매2’를 비롯해 드라마 ‘옆자리, 프란체스카’, ‘문무’, ‘라이어’ 등 다양한 신작을
+    https://www.ilovepcbang.com/news/articleView.html?idxno=202972
 
 ### [movie] 영화 ‘폴2: 데드포인트’ 11월 11일 개봉…해발 3,300m 고공 생존 스릴러
 - 매체 3곳 · bntnews · 재경일보 · 톱스타뉴스  ← 여러 곳이 썼다
@@ -486,11 +513,6 @@
   - 스포츠동아: [스포츠동아 이승미 기자] 유해진, 박해일, 이민호 주연의 영화 ‘암살자(들)’이 개봉 6주차에도 한국영화 박스오피스 정상을 지키며 장기 흥행을 이어가고 있다. 국내외 영화제에서 작품성을 인정받은 데 이어 꾸준한 관객 동원으로 흥행 뒷심을 발휘하고 있다.
     https://sports.donga.com/ent/article/all/20261027/134914055/1
 
-### [startrip] [인터뷰] 애니메이션만의 비약과 시적 허용 - 시노미야 요시토시 감독
-- 매체 1곳 · 씨네21
-  - 씨네21: 현실에서 볼 수 없는 불꽃놀이를 어떻게 보여줄 것인가. 는 이 질문에 너무도 황홀한 이미지의 애니메이션으로 답한다.
-    https://cine21.com/news/view/?mag_id=111142
-
 ---
 거리 64건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
@@ -499,14 +521,6 @@
 
 방송사 보도자료다. **문장을 옮기지 말고** 사실만 가져다 우리 문장으로 쓴다.
 사진은 쓰지 않는다 — 빌드가 프로그램 카드를 그린다.
-
-## KBS2 일일드라마 욕망의 덫 · 48회 — 10/30 19:50 방송
-- 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
-- 보도자료 제목: [일일드라마 욕망의 덫] 10월 30일 예고편 / 19:50 방송
-- 유튜브 예고(공식 KBS Drama): `@youtube fDLT-3IQa8U` — [48화 예고] 저희 아버지와 어떤 사이셨습니까?  [욕망의 덫] | KBS 방송
-- 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
-
-48회 은설은 마침내 현재가 남긴 물건을 손에 넣는다. 한편 미란은 석진의 방에서 찾은 라이터를 미끼로 영훈의 숨겨진 과거를 건드리는데...
 
 ## SBS 비서진 — 10/30 23:10 방송
 - 출처: SBS 보도자료(예능) · https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9314
@@ -588,56 +602,6 @@ EBS-경기도교육청, 자기주도학습부터 AI교육까지 미래교육 협
 [BLANK] 100억 받고 평생 춤 안 추기 vs 잔고 0원이지만 안무마다 빌보드 1위...리정이 내놓은 답은?!
 목록
 
-## MBC ? — 10/30 방송
-- 출처: MBC 보도자료 · https://with.mbc.co.kr/pr/press/view.html?idx=36949
-- 보도자료 제목: 추모 특집 앙코르 다큐멘터리 [파하, 최불암입니다] 오늘(30일) 오후 8시 40분 1부 방송
-
-MBC 추모 특집 앙코르 다큐멘터리 [파하, 최불암입니다] 오늘(30일) 오후 8시 40분 1부 방송
-- 방송 : 1부> 10월 30일(금) 오후 8시 40분
-2부> 11월 1일(일) 오전 9시 30분
-MBC 추모 특집 앙코르 다큐멘터리 <파하, 최불암입니다> 1, 2부가 오늘(30일)과 모레(1일) 각각 방송된다.
-특집 다큐 <파하, 최불암입니다>는 故 최불암 배우의 삶과 연기 세계를 되짚어보는 프로그램으로, 지난 5월 방송돼 시청자들에게 따뜻한 감동을 선사했다. 수십 년에 걸친 故 최불암 배우의 연기사를 한 편의 플레이리스트로 구성해 그의 작품과 인생을 음악으로 돌아본다.
-▶ “시청자에게 웃음과 위로를”… 故 최불암 배우의 ‘광대 정신’
-오래전부터 배우의 ‘광대 정신’을 강조해 온 배우 최불암. 그는 대중들의 삶의 무게를 함께 나누고, 웃음과 위로를 전하는 존재가 바로 ‘배우’라고 말한다. 앞서 다큐멘터리를 준비하면서도 故 최불암 배우는 “오랜 시간 저를 사랑해 주신 시청자 여러분께 감사의 마음을 전하고 싶습니다. 그게 광대의 마음 입니다” 라는 소회를 밝혔다.
-▶ “모든 이야기를 들어줄 것 같은 아버지”
-또, 배우 박근형, 고두심, 박상원, 채시라, 정경호 등 많은 동료, 후배 배우들이 출연해 그와 함께 했던 따뜻한 시간들을 되짚어본다. 배우 박근형은 ‘국민 아버지’와는 또 다른 매력을 지닌 배우 최불암의 청년 시절 이야기를 들려주고, 고두심 배우는 “모든 이야기를 다 들어줄 것 같은 아버지” 라고 말해 잔잔한 감동을 준다. 이밖에도 배우 박상원, 채시라, 정경호 등 후배 배우들도 출연해 최불암 배우와 함께했던 다양한 이야기와 추억을 소개한다.
-MBC 추모 특집 앙코르 다큐멘터리 <파하, 최불암입니다>는 오늘(30일) 금요일 오후 8시 40분 1부가, 오는 11월 1일 일요일 오전 9시 30분 2부가 각각 방송된다.//
-
-## MBC 인생도 각본이 필요해 — 10/31 08:10 방송
-- 출처: MBC 보도자료 · https://with.mbc.co.kr/pr/press/view.html?idx=36946
-- 보도자료 제목: [인생도 각본이 필요해] 22년을 함께했던 MBC 국민 드라마... <인생도 각본이 필요해> 시즌2, 세 번째 작품은 <전원일기>
-
-* 방송 : 10월 31일(토) 오전 8시 10분
-MBC <인생도 각본이 필요해(진행: 송일국, 박지민)>가 세 번째 이야기로 대한민국 최장수 드라마 <전원일기>를 소환한다.
-<인생도 각본이 필요해>는 오랫동안 시청자의 기억에 남은 MBC 명작 드라마를 매개로 건강 이슈를 자연스럽게 풀어내는 새로운 형식의 건강 교양 프로그램이다.
-1980년부터 22년 2개월간 총 1,088회가 방송된 <전원일기>는 양촌리 사람들의 희로애락을 그리며 온 국민의 사랑을 받았다. 김 회장 부부를 연기한 최불암과 김혜자를 실제 부부로 믿은 시청자가 있었을 만큼, 드라마와 현실의 경계를 허문 작품으로도 기억된다.
-MC 송일국에게도 <전원일기>는 특별한 인연이 있는 작품이다. 신인 시절 양촌리에 출연했던 그의 앳된 모습이 공개되자 스튜디오는 "풋풋하다", "진짜 젊다"며 들썩였는데, 정작 송일국은 "사실 우리 어머니가 나보다 먼저 나오셨다"며 뜻밖의 인연을 꺼냈다.
-이뿐만 아니라 <전원일기>를 떠올리면 22년간 일용엄니로 양촌리를 지켰던 배우 김수미도 빼놓을 수 없다. 하지만 그녀는 2024년 10월 고혈당 쇼크로 세상을 떠나 많은 이들에게 안타까움을 남겼다.
-혈당 문제는 뚜렷한 증상 없이 찾아오는 경우가 많다. <전원일기> 속 어머니 이은심(김혜자)도 그랬다. 나른함과 어지럼증을 나이탓으로 여긴 이은심(김혜자)이 병원에서 받아 든 진단은 바로 당뇨였다. 대한당뇨병학회의 '당뇨병 팩트시트 2024'에 따르면, 실제로 30세 이상 당뇨병 환자 4명 중 1명은 자신의 병을 모른 채 지낸다.
-이에 가정의학과 김시완 전문의는 손아귀 힘, 즉 악력과 당뇨병의 관계에 주목했다. 출연진이 직접 악력 측정에 나선 가운데, 마라톤 풀코스와 철인 3종까지 소화해 온 송일국이 과연 또래 평균을 넘었을지는 방송을 통해 확인 할 수 있다.
-혈당 관리는 군것질을 끊는 것만으로 끝나지 않는다. 매일 먹는 밥상의 구성을 조금만 바꿔도 식후 혈당 반응이 달라질 수 있기 때문이다. 이때 주목받는 것이 '당뇨콩'으로 불리는 루피니빈이다. 이날 방송에서는 백미 대신 루피니빈을 먹었을 때 식후 혈당이 실제로 얼마나 달라지는지, 그 결과와 함께 집에서도 손쉽게 따라 할 수 있는 루피니빈 레시피까지 살펴볼 예정이다.
-MBC <인생도 각본이 필요해> 시즌2 3회는 10월 31일 토요일 오전 8시 10분에 방송된다.
-
-## MBC 나눔 프로젝트 희망의 발걸음 — 10/31 10:00 방송
-- 출처: MBC 보도자료 · https://with.mbc.co.kr/pr/press/view.html?idx=36947
-- 보도자료 제목: [MBC 나눔 프로젝트 희망의 발걸음] ‘케냐 아이들의 버릴 수 없는 꿈-케냐 송일국 편’
-
-* 방송 : 10월 31일(토) 오전 10시
-[MBC 나눔 프로젝트 희망의 발걸음] 10년 만에 아프리카를 다시 찾은 배우 송일국, 케냐의 도심 빈민가와 남부 황무지에서 내일을 꿈꾸는 아이들을 만나다
-[MBC 나눔 프로젝트 희망의 발걸음] “지금, 지금 도와야 해요. 그러면 분명 달라질 수 있어요” 너무 일찍 어른이 된 아이들을 위한 배우 송일국의 간절한 호소
-- 화려한 도시의 짙은 그림자, 버려진 것들로 오늘을 살아가는 아이들
-믿고 보는 국민배우이자 자상한 삼둥이의 아빠로 오랜 세월, 아프리카와의 인연을 이어가고 있는 배우 송일국. 늘 마음에 있었지만 바쁜 일상에 쫓겨 한동안 찾지 못했던 아프리카로 무려 10년 만에 다시 향했다. 목적지는 아름다운 자연과 현대적인 도시 풍경이 공존하는 케냐의 수도 나이로비. 나이로비는 동부 아프리카의 대표적인 도시이지만 화려한 모습 뒤에는 하루 한 끼와 안전한 잠자리를 걱정하는 수많은 아이들이 있었는데… MBC 나눔프로젝트 <희망의 발걸음>을 통해 케냐의 가난한 아이들에게 한 발자국 다가간 배우 송일국의 여정을 따라가 본다.
-- “여기는 사람이 살 수 없는.. 살아서는 안되는 곳이에요”
-나이로비 도심에서 30분 거리의 무쿠루 지역. 거대한 쓰레기 매립장과 열악한 주거지가 맞닿은 이곳에서 사람들은 고철과 플라스틱을 찾아 팔며 생계를 이어간다. ‘쓰레기 산’처럼 보일 정도로 어마어마한 쓰레기에서 뿜어져 나오는 지독한 악취와 들끓는 해충 등 상상도 못 할 열악한 환경에 충격을 받은 것도 잠시, 송일국은 그런 상황에서도 가족을 위해 하루하루 힘겹게 살아가는 아이들의 모습에 눈을 떼지 못했다.
-- “엄마를 항상 기억하려고요” 아홉 살 메리의 가방 속 꿈
-9살 메리는 아버지와 함께 매립장에서 고철을 줍고 어린 동생을 돌보며 살아간다. 매일 열심히 일하며 고철을 모아도 겨우 하루 한 끼 옥수수죽을 먹으며 근근이 살아가는 형편이다. 설상가상으로 지난 1월, 엄마가 암으로 세상을 떠난 뒤 집안 사정은 더욱 어려워져 학교를 그만 두어야 했지만 아이에게는 소중히 간직한 꿈이 있다. 언젠가 다시 학교에 돌아가 열심히 공부해 엄마처럼 아픈 사람들을 치료하는 의사가 되고 싶다는 꿈. 송일국이 집에서 발견한 낡은 가방에는 엄마의 사진과 함께 아이의 간절한 소망이 담겨 있었다. “엄마를 항상 기억하려고요. 엄마처럼 아픈 사람을 돕고 싶어요” 라고 말하는 메리의 작은 목소리는 송일국에게 큰 울림으로 남았다.
-- “제가 동생들의 엄마가 되기로 했어요” 열네 살 카트린의 약속
-무쿠루의 쓰레기 매립장에서 만난 또 다른 아이, 14살 카트린은 부모를 잃은 뒤 세 동생을 책임지고 있는 소녀가장이다. 재활용품을 모으고 설거지와 빨래 등 이웃집의 온갖 허드렛일을 대신하며 하루하루를 버티는데... “엄마가 돌아가시고 나서 제가 동생들의 엄마가 되기로 마음먹었어요.”라고 다짐하며 누구보다 강하고 야무지게 살아 가는 카트린에 감동한 송일국은 4남매의 집을 둘러본 뒤, 참담함에 할 말을 잃고 만다. 빛 하나 들지 않는 좁은 골목에 위치한 집은 쓰레기장에서 주운 쓰레기로 생활용품을 대신하고 비가 오면 집 안으로 물이 들이닥쳐 동생들과 밤 새워 서 있어야 하는 열악한 환경이었다. 그 뿐 아니라 낯선 이의 침입까지 걱정되는 위험한 상황을 접한 송일국은 “지금, 지금 당장 도와야 한다”며 절실한 도움의 손길을 호소한다.
-- “제일 먼저 학교에 가고 싶어요” 카지아도 황무지의 열 살 패트릭
-나이로비를 떠나 남쪽으로 두 시간 넘게 이동한 카지아도주의 일가루지. 도시의 쓰레기 마을과는 전혀 다른 척박한 농촌에서 송일국은 10살 마사이족 소년 패트릭을 만난다. 3여년 전, 부모를 잃은 패트릭은 시력이 불편한 칠순의 할머니와 어린 동생을 돌보며 살아가고 있었다. 가족의 생계를 위해 매일 물을 길어 나르고, 장작을 팔고, 이웃의 가축을 돌보며 실질적인 가장의 역할을 하는 아이는 학교에 가는 게 최고의 기쁨이자 희망. 하지만 새학기가 시작되던 첫 날, 지난 1년간의 학비를 내지 못해 수업에서 쫓겨나고 만다. 패트릭의 안타까운 사연을 접한 송일국은 아이와 함께 하루를 보내며 고단한 아이의 일상에 “가슴이 먹먹해서 말이 안 나온다”고 속상해 한다. 어른도 견디기 힘든 상황에서 가장 하고 싶은 일로 학교에 가는 것과 동네 사람들에게 깨끗한 물을 가져다 주는 것을 꼽은 기특한 패트릭에게 격려와 응원을 부탁하며 송일국은 “우리의 관심이 아이의 미래를 바꿀 수 있다”고 강조한다.
-- 서로 다른 땅, 하나의 꿈
-나이로비 무쿠루의 쓰레기 매립장과 케냐 남부 카지아도의 메마른 황무지. 살아가는 곳은 다르지만 메리와 카트린, 그리고 패트릭의 꿈은 서로 많이 닮아 있다. 바로 배고픔을 걱정하지 않고 안전한 집에서 잠들며 친구들과 함께 공부하는 하루. 우리에겐 일상인 그런 평범한 하루가 간절한 꿈인 것이다. 지독한 가난은 아이들에게 너무 많은 것을 빼앗았지만 아직 꿈까지
-
 ## EBS 세상에 나쁜 개는 없다 — 10/31 방송
 - 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005580515
 - 보도자료 제목: [세상에 나쁜 개는 없다] 임산부 엄마의 SOS! 위기의 자매 (10월 31일 밤 10시, EBS1)
@@ -693,3 +657,5 @@ EBS 'AI 고전, 역사를 바꾼 100책' '국가' 편 11월 2일부터 평일 �
 [백세부자] 파산 부부의 늦깎이 은퇴 수업 (11월 2일 밤 10시 50분, EBS1)
 목록
 
+---
+수집 실패: MBC 목록: timed out

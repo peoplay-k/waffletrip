@@ -7,16 +7,18 @@ kind: 해설
 title: 이스타항공 인천~샤먼 취항, 청주공항도 샤먼 직항 첫 개설
 source_name: ''
 source_url: ''
-summary: 이스타항공이 28일 인천~샤먼 노선을 주 4회 일정으로 띄웠다. 청주공항도 동계 정기편에서 샤먼 직항을 처음 연다. 여행사들은 여러 번 중국을 찾는 여행객을 겨냥한 도시 여행 상품을 늘리고 있다.
+summary: 이스타항공이 28일 인천~샤먼 노선을 주 4회 일정으로 띄웠다. 청주공항도 동계 정기편에서 샤먼 직항을 처음 연다. 여행사들은 여러
+  번 중국을 찾는 여행객을 겨냥한 도시 여행 상품을 늘리고 있다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72486
-  - https://www.news1.kr/industry/general-industry/6334964
-  - https://www.asiae.co.kr/article/2026102809581636541
-  - https://www.newspim.com/news/view/20261026000376
-  - https://www.mt.co.kr/culture/2026/10/30/2026103009115148720
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72486
+- https://www.news1.kr/industry/general-industry/6334964
+- https://www.asiae.co.kr/article/2026102809581636541
+- https://www.newspim.com/news/view/20261026000376
+- https://www.mt.co.kr/culture/2026/10/30/2026103009115148720
+status: published
+published_id: c-778d45033cc640691bb0e8ce950593bf468980b4
+published_on: '2026-10-30'
 ---
-
 중국 남부 휴양 도시 샤먼으로 가는 하늘길이 넓어진다. 이스타항공이 인천~샤먼 노선을 새로 열었고, 청주공항에서도 샤먼 직항이 처음 생긴다.
 
 이스타항공은 28일 오전 인천~샤먼 노선에 첫 항공편을 띄웠다고 밝혔다. 이 노선은 수·목·토·일요일 주 4회 운항한다. 이스타항공은 중국 남부 휴양지 노선을 잇달아 열어 한중 여객 수요를 공략할 방침이다.

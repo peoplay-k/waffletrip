@@ -7,21 +7,23 @@ kind: 해설
 title: 하와이 마우이 동부 폭우에 하나 하이웨이 끊겨, 학교 휴교·대피 경보
 source_name: ''
 source_url: ''
-summary: 하와이 상공에 머문 기압골이 마우이 카운티와 하와이섬에 며칠째 많은 비를 뿌리면서 동부 마우이의 하나 하이웨이가 침수와 낙석으로 막혔다. 기상 당국은 금요일부터 날씨가 나아지고 주말에는 무역풍이 돌아올 것으로 내다봤다.
+summary: 하와이 상공에 머문 기압골이 마우이 카운티와 하와이섬에 며칠째 많은 비를 뿌리면서 동부 마우이의 하나 하이웨이가 침수와 낙석으로 막혔다.
+  기상 당국은 금요일부터 날씨가 나아지고 주말에는 무역풍이 돌아올 것으로 내다봤다.
 sources:
-  - https://www.hawaiinewsnow.com/2026/10/28/honolulu-opens-4-emergency-shelters-ahead-heavy-rain-flash-flooding/
-  - https://www.hawaiinewsnow.com/2026/10/28/first-alert-forecast-flooding-threat-continues/
-  - https://www.hawaiinewsnow.com/2026/10/28/all-schools-molokai-closed-due-flooded-roads/
-  - https://www.hawaiinewsnow.com/2026/10/29/maui-county-opens-temporary-evacuation-point-hana/
-  - https://www.khon2.com/maui-news/hawaii-hana-high-elementary-school-closed/
-  - https://www.khon2.com/maui-news/hawaii-maui-road-closures-evacuations/
-  - https://www.hawaiinewsnow.com/2026/10/30/severe-flooding-landslides-cut-off-key-east-maui-roads/
-  - https://www.hawaiinewsnow.com/2026/10/30/first-alert-forecast-flash-flood-warning-east-maui-east-big-island/
-  - https://www.hawaiinewsnow.com/2026/10/30/first-alert-forecast-flood-advisory-hawaii-islands-hamakua-coast/
-  - https://mauinow.com/2026/10/29/partial-maui-veterans-highway-closure-announced-for-friday-night-to-saturday-morning-weather-permitting/
-status: approved
+- https://www.hawaiinewsnow.com/2026/10/28/honolulu-opens-4-emergency-shelters-ahead-heavy-rain-flash-flooding/
+- https://www.hawaiinewsnow.com/2026/10/28/first-alert-forecast-flooding-threat-continues/
+- https://www.hawaiinewsnow.com/2026/10/28/all-schools-molokai-closed-due-flooded-roads/
+- https://www.hawaiinewsnow.com/2026/10/29/maui-county-opens-temporary-evacuation-point-hana/
+- https://www.khon2.com/maui-news/hawaii-hana-high-elementary-school-closed/
+- https://www.khon2.com/maui-news/hawaii-maui-road-closures-evacuations/
+- https://www.hawaiinewsnow.com/2026/10/30/severe-flooding-landslides-cut-off-key-east-maui-roads/
+- https://www.hawaiinewsnow.com/2026/10/30/first-alert-forecast-flash-flood-warning-east-maui-east-big-island/
+- https://www.hawaiinewsnow.com/2026/10/30/first-alert-forecast-flood-advisory-hawaii-islands-hamakua-coast/
+- https://mauinow.com/2026/10/29/partial-maui-veterans-highway-closure-announced-for-friday-night-to-saturday-morning-weather-permitting/
+status: published
+published_id: c-9795a9c1ae81cb8c7dc87d7c4244ec99203e18ec
+published_on: '2026-10-30'
 ---
-
 하와이 상공에 길게 머문 기압골이 마우이 카운티와 하와이섬에 며칠째 폭우를 뿌리면서 동부 마우이의 하나 하이웨이가 침수와 낙석으로 끊겼다. 기상 당국은 금요일부터 날씨가 차츰 나아지고 이번 주말에는 무역풍이 다시 불 것으로 내다봤다.
 
 호놀룰루시는 폭우와 돌발 홍수에 대비해 27일(화) 오후 4시부터 주민과 여행객이 이용할 수 있는 긴급 대피소 4곳을 열었다. 홍수주의보는 29일(목) 새벽까지 이어졌고, 28일에는 기압골 중심이 동쪽으로 옮겨 가 마우이 카운티 위에 자리 잡았다.

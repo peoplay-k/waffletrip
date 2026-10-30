@@ -9,14 +9,15 @@ source_name: ''
 source_url: ''
 summary: 진에어가 12월 24일부터 인천과 베트남 호찌민을 잇는 노선을 매일 운항한다. 189석 규모 항공기를 넣는다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72472
-  - https://biz.chosun.com/industry/company/2026/10/27/7VYQCZZ44JB75PZYHIWX6KQOG4/
-  - https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XcGJxSVdrVFlLQmtYdTVTa2RjTkNvWWJ4YTFJWWIyTUJMTUhncVRRN19jelNObmhDQ1ZJZHpGa0NDRE1XdG1FQjBvSE1CT255Rm1HZEc1VzJhYnVXRW1OZnJGN1g?oc=5
-  - https://news.google.com/rss/articles/CBMihgFBVV95cUxNNWZwQjZWWFZMbTJCYlEtaFZ1UGJrYzdqMmV2VV9pLTJSSVhIb1M2QmJzYmlUamxGNXBZckFXVkpyZ2RqTUFsRUFxeTJZRWF5UW5Xb3BMZ0Y0ekNGQjNRR3JFYnp0MzZZNXBIanM3elV3UkljWnhyTXRQYmtKTURra3lWNzJiQQ?oc=5
-  - https://www.mk.co.kr/news/business/12188546
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72472
+- https://biz.chosun.com/industry/company/2026/10/27/7VYQCZZ44JB75PZYHIWX6KQOG4/
+- https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XcGJxSVdrVFlLQmtYdTVTa2RjTkNvWWJ4YTFJWWIyTUJMTUhncVRRN19jelNObmhDQ1ZJZHpGa0NDRE1XdG1FQjBvSE1CT255Rm1HZEc1VzJhYnVXRW1OZnJGN1g?oc=5
+- https://news.google.com/rss/articles/CBMihgFBVV95cUxNNWZwQjZWWFZMbTJCYlEtaFZ1UGJrYzdqMmV2VV9pLTJSSVhIb1M2QmJzYmlUamxGNXBZckFXVkpyZ2RqTUFsRUFxeTJZRWF5UW5Xb3BMZ0Y0ekNGQjNRR3JFYnp0MzZZNXBIanM3elV3UkljWnhyTXRQYmtKTURra3lWNzJiQQ?oc=5
+- https://www.mk.co.kr/news/business/12188546
+status: published
+published_id: c-f101fbbb44e3a036aae3850bb9021e2e4f75ddbc
+published_on: '2026-10-30'
 ---
-
 진에어가 성탄 전날인 12월 24일부터 인천~호찌민 노선을 새로 띄운다. 주 7회 매일 운항한다.
 
 진에어는 이 노선에 189석 규모의 항공기를 투입한다고 밝혔다. 첫 운항일은 성탄 전날로, 연말연시 휴가 수요가 몰리는 시기에 맞췄다.
