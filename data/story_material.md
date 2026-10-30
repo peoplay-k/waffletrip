@@ -7,10 +7,10 @@
 
 ### 이시언 “저분 좀 잡아줘”…강남, 괌 동굴서 여성 관광객 구조
 - 매체 2곳 · 서울경제 · 세계일보  ← 여러 곳이 썼다
-  - 세계일보: 
-    https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NOWh1MWRxWnV1MzJUd3NkVzhyenJ2Y1FwaXhjbGk1bkRVZjBoU1g5Z09SMWpSaTVmQmdOeFp6czFVX0FyX2JMMDg3eXRSUXFUaUlkTko2OTnSAVRBVV95cUxPeDY4WGhRTjRlb2hUc1pQZDhpdUJlY29weDN5QTRvTk9GQ0NBc3Vwd0hsdmE1aEtXY1FzVUNDc2NhRkV6YnR2TUV2aVkybUlNY0dwOXk?oc=5
-  - 서울경제: 
-    https://news.google.com/rss/articles/CBMiUkFVX3lxTFBnb25OdGFYTGw1MlpFLU9NTWs5amgwNmdoUUNOZ0FyMVZIRGt5S0JSQTNxTnV0dzhvamJNZFFmLU1WazRPTXQ3NXMtT2thMV9TemfSAVNBVV95cUxQc3NIaGNLX0hXNWtBM0NNNlRKeEdYTU4wZG1OSnJxMm90SlllQklKYzA4NFFLRER5cVBsOGh3Z0I0bHhiNVFrVThnak5xOUVwSzZQMA?oc=5
+  - 세계일보: 가수 강남이 괌 동굴에서 물에 빠져 허우적거리던 관광객을 신속하게 도왔다. 지난 28일 유튜브 채널 ‘인생84’에는 ‘괌 탐방기’라는 제목의 영상이 공개됐다.
+    https://www.segye.com/newsView/20261029503788
+  - 서울경제: 가수 강남이 괌 여행 중 물에 빠진 한국인 여성을 구조했다. 지난 28일 유튜브 채널 ‘인생84’에는 ‘괌 탐방기’라는 제목의 영상에 게재됐다.
+    https://www.sedaily.com/article/20107835
 
 ### 박수홍♥김다예, '비행기 민폐 논란' 괌 여행기는 없다…'딸 없이' 떠난 여행부터 공개 [엑's 이슈]
 - 매체 1곳 · 엑스포츠뉴스
@@ -35,6 +35,16 @@
 - 매체 1곳 · 데일리한국
   - 데일리한국: 
     https://news.google.com/rss/articles/CBMib0FVX3lxTE9ka0VzSklSd0w0dHdqTWxaQklpN0VKSTUzcjVrZEVWM2s4SFg4UGgwdFBwMkc3dW95U3pROWNEdExhY2stRTJoUnRQMXVhWXFCamZObHhTajFZMFg1eEhJWFdUZmhwdEVBbDlBT1E4MNIBc0FVX3lxTE1wWEE4Z3BoWlp4b3pvRU9pSTllbTJsTkZreVJ2VzFpSTNVM0hWT05nZk5YaGFqdnVrc251ME9vNkxOeEwzNzUxSlRnajNvMW5aVGQ5dUMtM1NjVXVraDlFUGhlS21HWUM2cnpWM3d1NTFBN1E?oc=5
+
+### 미국, 중국인의 북마리아나 제도 비자 면제 중단, 출산 여행 및 안보 우려―프랑스 매체
+- 매체 1곳 · Record China
+  - Record China: 
+    https://news.google.com/rss/articles/CBMibEFVX3lxTE5CYjdhVmVfSUV6ZGZMa2J4N2d4TkpyazRiUGkxVVYtVVBOQVdYMG1JT1F4QTFJRHktVzBWbDB3UUNTclJrZkUyUC1QbnB5dEZ2ZHkyUU0ybDI1MVp1ckIzRENFSEVaQW9feDhlbw?oc=5
+
+### 마리아나관광청, "달리며 나눔을 실천하다" 서울서 태풍 피해 돕는 기부런 성료
+- 매체 1곳 · 이로운뉴스
+  - 이로운뉴스: 
+    https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4Q2FaOFpfZG8xd2xQU1NZLUI3X3FzMVBZQm9qTFpoN0FwTGJxNFN5cXhSZE9QNV9oWjdiSW9mcER2NTdMWEJBQVpUTkk5YTJ4bHFFZjhYNkVXZDZKdXZyczg3S2l5a1U?oc=5
 
 ## 하와이
 
@@ -61,12 +71,32 @@
   - 트래블데일리: 와이키키에서 유일하게 전 객실 오션뷰를 갖춘 하와이 호텔 프린스 와이키키(Prince Waikiki)가 새 리더십 체제를 출범하고 연말 성수기 채비에 나섰다. 프
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72480
 
+### First Alert Forecast: Flooding threat continues
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: Today is a First Alert Weather Day. The middle of the trough, or elongated area of low pressure, has shifted to the east and is now over Maui County.
+    https://www.hawaiinewsnow.com/2026/10/28/first-alert-forecast-flooding-threat-continues/
+  - Hawaii News Now: Conditions are expected to improve today, with moderate trade winds returning this weekend.
+    https://www.hawaiinewsnow.com/2026/10/29/first-alert-forecast-juicy-disturbance-slowly-moving-away-state-few-lingering-showers-expected-through-tonight/
+  - Hawaii News Now: Just as it appeared to be clearing for Hawaii Island, a new batch of showers is causing some runoff on the Hamakua Coast, north of Honokaa.
+    https://www.hawaiinewsnow.com/2026/10/30/first-alert-forecast-flood-advisory-hawaii-islands-hamakua-coast/
+  - Hawaii News Now: The threat of flooding will remain into the evening primarily for the windward and mauka areas of Maui and Hawaii Island.
+    https://www.hawaiinewsnow.com/2026/10/30/first-alert-forecast-flash-flood-warning-east-maui-east-big-island/
+
+### First Alert Weather Day: Hawaii Island under flood advisory, flash flood warning extended for Maui
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: Conditions are expected to improve Thursday or Friday, with trade winds returning this weekend.
+    https://www.hawaiinewsnow.com/2026/10/29/flash-flood-warning-extended-maui-flood-advisory-hawaii-island-districts/
+  - Hawaii News Now: Conditions are expected to improve Friday, with trade winds returning this weekend.
+    https://www.hawaiinewsnow.com/2026/10/30/first-alert-weather-day-hawaii-island-east-maui-under-flash-flood-warning/
+  - Hawaii News Now: Conditions are expected to improve Friday, with trade winds returning this weekend.
+    https://www.hawaiinewsnow.com/2026/10/30/first-alert-weather-day-flood-advisory-hawaii-islands-hamakua-coast/
+
 ## 베트남
 
 ### 진에어, 12월 24일부터 인천~호찌민 노선 신규 취항
-- 매체 5곳 · Chosunbiz · www.ebn.co.kr · 글로벌이코노믹 · 뉴스1 · 데일리로그  ← 여러 곳이 썼다
-  - Chosunbiz: 
-    https://news.google.com/rss/articles/CBMihAFBVV95cUxPSGIwY29mS25tazVBbzdxcXhIam1yaGo4Z2JIOTN3LWVmTldpME8xZ2R5VG14S1ZjcXJGT2h2UHdhWWZZaGpSVjJjZER2WWwyZUpNZmZpRlFibGk2SDQ0LUZlRk12SlFGNzR5c2dRUDZMWk5rNVhvT1RiUmpSbE9mY1IzRzHSAZgBQVVfeXFMUHIyYXlBYmRXSG9tNFdELURxVlVHb3JRRVJGUGdwZWJRY25KYnNiUS1uRmRfcXY3MUpHRGZwX1dEc0dlSEpGdHMzODlOaGZrVmlPaXFBZy10azhLWHpXRkctTEtjNkVuTmIwYkVtV0g5ZjFHanVYTFZIazNvSVJaczJpWjJtV2kzU2NxYU9Nb0dGVWFaZ3Q4cXQ?oc=5
+- 매체 5곳 · www.ebn.co.kr · 글로벌이코노믹 · 뉴스1 · 데일리로그 · 조선비즈  ← 여러 곳이 썼다
+  - 조선비즈: 진에어, 12월 24일부터 인천~호찌민 노선 신규 취항
+    https://biz.chosun.com/industry/company/2026/10/27/7VYQCZZ44JB75PZYHIWX6KQOG4/
   - www.ebn.co.kr: 
     https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qWDJpWkhKekRDUHFJMkVLclpGcDNFYzJ6ZWNtQlhJMkFtZkpPc2V1bnZtRDRFQkZOLWlaalpZLVlCaGdQMXpheWxzM0xNeG1NUzFweXdjU09WTTByZlN4MHNGeHAwVGo1?oc=5
   - 뉴스1: 
@@ -74,21 +104,25 @@
   - 글로벌이코노믹: 
     https://news.google.com/rss/articles/CBMihgFBVV95cUxNNWZwQjZWWFZMbTJCYlEtaFZ1UGJrYzdqMmV2VV9pLTJSSVhIb1M2QmJzYmlUamxGNXBZckFXVkpyZ2RqTUFsRUFxeTJZRWF5UW5Xb3BMZ0Y0ekNGQjNRR3JFYnp0MzZZNXBIanM3elV3UkljWnhyTXRQYmtKTURra3lWNzJiQQ?oc=5
 
-### 전북문화관광재단, 베트남 관광객 유치 나선다
-- 매체 3곳 · 강소기업뉴스 · 웹이코노미 · 투데이안  ← 여러 곳이 썼다
-  - 투데이안: 
-    https://news.google.com/rss/articles/CBMiakFVX3lxTE8xU0pKLVBmLWQwVUtZZTRGWWd5UGx5S2hrc3dNTi0xakFicXQxY3k2NW1VdWppY3NFZHZHTFdQSnFSd1A1cWxTNDVlMExZckVqbGU5c3VhWHotU0dqdUVuVzFTUVdZb29FaGc?oc=5
-  - 웹이코노미: 
-    https://news.google.com/rss/articles/CBMickFVX3lxTFBLcTNEb1FyMnhabnVmSzJIQ2tvcXcwcXMwTmY5ZlY1dXpJa2lPbF9HQVhUbUkyM19IZkZtNTg2SEoyODVPeFN1QTdaY3BwU1RuSzBfbU5iRGxmUDd0SDFzUHViamtfZ3h4VzdBR2JFcXpFdw?oc=5
-  - 강소기업뉴스: 
-    https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxeHhNRG80bGotb3NpSy1scDJJbnJnaHJ5ZG9qZ0czR0R3enNZTFRxOUdWMFo4WU95LWZMcTNUT2JVaXhEMElPeGY5RTJXeWxYX2pF?oc=5
+### 육지 체류 8시간, 이동 3시간: 나트랑 관광의 '골칫거리'.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 크루즈선 승객들은 육지에 약 8시간 정도밖에 머물지 못하는데, 깜란 국제항에서 나트랑 시내 중심부까지, 그리고 그 반대로 이동하는 데 최대 3시간이 걸립니다. 이는 칸화성 크루즈 관광의 주요 병목 현상 중 하나입니다.
+    https://www.vietnam.vn/ko/len-bo-8-tieng-di-chuyen-mat-3-tieng-con-dau-dau-cua-du-lich-nha-trang
 
-### 비엣젯항공은 까마우와 하노이 간 주 3회 항공편을 운항할 계획입니다.
-- 매체 1곳 · Vietnam.vn  ← 여러 곳이 썼다
-  - Vietnam.vn: 
-    https://news.google.com/rss/articles/CBMiiAFBVV95cUxObExjb2lqMlN1WjhhRU13bzhBZFlFVENiTkhsSlhMd1E2RXhvS0JZT0dUVmNpNVo5VmJIem5mV3dmc3VES3BrTU8tdzVoS0RrTWwxUzZERUMzZDFGV3p4VnFqeDVxdkpBV2lFZTcxSEZldmRKUW9KbVF5Mm5YZVhmZ0VKd1VDS1FD?oc=5
-  - Vietnam.vn: 
-    https://news.google.com/rss/articles/CBMinAFBVV95cUxPckRyUVdnOUNJNzdUWTlybjBwalg0cHpsWUVwb015NTFRZDNrZXlrY0g1N2NlSEZrU1hPNkRGWXB2WVpFQWR5QkI2MHhTMkExM1lEcEViMDE5U1BYX01HMTdlVl9sdTYxZFE1akFTeV9qbWlXUndBYjRWTUdNb2JNOGpadVozbmZvRThYRUlaOWhZQllPWF9HZGxsaDU?oc=5
+### 다낭은 2026년 말에 다양한 독특한 축제와 행사를 개최할 예정입니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 2026년 마지막 몇 달 동안 다낭시는 다양한 장소에서 문화, 예술, 유산 및 새해 축제 행사를 개최하여 관광 상품을 다양화하고 시장을 활성화하며 국내외 관광객을 유치하는 데 기여할 것입니다.
+    https://www.vietnam.vn/ko/da-nang-to-chuc-nhieu-le-hoi-su-kien-dac-sac-dip-cuoi-nam-2026
+
+### 호주 인명구조협회는 다낭의 관광 해변을 위한 해변 구조팀을 훈련시키고 있습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 호주 인명구조협회는 손트라 반도 및 다낭 해변 관리 위원회 인명구조팀 대원들을 대상으로 이틀간의 전문성 개발 프로그램을 개최했습니다.
+    https://www.vietnam.vn/ko/hiep-hoi-cuu-ho-uc-tap-huan-cho-doi-cuu-ho-bien-cac-bai-bien-du-lich-da-nang
+
+### 창의적인 예술은 다낭 관광의 매력을 더해줍니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 20개 이상의 문화, 예술, 창의적 체험 프로그램을 제공하는 다낭 창의예술커넥션 2026은 새로운 관광 상품을 선보이며 연말 관광객 유치에 기여할 것으로 기대됩니다.
+    https://www.vietnam.vn/ko/nghe-thuat-sang-tao-mo-them-suc-hut-cho-du-lich-da-nang
 
 ## 코타키나발루
 
@@ -105,6 +139,15 @@
     https://www.vietnam.vn/ko/ngay-hoi-giao-luu-van-hoa-the-thao-va-du-lich-vung-bien-gioi-viet-nam-lao-nam-2027-to-chuc-tai-da-nang
 
 ## 제주
+
+### “항공편 줄고 발길도 끊기고”…겨울 비수기 제주 관광·민생경제 ‘빨간불’
+- 매체 3곳 · 노컷뉴스 · 뉴스1 · 세계일보  ← 여러 곳이 썼다
+  - 세계일보: 겨울철 제주 국내선 항공편 공급이 줄어들 것으로 예상되면서 관광업계와 지역경제에 비상이 걸렸다. 관광객 감소가 숙박·음식업과 골목상권의 소비 위축으로 이어지는 상황에서 겨울철 비수기까지 겹쳐 지역경제 타격이 더욱 커질 것이란 우려가 나온다.
+    https://www.segye.com/newsView/20261027505946
+  - 노컷뉴스: ◇류도성> 오늘은 겨울 관광 비수기를 타개하는 방안으로 스포츠 관광 유치에 대해 말씀해 주신다고 들었는데요.
+    https://www.nocutnews.co.kr/news/6598773
+  - 뉴스1: 
+    https://www.news1.kr/local/jeju/6332125
 
 ### 제주 해녀문화, 日 크루즈 관광상품 첫 선
 - 매체 2곳 · 경향신문 · 뉴시스  ← 여러 곳이 썼다
@@ -127,6 +170,11 @@
   - 연합뉴스: (제주=연합뉴스) 변지철 기자 = 겨울철을 맞아 제주와 중국 지방도시를 잇는 직항 노선이 잇따라 운항을 재개하거나 증편한다.
     https://www.yna.co.kr/amp/view/AKR20261029077200056
 
+### 제주서 무더기로 적발…무비자 입국해 불법 체류
+- 매체 1곳 · SBS 뉴스
+  - SBS 뉴스: 법무부는 경찰청 등 유관기관과 협력해 외국인 밀집과 우범지역 순찰을 확대하는 등 불법 체류 단속을 강화하기로 했습니다. 법무부 출입국·외국인정책본부는 지난달 7일부터 28일까지 제주 무비자 입국 불법체류 외국인 집중단속을 벌여 모두 232명을 적발했다고 지난달 30일 밝혔습니다.
+    https://news.sbs.co.kr/news/endPage.do?news_id=N1008823388
+
 ## 일본
 
 ### 모두투어, ‘녜두투어’ 홋카이도 캠핑투어 성료
@@ -144,51 +192,77 @@
     https://www.job-post.co.kr/news/articleView.html?idxno=235472
 
 ### 강레오, 실업급여로 日 여행 온 청년들에 일침..“열 받아서 사진 거부” - 조선비즈
-- 매체 2곳 · Chosunbiz · 노컷뉴스  ← 여러 곳이 썼다
-  - Chosunbiz: 
-    https://news.google.com/rss/articles/CBMikwFBVV95cUxPYjZqMU9kdW1wRXo1dTdVdENHZHFUVkVOQUZ3VE9LTTZ0RVljaWY5Rk83dDNMTG82dHI0aVNib0FEYU1QWGJmMEhKc1FQd21vbndOLXBfUXFXNTZqclJOV0pFQjBrZDdfQTZ6RG9fTWxyUGZjWHQwQ0ZaR1o2WEY1bEw1bVNpQUJyZ3FILVREU0M1LUnSAacBQVVfeXFMTzB2Qk5wY3pRSlQ3WXRnMWY2ejNjMXVSV01YZ2dvLWFWdHQxLU4ybmZhenJHN2xndGgwSThZWEhuZlMwWUhhLXN4dU9ZUG53XzZCREZuMHZQTERqcEFhSThSdzNCRnZPUGp3V1ZvN1B0UG96cnVPME5RcmowVlpyaWl2Skhjejl4TW9zV091RGFDTWk4STNXd2tPVGlDTlU2bjlTbkI2YzA?oc=5
+- 매체 2곳 · 노컷뉴스 · 조선비즈  ← 여러 곳이 썼다
+  - 조선비즈: 강레오, 실업급여로 日 여행 온 청년들에 일침. .열 받아서 사진 거부
+    https://biz.chosun.com/entertainment/enter_general/2026/10/26/MFSGINZTHFRWKM3CMI4TEM3FHA/
   - 노컷뉴스: 강레오 셰프가 최근 한 유튜브를 통해 실업급여를 받고 일본 여행 온 청년들의 사진 요청을 거절한 사연이 뒤늦게 알려지며 눈길을 끌고 있다.
     https://www.nocutnews.co.kr/news/6597862
 
+### 트리니티항공, 부산~후쿠오카·삿포로 취항 1년…30만 명 수송
+- 매체 2곳 · 뉴스1 · 매일일보  ← 여러 곳이 썼다
+  - 매일일보: 매일일보 = 정경화 기자 | 트리니티항공의 김해국제공항(부산)발 일본 후쿠오카·삿포로 노선이 취항 1주년을 맞이한 가운데 영남권 핵심 일본 노선으로 성공적으로 안
+    https://www.m-i.kr/news/articleView.html?idxno=2010287
+  - 뉴스1: 
+    https://www.news1.kr/industry/general-industry/6331415
+
+### 트리니티, 부산발 후쿠오카·삿포로 운항 성적표는?
+- 매체 1곳 · 트래블데일리
+  - 트래블데일리: 트리니티항공이 김해국제공항에서 출발하는 일본 노선인 부산-후쿠오카, 부산-삿포로 노선 취항 1주년을 맞아 지속적이고 안정적인 운항을 이어가고 있다고 밝혔다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72471
+
 ## 태국
-
-### 밤부 에어웨이즈가 푸껫 공항 2번 활주로를 개통했습니다.
-- 매체 1곳 · Vietnam.vn  ← 여러 곳이 썼다
-  - Vietnam.vn: 
-    https://news.google.com/rss/articles/CBMijAFBVV95cUxPamhIcWJkX3duMVNJZlY1WGY5b0drSV9LdGpNTnBmWVFHT2VGcUpXMW9mSVlLN1hmX0R1ZWtMRTF0Rm9vczR2Ym9iNFFYSGUzY3NPY0NTT19LSlFBLWpXMGhOSEsxcHZqeXd5c0RiOW5OYmJsSjduWTNGUzlUN0RweGdncERMVENLT1hpaw?oc=5
-  - Vietnam.vn: 
-    https://news.google.com/rss/articles/CBMilwFBVV95cUxPakd1dkM3OWhHY1V0M1RrWGZUQ1QzZWgxdjVBUXFvMzB5bDBWMEVacW1GT0lVYWM1Nm5ORGNfSE0tNHJ3aXFnOXNNRnRBelJmdFNBRWdCdTVQdVVGN0xzOHBWdWJMLVlaSWplLUk1NkRxSTA3UUhXVVkzdWlmTTBtMTJHMmhJSVdkNUtZM0tYaDRvR3JkTFl3?oc=5
-
-### 지아 라이 시장은 푸껫 공항 2번 활주로 개통식을 갖고 국제선 항공편 운항을 환영했습니다.
-- 매체 1곳 · Vietnam.vn  ← 여러 곳이 썼다
-  - Vietnam.vn: 
-    https://news.google.com/rss/articles/CBMipgFBVV95cUxPNGNHdjdxZkZGNGlyLWs0amRwd0N4dk1GNFd0R3Vyem5rdVdab2RyRUJfUXlaTkRGRUE1aW5rMkFCUHV5eEd0SXIzOHJpUWhob1dGWnBoZzJlLTR3czF2NHBYbUFGbGFaNDJoVkpoOVlNXzBnbTRzQXE0TFJ0dlFsOTYyMmJmbHpOWk1LRDVGMWVTY1BzeVlKY1pKZlVQNGhDblNmckVB?oc=5
-  - Vietnam.vn: 
-    https://news.google.com/rss/articles/CBMigAFBVV95cUxOV2FSM1VBTFF6VWxrN0hhd3ZSdG1XcFdTYUwwakYwWHQ1QXpzRHU5bDdBdHU4cHZ3b1Q3Rk5WajJTblNmUmcydi1qdlNCbEtYRW1ldTB5eEtBdTBaS01DdnQzX0F1M29UeHBEM0hDYkQ2WHlWc3V1MC14WERPT3RkVA?oc=5
 
 ### [관광/경제] 태국, 베트남을 5대 핵심 관광시장으로 선정…맞춤형 관광 전략 강화
 - 매체 1곳 · 굿모닝베트남미디어
   - 굿모닝베트남미디어: 【굿모닝베트남미디어】 태국이 베트남을 아시아 5대 핵심 관광시장 중 하나로 선정하고, 베트남 관광객 유치를 위한 맞춤형 마케팅 전략을 강화한다. 태국 관광청(TAT)은 베트남을 대만(중국), 말레이시아, 인도네시아, 싱가포르와 함께 주요 관광시장으로 분류하고, 관광객의 소비 특성과 여행
     https://www.goodmorningvietnam.co.kr/news/article.html?no=84320
 
-## 대만
+### 태국, 출국세 도입 연기…"관광산업 성장이 더 중요"
+- 매체 1곳 · 아세안익스프레스
+  - 아세안익스프레스: 태국 정부가 모든 출국 여행객에게 1인당 1,000바트(약 4만3,000원)의 출국세를 부과하는 방안을 일단 보류하기로 했다. 관광객 수 감소와 에너지 가격 상승 등으로 관광산업의 불확실성이 커진 상황에서, 추가적인 비용 부담을 피하고 관광산업 회복을 우선시하기로 한 것이다.
+    https://www.aseanexpress.co.kr/news/article.html?no=13169
 
-### 타이난 새해 행사-베이먼 염전 새해맞이, 새해 파티, 얼랴오 해돋이－타이난 관광여행 웹사이트
-- 매체 1곳 · 台南旅遊網  ← 여러 곳이 썼다
-  - 台南旅遊網: 
-    https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLbDhFWnlocTBxekFyRHNvR2VMZWZqWW1iZGsxR0pScHgzdWZRbFAyV3p2SU9Cb2p3WW9xT3RVQ3ExSkxqMDJDRXZseHpEaldCLUNtSnJHaV9ZbGktOWJRMDdKR2VVRnM?oc=5
-  - 台南旅遊網: 
-    https://news.google.com/rss/articles/CBMiV0FVX3lxTE1DeEtpWm1xYUFaYVVwTTJLU2hRUS0xbGo0cnV4dlpSamhWc0tLaC1vbTZwZmNQS0ZsWHJNSVBsM3VjUU80YjVoTW14eGktNFI1RWhfZjFvSQ?oc=5
+### 태국 호텔 148곳 폐업…부진한 관광 수요에 직격탄
+- 매체 1곳 · 베트남 교민잡지 ! 씬짜오 베트남
+  - 베트남 교민잡지 ! 씬짜오 베트남: 2026년 1~9월 태국에서 호텔·숙박업소 148곳이 폐업 신고를 한 것으로 나타났다. 이는 전년 동기 대비 42% 증가한 수치로, 관광 수요 부진과 경쟁 심화, 비용 상승이 복합적으로 작용한 결과다.
+    https://chaovietnam.co.kr/192719/
+
+### 태국은 베트남 관광객을 '핵심 목표 고객'으로 보고 있다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 태국 관광청은 베트남을 아시아 5대 핵심 시장 중 하나로 선정하고, 가족 여행객, 밀레니얼 세대, Z세대 및 고급 관광객 유치에 집중하고 있습니다.
+    https://www.vietnam.vn/ko/thai-lan-xac-dinh-khach-viet-la-trong-diem
+
+### 태국이 베트남 관광객을 5대 주요 목표 시장에 포함시키는 이유는 무엇일까요?
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 태국은 지정학적 불확실성, 에너지 가격, 기술 변화와 관련된 세계적인 불확실성에도 불구하고 강력한 경제 성장을 경험할 것으로 예상되는 아시아 주요 시장의 관광객 유치에 집중할 것입니다.
+    https://www.vietnam.vn/ko/ly-do-thai-lan-dua-du-khach-viet-nam-vao-nhom-5-thi-truong-trong-diem
+
+## 대만
 
 ### 美, 파키스탄 대만 항공사 영공 통과 허용에 환영…"中 강압 반대"
 - 매체 1곳 · 뉴시스
   - 뉴시스: [서울=뉴시스] 문예성 기자 = 파키스탄이 '하나의 중국' 원칙을 이유로 대만 항공사의 영공 통과를 거부했다가 입장을 번복한 가운데 미국 정부가 이를 환영하면서 중국의 강압적 행위에 반대한다는 입장을 밝혔다.
     https://www.newsis.com/view/NISX20261030_0003847661
 
-### 2026 바다 미식 축제(2026大海開吃)－가오슝 관광여행 웹사이트
-- 매체 1곳 · 高雄旅遊網
-  - 高雄旅遊網: 
-    https://news.google.com/rss/articles/CBMiW0FVX3lxTE5selpJTmg4SkxXZzNCTnJONTNIQWs3R1d0akVXeXNxSHp4VG5SX3JOUHJZbDdfREdJY0pQWmZURHpFenRzUTFOOVFFSDdmZXB1UjhQcnJPWXYzeGc?oc=5
+### 대만이 일본에서 필리핀까지 뻗어 있는 50척 이상의 중국 선박을 탐지했으며, 베이징이 이에 대응했다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 중국 국방부 대변인은 서태평양에서 실시되는 항공모함 랴오닝함의 훈련은 연례 행사이며 특정 국가를 겨냥한 것이 아니라고 주장했다.
+    https://www.vietnam.vn/ko/dai-loan-phat-hien-hon-50-tau-trung-quoc-trai-dai-tu-nhat-ban-xuong-philippines-bac-kinh-len-tieng
+
+### 파키스탄, '대만항공사 영공 통과 불허' 보도 수시간만에 번복
+- 매체 1곳 · 연합뉴스
+  - 연합뉴스: (서울=연합뉴스) 유창엽 기자 = 파키스탄 당국이 중국 정부의 '하나의 중국' 원칙을 지지해 대만 항공사 2곳의 자국 영공 통과를 불허했다는 언. ..
+    https://www.yna.co.kr/amp/view/AKR20261029067500009
+
+### “항공모함까지 떴다”…코앞에 몰려든 중국 군함 53척에 대만이 발끈한 이유 [밀리터리노트]
+- 매체 1곳 · 서울신문
+  - 서울신문: 중국 군함과 공무선 50여 척이 대만과 일본, 필리핀 주변 해역에서 대규모 무력시위를 벌였다. 항공모함 랴오닝함까지 동원돼 대만을 에워싸는 형세를 보였고, 일본 규슈 인근 해협 통과까지 확인되며 역내 긴장이 크게 높아졌다.
+    https://www.seoul.co.kr/news/international/china/2026/10/29/20261029500205
+
+### 대만 화롄, 태평양 온천축제 개막
+- 매체 1곳 · 뉴스환경
+  - 뉴스환경: 대만 화롄현이 루이수이와 안통 두 온천지구를 연결하는 태평양 온천축제를 열었다. 11월 15일까지 야간 조명과 AR 스탬프 게임, 주말 행사와 관광지 순환 셔틀을
+    https://www.newsphere.kr/news/articleView.html?idxno=3229
 
 ## 국내
 
@@ -225,6 +299,24 @@
   - 농민신문: ‘제9회 평창 고랭지 김장축제’가 11월4~16일 강원 평창군 진부면민체육공원에서 열린다. 평창 고랭지 김장축제위원회(위원장 장동식)는 올해 김장 체험 물량을 지난해보다 약 20% 늘리고 김장 작업대 20개를 추가 설치했다.
     https://www.nongmin.com/article/20261027500376
 
+### 부산관광공사-남해군-남해관광문화재단, ‘남해안 초광역 관광 활성화’ 맞손
+- 매체 3곳 · 부산일보 · 트래블데일리 · 파이낸셜뉴스  ← 여러 곳이 썼다
+  - 부산일보: (왼쪽부터) 남해관광문화재단 김우태 대표이사, 남해군 류경완 군수, 부산관광공사 이정실 사장. 부산관광공사(사장 이정실, 이하 공사.
+    https://mobile.busan.com/view/election/view.php?code=2026102915001321463
+  - 파이낸셜뉴스: 부산관광공사가 경남 일대 지자체와 함께 남해안 권역 관광 생태계 구축에 본격적으로 나섰다. 이번 협약은 각 기관이 지닌 우수한 관광자원을 유기적으로 연계하고 정부의 초광역 관광 정책에 발맞춰 관광객 유치와 지역관광 활성화를 다각도로 도모하기 위해 추진됐다…
+    https://www.fnnews.com/news/202610291346226293
+  - 트래블데일리: 부산관광공사가 남해군, 남해관광문화재단과 손잡고 ‘부산-남해 초광역 관광 활성화 및 지역 상생발전을 위한 3자 업무협약(MOU)’을 바탕으로 남해안 권역 관광 생태계 구축에 본격 나섰다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72504
+
+### 11월 1일 보령 은행마을 단풍축제 개막
+- 매체 3곳 · 에이티엔뉴스 · 충남내포뉴스 · 한국사회복지저널  ← 여러 곳이 썼다
+  - 충남내포뉴스: 보령시는 11월 1일부터 15일까지 청라면 은행마을 일대에서 제12회 은행마을 단풍축제를 연다. 이번 축제는 '노랑마을이 진짜일까요?
+    https://www.naeponews.co.kr/news/articleView.html?idxno=71038
+  - 에이티엔뉴스: (충남=에이티엔뉴스) 박성민기자= 보령 성주산의 늦가을 정취를 만끽할 수 있는 ‘제23회 성주산 단풍축제’가 오는 11월 7일 성주문화복지센터 일원에서 열린다. 보
+    https://www.atnnews.co.kr/news/articleView.html?idxno=111831
+  - 한국사회복지저널: 보령시 성주면이 오는 11월 7일 성주문화복지센터 일원에서 제23회 성주산 단풍축제를 엽니다. 이번 행사는 성주산의 가을 풍경을 배경으로 면민과 방문객이 함께 어울리는 자리로 마련됐습니다.
+    http://www.ksw-news.com/news/articleView.html?idxno=3054757
+
 ## 여행업계
 
 ### 9월에도 한국인 해외여행 제자리걸음
@@ -233,10 +325,10 @@
     https://www.traveltimes.co.kr/news/articleView.html?idxno=500629
   - 투어코리아: [투어코리아=조성란 기자] 고물가와 경제적 불확실성에도 한국인의 해외여행 수요는 꺾이지 않았다. 여행 예약은 늘었지만 한 번 예약할 때 쓰는 금액은 오히려 줄었다.
     https://www.tournews21.com/news/articleView.html?idxno=147084
-  - 매일경제: 
-    https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zMUQxRkp6SFZfQ0pDaFRvc3c3dElDOThqVlNMT3pNY3pGT1Y2TEI0Sm92bHRyUlBnS1Z2aHJkekhLTUd1NTA3TkstdGpXcFJBRHlxaw?oc=5
-  - 한국경제: 
-    https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pMVdhazY2S3lWdjY4dzJ1cVcxTDg0TFBMamt0czFMNjE2Q1QtZldVOTVNbnpha2tVVWdYakZWcnpiakFrN0ZTbndIbnRpeEhrSUhadXFNdlVwQQ?oc=5
+  - 매일경제: 2024년 2708건서 지난해 4016건 연락 두절 2.5배·납치감금 2배 증가
+    https://www.mk.co.kr/news/society/12185331
+  - 한국경제: "가성비 해외여행" 입소문…한국인 세 명 중 한 명 '여기' 갔다 [신용현의 트래블랩], 중국서 몰려오고 일본으로 몰려갔다&hellip;'동북아'에 집중된 하늘길 국제선 여객 9.6% 늘었지만 국민 출국자는 0.4% 증가 그쳐 엔저에 일본행 역대 최대 동남아&middot;괌&middot
+    https://www.hankyung.com/article/202610230424g
 
 ### 이스타항공, 인천~샤먼 노선 취항
 - 매체 6곳 · Chosunbiz · www.ebn.co.kr · 뉴스1 · 뉴스핌 · 아시아경제 · 트래블데일리  ← 여러 곳이 썼다
@@ -246,62 +338,76 @@
     https://www.news1.kr/industry/general-industry/6334964
   - 뉴스핌: [청주=뉴스핌] 백운학 기자 = 청주국제공항의 겨울철 항공기 운항 여력이 최대 25% 늘고 중국 샤먼을 잇는 직항 노선이 처음 개설된다. 충북도는 국토교통부가 확정한 2026년 동계 정기 항공편 일정에 따라 오는 25일부터 내년 3월 27일까지 청주공항에서 5개국&mid
     https://www.newspim.com/news/view/20261026000376
-  - 아시아경제: 
-    https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lZ3M0V0RVTFV3M3dxTmVrczBZRWJCcER4b0VkWkRsb0FlM2ZKQklBU3dIQmNaUElDdnFYVnU3a3hhT1l3ZXN3a1JUOFZxakNZdldISXVlRXJQYnNEcWpEVw?oc=5
-
-### 북한, '무인항공기술발전-2026' 전시회 개최
-- 매체 2곳 · 뉴시스 · 연합뉴스  ← 여러 곳이 썼다
-  - 연합뉴스: (서울=연합뉴스) 북한이 지난 29일 '무인항공기술발전-2026' 전시회를 개최했다고 조선중앙TV가 30일 보도했다. 사진은 대형 정찰 무인기와.
-    https://www.yna.co.kr/amp/view/PYH20261030099500042
-  - 연합뉴스: 북한, 무인항공기술 전시회 개최…김정은 참관
-    https://www.yna.co.kr/view/IPT20261030000002365?section=gallery/index
-  - 뉴시스: [서울=뉴시스] 북한 조선중앙TV는 지난 29일 김정은 국무위원장이 '무인항공기술발전-2026 전시회'에 참석했다고 30일 보도했다. 이 자리에는 딸 김주애와 부인 리설주도 함께했다.
-    https://www.newsis.com/view/NISI20261030_0021511870
-
-### [에어 라이브] 트리니티항공ㆍ제주항공ㆍ에어부산ㆍ에어프레미아
-- 매체 1곳 · 대한경제  ← 여러 곳이 썼다
-  - 대한경제: 
-    https://news.google.com/rss/articles/CBMidEFVX3lxTE4tTW9KU2R6dllKNTQ0WWF6RU1qV0tsa212ZG1EOXctaFhISDZoeFpQbV9hRC1PbHlxYUs4SmlzVFVBM2p3Y1VzZ3NiRXZqaS1GaWQxd3RkeUZjdnVENzhSdGNjdzRpOC1aMzZvWEZBenBpcGJ1?oc=5
-  - 대한경제: 
-    https://news.google.com/rss/articles/CBMidEFVX3lxTE16SzBPTjNFWXhHbS1PdUd1WldoVlhQWWR5cHF2MmUwR0JIUWJxVHZSYlRxYm5uNEN3SkZrbVBSVmlNRnBWaFA3RFVhc2NTVTVnVkJMc3E2clpybjRlaVdBakVLdTdPellNSjdma0FhVm5qRk02?oc=5
-  - 대한경제: 
-    https://news.google.com/rss/articles/CBMic0FVX3lxTE12UDRhSHFmaXZhcU9acDlKVmhTZ1dvcVRQcVFYT2Q4SWpVazhiYTZERG1CV0wwUzZISHdjYjFFUm5Hd2J6YzhLbzJWQ3pDNkwtalh5YzJhdnBaN1YwVW9IU2xTV2l6WF9vZW9KWllOWDNyUE0?oc=5
-
-### 인하대 'AI기반 착륙유도 연구', 美항공우주학회 최우수 논문
-- 매체 3곳 · 경향신문 · 뉴시스 · 연합뉴스  ← 여러 곳이 썼다
-  - 연합뉴스: (인천=연합뉴스) 황정환 기자 = 인하대는 김종한 항공우주공학과 교수 연구팀이 인공지능(AI)을 활용한 우주비행체 착륙 유도 연구로 미국항공우주. ..
-    https://www.yna.co.kr/view/AKR20261029044000065
-  - 뉴시스: [인천=뉴시스] 전예준 기자 = 인하대학교 김종한 항공우주공학과 교수 연구팀의 인공지능(AI) 기반 우주비행체 착륙 유도 논문이 미국항공우주학회(AIAA) 유도·항법·제어(GNC) 기술위원회의 최우수논문으로 선정됐다.
-    https://www.newsis.com/view/NISX20261029_0003845851
-  - 경향신문: 김종한 인하대 항공우주공학과 교수(사진) 연구팀이 인공지능(AI)을 활용한 우주비행체 착륙 유도 연구로 미국항공우주학회(AIAA) 유도·항법·제어(GNC) 기술위원회의 최우수 논문에 선정됐다. 인하대는 해외 기관과 공동 수행하지 않은 국내 단독 연구가 이 기술위원회의 최우수 논문에 선정
-    https://www.khan.co.kr/article/202610292017005
+  - 아시아경제: 이스타항공이 중국 남부 휴양지 노선을 잇달아 개설하고 한중 여객 수요 공략에 나선다.
+    https://www.asiae.co.kr/article/2026102809581636541
 
 ### 한국공항공사, 지방공항 동계 국제선 운항 11.6% 확대
-- 매체 3곳 · 경기일보 · 마켓인 · 세계일보  ← 여러 곳이 썼다
-  - 세계일보: 
-    https://news.google.com/rss/articles/CBMiWEFVX3lxTE85NjRHTHdiX1VETVJydnZuWXk1a3NyMW5WbG9lYTlLRWxMVjMxZ2wweURLWWlHRHdsaHlxRmtsSHNZS1lzTzU4ZmpwTXRscmtlanRYa21BOFLSAVRBVV95cUxORjJWNTQzUENsSFRrbWNQalpvSjBzeFQ3aGt5NUw2SnVoV3F1cTNRN1BoZUVUdnJadXE2em0teC1fVHV2M2tHMUIzV1phaG80YnduT04?oc=5
-  - 마켓인: 
-    https://news.google.com/rss/articles/CBMic0FVX3lxTFBDM3RHRUx6bHZDUEVvRDlkRlhtTDdHc1FWbjA3U0hFT1BIWkZxdFBUZ2x6a1RkeVRZem93QnMzM0R4XzExSUNHZnBkaWd2WG1sSHoxdzJReDRjbXJ2alVjVFFQV051Y1dIR0lfcWVKa0sxa2s?oc=5
+- 매체 4곳 · 경기일보 · 뉴스투데이 · 마켓인 · 세계일보  ← 여러 곳이 썼다
+  - 세계일보: 올 동계 시즌 지방공항의 국제선 운항이 확대된다. 한국공항공사는 이달부터 내년 3월까지 전국 14개 공항의 국제선 운항이 11.
+    https://www.segye.com/newsView/20261029508541
+  - 마켓인: 국토교통부가 올해 동계기간 국제선 264개, 국내선 20개 노선의 정기 항공편 운항 일정을 확정했다. 일본과 중국 노선을 중심으로 국제선 운항이 늘어나고 부산과 청주 등 지방공항에서 출발하는 중국 직항 노선도 새롭게 개설된다.
+    https://marketin.edaily.co.kr/News/ReadE?newsId=01433366645616528
   - 경기일보: 
     https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MeEpzRm9DdUlwZndYaXU5NS1PMUczSWdCUDByblN3QXFJcExGLTRKakx6U3BiY0lDLUcwbGRyS1duYlVGOE8xWW1HS0RhbkVfUDNyTGNreWVyUms?oc=5
+  - 뉴스투데이: 
+    https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SLTlKaWs5cmUzemFRNGhBel9CcUF6SU5NczFvMTM1anFjLTZhOFJKMFZ0UkFkcTgzdUE5S1ZreTZPdDYzdE1URE9qMUxjaEU5N0E0dVZhZEJObTBkLUE?oc=5
 
-### 홍준범, 대한항공 품으로
-- 매체 1곳 · 뉴스1  ← 여러 곳이 썼다
-  - 뉴스1: 
-    https://www.news1.kr/photos/8184444
-  - 뉴스1: 
-    https://www.news1.kr/photos/8184298
-  - 뉴스1: 
-    https://www.news1.kr/photos/8184291
+### 교원투어, ‘아이와 함께 떠나는 겨울여행’ 기획전
+- 매체 3곳 · 뉴시스 · 트래블데일리 · 파이낸셜포스트  ← 여러 곳이 썼다
+  - 트래블데일리: 교원투어 여행이지가 겨울방학을 앞두고 가족 여행객을 위한 ‘아이와 함께 떠나는 슬기로운 겨울여행’ 기획전을 진행한다. 이번 기획전은 자녀의 연령과 관심사, 여행 목적에 따라 여행상품을 선택할 수 있도록 ▲교육 ▲체험&자연 ▲역사&문화 ▲박물관&미술관 ▲휴양 ▲3대가 함께 등 6개 테마로
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72477
+  - 뉴시스: [서울=뉴시스]송연주 기자 = 겨울방학을 앞두고 자녀의 연령과 관심사, 여행 목적에 따라 여행 상품을 선택할 수 있도록 기획전이 마련됐다. 교원투어 여행이지는 가족 여행객을 위한 '아이와 함께 떠나는 슬기로운 겨울여행' 기획전을 진행한다고 28일 밝혔다.
+    https://www.newsis.com/view/NISX20261028_0003844160
+  - 파이낸셜포스트: 
+    https://news.google.com/rss/articles/CBMidEFVX3lxTE9tZWM2ZVVBaFFFdVBKR3FuUVQxYWpsUXNPSWRONkFIQWtkZlAwUG53NUlEN3Joay0zS3Y1YUswQVNmU0M1RWtOSkxkM2pYWFVkbFlxcFFtVUJRdnc1TmZvZVFNZ2d0M3l2OFVDcVF6ejcwZGMx?oc=5
 
 ### 경북 구미서 28~30일 ‘항공방위물류 박람회’···역대 최대 규모
 - 매체 3곳 · 경향신문 · 조선일보 · 파이낸셜뉴스  ← 여러 곳이 썼다
   - 경향신문: 경북 구미시는 오는 28일부터 사흘간 구미컨벤션센터에서 ‘2026 항공방위물류 박람회(GADLEX)’를 개최한다고 25일 밝혔다. 항공과 방위, 물류산업의 미래 기술을 살펴볼 수 있는 행사로 올해는 역대 최대 규모인 94개 기업 및 기관이 참여해 207개 부스를 운영할 예정이다.
     https://www.khan.co.kr/article/202610251137001
-  - 조선일보: 
-    https://news.google.com/rss/articles/CBMikAFBVV95cUxQNmdsUk1ySnRWc2JTZ2RsSjZQLXpyWTdzckNfbElIVnNYSXpMVlZ3X0ZudEVPMGM1ODdiekJLZ3VqeDRhbXB3YVRYTVJZcHRnOWViU0U0TE93bkJCcW1LR2F5Q3JQbWczR09mMXVyeEw4b0xYemkzaGMwQnRVOG1xWWoyTkg2QzZETlhKd1lzVDI?oc=5
-  - 파이낸셜뉴스: 
-    https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DSTQwN2w3bS1CYVVtLV9COU1raTgxYTRJM0lzc2lhWHlwOHJ6SlU2VkpWUWpObWZfellMdmNyNm43WlRPLVRmT25LZVpwYTJFbHhaU2NpRTNtQQ?oc=5
+  - 조선일보: 경북 구미시가 28일부터 30일까지 구미코에서 2026 항공방위물류 박람회를 개최함. 보잉, 록히드마틴 등 글로벌 기업이 참여해 국내 기업의 수출을 지원하며, 청년 채용 프로그램, 스타트업 컨설팅, 드론봇 전투 경연 등이 함께 열려 방산 생태계 활성화를 도모함.
+    https://www.chosun.com/national/national_general/2026/10/27/WLJYAJQSVVGFPLVMFP5O7SHLQ4/
+  - 파이낸셜뉴스: 경북 구미에서 항공·방위·물류 관련 최신 기술을 물론 수출상담·투자 컨설팅·방위산업 기업 채용까지 연계하는 비즈니스 기회가 열려 관심을 끈다. 또 이번 행사는 단순한 기술·제품 전시를 넘어 기업의 해외시장 진출과 투자유치, 인재 확보를 지원하는 실질적인 ..
+    https://www.fnnews.com/news/202610260804593834
+
+### 대전관광공사 '대한민국SNS대상' 2년 연속 최우수상
+- 매체 3곳 · 뉴스1 · 뉴스핌 · 서울경제  ← 여러 곳이 썼다
+  - 뉴스1: 
+    https://www.news1.kr/local/daejeon-chungnam/6332964
+  - 뉴스핌: [대전=뉴스핌] 오영균 기자 = 대전 대표 캐릭터 '꿈돌이'를 활용한 관광 홍보 콘텐츠가 2년 연속 전국 단위 SNS 평가에서 성과를 인정받았다. 대전관광공사는 지난 26일 서울 한국프레스센터에서 열린 '제16회 2026 대한민국 SNS대상'에서 공공기업·공
+    https://www.newspim.com/news/view/20261027000322
+  - 서울경제: 대전관광공사는 26일 한국프레스센터 국제회의장에서 열린 ‘제16회 2026 대한민국SNS대상’에서 공공기업·공사 부문 2년 연속 최우수상을 받았다고 27일 밝혔다. 대전관광공사는 블로그·인스타그램·페이스북·유튜브·스레드 등 5개 공식 채널을 운영하며 대전 대표 캐릭터
+    https://www.sedaily.com/article/20106429
+
+### 새만금청, 「제2회 글로벌도시관광서밋」 참가
+- 매체 3곳 · 노컷뉴스 · 서울Pn · 서울신문  ← 여러 곳이 썼다
+  - 서울Pn: …
+    https://go.seoul.co.kr/news/prnewsView.php?id=453476
+  - 서울신문: 제2회 글로벌도시관광서밋이 부산 해운대 일원에서 28일까지 열린다. 16개국 31개 도시 대표단과 정부·국제기구, 관광 전문가 등 700여 명이 참석해 로컬투어리즘과 디지털 혁신을 바탕으로 도시경제 활성화, 시민 삶의 질 향상, 지속 가능 관광 협력 방안을 논의한다.
+    https://www.seoul.co.kr/news/society/2026/10/26/20261026500072
+  - 노컷뉴스: 부산시 26일부터 3일 동안 파라다이스호텔에서 글로벌도시관광진흥기구, 부산관광공사와 함께 '제2회 글로벌도시관광서밋)을 개최한다고 밝혔다.
+    https://www.nocutnews.co.kr/news/6596743
+
+### 스카이스캐너 항공권 프로모션 진행
+- 매체 2곳 · 디스커버리뉴스(DISCOVERYNEWS) · 트래블데일리  ← 여러 곳이 썼다
+  - 트래블데일리: 스카이스캐너가 다가오는 연말을 맞아 11월 1일부터 11일까지 ‘11.11 쇼핑 데이’ 항공권 할인 프로모션을 진행한다. 이번 프로모션은 한국인 여행객들이 보다 합리적인 가격으로 연말 여행을 떠날 수 있도록 마련됐다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72500
+  - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 하이브리드 항공사(HSC) 에어프레미아가 동계 운항 시즌을 맞아 인천발 미주 및 아시아 전 노선의 탑승 스케줄 및 신규 취항 노선 일정을 발했다. 에어프레미아가 인천 출발 전 노선을 대상으로 운임 할인 및 혜택을 제공하는 ‘블랙프라이데이’ 프로모션을 진행한
+    https://www.discoverynews.kr/news/articleView.html?idxno=1105337
+
+### “오로라 보러 북유럽?”…중국 최북단 ‘모허’로 떠나는 겨울 이색여행
+- 매체 2곳 · 투어코리아 · 트래블데일리  ← 여러 곳이 썼다
+  - 투어코리아: [투어코리아=조성란 기자] 오로라를 보기 위해 반드시 북유럽까지 갈 필요가 없어졌다. 하나투어가 중국 최북단 도시 모허를 찾는 겨울 여행 상품 ‘하얼빈·모허 5일’을 출시했다.
+    https://www.tournews21.com/news/articleView.html?idxno=146975
+  - 트래블데일리: 하나투어가 중국으로 오로라 헌팅을 떠날 수 있는 ‘모허’ 지역 신상품을 선보인다. 모허는 ‘중국의 북극’이라 불릴 만큼 청정 설경으로 잘 알려진 도시다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72511
+
+### ‘로컬 드라이브 캠페인’ 진행
+- 매체 2곳 · 아시아투데이 · 트래블데일리  ← 여러 곳이 썼다
+  - 트래블데일리: 문화체육관광부와 한국관광공사는 티맵(TMAP)과 함께 자동차로 지역 곳곳을 여행하며 다양한 혜택을 받을 수 있는 ‘로컬 드라이브 캠페인’을 11월 30일까지 진행한다. 이번 캠페인은 국민이 자동차 여행을 통해 잘 알려지지 않은 인구감소지역의 숨은 매력을 발견하고 실질적인 여행 혜택까지 
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72502
+  - 아시아투데이: 
+    https://news.google.com/rss/articles/CBMibkFVX3lxTE9BdnF4RjJaU1dCWXdfczZfX0ZzMjdiQnVqVEg5eU9mU29uZlk2OTZZanJvaUU4TkpEdzBxV0F1bTN3Q1NIZ1lpSnVxQmNKNzFFaXc0YmNiQTJfMkRQLUhWRDlfSERZaU9FWHh0ejRB?oc=5
 
 ## 연예 (편집실이 쓴다 — 자동 해설 대상 아님)
 
@@ -359,8 +465,34 @@
   - 톱스타뉴스: 
     https://www.topstarnews.net/news/articleView.html?idxno=16263186
 
+### [drama] 레쥬 골프 예능 ‘골당TV X-라이브’, 최성민·양회장·허또진 출연… 11월 2일 첫 방송
+- 매체 2곳 · 스포츠월드 · 톱스타뉴스  ← 여러 곳이 썼다
+  - 톱스타뉴스: 
+    https://www.topstarnews.net/news/articleView.html?idxno=16261528
+  - 스포츠월드: 코미디언 최성민이 진행을 맡고 그룹 레인보우 출신 오승아와 조현영이 첫 게스트로 나서는 골프 예능 프로그램이 시청자들과 만난다. 라이브 커머스 플랫폼 레쥬(REZU)는 STN SPORTS와 함께 제작한 골프 예능 ‘골당TV X-라이브’를 오는 11월 2일 오후 6시 첫 공개한다고 밝혔다
+    https://www.sportsworldi.com/newsView/20261029513909
+
+### [movie] ‘듄: 파트3’ 12월 16일 한국서 세계 최초 개봉
+- 매체 2곳 · 스페셜타임스 · 여성신문  ← 여러 곳이 썼다
+  - 스페셜타임스: 매체 보도에 따르면 드니 빌뇌브 감독이 연출한 영화 ‘듄: 파트3’가 12월 16일 한국에서 전 세계 최초로 개봉한다. 개봉일 확정과 함께 메인 포스터와 파이널 예고편도 공개됐다.
+    http://www.specialtimes.co.kr/news/articleView.html?idxno=479586
+  - 여성신문: ‘듄친자’라 불리는 팬덤을 보유한 영화 ‘듄’ 시리즈의 마지막 영화 ‘듄: 파트3’가 한국에서 전 세계 최초로 개봉한다. 워너브러더스 코리아는 29일 ‘듄: 파트 3’(감독 드니 빌뇌브)가 12월 16일 한국에서 개봉한다고 알렸다.
+    https://www.womennews.co.kr/news/articleView.html?idxno=283891
+
+### [movie] 영화 '암살자(들)' 누적 관객 340만 명 돌파, 개봉 6주 차 손익분기점 넘어
+- 매체 2곳 · 비즈니스포스트 · 스포츠동아  ← 여러 곳이 썼다
+  - 비즈니스포스트: 
+    https://www.businesspost.co.kr/BP?command=article_view&num=450702
+  - 스포츠동아: [스포츠동아 이승미 기자] 유해진, 박해일, 이민호 주연의 영화 ‘암살자(들)’이 개봉 6주차에도 한국영화 박스오피스 정상을 지키며 장기 흥행을 이어가고 있다. 국내외 영화제에서 작품성을 인정받은 데 이어 꾸준한 관객 동원으로 흥행 뒷심을 발휘하고 있다.
+    https://sports.donga.com/ent/article/all/20261027/134914055/1
+
+### [startrip] [인터뷰] 애니메이션만의 비약과 시적 허용 - 시노미야 요시토시 감독
+- 매체 1곳 · 씨네21
+  - 씨네21: 현실에서 볼 수 없는 불꽃놀이를 어떻게 보여줄 것인가. 는 이 질문에 너무도 황홀한 이미지의 애니메이션으로 답한다.
+    https://cine21.com/news/view/?mag_id=111142
+
 ---
-거리 42건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 64건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 방송 재료 — (2026-10-30)
