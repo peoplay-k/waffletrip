@@ -129,7 +129,6 @@
     "03168a80936409d9b6606ca18399faf42501792a",
     "0319192451f98c88315a8da34f8e4a7c4f4c202c",
     "031b68ee15abf366f1d81383936a418daf409d3f",
-    "0321597a964ac536ccb6d652aa998550e88b44ca",
     "03241f7f1882ac11c5a14eff0a41a2604b674da7",
     "033329e737b8ffff05c157dabcc404ee70ea9b55",
     "03353fb5bb6e02cacfa45ef0f44f3392a848640c",
@@ -3626,7 +3625,6 @@
     "66ba461063f7f3655d097870cabfa4a6890b11af",
     "66cf644fc483ae02280b6c3a03d3a37c9c7b2059",
     "66db4b3f54bfba927392f6790d16fd3753cbb291",
-    "66dd608bfc1b17b7eac4325a93d6df19d3f14f3a",
     "66dee74185f4913a023aa1e250da883eaa033298",
     "66e124ee3b5660406195366133ec35bff95c9197",
     "66e51a04a07595de47f8d51c5bc98a3385fedc0c",
@@ -5165,6 +5163,7 @@
     "924b284d00ecf8a5f9726756ed0c021795d159e3",
     "925149f8b0960af1a19df0d97ad0e5dd70e8a564",
     "925489172f7150413d98180b46528256e99eb176",
+    "9261e50222dbeab5a04d94b9f8f10a61dc2315f5",
     "9266b15bcd54bdd18182cbfe77ce7a924fe05df5",
     "9274488d109ac1cd89346db5961034b3faea9980",
     "9282dbaff3136db634ec6b62e1eab416465cc3be",
@@ -5814,6 +5813,7 @@
     "a4f0fa19a4bfcc74e549a61611a3e81af3daafac",
     "a4f6736c913f434496e40a5a7024947c89c28fb9",
     "a4f9a989bd655b7d46d4b38c2b88b2a689e18821",
+    "a50f78ebe97a4caed11650d2503abb1134508f29",
     "a51ddafa21abe3f8129fada3c8bb4823206a6116",
     "a51df1d10796a0c571331088eee17f25a444082e",
     "a5255c4660b2076d1d5cb3e1d206e45e938c1411",
@@ -6149,6 +6149,7 @@
     "ae4d2905255130576fc3fa596b5c539e71845d6c",
     "ae53152707747b584f3dabc273db7ad29d1f8825",
     "ae56a561de9f7b5d1985a7f16a76b03a144f914d",
+    "ae59b27fcb8f9fb514cd43345c1e5f549fe0e481",
     "ae5b241f358b90a07b6cd758364b3e1b6de47ec4",
     "ae6f778169cc3ffc7c2ef234c5f240e68075c02b",
     "ae7a92d0d30cfa6badd30bf715a2e05cbde56410",
@@ -7757,7 +7758,6 @@
     "d08fc0cf74c2555e2aed2122a6aa9f242582a75a",
     "d09019b790893ebe4c2718a99488f3e9cb2afa59",
     "d091f9235747f127f15460e98591a31fcca75ce4",
-    "d092b9129db4d3118cbb165ec1959764d56f65f8",
     "d09b1f4e8cdbd334f06fe0ad9d7b8ff52f99fbd4",
     "d0ac6e36d1745df3fb030073793eed43bdc3f068",
     "d0b5e53b1087acd2289fac86dee2e97cb5b3e993",
@@ -7986,6 +7986,7 @@
     "d6af0b25f3819a4fd7f182abd8b99d27039df327",
     "d6cc12650120d7a4f58d8b7e6be6b434d8077a29",
     "d6cc824592b2b4cb5106eed6f442d3afb30ffbc1",
+    "d6d1149c5af277c6b40617d6eb1174df925945db",
     "d6d11505e21216cc0d576c38df5d2ec7fdc72acb",
     "d6d131a2fe548cca02a0f57e79f12c2d9dacc7f8",
     "d6d2d42e2f20d0fe7701384e099123fef1f9b886",
@@ -49561,6 +49562,13 @@
       "grade": "B"
     },
     {
+      "id": "ae59b27fcb8f9fb514cd43345c1e5f549fe0e481",
+      "title": "'폭설' 감독 \"천재 김윤석과 괴인 구교환의 만남, 짭짤했죠\"",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "B"
+    },
+    {
       "id": "be6831d111adc92cc54ff57f7fef20cfe53837a9",
       "title": "‘겨울 울릉도 여행 부담 쏙’···울릉군, 주요 관광시설 6곳 무료 전환",
       "date": "2026-10-30",
@@ -49596,17 +49604,17 @@
       "grade": "B"
     },
     {
+      "id": "d6d1149c5af277c6b40617d6eb1174df925945db",
+      "title": "'라이어' 유연석X서현진, '완벽했던 첫 데이트'...모든 사건의 시발점 - 머니투데이",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "B"
+    },
+    {
       "id": "e5642dfcbe03ca78f99bdd13190b11f9d323c174",
       "title": "울릉도 감금·강매 영상 논란…울릉군·관광업계·소상공인 공동대응",
       "date": "2026-10-30",
       "region": "korea",
-      "grade": "B"
-    },
-    {
-      "id": "d092b9129db4d3118cbb165ec1959764d56f65f8",
-      "title": "제주·하와이·발리·푸켓 등 9개 섬 지역, MICE 협력 위해 뭉쳤다",
-      "date": "2026-10-30",
-      "region": "hawaii",
       "grade": "B"
     },
     {
@@ -49619,6 +49627,13 @@
     {
       "id": "1c114964e8b68db3c149e433a617da3dc3e7d6ad",
       "title": "서울·부산서 떠나는 남도여행…‘남도한바퀴’ 1박 2일 상품 출시",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "a50f78ebe97a4caed11650d2503abb1134508f29",
+      "title": "보령 성주산 단풍축제 11월 7일 개최…늦가을 정취 만끽",
       "date": "2026-10-30",
       "region": "korea",
       "grade": "B"
@@ -49666,24 +49681,17 @@
       "grade": "B"
     },
     {
-      "id": "0321597a964ac536ccb6d652aa998550e88b44ca",
-      "title": "공개 D-DAY ‘꿀알바’, 관전 포인트 셋",
-      "date": "2026-10-30",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "66dd608bfc1b17b7eac4325a93d6df19d3f14f3a",
-      "title": "블랙핑크, K팝 걸그룹 최초 옥관문화훈장 수훈..데뷔 10주년 겹경사",
-      "date": "2026-10-30",
-      "region": "",
-      "grade": "B"
-    },
-    {
       "id": "2b5819ef4a191c0997db26f381e836c219f4d311",
       "title": "대구문화예술회관 \"스즈메의 문단속 OST를 오케스트라 연주로…\"",
       "date": "2026-10-30",
       "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "9261e50222dbeab5a04d94b9f8f10a61dc2315f5",
+      "title": "프린스 와이키키, 새 사장·총지배인 선임…11월 '알로하 나눔 워크숍'",
+      "date": "2026-10-30",
+      "region": "hawaii",
       "grade": "B"
     }
   ]
