@@ -1477,6 +1477,7 @@
     "2a4ae9f93900c120f43ee489dd42cac2229faead",
     "2a4b7be13127de272cb219152b83e7956c9fa6f2",
     "2a4bae397a6eb525cf0c26fec77a11c166dfc287",
+    "2a542ab8fdd8dcaf49b388961ce857a4735843d8",
     "2a7efa28db479f5aeb5f437ead8a24cac2d7a909",
     "2a80f9575739d3b2e11eaa40e95d9a16f9cbe1e2",
     "2a92f091f1018cfd3320e8af8ba49ff8ccbdf737",
@@ -3855,6 +3856,7 @@
     "6d89366047613e0f16ebaa8b620b030f9d26b5cf",
     "6d89c6ccb46a557a81f221bee5c3c6e23542afe7",
     "6d8cabe50e2f4e73e18d348eb5fd3ae1f705ea72",
+    "6d910682d134f293d00fd7ad92fa4a51c75f8a07",
     "6d9a8fe29145fb5b94421722ae8c533c85b958aa",
     "6db45228da5566db2fdd27f7056f84fe3925ee3a",
     "6dd5dacea4ea8610c20e68c89745b86c00ceaf36",
@@ -4347,6 +4349,7 @@
     "7bb81e3ae048fafe80591d252d8b569a353e2280",
     "7bbe550682f1f611951d13e53f37d613d4a4d0a7",
     "7bc0a900d766d846ac2ba9817bb88288bd676afe",
+    "7bdcd57fa1327f02e206ecc4d2f75fe0aa3a0794",
     "7bdf4cd0fcb4b411a8318ace3279638ee95d7a58",
     "7be7499eaf28a85d4ca03d974192cbd5430bb240",
     "7beb624aea9c73b9b9b52b36ea99eb2e4a96c6f7",
@@ -5846,6 +5849,7 @@
     "a74516c1ea5dcb1e1290f5bcceb16fb6cf40f479",
     "a74b11b2b401774ce8b72f0b4cea91c72b21bc2a",
     "a74e4b512d8026c84f391e524ad252b3835bd078",
+    "a752b75e6e5233a875e0031112dc825a50f5b23c",
     "a75fda2ce434b9b941e36a744a205ecaf4340a53",
     "a7676ad351aa8559376bc3c7ae7f2d85b2654923",
     "a76978f933191332b049d77d6f908998373c2f36",
@@ -7915,6 +7919,7 @@
     "d64d2d234dc175da9236cfa354bfc8e6c195300c",
     "d6531d1d135c22fcdd86304b1a25666ea001f1d8",
     "d65757a287ece037679b70fed7d40f3121620f6c",
+    "d657f1cd721afdaecfe1a6b0310fd02e15f07649",
     "d6746f5928347707af727033b01bd47a865d9f41",
     "d675247efa3caeaceca1a2acf2da93792592af49",
     "d67877cec7b95d66848bc6fa2020b6aa92803865",
@@ -49060,6 +49065,41 @@
       "title": "부산관광공사·남해군, 초광역 관광 협력…체류형 관광 확대 추진",
       "date": "2026-10-30",
       "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "d657f1cd721afdaecfe1a6b0310fd02e15f07649",
+      "title": "국립목포대, '2026 도시재생 누구나 두:드림 축제' 개최…창업동아리 성과 공유·지역민 소통",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "7bdcd57fa1327f02e206ecc4d2f75fe0aa3a0794",
+      "title": "부여 런케이션, \"스쳐 가던 관광서 머무는 일상으로\"",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "a752b75e6e5233a875e0031112dc825a50f5b23c",
+      "title": "'신변보호 해제' 유해진, 대통령 표창 수상…유재석은 등 토닥",
+      "date": "2026-10-30",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "2a542ab8fdd8dcaf49b388961ce857a4735843d8",
+      "title": "다낭은 2026년 말에 다양한 독특한 축제와 행사를 개최할 예정입니다.",
+      "date": "2026-10-30",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "6d910682d134f293d00fd7ad92fa4a51c75f8a07",
+      "title": "트리니티항공, 부산발 후쿠오카·삿포로 취항 1주년…탑승객 30만명",
+      "date": "2026-10-30",
+      "region": "japan",
       "grade": "B"
     }
   ]

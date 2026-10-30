@@ -253,11 +253,13 @@
     },
     {
       "date": "2026-10-30",
-      "collected": 1439,
-      "published": 238,
+      "collected": 1327,
+      "published": 243,
       "ours": 7,
       "failed_sources": [
-        "guam_post"
+        "guam_pdn",
+        "guam_post",
+        "kota_nst"
       ]
     }
   ]
