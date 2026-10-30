@@ -485,13 +485,11 @@ def test_우리_카드에는_직접_촬영_캡션이_붙지_않는다():
 
 def test_편집실_필자는_기자_명부에서만_고른다():
     """손으로 치게 두면 명부에 없는 이름 — 지어낸 기자 — 가 생긴다."""
-    import yaml
-    from src.desks import KINDS, REPORTERS
-    cfg = yaml.safe_load(open("static/admin/config.yml", encoding="utf-8"))
-    fields = {f["name"]: f for f in cfg["collections"][0]["fields"]}
-    assert fields["source_name"]["widget"] == "select"
-    assert [o["value"] for o in fields["source_name"]["options"]] == [""] + list(REPORTERS)
-    assert [o["value"] for o in fields["kind"]["options"]] == list(KINDS)
+    import sys as _s
+    _s.path.insert(0, "tools")
+    import admin
+    from src.desks import REPORTERS
+    assert [v for v, _ in admin.WRITERS] == [""] + list(REPORTERS)
 
 
 # ── 런칭 필수 항목 ────────────────────────────────────────────────
@@ -583,31 +581,15 @@ def test_admin_is_deployed_but_not_indexed(tmp_path):
     """편집실은 배포하되 검색에 노출하지 않는다."""
     render_site([], str(tmp_path), TODAY)
     assert (tmp_path / "admin" / "index.html").exists()
-    assert (tmp_path / "admin" / "config.yml").exists()
+    assert not (tmp_path / "admin" / "config.yml").exists()  # 옛 Sveltia 편집실은 걷었다
     html = (tmp_path / "admin" / "index.html").read_text(encoding="utf-8")
     assert 'name="robots" content="noindex, nofollow"' in html
+    # 배포(.github/workflows/admin.yml)가 이 한 줄을 찾아 편집실 주소를 적는다
+    assert html.count('var EDITOR_URL = "";') == 1
 
 
-def test_admin_config_allows_exactly_one_photo_upload():
-    """업로드는 허용하되 대표 사진 한 장뿐이다. 업로드는 content/uploads 로 가고
-    CI 의 사진 반입(tools/photo_intake.py)이 얼굴 검사를 거친 뒤에만 지면에 싣는다."""
-    import yaml
-    cfg = yaml.safe_load(open("static/admin/config.yml", encoding="utf-8"))
-    assert cfg.get("media_folder") == "content/uploads"
-    assert cfg.get("public_folder") == "/content/uploads"
-    for col in cfg["collections"]:
-        images = [f["name"] for f in col["fields"] if f["widget"] in ("image", "file")]
-        assert images == ["photo"], images
-        names = {f["name"] for f in col["fields"]}
-        assert {"channel", "category", "photo_hero", "photo_note"} <= names
 
 
-def test_admin_config_points_at_the_right_repo():
-    import yaml
-    cfg = yaml.safe_load(open("static/admin/config.yml", encoding="utf-8"))
-    assert cfg["backend"]["repo"] == "peoplay-k/waffletrip"
-    assert cfg["backend"]["branch"] == "main"
-    assert cfg["collections"][0]["folder"] == "content/review"
 
 
 # ── 로컬 편집실 ───────────────────────────────────────────────────
@@ -860,23 +842,6 @@ def test_데스크_표가_해설을_사람이_쓴다고_말하지_않는다(tmp_
     assert ">사람</td>" not in html
 
 
-def test_편집실_지역_선택지가_코드와_같다():
-    """편집실 드롭다운에 없는 지역은 사람이 기사를 쓸 수 없다.
-
-    2026-09-10 실측: 일본·태국·대만이 빠져 있었다. 지역을 늘릴 때
-    static/admin/config.yml 을 같이 고치는 것을 잊으면 조용히 어긋난다.
-    """
-    import yaml
-    from src.models import REGIONS, REGION_NAMES
-    with open("static/admin/config.yml", encoding="utf-8") as f:
-        cfg = yaml.safe_load(f)
-    options = [o["value"] for field in cfg["collections"][0]["fields"]
-               if field["name"] == "region" for o in field["options"]]
-    labels = {o["value"]: o["label"] for field in cfg["collections"][0]["fields"]
-              if field["name"] == "region" for o in field["options"]}
-    assert set(options) == set(REGIONS), set(REGIONS) ^ set(options)
-    for key, name in REGION_NAMES.items():
-        assert labels[key] == name, (key, labels[key], name)
 
 
 def test_무음_자막은_출처를_두_번_말하지_않는다():

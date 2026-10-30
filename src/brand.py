@@ -5,8 +5,8 @@
 말고 아무것도 import 하지 않는다 — models.py 와 같은 규칙이다.
 
 도메인은 아직 waffletrip.com 이다(2026-09-25 사장님: "도메인은 그대로 해도 돼").
-peopleroad.com·.kr 은 타인 소유. 옮기는 날 DOMAIN 한 줄과 tools/oauth-worker.js 의
-ALLOWED_ORIGIN(자바스크립트라 여기서 못 읽는다)만 바꾸면 된다.
+peopleroad.com·.kr 은 타인 소유. 옮기는 날 DOMAIN 한 줄만 바꾸면 된다
+(편집실은 별도 주소의 Cloudflare Worker 라 도메인과 묶이지 않는다 — admin/).
 """
 from __future__ import annotations
 

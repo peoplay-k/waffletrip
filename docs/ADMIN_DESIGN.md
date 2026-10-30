@@ -123,3 +123,25 @@ YAML 앞머리 + 본문. 편집실이 쓰는 칸:
   `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `ADMIN_GITHUB_TOKEN`(Contents·Actions 읽기·쓰기),
   `ADMIN_SETUP_CODE`(첫 관리자 만들 때 쓰는 아무 문구).
 - waffletrip.com/admin/ 은 편집실 주소로 넘긴다.
+
+## 7. 만들면서 정한 것 (2026-10-30, admin/ 구현)
+
+- **지울 수 없는 것**: 지역은 숨기기만 된다. 여행 부문 news·biz·feature·data 와 문화 startrip 은
+  기사가 떨어지는 기본 부문이라 숨기기만 된다. 그 밖의 부문을 지울 때는 `PUT /api/site` 에
+  `deleted: {travel_sections:[id], culture_sections:[id]}` 를 같이 보낸다 — 여기 없는데 사라진 id 는
+  'id 를 바꾸려 한 것'으로 보고 막는다.
+- **상태 전환**: 이미 발행된 기사(`published_id` 있음)는 발행됨 ↔ 내림만. 발행된 적 없는 원고를
+  '발행됨'으로 둘 수는 없다(발행은 파이프라인이 붙인다). 파이프라인의 `duplicate` 는 '중복' 표로 보이고
+  그대로 둘 수 있다. 권한 밖 상태는 403, 칸 오류는 400.
+- **새 원고**: 파일명 `YYYYMMDD_<slug>.md`(tools/new_article.py 와 같은 slug 규칙, 겹치면 -2, -3),
+  `id` 는 `art-<지역 또는 ent-부문>-<YYYYMMDD>-<6 hex>`, `author` 는 서버가 넣고 화면은 못 바꾼다.
+- **API 추가**: `GET /api/media?path=` (content/uploads·assets 사진 미리보기), `POST /api/deploys`
+  (관리자 '지금 발행' — 구조만 고쳤을 때도 daily.yml 을 깨운다. 지금은 config/site.json 푸시도
+  daily 를 깨우므로 예비 단추다).
+- **검사기 두 벌의 일치**: `admin/public/shared/siteconfig.js validateSite` 는 `src/site_config.py validate`
+  보다 느슨하면 안 된다. 홈 숫자 범위(HOME_RANGES)·통화 목록(CURRENCIES)·'전부 숨김 금지'·날씨 지점을
+  양쪽에 같이 두고, `tests/test_site_config.py` 가 같은 입력을 두 검사기에 넣어 어긋남을 잡는다.
+- **비밀번호**: PBKDF2-SHA256, 횟수는 `wrangler.toml` `PASSWORD_ITERATIONS`(기본 20,000 — Workers
+  무료 요금제의 요청당 CPU 10ms 안). 유료로 옮기면 100,000 으로 올린다; 각자 다음 로그인 때 다시 저장된다.
+  최소 10자.
+- **목록 캐시**: 폴더 해시가 같으면 D1 의 목록을 그대로, 다르면 바뀐 블롭만 GitHub 에서 읽는다.

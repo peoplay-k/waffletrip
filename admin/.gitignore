@@ -1,0 +1,6 @@
+# 저장소 루트 .gitignore 의 `public/` 줄이 이 폴더의 화면 파일까지 숨긴다 — 되살린다.
+!/public/
+node_modules/
+.wrangler/
+.dev.vars
+test/.tmp/

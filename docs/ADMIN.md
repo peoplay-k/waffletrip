@@ -1,63 +1,74 @@
-# 편집실(어드민) — 로그인해서 기사 고치기·올리기
+# 편집실 — 아이디·비밀번호로 로그인해서 기사·카테고리·지역·기자·홈을 고친다
 
-주소: **https://waffletrip.com/admin/**
+주소: **https://waffletrip.com/admin/** (편집실 서버로 넘어간다)
 
-처음이면 **https://waffletrip.com/admin/start/** — 열쇠(토큰) 만들기 화면을 이름·기간·권한을
-미리 채워 여는 버튼과 로그인 순서가 한 쪽에 있다(2026-10-30).
+2026-10-30 새로 만들었다. 사장님: "어드민을 완전 새롭게 만들어서 카테고리 등도 내가 실제로 바꾸고
+이렇게 해야지 … 계속 내가 수정해서 바꾸고 해야 해." 예전 편집실(Sveltia, GitHub 토큰으로 로그인)은
+걷었다. 설계는 `docs/ADMIN_DESIGN.md`.
 
-2026-10-28 다시 만들었다. 예전 편집실(Decap CMS)은 GitHub 로그인을 중개할 서버가
-있어야 했는데 그 서버를 세우지 못해 로그인이 한 번도 안 됐다. 같은 설정 파일을 읽는
-Sveltia CMS 로 바꿔 **GitHub 토큰 하나로 바로 로그인**한다. 중개 서버는 필요 없다.
+- 로그인: 아이디·비밀번호. 사장님(관리자)과 기자(권한 나눔).
+- 고칠 수 있는 것: 기사 쓰기·고치기·내리기, 카테고리(여행·문화 부문)·지역면·채널 이름과 소개,
+  기자·서명, 홈 화면 배치.
+- 저장하면 저장소에 커밋되고, 그 커밋이 발행을 깨워 **10분 안팎에** 지면이 바뀐다.
 
-## 처음 한 번 — 토큰 만들기 (5분)
+---
 
-토큰은 편집실에 넣는 열쇠다. **채팅이나 문서에 붙여 넣지 않는다.** 편집실 로그인 칸에만 넣는다.
+## 처음 한 번 — 설치 (사장님, 20분)
 
-1. GitHub 에 로그인한 브라우저로 https://github.com/settings/personal-access-tokens/new 를 연다.
-2. **Token name**: `피플로드 편집실` (아무 이름이나)
-3. **Expiration**: 90 days (만료되면 같은 방법으로 새로 만든다)
-4. **Resource owner**: `peoplay-k`
-5. **Repository access**: *Only select repositories* → `peoplay-k/waffletrip` 하나만
-6. **Permissions → Repository permissions → Contents**: **Read and write**
-   (Metadata 는 자동으로 Read 가 붙는다. 다른 권한은 주지 않는다.)
-7. **Generate token** → 나온 `github_pat_…` 값을 복사한다. 이 화면을 닫으면 다시 볼 수 없다.
+편집실은 Cloudflare(무료)에서 돈다. 아래 네 값을 **저장소 Secrets 에만** 넣는다.
+**채팅·카톡·메일·문서에 붙여 넣지 않는다.**
 
-## 로그인
+넣는 곳: GitHub → `peoplay-k/waffletrip` → **Settings → Secrets and variables → Actions →
+New repository secret**. 이름은 아래 그대로, 값은 각 단계에서 복사한 것.
 
-1. https://waffletrip.com/admin/ 을 연다.
-2. **Sign In Using Access Token**(액세스 토큰으로 로그인)을 누른다.
-   — 'Sign In with GitHub' 버튼은 쓰지 않는다(중개 서버가 없어 안 된다).
-3. 복사한 토큰을 붙여 넣고 로그인. 토큰은 그 브라우저에만 저장된다.
-   공용 컴퓨터라면 다 쓰고 오른쪽 위 메뉴에서 로그아웃한다.
+### 1. Cloudflare 계정과 `CLOUDFLARE_ACCOUNT_ID`
 
-## 기사 올리기
+1. https://dash.cloudflare.com/sign-up 에서 무료 계정을 만든다(이미 있으면 로그인).
+2. 왼쪽 **Workers & Pages** 를 한 번 연다. 처음이면 `…workers.dev` 하위 주소를 정하라고 한다 —
+   아무 영문 이름(예: `peopleroad`)으로 정한다. 편집실 주소가 `peopleroad-admin.<그 이름>.workers.dev` 가 된다.
+3. 같은 화면 오른쪽(또는 계정 홈)의 **Account ID** 를 복사 → Secret 이름 **`CLOUDFLARE_ACCOUNT_ID`**.
 
-1. 왼쪽 **기사** → **새로 만들기**
-2. 제목·채널(여행/문화)·지역면 또는 문화 부문·요약·본문을 쓴다.
-   본문은 신문 기사 형식: 요약 문단 → 발표 문단 → 세부 문단 → 관계자 말.
-   소제목·목록·표·굵은 글씨는 쓰지 않는다. 매체 이름("○○ 보도에 따르면")도 쓰지 않는다.
-3. **상태**를 고른다.
-   - *작성중*: 저장만 한다. 지면에 안 나간다.
-   - *발행대기*: 저장하면 발행이 돌아 **10분 안팎에** 지면에 나간다.
-4. 저장(Save). 저장하면 저장소에 바로 커밋되고, 그 커밋이 발행을 깨운다.
+### 2. `CLOUDFLARE_API_TOKEN`
 
-## 실린 기사 고치기
+1. https://dash.cloudflare.com/profile/api-tokens → **Create Token**.
+2. **Edit Cloudflare Workers** 템플릿 옆 **Use template**.
+3. Permissions 에 줄을 하나 더해 **Account · D1 · Edit** 를 넣는다.
+4. Account Resources: 내 계정. Zone Resources: All zones(그대로).
+5. **Continue to summary → Create Token** → 나온 값을 복사 → Secret 이름 **`CLOUDFLARE_API_TOKEN`**.
 
-1. **기사** 목록 위 필터에서 *발행됨* → 고칠 기사를 연다.
-2. 제목·요약·본문·지역면·부문·필자를 고치고 저장한다. 상태는 *발행됨* 그대로 둔다.
-3. 10분 안팎에 지면이 바뀐다(`src/sync_edits.py` 가 발행 기록에 옮긴다).
-   제목을 바꾸면 주소가 바뀌는데, 옛 주소는 새 주소로 자동으로 넘어간다.
-4. 매체 인용 문장은 발행 때처럼 자동으로 걷히고, 개인정보(전화번호 등)가 들어가면
-   고친 내용이 지면에 반영되지 않는다(발행 로그에 '고친 내용 보류'로 남는다).
+### 3. `ADMIN_GITHUB_TOKEN` — 편집실 서버가 저장소에 저장할 때 쓰는 열쇠
 
-## 사진
+사람이 로그인할 때 쓰는 것이 아니다. 서버 안에만 들어가고, 기자들은 보지 못한다.
 
-대표 사진 칸에 **직접 찍은 사진**만 올린다. 얼굴이 보이면 자동 검사에서 막혀 지면에 안
-나간다. 공개 저장소라 올린 원본은 지워도 이력에 남는다.
+1. https://github.com/settings/personal-access-tokens/new
+2. Token name `피플로드 편집실 서버`, Expiration 은 고를 수 있는 가장 긴 기간.
+3. Resource owner **peoplay-k**, Repository access **Only select repositories → waffletrip**.
+4. Repository permissions: **Contents → Read and write**, **Actions → Read and write**. 다른 것은 주지 않는다.
+5. **Generate token** → 복사 → Secret 이름 **`ADMIN_GITHUB_TOKEN`**.
+6. 만료되면 같은 방법으로 새로 만들어 이 Secret 만 바꾸고, 아래 4번의 Run workflow 를 한 번 누른다.
 
-## 안 되는 것
+### 4. `ADMIN_SETUP_CODE` 와 배포
 
-- 기사 내리기(삭제)는 편집실에서 하지 않는다 — 지면 기록과 어긋난다. 필요하면 요청한다.
-- 토큰이 만료되면 로그인이 풀린다. 위 '토큰 만들기'를 다시 한다.
-- peoplay-k 가 조직 계정이고 조직이 세분화 토큰을 막아 두었으면 6번에서 저장소가 안
-  보인다. 그때는 조직 설정 → Personal access tokens 에서 허용하거나 요청을 승인한다.
+1. 아무 문구(예: 남이 못 맞힐 긴 문장)를 정해 Secret 이름 **`ADMIN_SETUP_CODE`** 로 넣는다.
+   첫 관리자 계정을 만들 때 한 번 쓰는 암호다. 계정이 하나라도 생기면 더는 통하지 않는다.
+2. GitHub → **Actions → 편집실 배포 → Run workflow**.
+3. 초록으로 끝나면 그 실행의 요약(Summary)에 편집실 주소가 나온다.
+   몇 분 뒤 https://waffletrip.com/admin/ 도 그 주소로 넘어간다.
+
+### 5. 첫 관리자 계정
+
+1. 편집실 주소를 연다 → **처음 설치** 화면.
+2. 설치 코드(4-1 의 문구), 사장님 아이디·이름·비밀번호를 넣는다. 끝.
+3. 이후 기자 계정은 편집실 **계정** 메뉴에서 만든다(기자에게 아이디와 첫 비밀번호를 알려 주고,
+   기자는 로그인해서 자기 비밀번호를 바꾼다).
+
+---
+
+## 안 될 때
+
+- **Actions 실행이 '건너뜀' 으로 끝남** — Secrets 네 개 중 빠진 것이 요약에 나온다.
+- **'D1 데이터베이스 id 를 못 얻었다'** — 2-3 의 D1 Edit 줄이 빠졌다. 토큰을 다시 만든다.
+- **'workers.dev 주소를 못 찾았다'** — 1-2 를 안 했다. Workers & Pages 를 한 번 열고 다시 Run workflow.
+- **편집실에서 저장이 '저장소 권한 없음'** — 3 의 토큰이 만료됐거나 권한이 빠졌다.
+- 비밀번호를 잊은 기자 — 관리자가 계정 메뉴에서 새 비밀번호를 정해 준다.
+- 사장님 비밀번호를 잊음 — 다른 관리자 계정이 있으면 그 계정으로 바꾼다. 없으면 요청한다.

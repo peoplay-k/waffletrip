@@ -30,17 +30,16 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REVIEW = os.path.join(ROOT, "content/review")
 KST = timezone(timedelta(hours=9))
 
-REGIONS = {"guam": "괌", "saipan": "사이판", "hawaii": "하와이",
-           "vietnam": "베트남", "kota": "코타키나발루",
-           "laos": "라오스", "jeju": "제주", "japan": "일본",
-           "thailand": "태국", "taiwan": "대만", "korea": "국내"}
+# 지역·문화 부문은 config/site.json(편집실이 고치는 정본)에서 읽는다.
+sys.path.insert(0, ROOT)
+from src import site_config as _sc  # noqa: E402
+REGIONS = {r["id"]: r["name"] for r in _sc.CONFIG["regions"] if r.get("visible", True)}
 SECTIONS = {"news": "일반 소식·해설", "flight": "항공·노선",
             "data": "데이터·통계", "promo": "안내"}
-# 연예 부문. src/topics.py ENT_TOPICS 와 같다.
-CATEGORIES = {"movie": "영화", "tv": "방송·드라마", "music": "음악", "stage": "공연·전시",
-              "startrip": "스타의 여행 (인물·촬영지·해외 공연)",
-              # 옛 id 도 받는다 — 발행 경로가 새 부문으로 붙인다
-              "drama": "(옛) 드라마·방송 → 방송·드라마", "star": "(옛) 인물 → 스타의 여행"}
+CATEGORIES = {tid: name for tid, name, _ in _sc.culture_sections(_sc.CONFIG)}
+# 옛 id 도 받는다 — 발행 경로가 새 부문으로 붙인다
+CATEGORIES.update({old: f"(옛) {old} → {CATEGORIES.get(new, new)}"
+                   for old, new in (_sc.CONFIG.get("culture_aliases") or {}).items()})
 
 # 연예 기사 양식. 보도자료와 현장으로만 쓴다 — 루머·사생활은 편집원칙이 금한다.
 # 기사 양식 — 신문 기사(2026-10-28 사장님 기준: 퍼블릭뉴스통신 「올마이투어, 메이크마이트립과

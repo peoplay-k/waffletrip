@@ -1,0 +1,30 @@
+# 피플로드 편집실 — Cloudflare Worker + D1
+# 화면(public/)과 API(src/)를 같은 주소에서 낸다. 쿠키를 같은 출처로만 쓰려고.
+name = "peopleroad-admin"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+# 모든 요청을 먼저 Worker 가 받는다 — 화면 파일에도 보안 헤더(CSP 등)를 붙이려고.
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "peopleroad-admin"
+# `npx wrangler d1 create peopleroad-admin` 이 알려 주는 id 로 바꾼다(README 참고).
+# 로컬 개발·테스트는 이 값과 상관없이 돈다.
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+[vars]
+GITHUB_REPO = "peoplay-k/waffletrip"
+GITHUB_BRANCH = "main"
+GITHUB_API = "https://api.github.com"
+# 비밀번호 해시 반복 횟수. 무료 요금제(요청당 CPU 10ms)에 맞춘 값이다.
+# Workers 유료 요금제로 옮기면 "100000" 으로 올린다 — 각자 다음 로그인 때 새 횟수로 다시 저장된다.
+PASSWORD_ITERATIONS = "20000"
+# 비밀값은 여기 쓰지 않는다: GITHUB_TOKEN, ADMIN_SETUP_CODE 는
+# `npx wrangler secret put <이름>` 으로 넣는다.

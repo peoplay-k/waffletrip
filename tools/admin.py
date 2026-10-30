@@ -44,14 +44,13 @@ PUSH = "--no-push" not in sys.argv
 MAX_UPLOAD = 25 * 1024 * 1024
 _SAFE_NAME = re.compile(r"[^A-Za-z0-9_.-]")
 
-REGIONS = [("guam", "괌"), ("saipan", "사이판"), ("hawaii", "하와이"),
-           ("vietnam", "베트남"), ("kota", "코타키나발루"),
-           ("laos", "라오스"), ("jeju", "제주"), ("japan", "일본"),
-           ("thailand", "태국"), ("taiwan", "대만"), ("korea", "국내")]
-CHANNELS = [("travel", "여행 — 지역면"), ("ent", "연예 — /ent/ 부문")]
-CATEGORIES = [("", "(여행 기사는 비움)"), ("movie", "영화"),
-              ("tv", "방송·드라마"), ("music", "음악"), ("stage", "공연·전시"),
-              ("startrip", "스타의 여행 — 인물·촬영지·해외 공연")]
+# 지역·채널·부문은 config/site.json(편집실이 고치는 정본)에서 읽는다.
+sys.path.insert(0, ROOT)
+from src import site_config as _sc  # noqa: E402
+REGIONS = [(r["id"], r["name"]) for r in _sc.CONFIG["regions"] if r.get("visible", True)]
+CHANNELS = [("travel", f"{_sc.CONFIG['channels']['travel']['name']} — 지역면"),
+            ("ent", f"{_sc.CONFIG['channels']['ent']['name']} — /ent/ 부문")]
+CATEGORIES = [("", "(여행 기사는 비움)")] + [(tid, name) for tid, name, _ in _sc.culture_sections(_sc.CONFIG)]
 SECTIONS = [("news", "일반 소식·해설"), ("flight", "항공·노선"),
             ("data", "데이터·통계"), ("promo", "안내")]
 STATUSES = [("draft", "작성중 — 지면에 안 나감"),
@@ -59,7 +58,6 @@ STATUSES = [("draft", "작성중 — 지면에 안 나감"),
             ("published", "발행됨")]
 
 # 필자는 명부에서 고른다. 손으로 치게 두면 명부에 없는 이름 — 지어낸 기자 — 가 생긴다.
-sys.path.insert(0, ROOT)
 from src.desks import KINDS, OWN_KINDS, REPORTERS  # noqa: E402
 WRITERS = [("", "자동 — 그 지면 담당 기자")] + [(n, f"{n} 기자") for n in REPORTERS]
 KIND_OPTS = [(k, f"{k} — 자체 기사" if k in OWN_KINDS else k) for k in KINDS]

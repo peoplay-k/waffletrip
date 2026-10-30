@@ -1,0 +1,26 @@
+{
+  "name": "peopleroad-admin",
+  "private": true,
+  "version": "1.0.0",
+  "description": "피플로드 편집실 — Cloudflare Worker + D1",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "dev:mock": "node test/harness.mjs",
+    "deploy": "wrangler deploy",
+    "migrate:local": "wrangler d1 migrations apply peopleroad-admin --local",
+    "migrate:remote": "wrangler d1 migrations apply peopleroad-admin --remote",
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "node --test --test-reporter=spec 'test/unit/*.test.mjs'",
+    "test:e2e": "node --test --test-reporter=spec --test-timeout=600000 test/e2e.test.mjs"
+  },
+  "dependencies": {
+    "yaml": "2.8.4"
+  },
+  "devDependencies": {
+    "wrangler": "4.150.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -28,6 +28,13 @@ HOME_DEFAULTS = {
     "pinned_lead": "",
 }
 HOME_BLOCKS = ("travel", "culture", "culture_sections", "latest")
+# 홈 숫자 칸의 허용 범위. 편집실(admin/public/shared/siteconfig.js HOME_NUMBERS)과 같아야 한다 —
+# tests/test_site_config.py 가 두 검사기를 같은 입력으로 돌려 어긋남을 잡는다.
+HOME_RANGES = (("hero_count", 1, 8), ("travel_block_size", 1, 30), ("culture_grid", 0, 24),
+               ("culture_block_size", 1, 20), ("latest_count", 0, 30), ("photo_row", 0, 24))
+# 환율을 낼 수 있는 통화. src/fetch/json_api.py QUOTE_UNIT 의 열쇠와 같다(시험이 맞춘다).
+# 모르는 통화가 들어오면 수집이 KeyError 로 죽으므로 저장 전에 막는다.
+CURRENCIES = ("USD", "MYR", "VND", "LAK", "JPY", "THB", "TWD")
 
 
 class SiteConfigError(Exception):
@@ -73,6 +80,23 @@ def validate(cfg: dict) -> list[str]:
         out.append("문화 부문이 하나도 없다")
     if not regions:
         out.append("지역이 하나도 없다")
+    # 전부 숨기면 기본 부문·지역 목록이 비어 지면을 못 만든다(topics.TOPICS[0] 등)
+    for key, what in (("travel_sections", "여행 부문"), ("culture_sections", "문화 부문"), ("regions", "지역")):
+        rows = cfg.get(key) or []
+        if rows and not any(r.get("visible", True) for r in rows):
+            out.append(f"{what}을 전부 숨길 수는 없다 — 하나는 보여야 한다")
+    for r in cfg.get("regions") or []:
+        rid = r.get("id", "")
+        cur = r.get("currency")
+        if cur and cur not in CURRENCIES:
+            out.append(f"지역 '{rid}' 의 통화 '{cur}' 는 환율을 낼 수 없다(가능: {', '.join(CURRENCIES)})")
+        w = r.get("weather")
+        if w is not None:
+            ok = (isinstance(w, dict) and str(w.get("city", "")).strip()
+                  and isinstance(w.get("lat"), (int, float)) and -90 <= w["lat"] <= 90
+                  and isinstance(w.get("lon"), (int, float)) and -180 <= w["lon"] <= 180)
+            if not ok:
+                out.append(f"지역 '{rid}' 의 날씨 지점(city·lat·lon)이 틀렸다")
     for r in cfg.get("culture_rules") or []:
         if r.get("section") not in culture:
             out.append(f"문화 분류 규칙의 부문 '{r.get('section')}' 이 없다")
@@ -94,8 +118,7 @@ def validate(cfg: dict) -> list[str]:
     if cfg.get("general_reporter") and cfg["general_reporter"] not in names:
         out.append(f"기본 기자 '{cfg['general_reporter']}' 가 기자 명단에 없다")
     home = cfg.get("home") or {}
-    for key, lo, hi in (("hero_count", 1, 8), ("travel_block_size", 1, 30), ("culture_grid", 0, 24),
-                        ("culture_block_size", 1, 20), ("latest_count", 0, 30), ("photo_row", 0, 24)):
+    for key, lo, hi in HOME_RANGES:
         if key in home and not (isinstance(home[key], int) and lo <= home[key] <= hi):
             out.append(f"홈 {key} 는 {lo}~{hi} 사이 숫자여야 한다")
     for b in home.get("order") or []:

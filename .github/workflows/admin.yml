@@ -1,0 +1,143 @@
+name: 편집실 배포
+
+# 편집실(admin/ — Cloudflare Worker + D1)을 올린다. 설계는 docs/ADMIN_DESIGN.md,
+# 처음 한 번 사장님이 할 일은 docs/ADMIN.md.
+#
+# 비밀값 네 개(CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, ADMIN_GITHUB_TOKEN, ADMIN_SETUP_CODE)가
+# 저장소 Secrets 에 다 들어오기 전에는 아무것도 하지 않고 초록으로 끝난다 — 빨간 실패 메일을
+# 보내지 않으려고. 들어오면 Actions → 편집실 배포 → Run workflow 로 한 번 돌린다.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'admin/**'
+      - '.github/workflows/admin.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # /admin/ 입구에 편집실 주소를 적는 커밋
+  actions: write    # 그 뒤 발행(daily.yml)을 깨운다
+
+concurrency:
+  group: admin-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      DB_NAME: peopleroad-admin
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 비밀값이 다 있는지
+        id: ready
+        env:
+          ADMIN_GITHUB_TOKEN: ${{ secrets.ADMIN_GITHUB_TOKEN }}
+          ADMIN_SETUP_CODE: ${{ secrets.ADMIN_SETUP_CODE }}
+        run: |
+          missing=""
+          [ -n "$CLOUDFLARE_API_TOKEN" ]  || missing="$missing CLOUDFLARE_API_TOKEN"
+          [ -n "$CLOUDFLARE_ACCOUNT_ID" ] || missing="$missing CLOUDFLARE_ACCOUNT_ID"
+          [ -n "$ADMIN_GITHUB_TOKEN" ]    || missing="$missing ADMIN_GITHUB_TOKEN"
+          [ -n "$ADMIN_SETUP_CODE" ]      || missing="$missing ADMIN_SETUP_CODE"
+          if [ -n "$missing" ]; then
+            echo "::notice::편집실 배포를 건너뜀 — 저장소 Secrets 에 아직 없음:$missing (docs/ADMIN.md)"
+            echo "### 편집실 배포를 건너뛰었습니다" >> "$GITHUB_STEP_SUMMARY"
+            echo "저장소 Settings → Secrets and variables → Actions 에 아직 없는 값:$missing" >> "$GITHUB_STEP_SUMMARY"
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.ready.outputs.ok == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: admin/package-lock.json
+
+      - name: 설치·시험
+        if: steps.ready.outputs.ok == 'true'
+        working-directory: admin
+        run: |
+          npm ci
+          npm run test:unit
+
+      - name: 데이터베이스(D1) — 없으면 만든다
+        if: steps.ready.outputs.ok == 'true'
+        working-directory: admin
+        run: |
+          find_id() {
+            npx wrangler d1 list --json 2>/dev/null | node -e '
+              let s = ""; process.stdin.on("data", d => s += d).on("end", () => {
+                const i = s.indexOf("["); if (i < 0) return;
+                const db = JSON.parse(s.slice(i)).find(d => d.name === process.env.DB_NAME);
+                if (db) process.stdout.write(db.uuid);
+              });'
+          }
+          id="$(find_id)"
+          if [ -z "$id" ]; then
+            npx wrangler d1 create "$DB_NAME"
+            id="$(find_id)"
+          fi
+          if ! echo "$id" | grep -Eq '^[0-9a-f-]{36}$'; then
+            echo "::error::D1 데이터베이스 id 를 못 얻었다. CLOUDFLARE_API_TOKEN 에 'D1 편집' 권한이 있는지 본다."
+            exit 1
+          fi
+          # 저장소의 wrangler.toml 은 자리표시 id 를 둔다 — 실제 id 는 배포할 때만 넣는다.
+          sed -i "s/^database_id = .*/database_id = \"$id\"/" wrangler.toml
+          npx wrangler d1 migrations apply "$DB_NAME" --remote
+
+      - name: 올리기
+        if: steps.ready.outputs.ok == 'true'
+        id: deploy
+        working-directory: admin
+        env:
+          ADMIN_GITHUB_TOKEN: ${{ secrets.ADMIN_GITHUB_TOKEN }}
+          ADMIN_SETUP_CODE: ${{ secrets.ADMIN_SETUP_CODE }}
+        run: |
+          npx wrangler deploy 2>&1 | tee deploy.log
+          url="$(grep -Eo 'https://[a-z0-9.-]+\.workers\.dev' deploy.log | head -1)"
+          if [ -z "$url" ]; then
+            echo "::error::편집실 주소(workers.dev)를 못 찾았다. Cloudflare 대시보드 → Workers & Pages 를 한 번 열어 workers.dev 하위 도메인을 만든 뒤 다시 돌린다."
+            exit 1
+          fi
+          # 비밀값은 서버(워커)에만 넣는다. 로그에는 찍히지 않는다.
+          printf '%s' "$ADMIN_GITHUB_TOKEN" | npx wrangler secret put GITHUB_TOKEN
+          printf '%s' "$ADMIN_SETUP_CODE"   | npx wrangler secret put ADMIN_SETUP_CODE
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          {
+            echo "### 편집실이 올라갔습니다"
+            echo ""
+            echo "주소: $url  (waffletrip.com/admin/ 이 이리로 넘깁니다)"
+            echo ""
+            echo "처음이면 이 주소에서 설치 코드(ADMIN_SETUP_CODE)로 사장님 계정을 만듭니다."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: waffletrip.com/admin/ 이 편집실로 넘기게
+        if: steps.ready.outputs.ok == 'true'
+        env:
+          URL: ${{ steps.deploy.outputs.url }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          f=static/admin/index.html
+          sed -i "s|^var EDITOR_URL = \".*\";|var EDITOR_URL = \"$URL\";|" "$f"
+          if git diff --quiet -- "$f"; then
+            echo "주소 그대로 — 고칠 것 없음"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add "$f"
+          git commit -m "편집실 주소를 /admin/ 입구에 적는다"
+          for i in 1 2 3; do
+            git pull --rebase -q origin main && git push -q origin HEAD:main && break
+            sleep $((i * 5))
+          done
+          # 봇 커밋은 발행을 깨우지 않는다 — 직접 깨운다.
+          gh workflow run daily.yml --ref main
