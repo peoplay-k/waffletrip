@@ -322,7 +322,10 @@ def test_문화_소스는_여행은_여행으로_문화_발표는_문화_채널�
                 ("'라라랜드' 개봉 10주년 맞아 재개봉", "11월 극장."),
                 ("국립현대미술관 특별전 개막", "11월까지 전시한다."),
                 ("이세돌, KBS 새 예능 23일 첫 방송", "바둑 은퇴 후."),
-                ("○○시, 하반기 일자리 박람회 개최", "구인 기업 50곳."))
+                ("○○시, 하반기 일자리 박람회 개최", "구인 기업 50곳."),
+                # 첫 실행(2026-10-30)에 문화로 들어왔던 것 — '수상'은 기본 부문(스타의 여행) 규칙의
+                # 말이고 어느 보도자료에나 있다. 부문이 분명한 문화 말이 없으면 버린다.
+                ("국립창원대, 동남권 CAM기술경진대회서 학생 4명 수상", "학생 4명이 상을 받았다."))
     got = parse_feed(CULTURE_SOURCE, xml, NOW)
     assert [(i.channel, i.region) for i in got] == [
         ("travel", "korea"), ("travel", "thailand"), ("travel", "industry"),
@@ -348,3 +351,21 @@ def test_문화_채널로_보낸_기사는_편집_단계의_연예_필터를_그
     assert len(got) == 2
     result = edit_items(got, PublishedIndex(set(), []), [], {"문화뉴스"})
     assert [i.title[:6] for i in result["publish"]] == ["'라라랜드'"]
+
+
+def test_요약은_인용_한도_안에서_자른다():
+    """두 문장이 200자를 넘으면 첫 문장만, 첫 문장이 넘으면 띄어쓰기에서 자르고 말줄임표.
+
+    2026-10-30 첫 실행에서 문화뉴스 여행 기사 4건이 전부 '인용 한도 초과'로 폐기됐다 —
+    가드가 버리기 전에 수집이 한도 안으로 맞춘다.
+    """
+    from src.guards.copyright_guard import MAX_SUMMARY_CHARS
+    s1 = "울릉군이 동절기 주요 관광시설 여섯 곳을 무료로 개방한다고 밝혔다."
+    s2 = "대상 시설은 " + "독도박물관과 " * 30 + "등이다."
+    assert len(s1 + " " + s2) > MAX_SUMMARY_CHARS
+    assert first_sentences(f"{s1} {s2}") == s1
+    long_one = "경주시가 " + "천년고도 달빛 따라 걷는 " * 15 + "걷기대회를 연다."
+    got = first_sentences(long_one)
+    assert len(got) <= MAX_SUMMARY_CHARS and got.endswith("…") and not got.endswith(" …")
+    # 짧은 두 문장은 그대로
+    assert first_sentences("첫 문장이다. 둘째 문장이다. 셋째는 버린다.") == "첫 문장이다. 둘째 문장이다."

@@ -14,7 +14,7 @@ import feedparser
 from src.models import Item, make_id, title_hash
 from src.region_tag import is_industry_story, mentions_region, tag_region
 from src.relevance import is_ent_newsworthy, is_travel_related
-from src.topics import culture_section_hint
+from src.topics import ENT_DEFAULT, culture_section_hint
 
 # 싣지 않을 출처. 두 부류다.
 #
@@ -63,16 +63,37 @@ def strip_html(text: str) -> str:
     return _WS.sub(" ", html.unescape(_TAG.sub(" ", text or ""))).strip()
 
 
-def first_sentences(text: str, n: int = 2) -> str:
-    """앞 n개 문장만 남긴다.
+# 인용 한도(src/guards/copyright_guard.MAX_SUMMARY_CHARS 와 같은 200자). 여기서 미리 맞춰 둔다 —
+# 가드는 넘으면 기사를 통째로 버리는데, 2026-10-30 첫 실행에서 문화뉴스의 여행 기사 4건이 전부
+# "213자 > 200자" 로 폐기됐다. 지자체 보도자료는 첫 두 문장이 200자를 쉽게 넘긴다.
+MAX_SUMMARY_CHARS = 200
+
+
+def first_sentences(text: str, n: int = 2, max_chars: int = MAX_SUMMARY_CHARS) -> str:
+    """앞 n개 문장만, 그리고 max_chars 안에서만 남긴다.
 
     이것이 우리의 요약 행위다. 원문 전체를 옮기지 않기 위한 것이므로
-    가드보다 앞 단계에서 수행한다.
+    가드보다 앞 단계에서 수행한다. 두 문장이 한도를 넘으면 첫 문장만, 첫 문장 하나가
+    한도를 넘으면 한도 안의 마지막 띄어쓰기에서 자르고 말줄임표를 붙인다.
     """
     if not text:
         return ""
-    parts = _SENTENCE_END.split(text)
-    return " ".join(parts[:n]).strip()
+    parts = [p.strip() for p in _SENTENCE_END.split(text) if p.strip()][:n]
+    out = ""
+    for p in parts:
+        joined = f"{out} {p}".strip()
+        if len(joined) > max_chars:
+            break
+        out = joined
+    if out:
+        return out
+    if not parts:
+        return ""
+    head = parts[0][: max_chars - 1]
+    cut = head.rfind(" ")
+    if cut >= max_chars // 2:
+        head = head[:cut]
+    return head.rstrip(" ,·;:") + "…"
 
 
 FRESH_DAYS = 7
@@ -171,8 +192,11 @@ def parse_feed(source: Source, xml_text: str, collected_at: str) -> list[Item]:
                 travel = is_industry_story(title) or (
                     region is not None and is_travel_related(f"{title} {summary}"))
                 if not travel:
-                    if (getattr(source, "culture", False)
-                            and is_ent_newsworthy(title) and culture_section_hint(title)):
+                    # 부문이 분명한 것만(영화·방송·공연·전시·음악). 기본 부문(스타의 여행)으로 걸린
+                    # 것은 '수상'·'후보'·'인터뷰' 같은 어느 보도자료에나 있는 말이라 믿지 않는다 —
+                    # 첫 실행(2026-10-30)에 "국립창원대, CAM기술경진대회서 학생 4명 수상"이 문화로 들어왔다.
+                    hint = culture_section_hint(title) if getattr(source, "culture", False) else ""
+                    if hint and hint != ENT_DEFAULT and is_ent_newsworthy(title):
                         ent, region = True, ""
                     else:
                         continue
