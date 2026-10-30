@@ -1653,6 +1653,7 @@
     "2f347c2bf30676ff19d42d7e21afdd9c4bab2e97",
     "2f3f676a90596b39197f09fa20661eaf5a552678",
     "2f4219ee8926f0305b21204fb241db3acc601160",
+    "2f45968c09b62f8470b0cb475ba21ffb5aa6b421",
     "2f5233e451fdd96d14717a91588a7afa315ba73e",
     "2f636690c4a0a4ed4e01729c3705d3666ab6b66f",
     "2f6a1a47518b4cf690f96e9fb3e7ed0ee788ef3b",
@@ -3831,6 +3832,7 @@
     "6c0cb538d9865dfa01d33fad79610bde48c31524",
     "6c20b4b7959a29855cdcc0e84a915c7a0b9b11ce",
     "6c3177f0c543e3543cec4f9fbbb85fb93af6b179",
+    "6c48d489c28ef82fa730543430b2f7efb3435445",
     "6c55a40929dc89ca3049a7941ce76d37522f9c39",
     "6c5f9018ce5a64841d3fb0347dc8c36a0bb66f26",
     "6c653183ade1085d8dbae352b1eb453beb29320f",
@@ -4183,6 +4185,7 @@
     "75fa8137ebebcf5e577337dbba8a9bd4d7c29c07",
     "75fc2bde461a8647e3b7653e7542e512560ee799",
     "76247637b6320d0a2375a19c80357ac59d538595",
+    "762cf0d60f33d89213653ee6ac5517afd083d482",
     "762e6cf4092e41d17178d1be6def0eedc1036e85",
     "7630cbef06e8a7eee93d34aeef693d7182fac37e",
     "7635b110429012b93054163e53b6b4d81a347fed",
@@ -5927,6 +5930,7 @@
     "a83454659d7ed58b6878674039828928b4f22d4c",
     "a835ef9b78f49dcb6b2676102c8282423216b7d2",
     "a83a4798c195d32053f741439e4b9988b1ce6710",
+    "a83aa2e0badb649a72967867e86060fd9b8386da",
     "a83ab81e0236acbaf26700786a37085aba25f0a1",
     "a83d56c0b0f758c7394fba77ec6a523bc7e30edf",
     "a83ef6b078c9c9e1e9c1f1b7a2d6da185e91afef",
@@ -6963,6 +6967,7 @@
     "c-73ce2124c3dbe3f9f7e8b702237771682d1294e6",
     "c-745feaccb84cba70a96f7ec34aa339eb1fff82a4",
     "c-7568bea58be4a68bab525659e298b03569d1070c",
+    "c-759a5aeb5d4408cd99d93c8e2b2bfbea17df452f",
     "c-75d97574ec1a4af285af000333cc5ab30c3f3b35",
     "c-75f62a7ebfe5ba4759cfec66d426696e53e4b3df",
     "c-75fd2e72912d85e82877baca90816a3bc241df7a",
@@ -7579,6 +7584,7 @@
     "cbadeffb44840aaa269457a84cf5aaea3613547e",
     "cbaf100f0c46cffb2d25d5ef59ab9ef5a15184c2",
     "cbb6228b89a24db5489e8b175787b89cc7155367",
+    "cbb9703f2d7424bd9920ee36ec3957a72bed6fc2",
     "cbc30ef50d9de4e140a9a205e8cc109d4c32b879",
     "cbd04d73e193758a83fb60e47e080060a26d58c0",
     "cbe0d1858aebfd63803e3403873ef050d0eba40c",
@@ -7768,6 +7774,7 @@
     "d08fc0cf74c2555e2aed2122a6aa9f242582a75a",
     "d09019b790893ebe4c2718a99488f3e9cb2afa59",
     "d091f9235747f127f15460e98591a31fcca75ce4",
+    "d092b9129db4d3118cbb165ec1959764d56f65f8",
     "d09b1f4e8cdbd334f06fe0ad9d7b8ff52f99fbd4",
     "d0ac6e36d1745df3fb030073793eed43bdc3f068",
     "d0b5e53b1087acd2289fac86dee2e97cb5b3e993",
@@ -49707,6 +49714,20 @@
       "grade": "B"
     },
     {
+      "id": "c-759a5aeb5d4408cd99d93c8e2b2bfbea17df452f",
+      "title": "괌여행",
+      "date": "2026-10-30",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "762cf0d60f33d89213653ee6ac5517afd083d482",
+      "title": "거제해양관광개발공사, 창립 14주년 기념식 개최",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
       "id": "2a14f54f2e3666bcb087a5026f1ec7e2362502ad",
       "title": "동두천시, 11월부터 가을철 산불방지 비상체계 가동…감시·단속 강화",
       "date": "2026-10-30",
@@ -49772,6 +49793,41 @@
     {
       "id": "c94eed7d34190bd1d97a59483e4eaa330c5e4fca",
       "title": "[전남광주 소식] 순천시 '순천사랑상품권 최대 15%' 혜택·나주시 '남도음식문화큰잔치 음식관광' 홍보·함평군 '나비생태관' 운영·보성군 '보훈가족 한마음 행사' 개최",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "d092b9129db4d3118cbb165ec1959764d56f65f8",
+      "title": "제주·하와이·발리·푸켓 등 9개 섬 지역, MICE 협력 위해 뭉쳤다",
+      "date": "2026-10-30",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "a83aa2e0badb649a72967867e86060fd9b8386da",
+      "title": "Singapore Changi competes with Hong Kong, Dubai for world's leading airport title",
+      "date": "2026-10-30",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "2f45968c09b62f8470b0cb475ba21ffb5aa6b421",
+      "title": "GVB board approves 'time-sensitive' travel management authority",
+      "date": "2026-10-30",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "6c48d489c28ef82fa730543430b2f7efb3435445",
+      "title": "Super Typhoon In-Fa passing over far Northern Mariana Islands, lower islands will see fair weather conditions",
+      "date": "2026-10-30",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "cbb9703f2d7424bd9920ee36ec3957a72bed6fc2",
+      "title": "아날로그 감성 가득한 가을 골목 여행, 제9회 군산우체통거리 손편지축제 개최",
       "date": "2026-10-30",
       "region": "korea",
       "grade": "B"
