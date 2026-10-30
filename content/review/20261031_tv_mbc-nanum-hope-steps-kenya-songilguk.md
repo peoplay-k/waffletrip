@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "MBC '희망의 발걸음', 송일국이 10년 만에 케냐 아이들을 만나다"
+title: MBC '희망의 발걸음', 송일국이 10년 만에 케냐 아이들을 만나다
 source_name: ''
 source_url: ''
-summary: MBC 나눔 프로젝트 '희망의 발걸음'이 10월 31일 오전 10시 배우 송일국이 케냐 나이로비 빈민가와 카지아도 황무지의 아이들을 만나는 편을 방송한다.
+summary: MBC 나눔 프로젝트 '희망의 발걸음'이 10월 31일 오전 10시 배우 송일국이 케냐 나이로비 빈민가와 카지아도 황무지의 아이들을
+  만나는 편을 방송한다.
 sources:
-  - https://with.mbc.co.kr/pr/press/view.html?idx=36947
-status: approved
+- https://with.mbc.co.kr/pr/press/view.html?idx=36947
+status: published
+published_id: c-49c9f6c231f515d771cb09dab97a8e571370974a
+published_on: '2026-10-31'
 ---
-
 > **방송 정보**
 > 채널 · MBC | 프로그램 · MBC 나눔 프로젝트 희망의 발걸음 | 편 · 케냐 아이들의 버릴 수 없는 꿈-케냐 송일국 편
 > 방송 · 2026년 10월 31일(토) 오전 10시

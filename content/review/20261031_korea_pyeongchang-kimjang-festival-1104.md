@@ -4,18 +4,20 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "평창 고랭지 김장축제 11월 4일 개막, 체험 물량 20% 늘려"
+title: 평창 고랭지 김장축제 11월 4일 개막, 체험 물량 20% 늘려
 source_name: ''
 source_url: ''
-summary: 제9회 평창 고랭지 김장축제가 11월 4일부터 16일까지 진부면민체육공원에서 열린다. 김장 체험 물량을 지난해보다 약 20% 늘리고 작업대 20개를 추가했다.
+summary: 제9회 평창 고랭지 김장축제가 11월 4일부터 16일까지 진부면민체육공원에서 열린다. 김장 체험 물량을 지난해보다 약 20% 늘리고
+  작업대 20개를 추가했다.
 sources:
-  - https://www.nongmin.com/article/20261027500376
-  - https://www.giview.co.kr/news/article.html?no=193246
-  - http://www.senews.kr/42339
-  - https://www.pressian.com/pages/articles/2026102918073099283
-status: approved
+- https://www.nongmin.com/article/20261027500376
+- https://www.giview.co.kr/news/article.html?no=193246
+- http://www.senews.kr/42339
+- https://www.pressian.com/pages/articles/2026102918073099283
+status: published
+published_id: c-39ba0137890f5548c6304b881c111a6bfa5e5966
+published_on: '2026-10-31'
 ---
-
 제9회 평창 고랭지 김장축제가 11월 4일부터 16일까지 강원특별자치도 평창군 진부면민체육공원에서 열린다. 올해는 김장 체험 물량을 지난해보다 약 20% 늘리고, 평창 고랭지 사과 특별 홍보전을 새로 마련했다.
 
 평창 고랭지 김장축제위원회는 체험 수요가 커진 점을 반영해 김장 작업대 20개를 추가로 설치한다고 밝혔다. 위원장은 장동식 씨다. 축제위원회는 우수한 품질과 간편함을 앞세워 평창 고랭지 김장 체험이 해마다 20~30%씩 성장하고 있다고 설명했다.

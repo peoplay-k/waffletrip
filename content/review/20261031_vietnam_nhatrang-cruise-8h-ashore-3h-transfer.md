@@ -4,15 +4,17 @@ channel: travel
 region: vietnam
 section: news
 kind: 해설
-title: "나트랑 크루즈 관광, 육지 체류 8시간에 이동 3시간이 병목"
+title: 나트랑 크루즈 관광, 육지 체류 8시간에 이동 3시간이 병목
 source_name: ''
 source_url: ''
-summary: 크루즈 승객이 칸화성에 머무는 시간은 약 8시간인데 깜란 국제항에서 나트랑 시내까지 오가는 데 최대 3시간이 걸린다. 칸화성 크루즈 관광의 주요 병목으로 꼽힌다.
+summary: 크루즈 승객이 칸화성에 머무는 시간은 약 8시간인데 깜란 국제항에서 나트랑 시내까지 오가는 데 최대 3시간이 걸린다. 칸화성 크루즈
+  관광의 주요 병목으로 꼽힌다.
 sources:
-  - https://www.vietnam.vn/ko/len-bo-8-tieng-di-chuyen-mat-3-tieng-con-dau-dau-cua-du-lich-nha-trang
-status: approved
+- https://www.vietnam.vn/ko/len-bo-8-tieng-di-chuyen-mat-3-tieng-con-dau-dau-cua-du-lich-nha-trang
+status: published
+published_id: c-73fe80aaa1b0371ada7d1293f36627ebe973be29
+published_on: '2026-10-31'
 ---
-
 나트랑을 찾는 크루즈 승객이 육지에 머무는 시간은 약 8시간이다. 그런데 깜란 국제항에서 나트랑 시내 중심부까지, 또 그 반대로 오가는 데만 최대 3시간이 걸린다. 칸화성 크루즈 관광의 주요 병목 가운데 하나로 꼽히는 대목이다.
 
 크루즈는 기항 일정이 정해져 있어 하선 시간이 길지 않다. 8시간 가운데 최대 3시간을 이동에 쓰면 승객이 시내에서 관광하고 식사하고 쇼핑할 수 있는 시간은 그만큼 줄어든다.

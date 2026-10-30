@@ -4,16 +4,18 @@ channel: travel
 region: industry
 section: data
 kind: 해설
-title: "9월 방한객 21.1% 늘 때 내국인 출국 1.5%…해외여행 제자리"
+title: 9월 방한객 21.1% 늘 때 내국인 출국 1.5%…해외여행 제자리
 source_name: ''
 source_url: ''
-summary: 9월 방한 외래관광객이 21.1% 늘어난 반면 국민 해외관광객은 1.5% 증가에 그쳤다. 1~9월 누적 출국자는 2019년 수준에 못 미친다.
+summary: 9월 방한 외래관광객이 21.1% 늘어난 반면 국민 해외관광객은 1.5% 증가에 그쳤다. 1~9월 누적 출국자는 2019년 수준에
+  못 미친다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500629
-  - https://www.tournews21.com/news/articleView.html?idxno=147084
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500629
+- https://www.tournews21.com/news/articleView.html?idxno=147084
+status: published
+published_id: c-2717da01fd5f6b8b818e747f48bc68d56602deb3
+published_on: '2026-10-31'
 ---
-
 9월 방한 외래관광객이 1년 전보다 21.1% 늘었지만, 국민 해외관광객은 1.5% 증가에 그쳤다. 들어오는 사람은 크게 늘고 나가는 사람은 제자리걸음인 흐름이 이어졌다.
 
 1~9월 누적 출국자는 여전히 2019년 수준에 못 미친다. 이 속도라면 연간 출국자 3,000만 명 달성도 장담하기 어렵게 됐다.

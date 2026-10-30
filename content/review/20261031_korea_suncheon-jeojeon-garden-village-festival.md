@@ -4,17 +4,18 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "순천 저전동, 31일 '제1회 정원마을 축제' 첫 개최"
+title: 순천 저전동, 31일 '제1회 정원마을 축제' 첫 개최
 source_name: ''
 source_url: ''
 summary: 순천시 저전동이 31일 오후 2시 마을 일원에서 첫 정원마을 축제를 연다. 정원 체험과 문화공연, 나눔장터로 꾸며진다.
 sources:
-  - http://www.ksw-news.com/news/articleView.html?idxno=3054132
-  - https://www.namdonews.com/news/articleView.html?idxno=927718
-  - https://www.momonews.com/81792
-status: approved
+- http://www.ksw-news.com/news/articleView.html?idxno=3054132
+- https://www.namdonews.com/news/articleView.html?idxno=927718
+- https://www.momonews.com/81792
+status: published
+published_id: c-5561d15df3d3378d5fcf92d1d86246460afcd5bc
+published_on: '2026-10-31'
 ---
-
 전남 순천시 저전동이 31일 오후 2시 마을 일원에서 '제1회 저전동 정원마을 축제'를 연다. 올해 처음 여는 행사로, 정원 체험과 문화공연, 나눔장터를 한데 묶었다.
 
 저전동은 이번 행사로 주민과 방문객이 함께 어울리는 자리를 마련한다고 밝혔다. 대한민국 대표 생태수도로 꼽히는 순천에서 동 단위 마을이 처음 여는 가을 축제다. 가을 체험 프로그램이 행사의 중심이다.
