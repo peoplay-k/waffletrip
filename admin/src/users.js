@@ -1,7 +1,7 @@
 // 계정 관리(관리자), 변경 기록, 발행 상태.
 
-import { ApiError, json, readJson, now, logChange, checkPassword, checkUsername, checkName } from './util.js';
-import { hashPassword } from './auth.js';
+import { ApiError, json, readJson, now, logChange, checkPassword, checkUsername, checkName, randomBytes, b64url, sha256hex } from './util.js';
+import { hashPassword, createSession } from './auth.js';
 import { GitHub } from './github.js';
 import { parseArticle } from './frontmatter.js';
 import { DIR } from './articles.js';
@@ -23,6 +23,27 @@ export async function handleListUsers(request, env) {
   return json({ users: results.map((u) => ({ ...u, disabled: !!u.disabled })) });
 }
 
+// ── 초대 링크 ───────────────────────────────────────────────────────────
+// 비밀번호를 관리자가 정해 카톡으로 보내면 채팅방에 남는다. 대신 3일 안에 한 번만 쓰는 링크를
+// 주고, 링크를 연 본인이 비밀번호를 정한다(2026-10-30).
+
+const INVITE_MS = 3 * 24 * 3600 * 1000;
+
+async function issueInvite(env, me, username) {
+  const token = b64url(randomBytes(24));
+  const t = now();
+  await env.DB.batch([
+    env.DB.prepare('DELETE FROM invites WHERE username = ? OR expires_at < ?').bind(username, t),
+    env.DB.prepare('INSERT INTO invites (token_hash, username, expires_at, created_by, created_at) VALUES (?, ?, ?, ?, ?)')
+      .bind(await sha256hex(token), username, t + INVITE_MS, me.username, t),
+  ]);
+  return { token, expires_at: t + INVITE_MS };
+}
+
+function inviteUrl(request, token) {
+  return `${new URL(request.url).origin}/#/invite/${token}`;
+}
+
 export async function handleCreateUser(request, env, me) {
   const b = await readJson(request, 10000);
   const username = String(b.username || '').trim().toLowerCase();
@@ -30,15 +51,72 @@ export async function handleCreateUser(request, env, me) {
   const name = checkName(b.name);
   const role = b.role || 'reporter';
   checkRole(role);
-  checkPassword(b.password);
-  const h = await hashPassword(b.password, env);
+  const byInvite = b.invite === true;
+  // 초대로 만들면 비밀번호는 아무도 모르는 난수 — 링크로 정하기 전에는 로그인할 수 없다
+  const password = byInvite ? b64url(randomBytes(32)) : b.password;
+  if (!byInvite) checkPassword(password);
+  const h = await hashPassword(password, env);
   const res = await env.DB.prepare(
     `INSERT INTO users (username, name, role, pw_hash, pw_salt, disabled, created_at)
      VALUES (?, ?, ?, ?, ?, 0, ?) ON CONFLICT(username) DO NOTHING`,
   ).bind(username, name, role, h.pw_hash, h.pw_salt, now()).run();
   if (!res.meta || res.meta.changes !== 1) throw new ApiError(409, `'${username}' 은 이미 있는 아이디입니다`);
-  await logChange(env, me.username, '계정 만듦', username, `${name} · ${ROLE_LABEL[role]}`);
-  return json({ ok: true, user: { username, name, role, disabled: false } }, 201);
+  await logChange(env, me.username, byInvite ? '계정 만듦(초대 링크)' : '계정 만듦', username, `${name} · ${ROLE_LABEL[role]}`);
+  const out = { ok: true, user: { username, name, role, disabled: false } };
+  if (byInvite) {
+    const inv = await issueInvite(env, me, username);
+    out.invite = { url: inviteUrl(request, inv.token), expires_at: inv.expires_at };
+  }
+  return json(out, 201);
+}
+
+/** 있는 계정에 새 초대 링크(관리자). 비밀번호를 잊은 사람에게도 이걸 준다 — 링크로 새로 정한다. */
+export async function handleInviteUser(request, env, me, username) {
+  const user = await env.DB.prepare('SELECT username, name, disabled FROM users WHERE username = ?').bind(username).first();
+  if (!user) throw new ApiError(404, '그런 계정이 없습니다');
+  if (user.disabled) throw new ApiError(400, '사용 중지된 계정입니다. 먼저 다시 사용으로 바꾸세요.');
+  const inv = await issueInvite(env, me, username);
+  await logChange(env, me.username, '초대 링크 만듦', username, user.name);
+  return json({ ok: true, url: inviteUrl(request, inv.token), expires_at: inv.expires_at }, 201);
+}
+
+async function findInvite(env, token) {
+  if (typeof token !== 'string' || token.length < 20 || token.length > 100) return null;
+  const row = await env.DB.prepare(
+    `SELECT i.token_hash, i.username, i.expires_at, u.name, u.disabled
+       FROM invites i JOIN users u ON u.username = i.username
+      WHERE i.token_hash = ?`,
+  ).bind(await sha256hex(token)).first();
+  if (!row || row.expires_at < now() || row.disabled) return null;
+  return row;
+}
+
+/** 링크를 열었을 때: 누구의 초대인지만 알려 준다(비밀 없음). */
+export async function handleInviteStatus(request, env) {
+  const token = new URL(request.url).searchParams.get('token') || '';
+  const inv = await findInvite(env, token);
+  if (!inv) return json({ valid: false });
+  return json({ valid: true, username: inv.username, name: inv.name, expires_at: inv.expires_at });
+}
+
+/** 링크로 비밀번호 정하기 → 그 자리에서 로그인. 링크는 지운다(한 번만). */
+export async function handleInviteAccept(request, env) {
+  const b = await readJson(request, 10000);
+  const inv = await findInvite(env, b.token);
+  if (!inv) throw new ApiError(410, '초대 링크가 만료됐거나 이미 쓰였습니다. 관리자에게 새 링크를 받으세요.');
+  checkPassword(b.password);
+  const h = await hashPassword(b.password, env);
+  // 링크를 지우는 것과 비밀번호를 바꾸는 것을 한 묶음으로 — 두 번 쓰이지 않게
+  const results = await env.DB.batch([
+    env.DB.prepare('DELETE FROM invites WHERE token_hash = ?').bind(inv.token_hash),
+    env.DB.prepare('UPDATE users SET pw_hash = ?, pw_salt = ? WHERE username = ?').bind(h.pw_hash, h.pw_salt, inv.username),
+    env.DB.prepare('DELETE FROM sessions WHERE username = ?').bind(inv.username),
+  ]);
+  if (!results[0].meta || results[0].meta.changes !== 1) throw new ApiError(410, '초대 링크가 방금 쓰였습니다.');
+  const user = await env.DB.prepare('SELECT username, name, role FROM users WHERE username = ?').bind(inv.username).first();
+  await logChange(env, user.username, '초대 링크로 비밀번호 정함', user.username);
+  const cookie = await createSession(env, user.username);
+  return json({ username: user.username, name: user.name, role: user.role, site_url: env.SITE_URL || 'https://waffletrip.com' }, 200, { 'Set-Cookie': cookie });
 }
 
 export async function handleUpdateUser(request, env, me, username) {

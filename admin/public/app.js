@@ -138,6 +138,54 @@ function renderSetup(status) {
 
 // ── 로그인 뒤 화면 ──
 
+// 초대 링크 — /#/invite/<token>. 로그인 전에 열린다. 본인이 비밀번호를 정하면 바로 로그인된다.
+async function renderInvite(token) {
+  let st;
+  try {
+    st = await api('GET', `/api/invite?token=${encodeURIComponent(token)}`);
+  } catch (e) {
+    authShell(banner('bad', e.message), h('a', { href: '#/' }, '로그인 화면으로'));
+    return;
+  }
+  if (!st.valid) {
+    authShell(h('h2', {}, '초대 링크'), banner('bad', '이 초대 링크는 만료됐거나 이미 쓰였습니다. 관리자에게 새 링크를 받으세요.'),
+      h('a', { href: '#/', on: { click: () => { setHashSilently('#/'); boot(); } } }, '로그인 화면으로'));
+    return;
+  }
+  const err = h('div', { role: 'alert' });
+  const pw = h('input', { type: 'password', id: 'invite-password', autocomplete: 'new-password', required: true });
+  const pw2 = h('input', { type: 'password', id: 'invite-password2', autocomplete: 'new-password', required: true });
+  const btn = h('button', { type: 'submit', class: 'primary', id: 'invite-submit' }, '비밀번호 정하고 들어가기');
+  const form = h('form', {
+    on: {
+      submit: async (e) => {
+        e.preventDefault();
+        clear(err);
+        if (pw.value.length < 10) return err.append(banner('bad', '비밀번호는 10자 이상이어야 합니다'));
+        if (pw.value !== pw2.value) return err.append(banner('bad', '비밀번호 확인이 다릅니다'));
+        btn.disabled = true;
+        try {
+          store.me = await api('POST', '/api/invite', { token, password: pw.value });
+          setHashSilently('#/articles');
+          startShell();
+          toast(`${store.me.name}님, 환영합니다. 비밀번호를 정했습니다.`);
+        } catch (ex) {
+          err.append(banner('bad', ex.message));
+          btn.disabled = false;
+        }
+      },
+    },
+  },
+  h('h2', {}, '편집실 초대'),
+  h('p', { class: 'muted' }, h('strong', {}, st.name), ` (${st.username}) 계정의 비밀번호를 정합니다. 이 링크는 한 번만 쓸 수 있습니다.`),
+  err,
+  h('div', { class: 'field' }, h('label', { for: 'invite-password' }, '비밀번호'), pw, h('div', { class: 'hint' }, '10자 이상')),
+  h('div', { class: 'field' }, h('label', { for: 'invite-password2' }, '비밀번호 확인'), pw2),
+  btn);
+  authShell(form);
+  pw.focus();
+}
+
 const NAV = [
   { hash: '#/articles', label: '기사', match: /^#\/(articles|edit|new)/ },
   { hash: '#/review', label: '검토요청', admin: true, match: /^#\/review/, count: true },
@@ -286,6 +334,11 @@ setUnauthorizedHandler(() => {
 });
 
 async function boot() {
+  const inv = /^#\/invite\/([A-Za-z0-9_-]{20,100})$/.exec(location.hash || '');
+  if (inv) {
+    await renderInvite(inv[1]);
+    return;
+  }
   try {
     store.me = await api('GET', '/api/me');
     startShell();

@@ -55,6 +55,15 @@ export async function renderAccounts(ctx) {
   const role = select([{ value: 'reporter', label: '기자 — 자기 기사만' }, { value: 'admin', label: '관리자 — 모든 권한' }], 'reporter', { id: 'new-role' });
   const pw = h('input', { type: 'text', id: 'new-password', autocomplete: 'off', spellcheck: 'false', class: 'mono' });
   const gen = h('button', { type: 'button', class: 'small', on: { click: () => { pw.value = randomPassword(); } } }, '무작위로 만들기');
+  // 초대 링크: 비밀번호를 카톡으로 보내지 않아도 된다 — 링크를 연 본인이 정한다
+  const inviteBox = h('input', { type: 'checkbox', id: 'new-invite', checked: true });
+  const pwRow = h('div', { class: 'row' }, pw, gen);
+  const syncPw = () => {
+    pw.disabled = gen.disabled = inviteBox.checked;
+    pwRow.style.opacity = inviteBox.checked ? '0.45' : '';
+  };
+  inviteBox.addEventListener('change', syncPw);
+  syncPw();
   const createBtn = h('button', { type: 'submit', class: 'primary', id: 'create-user' }, '계정 만들기');
   const createForm = h('form', {
     class: 'card', id: 'create-user-form',
@@ -64,8 +73,11 @@ export async function renderAccounts(ctx) {
         clear(createMsg);
         createBtn.disabled = true;
         try {
-          await api('POST', '/api/users', { username: u.value.trim().toLowerCase(), name: n.value.trim(), role: role.value, password: pw.value });
-          createMsg.append(banner('ok', `${n.value.trim()}(${u.value.trim().toLowerCase()}) 계정을 만들었습니다. 처음 비밀번호를 본인에게 직접 알려 주고, 로그인한 뒤 바꾸라고 하세요.`));
+          const made = await api('POST', '/api/users', inviteBox.checked
+            ? { username: u.value.trim().toLowerCase(), name: n.value.trim(), role: role.value, invite: true }
+            : { username: u.value.trim().toLowerCase(), name: n.value.trim(), role: role.value, password: pw.value });
+          if (made.invite) createMsg.append(inviteCard(n.value.trim(), u.value.trim().toLowerCase(), made.invite.url));
+          else createMsg.append(banner('ok', `${n.value.trim()}(${u.value.trim().toLowerCase()}) 계정을 만들었습니다. 처음 비밀번호를 본인에게 직접 알려 주고, 로그인한 뒤 바꾸라고 하세요.`));
           u.value = n.value = pw.value = '';
           role.value = 'reporter';
           await loadUsers();
@@ -83,8 +95,58 @@ export async function renderAccounts(ctx) {
     field('아이디', u, { hint: '영문 소문자·숫자 2~24자. 나중에 못 바꿉니다.' }),
     field('이름', n, { hint: '화면에 보이는 이름' }),
     field('역할', role),
-    h('div', { class: 'field' }, h('label', { for: 'new-password' }, '처음 비밀번호'), h('div', { class: 'row' }, pw, gen), h('div', { class: 'hint' }, '10자 이상. 본인에게 직접 알려 줍니다(채팅방에 남기지 않습니다).'))),
+    h('div', { class: 'field' },
+      h('label', { class: 'check', for: 'new-invite' }, inviteBox, ' 초대 링크로 만들기 — 본인이 링크를 열어 비밀번호를 정합니다(추천)'),
+      h('label', { for: 'new-password' }, '처음 비밀번호'), pwRow,
+      h('div', { class: 'hint' }, '초대 링크를 끄면 여기 비밀번호를 직접 정해 본인에게 알려 줍니다. 10자 이상.'))),
   createBtn);
+
+  // 초대 링크 보여 주기 — 복사 단추. 3일 안에 한 번만 쓸 수 있다.
+  function inviteCard(name, username, url) {
+    const input = h('input', { type: 'text', id: 'invite-url', readOnly: true, value: url, class: 'mono', spellcheck: 'false' });
+    const copy = h('button', {
+      type: 'button', class: 'small',
+      on: {
+        click: async () => {
+          try {
+            await navigator.clipboard.writeText(url);
+            toast('초대 링크를 복사했습니다');
+          } catch {
+            input.select();
+            toast('복사가 안 되면 칸을 선택해 복사하세요', { bad: true });
+          }
+        },
+      },
+    }, '복사');
+    return h('div', { class: 'banner ok' },
+      h('div', {}, h('strong', {}, `${name}(${username})`), ' 계정을 만들었습니다. 아래 초대 링크를 본인에게 직접 보내세요. 링크를 열어 비밀번호를 정하면 바로 들어갈 수 있습니다.'),
+      h('div', { class: 'row', style: 'margin-top:8px' }, input, copy),
+      h('div', { class: 'hint' }, '3일 안에 한 번만 쓸 수 있습니다. 만료되면 계정 줄의 \'초대 링크\'로 새로 만듭니다.'));
+  }
+
+  async function inviteFor(user) {
+    try {
+      const r = await api('POST', `/api/users/${encodeURIComponent(user.username)}/invite`, {});
+      const input = h('input', { type: 'text', readOnly: true, value: r.url, class: 'mono', spellcheck: 'false', id: 'invite-url-modal' });
+      await modal({
+        title: `${user.name}(${user.username}) 초대 링크`,
+        body: h('div', {}, h('p', { class: 'muted' }, '본인에게 직접 보내세요. 링크를 열어 새 비밀번호를 정하면 옛 비밀번호와 로그인은 모두 끊깁니다. 3일 안에 한 번만.'), input),
+        buttons: [{ label: '복사', value: 'copy' }, { label: '닫기', value: null }],
+        onButton: async (v) => {
+          if (v !== 'copy') return true;
+          try {
+            await navigator.clipboard.writeText(r.url);
+            toast('초대 링크를 복사했습니다');
+          } catch {
+            input.select();
+          }
+          return false;
+        },
+      });
+    } catch (e) {
+      toast(e.message, { bad: true });
+    }
+  }
 
   main.append(listBox, createForm, passwordForm());
 
@@ -150,6 +212,7 @@ export async function renderAccounts(ctx) {
         h('td', {}, user.disabled ? h('span', { class: 'badge s-hidden' }, '중지') : h('span', { class: 'badge s-published' }, '사용')),
         h('td', { class: 'small muted nowrap' }, when(user.created_at)),
         h('td', {}, h('div', { class: 'row' },
+          h('button', { type: 'button', class: 'small', on: { click: () => inviteFor(user) } }, '초대 링크'),
           h('button', { type: 'button', class: 'small', on: { click: () => resetPassword(user) } }, '비밀번호 재설정'),
           self ? null : h('button', {
             type: 'button', class: 'small',

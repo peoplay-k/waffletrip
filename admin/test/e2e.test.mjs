@@ -42,7 +42,16 @@ class Client {
       h['Content-Type'] = 'application/json';
       payload = JSON.stringify(body);
     }
-    const r = await fetch(stage.base + p, { method, headers: h, body: payload });
+    // wrangler dev 가 놀던 keep-alive 연결을 끊으면 undici 가 'other side closed' 를 낸다 — 한 번 더
+    let r;
+    for (let attempt = 0; ; attempt++) {
+      try {
+        r = await fetch(stage.base + p, { method, headers: h, body: payload });
+        break;
+      } catch (e) {
+        if (attempt >= 1 || !(e && e.cause && e.cause.code === 'UND_ERR_SOCKET')) throw e;
+      }
+    }
     const sc = r.headers.get('set-cookie');
     if (sc) this.cookie = sc.split(';')[0];
     let data = null;
@@ -187,6 +196,7 @@ test('관리자: 기자 계정 만들기(화면)', async () => {
   await admin.fill('#new-username', 'kim');
   await admin.fill('#new-name', '김기자');
   await admin.selectOption('#new-role', 'reporter');
+  await admin.uncheck('#new-invite'); // 비밀번호를 직접 정하는 옛 길
   await admin.fill('#new-password', 'short');
   await admin.click('#create-user');
   await admin.waitForSelector('text=비밀번호는 10자 이상이어야 합니다');
@@ -199,6 +209,57 @@ test('관리자: 기자 계정 만들기(화면)', async () => {
   assert.equal(r.status, 201);
   const dup = await state.bossApi.req('POST', '/api/users', { username: 'lee', name: '또', role: 'reporter', password: 'reporter-pw-2' });
   assert.equal(dup.status, 409);
+});
+
+test('초대 링크: 관리자가 링크를 만들고, 본인이 열어 비밀번호를 정하면 바로 들어간다. 한 번만 쓴다', async () => {
+  await admin.goto(`${stage.base}/#/accounts`);
+  await admin.reload(); // 앞 시험이 같은 화면에서 초대 칸을 껐다 — 새로 그려 기본값을 본다
+  await admin.waitForSelector('#users-table');
+  await admin.fill('#new-username', 'parksb');
+  await admin.fill('#new-name', '박새봄');
+  await admin.selectOption('#new-role', 'reporter');
+  assert.equal(await admin.isChecked('#new-invite'), true, '초대 링크가 기본');
+  assert.equal(await admin.isDisabled('#new-password'), true);
+  await admin.click('#create-user');
+  await admin.waitForSelector('#invite-url');
+  const url = await admin.inputValue('#invite-url');
+  assert.match(url, new RegExp(`^${stage.base.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}/#/invite/[A-Za-z0-9_-]{20,}$`));
+  // 링크 없이는 못 들어간다(비밀번호가 난수)
+  const c = new Client('10.0.0.9');
+  assert.equal((await c.login('parksb', 'anything-at-all-1')).status, 401);
+  // 본인이 링크를 연다
+  const ctx = await browser.newContext({ viewport: { width: 1100, height: 800 } });
+  const p = await ctx.newPage();
+  await p.goto(url);
+  await p.waitForSelector('#invite-password');
+  assert.match(await p.textContent('.auth-card'), /박새봄/);
+  await p.fill('#invite-password', 'short');
+  await p.fill('#invite-password2', 'short');
+  await p.click('#invite-submit');
+  await p.waitForSelector('text=10자 이상이어야');
+  await p.fill('#invite-password', 'saebom-pass-2026');
+  await p.fill('#invite-password2', 'saebom-pass-2026');
+  await p.click('#invite-submit');
+  await p.waitForSelector('#logout');
+  assert.match(await p.textContent('#who-name'), /박새봄/);
+  assert.ok(!(await p.$('nav a[href="#/structure"]')), '기자에게 구조 메뉴가 보이면 안 된다');
+  // 같은 링크를 다시 열면 안 된다
+  const p2 = await (await browser.newContext()).newPage();
+  await p2.goto(url);
+  await p2.waitForSelector('text=만료됐거나 이미 쓰였습니다');
+  await p2.context().close();
+  // 정한 비밀번호로 로그인된다
+  assert.equal((await c.login('parksb', 'saebom-pass-2026')).status, 200);
+  // 기자는 초대 링크를 못 만든다
+  assert.equal((await c.req('POST', '/api/users/parksb/invite', {})).status, 403);
+  // 관리자가 있는 계정에 새 링크를 만들면 옛 로그인이 끊긴다
+  const again = await state.bossApi.req('POST', '/api/users/parksb/invite', {});
+  assert.equal(again.status, 201);
+  const t2 = again.data.url.split('#/invite/')[1];
+  const acc = await new Client('10.0.0.10').req('POST', '/api/invite', { token: t2, password: 'saebom-pass-2027' });
+  assert.equal(acc.status, 200);
+  assert.equal((await c.req('GET', '/api/me')).status, 401, '옛 세션은 끊겨야');
+  await ctx.close();
 });
 
 test('기자: 새 기사를 만든다 — 상태는 작성중·검토요청만, 미리보기는 이스케이프', async () => {

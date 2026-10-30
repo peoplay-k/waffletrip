@@ -9,6 +9,7 @@ import { handleList, handleGet, handlePut, handleCreate, handleUpload, handleMed
 import { handleGetSite, handlePutSite } from './site.js';
 import {
   handleListUsers, handleCreateUser, handleUpdateUser, handleDeleteUser, handleLog, handleDeploys, handleDispatch,
+  handleInviteUser, handleInviteStatus, handleInviteAccept,
 } from './users.js';
 
 const SECURITY_HEADERS = {
@@ -46,6 +47,9 @@ const ROUTES = [
   ['POST', /^\/api\/users$/, 'admin', handleCreateUser],
   ['PUT', /^\/api\/users\/([^/]+)$/, 'admin', handleUpdateUser],
   ['DELETE', /^\/api\/users\/([^/]+)$/, 'admin', handleDeleteUser],
+  ['POST', /^\/api\/users\/([^/]+)\/invite$/, 'admin', handleInviteUser],
+  ['GET', /^\/api\/invite$/, 'public', handleInviteStatus],
+  ['POST', /^\/api\/invite$/, 'public', handleInviteAccept],
   ['GET', /^\/api\/log$/, 'admin', handleLog],
   ['GET', /^\/api\/deploys$/, 'user', handleDeploys],
   ['POST', /^\/api\/deploys$/, 'admin', handleDispatch],
