@@ -164,6 +164,11 @@ export function startMockGitHub({ root, port = 0, repo = 'peoplay-k/waffletrip',
         const sha = blobSha(buf);
         const commit = crypto.createHash('sha1').update(`${commits.length}:${fp}:${sha}`).digest('hex');
         commits.push({ path: fp, message: body.message, sha, commit });
+        if (/^content\/review\/.+\.md$/.test(fp)) {
+          // 진짜 GitHub 처럼 푸시가 '매일 발행'을 깨운다 — 시험에서는 바로 끝난 것으로 둔다
+          const id = runs.length + 1;
+          runs.unshift({ id, name: '매일 발행', display_title: String(body.message).split('\n')[0], status: 'completed', conclusion: 'success', event: 'push', head_sha: commit, created_at: new Date(Date.now() - 30000).toISOString(), updated_at: new Date().toISOString(), html_url: `https://github.com/x/runs/${id}` });
+        }
         return send(res, cur ? 200 : 201, { content: { name: path.basename(fp), path: fp, sha }, commit: { sha: commit, message: body.message } });
       }
     }

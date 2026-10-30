@@ -3,6 +3,9 @@
 import { ApiError, json, readJson, now, logChange, checkPassword, checkUsername, checkName } from './util.js';
 import { hashPassword } from './auth.js';
 import { GitHub } from './github.js';
+import { parseArticle } from './frontmatter.js';
+import { DIR } from './articles.js';
+import { articleSiteUrl } from '../public/shared/article_url.js';
 
 const ROLE_LABEL = { admin: '관리자', reporter: '기자' };
 
@@ -126,7 +129,8 @@ export async function handleLog(request, env) {
 const WORKFLOW = 'daily.yml';
 
 export async function handleDeploys(request, env) {
-  const runs = await new GitHub(env).workflowRuns(WORKFLOW, 6);
+  const gh = new GitHub(env);
+  const runs = await gh.workflowRuns(WORKFLOW, 6);
   const list = runs.map((r) => ({
     id: r.id,
     status: r.status,
@@ -137,9 +141,54 @@ export async function handleDeploys(request, env) {
     updated_at: r.updated_at,
     run_started_at: r.run_started_at || r.created_at,
     url: r.html_url,
+    head_sha: r.head_sha || '',
   }));
+  await attachArticleLinks(env, gh, list);
+  for (const r of list) delete r.head_sha;
   const running = list.some((r) => r.status !== 'completed');
   return json({ runs: list, running });
+}
+
+/**
+ * 저장해서 돈 실행(run)에 그 기사의 지면 주소를 붙인다(사장님 2026-10-30: "오픈이 되면 기사 링크로
+ * 가야지. 왜 깃허브로 가니"). 실행의 커밋 해시 → 기록(log.commit_sha) → 파일 → 발행 id → 주소.
+ * 한 번 알아낸 것은 run_links 에 둔다(발행 id 는 안 바뀐다). 지면에 없는 기사(작성중·내림)는
+ * 빈 주소로 적어 두어 다시 묻지 않는다.
+ */
+async function attachArticleLinks(env, gh, list) {
+  if (!list.length) return;
+  const { results } = await env.DB.prepare(
+    `SELECT run_id, url, title FROM run_links WHERE run_id IN (${list.map(() => '?').join(',')})`,
+  ).bind(...list.map((r) => r.id)).all();
+  const known = new Map(results.map((r) => [r.run_id, r]));
+  for (const r of list) {
+    const hit = known.get(r.id);
+    if (hit) {
+      if (hit.url) {
+        r.article_url = hit.url;
+        r.article_title = hit.title;
+      }
+      continue;
+    }
+    if (r.status !== 'completed' || r.conclusion !== 'success' || r.event !== 'push' || !r.head_sha) continue;
+    try {
+      const row = await env.DB.prepare('SELECT target FROM log WHERE commit_sha = ? ORDER BY id DESC LIMIT 1').bind(r.head_sha).first();
+      if (!row || !/\.md$/.test(row.target)) continue;
+      const file = await gh.getFile(`${DIR}/${row.target}`);
+      if (!file) continue;
+      const { front } = parseArticle(file.text);
+      const url = articleSiteUrl(front, env.SITE_URL);
+      const title = String(front.title || '');
+      if (url) {
+        r.article_url = url;
+        r.article_title = title;
+      }
+      await env.DB.prepare('INSERT OR REPLACE INTO run_links (run_id, url, title, created_at) VALUES (?, ?, ?, ?)')
+        .bind(r.id, url, title, now()).run();
+    } catch (e) {
+      console.error('실행의 기사 주소를 못 찾음', r.id, e);
+    }
+  }
 }
 
 /** 지금 발행(관리자). 구조만 바꾸면 매일 발행이 저절로 돌지 않아 둔 단추다. */

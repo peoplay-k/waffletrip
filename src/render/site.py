@@ -436,6 +436,18 @@ def article_url(item: Item) -> str:
     return f"/{region}/{ident}-{slugify(getattr(item, 'title_orig', None) or item.title)}/"
 
 
+def short_url(item: Item) -> str:
+    """제목 없이 id 만으로 되는 짧은 주소 — /guam/c-759a5a/.
+
+    편집실(admin/)이 '기사 보기' 링크를 만들 때 쓴다. 긴 주소는 제목 slug 가 들어가
+    바깥에서 똑같이 계산하기 어렵고(제목을 고치면 바뀌기도 한다), 이 주소는 발행 id 만
+    알면 된다. 지면에서는 긴 주소로 넘긴다(redirect.html, canonical 은 긴 주소).
+    """
+    region = "ent" if is_ent(item) else (_SAFE_SEGMENT.sub("", item.region) or "etc")
+    ident = _SAFE_SEGMENT.sub("", item.id)[:8] or "0"
+    return f"/{region}/{ident}/"
+
+
 def group_by_region(items: list[Item]) -> dict[str, list[Item]]:
     grouped: dict[str, list[Item]] = {}
     for item in items:
@@ -1060,6 +1072,12 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
                 **{**common, "canonical": SITE_URL + BASE_PATH + urls[item.id]}),
             written,
         )
+        # 짧은 주소(/지역/발행id/) — 편집실의 '기사 보기'가 여기로 온다. 사이트맵에는 안 넣는다.
+        short = short_url(item)
+        if short != urls[item.id]:
+            _write(os.path.join(out_dir, short.strip("/"), "index.html"),
+                   env.get_template("redirect.html").render(
+                       target=urls[item.id], target_name=item.title, short_link=True, **common), written)
 
     _write(
         os.path.join(out_dir, "404.html"),

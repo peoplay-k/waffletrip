@@ -67,6 +67,9 @@ export async function renderDeploys(ctx) {
       // DOM 의 append 는 null 을 'null' 글자로 붙인다 — 실패했을 때만 안내 문장을 넣는다
       now.append(h('div', { class: `deploy-now ${ok ? 'ok' : 'bad'}`, id: 'deploy-state' }, h('span', { class: 'big-dot' }),
         ok ? `발행 완료 — ${ago(latest.updated_at)}` : `마지막 발행 ${st.label} — ${ago(latest.updated_at)}`));
+      if (ok && latest.article_url) {
+        now.append(h('p', { class: 'small' }, h('a', { href: latest.article_url, target: '_blank', rel: 'noopener noreferrer' }, `기사 보기 ↗ ${latest.article_title || ''}`)));
+      }
       if (!ok) now.append(h('p', { class: 'muted small' }, '실패했으면 지면이 안 바뀌었을 수 있습니다. GitHub 에서 기록을 보거나 관리자에게 알리세요.'));
     }
     clear(list).append(h('h2', {}, '최근 실행'),
@@ -79,7 +82,11 @@ export async function renderDeploys(ctx) {
             h('td', { class: 'nowrap small' }, when(r.run_started_at), h('div', { class: 'muted' }, ago(r.run_started_at))),
             h('td', { class: 'small' }, EVENT[r.event] || r.event),
             h('td', {}, r.title),
-            h('td', {}, r.url ? h('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer' }, 'GitHub 에서 보기') : null));
+            // 끝난 발행은 기사 지면으로. GitHub 기록은 작게 뒤에 둔다.
+            h('td', { class: 'nowrap' },
+              r.article_url ? h('a', { href: r.article_url, target: '_blank', rel: 'noopener noreferrer' }, '기사 보기 ↗') : null,
+              r.article_url && r.url ? ' ' : null,
+              r.url ? h('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer', class: r.article_url ? 'small muted' : '' }, r.article_url ? 'GitHub' : 'GitHub 에서 보기') : null));
         })))) : h('p', { class: 'muted' }, '기록이 없습니다.'));
     // 발행 중이면 자주, 아니면 가끔 다시 본다
     timer = setTimeout(load, data.running ? 10000 : 60000);

@@ -5,6 +5,7 @@ import {
   h, clear, api, store, toast, banner, statusBadge, STATUS, confirmBox, field, select, debounce,
 } from './core.js';
 import { renderMarkdown, countChars } from './markdown.js';
+import { articleSiteUrl } from '../shared/article_url.js';
 
 const SECTIONS = [
   { value: 'news', label: '일반 소식·해설' },
@@ -345,8 +346,11 @@ export async function renderEditor(ctx, name) {
   // ── 그리기 ──
   clear(main);
   const back = h('a', { href: '#/articles', class: 'btn small ghost' }, '← 목록');
+  const siteHref = articleSiteUrl(fr, store.me && store.me.site_url);
   const bar = h('div', { class: 'editbar' }, back, badgeSlot,
-    h('div', { class: 'title' }, isNew ? '새 기사' : (art.front.title || name)), dirtyEl, saveBtn);
+    h('div', { class: 'title' }, isNew ? '새 기사' : (art.front.title || name)),
+    siteHref ? h('a', { id: 'site-link', class: 'btn small ghost', href: siteHref, target: '_blank', rel: 'noopener noreferrer' }, '기사 보기 ↗') : null,
+    dirtyEl, saveBtn);
 
   const regionField = field('지역면', region, { hint: '여행 기사는 반드시 고릅니다.' });
   const topicField = field('여행 부문 (선택)', topic, { hint: '비우면 규칙대로 자동으로 나눕니다. 고르면 그 부문에 실립니다.' });

@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import { hashPassword, verifyPassword } from '../../src/auth.js';
 import { editPermission, allowedStatuses, sniffImage, sortArticles, checkName } from '../../src/articles.js';
 import { timingSafeEqual, b64encode, b64decode } from '../../src/util.js';
+import { articleSiteUrl } from '../../public/shared/article_url.js';
 
 const admin = { username: 'boss', role: 'admin' };
 const rep = { username: 'kim', role: 'reporter' };
@@ -94,4 +95,14 @@ test('기사 파일 이름 검사', () => {
 test('base64 왕복(큰 사진 크기)', () => {
   const big = new Uint8Array(3 * 1024 * 1024).map((_, i) => i % 251);
   assert.deepEqual(b64decode(b64encode(big)), big);
+});
+
+test('기사 지면 주소: 발행된 것만, /지역/발행id 앞 8자/', () => {
+  const pub = { channel: 'travel', region: 'guam', status: 'published', published_id: 'c-759a5aeb5d4408cd99d93c8e2b2bfbea17df452f' };
+  assert.equal(articleSiteUrl(pub), 'https://waffletrip.com/guam/c-759a5a/');
+  assert.equal(articleSiteUrl(pub, 'https://example.test/'), 'https://example.test/guam/c-759a5a/');
+  assert.equal(articleSiteUrl({ ...pub, channel: 'ent', region: '' }), 'https://waffletrip.com/ent/c-759a5a/');
+  assert.equal(articleSiteUrl({ ...pub, status: 'hidden' }), '', '내린 기사는 지면에 없다');
+  assert.equal(articleSiteUrl({ ...pub, published_id: '' }), '', '발행 전이면 없다');
+  assert.equal(articleSiteUrl({ ...pub, region: '../x' }), 'https://waffletrip.com/x/c-759a5a/', '지역 칸의 이상한 글자는 걷는다');
 });

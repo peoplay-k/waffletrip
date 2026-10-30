@@ -97,10 +97,11 @@ export function kstDate(ms = Date.now()) {
 }
 
 /** 변경 기록 한 줄. 기록이 실패해도 저장 자체를 되돌리지는 않는다(커밋이 정식 기록이다). */
-export async function logChange(env, username, action, target = '', detail = '') {
+export async function logChange(env, username, action, target = '', detail = '', commit = '') {
   try {
-    await env.DB.prepare('INSERT INTO log (ts, username, action, target, detail) VALUES (?, ?, ?, ?, ?)')
-      .bind(now(), username, action, String(target).slice(0, 300), String(detail).slice(0, 2000))
+    // commit 은 그 저장이 만든 커밋 해시 — 발행 상태 화면이 실행(run)과 기사를 잇는 데 쓴다
+    await env.DB.prepare('INSERT INTO log (ts, username, action, target, detail, commit_sha) VALUES (?, ?, ?, ?, ?, ?)')
+      .bind(now(), username, action, String(target).slice(0, 300), String(detail).slice(0, 2000), String(commit || ''))
       .run();
   } catch (e) {
     console.error('log 기록 실패', e);

@@ -126,7 +126,7 @@ test('로그인 쿠키: HttpOnly·Secure·SameSite=Strict·Path=/·30일, 토큰
   for (const part of ['HttpOnly', 'Secure', 'SameSite=Strict', 'Path=/', 'Max-Age=2592000']) assert.ok(sc.includes(part), `${part} 없음: ${sc}`);
   const token = c.cookie.split('=')[1];
   assert.ok(token.length >= 43, '토큰은 32바이트 이상');
-  assert.deepEqual((await c.req('GET', '/api/me')).data, { username: 'boss', name: '사장님', role: 'admin' });
+  assert.deepEqual((await c.req('GET', '/api/me')).data, { username: 'boss', name: '사장님', role: 'admin', site_url: 'https://waffletrip.com' });
   state.bossApi = c;
   // D1 에는 토큰의 SHA-256 만 있다
   const sessions = stage.d1('SELECT token_hash, expires_at - created_at AS life FROM sessions');
@@ -326,6 +326,8 @@ test('관리자: 제목·요약을 고쳐도 다른 칸·본문은 글자 그대
   const a = parseArticle(before);
   await admin.goto(`${stage.base}/#/edit/${encodeURIComponent(PUBLISHED2)}`);
   await admin.waitForSelector('#f-title');
+  // 발행된 기사에는 지면으로 가는 '기사 보기' — /지역/발행id 앞 8자/
+  assert.equal(await admin.getAttribute('#site-link', 'href'), `https://waffletrip.com/saipan/${a.front.published_id.slice(0, 8)}/`);
   await admin.fill('#f-title', "이랜드파크 PIC 사이판: '아카데믹 펀 스쿨링' 운영 #겨울방학");
   await admin.fill('#f-summary', '요약을 바꿨다.\n두 줄로.');
   await admin.keyboard.press('Control+s');
@@ -536,6 +538,20 @@ test('발행 상태: 최근 실행을 보이고, 관리자는 지금 발행을 �
   assert.match(await admin.textContent('#deploy-state'), /발행 완료/);
   // DOM append 에 null 이 들어가면 'null' 글자가 찍힌다 — 한 번 났던 일
   assert.ok(!/\bnull\b/.test(await admin.textContent('#main')), '발행 상태 화면에 null 글자가 보인다');
+  // 발행된 기사를 고쳐서 돈 실행에는 지면 링크가 붙는다(사장님: "오픈이 되면 기사 링크로 가야지")
+  const d0 = await state.bossApi.req('GET', '/api/deploys');
+  const linked = d0.data.runs.filter((r) => r.article_url);
+  assert.ok(linked.length >= 1, '기사 링크가 붙은 실행이 없다');
+  for (const r of linked) assert.match(r.article_url, /^https:\/\/waffletrip\.com\/(saipan|ent)\/[A-Za-z0-9_-]{1,8}\/$/);
+  // 내린 기사·작성중 원고의 실행에는 안 붙는다
+  assert.ok(d0.data.runs.some((r) => r.event === 'push' && !r.article_url), '지면에 없는 기사의 실행에 링크가 붙었다');
+  assert.ok(await admin.$('#runs a:has-text("기사 보기")'), '발행 상태 표에 기사 보기 링크가 없다');
+  // 목록에서도
+  await admin.goto(`${stage.base}/#/articles`);
+  await admin.waitForSelector('.list-row');
+  assert.ok(await admin.$(`.list-row[data-path="${PUBLISHED2}"] .site-link`), '목록 줄에 기사 보기가 없다');
+  await admin.goto(`${stage.base}/#/deploys`);
+  await admin.waitForSelector('#deploy-state');
   await admin.click('#dispatch');
   await clickModal(admin, '발행 시작');
   await admin.waitForSelector('#deploy-state:has-text("발행 중")', { timeout: 15000 });

@@ -357,3 +357,6 @@ table.data td.detail { white-space: pre-wrap; color: var(--muted); font-size: .8
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* 글자처럼 보이는 단추 — 목록 줄(<a>) 안에서 새 창을 여는 '기사 보기' */
+.linkish{background:none;border:0;padding:0;margin:0;font:inherit;color:var(--accent,#b4400f);text-decoration:underline;cursor:pointer}

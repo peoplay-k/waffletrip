@@ -23,6 +23,8 @@ migrations_dir = "migrations"
 GITHUB_REPO = "peoplay-k/waffletrip"
 GITHUB_BRANCH = "main"
 GITHUB_API = "https://api.github.com"
+# 지면 주소. 편집실의 '기사 보기' 링크가 여기로 간다(/지역/발행id/ 짧은 주소 — src/render/site.py short_url).
+SITE_URL = "https://waffletrip.com"
 # 비밀번호 해시 반복 횟수. 무료 요금제(요청당 CPU 10ms)에 맞춘 값이다.
 # Workers 유료 요금제로 옮기면 "100000" 으로 올린다 — 각자 다음 로그인 때 새 횟수로 다시 저장된다.
 PASSWORD_ITERATIONS = "20000"

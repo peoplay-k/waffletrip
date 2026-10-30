@@ -1,6 +1,7 @@
 // 기사 목록 · 검토요청 대기열.
 
 import { h, clear, store, statusBadge, STATUS, banner, debounce, regionName, cultureName, select } from './core.js';
+import { articleSiteUrl } from '../shared/article_url.js';
 
 const PAGE = 50;
 const TABS = ['', 'draft', 'review', 'approved', 'published', 'hidden', 'duplicate'];
@@ -118,6 +119,7 @@ export async function renderArticleList(ctx, { reviewQueue = false }) {
   }
 
   function row(a) {
+    const siteUrl = articleSiteUrl(a, store.me && store.me.site_url);
     const where = (a.channel || 'travel') === 'ent'
       ? `문화 · ${a.category ? cultureName(config, a.category) : '부문 자동'}`
       : `여행 · ${a.region ? regionName(config, a.region) : '지역 없음'}`;
@@ -131,7 +133,11 @@ export async function renderArticleList(ctx, { reviewQueue = false }) {
           h('span', {}, dateOf(a) || '날짜 없음'),
           a.source_name ? h('span', {}, `필자 ${a.source_name}`) : null,
           a.author ? h('span', {}, `만든 사람 ${a.author}`) : null,
-          h('span', { class: 'mono' }, a.path))));
+          h('span', { class: 'mono' }, a.path),
+          siteUrl ? h('button', {
+            type: 'button', class: 'linkish site-link', title: '지면에서 보기',
+            on: { click: (e) => { e.preventDefault(); e.stopPropagation(); window.open(siteUrl, '_blank', 'noopener'); } },
+          }, '기사 보기 ↗') : null)));
   }
 
   function draw() {

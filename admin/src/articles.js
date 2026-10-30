@@ -264,7 +264,7 @@ export async function handlePut(request, env, me, name) {
   const action = commitAction(front, next);
   const res = await new GitHub(env).putFile(`${DIR}/${name}`, b64encode(utf8.encode(newText)), file.sha, `편집실(${me.username}): ${action}`);
   await warmBlob(env, res.sha, name, newText);
-  await logChange(env, me.username, action, name, front.status !== next.status ? `${front.status} → ${next.status}` : '');
+  await logChange(env, me.username, action, name, front.status !== next.status ? `${front.status} → ${next.status}` : '', res.commit);
   return json({ ok: true, sha: res.sha, commit: res.commit, name, status: next.status });
 }
 
@@ -309,7 +309,7 @@ export async function handleCreate(request, env, me) {
     try {
       const res = await gh.putFile(`${DIR}/${name}`, b64encode(utf8.encode(text)), null, `편집실(${me.username}): ${action}`);
       await warmBlob(env, res.sha, name, text);
-      await logChange(env, me.username, action, name, next.status);
+      await logChange(env, me.username, action, name, next.status, res.commit);
       return json({ ok: true, name, sha: res.sha, status: next.status }, 201);
     } catch (e) {
       if (!(e instanceof ApiError && e.extra && e.extra.exists)) throw e;

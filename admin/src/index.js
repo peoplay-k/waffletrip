@@ -32,7 +32,7 @@ const ROUTES = [
   ['POST', /^\/api\/setup$/, 'public', handleSetup],
   ['POST', /^\/api\/login$/, 'public', handleLogin],
   ['POST', /^\/api\/logout$/, 'user', handleLogout],
-  ['GET', /^\/api\/me$/, 'user', async (req, env, me) => json({ username: me.username, name: me.name, role: me.role })],
+  ['GET', /^\/api\/me$/, 'user', async (req, env, me) => json({ username: me.username, name: me.name, role: me.role, site_url: env.SITE_URL || 'https://waffletrip.com' })],
   ['POST', /^\/api\/me\/password$/, 'user', handleChangeOwnPassword],
   ['GET', /^\/api\/articles$/, 'user', handleList],
   ['POST', /^\/api\/articles$/, 'user', handleCreate],

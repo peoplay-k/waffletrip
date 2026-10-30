@@ -413,9 +413,9 @@ def test_curated_article_keeps_its_source(tmp_path):
     item.source_url = "https://example.com/a"
     render_site([item], str(tmp_path), TODAY)
     import glob as _g
-    html = ""
-    for p in _g.glob(str(tmp_path / "guam" / "*" / "index.html")):
-        html = open(p, encoding="utf-8").read()
+    # 기사 쪽만 본다 — /guam/<id>/ 짧은 주소(넘김 쪽)도 같은 자리에 생긴다
+    html = "".join(open(p, encoding="utf-8").read()
+                   for p in _g.glob(str(tmp_path / "guam" / "*" / "index.html")))
     assert "제주의소리" in html
 
 
@@ -925,3 +925,19 @@ def test_region_panel_shows_only_the_latest_day():
     wx.published_at = "2026-10-28T08:00:00+09:00"
     panel, _ = split_panel([old, new, wx])
     assert [i.id for i in panel] == ["a2", "a3"]
+
+
+def test_기사마다_id_만으로_되는_짧은_주소가_있다(tmp_path):
+    """편집실의 '기사 보기'는 /지역/발행id/ 로 온다. 제목 slug 를 바깥에서 다시 계산하지 않는다."""
+    from src.render.site import short_url, article_url
+    import dataclasses
+    items = [make("c-759a5aeb5d4408cd99d93c8e2b2bfbea17df452f", "괌여행"),
+             dataclasses.replace(make("c-abcdef0123456789", "영화 소식", region=""), channel="ent", category="movie")]
+    render_site(items, str(tmp_path), TODAY)
+    assert short_url(items[0]) == "/guam/c-759a5a/"
+    assert short_url(items[1]) == "/ent/c-abcdef/"
+    for it in items:
+        page = (tmp_path / short_url(it).strip("/") / "index.html").read_text(encoding="utf-8")
+        assert f'url={article_url(it)}' in page
+        assert f'rel="canonical" href="https://waffletrip.com{article_url(it)}"' in page
+        assert 'content="noindex, follow"' in page
