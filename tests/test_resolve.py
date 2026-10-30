@@ -109,3 +109,18 @@ def test_broken_outlet_is_not_applied():
     row = {"source_name": "국제신문", "source_url": "u", "summary": "", "published_at": ""}
     assert apply(row, {"outlet": "��신문"}) is False
     assert row["source_name"] == "국제신문"
+
+
+def test_시간이_다_되면_더_풀지_않는다(monkeypatch):
+    """2026-10-30 800건을 푸느라 20분을 넘겨 해설 기사 발행이 기다렸다. 시간 한도를 넘으면 멈춘다."""
+    import src.fetch.resolve as r
+    calls = []
+    monkeypatch.setattr(r, "decode_google_url", lambda url, c: calls.append(url) or None)
+    rows = [{"id": f"g{i}", "source_url": f"https://news.google.com/rss/articles/x{i}"} for i in range(5)]
+    cache = {}
+    clock = iter([0.0] + [100.0 * k for k in range(1, 20)])
+    monkeypatch.setattr(r.time, "monotonic", lambda: next(clock))
+    r.resolve_rows(rows, cache, client=object(), max_seconds=250)
+    # 0 에서 시작, 한도 250 → 100·200 에서는 풀고 300 부터 멈춘다
+    assert len(calls) == 2
+    assert set(cache) == {"g0", "g1"}

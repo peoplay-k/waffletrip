@@ -18,6 +18,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 
 import httpx
 
@@ -32,6 +33,10 @@ CACHE = "data/resolved.json"
 # 같은 날 저녁 실측: 소스 154개로 첫 실행에 신규 1,314건 중 400건만 풀려 741건이 요약 없이
 # 남았다 → 800. 해설 기자가 하루 네 번 발행을 깨우므로 밀린 것은 그날 안에 다 풀린다.
 MAX_PER_RUN = 800
+# 건수와 함께 시간도 묶는다. 같은 날 밤 실측: 800건을 푸느라 이 단계가 20분을 넘겼고, 그동안
+# 해설 기자가 올린 기사 6편이 뒤 단계(해설 발행)에서 기다렸다 — 아침 8시 발행이 늦어진다.
+# 6분이 지나면 멈추고 남은 것은 다음 실행에 푼다(캐시에 없으니 다시 차례가 온다).
+MAX_SECONDS = 360
 TIMEOUT = 12.0
 # 인용은 두 문장·200자까지. B등급 규칙과 같다.
 MAX_SUMMARY = 200
@@ -198,7 +203,8 @@ SAVE_EVERY = 25
 
 def resolve_rows(rows: list[dict], cache: dict, limit: int = MAX_PER_RUN,
                  client: httpx.Client | None = None,
-                 cache_path: str | None = None) -> tuple[int, int, int]:
+                 cache_path: str | None = None,
+                 max_seconds: float | None = MAX_SECONDS) -> tuple[int, int, int]:
     """Google 뉴스 항목(dict)의 URL·출처·요약을 실제 값으로 바꾼다.
 
     캐시는 항목 id 로 찾는다 — URL 을 실제 주소로 바꾼 뒤에도 같은 기사를
@@ -209,6 +215,7 @@ def resolve_rows(rows: list[dict], cache: dict, limit: int = MAX_PER_RUN,
     client = client or httpx.Client(headers=_HEADERS, timeout=TIMEOUT,
                                     follow_redirects=True)
     fetched = failed = patched = 0
+    deadline = time.monotonic() + max_seconds if max_seconds else None
     try:
         for row in rows:
             key = row["id"]
@@ -217,6 +224,8 @@ def resolve_rows(rows: list[dict], cache: dict, limit: int = MAX_PER_RUN,
                     continue
                 if fetched + failed >= limit:
                     continue
+                if deadline is not None and time.monotonic() > deadline:
+                    continue  # 시간이 다 됐다 — 이미 푼 것만 입히고 나머지는 다음 실행에
                 real = decode_google_url(row["source_url"], client)
                 if not real:
                     failed += 1
