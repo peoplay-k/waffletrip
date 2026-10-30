@@ -1209,6 +1209,7 @@
     "221607d64e8de2f14b2def2246736f2e79cd42bf",
     "22187efdb2825d57bab8a2c560d08152a1182e6e",
     "222527e06d899440797404717e2dad8bf6c70014",
+    "22253815a90b4cec55b177bdc36504be83f96056",
     "222ed325b12c3a84e98d56e53a36e88f8bd99793",
     "223322ee53e3aa05df803ee50ede8ac954ab0070",
     "223a2b2be39faeb94d46b86c336e791f4a0ef73f",
@@ -1911,6 +1912,7 @@
     "3651de6cb05f2de911d569e499a7a046ac0b0b6e",
     "3657365cc3b27459ddd1854731b3ce558a25fbc4",
     "3657a4de4a99100cfe803a864d67ac03905fb4b9",
+    "365927898100be43600c30387adf8d8a3437233c",
     "3665be20a0c550f48fc9eeaffc9749d7f0d6dcf6",
     "366781403dc4798b5a5938dc803332cdba151a48",
     "36743525924a6f32054c9718b9c468b2f81463f7",
@@ -2625,6 +2627,7 @@
     "4a169f800816706eadd437476c89f5f61b68592b",
     "4a198b75345b2a5765f8d99be44582d3aac8c07f",
     "4a1adfa756bbd31794b8b7f73139f68c5d1916f0",
+    "4a20e7e2daf45ef8e5e39b5d859b0403546ea638",
     "4a231f6fd7cc0328cad52ad992e3c4fa5764600b",
     "4a319899bea112f610343bf336e4ae78ccf7b38b",
     "4a381b66c558dd914e1a0a91f53e83d1b5f2e849",
@@ -3558,6 +3561,7 @@
     "64028d0f62467da3a2fae10fd1436f40d1ec0828",
     "64082a115ccb48ca107b8d7a1c3692544733cc66",
     "6408933d1b9b3dba60771e25d544b796bdd168a3",
+    "640985cdaa60b768c1a027fbab20131e2daa2dba",
     "640c4464d52e4fff38a5e44a06e34de254f9f5c7",
     "640d816b3e3c846515f84b16610e7918ac1e6be1",
     "641fb374a2d400057a846b890f387862dc9b688a",
@@ -3683,6 +3687,7 @@
     "67299ec233da62f7ca1b5e5d782d277a37bd8c14",
     "672e658b8d38c96ea0e6d8c783f67e0239d12492",
     "673e0fe4ecc1d3c95897824afce4a79897e749eb",
+    "67459be45ce20861f394a899954c777c791ca0be",
     "6748ae4a464fce0ec17c2ef53996a3731ffe81fd",
     "67496605c97f78d4ee4255041394d0f3eeba21b9",
     "674ddeecc54996baedb1ef3d17c03bbc26e5e36c",
@@ -50492,6 +50497,41 @@
       "title": "American tourist sparks debate for sleeping on airport floor rather than paying for hotel",
       "date": "2026-10-30",
       "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "365927898100be43600c30387adf8d8a3437233c",
+      "title": "중국 관광객 2000여 명, 크루즈 타고 여수세계섬박람회 찾았다",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "67459be45ce20861f394a899954c777c791ca0be",
+      "title": "부산관광공사, 북항 상어 ‘부캉이’ 신드롬 연계 생태관광 상품화 추진",
+      "date": "2026-10-30",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "22253815a90b4cec55b177bdc36504be83f96056",
+      "title": "First Alert Forecast: Flood Advisory for Hawaii Island’s Hamakua Coast",
+      "date": "2026-10-30",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "4a20e7e2daf45ef8e5e39b5d859b0403546ea638",
+      "title": "[날씨] 제주 주말 토요일 맑다가 일요일 늦은 오후부터 비",
+      "date": "2026-10-30",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "640985cdaa60b768c1a027fbab20131e2daa2dba",
+      "title": "First Alert Forecast: Flash Flood Warnings Expire for East Maui and East Big Island",
+      "date": "2026-10-30",
+      "region": "hawaii",
       "grade": "B"
     }
   ]
