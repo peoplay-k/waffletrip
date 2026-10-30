@@ -51,10 +51,26 @@ _TRAVEL_IMPACT_KO = re.compile(
     r"재개|복구|주의보|대피)")
 
 
+# 종합지 여행면을 구글뉴스 site: 검색으로 붙이면서(2026-10-30) '항공'·'관광' 한 마디로 걸린
+# 부고·인사·증권·군사 기사가 재료에 섞였다 — 첫 실행 실측: "[부고] 대한항공 전무 모친상",
+# "북한 무인항공기술발전 전시회", "원·달러 환율 … 항공 웃는다", "인천공항 바이오 화물".
+# 제목에 이런 말이 있으면 여행 기사거리가 아니다. 지명 뒤의 '군'(함양군)은 건드리지 않는다.
+_NOT_TRAVEL = re.compile(
+    r"\[부고\]|부고|별세|모친상|부친상|빙모상|빙부상|승진|인사\]|\[인사|영업이익|주가|주주|공시|"
+    r"실적 발표|채용|입찰|낙찰|북한|무인기|무인항공|항공우주|항공기술|항공화물|화물|방산|"
+    r"전투기|미사일|군수|개인정보 유출|해킹|검찰|경찰|구속|기소|고발|혐의|청문회|국정감사|국감")
+
+
+def is_not_travel(title: str) -> bool:
+    return bool(_NOT_TRAVEL.search(title or ""))
+
+
 # 여행업계면은 하루 100건이 넘게 들어온다(2026-10-15 129건). 지역면처럼 세 건만
 # 보여주면 고를 거리가 없다. 그리고 업계 기사는 매체마다 결이 다르다 — 여행신문·
 # 트래블데일리는 업계 취재가 중심이고, 투어코리아는 지자체 보도자료가 많이 섞인다.
-INDUSTRY_PICKS = 8
+# 2026-10-30 소스가 61 → 154개로 늘었다(사장님: "너가 기사를 다 찾아서 넣어야지"). 해설 기자가
+# 하루 여행 20편을 쓰려면 지역마다 다섯, 업계는 열 묶음은 보여 줘야 고를 거리가 있다.
+INDUSTRY_PICKS = 10
 SOURCE_RANK = {"여행신문": 0, "트래블데일리": 0, "트래비": 0,
                "트래블바이크뉴스": 1, "여행스케치": 1, "투어코리아": 2}
 
@@ -136,7 +152,7 @@ def already_written(items: list[dict]) -> set[str]:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=2)
-    ap.add_argument("--per-region", type=int, default=3)
+    ap.add_argument("--per-region", type=int, default=5)
     args = ap.parse_args()
 
     items = load(args.days)
@@ -151,6 +167,8 @@ def main() -> int:
             continue                      # 사건·사고는 싣지 않는다
         if is_exclusive(title):
             continue                      # 남의 단독 기사는 재료로 쓰지 않는다
+        if is_not_travel(title):
+            continue                      # 부고·인사·주가·군사 — 여행 기사거리가 아니다
         if row.get("channel") == "ent":
             ent_rows.append(row)          # 연예는 지역이 없다. 따로 묶는다
             continue
@@ -178,6 +196,7 @@ def main() -> int:
                     reverse=True)
         groups.sort(key=lambda g: (
             0 if any(is_korean_title(i.get("title")) for i in g) else 1,
+            0 if any((i.get("summary") or "").strip() for i in g) else 1,  # 요약 없는 것(원문 미해결)은 뒤로
             -len(g),
             min(SOURCE_RANK.get(i.get("source_name", ""), 1) for i in g)))
         # 이미 우리가 쓴 것과 겹치면 뺀다. 같은 걸 또 쓰는 것이 가장 나쁘다.
