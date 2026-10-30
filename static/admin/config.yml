@@ -29,8 +29,14 @@ collections:
     create: true
     slug: "{{year}}{{month}}{{day}}_{{slug}}"
     identifier_field: title
-    summary: "{{status}} · {{channel}} · {{region}}{{category}} · {{title}}"
-    sortable_fields: [title, channel, region, category, status]
+    # 목록 한 줄. 제목을 앞에 둔다 — 상태 설명이 길어 제목이 밀려났다(2026-10-30 사장님 화면).
+    summary: "{{title}}  ·  {{published_on}}"
+    # 최신 기사가 위로. 발행 전 원고는 발행일이 없어 맨 아래로 간다 — 위 필터 '작성중'·'발행대기'로 본다.
+    sortable_fields:
+      fields: [published_on, title, region, category, status]
+      default:
+        field: published_on
+        direction: descending
     view_filters:
       - { label: 작성중, field: status, pattern: draft }
       - { label: 발행대기, field: status, pattern: approved }
@@ -143,9 +149,12 @@ collections:
         widget: select
         default: draft
         options:
-          - { label: 작성중 (지면에 안 나감), value: draft }
-          - { label: 발행대기 (저장하면 몇 분 안에 나감), value: approved }
-          - { label: 발행됨 (고치면 몇 분 안에 지면도 바뀜), value: published }
+          - { label: 작성중, value: draft }
+          - { label: 발행대기, value: approved }
+          - { label: 발행됨, value: published }
+        hint: >-
+          작성중은 지면에 안 나갑니다. 발행대기로 저장하면 10분 안팎에 나갑니다.
+          발행됨 기사를 고쳐 저장하면 10분 안팎에 지면도 바뀝니다.
 
       - label: 대표 사진
         name: photo
