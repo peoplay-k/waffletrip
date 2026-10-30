@@ -820,7 +820,7 @@ sources:
     type: rss
     url: https://www.gtn.co.kr/rss/allArticle.xml
     lang: ko
-    enabled: true
+    enabled: false   # 2026-10-30 첫 실행 404 — 피드 주소가 다르다. 실물 주소를 확인하면 켠다
     curated: true
   # 한국관광신문(ktnbm.co.kr). 관광 정책·지자체 관광 소식이 많다. ndsoft CMS 패턴.
   - id: kr_ktnbm
@@ -1425,7 +1425,7 @@ sources:
     type: rss
     url: https://www.thestar.com.my/rss/Lifestyle/Travel
     lang: en
-    enabled: true
+    enabled: false   # 2026-10-30 첫 실행 404 — 피드 주소가 다르다. 실물 주소를 확인하면 켠다
     industry: false
     curated: false
   - id: gn_kota_ko2
