@@ -7,17 +7,19 @@ kind: 해설
 title: 베트남 자라이성 푸깟공항 제2활주로 개통, 마카오발 첫 국제 전세기 착륙
 source_name: ''
 source_url: ''
-summary: 베트남 중부 자라이성의 푸깟공항이 29일 제2활주로를 열고 마카오발 국제 전세기를 맞았다. 435일 공사에 3조2,450억 동이 들었고, 베트남 정부는 이 공항을 국제공항으로 키울 방침이다.
+summary: 베트남 중부 자라이성의 푸깟공항이 29일 제2활주로를 열고 마카오발 국제 전세기를 맞았다. 435일 공사에 3조2,450억 동이 들었고,
+  베트남 정부는 이 공항을 국제공항으로 키울 방침이다.
 sources:
-  - https://www.vietnam.vn/ko/gia-lai-khanh-thanh-duong-cat-ha-canh-so-2-cang-hang-khong-phu-cat
-  - https://www.vietnam.vn/ko/bamboo-airways-khai-truong-duong-bang-so-2-san-bay-phu-cat
-  - https://www.vietnam.vn/ko/duong-bang-san-bay-phu-cat-truoc-ngay-khanh-thanh
-  - https://www.vietnam.vn/ko/gia-lai-khanh-thanh-duong-bang-so-2-san-bay-phu-cat-va-don-chuyen-bay-quoc-te
-  - https://www.vietnam.vn/ko/pho-thu-tuong-ho-quoc-dung-som-dua-phu-cat-tro-thanh-cang-hang-khong-quoc-te
-  - https://www.vietnam.vn/ko/khai-thac-duong-bang-so-2-san-bay-phu-cat-cu-hich-cho-du-lich-gia-lai-cat-canh
-status: approved
+- https://www.vietnam.vn/ko/gia-lai-khanh-thanh-duong-cat-ha-canh-so-2-cang-hang-khong-phu-cat
+- https://www.vietnam.vn/ko/bamboo-airways-khai-truong-duong-bang-so-2-san-bay-phu-cat
+- https://www.vietnam.vn/ko/duong-bang-san-bay-phu-cat-truoc-ngay-khanh-thanh
+- https://www.vietnam.vn/ko/gia-lai-khanh-thanh-duong-bang-so-2-san-bay-phu-cat-va-don-chuyen-bay-quoc-te
+- https://www.vietnam.vn/ko/pho-thu-tuong-ho-quoc-dung-som-dua-phu-cat-tro-thanh-cang-hang-khong-quoc-te
+- https://www.vietnam.vn/ko/khai-thac-duong-bang-so-2-san-bay-phu-cat-cu-hich-cho-du-lich-gia-lai-cat-canh
+status: published
+published_id: c-f8ff4e3797e7b73a5603b0f6c35788e7b21470f3
+published_on: '2026-10-31'
 ---
-
 베트남 중부 자라이성의 푸깟공항이 두 번째 활주로를 열었다. 개통 첫날 마카오에서 출발한 국제 전세기가 새 활주로에 내렸고, 베트남 정부는 이 공항을 국제공항으로 키우겠다는 계획을 내놨다.
 
 자라이성 인민위원회는 29일 오후 푸깟공항 제2활주로와 관련 시설 건설 사업 준공식을 열었다. 공사는 435일 동안 이어졌고, 총 3조2,450억 동이 투입됐다. 활주로와 관련 기술 기반 시설 공사가 끝나 상업 항공편을 받을 준비를 마쳤다.

@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS 'AI 드라마 - 부활수업' 스피노자 편, 1672년 학살의 밤에 켠 카메라"
+title: EBS 'AI 드라마 - 부활수업' 스피노자 편, 1672년 학살의 밤에 켠 카메라
 source_name: ''
 source_url: ''
-summary: EBS 'AI 드라마 - 부활수업'이 11월 1일 밤 11시 '바뤼흐 데 스피노자' 편을 방송한다. 더빗 형제가 살해된 1672년 8월 20일 밤, 잠긴 하숙집 방에서 카메라를 켠 스피노자가 감정에 휘둘리는 현대인에게 상담을 건넨다.
+summary: EBS 'AI 드라마 - 부활수업'이 11월 1일 밤 11시 '바뤼흐 데 스피노자' 편을 방송한다. 더빗 형제가 살해된 1672년
+  8월 20일 밤, 잠긴 하숙집 방에서 카메라를 켠 스피노자가 감정에 휘둘리는 현대인에게 상담을 건넨다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005574136
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005574136
+status: published
+published_id: c-6892b16b048c9d081c0ced660fa2d006238d6978
+published_on: '2026-10-31'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · AI 드라마 - 부활수업 | 회차 · 철학자들의 인생상담 '바뤼흐 데 스피노자' 편
