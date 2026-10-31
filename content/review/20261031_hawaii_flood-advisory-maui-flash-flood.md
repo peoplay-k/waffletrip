@@ -10,10 +10,11 @@ source_url: ''
 summary: 하와이섬에 홍수주의보가, 마우이에는 돌발홍수경보가 이어지고 있다. 하와이섬 하마쿠아 해안에는 비가 이어지고 있으며, 날씨는 목·금요일
   무렵 개선되고 주말에는 무역풍이 돌아올 것으로 보인다.
 sources:
-  - https://www.hawaiinewsnow.com/2026/10/30/first-alert-weather-day-hawaii-island-east-maui-under-flash-flood-warning/
-  - https://www.hawaiinewsnow.com/2026/10/30/first-alert-forecast-flood-advisory-hawaii-islands-hamakua-coast/
-  - https://www.hawaiinewsnow.com/2026/10/29/first-alert-forecast-juicy-disturbance-slowly-moving-away-state-few-lingering-showers-expected-through-tonight/
-status: approved
+- https://www.hawaiinewsnow.com/2026/10/30/first-alert-weather-day-hawaii-island-east-maui-under-flash-flood-warning/
+- https://www.hawaiinewsnow.com/2026/10/30/first-alert-forecast-flood-advisory-hawaii-islands-hamakua-coast/
+- https://www.hawaiinewsnow.com/2026/10/29/first-alert-forecast-juicy-disturbance-slowly-moving-away-state-few-lingering-showers-expected-through-tonight/
+status: duplicate
+duplicate_of: 20261030_hawaii_maui-flood-hana-highway-closed.md
 ---
 하와이섬과 마우이에 비 소식이 이어지고 있다. 하와이섬에는 홍수주의보가, 마우이 동부에는 돌발홍수경보가 발효됐다.
 

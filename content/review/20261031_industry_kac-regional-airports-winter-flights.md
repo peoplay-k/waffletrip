@@ -7,13 +7,15 @@ kind: 보도자료
 title: 한국공항공사, 지방공항 14곳 동계 국제선 11.6% 늘린다
 source_name: ''
 source_url: ''
-summary: 한국공항공사가 이달부터 내년 3월까지 전국 14개 공항의 국제선 운항을 11.6% 늘린다. 국토교통부가 확정한 동계 정기 항공편
-  일정에 따른 것으로, 일본·중국 노선이 중심이다.
+summary: 한국공항공사가 이달부터 내년 3월까지 전국 14개 공항의 국제선 운항을 11.6% 늘린다. 국토교통부가 확정한 동계 정기 항공편 일정에
+  따른 것으로, 일본·중국 노선이 중심이다.
 sources:
-  - https://www.segye.com/newsView/20261029508541
-  - https://marketin.edaily.co.kr/News/ReadE?newsId=01433366645616528
-  - https://www.kyeonggi.com/article/20261028580345
-status: approved
+- https://www.segye.com/newsView/20261029508541
+- https://marketin.edaily.co.kr/News/ReadE?newsId=01433366645616528
+- https://www.kyeonggi.com/article/20261028580345
+status: published
+published_id: c-5113adf69bc73c2d82b4693e78a9c310204b6393
+published_on: '2026-10-31'
 ---
 지방공항에서 떠나는 국제선 비행기가 이번 겨울 늘어난다. 한국공항공사가 전국 14개 공항의 국제선 운항을 11.6% 확대한다.
 

@@ -11,8 +11,9 @@ source_url: ''
 summary: KBS2 '너 말고 다른 연애' 13회가 10월 31일 밤 9시 20분 방송된다. 남궁과 미도가 남은 한 달까지 끝까지 가보기로 하고,
   태승과 수아도 되돌릴 수 없을 만큼 마음이 깊어진다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/loveotherthanyours
-status: approved
+- https://program.kbs.co.kr/2tv/drama/loveotherthanyours
+status: duplicate
+duplicate_of: 20261025_tv_kbs-loveotheryours-12.md
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 너 말고 다른 연애 | 회차 · 13회

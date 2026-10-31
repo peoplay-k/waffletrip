@@ -9,8 +9,10 @@ source_name: ''
 source_url: ''
 summary: 미국 국토안보부가 북마리아나 제도의 중국인 무비자 입국을 중단했다. 출산관광과 인신매매가 자행되고 있다는 의혹이 근거다.
 sources:
-  - https://www.newsis.com/view/NISX20261028_0003843750
-status: approved
+- https://www.newsis.com/view/NISX20261028_0003843750
+status: published
+published_id: c-287617e9a3ddcb81f8bf45400e2e196ca61d9df8
+published_on: '2026-10-31'
 ---
 미국 정부가 북마리아나 제도에서 중국인 관광객의 무비자 입국을 중단했다. 출산관광과 인신매매가 자행되고 있다는 의혹이 제기된 데 따른 조치다.
 

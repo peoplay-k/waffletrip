@@ -10,9 +10,11 @@ source_url: ''
 summary: 부산관광공사가 남해군, 남해관광문화재단과 업무협약을 맺고 부산~남해를 하나의 관광권역으로 묶는 초광역 관광벨트를 구축한다. 도시관광과
   힐링관광을 연결해 국내외 관광객 유치에 나선다.
 sources:
-  - https://www.wbcb.co.kr/news/articleView.html?idxno=107279
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72504
-status: approved
+- https://www.wbcb.co.kr/news/articleView.html?idxno=107279
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72504
+status: published
+published_id: c-62c59956601a0354d25e2d353659ecfdcb6cd448
+published_on: '2026-10-31'
 ---
 부산과 경남 남해가 하나의 관광권역으로 묶인다. 부산관광공사가 남해군, 남해관광문화재단과 손잡고 '부산-남해 초광역 관광 활성화 및 지역 상생발전을 위한 3자 업무협약(MOU)'을 맺었다.
 

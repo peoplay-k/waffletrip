@@ -10,10 +10,12 @@ source_url: ''
 summary: 베트남 다낭시 지시에 따라 호이안 구청이 관광객의 의견과 불만을 접수해 24시간 안에 처리하는 핫라인을 공식 발표했다. 문화 활동과
   상업 서비스, 관광 관련 사안을 모두 접수한다.
 sources:
-  - https://www.vietnam.vn/ko/hoi-an-se-cong-bo-duong-day-nong-tiep-nhan-phan-anh-cua-du-khach
-  - https://www.vietnam.vn/ko/hoi-an-cong-bo-duong-day-nong-ho-tro-du-khach
-  - https://www.vietnam.vn/ko/hoi-an-cong-bo-so-dien-thoai-tiep-nhan-phan-anh-cua-du-khach
-status: approved
+- https://www.vietnam.vn/ko/hoi-an-se-cong-bo-duong-day-nong-tiep-nhan-phan-anh-cua-du-khach
+- https://www.vietnam.vn/ko/hoi-an-cong-bo-duong-day-nong-ho-tro-du-khach
+- https://www.vietnam.vn/ko/hoi-an-cong-bo-so-dien-thoai-tiep-nhan-phan-anh-cua-du-khach
+status: published
+published_id: c-c062c1bc0ca5028c4bb70249207d308572ee19f6
+published_on: '2026-10-31'
 ---
 베트남 호이안을 찾는 관광객이 불만이나 의견을 접수할 수 있는 공식 핫라인이 생겼다. 접수된 내용은 24시간 안에 처리하는 것이 원칙이다.
 

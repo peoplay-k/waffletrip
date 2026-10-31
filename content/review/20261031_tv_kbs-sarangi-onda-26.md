@@ -11,8 +11,9 @@ source_url: ''
 summary: KBS2 주말드라마 '사랑이 온다'가 10월 31일 밤 8시 26회를 방송한다. 예기치 못한 위기를 겪는 무진을 규림이 지키려 애쓰고,
   규영과 규서에게도 뜻하지 않은 일이 벌어진다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/loveonthemenu
-status: approved
+- https://program.kbs.co.kr/2tv/drama/loveonthemenu
+status: duplicate
+duplicate_of: 20261025_tv_kbs-sarangi-onda-25.md
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 26회

@@ -11,10 +11,12 @@ source_url: ''
 summary: 브래드 피트 주연 '하트 오브 비스트'가 개봉 2일 차인 10월 29일 박스오피스 1위에 올랐다. 하루 2만1,474명을 동원하며
   극장판 '치이카와'의 장기 집권을 끝냈다.
 sources:
-  - https://www.bntnews.co.kr/article/view/bnt202610300040
-  - https://www.chosun.com/entertainments/2026/10/30/33D67LIYBREFJCZMQWJ25WAFFQ/
-  - https://www.econovill.com/news/articleView.html?idxno=755465
-status: approved
+- https://www.bntnews.co.kr/article/view/bnt202610300040
+- https://www.chosun.com/entertainments/2026/10/30/33D67LIYBREFJCZMQWJ25WAFFQ/
+- https://www.econovill.com/news/articleView.html?idxno=755465
+status: published
+published_id: c-d8ac340a200c3f3a814bccd61d193f6c42f3a976
+published_on: '2026-10-31'
 ---
 브래드 피트 주연 '하트 오브 비스트'가 개봉 2일 차에 전체 박스오피스 1위에 올랐다. 그동안 1위를 지켜 온 극장판 '치이카와'의 장기 집권이 끝났다.
 
