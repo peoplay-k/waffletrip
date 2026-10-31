@@ -4,19 +4,20 @@ channel: travel
 region: industry
 section: flight
 kind: 해설
-title: "청주공항, 겨울철 국제선 21개 노선 운항…샤먼 직항 처음 개설"
+title: 청주공항, 겨울철 국제선 21개 노선 운항…샤먼 직항 처음 개설
 source_name: ''
 source_url: ''
-summary: 청주국제공항이 동계 기간 하루 운항 가능 횟수를 최대 25% 늘리고 국제선 5개국 21개 노선을 운항한다. 중국 샤먼 직항이 처음 열린다.
+summary: 청주국제공항이 동계 기간 하루 운항 가능 횟수를 최대 25% 늘리고 국제선 5개국 21개 노선을 운항한다. 중국 샤먼 직항이 처음
+  열린다.
 sources:
-  - https://www.newspim.com/news/view/20261026000376
-  - https://www.chookjenews.kr/news/articleView.html?idxno=83538
-  - https://www.ytn.co.kr/_ln/0115_202610291138382317
-  - https://www.news2day.co.kr/article/20261026500271
-  - https://www.goodmorningcc.com/news/articleView.html?idxno=454639
-status: approved
+- https://www.newspim.com/news/view/20261026000376
+- https://www.chookjenews.kr/news/articleView.html?idxno=83538
+- https://www.ytn.co.kr/_ln/0115_202610291138382317
+- https://www.news2day.co.kr/article/20261026500271
+- https://www.goodmorningcc.com/news/articleView.html?idxno=454639
+status: duplicate
+duplicate_of: 20261030_industry_xiamen-routes-eastar-cheongju.md
 ---
-
 청주국제공항이 이번 겨울 국제선 5개국 21개 노선을 운항한다. 하루 운항 가능 횟수가 늘어난 덕에 항공사들이 신규 노선을 열 여력이 커졌고, 중국 샤먼 직항이 처음 생긴다.
 
 충북도는 26일 국토교통부가 확정한 2026년 동계 정기 항공편 일정에 따라 청주공항의 겨울철 운항 여력이 하계 대비 최대 25% 늘었다고 밝혔다. 동계 기간은 지난 25일부터 내년 3월 27일까지다. 시간당 항공기 운항 가능 횟수를 뜻하는 슬롯 총량이 확대되면서 하루 운항 가능 횟수는 평일 149회, 주말 180회가 됐다.

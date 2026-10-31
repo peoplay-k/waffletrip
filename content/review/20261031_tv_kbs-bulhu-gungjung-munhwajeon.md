@@ -5,15 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS2 '불후의 명곡' 궁중문화축전 특집, 31일 후반부 방송"
+title: KBS2 '불후의 명곡' 궁중문화축전 특집, 31일 후반부 방송
 source_name: ''
 source_url: ''
-summary: KBS2 '불후의 명곡'이 31일 오후 6시 5분 '2026 궁중문화축전 - 궁, 예술을 깨우다' 특집 후반부를 방송한다. 24일에 이은 2부작이다.
+summary: KBS2 '불후의 명곡'이 31일 오후 6시 5분 '2026 궁중문화축전 - 궁, 예술을 깨우다' 특집 후반부를 방송한다. 24일에
+  이은 2부작이다.
 sources:
-  - https://program.kbs.co.kr/2tv/enter/satfreedom
-status: approved
+- https://program.kbs.co.kr/2tv/enter/satfreedom
+status: duplicate
+duplicate_of: 20261024_tv_kbs-bulhu-gungjung.md
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 불후의 명곡 | 특집 · 2026 궁중문화축전 - 궁, 예술을 깨우다
 > 방송 · 2026년 10월 31일(토) 오후 6시 5분
