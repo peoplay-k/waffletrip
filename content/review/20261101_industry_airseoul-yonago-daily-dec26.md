@@ -4,19 +4,21 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "에어서울, 인천∼요나고 노선 12월 26일부터 매일 운항"
+title: 에어서울, 인천∼요나고 노선 12월 26일부터 매일 운항
 source_name: ''
 source_url: ''
-summary: 에어서울이 인천-돗토리·요나고 노선 취항 10주년을 맞아 12월 26일부터 주 7회 매일 운항으로 늘린다. 회사는 최근 평균 탑승률이 90%를 웃돈다고 밝혔다.
+summary: 에어서울이 인천-돗토리·요나고 노선 취항 10주년을 맞아 12월 26일부터 주 7회 매일 운항으로 늘린다. 회사는 최근 평균 탑승률이
+  90%를 웃돈다고 밝혔다.
 sources:
-  - https://www.ajunews.com/view/20261030174052413
-  - https://thetravelnews.co.kr/2026/10/air-seoul-incheon-yonago-daily-flights-december-2026/
-  - https://www.thevaluenews.co.kr/news/202847
-  - https://www.news1.kr/industry/general-industry/6331415
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72471
-status: approved
+- https://www.ajunews.com/view/20261030174052413
+- https://thetravelnews.co.kr/2026/10/air-seoul-incheon-yonago-daily-flights-december-2026/
+- https://www.thevaluenews.co.kr/news/202847
+- https://www.news1.kr/industry/general-industry/6331415
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72471
+status: published
+published_id: c-0ad1c417d1c3fa8b7a7ac3e72caa03ee1b2834bb
+published_on: '2026-11-01'
 ---
-
 에어서울이 인천과 일본 돗토리현 요나고를 잇는 노선을 12월 26일부터 매일 띄운다. 취항 10주년에 맞춰 주 7회 체제로 바꾸는 것으로, 소도시 일본 노선의 수요가 받쳐 준 결과다.
 
 에어서울은 인천-돗토리·요나고 노선의 취항 10주년을 기념해 12월 26일부터 운항 횟수를 주 7회로 늘린다고 밝혔다.

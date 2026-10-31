@@ -4,21 +4,23 @@ channel: travel
 region: korea
 section: news
 kind: 보도자료
-title: "울릉군, 11월 2일부터 4개월간 주요 관광시설 6곳 무료 개방"
+title: 울릉군, 11월 2일부터 4개월간 주요 관광시설 6곳 무료 개방
 source_name: ''
 source_url: ''
-summary: 울릉군이 동절기 관광객을 끌기 위해 11월 2일부터 2027년 2월 28일까지 케이블카와 모노레일 등 주요 유료 관광시설 6곳을 무료로 개방한다. 여객선 운임 지원에 이은 비수기 대책이다.
+summary: 울릉군이 동절기 관광객을 끌기 위해 11월 2일부터 2027년 2월 28일까지 케이블카와 모노레일 등 주요 유료 관광시설 6곳을 무료로
+  개방한다. 여객선 운임 지원에 이은 비수기 대책이다.
 sources:
-  - https://www.cnbnews.com/news/articleView.html?idxno=1021707
-  - https://www.mhns.co.kr/news/articleView.html?idxno=766763
-  - https://www.kyongbuk.co.kr/news/articleView.html?idxno=4089086
-  - https://www.getnews.co.kr/news/articleView.html?idxno=885330
-  - https://www.newscj.com/news/articleView.html?idxno=3444431
-  - https://www.sedaily.com/article/20106825
-  - http://www.financialreview.co.kr/news/articleView.html?idxno=45953
-status: approved
+- https://www.cnbnews.com/news/articleView.html?idxno=1021707
+- https://www.mhns.co.kr/news/articleView.html?idxno=766763
+- https://www.kyongbuk.co.kr/news/articleView.html?idxno=4089086
+- https://www.getnews.co.kr/news/articleView.html?idxno=885330
+- https://www.newscj.com/news/articleView.html?idxno=3444431
+- https://www.sedaily.com/article/20106825
+- http://www.financialreview.co.kr/news/articleView.html?idxno=45953
+status: published
+published_id: c-491d393cba8834f2b5f6a9f374cbe92210cd06c0
+published_on: '2026-11-01'
 ---
-
 울릉도를 겨울에 찾는 여행자는 케이블카와 모노레일을 무료로 탈 수 있다. 울릉군이 비수기 관광객을 늘리기 위해 대표 유료 관광시설 6곳을 4개월 동안 문 열어 두기로 했다.
 
 울릉군은 동절기 관광객 유치와 지역경제 활성화를 위해 11월 2일부터 2027년 2월 28일까지 주요 관광시설 6곳을 무료로 개방한다고 밝혔다. 울릉도 여행의 대표 시설로 꼽히는 케이블카와 모노레일이 여기에 들어간다.
