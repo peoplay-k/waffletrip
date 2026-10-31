@@ -12,8 +12,7 @@ summary: KBS1 '이슈 픽 쌤과 함께' 302회가 1일 저녁 7시 10분 '암 �
   이현숙 교수가 개인맞춤형 mRNA 암 백신의 엇갈린 임상 결과를 짚는다.
 sources:
 - https://program.kbs.co.kr/1tv/culture/ssam
-status: duplicate
-duplicate_of: 20261025_tv_kbs-ssam-301-glacier.md
+status: approved
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 이슈 픽 쌤과 함께 | 회차 · 302회

@@ -12,8 +12,7 @@ summary: KBS2 '너 말고 다른 연애'가 11월 1일 밤 9시 20분 14회로 �
   수아가 각자의 진심을 마주한다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/loveotherthanyours
-status: duplicate
-duplicate_of: 20261025_tv_kbs-loveotheryours-12.md
+status: approved
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 너 말고 다른 연애 | 회차 · 14회(마지막회)

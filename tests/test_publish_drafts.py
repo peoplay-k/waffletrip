@@ -211,3 +211,26 @@ def test_같은_근거로_이미_낸_기사가_있으면_내보내지_않는다(
         n="b", t="지식채널e 26~28일 다시", st="approved", extra=""), encoding="utf-8")
     used = pd.already_used_sources(str(review), "2026-10-26")
     assert used == {"https://about.ebs.co.kr/x?postId=1": "20261025_tv_a.md"}
+
+
+def test_방송_프로그램_첫_화면은_같은_근거로_세지_않는다(tmp_path):
+    """KBS 는 회차마다 근거가 프로그램 첫 화면 하나다. 47회를 냈다고 48회를 막으면 안 된다.
+
+    2026-11-01 실측: '쌤과 함께' 302회가 301회의 중복으로, 같은 식으로 KBS 회차 기사 10편이
+    10-29~11-01 사이 지면에 못 나갔다. 보도자료 주소(postId 등)는 여전히 막는다.
+    """
+    import src.publish_drafts as pd
+    review = tmp_path / "review"
+    review.mkdir()
+    head = "---\nid: art-ent-tv-{n}\nchannel: ent\nregion: ''\ncategory: tv\nsection: news\n" \
+           "kind: 보도자료\ntitle: '{t}'\nsource_name: ''\nsource_url: ''\nsummary: 요약.\n" \
+           "sources:\n{src}status: published\npublished_on: '2026-10-25'\n---\n본문 문장이다.\n"
+    (review / "20261025_tv_ssam301.md").write_text(head.format(
+        n="a", t="쌤과 함께 301회", src="  - https://program.kbs.co.kr/1tv/culture/ssam\n"), encoding="utf-8")
+    (review / "20261025_tv_ebs.md").write_text(head.format(
+        n="b", t="지식채널e", src="  - https://about.ebs.co.kr/x?postId=1\n"), encoding="utf-8")
+    used = pd.already_used_sources(str(review), "2026-11-01")
+    assert "https://program.kbs.co.kr/1tv/culture/ssam" not in used
+    assert used == {"https://about.ebs.co.kr/x?postId=1": "20261025_tv_ebs.md"}
+    # 기사 주소처럼 더 깊은 주소는 첫 화면이 아니다
+    assert pd._dedupe_keys({"sources": ["https://program.kbs.co.kr/1tv/culture/ssam/view?ep=302"]})

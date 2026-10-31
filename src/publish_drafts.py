@@ -20,6 +20,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import sys
 from datetime import date as _date, datetime, timedelta, timezone
 
@@ -198,6 +199,18 @@ def _sources(front: dict) -> set[str]:
     return {str(u).strip() for u in (src if isinstance(src, list) else [src]) if str(u).strip()}
 
 
+# 회차와 상관없이 늘 같은 주소 — 방송 프로그램 첫 화면(program.kbs.co.kr/2tv/drama/yokmang).
+# KBS 는 회차 보도자료를 따로 두지 않아 회차 기사의 근거가 이 주소 하나다. 이걸 '같은 근거'로
+# 세면 47회를 낸 뒤 48회가 막힌다 — 2026-10-29~11-01 KBS 회차 기사 10편이 중복으로 묶여
+# 지면에 못 나갔다(쌤과 함께 302회 ← 301회, 욕망의 덫 48회 ← 47회 …). 중복 판단에서 뺀다.
+_PROGRAM_HOME = re.compile(r"^https?://program\.kbs\.co\.kr/[^/?#]+/[^/?#]+/[^/?#]+/?\)?$")
+
+
+def _dedupe_keys(front: dict) -> set[str]:
+    """같은 근거를 다시 쓰는지 볼 때 쓰는 주소 — 프로그램 첫 화면은 뺀다."""
+    return {u for u in _sources(front) if not _PROGRAM_HOME.match(u)}
+
+
 def already_used_sources(review_dir: str, today: str, days: int = SAME_SOURCE_DAYS) -> dict[str, str]:
     """최근 days 일에 이미 낸 기사의 근거 주소 → 그 파일 이름.
 
@@ -213,7 +226,7 @@ def already_used_sources(review_dir: str, today: str, days: int = SAME_SOURCE_DA
             continue
         front = _front(os.path.join(review_dir, name))
         if front.get("status") == "published" and str(front.get("published_on") or "") >= since:
-            for u in _sources(front):
+            for u in _dedupe_keys(front):
                 used.setdefault(u, name)
     return used
 
@@ -278,13 +291,13 @@ def main(data_dir: str = "data", review_dir: str = "content/review") -> int:
             continue
         front = _front(path)
         if front.get("status") == "approved":
-            same = [u for u in _sources(front) if u in used and used[u] != os.path.basename(path)]
+            same = [u for u in _dedupe_keys(front) if u in used and used[u] != os.path.basename(path)]
             if same:
                 print(f"  같은 근거로 이미 낸 기사가 있다, 내보내지 않는다: {os.path.basename(path)} "
                       f"← {used[same[0]]}")
                 _mark_duplicate(path, used[same[0]])
                 continue
-            for u in _sources(front):
+            for u in _dedupe_keys(front):
                 used.setdefault(u, os.path.basename(path))   # 같은 회차의 두 초안끼리도 막는다
         published.append((path, item))
 
