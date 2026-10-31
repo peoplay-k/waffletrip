@@ -12,7 +12,9 @@ summary: KBS2 주말드라마 '사랑이 온다'가 11월 1일 밤 8시 27회를
   예상 밖의 상황이 이어진다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/loveonthemenu
-status: approved
+status: published
+published_id: c-f5bd5d220a224f2fc098b714c5553ccfdcd30b1d
+published_on: '2026-11-01'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 27회
