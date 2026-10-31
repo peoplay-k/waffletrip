@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS2 '사랑이 온다' 27회, 가짜뉴스에 휘청이는 레스토랑을 지키려는 무진"
+title: KBS2 '사랑이 온다' 27회, 가짜뉴스에 휘청이는 레스토랑을 지키려는 무진
 source_name: ''
 source_url: ''
-summary: KBS2 주말드라마 '사랑이 온다'가 11월 1일 밤 8시 27회를 방송한다. 가짜뉴스로 위기에 빠진 레스토랑을 지키려는 무진 앞에 예상 밖의 상황이 이어진다.
+summary: KBS2 주말드라마 '사랑이 온다'가 11월 1일 밤 8시 27회를 방송한다. 가짜뉴스로 위기에 빠진 레스토랑을 지키려는 무진 앞에
+  예상 밖의 상황이 이어진다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/loveonthemenu
-status: approved
+- https://program.kbs.co.kr/2tv/drama/loveonthemenu
+status: duplicate
+duplicate_of: 20261025_tv_kbs-sarangi-onda-25.md
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 27회

@@ -4,17 +4,19 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "여수세계섬박람회, 50여 년 만에 '낭도 카니발' 재현…11월 1일까지"
+title: 여수세계섬박람회, 50여 년 만에 '낭도 카니발' 재현…11월 1일까지
 source_name: ''
 source_url: ''
-summary: 2026여수세계섬박람회 조직위원회가 낭도의 전통 변장 축제를 50여 년 만에 박람회장에서 재현한다. 31일과 11월 1일 이틀간 열리며, 박람회는 11월 4일 폐막한다.
+summary: 2026여수세계섬박람회 조직위원회가 낭도의 전통 변장 축제를 50여 년 만에 박람회장에서 재현한다. 31일과 11월 1일 이틀간 열리며,
+  박람회는 11월 4일 폐막한다.
 sources:
-  - https://www.mhns.co.kr/news/articleView.html?idxno=766870
-  - https://www.krcom.co.kr/news/articleView.html?idxno=256883
-  - https://www.ajunews.com/view/20261031100158813
-status: approved
+- https://www.mhns.co.kr/news/articleView.html?idxno=766870
+- https://www.krcom.co.kr/news/articleView.html?idxno=256883
+- https://www.ajunews.com/view/20261031100158813
+status: published
+published_id: c-ccc97123a2c05d9a7514e948baf7f12fcda0dc32
+published_on: '2026-11-01'
 ---
-
 전남 여수의 작은 섬 낭도에서 이어지던 전통 변장 축제 '낭도 카니발'이 50여 년 만에 모습을 되찾는다. 2026여수세계섬박람회 조직위원회는 박람회장에서 31일부터 11월 1일까지 이틀간 이 축제를 재현한다.
 
 조직위원회는 박람회장 주제섬과 해양생태섬 사이 잔디광장에서 '섬띵 스페셜' 프로그램의 하나로 행사를 연다고 밝혔다. 낭도 카니발은 여성이 남장을, 남성이 여장을 하고 가면을 쓴 채 한데 어울리던 섬마을 축제다. 오랫동안 끊겼던 행사를 박람회라는 큰 무대에서 다시 꺼내는 셈이다.

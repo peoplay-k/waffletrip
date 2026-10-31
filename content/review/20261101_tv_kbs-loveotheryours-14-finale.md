@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS2 '너 말고 다른 연애' 마지막회, 남궁·미도와 태승·수아의 선택"
+title: KBS2 '너 말고 다른 연애' 마지막회, 남궁·미도와 태승·수아의 선택
 source_name: ''
 source_url: ''
-summary: KBS2 '너 말고 다른 연애'가 11월 1일 밤 9시 20분 14회로 마무리된다. 엇갈린 끝에 다시 마주한 남궁과 미도, 태승과 수아가 각자의 진심을 마주한다.
+summary: KBS2 '너 말고 다른 연애'가 11월 1일 밤 9시 20분 14회로 마무리된다. 엇갈린 끝에 다시 마주한 남궁과 미도, 태승과
+  수아가 각자의 진심을 마주한다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/loveotherthanyours
-status: approved
+- https://program.kbs.co.kr/2tv/drama/loveotherthanyours
+status: duplicate
+duplicate_of: 20261025_tv_kbs-loveotheryours-12.md
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 너 말고 다른 연애 | 회차 · 14회(마지막회)

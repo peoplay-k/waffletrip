@@ -24,11 +24,6 @@
   - 중앙일보: 제주 오메기떡이 프렌치 슈와 접목하고, 흑돼지와 메밀은 프랑스식 크레프로 변신했다. 일본 오키나와의 땅콩 두부와 태국 푸켓의 매콤한 볶음요리도 한자리에 올랐다.
     https://www.joongang.co.kr/article/25474681
 
-### 허리케인 여파에 하와이 관광업계 직격탄…9월 관광수입 9% 감소
-- 매체 1곳 · KBFD
-  - KBFD: 잇따른 허리케인과 악천후가 하와이 관광산업에도 큰 타격을 준 것으로 나타났습니다. 지난 9월 하와이 방문객 지출이 지난해 같은 기간보다 9% 감소했고, 관광객들의 발길이 줄면서 식당과 소규모 사업체들도 매출 감소와 근무시간 단축 등 어려움을 겪고 있습니다.
-    https://kbfd.com/?p=25645
-
 ### First Alert Forecast: Light trades, few showers for Halloween
 - 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
   - Hawaii News Now: Today’s breezy trade winds will back down tonight through Sunday. Weather for trick or treating should be fine with a few passing showers, mainly windward and m
@@ -335,7 +330,7 @@
     https://www.yna.co.kr/view/AKR20261031020400005
 
 ---
-거리 55건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 54건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 방송 재료 — (2026-11-01)

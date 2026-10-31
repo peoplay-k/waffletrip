@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'역사스페셜 시간여행자' 43회, 케플러보다 나흘 빨랐던 조선의 초신성 관측"
+title: '''역사스페셜 시간여행자'' 43회, 케플러보다 나흘 빨랐던 조선의 초신성 관측'
 source_name: ''
 source_url: ''
-summary: KBS1 '역사스페셜 시간여행자'가 11월 1일 밤 9시 30분 '역사를 바꾼 과학기술 3부작' 마지막 편 '하늘을 읽다'를 방송한다. 조선의 초신성 기록과 세종의 역법, 복원된 자격루를 다룬다.
+summary: KBS1 '역사스페셜 시간여행자'가 11월 1일 밤 9시 30분 '역사를 바꾼 과학기술 3부작' 마지막 편 '하늘을 읽다'를 방송한다.
+  조선의 초신성 기록과 세종의 역법, 복원된 자격루를 다룬다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/newhistoryspecial
-status: approved
+- https://program.kbs.co.kr/1tv/culture/newhistoryspecial
+status: published
+published_id: c-80944186c38ea4203236f9212800a84e21818845
+published_on: '2026-11-01'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 역사스페셜 시간여행자 | 회차 · 43회
