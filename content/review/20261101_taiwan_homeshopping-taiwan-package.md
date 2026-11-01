@@ -4,15 +4,18 @@ channel: travel
 region: taiwan
 section: news
 kind: 보도자료
-title: "홈앤쇼핑, 참좋은여행과 쇼핑·옵션 뺀 '대만 4·5일' 패키지 방송"
+title: 홈앤쇼핑, 참좋은여행과 쇼핑·옵션 뺀 '대만 4·5일' 패키지 방송
 source_name: ''
 source_url: ''
-summary: 홈앤쇼핑이 참좋은여행과 함께 기획한 대만 4일·5일 패키지를 11월 1일 오후 5시 20분 방송한다. 팁·선택관광·쇼핑을 없애고 양명산 국립공원과 티엔라이 노천온천 코스를 더했다.
+summary: 홈앤쇼핑이 참좋은여행과 함께 기획한 대만 4일·5일 패키지를 11월 1일 오후 5시 20분 방송한다. 팁·선택관광·쇼핑을 없애고 양명산
+  국립공원과 티엔라이 노천온천 코스를 더했다.
 sources:
-  - https://www.popcornnews.net/news/articleView.html?idxno=138042
-  - https://www.newsis.com/view/NISX20261030_0003848561
-  - https://www.nanumy.co.kr/news/articleView.html?idxno=4011173
-status: approved
+- https://www.popcornnews.net/news/articleView.html?idxno=138042
+- https://www.newsis.com/view/NISX20261030_0003848561
+- https://www.nanumy.co.kr/news/articleView.html?idxno=4011173
+status: published
+published_id: c-b5d218623fb0f19e290e7be35ef1cc9523ff9cbf
+published_on: '2026-11-01'
 ---
 홈앤쇼핑이 대만 여행 성수기인 가을·겨울에 맞춰 팁과 선택관광, 쇼핑을 뺀 대만 패키지를 선보인다. 양명산 국립공원과 티엔라이 노천온천 코스를 더해 온천 여행 수요를 겨냥했다.
 

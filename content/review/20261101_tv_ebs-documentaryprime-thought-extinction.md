@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '다큐프라임' 생각의 멸종 1부, AI에 맡긴 읽기·쓰기와 성적 하락"
+title: EBS '다큐프라임' 생각의 멸종 1부, AI에 맡긴 읽기·쓰기와 성적 하락
 source_name: ''
 source_url: ''
-summary: EBS1 '다큐프라임 - 생각의 멸종' 1부 '정답만 남은 교실'이 11월 2일 밤 9시 55분 방송된다. PISA 2025 결과와 교실 관찰 실험으로 AI 의존이 학습에 미치는 영향을 짚는다.
+summary: EBS1 '다큐프라임 - 생각의 멸종' 1부 '정답만 남은 교실'이 11월 2일 밤 9시 55분 방송된다. PISA 2025 결과와
+  교실 관찰 실험으로 AI 의존이 학습에 미치는 영향을 짚는다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005585189
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005585189
+status: published
+published_id: c-bf62b2b805f25ec32d9d25ae834448ad91e8872c
+published_on: '2026-11-01'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 다큐프라임 - 생각의 멸종 | 회차 · 1부(3부작)
