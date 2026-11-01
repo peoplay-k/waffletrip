@@ -8,13 +8,14 @@ kind: 보도자료
 title: EBS '한국기행' 함안 대장장이 김정용, '우리 동네 슈퍼스타' 1부
 source_name: ''
 source_url: ''
-summary: EBS '한국기행'이 11월 2일부터 닷새간 '우리 동네 슈퍼스타'를 방송한다. 2일 방송되는 1부는 경남 함안 가야전통시장에서
-  칼과 농기구를 벼리는 전직 경찰관 출신 대장장이 김정용 씨를 만난다.
+summary: EBS '한국기행'이 11월 2일부터 닷새간 '우리 동네 슈퍼스타'를 방송한다. 2일 방송되는 1부는 경남 함안 가야전통시장에서 칼과
+  농기구를 벼리는 전직 경찰관 출신 대장장이 김정용 씨를 만난다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581098
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581098
+status: published
+published_id: c-e9af423d6c19c2ee35b94f9bc2abda57d761a908
+published_on: '2026-11-01'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 한국기행 | 편성 · 우리 동네 슈퍼스타(5부작)
 > 방송 · 2026년 11월 2일(월)~6일(금) 밤 9시 35분

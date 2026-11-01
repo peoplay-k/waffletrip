@@ -8,13 +8,14 @@ kind: 보도자료
 title: 임영웅 공연 영화 '아임 히어로 더 스타디움 2', 전국 CGV 스크린엑스로도
 source_name: ''
 source_url: ''
-summary: 가수 임영웅의 공연 실황 영화 '아임 히어로 더 스타디움 2'가 전국 CGV 스크린엑스 상영을 확정했다. 소속사 물고기뮤직이
-  공식 SNS로 밝혔으며, 11월 18일 개봉한다.
+summary: 가수 임영웅의 공연 실황 영화 '아임 히어로 더 스타디움 2'가 전국 CGV 스크린엑스 상영을 확정했다. 소속사 물고기뮤직이 공식
+  SNS로 밝혔으며, 11월 18일 개봉한다.
 sources:
-  - https://www.specialtimes.co.kr/news/articleView.html?idxno=480604
-status: approved
+- https://www.specialtimes.co.kr/news/articleView.html?idxno=480604
+status: published
+published_id: c-ff6f079d4287e4f5ed9b51b86e469b73ef0e27cf
+published_on: '2026-11-01'
 ---
-
 가수 임영웅의 공연 실황을 담은 영화 '아임 히어로 더 스타디움 2'가 전국 CGV에서 스크린엑스 상영도 함께 열린다. 11월 18일 개봉한다.
 
 소속사 물고기뮤직은 공식 SNS를 통해 이 영화의 전국 CGV 스크린엑스 상영을 확정했다고 밝혔다. 일반 상영관 개봉과 함께 스크린엑스관도 갖춰, 관객이 상영 방식을 골라 볼 수 있게 됐다.

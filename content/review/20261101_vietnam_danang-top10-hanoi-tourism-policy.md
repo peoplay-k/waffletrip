@@ -7,14 +7,15 @@ kind: 해설
 title: 다낭 세계 인기 여행지 10위권 진입…하노이는 관광 육성 드라이브
 source_name: ''
 source_url: ''
-summary: 베트남 다낭이 항공편 검색량 급증에 힘입어 세계 인기 여행지 7위에 올랐다. 수도 하노이는 정치국 결의로 관광을 핵심 경제
-  부문으로 키우는 정책 방향을 세웠다.
+summary: 베트남 다낭이 항공편 검색량 급증에 힘입어 세계 인기 여행지 7위에 올랐다. 수도 하노이는 정치국 결의로 관광을 핵심 경제 부문으로
+  키우는 정책 방향을 세웠다.
 sources:
-  - https://www.vietnam.vn/ko/da-nang-lot-top-10-diem-den-xu-huong-the-gioi
-  - https://www.vietnam.vn/ko/quyet-tam-dua-du-lich-ha-noi-cat-canh
-status: approved
+- https://www.vietnam.vn/ko/da-nang-lot-top-10-diem-den-xu-huong-the-gioi
+- https://www.vietnam.vn/ko/quyet-tam-dua-du-lich-ha-noi-cat-canh
+status: published
+published_id: c-cdb5ce2a501c6d03dc2c5a45f978366a519bc039
+published_on: '2026-11-01'
 ---
-
 베트남 다낭이 세계에서 가장 인기 있는 여행지 10위권에 올랐다. 수도 하노이는 관광을 핵심 경제 부문으로 키우는 정책 방향을 세웠다.
 
 다낭은 최근 집계에서 항공편 검색량이 전년 동기 대비 68% 늘어 세계 인기 여행지 7위에 올랐다. 이 순위에 이름을 올린 동남아시아 목적지는 다낭이 유일하다. 항공편 검색량이 늘었다는 것은 그만큼 다낭행 노선을 찾는 여행 수요도 함께 커지고 있다는 뜻으로 풀이된다.

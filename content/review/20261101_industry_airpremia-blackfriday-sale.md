@@ -7,15 +7,16 @@ kind: 보도자료
 title: 에어프레미아, 인천 출발 전 노선 블랙프라이데이 할인
 source_name: ''
 source_url: ''
-summary: 에어프레미아가 인천 출발 전 노선을 대상으로 블랙프라이데이 할인 프로모션을 11월 2일부터 15일까지 연다. 노선과 일정에
-  따라 차등 할인 운임이 적용되며 선착순 특가도 포함된다.
+summary: 에어프레미아가 인천 출발 전 노선을 대상으로 블랙프라이데이 할인 프로모션을 11월 2일부터 15일까지 연다. 노선과 일정에 따라 차등
+  할인 운임이 적용되며 선착순 특가도 포함된다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72518
-  - http://www.enewstoday.co.kr/news/articleView.html?idxno=2486473
-  - https://www.dailian.co.kr/news/view/1708669/
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72518
+- http://www.enewstoday.co.kr/news/articleView.html?idxno=2486473
+- https://www.dailian.co.kr/news/view/1708669/
+status: published
+published_id: c-3d495b109193dbf636108e7b4822737f723d03c0
+published_on: '2026-11-01'
 ---
-
 에어프레미아가 인천 출발 전 노선을 대상으로 블랙프라이데이 할인 프로모션을 연다. 11월 2일부터 15일까지 공식 홈페이지와 모바일 앱에서 진행된다.
 
 에어프레미아는 30일 인천 출발 전 노선을 대상으로 블랙프라이데이 할인 프로모션을 11월 2일부터 15일까지 진행한다고 밝혔다. 다가오는 연말 성수기를 앞두고 항공권을 미리 준비하려는 여행객을 겨냥한 할인이다.

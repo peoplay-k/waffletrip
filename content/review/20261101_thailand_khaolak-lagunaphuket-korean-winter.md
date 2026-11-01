@@ -10,11 +10,11 @@ source_url: ''
 summary: 태국 안다만해의 카오락과 라구나 푸켓이 한국인 겨울 휴양지로 떠오르고 있다. 번잡한 푸켓 시내를 피해 휴양과 골프, 미식을 한곳에서
   즐길 수 있는 점이 강점으로 꼽힌다.
 sources:
-  - https://www.gukjenews.com/news/articleView.html?idxno=3738431
-  - https://www.dailian.co.kr/news/view/1707348/
-status: approved
+- https://www.gukjenews.com/news/articleView.html?idxno=3738431
+- https://www.dailian.co.kr/news/view/1707348/
+status: duplicate
+duplicate_of: 20261031_thailand_phangnga-krabi-roadshow-seoul.md
 ---
-
 태국 안다만해의 카오락과 라구나 푸켓이 한국인 겨울 휴양지로 떠오르고 있다. 두 지역 모두 번잡한 푸켓 시내를 벗어나면서도 휴양과 레저를 한곳에서 즐길 수 있는 점이 강점으로 꼽힌다.
 
 카오락은 푸켓국제공항에서 북쪽으로 멀지 않은 거리에 있어 접근성이 좋다. 푸켓처럼 다양한 고급 호텔을 갖추고 있으면서도 상대적으로 한적해, 진정한 휴식을 찾는 한국인 여행객 사이에서 차세대 겨울 휴양지로 꼽힌다. 현지 르 메르디앙 카오락 리조트는 청정 자연과 럭셔리 시설을 앞세워 한국 시장을 공략하고 있다.
