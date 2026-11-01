@@ -4,14 +4,17 @@ channel: travel
 region: thailand
 section: news
 kind: 해설
-title: "태국, 항공 출국세 도입 잠정 연기…호텔·숙박업체 폐업은 40% 넘게 늘어"
+title: 태국, 항공 출국세 도입 잠정 연기…호텔·숙박업체 폐업은 40% 넘게 늘어
 source_name: ''
 source_url: ''
-summary: 태국 재무부가 추진한 항공편 출국세 도입이 업계 반발과 수요 위축 우려로 잠정 미뤄졌다. 올해 9월까지 폐업을 신고한 태국 호텔·숙박업체는 1년 전보다 40% 넘게 늘었다.
+summary: 태국 재무부가 추진한 항공편 출국세 도입이 업계 반발과 수요 위축 우려로 잠정 미뤄졌다. 올해 9월까지 폐업을 신고한 태국 호텔·숙박업체는
+  1년 전보다 40% 넘게 늘었다.
 sources:
-  - https://www.newstravel.co.kr/news/article.html?no=28021
-  - https://www.edaily.co.kr/News/Read?newsId=02856886645641456&mediaCodeNo=257
-status: approved
+- https://www.newstravel.co.kr/news/article.html?no=28021
+- https://www.edaily.co.kr/News/Read?newsId=02856886645641456&mediaCodeNo=257
+status: published
+published_id: c-8381a5f38413df2eea7f94d3579e4e0b265bd92a
+published_on: '2026-11-02'
 ---
 태국 정부가 항공편 출국세 도입을 잠정 연기했다. 같은 시기 태국 호텔·숙박업계에서는 폐업 신고가 크게 늘어, 관광 수요를 건드리는 새 부담에 업계가 민감하게 반응하는 모양새다.
 

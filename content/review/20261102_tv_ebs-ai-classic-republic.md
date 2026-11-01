@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS 'AI 고전, 역사를 바꾼 100책' 플라톤 '국가' 편, 2일 밤 12시 5분 시작"
+title: EBS 'AI 고전, 역사를 바꾼 100책' 플라톤 '국가' 편, 2일 밤 12시 5분 시작
 source_name: ''
 source_url: ''
-summary: EBS가 인문교양 'AI 고전, 역사를 바꾼 100책'의 새 편으로 플라톤의 '국가'를 11월 2일부터 13일까지 평일 밤 12시 5분 방송한다. 열 편 모두 AI가 재현한 인물들의 토론으로 꾸며진다.
+summary: EBS가 인문교양 'AI 고전, 역사를 바꾼 100책'의 새 편으로 플라톤의 '국가'를 11월 2일부터 13일까지 평일 밤 12시
+  5분 방송한다. 열 편 모두 AI가 재현한 인물들의 토론으로 꾸며진다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581055
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581055
+status: published
+published_id: c-ac01378645083822f6899b58f200f29aee6f6fac
+published_on: '2026-11-02'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · AI 고전, 역사를 바꾼 100책 | 편성 · 플라톤 '국가'(10부작)

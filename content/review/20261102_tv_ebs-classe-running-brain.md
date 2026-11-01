@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '클래스e' 정세희 교수의 '달리는 뇌는 늙지 않는다', 2일 새벽 1강"
+title: EBS '클래스e' 정세희 교수의 '달리는 뇌는 늙지 않는다', 2일 새벽 1강
 source_name: ''
 source_url: ''
-summary: EBS '클래스e'가 서울대 정세희 교수의 강좌 '달리는 뇌는 늙지 않는다'를 11월 2일부터 17일까지 월·화 오전 5시 30분에 6회 방송한다.
+summary: EBS '클래스e'가 서울대 정세희 교수의 강좌 '달리는 뇌는 늙지 않는다'를 11월 2일부터 17일까지 월·화 오전 5시 30분에
+  6회 방송한다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005580436
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005580436
+status: published
+published_id: c-41a376a7e8ecaae8ef2f7b2c5201149a8861c065
+published_on: '2026-11-02'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 클래스e | 편성 · 정세희 '달리는 뇌는 늙지 않는다'(6회)

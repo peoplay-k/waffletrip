@@ -4,13 +4,15 @@ channel: travel
 region: korea
 section: data
 kind: 해설
-title: "지방공항 외국인 입국 324만 명, 1~9월 37% 늘어"
+title: 지방공항 외국인 입국 324만 명, 1~9월 37% 늘어
 source_name: ''
 source_url: ''
 summary: 한국공항공사 분석 결과 올해 1~9월 제주·김해·청주·대구공항으로 들어온 외국인은 약 324만 명으로 전년 동기보다 약 37% 늘었다.
 sources:
-  - http://www.jejunews.com/news/articleView.html?idxno=2228586
-status: approved
+- http://www.jejunews.com/news/articleView.html?idxno=2228586
+status: published
+published_id: c-832f23a4507e50bdab3736b3449fca7dcc9bfa14
+published_on: '2026-11-02'
 ---
 수도권을 거치지 않고 지방공항으로 곧장 들어오는 외국인이 늘고 있다. 제주·김해·청주·대구공항을 통한 외국인 입국이 올해 들어 9월까지 약 324만 명으로 집계됐다.
 
