@@ -231,17 +231,23 @@ def main() -> int:
         groups = cluster(ent_rows)
         groups.sort(key=lambda g: max((i.get("published_at") or "") for i in g),
                     reverse=True)
-        groups.sort(key=lambda g: -len(g))
+        # 매체 수 — 편집 단계가 같은 사건을 대표 1건 + related 로 이미 묶어 두므로 그것까지 센다.
+        def outlets_of(g):
+            return sum(1 + len(i.get("related") or []) for i in g)
+        groups.sort(key=lambda g: -outlets_of(g))
         picked = groups[:args.per_region * 2]
         if picked:
-            lines.append("## 연예 (편집실이 쓴다 — 자동 해설 대상 아님)")
+            lines.append("## 연예 — 매체 수가 많은 순, 🔥 화제부터")
             lines.append("")
             for g in picked:
                 total += 1
                 outlets = sorted({(i.get("source_name") or "").strip()
                                   for i in g if i.get("source_name")})
                 cat = g[0].get("category") or "startrip"
-                lines.append(f"### [{cat}] {g[0]['title']}")
+                # 세 곳 이상이 쓴 연예 소식은 그날의 화제다 — 해설 기자가 회차마다 먼저 본다
+                # (2026-11-01 사장님: "지금 제일 연예에서 핫한 기사들도 올리고 잇지?").
+                hot = f"🔥 화제(매체 {outlets_of(g)}곳) " if outlets_of(g) >= 3 else ""
+                lines.append(f"### {hot}[{cat}] {g[0]['title']}")
                 lines.append(f"- 매체 {len(outlets)}곳 · {' · '.join(outlets) or '미상'}"
                              f"{'  ← 여러 곳이 썼다' if len(g) > 1 else ''}")
                 for i in g[:4]:

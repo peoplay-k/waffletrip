@@ -787,6 +787,138 @@ sources:
     lang: ko
     enabled: true
 
+
+  # ── 2026-11-01 연예 화제 소스. 사장님: "지금 제일 연예에서 핫한 기사들도 올리고 잇지?" — 그날
+  # 연예 수집이 이틀에 46건뿐이었다. 연예 전문 매체 열넷의 공식 발표성 기사(개봉·박스오피스·컴백·차트·
+  # 캐스팅·첫방송·시청률·수상·공연)를 구글뉴스 site: 검색으로 받는다. 열애·결혼·이혼·논란은 질의에서
+  # 빼고, 편집 단계의 ENT_EXCLUDE·공식 발표 필터를 그대로 지난다. 부문은 제목으로 정한다.
+  - id: gn_ent_starnews
+    channel: ent
+    region: all
+    section: news
+    name: 스타뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Astarnewskorea.com%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_osen
+    channel: ent
+    region: all
+    section: news
+    name: OSEN
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aosen.mt.co.kr%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_isplus
+    channel: ent
+    region: all
+    section: news
+    name: 일간스포츠
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aisplus.com%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_sportschosun
+    channel: ent
+    region: all
+    section: news
+    name: 스포츠조선
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Asportschosun.com%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_xportsnews
+    channel: ent
+    region: all
+    section: news
+    name: 엑스포츠뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Axportsnews.com%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_tenasia
+    channel: ent
+    region: all
+    section: news
+    name: 텐아시아
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Atenasia.hankyung.com%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_mydaily
+    channel: ent
+    region: all
+    section: news
+    name: 마이데일리
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Amydaily.co.kr%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_newsen
+    channel: ent
+    region: all
+    section: news
+    name: 뉴스엔
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Anewsen.com%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_heraldpop
+    channel: ent
+    region: all
+    section: news
+    name: 헤럴드POP
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aheraldpop.com%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_imbc_ent
+    channel: ent
+    region: all
+    section: news
+    name: iMBC연예
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aenews.imbc.com%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_sbs_ent
+    channel: ent
+    region: all
+    section: news
+    name: SBS연예뉴스
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Aent.sbs.co.kr%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_sportskhan
+    channel: ent
+    region: all
+    section: news
+    name: 스포츠경향
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Asports.khan.co.kr%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_joynews
+    channel: ent
+    region: all
+    section: news
+    name: 조이뉴스24
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Ajoynews24.com%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+  - id: gn_ent_yna_ent
+    channel: ent
+    region: all
+    section: news
+    name: 연합뉴스 연예
+    type: rss
+    url: https://news.google.com/rss/search?q=site%3Ayna.co.kr%20%28%EA%B0%9C%EB%B4%89%20OR%20%EB%B0%95%EC%8A%A4%EC%98%A4%ED%94%BC%EC%8A%A4%20OR%20%EC%BB%B4%EB%B0%B1%20OR%20%EC%B0%A8%ED%8A%B8%20OR%20%EB%B9%8C%EB%B3%B4%EB%93%9C%20OR%20%EC%BA%90%EC%8A%A4%ED%8C%85%20OR%20%EC%B2%AB%EB%B0%A9%EC%86%A1%20OR%20%EC%8B%9C%EC%B2%AD%EB%A5%A0%20OR%20%EC%88%98%EC%83%81%20OR%20%EA%B3%B5%EC%97%B0%20OR%20%EC%BD%98%EC%84%9C%ED%8A%B8%29%20-%EC%97%B4%EC%95%A0%20-%EA%B2%B0%ED%98%BC%20-%EC%9D%B4%ED%98%BC%20-%EB%85%BC%EB%9E%80&hl=ko&gl=KR&ceid=KR%3Ako
+    lang: ko
+    enabled: true
+
   # ════════════════════════════════════════════════════════════════════════════════
   # 2026-10-30 소스 확장. 사장님: "내가 말한 거기는 그냥 그런거고 너가 기사를 다 찾아서 넣어야지
   # 왜 3군데만 봐 다른곳도 다 봐" — TTL뉴스·문화뉴스·ㅍㅍㅅㅅ는 예였다. 여행 기사가 실제로 나오는
