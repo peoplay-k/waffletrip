@@ -7,13 +7,15 @@ kind: 해설
 title: 법무부, 제주 무비자 불법체류 232명 적발…'출도 사전확인 시스템' 마련
 source_name: ''
 source_url: ''
-summary: 법무부가 10월 7~28일 제주 무비자 입국 불법체류 외국인 집중단속을 벌여 232명을 적발했다. 무사증으로 들어온 외국인이 허가 없이 다른 지역으로 나가지 못하도록 출도 사전확인 시스템도 만든다.
+summary: 법무부가 10월 7~28일 제주 무비자 입국 불법체류 외국인 집중단속을 벌여 232명을 적발했다. 무사증으로 들어온 외국인이 허가
+  없이 다른 지역으로 나가지 못하도록 출도 사전확인 시스템도 만든다.
 sources:
-  - https://news.sbs.co.kr/news/endPage.do?news_id=N1008823388
-  - http://www.jejunews.com/news/articleView.html?idxno=2228585
-status: approved
+- https://news.sbs.co.kr/news/endPage.do?news_id=N1008823388
+- http://www.jejunews.com/news/articleView.html?idxno=2228585
+status: published
+published_id: c-6f296d3d36836a93cf7f80c12f9e0677b390813d
+published_on: '2026-11-02'
 ---
-
 법무부가 제주 무사증 입국 제도를 악용한 불법체류 단속에 나섰다. 3주간의 집중단속에서 232명을 적발했고, 무사증 외국인이 허가 없이 제주를 벗어나지 못하게 하는 확인 절차도 새로 만든다.
 
 법무부 출입국·외국인정책본부는 10월 7일부터 28일까지 제주 무비자 입국 불법체류 외국인을 집중 단속해 모두 232명을 적발했다고 30일 밝혔다.

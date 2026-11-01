@@ -7,16 +7,18 @@ kind: 해설
 title: 제주 공식 여행멤버십 '나우다' 개편, 배지·미션챌린지·다국어 서비스 도입
 source_name: ''
 source_url: ''
-summary: 제주도와 제주관광공사가 가입자 36만 명의 공식 여행멤버십 '나우다'에 방문 기록을 쌓는 배지 시스템과 테마별 미션챌린지를 들였다. 외국인 관광객을 위한 다국어 서비스도 열었다.
+summary: 제주도와 제주관광공사가 가입자 36만 명의 공식 여행멤버십 '나우다'에 방문 기록을 쌓는 배지 시스템과 테마별 미션챌린지를 들였다.
+  외국인 관광객을 위한 다국어 서비스도 열었다.
 sources:
-  - https://www.jejusori.net/news/articleView.html?idxno=507813
-  - https://www.yna.co.kr/amp/view/AKR20261028106400056
-  - https://mobile.newsis.com/view_amp.html?ar_id=NISX20261028_0003844835
-  - https://www.news1.kr/local/jeju/6335144
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72476
-status: approved
+- https://www.jejusori.net/news/articleView.html?idxno=507813
+- https://www.yna.co.kr/amp/view/AKR20261028106400056
+- https://mobile.newsis.com/view_amp.html?ar_id=NISX20261028_0003844835
+- https://www.news1.kr/local/jeju/6335144
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72476
+status: published
+published_id: c-2b15b2e15d099b8cb2a86d31755998d37e1ab82d
+published_on: '2026-11-02'
 ---
-
 제주도 공식 여행멤버십 '나우다(NOWDA)'가 여행지를 다닐수록 기록과 혜택이 쌓이는 방식으로 바뀌었다. 할인 위주였던 서비스에 배지와 미션을 더해 다시 찾는 여행을 이끌겠다는 구상이다.
 
 제주특별자치도와 제주관광공사는 28일 나우다에 '배지 시스템'과 테마별 '미션챌린지'를 새로 도입하고, 외국인 관광객을 위한 다국어 서비스를 열었다고 밝혔다. 나우다는 제주 곳곳의 제휴 관광지와 카페, 식당 등에서 할인과 포인트를 받을 수 있는 공식 멤버십으로, 현재 가입자는 36만 명이다.
