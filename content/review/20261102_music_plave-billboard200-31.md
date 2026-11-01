@@ -5,17 +5,19 @@ category: music
 region: ''
 section: news
 kind: 해설
-title: "플레이브, 빌보드 200 31위…자체 최고 순위 경신"
+title: 플레이브, 빌보드 200 31위…자체 최고 순위 경신
 source_name: ''
 source_url: ''
-summary: 버추얼 아이돌 플레이브가 다섯 번째 미니앨범으로 미국 빌보드 메인 앨범 차트 '빌보드 200'에서 31위에 올라 자체 최고 기록을 세웠다.
+summary: 버추얼 아이돌 플레이브가 다섯 번째 미니앨범으로 미국 빌보드 메인 앨범 차트 '빌보드 200'에서 31위에 올라 자체 최고 기록을
+  세웠다.
 sources:
-  - https://www.jnilbo.com/news/articleView.html?idxno=90000077356
-  - https://www.viva100.com/article/20261028500797
-  - https://www.topstarnews.net/news/articleView.html?idxno=16264469
-status: approved
+- https://www.jnilbo.com/news/articleView.html?idxno=90000077356
+- https://www.viva100.com/article/20261028500797
+- https://www.topstarnews.net/news/articleView.html?idxno=16264469
+status: published
+published_id: c-d7dc46fe8a9c38f06269fda6fcdf76eec4489d0e
+published_on: '2026-11-02'
 ---
-
 버추얼 아이돌 그룹 플레이브가 미국 빌보드 메인 앨범 차트 '빌보드 200'에서 31위를 기록했다. 이 차트에서 낸 가장 높은 순위다.
 
 빌보드는 현지 시간 27일 최신 차트를 발표했다. 플레이브는 다섯 번째 미니앨범으로 이 차트에 올라 직전 순위보다 114계단 뛰었다.

@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '지식채널e' 11월 2~4일, 유레카의 도구부터 고기능 우울까지 4편"
+title: EBS '지식채널e' 11월 2~4일, 유레카의 도구부터 고기능 우울까지 4편
 source_name: ''
 source_url: ''
-summary: EBS1 '지식채널e'가 11월 2일부터 4일까지 밤 12시 40분 '유레카의 도구', '집에도 연비가 있다', '바보가 된 천재', '우울한 것 맞아요!' 네 편을 방송한다.
+summary: EBS1 '지식채널e'가 11월 2일부터 4일까지 밤 12시 40분 '유레카의 도구', '집에도 연비가 있다', '바보가 된 천재',
+  '우울한 것 맞아요!' 네 편을 방송한다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581077
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581077
+status: published
+published_id: c-efc7553fb27721a762823e0df8fafe11a944f028
+published_on: '2026-11-02'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 지식채널e
 > 방송 · 2026년 11월 2일(월)~4일(수) 밤 12시 40분
