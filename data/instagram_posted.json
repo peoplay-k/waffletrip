@@ -20,7 +20,8 @@
     "peopleroad-hawaii-20261029-voiced",
     "peopleroad-tv-20261030-1",
     "peopleroad-saipan-20261031-voiced",
-    "peopleroad-saipan-20261101-voiced"
+    "peopleroad-saipan-20261101-voiced",
+    "peopleroad-hawaii-20261102-voiced"
   ],
   "log": [
     {
@@ -127,6 +128,11 @@
       "file": "peopleroad-saipan-20261101-voiced",
       "media_id": "17993085894049809",
       "at": "2026-11-01 08:33:54"
+    },
+    {
+      "file": "peopleroad-hawaii-20261102-voiced",
+      "media_id": "18128097079878431",
+      "at": "2026-11-02 11:14:52"
     }
   ]
 }
