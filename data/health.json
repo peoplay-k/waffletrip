@@ -300,6 +300,19 @@
         "saipan_tribune",
         "thailand_bangkokpost_travel"
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "collected": 3680,
+      "published": 528,
+      "ours": 12,
+      "failed_sources": [
+        "kr_hotelavia",
+        "kr_ktnbm",
+        "kr_travelpress",
+        "saipan_tribune",
+        "thailand_bangkokpost_travel"
+      ]
     }
   ]
 }

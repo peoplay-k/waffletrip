@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS 특집 다큐 '청춘, 경로의 재구성' 1부, 학교 밖 청소년의 하루를 기록하다"
+title: EBS 특집 다큐 '청춘, 경로의 재구성' 1부, 학교 밖 청소년의 하루를 기록하다
 source_name: ''
 source_url: ''
-summary: EBS 5부작 특집 다큐 '청춘, 경로의 재구성'이 3일 밤 10시 50분 1부 '학생은 아니지만 청소년입니다'로 첫 방송된다. 해마다 5만여 명에 이르는 학교 밖 청소년들의 일상을 SNS 기록 형식으로 따라간다.
+summary: EBS 5부작 특집 다큐 '청춘, 경로의 재구성'이 3일 밤 10시 50분 1부 '학생은 아니지만 청소년입니다'로 첫 방송된다. 해마다
+  5만여 명에 이르는 학교 밖 청소년들의 일상을 SNS 기록 형식으로 따라간다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581107
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581107
+status: published
+published_id: c-39c3ed0d9bbe6f0057e160dc497405c592a9c0f1
+published_on: '2026-11-03'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 특집 다큐 '청춘, 경로의 재구성'(5부작) | 회차 · 1부 '학생은 아니지만 청소년입니다'

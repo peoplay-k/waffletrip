@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '건축탐구 집', 밀양 한 땅에 양옥과 한옥 지은 자매의 집"
+title: EBS '건축탐구 집', 밀양 한 땅에 양옥과 한옥 지은 자매의 집
 source_name: ''
 source_url: ''
-summary: EBS '건축탐구 집'이 3일 밤 9시 55분 '남 편 말고 내 편이랑 사는 집' 편을 방송한다. 경남 밀양의 한 땅에 스페인식 기와 양옥과 현대식 한옥을 나란히 지은 자매, 대문이 둘인 전북의 80년대 구옥을 찾아간다.
+summary: EBS '건축탐구 집'이 3일 밤 9시 55분 '남 편 말고 내 편이랑 사는 집' 편을 방송한다. 경남 밀양의 한 땅에 스페인식 기와
+  양옥과 현대식 한옥을 나란히 지은 자매, 대문이 둘인 전북의 80년대 구옥을 찾아간다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581111
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581111
+status: published
+published_id: c-3c52bc54bcfe3a4efeca9481649f03799241c824
+published_on: '2026-11-03'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 건축탐구 집 | 회차 · '남 편 말고 내 편이랑 사는 집'

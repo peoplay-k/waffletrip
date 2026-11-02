@@ -7,13 +7,15 @@ kind: 해설
 title: 제5회 제주비엔날레, 폐막 앞두고 3일부터 전 전시장 무료 개방
 source_name: ''
 source_url: ''
-summary: "'변용의 기술'을 주제로 열린 제5회 제주비엔날레가 폐막을 앞두고 3일부터 모든 전시장을 무료로 연다. 반려견과 함께 비행기로 제주를 찾는 일본인 관광객 투어도 처음 진행됐다."
+summary: '''변용의 기술''을 주제로 열린 제5회 제주비엔날레가 폐막을 앞두고 3일부터 모든 전시장을 무료로 연다. 반려견과 함께 비행기로
+  제주를 찾는 일본인 관광객 투어도 처음 진행됐다.'
 sources:
-  - https://www.jejusori.net/news/articleView.html?idxno=507941
-  - https://www.newsis.com/view/NISX20261102_0003850702
-status: approved
+- https://www.jejusori.net/news/articleView.html?idxno=507941
+- https://www.newsis.com/view/NISX20261102_0003850702
+status: published
+published_id: c-9038b8d49c812d1050ce5f312ff9d6c2081b12d6
+published_on: '2026-11-03'
 ---
-
 제5회 제주비엔날레가 막을 내리기 전 문을 활짝 연다. 3일부터 모든 전시장을 무료로 개방한다.
 
 '변용의 기술'을 주제로 열린 이번 비엔날레는 폐막을 앞두고 입장료를 받지 않기로 했다. 그동안 보내 준 관심에 보답하고, 더 많은 도민과 관광객이 전시를 볼 수 있도록 하려는 것이다.
