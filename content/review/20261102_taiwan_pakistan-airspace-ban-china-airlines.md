@@ -7,12 +7,14 @@ kind: 해설
 title: 파키스탄, 대만 항공사 영공 통과 전면 금지…중화항공·에바항공 항로 변경
 source_name: ''
 source_url: ''
-summary: 파키스탄 정부가 '하나의 중국' 원칙을 내세워 대만 국적 항공사의 자국 영공 통과를 전면 금지했다. 중화항공과 에바항공은
-  항로를 바꿔 운항하고 있다.
+summary: 파키스탄 정부가 '하나의 중국' 원칙을 내세워 대만 국적 항공사의 자국 영공 통과를 전면 금지했다. 중화항공과 에바항공은 항로를 바꿔
+  운항하고 있다.
 sources:
-  - https://marketin.edaily.co.kr/News/ReadE?newsId=05979446645617512
-  - https://dspdaily.com/news/view.php?no=28027
-status: approved
+- https://marketin.edaily.co.kr/News/ReadE?newsId=05979446645617512
+- https://dspdaily.com/news/view.php?no=28027
+status: published
+published_id: c-0cc23faafb162aedee286e4fe98488674e151733
+published_on: '2026-11-02'
 ---
 파키스탄 정부가 대만 국적 항공사의 자국 영공 통과를 전면 금지했다. 대만 국적 항공사인 중화항공과 에바항공은 조치 이후 파키스탄 영공을 피해 항로를 바꿔 운항하고 있다.
 

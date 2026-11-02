@@ -8,11 +8,12 @@ kind: 보도자료
 title: EBS '세계테마기행', 태국 1부 '리얼 방콕'…2일 저녁 8시 40분
 source_name: ''
 source_url: ''
-summary: EBS '세계테마기행'이 2일부터 '구석구석 가성비 투어, 태국'을 4부작으로 방송한다. 배우 이재황이 큐레이터로 나서는
-  1부는 방콕의 역사와 재래시장, 야시장을 돌아본다.
+summary: EBS '세계테마기행'이 2일부터 '구석구석 가성비 투어, 태국'을 4부작으로 방송한다. 배우 이재황이 큐레이터로 나서는 1부는 방콕의
+  역사와 재래시장, 야시장을 돌아본다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581086
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581086
+status: duplicate
+duplicate_of: 20261101_tv_ebs-worldtheme-thailand-bangkok.md
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 세계테마기행 | 편성 · '구석구석 가성비 투어, 태국'(4부작) 1부 '그들이 사는 법, 리얼 방콕'

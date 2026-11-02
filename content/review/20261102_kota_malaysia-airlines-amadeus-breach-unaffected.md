@@ -7,12 +7,13 @@ kind: 해설
 title: 말레이시아항공 "아마데우스 데이터 유출, 자사 시스템엔 영향 없다"
 source_name: ''
 source_url: ''
-summary: 말레이시아항공이 외부 기술 협력사 아마데우스에서 발생한 사이버보안 사고와 관련해 자사 IT 시스템은 영향을 받지 않았다고
-  밝혔다.
+summary: 말레이시아항공이 외부 기술 협력사 아마데우스에서 발생한 사이버보안 사고와 관련해 자사 IT 시스템은 영향을 받지 않았다고 밝혔다.
 sources:
-  - https://www.nst.com.my/business/corporate/2026/11/1568069/malaysia-airlines-says-it-systems-unaffected-amadeus-data-breach
-  - https://www.nst.com.my/business/corporate/2026/11/1568677/malaysia-airlines-systems-untouched-data-breach
-status: approved
+- https://www.nst.com.my/business/corporate/2026/11/1568069/malaysia-airlines-says-it-systems-unaffected-amadeus-data-breach
+- https://www.nst.com.my/business/corporate/2026/11/1568677/malaysia-airlines-systems-untouched-data-breach
+status: published
+published_id: c-a0a160ecdee11f3898ec6dbcde4cedcb84862642
+published_on: '2026-11-02'
 ---
 말레이시아항공이 외부 기술 협력사인 아마데우스에서 발생한 사이버보안 사고와 관련해 자사 IT 시스템은 영향을 받지 않았다고 밝혔다. 코타키나발루를 포함해 말레이시아항공이 취항하는 노선의 시스템은 정상적으로 가동되고 있다는 설명이다.
 

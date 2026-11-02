@@ -8,11 +8,13 @@ kind: 보도자료
 title: 온유, 단독 콘서트 서울 공연 마쳐…도쿄·타이베이 이어 월드투어
 source_name: ''
 source_url: ''
-summary: "그룹 샤이니 온유가 서울 올림픽공원 올림픽홀에서 단독 콘서트 'ONEW THE LIVE : Q'를 사흘간 열고 마무리했다. 이번
-  투어는 도쿄·타이베이에 이어 서울에서 마무리됐다."
+summary: '그룹 샤이니 온유가 서울 올림픽공원 올림픽홀에서 단독 콘서트 ''ONEW THE LIVE : Q''를 사흘간 열고 마무리했다. 이번
+  투어는 도쿄·타이베이에 이어 서울에서 마무리됐다.'
 sources:
-  - https://enews.imbc.com/News/RetrieveNewsInfo/523145
-status: approved
+- https://enews.imbc.com/News/RetrieveNewsInfo/523145
+status: published
+published_id: c-47b830910a513f94973cae74393f8281ab438149
+published_on: '2026-11-02'
 ---
 그룹 샤이니 멤버 온유가 서울 올림픽공원 올림픽홀에서 단독 콘서트 '2026 ONEW CONCERT [ONEW THE LIVE : Q] IN SEOUL'을 성공적으로 마무리했다. 솔로 아티스트로서 아시아 투어의 마지막 일정을 서울에서 치른 것이다.
 

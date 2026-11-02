@@ -4,15 +4,16 @@ channel: travel
 region: vietnam
 section: news
 kind: 해설
-title: "다낭, 스카이스캐너 '2027년 주목 여행지' 7위…동남아시아 유일"
+title: 다낭, 스카이스캐너 '2027년 주목 여행지' 7위…동남아시아 유일
 source_name: ''
 source_url: ''
-summary: 베트남 다낭이 항공권 플랫폼 스카이스캐너가 선정한 '2027년 가장 주목받는 여행지 10곳'에서 7위에 올랐다. 동남아시아
-  목적지로는 다낭이 유일하게 이름을 올렸다.
+summary: 베트남 다낭이 항공권 플랫폼 스카이스캐너가 선정한 '2027년 가장 주목받는 여행지 10곳'에서 7위에 올랐다. 동남아시아 목적지로는
+  다낭이 유일하게 이름을 올렸다.
 sources:
-  - https://www.vietnam.vn/ko/da-nang-lot-top-10-diem-den-xu-huong-the-gioi
-  - https://www.vietnam.vn/ko/da-nang-vao-top-10-diem-den-xu-huong-the-gioi-nam-2027
-status: approved
+- https://www.vietnam.vn/ko/da-nang-lot-top-10-diem-den-xu-huong-the-gioi
+- https://www.vietnam.vn/ko/da-nang-vao-top-10-diem-den-xu-huong-the-gioi-nam-2027
+status: duplicate
+duplicate_of: 20261101_vietnam_danang-top10-hanoi-tourism-policy.md
 ---
 베트남 다낭이 항공권 플랫폼 스카이스캐너가 선정한 '2027년 가장 주목받는 여행지 10곳'에서 7위에 올랐다. 동남아시아 목적지로는 다낭이 유일하게 이 순위에 포함됐다.
 

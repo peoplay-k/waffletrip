@@ -5,15 +5,17 @@ category: music
 region: ''
 section: news
 kind: 보도자료
-title: "앤더블, 미니 2집 'Sequence 02: Attraction' 발매 쇼케이스 열어"
+title: '앤더블, 미니 2집 ''Sequence 02: Attraction'' 발매 쇼케이스 열어'
 source_name: ''
 source_url: ''
-summary: "그룹 앤더블이 지난달 27일 서울 용산구 블루스퀘어 우리WON뱅킹홀에서 미니 2집 'Sequence 02: Attraction'
-  발매 기념 쇼케이스를 열었다."
+summary: '그룹 앤더블이 지난달 27일 서울 용산구 블루스퀘어 우리WON뱅킹홀에서 미니 2집 ''Sequence 02: Attraction''
+  발매 기념 쇼케이스를 열었다.'
 sources:
-  - https://www.starnewskorea.com/star/2026/10/27/2026102716363311363
-  - https://enews.imbc.com/News/RetrieveNewsInfo/522632
-status: approved
+- https://www.starnewskorea.com/star/2026/10/27/2026102716363311363
+- https://enews.imbc.com/News/RetrieveNewsInfo/522632
+status: published
+published_id: c-2d1af87352c21ffe04cab10dd348487c611593ed
+published_on: '2026-11-02'
 ---
 그룹 앤더블(AND2BLE)이 지난달 27일 서울 용산구 블루스퀘어 우리WON뱅킹홀에서 두 번째 미니앨범 'Sequence 02: Attraction' 발매 기념 쇼케이스를 열었다. 신보 발매와 함께 이날 쇼케이스 무대에서 수록곡을 처음 공개했다.
 

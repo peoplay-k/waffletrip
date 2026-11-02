@@ -5,14 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'욕망의 덫' 49회, 출산 팔찌가 쥔 단서…정선, 영훈의 외박 의심"
+title: '''욕망의 덫'' 49회, 출산 팔찌가 쥔 단서…정선, 영훈의 외박 의심'
 source_name: ''
 source_url: ''
-summary: KBS2 일일드라마 '욕망의 덫' 49회가 2일 저녁 7시 50분 방송된다. 정선이 영훈의 외박을 의심하기 시작하고, 은설은
-  출산 팔찌에서 찾은 단서로 미란이 알려 준 주소를 찾아간다.
+summary: KBS2 일일드라마 '욕망의 덫' 49회가 2일 저녁 7시 50분 방송된다. 정선이 영훈의 외박을 의심하기 시작하고, 은설은 출산
+  팔찌에서 찾은 단서로 미란이 알려 준 주소를 찾아간다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+- https://program.kbs.co.kr/2tv/drama/yokmang
+status: published
+published_id: c-10130cfc4aa8b79592589bc3da698400402ffda8
+published_on: '2026-11-02'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 욕망의 덫 | 회차 · 49회

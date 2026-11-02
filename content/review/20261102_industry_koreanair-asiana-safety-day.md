@@ -9,9 +9,11 @@ source_name: ''
 source_url: ''
 summary: 대한항공과 아시아나항공이 지난달 30일 서울 강서구 대한항공 본사에서 제4회 '세이프티 데이' 행사를 공동으로 열었다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72526
-  - https://www.news1.kr/industry/general-industry/6332758
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72526
+- https://www.news1.kr/industry/general-industry/6332758
+status: published
+published_id: c-066f11b3de7dbce93fbc00a09f0aa756f4929dbd
+published_on: '2026-11-02'
 ---
 대한항공과 아시아나항공이 지난달 30일 서울 강서구 대한항공 본사에서 제4회 '세이프티 데이(Safety Day)' 행사를 공동으로 열었다고 밝혔다. 양사 임직원과 지상 조업 관계사 직원 등 200여 명이 한자리에 모여 안전 기준을 함께 점검했다.
 

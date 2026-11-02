@@ -7,11 +7,13 @@ kind: 보도자료
 title: PIC 사이판, 겨울방학 맞아 영어교육·가족여행 결합 프로그램 마련
 source_name: ''
 source_url: ''
-summary: 이랜드파크 해외호텔법인이 운영하는 PIC 사이판이 겨울방학을 앞두고 영어 교육과 가족 여행을 함께 계획하는 '아카데믹 펀
-  스쿨링' 프로그램을 내놓았다.
+summary: 이랜드파크 해외호텔법인이 운영하는 PIC 사이판이 겨울방학을 앞두고 영어 교육과 가족 여행을 함께 계획하는 '아카데믹 펀 스쿨링'
+  프로그램을 내놓았다.
 sources:
-  - https://www.newspim.com/news/view/20261101000111
-status: approved
+- https://www.newspim.com/news/view/20261101000111
+status: published
+published_id: c-4207a238b49e815401e7a7c59118e2886e695a87
+published_on: '2026-11-02'
 ---
 이랜드파크 해외호텔법인이 운영하는 PIC 사이판이 겨울방학을 앞두고 영어 교육과 가족 여행을 함께 계획하는 고객을 위한 '아카데믹 펀 스쿨링' 프로그램을 마련했다고 밝혔다. 자녀의 영어 학습과 가족 휴가를 한 번에 해결하려는 여행객을 겨냥한 프로그램이다.
 

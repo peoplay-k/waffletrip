@@ -9,11 +9,13 @@ source_name: ''
 source_url: ''
 summary: 에어부산이 12월 2일부터 부산~중국 광저우 노선에 신규 취항한다. 두 도시를 잇는 직항은 약 6년 만에 다시 열린다.
 sources:
-  - https://www.asiae.co.kr/article/2026110209152264312
-  - https://www.viva100.com/article/20261102500349
-  - https://www.koreancenter.or.kr/news/articleView.html?idxno=1433215
-  - https://www.newsis.com/view/NISX20261102_0003850281
-status: approved
+- https://www.asiae.co.kr/article/2026110209152264312
+- https://www.viva100.com/article/20261102500349
+- https://www.koreancenter.or.kr/news/articleView.html?idxno=1433215
+- https://www.newsis.com/view/NISX20261102_0003850281
+status: published
+published_id: c-99a602e39fb7daf3403b43d8dbd58809544170fe
+published_on: '2026-11-02'
 ---
 에어부산이 부산과 중국 광둥성 중심도시 광저우를 잇는 직항 노선에 새로 취항한다. 두 도시를 오가는 직항 하늘길은 약 6년 만에 다시 열린다.
 
