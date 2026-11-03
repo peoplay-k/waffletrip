@@ -5,6 +5,11 @@
 
 ## 괌
 
+### 내일부터 ‘에볼라 서약서’ 내야 미국 갈 수 있다…괌·사이판 포함
+- 매체 1곳 · 한겨레
+  - 한겨레: 미국행 항공편으로 4일 오후 출발하는 승객은 에볼라 관련 서약서 제출이 의무화된다. 이는 미국 본토뿐 아니라 하와이나 미국령 괌·사이판행에 탑승하는 경우도 모두 해당된다.
+    https://www.hani.co.kr/arti/economy/economy_general/1285477.html
+
 ### 강남, 괌 여행 중 물에 빠진 여성 구조…"발 안 닿아" 아찔 [소셜in]
 - 매체 1곳 · iMBC연예
   - iMBC연예: 진짜 뉴스만 알려드려요! 연예 정보는 IMBC연예에서!
@@ -17,39 +22,58 @@
   - 트래블데일리: 하와이 관광청 한국사무소는 2026 여수세계섬박람회 내 하와이 특별전시관에 참여하며, 방문객들이 하와이의 자연과 문화를 더욱 생생하게 경험할 수 있도록 전시 연출과 홍보 콘텐츠 운영에 협력했다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72538
 
+### 대한항공 미국행, 4일부터 ‘에볼라 서약서’ 의무…괌·하와이 포함
+- 매체 1곳 · 뉴스인사이드
+  - 뉴스인사이드: 대한항공을 이용해 미국으로 가는 승객은 오는 4일부터 최근 21일 이내 콩고민주공화국(DRC)을 방문하거나 체류하지 않았다는 내용의 서약서를 제출해야 한다. 괌과
+    https://www.newsinside.kr/news/articleView.html?idxno=5039390
+
 ### “하와이가 여수에 떴다”…남태평양 섬 문화·공연으로 만나는 알로하의 매력
 - 매체 1곳 · 투어코리아
   - 투어코리아: [투어코리아=조성란 기자] 남태평양의 낭만을 품은 하와이가 전남 여수를 찾았다. 푸른 바다와 이국적인 자연경관은 물론 하와이 고유의 전통문화와 공연까지, 태평양의 섬 문화를 국내에서 경험할 수 있는 특별한 만남이 마련됐다.
     https://www.tournews21.com/news/articleView.html?idxno=147240
 
+### Car overturns on H-1 Freeway near airport, leaving 2 in critical condition
+- 매체 2곳 · Hawaii News Now · KHON2  ← 여러 곳이 썼다
+  - Hawaii News Now: It happened around 6:30 p.m. near the airport off-ramp going west.
+    https://www.hawaiinewsnow.com/2026/11/02/car-overturns-h-1-freeway-near-airport-leaving-2-critical-condition/
+  - KHON2: Two motorists were left in critical condition following a three-vehicle crash on Oahu's H-1 Freeway near the airport on Sunday evening.
+    https://www.khon2.com/traffic/hawaii-h1-freeway-three-vehicle-crash/
+
 ## 베트남
+
+### 아메리스 푸꾸옥 호텔 오픈: 소통을 위해 설계되었습니다
+- 매체 1곳 · vietnam.vn  ← 여러 곳이 썼다
+  - vietnam.vn: 2026년 11월 1일 오전, 코이 응우옌 투자 그룹 주식회사(KNI 그룹)는 아메리스 푸꾸옥 호텔의 성대한 개장식을 공식적으로 개최했습니다.
+    https://www.vietnam.vn/ko/khai-truong-khach-san-amerys-phu-quoc-thiet-ke-danh-cho-su-gan-ket
+  - vietnam.vn: 11월 1일 오전, 푸꾸옥 마리나 광장(바오 거리)에서 아메리스 푸꾸옥 호텔의 개장식이 열렸습니다. 이 프로젝트는 6천억 VND 이상의 투자금으로 레스 센스-푸꾸옥 컴퍼니가 투자했습니다.
+    https://www.vietnam.vn/ko/khai-truong-khach-san-amerys-phu-quoc-diem-hen-nghi-duong-gia-dinh-da-the-he
+
+### 하나카드, 베트남 여행객 대상 최대 10% 즉시할인 이벤트 진행
+- 매체 1곳 · TTL뉴스
+  - TTL뉴스: 하나카드가 롯데마트 베트남 쇼핑 할인과 현지 이동·카페 이용 혜택을 묶어 베트남 여행객을 대상으로 즉시할인 이벤트를 실시한다. 비자 브랜드 카드로 롯데마트 베트남에서 결제하면 최대 10%를 할인받을 수 있다.
+    http://www.ttlnews.com/news/articleView.html?idxno=3158165
+
+### 다낭은 2027년 전 세계에서 가장 인기 있는 여행지 10위 중 7위에 올랐습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: (GLO) - 다낭은 여행 검색 플랫폼 스카이스캐너가 선정한 '2027년 세계에서 가장 인기 있는 여행지 10곳' 중 하나로 선정되면서 국제 관광 지도에서 매력적인 도시로서의 입지를 더욱 공고히 하고 있습니다.
+    https://www.vietnam.vn/ko/da-nang-dung-thu-7-trong-top-10-diem-den-xu-huong-the-gioi-nam-2027
+
+### 호이안은 축제 시즌에 새로운 문화유산 체험을 더하며 활기를 더합니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: VHO - 국제 등불 축제와 파이푸 쇼부터 호이안 감옥 탐방 투어까지, 호이안 고대 도시(다낭)는 2026년 연말 관광 시즌을 위한 다양한 신규 관광 상품을 준비하고 있습니다.
+    https://www.vietnam.vn/ko/hoi-an-thap-sang-mua-le-hoi-mo-them-trai-nghiem-di-san
 
 ### 다낭시는 1조 5천만 동 규모의 투본 주거 및 관광 서비스 구역 프로젝트를 승인했습니다.
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 다낭시 인민위원회는 약 82.8헥타르 규모의 투본 주거 및 관광 서비스 지구 개발 사업을 승인하고 발표했으며, 총 투자액은 1조 5천만 동으로 추산됩니다.
     https://www.vietnam.vn/ko/da-nang-phe-duyet-du-an-khu-dan-cu-dich-vu-du-lich-thu-bon-1-050-ty-dong
 
-### 신라모노그램 하노이, 국제행사 ‘VIF 2027’ 꿰찼다…MICE 시장 선점 속도
-- 매체 1곳 · 더구루
-  - 더구루: [더구루=김현수 기자] 호텔신라의 베트남 '신라모노그램 하노이'가 글로벌 투자 포럼을 유치하며 데뷔 무대를 장식했다. 외교단지와 국제기업 사무실이 모인 하노이 서부 신도시 입지와 대형 연회 시설을 내세워 현지 MICE(기업회의·포상관광·컨벤션·전시) 수요 선점에 속도를 내는 모양새다.
-    https://theguru.co.kr/news/article.html?no=109108
-
-### 베트남 관광 살아났다... 빈그룹 빈펄, 하노이·호찌민 근교 대형 개발 박차
-- 매체 1곳 · 아세안데일리 뉴스
-  - 아세안데일리 뉴스: [아세안데일리 = 왕제문 기자]베트남 대표 관광·리조트 기업 빈펄(Vinpearl, 종목코드 VPL)이 올해 3분기 만에 연간 순이익 목표의 90% 이상을 조기 달성하며 가파른 실적 성장을 기록했다. 단순한 한 기업의 실적 대박을 넘어, 베트남 전역의 내수 소비와 해외 관광객의 발길이 
-    https://www.aseandaily.co.kr/news/articleView.html?idxno=1009252
-
-### 다낭시는 연말에 개최될 일련의 행사와 축제들을 발표했습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 다낭은 다채로운 행사 일정을 통해 방문객들에게 각 지역의 유산, 관습, 공동체 생활의 깊이를 탐구할 수 있는 기회를 제공하며, 다양한 문화 및 예술적 경험을 선사합니다.
-    https://www.vietnam.vn/ko/da-nang-cong-bo-loat-su-kien-le-hoi-to-chuc-dip-cuoi-nam
-
-### 푸꾸옥에 가족 단위 관광객을 겨냥한 호텔들이 더 많이 문을 열었습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 가족 단위 고객을 겨냥한 호텔이 푸꾸옥에 문을 열고 공식적으로 영업을 시작했습니다.
-    https://www.vietnam.vn/ko/them-khach-san-nham-den-phan-khuc-khach-gia-dinh-di-vao-hoat-dong-tai-phu-quoc
-
 ## 코타키나발루
+
+### 에바끌레르, 코타키나발루서 '2026 LoveLove 골프대회' 개최
+- 매체 1곳 · 장업신문
+  - 장업신문: 골프 전용 화장품 에바끌레르(회장 끌레르 정)가 아름다운 자연과 힐링을 동시에 만끽할 수 있는 ‘2026 코타키나발루 에바끌레르 LoveLove 골프대회’를 개최한다고일 밝혔다.
+    http://www.jangup.com/news/articleView.html?idxno=100364
 
 ### Kalimaran festival celebrates Murut heritage, strengthens ties with other communities
 - 매체 1곳 · New Straits Times  ← 여러 곳이 썼다
@@ -67,30 +91,32 @@
 
 ## 제주
 
+### 비 그친 이호포구
+- 매체 2곳 · 뉴시스 · 제주일보  ← 여러 곳이 썼다
+  - 제주일보: 2일 제주시 이호동 이호포구를 찾은 관광객들이 새벽에 내렸던 빗물이 고인 물웅덩이 주변을 산책 하고 있다. 고봉수 기자
+    http://www.jejunews.com/news/articleView.html?idxno=2228591
+  - 뉴시스: [제주=뉴시스] 우장호 기자 = 제주 중산간에 몰리는 관광 발길을 실제 마을상권 소비로 연결하기 위한 정책 대안이 나왔다. 제주연구원 고선영 부연구위원은 3일 정책이슈브리프를 통해 '빅데이터로 진단한 중산간지역 관광활성화 방안' 연구결과를 발표했다.
+    https://www.newsis.com/view/NISX20261103_0003852315
+
 ### 제주-싱가포르, 운항 확대에도 탑승률 85%대 진입
 - 매체 1곳 · 여행신문
   - 여행신문: 제주공항발 싱가포르 노선이 운항을 크게 늘리면서도 탑승률을 끌어올렸다. 한국교통연구원의 8월 항공통계 자료에 따르면, 제주-싱가포르 노선의 평균 탑승률은 8월 85.4%로 전월(64.1%) 대비 21.3%p 상승했다.
     https://www.traveltimes.co.kr/news/articleView.html?idxno=500641
 
-### 제주 마을에 머물고 반려견과 여행…관광 수요 세분화
-- 매체 1곳 · 한국면세뉴스
-  - 한국면세뉴스: 관광기관들이 여행 목적과 관심사에 맞춘 콘텐츠 개발에 나서고 있다. 제주의 마을 생활문화를 체험하는 여행을 방송으로 알리고, 일본에서는 반려동물 동반 관광객을 겨냥한 제주 여행상품을 실제 판매·운영했다.
-    http://www.kdfnews.com/news/articleView.html?idxno=190329
+### 제주관광공사, 지속가능 관광 알릴 청년 앰버서더 20명 선발
+- 매체 1곳 · 연합뉴스
+  - 연합뉴스: (제주=연합뉴스) 백나용 기자 = 제주관광공사는 환경과 관광이 조화를 이루는 지속 가능한 미래를 위해 '제주와의 약속 글로벌 Youth 앰버서더. ..
+    https://www.yna.co.kr/view/AKR20261103077200056
 
-### 오마이걸 미미, 제주서 고기 굽다 '숯덩이' 소동…김숙 격려에 뭉클
-- 매체 1곳 · 문화뉴스
-  - 문화뉴스: 오마이걸 미미가 제주 여행 중 고기를 태우는 실수로 웃음을 안긴 가운데 김숙의 격려에 감동한 모습을 보였다. SBS 파일럿 예능 프로그램 '카름스테이 - She go 가렴'에서는 소녀시대 유리, 코미디언 김숙, 오마이걸 미미가 제주 마을에서 현지인처럼 생활하며 여행하는 모습이 공개됐다.
-    https://www.mhns.co.kr/news/articleView.html?idxno=767150
+### 제주여행 알릴 글로벌 청년 뽑는다…만 15~24세 누구나 도전
+- 매체 1곳 · 뉴시스
+  - 뉴시스: [제주=뉴시스] 우장호 기자 = 제주도가 지속 가능한 여행 문화를 세계에 알릴 청년 홍보대사를 뽑는다
+    https://mobile.newsis.com/view_amp.html?ar_id=NISX20261103_0003852232
 
-### [사설] JDC, 헬스케어타운 재추진…정상화 ‘기대’
-- 매체 1곳 · 제주일보
-  - 제주일보: 제주국제자유도시 6대 선도 프로젝트 중 하나인 제주헬스케어타운이 사업 중단 9년 만에 재추진될 전망이다. 제주국제자유도시개발센터(JDC)가 지난 30일 헬스케어타운 사업자인 중국 녹지그룹으로부터 사업부지 20만4917㎡와 사업이 멈춘 힐링스파이럴호텔(313실)·텔리스리조트(228실) 등
-    http://www.jejunews.com/news/articleView.html?idxno=2228599
-
-### 2026 교래삼다수마을 지질트레일 6~8일 개최
-- 매체 1곳 · 제주일보
-  - 제주일보: 제주의 지질유산 가치를 널리 알리고, 지질관광을 활성화하기 위한 ‘2026 교래삼다수마을 지질트레일’이 오는 6일부터 8일까지 제주시 조천읍 교래리 삼다수숲길 일대에서 열린다.
-    http://www.jejunews.com/news/articleView.html?idxno=2228589
+### 제주 소비자물가 2.6%↑ ‘유류비 뛰고 채소 급락’
+- 매체 1곳 · 제주의소리
+  - 제주의소리: 국제유가 강세와 수산물 가격 상승 여파 속에서도 2개월 연속 물가 하락이 이저지고 있다. 신선채소 가격은 두 자릿수 하락세를 보여 품목 간 뚜렷한 온도차를 나타냈다.
+    https://www.jejusori.net/news/articleView.html?idxno=507984
 
 ## 일본
 
@@ -130,6 +156,11 @@
   - 트래블데일리: 태국관광청은 오는 11월 10일부터 13일까지 푸껫에서 개최되는 ‘글로벌 웰니스 서밋(Global Wellness Summit, GWS) 2026’을 통해 태국 고유의 웰니스 문화와 관광 경험을 세계에 소개할 예정이다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72546
 
+### KCC실리콘, 태국 화장품 원료 전시회 참가…아시아 시장 공략
+- 매체 1곳 · 한국면세뉴스
+  - 한국면세뉴스: KCC실리콘이 태국에서 열리는 화장품 원료 전문 전시회에 참가해 고기능 실리콘 소재와 화장품 제조 기술을 선보인다. 동남아시아의 기후와 소비자 특성에 맞춘 소재를 중심으로 현지 고객사와의 협력을 확대한다는 계획이다.
+    http://www.kdfnews.com/news/articleView.html?idxno=190339
+
 ### 아이랩미디어, 태국 방콕 ‘아이뮤지엄’ 개관… 한국 미디어아트 해외 진출 본격화
 - 매체 1곳 · 외교문화뉴스
   - 외교문화뉴스: [외교문화뉴스=DCNews] 국내 미디어아트 전문기업 아이랩미디어(iLABMEDIA)가 태국 방콕의 대표적인 관광시설인 바이욕 타워에 실감형 미디어아트 전시관 ‘
@@ -145,12 +176,14 @@
   - vietnam.vn: 올해 첫 9개월 동안 태국의 호텔 및 숙박업체 148곳이 영업을 중단했는데, 이는 전년 동기 대비 42% 증가한 수치이며, 그중 절반 이상이 전년도에 손실을 기록했다고 보고했습니다.
     https://www.vietnam.vn/ko/khach-san-thai-lan-dong-loat-dong-cua
 
-### “태국은 헬스·힐링 여행지”…푸껫서 글로벌 웰니스 서밋 개최
-- 매체 1곳 · 투어코리아
-  - 투어코리아: 
-    https://news.google.com/rss/articles/CBMibkFVX3lxTFBJSWR6Q3dOQm5OOG5MWGNBeUxDZlJhckoxdDVHUnFTSVRiNVEyVkRsUjIxeGRwNkhhOHlhTnBOYkNuX0FNR0x1Rnh1WVJ5c1VIS1hhbFBlaXdRNzA0R25QNUhsM1phaFJxLXdzb1ZR?oc=5
-
 ## 대만
+
+### 제주관광협회, 대만 타이중 박람회서 제주 관광 홍보
+- 매체 2곳 · 제주도민일보 · 제주매일  ← 여러 곳이 썼다
+  - 제주도민일보: [제주도민일보 김선화 기자] 제주관광협회(회장 강동훈)는 지난 10월 30일부터 11월 2일까지 대만 타이중에서 개최된 ‘ATTA 국제관광 박람회’에 참가해 제주
+    https://www.jejudomin.co.kr/news/articleView.html?idxno=401905
+  - 제주매일: 대만 관광객을 제주로 유치하기 위한 현지 홍보가 이뤄졌다. 제주도관광협회는 10월 30일부터 지난 2일까지 대만 타이중에서 열린 ‘ATTA 국제관광 박람회’에 관광
+    https://www.jejumaeil.net/news/articleView.html?idxno=406284
 
 ### 40주년 맞은 '2026 ITF 대만국제여전' 11월 6일 개막
 - 매체 1곳 · 국제뉴스
@@ -168,9 +201,11 @@
     https://www.gnmaeil.com/news/articleView.html?idxno=597722
 
 ### 국립 중흥대학 신화 임업장(國立中興大學新化林場)－타이난 관광여행 웹사이트
-- 매체 1곳 · 台南旅遊網
+- 매체 2곳 · 台南旅遊網 · 타이난 관광여행 웹사이트  ← 여러 곳이 썼다
+  - 타이난 관광여행 웹사이트: 
+    https://www.twtainan.net/ko/attractions/detail/5293/
   - 台南旅遊網: 
-    https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DQjMxMEcxUDlRdWZ1V0N4elpNYVBYNmtzcDI5RWl0NkQzMlRvOFl2WExTVGlGX3l2dVkxWi1hUDlaZkc2QXBKdHhUQnZlc2ozTVJqZ3ZyVHdnZklpUm5LZUl3?oc=5
+    https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xaXEydXREdkJSN3ZHYVhWT1FmQUtramUtUXRVbk9hUGNWd0FlcnA1ZWtPYnZISzlrNklRaXVHWTl2YVVYRVNqczNfcnk5TVZLVWFRdF9SZ2wzLWxUUzVpOTZB?oc=5
 
 ## 국내
 
@@ -196,32 +231,32 @@
   - 부산일보: (왼쪽부터) 서진원 낙동강하구에코센터장, 박중록 습지와 새들의 친구 위원장, 손말금 부산광역시 문화관광해설사, 박정순 부산광역시의회 의원, 이정실. ..
     https://www.busan.com/view/busan/view.php?code=2026110211311803458
 
-### 담양군, ‘군정 소통의 날’서 체류형 관광도시 조성 강조
-- 매체 3곳 · TTL뉴스 · 경남도민뉴스 · 담양자치신문  ← 여러 곳이 썼다
-  - 경남도민뉴스: [경남도민뉴스=최인태 기자] 담양군은 2일 군청 면앙정실에서 공직자 150여 명이 참석한 가운데 열린 ‘민선 9기 함께 만드는 담양, 11월 군정 소통의 날’에서 체류형 관광도시 조성을 위한 주요 과제를 공유했다. 이날 박종원 군수는 지난 10월 담양 청년축제와 창평 전통음식축제, 생활
-    https://www.gndnews1.com/news/article.html?no=1272049
-  - TTL뉴스: [퍼블릭뉴스통신] 담양군(군수 박종원)은 2일 군청 면앙정실에서 공직자 150여 명이 참석한 가운데 열린 ‘민선 9기 함께 만드는 담양, 11월 군정 소통의 날’에서 체류형 관광도시 조성을 위한 주요 과제를 공유했다.
-    http://www.ttlnews.com/news/articleView.html?idxno=3157965
-  - 담양자치신문: 담양군은 2일 군청 면앙정실에서 공직자 150여명이 참석한 가운데 열린 ‘민선 9기 함께 만드는 담양, 11월 군정 소통의 날’에서 체류형 관광도시 조성을 위한 주요 과제를 공유했다. 이날 박종원 군수는 지난 10월 담양 청년축제와 창평 전통음식축제, 생활체육대축전, 세계문화페스티벌 등
-    http://www.dyjachinews.co.kr/news/articleView.html?idxno=14608
+### 충남문화관광재단, 11월 7일 태안서 ‘2026 라티에라 페스티벌’ 개최
+- 매체 3곳 · NSP통신 · 국제뉴스 · 데일리경제  ← 여러 곳이 썼다
+  - 데일리경제: 충남문화관광재단(대표이사 직무대행 이한수)은 오는 11월 7일 오전 10시부터 오후 7시까지 태안기업도시 충남창작스튜디오 일대에서 ‘2026 라티에라 페스티벌(L
+    https://www.kdpress.co.kr/news/articleView.html?idxno=209671
+  - NSP통신: 담양군문화재단(이사장 박종원, 이하 재단)은 오는 7, 8일 이틀간 담빛음악당 일원에서 2026 담양대나무아지트축제 ‘특별한 상상, 대나무아지트’를 개최한다. 이번 축제는 어린이의 자유로운 상상을 출발점으로 가족과 예술가, 대나무 명인이 함께 총 20동의 대나무 아지트를 완성하는 가족 
+    https://www.nspna.com/news/?mode=view&newsid=834369
+  - 국제뉴스: (충남=국제뉴스) 박의규 기자 = 충남창작스튜디오가 위치한 태안기업도시는 충청남도가 시각예술 창작공간으로 조성한 곳으로, 전문 스튜디오와 전시동, 커뮤니티동 등을 갖추고 국내외 예술가들의 창작 활동을 지원하고 있다.
+    https://www.gukjenews.com/news/articleView.html?idxno=3740059
 
-### "광안리 밤바다에 불꽃이 내린다"…7일 '제21회 부산불꽃축제'
-- 매체 3곳 · 국민일보 · 뉴스핌 · 아시아경제  ← 여러 곳이 썼다
-  - 뉴스핌: [부산=뉴스핌] 남동현 기자 = 늦가을 밤 부산 광안대교 앞 바다가 화려한 불꽃무대로 뒤덮힌다. 부산시는 오는 7일 오후 7시 광안리해수욕장과 이기대, 동백섬 일원에서 부산의 대표 관광축제인 '제21회 부산불꽃축제'를 개최한다고 2일 밝혔다.
-    https://www.newspim.com/news/view/20261102000020
-  - 아시아경제: 광안리 밤바다와 광안대교를 배경으로 거대한 불꽃이 부산의 가을 하늘을 수놓는다.
-    https://www.asiae.co.kr/article/2026110214242962633
-  - 국민일보: 부산 밤바다를 밝힐 불꽃축제가 오는 7일 열린다. 부산시는 이날 오후 7~8시 광안리해수욕장과 이기대·동백섬 일대에서 제21회 부산불꽃축제를 연다고 2일 밝혔다.
-    https://www.kmib.co.kr/article/20261102502175
+### 공주시, ‘제2회 차문화축제’ 성황리 개최
+- 매체 2곳 · 충남인터넷뉴스 · 충남일보  ← 여러 곳이 썼다
+  - 충남인터넷뉴스: 공주시는 지난 10월 31일부터 11월 1일까지 이틀간 반포면 계룡산상신 농촌체험휴양마을 일원에서 ‘제2회 공주 차문화축제’를 성황리에 개최했다고 밝혔다. 차와 문학, 도자기가 어우러지는 문화 콘텐츠로 지역 농촌관광 활성화를 도모하기 위해 마련된 이번 축제는 계룡산상신체험마을협의회와 공
+    http://www.shanews.com/news/articleView.html?idxno=563760
+  - 충남일보: [충남일보 길상훈 기자] 충남 공주시는 지난 31일 제민천 역사문화광장에서 민관 8개 기관 공동 주관을 통해 '제2회 마을 BUS킹 축제’를 성황리 개최했다. 이날 지역 주민 500여 명이 참여한 가운데 제2회 왕도심 마을축제인 ‘마을 BUS킹 축제’를 성황리 진행됐다.
+    https://www.chungnamilbo.co.kr/news/articleView.html?idxno=918149
+  - 충남일보: [충남일보 길상훈 기자] 충남 공주시 우성면 목천2리는 최근 마을 주민과 귀산초등학교 학생, 방문객 등 100여 명이 참석한 가운데 ‘마을학교 인절미 축제’를 개최했다고 3일 밝혔다.
+    https://www.chungnamilbo.co.kr/news/articleView.html?idxno=918480
 
-### '낮에는 차 없는 거리, 밤에는 시장 맥주?국수 축제…태안 원도심 하루 종일 들썩' 사람이 머무는 거리의 힘 증명한 2026 태안 거리축제
-- 매체 3곳 · 대전일보 · 신아일보 · 충청일보  ← 여러 곳이 썼다
-  - 대전일보: [태안]태안군 원도심의 중심축인 태안읍 중앙로가 10월의 마지막 날 활력과 낭만이 넘쳐나는 축제의 거리로 물들며 군민과 관광객들에게 잊지 못할 가을 추억을 선물했다.
-    https://www.daejonilbo.com/news/articleView.html?idxno=2310843
-  - 충청일보: 충남 태안군 태안읍 중앙로가 10월의 마지막 날 활력과 낭만이 넘쳐나는 축제의 거리로 물들며 군민과 관광객들에게 잊지 못할 가을 추억을 선물했다.
-    https://www.ccdailynews.com/news/articleView.html?idxno=2449163
-  - 신아일보: 충남 태안군의 원도심 중심가인 태안읍 중앙로가 가을 축제의 장으로 변신하며 주민과 관광객 2만여 명의 발길을 끌어모았다. 태안군은 지난달 31일 태안읍 중앙로 광장
-    https://www.shinailbo.co.kr/news/articleView.html?idxno=5078670
+### 조선호텔, 종로·여수에 신규 호텔 개점…기존 호텔 경쟁력 강화
+- 매체 3곳 · 경향신문 · 매일경제 · 연합뉴스  ← 여러 곳이 썼다
+  - 연합뉴스: (서울=연합뉴스) 이상서 기자 = 조선호텔앤리조트는 개관 112주년을 맞아 신규 위탁운영 호텔 개점을 본격화하고, 기존 주요 호텔의 경쟁력을 강. ..
+    https://www.yna.co.kr/view/AKR20261102029600030
+  - 매일경제: 2030년까지 국내 14개 호텔체제 구축 “서울 도심과 지역 관광거점으로 육성”
+    https://www.mk.co.kr/news/business/12193169
+  - 경향신문: 조선호텔앤리조트가 내년 서울 종로구와 전남광주 여수시에 새 호텔을 연다. 5성급 호텔인 조선 팰리스와 웨스틴 조선 서울·웨스틴 조선 부산 등은 주요 시설을 개선한다.
+    https://www.khan.co.kr/article/202611022042005
 
 ## 여행업계
 
@@ -260,8 +295,8 @@
     https://www.heraldk.com/article/2026110117441835804
   - 트래블데일리: 하나투어가 겨울 성수기 여행 수요에 맞춰 총 110만 원 상당 쿠폰 혜택과 다양한 특가 상품을 선보이는 ’26-27 하나투어 겨울여행 페스타’를 진행한다. 이번 겨울여행 페스타는 11월 2일부터 29일까지 4주간 열린다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72539
-  - 한국경제: 
-    https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkMXNhQXFEbW1Ha3hid2FmOXBWLUdCZXFkYS1hUWVtZVlINnY2Y1hUeEdneHJCeG4tSzVLalJOVXp6dEtfWHNNTXJBbHFSSk1OLTVpM3ZyOEljZw?oc=5
+  - 한국경제: "여행비 부담 확 낮춘다"…하나투어, 겨울여행 페스타 돌입, 신용현 기자, 경제
+    https://www.hankyung.com/article/202611020949g
 
 ### 대구시·대구문예진흥원 트래블리더 18기 초청 대구관광 팸투어 성료
 - 매체 3곳 · 경북매일 · 문화뉴스 · 영남신문 | 경남·경북·영남지역 뉴스  ← 여러 곳이 썼다
@@ -269,8 +304,8 @@
     https://www.ynamnews.co.kr/news/articleView.html?idxno=145989
   - 문화뉴스: (더쎈뉴스 / The CEN News) 허성호 기자대구광역시와 (재)대구문화예술진흥원이 전국의 청년층을 대상으로 대구만이 가진 가을의 숨은 매력과 감성적인 단풍 명소를 알리기 위한 전략적 홍보 마케팅에 나섰다.
     https://www.mhns.co.kr/news/articleView.html?idxno=767181
-  - 경북매일: 
-    https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMRXVrUUN3NDJkTERYR3NuYV9FdHZBSlhiSUhHeENVSi01RmhkWWwxczN6MmJKeWpPS3hCeTd4TW84azlSMGZqeWMwR21UVU45b3hLclRsQzc2UQ?oc=5
+  - 경북매일: 대구시와 대구문화예술진흥원이 지난달 31일부터 1일까지 한국관광공사 대학생 기자단 ‘트래블리더 18기’ 10명을 초청해 대구관광 팸투어를 진행했다. 이번 행사는 20대 젊은 층의 여행 취향을 반영해 가을 단풍 명소와 사진 촬영에 적합한 관광지, 근교 여행지를 중심으로
+    https://www.kbmaeil.com/article/20261102500199
 
 ### 현대글로비스, 수입 자체특송통관장 승인 획득…"항공물류 사업 확대"
 - 매체 3곳 · 뉴시스 · 파이낸셜뉴스 · 한국면세뉴스  ← 여러 곳이 썼다
@@ -278,8 +313,24 @@
     https://www.newsis.com/view/NISX20261102_0003850246
   - 한국면세뉴스: 현대글로비스가 인천공항물류센터의 수입 특송통관장 운영 승인을 획득했다. 기존 수출 물류에 수입화물 처리 기능을 더해 양방향 물류체계를 구축하고, 글로벌 전자상거래를 중심으로 항공물류 사업을 넓힌다.
     http://www.kdfnews.com/news/articleView.html?idxno=190280
-  - 파이낸셜뉴스: 
-    https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XX1g4NXMtd1MtLWlUMWx3QUFIQ2dLZFFrWUotVVBHMllFNFFsSlU3X2lSWUZMVkRWUzJJM3FJb2MwY3ZXMC1kTmtKZmRCQkpZeDIxelVQZ1NYQQ?oc=5
+  - 파이낸셜뉴스: 현대글로비스의 인천국제공항 물류단지 내 물류센터가 특송 수입통관장으로 승인됐다. 현대글로비스 관계자는 "항공포워딩 전문 역량과 최첨단 자동화 시스템, 공항 화물터미널과의 지리적 이점을 결합해 '초국경 전자상거래' 수출입 허브로서의 역할을 충실히 수행하겠.
+    https://www.fnnews.com/news/202611021547343690
+
+### 청주공항 국제선 이용객 작년 기록 경신…개항이래 최다
+- 매체 3곳 · 아이뉴스24 · 연합뉴스 · 충청타임즈  ← 여러 곳이 썼다
+  - 연합뉴스: (청주=연합뉴스) 김형우 기자 = 중부권 거점공항인 청주국제공항의 올해 국제선 이용객이 역대 최다를 기록했다.
+    https://www.yna.co.kr/amp/view/AKR20261102108400064
+  - 아이뉴스24: 국제선 여객수 지난해 194만명 넘어 최다 실적 경신 한국공항공사 청주공항(공항장 성승면)이 연간 국제선 여객 200만명 돌파를 눈앞에 두고 있다. 청주공항은 지난 10월 29일 기준, 올해 국제선 누적 여객이 194만2266명으로 지난해 연간 실적 194만2061명을 넘어 역대 최다 
+    https://www.inews24.com/view/2021603
+  - 충청타임즈: 
+    https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwdFVrbTV2R1dLVmg3bUpXRVdKMkQ1WWxRLXJybURKTkxEZjBMX1RpbHNtWWtKWHpVZ3ZlTllXV09wLWtKV2ZQemRJdWNBZ0tETnZYaVhyaXFMeThBWmM4UTFvZW1QVzZz?oc=5
+
+### 문체부-국토부 관광교통 칸막이 허문다
+- 매체 2곳 · 트래블데일리 · 한스경제  ← 여러 곳이 썼다
+  - 트래블데일리: 문화체육관광부와 국토교통부는 2일 ‘제3회 관광-교통 정책협의회’를 열고 방한 관광-교통 분야 협업 과제 성과 점검 및 전략과제 제안·논의를 진행, 본격적인 ‘지방관광 시대’를 위해 본격 행보를 시작했다. 핵심은 범정부 차원의 소통을 위해 부처간 칸막이를 허물겠다는 계획이다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72550
+  - 한스경제: 
+    https://news.google.com/rss/articles/CBMia0FVX3lxTE5lb1AyeWhfUWFCSXJPRGE1cVROcDJpSUg1bHNFaGNSZ0V3bW1ZUUpsTlg5ejlUeFFJRWttbVhVRi0zUVQ3SHp0V2NIZ0dmcWRncUVSMWczUS1jN0xBZFhXdVQ2ODlqcEFXNFJJ0gFvQVVfeXFMUGxJSXhtcDRhdmJjTm05VU8zRWJqck5QeUcwSnN3X290WDdhWnlEeFpHYnpJS21vZUxhLWpTYWNtUG1YM2JEQ1hCNDVOUEtNanZSRmZqWFVmeFNFaTFfazRDWllLQ1A2emRCdk9pRUQ4?oc=5
 
 ### 한국관광공사, ‘제3회 요즘, 한국관광 데이터 세미나’ 개최…K-의료관광·2027 관광 트렌드 조망
 - 매체 2곳 · 뷰티트래블뉴스 · 트래블데일리  ← 여러 곳이 썼다
@@ -295,28 +346,35 @@
   - 트래블데일리: 모두투어는 크루즈 여행 수요 확대에 맞춰 단독 전세선과 지역별 상품 구성을 강화하고, 지난 1일 크루즈 여행 프로모션 ‘2026 모두투어 크루즈 MEGA 페스타’를 시작했다. 이번 프로모션은 오는 30일까지 한 달간 진행된다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72537
 
-### 교원투어 여행이지, 27일까지 '고객 감사제' 진행
-- 매체 2곳 · SR타임스 · 매일일보  ← 여러 곳이 썼다
-  - SR타임스: 여행 특가 큐레이션 서비스 ‘이지딜라운지’ 신규 오픈[SRT(에스알 타임스) 유안나 기자] 교원투어 여행이지는 교원그룹 창립 41주년을 맞아 오는 27일까지 ‘고객 감사제’를 진행한다고 2일 밝혔다. 이번 고객 감사제는 여행 특가 큐레이션 서비스인 ▲이지딜라운지 오픈 혜택 및 통합 알림
-    https://www.srtimes.kr/news/articleView.html?idxno=216434
-  - 매일일보: 매일일보 = 신승엽 기자 | 교원투어 여행이지는 오는 27일까지 ‘고객 감사제’를 진행한다고 2일 밝혔다. 이번 고객 감사제는 여행 특가 큐레이션 서비스인 △이지
-    https://www.m-i.kr/news/articleView.html?idxno=2013053
-
-### 항공자격시험 응시자 대기 줄인다…TS, 온라인 예약 도입
-- 매체 2곳 · 뉴시스 · 파이낸셜뉴스  ← 여러 곳이 썼다
-  - 뉴시스: [서울=뉴시스] 변해정 기자 = 한국교통안전공단(TS)은 항공자격시험 응시자의 편의를 위해 온라인 방문상담 예약 서비스를 도입한다고 2일 밝혔다
-    https://mobile.newsis.com/view_amp.html?ar_id=NISX20261102_0003850747
-  - 파이낸셜뉴스: 
-    https://news.google.com/rss/articles/CBMiWkFVX3lxTE15SE5GcTJ6NjN2S2lrU0lhSWJkNWZYWmNwd0p2NHVRbTlIV3lXTXg1QnV5cHNmdjBiZ2Q4dkFvaHpJR0djMlkzeUFuR05Ga3hJeTQwc0dmQkluQQ?oc=5
-
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
 
-### 🔥 화제(매체 15곳) [movie] ‘극장판 치이카와’ 258만명 돌파 1위…‘하트 오브 비스트’ 2위 [11월 1일 영화 박스오피스]
+### 🔥 화제(매체 23곳) [movie] ‘극장판 치이카와’ 258만명 돌파 1위…‘하트 오브 비스트’ 2위 [11월 1일 영화 박스오피스]
 - 매체 2곳 · ER 이코노믹리뷰 · bntnews  ← 여러 곳이 썼다
   - ER 이코노믹리뷰: ‘극장판 치이카와: 인어 섬의 비밀’이 11월 1일 하루 9만3014명을 동원하며 박스오피스 1위를 기록했다. 누적 관객수는 258만3857명이다.
     https://www.econovill.com/news/articleView.html?idxno=755671
   - bntnews: 영화 '암살자(들)'이 개봉 6주차에 한국영화 박스오피스 1위를 탈환했다. 누적 관객 345만 명을 돌파하며 장기 흥행을 이어가고 있다.
     https://www.bntnews.co.kr/article/view/bnt202611030027
+  - ER 이코노믹리뷰: ‘하트 오브 비스트’가 11월 2일 하루 1만9383명을 동원하며 다시 박스오피스 1위에 올랐다. 누적 관객수는 23만6101명이다.
+    https://www.econovill.com/news/articleView.html?idxno=755808
+
+### 🔥 화제(매체 5곳) [movie] '암살자(들)', 개봉 6주차에도 韓영화 중 박스오피스 1위 '뒷심'…정상 재등극
+- 매체 1곳 · 뉴스1
+  - 뉴스1: 
+    https://www.news1.kr/entertain/movie/6340990
+
+### 🔥 화제(매체 4곳) [drama] 김우빈 주연 드라마 ‘기프트’, 12월 5일 첫 방송…4인 4색 야구 신념 캐릭터 포스터 공개
+- 매체 2곳 · bntnews · 톱스타뉴스  ← 여러 곳이 썼다
+  - 톱스타뉴스: tvN 새 토일드라마 ‘기프트’가 김우빈·서은수·차빈·한시현의 캐릭터 포스터 4종을 공개했다. 불의의 사고로 특별한 능력을 갖게 된 전 프로야구 투수코치와 전국 꼴찌 고교 야구부의 이야기를 담은 이 작품은 12월 5일 밤 9시 10분 첫 방송된다.
+    https://www.topstarnews.net/news/articleView.html?idxno=16265760
+  - bntnews: KBS 2TV 새 대하드라마 ‘문무’가 첫 방송을 앞두고 전쟁 포스터를 공개했다. 이현욱, 장혁, 김강우, 박성웅이 당나라군에 맞서 치열한 전투를 벌
+    https://www.bntnews.co.kr/article/view/bnt202611030101
+
+### 🔥 화제(매체 4곳) [startrip] BTS, 남미 5개 도시서 14회 공연 매진…85만3천명 동원
+- 매체 2곳 · 연합뉴스 · 한국경제  ← 여러 곳이 썼다
+  - 연합뉴스: (서울=연합뉴스) 김선우 기자 = 그룹 방탄소년단(BTS)이 남미 5개 도시에서 월드투어 '아리랑'(ARIRANG) 14회 공연으로 85만3천명. ..
+    https://www.yna.co.kr/view/AKR20261102047400005
+  - 한국경제: BTS 남미 투어에 85만명…전체 매진, 페루 리마 등 14차례 매진 기록 19일부터 대만 등 아시아 투어
+    https://www.hankyung.com/article/2026110210871
 
 ### 🔥 화제(매체 4곳) [startrip] '수능, 출제의 비밀', 박스오피스 3위로 출발…수능 특수 기대
 - 매체 3곳 · JTN뉴스 · SBS연예뉴스 · 금강일보  ← 여러 곳이 썼다
@@ -327,28 +385,33 @@
   - 금강일보: 코미디 영화 '수능, 출제의 비밀'(감독 이용재, 제작 조이래빗)이 개봉 첫 주말 관객들의 호응을 얻으며 흥행 순항을 이어가고 있다. 앞서 개봉 전 한국 영화 예매율 1위에 오른 데 이어 개봉 첫날부터 한국 영화 박스오피스 정상권을 지킨 이 작품은 주말까지 흥행 흐름을 이어가는 데 성공
     https://www.ggilbo.com/news/articleView.html?idxno=1190577
 
-### 🔥 화제(매체 4곳) [startrip] BTS, 남미 5개 도시서 14회 공연 매진…85만3천명 동원
-- 매체 2곳 · 연합뉴스 · 한국경제  ← 여러 곳이 썼다
-  - 연합뉴스: (서울=연합뉴스) 김선우 기자 = 그룹 방탄소년단(BTS)이 남미 5개 도시에서 월드투어 '아리랑'(ARIRANG) 14회 공연으로 85만3천명. ..
-    https://www.yna.co.kr/view/AKR20261102047400005
-  - 한국경제: 
-    https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NUU4tS0RENkNXcjlTMTVqSFN6SXdlY1ZELS1JZlM4cWFoWHFpZXJxbXk1Yy1BYmRDRm13cHF3T3VZWEhuYzNsczJ3QjdnVHVON08xb29kcjU3UQ?oc=5
-
 ### 🔥 화제(매체 4곳) [startrip] 싸이커스, 오늘(2일) 'DIENAMITE' 강렬 컴백
-- 매체 2곳 · Chosunbiz · 스타뉴스  ← 여러 곳이 썼다
+- 매체 2곳 · 스타뉴스 · 조선비즈  ← 여러 곳이 썼다
   - 스타뉴스: 그룹 싸이커스(xikers·민재, 준민, 수민, 진식, 현우, 정훈, 세은, 유준, 헌터, 예찬)가 새롭게 도약한다. 싸이커스는 11월 2일 오후 6시 미니 8집 '루트 제로 : 더 콜링(ROUTE ZERO : The CALLING)'을 발매하고 타이틀곡 '다이너마이트(DIENAMITE
     https://www.starnewskorea.com/music/2026/11/02/2026110208082680562
   - 스타뉴스: 그룹 트레저가 2일 오후 6시 새 디지털 싱글 'SHOCK'로 컴백한다. 'SHOCK'라는 제목에서도 알 수 있듯 리스너들에게 신선한 충격을 선사하는 동시에 트레저의 색다른 매력을 각인하는 신곡이 될 전망이다.
     https://www.starnewskorea.com/music/2026/11/02/2026110210173227944
-  - Chosunbiz: 
-    https://news.google.com/rss/articles/CBMikwFBVV95cUxQR1l3TzJfQ3BUSmx6dk5jMTJ3V2c1bWxUX1FqQzh2Rl9mdGdoOTl2dGlXeWFLNjcxc21yWEV6OWRqM0dwY3U5eEZJbkszVlUwTTBNZlZLMkVCemR3R1FFOG9QTy1aanZIT3BmRklfLWJ6eVpGd0VsazhrR1JIRmlKdE54RVBGb21wMmI3TlljZWVNQ1nSAacBQVVfeXFMTXdKa2w5SThpdzM1ZV82dWFMaWFORlp2WFVGcl9KbGotWVlJaV9CQjgwTTdYV3I3NHI4SkdoUFNNbUtfTlp5VHpKMDlDaVZQb1NFM2s4WXl3cE9pVEFBMmhadFFoUFRpZFpwYno3SXhZUHFsWWZId3NCVHBlUW5DcE1EVzVZRFl4WWVvaWVYQ045MlJhNmhyODJIOS12SEJlZHdvV0ZncFE?oc=5
+  - 조선비즈: 트레저, 짜릿하고 강렬한 힙합 컴백. .오늘2일 SHOCK 발매공식
+    https://biz.chosun.com/entertainment/enter_general/2026/11/02/MY2GCODFGA2GGOJRGNTGGMTGGY/
+
+### 🔥 화제(매체 3곳) [startrip] 'K팝 솔로 퀸' 트와이스 나연, 11월 20일 솔로 컴백…새 싱글 'NA-sty' 발매
+- 매체 1곳 · iMBC 연예  ← 여러 곳이 썼다
+  - iMBC 연예: 그룹 트와이스 나연이 오는 11월 20일 새 싱글 앨범 'NA-sty(나스티)'를 발매하고 솔로 아티스트로 돌아온다. JYP엔터테인먼트는 23일 오후 공식 SNS 채널에 감각적인 로고 모션 영상을 공개하며 나연의 컴백 소식을 알렸다.
+    https://enews.imbc.com/News/RetrieveNewsInfo/522418
+  - iMBC 연예: 트와이스 나연이 새 솔로 싱글의 타이틀곡명과 프로모션 일정을 공개하며 컴백 준비에 속도를 내고 있다. 나연은 오는 11월 20일 싱글 앨범 ‘NA-sty’(나스티)를 발표한다.
+    https://enews.imbc.com/News/RetrieveNewsInfo/523317
+
+### 🔥 화제(매체 3곳) [startrip] '국민 걸그룹' 돌아온다! 리센느, 오늘(3일) 미니 4집 'PULSE' 컴백
+- 매체 1곳 · 스타뉴스
+  - 스타뉴스: '국민 걸그룹'이 돌아온다. 리센느(RESCENE·원이, 리브, 미나미, 메이, 제나)가 11월 3일 오후 6시 각종 음원 사이트를 통해 네 번째 미니 앨범 'PULSE'(펄스)를 발매한다.
+    https://www.starnewskorea.com/music/2026/11/03/2026110308030878414
 
 ### 🔥 화제(매체 3곳) [startrip] 스트레이키즈 '도쿄돔 공연 파이팅!' [STARPIC] Stray Kids Departure at Gimpo Airport 20261102
 - 매체 1곳 · 스타뉴스  ← 여러 곳이 썼다
-  - 스타뉴스: 
-    https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuazlzM0RNTTVSYmh0LTd1TDdhWUR0a2hIWjhpeGcxQ0pYUllXVE8tY3Y5aDlxSFd2aURvZnJiUE9RRnNTRUV0R3d5UTRsNXF6VjRSVXpxY0FTeVV0?oc=5
-  - 스타뉴스: 
-    https://news.google.com/rss/articles/CBMibEFVX3lxTFBRa1VsSzlscUY2QTdiR0FKaFpQTEtoYW1oTTRvTVdEdEJtME1mVHZlRXFiZ29sX2lnUGlsTXhMUlhmNEgycGk1RnZLVE1MSFJ4NE9tYXRrRk41MEhWc2FVYmZ2anhsRXFSZXJxdw?oc=5
+  - 스타뉴스: http://www.youtube.com/c/스타플러스STARPLUS [스타뉴스 임성균 기자 / tjdrbs23@mt.co.kr] 그룹 스트레이키즈(Stray Kids) 방찬, 리노, 창빈, 한, 필릭스, 현진, 승민, 아이엔이 일본 일정 차 2일 오후 김포국제공항을 통해 출국하고
+    https://www.starnewskorea.com/player/video/23281
+  - 스타뉴스: 스타뉴스의 포토 기사를 만나보세요. K-POP 아이돌, 배우, 스포츠 스타의 화보, 현장 사진, 일상 사진을 한눈에 확인해보세요.
+    https://www.starnewskorea.com/media/photo/202611021916355146
 
 ### 🔥 화제(매체 3곳) [drama] ‘골당TV X-라이브’, 2일 첫 방송..첫 게스트 레인보우 출신 오승아·조현영
 - 매체 2곳 · bntnews · 브레이크뉴스  ← 여러 곳이 썼다
@@ -357,30 +420,8 @@
   - bntnews: 레인보우 출신 오승아와 조현영이 ‘골당TV X-라이브’ 첫 방송에 출연한다. 코미디언 최성민이 MC를 맡은 가운데 시청자가 직접 경기 규칙을 바
     https://www.bntnews.co.kr/TV/article/view/bnt202611020108
 
-### 🔥 화제(매체 3곳) [drama] 김우빈 주연 드라마 ‘기프트’, 12월 5일 첫 방송…4인 4색 야구 신념 캐릭터 포스터 공개
-- 매체 1곳 · 톱스타뉴스
-  - 톱스타뉴스: tvN 새 토일드라마 ‘기프트’가 김우빈·서은수·차빈·한시현의 캐릭터 포스터 4종을 공개했다. 불의의 사고로 특별한 능력을 갖게 된 전 프로야구 투수코치와 전국 꼴찌 고교 야구부의 이야기를 담은 이 작품은 12월 5일 밤 9시 10분 첫 방송된다.
-    https://www.topstarnews.net/news/articleView.html?idxno=16265760
-
-### 🔥 화제(매체 3곳) [startrip] '믿듣보' 온유, 단독 콘서트 'ONEW THE LIVE' 성료… 2027년 2월 컴백 기습 예고
-- 매체 1곳 · iMBC 연예  ← 여러 곳이 썼다
-  - iMBC 연예: 그룹 샤이니 멤버 온유(ONEW)가 송파구 올림픽공원 올림픽홀에서 열린 단독 콘서트 '2026 ONEW CONCERT [ONEW THE LIVE : Q] IN SEOUL'을 성공적으로 마무리했다. 10월 30일부터 11월 1일까지 사흘간 진행된 이번 서울 공연은 도쿄와 타이베이에 이어 
-    https://enews.imbc.com/News/RetrieveNewsInfo/523145
-  - iMBC 연예: 가수 김재환이 전역 후 첫 단독 콘서트를 성공적으로 마치며 뮤지션으로서의 역량을 입증했다. 김재환은 10월 31일과 11월 1일 양일간 서울 블루스퀘어 우리WON뱅킹홀에서 단독 콘서트 '2026 김재환 콘서트 [여백:餘白]'을 개최했다.
-    https://enews.imbc.com/News/RetrieveNewsInfo/523147
-
-### 🔥 화제(매체 3곳) [drama] "업무능력 만점" 박민영, '나인 투 식스' 포스터 포착… 25일 첫방
-- 매체 1곳 · 저스트 이코노믹스
-  - 저스트 이코노믹스: 
-    https://www.justeconomix.com/ko-kr/articles/154057
-
-### [startrip] 웃으며 이별한 서강준·안은진…'너 말고 다른 연애' 2.4% 종영
-- 매체 1곳 · 연합뉴스
-  - 연합뉴스: (서울=연합뉴스) 조윤희 기자 = 배우 서강준과 안은진 주연의 드라마 '너 말고 다른 연애'가 2%대 시청률로 종영했다.
-    https://www.yna.co.kr/view/AKR20261102032700005
-
 ---
-거리 54건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 59건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 방송 재료 — (2026-11-03)
@@ -409,6 +450,26 @@
 - 사진(자유 이용, 출연자 정민아): `![정민아 · 사진 뉴스인스타 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/93/190718_%EC%A0%95%EB%AF%BC%EC%95%84_%281%29.jpg)`
 
 [27회] 다미를 찾아간 승윤은 수첩에 정리해둔 다미의 디자인 피드백 조언을 건네며 위로한다. 한편 다미의 백화점 퇴사 소식을 들은 미미는 자식들이 걱정거리만 만들자, 화를 참지 못하는데...
+
+## MBC PD수첩 — 11/03 22:20 방송
+- 출처: MBC 보도자료 · https://with.mbc.co.kr/pr/press/view.html?idx=36952
+- 보도자료 제목: [PD수첩] ‘북한 지뢰, 위기의 도화선’
+
+* 방송 : 11월 3일(화) 밤 10시 20분
+[PD수첩] “남북 접경은 요새화, 북중 국경은 활짝”... ‘PD수첩’ 북한의 위험한 변신 밀착 추적
+- 25사단 지뢰 폭발 이어 강화도 뒤흔든 연쇄 폭발음... 정체는 ‘600mm 방사포’ 전술도로?
+- [단독] 닫힌 남북 접경 vs 뚫린 북중 국경... 제작진, 중국 단둥서 북한 민간 밀착 현장 포착
+- 애기봉 정조준한 北 122mm 자주포 포착... 러-우 전쟁 파병 대가로 ‘재래식 무기’까지 보강
+- MBC <PD수첩> ‘북한 지뢰, 위기의 도화선’...11월 3일(화) 밤 10시 20분 방송
+▶ “집이 흔들릴 정도”... 25사단 지뢰 폭발 이어 강화도 뒤흔든 폭발음의 정체
+지난 9월, 육군 제25사단 비무장지대 일대에서 발생한 북한 지뢰 폭발 사건으로 남북 간 군사적 긴장감이 최고조에 달했다. 사건 직후 김여정 북한 노동당 부부장은 이를 "광대의 자작극"이라 맹비난하며 노골적인 적대감을 드러냈다. 일촉즉발의 위기감은 서해 접경지역으로 번지고 있다. PD수첩은 최근 북측에서 들려오는 정체불명의 폭발음으로 불안에 떨고 있는 강화도 철산리의 마을을 찾았다. 마을 주민들은 “폭탄이 터지면 집까지 쾅쾅 울려 무섭다”, “폭발 직후 모래바람이 치솟는다”며 불안에 떨고 있었다. 3일간의 잠복 끝에 제작진의 카메라에 잡힌 것은 북한군의 발파 순간과 대규모 전술도로 공사 현장. 김민석 한국국방안보포럼 연구위원은 이를 두고 “유사시 접경지역에 600mm 방사포를 전진 배치하기 위한 공간일 수 있다”며 경고했다. 지금 남북 접경지역 일대에서는 무슨 일이 벌어지고 있는 것일까.
+▶ [단독 현지취재] 남북은 ‘방벽’ 치는데, 북중은 ‘문전성시’?... 북중 밀착 현장 취재
+남북 접경지역이 철책과 콘크리트 방벽으로 굳게 닫히는 사이, 북중 국경에서는 정반대의 풍경이 펼쳐지고 있었다. <PD수첩>은 ‘적대적 두 국가론’ 선언 이후 북한 경제의 변화를 추적하기 위해 직접 중국 단둥 현지를 찾았다.
+현지 취재 결과, 북중 국경에서는 통관을 기다리는 화물 차량 행렬은 물론 민간 영역의 물자 거래까지 활발히 이뤄지고 있었다. 실제 북중 교역량은 2026년 9월 기준 약 23억 달러로 전년 대비 18.6% 증가한 상황. 이문영 서울대 통일평화연구원 교수는 “북한이 러-우 전쟁 파병으로 확보한 자원을 중국과 교류하는 데 쓰며 놀라운 경제 성장을 이뤄냈다”고 짚었다. 북한의 거침없는 대남 적대 노선 이면에는 중국, 러시아와의 밀착을 통해 얻은 경제적 자신감이 자리 잡고 있다.
+▶ “우리 군 진지 정조준”... 애기봉 맞은편 배치된 북한군 자주포
+남북의 군사적 긴장감은 일촉즉발이다. <PD수첩>은 김포 애기봉 전망대 맞은편에서 북한군의 122mm 자주포를 포착했다. 오동룡 군사전문 기자는 “자주포의 각도가 원거리 타격용이 아니다. 바로 코앞의 우리 군 진지를 직접 겨냥한 것”이라 분석했다.
+전문가들은 북한이 핵뿐만 아니라 ‘재래식 전력’까지 대폭 강화하고 있다고 입을 모은다. 북한 외교관 출신인 이일규 국가안보전략연구원 책임연구위원은 “북한이 추진하는 재래식 전력 증강의 핵심 출처는 바로 러시아”라고 지적했다. 러-우 전쟁 참전을 계기로 러시아의 군사 기술과 자원이 북한으로 유입되고 있다는 것이다.
+비무장지대의 지뢰 도발과 방벽 공사, 여기에 김여정 부부장의 거친 막말 담화까지 겹치며 남북 관계는 안개 속으로 빠져들고 있다. ‘지뢰와 방벽’으로 요새화되는 접경지역의 위험한 실태를 추적한 MBC <PD수첩> ‘북한 지뢰, 위기의 도화선’은 오는 11월 3일(화) 밤 10시 20분에 방송된다.
 
 ## EBS 건축탐구 - 집 — 11/03 방송
 - 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005581111
@@ -492,6 +553,30 @@ SBS 예능 프로그램 '틈만나면,'(연출 최보필/작가 채진아)은 �
 한편 오는 3일(화) 방송되는 ‘틈만나면,’은 2026 프로야구 한국시리즈 1차전 경기 중계로 인해 밤 10시 30분에 방송될 예정이다.
 Copyright © SBS & SBSi. All rights reserved.
 무단 전재, 재배포 및 AI학습 이용 금지
+
+## EBS 서장훈의 이웃집 백만장자 — 11/04 방송
+- 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005600753
+- 보도자료 제목: [서장훈의 이웃집 백만장자] '연간 100만 포기·배추밭 5만 평' 대한민국 최연소 김치 명인 정민서 출격!
+
+[EBS 서장훈의 이웃집 백만장자]
+'연간 100만 포기·배추밭 5만 평' 대한민국 최연소 김치 명인 정민서 출격!
+7천 평 공장에 숨은 '돈 되는 김치'의 비결 대공개!
+- 삼○·현○ 재벌가 사모님들도 반했다?! 정민서, 4대째 내려온 손맛의 위력! 서장훈 "강남 유명 반찬 가게들도 제친 맛...대단해"
+- 서장훈 "녹화만 아니면 대접째 비벼서..." 정민서 母 밥상에 식욕 무장 해제! 김치 명인 탄생시킨 '명품 김치' 영접에 두 눈 번쩍!
+'서장훈의 이웃집 백만장자'가 대한민국 최연소 김치 명인 정민서의 성공 스토리를 조명한다. 4대째 이어온 손맛의 위력부터 연간 100만 포기의 김치를 생산하는 7천 평 공장, 서장훈의 식욕을 무장 해제시킨 진수성찬까지 흥미진진한 이야기가 다채롭게 펼쳐진다.
+4일(수) 밤 9시 55분 방송되는 EBS '서장훈의 이웃집 백만장자'에는 대한민국 7명의 김치 명인 중 최연소 명인으로 선정된 '김치 부자' 정민서가 출연한다. 정민서는 연간 약 2500톤·100만 포기의 김치를 생산하고 있으며, 그가 소유한 배추밭은 총 5만 평에 달한다. 이번 방송에서 서장훈과 장예원은 정민서의 7천 평 규모 김치 공장을 찾아 특별한 맛의 비밀을 낱낱이 파헤친다. 정민서가 직접 개발한 배추 밑동 절단기를 시작으로, 손질과 절임을 마친 배추들이 무려 4단계의 세척 과정을 거친다. 양념 배합실에서는 김치 양념에 황태를 쏟아붓는 이색적인 광경이 시선을 사로잡는다. 강원도의 북어김치에서 아이디어를 얻은 정민서는 북어 대신 황태를 넣어 깊고 진한 감칠맛을 살렸다. 소 넣기실에서는 마치 크림빵에 크림을 주입하듯 배추 속에 양념을 넣는 전용 기계까지 등장한다. 타고난 손맛과 끊임없는 연구로 김치 명인의 자리에 오른 정민서의 성공 비결에 관심이 쏠린다.
+정민서의 남다른 요리 실력은 4대째 이어져 온 집안의 손맛 덕분이다. 어려운 시절에도 일본어까지 배워가며 요리를 공부했던 할머니의 요리 DNA는 어머니를 거쳐 정민서에게 고스란히 전해졌다. 정민서의 어머니는 각종 장류와 맛깔나는 반찬을 직접 만들어 팔아 홀로 세 딸을 키워냈다. 심지어 삼○·현○ 등 재벌가에서도 반찬 주문이 쇄도할 만큼 입소문이 자자했다. 정민서는 어머니의 요리 실력을 두고 "너희 엄마는 지푸라기로 요리해도 맛있다는 말을 제일 많이 들었다"고 자랑한다. 어머니를 도와 반찬 배달을 다녔던 정민서의 과거사도 이어진다. 남몰래 부끄러움을 삼키며 배달에 나섰던 그는 "대치동 고급 아파트에도 반찬을 배달했는데, 어린 마음에 너무 창피했다"고 털어놓는다. 이를 들은 서장훈은 "강남 유명 반찬 가게들을 두고 어머니한테 사드셨다는 건 그만큼 솜씨가 대단했다는 것"이라며 놀라워한다. 이어 "어머니를 진작에 알았어야 했다"며 아쉬움을 드러내 웃음을 안긴다.
+이런 가운데 서장훈과 장예원의 입맛을 단번에 사로잡은 정민서 어머니의 특급 밥상도 공개된다. 향긋한 나물무침부터 각양각색 김치와 먹음직스러운 수육까지, 정성 가득한 한 상에 서장훈과 장예원은 "뭘 먼저 먹어야 할지 모르겠다"며 눈을 떼지 못한다. 가장 먼저 나물을 맛본 서장훈은 "향후 10년간은 못 먹을 맛"이라며 극찬을 쏟아내더니, 급기야 "오늘 녹화만 아니면 대접에 나물들 다 넣어서 비벼 먹고 싶다"며 숨길 수 없는 식욕을 드러낸다. '갓 담근 김치 마니아'인 서장훈을 정신 못 차리게 한 김치의 향연도 빼놓을 수 없다. 정민서를 김치 명인으로 만들어준 비장의 무기도 베일을 벗는다. 4대째 가문의 전통으로 이어져 온 어머니의 레시피에 정민서만의 독창적인 아이디어가 더해져 탄생한 김치다. 고운 빛깔을 더한 특별한 김칫국물과 입안 가득 퍼지는 톡 쏘는 맛이 특징인 명품 김치의 정체는 11월 4일 수요일 밤 9시 55분 EBS '서장훈의 이웃집 백만장자'에서 확인할 수 있다.
+끝. (사진 제공= EBS '서장훈의 이웃집 백만장자')
+/kor/images/respond/sub/icon_file.jpg -->
+첨부파일
+[261103]_서장훈의_이웃집_백만장자_-_'연간_100만_포기·배추밭_5만_평'_대한민국_최연소_김치_명인_정민서_출격!.hwp
+[261103]_서장훈의_이웃집_백만장자_스틸컷_(2).jpg
+[261103]_서장훈의_이웃집_백만장자_스틸컷_(1).jpg
+[261103]_서장훈의_이웃집_백만장자_스틸컷.zip이전글
+이전 게시글이 없습니다.다음글
+한국교육방송공사 사장 사장후보국민추천위원회 사전심사 대상자 명단 공개
+목록
 
 ## EBS 정경의 클래식클래식 — 11/04 방송
 - 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005595015
@@ -578,4 +663,4 @@ AI에 읽고 쓰기 맡겼더니 하락한 성적! EBS '다큐프라임 - 생각
 늘 유능하
 
 ---
-수집 실패: SBS 편성표: Expecting value: line 1 column 1 (char 0) / SBS 편성표: Expecting value: line 1 column 1 (char 0) / MBC 목록: timed out
+수집 실패: SBS 편성표: Expecting value: line 1 column 1 (char 0) / SBS 편성표: Expecting value: line 1 column 1 (char 0)
