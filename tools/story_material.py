@@ -149,6 +149,52 @@ def already_written(items: list[dict]) -> set[str]:
     return out
 
 
+# 여행신문은 업계 소식이 가장 많은 전문지다. 클러스터·지역 상한을 거치면 하루 서너 건만 재료에
+# 남아, 나머지는 해설 기자 눈에 띄지 않았다(2026-11-04 사장님: "기사 매일 여행신문쪽 50개
+# 훑어보고 거기서 기사를 가지고와. 내가 준거만 체크하지 말고"). 그래서 최근 50건을 날짜·지역
+# 가리지 않고 그대로 한 절에 늘어놓는다. 이미 근거로 쓴 기사에는 ✅ 를 단다.
+TRAVELTIMES = "여행신문"
+TRAVELTIMES_COUNT = 50
+
+
+def used_sources(review_dir: str = os.path.join("content", "review")) -> set[str]:
+    """원고 앞머리 sources: 에 이미 적힌 주소들."""
+    out: set[str] = set()
+    for path in glob.glob(os.path.join(review_dir, "*.md")):
+        with open(path, encoding="utf-8") as fh:
+            text = fh.read()
+        head = text.split("---", 2)[1] if text.startswith("---") else ""
+        out |= set(re.findall(r"^\s*-\s*(https?://\S+)", head, re.M))
+    return out
+
+
+def latest_from(outlet: str, n: int, days: int = 21) -> list[dict]:
+    """한 매체의 최근 n건 — 지역·클러스터와 상관없이, 최신순."""
+    rows = [r for r in load(days) if (r.get("source_name") or "").strip() == outlet
+            and r.get("grade") == "B" and not is_exclusive(r.get("title") or "")]
+    rows.sort(key=lambda r: r.get("published_at") or "", reverse=True)
+    return rows[:n]
+
+
+def traveltimes_section(rows: list[dict], used: set[str]) -> list[str]:
+    if not rows:
+        return []
+    fresh = sum(1 for r in rows if r.get("source_url") not in used)
+    lines = [f"## 여행신문 최근 {len(rows)}건 — 하나씩 훑는다 (안 쓴 것 {fresh}건)", "",
+             "매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한",
+             "분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.", ""]
+    for r in rows:
+        mark = "✅ " if r.get("source_url") in used else ""
+        day = (r.get("published_at") or "")[:10]
+        summ = re.sub(r"\s+", " ", (r.get("summary") or "")).strip()
+        lines.append(f"- {mark}[{day}·{REGION_NAMES.get(r.get('region', ''), r.get('region', ''))}] {r['title']}")
+        if summ:
+            lines.append(f"  {summ[:200]}")
+        lines.append(f"  {r.get('source_url', '')}")
+    lines.append("")
+    return lines
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=2)
@@ -224,6 +270,9 @@ def main() -> int:
                 if i.get("source_url"):
                     lines.append(f"    {i['source_url']}")
             lines.append("")
+    tt = traveltimes_section(latest_from(TRAVELTIMES, TRAVELTIMES_COUNT), used_sources())
+    lines += tt
+    total += sum(1 for x in tt if x.startswith("- "))
     # 연예 거리. 지역이 없으므로 한 절에 모은다. 여기 있는 것은 **편집실에서 사람이
     # 쓴다** — 예약 해설 에이전트는 연예 기사를 쓰지 않는다(DAILY_COMMENTARY.md).
     # 가십은 edit 단계에서 이미 걸렀지만, 보도자료성 발표만 재료로 삼는다.

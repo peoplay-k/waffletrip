@@ -35,3 +35,29 @@ def test_여행_기사거리가_아닌_제목은_재료에서_뺀다():
               "하동군, 섬진강권 관광지 순환버스로 주말여행 편의 높인다",
               "겨울에 눈여겨볼 만한 해외 패키지여행 3"]:
         assert not is_not_travel(t), t
+
+
+def test_여행신문_최근_50건을_따로_늘어놓고_쓴_것에_표시한다(tmp_path, monkeypatch):
+    """2026-11-04 사장님: "기사 매일 여행신문쪽 50개 훑어보고 거기서 기사를 가지고와"."""
+    import json
+    import story_material as sm
+    items = tmp_path / "data" / "items"
+    items.mkdir(parents=True)
+    rows = [{"id": f"x{i}", "grade": "B", "region": "industry", "source_name": "여행신문",
+             "title": f"여행 소식 {i}", "summary": "요약", "published_at": f"2026-11-0{1 + i % 3}T0{i % 10}:00",
+             "source_url": f"https://www.traveltimes.co.kr/a{i}"} for i in range(60)]
+    rows.append({"id": "y", "grade": "B", "region": "industry", "source_name": "트래블데일리",
+                 "title": "다른 매체", "published_at": "2026-11-03T00:00", "source_url": "https://t/1"})
+    rows.append({"id": "z", "grade": "B", "region": "industry", "source_name": "여행신문",
+                 "title": "[단독] 남의 단독", "published_at": "2026-11-03T09:00", "source_url": "https://t/2"})
+    (items / "2026-11-03.jsonl").write_text(
+        "\n".join(json.dumps(r, ensure_ascii=False) for r in rows), encoding="utf-8")
+    monkeypatch.chdir(tmp_path)
+    picked = sm.latest_from("여행신문", 50)
+    assert len(picked) == 50
+    assert all(r["source_name"] == "여행신문" for r in picked)
+    assert all("단독" not in r["title"] for r in picked)
+    lines = sm.traveltimes_section(picked, {picked[0]["source_url"]})
+    assert lines[0].startswith("## 여행신문 최근 50건")
+    assert lines[5].startswith("- ✅ ")
+    assert sum(1 for x in lines if x.startswith("- ✅")) == 1
