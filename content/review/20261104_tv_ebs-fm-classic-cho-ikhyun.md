@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS FM '정경의 클래식 클래식', 음악 나눔 이어 온 지휘자 조익현 초대"
+title: EBS FM '정경의 클래식 클래식', 음악 나눔 이어 온 지휘자 조익현 초대
 source_name: ''
 source_url: ''
-summary: EBS FM '정경의 클래식 클래식' 수요 초대석에 4일 오전 10시 지휘자 조익현이 출연한다. 2007년 설립한 행복나무플러스로 아동보호시설 아이들과 자립준비청년에게 음악 교육을 이어 온 이야기를 들려준다.
+summary: EBS FM '정경의 클래식 클래식' 수요 초대석에 4일 오전 10시 지휘자 조익현이 출연한다. 2007년 설립한 행복나무플러스로
+  아동보호시설 아이들과 자립준비청년에게 음악 교육을 이어 온 이야기를 들려준다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005595015
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005595015
+status: published
+published_id: c-0352f48a2864beb403a4398570cfdcab7c5058f7
+published_on: '2026-11-04'
 ---
 > **방송 정보**
 > 채널 · EBS FM(수도권 104.5MHz) | 프로그램 · 정경의 클래식 클래식 '수요 초대석'

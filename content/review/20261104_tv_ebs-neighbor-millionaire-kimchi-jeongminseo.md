@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '서장훈의 이웃집 백만장자', 연간 100만 포기 담그는 최연소 김치 명인 정민서"
+title: EBS '서장훈의 이웃집 백만장자', 연간 100만 포기 담그는 최연소 김치 명인 정민서
 source_name: ''
 source_url: ''
-summary: EBS '서장훈의 이웃집 백만장자'가 4일 밤 9시 55분 국내 최연소 김치 명인 정민서 편을 방송한다. 배추밭 5만 평과 7천 평 공장에서 해마다 김치 100만 포기를 만드는 비결을 들여다본다.
+summary: EBS '서장훈의 이웃집 백만장자'가 4일 밤 9시 55분 국내 최연소 김치 명인 정민서 편을 방송한다. 배추밭 5만 평과 7천 평
+  공장에서 해마다 김치 100만 포기를 만드는 비결을 들여다본다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005600753
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005600753
+status: published
+published_id: c-a6f578f90512557749dd0f6de256a0f7a4ed8955
+published_on: '2026-11-04'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 서장훈의 이웃집 백만장자

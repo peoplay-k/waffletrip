@@ -315,6 +315,20 @@
         "saipan_tribune",
         "thailand_bangkokpost_travel"
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "collected": 3659,
+      "published": 517,
+      "ours": 13,
+      "failed_sources": [
+        "guam_pdn",
+        "guam_post",
+        "kr_hotelavia",
+        "kr_ktnbm",
+        "kr_travelpress",
+        "thailand_bangkokpost_travel"
+      ]
     }
   ]
 }
