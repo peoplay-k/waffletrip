@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
 <title>{% block title %}{{ site_name }}{% endblock %}</title>
 {% block robots %}{% endblock %}
 <meta name="description" content="{% block description %}{{ site_kind }}. {{ channel_names.travel }} — {{ place_list }}. {{ channel_names.ent }} — {{ culture_list }}{% endblock %}">
@@ -37,13 +38,8 @@
     --coral:#F04E37; --coral-ink:#FFFFFF; --coral-soft:#FFF0EC;
     --w:1240px;
   }
-  @media (prefers-color-scheme: dark){
-    :root{
-      --bg:#0C0C0D; --paper:#141416; --ink:#F2F2F0; --muted:#A0A0A6; --dim:#75757C;
-      --line:#232326; --rule:#F2F2F0;
-      --coral:#FF6B54; --coral-ink:#141416; --coral-soft:#2A1713;
-    }
-  }
+  /* 2026-11-05 사장님: "배경이 검은색인데 흰색으로 바꾸자". 휴대폰·PC 가 다크 모드여도
+     지면은 늘 흰 바탕으로 낸다 — 예전엔 여기서 다크 모드면 검은 바탕으로 바꿨다. */
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%}
   /* 한글은 어절 단위로 끊어야 한다. 기본값이면 "물놀/이 시설" 처럼
@@ -335,7 +331,6 @@
   .reel-box{max-width:100%}}
 /* ── 2026-10-28 PPSS 짜임 ─────────────────────────────────────────── */
 :root{--band:#F3F3F1}
-@media (prefers-color-scheme: dark){:root{--band:#17171A}}
 body{overflow-x:clip}
 .util{border-bottom:1px solid var(--line);font-size:12px;color:var(--muted)}
 .util .wrap{display:flex;justify-content:space-between;gap:12px;padding-top:7px;padding-bottom:7px}
