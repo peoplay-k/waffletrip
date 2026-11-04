@@ -8,12 +8,14 @@ kind: 보도자료
 title: EBS '왔다! 내 손주', 피렌체 쌍둥이의 새 학기와 13년 만의 사돈 재회
 source_name: ''
 source_url: ''
-summary: EBS '왔다! 내 손주'가 5일 밤 9시 55분 이탈리아 쌍둥이 남매의 새 학기 이야기를 방송한다. 피렌체에서 쌍둥이와 함께 지내는 조부모가 13년 만에 이탈리아 사돈을 만나고, 사위가 준비한 돌로미티 여행을 떠난다.
+summary: EBS '왔다! 내 손주'가 5일 밤 9시 55분 이탈리아 쌍둥이 남매의 새 학기 이야기를 방송한다. 피렌체에서 쌍둥이와 함께 지내는
+  조부모가 13년 만에 이탈리아 사돈을 만나고, 사위가 준비한 돌로미티 여행을 떠난다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005601529
-status: approved
+status: published
+published_id: c-75810313e0266262ae84057a355e0275715ad5bd
+published_on: '2026-11-05'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 왔다! 내 손주 | 회차 · '이탈리아 쌍둥이 남매의 새 학기 대작전!'
 > 방송 · 2026년 11월 5일(목) 밤 9시 55분
