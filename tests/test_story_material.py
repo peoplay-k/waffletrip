@@ -61,3 +61,32 @@ def test_여행신문_최근_50건을_따로_늘어놓고_쓴_것에_표시한�
     assert lines[0].startswith("## 여행신문 최근 50건")
     assert lines[5].startswith("- ✅ ")
     assert sum(1 for x in lines if x.startswith("- ✅")) == 1
+
+
+def test_연예_제목에서_사람_그룹_이름을_뽑고_작품명은_뺀다():
+    """2026-11-05 사장님: "연예기사는 인터넷에서 활용할 수 있는 이미지들 체크하고 올리자"."""
+    from story_material import ent_names
+    assert ent_names("김우빈 주연 드라마 ‘기프트’, 12월 5일 첫 방송")[0] == "김우빈"
+    assert "기프트" not in ent_names("김우빈 주연 드라마 ‘기프트’, 12월 5일 첫 방송")
+    assert ent_names("[잇슈 컬처] 리센느, 컴백과 동시에 음원 차트 1위")[0] == "리센느"
+    assert "BTS" in ent_names("BTS 남미 투어에 85만명…전체 매진")
+
+
+def test_연예_사진_줄은_찾은_이름만_최대_두_장_붙인다():
+    from story_material import ent_photo_lines
+    groups = [[{"title": "트와이스 나연, 11월 20일 솔로 컴백"}], [{"title": "박스오피스 1위"}]]
+
+    def finder(names):
+        found = {n: {"label": n} for n in names if n in ("트와이스", "나연")}
+        return found, lambda p: f"![{p['label']} · 사진 X · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/x.jpg)"
+    out = ent_photo_lines(groups, finder)
+    assert len(out[0]) == 2 and out[0][0].startswith("- 사진(자유 이용, 트와이스)")
+    assert out[1] == []
+
+
+def test_연예_사진_찾기가_실패해도_재료는_나간다():
+    from story_material import ent_photo_lines
+
+    def broken(names):
+        raise RuntimeError("network")
+    assert ent_photo_lines([[{"title": "트와이스 컴백"}]], broken) == {}

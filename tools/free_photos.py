@@ -23,9 +23,14 @@ import httpx
 UA = {"User-Agent": "PeopleRoadBot/1.0 (https://waffletrip.com; editorial photo credits)"}
 WD = "https://www.wikidata.org/w/api.php"
 COMMONS = "https://commons.wikimedia.org/w/api.php"
-JOBS = re.compile(r"배우|가수|방송인|개그맨|코미디언|아나운서|진행자|연예인|모델|래퍼|아이돌|"
+JOBS = re.compile(r"배우|가수|방송인|개그맨|코미디언|아나운서|진행자|연예인|모델|래퍼|아이돌|감독|"
                   r"actor|actress|singer|entertainer|comedian|presenter|television personality|"
-                  r"announcer|rapper|idol", re.I)
+                  r"announcer|rapper|idol|director", re.I)
+# 그룹(걸그룹·보이그룹·밴드)도 대표 사진이 있으면 쓴다(2026-11-05 사장님: "연예기사는 인터넷에서
+# 활용할 수 있는 이미지들 체크하고 올리자. 글만 있으니 너무 별로야"). 연예 화제 기사의 주인공이
+# 그룹인 날이 많다 — 리센느·싸이커스·방탄소년단. 사람과 같은 동명이인 규칙으로, 위키데이터가
+# 음악 그룹으로 분류한 항목만 받는다.
+GROUPS = {"Q215380", "Q641066", "Q216337", "Q5741069", "Q2088357"}   # 음악 그룹·걸그룹·보이밴드·록밴드·뮤지컬 앙상블
 FREE = re.compile(r"^(CC BY|CC0|Public domain|PD|KOGL|공공누리)", re.I)
 THUMB = 960
 
@@ -48,9 +53,10 @@ def person_image(c: httpx.Client, name: str) -> dict | None:
     for h in hits:                                   # 검색 순위대로
         e = ents.get(h["id"]) or {}
         claims = e.get("claims") or {}
-        human = any(cl["mainsnak"].get("datavalue", {}).get("value", {}).get("id") == "Q5"
-                    for cl in claims.get("P31") or [])
-        if not human or not JOBS.search(_desc(e)) or not claims.get("P18"):
+        kinds = {cl["mainsnak"].get("datavalue", {}).get("value", {}).get("id")
+                 for cl in claims.get("P31") or []}
+        person = "Q5" in kinds and JOBS.search(_desc(e))
+        if not (person or kinds & GROUPS) or not claims.get("P18"):
             continue
         return {"qid": h["id"], "label": name, "desc": _desc(e).strip(),
                 "file": claims["P18"][0]["mainsnak"]["datavalue"]["value"]}

@@ -195,6 +195,49 @@ def traveltimes_section(rows: list[dict], used: set[str]) -> list[str]:
     return lines
 
 
+# 연예 화제 기사에 붙일 자유 이용 사진(2026-11-05 사장님: "연예기사는 인터넷에서 활용할 수 있는
+# 이미지들 체크하고 올리자. 글만 있으니 너무 별로야"). 방송 재료와 같은 길 — 위키데이터가
+# 연예인·그룹으로 확인한 항목의 대표 사진 가운데 CC·퍼블릭 도메인만, 캡션에 작성자·라이선스를 단다.
+# 제목의 낱말을 넉넉히 넘기고, 사람·그룹인지는 위키데이터가 가린다.
+_ENT_NAME = re.compile(r"(?<![가-힣A-Za-z])(?:[가-힣]{2,5}|[A-Za-z][A-Za-z0-9&]{1,14})(?![가-힣A-Za-z])")
+_ENT_STOP = {"화제", "공개", "컴백", "개봉", "첫방", "방송", "돌파", "기록", "포스터", "박스오피스",
+             "드라마", "영화", "예능", "앨범", "미니", "싱글", "차트", "오늘", "발매", "단독", "포토",
+             "관객", "매출", "시청률", "최고", "역대", "출연", "주연", "감독", "새", "신곡", "콘서트"}
+ENT_PHOTO_NAMES = 40
+
+
+def ent_names(title: str) -> list[str]:
+    """연예 기사 제목에서 사람·그룹일 만한 이름. 따옴표 안(작품·곡 이름)은 뺀다."""
+    t = re.sub(r"\[[^\]]*\]", " ", title or "")
+    t = re.sub(r"[‘'\"“][^’'\"”]*[’'\"”]", " ", t)
+    out: list[str] = []
+    for w in _ENT_NAME.findall(t):
+        w = re.sub(r"(은|는|이|가|의|와|과|도|를|을)$", "", w) if re.fullmatch(r"[가-힣]{3,6}", w) else w
+        if len(w) >= 2 and w not in _ENT_STOP and w not in out:
+            out.append(w)
+    return out[:4]
+
+
+def ent_photo_lines(groups: list[list[dict]], finder=None) -> dict[int, list[str]]:
+    """묶음 번호 → 붙일 사진 줄(최대 2). 찾기 실패는 조용히 비운다 — 재료는 사진 없이도 나간다."""
+    wanted = {i: ent_names(g[0].get("title") or "") for i, g in enumerate(groups)}
+    every = list(dict.fromkeys(n for names in wanted.values() for n in names))[:ENT_PHOTO_NAMES]
+    if not every:
+        return {}
+    try:
+        if finder is None:
+            import free_photos
+            found = free_photos.photos_for_names(every, limit=ENT_PHOTO_NAMES)
+            line = free_photos.markdown_line
+        else:
+            found, line = finder(every)
+    except Exception as e:  # noqa: BLE001
+        print(f"연예 사진 찾기 실패: {e}", file=sys.stderr)
+        return {}
+    return {i: [f"- 사진(자유 이용, {n}): `{line(found[n])}`" for n in names if n in found][:2]
+            for i, names in wanted.items()}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=2)
@@ -285,10 +328,11 @@ def main() -> int:
             return sum(1 + len(i.get("related") or []) for i in g)
         groups.sort(key=lambda g: -outlets_of(g))
         picked = groups[:args.per_region * 2]
+        photos = ent_photo_lines(picked) if picked else {}
         if picked:
             lines.append("## 연예 — 매체 수가 많은 순, 🔥 화제부터")
             lines.append("")
-            for g in picked:
+            for gi, g in enumerate(picked):
                 total += 1
                 outlets = sorted({(i.get("source_name") or "").strip()
                                   for i in g if i.get("source_name")})
@@ -299,6 +343,7 @@ def main() -> int:
                 lines.append(f"### {hot}[{cat}] {g[0]['title']}")
                 lines.append(f"- 매체 {len(outlets)}곳 · {' · '.join(outlets) or '미상'}"
                              f"{'  ← 여러 곳이 썼다' if len(g) > 1 else ''}")
+                lines += photos.get(gi, [])
                 for i in g[:4]:
                     summ = re.sub(r"\s+", " ", (i.get("summary") or "")).strip()
                     lines.append(f"  - {i.get('source_name', '?')}: {summ[:160]}")
