@@ -332,17 +332,17 @@
     },
     {
       "date": "2026-11-05",
-      "collected": 3466,
-      "published": 604,
+      "collected": 3609,
+      "published": 963,
       "ours": 13,
       "failed_sources": [
-        "guam_pdn",
         "guam_post",
         "kr_hotelavia",
         "kr_ktnbm",
         "kr_travelpress",
         "saipan_tribune",
-        "thailand_bangkokpost_travel"
+        "thailand_bangkokpost_travel",
+        "weather"
       ]
     }
   ]
