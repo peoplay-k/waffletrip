@@ -518,7 +518,9 @@ def test_article_json_ld_is_valid_json(tmp_path):
     """이스케이프되면 &#34; 가 되어 파싱이 통째로 깨진다."""
     import glob as _g, json as _j, re
     render_site([make("1", "괌 소식")], str(tmp_path), TODAY)
-    page = _g.glob(str(tmp_path / "guam" / "*" / "index.html"))[0]
+    # guam/<id>/ 는 짧은 주소에서 넘겨주는 쪽, guam/<id>-<제목>/ 이 기사 쪽이다. glob 순서는
+    # 파일 시스템마다 달라 [0] 이 넘겨주는 쪽을 집으면 CI 에서만 실패했다(2026-11-05) — 긴 쪽을 고른다.
+    page = max(_g.glob(str(tmp_path / "guam" / "*" / "index.html")), key=len)
     html = open(page, encoding="utf-8").read()
     raw = re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.S).group(1)
     data = _j.loads(raw)
