@@ -331,6 +331,9 @@ def main() -> int:
         photos = ent_photo_lines(picked) if picked else {}
         if picked:
             lines.append("## 연예 — 매체 수가 많은 순, 🔥 화제부터")
+            asked = sum(len(ent_names(g[0].get("title") or "")) for g in picked)
+            got = sum(len(v) for v in photos.values())
+            lines.append(f"(자유 이용 사진: 이름 후보 {asked}개 확인, 사진 줄 {got}개)")
             lines.append("")
             for gi, g in enumerate(picked):
                 total += 1
