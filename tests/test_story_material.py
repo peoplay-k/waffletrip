@@ -90,3 +90,10 @@ def test_연예_사진_찾기가_실패해도_재료는_나간다():
     def broken(names):
         raise RuntimeError("network")
     assert ent_photo_lines([[{"title": "트와이스 컴백"}]], broken) == {}
+
+
+def test_기사_말은_사람_이름으로_보지_않는다():
+    """2026-11-05: "차트 강타!" 의 강타가 가수 강타 사진으로 붙었다."""
+    from story_material import ent_names
+    names = ent_names("'국민 걸그룹' 차트 강타! 리센느, 신보 발매 2시간만 멜론 TOP100 1위")
+    assert "강타" not in names and "리센느" in names
