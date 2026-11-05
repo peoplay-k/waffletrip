@@ -4,19 +4,21 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "7일 부산불꽃축제 인근 숙박요금 평균 94.5% 인상…포항 과메기 축제도 같은 날 개막"
+title: 7일 부산불꽃축제 인근 숙박요금 평균 94.5% 인상…포항 과메기 축제도 같은 날 개막
 source_name: ''
 source_url: ''
-summary: 부산시가 제21회 부산불꽃축제 인근 숙박요금이 평균 94.5% 올랐다며 공정가격 업소 34곳을 공개했다. 포항 구룡포 과메기 축제도 7일 열린다.
+summary: 부산시가 제21회 부산불꽃축제 인근 숙박요금이 평균 94.5% 올랐다며 공정가격 업소 34곳을 공개했다. 포항 구룡포 과메기 축제도
+  7일 열린다.
 sources:
-  - https://www.newscj.com/news/articleView.html?idxno=3445980
-  - https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261104.99099001237
-  - https://m.knnews.co.kr/mView.php?idxno=1554435
-  - https://www.newsis.com/view/NISX20261105_0003855595
-  - https://www.hdnews.co.kr/news/articleView.html?idxno=361752
-status: approved
+- https://www.newscj.com/news/articleView.html?idxno=3445980
+- https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261104.99099001237
+- https://m.knnews.co.kr/mView.php?idxno=1554435
+- https://www.newsis.com/view/NISX20261105_0003855595
+- https://www.hdnews.co.kr/news/articleView.html?idxno=361752
+status: published
+published_id: c-0bcd9e0bbabc6b7b4fcea4f7824242ba899d11c4
+published_on: '2026-11-06'
 ---
-
 7일 열리는 제21회 부산불꽃축제를 앞두고 행사장 주변 숙박요금이 평균 94.5% 올랐다. 부산시는 인상률이 상대적으로 낮은 '공정가격 숙박업소' 34곳을 골라 공개했다.
 
 부산시는 행사장 반경 500m 안에 있는 숙박업소 157곳을 대상으로 축제 당일과 인접한 주말의 요금을 비교·분석했다. 평소보다 평균 2배가량 오른 것으로 나타났고, 시는 관광객이 합리적으로 숙소를 고를 수 있도록 인상률을 최소화한 업소를 따로 가려냈다.

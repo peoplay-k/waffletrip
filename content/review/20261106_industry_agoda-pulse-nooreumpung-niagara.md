@@ -4,19 +4,21 @@ channel: travel
 region: industry
 section: data
 kind: 해설
-title: "아고다 '2027 아시아 트래블 펄스' 발표…노랑풍선은 나이아가라, 튀르키예는 관광 수입 기록"
+title: 아고다 '2027 아시아 트래블 펄스' 발표…노랑풍선은 나이아가라, 튀르키예는 관광 수입 기록
 source_name: ''
 source_url: ''
-summary: 아고다 보고서는 2027년 한국 여행객이 AI 활용을 늘리고 경험의 질을 중시할 것으로 전망했다. 튀르키예는 1~9월 관광 수입 513억 달러로 같은 기간 역대 최대를 기록했다.
+summary: 아고다 보고서는 2027년 한국 여행객이 AI 활용을 늘리고 경험의 질을 중시할 것으로 전망했다. 튀르키예는 1~9월 관광 수입 513억
+  달러로 같은 기간 역대 최대를 기록했다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72582
-  - http://www.hansbiz.co.kr/news/articleView.html?idxno=879804
-  - http://www.financialreview.co.kr/news/articleView.html?idxno=46044
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72593
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72575
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72582
+- http://www.hansbiz.co.kr/news/articleView.html?idxno=879804
+- http://www.financialreview.co.kr/news/articleView.html?idxno=46044
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72593
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72575
+status: published
+published_id: c-63cf0c19d5e16f29b3940397341ebf1a69542383
+published_on: '2026-11-06'
 ---
-
 내년 해외여행 수요는 횟수보다 질로 옮겨 갈 전망이다. 아고다가 한국을 포함한 아시아 여행 트렌드를 전망한 '2027 아시아 트래블 펄스' 보고서를 발표했다.
 
 보고서에 따르면 한국 여행객은 2027년에도 해외여행에 높은 관심을 유지하는 가운데 여행 계획에 인공지능(AI)을 쓰는 비중을 늘릴 것으로 조사됐다. 여행 횟수보다 체류 기간과 경험의 질을 중시하고, 미식과 문화 체험처럼 개인 취향을 반영한 여행 수요가 커지고 있다. 숙소를 고를 때는 가격보다 위치와 편의성을 먼저 따진다.

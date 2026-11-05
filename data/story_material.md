@@ -17,11 +17,6 @@
   - 엔사이드: 괌 대표 해변 리조트인 호시노 리조트 리조나레 괌이 새로운 복합 해변 공간인 비치클럽을 선보이며 여행객들의 관심을 끌고 있다. 단순한 해수욕이나 해양 스포츠를 넘
     https://www.reporternside.com/news/articleView.html?idxno=435484
 
-### 괌 국제 무용 축제, 국제무용연맹(FIDAF) 공식 인증 획득
-- 매체 1곳 · 국제뉴스
-  - 국제뉴스: (서울=국제뉴스) 유지현 기자 = 오는 12월 초 괌 여행을 간다면 놓치지 말아야 할 볼거리가 있다. 괌정부관광청(GVB)은 '괌 국제 무용 축제(GIDF)'가 국제무용연맹(FIDAF)으로부터 공식 승인 및 인증을 획득했다고 발표했다.
-    https://www.gukjenews.com/news/articleView.html?idxno=3743491
-
 ## 사이판
 
 ### 마리아나관광청, 9월 방문객 통계 발표…회복세 정체에 11월부터 대형 악재까지
@@ -35,6 +30,13 @@
 - 매체 1곳 · Investing.com 한국어
   - Investing.com 한국어: 
     https://kr.investing.com/news/stock-market-news/article-2157528
+
+### Dept. of Health confirms 11th travel-related dengue case in Hawaii
+- 매체 2곳 · Hawaii News Now · Maui Now  ← 여러 곳이 썼다
+  - Hawaii News Now: DOH teams have been deployed to conduct inspections and implement mosquito control measures in the affected area.
+    https://www.hawaiinewsnow.com/2026/11/05/dept-health-confirms-11th-travel-related-dengue-case-hawaii/
+  - Maui Now: The Hawaiʻi Department of Health has identified a new travel-related dengue virus case on Oʻahu, bringing the total number of dengue cases in the state to 11 in
+    https://mauinow.com/2026/11/05/doh-reports-11th-travel-related-dengue-virus-case-of-2026/
 
 ### First Alert Forecast: Wet, Breezy Trade Winds
 - 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
@@ -71,15 +73,15 @@
   - 트래블데일리: 베트남 썬푸꾸옥항공이 취항 1주년을 맞아 한국인 고객을 위한 다채로운 감사 프로모션을 선보인다. 이번 프로모션은 지난 1년간 썬푸꾸옥항공을 이용한 고객들의 성원에 보답하고 프리미엄 5성급 서비스와 푸꾸옥의 매력을 보다 합리적인 조건으로 경험할 수 있도록 기획됐다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72574
 
-### [여행소식] 동굴 만찬, 크루즈에서의 하룻밤…베트남 고급 관광지 설명회
-- 매체 1곳 · 연합뉴스
-  - 연합뉴스: (서울=연합뉴스) 성연재 기자 = 베트남 관광기업 APC 코퍼레이션과 비엣델리 그룹은 5일 낮 서울 중구 한국프레스센터에서 국내 관광업계를 대상. ..
-    https://www.yna.co.kr/view/AKR20261105110800542
-
-### 호치민시 관광협회와 메콩델타 지역의 여러 성 및 도시 간의 연계 강화와 관광 개발을 촉진합니다.
+### 호치민시에서 연말 축제가 연이어 열립니다. 12월에 어디를 가고 무엇을 먹으면 좋을까요?
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 11월 5일 오후, 호치민시 관광협회 1지부(바리아-붕따우 지역)는 빈롱성 관광협회와 협력하여 호치민시 관광협회 1지부와 메콩델타 지역의 여러 성 및 도시 간의 연계 강화와 관광 개발을 위한 회의를 개최했습니다.
-    https://www.vietnam.vn/ko/xuc-tien-lien-ket-phat-trien-du-lich-giua-hiep-hoi-du-lich-tp-ho-chi-minh-va-cac-tinh-thanh-pho-dbscl
+  - vietnam.vn: 12월이 되면 호치민시는 촐론 음식 축제, 거리 예술, 마라톤, 그리고 연말을 맞아 진행되는 다양한 외식 및 숙박 프로모션으로 활기가 넘칩니다.
+    https://www.vietnam.vn/ko/tp-hcm-sap-co-loat-le-hoi-cuoi-nam-di-dau-choi-an-gi-trong-thang-12
+
+### 적극적으로 통합하는 하노이와 런던에서 열리는 새로운 기회들.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 하노이 대표단은 관광, 교육, 문화 산업, 혁신 분야에서 실질적인 협력을 증진하고 영국에 있는 베트남 지식인들을 연결하기 위해 영국을 방문했습니다.
+    https://www.vietnam.vn/ko/mot-ha-noi-chu-dong-hoi-nhap-va-nhung-canh-cua-mo-tu-london
 
 ## 라오스
 
@@ -139,6 +141,11 @@
   - 여성종합뉴스: 대구수성구청제공 [여성종합뉴스/박주현기자]대구 수성문화재단(이사장 김대권)은 지난 ..
     https://womannews.net/detail.php?number=458723
 
+### "일본, 미 중간선거 '블루 쓰나미'에 복잡한 시선"
+- 매체 1곳 · YTN
+  - YTN: 미국 중간선거에서 민주당이 압승한 가운데 일본이 '블루 쓰나미' 현상을 복잡한 시선으로 바라보고 있다고 뉴욕타임스가 보도했습니다. 뉴욕타임스는 미국에서 민주당의 중간선거 승리를 민주당 상징색인 푸른색에 빗대 '블루 쓰나미'라고 표현하고 있지만, 일본 내 일각에서는 불편한 기색을 보이고 
+    https://www.ytn.co.kr/_ln/0104_202611060501596996
+
 ### 에어로케이, 일본 규슈 여행업계 초청 팸투어 진행
 - 매체 1곳 · 경충일보
   - 경충일보: 사진은 후쿠오카 공항 에어로케이 카운터 전경 에어로케이항공(대표이사 강병호)은 한국관광공사 후쿠오카지사, 전북지사와 함께 일본 규슈 지역 여행업계 관계. ..
@@ -148,11 +155,6 @@
 - 매체 1곳 · 충청도민일보
   - 충청도민일보: [충청도민일보 이병호 기자] = 충북문화재단이 일본 현지 관광업계와 국제회의 관계자를 대상으로 충북 관광자원과 국제회의 개최 역량을 알리는 해외 홍보 활동을 펼쳤
     https://www.dominilbo.com/news/articleView.html?idxno=282462
-
-### 에어로케이, 일본 규슈 여행객 유치 나선다…청주공항 앞세워 지방관광 공략
-- 매체 1곳 · 메가경제
-  - 메가경제: 에어로케이, 일본 규슈 여행객 유치 나선다…청주공항 앞세워 지방관광 공략 [메가경제=심영범 기자]에어로케이항공이 일본 규슈 지역 여행업계와 손잡고 한국 지방 관광객 유치에 나섰다.
-    https://megaeconomy.co.kr/news/newsview.php?ncode=1065600225127877
 
 ## 태국
 
@@ -288,6 +290,17 @@
   - 투어코리아: [투어코리아=조성란 기자] 패키지여행의 불필요한 쇼핑 일정을 없애고 인공지능(AI)으로 고객 편의를 높인 하나투어가 서비스품질 평가에서 5년 연속 정상에 올랐다. 여행상품의 품질 개선과 디지털 서비스 혁신이 고객 만족도 향상으로 이어졌다는 평가다.
     https://www.tournews21.com/news/articleView.html?idxno=147602
 
+### 조용호 오산시장 “관광객이 찾고 머무는 매력도시 만들겠다”... 오산 미니어처 빌리지, 지역관광개발 우수사례 ‘최우수상’
+- 매체 5곳 · TTL뉴스 · 뉴시스 · 아시아경제 · 아주경제 · 전국도민일보  ← 여러 곳이 썼다
+  - TTL뉴스: 오산시가 운영하는 ‘오산 미니어처 빌리지’가 문화체육관광부의 ‘2026년 지역관광개발사업 우수사례 및 컨설팅 이행 우수지자체 시상’에서 지역관광개발 우수사례 최우수상인 한국문화관광연구원장상을 수상했다.
+    http://www.ttlnews.com/news/articleView.html?idxno=3158832
+  - 뉴시스: [오산=뉴시스] 정숭환 기자 = 경기 오산시는 오산미니어처빌리지가 문화체육관광부 '2026년 지역관광개발사업 우수사례' 평가에서 최우수상에 선정됐다고 4일 밝혔다. 오산미니어처빌리지는 내삼미동에 조성된 실내형 관광시설로 국내외 주요 도시와 건축물, 역사·문화 요소를 축소 모형으로 구현한
+    https://www.newsis.com/view/NISX20261104_0003854890
+  - 아시아경제: 경기 오산시의 실내형 미니어처 전시관인 &#039;오산미니어처빌리지&#039;가 지역관광개발 우수사례 최우수상에 선정됐다.
+    https://www.asiae.co.kr/article/2026110417461260121
+  - 전국도민일보: (오산=용만중 기자) 오산시(시장 조용호)는 ‘오산 미니어처 테마파크’가 문화체육관광부의 ‘2026년 지역관광개발사업 우수사례 및 컨설팅 이행 우수 지자체 시상’에서 지역관광개발 우수사례 최우수상에 선정됐다고 밝혔다.
+    http://www.dmilbo.com/news/articleView.html?idxno=571261
+
 ### 아고다 분석, 2027년 한국 여행객 트렌드
 - 매체 4곳 · Investing.com 한국어 · 트래블데일리 · 파이낸셜리뷰 · 한스경제  ← 여러 곳이 썼다
   - 트래블데일리: 아고다가 대한민국을 비롯한 아시아 지역의 내년도 여행 트렌드를 전망하는 ‘2027 아시아 트래블 펄스(Asia Travel Pulse)’ 보고서를 발표했다.
@@ -310,17 +323,6 @@
   - 머니투데이: 동남아 전문 여행사 몽키트래블이 전 세계 여행 상품을 한 번에 예약할 수 있는 '몽키트래블 전세계 여행' 서비스를 오픈했다고 5일 밝혔다. 태국, 필리핀, 대만, 베트남, 괌·사이판, 일본 등 기존 국가별 여행 서비스에 전 세계 여행 카테고리를 더해, 고객이 보다 폭넓은 지역의 여행 상
     https://www.mt.co.kr/industry/2026/11/05/2026110514305787151
 
-### 조용호 오산시장 “관광객이 찾고 머무는 매력도시 만들겠다”... 오산 미니어처 빌리지, 지역관광개발 우수사례 ‘최우수상’
-- 매체 4곳 · TTL뉴스 · 뉴시스 · 아시아경제 · 전국도민일보  ← 여러 곳이 썼다
-  - TTL뉴스: 오산시가 운영하는 ‘오산 미니어처 빌리지’가 문화체육관광부의 ‘2026년 지역관광개발사업 우수사례 및 컨설팅 이행 우수지자체 시상’에서 지역관광개발 우수사례 최우수상인 한국문화관광연구원장상을 수상했다.
-    http://www.ttlnews.com/news/articleView.html?idxno=3158832
-  - 뉴시스: [오산=뉴시스] 정숭환 기자 = 경기 오산시는 오산미니어처빌리지가 문화체육관광부 '2026년 지역관광개발사업 우수사례' 평가에서 최우수상에 선정됐다고 4일 밝혔다. 오산미니어처빌리지는 내삼미동에 조성된 실내형 관광시설로 국내외 주요 도시와 건축물, 역사·문화 요소를 축소 모형으로 구현한
-    https://www.newsis.com/view/NISX20261104_0003854890
-  - 아시아경제: 경기 오산시의 실내형 미니어처 전시관인 &#039;오산미니어처빌리지&#039;가 지역관광개발 우수사례 최우수상에 선정됐다.
-    https://www.asiae.co.kr/article/2026110417461260121
-  - 전국도민일보: (오산=용만중 기자) 오산시(시장 조용호)는 ‘오산 미니어처 테마파크’가 문화체육관광부의 ‘2026년 지역관광개발사업 우수사례 및 컨설팅 이행 우수 지자체 시상’에서 지역관광개발 우수사례 최우수상에 선정됐다고 밝혔다.
-    http://www.dmilbo.com/news/articleView.html?idxno=571261
-
 ### 첨단 산업 한자리에…고양서 '드론·도심항공모빌리티 박람회'
 - 매체 3곳 · 뉴스1 · 뉴시스 · 연합뉴스  ← 여러 곳이 썼다
   - 연합뉴스: (고양=연합뉴스) 노승혁 기자 = 경기 고양시는 4일 킨텍스 제1전시장에서 '2026 드론·도심항공모빌리티 박람회'와 '2026 디지털미디어테크. ..
@@ -331,6 +333,15 @@
     https://www.news1.kr/photos/8196710
   - 뉴시스: [고양=뉴시스] 황준선 기자 = 4일 경기 고양시 킨텍스에서 개막한 2026 드론·도심항공모빌리티 박람회를 찾은 관람객이 다양한 무인기를 둘러보고 있다. 2026.11.04.
     https://www.newsis.com/view/NISI20261104_0021519121
+
+### 에어부산, 서비스 경쟁력 10년 연속 입증
+- 매체 3곳 · 문화일보 · 여행신문 · 파이낸셜뉴스  ← 여러 곳이 썼다
+  - 파이낸셜뉴스: 에어부산이 '2026 한국서비스품질지수' 저비용항공 부문 1위를 차지했다고 4일 밝혔다. 에어부산은 서비스의 정확성·친절성·이용 편리성 등 총 12개의 평가 항목 중 11개 부문에서 가장 높은 점수를 받았다.
+    https://www.fnnews.com/news/202611041836398355
+  - 문화일보: 부산=이승륜 기자 부산을 거점으로 성장해 온 에어부산이 실적 개선과 서비스 품질 평가에서 잇따라 성과를 내면서 진에어 중심의 저비용항공사(LCC) 통합을 둘러싼 논란이 다시 주목받고 있다. 올해 3분기 매출이 지난해보다 40% 이상 증가하고 영업이익도 흑자로 돌아선 데
+    https://www.munhwa.com/article/11628831
+  - 여행신문: 대한항공과 에어부산, 하나투어가 ‘2026 한국서비스품질지수(KS-SQI)’ 조사에서 각각 항공사·저비용항공사(LCC)·여행사 부문 1위를 차지했다. 대한항공과 하나투어는 5년 연속, 에어부산은 10년 연속 1위에 올랐다.
+    https://www.traveltimes.co.kr/news/articleView.html?idxno=500674
 
 ### 튀르키예 관광 수입 513억 달러, 역대 최대 실적 경신
 - 매체 3곳 · TTL뉴스 · 트래블데일리 · 한국경제  ← 여러 곳이 썼다
@@ -368,20 +379,23 @@
   - 한국일보: ① 이다해는 일본 이시가키섬으로 태교 여행을 다녀왔다고 밝혔습니다. ② 이다해는 삼각대와 휴대전화 리모컨으로 만삭 사진을 직접 찍었으며 결과에 만족했다고 전했습니다.
     https://www.hankookilbo.com/news/article/A2026110414070002011
 
-### 파르나스호텔앤리조트, 3분기 호텔·임대사업 고른 성장세
-- 매체 3곳 · TTL뉴스 · 뉴스1 · 뉴시스  ← 여러 곳이 썼다
-  - TTL뉴스: 파르나스호텔앤리조트가 웨스틴 서울 파르나스의 흑자 기조와 기존 호텔의 실적 개선, 임대사업 성장을 바탕으로 올해 3분기 전 사업장에서 매출과 영업이익 증가를 기록했다. 지난해 9월 문을 연 웨스틴 서울 파르나스는 개관 1년 만에 주요 성장동력으로 자리 잡았다.
-    http://www.ttlnews.com/news/articleView.html?idxno=3158857
-  - 뉴시스: [서울=뉴시스]김상윤 기자 = 파르나스호텔앤리조트가 올해 3분기 주요 호텔과 임대사업에서 고른 실적 성장세를 기록했다. 4일 파르나스호텔앤리조트에 따르면 지난해 9월 개관한 웨스틴 서울 파르나스가 흑자 기조를 이어간 가운데 기존 호텔들도 매출과 영업이익이 모두 증가했다.
-    https://www.newsis.com/view/NISX20261104_0003854992
-  - 뉴스1: 
-    https://www.news1.kr/industry/distribution/6343080
-
-## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 28건)
+## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 31건)
 
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
 
+- [2026-11-06·여행업계] 승객은 넘쳐도 수익은 글쎄…국제선 1억 명 시대의 그늘
+  국내 국제선 여객이 올해 처음으로 1억 명을 돌파할 것으로 전망되지만 항공업계의 표정이 마냥 밝지만은 않다. 여객 증가가 항공사 수익성 개선으로 직결되지 않는 데다 유가와 환율, 항공기 운영 비용 등 부담 요인이 여전하기 때문이다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500675
+- [2026-11-06·여행업계] 수하물 96시간 안 오면 최대 1,000달러 보상 추진하는 여행사? [주간 여행 산업 동향]
+  여행사 부문남프랑스 기차여행 상품 기획력 인정내일투어가 프랑스관광청이 주관한 ‘2026 프랑스 어워즈’에서 ‘혁신적인 프랑스 상품 부문’을 수상했다. 출품 상품은 프랑스 철도패스 6일권을 활용해 아를·아비뇽·니스 등을 자유롭게 여행하는 ‘남프랑스 아트 & 헤리티지 기차여행 금까기’로, 예술·역사·문화유산을 철도여행과 결합했다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500679
+- [2026-11-06·여행업계] 여행 경험 90%인데 로열티 가입은 25%…힐튼이 본 한국
+  힐튼이 ‘2027 트렌드 리포트’를 공개하고 국내 고객 접점 확대에 나섰다. 힐튼은 11월 3일 여의도 콘래드 서울에서 롯데카드·아메리칸 익스프레스와 함께 ‘힐튼 아너스 코브랜드 카드 미디어데이’를 열고 한국 여행객의 여행 성향과 코브랜드 카드 이용 현황을 발표했다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500677
+- [2026-11-06·여행업계] 항공·여행업계 서비스 품질 1위는?…최장 10년 연속
+  대한항공과 에어부산, 하나투어가 ‘2026 한국서비스품질지수(KS-SQI)’ 조사에서 각각 항공사·저비용항공사(LCC)·여행사 부문 1위를 차지했다. 대한항공과 하나투어는 5년 연속, 에어부산은 10년 연속 1위에 올랐다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500674
 - ✅ [2026-11-05·여행업계] 문화·체육·관광 예산 20.4%↑…12개 분야 중 증가율 3위
   2027년도 정부 예산안에서 문화·체육·관광 분야가 12개 재원배분 분야 가운데 세 번째로 높은 증가율을 기록했다. 문화·체육·관광 예산안은 올해보다 20.4% 늘어난 11조6,099억원으로, 정부 전체 총지출 증가율(12.8%)을 크게 웃돌았다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500673
@@ -520,18 +534,6 @@
 - ✅ [2026-10-28·여행업계] “2027년 한국인 4만 명 유치 목표”…이스라엘, 관광 회복 시동
   이스라엘이 한국 관광시장 회복을 위한 준비에 나섰다. 2027년 한국인 관광객 4만 명, 2028년에는 코로나19 이전 수준인 6만 명 이상을 유치한다는 목표다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500588
-- [2026-10-28·일본] “‘도쿄 바나나’처럼…한국에선 간장게장 사 가는 문화 만들고 싶어”
-  클룩이 진도군과 손잡고 지역 특산품 판매에 나섰다. 양측은 10월 19일 공항철도 서울역 지하 2층에 특산품 픽업센터 ‘글로벌 디지털 K-푸드 허브’를 개관했다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500580
-- ✅ [2026-10-27·여행업계] 2,000만 명 돌파 눈앞…방한 관광객 역대 최다 기록 갈아치웠다
-  한국을 찾은 외국인 관광객이 10월 말 역대 연간 최고 기록을 갈아치웠다. 지난해 한 해 동안 방문한 1,894만 명을 두 달여 앞서 넘어선 것이다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500616
-- ✅ [2026-10-27·여행업계] 세이버, 11월부터 대한항공(KE) 발권 서비스 전격 오픈!
-  국내 항공·여행업계의 GDS 장벽이 마침내 허물어진다. 한진세이버가 오는 11월부터 대한항공(KE) 전자항공권(ET, Electronic Ticket) 발권 서비스를 전격 오픈한다고 밝혔다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500608
-- ✅ [2026-10-27·여행업계] 한국인 95% “여가 목적의 1박 호텔 숙박 계획”
-  호텔스닷컴이 익스피디아 그룹의 2027년 여행 트렌드를 담은 ‘언팩 27(Unpack 27)’을 공개했다. 부산은 ‘2027 올해의 여행지’ 10곳에 한국에서는 유일하게 이름을 올렸다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500603
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
 (자유 이용 사진: 이름 후보 30개 확인, 사진 줄 3개)
@@ -550,10 +552,12 @@
   - ER 이코노믹리뷰: 영화진흥위원회가 운영하는 영화관입장권통합전산망 집계 기준, ‘최종면접’이 11월 4일 개봉 첫날 2만6700명을 동원하며 박스오피스 1위에 올랐다. 누적 관객수는 4만2574명이다.
     https://www.econovill.com/news/articleView.html?idxno=756113
 
-### 🔥 화제(매체 8곳) [movie] '호프', 프랑스 개봉 첫 주 80만 달러…올해 한국영화 최고 오프닝
-- 매체 1곳 · 이투데이
+### 🔥 화제(매체 14곳) [movie] '호프', 프랑스 개봉 첫 주 80만 달러…올해 한국영화 최고 오프닝
+- 매체 2곳 · 이투데이 · 조선일보  ← 여러 곳이 썼다
   - 이투데이: ▲영화 '호프' 스틸. (사진제공=플러스엠 엔터테인먼트) 나홍진 감독의 영화 '호프'(HOPE)가 프랑스 개봉 첫 주 올해 현지에서 개봉한 한국영화 가운데
     https://www.etoday.co.kr/news/view/2644147
+  - 조선일보: 나홍진 감독의 영화 호프가 프랑스에서 올해 개봉한 한국 영화 중 최고 오프닝 기록을 경신함. 개봉 첫 주 75만 5천 달러 수익을 올리며 파리 박스오피스 2위에 올랐고, 벨기에에서도 흥행 가도를 달리며 글로벌 시장에서의 성공 가능성을 증명함.
+    https://www.chosun.com/entertainments/2026/11/04/SPDRG6S5IVAEZELCLNXNWVTOQA/
 
 ### 🔥 화제(매체 7곳) [movie] ‘암살자(들)’ 10월 한국영화 1위
 - 매체 2곳 · bntnews · 조선일보  ← 여러 곳이 썼다
@@ -618,64 +622,64 @@
 (검색어 33개 · 고른 영상 15개)
 
 ## RIIZE 'Insomnia'｜Record Delivery📦｜Self Recording @SM ENTERTAINMENT｜LIVE
-- 채널 1theK Live - 원더케이 라이브 · 조회수 765,696회 · 7일 전
+- 채널 1theK Live - 원더케이 라이브 · 조회수 773,806회 · 7일 전
 - `@youtube 7H8ktQEYODM` · https://www.youtube.com/watch?v=7H8ktQEYODM
 
+## [리무진서비스] EP.240 리센느 리브 | RESCENE LIV | With, 그댄 달라요, 내 생에 아름다운, 왜 그래
+- 채널 KBS Kpop · 조회수 738,407회 · 1일 전
+- `@youtube a_c2mBMKuBE` · https://www.youtube.com/watch?v=a_c2mBMKuBE
+
 ## CHAERYEONG(채령) “Lovesick” M/V TEASER 1
-- 채널 JYP Entertainment · 조회수 620,099회 · 4일 전
+- 채널 JYP Entertainment · 조회수 623,324회 · 4일 전
 - `@youtube lFOHFisCxjs` · https://www.youtube.com/watch?v=lFOHFisCxjs
 
-## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DREAM Ver.)
-- 채널 HYBE LABELS · 조회수 477,698회 · 2일 전
-- `@youtube XItzOV6huqw` · https://www.youtube.com/watch?v=XItzOV6huqw
+## [#2026MAMA] STAR COUNTDOWN D-15 #RESCENE
+- 채널 Mnet K-POP · 조회수 329,972회 · 1일 전
+- `@youtube aJ61F8L9wmM` · https://www.youtube.com/watch?v=aJ61F8L9wmM
 
-## CHAERYEONG(채령) “Lovesick” M/V TEASER 2
-- 채널 JYP Entertainment · 조회수 297,561회 · 2일 전
-- `@youtube GbBLOGebxro` · https://www.youtube.com/watch?v=GbBLOGebxro
+## 푸른길 | 공식 예고편 | 넷플릭스
+- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 292,964회 · 1일 전
+- `@youtube KR4FSCGPtLM` · https://www.youtube.com/watch?v=KR4FSCGPtLM
 
 ## 앤더블 잘생긴 게 숨긴다고 숨겨지는 것도 아니고｜AND2BLE｜French Kissing｜내돌의 온도차｜GAP CRUSH
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 281,245회 · 6일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 287,624회 · 6일 전
 - `@youtube p9oG3KuymQo` · https://www.youtube.com/watch?v=p9oG3KuymQo
 
 ## [9화 예고] 마침내 시작되는 조선총독부를 향한 거사💥다가오는 김유정의 미국행..?!
-- 채널 tvN DRAMA · 조회수 272,795회 · 4일 전
+- 채널 tvN DRAMA · 조회수 275,400회 · 4일 전
 - `@youtube 4eZVj_ems7E` · https://www.youtube.com/watch?v=4eZVj_ems7E
 
-## [8화 예고] 김유정을 향한 마음이 깊어지는 태웅, 그리고 폭탄 작전을 계획하는 구국단💣
-- 채널 tvN DRAMA · 조회수 257,695회 · 5일 전
-- `@youtube bi8waMaB_9o` · https://www.youtube.com/watch?v=bi8waMaB_9o
-
 ## [7화 예고] "까야겠네, 강비서 여자인 거💥" 여자인 걸 들켜버린 설인아와 임시완의 깊어지는 오해😱 #나의유죄인간 EP.7
-- 채널 tvN DRAMA · 조회수 252,817회 · 2일 전
+- 채널 tvN DRAMA · 조회수 266,733회 · 2일 전
 - `@youtube 40VaBfB6e88` · https://www.youtube.com/watch?v=40VaBfB6e88
 
-## 푸른길 | 공식 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 243,472회 · 1일 전
-- `@youtube KR4FSCGPtLM` · https://www.youtube.com/watch?v=KR4FSCGPtLM
+## [8화 예고] 김유정을 향한 마음이 깊어지는 태웅, 그리고 폭탄 작전을 계획하는 구국단💣
+- 채널 tvN DRAMA · 조회수 257,844회 · 5일 전
+- `@youtube bi8waMaB_9o` · https://www.youtube.com/watch?v=bi8waMaB_9o
 
-## [6화 예고] 여전히 헷갈리는 이준의 감정과 재희의 착각🌀 그 와중에 성큼 다가온 이준X시아의 결혼?💍 #나의유죄인간 EP.6
-- 채널 tvN DRAMA · 조회수 230,489회 · 3일 전
-- `@youtube SyPlztnfwVE` · https://www.youtube.com/watch?v=SyPlztnfwVE
+## [2차 티저] 몽골 침략 28년, 고려의 마지막 희망을 찾아 떠난다 | 〈신의 구슬〉 12월 5일(토) 밤 10시 40분 첫 방송
+- 채널 JTBC Drama · 조회수 195,988회 · 2일 전
+- `@youtube ErfP5DT4bTk` · https://www.youtube.com/watch?v=ErfP5DT4bTk
 
 ## [14화 예고] 사는 게 이렇게 행복한 거란 거, 너 때문에 알았어 [너 말고 다른 연애] | KBS 방송
-- 채널 KBS Drama · 조회수 194,154회 · 5일 전
+- 채널 KBS Drama · 조회수 194,687회 · 5일 전
 - `@youtube Qo7lKzQs4AM` · https://www.youtube.com/watch?v=Qo7lKzQs4AM
 
-## [27화 선공개] 내 손 먼저 놓지 않겠다는 약속 꼭 지켜 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 175,422회 · 4일 전
-- `@youtube BRygIdiR_-w` · https://www.youtube.com/watch?v=BRygIdiR_-w
-
 ## Did I do something wrong?｜Between Two Chairs｜AND2BLE ZHANG HAO YOO SEUNGEON
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 148,415회 · 3일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 156,349회 · 3일 전
 - `@youtube 7X6AVEUKpRc` · https://www.youtube.com/watch?v=7X6AVEUKpRc
 
 ## ［28회 예고］네 식구들 하나하나 손봐준다 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 140,417회 · 4일 전
+- 채널 KBS Drama · 조회수 141,457회 · 4일 전
 - `@youtube Ruhp_ovcCcA` · https://www.youtube.com/watch?v=Ruhp_ovcCcA
 
 ## ［27회 예고］저는 무진 씨가 망했으면 좋겠습니다 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 128,179회 · 5일 전
+- 채널 KBS Drama · 조회수 128,285회 · 5일 전
 - `@youtube D2AINCYF3qs` · https://www.youtube.com/watch?v=D2AINCYF3qs
+
+## xikers 'DIENAMITE’｜On the Spot
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 92,000회 · 1일 전
+- `@youtube k-xc9wWWTDc` · https://www.youtube.com/watch?v=k-xc9wWWTDc
 
 
 
@@ -807,6 +811,21 @@ EBS <명의>에서는 15년 사이 환자 수가 약 3.5배로 늘어난 염증�
 EBS ‘스페이스 공감’ 엔플라잉·엑스디너리 히어로즈 ‘우리가 만들어가는 이야기’… 청춘의 낭만과 강렬한 록 사운드
 목록
 
+## MBC ? — 11/06 방송
+- 출처: MBC 보도자료 · https://with.mbc.co.kr/pr/press/view.html?idx=36942
+- 보도자료 제목: MBC 라디오 ‘별이 빛나는 밤에’ 박효신·플레이브 예준 스페셜 DJ 맡는다
+- 사진(자유 이용, 출연자 박효신): `![박효신 · 사진 달덩이 · CC BY 2.0 kr · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/e/e1/Park_Hyo-Shin18.jpg)`
+
+MBC 라디오 ‘별이 빛나는 밤에’ 박효신·플레이브 예준 스페셜 DJ 맡는다
+- 박효신, 11월 2~5일 스페셜 별밤지기…세 번째 DJ 인연
+- 플레이브 예준, 11월 6~8일 스페셜 DJ…별밤지기 첫 도전
+가수 박효신과 버추얼 아이돌 그룹 플레이브(PLAVE)의 예준이 MBC 라디오 ‘별이 빛나는 밤에’의 스페셜 DJ로 청취자들과 만난다.
+MBC 라디오에 따르면 박효신과 예준은 오는 11월 2일(월)부터 8일(일)까지 일주일간 MBC FM4U ‘별이 빛나는 밤에’의 스페셜 DJ를 맡는다. DJ 김이나가 자리를 비우는 동안 두 아티스트가 차례로 진행을 맡아 각기 다른 매력으로 프로그램을 이끌 예정이다.
+먼저 박효신은 11월 2일(월)부터 5일(목)까지 나흘간 스페셜 별밤지기로 활약한다. 박효신은 2022년 9월 김이나의 휴가 기간에 첫 스페셜 DJ를 맡으며 약 10년 만에 라디오 진행에 나서 화제를 모았다. 이후 2024년 1월에도 일주일간 스페셜 DJ로 출연했으며, 지난해 1월에는 별밤 초대석에서 신곡 ‘HERO’의 작업 비하인드와 음악에 얽힌 이야기를 나눈 바 있다.
+이어 플레이브 예준이 11월 6일(금)부터 8일(일)까지 사흘간 스페셜 별밤지기로 나선다. 플레이브는 지난 4월 별밤 초대석을 통해 ‘별밤’ 청취자들과 처음으로 만났으며, 이후 예준도 수요일 코너 ‘영업합니다’의 스페셜 코너지기로 출연하며 인연을 이어갔다. 이번에 별밤지기로서는 처음 마이크를 잡는다.
+이처럼 ‘별밤’과 인연을 맺어 온 박효신과 예준은 스페셜 DJ로서 각자의 개성과 매력으로 청취자들을 만날 예정이다. 서로 다른 음악적 색깔을 지닌 두 아티스트가 ‘별밤’을 어떤 이야기로 채워갈지 관심이 모인다.
+한편 박효신과 예준이 스페셜 DJ를 맡는 ‘별이 빛나는 밤에’는 MBC FM4U(수도권 91.9MHz)에서 매일 저녁 8시부터 10시까지 방송되는 MBC 라디오의 최장수 프로그램이다, 공식 홈페이지 및 MBC라디오 앱 ‘미니(mini)’, Youtube 'Mhz 므흐즈: MBC RADIO'와 '아이돌 라디오 유니버스 IDOL RADIO UNIVERSE' 채널을 통해서도 청취할 수 있다.
+
 ## SBS 비서진 — 11/06 방송
 - 출처: SBS 보도자료(예능) · https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9348
 - 보도자료 제목: [SBS 비서진] 이서진♥하지원, ‘아프냐? 나도 아프다’ 23년 만에 부활…‘다모 폐인’ 울린 명장면 완벽 재현
@@ -884,4 +903,4 @@ EBS 1부에서 ‘셋로그다큐’로 통해 학교 밖 청소년들의 뜨거
 목록
 
 ---
-수집 실패: SBS 편성표: Expecting value: line 1 column 1 (char 0) / SBS 편성표: Expecting value: line 1 column 1 (char 0) / MBC 목록: timed out
+수집 실패: SBS 편성표: Expecting value: line 1 column 1 (char 0) / SBS 편성표: Expecting value: line 1 column 1 (char 0)
