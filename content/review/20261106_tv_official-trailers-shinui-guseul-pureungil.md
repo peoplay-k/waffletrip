@@ -8,16 +8,18 @@ kind: 해설
 title: JTBC '신의 구슬' 2차 티저·넷플릭스 '푸른길' 예고편…공식 영상 조회수 상위
 source_name: ''
 source_url: ''
-summary: JTBC 새 토일드라마 '신의 구슬'이 12월 5일(토) 밤 10시 40분 첫 방송을 앞두고 공개한 2차 티저가 이틀 만에 조회수 19만 회를 넘었다. 넷플릭스는 손석구·나가야마 에이타의 한일 수사극 '푸른길' 공식 예고편을 공개해 하루 만에 29만 회를 기록했다.
+summary: JTBC 새 토일드라마 '신의 구슬'이 12월 5일(토) 밤 10시 40분 첫 방송을 앞두고 공개한 2차 티저가 이틀 만에 조회수
+  19만 회를 넘었다. 넷플릭스는 손석구·나가야마 에이타의 한일 수사극 '푸른길' 공식 예고편을 공개해 하루 만에 29만 회를 기록했다.
 sources:
 - https://www.youtube.com/watch?v=ErfP5DT4bTk
 - https://www.youtube.com/watch?v=KR4FSCGPtLM
 - http://breaknews.com/1247645
 - https://www.newscj.com/news/articleView.html?idxno=3446134
 - https://www.esquirekorea.co.kr/article/1912427
-status: approved
+status: published
+published_id: c-e0416b7c78b4e350748432fddb2282cc3b534c3e
+published_on: '2026-11-06'
 ---
-
 연말 방송·OTT 기대작들이 공식 영상으로 먼저 시청자를 만나고 있다. 방송사·플랫폼 공식 유튜브에 지난 일주일 올라온 영상 가운데 조회수 상위권에 든 두 편을 골랐다.
 
 ## JTBC '신의 구슬' 2차 티저

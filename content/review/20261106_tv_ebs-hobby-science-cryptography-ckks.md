@@ -8,12 +8,14 @@ kind: 보도자료
 title: EBS '취미는 과학', 암호는 왜 자주 털리나…동형 암호 'CKKS' 천정희 교수 출연
 source_name: ''
 source_url: ''
-summary: EBS1 '취미는 과학'이 6일 밤 10시 50분 '암호, 왜 이렇게 자주 털리나?' 편을 방송한다. 데프콘과 장홍제·정우현 교수, 과학 커뮤니케이터 항성이 동형 암호 'CKKS'를 공동 개발한 서울대 천정희 교수를 만나 암호의 원리와 차세대 암호 기술을 살핀다.
+summary: EBS1 '취미는 과학'이 6일 밤 10시 50분 '암호, 왜 이렇게 자주 털리나?' 편을 방송한다. 데프콘과 장홍제·정우현 교수,
+  과학 커뮤니케이터 항성이 동형 암호 'CKKS'를 공동 개발한 서울대 천정희 교수를 만나 암호의 원리와 차세대 암호 기술을 살핀다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005605326
-status: approved
+status: published
+published_id: c-57e893dada0675b63b05248925b8d4dfb8ec5ec6
+published_on: '2026-11-06'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 취미는 과학 | 회차 · '암호, 왜 이렇게 자주 털리나?'
 > 방송 · 2026년 11월 6일(금) 밤 10시 50분

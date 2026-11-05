@@ -8,19 +8,21 @@ kind: 보도자료
 title: 나영석 새 예능 '그냥사람친구' 27일 첫 방송…이서진·한지민의 85년 우정 여행
 source_name: ''
 source_url: ''
-summary: tvN이 나영석 PD의 새 예능 '그냥사람친구'를 27일 첫 방송한다. 연예계 대표 남사친·여사친들이 도합 85년 우정을 기념해 떠나는 여행기로, 이서진과 한지민이 출연한다.
+summary: tvN이 나영석 PD의 새 예능 '그냥사람친구'를 27일 첫 방송한다. 연예계 대표 남사친·여사친들이 도합 85년 우정을 기념해 떠나는
+  여행기로, 이서진과 한지민이 출연한다.
 sources:
 - https://www.jnilbo.com/news/articleView.html?idxno=90000079713
 - https://www.yna.co.kr/view/AKR20261104147700005
-status: approved
+status: published
+published_id: c-a9291838368bd5c1a82408734718b720ea9528a7
+published_on: '2026-11-06'
 ---
-
 > **방송 정보**
 > 채널 · tvN | 프로그램 · 그냥사람친구 | 연출 · 나영석
 > 첫 방송 · 2026년 11월 27일
 > 출연 · 이서진, 한지민
 
-나영석 PD가 새 여행 예능을 들고 돌아온다. tvN은 새 예능 프로그램 '그냥사람친구'를 오는 27일 첫 방송한다고 밝혔다.
+나영석 PD가 새 여행 예능을 들고 돌아온다. 새 예능 프로그램 '그냥사람친구'를 오는 27일 첫 방송한다.
 
 ![나영석 · 사진 Awesong · CC BY-SA 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/7/74/%EB%82%98%EC%98%81%EC%84%9D_%ED%94%BC%EB%94%94.jpg)
 

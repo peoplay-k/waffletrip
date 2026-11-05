@@ -7,13 +7,15 @@ kind: 해설
 title: 필라델피아관광청, 뒤샹 회고전·조성진 협연 앞세운 겨울 여행 제안
 source_name: ''
 source_url: ''
-summary: 필라델피아관광청이 전시·공연 중심의 겨울 여행 테마를 소개했다. 50여 년 만의 미국 대규모 마르셀 뒤샹 회고전, 피아니스트 조성진과 필라델피아 오케스트라의 협연, 토니상 6관왕 브로드웨이 뮤지컬 공연이 내년 봄까지 이어진다.
+summary: 필라델피아관광청이 전시·공연 중심의 겨울 여행 테마를 소개했다. 50여 년 만의 미국 대규모 마르셀 뒤샹 회고전, 피아니스트 조성진과
+  필라델피아 오케스트라의 협연, 토니상 6관왕 브로드웨이 뮤지컬 공연이 내년 봄까지 이어진다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500668
 - https://www.traveldaily.co.kr/news/articleView.html?idxno=72560
-status: approved
+status: published
+published_id: c-863aadfa813fafdad21a00645fbd5a31cacb77f7
+published_on: '2026-11-06'
 ---
-
 미국 필라델피아가 올겨울 문화예술 여행지로 손을 들었다. 필라델피아관광청은 전시와 공연을 중심에 두고 도심의 역사 명소, 거리 예술, 미식을 엮은 겨울 여행 테마를 한국 시장에 소개했다.
 
 가장 앞세운 것은 마르셀 뒤샹 회고전이다. 미국에서 50여 년 만에 열리는 대규모 뒤샹 회고전으로, 현대미술의 방향을 바꾼 작가의 작품을 한자리에서 볼 기회다.
