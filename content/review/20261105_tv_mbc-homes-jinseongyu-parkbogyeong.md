@@ -8,12 +8,14 @@ kind: 보도자료
 title: MBC '구해줘! 홈즈', 청룡상 부부 진선규·박보경 첫 동반 예능…'상 받은 집' 임장
 source_name: ''
 source_url: ''
-summary: MBC '구해줘! 홈즈'가 5일 밤 10시 '상 받은 집' 편을 방송한다. 배우 진선규·박보경 부부가 처음으로 함께 예능에 나서 양세찬·주우재와 대학로 옆 40년 된 상가주택을 찾는다.
+summary: MBC '구해줘! 홈즈'가 5일 밤 10시 '상 받은 집' 편을 방송한다. 배우 진선규·박보경 부부가 처음으로 함께 예능에 나서 양세찬·주우재와
+  대학로 옆 40년 된 상가주택을 찾는다.
 sources:
 - https://with.mbc.co.kr/pr/press/view.html?idx=36953
-status: approved
+status: published
+published_id: c-fca909dd52eb7cedbce0cddb5df8f651a9cdcb78
+published_on: '2026-11-05'
 ---
-
 > **방송 정보**
 > 채널 · MBC | 프로그램 · 구해줘! 홈즈 | 회차 · '상 받은 집' 편
 > 방송 · 2026년 11월 5일(목) 밤 10시

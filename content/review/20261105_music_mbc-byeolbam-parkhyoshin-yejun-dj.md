@@ -8,12 +8,14 @@ kind: 보도자료
 title: 박효신·플레이브 예준, MBC 라디오 '별이 빛나는 밤에' 스페셜 DJ
 source_name: ''
 source_url: ''
-summary: 가수 박효신과 플레이브 예준이 11월 2일부터 8일까지 MBC FM4U '별이 빛나는 밤에' 스페셜 DJ를 맡는다. 박효신은 5일까지, 예준은 6~8일 진행한다.
+summary: 가수 박효신과 플레이브 예준이 11월 2일부터 8일까지 MBC FM4U '별이 빛나는 밤에' 스페셜 DJ를 맡는다. 박효신은 5일까지,
+  예준은 6~8일 진행한다.
 sources:
 - https://with.mbc.co.kr/pr/press/view.html?idx=36942
-status: approved
+status: published
+published_id: c-876dc5b5f9b7825b2aed768a4a5c6b96004693b1
+published_on: '2026-11-05'
 ---
-
 가수 박효신과 버추얼 아이돌 그룹 플레이브의 예준이 MBC 라디오 '별이 빛나는 밤에'의 마이크를 차례로 잡는다. DJ 김이나가 자리를 비우는 11월 2일부터 8일까지 일주일 동안 두 사람이 스페셜 DJ로 나선다.
 
 ![박효신 · 사진 달덩이 · CC BY 2.0 kr · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/e/e1/Park_Hyo-Shin18.jpg)
