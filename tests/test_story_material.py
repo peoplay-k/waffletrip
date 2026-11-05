@@ -97,3 +97,29 @@ def test_기사_말은_사람_이름으로_보지_않는다():
     from story_material import ent_names
     names = ent_names("'국민 걸그룹' 차트 강타! 리센느, 신보 발매 2시간만 멜론 TOP100 1위")
     assert "강타" not in names and "리센느" in names
+
+
+def test_공식_채널_인기_영상만_고른다():
+    """2026-11-05 사장님: "유튜브 … 1만 이상 되는 영상 보고 그걸 기사화해서 올리는 거"."""
+    import official_videos as ov
+    assert ov.views_of("조회수 12,345회") == 12345
+    assert ov.views_of("조회수 1.2만회") == 12000
+    assert ov.views_of("조회수 없음") == 0
+
+    def vr(vid, channel, views, age, verified=True, cid="UCx"):
+        badge = ',"badges":[{"style":"BADGE_STYLE_TYPE_VERIFIED"}]' if verified else ""
+        return ('"videoRenderer":{"videoId":"%s","title":{"runs":[{"text":"영상 %s"}]},'
+                '"ownerText":{"runs":[{"text":"%s"}]},"browseId":"%s",'
+                '"publishedTimeText":{"simpleText":"%s"},"viewCountText":{"simpleText":"조회수 %s회"}%s},'
+                % (vid, vid, channel, cid, age, views, badge))
+    html = (vr("aaaaaaaaaaa", "HYBE LABELS", "152,003", "2일 전")
+            + vr("bbbbbbbbbbb", "여행 브이로거", "90,000", "1일 전")            # 개인 — 빠진다
+            + vr("ccccccccccc", "HYBE LABELS", "9,999", "1일 전")              # 1만 미만
+            + vr("ddddddddddd", "JYP Entertainment", "50,000", "2주 전")        # 일주일 넘음
+            + vr("eeeeeeeeeee", "KBS Drama", "20,000", "3일 전", verified=False,
+                 cid="UChpjIaEgwtDZtmWEkzFulSA")                                 # 방송사 id 목록
+            + vr("fffffffffff", "SMTOWN 팬계정", "80,000", "1일 전", verified=False))  # 배지 없음
+    got = [v["id"] for v in ov.pick(ov.parse_results(html))]
+    assert got == ["aaaaaaaaaaa", "eeeeeeeeeee"]
+    md = ov.to_markdown({"items": [{**ov.parse_results(html)[0], "description": "설명"}], "queries": 3})
+    assert "@youtube aaaaaaaaaaa" in md and "조회수 152,003회" in md

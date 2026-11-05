@@ -321,6 +321,7 @@ def main() -> int:
     # 연예 거리. 지역이 없으므로 한 절에 모은다. 여기 있는 것은 **편집실에서 사람이
     # 쓴다** — 예약 해설 에이전트는 연예 기사를 쓰지 않는다(DAILY_COMMENTARY.md).
     # 가십은 edit 단계에서 이미 걸렀지만, 보도자료성 발표만 재료로 삼는다.
+    ent_groups_for_video: list[list[dict]] = []
     if ent_rows:
         groups = cluster(ent_rows)
         groups.sort(key=lambda g: max((i.get("published_at") or "") for i in g),
@@ -331,6 +332,7 @@ def main() -> int:
         groups.sort(key=lambda g: -outlets_of(g))
         picked = groups[:args.per_region * 2]
         photos = ent_photo_lines(picked) if picked else {}
+        ent_groups_for_video = picked
         if picked:
             lines.append("## 연예 — 매체 수가 많은 순, 🔥 화제부터")
             asked = sum(len(ent_names(g[0].get("title") or "")) for g in picked)
@@ -356,6 +358,20 @@ def main() -> int:
                         lines.append(f"    {i['source_url']}")
                 lines.append("")
     lines.append(f"---\n거리 {total}건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.")
+
+    # 공식 채널 인기 영상(2026-11-05 사장님: "유튜브 … 1만 이상 되는 영상 보고 그걸 기사화해서
+    # 올리는 거", "니가 모든 기사들 다 훑어보고 거기에 맞는 내용 가지고 와"). 기본 검색어에 더해
+    # 오늘 연예 화제의 이름으로도 그 사람·그룹의 공식 영상을 찾는다.
+    try:
+        import official_videos
+        names = [n for g in (ent_groups_for_video or []) for n in ent_names(g[0].get("title") or "")]
+        ov = official_videos.collect(names[:12])
+        lines += ["", "", official_videos.to_markdown(ov)]
+        print(f"공식 채널 인기 영상 {len(ov['items'])}건"
+              + (f" · 실패 {len(ov['errors'])}" if ov["errors"] else ""))
+    except Exception as e:  # noqa: BLE001 — 어떤 실패도 기사거리를 막지 않는다
+        lines += ["", f"(공식 채널 인기 영상 수집 실패: {e})"]
+        print(f"공식 채널 인기 영상 수집 실패: {e}", file=sys.stderr)
 
     # 연예 '방송' 재료(오늘·내일 방송 회차의 보도자료). 워크플로가 커밋하는 파일이
     # 이것뿐이라 여기에 덧붙인다 — 워크플로 파일은 이 저장소 토큰으로 못 고친다.
