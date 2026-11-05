@@ -75,7 +75,14 @@ def _norm(name: str) -> str:
     return re.sub(r"\s+", "", (name or "").lower())
 
 
+# 방송사 '뉴스' 채널은 받지 않는다 — 기자가 취재한 보도라 우리가 옮기면 남의 취재를 싣게 된다
+# (2026-11-05 첫 실행에 SBS 뉴스 영상 4건이 끼었다). 예능·드라마·공식 예고·뮤직비디오만 받는다.
+NEWS = re.compile(r"뉴스|news|ytn|연합", re.I)
+
+
 def is_official(channel_id: str, channel: str, verified: bool) -> bool:
+    if NEWS.search(channel or ""):
+        return False
     if channel_id in OFFICIAL_YT:
         return True
     n = _norm(channel)
@@ -90,8 +97,10 @@ def parse_results(html: str) -> list[dict]:
         nxt = chunk.find('"videoRenderer":', 20)
         if nxt > 0:
             chunk = chunk[:nxt]
-        title = re.search(r'"title":\{"runs":\[\{"text":"([^"]+)"', chunk)
-        owner = re.search(r'"ownerText":\{"runs":\[\{"text":"([^"]+)"', chunk)
+        # 제목·채널 이름 안의 \" 에서 끊기지 않게 이스케이프된 따옴표까지 읽는다(2026-11-05 첫 실행:
+        # tvN 예고 "[7화 예고] \"…\"" 가 "[7화 예고] \" 로 잘렸다)
+        title = re.search(r'"title":\{"runs":\[\{"text":"((?:[^"\\]|\\.)+)"', chunk)
+        owner = re.search(r'"ownerText":\{"runs":\[\{"text":"((?:[^"\\]|\\.)+)"', chunk)
         chan = re.search(r'"browseId":"(UC[\w-]+)"', chunk)
         age = re.search(r'"publishedTimeText":\{"simpleText":"([^"]+)"', chunk)
         vc = re.search(r'"viewCountText":\{"simpleText":"([^"]+)"', chunk)

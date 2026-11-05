@@ -123,3 +123,15 @@ def test_공식_채널_인기_영상만_고른다():
     assert got == ["aaaaaaaaaaa", "eeeeeeeeeee"]
     md = ov.to_markdown({"items": [{**ov.parse_results(html)[0], "description": "설명"}], "queries": 3})
     assert "@youtube aaaaaaaaaaa" in md and "조회수 152,003회" in md
+
+
+def test_뉴스_채널은_빼고_따옴표_든_제목은_끝까지_읽는다():
+    import official_videos as ov
+    assert not ov.is_official("UCx", "SBS 뉴스", True)
+    assert not ov.is_official("UCx", "KBS News", True)
+    assert ov.is_official("UCx", "tvN DRAMA", True)
+    html = ('"videoRenderer":{"videoId":"ggggggggggg","title":{"runs":[{"text":"[7화 예고] \\"태웅의 결심\\" 공개"}]},'
+            '"ownerText":{"runs":[{"text":"tvN DRAMA"}]},"publishedTimeText":{"simpleText":"2일 전"},'
+            '"viewCountText":{"simpleText":"조회수 20,000회"},"badges":[{"style":"BADGE_STYLE_TYPE_VERIFIED"}]},')
+    v = ov.parse_results(html)[0]
+    assert v["title"] == '[7화 예고] "태웅의 결심" 공개'
