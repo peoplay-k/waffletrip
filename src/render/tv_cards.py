@@ -23,6 +23,18 @@ CORAL = (240, 78, 55)
 MUTED = (110, 110, 115)
 LINE = (234, 234, 231)
 
+# 부문마다 바탕색을 달리한다(2026-11-05 사장님: "글만 있으니 너무 별로야" — 지면이 흰 바탕으로
+# 바뀌자 흰 카드가 본문 제목과 겹쳐 그림으로 보이지 않았다). 짙은 바탕에 흰 글씨로, 부문을
+# 한눈에 가를 수 있게 한다. (바탕, 강조, 흐린 글씨)
+THEMES = {
+    "영화": ((28, 34, 58), (255, 122, 99), (170, 178, 204)),
+    "방송·드라마": ((14, 14, 15), (255, 107, 84), (160, 160, 166)),
+    "음악": ((52, 28, 70), (255, 145, 120), (196, 176, 214)),
+    "공연·전시": ((26, 54, 48), (255, 140, 110), (168, 200, 190)),
+    "스타의 여행": ((240, 78, 55), (255, 236, 200), (255, 214, 204)),
+}
+DEFAULT_THEME = THEMES["방송·드라마"]
+
 FONTS = (
     "/System/Library/Fonts/AppleSDGothicNeo.ttc",
     "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
@@ -93,22 +105,30 @@ def draw_card(title: str, date: str, path: str, kicker: str = "오늘 방송",
     big = _font(64)
     if big is None:
         return False
-    im = Image.new("RGB", (W, H), PAPER)
+    bg, accent, soft = THEMES.get(section, DEFAULT_THEME)
+    im = Image.new("RGB", (W, H), bg)
     d = ImageDraw.Draw(im)
-    d.rectangle((0, 0, W, 10), fill=INK)
+    # 오른쪽 아래에 부문 이름을 크고 옅게 깐다 — 글자만 있는 카드에 무게를 준다
+    size = 170
+    while size > 90 and (_font(size) is None or d.textlength(section, font=_font(size)) > W - 160):
+        size -= 10
+    mark = _font(size)
+    if mark is not None:
+        tint = tuple(int(c * 0.9 + w * 0.1) for c, w in zip(bg, PAPER))
+        d.text((W - 80 - d.textlength(section, font=mark), 470 - size), section, font=mark, fill=tint)
     head = f"{SITE_NAME} 문화 · {section}" if kicker != section else f"{SITE_NAME} 문화"
-    d.text((80, 70), head, font=_font(34), fill=MUTED)
-    d.ellipse((80, 140, 104, 164), fill=CORAL)
-    d.text((118, 128), kicker, font=_font(34), fill=CORAL)
+    d.text((80, 70), head, font=_font(34), fill=soft)
+    d.ellipse((80, 140, 104, 164), fill=accent)
+    d.text((118, 128), kicker, font=_font(34), fill=accent)
     y = 210
     for line in _wrap(d, title, big, W - 160, 3):
-        d.text((80, y), line, font=big, fill=INK)
+        d.text((80, y), line, font=big, fill=PAPER)
         y += 86
-    d.line((80, 500, W - 80, 500), fill=LINE, width=2)
-    d.text((84, 530), date, font=_font(28), fill=INK)
+    d.line((80, 500, W - 80, 500), fill=soft, width=2)
+    d.text((84, 530), date, font=_font(28), fill=PAPER)
     d.text((W - 84 - d.textlength(f"{SITE_NAME_EN} · {DOMAIN}", font=_font(26)), 532),
-           f"{SITE_NAME_EN} · {DOMAIN}", font=_font(26), fill=MUTED)
-    d.rectangle((0, H - 10, W, H), fill=CORAL)
+           f"{SITE_NAME_EN} · {DOMAIN}", font=_font(26), fill=soft)
+    d.rectangle((0, H - 10, W, H), fill=accent)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     im.save(path, "JPEG", quality=86, optimize=True)
     return True
