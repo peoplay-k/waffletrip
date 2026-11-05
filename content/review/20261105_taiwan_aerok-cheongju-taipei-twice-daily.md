@@ -4,17 +4,19 @@ channel: travel
 region: taiwan
 section: flight
 kind: 보도자료
-title: "에어로케이, 27일부터 청주~타이베이 하루 2회 정기 운항"
+title: 에어로케이, 27일부터 청주~타이베이 하루 2회 정기 운항
 source_name: ''
 source_url: ''
-summary: 에어로케이항공이 27일부터 청주~타이베이 노선을 하루 두 번 정기 운항한다. 8월부터 10월 초까지 임시로 하루 2회를 띄워 수요를 확인한 결과다.
+summary: 에어로케이항공이 27일부터 청주~타이베이 노선을 하루 두 번 정기 운항한다. 8월부터 10월 초까지 임시로 하루 2회를 띄워 수요를
+  확인한 결과다.
 sources:
-  - https://www.daejonilbo.com/news/articleView.html?idxno=2311764
-  - https://www.inews24.com/view/2023006
-  - https://www.jbnews.com/news/articleView.html?idxno=1515171
-status: approved
+- https://www.daejonilbo.com/news/articleView.html?idxno=2311764
+- https://www.inews24.com/view/2023006
+- https://www.jbnews.com/news/articleView.html?idxno=1515171
+status: published
+published_id: c-fb6d20b9bea35539e5e9867141289b8e88c699df
+published_on: '2026-11-05'
 ---
-
 에어로케이항공이 27일부터 청주국제공항과 타이베이를 잇는 노선을 하루 2회 정기 운항한다. 겨울철에는 심야편 운항도 검토 중이다.
 
 에어로케이는 5일 지난 8월부터 10월 초까지 이 노선을 임시로 하루 2회 운항하며 수요를 살펴봤다고 밝혔다. 이 기간 양방향에서 꾸준한 수요가 확인돼 정기 스케줄로 바꾸기로 했다는 설명이다. 비행시간은 2시간대다.

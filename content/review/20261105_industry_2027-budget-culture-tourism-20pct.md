@@ -4,17 +4,19 @@ channel: travel
 region: industry
 section: data
 kind: 해설
-title: "2027년 문화·체육·관광 예산안 11조6099억원, 올해보다 20.4% 증가"
+title: 2027년 문화·체육·관광 예산안 11조6099억원, 올해보다 20.4% 증가
 source_name: ''
 source_url: ''
-summary: 2027년도 정부 예산안에서 문화·체육·관광 분야가 20.4% 늘어난 11조6099억원으로 12개 분야 중 증가율 3위를 기록했다. MICE 예산을 두고는 업계와 정부 설명이 엇갈린다.
+summary: 2027년도 정부 예산안에서 문화·체육·관광 분야가 20.4% 늘어난 11조6099억원으로 12개 분야 중 증가율 3위를 기록했다.
+  MICE 예산을 두고는 업계와 정부 설명이 엇갈린다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500673
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500648
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500645
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500673
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500648
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500645
+status: published
+published_id: c-7b307e8c8aab78051e4be74c11e473b4c9aceec2
+published_on: '2026-11-05'
 ---
-
 2027년도 정부 예산안에서 문화·체육·관광 분야 예산이 올해보다 20.4% 늘어난 11조6099억원으로 편성됐다. 정부 12개 재원배분 분야 가운데 증가율이 세 번째로 높다.
 
 이 증가율은 정부 전체 총지출 증가율 12.8%를 크게 웃돈다. 관광업계는 지방공항 중심 관광권 육성, 숙박·교통 수용태세 개선 같은 지역관광 사업에 예산이 얼마나 돌아갈지 지켜보고 있다.

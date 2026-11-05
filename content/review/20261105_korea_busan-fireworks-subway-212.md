@@ -4,19 +4,21 @@ channel: travel
 region: korea
 section: news
 kind: 보도자료
-title: "부산교통공사, 불꽃축제 당일 도시철도 212회 증편…안전인력 1341명 투입"
+title: 부산교통공사, 불꽃축제 당일 도시철도 212회 증편…안전인력 1341명 투입
 source_name: ''
 source_url: ''
-summary: 부산교통공사가 7일 열리는 제21회 부산불꽃축제에 맞춰 도시철도 1~3호선을 212회 추가 운행하고 안전인력 1341명을 배치한다. 행사 뒤에는 배차간격을 3~5분으로 줄인다.
+summary: 부산교통공사가 7일 열리는 제21회 부산불꽃축제에 맞춰 도시철도 1~3호선을 212회 추가 운행하고 안전인력 1341명을 배치한다.
+  행사 뒤에는 배차간격을 3~5분으로 줄인다.
 sources:
-  - https://www.mhns.co.kr/news/articleView.html?idxno=767439
-  - https://www.asiae.co.kr/article/2026110409310133684
-  - https://www.metroseoul.co.kr/article/20261104500593
-  - https://www.munhwa.com/article/11628787
-  - https://www.newstown.co.kr/news/articleView.html?idxno=720821
-status: approved
+- https://www.mhns.co.kr/news/articleView.html?idxno=767439
+- https://www.asiae.co.kr/article/2026110409310133684
+- https://www.metroseoul.co.kr/article/20261104500593
+- https://www.munhwa.com/article/11628787
+- https://www.newstown.co.kr/news/articleView.html?idxno=720821
+status: published
+published_id: c-6cef99eba4589b7bb01752739d29ddeaa27d5ed2
+published_on: '2026-11-05'
 ---
-
 부산교통공사가 7일 광안리해수욕장 일대에서 열리는 제21회 부산불꽃축제에 맞춰 도시철도 1~3호선 열차를 212회 추가 운행한다. 관람객이 몰리는 역에는 안전인력 1341명을 두고, 혼잡이 심해지면 역 출입을 통제한다.
 
 부산교통공사는 4일 축제 당일 인파 집중에 대비한 특별수송대책을 마련했다고 밝혔다. 대책의 중심은 증편이다. 1~3호선 열차를 평소보다 212회 더 띄우고, 행사가 끝난 뒤에는 열차 배차간격을 3~5분으로 줄여 귀가 수요를 나눈다.
