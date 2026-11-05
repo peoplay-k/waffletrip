@@ -4,18 +4,20 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "부산, 트립질라 '최고의 미식 관광 목적지' 선정…2년 연속 수상"
+title: 부산, 트립질라 '최고의 미식 관광 목적지' 선정…2년 연속 수상
 source_name: ''
 source_url: ''
-summary: 부산시는 동남아시아 온라인 여행 미디어 트립질라가 주관한 '2026 트립질라 엑설런스 어워즈'에서 '최고의 미식 관광 목적지'로 뽑혔다고 밝혔다. 지난해 도시 관광 부문에 이어 2년 연속 수상이다.
+summary: 부산시는 동남아시아 온라인 여행 미디어 트립질라가 주관한 '2026 트립질라 엑설런스 어워즈'에서 '최고의 미식 관광 목적지'로 뽑혔다고
+  밝혔다. 지난해 도시 관광 부문에 이어 2년 연속 수상이다.
 sources:
-  - https://www.yna.co.kr/view/AKR20261105020600051
-  - https://m.joongdo.co.kr/view.php?key=20261105010001874
-  - https://www.sedaily.com/article/20110499
-  - http://www.surprisenews.kr/news/articleView.html?idxno=719850
-status: approved
+- https://www.yna.co.kr/view/AKR20261105020600051
+- https://m.joongdo.co.kr/view.php?key=20261105010001874
+- https://www.sedaily.com/article/20110499
+- http://www.surprisenews.kr/news/articleView.html?idxno=719850
+status: published
+published_id: c-076e7291915eb5f3696ea196f1fb284bd559eee3
+published_on: '2026-11-06'
 ---
-
 부산이 동남아시아 여행 시장에서 음식으로 주목받았다. 부산시는 동남아시아 대표 온라인 여행 미디어 트립질라가 주관하는 '2026 트립질라 엑설런스 어워즈'에서 '최고의 미식 관광 목적지'로 선정됐다고 5일 밝혔다.
 
 부산은 지난해 같은 시상식에서 '최고의 도시 관광 목적지'에 이름을 올렸다. 올해 미식 부문까지 받으면서 2년 연속 수상 기록을 이어 갔다. 동남아 여행 미디어가 두 해 연달아 부산을 목적지로 꼽은 셈이다.
