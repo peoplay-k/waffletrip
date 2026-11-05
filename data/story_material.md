@@ -15,6 +15,13 @@
   - Investing.com 한국어: 
     https://kr.investing.com/news/stock-market-news/article-2157528
 
+### First Alert Forecast: Breezy winds with scattered showers expected to persist through the week
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: Winds could strengthen again above advisory levels Tuesday evening into Wednesday.
+    https://www.hawaiinewsnow.com/2026/11/03/first-alert-forecast-breezy-winds-with-scattered-showers-expected-persist-through-week/
+  - Hawaii News Now: A dominating high pressure system to our north will keep the trade winds elevated through the weekend. There will be some variations, but generally winds will b
+    https://www.hawaiinewsnow.com/2026/11/04/first-alert-forecast-wet-breezy-trade-winds/
+
 ## 베트남
 
 ### 다낭이 2027년 가장 인기 있는 여행지 10위 안에 동남아시아 대표로 선정된 이유는 무엇일까요?
@@ -41,10 +48,10 @@
   - TTL뉴스: 최근 베트남 나트랑이 한국인들의 최우선 휴양지로 각광받는 가운데, 나트랑 북부 해안가에 새롭게 문을 연 5성급 호텔 '보코 세니아 베이 나트랑(voco Scenia Bay Nha Trang by IHG)'이 우수한 숙박 인프라와 맞춤형 서비스로 주목받고 있다. 로비에 들어서는 순간부터 
     http://www.ttlnews.com/news/articleView.html?idxno=3158834
 
-### 다낭과 ​​비엣젯항공이 포괄적 협력 계약을 체결했습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: (DTCO) - 11월 4일 오전, 다낭시 인민위원회와 비엣젯항공 주식회사는 상호 관심 분야의 프로그램 및 활동 시행을 조율하기 위한 2026년부터 2030년까지의 포괄적 협력 협약 체결식을 개최했다.
-    https://www.vietnam.vn/ko/da-nang-va-vietjet-ky-ket-thoa-thuan-hop-tac-toan-dien
+### 썬푸꾸옥항공 프로모션.. '인천–푸꾸옥 비즈니스석 30% 할인, 키스 브리지 입장권부터 라운지까지'
+- 매체 1곳 · 이로운뉴스
+  - 이로운뉴스: [이로운뉴스 : 허승규 국장]베트남 썬그룹(Sun Group) 계열 항공사 썬푸꾸옥항공(Sun PhuQuoc Airways)이 취항 1주년을 맞아 한국인 고객을
+    https://www.erounews.kr/news/articleView.html?idxno=5566
 
 ## 코타키나발루
 
@@ -89,7 +96,7 @@
   - 뉴스제주: [뉴스제주 최지희 기자] 몽골 고등학생 100~150명이 내년 1월 제주를 찾는 교육여행 상품이 추진되면서 제주관광의 새로운 시장으로 교육여행이 주목받고 있다. 제주도와 제주관광공사는 지난달 31일부터 오는 5일까지 5박 6일 일정으로 몽골 교육 관계자들을 초청해 교육여행 상품 개발을
     https://www.newsjeju.net/news/articleView.html?idxno=427907
   - JIBS제주방송: 
-    https://news.google.com/rss/articles/CBMijgFBVV95cUxOY0Y5eERnLXdzZzl2cFlqSjlxS0JYVTAwa01WQ1pTeHRtZGpVTUhwRWozVTlval93bVJrb3dXaXpMU2VlWG5id3Vfb2pERW1tZjdwWEJPLXd5NUNmN2Q2VDBfRFBKeE84bnRRbG9OaE02bWJ3RWFhUzgxU1dzcDdHYWdDRVJycHk0WEVfNkJ3?oc=5
+    https://www.jibs.co.kr/news/articles/articlesDetail/67248?feed=da&kakao_from=mainnews
 
 ### 제주관공, 몽골 교육여행 상품개발 팸투어 개최
 - 매체 1곳 · 트래블데일리
@@ -115,25 +122,25 @@
   - 비즈니스포스트: 
     https://www.businesspost.co.kr/BP?command=article_view&num=451165
 
-### [NNA] 썬푸꾸옥항공 1주년, 내년에 일본 노선 개설
-- 매체 1곳 · 아주경제
-  - 아주경제: 베트남 부동산·리조트 개발 대기업 썬 그룹 산하의 항공사 썬푸꾸옥항공(SPA)은 상업 운항 개시 1주년을 맞이했다고 1일 밝혔다. 남부 푸꾸옥섬을 거.
-    https://www.ajunews.com/view/20261104143316244
+### 초등학교·전화국에서 호텔 된 교토 두 곳, 미쉘린 키 획득, 한국관광에 좋은 본보기[함영훈의 멋·맛·쉼]
+- 매체 1곳 · 헤럴드경제
+  - 헤럴드경제: [헤럴드경제=함영훈 기자] 강원특별자치도 영월의 한 초등학교 분교는 현재 고생대 국가지질공원 인문학을 국민에게 전파하는 지오뮤지움으로 탈바꿈했다. 나주의 남평북초
+    https://biz.heraldcorp.com/article/10926237
 
-### 교촌 '발효공방1991', 일본 미식투어단 초청해 K발효 식문화 전파
-- 매체 1곳 · 파이낸셜뉴스
-  - 파이낸셜뉴스: 발효공방1991이 일본 한식 칼럼니스트와 미식투어단을 초청해 전통주 및 장류 체험 프로그램을 진행하며 K발효 식문화를 알렸다. 4일 업계에 따르면 교촌에프앤비의 농업회사법인 발효공방1991은 지난 3일 경북 영양군에 위치한 양조장에 일본의 한국 음식 칼럼니스트 핫.
-    https://www.fnnews.com/news/202611040930279050
+### 안은진, 日 여행 근황…"수수해도 멋스런 비결 뭐길래"
+- 매체 1곳 · 뉴시스
+  - 뉴시스: [서울=뉴시스]허준희 인턴 기자 = 배우 안은진이 일본 여행 사진을 공개한 가운데 한층 가녀려진 모습으로 눈길을 끌면서 그의 식단 관리에도 다시 관심이 쏠렸다. 지난 3일 안은진은 자신의 사회관계망서비스(SNS)에 "2026 Kyoto, Tokyo"라는 문구와 함께 여러 장의 사진을 게
+    https://www.newsis.com/view/NISX20261104_0003853782
 
-### "제주항공, 중립→매수…깜짝실적·엔저수혜"-한투 - 머니투데이
-- 매체 1곳 · 머니투데이
-  - 머니투데이: 한국투자증권이 4일 제주항공에 대한 투자의견을 '중립'에서 '매수'로 1년 5개월 만에 상향했다. 제주항공은 3분기 매출 4896억원, 영업이익 549억원을 기록했다고 전날 정규장 종료 후 공시했다.
-    https://www.mt.co.kr/stock/2026/11/04/2026110408212570217
+### 경북·히로시마현 자매결연 1주년…경제·관광·의회 교류 확대
+- 매체 1곳 · 경북일보
+  - 경북일보: 경북도와 일본 히로시마현이 자매결연 1주년을 맞아 단순한 우호교류를 넘어 실질적인 동반성장 협력체계 구축에 나섰다. 문화예술과 청소년 교류를 비롯해 경제·관광, 지방의회 간 협력까지 교류 분야를 확대하며 미래지향적 동반자 관계를 다져가고 있다.
+    https://www.kyongbuk.co.kr/news/articleView.html?idxno=4089667
 
-### iM證 제주항공, 일본노선 회복으로 수익 개선 기대…목표가 상향 조정
-- 매체 1곳 · 아주경제
-  - 아주경제: iM증권이 4일 제주항공의 목표주가를 7000원에서 8000원으로 올리고 투자의견 매수를 유지했다. 일본 노선 회복과 신형 항공기 도입에 따른 비용 절감으로 수익.
-    https://www.ajunews.com/view/20261104083724837
+### 포항시·의회, 교토시 ‘걷는 도시’ 정책서 버스노선 개편 모색
+- 매체 1곳 · 경북도민일보
+  - 경북도민일보: 포항시와 포항시의회가 일본 교토시의 대중교통과 보행 중심 도시정책을 살펴보고 포항의 버스노선 개편과 보행친화도시 조성 방안을 모색했다. 양 도시 간 축구 경기를
+    https://www.hidomin.com/news/articleView.html?idxno=727999
 
 ## 태국
 
@@ -149,6 +156,11 @@
   - 트래비: 160년 역사의 랭함이 새로운 확장에 나선다. 1888년 방콕 옛 세관을 럭셔리 호텔로 되살리고, 베네치아와 디리야, 쿠알라룸푸르까지 신규 프로젝트를 이어간다.
     https://www.travie.com/news/articleView.html?idxno=56156
 
+### 휴가 때 갈 곳 늘었네…애프터눈 티 원조 호텔이 방콕에 새로 연 곳
+- 매체 1곳 · 매일경제
+  - 매일경제: 1865년 영국 런던서 시작한 더 랭함 韓 첫 간담회, 철학·마케팅 전략 소개 방콕 옛 세관 건물 복원 내달 호텔 개관
+    https://www.mk.co.kr/news/culture/12197827
+
 ### 극동대 항공운항서비스학과, 태국 타이항공 훈련센터서 객실안전훈련 이수
 - 매체 1곳 · Usline(유스라인)
   - Usline(유스라인): [Daily U's Line 데일리 유스라인 디지털국] 극동대(총장 류기일)는 항공운항서비스학과 재학생 34명이 지난 3일 태국 방콕에 위치한 타이항공 훈련센터에
@@ -159,12 +171,18 @@
   - 이뉴스투데이: [이뉴스투데이 정영미 기자] 극동대학교 항공운항서비스학과 학생 34명이 태국에서 항공기 비상상황 대응과 객실 안전관리 절차를 실습했다. 극동대학교(총장 류기일)는 지난 3일 태국 방콕 소재 타이항공 훈련센터에서 객실안전훈련(Safety and Emergency Training)을 이수했
     http://www.enewstoday.co.kr/news/articleView.html?idxno=2488392
 
-### 싱잉볼 울림부터 무에타이 링까지…방콕서 즐기는 '3박 4일 웰니스 리셋'
-- 매체 1곳 · 열린뉴스통신
-  - 열린뉴스통신: (서울=열린뉴스통신) 박소연 기자 = 도심 속 사우나의 뜨거운 열기와 아이스 배스의 서늘함이 교차하고, 푸르른 공원 산책로에서는 여유로운 호흡이 이어진다. 태국정부관광청이 다가오는 겨울 휴가철을 맞아 방콕 도심의 역동적 에너지를 오감으로 체험하는 '3박 4일 웰니스 여행 프로그램'을 공
-    https://www.onews.tv/news/articleView.html?idxno=290777
-
 ## 대만
+
+### 타이난 명소 6곳 ‘대만 관광 100 스팟라이트’ 선정. 시정부, 1년 사계절 타이난 여행으로 초대. 황웨이저 시장 “새로운 놀이 문화 속 지속적으로 타이난 관광 브랜드 구축해 갈 것”－타이난 관광여행 웹사이트
+- 매체 2곳 · 台南旅遊網 · 타이난 관광여행 웹사이트  ← 여러 곳이 썼다
+  - 타이난 관광여행 웹사이트: 
+    https://www.twtainan.net/ko/event/newsdetail/7212/
+  - 타이난 관광여행 웹사이트: 
+    https://www.twtainan.net/ko/attractions/detail/5301/
+  - 타이난 관광여행 웹사이트: 
+    https://www.twtainan.net/ko/attractions/detail/5799/
+  - 타이난 관광여행 웹사이트: 타이난시에서는‘16세성인식’을기반으로‘16세연극축제’를개최합니다. 예술참여를통해연극체험을타이난시문화시민의성인식으로만들고,더나아가청소년에게예술문화경험을제공함으로써청소년들을미래문화예술인구로만듭니다.
+    https://www.twtainan.net/ko/event-calendar/details/3450/
 
 ### 제주 찾은 대만 관광객 25만명… 타이중까지 유치시장 확대
 - 매체 1곳 · 파이낸셜뉴스
@@ -186,15 +204,10 @@
   - 헤드라인제주: 제주특별자치도관광협회는 10월 30일부터 11월 2일까지 대만 타이중에서 열린 ATTA 국제관광 박람회에 참가해 제주관광 홍보 활동을 전개했다고 3일 밝혔다. 협회는 제주관광 홍보부스를 운영하며 방문객을 대상으로 다양한 이벤트 등을 통해 제주 여행의 매력을 적극적으로 알렸다.
     https://www.headlinejeju.co.kr/news/articleView.html?idxno=601517
 
-### “지하철 타고 온천에 간다고?”…대만 여행 숨은 코스, 놓치기 아쉬운 온천 여행
-- 매체 1곳 · newsWA
-  - newsWA: 대만 베이터우 온천 여행 타이베이 MRT로 가는 방법 당일치기 여행 코스, 주요 관광지 대만 타이베이를 여행한다면 무엇이 가장 먼저 떠오를까. 야시장 먹거리와 높은 빌딩, 오래된 골목, 달콤한 버블티가 익숙한 풍경일 것이다.
-    https://www.news-wa.com/article/travel/tour-world/2026/10/30/20261030500041
-
 ## 국내
 
 ### 부산불꽃축제 날 도시철도 212회 증편…혼잡 땐 역 출입 통제
-- 매체 5곳 · 문화뉴스 · 문화일보 · 미디어인뉴스 · 부산일보 · 아시아경제  ← 여러 곳이 썼다
+- 매체 6곳 · 메트로신문 · 문화뉴스 · 문화일보 · 미디어인뉴스 · 부산일보 · 아시아경제  ← 여러 곳이 썼다
   - 문화뉴스: [더쎈뉴스 / The CEN News] 오는 7일 부산불꽃축제 당일 도시철도 1~3호선 열차가 212회 추가 운행된다. 관람객이 몰리는 역에는 안전인력 1341명이 배치된다.
     https://www.mhns.co.kr/news/articleView.html?idxno=767439
   - 아시아경제: 부산교통공사가 오는 7일 열리는 부산불꽃축제 관람객의 원활한 이동과 안전한 귀가를 위해 도시철도 운행을 확.
@@ -250,8 +263,8 @@
     http://www.newsjob.kr/news/articleView.html?idxno=239464
   - TTL뉴스: 오산시가 운영하는 ‘오산 미니어처 빌리지’가 문화체육관광부의 ‘2026년 지역관광개발사업 우수사례 및 컨설팅 이행 우수지자체 시상’에서 지역관광개발 우수사례 최우수상인 한국문화관광연구원장상을 수상했다.
     http://www.ttlnews.com/news/articleView.html?idxno=3158832
-  - 뉴시스: 
-    https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiV3lKanFuVEU5WFlFTzRVN3VsdW42ZzZZc0lOYW1zWTFNMmlJQ1NPYXI3eTIteU1nLTh2NGdlbUkxellZdmFEakh1c3pVUTdwMk4zWmNRemR0eDd1c3VvQtIBeEFVX3lxTE42N1VMeW1lWEFDNFdtZlpKSm9QUk1xWEJNaDVOWUY3b05rSmd5Nzc1QW40YlQ0ak9kN2dWOXBzcEl4RVpPWUx5ZWwwYWFiVVc1ODZPN0ptTzI4Y2paNlFpeWI4aDNFbG1jMk5RTDdyQ0plblVoY01zQQ?oc=5
+  - 뉴시스: [오산=뉴시스] 정숭환 기자 = 경기 오산시는 오산미니어처빌리지가 문화체육관광부 '2026년 지역관광개발사업 우수사례' 평가에서 최우수상에 선정됐다고 4일 밝혔다. 오산미니어처빌리지는 내삼미동에 조성된 실내형 관광시설로 국내외 주요 도시와 건축물, 역사·문화 요소를 축소 모형으로 구현한
+    https://www.newsis.com/view/NISX20261104_0003854890
 
 ### 노랑풍선, 나이아가라 숙박∙크루즈 연계 여행상품 개발 논의
 - 매체 3곳 · 주간한국 · 트래블데일리 · 한국면세뉴스  ← 여러 곳이 썼다
@@ -259,8 +272,8 @@
     http://www.kdfnews.com/news/articleView.html?idxno=190396
   - 트래블데일리: 노랑풍선은 지난달 30일, 나이아가라 폭포 관광청(Niagara Falls Tourism)과 나이아가라 파크스(Niagara Parks), 현지 주요 호텔 및 크루즈 관계자들과 만나 캐나다 나이아가라 지역의 관광 활성화와 신규 여행상품 개발을 위한 협력 방안을 논의했다다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72575
-  - 주간한국: 
-    https://news.google.com/rss/articles/CBMicEFVX3lxTE1vdkZ3Sm9HUmpmdm1HbnVxMmJfc2J3TjhJVzFrYi0wdVVvVUZTXzB6cWlJSzFfNEpjT1g5X0ZGTzFMWExObXd0VHF6TDVtUmI1eXFhcFZUaVBtYm1zcnUxQWhSc1RUQnZwVU5NT0ViQ03SAXRBVV95cUxNSXAzZWZOamctMUp1UVFBT3d3dWN6Um10VzdVMldNSWVHaVQ2SmdsMGlQUkJCc0xFcDZxOVdQbjlRa1JkTVcxVTBmWVdOSWxCN3pZN1JSQ3hyemtSZUhoSjVhcC1Nc1M3Z0tlaV9tTzExMHU2MA?oc=5
+  - 주간한국: [주간한국 송정인 기자] 노랑풍선이 캐나다 나이아가라 지역 관광 활성화와 신규 여행상품 개발을 위해 현지 관광기관 및 주요 업체들과 협력 방안을 논의했다고 4일 밝혔다. 노랑풍선은 지난달 30일 나이아가라 폭포 관광청, 나이아가라 파크스, 현지 호텔 및 크루즈 관계자들과 만나 관광 콘텐
+    https://weekly.hankooki.com/news/articleView.html?idxno=7192226
 
 ### 대한항공, ‘한국서비스품질지수’ 5년 연속 1위
 - 매체 3곳 · TTL뉴스 · 트래블데일리 · 한국면세뉴스  ← 여러 곳이 썼다
@@ -277,26 +290,44 @@
     https://www.onews.tv/news/articleView.html?idxno=290754
   - 트래블데일리: 모두투어는 자체 라이브커머스 채널 ‘라이브M’ 론칭 4주년을 맞아 11월 한 달간 인기 해외여행 상품과 다양한 고객 혜택을 결합한 특별 기획전을 진행한다. 이번 기획전은 ‘4주년 기념 프리미엄 4대 혜택’을 콘셉트로 오는 30일까지 진행된다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72571
-  - 유교신문: 
-    https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zVi1lSHJGNDgtWkp4bXRVV1Z6TEpZeWhKTnZVU1Mtc0ZqeHJXNW8tcmx6UzZMYTZ0QU9VRHlTWkk5M3lNWmF2S3JFMGRoR2lxa0lkUkpobHYyTngwLTVWNg?oc=5
+  - 유교신문: (유교신문) 김정기 기자 = 모두투어가 자체 라이브커머스 채널 ‘라이브M’ 운영 4주년을 맞아 11월 한 달간 해외여행 상품을 소개하는 방송 6회를 편성했다. 여행 일정과 숙박시설, 포함 경비 등을 실시간으로 안내하고 방송별 예약 조건에 따라 할인과 현지 체험 혜택을 제공한다.
+    https://www.cfnews.kr/mobile/article.html?no=113337
 
 ### 파르나스호텔앤리조트, 3분기 호텔·임대사업 고른 성장세
 - 매체 3곳 · TTL뉴스 · 뉴스1 · 뉴시스  ← 여러 곳이 썼다
   - TTL뉴스: 파르나스호텔앤리조트가 웨스틴 서울 파르나스의 흑자 기조와 기존 호텔의 실적 개선, 임대사업 성장을 바탕으로 올해 3분기 전 사업장에서 매출과 영업이익 증가를 기록했다. 지난해 9월 문을 연 웨스틴 서울 파르나스는 개관 1년 만에 주요 성장동력으로 자리 잡았다.
     http://www.ttlnews.com/news/articleView.html?idxno=3158857
-  - 뉴시스: 
-    https://news.google.com/rss/articles/CBMiYEFVX3lxTE93YjRCbzBsY2tpSXpvczZvSU5fcnJKc0JFcVBFQ3FxQmZkUF83Smd0dDVPMnlTYzJ6S2tNLU40c1loUTFzemtFN2JNOEJ5aTVvbEUzRF9lWjJRc1hFMnI1dtIBeEFVX3lxTFB4bDJ4NV80XzBGOFdpbnRsa1pFOTZiMkJwcGtvSWEta2RBOVFJcVdMVWd0Wnh5eHJITUI2anR3VnRwYlI5ZnZTWE9fdGUzRWZwNkl0Z3ZhLXBGV3E5cm4wUVB3dzhLbm9YQjNOWU8wYWFpTTJ0Y3Niag?oc=5
+  - 뉴시스: [서울=뉴시스]김상윤 기자 = 파르나스호텔앤리조트가 올해 3분기 주요 호텔과 임대사업에서 고른 실적 성장세를 기록했다. 4일 파르나스호텔앤리조트에 따르면 지난해 9월 개관한 웨스틴 서울 파르나스가 흑자 기조를 이어간 가운데 기존 호텔들도 매출과 영업이익이 모두 증가했다.
+    https://www.newsis.com/view/NISX20261104_0003854992
   - 뉴스1: 
-    https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kcmdFYWYyeXdiR01xb1dpRjMwa3AyXzdOTDRra1FmNWlmUUdTbndQQm11cUk2V0VCbHF6ZzdkZEpIZ2kydEFwZWtSSENxSHJGTEpHb3dUcElla0NMY0JV?oc=5
+    https://www.news1.kr/industry/distribution/6343080
+
+### 첨단 산업 한자리에…고양서 '드론·도심항공모빌리티 박람회'
+- 매체 3곳 · 뉴스1 · 뉴시스 · 연합뉴스  ← 여러 곳이 썼다
+  - 연합뉴스: (고양=연합뉴스) 노승혁 기자 = 경기 고양시는 4일 킨텍스 제1전시장에서 '2026 드론·도심항공모빌리티 박람회'와 '2026 디지털미디어테크. ..
+    https://www.yna.co.kr/view/AKR20261104147500060
+  - 뉴시스: [고양=뉴시스] 황준선 기자 = 4일 경기 고양시 킨텍스에서 개막한 2026 드론·도심항공모빌리티 박람회를 찾은 관람객이 다양한 무인기를 둘러보고 있다. 2026.11.04.
+    https://www.newsis.com/view/NISI20261104_0021519123
+  - 뉴스1: 
+    https://www.news1.kr/photos/8196710
+
+### 이스타항공, 1~10월 부산 국제선 외국인 승객 전년比 171% ‘껑충’
+- 매체 3곳 · 조선일보 · 한국경제 · 헤럴드경제  ← 여러 곳이 썼다
+  - 헤럴드경제: [헤럴드경제=서재근 기자] 이스타항공은 올해 1월부터 10월까지 자사 부산 국제선의 외국인 승객이 전년 동기 대비 171% 증가했다고 4일 밝혔다. 특히 부산-타이베이와 부
+    https://biz.heraldcorp.com/article/10924942
+  - 한국경제: "외국인이 더 많이 탄다"…이스타항공, 부산 국제선 승객 171%↑, 신용현 기자, 경제
+    https://www.hankyung.com/article/202611045668g
+  - 조선일보: 부산을 찾는 외국인 관광객이 급증하며 이스타항공의 부산 국제선 외국인 승객이 전년 대비 171% 증가함. 김해공항 또한 역대 최단기간 국제선 이용객 1,000만 명을 돌파하는 호황을 누리고 있으며, 이스타항공을 비롯한 여러 저비용 항공사가 노선을 공격적으로 확대하고 있음.
+    https://www.chosun.com/economy/industry-company/2026/11/04/LFFIXPFQHVEWJID3EGE6WNL32M/
 
 ### 웅진 놀이의발견, 지역 축제 연계 숙박·레저 할인 기획전 진행
 - 매체 3곳 · 뉴스1 · 파이낸셜뉴스 · 한국면세뉴스  ← 여러 곳이 썼다
   - 한국면세뉴스: 웅진컴퍼스가 운영하는 가족 여가 플랫폼 '놀이의발견'이 11월 한 달간 전국 지역 축제와 연계한 숙박·레저 상품 할인 기획전을 진행한다. 해당 기획전은 여행 큐레이션 서비스 '축제발견'을 통해 지역 축제 정보와 주변 숙박·레저 상품을 함께 제공하고, 이용자가 관련 상품을 한 번에 예약할
     http://www.kdfnews.com/news/articleView.html?idxno=190405
   - 뉴스1: 
-    https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tVjNPS3B0UTF1bUM4bGc3eGRoS2lSYUJ5WWlyZWV1UEVoMEtyQ0FFQklNdmpKdlZYb1IwT0huRDFONGxrZnZ4Vlp3bV9LeWFWdDA1RGxzajhJUQ?oc=5
-  - 파이낸셜뉴스: 
-    https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTWGpPMEZJcFFpOTBfYVhweVF5b2ltYVNEWlM1VmtRM2tTd3VGclUxSXhab1FBOVlDMlpsdU9TYzBXaWZPY093V2NRY2pRUkRWT2RlTXZ6OWVhUQ?oc=5
+    https://www.news1.kr/society/education/6342815
+  - 파이낸셜뉴스: 웅진컴퍼스가 운영하는 가족 여가 플랫폼 '놀이의발견'이 전국 지역 축제와 인근 숙박, 놀거리 상품을 한데 묶어 할인 판매하는 기획전을 4일 시작했다. 이달 말까지 이어지는 이번 행사는 원하는 날짜만 선택하면 관련 축제 정보와 주변 즐길 거리를 추천받아 한 번에 ..
+    https://www.fnnews.com/news/202611041000350529
 
 ### 아고다, 2027년 대한민국 여행객 트렌드 발표
 - 매체 2곳 · 트래블데일리 · 호텔앤레스토랑  ← 여러 곳이 썼다
@@ -309,22 +340,8 @@
 - 매체 2곳 · 트래블데일리 · 한스경제  ← 여러 곳이 썼다
   - 트래블데일리: 국제골프여행사협회(IAGTO)는 2027년 4월 5일부터 7일까지 말레이시아 푸트라자야의 IOI 리조트 시티에서 제13회 아시아 골프관광 컨벤션(AGTC 2027)을 개최하고 한국 골프 여행사와 골프관광 공급업체를 위한 참가 혜택을 제공한다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72561
-  - 한스경제: 
-    https://news.google.com/rss/articles/CBMia0FVX3lxTFBLYkVjTlpqZGpseTc4UFNQNHhNRGFKdFFNSVQ5UGtHcjhTU3lKQmFuX2FMU0NNWElENTRUWjRwNzhhVW5HZ3o3RG0xcWVybmlIUzBDdWp6cXJEOVVhT2NtdUd6a3RHc1RuNE9F?oc=5
-
-### 원전으로 가까워진 체코 비소치나, 한국 관광 시장 공략 본격화
-- 매체 2곳 · 여행신문 · 트래블데일리  ← 여러 곳이 썼다
-  - 여행신문: 한국과 체코의 경제 협력이 관광 교류 확대로 이어질 전망이다. 체코관광청이 두코바니 신규 원전 사업을 계기로 한국과 인연이 깊어진 비소치나(Vysocina) 지역을 새로운 관광 목적지로 내세우고 한국 시장 공략에 나섰다.
-    https://www.traveltimes.co.kr/news/articleView.html?idxno=500628
-  - 트래블데일리: 나이아가라 폭포 관광청(Niagara Falls Tourism)과 나이아가라 파크스(Niagara Parks)가 손잡고 한국 시장 공략에 나섰다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72563
-
-### KLM, 기내 무료 와이파이 제공
-- 매체 2곳 · 머니투데이 · 트래블데일리  ← 여러 곳이 썼다
-  - 트래블데일리: KLM은 2027년 중반부터 대륙 간 항공편에도 스타링크 기반의 무료 고속 와이파이 서비스를 단계적으로 도입할 계획이다. 이를 통해 장거리 여행객들의 기내 편의성을 한층 높일 것으로 기대된다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72558
-  - 머니투데이: 
-    https://news.google.com/rss/articles/CBMiekFVX3lxTE51WGVvQ0lLenBXV0xIZzNjX1dxSGtvLTNGS3pKVndBRHlucUl3VjRoeUpYQkhkOUxZYTRmbFY2SFl0ekNjVS1Td3lDOEI0VHQxOFA2WExVaVhjTDk3QlZDSGlkaEhCOUFrYnJQSkxjTkpHd2dkQk1zendB0gF_QVVfeXFMTW5ZMklyVlh0VkdZTGMzUEJZTFktVWlxZGJlMWRCOTRhcGZGdGN1QXpDdW5jVVlQLW9ka2o1dUN6QVFzLTRZN1lmeFd1THh5TF9yeEpyRGZnejg4OUVrU1VSYm9QQ3ZsS00wWWZvbjliX0ozNGhfRUFmRWxEdmswVQ?oc=5
+  - 한스경제: | 서울=한스경제 박정현 기자 | 디지털 여행 플랫폼 아고다가 대한민국을 포함한 아시아 지역의 여행 트렌드를 전망하는 '2027 아시아 트래블 펄스' 보고서를 발표했다. 대한민국 여행객들은 해외여행에 높은 관심을 유지하는 가운데 인공지능(AI) 활용을 넓히고 개인의 취향을 반영한 경험을
+    http://www.hansbiz.co.kr/news/articleView.html?idxno=879804
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 31건)
 
@@ -496,6 +513,13 @@
   - 이투데이: ▲영화 '호프' 스틸. (사진제공=플러스엠 엔터테인먼트) 나홍진 감독의 영화 '호프'(HOPE)가 프랑스 개봉 첫 주 올해 현지에서 개봉한 한국영화 가운데
     https://www.etoday.co.kr/news/view/2644147
 
+### 🔥 화제(매체 11곳) [drama] KBS 드라마스페셜 2026 '사운드:트랙', 11월 18일 첫 방송…메인 포스터 공개
+- 매체 2곳 · 이투데이 · 톱스타뉴스  ← 여러 곳이 썼다
+  - 톱스타뉴스: KBS 드라마스페셜 2026 '사운드:트랙'이 11월 18일 첫 방송을 앞두고 메인 포스터를 공개했다. '봄 내음보다 너를', '가을 아침' 등 8곡을 모티브로 한 단막극의 작품명과 방송 일정이 공개됐다.
+    https://www.topstarnews.net/news/articleView.html?idxno=16267540
+  - 이투데이: ▲18일 밤 9시 50분 첫 방송이 예고된 KBS 드라마스페셜 2026 '사운드:트랙'의 메인 포스터 (출처 - KBS2 ‘사운드:트랙') 여덟 개 명곡을 여덟 가지의
+    https://www.etoday.co.kr/news/view/2643574
+
 ### 🔥 화제(매체 8곳) [startrip] [잇슈 컬처] 리센느, 컴백과 동시에 음원 차트 1위
 - 매체 2곳 · KBS 뉴스 · 더팩트  ← 여러 곳이 썼다
   - KBS 뉴스: 안녕하십니까, '잇슈 컬처' 시작합니다. 대세 걸그룹 '리센느'가 새 앨범을 냈습니다.
@@ -508,15 +532,33 @@
   - 톱스타뉴스: 조이현·김재원·신승호 주연 영화 '최종면접'이 11월 4일 개봉 첫날 박스오피스 1위에 올랐다. 브래드 피트 주연 '하트 오브 비스트'를 제치고 정상에 오른 가운데 전체 극장 관객은 11만1236명으로 전날보다 52.0% 증가했다.
     https://www.topstarnews.net/news/articleView.html?idxno=16268671
 
+### 🔥 화제(매체 6곳) [movie] ‘수능, 출제의 비밀’ 한국영화 박스오피스 1위 탈환
+- 매체 2곳 · bntnews · 이투데이  ← 여러 곳이 썼다
+  - bntnews: 영화 ‘수능, 출제의 비밀’이 한국영화 박스오피스 1위에 다시 올랐다. 영화진흥위원회 영화관입장권통합전산망에 따르면 ‘수능, 출제의 비
+    https://www.bntnews.co.kr/article/view/bnt202611040163
+  - bntnews: 영화 ‘암살자(들)’이 10월 한국영화 박스오피스 1위에 올랐다. 한 달간 166만 명에 가까운 관객을 동원하며 전체 박스오피스에서도 2위를 기록했
+    https://www.bntnews.co.kr/article/view/bnt202611050080
+  - 이투데이: ▲영화 '수능, 출제의 비밀' 포스터. (사진제공=㈜바이포엠스튜디오)영화 ‘수능, 출제의 비밀’이 개봉 2주차를 앞두고 한국영화 박스오피스 1위를 탈환
+    https://www.etoday.co.kr/news/view/2643863
+
 ### 🔥 화제(매체 6곳) [movie] ‘하트 오브 비스트’ 2일 연속 1위…누적 25만명 돌파 [11월 3일 영화 박스오피스]
 - 매체 1곳 · ER 이코노믹리뷰
   - ER 이코노믹리뷰: ‘하트 오브 비스트’가 11월 3일 하루 1만7395명을 동원하며 2일 연속 박스오피스 1위를 기록했다. 누적 관객수는 25만3812명이다.
     https://www.econovill.com/news/articleView.html?idxno=755970
 
-### 🔥 화제(매체 5곳) [drama] KBS 드라마스페셜 2026 '사운드:트랙', 11월 18일 첫 방송…메인 포스터 공개
-- 매체 1곳 · 톱스타뉴스
-  - 톱스타뉴스: KBS 드라마스페셜 2026 '사운드:트랙'이 11월 18일 첫 방송을 앞두고 메인 포스터를 공개했다. '봄 내음보다 너를', '가을 아침' 등 8곡을 모티브로 한 단막극의 작품명과 방송 일정이 공개됐다.
-    https://www.topstarnews.net/news/articleView.html?idxno=16267540
+### 🔥 화제(매체 5곳) [movie] 연상호 감독 영화 ‘실낙원’ 개봉 3주 차 무대인사 확정
+- 매체 1곳 · 톱스타뉴스  ← 여러 곳이 썼다
+  - 톱스타뉴스: 연상호 감독 영화 ‘실낙원’이 개봉 3주 차를 맞아 11월 8일 서울 주요 극장에서 무대인사를 진행한다. 연상호 감독과 김현주, 배현성이 메가박스 코엑스 등 4개 극장을 돌며 관객과 만난다.
+    https://www.topstarnews.net/news/articleView.html?idxno=16267038
+  - 톱스타뉴스: 연상호 감독의 심리 스릴러 ‘실낙원’이 개봉 3주 차에도 관객들의 N차 관람이 이어지며 꾸준한 반응을 얻고 있다. 관객 후기와 함께 AI·모성·정체성을 둘러싼 질문이 극장 밖 대담으로 확장되고 있다.
+    https://www.topstarnews.net/news/articleView.html?idxno=16268688
+
+### 🔥 화제(매체 4곳) [movie] 나홍진 '호프' 프랑스 사로잡았다…개봉 첫날 올해 韓영화 오프닝 1위
+- 매체 2곳 · SBS 뉴스 · iMBC 연예  ← 여러 곳이 썼다
+  - iMBC 연예: 나홍진 감독의 영화 '호프'(HOPE)가 프랑스 극장가에서 인상적인 출발을 알렸다. 현지 개봉 첫날부터 올해 프랑스에서 개봉한 한국영화 중 최고 오프닝 수익을 달성하며 유럽 시장에서 흥행 가능성을 입증했다.
+    https://enews.imbc.com/News/RetrieveNewsInfo/523483
+  - SBS 뉴스: 나홍진 감독의 영화 '호프'가 프랑스에서 올해 개봉한 한국 영화 가운데 가장 높은 오프닝 수익을 기록했습니다. 벨기에에서도 기존 한국 영화들의 개봉 성적을 넘어섰습니다.
+    https://news.sbs.co.kr/news/endPage.do?news_id=N1008831280&plink=PLAY&cooper=RSS&autoplay=Y
 
 ### 🔥 화제(매체 4곳) [startrip] 리센느 '깜찍한 컴백 무대'[★포토]
 - 매체 2곳 · iMBC 연예 · 스타뉴스  ← 여러 곳이 썼다
@@ -527,25 +569,8 @@
   - iMBC 연예: 싸이커스(xikers)가 2일 오후 서울 영등포 명화라이브홀에서 열린 싸이커스 미니 8집 ‘루트 제로 : 더 콜링(ROUTE ZERO : The CALLING)' 발매 기념 컴백 쇼케이스에 참석해 멋진 무대를 선보이고 있다. 이날 싸이커스(민재, 준민, 수민, 진식, 현우, 정훈, 세은
     https://enews.imbc.com/News/RetrieveNewsInfo/523253
 
-### 🔥 화제(매체 3곳) [movie] 영화 ‘변이’, 개봉 1주차 주말 특전 공개…A3 포스터 증정 지점 어디?
-- 매체 1곳 · 톱스타뉴스
-  - 톱스타뉴스: 영화 ‘변이’가 개봉 1주차 주말 현장 증정 이벤트를 진행한다. 오는 7일부터 10일까지 롯데시네마 전국 23개 지점에서 영화를 관람한 관객에게 부분 후가공이 적용된 오리지널 A3 포스터를 선착순 증정한다.
-    https://www.topstarnews.net/news/articleView.html?idxno=16268463
-
-### 🔥 화제(매체 3곳) [startrip] 화장실 창밖에 항공기…인천공항 '아름다운 화장실' 대상
-- 매체 1곳 · 연합뉴스  ← 여러 곳이 썼다
-  - 연합뉴스: (인천=연합뉴스) 김상연 기자 = 인천국제공항 제2여객터미널에 있는 화장실이 전국에서 가장 아름다운 화장실로 선정됐다.
-    https://www.yna.co.kr/view/AKR20261104045200065
-  - 연합뉴스: 
-    https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xdFNtelhRZE1LZDlMa19iXzVic3N5V2luZlFGeDJjLVhnRGoxYnN6VEIwS3V2ZFpSdUNOR1g0LWFaZ3lkX1diWFpnRklIN3RpcnVQVVVGSVNSVTQ?oc=5
-
-### 🔥 화제(매체 3곳) [movie] ‘수능, 출제의 비밀’ 한국영화 박스오피스 1위 탈환
-- 매체 1곳 · bntnews
-  - bntnews: 영화 ‘수능, 출제의 비밀’이 한국영화 박스오피스 1위에 다시 올랐다. 영화진흥위원회 영화관입장권통합전산망에 따르면 ‘수능, 출제의 비
-    https://www.bntnews.co.kr/article/view/bnt202611040163
-
 ---
-거리 107건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 108건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 방송 재료 — (2026-11-05)
