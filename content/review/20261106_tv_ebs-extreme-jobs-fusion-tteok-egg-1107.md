@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'극한직업' 퓨전 떡집과 프리미엄 달걀 농장, 7일 밤 방송"
+title: '''극한직업'' 퓨전 떡집과 프리미엄 달걀 농장, 7일 밤 방송'
 source_name: ''
 source_url: ''
 summary: EBS1 '극한직업'은 7일 밤 9시 5분 창원의 퓨전 떡집과 청주의 난각번호 1번 달걀 양계장을 찾아간다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005609482
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005609482
+status: published
+published_id: c-6b74976ca8298c84d9e144965e05a11bdc69cf12
+published_on: '2026-11-06'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 극한직업

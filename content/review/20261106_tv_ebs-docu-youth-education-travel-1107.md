@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS 특집 다큐 '청소년 성장로그, 교육여행', 소풍 사라진 학교와 여행하는 학교"
+title: EBS 특집 다큐 '청소년 성장로그, 교육여행', 소풍 사라진 학교와 여행하는 학교
 source_name: ''
 source_url: ''
 summary: EBS1은 7일 오후 3시 특집 다큐 '청소년 성장로그, 교육여행'을 방송한다. 여행을 가르치는 초·중·고 세 학교를 따라간다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005609519
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005609519
+status: published
+published_id: c-8061d6cee7a82210baec995d3d04523ecf537346
+published_on: '2026-11-06'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 특집 다큐 청소년 성장로그, 교육여행

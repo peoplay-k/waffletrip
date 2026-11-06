@@ -4,13 +4,15 @@ channel: travel
 region: industry
 section: flight
 kind: 해설
-title: "에어프레미아, 12월 6일 인천~닝보 취항…첫 중국 정기노선"
+title: 에어프레미아, 12월 6일 인천~닝보 취항…첫 중국 정기노선
 source_name: ''
 source_url: ''
 summary: 에어프레미아가 12월 6일 인천~닝보 정기노선에 취항한다. 매주 수·금·일 주 3회 운항하며 회사가 처음 여는 중국 노선이다.
 sources:
-  - https://www.hankyung.com/article/202611069829P
-status: approved
+- https://www.hankyung.com/article/202611069829P
+status: published
+published_id: c-8c016c91ab69778af8ecca55bd66132a268807cb
+published_on: '2026-11-06'
 ---
 에어프레미아가 12월 6일 인천과 중국 닝보를 잇는 정기노선을 연다. 회사가 중국 정기노선을 운항하는 것은 이번이 처음이다.
 

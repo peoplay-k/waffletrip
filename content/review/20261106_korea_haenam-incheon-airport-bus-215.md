@@ -4,15 +4,18 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "해남~인천공항 직행 고속버스, 운행 첫 달 215명 이용"
+title: 해남~인천공항 직행 고속버스, 운행 첫 달 215명 이용
 source_name: ''
 source_url: ''
-summary: 해남에서 영암을 거쳐 인천국제공항까지 환승 없이 가는 직행 고속버스가 운행 첫 달 215명을 태웠다. 해남에서 타거나 내린 승객이 159명으로 약 74%다.
+summary: 해남에서 영암을 거쳐 인천국제공항까지 환승 없이 가는 직행 고속버스가 운행 첫 달 215명을 태웠다. 해남에서 타거나 내린 승객이
+  159명으로 약 74%다.
 sources:
-  - https://www.mhns.co.kr/news/articleView.html?idxno=767735
-  - https://news.mtn.co.kr/article/2026110513225152001
-  - https://www.m-i.kr/news/articleView.html?idxno=2015170
-status: approved
+- https://www.mhns.co.kr/news/articleView.html?idxno=767735
+- https://news.mtn.co.kr/article/2026110513225152001
+- https://www.m-i.kr/news/articleView.html?idxno=2015170
+status: published
+published_id: c-10875e4b3287c2594813b44cb00da0634184c6fb
+published_on: '2026-11-06'
 ---
 해남에서 인천국제공항까지 환승 없이 가는 직행 고속버스가 운행 첫 달 215명을 태웠다. 이 가운데 해남에서 타거나 내린 승객이 159명으로 전체의 약 74%를 차지했다.
 

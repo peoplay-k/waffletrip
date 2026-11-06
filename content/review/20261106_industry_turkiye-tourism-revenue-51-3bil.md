@@ -4,15 +4,17 @@ channel: travel
 region: industry
 section: data
 kind: 해설
-title: "튀르키예 1~9월 관광 수입 513억 달러, 동기간 역대 최대"
+title: 튀르키예 1~9월 관광 수입 513억 달러, 동기간 역대 최대
 source_name: ''
 source_url: ''
-summary: 튀르키예 문화관광부 장관이 올해 1~9월 누적 관광 수입이 513억 달러(약 70조 6000억 원)로 같은 기간 기준 역대 최대라고 밝혔다.
+summary: 튀르키예 문화관광부 장관이 올해 1~9월 누적 관광 수입이 513억 달러(약 70조 6000억 원)로 같은 기간 기준 역대 최대라고
+  밝혔다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72593
-  - http://www.ttlnews.com/news/articleView.html?idxno=3158964
-  - https://www.hankyung.com/article/202611057841K
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72593
+- http://www.ttlnews.com/news/articleView.html?idxno=3158964
+- https://www.hankyung.com/article/202611057841K
+status: duplicate
+duplicate_of: 20261106_industry_agoda-pulse-nooreumpung-niagara.md
 ---
 튀르키예의 올해 1~9월 누적 관광 수입이 513억 달러(약 70조 6000억 원)로 집계돼 같은 기간 기준 역대 최대 기록을 새로 썼다.
 
