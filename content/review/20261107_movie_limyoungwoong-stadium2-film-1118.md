@@ -5,17 +5,18 @@ category: movie
 region: ''
 section: news
 kind: 해설
-title: "임영웅 공연 영화 '아임 히어로 더 스타디움 2', 11월 18일 개봉…4면 스크린엑스"
+title: 임영웅 공연 영화 '아임 히어로 더 스타디움 2', 11월 18일 개봉…4면 스크린엑스
 source_name: ''
 source_url: ''
 summary: 임영웅의 세 번째 공연 실황 영화가 11월 18일 개봉하며, 6일 메인 예고편이 공개됐다. 4면 스크린엑스로 상영한다.
 sources:
-  - https://www.financialpost.co.kr/news/articleView.html?idxno=285138
-  - https://www.topstarnews.net/news/articleView.html?idxno=16268088
-  - https://enews.imbc.com/News/RetrieveNewsInfo/522961
-status: approved
+- https://www.financialpost.co.kr/news/articleView.html?idxno=285138
+- https://www.topstarnews.net/news/articleView.html?idxno=16268088
+- https://enews.imbc.com/News/RetrieveNewsInfo/522961
+status: published
+published_id: c-7157fbf6b470138b3ea22ec9f5ffd90264c39501
+published_on: '2026-11-07'
 ---
-
 가수 임영웅의 세 번째 공연 실황 영화 '임영웅│아임 히어로 더 스타디움 2'가 11월 18일 개봉한다. 4면 스크린엑스 방식으로 상영해 공연장의 열기를 극장에 옮긴다.
 
 ![임영웅 · 사진 구전녹용 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2a/Lim_Young-woong_in_an_ad_for_%EA%B5%AC%EC%A0%84%EB%85%B9%EC%9A%A9_%28June_2020%29_%28cropped%29.jpg)
