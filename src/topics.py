@@ -168,6 +168,27 @@ def _travel(tid: str) -> str:
     return tid if tid in TOPIC_NAMES else TOPICS[0][0]
 
 
+# 우리가 쓴 기사(C) 가운데 기획물로 읽히는 제목. 실측·답사·총정리·코스 같은 말.
+_FEATURE_WORDS = ("실측", "답사", "기록", "체험기", "가이드", "총정리", "정리해", "추천", "코스",
+                  "꿀팁", "여행법", "비교", "인터뷰", "[기획]", "따라가 보니", "가 보니", "다녀왔")
+
+
+def _commentary_topic(item) -> str:
+    """우리가 쓴 기사(C)의 여행 부문.
+
+    2026-10-02 부터 지면에는 우리가 쓴 기사만 나가는데, 그 전 규칙("C 는 전부 기획")이 그대로라
+    10-25~11-05 뉴스·업계 면에 들어간 기사가 0건이었다(기획 157건). 사장님(2026-11-06): "여행 뉴스
+    쪽은 자료가 없어". 성격대로 나눈다 — 항공·노선(section: flight)과 여행업계 지면 → 업계,
+    실측·답사·코스 같은 기획물 → 기획, 나머지 지역 소식 → 뉴스.
+    """
+    title = getattr(item, "title", "") or ""
+    if any(w in title for w in _FEATURE_WORDS):
+        return "feature"
+    if getattr(item, "section", "") == "flight" or getattr(item, "region", "") == "industry":
+        return "biz"
+    return "news"
+
+
 def _travel_rule(item) -> str:
     if getattr(item, "grade", "") == "A":
         return "data"
@@ -176,7 +197,7 @@ def _travel_rule(item) -> str:
     if getattr(item, "section", "") == "data":
         return "data"
     if getattr(item, "grade", "") == "C":
-        return "feature"
+        return _commentary_topic(item)
     if getattr(item, "section", "") == "flight":
         return "biz"
 

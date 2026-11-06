@@ -25,6 +25,7 @@ from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.models import REGION_NAMES  # noqa: E402
+from src.topics import culture_section_hint  # noqa: E402
 
 KST = timezone(timedelta(hours=9))
 OUT = os.path.join("data", "story_material.md")
@@ -322,6 +323,30 @@ def main() -> int:
     # 쓴다** — 예약 해설 에이전트는 연예 기사를 쓰지 않는다(DAILY_COMMENTARY.md).
     # 가십은 edit 단계에서 이미 걸렀지만, 보도자료성 발표만 재료로 삼는다.
     ent_groups_for_video: list[list[dict]] = []
+    # 공연·전시는 따로 한 절로 뺀다(2026-11-06 사장님: "공연전시 … 자료가 없어 이거좀 올려줘").
+    # 연예 절은 매체 수 순이라 한두 곳만 쓰는 전시·공연 발표가 뒤로 밀려 안 보였다.
+    stage_rows = [r for r in ent_rows
+                  if (r.get("category") or "") == "stage"
+                  or culture_section_hint(r.get("title") or "") == "stage"]
+    if stage_rows:
+        ent_rows = [r for r in ent_rows if r not in stage_rows]
+        groups = cluster(stage_rows)
+        groups.sort(key=lambda g: max((i.get("published_at") or "") for i in g), reverse=True)
+        groups.sort(key=lambda g: -sum(1 + len(i.get("related") or []) for i in g))
+        picked = groups[:args.per_region * 2]
+        lines.append("## 공연·전시 — category: stage, 하루 두 편 이상")
+        lines.append("")
+        for g in picked:
+            total += 1
+            outlets = sorted({(i.get("source_name") or "").strip() for i in g if i.get("source_name")})
+            lines.append(f"### [stage] {g[0]['title']}")
+            lines.append(f"- 매체 {len(outlets)}곳 · {' · '.join(outlets) or '미상'}")
+            for i in g[:4]:
+                summ = re.sub(r"\s+", " ", (i.get("summary") or "")).strip()
+                lines.append(f"  - {i.get('source_name', '?')}: {summ[:160]}")
+                if i.get("source_url"):
+                    lines.append(f"    {i['source_url']}")
+            lines.append("")
     if ent_rows:
         groups = cluster(ent_rows)
         groups.sort(key=lambda g: max((i.get("published_at") or "") for i in g),

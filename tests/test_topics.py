@@ -102,3 +102,14 @@ def test_our_data_article_goes_to_statistics_not_features():
     """자동 생성 데이터 기사는 등급이 C 지만 성격은 통계·리포트다."""
     assert topic_of(make("09월 2일 여행 데이터", grade="C", section="data")) == "data"
     assert topic_of(make("괌 답사 기록", grade="C", section="news")) == "feature"
+
+
+def test_우리_기사는_성격대로_뉴스_업계_기획으로_나뉜다():
+    """2026-11-06 사장님: "여행 뉴스 쪽은 자료가 없어" — C 가 전부 기획으로 가서 뉴스·업계 면이 비었다."""
+    import dataclasses
+    assert topic_of(make("라오스, 5년간 관광수입 80억 달러 목표", grade="C", section="news")) == "news"
+    assert topic_of(make("에어로케이, 청주~타이베이 하루 2회", grade="C", section="flight")) == "biz"
+    ind = dataclasses.replace(make("관광업계 12개 단체, 가업상속공제 유지 요구", grade="C"), region="industry")
+    assert topic_of(ind) == "biz"
+    assert topic_of(make("하나투어·노랑풍선, 겨울 여행 기획전", grade="C")) == "news"   # '기획전'은 기획물이 아니다
+    assert topic_of(make("교토 단풍 명소 총정리", grade="C")) == "feature"
