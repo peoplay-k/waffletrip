@@ -4,15 +4,17 @@ channel: travel
 region: thailand
 section: news
 kind: 보도자료
-title: "'2026 코리아시즌' 태국·베트남 행사, 참여·관람 3만9917명"
+title: '''2026 코리아시즌'' 태국·베트남 행사, 참여·관람 3만9917명'
 source_name: ''
 source_url: ''
-summary: 문화체육관광부는 태국과 베트남에서 연말까지 이어가는 '2026 코리아시즌' 주요 행사에 지금까지 3만9917명이 참여하거나 공연을 관람했다고 밝혔다.
+summary: 문화체육관광부는 태국과 베트남에서 연말까지 이어가는 '2026 코리아시즌' 주요 행사에 지금까지 3만9917명이 참여하거나 공연을
+  관람했다고 밝혔다.
 sources:
-  - https://www.baccro.com/news/articleView.html?idxno=67370
-status: approved
+- https://www.baccro.com/news/articleView.html?idxno=67370
+status: published
+published_id: c-f6b4f3118cff091f44efcb459b02be023eb00915
+published_on: '2026-11-07'
 ---
-
 태국과 베트남에서 열리는 한국문화 행사 '2026 코리아시즌'에 지금까지 3만9917명이 참여하거나 공연을 관람했다.
 
 문화체육관광부는 6일 한국국제문화교류진흥원, 주태국한국문화원, 주베트남한국문화원과 함께 연말까지 두 나라에서 진행하는 코리아시즌의 주요 기획행사 참여 현황을 이같이 밝혔다.

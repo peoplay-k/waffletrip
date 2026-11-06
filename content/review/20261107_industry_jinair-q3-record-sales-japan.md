@@ -4,15 +4,16 @@ channel: travel
 region: industry
 section: data
 kind: 해설
-title: "진에어, 3분기 매출 4131억원 역대 최대…흑자 전환"
+title: 진에어, 3분기 매출 4131억원 역대 최대…흑자 전환
 source_name: ''
 source_url: ''
 summary: 진에어가 일본 노선을 늘린 효과로 3분기 역대 최대 매출 4131억원을 기록하고 흑자로 돌아섰다.
 sources:
-  - https://news.mtn.co.kr/article/2026110616532717855
-status: approved
+- https://news.mtn.co.kr/article/2026110616532717855
+status: published
+published_id: c-ff56e9496aff99230ebd9baa472748a88f25dfd9
+published_on: '2026-11-07'
 ---
-
 진에어가 일본 노선 확대 효과에 힘입어 3분기에 역대 최대 매출을 올리고 흑자로 돌아섰다.
 
 6일 금융감독원 전자공시시스템에 올라온 실적에 따르면 진에어의 올해 3분기 매출은 4131억원이다. 분기 기준으로 가장 많은 금액이다. 영업 손익은 적자에서 흑자로 바뀌었다.
