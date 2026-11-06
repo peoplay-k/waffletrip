@@ -11,7 +11,9 @@ source_url: ''
 summary: 국립현대미술관의 야간 문화행사 'MMCA 나잇'이 18일 오후 6시 서울관에서 열린다. 음악과 이미지를 즉흥으로 엮는 무대로 꾸민다.
 sources:
 - https://www.yna.co.kr/view/AKR20261104046500005
-status: approved
+status: published
+published_id: c-5aa9a3b5fd93f046e6412d688a8d28b3ddf1b4b0
+published_on: '2026-11-06'
 ---
 국립현대미술관(MMCA)이 미술관을 저녁 무대로 바꾼다. 미술관의 대표 야간 문화행사 'MMCA 나잇'이 11월 18일 오후 6시 서울관에서 열린다.
 

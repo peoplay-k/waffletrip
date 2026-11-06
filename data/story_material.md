@@ -139,15 +139,15 @@
   - YTN: 미국 중간선거에서 민주당이 압승한 가운데 일본이 '블루 쓰나미' 현상을 복잡한 시선으로 바라보고 있다고 뉴욕타임스가 보도했습니다. 뉴욕타임스는 미국에서 민주당의 중간선거 승리를 민주당 상징색인 푸른색에 빗대 '블루 쓰나미'라고 표현하고 있지만, 일본 내 일각에서는 불편한 기색을 보이고 
     https://www.ytn.co.kr/_ln/0104_202611060501596996
 
+### 미 국방부, 일본 공중조기경보기 유지보수에 1691만 달러 투입…서태평양 감시망 가동률 보장
+- 매체 1곳 · 글로벌이코노믹
+  - 글로벌이코노믹: 미 국방부가 보잉과 일본 항공자위대 공중조기경보통제기 E-767 전력 지원을 위한 1691만 달러(약 227억 원) 규모의 수정 계약을 체결했다. 벨기에에 본사를 둔 글로벌 군사 전문 매체 아미 레커그니션 그룹은 2026년 11월 4일(현지시각) 이번 계약이 기존 사업의 연장 옵션을 실
+    https://www.g-enews.com/article/Global-Biz/2026/11/20261106025521910420990b2dc5_1
+
 ### 에어로케이, 일본 규슈 여행업계 초청 팸투어 진행
 - 매체 1곳 · 경충일보
   - 경충일보: 사진은 후쿠오카 공항 에어로케이 카운터 전경 에어로케이항공(대표이사 강병호)은 한국관광공사 후쿠오카지사, 전북지사와 함께 일본 규슈 지역 여행업계 관계. ..
     https://www.kcilbo.com/articles/2026110525342
-
-### 충북, 일본서 관광·MICE 홍보…2028년 국제고무회의 사전 마케팅
-- 매체 1곳 · 충청도민일보
-  - 충청도민일보: [충청도민일보 이병호 기자] = 충북문화재단이 일본 현지 관광업계와 국제회의 관계자를 대상으로 충북 관광자원과 국제회의 개최 역량을 알리는 해외 홍보 활동을 펼쳤
-    https://www.dominilbo.com/news/articleView.html?idxno=282462
 
 ## 태국
 
@@ -168,15 +168,15 @@
   - 한스경제: | 서울=한스경제 박정현 기자 | 르네상스 푸켓 리조트 & 스파가 지난 10월 28일부터 29일까지 이틀간 웰니스와 현지 문화를 결합한 특별 프로그램 '안다만 인 모션'을 진행했다고 5일 밝혔다. 이번 행사는 브랜드 철학인 '이브닝스 앳 르네상스'의 일환으로 기획돼 몸과 마음의 회복과 
     http://www.hansbiz.co.kr/news/articleView.html?idxno=880088
 
-### 해변 휴양 넘어 웰니스로…르네상스 푸켓, 저녁 콘텐츠 강화
-- 매체 1곳 · 미래를 보는 창 - 전자신문
-  - 미래를 보는 창 - 전자신문: 해변에서 휴식을 취하는 데 그쳤던 리조트의 저녁이 몸을 움직이고 호흡하며 사람들과 교류하는 웰니스 시간으로 확장되고 있다. 르네상스 푸켓 리조트 앤 스파는 지난 10월 28일부터 29일까지 이틀간 특별 프로그
-    https://www.etnews.com/20261105000233
-
 ### 르네상스 푸켓, 웰니스에 로컬 감성…여행 경험 차별화
 - 매체 1곳 · 퍼블릭타임스
   - 퍼블릭타임스: 퍼블릭타임스=르네상스 푸켓 리조트 & 스파가 바레와 필라테스, 호흡 프로그램에 푸켓의 지역색을 담은 미식 경험을 결합해 차별화된 여행 콘텐츠를 선보여 눈길을 끌었
     https://www.public25.com/news/articleView.html?idxno=57942
+
+### 휴가 때 갈 곳 늘었네…애프터눈 티 원조 호텔이 방콕에 새로 연 곳
+- 매체 1곳 · 매일경제
+  - 매일경제: 1865년 영국 런던서 시작한 더 랭함 韓 첫 간담회, 철학·마케팅 전략 소개 방콕 옛 세관 건물 복원 내달 호텔 개관
+    https://www.mk.co.kr/news/culture/12197827
 
 ## 대만
 
@@ -202,20 +202,20 @@
   - 台南旅遊網: 
     https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LS05hZGNuTjk5Mm90QWs3dFpra1dfb2Nxb3dlSVNObDBXZWdtbnBadWhFVUVQdnpteUNBOHc1aDZ1Tm94S05hVlRaRjVhY2wtaFhqMXZzZzNUaXJNTVp4eGZn?oc=5
 
+### 울산시, 대만 최대 관광박람회에 홍보관 운영
+- 매체 1곳 · 연합뉴스
+  - 연합뉴스: (울산=연합뉴스) 김근주 기자 = 울산시는 대만 최대 규모 국제 관광박람회인 '2026 타이베이국제여전(TITF: Taipei Internati...
+    https://www.yna.co.kr/view/AKR20261105175700057
+
+### "여기어때 대만 여행 10만원 쿠폰팩 푼다" 대만관광청과 숙소·항공·투어 총출동
+- 매체 1곳 · ER 이코노믹리뷰
+  - ER 이코노믹리뷰: 여기어때(대표 정명훈)는 대만관광청과 함께 숙소와 항공권 해외투어를 아우르는 대만 여행 할인 프로모션을 6일 시작한다고 밝혔다. 여기어때는 12월 6일까지 대만 전 지역 숙소를 대상으로 10만원 상당의 쿠폰팩을 지급한다.
+    https://www.econovill.com/news/articleView.html?idxno=756248
+
 ### 2026 대만 댄스 플랫폼(2026臺灣舞蹈平台)－가오슝 관광여행 웹사이트
 - 매체 1곳 · 가오슝 관광여행 웹사이트
   - 가오슝 관광여행 웹사이트: (공지:이벤트정보번역은AI에의해생성되었습니다. )2026대만댄스플랫폼은&#39;시선너머:복수의몸&#39;을큐레이션주제로내걸고대만,태국,싱가포르,한국,일본,이스라엘,미국,캐나다,독일등세계각지의예술가들을선보인다.
     https://khh.travel/ko/event/calendardetail/8166/
-
-### 대만 방한객 200만 명 돌파…김해공항 입국 비중 인천 추격
-- 매체 1곳 · 뉴스트래블
-  - 뉴스트래블: [뉴스트래블=박성은 기자] 대만인 방한 관광객이 올해 200만 명을 넘어섰다. 방한 수요가 빠르게 늘어나는 가운데 부산을 비롯한 지방공항의 입국 비중도 확대되면서 대만 관광객 유치 시장의 중심축이 수도권에서 지역으로 넓어지고 있다.
-    https://www.newstravel.co.kr/news/article.html?no=28050
-
-### 아이들 슈화, 고향 타오위안 관광홍보대사 2년 연속 위촉
-- 매체 1곳 · 조선비즈
-  - 조선비즈: 아이들 슈화, 고향 타오위안 관광홍보대사 2년 연속 위촉
-    https://biz.chosun.com/entertainment/enter_general/2026/11/03/GA3DOMRYGM3DKZBXMNRGKZRQG4/
 
 ## 국내
 
@@ -530,8 +530,76 @@
   이스라엘이 한국 관광시장 회복을 위한 준비에 나섰다. 2027년 한국인 관광객 4만 명, 2028년에는 코로나19 이전 수준인 6만 명 이상을 유치한다는 목표다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500588
 
+## 공연·전시 — category: stage, 하루 두 편 이상
+
+### [stage] 한국마사회 렛츠런파크 부산경남, 8일 청소년오케스트라 공연
+- 매체 5곳 · 글로벌이코노믹 · 머니투데이 · 메트로신문 · 브릿지경제 · 아시아경제
+  - 메트로신문: 한국마사회 렛츠런파크 부산경남은 오는 8일 더비광장 야외 무대에서 아라가야함안청소년오케스트라 특별 공연을 개최한다고 밝혔다. 오케스트라는 '아름다운 나라'와 '내일로 가는 계단' 등 10곡을 연주할 예정이다.
+    https://www.metroseoul.co.kr/article/20261104500599
+  - 머니투데이: 
+    https://news.google.com/rss/articles/CBMiakFVX3lxTE5DU2tGLXBGTUxBRUQxWlhxTGlNZFhVbS03S19KbG80RXhmbkpsY2h0WkJqQWxfWWNxenRmQzRjR3NoXzRpbk4temdkbWc3bWJXSWdaWm1JU05QdThCWW4xSl9FWk5GYUFzaXfSAW9BVV95cUxNRlc1SEhnVnJQY1htVFpTa3dWRTF1MWs1QWxqeDgyd3RPTnBGN0JQNC1FU2lvSEhnWGlfQkZvYnFfRS1PQktiOXZjQlJXWUdLUXNEN1VFMVJ6MEhVSDItU0RIY19nejdmVUQ5M25kSzQ?oc=5
+  - 브릿지경제: 
+    https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yNUtRX1drTzRQWkZPUzhZcFd6YlRVMlF1MzBDUlA2U2YtdVV2aGVFNThIaFhqOGhhODhBeUVYa0ZRUU9yZnVPckpraldMcVRZaW1ua043Nm5fQQ?oc=5
+  - 아시아경제: 
+    https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5UjFHNUxmeE1vMUZwQVJ2dGVMNXVNNjZ5cDhlUVFyS3ZsU2ZoXzVmVkVDNmtTTTZFSkQ1NzBGcmE3RGVHcUlrYy1Zbnh6UVFObG9jWlpidzhQN2gxLWJzcg?oc=5
+
+### [stage] 하나은행, 조각가 문신 특별전 개최…작품·아카이브 150여점 공개
+- 매체 1곳 · 이로운넷
+  - 이로운넷: 하나은행이 한국 현대 조각의 거장 문신 작가의 작품세계를 조명하는 특별전을 열고 고객들에게 문화예술 향유 기회를 제공한다. 하나은행은 오는 6일부터 12월 6일까지 서울 강남구 삼성동 하나은행 Club1 PB센터 지하 1층 ‘하나아트뱅크 갤러리’에서 문신 작가 특별전 ‘MOON SHIN
+    https://www.eroun.net/news/articleView.html?idxno=94326
+
+### [stage] 《현대 트랜스로컬 시리즈: 하늘의 잔물결을 따라》 전시 개막 | 뉴스 | 현대자동차그룹
+- 매체 1곳 · 현대자동차그룹
+  - 현대자동차그룹: 백남준아트센터에서 개막한 현대 트랜스로컬 시리즈, 백남준의 실험을 잇는 신작을 만나보세요.
+    https://www.hyundaimotorgroup.com/ko/news/hyundai-translocal-series-ripples-sky-exhibition-opens
+
+### [stage] 영광군청소년오케스트라, 제10회 정기연주회 개최
+- 매체 3곳 · 매일일보 · 수도권경제데일리 · 시사일보
+  - 시사일보: 
+    http://www.koreasisailbo.com/2454669
+  - 수도권경제데일리: 수도권경제데일리 | 이지안 기자용인문화재단(이사장 이상일)은 오는 12월 6일 오후 5시 용인포은아트홀에서 용인시립청소년오케스트라 제39회 정기연주회 ‘Roman
+    https://www.skedaily.com/news/articleView.html?idxno=12209
+  - 매일일보: 
+    https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiUGdlZlZaRGdUcnZ4bUxCdGN3elRXQ2lvWmRXczZNdFNxbElsdUttMjRQVENyWUhzVUZCTXgwa3FxeUVwdG1KczE1NjdhYnBkWWtOb3Z0enN6eFk5NkY5ckJfYkE?oc=5
+
+### [stage] 2026 경기시나위오케스트라 기획공연 ‘젊은 명인 : Young Virtuoso’ 창단 30주년, 경기시나위오케스트라와 젊은 명인 5인의 특별한 만남
+- 매체 1곳 · 뉴스피크
+  - 뉴스피크: [뉴스피크] (재)경기아트센터(사장 김상회) 경기시나위오케스트라(예술감독 김성진)가 오는 11월 19일(목) 오후7시30분 를 선보인다. 은 공모를 통해 선발된 젊은 국악 연주자들이 경기시나위오케스트라와 협연하며 무대 경험을 쌓고 음악적 역량을 넓혀가는 기획공연이다.
+    http://www.newspeak.kr/news/articleView.html?idxno=926601
+
+### [stage] “아이와 가족, 서울이 함께 자란다” 서울생활사박물관, ？육아, 가족의 성장？ 기획전 개최
+- 매체 1곳 · 한국방송뉴스
+  - 한국방송뉴스: 서울역사박물관은 광복 이후부터 오늘날까지 서울 사람들의 육아 문화 변화를 조망하는 기획전시 「육아, 가족의 성장」을 11월 6일(금)부터 서울생활사박물관에서 개최한다. 지하철 <태릉입구역> 가까이에 위치한 서울생활사박물관은 평범한 서울 사람들의 일상생활을 흥미롭게 보여주는 박물관으로 매
+    https://www.ikbn.news/news/article.html?no=217012
+
+### [stage] 웃음과 설렘으로 만나는 오페라…수성아트피아 ‘사랑의 묘약’
+- 매체 2곳 · 경북일보 · 미디어디펜스
+  - 경북일보: 
+    https://news.google.com/rss/articles/CBMib0FVX3lxTE1tMVN2aG5HTXB6UEMxeVlVNWw4Snl1YTM0ZWRFclRjMFdJejBJOUFKZ09aeTdRa256dF9hdUNfT1pJZmlGVG9tUDYxc0IwWVFRQzhtcWlkdFJOcVVJdVBLN3RycGhSMDBOOXh5anA4MA?oc=5
+  - 미디어디펜스: 
+    https://news.google.com/rss/articles/CBMia0FVX3lxTFBCODBieHVyTWpDTTQ1QmtqMlpaWThnNlJNOXVxVDNIQnU4alJQTUhsUEIwLTlPaGdNTlBrMFpMMWdkcXVHY0FfWWlJbVlfYnFtMTBDSEdCQXJLWkVxZm5hVGZjVVlucFVZYmZN?oc=5
+
+### [stage] 남명 정신, 오페라로 깨어난다
+- 매체 2곳 · 경남신문 · 불교방송
+  - 경남신문: 
+    https://m.knnews.co.kr/mView.php?idxno=1554483
+  - 불교방송: 임진왜란 당시의 의병 정신부터 1980년 5월 민주주의를 외쳤던 시민들의 함성까지 긴 세월을 넘어 이어져 온 광주정신을 노래하는 창작 오페라가 무대에 오릅니다. 광주벨칸토성악아카데미의 창작 오페라 '충장'이 오는 7일 전남광주통합특별시예술의전당 소극장에서 초연됩니다.
+    https://news.bbsi.co.kr/news/articleView.html?idxno=4116979
+
+### [stage] 이민재 개인전 《Hormesis》, 미오갤러리에서 11월 7일까지 개최
+- 매체 2곳 · ABC뉴스 · 도민연합뉴스
+  - ABC뉴스: ABC뉴스=김수찬 기자 / 이민재 작가가 서울 종로구에 위치한 미오갤러리(MeO Gallery)에서 개인전 《Hormesis》를 진행한다. 오는 11월 7일까지 열리는 전시에서는 질병과 노화, 죽음에 관한 경험을 바탕으로 외부 세계의 이미지가 회화 안에서 유입·변형되는 과정을 다룬다.
+    https://www.abcn.kr/news/articleView.html?idxno=94122
+  - 도민연합뉴스: [도민연합뉴스 = 송범헌 기자 ][도민연합뉴스] 천안문화재단은 오는 11월 5~ 29일 천안예술의전당에서 11월 대관전시를 선보인다고 4일 밝혔다. 먼저 상묵회는 11월 5~ 10일 ‘상묵회전’을 연다.
+    https://www.krcom.co.kr/news/articleView.html?idxno=259331
+
+### [stage] 성균관대 박물관, 내일부터 제45회 기획특별전 '붓끝에서' 개최
+- 매체 1곳 · 뉴시스
+  - 뉴시스: [서울=뉴시스]이예인 인턴 기자 = 성균관대학교 박물관은 오는 6일부터 2027년 5월 31일까지 제45회 기획특별전 '검여 유희강 서거 50주기-붓끝에서'를 선보인다. 5일 성균관대에 따르면 박물관은 27년 만에 600주년기념관 로비와 박물관 홀 환경개선 공사를 마치고 재개관했으며, 
+    https://www.newsis.com/view/NISX20261105_0003856155
+
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 30개 확인, 사진 줄 3개)
+(자유 이용 사진: 이름 후보 27개 확인, 사진 줄 3개)
 
 ### 🔥 화제(매체 28곳) [startrip] 리센느 신곡 ‘위드’ 2시간 만에 멜론 1위…앨범 5곡 모두 ‘톱10’
 - 매체 2곳 · 한겨레 · 한국경제  ← 여러 곳이 썼다
@@ -566,6 +634,17 @@
   - 이투데이: ▲18일 밤 9시 50분 첫 방송이 예고된 KBS 드라마스페셜 2026 '사운드:트랙'의 메인 포스터 (출처 - KBS2 ‘사운드:트랙') 여덟 개 명곡을 여덟 가지의
     https://www.etoday.co.kr/news/view/2643574
 
+### 🔥 화제(매체 5곳) [movie] [영화] 영화 '마른 잎', 11월 25일 개봉
+- 매체 4곳 · JTN뉴스 · 뉴스핌 · 톱스타뉴스 · 파이낸셜포스트  ← 여러 곳이 썼다
+  - JTN뉴스: 
+    http://m.jtn.co.kr/view.php?m=culture&idx=79833
+  - 뉴스핌: [서울=뉴스핌] 정태이 기자 = AI 장편영화 '라파엘'이 오는 25일 롯데시네마에서 개봉한다. 5일 영화 '라파엘'은 독재자의 젊은 시절 모습을 본떠 만든 안드로이드 전쟁병기 알렉세이가 감정이 통제된 미래 사회에서 미등록자 아이와 인류의 마지막 신부를 만나 인
+    https://www.newspim.com/news/view/20261105000143
+  - 톱스타뉴스: 다섯 발굽의 돼지 전설과 금기를 깨운 이들에게 닥친 저주를 그린 베트남 오컬트 호러 영화 ‘돼지지옥’이 11월 26일 국내 개봉을 확정했다. 르우 타인 르언 감독 연출, 심령 콘텐츠 촬영을 위해 전설의 사당을 찾은 이들이 겪는 공포를 담았다.
+    https://www.topstarnews.net/news/articleView.html?idxno=16268948
+  - 파이낸셜포스트: 가수 임영웅의 공연 실황이 영화로 제작된다. 6일 오전 임영웅 공식 SNS 채널을 통해 영화 ‘임영웅│아임 히어로 더 스타디움 2’ 메인 예고편이 공개됐다.
+    https://www.financialpost.co.kr/news/articleView.html?idxno=285138
+
 ### 🔥 화제(매체 5곳) [startrip] 사랑스러운 김혜윤, AAA 2026 인기상 수상 확정..3년 연속 쾌거
 - 매체 1곳 · 스타뉴스  ← 여러 곳이 썼다
 - 사진(자유 이용, 김혜윤): `![김혜윤 · 사진 TV10 · CC BY 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/1/1c/Kim_Hye-yoon_in_January_2026.png)`
@@ -583,6 +662,13 @@
   - 연합뉴스: (서울=연합뉴스) 고가혜 기자 = ▲ tvN 예능 '그냥사람친구' 27일 첫 방송 = tvN은 새 예능 프로그램 '그냥사람친구'를 오는 27일 ...
     https://www.yna.co.kr/view/AKR20261104147700005
 
+### 🔥 화제(매체 3곳) [movie] 입소문 탄 ‘수능, 출제의 비밀’…韓영화 박스오피스 1위
+- 매체 2곳 · 뉴스버즈(newsbuzz) · 이투데이  ← 여러 곳이 썼다
+  - 이투데이: ▲영화 '수능, 출제의 비밀' 포스터. (사진제공=㈜바이포엠스튜디오)영화 ‘수능, 출제의 비밀’이 개봉 2주차를 앞두고 한국영화 박스오피스 1위를 탈환
+    https://www.etoday.co.kr/news/view/2643863
+  - 뉴스버즈(newsbuzz): 2027학년도 대학수학능력시험을 앞두고 대한민국 2급 국가기밀인 '수능 출제 본부'의 베일을 벗긴 코미디 영화 이 개봉 2주 차에도 뜨거운 입소문 흥행을 이어가며 관전 포인트를 전격 공개했다. 지난 10월 28일 개봉한 영화 (감독 이용재, 제작 ㈜조이래빗)은 수능 출제를 위해 40일간
+    https://www.newsbuzz.co.kr/news/articleView.html?idxno=26669
+
 ### 🔥 화제(매체 3곳) [movie] 제주4.3 여성의 삶 다룬 다큐 영화 '목소리들' 일본서 개봉
 - 매체 3곳 · JIBS제주방송 · 제이누리 · 진일보 | 전남일보  ← 여러 곳이 썼다
   - JIBS제주방송: 
@@ -592,22 +678,8 @@
   - 진일보 | 전남일보: 제주4·3 당시 여성들이 겪은 고통과 삶을 조명한 다큐멘터리 영화 '목소리들'이 일본 관객들과 만난다. 제주4·3평화재단은 지혜원 감독의 다큐멘터리 영화 '목소리들
     https://www.jnilbo.com/news/articleView.html?idxno=90000080019
 
-### 🔥 화제(매체 3곳) [movie] [영화] 영화 '마른 잎', 11월 25일 개봉
-- 매체 3곳 · JTN뉴스 · 뉴스핌 · 톱스타뉴스  ← 여러 곳이 썼다
-  - JTN뉴스: 
-    http://m.jtn.co.kr/view.php?m=culture&idx=79833
-  - 뉴스핌: [서울=뉴스핌] 정태이 기자 = AI 장편영화 '라파엘'이 오는 25일 롯데시네마에서 개봉한다. 5일 영화 '라파엘'은 독재자의 젊은 시절 모습을 본떠 만든 안드로이드 전쟁병기 알렉세이가 감정이 통제된 미래 사회에서 미등록자 아이와 인류의 마지막 신부를 만나 인
-    https://www.newspim.com/news/view/20261105000143
-  - 톱스타뉴스: 다섯 발굽의 돼지 전설과 금기를 깨운 이들에게 닥친 저주를 그린 베트남 오컬트 호러 영화 ‘돼지지옥’이 11월 26일 국내 개봉을 확정했다. 르우 타인 르언 감독 연출, 심령 콘텐츠 촬영을 위해 전설의 사당을 찾은 이들이 겪는 공포를 담았다.
-    https://www.topstarnews.net/news/articleView.html?idxno=16268948
-
-### 🔥 화제(매체 3곳) [movie] 연상호 감독 영화 ‘실낙원’, 개봉 3주 차에도 N차 관람 이어진다
-- 매체 1곳 · 톱스타뉴스
-  - 톱스타뉴스: 연상호 감독의 심리 스릴러 ‘실낙원’이 개봉 3주 차에도 관객들의 N차 관람이 이어지며 꾸준한 반응을 얻고 있다. 관객 후기와 함께 AI·모성·정체성을 둘러싼 질문이 극장 밖 대담으로 확장되고 있다.
-    https://www.topstarnews.net/news/articleView.html?idxno=16268688
-
 ---
-거리 107건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 117건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -616,65 +688,65 @@
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
 (검색어 33개 · 고른 영상 15개)
 
-## RIIZE 'Insomnia'｜Record Delivery📦｜Self Recording @SM ENTERTAINMENT｜LIVE
-- 채널 1theK Live - 원더케이 라이브 · 조회수 774,163회 · 7일 전
+## TWS (투어스) '내 이름을 불러줘' Official MV
+- 채널 HYBE LABELS · 조회수 10,266,161회 · 3일 전
+- `@youtube 3MPUCncZBR0` · https://www.youtube.com/watch?v=3MPUCncZBR0
+
+## RIIZE (라이즈) 'Insomnia'｜Record Delivery📦｜Self Recording @SM ENTERTAINMENT｜LIVE｜레코드딜리버리
+- 채널 1theK Live - 원더케이 라이브 · 조회수 774,943회 · 7일 전
 - `@youtube 7H8ktQEYODM` · https://www.youtube.com/watch?v=7H8ktQEYODM
 
+## [리무진서비스] EP.240 리센느 리브 | RESCENE LIV | With, 그댄 달라요, 내 생에 아름다운, 왜 그래
+- 채널 KBS Kpop · 조회수 747,109회 · 1일 전
+- `@youtube a_c2mBMKuBE` · https://www.youtube.com/watch?v=a_c2mBMKuBE
+
 ## CHAERYEONG(채령) “Lovesick” M/V TEASER 1
-- 채널 JYP Entertainment · 조회수 623,687회 · 4일 전
+- 채널 JYP Entertainment · 조회수 624,011회 · 4일 전
 - `@youtube lFOHFisCxjs` · https://www.youtube.com/watch?v=lFOHFisCxjs
 
+## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DREAM Ver.)
+- 채널 HYBE LABELS · 조회수 491,686회 · 2일 전
+- `@youtube XItzOV6huqw` · https://www.youtube.com/watch?v=XItzOV6huqw
+
+## [#2026MAMA] STAR COUNTDOWN D-15 #RESCENE
+- 채널 Mnet K-POP · 조회수 343,676회 · 1일 전
+- `@youtube aJ61F8L9wmM` · https://www.youtube.com/watch?v=aJ61F8L9wmM
+
 ## 푸른길 | 공식 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 300,699회 · 1일 전
+- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 313,543회 · 1일 전
 - `@youtube KR4FSCGPtLM` · https://www.youtube.com/watch?v=KR4FSCGPtLM
 
 ## 앤더블 잘생긴 게 숨긴다고 숨겨지는 것도 아니고｜AND2BLE｜French Kissing｜내돌의 온도차｜GAP CRUSH
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 288,288회 · 6일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 292,026회 · 6일 전
 - `@youtube p9oG3KuymQo` · https://www.youtube.com/watch?v=p9oG3KuymQo
 
 ## [9화 예고] 마침내 시작되는 조선총독부를 향한 거사💥다가오는 김유정의 미국행..?!
-- 채널 tvN DRAMA · 조회수 275,641회 · 4일 전
+- 채널 tvN DRAMA · 조회수 275,964회 · 4일 전
 - `@youtube 4eZVj_ems7E` · https://www.youtube.com/watch?v=4eZVj_ems7E
 
 ## [7화 예고] "까야겠네, 강비서 여자인 거💥" 여자인 걸 들켜버린 설인아와 임시완의 깊어지는 오해😱 #나의유죄인간 EP.7
-- 채널 tvN DRAMA · 조회수 267,830회 · 2일 전
+- 채널 tvN DRAMA · 조회수 269,287회 · 2일 전
 - `@youtube 40VaBfB6e88` · https://www.youtube.com/watch?v=40VaBfB6e88
 
 ## [8화 예고] 김유정을 향한 마음이 깊어지는 태웅, 그리고 폭탄 작전을 계획하는 구국단💣
-- 채널 tvN DRAMA · 조회수 257,848회 · 5일 전
+- 채널 tvN DRAMA · 조회수 257,921회 · 5일 전
 - `@youtube bi8waMaB_9o` · https://www.youtube.com/watch?v=bi8waMaB_9o
 
 ## [2차 티저] 몽골 침략 28년, 고려의 마지막 희망을 찾아 떠난다 | 〈신의 구슬〉 12월 5일(토) 밤 10시 40분 첫 방송
-- 채널 JTBC Drama · 조회수 196,279회 · 2일 전
+- 채널 JTBC Drama · 조회수 196,961회 · 2일 전
 - `@youtube ErfP5DT4bTk` · https://www.youtube.com/watch?v=ErfP5DT4bTk
 
 ## [14화 예고] 사는 게 이렇게 행복한 거란 거, 너 때문에 알았어 [너 말고 다른 연애] | KBS 방송
-- 채널 KBS Drama · 조회수 194,687회 · 5일 전
+- 채널 KBS Drama · 조회수 194,726회 · 5일 전
 - `@youtube Qo7lKzQs4AM` · https://www.youtube.com/watch?v=Qo7lKzQs4AM
 
-## Did I do something wrong?｜Between Two Chairs｜AND2BLE ZHANG HAO YOO SEUNGEON
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 157,543회 · 3일 전
+## 나 뭐 잘못한 거 있어?｜진실의 편의점｜AND2BLE(앤더블) 장하오 유승언
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 158,739회 · 3일 전
 - `@youtube 7X6AVEUKpRc` · https://www.youtube.com/watch?v=7X6AVEUKpRc
 
 ## ［28회 예고］네 식구들 하나하나 손봐준다 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 141,555회 · 4일 전
+- 채널 KBS Drama · 조회수 141,571회 · 4일 전
 - `@youtube Ruhp_ovcCcA` · https://www.youtube.com/watch?v=Ruhp_ovcCcA
-
-## xikers 'DIENAMITE’｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 93,616회 · 1일 전
-- `@youtube k-xc9wWWTDc` · https://www.youtube.com/watch?v=k-xc9wWWTDc
-
-## 올해 전국에 전멸했다더니 온 산을 뒤져 캔 버섯 100kg, 닷새 만에 번 돈이 무려…｜1kg에 171만 원까지 낙찰됐다. 아까워서 흙까지 먹는다는 송이버섯｜한국기행｜#골라듄다큐
-- 채널 EBSDocumentary (EBS 다큐) · 조회수 85,107회 · 1일 전
-- `@youtube u9BNx54YqCM` · https://www.youtube.com/watch?v=u9BNx54YqCM
-
-## [종합 예고] 하나의 나라를 위한 피로 쓴 마지막 전쟁 [문무] | KBS 방송
-- 채널 KBS Drama · 조회수 83,596회 · 1일 전
-- `@youtube dg5PPnh_7sU` · https://www.youtube.com/watch?v=dg5PPnh_7sU
-
-## [가족관계증명서 74회 예고] ＂일절 안 했으면 좋겠어서...＂, MBC 261104 방송
-- 채널 MBCdrama · 조회수 68,857회 · 2일 전
-- `@youtube FtF2tldTS8A` · https://www.youtube.com/watch?v=FtF2tldTS8A
 
 
 
