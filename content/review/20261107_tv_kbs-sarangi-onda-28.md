@@ -8,13 +8,15 @@ kind: 보도자료
 title: KBS2 '사랑이 온다' 28회, 무진의 레스토랑 찾은 훈태의 뜻밖의 행동
 source_name: ''
 source_url: ''
-summary: KBS2 주말드라마 '사랑이 온다'가 7일(토) 밤 8시 28회를 방송한다. 무진의 레스토랑을 찾은 훈태가 뜻밖의 행동으로 모두를 당황하게 하고, 혼인신고를 앞둔 규오와 희나에게는 충격적인 스캔들이 터진다.
+summary: KBS2 주말드라마 '사랑이 온다'가 7일(토) 밤 8시 28회를 방송한다. 무진의 레스토랑을 찾은 훈태가 뜻밖의 행동으로 모두를
+  당황하게 하고, 혼인신고를 앞둔 규오와 희나에게는 충격적인 스캔들이 터진다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/loveonthemenu
 - https://www.youtube.com/watch?v=Ruhp_ovcCcA
-status: approved
+status: published
+published_id: c-daf32d2233c75fa1c44dc67b163c1cbee2d8ad5e
+published_on: '2026-11-07'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 28회
 > 방송 · 2026년 11월 7일(토) 밤 8시

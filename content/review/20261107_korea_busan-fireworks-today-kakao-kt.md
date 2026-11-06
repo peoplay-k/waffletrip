@@ -7,7 +7,8 @@ kind: 해설
 title: 오늘 저녁 7시 부산불꽃축제…블랙이글스 에어쇼·카카오맵 혼잡도 지도
 source_name: ''
 source_url: ''
-summary: 제21회 부산불꽃축제가 7일 오후 7시부터 8시까지 광안리해수욕장·이기대·동백섬 일원에서 열린다. 낮에는 공군 블랙이글스 에어쇼가 펼쳐지고, 카카오맵은 관람 구역별 혼잡도와 일행 위치를 보여 주는 전용 지도를, KT는 임시기지국 19곳을 운영한다.
+summary: 제21회 부산불꽃축제가 7일 오후 7시부터 8시까지 광안리해수욕장·이기대·동백섬 일원에서 열린다. 낮에는 공군 블랙이글스 에어쇼가
+  펼쳐지고, 카카오맵은 관람 구역별 혼잡도와 일행 위치를 보여 주는 전용 지도를, KT는 임시기지국 19곳을 운영한다.
 sources:
 - https://www.iusm.co.kr/news/articleView.html?idxno=1070022
 - https://www.yna.co.kr/view/AKR20261104140900051?section=local/all
@@ -15,9 +16,10 @@ sources:
 - https://www.digitaltoday.co.kr/news/articleView.html?idxno=713296
 - https://www.m-i.kr/news/articleView.html?idxno=2015368
 - https://www.wbcb.co.kr/news/articleView.html?idxno=107466
-status: approved
+status: published
+published_id: c-11a6dea56c893a41602629bbbe8bc745d92c317b
+published_on: '2026-11-07'
 ---
-
 오늘(7일) 저녁 부산 광안리 밤하늘이 불꽃으로 물든다. 부산시는 7일 오후 7시부터 8시까지 광안리해수욕장과 이기대, 동백섬 일원에서 '제21회 부산불꽃축제'를 연다. 광안대교와 부산 앞바다를 배경으로 세 지점에서 불꽃을 쏘아 올린다.
 
 불꽃쇼에 앞서 낮에는 하늘 공연이 먼저 열린다. 공군 특수비행팀 블랙이글스가 이날 광안리 상공에서 곡예비행을 선보인다.

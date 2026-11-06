@@ -8,13 +8,15 @@ kind: 해설
 title: tvN '나의 유죄인간' 6·7화 예고 조회수 50만 회 넘어…설인아·임시완의 오해 깊어진다
 source_name: ''
 source_url: ''
-summary: tvN DRAMA 공식 채널이 공개한 '나의 유죄인간' 6화·7화 예고 영상이 각각 조회수 23만·30만 회를 넘었다. 7화 예고에선 설인아가 여자라는 사실이 들통나고, 6화 예고에선 이준과 시아의 결혼 이야기가 다가온다.
+summary: tvN DRAMA 공식 채널이 공개한 '나의 유죄인간' 6화·7화 예고 영상이 각각 조회수 23만·30만 회를 넘었다. 7화 예고에선
+  설인아가 여자라는 사실이 들통나고, 6화 예고에선 이준과 시아의 결혼 이야기가 다가온다.
 sources:
 - https://www.youtube.com/watch?v=40VaBfB6e88
 - https://www.youtube.com/watch?v=SyPlztnfwVE
-status: approved
+status: published
+published_id: c-a80381ac635eae2293642810ed248dba85b236c7
+published_on: '2026-11-07'
 ---
-
 tvN 드라마 '나의 유죄인간'의 예고 영상이 공식 채널에서 잇따라 조회수를 끌어올리고 있다. tvN DRAMA 공식 유튜브에 올라온 7화 예고는 공개 사흘 만에 조회수 30만 회를, 6화 예고는 나흘 만에 23만 회를 넘었다. 두 영상을 합하면 50만 회가 넘는다.
 
 @youtube 40VaBfB6e88
