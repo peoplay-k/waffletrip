@@ -60,6 +60,11 @@
 
 ## 코타키나발루
 
+### [놀아보니] 현지 문화에 한걸음 더···코타키나발루 여행 10배 즐기기
+- 매체 1곳 · 에너지경제신문
+  - 에너지경제신문: 
+    https://m.ekn.kr/view.php?key=20261106029026497
+
 ### Heavy rain, damaged drain structure caused UiTM Puncak Alam floods
 - 매체 1곳 · New Straits Times  ← 여러 곳이 썼다
   - New Straits Times: SHAH ALAM: Nearly three hours of heavy rain and a damaged drainage structure caused flash floods in several areas of Universiti Teknologi Mara’s (UiTM) Puncak A
@@ -130,6 +135,11 @@
 
 ## 태국
 
+### 골프장 가로지르는 대형 이구아나?…라구나 골프 푸켓에서의 진짜 여유
+- 매체 1곳 · 데일리안
+  - 데일리안: 국내 골퍼들에게 주말 라운드는 때론 휴식이 아닌 또 하나의 경쟁이 되곤 한다. 7분, 길어야 8분 간격으로 빼곡하게 잡힌 티 오프 시간표.
+    https://www.dailian.co.kr/news/view/1712023/%EA%B3%A8%ED%94%84%EC%9E%A5-%EA%B0%80%EB%A1%9C%EC%A7%80%EB%A5%B4%EB%8A%94-%EB%8C%80%ED%98%95-%EC%9D%B4%EA%B5%AC%EC%95%84%EB%82%98%EB%9D%BC%EA%B5%AC%EB%82%98-2026
+
 ### 태국 디저트엔 포르투갈의 달콤한 유산이 숨겨져 있다 [신예희의 나홀로 한입여행]
 - 매체 1곳 · 한국경제
   - 한국경제: 태국 디저트엔 포르투갈의 달콤한 유산이 숨겨져 있다 [신예희의 나홀로 한입여행], 두 나라의 달달한 만남
@@ -149,13 +159,6 @@
 - 매체 1곳 · 스타트업엔(StartupN)
   - 스타트업엔(StartupN): 
     https://news.google.com/rss/articles/CBMiaEFVX3lxTE13LUpwYlBIdHNUMTZGSzdiNk9RYjB0UXZtbWV4TTZqZ04wZTAwWkRWVUdsMk9mLVhpWFdERFEtZ3hOUy1BWGlMRHJENmNCSEZQNURKSEwxM0tTTTlRRVF4ODVTclhHVGpQ0gFsQVVfeXFMUHI1NlpCNTYzRlNBOG14TW1wTmJDNkJXZ1A3LXIzd183VFNGOEh5TDNlbklfbGpCNDdiUzJmWlVRQ1Yyb3hQX1hIdTFWZFYwVEZKV0dvYXY3RG1TLXdaQncyTUcyMGRJRTE3eDNf?oc=5
-
-### Thailand could see 20% drop in Chinese tourists in final two months of 2026, travel agents warn
-- 매체 2곳 · VnExpress International · nationthailand  ← 여러 곳이 썼다
-  - VnExpress International: 
-    https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMVJrYTlKUTByNHpCdDcyaEFBME9tRTRlcW11NDlTbzI3a1NuOEUwR2d3RlZxUFJobDZNT1pmSVVYLUZTVmx6dUt0UnpxZkR4UjBZcmsyRm9SNUxLSDc1ZzRWV1p2bk40Q05nRVpjTEJPMTRtTjJ0YjNHV0FzdmpHQkFKVnVWQmJRc013Y2JPeVQ4WTZQV0g5ZFpJVWU5d190VzAwWEpZZ21iSE9RWTMzZFZEZW5NOXEtZk1TNXlLZXN3M3hXNllZQmljUTRDY1UwVTBnMHpLdVFWdw?oc=5
-  - nationthailand: Thailand’s tourism industry fears Chinese arrivals could decline by 20% in November and December following a safety advisory, as ATTA calls for urgent governmen
-    https://www.nationthailand.com/news/tourism/40073165
 
 ## 대만
 
@@ -188,6 +191,17 @@
 
 ## 국내
 
+### 단양관광공사, ‘2026 단양 관광마케팅 공모전’ 성료... 관광 활성화 신호탄
+- 매체 3곳 · 글로벌뉴스통신GNA · 이뉴스투데이 · 청주일보  ← 여러 곳이 썼다
+  - 청주일보: 【청주일보】 주계연 기자 = 단양관광공사(사장 이관표)는 지난 4일 단양의 다채로운 매력을 알리고 독창적인 관광 콘텐츠를 발굴하기 위해 추진한 ‘2026 단양 관광마케팅 공모전’의 시상식으로 피날레를 장식했다고 밝혔다.
+    https://www.cj-ilbo.com/news/articleView.html?idxno=1186531
+  - 이뉴스투데이: [이뉴스투데이 충북취재본부 김지혁 기자] 단양관광공사(사장 이관표)는 지난 4일 단양의 다채로운 매력을 알리고 독창적인 관광 콘텐츠를 발굴하기 위한 ‘2026 단양 관광마케팅 공모전’ 시상식을 개최하며 행사의 피날레를 장식했다고 밝혔다. 총 2650만 원의 시상금이 걸린 이번 공모전은
+    http://www.enewstoday.co.kr/news/articleView.html?idxno=2489233
+  - 글로벌뉴스통신GNA: [서울=글로벌뉴스통신] 제천문화관광재단과 단양관광공사는 지난 5일(목) 제천시영상미디어센터에서 문화·관광 활성화를 위한 업무협약을 체결했다. 협약식에는 이관표 단양
+    https://www.globalnewsagency.kr/news/articleView.html?idxno=503478
+  - 글로벌뉴스통신GNA: [서울=글로벌뉴스통신] 단양관광공사는 지난 4일(수) ‘2026 단양 관광마케팅 공모전’ 시상식을 열고 관광기념품 부문 대상에 모영주 씨, 사진 부문 대상에 변병
+    https://www.globalnewsagency.kr/news/articleView.html?idxno=503496
+
 ### 카카오맵, 부산불꽃축제 전용 지도 제공…실시간 혼잡도 확인
 - 매체 4곳 · 뉴스핌 · 디지털투데이 (DigitalToday) · 카카오 · 투어코리아  ← 여러 곳이 썼다
   - 뉴스핌: [서울=뉴스핌] 심재민 기자 = 카카오가 오는 7일 열리는 '제21회 부산불꽃축제'를 맞아 카카오맵에서 축제 전용 지도와 실시간 혼잡도 정보를 제공한다. 카카오는 부산광역시, 부산축제조직위원회와 협력해 부산불꽃축제 전용 지도를 운영한다고 6일 밝혔다.
@@ -219,21 +233,14 @@
   - 뉴스웍스: [뉴스웍스=허운연 기자] 오늘(7일) 밤 부산 광안리 일대에서 불꽃축제가 열린다. 지난해 117만명이 몰렸던 만큼, 이번 축제는 최근 부산 여행 붐에 방점을 찍을
     https://www.newsworks.co.kr/news/articleView.html?idxno=902199
 
-### 단양관광공사, ‘2026 단양 관광마케팅 공모전’ 성료... 관광 활성화 신호탄
-- 매체 3곳 · 글로벌뉴스통신GNA · 이뉴스투데이 · 청주일보  ← 여러 곳이 썼다
-  - 청주일보: 【청주일보】 주계연 기자 = 단양관광공사(사장 이관표)는 지난 4일 단양의 다채로운 매력을 알리고 독창적인 관광 콘텐츠를 발굴하기 위해 추진한 ‘2026 단양 관광마케팅 공모전’의 시상식으로 피날레를 장식했다고 밝혔다.
-    https://www.cj-ilbo.com/news/articleView.html?idxno=1186531
-  - 이뉴스투데이: [이뉴스투데이 충북취재본부 김지혁 기자] 단양관광공사(사장 이관표)는 지난 4일 단양의 다채로운 매력을 알리고 독창적인 관광 콘텐츠를 발굴하기 위한 ‘2026 단양 관광마케팅 공모전’ 시상식을 개최하며 행사의 피날레를 장식했다고 밝혔다. 총 2650만 원의 시상금이 걸린 이번 공모전은
-    http://www.enewstoday.co.kr/news/articleView.html?idxno=2489233
-  - 글로벌뉴스통신GNA: [서울=글로벌뉴스통신] 제천문화관광재단과 단양관광공사는 지난 5일(목) 제천시영상미디어센터에서 문화·관광 활성화를 위한 업무협약을 체결했다. 협약식에는 이관표 단양
-    https://www.globalnewsagency.kr/news/articleView.html?idxno=503478
-
-### 포항 전통시장·골목상권 가을 축제 잇따라…지역 소비 활성화 나서
-- 매체 2곳 · 중도일보 · 프레시안  ← 여러 곳이 썼다
-  - 프레시안: 시장별 특색 살린 먹거리 장터·야시장·문화행사로 관광객 방문 유도
-    https://www.pressian.com/pages/articles/2026110613554663139
-  - 중도일보: 경북 포항시가 유통 환경과 소비 패턴의 빠른 변화로 어려움을 겪는 전통시장과 골목상권에 활력을 불어넣기 위해 가을철 릴레이 축제를 열고 지역 소비 촉진에 나섰다. 시는 상권마다 고.
-    https://www.joongdo.co.kr/web/view.php?key=20261106010002234
+### 조선호텔앤리조트, 내년 종로·여수에 새 호텔…2030년까지 14곳으로
+- 매체 3곳 · 동아일보 · 문화일보 · 조선비즈  ← 여러 곳이 썼다
+  - 조선비즈: 조선호텔앤리조트, 내년 종로·여수에 새 호텔2030년까지 14곳으로
+    https://biz.chosun.com/distribution/channel/2026/11/02/GCHQ6FA2D5EYDKDXVHFTNVFLZA/
+  - 문화일보: 개관 112주년을 맞은 조선호텔앤리조트가 국내 호텔사업을 공격적으로 확장한다. 내년에 서울 종로와 전남 여수에 신규 호텔 2곳을 선보이는 데 이어, 인천 청라와 경북 안동 등에도 호텔을 조성해 오는 2030년까지 국내에 14개 호텔 체제를 구축한다는 목표를 세웠다.
+    https://www.munhwa.com/article/11628830
+  - 동아일보: 조선호텔앤리조트가 내년에 서울 종로와 전남 여수에 호텔을 새롭게 선보인다. 또 청라·안동 등 순차적으로 사업을 확대해 2030년까지 국내 총 14개 호텔 체제를 구축한다.
+    https://www.donga.com/news/Economy/article/all/20261102/134950226/1
 
 ## 여행업계
 
@@ -247,6 +254,15 @@
     https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FcWg1TUQ3bjVxbGFHSGZ1aFpUZkY0OHV3MThQMk9nT3dZdUdyaWtydTlCTW84NEFLUVdTWEpyVkJqd0pkRjB2cm9PYy1rcG5JbmZnVkJoSlI5d9IBVEFVX3lxTE9CWmp0UzJTaHJWTmlhT3NHdVo0Sy01c0JEQkJDZ2JxYVlYQU5xVXVfS0xCNEZIS2ZFODlEblB4MmVCcU1tRG44dEp2dVEtZk5FZE1KSw?oc=5
   - 아주경제: 
     https://news.google.com/rss/articles/CBMiWkFVX3lxTE81T1JhM3ZSb3o0cFVSZ0VsNklURkpvVU5NalhSLU9ZZDR0SVRMZ0taSzctUkFMNnJyVG5hcWI1VzVQai1YUjMwQkZoUVluclc3OE80QWlzLWJYd9IBWEFVX3lxTE5adDlLZnhUN3FwZ0NBZS1IaXVjV1FsOE04M25ERUFmT2JlZGk2UjQ1OEt5N3JINWFmSWNwY2pjWjFLdGsxQU90T0pBY1hzZjB0VkJBSF95dzE?oc=5
+
+### 켄싱턴호텔, 4인 이상 여행객 기획전…뷔페·사우나 등 구성
+- 매체 3곳 · TTL뉴스 · 뉴스핌 · 연합뉴스  ← 여러 곳이 썼다
+  - 연합뉴스: (서울=연합뉴스) 이상서 기자 = 이랜드파크가 운영하는 켄싱턴호텔앤리조트는 오는 30일까지 4인 이상이 함께 떠나는 여행객을 위한 '뭉쳐야 간다. ..
+    https://www.yna.co.kr/view/AKR20261106105500030
+  - 뉴스핌: [서울=뉴스핌] 김용석 기자 = 이랜드파크가 운영하는 켄싱턴호텔앤리조트가 가족·친구·모임 등 4인 이상 여행객을 위한 '뭉쳐야 간다' 기획전을 11월 30일까지 연다고 6일 밝혔다. 켄싱턴호텔 2곳(평창, 켄트호텔 광안리 바이 켄싱턴)
+    https://www.newspim.com/news/view/20261106000916
+  - TTL뉴스: 이랜드파크가 운영하는 켄싱턴호텔앤리조트가 가을 행락철을 맞아 다인 가족과 소모임 단위 여행객의 비용 부담을 낮춘 맞춤형 결합 상품을 선보인다. 객실과 식사, 부대시설 이용 혜택을 하나의 패키지에 담아 현장 추가 결제의 번거로움을 던 점이 핵심이다.
+    http://www.ttlnews.com/news/articleView.html?idxno=3159667
 
 ### 국제성모병원, 인천공항 ‘국제성모 공항진료센터의원’ 운영 시작
 - 매체 3곳 · 경기일보 · 병원신문 · 후생신보  ← 여러 곳이 썼다
@@ -302,26 +318,19 @@
   - 비욘드포스트: 인천시와 인천관광공사가 한·중 카페리를 활용한 자전거 관광상품을 선보이고 중국 자전거 동호인 유치에 나섰다. 공사(사장 직무대행 김지안)는 5일 위동페리와 함께 자전거 관광상품 ‘허벅허벅 인천(骑行仁川)’을 개발하고 지난 4일부터 오는 7일까지 3박 4일간 중국 자전거 동호회 대표단 1
     https://www.beyondpost.co.kr/view.php?ud=2026110520020788314c878f8fa1_30
 
+### 코레일관광네트웍스, 순직 소방관 유가족 ‘레일크루즈 해랑’ 특별 초청 ... “소중한 기억을 선사하겠다는 상생 의지”
+- 매체 2곳 · TTL뉴스 · 뉴스핌  ← 여러 곳이 썼다
+  - TTL뉴스: 국민의 안전을 지키다 스러져간 영웅들의 남겨진 유가족들이 올겨울 가장 따뜻한 휴식을 맞이한다. 코레일관광네트웍스(대표이사 송광석)가 제64주년 소방의 날(11월 9일)을 이틀 앞둔 11월 7일부터 8일까지 1박 2일간 순직 소방공무원 유가족을 위한 국내 최고의 프라이빗 철도 관광 프로그
+    http://www.ttlnews.com/news/articleView.html?idxno=3159646
+  - 뉴스핌: [서울=뉴스핌] 김미경 기자 = 코레일관광네트웍스가 소방의 날(11월 9일)을 앞두고 순직 소방공무원 유가족을 레일크루즈 '해랑' 특별여행에 초청해 따뜻한 위로를 전한다. 코레일관광네트웍스는 소방청과 손잡고 7일부터 8일까지 1박 2일 일정으로 유가족 18팀, 41명을
+    https://www.newspim.com/news/view/20261106001309
+
 ### 충남도-아고다, 세계청년대회 연계 관광객 유치 '맞손'
 - 매체 2곳 · 에이티엔뉴스 · 타파인  ← 여러 곳이 썼다
   - 에이티엔뉴스: (충남=에이티엔뉴스) 박성민기자= 충남도가 2027 세계청년대회를 앞두고 글로벌 온라인 여행 예약 서비스 아고다와 손잡고 국내외 관광객 유치와 체류형 관광 활성화
     https://www.atnnews.co.kr/news/articleView.html?idxno=111936
   - 타파인: (충남=타파인) 이태일 기자 = 충남도가 아고다와 손잡고 2027 세계청년대회와 연계한 국내외 관광객 유치 경쟁력 강화에 나섰다. 도는 6일 도청 상황실에서 박수현 지사와 이준환 아고다 동북아시아 대표 등이 참석해 ‘2027 세계청년대회 연계 충남 관광 활성화 및 국내외 관광객 유치를 
     https://tapain.com/news/article.html?no=17443
-
-### 공항사진전 찾은 외국인 관광객들
-- 매체 1곳 · 서울경제  ← 여러 곳이 썼다
-  - 서울경제: 6일 서울 종로구 삼청동에서 열린 한국공항공사의 ‘제2회 스마트폰 공항사진 공모전’ 수상작 팝업 전시회에서 외국인 관람객들이 이벤트에 참여하고 있다. 이번 전시회는 공항 밖 도심 관광지에서 열리는 팝업 전시로, 공항 이용객을 넘어 일반 시민과 외국인 관광객에게 지역공항
-    https://www.sedaily.com/article/20111239?ref=sedailyEng
-  - 서울경제: 
-    https://news.google.com/rss/articles/CBMiZkFVX3lxTE01U2F4X3pfN1ZhWFczM3p3a1BzbmhHWmRGSHhtcUNjemFsQ2FabzQzdHhCREVEWndiNFl0UEJpTGs1STk1TVUzREsybXVJdlhBT280WXFQN21jLWZDZURtaXdmNkpDd9IBU0FVX3lxTE9sQms3QVFOVGRtQTJVa2NrUW1fdk0yTEhzRlJBNC1nN0Q4WmVFby03VDZmVXZGYU1xcTFXaVRIQ09GMkhwRGh6bkRSZTE0SVRyWTBz?oc=5
-
-### "우리 할머니 집도 가능할까?"…에어비앤비, 시골집 숙소로 바꾼다
-- 매체 2곳 · 매일경제 · 한국경제  ← 여러 곳이 썼다
-  - 한국경제: "우리 할머니 집도 가능할까? "…에어비앤비, 시골집 숙소로 바꾼다, 신용현 기자, 경제
-    https://www.hankyung.com/article/202611057638g
-  - 매일경제: 1팀 선정해 공간 새 단장 지원 에이티즈 산 참여…시골 여행 12월 31일까지 가족 사연 모집
-    https://www.mk.co.kr/news/culture/12200540
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 27건)
 
@@ -556,7 +565,12 @@
     https://www.mhns.co.kr/news/articleView.html?idxno=767971
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 35개 확인, 사진 줄 2개)
+(자유 이용 사진: 이름 후보 33개 확인, 사진 줄 3개)
+
+### 🔥 화제(매체 9곳) [movie] [NC박스오피스] '최종면접' 하루 만에 1위 탈환...주말 극장가 '박빙'
+- 매체 1곳 · 뉴스컬처
+  - 뉴스컬처: [뉴스컬처 노규민 기자] 영화 '최종면접'이 하루 만에 1위를 탈환 했다. 7일 영화진흥위원회 영화관입장권 통합전산망에 따르면 '최종면접'은 지난 6일 2만2751
+    https://www.nc.press/news/articleView.html?idxno=630443
 
 ### 🔥 화제(매체 9곳) [music] 리센느 신곡 '위드', 발매 첫날 멜론 '톱 100' 1위 직행
 - 매체 1곳 · 연합뉴스
@@ -570,10 +584,25 @@
   - bntnews: 영화 ‘최종면접’이 개봉 첫날 전체 박스오피스 1위에 올랐다. 한국영화가 전체 박스오피스 정상을 차지한 것은 22일 만이다.
     https://www.bntnews.co.kr/article/view/bnt202611050115
 
+### 🔥 화제(매체 7곳) [movie] 임영웅 공연 영화, 11월 18일 개봉…메인 예고편 보니
+- 매체 2곳 · 재경일보 · 파이낸셜포스트  ← 여러 곳이 썼다
+- 사진(자유 이용, 임영웅): `![임영웅 · 사진 구전녹용 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2a/Lim_Young-woong_in_an_ad_for_%EA%B5%AC%EC%A0%84%EB%85%B9%EC%9A%A9_%28June_2020%29_%28cropped%29.jpg)`
+  - 파이낸셜포스트: 가수 임영웅의 공연 실황이 영화로 제작된다. 6일 오전 임영웅 공식 SNS 채널을 통해 영화 ‘임영웅│아임 히어로 더 스타디움 2’ 메인 예고편이 공개됐다.
+    https://www.financialpost.co.kr/news/articleView.html?idxno=285138
+  - 재경일보: 가수 임영웅의 데뷔 10주년 공연 실황 영화 메인 예고편이 지난 6일 공개됐다. 이번 작품은 9월 고양종합운동장 콘서트 실황을 담았으며, 역대 공연 영화 중 처음으로 4면 스크린엑스 특별관에서도 상영된다.
+    https://news.jkn.co.kr/post/1075917
+
 ### 🔥 화제(매체 6곳) [movie] 나홍진 ‘호프’, 프랑스 개봉 첫 주 올해 한국영화 최고 성적
 - 매체 1곳 · 조선일보
   - 조선일보: 나홍진 감독의 영화 호프가 프랑스에서 올해 개봉한 한국 영화 중 최고 오프닝 기록을 경신함. 개봉 첫 주 75만 5천 달러 수익을 올리며 파리 박스오피스 2위에 올랐고, 벨기에에서도 흥행 가도를 달리며 글로벌 시장에서의 성공 가능성을 증명함.
     https://www.chosun.com/entertainments/2026/11/04/SPDRG6S5IVAEZELCLNXNWVTOQA/
+
+### 🔥 화제(매체 4곳) [drama] ‘문무’ 14일 첫 방송, 특별편 공개
+- 매체 2곳 · bntnews · 여론조사에 강한 신문- 천지일보  ← 여러 곳이 썼다
+  - bntnews: KBS가 새 대하드라마 ‘문무’의 첫 방송을 앞두고 특별 방송을 선보인다. 이현욱, 장혁, 김강우, 박성웅 등 주요 배우들의 인터뷰와 작품의 역사
+    https://www.bntnews.co.kr/article/view/bnt202611060063
+  - 여론조사에 강한 신문- 천지일보: [천지일보=강은영 기자] KBS 2TV가 새 대하드라마 ‘문무(文武)’의 첫 방송을 일주일 앞두고 작품의 역사적 배경과 제작 과정을 소개하는 스페셜 프로그램을 선보인다. 7일 KBS에 따르면 ‘문무 스페셜’은 이날과 8일 오후 9시 20분 총 2부작으로 방송된다.
+    https://www.newscj.com/news/articleView.html?idxno=3446709
 
 ### 🔥 화제(매체 4곳) [startrip] 조정석 첫 애니메이션 더빙 도전…'모자 쓴 고양이' 6일 개봉
 - 매체 2곳 · 문화뉴스 · 소년한국일보  ← 여러 곳이 썼다
@@ -596,30 +625,15 @@
   - 경향신문: 의 넷플릭스 공개를 몇 시간 앞둔 6일 오후, 서울 종로구 한 카페에서 만난 이창동 감독이 말했다. "자본의 힘을 빌리지 않고는 영화를 만들 수 없다"는 데에서 이 감독 본인도 느꼈던 딜레마가 투영되기도 했다.
     https://www.khan.co.kr/article/202611061859001
 
-### 🔥 화제(매체 3곳) [startrip] 변우석, 'AAA 2026' 男 배우 인기상 수상 확정..2년 만에 탈환
-- 매체 1곳 · 스타뉴스
-  - 스타뉴스: 배우 변우석이 'AAA 2026' 인기상 남자 배우 부문에서 1위를 차지하며 2년 만에 인기상 탈환에 성공했다. '아시아 아티스트 어워즈 2026'(Asia Artist Awards 2026, 이하 'AAA 2026') 시상식의 인기상 결선 투표가 종료됐다.
-    https://www.starnewskorea.com/star/2026/11/05/2026110511064634183
-
-### [movie] 영화 ‘라라랜드’, 10주년 재개봉 특전 보니…포스터·스페셜 아트카드 증정 지점 어디?
-- 매체 1곳 · 톱스타뉴스
-  - 톱스타뉴스: 영화 ‘라라랜드’가 개봉 10주년을 맞아 오는 11일 재개봉하는 가운데 특전 증정 이벤트를 공개했다. 10주년 기념 포스터와 롯데시네마 광음시네마 KISS 포스터, 메가박스 응원봉 상영회 BLUE 포스터를 비롯해 롯데시네마 스페셜 아트카드가 증정된다.
-    https://www.topstarnews.net/news/articleView.html?idxno=16270289
-
-### [startrip] [공식] SM, '2026년 대한민국 나눔국민대상' 대통령 표창
-- 매체 2곳 · 스타뉴스 · 연합뉴스  ← 여러 곳이 썼다
-  - 스타뉴스: SM엔터테인먼트(이하 SM, 공동대표 장철혁·탁영준)가 사회공헌활동을 통한 나눔 문화 확산과 사회적 가치 창출에 기여한 공로를 인정받아 대통령 표창을 수상했다. SM은 지난 5일 KBS 신관 공개홀에서 진행된 '2026년 대한민국 나눔국민대상' 시상식에서 대통령 표창의 영예를 안았다.
-    https://www.starnewskorea.com/music/2026/11/06/2026110610185325110
-  - 연합뉴스: (창원=연합뉴스) 이정훈 기자 = BNK경남은행은 올해 대한민국 나눔국민대상 시상식에서 국무총리 표창을 받았다고 밝혔다고 6일 밝혔다.
-    https://www.yna.co.kr/amp/view/AKR20261106080600052
-
-### [drama] 넷플릭스 ‘포위된 시간’ 오늘 공개…8부작 실화 모티브 드라마
-- 매체 1곳 · 다이어리포인트
-  - 다이어리포인트: 넷플릭스 시리즈 ‘포위된 시간’이 11월 6일 공개됐다. 1985년 콜롬비아 정의궁 점거 사건을 바탕으로 한 8부작 드라마다.
-    https://www.diarypoint.com/news/articleView.html?idxno=6804
+### 🔥 화제(매체 3곳) [startrip] 캣츠아이, 북미 투어 잇단 연기…"메간 뇌진탕으로 회복 중"
+- 매체 2곳 · YTN · 연합뉴스  ← 여러 곳이 썼다
+  - 연합뉴스: (서울=연합뉴스) 김선우 기자 = 그룹 캣츠아이가 멤버 메간이 뇌진탕 진단을 받자 북미 투어 공연을 잇달아 연기했다.
+    https://www.yna.co.kr/view/AKR20261106086400005
+  - YTN: 그룹 캣츠아이가 멤버 메간의 회복을 위해 북미 투어 공연을 잇달아 미뤘습니다. 캣츠아이는 SNS를 통해 메간이 뇌진탕에서 회복 중이어서 시카고와 미니애폴리스 공연을 연기하기로 했다고 밝혔습니다.
+    https://www.ytn.co.kr/_ln/0106_202611061549196716
 
 ---
-거리 114건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 115건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -629,64 +643,64 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## TWS (투어스) '내 이름을 불러줘' Official MV
-- 채널 HYBE LABELS · 조회수 11,578,707회 · 4일 전
+- 채널 HYBE LABELS · 조회수 11,818,157회 · 4일 전
 - `@youtube 3MPUCncZBR0` · https://www.youtube.com/watch?v=3MPUCncZBR0
 
 ## With - RESCENE (리센느) [뮤직뱅크/Music Bank] | KBS 261106 방송
-- 채널 KBS Kpop · 조회수 1,279,818회 · 1일 전
+- 채널 KBS Kpop · 조회수 1,305,277회 · 1일 전
 - `@youtube ECz-M-jwGzQ` · https://www.youtube.com/watch?v=ECz-M-jwGzQ
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DREAM Ver.)
-- 채널 HYBE LABELS · 조회수 515,466회 · 3일 전
+- 채널 HYBE LABELS · 조회수 518,349회 · 3일 전
 - `@youtube XItzOV6huqw` · https://www.youtube.com/watch?v=XItzOV6huqw
 
+## CHAERYEONG(채령) “Lovesick” M/V TEASER 2
+- 채널 JYP Entertainment · 조회수 325,316회 · 3일 전
+- `@youtube GbBLOGebxro` · https://www.youtube.com/watch?v=GbBLOGebxro
+
 ## 앤더블 잘생긴 게 숨긴다고 숨겨지는 것도 아니고｜AND2BLE｜French Kissing｜내돌의 온도차｜GAP CRUSH
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 306,411회 · 7일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 311,364회 · 7일 전
 - `@youtube p9oG3KuymQo` · https://www.youtube.com/watch?v=p9oG3KuymQo
 
 ## [7화 예고] "까야겠네, 강비서 여자인 거💥" 여자인 걸 들켜버린 설인아와 임시완의 깊어지는 오해😱 #나의유죄인간 EP.7
-- 채널 tvN DRAMA · 조회수 303,891회 · 3일 전
+- 채널 tvN DRAMA · 조회수 307,735회 · 3일 전
 - `@youtube 40VaBfB6e88` · https://www.youtube.com/watch?v=40VaBfB6e88
 
 ## [9화 예고] 마침내 시작되는 조선총독부를 향한 거사💥다가오는 김유정의 미국행..?!
-- 채널 tvN DRAMA · 조회수 285,615회 · 5일 전
+- 채널 tvN DRAMA · 조회수 287,476회 · 5일 전
 - `@youtube 4eZVj_ems7E` · https://www.youtube.com/watch?v=4eZVj_ems7E
 
 ## [8화 예고] 김유정을 향한 마음이 깊어지는 태웅, 그리고 폭탄 작전을 계획하는 구국단💣
-- 채널 tvN DRAMA · 조회수 258,416회 · 6일 전
+- 채널 tvN DRAMA · 조회수 258,457회 · 6일 전
 - `@youtube bi8waMaB_9o` · https://www.youtube.com/watch?v=bi8waMaB_9o
 
 ## [6화 예고] 여전히 헷갈리는 이준의 감정과 재희의 착각🌀 그 와중에 성큼 다가온 이준X시아의 결혼?💍 #나의유죄인간 EP.6
-- 채널 tvN DRAMA · 조회수 235,389회 · 4일 전
+- 채널 tvN DRAMA · 조회수 235,489회 · 4일 전
 - `@youtube SyPlztnfwVE` · https://www.youtube.com/watch?v=SyPlztnfwVE
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 성훈 (SUNGHOON)
-- 채널 HYBE LABELS · 조회수 194,056회 · 0일 전
+- 채널 HYBE LABELS · 조회수 219,274회 · 1일 전
 - `@youtube ftWK9_qLXyQ` · https://www.youtube.com/watch?v=ftWK9_qLXyQ
 
+## [14화 예고] 사는 게 이렇게 행복한 거란 거, 너 때문에 알았어 [너 말고 다른 연애] | KBS 방송
+- 채널 KBS Drama · 조회수 195,259회 · 6일 전
+- `@youtube Qo7lKzQs4AM` · https://www.youtube.com/watch?v=Qo7lKzQs4AM
+
 ## Did I do something wrong?｜Between Two Chairs｜AND2BLE ZHANG HAO YOO SEUNGEON
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 172,819회 · 4일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 175,970회 · 4일 전
 - `@youtube 7X6AVEUKpRc` · https://www.youtube.com/watch?v=7X6AVEUKpRc
 
 ## [#숨바꼭질2] '나 진짜 비겁해' 𝟖𝐭𝐡 𝐏𝐋𝐀𝐘𝐄𝐑 #RESCENE #리센느 Teaser
-- 채널 Mnet K-POP · 조회수 152,174회 · 1일 전
+- 채널 Mnet K-POP · 조회수 159,274회 · 1일 전
 - `@youtube prhk7El1ezk` · https://www.youtube.com/watch?v=prhk7El1ezk
 
 ## ［28회 예고］네 식구들 하나하나 손봐준다 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 146,747회 · 5일 전
+- 채널 KBS Drama · 조회수 148,197회 · 5일 전
 - `@youtube Ruhp_ovcCcA` · https://www.youtube.com/watch?v=Ruhp_ovcCcA
 
-## ［27회 예고］저는 무진 씨가 망했으면 좋겠습니다 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 128,744회 · 6일 전
-- `@youtube D2AINCYF3qs` · https://www.youtube.com/watch?v=D2AINCYF3qs
-
-## [종합 예고] 하나의 나라를 위한 피로 쓴 마지막 전쟁 [문무] | KBS 방송
-- 채널 KBS Drama · 조회수 110,031회 · 2일 전
-- `@youtube dg5PPnh_7sU` · https://www.youtube.com/watch?v=dg5PPnh_7sU
-
-## Baby DONT Cry 'Replay'｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 90,837회 · 1일 전
-- `@youtube EBN-g-aJkbQ` · https://www.youtube.com/watch?v=EBN-g-aJkbQ
+## xikers 'DIENAMITE’｜On the Spot
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 133,703회 · 2일 전
+- `@youtube k-xc9wWWTDc` · https://www.youtube.com/watch?v=k-xc9wWWTDc
 
 
 

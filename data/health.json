@@ -340,12 +340,11 @@
     },
     {
       "date": "2026-11-07",
-      "collected": 3644,
-      "published": 290,
+      "collected": 3695,
+      "published": 359,
       "ours": 28,
       "failed_sources": [
         "guam_pdn",
-        "guam_post",
         "kr_hotelavia",
         "kr_ktnbm",
         "kr_travelpress",
