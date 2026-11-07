@@ -5,15 +5,18 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "제주도립 김창열미술관, 이응노·김창열 특별전 10일 개막"
+title: 제주도립 김창열미술관, 이응노·김창열 특별전 10일 개막
 source_name: ''
 source_url: ''
-summary: 제주도립 김창열미술관이 대전 이응노미술관과 공동 기획한 특별전 '이응노·김창열'을 10일부터 내년 3월 1일까지 연다. 두 화백의 작품 50점이 나온다.
+summary: 제주도립 김창열미술관이 대전 이응노미술관과 공동 기획한 특별전 '이응노·김창열'을 10일부터 내년 3월 1일까지 연다. 두 화백의
+  작품 50점이 나온다.
 sources:
-  - https://news.bbsi.co.kr/news/articleView.html?idxno=4117023
-  - http://www.culturejeju.kr/news/articleView.html?idxno=84746
-  - https://www.jnuri.net/news/article.html?no=70751
-status: approved
+- https://news.bbsi.co.kr/news/articleView.html?idxno=4117023
+- http://www.culturejeju.kr/news/articleView.html?idxno=84746
+- https://www.jnuri.net/news/article.html?no=70751
+status: published
+published_id: c-230076eeb559221d8563424d6bbc831df9aca4f9
+published_on: '2026-11-08'
 ---
 파리를 무대로 활동한 이응노와 김창열의 작품이 제주에서 한자리에 놓인다. 제주도립 김창열미술관이 10일 특별전 '이응노·김창열'을 열고 내년 3월 1일까지 이어 간다.
 
