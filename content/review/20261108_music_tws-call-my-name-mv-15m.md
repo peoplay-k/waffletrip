@@ -8,15 +8,17 @@ kind: 해설
 title: 투어스 '내 이름을 불러줘' 뮤직비디오 닷새 만에 1,500만 회…싱글 2집 첫날 63만 장
 source_name: ''
 source_url: ''
-summary: 그룹 투어스(TWS)가 11월 2일 낸 싱글 2집 'TO US' 타이틀곡 '내 이름을 불러줘' 뮤직비디오가 하이브 레이블즈 공식 채널에서 공개 닷새 만에 조회수 1,500만 회를 넘었다. 앨범은 발매 첫날 63만 장 넘게 팔렸다.
+summary: 그룹 투어스(TWS)가 11월 2일 낸 싱글 2집 'TO US' 타이틀곡 '내 이름을 불러줘' 뮤직비디오가 하이브 레이블즈 공식 채널에서
+  공개 닷새 만에 조회수 1,500만 회를 넘었다. 앨범은 발매 첫날 63만 장 넘게 팔렸다.
 sources:
 - https://www.youtube.com/watch?v=3MPUCncZBR0
 - https://www.newspim.com/news/view/20261103000450
 - http://www.emoneynews.co.kr/news/articleView.html?idxno=131151
 - https://www.starnewskorea.com/music/2026/10/29/2026102908411289875
-status: approved
+status: published
+published_id: c-c6a7b5ee5f364c050cdbcf09e5937767aaaaec9c
+published_on: '2026-11-08'
 ---
-
 그룹 투어스(TWS)의 새 뮤직비디오가 빠르게 조회수를 쌓고 있다. 하이브 레이블즈 공식 유튜브에 올라온 싱글 2집 'TO US' 타이틀곡 '내 이름을 불러줘' 뮤직비디오는 공개 닷새 만에 조회수 1,500만 회를 넘었다.
 
 @youtube 3MPUCncZBR0

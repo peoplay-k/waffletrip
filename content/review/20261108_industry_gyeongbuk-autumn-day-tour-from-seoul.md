@@ -12,9 +12,10 @@ sources:
 - https://www.yna.co.kr/view/AKR20261107021200053
 - https://www.gukjenews.com/news/articleView.html?idxno=3745090
 - https://www.news1.kr/local/daegu-gyeongbuk/6346343
-status: approved
+status: published
+published_id: c-1370f5174fbd720c38f59f4a507b6f17b59ee0a6
+published_on: '2026-11-08'
 ---
-
 서울에서 하루 만에 경북의 가을을 보고 올 수 있는 여행상품이 나왔다. 경북문화관광공사는 서울에서 출발해 경북 지역 단풍 명소를 둘러보는 당일 관광상품 '경북 가을한컷'을 운영한다고 밝혔다.
 
 상품은 서울에서 전세버스를 타고 경북 8개 시군의 은행나무와 단풍 명소를 찾아가는 방식이다. 가을철에 맞춘 계절 특화 상품으로, 각 시군의 대표 관광 명소를 일정에 넣었다.

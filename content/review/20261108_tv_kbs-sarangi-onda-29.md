@@ -8,12 +8,14 @@ kind: 보도자료
 title: KBS2 '사랑이 온다' 29회, 규오의 과거 드러나며 가족들 충격
 source_name: ''
 source_url: ''
-summary: KBS2 주말드라마 '사랑이 온다'가 8일(일) 밤 8시 29회를 방송한다. 규오의 과거가 드러나 가족들이 충격에 빠지고, 희나는 마음과 현실 사이에서 흔들린다. 무진은 최근 벌어진 일들의 배후를 조금씩 짐작하기 시작한다.
+summary: KBS2 주말드라마 '사랑이 온다'가 8일(일) 밤 8시 29회를 방송한다. 규오의 과거가 드러나 가족들이 충격에 빠지고, 희나는
+  마음과 현실 사이에서 흔들린다. 무진은 최근 벌어진 일들의 배후를 조금씩 짐작하기 시작한다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/loveonthemenu
-status: approved
+status: published
+published_id: c-e2544315d1e93adab9962a9f9171a1371b79fe40
+published_on: '2026-11-08'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 29회
 > 방송 · 2026년 11월 8일(일) 밤 8시
