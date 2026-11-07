@@ -5,17 +5,18 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS2 대하드라마 '문무' 스페셜 1·2부, 7~8일 밤 방송…14일 첫 방송"
+title: KBS2 대하드라마 '문무' 스페셜 1·2부, 7~8일 밤 방송…14일 첫 방송
 source_name: ''
 source_url: ''
 summary: KBS2가 새 대하드라마 '문무'의 첫 방송을 앞두고 7일과 8일 밤 9시 20분 스페셜 2부작을 편성했다. 본편은 14일 시작한다.
 sources:
-  - https://www.newscj.com/news/articleView.html?idxno=3446709
-  - https://www.topstarnews.net/news/articleView.html?idxno=16270501
-  - https://www.bntnews.co.kr/article/view/bnt202611060063
-status: approved
+- https://www.newscj.com/news/articleView.html?idxno=3446709
+- https://www.topstarnews.net/news/articleView.html?idxno=16270501
+- https://www.bntnews.co.kr/article/view/bnt202611060063
+status: published
+published_id: c-8e5f7d20270d6898046de1b466844769dfea9bfd
+published_on: '2026-11-08'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 문무 스페셜 1·2부
 > 방송 · 2026년 11월 7일(토)·8일(일) 밤 9시 20분

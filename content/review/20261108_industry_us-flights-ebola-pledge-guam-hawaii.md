@@ -4,18 +4,19 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "미국행 항공편 탑승객, 4일부터 콩고민주공화국 체류 이력 없다는 서약서 제출"
+title: 미국행 항공편 탑승객, 4일부터 콩고민주공화국 체류 이력 없다는 서약서 제출
 source_name: ''
 source_url: ''
-summary: 미국 질병통제예방센터의 수정 행정명령에 따라 11월 4일부터 미국행 전 노선 탑승객은 최근 21일간 콩고민주공화국에 있지 않았다는 서약서를 내야 한다. 괌·사이판·하와이행도 대상이다.
+summary: 미국 질병통제예방센터의 수정 행정명령에 따라 11월 4일부터 미국행 전 노선 탑승객은 최근 21일간 콩고민주공화국에 있지 않았다는
+  서약서를 내야 한다. 괌·사이판·하와이행도 대상이다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500658
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72566
-  - http://www.ttlnews.com/news/articleView.html?idxno=3158177
-  - https://www.hani.co.kr/arti/economy/economy_general/1285477.html
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500658
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72566
+- http://www.ttlnews.com/news/articleView.html?idxno=3158177
+- https://www.hani.co.kr/arti/economy/economy_general/1285477.html
+status: duplicate
+duplicate_of: 20261104_guam_us-ebola-pledge-guam-saipan-hawaii.md
 ---
-
 11월 4일부터 미국행 항공편을 타려면 최근 21일 안에 콩고민주공화국(DRC)에 가거나 머문 적이 없다는 서약서를 내야 한다. 미국 본토뿐 아니라 하와이와 미국령 괌·사이판으로 가는 노선도 모두 대상이어서, 서약서가 없으면 탑승이 제한된다.
 
 이 조치는 미국 질병통제예방센터(CDC)의 수정 행정명령에 따른 것이다. 콩고민주공화국에서 발생한 에볼라 바이러스가 미국으로 들어오는 것을 막으려는 취지로, 미국 동부 표준시 기준 11월 3일 오후 11시 59분부터 적용된다.
