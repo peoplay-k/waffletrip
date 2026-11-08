@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'세계테마기행' 여기 산다고? 중국, 절벽 집부터 땅속 마을까지"
+title: '''세계테마기행'' 여기 산다고? 중국, 절벽 집부터 땅속 마을까지'
 source_name: ''
 source_url: ''
-summary: EBS1 '세계테마기행'이 9일부터 12일까지 저녁 8시 40분 '여기 산다고? 중국' 편을 방송한다. 충칭 리즈바역, 절벽 목조 주택, 땅속 마을 디컹위안 등 별난 집과 사람들을 만난다.
+summary: EBS1 '세계테마기행'이 9일부터 12일까지 저녁 8시 40분 '여기 산다고? 중국' 편을 방송한다. 충칭 리즈바역, 절벽 목조
+  주택, 땅속 마을 디컹위안 등 별난 집과 사람들을 만난다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005610396
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005610396
+status: published
+published_id: c-adcc66bc461b7f47663113cc9a59e459b7c4ee1f
+published_on: '2026-11-08'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 세계테마기행 | 편 · 여기 산다고? 중국
 > 방송 · 2026년 11월 9일(월)~12일(목) 저녁 8시 40분

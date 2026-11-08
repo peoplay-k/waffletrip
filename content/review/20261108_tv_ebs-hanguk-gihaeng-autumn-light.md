@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'한국기행' 찬란하다, 가을빛… 산청 곶감부터 욕지도 고등어까지"
+title: '''한국기행'' 찬란하다, 가을빛… 산청 곶감부터 욕지도 고등어까지'
 source_name: ''
 source_url: ''
-summary: EBS1 '한국기행'이 9일부터 13일까지 평일 밤 9시 35분 '찬란하다, 가을빛' 편을 방송한다. 산청 감 농가, 욕지도 고등어 양식, 홍천 은행나무 숲, 아산 새우젓 명인을 찾아간다.
+summary: EBS1 '한국기행'이 9일부터 13일까지 평일 밤 9시 35분 '찬란하다, 가을빛' 편을 방송한다. 산청 감 농가, 욕지도 고등어
+  양식, 홍천 은행나무 숲, 아산 새우젓 명인을 찾아간다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005610398
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005610398
+status: published
+published_id: c-e72587449dabcc44c7cdc5ccedae720e16f32494
+published_on: '2026-11-08'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 한국기행 | 편 · 찬란하다, 가을빛
 > 방송 · 2026년 11월 9일(월)~13일(금) 평일 밤 9시 35분
