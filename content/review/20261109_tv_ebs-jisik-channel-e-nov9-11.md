@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'지식채널e' 9~11일, 동물 팬심·밈코인·걷기로 읽는 세 편"
+title: '''지식채널e'' 9~11일, 동물 팬심·밈코인·걷기로 읽는 세 편'
 source_name: ''
 source_url: ''
-summary: EBS1 '지식채널e'가 9일부터 11일까지 밤 12시 40분 세 편을 잇따라 방송한다. 만난 적 없는 동물에게 빠지는 이유, 밈코인의 경제학, 스마트폰을 내려놓고 걷는 일을 다룬다.
+summary: EBS1 '지식채널e'가 9일부터 11일까지 밤 12시 40분 세 편을 잇따라 방송한다. 만난 적 없는 동물에게 빠지는 이유, 밈코인의
+  경제학, 스마트폰을 내려놓고 걷는 일을 다룬다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005610395
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005610395
+status: published
+published_id: c-4c5d1b8a18358d262f8e97d37f36b2c6f2ab1d98
+published_on: '2026-11-09'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 지식채널e | 편 · 11월 9일~11일 3편
@@ -19,7 +22,7 @@ status: approved
 
 EBS1 '지식채널e'가 9일부터 사흘간 밤 12시 40분에 심리, 문화, 사회를 하나씩 짚는 기획 시리즈 세 편을 내보낸다. 익숙한 상식을 뒤집어 보는 짧은 지적 탐험이라는 프로그램의 결을 그대로 가져간다.
 
-EBS는 이번 시리즈로 만난 적 없는 동물에게 친밀감을 느끼는 이유부터 밈 하나에 가격이 매겨지는 세상, 잠깐의 산책이 현대인에게 미치는 영향까지 풀어 본다고 소개했다.
+이번 시리즈로 만난 적 없는 동물에게 친밀감을 느끼는 이유부터 밈 하나에 가격이 매겨지는 세상, 잠깐의 산책이 현대인에게 미치는 영향까지 풀어 본다.
 
 ## 9일, 그쪽은 나를 모르겠지만
 

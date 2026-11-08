@@ -4,16 +4,18 @@ channel: travel
 region: industry
 section: data
 kind: 해설
-title: "9월 관광수지 5억 달러 적자, 석 달 연속…방한객 2천만 시대에도"
+title: 9월 관광수지 5억 달러 적자, 석 달 연속…방한객 2천만 시대에도
 source_name: ''
 source_url: ''
-summary: 월간 관광수지가 3개월 연속 적자를 이어가며 9월 적자 폭이 5억 달러로 불어났다. 방한 외국인이 올해 처음 2천만 명을 넘어선 가운데서도 한국인의 해외 지출이 더 빠르게 늘었다.
+summary: 월간 관광수지가 3개월 연속 적자를 이어가며 9월 적자 폭이 5억 달러로 불어났다. 방한 외국인이 올해 처음 2천만 명을 넘어선 가운데서도
+  한국인의 해외 지출이 더 빠르게 늘었다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500629
-  - https://www.yna.co.kr/view/AKR20261107042100030
-  - https://www.ikbc.co.kr/article/view/kbc202611080008
-  - https://kpenews.com/View.aspx?No=4302394
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500629
+- https://www.yna.co.kr/view/AKR20261107042100030
+- https://www.ikbc.co.kr/article/view/kbc202611080008
+- https://kpenews.com/View.aspx?No=4302394
+status: duplicate
+duplicate_of: 20261031_industry_sep-outbound-flat-inbound-up.md
 ---
 월간 관광수지가 석 달째 적자다. 9월에는 적자 폭이 5억 달러 가까이 불어나, 올해 처음 방한 외국인 2천만 명 시대를 열었다는 말이 무색해졌다.
 

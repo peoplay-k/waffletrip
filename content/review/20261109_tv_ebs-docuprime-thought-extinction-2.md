@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'다큐프라임' 생각의 멸종 2부, 내 말에 맞장구치는 AI의 함정"
+title: '''다큐프라임'' 생각의 멸종 2부, 내 말에 맞장구치는 AI의 함정'
 source_name: ''
 source_url: ''
-summary: EBS1 '다큐프라임 생각의 멸종' 2부 '내겐 너무 완벽한 AI'가 9일 밤 9시 55분 방송된다. AI 과의존 체크리스트와 사용 유형 검사를 처음 공개한다.
+summary: EBS1 '다큐프라임 생각의 멸종' 2부 '내겐 너무 완벽한 AI'가 9일 밤 9시 55분 방송된다. AI 과의존 체크리스트와 사용
+  유형 검사를 처음 공개한다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005613924
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005613924
+status: published
+published_id: c-aec34121132c835bf77ed25ed1bc2d2954760e5d
+published_on: '2026-11-09'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 다큐프라임 | 편 · 생각의 멸종 2부 '내겐 너무 완벽한 AI'

@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'백세부자' 일개미 남편 vs 주식 개미 아내, 노후 준비는 누구 쪽이 맞나"
+title: '''백세부자'' 일개미 남편 vs 주식 개미 아내, 노후 준비는 누구 쪽이 맞나'
 source_name: ''
 source_url: ''
-summary: EBS1 '백세부자'가 9일 밤 10시 50분 46년째 일하는 남편과 30년째 주식을 해 온 아내의 노후 준비를 다룬다. 금융 교육 전문가 존 리와 김경록 박사가 해법을 찾는다.
+summary: EBS1 '백세부자'가 9일 밤 10시 50분 46년째 일하는 남편과 30년째 주식을 해 온 아내의 노후 준비를 다룬다. 금융 교육
+  전문가 존 리와 김경록 박사가 해법을 찾는다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005610344
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005610344
+status: published
+published_id: c-73c87f509b13f2ae415446b521bba6d6d694e029
+published_on: '2026-11-09'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 백세부자
