@@ -8,13 +8,15 @@ kind: 해설
 title: 투모로우바이투게더, 미니 9집 'PERFECT STORM' 프리뷰 공개…타이틀곡 'Angel Bite'
 source_name: ''
 source_url: ''
-summary: 투모로우바이투게더(TXT)가 미니 9집 'PERFECT STORM' 프리뷰 영상을 하이브 레이블즈 공식 채널에 공개했다. 타이틀곡 'Angel Bite'를 포함한 6곡의 하이라이트를 담은 영상은 나흘 만에 조회수 72만 회를 넘었다.
+summary: 투모로우바이투게더(TXT)가 미니 9집 'PERFECT STORM' 프리뷰 영상을 하이브 레이블즈 공식 채널에 공개했다. 타이틀곡
+  'Angel Bite'를 포함한 6곡의 하이라이트를 담은 영상은 나흘 만에 조회수 72만 회를 넘었다.
 sources:
 - https://www.youtube.com/watch?v=77SfHCoJfgc
 - https://www.starnewskorea.com/music/2026/11/05/2026110507140632069
-status: approved
+status: published
+published_id: c-639191668b05ffcf68febe5c5954b46c5047dc1b
+published_on: '2026-11-09'
 ---
-
 그룹 투모로우바이투게더(TOMORROW X TOGETHER·TXT)가 컴백을 앞두고 새 앨범의 노래를 먼저 들려줬다. TXT는 미니 9집 'PERFECT STORM'의 프리뷰 영상을 하이브 레이블즈 공식 유튜브에 공개했다. 영상은 공개 나흘 만에 조회수 72만 회를 넘었다.
 
 @youtube 77SfHCoJfgc

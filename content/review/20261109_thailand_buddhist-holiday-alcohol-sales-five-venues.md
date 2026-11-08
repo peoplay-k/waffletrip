@@ -7,13 +7,15 @@ kind: 해설
 title: 태국, 불교 기념일 주류 판매 금지에 예외…5개 업종은 판매 허용
 source_name: ''
 source_url: ''
-summary: 태국이 주요 불교 기념일의 주류 판매 금지 규정을 고쳐, 5개 범주의 업소에서는 조건을 갖추면 술을 팔 수 있도록 했다. 새 규정은 시행에 들어갔다.
+summary: 태국이 주요 불교 기념일의 주류 판매 금지 규정을 고쳐, 5개 범주의 업소에서는 조건을 갖추면 술을 팔 수 있도록 했다. 새 규정은
+  시행에 들어갔다.
 sources:
 - https://www.nationthailand.com/news/general/40073217
 - https://thethaiger.com/news/national/thailand-eases-buddhist-holiday-alcohol-ban
-status: approved
+status: published
+published_id: c-7425195ef4c42c614044252d20588a34e2ad3fb4
+published_on: '2026-11-09'
 ---
-
 태국의 불교 기념일 주류 판매 금지 규정이 일부 풀렸다. 태국 정부는 주요 불교 기념일의 주류 판매 금지 규정을 고쳐 5개 범주의 업소에서는 술을 팔 수 있도록 했다. 새 규정은 이미 시행에 들어갔다.
 
 판매가 허용되는 곳은 정해진 5개 업종의 업소다. 무조건 허용되는 것은 아니고, 정해진 조건과 공공 안전 조치를 지키는 경우에만 판매할 수 있다.

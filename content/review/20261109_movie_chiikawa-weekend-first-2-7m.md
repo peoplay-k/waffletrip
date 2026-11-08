@@ -8,14 +8,16 @@ kind: 해설
 title: '''극장판 치이카와'' 주말 박스오피스 1위 탈환…누적 270만 돌파'
 source_name: ''
 source_url: ''
-summary: '''극장판 치이카와: 인어 섬의 비밀''이 11월 7일 ''최종면접''을 제치고 박스오피스 1위를 되찾았다. 엿새 만의 1위 복귀로 누적 관객은 270만 명을 넘었고, 예매 순위에서도 4일 연속 1위를 지켰다.'
+summary: '''극장판 치이카와: 인어 섬의 비밀''이 11월 7일 ''최종면접''을 제치고 박스오피스 1위를 되찾았다. 엿새 만의 1위 복귀로
+  누적 관객은 270만 명을 넘었고, 예매 순위에서도 4일 연속 1위를 지켰다.'
 sources:
 - https://www.topstarnews.net/news/articleView.html?idxno=16271022
 - https://www.econovill.com/news/articleView.html?idxno=756391
 - https://www.econovill.com/news/articleView.html?idxno=756392
-status: approved
+status: published
+published_id: c-13ddb227000c83ae33a637c8d47db7cd5c09fd3e
+published_on: '2026-11-09'
 ---
-
 일본 애니메이션 '극장판 치이카와: 인어 섬의 비밀'이 주말 극장가 1위 자리를 되찾았다. '극장판 치이카와'는 11월 7일 '최종면접'을 제치고 박스오피스 1위에 올랐다. 엿새 만의 1위 복귀다.
 
 누적 관객 수는 270만 명을 넘어섰다. 예매 순위에서도 강세다. 8일 기준 예매 순위에서 '극장판 치이카와'는 4일 연속 1위를 지켰다.

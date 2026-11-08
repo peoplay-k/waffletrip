@@ -8,15 +8,17 @@ kind: 해설
 title: tvN '100일의 거짓말' 10·11화 예고 조회수 100만 회 넘어…조선총독부 폭발 이후
 source_name: ''
 source_url: ''
-summary: tvN 20주년 특별기획 '100일의 거짓말' 10화·11화 예고 영상이 tvN DRAMA 공식 채널에서 하루 사이 조회수 70만·33만 회를 기록했다. 10화 예고는 폭발로 아수라장이 된 조선총독부, 11화 예고는 김유정의 정체를 눈치챈 듯한 사토 부자를 담았다.
+summary: tvN 20주년 특별기획 '100일의 거짓말' 10화·11화 예고 영상이 tvN DRAMA 공식 채널에서 하루 사이 조회수 70만·33만
+  회를 기록했다. 10화 예고는 폭발로 아수라장이 된 조선총독부, 11화 예고는 김유정의 정체를 눈치챈 듯한 사토 부자를 담았다.
 sources:
 - https://www.youtube.com/watch?v=-DcsMN-bzhs
 - https://www.youtube.com/watch?v=d0kBID9SX6w
 - https://www.etoday.co.kr/news/view/2634055
 - https://www.bntnews.co.kr/article/view/bnt202610290119
-status: approved
+status: published
+published_id: c-5f62e0378e778db604649fdfbc7a20b83c996e9c
+published_on: '2026-11-09'
 ---
-
 경성을 무대로 한 첩보 로맨스 '100일의 거짓말'의 예고 영상이 공식 채널에서 빠르게 재생되고 있다. tvN DRAMA 공식 유튜브에 올라온 10화 예고는 공개 하루 만에 조회수 71만 회를, 11화 예고는 공개 당일 33만 회를 넘었다. 두 영상을 합하면 100만 회가 넘는다.
 
 @youtube -DcsMN-bzhs
