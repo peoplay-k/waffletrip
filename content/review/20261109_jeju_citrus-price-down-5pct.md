@@ -4,15 +4,17 @@ channel: travel
 region: jeju
 section: data
 kind: 보도자료
-title: "올해 제주 노지감귤 누계 거래가격 5㎏당 9,778원, 작년보다 5% 낮아"
+title: 올해 제주 노지감귤 누계 거래가격 5㎏당 9,778원, 작년보다 5% 낮아
 source_name: ''
 source_url: ''
-summary: 제주특별자치도에 따르면 10월 29일 기준 올해 노지감귤 평균 누계 거래가격은 5㎏당 9,778원으로 지난해 같은 기간 1만297원보다 5% 낮았다. 수확기에 비 오는 날이 잦았다.
+summary: 제주특별자치도에 따르면 10월 29일 기준 올해 노지감귤 평균 누계 거래가격은 5㎏당 9,778원으로 지난해 같은 기간 1만297원보다
+  5% 낮았다. 수확기에 비 오는 날이 잦았다.
 sources:
-  - http://www.jejunews.com/news/articleView.html?idxno=2228699
-status: approved
+- http://www.jejunews.com/news/articleView.html?idxno=2228699
+status: published
+published_id: c-c216a946a77cb139d3731726a88c1ea434e74fa1
+published_on: '2026-11-09'
 ---
-
 올해 제주 노지감귤 값이 지난해보다 낮은 수준에서 움직이고 있다. 수확이 한창인 시기에 비 오는 날이 잦아 가격이 좀처럼 오르지 않는 모습이다.
 
 제주특별자치도는 8일 10월 29일 기준 노지감귤 평균 누계 거래가격이 5㎏당 9,778원이라고 밝혔다. 지난해 같은 기간 1만297원과 비교하면 5% 낮은 수준이다.

@@ -5,19 +5,21 @@ category: music
 region: ''
 section: news
 kind: 해설
-title: "'2026 KGMA' 트레저 대상 포함 4관왕, 크래비티 3관왕"
+title: '''2026 KGMA'' 트레저 대상 포함 4관왕, 크래비티 3관왕'
 source_name: ''
 source_url: ''
-summary: 7일 서울 고척스카이돔에서 열린 제3회 코리아 그랜드 뮤직 어워즈에서 트레저가 대상 '그랜드 송'을 포함해 4관왕에 올랐다. 크래비티는 3관왕, 앤더블은 2관왕을 차지했다.
+summary: 7일 서울 고척스카이돔에서 열린 제3회 코리아 그랜드 뮤직 어워즈에서 트레저가 대상 '그랜드 송'을 포함해 4관왕에 올랐다. 크래비티는
+  3관왕, 앤더블은 2관왕을 차지했다.
 sources:
-  - https://enews.imbc.com/News/RetrieveNewsInfo/524027
-  - https://enews.imbc.com/News/RetrieveNewsInfo/524033
-  - https://enews.imbc.com/News/RetrieveNewsInfo/524031
-  - https://enews.imbc.com/News/RetrieveNewsInfo/524038
-  - https://enews.imbc.com/News/RetrieveNewsInfo/524000
-status: approved
+- https://enews.imbc.com/News/RetrieveNewsInfo/524027
+- https://enews.imbc.com/News/RetrieveNewsInfo/524033
+- https://enews.imbc.com/News/RetrieveNewsInfo/524031
+- https://enews.imbc.com/News/RetrieveNewsInfo/524038
+- https://enews.imbc.com/News/RetrieveNewsInfo/524000
+status: published
+published_id: c-97c1bfbd9a947d3bcae20671ec78a00e669436c0
+published_on: '2026-11-09'
 ---
-
 그룹 트레저가 '제3회 코리아 그랜드 뮤직 어워즈(2026 KGMA)'에서 대상을 품었다. 크래비티는 3관왕, 앤더블은 2관왕에 올랐다.
 
 시상식은 7일 서울 구로구 고척스카이돔에서 열렸다. 트레저는 대상인 '2026 그랜드 송'을 비롯해 본상인 '베스트 아티스트', '베스트 힙합', '트렌드 오브 더 이어 그룹'까지 4개 부문을 휩쓸었다. 트레저는 "멋지고 값진 상 감사하다"는 소감을 전했다.

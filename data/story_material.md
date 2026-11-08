@@ -5,6 +5,21 @@
 
 ## 베트남
 
+### 호치민시는 2026년 말까지 5개 지하철 노선 건설을 시작할 준비가 되어 있습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: VTV.vn - 도시 미관 개선 및 개보수 사업 정책과 교통 인프라 투자 덕분에 주요 도시들은 점점 더 현대적이고 매력적인 모습으로 탈바꿈할 것입니다.
+    https://www.vietnam.vn/ko/tp-ho-chi-minh-san-sang-khoi-cong-5-tuyen-metro-cuoi-nam-2026
+
+### 일본에서 열리는 베트남-호치민시 축제는 문화 교류와 협력을 강화합니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 2026년 11월 8일 아이치현에서 막을 내린 베트남-호찌민시 축제는 베트남 문화를 홍보하고 양국 수련 10주년을 기념하며 협력을 증진하는 데 기여했습니다.
+    https://www.vietnam.vn/ko/le-hoi-viet-nam-tp-hcm-tai-nhat-ban-tang-cuong-giao-luu-van-hoa-hop-tac
+
+### 하노이 관광업계가 3천만 명 방문객을 돌파하며 도약을 이루었습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 2026년 첫 10개월 동안 하노이 관광 부문은 3,036만 명의 방문객을 맞이하여 전년 동기 대비 6.8% 증가를 기록했습니다. 특히 외국인 방문객은 21.4% 증가했습니다.
+    https://www.vietnam.vn/ko/du-lich-ha-noi-but-pha-vuot-moc-30-trieu-luot-khach
+
 ### “하노이 가장 높은 곳에서의 하룻밤”…인터컨티넨탈 랜드마크72 럭셔리 호캉스
 - 매체 1곳 · 매일경제
   - 매일경제: 인터컨티넨탈 랜드마크72…하노이 최고층 호텔 하노이 호텔 최초로 라면 조식 서비스 도입 눈길 피트니스센터부터 수영장·바 등…부대시설 다채
@@ -14,21 +29,6 @@
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 11월 6일부터 8일까지 호치민시에서 한국관광공사(KTO)는 한국 여행 전반, 특히 건강 및 미용 관광에 관심 있는 베트남 관광객들을 위해 유용한 경험과 정보를 제공하는 '코리아 글로우 & 웰니스 페스트 2026'을 개최합니다.
     https://www.vietnam.vn/ko/kham-pha-du-lich-han-quoc-tai-thanh-pho-ho-chi-minh
-
-### 호이안은 연말 관광 시즌을 맞이할 준비를 하고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 연말을 맞아 호이안에서는 다양한 문화 행사와 축제가 개최되어 유산의 가치를 기리고 관광 상품을 풍성하게 하며 관광지로서의 매력을 더욱 높일 예정입니다. 11월과 12월에 연이어 열리는 행사와 더불어, 지역 주민, 기업, 서비스 업체들도 관광객을 맞이하기 위해 공간 개보수, 상품 리뉴얼,
-    https://www.vietnam.vn/ko/hoi-an-chuan-bi-don-mua-du-lich-cuoi-nam
-
-### 지아빈 공항과 노이바이 공항을 하노이 중심부와 연결하는 철도 노선 건설에 필요한 자금을 배정하십시오.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 팜 지아 툭 부총리가 도시철도 시스템을 포함한 자빈 국제공항 연결 계획에 대한 회의에서 내린 결론.
-    https://www.vietnam.vn/ko/bo-tri-von-cho-tuyen-duong-sat-ket-noi-2-san-bay-gia-binh-noi-bai-voi-trung-tam-ha-noi
-
-### 지아빈 공항과 하노이 중심부를 연결하는 도시철도 건설 자금 지원에 우선순위를 두어야 합니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: (단찌신문) - 부총리는 하노이 중심부와 자빈 국제공항 및 노이바이 국제공항을 연결하는 도시철도 사업에 투자 자금을 우선적으로 배정하고, 적절한 역 위치 및 환승 허브 계획을 수립할 것을 요청했다.
-    https://www.vietnam.vn/ko/uu-tien-von-xay-duong-sat-do-thi-noi-san-bay-gia-binh-voi-trung-tam-ha-noi
 
 ## 코타키나발루
 
@@ -105,6 +105,13 @@
     https://magazine.hankyung.com/business/article/202611082948b
 
 ## 태국
+
+### Thailand plans tougher driving licence rules for foreigners
+- 매체 2곳 · Thai Examiner · The Thaiger  ← 여러 곳이 썼다
+  - The Thaiger: Thailand is considering major changes to driving licence requirements for foreigners, including scrapping exemptions from driving tests and requiring applicants
+    https://thethaiger.com/news/national/thailand-tougher-driving-licence-rules-foreigners
+  - Thai Examiner: Foreigners face a Thai driving licence shock. A proposed two-year visa condition threatens annual-extension holders as foreign licence exemptions and driving-sc
+    https://www.thaiexaminer.com/thai-news-foreigners/2026/11/08/new-driving-licensing-law-will-cause-problems-for-foreigners-living-in-thailand-as-presently-proposed/
 
 ### Thailand confirms five exemptions to alcohol sales ban on Buddhist holidays
 - 매체 2곳 · The Thaiger · nationthailand  ← 여러 곳이 썼다
@@ -267,11 +274,47 @@
   - 아시아경제: 경기 용인특례시가 크로아티아의 역사·관광도시 자다르시와 문화·관광, 청년·학술 분야 등의 교류를 추진한다.
     https://www.asiae.co.kr/article/2026110809511677108
 
-## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 24건)
+## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 31건)
 
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
 
+- [2026-11-09·여행업계] 여행사부터 백화점·관광청까지…럭셔리 여행 ‘큰손’ 모시기 경쟁
+  해외여행 시장의 성장세가 둔화된 가운데 럭셔리 여행을 둘러싼 업계의 움직임이 분주하다. 일반 패키지여행의 모객 부진에도 고액 여행 고객의 수요는 상대적으로 견조하다는 평가가 나오면서다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500644
+- [2026-11-09·여행업계] 방한여행은 ‘내 취향대로’…패키지도 달라졌다
+  방한 관광객의 여행 방식이 단체 중심에서 개별·맞춤형으로 다양해지고 있다. 정해진 일정에 따라 움직이기보다 자신의 취향과 여행 목적에 맞춰 상품을 선택하는 수요가 확대되는 모습이다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500636
+- [2026-11-09·여행업계] 배로 떠나는 야마구치 겨울 온천…수험생 ‘88 승선권’도
+  부관훼리가 겨울 성수기를 앞두고 일본 야마구치현·기타큐슈 지역을 연계한 동계 여행상품을 선보였다. 야간 운항과 선내 숙박을 활용한 나가토 유모토 온천 패키지, 대중교통으로 접근하기 어려운 야마구치현 명소를 연결하는 주말 원데이버스, 신규 호텔 숙박을 결합한 STAYPASS 등으로 구성했다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500669
+- [2026-11-09·여행업계] ‘어반 코어 스테이’로 미주 상품 확 달라진다!
+  팍스투어가 도심 숙박을 중심으로 미주 여행상품을 재정비한다. 여러 관광지를 빠르게 돌아보는 이동 중심 일정에서 도시의 문화와 일상을 경험하는 체류형 여행으로 무게 중심을 옮긴다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500662
+- [2026-11-09·여행업계] “럭셔리 여행지에서 가 보고 싶은 여행지로”…타히티의 한국 공략법
+  타히티가 한국 시장에 더 다양한 여행 방식을 제안한다. 프리미엄 여행지로서 브랜드 가치를 유지하면서도 숙박과 식사, 체험의 조합을 달리해 여행객의 선택지를 넓히겠다는 전략이다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500659
+- [2026-11-09·여행업계] “나이아가라 폭포, 동부 여행의 핵심 체류지로 거듭나겠다”
+  나이아가라 폭포 관광청과 현지 관광업계가 한국 시장에 숙박과 체험을 연계한 체류형 여행을 제안했다. 10월 29일 방한한 나이아가라 폭포 지역 관계자들을 만나 캐나다 동부 여행에서 나이아가라의 매력 포인트와 체류 시간을 늘릴 전략, 한국 시장과의 협력 방향에 대해 들었다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500654
+- [2026-11-09·여행업계] 관광객은 늘었는데, 업계는 왜 웃지 못할까 [기자수첩]
+  얼마 전 문화체육관광부 기자 간담회에서 한 실무자가 물었다. 업계를 취재하면서 문관부에 하고 싶었던 말이나 아쉬웠던 점이 있느냐고.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500650
+- [2026-11-09·여행업계] 15년 전 그날이 남아 있는 곳, 후쿠시마를 가다
+  일본은 한국인에게 매우 익숙한 해외여행지 중 하나다. 그러나 후쿠시마는 예외다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500618
+- [2026-11-09·여행업계] 칭다오, 운항 늘었지만 여객 줄어 탑승률 94%대에서 80%대로
+  인천-칭다오 노선의 9월 평균 탑승률이 전월(8월) 대비 14.4%p 하락했다. 한국교통연구원의 9월 항공통계 자료에 따르면, 인천-칭다오 노선의 평균 탑승률은 8월 94.7%에서 9월 80.3%로 내렸다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500681
+- [2026-11-09·여행업계] 여행도 다시 읽을 수 있을까
+  샌프란시스코를 처음 찾은 것은 2000년대 초반, 스무 살을 조금 넘긴 때였다. 미국 서부의 모든 것이 낯설고 새로웠다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500663
+- [2026-11-09·여행업계] 해외에서 외화로 받은 경우의 현금영수증(1)
+  외국인 관광객이 늘면서 해외 여행사나 외국인 손님에게 외화로 대금을 받는 인바운드 여행사도 많아졌다. 이때도 현금영수증을 발급해야 할까.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500655
+- [2026-11-09·여행업계] 빅 이벤트의 도시 LA, 다운타운 호텔의 승부처는?
+  미국 로스앤젤레스 다운타운(DTLA) 호텔 시장은 컨벤션과 스포츠, 대형 이벤트 일정에 따라 수요가 크게 움직인다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500623
 - [2026-11-06·여행업계] “두유 노 미스터 킴?”…팔라우에 남은 23년 전 ‘인간극장’
   ■ 팔라우에서 만난 ‘미스터 킴’의 아내“두유 노 미스터 킴(Do you know Mr. Kim)?”팔라우 펠렐리우섬으로 향하는 길, 현지 가이드가 불쑥 물었다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500683
@@ -386,42 +429,6 @@
 - [2026-10-30·여행업계] 막연한 동경, 스톡홀름이 뜬다
   스웨덴으로 향했다. 북유럽에 대한 막연한 동경과 편견 그 너머의 풍경을 직접 만나보기 위해.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500640
-- ✅ [2026-10-30·여행업계] 여행 예약했을 뿐인데…항공사·OTA 줄줄이 개인정보 유출
-  여행업계에서 개인정보 유출 사고가 잇따르고 있다. 대한항공과 아시아나항공, 놀유니버스(NOL), 마이리얼트립에 이어 일본 라쿠텐 트래블에서도 대규모 개인정보 유출 우려가 제기됐다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500633
-- [2026-10-30·여행업계] 숙박업 회복세 중저가까지 확산…핵심 동력은 이것
-  올해 국내 숙박시장은 고급 호텔을 중심으로 시작된 회복세가 중저가 숙소까지 확산되는 흐름을 보였다. 1~2분기에는 객실 점유율 상승이 성장을 이끌었다면, 3분기에는 객실 단가 인상이 실적 개선의 핵심 동력으로 떠올랐다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500637
-- [2026-10-30·여행업계] 기내 판매 달라진다…승무원이 상품 선정부터 기획까지 [주간 여행 산업 동향]
-  여행사겨울 방학·온천·휴양으로 나눈 테마 기획전노랑풍선이 겨울 여행 수요를 겨냥해 ‘겨울 방학, 아이와 함께’, ‘겨울 즐기기’, ‘겨울 탈출’ 등 세 가지 테마 기획전을 진행한다. 가족 체험형 상품인 나트랑 5일 세미패키지는 빈원더스 전일 이용권과 시내 관광, 하루 자유 일정을 포함한다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500635
-- ✅ [2026-10-30·여행업계] 9월에도 한국인 해외여행 제자리걸음
-  방한 외래관광객이 21.1% 늘어난 반면 국민 해외관광객은 1.5% 증가에 그쳤다. 1~9월 누적 출국자는 여전히 2019년 수준에 못 미쳐 연간 3,000만 명 달성도 장담하기 어렵게 됐다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500629
-- ✅ [2026-10-29·여행업계] 가업상속공제 축소 우려에 관광업계 12개 단체 공동 대응
-  가업상속공제 대상 업종 축소 가능성에 관광업계가 공동 대응에 나섰다. 호텔과 테마파크 등 장기적인 시설 투자와 전문 인력 확보가 필요한 관광사업의 특성을 고려해 현행 공제 대상 업종을 유지해야 한다는 주장이다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500639
-- ✅ [2026-10-29·여행업계] 최휘영 장관 “방한객 3,000만 시대, 지역관광이 첫 조건”
-  방한 외국인 관광객이 역대 최대 기록을 경신한 가운데 정부가 지역관광 활성화를 중심으로 관광산업의 성장 기반 확충에 나선다. 방한객 3,000만 명 시대를 준비하기 위해 지방공항 중심 관광권을 육성하고 숙박·교통 등 수용태세를 개선하는 한편, 국내 관광기업의 경쟁력 강화와 관광산업 체질 개선도 추진한다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500631
-- ✅ [2026-10-29·여행업계] 방한객 소비를 지역관광으로 잇는다…코리아 그랜드 페스티벌 주목!
-  정부가 대규모 소비축제에 관광·문화 프로그램을 결합해 방한 외국인의 지역 방문과 소비 확대에 나선다. 공항·항만 환영행사와 면세점 할인, 국가유산 무료 개방을 연계하고, 지역 상권과 관광지를 잇는 프로그램도 운영한다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500625
-- [2026-10-29·여행업계] 취항 1년 SAS, FIT 강세에 북유럽 상품 다변화
-  스칸디나비아항공(SAS)이 인천–코펜하겐 직항 노선 취항 1년을 맞아 한국 시장 공략을 강화하고 있다. 개별여행객(FIT) 수요가 강세를 보이는 가운데 북유럽 여행상품을 다양화하고, 국내 여행업계와의 협력을 확대한다는 계획이다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500602
-- [2026-10-29·여행업계] 혈세 낭비형 국제행사, 이대로 방치할 것인가
-  지방자치 시대가 막을 올린 지 30여 년이 지났지만, 전국의 지자체들이 앞다투어 벌이는 ‘막가파식 국제행사’의 폐해는 좀처럼 멈출 기미를 보이지 않는다. 최근 언론과 세간의 뜨거운 질타를 받는 여수세계섬박람회는 지자체 국제 행사가 가진 총체적 난맥상을 적나라하게 드러낸 대표적 사례다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500624
-- ✅ [2026-10-28·일본] 일본·중국만 웃는 동계 항공시장…증편 속 감편의 역설
-  올겨울 국제선 하늘길이 코로나19 이전 수준을 넘어 확대되지만, 항공 공급은 일본과 중국에 더욱 집중되는 모습이다. 김해·청주공항의 운항 여력이 확대되면서 지방 출발 해외여행과 지역 인바운드 시장에도 새로운 기회가 열릴 전망이다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500620
-- [2026-10-28·여행업계] “릴스 찍으러 식당 간다?”…아시아 관광업계가 주목한 미식 여행의 변화
-  여행지에서 무엇을 먹을지 고민하던 시대를 넘어, 이제는 먹고 싶은 음식을 찾아 여행지를 결정하는 시대다. 인스타그램과 틱톡에서 발견한 레스토랑이 여행의 목적지가 되고, 사진과 릴스에 잘 나오도록 설계된 식당까지 등장하고 있다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500605
-- ✅ [2026-10-28·여행업계] 청소비 냈는데 설거지까지? 에어비앤비 퇴실 규정 바뀐다
-  에어비앤비 숙소에서 퇴실 전 침대 시트를 벗기거나 설거지를 마쳐야 하는 등 과도한 청소 요구가 제한된다. 새로운 규정은 한국을 포함한 전 세계 에어비앤비 숙소에 적용된다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500612
 
 ## 공연·전시 — category: stage, 하루 두 편 이상
 
@@ -437,6 +444,11 @@
   - 교수신문: 성신여자대학교(총장 이성근)는 성신학원 창립 90주년을 기념해 마련한 ‘지역사회와 함께하는 성신 윈드 오케스트라 특별연주회’를 지난 5일 서울 잠실 롯데콘서트홀에
     https://www.kyosu.net/news/articleView.html?idxno=212178
 
+### [stage] 김포미디어아트센터, 전통과 첨단의 만남 '이이남의 산수극장' 전시 개최
+- 매체 1곳 · 새한일보
+  - 새한일보: (재)김포문화재단(대표이사 신명호)은 김포미디어아트센터에서 국립아시아문화전당재단과 협력한 순회전시 《이이남의 산수극장》을 2027년 2월 14일까지 개최한다고 밝혔다.
+    https://www.shilbo.kr/news/articleView.html?idxno=271170
+
 ### [stage] 도립 김창열미술관 특별전 ‘이응노·김창열’ 개최
 - 매체 2곳 · 뉴스N제주 · 제주일보
   - 제주일보: 파리를 무대로 활동하며 한국 현대미술의 국제화를 이끈 이응노와 김창열의 작품을 한자리에서 만나는 전시가 제주에서 열린다. 도립 김창열미술관은 오는 10일부터 내년 3월 1일까지 대전 이응노미술관과 공동기획한 특별전 ‘이응노·김창열’을 개최한다고 8일 밝혔다.
@@ -444,40 +456,37 @@
   - 뉴스N제주: 파리를 무대로 활동하며 한국 현대미술의 국제화를 이끈 이응노와 김창열의 작품을 한자리에서 만나는 전시가 제주에서 열린다. 제주도립 김창열미술관은 대전 이응노미술관과 공동기획한 특별전 ‘이응노·김창열’을 11월 10일부터 내년 3월 1일까지 개최한다.
     https://www.newsnjeju.com/news/articleView.html?idxno=303960
 
+### [stage] 오페라 명곡과 창작음악극의 하모니
+- 매체 2곳 · 뉴스충청인 · 메가충청뉴스
+  - 메가충청뉴스: [메가충청뉴스] 대전아트콰이어는 11월 13일 오후 7시 30분, 대전시립연정국악원 큰마당에서 기획연주회 3 ‘슬기로운 합창생활’을 개최한다. 이번 연주회는 예술감
+    https://www.megaccnews.com/news/articleView.html?idxno=13747
+  - 뉴스충청인: 
+    http://www.cndnews.co.kr/463305
+
 ### [stage] 오페라 명곡 품은 '합창단 생활기'···대전아트콰이어 '슬기로운 합창생활' 13일 개막
 - 매체 1곳 · 팍스경제TV
   - 팍스경제TV: [대전=팍스경제TV] 대전아트콰이어가 오는 13일 오후 7시 30분 대전시립연정국악원 큰마당에서 창작음악극 &#39;슬기로운 합창생활&#39;을 무대에 올립니다. 모차르트와 로시니, 베르디 등 유명 오페라 명곡을 하나의 이야기로 엮어 합창대회를 앞둔 단원들이 오해와 갈등을 딛고 화합에 
     http://www.paxetv.com/news/articleView.html?idxno=286337
+
+### [stage] 우리들의 첫 번째 선율… ‘ 꿈의 오케스트라 금천’ 첫 공연
+- 매체 1곳 · 서프라이즈뉴스
+  - 서프라이즈뉴스: [서프라이즈뉴스] 금천문화재단은 오는 11월 24일 오후 7시 30분 금천뮤지컬센터에서 ‘꿈의 오케스트라 금천’의 첫 정기연주회 ‘우리들의 첫 번째 선율’을 개최한다고 밝혔다. ‘꿈의 오케스트라 금천’은 지역 아동·청소년들이 악기를 배우고 함께 연주하는 오케스트라 교육 프로그램이다.
+    http://www.surprisenews.kr/news/articleView.html?idxno=721245
 
 ### [stage] 현대의 욕망으로 다시 쓴 ‘라인의 황금’…국립오페라단, 4년 ‘반지’ 대장정 첫발
 - 매체 1곳 · 문화뉴스
   - 문화뉴스: 관현악 작품이 지휘자와 오케스트라에 따라 전혀 다른 색채와 해석으로 태어나듯, 오페라 역시 새로운 프로덕션이 만들어질 때마다 동시대의 시각으로 다시 읽힌다. 국립오페라단이 2029년까지 4년에 걸쳐 완성할 바그너의 4부작 가운데 첫 작품으로 지난 10월 말 예술의전당 오페라극장에 올린 
     https://www.mhns.co.kr/news/articleView.html?idxno=767671
 
+### [stage] 황해선 작가, 인사동 갤러리 루벤플러스서 개인전…전통과 현대미술의 조화 선보여
+- 매체 1곳 · 뉴스인
+  - 뉴스인: [뉴스인] 정하늘 기자 = 서양화가 황해선 작가가 11월 4일부터 10일까지 서울 종로구 인사동 갤러리 루벤플러스에서 ‘황해선 개인전’을 개최하고 있다. 이번 ‘황해선 개인전’은 자연의 아름다움을 화려한 색채로 표현해 온 황 작가가 한국 전통문화의 상징성과 현대회화의 조형적 감각을 결합
+    https://www.newsin.co.kr/news/articleView.html?idxno=134840
+
 ### [stage] 박정자 "난 언제나 연극배우…혼을 바칠 수 있는 건 연극"
 - 매체 1곳 · 연합뉴스
   - 연합뉴스: (서울=연합뉴스) 권지현 기자 = "요즘은 연극 무대, TV, 영화의 경계가 완전히 무너졌죠. 굉장히 긍정적인 일이지만 언제나 저는 스스로를 소.
     https://www.yna.co.kr/view/AKR20261108047300005
-
-### [stage] 전남도민 오케스트라, ‘오케스트라와 함께하는 영화 음악 연주회’ 보성서 공연
-- 매체 1곳 · 뉴스깜
-  - 뉴스깜: [뉴스깜=이기장 기자] 전남도민 오케스트라(대표 민준희)는 지난달 29일 오후 보성군 보성읍 행복마루에서 ‘오케스트라와 함께하는 영화 음악 연주회’를 성공적으로 개최했다고 밝혔다.
-    http://www.newsggam.com/news/articleView.html?idxno=156064
-
-### [stage] 창작발레 ‘레미제라블’, 문학 명작의 감동 무대로 재현
-- 매체 1곳 · 경북도민일보
-  - 경북도민일보: 세계적인 문학 명작이 무용수들의 역동적인 몸짓과 웅장한 음악을 통해 새로운 예술적 생명력을 얻는다. 빅토르 위고의 소설 ‘레미제라블’이 창작발레로 재탄생해 인간의
-    https://www.hidomin.com/news/articleView.html?idxno=728436
-
-### [stage] "붓끝에서 터져 나온 생명의 깃털"… 조미영 작가 《깃羽, 바람의 그물》 개인전 개최
-- 매체 1곳 · 더글로벌기빙뉴스
-  - 더글로벌기빙뉴스: 먹을 머금은 붓끝이 화면 위를 지나간 자리마다 미세한 시간과 숨결이 차곡차곡 축적된다. 가느다란 선들이 겹치고 쌓여 형태를 갖춘 깃털 하나.
-    https://theggnews.com/ko-kr/articles/28375
-
-### [stage] [제23회 대구국제오페라축제 결산] 극장 부재 딛고 객석 점유율 95.3% 역대 최고…내년 축제 안정화 관건
-- 매체 1곳 · 영남일보
-  - 영남일보: 브라보 대구 비바 오페라Bravo Daegu Viva Opera를 주제로 열린 제23회 대구국제오페라축제가 지난달 2일부터 31일까지 30일간의 대장정을 마쳤다 올해 수도권을 제외한 지역신문 중 가장 오래된 역사를 가진 지역 일간지 영남일보입니다. 방문에 감사드립니다.
-    https://www.yeongnam.com/web/view.php?key=20261108022219325
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
 (자유 이용 사진: 이름 후보 35개 확인, 사진 줄 2개)
@@ -539,7 +548,7 @@
     https://www.topstarnews.net/news/articleView.html?idxno=16271159
 
 ---
-거리 108건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 109건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -549,63 +558,63 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## TWS (투어스) '내 이름을 불러줘' Official MV
-- 채널 HYBE LABELS · 조회수 17,470,979회 · 6일 전
+- 채널 HYBE LABELS · 조회수 17,653,950회 · 6일 전
 - `@youtube 3MPUCncZBR0` · https://www.youtube.com/watch?v=3MPUCncZBR0
 
 ## With - RESCENE (리센느) [뮤직뱅크/Music Bank] | KBS 261106 방송
-- 채널 KBS Kpop · 조회수 1,475,965회 · 2일 전
+- 채널 KBS Kpop · 조회수 1,482,956회 · 2일 전
 - `@youtube ECz-M-jwGzQ` · https://www.youtube.com/watch?v=ECz-M-jwGzQ
 
 ## 푸른길 | 공식 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 1,068,733회 · 3일 전
+- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 1,093,618회 · 3일 전
 - `@youtube KR4FSCGPtLM` · https://www.youtube.com/watch?v=KR4FSCGPtLM
 
 ## RESCENE (리센느) - With | Show! MusicCore | MBC261107방송
-- 채널 MBCkpop · 조회수 887,971회 · 1일 전
+- 채널 MBCkpop · 조회수 899,455회 · 1일 전
 - `@youtube _XhBc88qS_E` · https://www.youtube.com/watch?v=_XhBc88qS_E
 
 ## RESCENE (리센느) - Inside Out (백화요란) | Show! MusicCore | MBC261107방송
-- 채널 MBCkpop · 조회수 881,585회 · 1일 전
+- 채널 MBCkpop · 조회수 895,213회 · 1일 전
 - `@youtube C7vNpNTv7fQ` · https://www.youtube.com/watch?v=C7vNpNTv7fQ
 
 ## TXT (투모로우바이투게더) PERFECT STORM Preview
-- 채널 HYBE LABELS · 조회수 713,277회 · 4일 전
+- 채널 HYBE LABELS · 조회수 729,234회 · 4일 전
 - `@youtube 77SfHCoJfgc` · https://www.youtube.com/watch?v=77SfHCoJfgc
 
 ## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
-- 채널 tvN DRAMA · 조회수 702,985회 · 1일 전
+- 채널 tvN DRAMA · 조회수 713,598회 · 1일 전
 - `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
 
+## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DREAM Ver.)
+- 채널 HYBE LABELS · 조회수 549,957회 · 5일 전
+- `@youtube XItzOV6huqw` · https://www.youtube.com/watch?v=XItzOV6huqw
+
 ## [7화 예고] "까야겠네, 강비서 여자인 거💥" 여자인 걸 들켜버린 설인아와 임시완의 깊어지는 오해😱 #나의유죄인간 EP.7
-- 채널 tvN DRAMA · 조회수 357,337회 · 5일 전
+- 채널 tvN DRAMA · 조회수 364,787회 · 5일 전
 - `@youtube 40VaBfB6e88` · https://www.youtube.com/watch?v=40VaBfB6e88
 
-## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 제이크 (JAKE)
-- 채널 HYBE LABELS · 조회수 354,008회 · 3일 전
-- `@youtube qwivRjjPlZU` · https://www.youtube.com/watch?v=qwivRjjPlZU
-
-## CHAERYEONG(채령) “Lovesick” M/V TEASER 2
-- 채널 JYP Entertainment · 조회수 347,654회 · 5일 전
-- `@youtube GbBLOGebxro` · https://www.youtube.com/watch?v=GbBLOGebxro
+## [11화 예고] 김유정의 정체를 눈치챈 듯한 사토 부자?!😨 그리고 걸려온 의문의 전화☎
+- 채널 tvN DRAMA · 조회수 330,021회 · 0일 전
+- `@youtube d0kBID9SX6w` · https://www.youtube.com/watch?v=d0kBID9SX6w
 
 ## [9화 예고] 마침내 시작되는 조선총독부를 향한 거사💥다가오는 김유정의 미국행..?!
-- 채널 tvN DRAMA · 조회수 315,609회 · 7일 전
+- 채널 tvN DRAMA · 조회수 316,195회 · 7일 전
 - `@youtube 4eZVj_ems7E` · https://www.youtube.com/watch?v=4eZVj_ems7E
 
 ## xikers 'DIENAMITE’｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 255,144회 · 4일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 263,892회 · 4일 전
 - `@youtube k-xc9wWWTDc` · https://www.youtube.com/watch?v=k-xc9wWWTDc
 
-## [6화 예고] 여전히 헷갈리는 이준의 감정과 재희의 착각🌀 그 와중에 성큼 다가온 이준X시아의 결혼?💍 #나의유죄인간 EP.6
-- 채널 tvN DRAMA · 조회수 237,920회 · 6일 전
-- `@youtube SyPlztnfwVE` · https://www.youtube.com/watch?v=SyPlztnfwVE
-
 ## Baby DONT Cry 'Replay'｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 224,287회 · 3일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 232,669회 · 3일 전
 - `@youtube EBN-g-aJkbQ` · https://www.youtube.com/watch?v=EBN-g-aJkbQ
 
+## Did I do something wrong?｜Between Two Chairs｜AND2BLE ZHANG HAO YOO SEUNGEON
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 223,763회 · 6일 전
+- `@youtube 7X6AVEUKpRc` · https://www.youtube.com/watch?v=7X6AVEUKpRc
+
 ## [29화 선공개] 무서워서 왔어요 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 218,032회 · 1일 전
+- 채널 KBS Drama · 조회수 220,996회 · 1일 전
 - `@youtube EtvuLAC0qWU` · https://www.youtube.com/watch?v=EtvuLAC0qWU
 
 
@@ -654,7 +663,7 @@ AI 시대, 마음을 기댈 수 있는 다정한 기술 앞에서 독립적인 �
 [261107]_다큐프라임_생각의_멸종_-_2부_‘내겐_너무_완벽한_AI’_(11월_9일_밤_9시_55분,_EBS1).hwp
 [261107]_다큐프라임_생각의_멸종_2부_스틸모음.jpg
 [261107]_다큐프라임_생각의_멸종_2부_스틸컷.zip이전글
-이전 게시글이 없습니다.다음글
+교육부 x EBS '아이돌이 들려주는 교과서 속 문학' 베이비 돈 크라이 이현·베니 참여, 11월 11일 공개다음글
 [한국기행] 찬란하다, 가을빛 (11월 9일 ~ 11월 13일 밤 9시 35분, EBS1)
 목록
 

@@ -4,16 +4,18 @@ channel: travel
 region: vietnam
 section: news
 kind: 보도자료
-title: "한국관광공사, 호치민서 '코리아 글로우 & 웰니스 페스트 2026' 개최"
+title: 한국관광공사, 호치민서 '코리아 글로우 & 웰니스 페스트 2026' 개최
 source_name: ''
 source_url: ''
-summary: 한국관광공사가 11월 6일부터 8일까지 호치민시에서 건강·미용 관광에 관심 있는 베트남 여행객을 대상으로 '코리아 글로우 & 웰니스 페스트 2026'을 열었다. 체험 공간과 무료 1대1 상담이 마련됐다.
+summary: 한국관광공사가 11월 6일부터 8일까지 호치민시에서 건강·미용 관광에 관심 있는 베트남 여행객을 대상으로 '코리아 글로우 & 웰니스
+  페스트 2026'을 열었다. 체험 공간과 무료 1대1 상담이 마련됐다.
 sources:
-  - https://www.vietnam.vn/ko/kham-pha-du-lich-han-quoc-tai-thanh-pho-ho-chi-minh
-  - https://www.vietnam.vn/ko/korea-glow-wellness-fest-2026-tram-dung-chan-du-lich-ket-hop-cham-soc-suc-khoe
-status: approved
+- https://www.vietnam.vn/ko/kham-pha-du-lich-han-quoc-tai-thanh-pho-ho-chi-minh
+- https://www.vietnam.vn/ko/korea-glow-wellness-fest-2026-tram-dung-chan-du-lich-ket-hop-cham-soc-suc-khoe
+status: published
+published_id: c-6afc3f05b952349ce9a367ea518bf04860cb38be
+published_on: '2026-11-09'
 ---
-
 한국관광공사가 베트남 호치민시에서 건강·미용 관광 행사를 열고 현지 여행객에게 한국 여행 정보를 소개했다. 행사 이름은 '코리아 글로우 & 웰니스 페스트 2026'으로, 한국 여행 전반과 함께 건강·미용 관광에 관심 있는 베트남 관광객을 주된 대상으로 삼았다.
 
 한국관광공사(KTO)는 11월 6일부터 8일까지 사흘간 호치민시에서 이 행사를 진행했다. 공사는 방문객이 한국 여행에 필요한 경험과 정보를 한자리에서 얻을 수 있도록 프로그램을 짰다고 밝혔다.

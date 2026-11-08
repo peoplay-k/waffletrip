@@ -4,17 +4,18 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "충남도, 아고다와 2027 세계청년대회 연계 관광객 유치 업무협약"
+title: 충남도, 아고다와 2027 세계청년대회 연계 관광객 유치 업무협약
 source_name: ''
 source_url: ''
-summary: 충남도가 6일 온라인 여행 예약 서비스 아고다와 '2027 세계청년대회 연계 충남 관광 활성화 및 국내외 관광객 유치' 업무협약을 맺었다.
+summary: 충남도가 6일 온라인 여행 예약 서비스 아고다와 '2027 세계청년대회 연계 충남 관광 활성화 및 국내외 관광객 유치' 업무협약을
+  맺었다.
 sources:
-  - https://www.ggilbo.com/news/articleView.html?idxno=1191722
-  - https://tapain.com/news/article.html?no=17443
-  - https://www.newsiesports.com/news/articleView.html?idxno=47764
-status: approved
+- https://www.ggilbo.com/news/articleView.html?idxno=1191722
+- https://tapain.com/news/article.html?no=17443
+- https://www.newsiesports.com/news/articleView.html?idxno=47764
+status: duplicate
+duplicate_of: 20261107_industry_chungnam-agoda-wyd-2027.md
 ---
-
 충남도가 내년 열리는 세계청년대회를 앞두고 글로벌 온라인 여행 예약 서비스 아고다와 손을 잡았다. 대회와 연계해 국내외 관광객을 끌어들이고 충남 관광의 경쟁력을 높이겠다는 구상이다.
 
 충남도는 6일 도청 상황실에서 '2027 세계청년대회 연계 충남 관광 활성화 및 국내외 관광객 유치를 위한 업무협약'을 맺었다고 8일 밝혔다. 협약식에는 박수현 충남지사와 이준환 아고다 동북아시아 대표 등이 참석했다.

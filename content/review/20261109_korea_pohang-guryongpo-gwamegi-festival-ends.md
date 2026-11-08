@@ -4,18 +4,20 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "제27회 포항 구룡포 과메기 축제 폐막, 이틀간 3천여 명 찾아"
+title: 제27회 포항 구룡포 과메기 축제 폐막, 이틀간 3천여 명 찾아
 source_name: ''
 source_url: ''
-summary: 포항시는 7~8일 남구 구룡포읍 아라광장에서 열린 제27회 포항 구룡포 과메기 축제가 시민과 관광객 3,000여 명이 참여한 가운데 마무리됐다고 밝혔다.
+summary: 포항시는 7~8일 남구 구룡포읍 아라광장에서 열린 제27회 포항 구룡포 과메기 축제가 시민과 관광객 3,000여 명이 참여한 가운데
+  마무리됐다고 밝혔다.
 sources:
-  - http://www.webplusnews.kr/news/articleView.html?idxno=45404
-  - https://www.pressian.com/pages/articles/2026110817282385511
-  - https://www.yna.co.kr/view/AKR20261104081800053
-  - http://www.ynenews.kr/news/articleView.html?idxno=84912
-status: approved
+- http://www.webplusnews.kr/news/articleView.html?idxno=45404
+- https://www.pressian.com/pages/articles/2026110817282385511
+- https://www.yna.co.kr/view/AKR20261104081800053
+- http://www.ynenews.kr/news/articleView.html?idxno=84912
+status: published
+published_id: c-ac52fd53da99d9f9ad928b6ba1b479abce3925ff
+published_on: '2026-11-09'
 ---
-
 경북 포항의 겨울 별미 과메기를 앞세운 축제가 이틀 일정을 마치고 문을 닫았다. 포항시는 시민과 관광객 3,000여 명이 참여한 가운데 '제27회 포항 구룡포 과메기 축제'가 마무리됐다고 8일 밝혔다.
 
 축제는 7일부터 8일까지 이틀 동안 포항시 남구 구룡포읍 아라광장 일원에서 열렸다. 구룡포 과메기를 알리고 지역 수산물 소비를 촉진하자는 취지로 해마다 열리는 행사다.
