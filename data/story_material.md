@@ -58,20 +58,20 @@
   - 월간조선: 문화유산을 고치고 기록을 옮기는 일은 사람들의 삶에 어떤 흔적을 남길까. 베트남의 옛 수도 후에(Huế)시에서는 강변의 야경을 보러 사람들이 몰리고, 캄보디아 뚜
     https://monthly.chosun.com/news/articleView.html?idxno=71923
 
+### 호치민시는 관광 브랜드 개발을 위해 다섯 가지 핵심 가치를 정립했습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 호치민시는 "활기찬 호치민시 - 모든 경험에 활력을"이라는 슬로건과 함께 표준화된 관광 브랜드 정체성을 구축하여 역동적이고 친근하며 독특한 관광지로서의 이미지를 만들고 관광 홍보 효과를 높이고자 합니다.
+    https://www.vietnam.vn/ko/tp-ho-chi-minh-dinh-hinh-5-gia-tri-dac-trung-de-phat-trien-thuong-hieu-du-lich
+
+### 호치민시는 관광 브랜드를 장기적인 자산으로 구축하고 있습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 호찌민시는 대규모 문화, 스포츠, 관광 행사를 다수 개최하는 데 집중하여 관광객 유치에 유리한 환경을 조성하고 관광, 숙박 및 서비스 소비 수요를 촉진합니다.
+    https://www.vietnam.vn/ko/thanh-pho-ho-chi-minh-xay-dung-thuong-hieu-du-lich-thanh-tai-san-dai-han
+
 ### 호치민시는 일본에 베트남 문화적 정체성을 전파하고 있습니다.
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 일본 아이치현에서 열린 베트남-호치민시 축제는 양국 간 우호 협력 10주년을 기념하기 위해 개최되었습니다. 이 행사는 베트남 문화 홍보, 베트남 교민 간 유대 강화, 그리고 일본과의 교류 및 협력 확대에 기여했습니다.
     https://www.vietnam.vn/ko/thanh-pho-ho-chi-minh-lan-toa-ban-sac-van-hoa-viet-tai-nhat-ban
-
-### 호치민시는 2026년 말까지 5개 지하철 노선 건설을 시작할 준비가 되어 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: VTV.vn - 도시 미관 개선 및 개보수 사업 정책과 교통 인프라 투자 덕분에 주요 도시들은 점점 더 현대적이고 매력적인 모습으로 탈바꿈할 것입니다.
-    https://www.vietnam.vn/ko/tp-ho-chi-minh-san-sang-khoi-cong-5-tuyen-metro-cuoi-nam-2026
-
-### 일본에서 열리는 베트남-호치민시 축제는 문화 교류와 협력을 강화합니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 2026년 11월 8일 아이치현에서 막을 내린 베트남-호찌민시 축제는 베트남 문화를 홍보하고 양국 수련 10주년을 기념하며 협력을 증진하는 데 기여했습니다.
-    https://www.vietnam.vn/ko/le-hoi-viet-nam-tp-hcm-tai-nhat-ban-tang-cuong-giao-luu-van-hoa-hop-tac
 
 ## 코타키나발루
 
@@ -99,11 +99,13 @@
 ## 제주
 
 ### 문성종 제주관광공사 사장 인사청문 '통과'
-- 매체 2곳 · 제주일보 · 투어코리아  ← 여러 곳이 썼다
+- 매체 3곳 · 미디어제주 · 제주일보 · 투어코리아  ← 여러 곳이 썼다
   - 제주일보: 문성종 제주관광공사 사장 후보자(65)가 인사청문을 통과했다. 제주도의회 문화관광체육위원회(위원장 한동수)는 지난 5일 문 후보자에 대한 인사청문 결과, 적합 판정을 내렸다.
     http://www.jejunews.com/news/articleView.html?idxno=2228676
   - 투어코리아: [투어코리아=조성란 기자] 제주관광이 관광객 수 중심의 양적 성장에서 벗어나 체류시간과 지역 소비를 늘리는 질적 성장으로 방향을 전환한다. 단순히 많은 관광객을 유치하는 데 그치지 않고, 제주에 오래 머물며 지역 곳곳에서 소비하도록 유도해 관광의 경제적 효과를 높이겠다는 전략이다.
     https://www.tournews21.com/news/articleView.html?idxno=147870
+  - 미디어제주: [미디어제주 = 고원상 기자] 제주관광공사가 문성종 제7대 사장 체제에 들어갔다. 제주관광공사는 9일 제주웰컴센터에서 공사 임직원 등이 참석한 가운데 제7대 문성
+    https://www.mediajeju.com/news/articleView.html?idxno=367260
 
 ### “일하며 제주를 여행한다”…일본 원격근무자들, 제주서 5박 6일 워케이션
 - 매체 2곳 · 뉴스코리아 NEWS KOREA · 이데일리  ← 여러 곳이 썼다
@@ -170,6 +172,11 @@
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: (조사) - 2026년 10월, 베트남 국가 관광 홍보 웹사이트 vietnam.travel의 방문자 수가 전월 대비 19.4% 증가했다. 이로써 해당 웹사이트는 태국의 관광 웹사이트를 제치고 싱가포르에 이어 동남아시아 2위로 올라섰다.
     https://www.vietnam.vn/ko/vuot-thai-lan-vietnam-travel-lot-top-2-dong-nam-a-ve-luot-truy-cap
+
+### 부산~치앙마이 하늘길 경쟁 본격화…LCC 2사 공급 확대
+- 매체 1곳 · 메트로신문
+  - 메트로신문: 부산과 태국 치앙마이를 잇는 하늘길에서 저비용항공사(LCC) 간 경쟁이 본격화된다. 에어부산이 신규 취항하면서 기존 이스타항공이 운항하던 노선의 주간 공급석이 약 70% 늘어날 전망이다.
+    https://www.metroseoul.co.kr/article/20261109500284
 
 ### [호텔·리조트트렌드] 르네상스 푸켓 리조트 & 스파, 웰니스·현지 문화 결합한 저녁 프로그램 운영 外
 - 매체 1곳 · 베이비뉴스
@@ -305,6 +312,15 @@
   - ㅍㅍㅅㅅ PPSS: (PPSS 박은숙 기자) KPGA투어 2026시즌 최종전인 ‘KPGA 투어챔피언십 in Jeju‘ (총상금 11억 원 / 2억 2천만 원) 최종 4라운드 경기가
     https://www.ppss.kr/news/articleView.html?idxno=319670
 
+### 충남문화관광재단, 여가친화경영기관 재인증
+- 매체 3곳 · 국제뉴스 · 굿모닝충청 · 충청매일  ← 여러 곳이 썼다
+  - 굿모닝충청: [굿모닝충청 이종현 기자] 충남문화관광재단이 문화체육관광부로부터 여가친화경영 기관으로 재인증 받았다. 9일 재단에 따르면 2023년 최초 인증을 받은 데 이어 일과 여가의 균형을 위한 근로환경 개선 노력을 인정받아 재인증에 성공했다.
+    https://www.goodmorningcc.com/news/articleView.html?idxno=455391
+  - 충청매일: 충남문화관광재단(대표이사 직무대행 이한수)은 문화체육관광부가 주최하는‘여가친화인증제도’ 공공기관 부문에서 여가친화인증기관으로 재인증을 획득했다고 밝혔다. 여가친화인증제는 국민여가활성화기본법 제16조에 근거해 근로자가 일과 여가생활을 조화롭게 병행할 수 있도록 모범적인 여가친화경영을 펼
+    https://www.ccdn.co.kr/news/articleView.html?idxno=1109769
+  - 국제뉴스: (충남=국제뉴스) 박의규 기자 = 충남문화관광재단이 문화체육관광부가 주관하는 '여가친화인증제도'에서 공공기관 부문 재인증을 받았다. 재단은 2023년 처음 인증을 획득한 이후, 일과 여가의 균형을 위한 다양한 조직문화 개선과 근로환경 혁신을 이어온 점이 인정됐다.
+    https://www.gukjenews.com/news/articleView.html?idxno=3746758
+
 ### [게시판] 남북교류협력지원협회, 10일 한반도 평화관광협력 국제세미나
 - 매체 3곳 · 뉴스1 · 연합뉴스 · 이데일리  ← 여러 곳이 썼다
   - 연합뉴스: ▲ 통일부 산하 공공기관인 남북교류협력지원협회는 오는 10일 서울중앙우체국 10층 대회의실에서 '관광으로 잇는 새로운 연결, 지속가능한 미래를 ...
@@ -358,15 +374,6 @@
     https://www.news1.kr/photos/8202786
   - 뉴스1: 
     https://www.news1.kr/photos/8202783
-
-### 방한객 2천만명 시대의 그늘…9월 관광수지 5억달러 적자
-- 매체 3곳 · KBC광주방송 · 연합뉴스 · 한국정경신문  ← 여러 곳이 썼다
-  - 연합뉴스: (서울=연합뉴스) 이상서 기자 = "올해 4월에 방탄소년단(BTS) 공연을 보러 처음 서울에 왔는데 기억이 정말 좋게 남아서 반년 만에 다시 찾. ..
-    https://www.yna.co.kr/view/AKR20261107042100030
-  - KBC광주방송: 월간 관광수지가 3개월 연속 적자를 이어가고, 적자 폭이 10배 가까이 불어난 5억 달러에 달한 것으로 집계됐습니다. 올해 역대 최초로 방한객 2,000만
-    https://www.ikbc.co.kr/article/view/kbc202611080008
-  - 한국정경신문: [한국정경신문=변동휘 기자] K팝 열기가 만든 관광수지 흑자 행진이 끊기고 적자 폭이 다시 커지고 있다. 외국인 발길은 늘었지만 한국인이 해외에서 쓰는 돈이 더 빠르게 불어난 탓이다.
-    https://kpenews.com/View.aspx?No=4302394
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 28건)
 
@@ -536,11 +543,13 @@
     https://www.cnbnews.com/news/articleView.html?idxno=1022963
 
 ### [stage] 오페라 명곡 품은 '합창단 생활기'···대전아트콰이어 '슬기로운 합창생활' 13일 개막
-- 매체 2곳 · 대전인터넷신문 · 팍스경제TV
+- 매체 3곳 · 대전인터넷신문 · 축제뉴스 · 팍스경제TV
   - 팍스경제TV: [대전=팍스경제TV] 대전아트콰이어가 오는 13일 오후 7시 30분 대전시립연정국악원 큰마당에서 창작음악극 &#39;슬기로운 합창생활&#39;을 무대에 올립니다. 모차르트와 로시니, 베르디 등 유명 오페라 명곡을 하나의 이야기로 엮어 합창대회를 앞둔 단원들이 오해와 갈등을 딛고 화합에 
     http://www.paxetv.com/news/articleView.html?idxno=286337
   - 대전인터넷신문: [대전인터넷신문=이향순 기자] 대전아트콰이어가 오는 13일 오후 7시 30분 대전시립연정국악원 큰마당에서 세계적인 오페라 명곡과 합창단의 일상을 결합한 창작음악극 ‘슬기로운 합창생활’을 선보인다. 대전아트콰이어가 오는 13일 오후 7시 30분 대전시립연정국악원 큰마당에서 선보이는 창작음
     http://daejeonpress.co.kr/news/71268
+  - 축제뉴스: 대전아트콰이어가 11월 13일 오후 7시 30분 대전시립연정국악원 큰마당에서 기획연주회 3 ‘슬기로운 합창생활’을 선보인다. 이번 공연은 모차르트.
+    https://www.chookjenews.kr/news/articleView.html?idxno=83636
 
 ### [stage] 성신여대, 창립 90주년 기념 ‘성신 윈드 오케스트라 특별연주회’ 개최
 - 매체 1곳 · 교수신문
@@ -593,7 +602,7 @@
     https://www.newstap.co.kr/news/articleView.html?idxno=337518
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 33개 확인, 사진 줄 2개)
+(자유 이용 사진: 이름 후보 33개 확인, 사진 줄 3개)
 
 ### 🔥 화제(매체 12곳) [movie] ‘극장판 치이카와’ 6일 만에 1위 복귀…270만 돌파 [11월 7일 영화 박스오피스]
 - 매체 2곳 · ER 이코노믹리뷰 · bntnews  ← 여러 곳이 썼다
@@ -633,6 +642,13 @@
   - YTN star: "우리가 이런 영화를 그리워했구나 싶었죠. 지인과 영화인들에게 '고맙다'는 연락을 참 많이 받았습니다.
     https://star.ytn.co.kr/_sn/0117_202611091749126966
 
+### 🔥 화제(매체 5곳) [startrip] 아일릿 '브레이크 이븐', 美 '빌보드 200' 6위 진입
+- 매체 2곳 · 뉴스핌 · 문화일보  ← 여러 곳이 썼다
+  - 뉴스핌: [서울=뉴스핌] 이지은 기자 = 그룹 아일릿이 미니 5집으로 미국 빌보드 메인 앨범차트 '톱 10'에 입성했다. 빌보드가 8일(현지시간) 공식 홈페이지에 게재한 차트 예고 기사에 따르면, 아일릿의 미니 5집 '브레이크 이븐(BREAK EVEN)'은 최신 '빌보드
+    https://m.newspim.com/news/view/20261109000152
+  - 문화일보: 걸그룹 아일릿이 데뷔 후 처음으로 미국 빌보드 메인 앨범차트 ‘빌보드200’ 톱10에 진입했다. 8일(현지시간) 빌보드 차트 예고 기사에 따르면, 아일릿의 미니 5집 ‘브레이크 이븐’(BREAK EVEN)은 ‘빌보드 200’(11월 14일 자) 6위로 진입했다.
+    https://www.munhwa.com/article/11629805
+
 ### 🔥 화제(매체 4곳) [movie] [박스오피스] 주말 극장가 애니메이션 강세…‘치이카와’ 5주 연속 정상
 - 매체 1곳 · 애드뉴스인천
   - 애드뉴스인천: 11월 극장가에서 일본 애니메이션의 흥행세가 이어지고 있다. 신작 영화들의 잇따른 개봉에도 '극장판 치이카와: 인어 섬의 비밀'이 5주 연속 주말 박스오피스 정상
@@ -645,20 +661,16 @@
   - JTN뉴스: 
     http://m.jtn.co.kr/view.php?m=culture&idx=79885
 
-### 🔥 화제(매체 4곳) [startrip] 아일릿 '브레이크 이븐', 美 '빌보드 200' 6위 진입
-- 매체 1곳 · 뉴스핌
-  - 뉴스핌: [서울=뉴스핌] 이지은 기자 = 그룹 아일릿이 미니 5집으로 미국 빌보드 메인 앨범차트 '톱 10'에 입성했다. 빌보드가 8일(현지시간) 공식 홈페이지에 게재한 차트 예고 기사에 따르면, 아일릿의 미니 5집 '브레이크 이븐(BREAK EVEN)'은 최신 '빌보드
-    https://m.newspim.com/news/view/20261109000152
-
 ### 🔥 화제(매체 4곳) [startrip] 강민이 하이브 실장, 빌보드 투어링 파워 플레이어스 2년 연속 선정
 - 매체 2곳 · 녹색경제신문 · 스타뉴스  ← 여러 곳이 썼다
+- 사진(자유 이용, 강민): `![강민 · 사진 The original uploader was 박승현 at Korean Wikipedia. · CC BY-SA 2.0 kr · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/d/db/Kangmin.png)`
   - 녹색경제신문: 하이브에서 월드투어를 기획·운영하는 구성원 3명이 미국 빌보드의 ‘2026 투어링 파워 플레이어스' 명단에 올랐다. 빌보드가 6일(현지시간) 이 같이 밝힌 뒤, 하이브 역시 7일 선정 사실을 알렸다.
     https://www.greened.kr/news/articleView.html?idxno=354099
   - 스타뉴스: SM엔터테인먼트(이하 SM) 이상화 최고사업책임자(CBO)가 빌보드가 선정한 '2026 빌보드 투어링 파워 플레이어스'(2026 Billboard Touring Power Players)에 이름을 올렸다.
     https://www.starnewskorea.com/music/2026/11/09/2026110911080236340
 
 ---
-거리 119건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 120건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -668,64 +680,64 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## TWS (투어스) '내 이름을 불러줘' Official MV
-- 채널 HYBE LABELS · 조회수 17,866,275회 · 7일 전
+- 채널 HYBE LABELS · 조회수 17,867,280회 · 7일 전
 - `@youtube 3MPUCncZBR0` · https://www.youtube.com/watch?v=3MPUCncZBR0
 
-## Red Velvet - IRENE & SEULGI 'Cheetah' MV
-- 채널 SMTOWN · 조회수 1,361,193회 · 5일 전
-- `@youtube Ts8HTHBRxvw` · https://www.youtube.com/watch?v=Ts8HTHBRxvw
-
 ## RESCENE (리센느) - With | Show! MusicCore | MBC261107방송
-- 채널 MBCkpop · 조회수 950,870회 · 2일 전
+- 채널 MBCkpop · 조회수 952,495회 · 2일 전
 - `@youtube _XhBc88qS_E` · https://www.youtube.com/watch?v=_XhBc88qS_E
 
 ## RESCENE (리센느) - Inside Out (백화요란) | Show! MusicCore | MBC261107방송
-- 채널 MBCkpop · 조회수 945,753회 · 2일 전
+- 채널 MBCkpop · 조회수 947,364회 · 2일 전
 - `@youtube C7vNpNTv7fQ` · https://www.youtube.com/watch?v=C7vNpNTv7fQ
 
 ## TXT (투모로우바이투게더) PERFECT STORM Preview
-- 채널 HYBE LABELS · 조회수 754,832회 · 4일 전
+- 채널 HYBE LABELS · 조회수 755,328회 · 4일 전
 - `@youtube 77SfHCoJfgc` · https://www.youtube.com/watch?v=77SfHCoJfgc
 
 ## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
-- 채널 tvN DRAMA · 조회수 722,158회 · 1일 전
+- 채널 tvN DRAMA · 조회수 722,358회 · 1일 전
 - `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DREAM Ver.)
-- 채널 HYBE LABELS · 조회수 554,760회 · 5일 전
+- 채널 HYBE LABELS · 조회수 554,853회 · 5일 전
 - `@youtube XItzOV6huqw` · https://www.youtube.com/watch?v=XItzOV6huqw
 
 ## [#2026MAMA] STAR COUNTDOWN D-15 #RESCENE
-- 채널 Mnet K-POP · 조회수 535,271회 · 4일 전
+- 채널 Mnet K-POP · 조회수 535,506회 · 4일 전
 - `@youtube aJ61F8L9wmM` · https://www.youtube.com/watch?v=aJ61F8L9wmM
 
 ## [11화 예고] 김유정의 정체를 눈치챈 듯한 사토 부자?!😨 그리고 걸려온 의문의 전화☎
-- 채널 tvN DRAMA · 조회수 507,803회 · 1일 전
+- 채널 tvN DRAMA · 조회수 510,108회 · 1일 전
 - `@youtube d0kBID9SX6w` · https://www.youtube.com/watch?v=d0kBID9SX6w
 
 ## [7화 예고] "까야겠네, 강비서 여자인 거💥" 여자인 걸 들켜버린 설인아와 임시완의 깊어지는 오해😱 #나의유죄인간 EP.7
-- 채널 tvN DRAMA · 조회수 376,766회 · 5일 전
+- 채널 tvN DRAMA · 조회수 377,112회 · 5일 전
 - `@youtube 40VaBfB6e88` · https://www.youtube.com/watch?v=40VaBfB6e88
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 제이크 (JAKE)
-- 채널 HYBE LABELS · 조회수 367,187회 · 3일 전
+- 채널 HYBE LABELS · 조회수 367,269회 · 3일 전
 - `@youtube qwivRjjPlZU` · https://www.youtube.com/watch?v=qwivRjjPlZU
 
 ## [9화 예고] 마침내 시작되는 조선총독부를 향한 거사💥다가오는 김유정의 미국행..?!
-- 채널 tvN DRAMA · 조회수 316,753회 · 7일 전
+- 채널 tvN DRAMA · 조회수 316,757회 · 7일 전
 - `@youtube 4eZVj_ems7E` · https://www.youtube.com/watch?v=4eZVj_ems7E
 
 ## xikers 'DIENAMITE’｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 293,668회 · 4일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 294,264회 · 5일 전
 - `@youtube k-xc9wWWTDc` · https://www.youtube.com/watch?v=k-xc9wWWTDc
 
 ## Baby DONT Cry 'Replay'｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 263,819회 · 3일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 264,438회 · 3일 전
 - `@youtube EBN-g-aJkbQ` · https://www.youtube.com/watch?v=EBN-g-aJkbQ
 
 ## [전지적 집착 시점 선공개] 플레이 타임이 2300시간?! 주말에도 회사에서 게임하는 게임 괴인 김재서의 일상🎮, MBC 261108 방송
-- 채널 MBCentertainment · 조회수 260,909회 · 1일 전
+- 채널 MBCentertainment · 조회수 262,717회 · 1일 전
 - `@youtube fOkis7RA8cw` · https://www.youtube.com/watch?v=fOkis7RA8cw
+
+## Did I do something wrong?｜Between Two Chairs｜AND2BLE ZHANG HAO YOO SEUNGEON
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 246,116회 · 6일 전
+- `@youtube 7X6AVEUKpRc` · https://www.youtube.com/watch?v=7X6AVEUKpRc
 
 
 
