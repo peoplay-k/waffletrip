@@ -152,6 +152,7 @@
   .block-title a:hover{color:var(--coral)}
   .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:32px}
   /* 방송 기사의 글자 카드(1200×630)는 자르면 글자가 끊긴다 — 제 비율 그대로 */
+  img[src*="/img/cartoon/"]{object-position:top}
   img[src*="/img/tv/"]{aspect-ratio:1200/630!important;object-fit:contain!important;max-height:none!important;background:var(--paper)}
   .card img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:2px;
     margin-bottom:13px}

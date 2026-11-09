@@ -484,6 +484,32 @@ def test_우리_카드에는_직접_촬영_캡션이_붙지_않는다():
     assert "item.photo.startswith('/img/tv/')" in tpl
 
 
+def test_여행_카툰에는_AI_그림_캡션이_붙는다(tmp_path):
+    """카툰(/img/cartoon/)은 AI 로 그린 그림이다. '직접 촬영'이 붙으면 독자를 속이게 된다(2026-11-09)."""
+    item = make("c-cartoon-test", "[여행 카툰] 시험 회차", region="korea", grade="C")
+    item.photo = "/img/cartoon/ep-test.webp"
+    item.body_md = "본문."
+    render_site([item], str(tmp_path), TODAY)
+    pages = [p.read_text(encoding="utf-8") for p in tmp_path.glob("korea/*/index.html")]
+    page = next(p for p in pages if "시험 회차" in p)
+    assert "그림 · AI 생성. 등장인물과 사연은 꾸며낸 것입니다." in page
+    assert "<figcaption>직접 촬영" not in page   # 꼬리말의 사진 원칙 문장은 그대로 있다
+
+
+def test_카툰_그림은_사진_목록_없이_지면과_공유_카드로_간다(tmp_path):
+    """사진 매니페스트는 NAS 실사만 받는다(test_photos). 카툰은 assets/cartoon 에서 따로 복사한다."""
+    from PIL import Image
+    from src.render.cartoons import copy_cartoons
+    src = tmp_path / "cartoon"
+    src.mkdir()
+    Image.new("RGB", (400, 500), "white").save(src / "ep-test.webp", "WEBP")
+    assert copy_cartoons(str(tmp_path / "out"), str(src)) == 1
+    assert (tmp_path / "out" / "img" / "cartoon" / "ep-test.webp").exists()
+    with Image.open(tmp_path / "out" / "og" / "cartoon" / "ep-test.jpg") as og:
+        from src.photos import OG_SIZE
+        assert og.size == tuple(OG_SIZE)
+
+
 def test_편집실_필자는_기자_명부에서만_고른다():
     """손으로 치게 두면 명부에 없는 이름 — 지어낸 기자 — 가 생긴다."""
     import sys as _s

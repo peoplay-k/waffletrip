@@ -724,7 +724,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # 방송 기사의 글자 카드(/img/tv/)는 사진이 아니다. 여행이 먼저다(같은 날 "연예보단 여행
     # 먼저") — 실제 사진이 있는 여행 기사 → 실제 사진이 있는 기사 → 그림이 있는 기사 순.
     def _real_photo(i):
-        return bool(i.photo) and not str(i.photo).startswith("/img/tv/")
+        return bool(i.photo) and not str(i.photo).startswith(("/img/tv/", "/img/cartoon/"))
     # 편집실 '홈 배치'에서 머리기사를 고정했으면 그것(2026-10-30). 내렸거나 지면 기간이 지나
     # 목록에 없으면 자동으로 돌아간다.
     pinned = next((i for i in articles if HOME["pinned_lead"] and i.id == HOME["pinned_lead"]), None)
@@ -1101,6 +1101,8 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
     # (Graph API: media_type=REELS + video_url → 컨테이너 → media_publish).
     # 우리 사이트가 그 주소를 준다. 색인 대상은 아니지만 누구나 받을 수 있어야
     # 한다 — 인스타 서버가 로그인 없이 가져간다.
+    from src.render.cartoons import copy_cartoons
+    copy_cartoons(out_dir)
     video_src = os.path.join("static", "video")
     if os.path.isdir(video_src):
         video_dst = os.path.join(out_dir, "video")
