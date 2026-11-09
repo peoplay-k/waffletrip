@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS 특집 다큐 '청춘, 경로의 재구성' 2부, 학교 밖 청소년 네 명의 3박 4일 수학여행"
+title: EBS 특집 다큐 '청춘, 경로의 재구성' 2부, 학교 밖 청소년 네 명의 3박 4일 수학여행
 source_name: ''
 source_url: ''
-summary: EBS1이 10일 밤 10시 50분 5부작 특집 다큐 '청춘, 경로의 재구성' 2부 '헤매 본 사람이 길을 찾는다'를 방송한다. 학교 밖 청소년 4명이 직접 정한 곳으로 3박 4일 수학여행을 떠난다.
+summary: EBS1이 10일 밤 10시 50분 5부작 특집 다큐 '청춘, 경로의 재구성' 2부 '헤매 본 사람이 길을 찾는다'를 방송한다. 학교
+  밖 청소년 4명이 직접 정한 곳으로 3박 4일 수학여행을 떠난다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005613559
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005613559
+status: published
+published_id: c-9b5f2304315a6dc4a75c0e7e61ee10e023193b91
+published_on: '2026-11-10'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 특집 다큐 청춘, 경로의 재구성 | 회차 · 2부 '헤매 본 사람이 길을 찾는다'
 > 방송 · 2026년 11월 10일(화) 밤 10시 50분

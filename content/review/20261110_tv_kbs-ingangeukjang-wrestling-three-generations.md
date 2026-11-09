@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'인간극장' 레슬링 삼부자, 선수 은퇴 뒤 배관공으로 뭉친 가족 5부작"
+title: '''인간극장'' 레슬링 삼부자, 선수 은퇴 뒤 배관공으로 뭉친 가족 5부작'
 source_name: ''
 source_url: ''
-summary: KBS1 '인간극장'이 9일부터 13일까지 아침 7시 50분에 레슬링 국가대표 출신 아버지와 두 아들이 배관 현장에서 일하는 이야기 '다시 뜨겁게 레슬링 삼부자'를 방송한다.
+summary: KBS1 '인간극장'이 9일부터 13일까지 아침 7시 50분에 레슬링 국가대표 출신 아버지와 두 아들이 배관 현장에서 일하는 이야기
+  '다시 뜨겁게 레슬링 삼부자'를 방송한다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/human
-status: approved
+- https://program.kbs.co.kr/1tv/culture/human
+status: published
+published_id: c-e2301e644287a30b048fcd0e8979aa57b224c0de
+published_on: '2026-11-10'
 ---
-
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 인간극장 | 주제 · 다시 뜨겁게 레슬링 삼부자
 > 방송 · 2026년 11월 9일(월)~13일(금) 오전 7시 50분~8시 35분

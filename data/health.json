@@ -351,15 +351,15 @@
     },
     {
       "date": "2026-11-10",
-      "collected": 3467,
-      "published": 123,
-      "ours": 3,
+      "collected": 3481,
+      "published": 215,
+      "ours": 6,
       "failed_sources": [
         "guam_pdn",
+        "guam_post",
         "kr_hotelavia",
         "kr_ktnbm",
         "kr_travelpress",
-        "saipan_tribune",
         "thailand_bangkokpost_travel"
       ]
     }
