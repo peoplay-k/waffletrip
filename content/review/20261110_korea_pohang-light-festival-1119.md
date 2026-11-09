@@ -7,15 +7,17 @@ kind: 해설
 title: 포항국제불빛축제 19~21일 영일대·송도 일원…3개국 불꽃쇼, 15만 인파 예상
 source_name: ''
 source_url: ''
-summary: '''2026 포항국제불빛축제''가 19일부터 21일까지 영일대해수욕장과 송도 일원에서 열린다. 3개국 불꽃쇼가 펼쳐지고 15만 명이 찾을 것으로 예상된다. 포항시는 9일 최종점검 보고회를 열어 인파·교통·해상 안전을 점검했다.'
+summary: '''2026 포항국제불빛축제''가 19일부터 21일까지 영일대해수욕장과 송도 일원에서 열린다. 3개국 불꽃쇼가 펼쳐지고 15만 명이
+  찾을 것으로 예상된다. 포항시는 9일 최종점검 보고회를 열어 인파·교통·해상 안전을 점검했다.'
 sources:
 - https://www.newstown.co.kr/news/articleView.html?idxno=721295
 - https://www.polinews.co.kr/news/articleView.html?idxno=748088
 - https://www.ynenews.kr/news/articleView.html?idxno=84972
 - http://www.ttlnews.com/news/articleView.html?idxno=3160319
-status: approved
+status: published
+published_id: c-5fdb5da90fa67ee6b10d0f61e6eaaef57b828066
+published_on: '2026-11-10'
 ---
-
 부산불꽃축제에 이어 이번엔 포항 밤바다가 불꽃으로 물든다. '2026 포항국제불빛축제'가 19일부터 21일까지 사흘 동안 포항 영일대해수욕장과 송도 일원에서 열린다.
 
 축제의 중심은 3개국 불꽃쇼다. 포항시는 이번 축제에 15만 명이 찾을 것으로 내다봤다.

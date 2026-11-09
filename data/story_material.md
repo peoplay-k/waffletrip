@@ -187,11 +187,6 @@
   - 메트로신문: 부산과 태국 치앙마이를 잇는 하늘길에서 저비용항공사(LCC) 간 경쟁이 본격화된다. 에어부산이 신규 취항하면서 기존 이스타항공이 운항하던 노선의 주간 공급석이 약 70% 늘어날 전망이다.
     https://www.metroseoul.co.kr/article/20261109500284
 
-### [호텔·리조트트렌드] 르네상스 푸켓 리조트 & 스파, 웰니스·현지 문화 결합한 저녁 프로그램 운영 外
-- 매체 1곳 · 베이비뉴스
-  - 베이비뉴스: 
-    https://news.google.com/rss/articles/CBMibEFVX3lxTE1zSWtmM2ZQZDIwM1VIUVRzUzZzWDM0MjYtRGlHVUVRdDhNcWl4SWRlb3NFTEF6SjdLXzFVcHg5QzgzVGdkQlpkY2VuSVMySlJ1MkUzVU9xR2R0OHBMUDNaa19ESDJkbzFkWExacQ?oc=5
-
 ## 대만
 
 ### 2026 ITF 대만국제여전 성황리 폐막
@@ -221,6 +216,17 @@
 
 ## 국내
 
+### 포항 구룡포 과메기 축제 성료…3천여 명 방문, 겨울철 별미 매력 알려
+- 매체 4곳 · 경상매일신문 · 내외일보 · 웹플러스뉴스 · 폴리뉴스 Polinews  ← 여러 곳이 썼다
+  - 웹플러스뉴스: 포항의 대표 겨울철 특산물인 구룡포 과메기를 알리고 지역 수산물 소비 촉진을 위한 ‘제27회 포항 구룡포 과메기 축제’가 시민과 관광객 3,000여 명이 참여한 가운데 성황리에 마무리됐다. 포항시는 지난 7일부터 8일까지 이틀간 남구 구룡포읍 아라광장 일원에서 열린 ‘2026년 제27회
+    http://www.webplusnews.kr/news/articleView.html?idxno=45404
+  - 폴리뉴스 Polinews: [폴리뉴스 권택석(=경북) 기자] 제철을 맞은 구룡포 과메기를 맛보고 다양한 체험을 즐기려는 시민과 관광객 3,000여 명이 축제장을 찾았다. 포항시는 포항구룡포과
+    https://www.polinews.co.kr/news/articleView.html?idxno=748030
+  - 내외일보: [내외일보=포항] 하청해 기자= 포항시는 포항구룡포과메기사업협동조합이 주최하고 매일신문이 주관한 ‘2026년 제27회 포항 구룡포 과메기 축제’가 지난 7일부터
+    https://www.naewoeilbo.com/news/articleView.html?idxno=2449297
+  - 경상매일신문: 
+    https://www.ksmnews.co.kr/news/view.php?idx=628848
+
 ### 부산관광공사, 시티투어·온천 결합 상품 출시… 4곳 연계
 - 매체 3곳 · 뉴스타운 · 브릿지경제 · 중도일보  ← 여러 곳이 썼다
   - 중도일보: 부산의 주요 해안 관광지를 둘러보는 시티투어버스에 온천과 스파 이용을 더한 여행상품이 나온다. 버스 탑승권과 온천·스파 이용권을 결합해 개별 구매보다 저렴한 요금으로 이용할 수 있.
@@ -238,15 +244,6 @@
     https://www.getnews.co.kr/news/articleView.html?idxno=886504
   - TTL뉴스: [퍼블릭뉴스통신]경북 포항시가 지역 대표 축제인 ‘2026 포항국제불빛축제’를 앞두고 관람객 안전 확보와 성공적인 축제 개최를 위한 막바지 점검을 마쳤다. ​포항시는 9일 시청 대회의실에서 박용선 시장 주재로 ‘2026 포항국제불빛축제 최종점검 보고회’를 개최했다.
     http://www.ttlnews.com/news/articleView.html?idxno=3160329
-
-### 포항 구룡포 과메기 축제 성료…3천여 명 방문, 겨울철 별미 매력 알려
-- 매체 3곳 · 내외일보 · 웹플러스뉴스 · 폴리뉴스 Polinews  ← 여러 곳이 썼다
-  - 웹플러스뉴스: 포항의 대표 겨울철 특산물인 구룡포 과메기를 알리고 지역 수산물 소비 촉진을 위한 ‘제27회 포항 구룡포 과메기 축제’가 시민과 관광객 3,000여 명이 참여한 가운데 성황리에 마무리됐다. 포항시는 지난 7일부터 8일까지 이틀간 남구 구룡포읍 아라광장 일원에서 열린 ‘2026년 제27회
-    http://www.webplusnews.kr/news/articleView.html?idxno=45404
-  - 폴리뉴스 Polinews: [폴리뉴스 권택석(=경북) 기자] 제철을 맞은 구룡포 과메기를 맛보고 다양한 체험을 즐기려는 시민과 관광객 3,000여 명이 축제장을 찾았다. 포항시는 포항구룡포과
-    https://www.polinews.co.kr/news/articleView.html?idxno=748030
-  - 내외일보: [내외일보=포항] 하청해 기자= 포항시는 포항구룡포과메기사업협동조합이 주최하고 매일신문이 주관한 ‘2026년 제27회 포항 구룡포 과메기 축제’가 지난 7일부터
-    https://www.naewoeilbo.com/news/articleView.html?idxno=2449297
 
 ### 부산 시티투어 타고 온천까지…목욕여행 상품 출시
 - 매체 3곳 · 더쎈뉴스(The CEN News) · 메트로신문 · 에너지뉴스  ← 여러 곳이 썼다
@@ -358,7 +355,7 @@
   - 트래블데일리: 서울특별시관광협회가 창립 제65주년을 맞아 협회 사무처에서 내부 기념행사를 진행하고 서울 관광산업의 발전과 새로운 미래를 향한 도약 의지를 다졌다. 1961년 설립된 서울특별시관광협회는 지난 65년간 서울 관광업계와 함께 성장하며 회원사의 권익 증진과 관광산업 발전을 위한 다양한 사업을
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72632
 
-## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 29건)
+## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 28건)
 
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
@@ -366,7 +363,7 @@
 - [2026-11-10·여행업계] 국제선은 날개를 달았는데 공항은 제자리…청주공항의 성장통
   청주국제공항의 국제선 이용객이 역대 최대 기록을 경신했지만 공항 인프라는 늘어나는 수요를 따라가지 못하고 있다. 일본과 중국을 중심으로 신규 취항과 증편이 이어지면서 국제선 여객은 올해 10월 말 이미 지난해 연간 실적을 넘어섰다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500671
-- [2026-11-10·여행업계] KME2026 외연 넓힌다…테크부터 스포츠 MICE까지
+- ✅ [2026-11-10·여행업계] KME2026 외연 넓힌다…테크부터 스포츠 MICE까지
   ‘2026 코리아 마이스 엑스포(KME2026)’가 해외 참가자를 4년 만에 4배로 늘린 가운데, 한국MICE협회가 스포츠 MICE를 업계의 새 먹거리로 내세웠다. 한국MICE협회는 11월 6일 서울에서 기자간담회를 열고 KME2026 주요 내용을 소개했다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500684
 - [2026-11-09·일본] 일본 중부 지진에 관광·교통 차질…추가 지진 주의보
@@ -581,7 +578,7 @@
     https://www.hidomin.com/news/articleView.html?idxno=728592
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 34개 확인, 사진 줄 5개)
+(자유 이용 사진: 이름 후보 34개 확인, 사진 줄 2개)
 
 ### 🔥 화제(매체 11곳) [movie] '명탐정 코난' 개봉 첫날 1위…'최종면접' 하루 만에 밀렸다 [영화순위]
 - 매체 2곳 · bntnews · 톱스타뉴스  ← 여러 곳이 썼다
@@ -630,7 +627,6 @@
 
 ### 🔥 화제(매체 3곳) [startrip] 베스티 '연애의 조건', 역주행 열풍ing..멜론 차트 9위 기록
 - 매체 2곳 · 스타뉴스 · 씨네플레이  ← 여러 곳이 썼다
-- 사진(자유 이용, 베스티): `![베스티 · 사진 SJ · CC BY 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/b/be/BESTie_at_Pyeongchon_Cultural_street_Festival%2C_18_September_2015.jpg)`
   - 스타뉴스: 그룹 베스티(BESTie)의 '연애의 조건'이 역주행 열풍이 계속되고 있다. 베스티(혜연, 유지, 다혜, 해령)의 '연애의 조건(Love Options)'은 9일 오전 기준 멜론 TOP100 9위에 오르며 처음으로 TOP10에 진입했다.
     https://www.starnewskorea.com/music/2026/11/09/2026110909143747066
   - 씨네플레이: '숏폼 챌린지' 열풍 타고 국내외 차트 강타한 숨은 명곡의 부활 그룹 '베스티'(BESTie)의 과거 대표곡 '연애의 조건'이 발매 13년 만에 국내 최대 음원 플랫폼 '멜론'(Melon) 메인 차트 '톱 10' 진입을 이뤄냈다.
@@ -647,15 +643,13 @@
 
 ### 🔥 화제(매체 3곳) [drama] ‘틈만나면,’ 지수·나연, 첫 동반 예능
 - 매체 2곳 · bntnews · 저스트 이코노믹스  ← 여러 곳이 썼다
-- 사진(자유 이용, 지수): `![지수 · 사진 티비텐 TV10 · CC BY 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2e/Jisoo_at_Boyfriend_on_Demand_press_conference_on_26022026_%2812%29.png)`
-- 사진(자유 이용, 나연): `![나연 · 사진 TV10 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2d/Nayeon_in_November_2025.png)`
   - bntnews: 블랙핑크 지수와 트와이스 나연이 데뷔 후 처음으로 예능에 동반 출연한다. 두 사람은 ‘틈만나면,’에서 연습생 시절부터 이어온 친분을 공개
     https://www.bntnews.co.kr/article/view/bnt202611090090
   - 저스트 이코노믹스: 
     https://www.justeconomix.com/ko-kr/articles/154204
 
 ---
-거리 121건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 120건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -664,64 +658,64 @@
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
 (검색어 34개 · 고른 영상 15개)
 
+## TWS (투어스) '내 이름을 불러줘' Official MV
+- 채널 HYBE LABELS · 조회수 17,914,538회 · 7일 전
+- `@youtube 3MPUCncZBR0` · https://www.youtube.com/watch?v=3MPUCncZBR0
+
 ## 푸른길 | 공식 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 1,254,571회 · 4일 전
+- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 1,255,407회 · 4일 전
 - `@youtube KR4FSCGPtLM` · https://www.youtube.com/watch?v=KR4FSCGPtLM
 
 ## 체포하겠어 - 아일릿(ILLIT) [뮤직뱅크/Music Bank] | KBS 261106 방송
-- 채널 KBS Kpop · 조회수 878,075회 · 3일 전
+- 채널 KBS Kpop · 조회수 878,691회 · 3일 전
 - `@youtube 2w2rqmE-dL8` · https://www.youtube.com/watch?v=2w2rqmE-dL8
 
 ## TXT (투모로우바이투게더) PERFECT STORM Preview
-- 채널 HYBE LABELS · 조회수 787,001회 · 5일 전
+- 채널 HYBE LABELS · 조회수 788,080회 · 5일 전
 - `@youtube 77SfHCoJfgc` · https://www.youtube.com/watch?v=77SfHCoJfgc
 
 ## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
-- 채널 tvN DRAMA · 조회수 730,440회 · 2일 전
+- 채널 tvN DRAMA · 조회수 730,604회 · 2일 전
 - `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
 
 ## ILLIT (아일릿) - You’re Under Arrest (체포하겠어) | Show! MusicCore | MBC261107방송
-- 채널 MBCkpop · 조회수 638,332회 · 2일 전
+- 채널 MBCkpop · 조회수 639,462회 · 2일 전
 - `@youtube Bi-fUmfamyI` · https://www.youtube.com/watch?v=Bi-fUmfamyI
 
 ## [11화 예고] 김유정의 정체를 눈치챈 듯한 사토 부자?!😨 그리고 걸려온 의문의 전화☎
-- 채널 tvN DRAMA · 조회수 593,826회 · 1일 전
+- 채널 tvN DRAMA · 조회수 594,505회 · 1일 전
 - `@youtube d0kBID9SX6w` · https://www.youtube.com/watch?v=d0kBID9SX6w
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DREAM Ver.)
-- 채널 HYBE LABELS · 조회수 560,937회 · 6일 전
+- 채널 HYBE LABELS · 조회수 561,186회 · 6일 전
 - `@youtube XItzOV6huqw` · https://www.youtube.com/watch?v=XItzOV6huqw
 
-## [#놀라운토요일] 아일릿 놀토 체포 완-☆😎 돌아온 〈체포하겠어〉 붐믹스에 웃참 실패한 윤아와 태연한 원희 ㅋㅋ
-- 채널 tvN D ENT · 조회수 475,368회 · 7일 전
-- `@youtube UK3L-BsemyI` · https://www.youtube.com/watch?v=UK3L-BsemyI
-
 ## [7화 예고] "까야겠네, 강비서 여자인 거💥" 여자인 걸 들켜버린 설인아와 임시완의 깊어지는 오해😱 #나의유죄인간 EP.7
-- 채널 tvN DRAMA · 조회수 389,937회 · 6일 전
+- 채널 tvN DRAMA · 조회수 390,074회 · 6일 전
 - `@youtube 40VaBfB6e88` · https://www.youtube.com/watch?v=40VaBfB6e88
 
+## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 제이크 (JAKE)
+- 채널 HYBE LABELS · 조회수 376,953회 · 4일 전
+- `@youtube qwivRjjPlZU` · https://www.youtube.com/watch?v=qwivRjjPlZU
+
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 성훈 (SUNGHOON)
-- 채널 HYBE LABELS · 조회수 348,837회 · 3일 전
+- 채널 HYBE LABELS · 조회수 349,277회 · 3일 전
 - `@youtube ftWK9_qLXyQ` · https://www.youtube.com/watch?v=ftWK9_qLXyQ
 
-## ILLIT アイルリット 아일릿 - You’re Under Arrest [Music Bank] | KBS WORLD TV 261106
-- 채널 KBS WORLD TV · 조회수 334,447회 · 3일 전
-- `@youtube 8m9dGifYc70` · https://www.youtube.com/watch?v=8m9dGifYc70
-
 ## xikers 'DIENAMITE’｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 320,130회 · 5일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 321,116회 · 5일 전
 - `@youtube k-xc9wWWTDc` · https://www.youtube.com/watch?v=k-xc9wWWTDc
 
 ## Baby DONT Cry 'Replay'｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 291,723회 · 4일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 292,650회 · 4일 전
 - `@youtube EBN-g-aJkbQ` · https://www.youtube.com/watch?v=EBN-g-aJkbQ
 
 ## Did I do something wrong?｜Between Two Chairs｜AND2BLE ZHANG HAO YOO SEUNGEON
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 265,889회 · 7일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 265,939회 · 7일 전
 - `@youtube 7X6AVEUKpRc` · https://www.youtube.com/watch?v=7X6AVEUKpRc
 
 ## [라이어 5회 예고] ＂당신이 이겼어＂, MBC 261113 방송
-- 채널 MBCdrama · 조회수 224,807회 · 2일 전
+- 채널 MBCdrama · 조회수 225,304회 · 2일 전
 - `@youtube HgU_TkMhXjE` · https://www.youtube.com/watch?v=HgU_TkMhXjE
 
 
