@@ -351,11 +351,11 @@
     },
     {
       "date": "2026-11-10",
-      "collected": 3524,
-      "published": 263,
+      "collected": 3503,
+      "published": 281,
       "ours": 15,
       "failed_sources": [
-        "guam_pdn",
+        "guam_post",
         "kr_hotelavia",
         "kr_ktnbm",
         "kr_travelpress",
