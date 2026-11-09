@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'틈만나면,' 지수·나연 첫 동반 예능, 10일 군포 산본동 찾는다"
+title: '''틈만나면,'' 지수·나연 첫 동반 예능, 10일 군포 산본동 찾는다'
 source_name: ''
 source_url: ''
-summary: SBS '틈만나면,' 10일 방송에 블랙핑크 지수와 트와이스 나연이 게스트로 나와 군포 산본동의 틈새 시간을 찾는다. 두 사람이 데뷔 후 함께 예능에 나오는 것은 처음이다.
+summary: SBS '틈만나면,' 10일 방송에 블랙핑크 지수와 트와이스 나연이 게스트로 나와 군포 산본동의 틈새 시간을 찾는다. 두 사람이 데뷔
+  후 함께 예능에 나오는 것은 처음이다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9362
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9362
+status: published
+published_id: c-7a543946c1db85d4a52f82c8d298f6557b56563a
+published_on: '2026-11-10'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 틈만나면, | 회차 · 11월 10일 방송분

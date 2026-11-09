@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'건축탐구 집' 월악산 빈티지 하우스와 담양 새하얀 집, 10일 밤 방송"
+title: '''건축탐구 집'' 월악산 빈티지 하우스와 담양 새하얀 집, 10일 밤 방송'
 source_name: ''
 source_url: ''
-summary: EBS1 '건축탐구 집'이 10일 밤 9시 55분 아내를 위해 직접 집을 지은 두 부부의 이야기를 보여 준다. 충주 월악산 자락의 빈티지 주택과 담양의 새하얀 집이 나온다.
+summary: EBS1 '건축탐구 집'이 10일 밤 9시 55분 아내를 위해 직접 집을 지은 두 부부의 이야기를 보여 준다. 충주 월악산 자락의
+  빈티지 주택과 담양의 새하얀 집이 나온다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005613632
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005613632
+status: published
+published_id: c-e54757bfa8c84af97a4afd9e5d429a58d574fbdb
+published_on: '2026-11-10'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 건축탐구 집 | 편 · 그 남자의 사랑법 나 그대에게 집을 드리리

@@ -5,13 +5,16 @@ category: music
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '스페이스 공감' 12월 라인업 공개…이승열·김필·오존·김심야 출연"
+title: EBS '스페이스 공감' 12월 라인업 공개…이승열·김필·오존·김심야 출연
 source_name: ''
 source_url: ''
-summary: EBS '스페이스 공감'이 12월 공연 라인업을 공개하고 관객 모집을 시작했다. 12월 2일 서니데이 서비스를 시작으로 18일부터는 연말 기획 'SPACE NIGHT' 네 번의 밤이 이어진다.
+summary: EBS '스페이스 공감'이 12월 공연 라인업을 공개하고 관객 모집을 시작했다. 12월 2일 서니데이 서비스를 시작으로 18일부터는
+  연말 기획 'SPACE NIGHT' 네 번의 밤이 이어진다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005622381
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005622381
+status: published
+published_id: c-6a668033623dbcc6ee3ee5b4de3f7d0ef2a13adb
+published_on: '2026-11-10'
 ---
 EBS는 음악 프로그램 '스페이스 공감'의 12월 공연 라인업을 공개하고 관객 모집을 시작했다. 일본 인디 록부터 힙합, 전자음악까지 폭을 넓혔고, 18일부터는 연말 기획 'SPACE NIGHT'가 네 번의 밤으로 이어진다.
 
