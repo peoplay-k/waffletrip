@@ -10,6 +10,11 @@
   - 머니투데이: 지난달 국제선 항공 여객이 전년 동기 대비 10% 증가했지만 일본·중국 노선을 제외하면 오히려 감소한 것으로 나타났다. 업계에서는 동남아의 관광 인프라가 발전하는 동시에 현지 물가도 올라 저렴한 비용으로 휴양을 즐길 수 있다는 강점이 약해지면서 여객수가 줄어든 것으로 보고 있다.
     https://www.mt.co.kr/industry/2026/11/09/2026110915511988496
 
+### 괌에도 제주올레 같은 걷기길 생기나…괌정부관광청, 제주서 개발 방안 모색
+- 매체 1곳 · 동방일보
+  - 동방일보: 【동방일보】 신현성 기자 = 괌정부관광청이 제주올레길을 모델로 한 ‘괌올레길’ 개발을 추진하면서 제주를 찾아 걷기 관광 운영 사례를 살펴봤다. 괌정부관광청은 지난 5일부터 7일까지 제주올레 19·20코스 일대에서 열린 ‘2026 제주올레걷기축제’에 참가했다고 9일 밝혔다.
+    https://www.dongbangilbo.co.kr/news/articleView.html?idxno=112873
+
 ### 제주올레의 걷기 관광 모델, 괌으로…‘괌올레길’ 개발 협력 논의
 - 매체 1곳 · 서울뉴스통신
   - 서울뉴스통신: 【서울 = 서울뉴스통신】 이민희 기자 = 제주올레길의 걷기 관광 모델이 태평양의 휴양지 괌으로 확장될 가능성이 주목받고 있다. 괌정부관광청이 제주를 방문해 올레길 운영 사례를 살펴보고, 괌의 자연환경과 지역문화를 접목한 새로운 도보 관광 콘텐츠 개발에 나섰다.
@@ -48,6 +53,11 @@
   - Laodong.vn: 
     https://news.google.com/rss/articles/CBMisAFBVV95cUxNUFo1YzVsQzZTREN3bDBRQVZFeVN5QW9VaXBXX1dmaW9kTm5kd0tzUFM1YmRERlBlel9pUGFFYUppT0xHTjV1OWFiNGhwdkxnNEJIN2tRQTRIVHlWUkRhb3o0WjRIajNlSExYSWhxSEl6eGFuQmpOMHM3UEl0ZUZHbHBOZkh0eDMtTWhtcGp2OEVnQm1BM2JCc2pZTE9GTFBrUjVTQmo4WjhqNTlkVG5tNw?oc=5
 
+### 코이카의 ‘문화 ODA’가 바꾼 것들… 베트남 도시의 관광 지형을 바꾸고 캄보디아 학살의 아픔까지 치유해
+- 매체 1곳 · 월간조선
+  - 월간조선: 문화유산을 고치고 기록을 옮기는 일은 사람들의 삶에 어떤 흔적을 남길까. 베트남의 옛 수도 후에(Huế)시에서는 강변의 야경을 보러 사람들이 몰리고, 캄보디아 뚜
+    https://monthly.chosun.com/news/articleView.html?idxno=71923
+
 ### 호치민시는 일본에 베트남 문화적 정체성을 전파하고 있습니다.
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 일본 아이치현에서 열린 베트남-호치민시 축제는 양국 간 우호 협력 10주년을 기념하기 위해 개최되었습니다. 이 행사는 베트남 문화 홍보, 베트남 교민 간 유대 강화, 그리고 일본과의 교류 및 협력 확대에 기여했습니다.
@@ -62,11 +72,6 @@
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 2026년 11월 8일 아이치현에서 막을 내린 베트남-호찌민시 축제는 베트남 문화를 홍보하고 양국 수련 10주년을 기념하며 협력을 증진하는 데 기여했습니다.
     https://www.vietnam.vn/ko/le-hoi-viet-nam-tp-hcm-tai-nhat-ban-tang-cuong-giao-luu-van-hoa-hop-tac
-
-### 하노이 관광업계가 3천만 명 방문객을 돌파하며 도약을 이루었습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 2026년 첫 10개월 동안 하노이 관광 부문은 3,036만 명의 방문객을 맞이하여 전년 동기 대비 6.8% 증가를 기록했습니다. 특히 외국인 방문객은 21.4% 증가했습니다.
-    https://www.vietnam.vn/ko/du-lich-ha-noi-but-pha-vuot-moc-30-trieu-luot-khach
 
 ## 코타키나발루
 
@@ -114,15 +119,15 @@
   - 제주의소리: 제주 겨울철 대표 수산물 축제인 ‘제26회 최남단 방어축제’가 오는 19일부터 22일까지 4일간 서귀포시 대정읍 모슬포항 일원에서 열린다. 최남단방어축제위원회(위원장 문대준)가 주관하는 이번 축제는 ‘제주의 바다와 땅, 그리고 사람’을 주제로, 방어와 지역 특산물을 알리고 지역주민과 관
     https://www.jejusori.net/news/articleView.html?idxno=508125
 
+### 제주 왕복 항공권을 1100원에…트립닷컴 ‘11.11 메가세일’
+- 매체 1곳 · 헤럴드경제
+  - 헤럴드경제: [헤럴드경제=김명상 기자] 제주 왕복과 도쿄 편도 항공권을 1100원, 국내외 숙소를 1만9000원에 이용할 수 있는 할인 행사가 열린다. 근거리 인기 노선 항공과 호텔을 묶은
+    https://biz.heraldcorp.com/article/10931087
+
 ### 찬바람 속 바다 산책
 - 매체 1곳 · 제주일보
   - 제주일보: 제주시 구좌읍 김녕해수욕장을 찾은 관광객들이 파도가 치는 해변을 배경으로 산책을 하고 있다. 고봉수 기자
     http://www.jejunews.com/news/articleView.html?idxno=2228715
-
-### 예산 8조원 어디에 쓰이나…민생·복지 늘고, 관광·개발은 축소
-- 매체 1곳 · 제주일보
-  - 제주일보: 제주특별자치도는 민생경제 회복과 생활 밀착형 지원으로 도민의 정책 체감도를 높이고, 사회복지와 1차산업 소득 안전망 강화에 초점을 맞춰 내년도 예산안을 편성했다고 밝혔다. 특히 기본사회·기후경제·인공지능(AI) 대전환 등 핵심 정책 간 연계를 강화해 지속가능한 성장 기반을 마련하도록 했
-    http://www.jejunews.com/news/articleView.html?idxno=2228718
 
 ## 일본
 
@@ -215,7 +220,7 @@
 ## 국내
 
 ### 제21회 부산불꽃축제 열려...120만 인파 몰려
-- 매체 6곳 · MBC 뉴스 · YTN · 뉴시스 · 동아일보 · 부산경남대표방송 KNN 뉴스 · 불교방송  ← 여러 곳이 썼다
+- 매체 7곳 · MBC 뉴스 · YTN · 국제뉴스 · 뉴시스 · 동아일보 · 부산경남대표방송 KNN 뉴스 · 불교방송  ← 여러 곳이 썼다
   - YTN: 올해로 제21회째를 맞은 부산불꽃축제가 광안리 앞바다에서 진행됐습니다. 올해 행사는 오늘(7일) 저녁 7시 중국 불꽃 전문업체 초청 공연을 시작으로 본 무대인 '부산멀티불꽃쇼', 마무리인 '커튼콜 불꽃' 순서로 1시간 동안 펼쳐졌습니다.
     https://www.ytn.co.kr/_ln/0115_202611072324019198
   - MBC 뉴스: 오늘 저녁, 부산불꽃축제가 열렸습니다. 매년 100만 명 넘게 몰릴 정도로 인기가 많은데요.
@@ -285,9 +290,9 @@
   - 아시아경제: 제주항공이 고객의 여행 선호도를 반영해 관심 노선의 항공권 특가 정보를 맞춤형으로 알려주는 서비스를 앞세워.
     https://www.asiae.co.kr/article/2026110909343221175
   - 뉴스1: 
-    https://news.google.com/rss/articles/CBMiZEFVX3lxTE5qcW9NNjlaLUUwTlRkQ2FTY1RHR3czQ2ltRlo0YkRTdFNsTndzUUNnSHQ0c3ZXbXZGaklKUHpvUzd2eDBZREktQ19fbXVGaXhJT1pmcm9GTm9DTTU3WmlBalJhNXU?oc=5
-  - 인더스트리뉴스: 
-    https://news.google.com/rss/articles/CBMickFVX3lxTE5Yd1hkLWcydFhuNE0ybWNqTDV2OHktQ1ZVN2dRc29zSzBxR3pQalV2QmFBZy1vUHVOM3NwcUdRdFN3eTlaa3NEUlFQcHFMTVNRZmpNTnJoME1jVkxLOWpNeDh4bGVlQ1I2ZmV3ZGZRZTU4UQ?oc=5
+    https://www.news1.kr/industry/general-industry/6347594
+  - 인더스트리뉴스: [인더스트리뉴스 문기수 기자] 제주항공이 고객 개인별 선호도에 맞춘 항공권 큐레이션 서비스 ‘내 여행 취향’을 앞세워 초개인화 마케팅에 속도를 내고 있다. 불특정
+    https://www.industrynews.co.kr/news/articleView.html?idxno=89123
 
 ### [포토] 김우현-배상문-이태희 'KPGA 투어 챔피언십을 기록하다'
 - 매체 1곳 · ㅍㅍㅅㅅ PPSS  ← 여러 곳이 썼다
@@ -300,14 +305,23 @@
   - ㅍㅍㅅㅅ PPSS: (PPSS 박은숙 기자) KPGA투어 2026시즌 최종전인 ‘KPGA 투어챔피언십 in Jeju‘ (총상금 11억 원 / 2억 2천만 원) 최종 4라운드 경기가
     https://www.ppss.kr/news/articleView.html?idxno=319670
 
+### [게시판] 남북교류협력지원협회, 10일 한반도 평화관광협력 국제세미나
+- 매체 3곳 · 뉴스1 · 연합뉴스 · 이데일리  ← 여러 곳이 썼다
+  - 연합뉴스: ▲ 통일부 산하 공공기관인 남북교류협력지원협회는 오는 10일 서울중앙우체국 10층 대회의실에서 '관광으로 잇는 새로운 연결, 지속가능한 미래를 ...
+    https://www.yna.co.kr/amp/view/AKR20261109093500504
+  - 뉴스1: 
+    https://www.news1.kr/press/press-release/6347624
+  - 이데일리: ‘한반도 평화관광협력 국제세미나’가 10일 서울중앙우체국 10층 대회의실에서 개최된다. 통일부가 후원하고 남북교류협력지원협회가 주최하는 이번 세미나는 ‘관광으로 잇는 새로운 연결, 지속가능한 미래를 향해’를 주제로 개최된다.
+    https://www.edaily.co.kr/News/Read?newsId=03663766645644080&mediaCodeNo=257
+
 ### 멈췄던 가덕도신공항 재시동…2035년 개항 목표로 실시설계 착수
 - 매체 3곳 · 대한민국 정책브리핑 · 파이낸셜뉴스 · 헤럴드경제  ← 여러 곳이 썼다
   - 파이낸셜뉴스: 공사비 증액 문제로 후속 절차가 중단됐던 가덕도신공항 건설사업이 실시설계에 착수하며 다시 속도를 낸다. 국토교통부와 가덕도신공항건설공단은 가덕도신공항 부지조성공사 수의계약 예비 대상자인 대우건설 컨소시엄과 협의를 거쳐 실시설계에 착수했다고 9일 밝혔다.
     https://www.fnnews.com/news/202611090957454307
-  - 헤럴드경제: 
-    https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PU1NkWm9SQjk0Sm93blM0R0FKYTQ5eVk3S0s1SFVoamxnQTYybFRwNDJ2RnBxMENpS2FTTmlER1diV2tBSWIzdnlLanB6OU81MnRwN0Nfdw?oc=5
-  - 대한민국 정책브리핑: 
-    https://news.google.com/rss/articles/CBMikAJBVV95cUxOelR3VWJrRGNobUxWT1FyTDZmb1pRc2lETks0ckZXbjN3c2dCYWo5R1VLWnhwc20wdXFjT1AzVklWM2F3WXd0UzFGRlVzNkpjYlI5OWU4NVlqQmZTakpQekJkemhtdktPekY0MWY3QW1zampYS29fSVNOXzZzWkNIQmdsS0FoVWxQSDBhTG5zUXRLN2FvbUkyV3BvaDBtM2dLdUZHSTcxUXRaUWJ3eGRoTjBUSjZ2S2hoOUtlZWZ4OEhITjV0VkluZlItNi1ndHVuY3ZpZ0ZtTHloSlBuQTBTdHZ2N1ZMLXJ0eHRPNVpjdURpaTkzV1lOWFJ3NThDblZsLVkxYU81SU5xRWU1R0dBMw?oc=5
+  - 헤럴드경제: 공사비 협의 문제로 멈췄던 부산 가덕도신공항(조감도) 건설사업이 2035년 개항을 목표로 다시 속도를 낸다. 국토교통부와 가덕도신공항건설공단은 9일 가덕도신공항 부지
+    https://mbiz.heraldcorp.com/article/10930586
+  - 대한민국 정책브리핑: [참고] 가덕도신공항 부지조성공사 실시설계 착수 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다.
+    https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788398&repCode=A00006&repCodeType=%EC%A0%95%EB%B6%80%EB%B6%80%EC%B2%98&pWise=main&pWiseMain=T6_1&pWiseMinistry=ministryNews
 
 ### 에어프레미아, 톈진항공과 인터라인…中 항공사와 첫 노선 연계
 - 매체 3곳 · 뉴스1 · 이뉴스투데이 · 한국경제  ← 여러 곳이 썼다
@@ -353,13 +367,6 @@
     https://www.ikbc.co.kr/article/view/kbc202611080008
   - 한국정경신문: [한국정경신문=변동휘 기자] K팝 열기가 만든 관광수지 흑자 행진이 끊기고 적자 폭이 다시 커지고 있다. 외국인 발길은 늘었지만 한국인이 해외에서 쓰는 돈이 더 빠르게 불어난 탓이다.
     https://kpenews.com/View.aspx?No=4302394
-
-### 경남도, 우주항공복합도시 특별법 연내 제정 촉구…14만 명 서명 전달
-- 매체 2곳 · 문화뉴스 · 한국경제  ← 여러 곳이 썼다
-  - 문화뉴스: 경남 사천과 전남 고흥을 중심으로 우주항공복합도시를 조성하기 위한 특별법 제정을 촉구하는 영호남 공동 결의대회가 국회에서 열렸다. 참석자들은 시도민 14만여 명의 서명부를 전달하고 국회에 계류 중인 법안의 연내 처리를 요구했다.
-    https://www.mhns.co.kr/news/articleView.html?idxno=768309
-  - 한국경제: 
-    https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aN3dJZFVZSE9fbmwwaTB1WE5IMk9sa3EyRm9KWURzZFV2dVBwUXZMeHNmZ2M1dWw2SkszRklQdWljSS1rUFhCMExHVkhycXVTN083dXJyMW1HZw?oc=5
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 28건)
 
@@ -651,7 +658,7 @@
     https://www.starnewskorea.com/music/2026/11/09/2026110911080236340
 
 ---
-거리 118건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 119건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -661,64 +668,64 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## TWS (투어스) '내 이름을 불러줘' Official MV
-- 채널 HYBE LABELS · 조회수 17,864,380회 · 7일 전
+- 채널 HYBE LABELS · 조회수 17,866,275회 · 7일 전
 - `@youtube 3MPUCncZBR0` · https://www.youtube.com/watch?v=3MPUCncZBR0
 
 ## Red Velvet - IRENE & SEULGI 'Cheetah' MV
-- 채널 SMTOWN · 조회수 1,360,063회 · 5일 전
+- 채널 SMTOWN · 조회수 1,361,193회 · 5일 전
 - `@youtube Ts8HTHBRxvw` · https://www.youtube.com/watch?v=Ts8HTHBRxvw
 
 ## RESCENE (리센느) - With | Show! MusicCore | MBC261107방송
-- 채널 MBCkpop · 조회수 948,633회 · 2일 전
+- 채널 MBCkpop · 조회수 950,870회 · 2일 전
 - `@youtube _XhBc88qS_E` · https://www.youtube.com/watch?v=_XhBc88qS_E
 
 ## RESCENE (리센느) - Inside Out (백화요란) | Show! MusicCore | MBC261107방송
-- 채널 MBCkpop · 조회수 943,601회 · 2일 전
+- 채널 MBCkpop · 조회수 945,753회 · 2일 전
 - `@youtube C7vNpNTv7fQ` · https://www.youtube.com/watch?v=C7vNpNTv7fQ
 
 ## TXT (투모로우바이투게더) PERFECT STORM Preview
-- 채널 HYBE LABELS · 조회수 754,134회 · 4일 전
+- 채널 HYBE LABELS · 조회수 754,832회 · 4일 전
 - `@youtube 77SfHCoJfgc` · https://www.youtube.com/watch?v=77SfHCoJfgc
 
 ## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
-- 채널 tvN DRAMA · 조회수 721,938회 · 1일 전
+- 채널 tvN DRAMA · 조회수 722,158회 · 1일 전
 - `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DREAM Ver.)
-- 채널 HYBE LABELS · 조회수 554,619회 · 5일 전
+- 채널 HYBE LABELS · 조회수 554,760회 · 5일 전
 - `@youtube XItzOV6huqw` · https://www.youtube.com/watch?v=XItzOV6huqw
 
 ## [#2026MAMA] STAR COUNTDOWN D-15 #RESCENE
-- 채널 Mnet K-POP · 조회수 534,963회 · 4일 전
+- 채널 Mnet K-POP · 조회수 535,271회 · 4일 전
 - `@youtube aJ61F8L9wmM` · https://www.youtube.com/watch?v=aJ61F8L9wmM
 
 ## [11화 예고] 김유정의 정체를 눈치챈 듯한 사토 부자?!😨 그리고 걸려온 의문의 전화☎
-- 채널 tvN DRAMA · 조회수 504,023회 · 1일 전
+- 채널 tvN DRAMA · 조회수 507,803회 · 1일 전
 - `@youtube d0kBID9SX6w` · https://www.youtube.com/watch?v=d0kBID9SX6w
 
-## CHAERYEONG(채령) “Lovesick” M/V TEASER 2
-- 채널 JYP Entertainment · 조회수 393,274회 · 5일 전
-- `@youtube GbBLOGebxro` · https://www.youtube.com/watch?v=GbBLOGebxro
-
 ## [7화 예고] "까야겠네, 강비서 여자인 거💥" 여자인 걸 들켜버린 설인아와 임시완의 깊어지는 오해😱 #나의유죄인간 EP.7
-- 채널 tvN DRAMA · 조회수 376,185회 · 5일 전
+- 채널 tvN DRAMA · 조회수 376,766회 · 5일 전
 - `@youtube 40VaBfB6e88` · https://www.youtube.com/watch?v=40VaBfB6e88
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 제이크 (JAKE)
-- 채널 HYBE LABELS · 조회수 366,974회 · 3일 전
+- 채널 HYBE LABELS · 조회수 367,187회 · 3일 전
 - `@youtube qwivRjjPlZU` · https://www.youtube.com/watch?v=qwivRjjPlZU
 
 ## [9화 예고] 마침내 시작되는 조선총독부를 향한 거사💥다가오는 김유정의 미국행..?!
-- 채널 tvN DRAMA · 조회수 316,683회 · 7일 전
+- 채널 tvN DRAMA · 조회수 316,753회 · 7일 전
 - `@youtube 4eZVj_ems7E` · https://www.youtube.com/watch?v=4eZVj_ems7E
 
 ## xikers 'DIENAMITE’｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 292,759회 · 4일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 293,668회 · 4일 전
 - `@youtube k-xc9wWWTDc` · https://www.youtube.com/watch?v=k-xc9wWWTDc
 
 ## Baby DONT Cry 'Replay'｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 263,147회 · 3일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 263,819회 · 3일 전
 - `@youtube EBN-g-aJkbQ` · https://www.youtube.com/watch?v=EBN-g-aJkbQ
+
+## [전지적 집착 시점 선공개] 플레이 타임이 2300시간?! 주말에도 회사에서 게임하는 게임 괴인 김재서의 일상🎮, MBC 261108 방송
+- 채널 MBCentertainment · 조회수 260,909회 · 1일 전
+- `@youtube fOkis7RA8cw` · https://www.youtube.com/watch?v=fOkis7RA8cw
 
 
 
