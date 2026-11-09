@@ -234,3 +234,23 @@ def test_방송_프로그램_첫_화면은_같은_근거로_세지_않는다(tmp
     assert used == {"https://about.ebs.co.kr/x?postId=1": "20261025_tv_ebs.md"}
     # 기사 주소처럼 더 깊은 주소는 첫 화면이 아니다
     assert pd._dedupe_keys({"sources": ["https://program.kbs.co.kr/1tv/culture/ssam/view?ep=302"]})
+
+
+def test_실을_날을_정한_초안은_그날부터_낸다(tmp_path):
+    """여행 카툰처럼 미리 써 둔 연재물은 release_on 날짜(KST)가 돼야 나간다 — 한날에 몰아 내지 않는다."""
+    review, _ = _draft(tmp_path, release_on="2026-09-03")
+    assert collect_approved(str(review), DAY) == []                    # 전날
+    assert len(collect_approved(str(review), "2026-09-03")) == 1       # 그날
+    assert len(collect_approved(str(review), "2026-09-05")) == 1       # 실행이 밀린 뒤
+
+
+def test_release_on_은_따옴표_없는_날짜와_시각이_붙은_값도_받는다(tmp_path):
+    """yaml 은 따옴표 없는 2026-09-03 을 date 로 읽는다. 시각이 붙어도 날짜만 본다."""
+    review = tmp_path / "review"
+    review.mkdir()
+    for n, value in (("a", "2026-09-03"), ("b", "'2026-09-03 09:00'")):
+        (review / f"{DAY}_{n}.md").write_text(
+            f"---\nid: {n}\nregion: hawaii\ntitle: 시험 {n}\nstatus: approved\n"
+            f"release_on: {value}\n---\n본문.", encoding="utf-8")
+    assert collect_approved(str(review), DAY) == []
+    assert len(collect_approved(str(review), "2026-09-03")) == 2

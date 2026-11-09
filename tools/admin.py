@@ -233,6 +233,14 @@ def sel(name: str, opts, cur: str) -> str:
     return f'<select name="{name}">{o}</select>'
 
 
+def writer_select(front: dict) -> str:
+    """필자 선택. 명부 밖 서명(여행 카툰의 '피플로드 편집부' 같은)은 선택지에 남긴다 —
+    없으면 열어서 저장만 해도 '자동'으로 바뀌어 AI 그림에 실명 기자 이름이 붙는다(2026-11-09)."""
+    cur = str(front.get("source_name") or "").replace(" 기자", "")
+    opts = WRITERS + ([(cur, cur)] if cur and cur not in dict(WRITERS) else [])
+    return sel("source_name", opts, cur)
+
+
 class Handler(http.server.BaseHTTPRequestHandler):
     def _send(self, content: bytes, code: int = 200) -> None:
         self.send_response(code)
@@ -267,6 +275,9 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 for d in rows:
                     st = d.get("status", "draft")
                     label = dict((v, l.split(" —")[0]) for v, l in STATUSES).get(st, st)
+                    rel = str(d.get("release_on") or "")[:10]   # 날짜를 정해 둔 연재물
+                    if st == "approved" and rel > datetime.now(KST).date().isoformat():
+                        label = f"예약 {rel[5:].replace('-', '/')}"
                     if d.get("channel") == "ent":
                         rg = "연예 · " + dict(CATEGORIES).get(d.get("category") or "", "스타의 여행").split(" —")[0]
                     else:
@@ -325,7 +336,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
 <label>요약<span class="hint">목록·검색·카톡 공유 카드에 나옵니다. 한두 문장.</span>
 <input type="text" name="summary" value="{html.escape(str(front.get('summary') or ''))}"></label>
 <div class="row">
-<label>필자<span class="hint">자동이면 그 지면 담당 기자가 붙습니다. 명부(src/desks.py)에 있는 사람만 고를 수 있습니다.</span>{sel("source_name", WRITERS, str(front.get("source_name") or "").replace(" 기자", ""))}</label>
+<label>필자<span class="hint">자동이면 그 지면 담당 기자가 붙습니다. 명부(src/desks.py)에 있는 사람만 고를 수 있습니다.</span>{writer_select(front)}</label>
 <label>원문 링크<span class="hint">다른 매체 보도를 정리한 경우에만.</span>
 <input type="text" name="source_url" value="{html.escape(str(front.get('source_url') or ''))}"></label>
 </div>

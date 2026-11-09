@@ -81,3 +81,11 @@ def test_multipart_parser_separates_fields_and_files():
     fields, files = admin.parse_multipart(body, f'multipart/form-data; boundary={boundary}')
     assert fields == {"title": "제목"}
     assert files == {"photo_file": ("a.jpg", b"BINARY")}      # 빈 파일칸은 무시
+
+
+def test_명부_밖_서명은_편집실에서_열어_저장해도_그대로다():
+    """여행 카툰은 '피플로드 편집부'로 나간다. 편집실에서 열어 저장만 해도 실명 기자로 바뀌면 안 된다."""
+    html = admin.writer_select({"source_name": "피플로드 편집부"})
+    assert '<option value="피플로드 편집부" selected>' in html
+    # 명부 안의 이름·자동은 예전과 같다 — 선택지를 늘리지 않는다
+    assert admin.writer_select({"source_name": ""}) == admin.sel("source_name", admin.WRITERS, "")

@@ -14,6 +14,7 @@
 4. **채널을 지킨다.** 여행 초안은 region 이 지역 목록 안에 있어야 한다 — 예전엔 빈
    region 이 조용히 통과해 `//` 주소가 났다. 연예 초안(channel: ent)은 region 을
    무시하고 category(연예 부문)를 싣는다. 편집실 두 곳이 같은 프론트매터를 쓴다.
+5. **실을 날을 정한 초안은 그날부터 낸다.** 앞머리 `release_on: YYYY-MM-DD`(KST).
 """
 from __future__ import annotations
 
@@ -102,6 +103,11 @@ def collect_approved(review_dir: str, day: str) -> list[tuple[str, Item]]:
         if status == "published" and front.get("published_on") == day:
             pass                      # 아래에서 오늘 파일에 있는지 확인한다
         elif status != "approved":
+            continue
+        # 실을 날을 정해 둔 초안(여행 카툰 같은 연재물)은 그날(KST)부터 낸다. 미리 써 둔 열두 편을
+        # 한 번에 올려도 한날에 몰려 나가지 않는다(2026-11-09). 날짜만 본다 — 시각이 붙어도 무시.
+        release = str(front.get("release_on") or "").strip()[:10]
+        if status == "approved" and release and release > day:
             continue
         text = _body_text(body)
         if not text:
