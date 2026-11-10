@@ -4,16 +4,17 @@ channel: travel
 region: industry
 section: news
 kind: 보도자료
-title: "한국관광협회중앙회, 무역협회 등 6개 기관과 '서비스무역' 협력 업무협약"
+title: 한국관광협회중앙회, 무역협회 등 6개 기관과 '서비스무역' 협력 업무협약
 source_name: ''
 source_url: ''
 summary: 한국관광협회중앙회가 한국무역협회 등 5개 기관과 함께 차세대무역플랫폼 '서비스무역' 협력 체계 조성을 위한 업무협약을 10일 맺었다.
 sources:
-  - https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22493
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72646
-status: approved
+- https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22493
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72646
+status: published
+published_id: c-e280d8d61c9e93f57339bd7974e722e4482efb98
+published_on: '2026-11-11'
 ---
-
 한국관광협회중앙회가 한국무역협회를 비롯한 5개 기관과 손잡고 '서비스무역' 협력 체계를 만든다. 관광을 포함한 서비스 분야를 무역 플랫폼 안으로 끌어들이려는 첫 단계다.
 
 한국관광협회중앙회(회장 이경수)는 10일 서울 강남구 삼성동 트레이드타워에서 '차세대무역플랫폼 「서비스무역」 협력 체계 조성을 위한 업무협약(MOU)'을 체결했다고 밝혔다.

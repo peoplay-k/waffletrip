@@ -354,9 +354,9 @@
     },
     {
       "date": "2026-11-11",
-      "collected": 3571,
-      "published": 176,
-      "ours": 7,
+      "collected": 3611,
+      "published": 280,
+      "ours": 13,
       "failed_sources": [
         "guam_pdn",
         "guam_post",

@@ -4,15 +4,17 @@ channel: travel
 region: jeju
 section: news
 kind: 보도자료
-title: "서귀포시, 칠십리시공원에 무장애 도시숲 조성…국비 2억 8,200만 원 확보"
+title: 서귀포시, 칠십리시공원에 무장애 도시숲 조성…국비 2억 8,200만 원 확보
 source_name: ''
 source_url: ''
-summary: 서귀포시가 산림청 '2027년도 녹색자금 지원사업' 도시숲 무장애 환경조성 공모에 선정돼 국비 2억 8,200만 원을 확보했다. 내년 5억 6,400만 원을 들여 서홍동 칠십리시공원 일원에 조성한다.
+summary: 서귀포시가 산림청 '2027년도 녹색자금 지원사업' 도시숲 무장애 환경조성 공모에 선정돼 국비 2억 8,200만 원을 확보했다. 내년
+  5억 6,400만 원을 들여 서홍동 칠십리시공원 일원에 조성한다.
 sources:
-  - http://www.jejunews.com/news/articleView.html?idxno=2228752
-status: approved
+- http://www.jejunews.com/news/articleView.html?idxno=2228752
+status: published
+published_id: c-717343ea539ded252c099c1e2b5c44be1cba9cab
+published_on: '2026-11-11'
 ---
-
 서귀포시가 서홍동 칠십리시공원 일대에 누구나 다닐 수 있는 무장애 도시숲을 만든다. 사업비의 절반은 국비로 확보했다.
 
 서귀포시는 10일 산림청과 한국산림복지진흥원이 주관하는 '2027년도 녹색자금 지원사업' 도시숲 무장애 환경조성 분야 공모에 선정돼 국비 2억 8,200만 원을 확보했다고 밝혔다.

@@ -4,16 +4,18 @@ channel: travel
 region: korea
 section: news
 kind: 보도자료
-title: "제천시, 의림지뜰 자연치유특구 2029년까지 연장…체류형 관광단지로 재편"
+title: 제천시, 의림지뜰 자연치유특구 2029년까지 연장…체류형 관광단지로 재편
 source_name: ''
 source_url: ''
-summary: 충북 제천시가 의림지뜰 자연치유특구의 사업 기간을 2026년에서 2029년으로 3년 늘리고, 시설 조성 위주였던 계획을 체류형 관광단지로 바꾼다.
+summary: 충북 제천시가 의림지뜰 자연치유특구의 사업 기간을 2026년에서 2029년으로 3년 늘리고, 시설 조성 위주였던 계획을 체류형 관광단지로
+  바꾼다.
 sources:
-  - https://www.newspim.com/news/view/20261110000414
-  - http://www.ttlnews.com/news/articleView.html?idxno=3160588
-status: approved
+- https://www.newspim.com/news/view/20261110000414
+- http://www.ttlnews.com/news/articleView.html?idxno=3160588
+status: published
+published_id: c-bb287f7e6f5277fff667a9f53d3132dbd7f4aa51
+published_on: '2026-11-11'
 ---
-
 충북 제천시가 의림지뜰 자연치유특구를 체류형 관광단지로 다시 짠다. 사업 기간은 3년 늘어나고, 시설을 짓는 데 무게를 뒀던 계획은 자연과 어우러진 복합 공간으로 바뀐다.
 
 제천시는 10일 의림지뜰 자연치유특구 개발계획 변경을 추진한다고 발표했다. 당초 2026년까지였던 사업 기간을 2029년까지로 연장하는 것이 핵심이다.

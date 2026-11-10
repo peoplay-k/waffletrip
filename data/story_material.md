@@ -5,11 +5,6 @@
 
 ## 괌
 
-### 괌관광청, ‘2026 제주올레걷기축제’ 참가
-- 매체 1곳 · 트래블데일리
-  - 트래블데일리: 괌정부관광청은 지난 11월 5일부터 7일까지 제주에서 열린 ‘2026 제주올레걷기축제’에 참가해 제주올레길을 직접 걷고, 괌올레길 개발을 위한 협력 방안을 논의했다. 이번 방문은 괌정부관광청이 추진 중인 괌올레길 개발 프로젝트의 후속 활동으로 마련됐다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72623
-
 ### [호텔·리조트트렌드] 호시노 리조트 리조나레 괌, 괌 최초 비치클럽 오픈…해변 체험·미식 한곳에 外
 - 매체 1곳 · 베이비뉴스
   - 베이비뉴스: ‘호텔·리조트 트렌드’는 아이를 키우는 가정이 주목할 만한 호텔·리조트 업계 동향을 모아 전하는 기획 코너다. 키즈 전용 패키지, 체험형 프로그램, 가족 맞춤 서비스, 위생·안전 강화 정책 등 다양한 소식 중 가족 여행의 만족도를 높이고 편안한 휴식을 돕는 정보를 중심…
@@ -27,6 +22,15 @@
   - 뉴스1: 
     https://www.news1.kr/entertain/broadcast-tv/6349628
 
+### Delta Opens A New Nonstop Path From MSP To Maui
+- 매체 3곳 · 98.1 - Minnesota's New Country · AM 1240 WJON · B105  ← 여러 곳이 썼다
+  - AM 1240 WJON: Maui is now a nonstop hop from MSP. Delta's first flight leaves just before noon Monday, with live music and a ribbon-cutting at the gate.
+    https://wjon.com/msp-maui-direct-flight/
+  - 98.1 - Minnesota's New Country: Maui is now a nonstop hop from MSP. Delta's first flight leaves just before noon Monday, with live music and a ribbon-cutting at the gate.
+    https://minnesotasnewcountry.com/ixp/67/p/msp-maui-direct-flight/
+  - B105: No more layovers on the way to paradise. Delta’s new nonstop from MSP to Maui is officially in the air, and it lands right in the middle of whale season.
+    https://b105country.com/delta-nonstop-flight-minneapolis-maui/
+
 ### First Alert Forecast: Breezy winds expected to strengthen on Wednesday with more showers for windward neighborhoods
 - 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
   - Hawaii News Now: Trades will strengthen again to possibly locally windy levels Wednesday through Thursday.
@@ -34,19 +38,22 @@
   - Hawaii News Now: Clouds and showers will be focused over windward and mauka areas, with some spilling over to leeward areas.
     https://www.hawaiinewsnow.com/2026/11/10/first-alert-forecast-breezy-winds-continue-today-stronger-winds-due-wednesday/
 
-### Delta Opens A New Nonstop Path From MSP To Maui
-- 매체 2곳 · 98.1 - Minnesota's New Country · AM 1240 WJON  ← 여러 곳이 썼다
-  - AM 1240 WJON: Maui is now a nonstop hop from MSP. Delta's first flight leaves just before noon Monday, with live music and a ribbon-cutting at the gate.
-    https://wjon.com/msp-maui-direct-flight/
-  - 98.1 - Minnesota's New Country: Maui is now a nonstop hop from MSP. Delta's first flight leaves just before noon Monday, with live music and a ribbon-cutting at the gate.
-    https://minnesotasnewcountry.com/ixp/67/p/msp-maui-direct-flight/
-
 ## 베트남
+
+### 비엣 트래블은 썬 푸꾸옥 항공과 협력하여 썬웨이를 출시함으로써 999만 VND부터 시작하는 동중국 여행 상품에 대한 수요를 촉진하고 있습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 베트남 여행 주식회사(Viet Travel Joint Stock Company)는 선푸꾸옥 항공(Sun PhuQuoc Airways) 및 전략적 파트너와 협력하여 선웨이 콤플렉스(Sunway Complex)를 개장하고, 2026년 11월 26일부터 하노이-상하이 직항 노선과 연계된 99
+    https://www.vietnam.vn/ko/lu-hanh-viet-bat-tay-sun-phuquoc-airways-ra-mat-sunway-kich-cau-tour-hoa-dong-tu-9-99-trieu-dong
 
 ### 신한은행 베트남, 비자 선정 '2026년 거래 승인 리더십' 수상
 - 매체 1곳 · 파이낸셜뉴스
   - 파이낸셜뉴스: 신한은행 베트남 법인이 글로벌 카드 브랜드 비자로부터 거래 승인 처리·운용 역량을 인정받아 '2026년 거래 승인 리더십' 상을 수상했다. 10일 현지에 따르면 신한은행 베트남은 지난 9일 "비자로부터 '2026년 거래 승인 리더십' 상을 수상했다"며 "이번 수상은 운영 ..
     https://www.fnnews.com/news/202611101327207148
+
+### 하노이-타이응우옌 구간 열차 운행이 11월 14일부터 관광 노선을 연결하게 됩니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: VHO - 11월 14일부터 철도 업계는 하노이-루싸(타이응우옌) 노선에서 QT1/QT2 여객 열차를 매주 토요일과 일요일에 운행하여 지역 주민과 관광객에게 더 많은 여행 선택권과 관광 경험을 제공할 예정입니다.
+    https://www.vietnam.vn/ko/tau-hoa-ha-noi-thai-nguyen-ket-noi-hanh-trinh-du-lich-tu-ngay-14-11
 
 ### 2026년 다낭 최고의 MICE 관광 목적지로 DANAGO를 도약시킬 3가지 강점.
 - 매체 1곳 · vietnam.vn
@@ -57,16 +64,6 @@
 - 매체 1곳 · 파이낸셜뉴스
   - 파이낸셜뉴스: 삼성전자 베트남 법인이 현지 호텔·라이프스타일 서비스 기업 KiN 호텔그룹과 손잡고 숙박 공간 내 삼성의 AI 가전·영상음향 기기 생태계를 통합 구축하는 체험형 마케팅 프로젝트를 선보인다. 10일 삼성 베트남에 따르면 삼성전자는 KiN 호텔그룹 산하의 호텔 브랜드.
     https://www.fnnews.com/news/202611101119200989
-
-### 바람이 잦아들자 관광객들은 다낭 해변을 거닐며 파도를 감상합니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: (단찌신문) - 바람은 잦아들었지만 다낭의 파도는 여전히 높다. 많은 소상공인들이 선제적으로 해변 가건물을 보강하고 있으며, 어부들은 높은 파도를 피해 배를 해안으로 끌어올리고 있다.
-    https://www.vietnam.vn/ko/gio-giam-du-khach-dao-ngam-song-bien-o-da-nang
-
-### 다낭시는 손트라 반도 방문을 일시적으로 중단했습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 장기간 지속되는 폭우로 인한 산사태 및 갑작스러운 홍수 위험 때문에 손트라 반도 관광은 11월 10일 오후부터 별도 공지 시까지 중단됩니다.
-    https://www.vietnam.vn/ko/da-nang-tam-dung-tham-quan-ban-dao-son-tra
 
 ## 코타키나발루
 
@@ -103,15 +100,15 @@
   - 트래블데일리: ◆부산관광공사, ‘부산 온(溫) 투어’ 출시부산관광공사는 부산시티투어버스와 지역 온천·스파 시설을 연계한 부산형 웰니스 관광상품 ‘부산 온(溫) 투어(BUSAN
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72619
 
-### 서귀포시, 도시숲 무장애 환경조성 공모사업 선정...국비 2억8천만원 확보
-- 매체 1곳 · 제주일보
-  - 제주일보: 서귀포시는 산림청과 한국산림복지진흥원이 주관하는 ‘2027년도 녹색자금 지원사업’ 도시숲 무장애 환경조성 분야 공모에 선정돼 국비 2억8200만원을 확보했다고 10일 밝혔다. 서귀포시는 공모 선정에 따라 내년 5억6400만원을 투입해 서홍동 칠십리시공원 일원에 무장애 도시숲 환경조성 사
-    http://www.jejunews.com/news/articleView.html?idxno=2228752
-
 ### 50대 여자 셋의 제주 여행에서 가장 좋았던 것
 - 매체 1곳 · 오마이뉴스
   - 오마이뉴스: "우리 딸이 2박 3일 동안 제주도 자전거 라이딩 여행을 갔는데, 너무 좋았다더라. ""그래?
     https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003283591
+
+### 오름에서 보는 풍경
+- 매체 1곳 · 제주일보
+  - 제주일보: 10일 제주시 도두봉을 찾은 관광객들이 정상에서 제주국제공항에서 이,착륙하는 항공기와 시내 구경을 하고 있다. 고봉수 기자
+    http://www.jejunews.com/news/articleView.html?idxno=2228750
 
 ## 일본
 
@@ -154,6 +151,11 @@
 
 ## 태국
 
+### 안성훈, 2027년 태국 치앙마이서 단독 갈라 디너쇼 개최…공연 일정·예매 방법?
+- 매체 1곳 · 톱스타뉴스
+  - 톱스타뉴스: 가수 안성훈이 2027년 1월 24일 태국 치앙마이 센타라 리버사이드 호텔에서 단독 갈라 디너쇼를 개최한다. 약 90분간 라이브 공연과 토크, 팬 참여 이벤트를 선보이며 참가자를 위한 포토타임도 진행한다.
+    https://www.topstarnews.net/news/articleView.html?idxno=16273044
+
 ### 백석대, 태국 까셈반딧대와 MOU…스포츠·관광·경영 글로벌 교육협력 확대
 - 매체 1곳 · 충청시사신문
   - 충청시사신문: [충청시사신문=천안] 백석대학교가 태국 까셈반딧대학교와 국제교육교류 협약을 체결하고 스포츠·관광·경영 분야의 공동교육과 인적교류 확대에 나섰다. 백석대학교(총장 송
@@ -173,13 +175,6 @@
 - 매체 1곳 · 투어코리아
   - 투어코리아: [투어코리아=배소은 기자] 롯데칠성음료가 태국 최대 기업집단인 CP그룹의 유통 계열사와 손잡고 현지 음료·생수 판매 확대에 나선다. 대형 할인점과 슈퍼마켓 체인을 운영하는 현지 유통사의 판매망을 발판 삼아 태국 내 입지를 넓히겠다는 구상이다.
     https://www.tournews21.com/news/articleView.html?idxno=148031
-
-### Thailand strengthens Balkan tourism links with new Sofia–Phuket flights and Romanian trade partnerships
-- 매체 2곳 · The Phuket News · Travel Daily News Asia-Pacific  ← 여러 곳이 썼다
-  - Travel Daily News Asia-Pacific: 
-    https://www.traveldailynews.asia/aviation/thailand-balkan-tourism-sofia-phuket-flights/
-  - The Phuket News: 
-    https://news.google.com/rss/articles/CBMinAFBVV95cUxQbFgxZzdINS1YaXVRa0J2TV9UYVJVaGxkZUNZZmQwbnJiQ0E3VHVlVmF4eldTRl9lcE9sTkFsaldjZlh0WWd1czgwUk5qaUNfTWxRZDhpVWRXMmZobnI5X0VYS3VqOGVKcGVKaXRISlJWTUtQVHVBajh4S3g1SThPM2wzd2t5d1FXeml5MW1sTkM2Q2RrdEZ3ZFJScDc?oc=5
 
 ## 대만
 
@@ -210,6 +205,17 @@
 
 ## 국내
 
+### 안동 생강·독도 방어로 즐기는 경북의 제철 미식
+- 매체 4곳 · 경북매일 · 경북일보 · 뉴스웍스 · 이로운넷  ← 여러 곳이 썼다
+  - 경북매일: 경북문화관광공사가 경북의 땅과 바다가 빚어낸 늦가을 제철 식재료를 미식관광 콘텐츠로 소개했다. 경상북도문화관광공사는 경북의 제철 식재료와 지역 고유의 음식문화를 담은 ‘경북 미식여행 METI(Monthly Eating Travel Initiative)’ 11월호를 소개
+    https://www.kbmaeil.com/article/20261110500103
+  - 뉴스웍스: [뉴스웍스=최만수 기자] 경상북도문화관광공사는 11월을 맞아 경북의 제철 식재료와 지역 식문화를 소개하는 ‘경북 미식여행 METI(Monthly Eating Tr
+    https://www.newsworks.co.kr/news/articleView.html?idxno=902619
+  - 경북일보: 풍광 감상 위주에 머물던 지방 관광의 패러다임이 오감을 자극하는 제철 음식과 인문학적 식문화를 결합한 미식 여행으로 진화하고 있다. 경북의 기름진 토양과 동해 청정해역이 길러낸 제철 식재료를 스토리텔링과 엮어 관광객의 발길을 머물게 하는 고부가가치 관광 자산으로 키우겠다는 포석이다.
+    https://www.kyongbuk.co.kr/news/articleView.html?idxno=4090354
+  - 이로운넷: 이로운넷 = 김혜정 기자 지역의 맛은 그곳의 자연과 문화, 계절을 가장 가까이에서 경험할 수 있는 여행 자원이다. 경북의 늦가을에는 땅에서 거둔 안동 생강과 동해에서 건져 올린 독도 방어가 미식 여행객을 맞는다.
+    https://www.eroun.net/news/articleView.html?idxno=94932
+
 ### 단양관광공사, 김해시의회 사회산업위원회서 견학
 - 매체 4곳 · 금강일보 · 동양일보 · 웹이코노미 · 충북일보  ← 여러 곳이 썼다
   - 금강일보: 충북 단양관광공사(사장 이관표)는 지난 9일 김해시의회 사회산업위원회(위원장 강영수)가 관광공기업 운영사례를 살피고 가야테마파크를 비롯한 지역 관광 자원과의 비교 견학을 위해 공사를 방문했다고 밝혔다.
@@ -229,15 +235,6 @@
     https://www.yna.co.kr/amp/view/AKR20261110029500030
   - 불교방송: 놀유니버스가 부산관광공사와 손잡고 외국인 관광객 유치와 지역 관광 활성화를 위한 프로모션을 진행합니다. 놀유니버스는 외국인 관광객 대상 여행·티켓 플랫폼 놀 월드를 통해 ‘Your Perfect Busan Autumn Getaway’ 프로모션을 오는 30일까지 운영한다고 오늘 밝혔습니다
     https://news.bbsi.co.kr/news/articleView.html?idxno=4117791
-
-### 안동 생강·독도 방어로 즐기는 경북의 제철 미식
-- 매체 3곳 · 경북매일 · 경북일보 · 뉴스웍스  ← 여러 곳이 썼다
-  - 경북매일: 경북문화관광공사가 경북의 땅과 바다가 빚어낸 늦가을 제철 식재료를 미식관광 콘텐츠로 소개했다. 경상북도문화관광공사는 경북의 제철 식재료와 지역 고유의 음식문화를 담은 ‘경북 미식여행 METI(Monthly Eating Travel Initiative)’ 11월호를 소개
-    https://www.kbmaeil.com/article/20261110500103
-  - 뉴스웍스: [뉴스웍스=최만수 기자] 경상북도문화관광공사는 11월을 맞아 경북의 제철 식재료와 지역 식문화를 소개하는 ‘경북 미식여행 METI(Monthly Eating Tr
-    https://www.newsworks.co.kr/news/articleView.html?idxno=902619
-  - 경북일보: 풍광 감상 위주에 머물던 지방 관광의 패러다임이 오감을 자극하는 제철 음식과 인문학적 식문화를 결합한 미식 여행으로 진화하고 있다. 경북의 기름진 토양과 동해 청정해역이 길러낸 제철 식재료를 스토리텔링과 엮어 관광객의 발길을 머물게 하는 고부가가치 관광 자산으로 키우겠다는 포석이다.
-    https://www.kyongbuk.co.kr/news/articleView.html?idxno=4090354
 
 ### 밀양문화관광재단, ‘꿈의 예술단’ 신규거점 선정…5년간 국비 지원
 - 매체 2곳 · 뉴스1 · 문화뉴스  ← 여러 곳이 썼다
@@ -313,6 +310,15 @@
   - 매일경제: 최대 65% 할인·매일 3천명 할인 쿠폰
     https://www.mk.co.kr/news/business/12203942
 
+### 인천공항에 펼쳐진 한국 전통 새해맞이…'송구영신' 연말장식 공개
+- 매체 3곳 · 서울신문 · 애드뉴스인천 · 파이낸셜뉴스  ← 여러 곳이 썼다
+  - 파이낸셜뉴스: 인천국제공항이 한국의 전통문화와 새해맞이 풍습을 담은 연말장식을 선보인다. 인천국제공항공사는 제1여객터미널 1층 중앙 밀레니엄홀에서 '송구영신'을 주제로 한 연말장식을 내년 1월 31일까지 운영한다고 10일 밝혔다.
+    https://www.fnnews.com/news/202611100956023991
+  - 애드뉴스인천: 인천국제공항이 한국의 전통 새해맞이 문화를 담은 특별한 공간으로 꾸며졌다. 연말을 상징하는 서양식 장식 대신 십장생과 민화, 전통 세시풍속을 활용해 국내외 여행객
+    https://www.addnewsin.com/news/articleView.html?idxno=63588
+  - 서울신문: 인천국제공항공사가 제1여객터미널 1층 중앙 밀레니엄홀에 ‘송구영신’을 주제로 한 연말장식을 공개했다. 한국 전통의 분위기를 담아 연말과 새해를 잇는 상징성을 강조했고, 공항 이용객들에게 특별한 볼거리를 제공한다.
+    https://www.seoul.co.kr/news/economy/2026/11/10/20261110800003
+
 ### 제주항공 3분기 영업익 549억…1년 만에 흑자 전환
 - 매체 3곳 · 뉴데일리 · 위키리크스한국 · 한국경제  ← 여러 곳이 썼다
   - 한국경제: 제주항공 3분기 영업익 549억…1년 만에 흑자 전환, 신용현 기자, 경제
@@ -336,18 +342,14 @@
   - 트래블데일리: 로열브루나이항공(Royal Brunei Airlines)이 브루나이의 다양한 관광 콘텐츠를 한곳에서 확인하고 예약할 수 있는 디지털 플랫폼 ‘디스커버 브루나이’를 공식 론칭했다. 디스커버 브루나이는 11월 4일 영국 런던에서 열린 ‘2026 런던 세계여행박람회(World Travel M
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72641
 
-### 모두투어, 中 옌타이서 첫 파크골프대회…해외 스포츠 테마여행 키운다
-- 매체 2곳 · 아주경제 · 트래블데일리  ← 여러 곳이 썼다
-  - 아주경제: 
-    https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uaERLQThNMHU3YUV0NXVtWFFZOFpDNFQ5OWJiM3p2SWFCVXFUdGFHWlhaT1VkV2hlaUJWMGFocHlTSUcwdDhwUnl3TmI3ZFNnVUFUS1ppYVZaZ9IBWEFVX3lxTE5UbjlZTlRocXVLSVpLdVp3T3ctbDFLcm91a1pSTzNvR0tBUjhEZ3o5WmZhcFczc09uWTVUZFh3NkFrOGh2amxqT05ZNXV0em1CMDRQVG1HN2w?oc=5
-  - 트래블데일리: 모두투어는 중국 산둥성 옌타이에서 ‘제1회 모두투어배 산동성 파크골프대회’를 성공적으로 마무리하고, 대회 운영과 현지 관광·휴양을 결합한 해외 스포츠 테마여행 사업 확대에 나선다. 이번 대회는 지난 3일부터 7일까지 4박 5일 일정으로 진행됐으며 참가 선수 33명이 함께했다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72637
-
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 28건)
 
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
 
+- [2026-11-11·여행업계] 크루즈 관광객 지갑은 열렸는데…여행사엔 ‘남의 얘기’
+  크루즈 관광객은 기항지에 평균 5시간 48분 머물며 1인당 174.5달러를 지출하는 것으로 조사됐다. 다만 일부 인바운드 업계에서는 관광객의 소비가 실질적인 수익
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500670
 - [2026-11-10·국내] 11월에도 꽃놀이…통영 부겐베리아 축제 21일 개막
   통영 동백커피식물원이 옛 파프리카 재배 온실을 무대로 늦가을 꽃축제를 선보인다. 11월 21~30일 ‘천만 송이 부겐베리아 페스타’를 열고 부겐베리아 꽃길과 음악 공연을 함께 선보인다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500693
@@ -495,9 +497,6 @@
 - [2026-11-02·여행업계] 겨울 해외 골프 성수기 앞두고…단독 총판 골프장 공급 확대
   겨울 해외 골프 성수기를 앞두고 여행사들이 안정적인 골프장 공급과 항공 연계 상품 운영에 나서고 있다. 골프 전문 여행사 투어링스는 태국과 괌의 단독 총판(GSA) 골프장을 중심으로 동계 상품 공급을 확대하고, 여행사 대상 예약·견적 서비스를 강화한다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500622
-- [2026-11-02·여행업계] 학생이 떠난 캠퍼스, 관광지가 될 수 있을까 [고성호의 관광 개발 이야기]
-  지방에서 대학은 교육시설 그 이상이다. 수천 명의 학생과 교직원이 생활하고 소비하며, 주변으로 원룸과 상가가 들어선다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500619
 
 ## 공연·전시 — category: stage, 하루 두 편 이상
 
@@ -570,7 +569,7 @@
     https://www.s-journal.co.kr/news/articleView.html?idxno=45151
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 35개 확인, 사진 줄 3개)
+(자유 이용 사진: 이름 후보 39개 확인, 사진 줄 2개)
 
 ### 🔥 화제(매체 18곳) [movie] ‘최종면접’ 누적 17만명 돌파하며 다시 1위…‘극장판 치이카와’ 3위로 [11월 9일 영화 박스오피스]
 - 매체 1곳 · ER 이코노믹리뷰
@@ -591,6 +590,23 @@
   - JTBC 뉴스: 영화 ‘최종면접’이 개봉 첫 주 한국영화 정상을 차지했다. 4일 개봉한 ‘최종면접(김정훈 감독)’은 영화진흥위원회 영화관입장권통합전산망 기준 ...
     https://news.jtbc.co.kr/article/NB12327155
 
+### 🔥 화제(매체 5곳) [startrip] "예술에는 은퇴 없다"…'데뷔 70주년' 백건우, 자서전 내고 후배들과 무대
+- 매체 1곳 · 뉴스핌
+  - 뉴스핌: [서울=뉴스핌] 김용석 선임기자 = 데뷔 70주년을 맞은 피아니스트 백건우(80)가 자서전을 출간하고, 젊은 피아니스트들과 한 무대에 오른다. 데뷔 70주년을 맞은 피아니스트 백건우(80)가 자서전을 출간과 함께 젊은 피아니스트들과 한 무대에 오른다.
+    https://m.newspim.com/news/view/20261111000031
+
+### 🔥 화제(매체 5곳) [movie] 영화 ‘듄’ 시리즈, IMAX 재개봉 이벤트→‘듄: 파트 3’ 시사회 초대 기준?
+- 매체 2곳 · 씨네21 · 톱스타뉴스  ← 여러 곳이 썼다
+  - 톱스타뉴스: CGV가 영화 ‘듄’ 시리즈 IMAX 재개봉을 기념해 ‘듄: 파트 3’ 시사회 초대 및 경품 증정 이벤트를 진행한다. ‘듄’ 시리즈를 관람한 이력이 없는 고객을 대상으로 시사회 초대권을 증정하며, 기존 관람 고객도 참여할 수 있는 오리지널 굿즈 및 CJ ONE 포인트 증정 이벤트도 진행
+    https://www.topstarnews.net/news/articleView.html?idxno=16272425
+  - 씨네21: 대한민국 최고 영화전문매체
+    https://cine21.com/event/view/?event_no=8739
+
+### 🔥 화제(매체 4곳) [movie] 영화 ‘폴2: 데드포인트’, 개봉주 특전 공개…극장별 증정 기간·지점 어디?
+- 매체 1곳 · 톱스타뉴스
+  - 톱스타뉴스: 영화 ‘폴2: 데드포인트’가 오는 11일 개봉을 앞두고 1주차 특전 증정 이벤트를 진행한다. CGV와 메가박스는 오는 11일부터 17일까지 영화를 관람한 관객들을 대상으로 각각 다른 디자인의 A3 포스터를 선착순 증정한다.
+    https://www.topstarnews.net/news/articleView.html?idxno=16273269
+
 ### 🔥 화제(매체 4곳) [startrip] 하나은행, The Banker·PWM誌 선정 '대한민국 최우수 PB은행' 수상
 - 매체 1곳 · 연합뉴스  ← 여러 곳이 썼다
   - 연합뉴스: 
@@ -605,36 +621,20 @@
   - iMBC 연예: ‘쇼트트랙 황제’ 빅토르 안(한국명 안현수)이 ‘스피드퀸’에 히든 코치로 참여한다. 세계 정상에 올랐던 쇼트트랙 전설이 오랜 공백을 깨고 국내 방송에서 지도자로 나선다는 소식에 관심이 집중되고 있다.
     https://enews.imbc.com/News/RetrieveNewsInfo/524292
 
+### 🔥 화제(매체 3곳) [movie] CGV에서 다시 보는 전주국제영화제...수상작·화제작 10편 특별 상영
+- 매체 2곳 · 경인미래신문 · 자유일보  ← 여러 곳이 썼다
+  - 자유일보: CGV가 전주국제영화제에서 소개된 국내외 작품 10편을 극장 상영작으로 편성한다. 전주국제영화제와 공동 기획한 ‘전주 2026: 에필로그 at CGV’를 통해 영화제 주요 작품을 다시 선보이는 것이다.
+    https://www.jayupress.com/news/articleView.html?idxno=56706
+  - 경인미래신문: (경인미래신문=민경호 기자) CGV가 제27회 전주국제영화제 수상작과 화제작 10편을 다시 상영하는 특별 기획전 '전주 2026: 에필로그 at CGV'를 오는 13일부터 22일까지 개최한다. CGV는 10일 국내 영화 3편과 해외 영화 7편을 CGV압구정·동대문·강변·신촌아트레온 등 
+    https://www.kifuture.com/news/article.html?no=178054
+
 ### 🔥 화제(매체 3곳) [movie] 올해 전주국제영화제 화제작 만난다…13∼22일 CGV서 기획전
 - 매체 1곳 · 연합뉴스
   - 연합뉴스: (서울=연합뉴스) 박원희 기자 = 제27회 전주국제영화제 화제작들을 만나볼 수 있는 특별 기획전 '전주 2026: 에필로그 앳(at) CGV'가. ..
     https://www.yna.co.kr/amp/view/AKR20261110047900005
 
-### 🔥 화제(매체 3곳) [movie] [NC박스오피스] 관객 뚝 떨어진 극장, '최종면접' 1위 재탈환
-- 매체 2곳 · 뉴스컬처 · 맥스무비닷컴  ← 여러 곳이 썼다
-  - 뉴스컬처: [뉴스컬처 노규민 기자] 영화 '최종면접'이 주말 동안 빼앗겼던 박스오피스 1위 자리를 되찾았다. 10일 영화진흥위원회 영화관입장권 통합전산망에 따르면 '최종면접'
-    https://www.nc.press/news/articleView.html?idxno=630606
-  - 맥스무비닷컴: 영화 '최종면접'이 박스오피스 1위를 탈환했다. 10일 영진위 영화관입장권 통합전산망 집계를 보면 어제(9일) '최종면접'은 1만 2395명을 동원해 일별 박스오피
-    https://www.maxmovie.com/news/articleView.html?idxno=502870
-
-### 🔥 화제(매체 3곳) [movie] 앤 해서웨이 ‘마더 메리’, 개봉 D-1
-- 매체 1곳 · bntnews
-  - bntnews: 영화 ‘마더 메리’가 개봉을 하루 앞두고 리뷰 포스터와 디깅 포인트를 공개했다. 지난 5일 서울 프리미어로 열린 ‘언피니시드 드레스 시사
-    https://www.bntnews.co.kr/article/view/bnt202611100195
-
-### [movie] 임영웅 영화, 아이맥스 개봉도 확정⋯스타디움 스케일 담았다
-- 매체 1곳 · 이투데이
-- 사진(자유 이용, 임영웅): `![임영웅 · 사진 구전녹용 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2a/Lim_Young-woong_in_an_ad_for_%EA%B5%AC%EC%A0%84%EB%85%B9%EC%9A%A9_%28June_2020%29_%28cropped%29.jpg)`
-  - 이투데이: ▲(사진제공=물고기뮤직)가수 임영웅의 스타디움 공연 실황 영화가 2D(일반)와 스크린엑스에 이어 아이맥스까지 상영을 확정했다. 10일 오후 임영웅 공
-    https://www.etoday.co.kr/news/view/2646271?trc=main_list_news
-
-### [startrip] 리센느, 신보 'PULSE' 초동 60만 장…데뷔 첫 하프 밀리언셀러 등극
-- 매체 1곳 · YTN star
-  - YTN star: 그룹 리센느(RESCENE)가 새 앨범으로 자체 최고 초동 판매량을 기록했다. 10일 한터차트에 따르면, 리센느(원이, 리브, 미나미, 메이, 제나)의 네 번째 미니 앨범 'PULSE'(펄스)는 발매 후 일주일(11월 3~9일) 동안 총 60만 2,688장이 판매됐다.
-    https://star.ytn.co.kr/_sn/0117_202611101052165927
-
 ---
-거리 118건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 117건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -644,64 +644,72 @@
 (검색어 33개 · 고른 영상 15개)
 
 ## CHAERYEONG(채령) “Lovesick” M/V
-- 채널 JYP Entertainment · 조회수 2,800,537회 · 1일 전
+- 채널 JYP Entertainment · 조회수 3,061,847회 · 1일 전
 - `@youtube pe-rk1ekb4w` · https://www.youtube.com/watch?v=pe-rk1ekb4w
 
 ## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
-- 채널 tvN DRAMA · 조회수 734,726회 · 3일 전
+- 채널 tvN DRAMA · 조회수 734,993회 · 3일 전
 - `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
+  티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 밀정이 된 경성 최고의 소매치기와 조선총독부의 엘리트 통역관이 적의 심장부에서 마주하며 벌어지는 100일간의 첩보 로맨스 tvN 20주년 특별기획 〈100일의 거짓말〉 [토일] 밤 9:10 | tvN #100일의거짓말 #100DaysofDeception #tvN #20주년특별기획 #김유정 #박진영 #김현주 #이무생 #진선규 #즐거움엔20tvN #스트리밍은TVING #티빙에서스트리밍
+
+## [11화 예고] 김유정의 정체를 눈치챈 듯한 사토 부자?!😨 그리고 걸려온 의문의 전화☎
+- 채널 tvN DRAMA · 조회수 649,646회 · 2일 전
+- `@youtube d0kBID9SX6w` · https://www.youtube.com/watch?v=d0kBID9SX6w
+  티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 밀정이 된 경성 최고의 소매치기와 조선총독부의 엘리트 통역관이 적의 심장부에서 마주하며 벌어지는 100일간의 첩보 로맨스 tvN 20주년 특별기획 〈100일의 거짓말〉 [토일] 밤 9:10 | tvN #100일의거짓말 #100DaysofDeception #tvN #20주년특별기획 #김유정 #박진영 #김현주 #이무생 #진선규 #즐거움엔20tvN #스트리밍은TVING #티빙에서스트리밍
 
 ## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 401,184회 · 1일 전
+- 채널 tvN DRAMA · 조회수 422,365회 · 1일 전
 - `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
 
 ## [7화 예고] "까야겠네, 강비서 여자인 거💥" 여자인 걸 들켜버린 설인아와 임시완의 깊어지는 오해😱 #나의유죄인간 EP.7
-- 채널 tvN DRAMA · 조회수 395,479회 · 7일 전
+- 채널 tvN DRAMA · 조회수 396,502회 · 7일 전
 - `@youtube 40VaBfB6e88` · https://www.youtube.com/watch?v=40VaBfB6e88
+  티빙에서 스트리밍 : https://tving.onelink.me/xHqC/mvei8582 살인 용의자로 지목된 안하무인 재벌 3세와 그의 수행비서로 잠입한 특수부대 출신 여형사의 밀착 스릴 로맨스 tvN 〈나의 유죄인간〉 [월화] 저녁 8시 50분 | tvN #tvN #나의유죄인간 #LoveinDisguise #임시완 #설인아 #김정현 #연우 #즐거움엔20tvN #스트리밍은TVING #티빙에서스트리밍
 
 ## xikers 'DIENAMITE’｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 365,746회 · 6일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 373,878회 · 6일 전
 - `@youtube k-xc9wWWTDc` · https://www.youtube.com/watch?v=k-xc9wWWTDc
 
-## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 성훈 (SUNGHOON)
-- 채널 HYBE LABELS · 조회수 360,832회 · 4일 전
-- `@youtube ftWK9_qLXyQ` · https://www.youtube.com/watch?v=ftWK9_qLXyQ
+## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 제이 (JAY)
+- 채널 HYBE LABELS · 조회수 332,494회 · 3일 전
+- `@youtube oPCjiOQcxRY` · https://www.youtube.com/watch?v=oPCjiOQcxRY
+  ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 제이 (JAY) Welcome to THE SIN : PARALLEL WORLD https://enhypen.lnk.to/THESINPARALLELWORLD EXECUTIVE PRODUCER KIM TAEHO Directed by KIM YEJIN (apexsens) ⓒ BELIFT LAB Inc. All Rights Reserved Connect with ENHYPEN OFFICIAL WEBSITE https://ENHYPEN.com ENHYPEN Weverse https://www.weverse.io/enhypen OFFICIAL YOUTUBE https://www.youtube.com/ENHYPENOFFICIAL OFFICIAL X (TWITTER) https://twitter.com/ENHYPEN ENHYPEN X (TWITTER) https:/
 
 ## [라이어 5회 예고] ＂당신이 이겼어＂, MBC 261113 방송
-- 채널 MBCdrama · 조회수 252,799회 · 3일 전
+- 채널 MBCdrama · 조회수 259,554회 · 3일 전
 - `@youtube HgU_TkMhXjE` · https://www.youtube.com/watch?v=HgU_TkMhXjE
+  #라이어 #유연석 #서현진 ★★★More clips are available★★★ iMBC https://program.imbc.com/ThePerfectLie ⓒ MBC&iMBC 무단 전재, 재배포 및 이용(AI학습 포함) 금지
 
 ## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
-- 채널 HYBE LABELS · 조회수 235,512회 · 1일 전
+- 채널 HYBE LABELS · 조회수 248,064회 · 1일 전
 - `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
+  TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer 'STEAL THE WIND' TOUR 👉 https://ibighit.com/ko/txt/tour/ SEOUL, KOREA 2026.11.13(FRI) 7PM (KST) + ONLINE 2026.11.14(SAT) 6PM (KST) + ONLINE 2026.11.15(SUN) 5PM (KST) + ONLINE ASIA 2026.11.20-22 MACAU JAPAN 2026.12.19-20 FUKUOKA 2027.1.7-8 TOKYO 2027.1.30-31 OSAKA 2027.2.20-21 AICHI ASIA 2027.3.6-7 KAOHSIUNG 2027.3.13 KUALA LUMPUR 2027.3.20 JAKARTA U.S. 2027.5.4 TACOMA 2027.5.7 INGLEWOOD 2027.5.12 MEXICO CITY 2027.5.15 FORT WORTH 20
 
 ## ［30회 예고］나만 위해서 그랬을 것 같니? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 233,188회 · 2일 전
+- 채널 KBS Drama · 조회수 237,581회 · 2일 전
 - `@youtube RESSBa51NL8` · https://www.youtube.com/watch?v=RESSBa51NL8
 
 ## [29화 선공개] 무서워서 왔어요 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 230,655회 · 2일 전
+- 채널 KBS Drama · 조회수 231,253회 · 2일 전
 - `@youtube EtvuLAC0qWU` · https://www.youtube.com/watch?v=EtvuLAC0qWU
+  [29화 선공개] 무서워서 왔어요 Copyright ⓒ KBS. All rights reserved. 무단 전재, 재배포 및 이용(AI 학습 포함) 금지 [사랑이 온다] 공식 홈페이지 : https://program.kbs.co.kr/2tv/drama/loveonthemenu/pc/index.html ＃하석진 ＃안희연 ＃사랑이온다 깨진 가족의 파편을 모아 세상에서 가장 따뜻한 인생 한 상을 차려내는 두 남녀의 패밀리 레시피 드라마 사랑이 온다, Love on the Menu 하석진, 안희연, 박유나, 배정남 ▶ Homepage : https://www.kbs.co.kr/ ▶ Wavve : https://www.wavve.com/ ▶ Youtube : https://www.youtube.com/KBSdrama ▶ Facebook : https://www.facebook.com/KBSdrama/
+
+## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
+- 채널 tvN DRAMA · 조회수 229,668회 · 0일 전
+- `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
+  티빙에서 스트리밍 : https://tving.onelink.me/xHqC/mvei8582 살인 용의자로 지목된 안하무인 재벌 3세와 그의 수행비서로 잠입한 특수부대 출신 여형사의 밀착 스릴 로맨스 tvN 〈나의 유죄인간〉 [월화] 저녁 8시 50분 | tvN #tvN #나의유죄인간 #LoveinDisguise #임시완 #설인아 #김정현 #연우 #즐거움엔20tvN #스트리밍은TVING #티빙에서스트리밍
 
 ## ［29회 예고］우리 그냥 의절하면 안 돼? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 188,765회 · 3일 전
+- 채널 KBS Drama · 조회수 188,957회 · 3일 전
 - `@youtube Fm4bi3Pu4XY` · https://www.youtube.com/watch?v=Fm4bi3Pu4XY
 
 ## [종합 예고] 하나의 나라를 위한 피로 쓴 마지막 전쟁 [문무] | KBS 방송
-- 채널 KBS Drama · 조회수 142,153회 · 5일 전
+- 채널 KBS Drama · 조회수 142,916회 · 5일 전
 - `@youtube dg5PPnh_7sU` · https://www.youtube.com/watch?v=dg5PPnh_7sU
 
 ## [53화 예고] 이게 다 아줌마 때문이라고! [욕망의 덫] | KBS 방송
-- 채널 KBS Drama · 조회수 126,423회 · 5일 전
+- 채널 KBS Drama · 조회수 126,710회 · 5일 전
 - `@youtube iF-qLwaGasE` · https://www.youtube.com/watch?v=iF-qLwaGasE
-
-## [가족관계증명서 74회 예고] ＂일절 안 했으면 좋겠어서...＂, MBC 261104 방송
-- 채널 MBCdrama · 조회수 70,560회 · 7일 전
-- `@youtube FtF2tldTS8A` · https://www.youtube.com/watch?v=FtF2tldTS8A
-
-## [가족관계증명서 77회 예고] ＂이젠 당신까지 끌어들일 거야＂, MBC 261110 방송
-- 채널 MBCdrama · 조회수 69,359회 · 1일 전
-- `@youtube IhT6VeaWAjM` · https://www.youtube.com/watch?v=IhT6VeaWAjM
 
 
 
