@@ -4,14 +4,17 @@ channel: travel
 region: japan
 section: flight
 kind: 해설
-title: "에어로케이항공, 청주~고베 12월 24일부터 주 4회 운항"
+title: 에어로케이항공, 청주~고베 12월 24일부터 주 4회 운항
 source_name: ''
 source_url: ''
-summary: 에어로케이항공이 12월 24일부터 내년 3월 27일까지 청주~고베 노선을 주 4회 운항한다. 화·목·토·일요일에 뜨며 예약은 공식 홈페이지에서 받고 있다.
+summary: 에어로케이항공이 12월 24일부터 내년 3월 27일까지 청주~고베 노선을 주 4회 운항한다. 화·목·토·일요일에 뜨며 예약은 공식
+  홈페이지에서 받고 있다.
 sources:
-  - https://www.cctimes.kr/news/articleView.html?idxno=935955
-  - https://www.ccdn.co.kr/news/articleView.html?idxno=1109691
-status: approved
+- https://www.cctimes.kr/news/articleView.html?idxno=935955
+- https://www.ccdn.co.kr/news/articleView.html?idxno=1109691
+status: published
+published_id: c-8139e2791792fea947beed30d60e6139f2c94587
+published_on: '2026-11-11'
 ---
 에어로케이항공이 청주와 일본 고베를 잇는 노선을 연말에 연다. 12월 24일부터 내년 3월 27일까지 주 4회 운항한다.
 

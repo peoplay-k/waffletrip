@@ -5,13 +5,16 @@ category: music
 region: ''
 section: news
 kind: 보도자료
-title: "피아니스트 문지영, EBS FM '정경의 클래식 클래식' 출연…슈베르트 라이브"
+title: 피아니스트 문지영, EBS FM '정경의 클래식 클래식' 출연…슈베르트 라이브
 source_name: ''
 source_url: ''
-summary: 피아니스트 문지영이 11일 오전 10시 EBS FM '정경의 클래식 클래식' 수요 초대석에 나와 슈베르트에 집중하는 새 도전과 파리 생활을 이야기하고 스튜디오 라이브를 들려준다.
+summary: 피아니스트 문지영이 11일 오전 10시 EBS FM '정경의 클래식 클래식' 수요 초대석에 나와 슈베르트에 집중하는 새 도전과 파리
+  생활을 이야기하고 스튜디오 라이브를 들려준다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005622387
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005622387
+status: published
+published_id: c-f021b212d30d7c40eaa18db5e765bcb5a11987ef
+published_on: '2026-11-11'
 ---
 피아니스트 문지영이 11일(수) 오전 10시 EBS FM '정경의 클래식 클래식'의 수요 초대석에 출연한다. 올해부터 3년 동안 슈베르트 작품에 집중하기로 한 새 도전과 파리에서의 일상을 전하고, 스튜디오에서 슈베르트를 직접 연주한다.
 

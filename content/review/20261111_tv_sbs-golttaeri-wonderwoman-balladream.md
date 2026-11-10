@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'골 때리는 그녀들' 4강전, 5전 5패 원더우먼2026 vs 디펜딩 챔피언 발라드림"
+title: '''골 때리는 그녀들'' 4강전, 5전 5패 원더우먼2026 vs 디펜딩 챔피언 발라드림'
 source_name: ''
 source_url: ''
-summary: SBS '골 때리는 그녀들'이 11일 밤 9시 FC원더우먼2026과 디펜딩 챔피언 FC 발라드림의 4강전을 방송한다. 원더우먼은 발라드림에 역대 전패를 안고 있다.
+summary: SBS '골 때리는 그녀들'이 11일 밤 9시 FC원더우먼2026과 디펜딩 챔피언 FC 발라드림의 4강전을 방송한다. 원더우먼은 발라드림에
+  역대 전패를 안고 있다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9369
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9369
+status: published
+published_id: c-b1ebf2f5c71e57848bf374a4845b90dd5704c0a7
+published_on: '2026-11-11'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 골 때리는 그녀들 | 회차 · 11월 11일 방송분

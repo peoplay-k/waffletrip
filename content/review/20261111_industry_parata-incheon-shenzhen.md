@@ -4,15 +4,18 @@ channel: travel
 region: industry
 section: flight
 kind: 해설
-title: "파라타항공, 인천~선전 신규 취항…첫 중국 노선 주 4회 운항"
+title: 파라타항공, 인천~선전 신규 취항…첫 중국 노선 주 4회 운항
 source_name: ''
 source_url: ''
-summary: 파라타항공이 9일 인천~선전 노선에 취항했다. 자사 첫 중국 노선이며 국적 항공사로는 대한항공, 아시아나항공에 이어 세 번째다. 주 4회 운항한다.
+summary: 파라타항공이 9일 인천~선전 노선에 취항했다. 자사 첫 중국 노선이며 국적 항공사로는 대한항공, 아시아나항공에 이어 세 번째다. 주
+  4회 운항한다.
 sources:
-  - https://www.mk.co.kr/news/business/12203728
-  - https://www.asiae.co.kr/article/2026111009042171554
-  - http://www.economytalk.kr/news/articleView.html?idxno=425214
-status: approved
+- https://www.mk.co.kr/news/business/12203728
+- https://www.asiae.co.kr/article/2026111009042171554
+- http://www.economytalk.kr/news/articleView.html?idxno=425214
+status: published
+published_id: c-dda4fc663f21c9c54fdaacbe378f1372af543dba
+published_on: '2026-11-11'
 ---
 파라타항공이 인천과 중국 선전을 잇는 정기 노선에 취항했다. 자사의 첫 중국 노선으로, 중국 네트워크 확대와 환승 수요 공략을 함께 겨냥한다.
 

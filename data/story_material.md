@@ -1,53 +1,38 @@
-# 오늘 쓸 기사거리 (2026-11-10)
+# 오늘 쓸 기사거리 (2026-11-11)
 
 여러 매체가 같은 건을 쓴 것부터 놓았다. **문장을 옮기지 말고**
 사실만 가져다 우리 문장으로 쓴다. 인용한 매체는 본문에 밝힌다.
 
 ## 괌
 
-### 괌정부관광청, 2026 제주올레걷기축제 현장 답사…2027년 ‘괌올레’ 개장 탄력
-- 매체 2곳 · TTL뉴스 · 트래블데일리  ← 여러 곳이 썼다
-  - TTL뉴스: 제주 해안을 따라 뻗은 도보 여행길의 운영 기법이 서태평양 휴양지 괌의 자연 속으로 이식된다. 괌정부관광청 방문단은 11월 5일부터 7일까지 사흘간 제주 일대에서 열린 ‘2026 제주올레걷기축제’ 현장을 찾아 코스를 직접 답사하고, 현재 추진 중인 ‘괌올레길’ 조성 사업의 실행 계획을 
-    http://www.ttlnews.com/news/articleView.html?idxno=3160171
+### 괌관광청, ‘2026 제주올레걷기축제’ 참가
+- 매체 1곳 · 트래블데일리
   - 트래블데일리: 괌정부관광청은 지난 11월 5일부터 7일까지 제주에서 열린 ‘2026 제주올레걷기축제’에 참가해 제주올레길을 직접 걷고, 괌올레길 개발을 위한 협력 방안을 논의했다. 이번 방문은 괌정부관광청이 추진 중인 괌올레길 개발 프로젝트의 후속 활동으로 마련됐다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72623
 
-### ‘가성비’ 잃은 동남아·낡아가는 괌…日·中으로 쏠린 하늘길 - 머니투데이
-- 매체 1곳 · 머니투데이
-  - 머니투데이: 지난달 국제선 항공 여객이 전년 동기 대비 10% 증가했지만 일본·중국 노선을 제외하면 오히려 감소한 것으로 나타났다. 업계에서는 동남아의 관광 인프라가 발전하는 동시에 현지 물가도 올라 저렴한 비용으로 휴양을 즐길 수 있다는 강점이 약해지면서 여객수가 줄어든 것으로 보고 있다.
-    https://www.mt.co.kr/industry/2026/11/09/2026110915511988496
-
-### 괌에도 제주올레 같은 걷기길 생기나…괌정부관광청, 제주서 개발 방안 모색
-- 매체 1곳 · 동방일보
-  - 동방일보: 【동방일보】 신현성 기자 = 괌정부관광청이 제주올레길을 모델로 한 ‘괌올레길’ 개발을 추진하면서 제주를 찾아 걷기 관광 운영 사례를 살펴봤다. 괌정부관광청은 지난 5일부터 7일까지 제주올레 19·20코스 일대에서 열린 ‘2026 제주올레걷기축제’에 참가했다고 9일 밝혔다.
-    https://www.dongbangilbo.co.kr/news/articleView.html?idxno=112873
-
-### 제주올레의 걷기 관광 모델, 괌으로…‘괌올레길’ 개발 협력 논의
-- 매체 1곳 · 서울뉴스통신
-  - 서울뉴스통신: 【서울 = 서울뉴스통신】 이민희 기자 = 제주올레길의 걷기 관광 모델이 태평양의 휴양지 괌으로 확장될 가능성이 주목받고 있다. 괌정부관광청이 제주를 방문해 올레길 운영 사례를 살펴보고, 괌의 자연환경과 지역문화를 접목한 새로운 도보 관광 콘텐츠 개발에 나섰다.
-    http://www.snakorea.com/news/articleView.html?idxno=1062714
-
-### 괌정부관광청, 제주올레길서 관광 활성화 해법 찾는다
-- 매체 1곳 · 뉴스저널리즘
-  - 뉴스저널리즘: 괌정부관광청이 제주올레길의 성공 사례를 살피고 괌올레길 개발을 위한 협력을 모색했다. 괌정부관광청은 지난 5일부터 7일까지 제주에서 열린 '2026 제주올레걷기축제'에 방문단을 파견했다고 9일 밝혔다.
-    https://www.ngetnews.com/news/articleView.html?idxno=555694
+### [호텔·리조트트렌드] 호시노 리조트 리조나레 괌, 괌 최초 비치클럽 오픈…해변 체험·미식 한곳에 外
+- 매체 1곳 · 베이비뉴스
+  - 베이비뉴스: ‘호텔·리조트 트렌드’는 아이를 키우는 가정이 주목할 만한 호텔·리조트 업계 동향을 모아 전하는 기획 코너다. 키즈 전용 패키지, 체험형 프로그램, 가족 맞춤 서비스, 위생·안전 강화 정책 등 다양한 소식 중 가족 여행의 만족도를 높이고 편안한 휴식을 돕는 정보를 중심…
+    https://www.ibabynews.com/news/articleView.html?idxno=156751
 
 ## 하와이
-
-### 이재용 삼성회장, 하와이 해변 부동산 매입
-- 매체 1곳 · 공정뉴스
-  - 공정뉴스: 미국 하와이(Hawaii)에 삼성타운이 들어선다. 삼성가(三星家)는 오랜 기간에 거쳐 미국 하와이 부동산을 매입한다.
-    https://www.fairn.co.kr/news/articleView.html?idxno=73554
 
 ### [팜투어] 하와이 와이키키 럭셔리 호텔 3선… 프리미엄 혜택과 입지 비교
 - 매체 1곳 · 디스커버리뉴스(DISCOVERYNEWS)
   - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 인천국제공항을 출발해 날짜변경선을 지나 하와이 호놀룰루 벨라나 공항에 도착하면 대개 현지 시간으로 오전 시간대에 접어든다. 하지만 와이키키 일대 주요 럭셔리 호텔들의 공식 체크인 시각은 주로 오후 3시에서 4시 사이에 형성되어 있어, 장시간 비행 직후 휴식
     https://www.discoverynews.kr/news/articleView.html?idxno=1106184
 
-### 택시비 0원, 라운지·카바나 공짜에 오후 1시 체크인…"여기 하와이 맞아?"
-- 매체 1곳 · 내외일보
-  - 내외일보: [내외일보] 이수한 기자 = 인천에서 밤 8시 35분에 출발하는 대한항공 직항은 날짜변경선을 넘어 같은 날 오전 9시대에 호놀룰루에 도착한다. 그런데 와이키키 주
-    https://www.naewoeilbo.com/news/articleView.html?idxno=2448677
+### 아유미 "출발 하루 전 하와이 여행 제안…친구들이 미쳤냐고 해"
+- 매체 1곳 · 뉴스1
+  - 뉴스1: 
+    https://www.news1.kr/entertain/broadcast-tv/6349628
+
+### First Alert Forecast: Breezy winds expected to strengthen on Wednesday with more showers for windward neighborhoods
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: Trades will strengthen again to possibly locally windy levels Wednesday through Thursday.
+    https://www.hawaiinewsnow.com/2026/11/09/first-alert-forecast-breezy-winds-expected-strengthen-wednesday-with-more-showers-windward-neighborhoods/
+  - Hawaii News Now: Clouds and showers will be focused over windward and mauka areas, with some spilling over to leeward areas.
+    https://www.hawaiinewsnow.com/2026/11/10/first-alert-forecast-breezy-winds-continue-today-stronger-winds-due-wednesday/
 
 ### Delta Opens A New Nonstop Path From MSP To Maui
 - 매체 2곳 · 98.1 - Minnesota's New Country · AM 1240 WJON  ← 여러 곳이 썼다
@@ -58,50 +43,32 @@
 
 ## 베트남
 
-### 하노이 버스 노선 최적화.
-- 매체 1곳 · vietnam.vn  ← 여러 곳이 썼다
-  - vietnam.vn: (CLO) 하노이 건설국은 시 교통관리운영센터(Tramoc)에 버스 네트워크가 교통 수요를 충족하는지 검토해 줄 것을 요청하는 문서를 발표했습니다.
-    https://www.vietnam.vn/ko/toi-uu-hoa-lo-trinh-di-chuyen-cua-xe-buyt-thu-do
-  - vietnam.vn: 하노이 인민위원회 위원장인 부 다이 탕은 자빈 공항과 수도 하노이를 최단 철도 노선으로 연결하는 방안, 편리한 열차 운행, 그리고 승객의 환승 필요성을 최소화하는 방안에 대한 연구를 요청했습니다.
-    https://www.vietnam.vn/ko/chu-tich-ubnd-tp-ha-noi-nghien-cuu-mo-tuyen-duong-sat-chay-thang-den-san-bay-gia-binh
-
 ### 신한은행 베트남, 비자 선정 '2026년 거래 승인 리더십' 수상
 - 매체 1곳 · 파이낸셜뉴스
   - 파이낸셜뉴스: 신한은행 베트남 법인이 글로벌 카드 브랜드 비자로부터 거래 승인 처리·운용 역량을 인정받아 '2026년 거래 승인 리더십' 상을 수상했다. 10일 현지에 따르면 신한은행 베트남은 지난 9일 "비자로부터 '2026년 거래 승인 리더십' 상을 수상했다"며 "이번 수상은 운영 ..
     https://www.fnnews.com/news/202611101327207148
+
+### 2026년 다낭 최고의 MICE 관광 목적지로 DANAGO를 도약시킬 3가지 강점.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 1,000명 이상의 단체 관광객을 위한 MICE 투어 기획 전문 기업인 DANAGO는 대규모 단체 관광 기획 능력, 전문적인 팀, 현지 사정에 밝은 점, 그리고 비용 최적화에 도움이 되는 오랜 파트너십이라는 세 가지 강점을 바탕으로 2026년 다낭 여행 시장에서 두각을 나타낼 것으로 기
+    https://www.vietnam.vn/ko/3-the-manh-dua-danago-vuon-tam-du-lich-mice-da-nang-2026
 
 ### 삼성전자 베트남, KiN호텔그룹과 협력…숙박 공간서 AI 가전 체험 서비스
 - 매체 1곳 · 파이낸셜뉴스
   - 파이낸셜뉴스: 삼성전자 베트남 법인이 현지 호텔·라이프스타일 서비스 기업 KiN 호텔그룹과 손잡고 숙박 공간 내 삼성의 AI 가전·영상음향 기기 생태계를 통합 구축하는 체험형 마케팅 프로젝트를 선보인다. 10일 삼성 베트남에 따르면 삼성전자는 KiN 호텔그룹 산하의 호텔 브랜드.
     https://www.fnnews.com/news/202611101119200989
 
-### 다낭과 ​​오클랜드는 첨단 기술, 관광 및 항공 연결 분야에서 협력을 증진하고 있습니다.
+### 바람이 잦아들자 관광객들은 다낭 해변을 거닐며 파도를 감상합니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 응오쑤언탕 시 당위원회 부서기를 단장으로 하는 시 지도부 대표단은 11월 10일부터 11일까지 뉴질랜드 실무 방문을 이어가며 오클랜드 시 정부를 방문하여 투자, 과학 기술, 관광, 교육 및 도시 개발 분야에서의 협력 기회를 논의했습니다.
-    https://www.vietnam.vn/ko/da-nang-auckland-thuc-day-hop-tac-cong-nghe-cao-du-lich-va-ket-noi-hang-khong
+  - vietnam.vn: (단찌신문) - 바람은 잦아들었지만 다낭의 파도는 여전히 높다. 많은 소상공인들이 선제적으로 해변 가건물을 보강하고 있으며, 어부들은 높은 파도를 피해 배를 해안으로 끌어올리고 있다.
+    https://www.vietnam.vn/ko/gio-giam-du-khach-dao-ngam-song-bien-o-da-nang
 
-### 하노이시는 관광 숙박 시설들이 우대 전기 요금 혜택을 받을 수 있도록 안내를 제공합니다.
+### 다낭시는 손트라 반도 방문을 일시적으로 중단했습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 하노이시 문화체육관광국은 호텔 및 숙박 시설에 새로운 규정에 따라 개별 전기 요금제를 적용하는 절차를 완료하도록 지시했습니다. 이는 사업체들이 비용을 절감하고 연말 관광 활성화 프로그램을 적극적으로 시행하는 데 유리한 조건입니다.
-    https://www.vietnam.vn/ko/ha-noi-huong-dan-co-so-luu-tru-du-lich-huong-gia-dien-uu-dai
+  - vietnam.vn: 장기간 지속되는 폭우로 인한 산사태 및 갑작스러운 홍수 위험 때문에 손트라 반도 관광은 11월 10일 오후부터 별도 공지 시까지 중단됩니다.
+    https://www.vietnam.vn/ko/da-nang-tam-dung-tham-quan-ban-dao-son-tra
 
 ## 코타키나발루
-
-### Floods forecast in nine Kelantan districts until Wednesday
-- 매체 1곳 · New Straits Times  ← 여러 곳이 썼다
-  - New Straits Times: KOTA BARU: Nine districts in Kelantan are expected to experience flooding from today until Wednesday, following a continuous rain warning issued by the Malaysia
-    https://www.nst.com.my/news/regional/2026/11/1573595/floods-forecast-nine-kelantan-districts-until-wednesday
-  - New Straits Times: KUANTAN: Floods are expected to hit Kuantan, Pekan and Rompin, particularly low-lying areas and flood-prone locations, from today until Wednesday.
-    https://www.nst.com.my/news/regional/2026/11/1573589/floods-forecast-kuantan-pekan-and-rompin-until-wednesday
-  - New Straits Times: KUANTAN: Floods are forecast to hit Rompin and Jerantut from 1am tomorrow until 11.59pm on Nov 14, according to the National Flood Forecasting and Warning Centr
-    https://www.nst.com.my/news/regional/2026/11/1574477/floods-forecast-rompin-jerantut-tomorrow-until-nov-14
-
-### 102 Melaka locations at risk of flooding during spring tides until Nov 17
-- 매체 1곳 · New Straits Times  ← 여러 곳이 썼다
-  - New Straits Times: KOTA MELAKA: A total of 102 locations in Melaka have been identified as flood-risk areas following the spring tide phenomenon, which is expected to continue unt
-    https://www.nst.com.my/news/regional/2026/11/1573470/102-melaka-locations-risk-flooding-during-spring-tides-until-nov-17
-  - New Straits Times: KUALA NERUS: Sixty-four schools in Terengganu have been identified as at risk of flooding following the onset of the northeast monsoon late last month.
-    https://www.nst.com.my/news/regional/2026/11/1574670/terengganu-identifies-64-schools-risk-flooding
 
 ### 1,084 flood victims sheltering at relief centres in three states
 - 매체 1곳 · New Straits Times  ← 여러 곳이 썼다
@@ -117,30 +84,19 @@
   - vietnam.vn: Green SM은 라오스에서 금융 및 은행, 통신, 결제, 관광 및 숙박 분야에 걸쳐 10개의 전략적 파트너와 양해각서(MOU)를 체결했다고 발표했습니다. 이 협약은 플랫폼을 연결하고, 서비스를 통합하며, 고객 친화적인 기능을 도입하여 친환경 모빌리티 생태계를 확장하고 라오스 시장에서 
     https://www.vietnam.vn/ko/green-sm-hop-tac-voi-10-doi-tac-chien-luoc-mo-rong-he-sinh-thai-di-chuyen-xanh-tai-lao
 
-### 인천공항 상주직원 40명, 라오스 소수민족학교 교육환경 개선 봉사
-- 매체 1곳 · 투어코리아
-  - 투어코리아: [투어코리아=김경남 기자]인천국제공항 상주직원들이 라오스 산간지역 소수민족 학생들을 위해 교육환경 개선에 나섰다. 컴퓨터 기증을 비롯해 노후 학교시설을 정비하고 학습공간을 개선하는 등 국경을 넘어 나눔과 상생의 가치를 실천했다.
-    https://www.tournews21.com/news/articleView.html?idxno=147806
-
 ## 제주
 
-### 문성종 제주관광공사 사장 인사청문 '통과'
-- 매체 5곳 · 미디어제주 · 연합뉴스 · 제주일보 · 투어코리아 · 트래블데일리  ← 여러 곳이 썼다
-  - 제주일보: 문성종 제주관광공사 사장 후보자(65)가 인사청문을 통과했다. 제주도의회 문화관광체육위원회(위원장 한동수)는 지난 5일 문 후보자에 대한 인사청문 결과, 적합 판정을 내렸다.
-    http://www.jejunews.com/news/articleView.html?idxno=2228676
-  - 투어코리아: [투어코리아=조성란 기자] 제주관광이 관광객 수 중심의 양적 성장에서 벗어나 체류시간과 지역 소비를 늘리는 질적 성장으로 방향을 전환한다. 단순히 많은 관광객을 유치하는 데 그치지 않고, 제주에 오래 머물며 지역 곳곳에서 소비하도록 유도해 관광의 경제적 효과를 높이겠다는 전략이다.
-    https://www.tournews21.com/news/articleView.html?idxno=147870
-  - 미디어제주: [미디어제주 = 고원상 기자] 제주관광공사가 문성종 제7대 사장 체제에 들어갔다. 제주관광공사는 9일 제주웰컴센터에서 공사 임직원 등이 참석한 가운데 제7대 문성
-    https://www.mediajeju.com/news/articleView.html?idxno=367260
+### ‘문성종’ 제7대 제주관광공사 사장 취임
+- 매체 2곳 · 연합뉴스 · 트래블데일리  ← 여러 곳이 썼다
   - 트래블데일리: 제주관광공사가 제7대 신임 사장을 맞아 제주관광 재도약을 향한 새로운 출발에 나선다. 제주관광공사는 9일 제주웰컴센터에서 공사 임직원 등이 참석한 가운데 제7대 문성종 사장의 취임식을 개최했다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72628
+  - 연합뉴스: (제주=연합뉴스) 변지철 전지혜 기자 = 문성종 제주관광공사 사장 후보자가 제주도의회 인사청문회에서 '적격' 판정을 받았다.
+    https://www.yna.co.kr/view/AKR20261105088851056
 
-### [내일 날씨] 남부·제주에 5~30mm 비…전국 체감 2도~17도, 해안 강풍·높은 파도
-- 매체 2곳 · ㅍㅍㅅㅅ PPSS · 제주일보  ← 여러 곳이 썼다
-  - ㅍㅍㅅㅅ PPSS: (PPSS 박은숙 기자) 내일(9일)은 남부지방과 제주도를 중심으로 5mm~30mm의 비가 내리고, 전국 대부분 지역에서 기온이 2도~15도로 평년보다 낮아 쌀쌀
-    https://www.ppss.kr/news/articleView.html?idxno=319679
-  - 제주일보: 10일 제주시 애월읍 구엄리 구엄리돌염전을 찾은 관광객들이 높은 파도 배경으로 사진을 촬영하며 즐거운 시간을 보내고 있다. 고봉수 기자
-    http://www.jejunews.com/news/articleView.html?idxno=2228749
+### 시각장애인 120여 명, 손끝으로 제주 만나다
+- 매체 1곳 · 트래블데일리
+  - 트래블데일리: 제주특별자치도와 제주관광공사는 지난 9일부터 오는 11일까지 제주를 찾은 대한안마사협회 충북지회 소속 시각장애인 등 방문단 120여 명을 대상으로 제주의 자연과 문화를 오감으로 경험할 수 있는 맞춤형 프로그램을 운영하고 있다고 밝혔다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72634
 
 ### [여행단신] 부산관공·제주신화월드·모두투어
 - 매체 1곳 · 트래블데일리
@@ -184,13 +140,6 @@
   - 파이낸셜뉴스: 한화투자증권이 제주항공의 목표주가를 기존 7500원에서 9000원으로 20% 상향 조정했다. 일본과 중국을 중심으로 여행 수요가 늘어나는 가운데 수요에 맞춰 노선을 탄력적으로 운영하고 신형 항공기 도입으로 비용까지 절감하면서 수익성이 개선될 것이라는 분석이다.
     https://www.fnnews.com/news/202611100832432560
 
-### "대구에서 치료받으세요" 日 오사카서 의료관광 홍보 설명회
-- 매체 2곳 · 국제뉴스 · 연합뉴스  ← 여러 곳이 썼다
-  - 연합뉴스: (대구=연합뉴스) 이강일 기자 = 대구시와 대구의료관광진흥원은 일본 오사카에서 '메디시티대구 홍보 설명회'를 열었다고 9일 밝혔다.
-    https://www.yna.co.kr/view/AKR20261109103800053
-  - 국제뉴스: (대구=국제뉴스) 백운용 기자 = 강문경 대구시 의료산업과장은 일본 오사카에서 11월 7일부터 9일까지 대구광역시와 대구의료관광진흥원이 '메디시티대구 홍보설명회'를 개최했다고 말했다. 이번 설명회는 현지 의료관광 유치기관과 잠재 고객을 대상으로 대구 지역의 웰니스 의료관광 상품을 알리는
-    https://www.gukjenews.com/news/articleView.html?idxno=3746665
-
 ### 에어로케이항공, 청주~고베 노선 12월24일부터 주 4회 운항
 - 매체 2곳 · 충청매일 · 충청타임즈  ← 여러 곳이 썼다
   - 충청타임즈: [충청타임즈] 에어로케이항공이 새달 24일부터 청주~고베 노선을 주 4회 운항한다고 6일 밝혔다. 항공권 예약은 지난 6일부터 에어로케이항공 공식 홈페이지에서 시작했다.
@@ -198,17 +147,17 @@
   - 충청매일: 에어로케이항공은 다음달 24일부터 내년 3월 27일까지 청주~고베 노선을 주 4회 운항한다고 8일 밝혔다. 이 노선의 운항 요일은 매주 화, 목, 토, 일요일이다.
     https://www.ccdn.co.kr/news/articleView.html?idxno=1109691
 
+### 부산관광공사, 도쿄서 2일간 부산 관광 홍보…지역기업 11곳 참여
+- 매체 1곳 · 뉴스타운
+  - 뉴스타운: 부산 관광의 해외 홍보 무대가 일본 서부지역을 넘어 수도권 중심지인 도쿄로 확대됐다. 부산지역 관광기업 11곳이 참여한 현지 행사에서는 미식과 뷰티, 웰니스, 문화 등 부산의 관광 콘텐츠를 직접 체험할 수 있는 프로그램이 운영됐다.
+    https://www.newstown.co.kr/news/articleView.html?idxno=721450
+
 ## 태국
 
 ### 백석대, 태국 까셈반딧대와 MOU…스포츠·관광·경영 글로벌 교육협력 확대
 - 매체 1곳 · 충청시사신문
   - 충청시사신문: [충청시사신문=천안] 백석대학교가 태국 까셈반딧대학교와 국제교육교류 협약을 체결하고 스포츠·관광·경영 분야의 공동교육과 인적교류 확대에 나섰다. 백석대학교(총장 송
     https://www.csnnews.co.kr/news/articleView.html?idxno=33895
-
-### 카펠라 호텔 그룹, 교토부터 방콕까지 아시아 5개 도시 프리미엄 웰니스 여정 제시
-- 매체 1곳 · 퍼블릭뉴스통신(Public news-network for TTL)
-  - 퍼블릭뉴스통신(Public news-network for TTL): 가을과 겨울의 경계에서 글로벌 하이엔드 여행 시장이 지역 고유의 문화유산과 최상급 미식을 결합한 독점적 공간 경험으로 승부수를 띄우고 있다. 최상위 럭셔리 호스피탈
-    https://www.ttlnews.com/news/articleView.html?idxno=3160232
 
 ### 태국 관광업계: '더 이상 경쟁력이 없다'
 - 매체 1곳 · vietnam.vn
@@ -220,10 +169,17 @@
   - vietnam.vn: ANTD.VN - 태국 관광체육부와 방콕 주재 중국 대사관은 중국인 관광객 보호를 강화하고 중국인들을 미얀마 국경 너머로 유인하는 사기 행위를 방지하기 위해 공동 실무 그룹을 설립할 예정이다.
     https://www.vietnam.vn/ko/thai-lan-va-trung-quoc-lap-co-che-phoi-hop-bao-ve-du-khach
 
-### 태국을 제치고 vietnam.travel은 웹사이트 트래픽 기준으로 동남아시아에서 2위를 차지했습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: (조사) - 2026년 10월, 베트남 국가 관광 홍보 웹사이트 vietnam.travel의 방문자 수가 전월 대비 19.4% 증가했다. 이로써 해당 웹사이트는 태국의 관광 웹사이트를 제치고 싱가포르에 이어 동남아시아 2위로 올라섰다.
-    https://www.vietnam.vn/ko/vuot-thai-lan-vietnam-travel-lot-top-2-dong-nam-a-ve-luot-truy-cap
+### 롯데칠성·롯데웰푸드, 태국 CP그룹 유통사와 MOU…현지 판로 확대 추진
+- 매체 1곳 · 투어코리아
+  - 투어코리아: [투어코리아=배소은 기자] 롯데칠성음료가 태국 최대 기업집단인 CP그룹의 유통 계열사와 손잡고 현지 음료·생수 판매 확대에 나선다. 대형 할인점과 슈퍼마켓 체인을 운영하는 현지 유통사의 판매망을 발판 삼아 태국 내 입지를 넓히겠다는 구상이다.
+    https://www.tournews21.com/news/articleView.html?idxno=148031
+
+### Thailand strengthens Balkan tourism links with new Sofia–Phuket flights and Romanian trade partnerships
+- 매체 2곳 · The Phuket News · Travel Daily News Asia-Pacific  ← 여러 곳이 썼다
+  - Travel Daily News Asia-Pacific: 
+    https://www.traveldailynews.asia/aviation/thailand-balkan-tourism-sofia-phuket-flights/
+  - The Phuket News: 
+    https://news.google.com/rss/articles/CBMinAFBVV95cUxQbFgxZzdINS1YaXVRa0J2TV9UYVJVaGxkZUNZZmQwbnJiQ0E3VHVlVmF4eldTRl9lcE9sTkFsaldjZlh0WWd1czgwUk5qaUNfTWxRZDhpVWRXMmZobnI5X0VYS3VqOGVKcGVKaXRISlJWTUtQVHVBajh4S3g1SThPM2wzd2t5d1FXeml5MW1sTkM2Q2RrdEZ3ZFJScDc?oc=5
 
 ## 대만
 
@@ -242,15 +198,15 @@
   - 에이티엔뉴스: (충남=에이티엔뉴스) 박성민기자= 충남도가 대만 최대 규모 관광박람회에 참가해 현지 소비자를 대상으로 충남의 주요 관광자원과 내년 개최 예정인 대형 행사를 알렸다
     https://www.atnnews.co.kr/news/articleView.html?idxno=111951
 
-### 충남도, 대만 국제여전서 지역 관광명소 알렸다
-- 매체 1곳 · 주간한국
-  - 주간한국: [대전충청본부 = 주간한국 임덕철, 정윤서 기자] 충청남도는 지난 6일부터 9일까지 대만 타이베이 난강전람관에서 개최된 '2026 타이베이국제여전(ITF)'에 참가해 지역 관광자원을 적극적으로 홍보했다. 이번 박람회에서 충남도는 지역의 대표 관광 명소, 체험 프로그램, 먹거리 등 다양한
-    https://weekly.hankooki.com/news/articleView.html?idxno=7192938
+### 충남도, ‘2026 타이베이국제여전’ 참가…‘충남관광’홍보
+- 매체 1곳 · 특급뉴스
+  - 특급뉴스: 충남도가 대만 최대 규모 관광박람회에서 현지 소비자를 대상으로 도내 주요 관광지 등을 소개하며 충남관광을 알렸다. 도는 6∼9일 대만 타이베이 난강전람관에서 열린 ‘2026 타이베이국제여전(ITF)’에 참가해 충남관광 홍보관을 운영하고, 지역 관광 명소와 체험 프로그램, 먹거리 등 다양
+    https://www.expressnews.co.kr/news/articleView.html?idxno=332298
 
-### 충남도, 대만 관광박람회서 내년 대형행사 4개 홍보
-- 매체 1곳 · 투데이충남
-  - 투데이충남: [내포] 박승원 기자= 충남도가 대만 관광객을 대상으로 2027년 열리는 대형 행사 4개와 주변 관광지를 소개했다. 도는 6일부터 9일까지 타이베이 난강전람관에서
-    https://www.todaychungnam.net/news/articleView.html?idxno=479836
+### 대구·타이베이, 첨단산업·헬스케어 교류 확대…관광·재난 대응 협력 강화
+- 매체 1곳 · 한국사회복지저널
+  - 한국사회복지저널: 교류 현황 및 배경대구시와 타이베이시는 2010년 자매결연 체결 이후 관광·교육·예술·체육·도시행정 등 다양한 분야에서 지속적인 교류를 이어오고 있다. 고위급 방문 및 논의 내용2026년 11월 6일(금), 타이베이시 장온덕 부시장과 대표단이 대구를 방문해 심영재 대구시 행정부시장이 교
+    https://www.ksw-news.com/news/articleView.html?idxno=3057790
 
 ## 국내
 
@@ -265,69 +221,50 @@
   - 충북일보: ［충북일보］ 단양관광공사가 지난 9일 김해시의회 사회산업위원회의 방문으로 간담회를 개최했다. 이번 방문은 김해시의회 사회산업위원회의 단양 지역 비교 견학 일정의 하나로 강영수 위원장과 시의원 8명, 공무원 6명 등 총 14명이 참석했다.
     https://www.inews365.com/news/article.html?no=942941
 
-### 포항시, ‘2026 포항국제불빛축제’ 최종점검 보고회 개최… 안전·교통·운영 종합 점검
-- 매체 3곳 · TTL뉴스 · 경북신문 · 글로벌경제신문  ← 여러 곳이 썼다
-  - TTL뉴스: [퍼블릭뉴스통신]포항시가 오는 19일 개막하는 ‘2026 포항국제불빛축제’를 앞두고 행사 준비 상황 전반을 최종 점검하며 막바지 안전관리에 나섰다. ​포항시는 9일 시청 대회의실에서 박용선 시장 주재로 ‘2026 포항국제불빛축제 최종점검 보고회’를 개최했다.
-    http://www.ttlnews.com/news/articleView.html?idxno=3160319
-  - 글로벌경제신문: 대한민국 무적 해병의 기개와 포항시민의 뜨거운 호국 정신이 어우러지는 호국 문화축제인 '포항 해병대문화축제'의 성공적인 개최를 앞두고 포항시가 마지막 준비 상황을
-    https://www.getnews.co.kr/news/articleView.html?idxno=886504
-  - TTL뉴스: [퍼블릭뉴스통신]경북 포항시가 지역 대표 축제인 ‘2026 포항국제불빛축제’를 앞두고 관람객 안전 확보와 성공적인 축제 개최를 위한 막바지 점검을 마쳤다. ​포항시는 9일 시청 대회의실에서 박용선 시장 주재로 ‘2026 포항국제불빛축제 최종점검 보고회’를 개최했다.
-    http://www.ttlnews.com/news/articleView.html?idxno=3160329
-  - 경북신문: 
-    https://www.kbsm.net/news/view.php?idx=541025
+### 놀유니버스, 부산관광공사와 맞손…해외관광객에 숙박 10% 할인 제공
+- 매체 3곳 · 불교방송 · 연합뉴스 · 한국경제  ← 여러 곳이 썼다
+  - 한국경제: 놀유니버스, 부산관광공사와 맞손…해외관광객에 숙박 10% 할인 제공, NOL WORLD서 오는 30일까지 부산 1,800여 개 숙소 대상 10% 무제한 할인 투어 예약시 공항철도 할인 바우처 증정&hellip; &lsquo;블랙프라이데이&rsquo; 프로모션도 진행
+    https://www.hankyung.com/article/202611106349P
+  - 연합뉴스: (서울=연합뉴스) 이상서 기자 = 놀유니버스가 운영하는 놀 월드는 부산관광공사와 함께 오는 30일까지 해외관광객 유치와 지역 관광 활성화를 위한. ..
+    https://www.yna.co.kr/amp/view/AKR20261110029500030
+  - 불교방송: 놀유니버스가 부산관광공사와 손잡고 외국인 관광객 유치와 지역 관광 활성화를 위한 프로모션을 진행합니다. 놀유니버스는 외국인 관광객 대상 여행·티켓 플랫폼 놀 월드를 통해 ‘Your Perfect Busan Autumn Getaway’ 프로모션을 오는 30일까지 운영한다고 오늘 밝혔습니다
+    https://news.bbsi.co.kr/news/articleView.html?idxno=4117791
 
-### 포항 구룡포 과메기 축제 성료…3천여 명 방문, 겨울철 별미 매력 알려
-- 매체 4곳 · 경상매일신문 · 내외일보 · 웹플러스뉴스 · 폴리뉴스 Polinews  ← 여러 곳이 썼다
-  - 웹플러스뉴스: 포항의 대표 겨울철 특산물인 구룡포 과메기를 알리고 지역 수산물 소비 촉진을 위한 ‘제27회 포항 구룡포 과메기 축제’가 시민과 관광객 3,000여 명이 참여한 가운데 성황리에 마무리됐다. 포항시는 지난 7일부터 8일까지 이틀간 남구 구룡포읍 아라광장 일원에서 열린 ‘2026년 제27회
-    http://www.webplusnews.kr/news/articleView.html?idxno=45404
-  - 폴리뉴스 Polinews: [폴리뉴스 권택석(=경북) 기자] 제철을 맞은 구룡포 과메기를 맛보고 다양한 체험을 즐기려는 시민과 관광객 3,000여 명이 축제장을 찾았다. 포항시는 포항구룡포과
-    https://www.polinews.co.kr/news/articleView.html?idxno=748030
-  - 내외일보: [내외일보=포항] 하청해 기자= 포항시는 포항구룡포과메기사업협동조합이 주최하고 매일신문이 주관한 ‘2026년 제27회 포항 구룡포 과메기 축제’가 지난 7일부터
-    https://www.naewoeilbo.com/news/articleView.html?idxno=2449297
-  - 경상매일신문: 
-    https://www.ksmnews.co.kr/news/view.php?idx=628848
+### 안동 생강·독도 방어로 즐기는 경북의 제철 미식
+- 매체 3곳 · 경북매일 · 경북일보 · 뉴스웍스  ← 여러 곳이 썼다
+  - 경북매일: 경북문화관광공사가 경북의 땅과 바다가 빚어낸 늦가을 제철 식재료를 미식관광 콘텐츠로 소개했다. 경상북도문화관광공사는 경북의 제철 식재료와 지역 고유의 음식문화를 담은 ‘경북 미식여행 METI(Monthly Eating Travel Initiative)’ 11월호를 소개
+    https://www.kbmaeil.com/article/20261110500103
+  - 뉴스웍스: [뉴스웍스=최만수 기자] 경상북도문화관광공사는 11월을 맞아 경북의 제철 식재료와 지역 식문화를 소개하는 ‘경북 미식여행 METI(Monthly Eating Tr
+    https://www.newsworks.co.kr/news/articleView.html?idxno=902619
+  - 경북일보: 풍광 감상 위주에 머물던 지방 관광의 패러다임이 오감을 자극하는 제철 음식과 인문학적 식문화를 결합한 미식 여행으로 진화하고 있다. 경북의 기름진 토양과 동해 청정해역이 길러낸 제철 식재료를 스토리텔링과 엮어 관광객의 발길을 머물게 하는 고부가가치 관광 자산으로 키우겠다는 포석이다.
+    https://www.kyongbuk.co.kr/news/articleView.html?idxno=4090354
 
-### 충남도, 서천 유부도·태안 마금리 갯벌생태마을 선정…해양생태관광 육성
-- 매체 3곳 · 뉴스충청인 · 충청시사신문 · 한국지방정부신문  ← 여러 곳이 썼다
-  - 뉴스충청인: 
-    http://www.cndnews.co.kr/463373
-  - 충청시사신문: [충청시사신문=태안] 충남 태안군 근흥면 마금리가 해양수산부의 국가지정 갯벌생태마을로 선정되면서 갯벌 생태자원을 활용한 지속가능한 해양관광 기반을 확대할 수 있게
-    https://www.csnnews.co.kr/news/articleView.html?idxno=33904
-  - 한국지방정부신문: [한국지방정부신문=박상대 기자] 충남도(도지사 박수현)가 서천 유부도와 태안 마금리 어촌마을의 갯벌생태마을 지정으로, 주민의 보전 역량과 생태 자원을 지역 발전 정책으로 연결할 기반을 마련했다. 국가 지정은 갯벌의 생태적 가치뿐 아니라 이를 지속적으로 관리하고 활용할 마을의 역량을 인정
-    https://www.localnewsroom.co.kr/news/articleView.html?idxno=9227
+### 밀양문화관광재단, ‘꿈의 예술단’ 신규거점 선정…5년간 국비 지원
+- 매체 2곳 · 뉴스1 · 문화뉴스  ← 여러 곳이 썼다
+  - 문화뉴스: 밀양지역 아동·청소년들이 뮤지컬과 연극 등 다양한 예술활동에 지속적으로 참여할 수 있는 교육 기반이 마련된다. 놀이와 체험을 중심으로 창의성과 표현력을 키우는 문화예술교육 프로그램이 내년부터 본격 운영된다.
+    https://www.mhns.co.kr/news/articleView.html?idxno=768409
+  - 뉴스1: 
+    https://www.news1.kr/local/busan-gyeongnam/6349026
 
-### 단양관광공사, 관광 비수기 극복 성과로 경제 부문 대상 수상
-- 매체 3곳 · K-Life TV · 뉴스21 통신 · 중도일보  ← 여러 곳이 썼다
-  - 중도일보: 단양 관광의 무게중심을 가을 성수기에서 야간과 겨울철로 넓혀온 단양관광공사의 관광 활성화 노력이 대외적으로 인정받았다. 단양관광공사는 지난 6일 국회의사당 의원회관에서 열린 '20..
-    https://www.joongdo.co.kr/web/view.php?key=20261109010002642
-  - 뉴스21 통신: ‘2026 대한민국 글로벌 브랜드 대상’ 시상식에서 경제 부문 대상을 받은 이관표 단양 관광공사 사장(오른쪽)이 기념촬영을 하고 있다. 단양 관광공사(사장 이관표)가 ‘2026 대한민국 글로벌 브랜드 대상’ 시상식에서 경제 부문 대상을 받았다.
-    https://www.news21tongsin.co.kr/news/309629
-  - K-Life TV: [K-Life TV=김은강 기자] 충북 단양관광공사가 ‘2026 대한민국 글로벌 브랜드 대상’ 시상식에서 경제 부문 대상을 수상했다. ‘2026 대한민국 글로벌 브
-    https://www.k-lifetv.co.kr/news/articleView.html?idxno=40071
+### 제천 의림지뜰 자연치유특구 2029년까지 연장…체류형 관광단지로 개편
+- 매체 2곳 · TTL뉴스 · 뉴스핌  ← 여러 곳이 썼다
+  - 뉴스핌: [제천=뉴스핌] 조영석 기자 = 제천시가 의림지뜰 자연치유특구 사업기간을 3년 연장하고 관광 콘텐츠와 편의시설을 확충해 체류형 관광단지로 재편한다. 시는 당초 2026년까지였던 사업기간을 2029년까지 연장하고 기존 시설 조성 중심의 계획을 자연·농
+    https://www.newspim.com/news/view/20261110000414
+  - TTL뉴스: 삼한시대 수리시설인 의림지의 배후 평야를 개발하는 충북 제천시의 생태관광 프로젝트가 관 주도 인프라 중심에서 자연 친화적 체류형 복합공간으로의 변경을 추진하기로 했다. 제천시는 공사 지연 문제를 해소하고 고유 관광 콘텐츠와 관람 편의시설을 확충하기 위해 '의림지뜰 자연치유특구'의 개발계
+    http://www.ttlnews.com/news/articleView.html?idxno=3160588
 
 ## 여행업계
 
-### 경남도, 우주항공복합도시 특별법 연내 제정 촉구…14만 명 서명 전달
-- 매체 4곳 · 뉴시스 · 동아일보 · 문화뉴스 · 한국경제  ← 여러 곳이 썼다
-  - 문화뉴스: 경남 사천과 전남 고흥을 중심으로 우주항공복합도시를 조성하기 위한 특별법 제정을 촉구하는 영호남 공동 결의대회가 국회에서 열렸다. 참석자들은 시도민 14만여 명의 서명부를 전달하고 국회에 계류 중인 법안의 연내 처리를 요구했다.
-    https://www.mhns.co.kr/news/articleView.html?idxno=768309
-  - 한국경제: 영·호남 '우주항공복합도시 특별법' 힘 합친다, "남해안권 새 성장축 만들어야" 특별법안 연내 국회 통과 촉구
-    https://www.hankyung.com/article/2026110957141
-  - 문화뉴스: 전남 고흥군과 경남 사천시 주민들이 국회 앞에 모여 우주항공복합도시 특별법의 연내 통과를 촉구했다. 고흥군은 어제 9일 오후 1시 국회의사당 앞에서 전남광주통합특별시, 경상남도, 사천시와 함께 ‘우주항공복합도시 건설 및 지원에 관한 특별법’ 제정을 촉구하는 공동 결의대회를 열었다고 밝혔
-    https://www.mhns.co.kr/news/articleView.html?idxno=768360
-  - 뉴시스: [사천=뉴시스] 차용현 기자 = 영남의 경남 사천시와 호남의 전남 고흥군 주민 500여 명이 국회에 계류 중인 우주항공복합도시 건설 특별법의 조속한 제정을 촉구하며 한목소리를 냈다.
-    https://www.newsis.com/view/NISX20261109_0003860102
-
-### 제주항공, 고객 맞춤형 항공권 특가 정보 제공
-- 매체 5곳 · 뉴스1 · 뉴스핌 · 아시아경제 · 인더스트리뉴스 · 트래블데일리  ← 여러 곳이 썼다
-  - 뉴스핌: [서울=뉴스핌] 김지헌 기자= 제주항공은 고객의 여행 취향에 맞춰 항공권 특가 정보를 제공하는 '내 여행 취향' 서비스를 운영하고 있다고 9일 밝혔다. '내 여행 취향'은 고객이 여행 동반자와 출발 공항, 희망 여행지, 선호하는 부가서비스 등 4가지 항목을 등록
-    https://www.newspim.com/news/view/20261109000247
-  - 아시아경제: 제주항공이 고객의 여행 선호도를 반영해 관심 노선의 항공권 특가 정보를 맞춤형으로 알려주는 서비스를 앞세워.
-    https://www.asiae.co.kr/article/2026110909343221175
-  - 뉴스1: 
-    https://www.news1.kr/industry/general-industry/6347594
-  - 인더스트리뉴스: [인더스트리뉴스 문기수 기자] 제주항공이 고객 개인별 선호도에 맞춘 항공권 큐레이션 서비스 ‘내 여행 취향’을 앞세워 초개인화 마케팅에 속도를 내고 있다. 불특정
-    https://www.industrynews.co.kr/news/articleView.html?idxno=89123
+### 오송역~인천공항 시외버스 20일 운행 개시…하루 2회 운영
+- 매체 4곳 · 세종포스트 · 충청게릴라뉴스 · 프레시안 · 한국경제  ← 여러 곳이 썼다
+  - 한국경제: 
+    https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oaDJXcDQtRjRtRGpQTUFsaUFmU3VyX2tyeG5laHI2V05fUFRpS0pyR1d2MHFqbVgtLWQ4MVZ0OU5YZC1jeWtUTlNRU3d0MW5yNDZ4c3NBSWswdw?oc=5
+  - 세종포스트: 
+    https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZWWhQcklaNFN1WmlsWENFNEFyRldjaWJMOHdCc3NpQnhwREdMeWQtZ1pSQzFkQk8xSU1ScDlBSlY0VElOeHJhWnUyUmp6UEpRR0Ftd0ptRDhVSmZETHJRX3dOQ1hhQXJK?oc=5
+  - 프레시안: 
+    https://news.google.com/rss/articles/CBMia0FVX3lxTFBXak1HcWJ3VlFKek1wTkN6OTFTOXVCRHdEaUtWMHVNZVlwUE5WYnpiTmNBVzdHaTFFVWJTSmdGM011cmJNZ2xhc0d2dThkaTZOaHdZMnZmWGdNX1Axanc5TndiZWowRFo5Y1hV?oc=5
+  - 충청게릴라뉴스: 청주 오송역에서 인천국제공항을 오가는 시외버스가 오는 20일부터 운행을 시작해 지역주민들의 공항 접근성이 개선될 전망이다. 충청북도에 따르면 해당 노선은 오송역 버스환승센터 8번 승차홈에서 하루왕복 2회 운행하며, 출발시간은 오전 4시와 오후 5시다.
+    http://www.ccgnews.kr/news/articleView.html?idxno=20826
 
 ### 파라타항공, 인천~선전 신규 취항…中 하늘길 개척
 - 매체 4곳 · 뉴스1 · 데일리안 · 매일경제 · 아시아경제  ← 여러 곳이 썼다
@@ -340,36 +277,32 @@
   - 데일리안: 
     https://news.google.com/rss/articles/CBMiowJBVV95cUxQajZaXzBtRDFkVkxIUWpvcDFBNmQ4eW14ZzF5T2xaTERxSDZEcV94WldFYWhhcEhSZWpNSEduWEtSN25BTjB1blNhSmY1MTRVQm56dW1scDA4RkxKLWhGaVloTDN0bksta19IWWdKVUo5ekQxRTc5TFh6ZlRDU0paQ2gzTlpPbEs3bXNTQjdFbjJjeWRYLTcwUU45N0JNZFllR1ZpcDEtNDBSZlhZYlR4NW8xMXBkcWU5TC1aTnB4cWJsTDl3QzFveFp2dEdqQkY0UWZfYU1CeldlX1Y5NHYxY0NwWkN1OVpmeEpTaUFLb0o4enJzS1pOZVNqUXBiV0NGYS1yN2lMcmIwMGZtWW91S1AtX3hwajdoUndYVnBQRHltVkk?oc=5
 
-### 에어프레미아, 톈진항공과 인터라인…中 항공사와 첫 노선 연계
-- 매체 4곳 · OBS경인TV · 뉴스1 · 이뉴스투데이 · 한국경제  ← 여러 곳이 썼다
-  - 뉴스1: 
-    https://www.news1.kr/industry/general-industry/6347202
-  - 한국경제: 에어프레미아, 중국 톈진항공과 첫 인터라인 협력…, 중국 항공사와 첫 인터라인 협약&hellip;중국발 미주 환승수요 확대 기대 인천~톈진 노선 연계&hellip;중국 주요 도시와 미주 연결성 강화
-    https://www.hankyung.com/article/202611093775P
-  - 이뉴스투데이: [이뉴스투데이 김재한 기자] 에어프레미아가 중국발 미주 노선 환승객을 모으고 인천국제공항을 중심으로 한 항공 네트워크를 다지기 위한 노선 연계에 나섰다. 에어프레미아는 중국 국적 항공사인 톈진항공(Tianjin Airlines)과 인터라인 협약을 체결하고 양사 노선을 결합한 연계 항공
-    http://www.enewstoday.co.kr/news/articleView.html?idxno=2489771
-  - OBS경인TV: 
-    https://news.google.com/rss/articles/CBMibkFVX3lxTE5xSS1WU0cxYmQ0eC0tVmRYR0g1dDJiTVVPcUs0R3IyMkZYS0JMTHc2OVNUNHZ2Q3NsRkpUNWJVMTZtTDU5X0o3OGJXVTJvMC1EYURzV0hvS3ZGc2o4Z0d4OFl4RXN5Q0dEaFhQYkhn?oc=5
+### 하나투어 자유여행 올인위크 15일까지…항공 최대 4만 원·호텔 13% 할인
+- 매체 3곳 · TTL뉴스 · 여행레저신문 · 트래블데일리  ← 여러 곳이 썼다
+  - 여행레저신문: 
+    https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkxFVk5waThFS2tKeFlXQ2VYcWkycmgzbGgyZmsxTVI4VlM5WmxtNVRfaXVYUThBLWJVWXFKWEJFQVRSNVFRZ2l2X041T3JSUzFrd1JOZzBqdjlaN3BwOWZNM0FlcG81QmNRaU9ralM0bzIxQWZ4cEctbkZ1OHRLVTRvMGtjQWFj?oc=5
+  - TTL뉴스: 연말연시를 앞두고 해외여행 수요가 가파르게 상승하는 가운데, 대형 여행사가 휴양지와 동계 관광지를 결합한 개별 여행객 유치전에 돌입했다. 하나투어는 11월 9일부터 11월 15일까지 일주일 동안 동계 시즌 자유여행 전용 기획전인 '자유여행 올인위크'를 진행한다.
+    http://www.ttlnews.com/news/articleView.html?idxno=3160632
+  - 트래블데일리: 하나투어가 겨울 자유여행 수요를 겨냥해 이달 9일부터 15일까지 ‘자유여행 올인위크’를 진행한다. 자유여행 올인위크는 항공, 숙박, 현지 체험 등 자유여행 전용 상품을 매달 엄선해 선보이는 기획전이다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72640
 
-### [포토] 김학형-강경남-옥태훈 'KPGA 투어 챔피언십을 기록하다'
-- 매체 1곳 · ㅍㅍㅅㅅ PPSS  ← 여러 곳이 썼다
-  - ㅍㅍㅅㅅ PPSS: (PPSS 박은숙 기자) KPGA투어 2026시즌 최종전인 ‘KPGA 투어챔피언십 in Jeju‘ (총상금 11억 원 / 2억 2천만 원) 최종 4라운드 경기가
-    https://www.ppss.kr/news/articleView.html?idxno=319669
-  - ㅍㅍㅅㅅ PPSS: (PPSS 박은숙 기자) KPGA투어 2026시즌 최종전인 ‘KPGA 투어챔피언십 in Jeju‘ (총상금 11억 원 / 2억 2천만 원) 최종 4라운드 경기가
-    https://www.ppss.kr/news/articleView.html?idxno=319686
-  - ㅍㅍㅅㅅ PPSS: (PPSS 박은숙 기자) KPGA투어 2026시즌 최종전인 ‘KPGA 투어챔피언십 in Jeju‘ (총상금 11억 원 / 2억 2천만 원) 최종 4라운드 경기가
-    https://www.ppss.kr/news/articleView.html?idxno=319670
-  - ㅍㅍㅅㅅ PPSS: (PPSS 박은숙 기자) KPGA투어 2026시즌 최종전인 ‘KPGA 투어챔피언십 in Jeju‘ (총상금 11억 원 / 2억 2천만 원) 최종 4라운드 경기가
-    https://www.ppss.kr/news/articleView.html?idxno=319684
+### 동남아 관광객이 몰려온다…한국관광공사, 항공·금융·K-팝 결합해 방한시장 확대
+- 매체 3곳 · 경기뉴스원 · 트래블데일리 · 한국경제  ← 여러 곳이 썼다
+  - 경기뉴스원: 【서울=경기뉴스1/경기뉴스원】 | 인도네시아와 필리핀에서 한국을 찾는 관광객이 빠르게 증가하면서 동남아시아가 한국 관광산업의 주요 성장시장으로 부상하고 있다. 한국관광공사는 이러한 수요를 실제 방한객 증가로 연결하기 위해 현지 온라인여행사와 항공사, 금융기업을 아우르는 전략적 협력에 나
+    https://www.ggnews1.co.kr/news/article.html?no=659032
+  - 트래블데일리: 한국관광공사는 지난 3일부터 7일까지 박성혁 사장을 필두로 인도네시아 자카르타와 필리핀 마닐라 등에서 방한시장 확대를 위한 현지 세일즈 활동을 펼쳤다. 올해 9월까지 인도네시아에서 한국을 찾은 외래객은 330,629명으로 전년 같은 기간 대비 23.4% 증가하며 가파른 상승세를 보였다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72624
+  - 한국경제: 
+    https://www.hankyung.com/koreamarket/consensus/pdf/2026-11-aa5034a8436f1c644f800ea74945925c
 
-### “중국서 인천 거쳐 미국까지 한 번에!”…에어프레미아, 톈진항공 손잡고 환승시장 공략
-- 매체 3곳 · ER 이코노믹리뷰 · 투어코리아 · 트래블데일리  ← 여러 곳이 썼다
-  - 투어코리아: [투어코리아=조성란 기자] 에어프레미아가 중국과 미국을 잇는 환승시장 공략에 속도를 낸다. 중국 톈진에서 인천을 거쳐 미국 로스앤젤레스(LA), 뉴욕, 샌프란시스코 등으로 이동할 수 있도록 항공편을 연계해 인천공항을 중심으로 한 미주 환승객 유치에 나선다.
-    https://www.tournews21.com/news/articleView.html?idxno=147848
-  - ER 이코노믹리뷰: 에어프레미아가 중국발 승객을 인천에서 받아 미주 노선으로 연결하는 환승 네트워크를 구축한다. 중국 항공사와 처음으로 인터라인 협력을 맺고 인천공항을 활용한 중국~미주 환승 수요 확보에 나선다는 방침이다.
-    https://www.econovill.com/news/articleView.html?idxno=756535
-  - 트래블데일리: 에어프레미아가 중국 국적 항공사 톈진항공(Tianjin Airlines)과 인터라인 협력을 맺고 양사 노선을 연계한 항공 운송 서비스를 시작했다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72629
+### “호랑이와 까치가 전하는 희망”… 인천공항, ‘송구영신’ 연말 장식
+- 매체 3곳 · 경기일보 · 경향신문 · 한국경제  ← 여러 곳이 썼다
+  - 경향신문: 
+    https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FeGw3U0x5c3pFOXNFQm5Gd1Iza1hGdXU0T2NOMnNRX2Vqb09YbENEMm1YZVpZQ09iV2tqOGFRa05zRGxLSlRzWmo4MjA4aE1ic3Mxd2RMRWJSZ9IBX0FVX3lxTE5UemdyNms1eFRKZVhROHZzWGZKNXRzLTluSERYVXprOXdVMFlZM3poRHFtMFJFaEdXdlJnQm9JbGJ1cFNnOTdhX3ZuSWRDZnUzN1c3dHN5RE1CT04wUmt3?oc=5
+  - 한국경제: 사진으로 보는 인천공항 연말 장식, 강준완 기자, 사회
+    https://www.hankyung.com/article/202611107982h
+  - 경기일보: 인천국제공항공사는 인천공항 제1여객터미널(T1)에서 ‘송구영신’을 주제로 한 연말 장식을 선보인다고 10일 밝혔다. 이번 행사는 외국인 여객에게 한국의 세시풍속을 알리고 내국인 여객에게는 전통 정서를 전하기 위해 마련했다.
+    https://www.kyeonggi.com/article/20261110580434
 
 ### 롯데면세점, 블프 맞아 최대 65% 할인 ‘면세일, BLACK FRIDAY’ 돌입
 - 매체 3곳 · 뉴시스 · 매일경제 · 한국면세뉴스  ← 여러 곳이 썼다
@@ -384,34 +317,40 @@
 - 매체 3곳 · 뉴데일리 · 위키리크스한국 · 한국경제  ← 여러 곳이 썼다
   - 한국경제: 제주항공 3분기 영업익 549억…1년 만에 흑자 전환, 신용현 기자, 경제
     https://www.hankyung.com/article/202611033332g
-  - 위키리크스한국: 
-    https://news.google.com/rss/articles/CBMicEFVX3lxTE8tQW1MWWZMcWR6ZE1KcHVJUGx2WUZ4dmRlTHJkMXFHNi11Und2VFFzaHcxUEUxYm9GWHRNSW9COGJseUs4N0k5SlBhLTlEY3ZQUTJyMFdPbzNVX2d3Yjc4UU1sWUV1NU43ZHZ4MW9XTmg?oc=5
+  - 위키리크스한국: 제주항공이 노선 운영 효율화와 차세대 항공기 도입 등을 통해 수익성 관리에 나서고 있다. 10일 항공업계에 따르면 제주항공은 3분기 흑자 전환을 바탕으로 여객 수요에 맞춘 노선 조정과 비용 효율화를 추진하고 있다.
+    https://www.wikileaks-kr.org/news/articleView.html?idxno=194428
   - 뉴데일리: 진에어가 일본과 중국 등 단거리 노선 수요 증가에 힘입어 올해 3분기 흑자 전환에 성공했다. 높은 유가와 환율 변동성 심화 속에서도 수익성 높은 노선을 중심으로 공급을 확대하면서 분기 기준 역대 최대 매출도 기록했다.
     https://biz.newdaily.co.kr/site/data/html/2026/11/06/2026110600257.html
 
-### 충남문화관광재단, 여가친화경영기관 재인증
-- 매체 3곳 · 국제뉴스 · 굿모닝충청 · 충청매일  ← 여러 곳이 썼다
-  - 굿모닝충청: [굿모닝충청 이종현 기자] 충남문화관광재단이 문화체육관광부로부터 여가친화경영 기관으로 재인증 받았다. 9일 재단에 따르면 2023년 최초 인증을 받은 데 이어 일과 여가의 균형을 위한 근로환경 개선 노력을 인정받아 재인증에 성공했다.
-    https://www.goodmorningcc.com/news/articleView.html?idxno=455391
-  - 충청매일: 충남문화관광재단(대표이사 직무대행 이한수)은 문화체육관광부가 주최하는‘여가친화인증제도’ 공공기관 부문에서 여가친화인증기관으로 재인증을 획득했다고 밝혔다. 여가친화인증제는 국민여가활성화기본법 제16조에 근거해 근로자가 일과 여가생활을 조화롭게 병행할 수 있도록 모범적인 여가친화경영을 펼
-    https://www.ccdn.co.kr/news/articleView.html?idxno=1109769
-  - 국제뉴스: (충남=국제뉴스) 박의규 기자 = 충남문화관광재단이 문화체육관광부가 주관하는 '여가친화인증제도'에서 공공기관 부문 재인증을 받았다. 재단은 2023년 처음 인증을 획득한 이후, 일과 여가의 균형을 위한 다양한 조직문화 개선과 근로환경 혁신을 이어온 점이 인정됐다.
-    https://www.gukjenews.com/news/articleView.html?idxno=3746758
+### ﻿한국관광협회중앙회, 한국무역협회 등 6개 기관과 서비스무역 경쟁력 강화 업무협약 체결
+- 매체 2곳 · 트래블데일리 · 호텔앤레스토랑  ← 여러 곳이 썼다
+  - 호텔앤레스토랑: ﻿한국관광협회중앙회(회장 이경수, 이하 중앙회)는 10일(화) 서울 강남구 삼성동 트레이드타워에서 한국무역협회, 한국콘텐츠진흥원, 한국무역보험공사, 한국인공지능·소프트웨어산업협회, 한국해운협회와 함께 '차세대무역플랫폼 「서비스무역」 협력 체계 조성을 위한 업무협약(MOU)'을 체결했다고
+    https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22493
+  - 트래블데일리: 한국관광협회중앙회(중앙회)는 10일 서울 강남구 삼성동 트레이드타워에서 한국무역협회, 한국콘텐츠진흥원, 한국무역보험공사, 한국인공지능·소프트웨어산업협회, 한국해운협회와 함께 '차세대무역플랫폼 ‘서비스무역’ 협력 체계 조성을 위한 업무협약(MOU)'을 체결했다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72646
 
-### 여기어때, '연차없이 어떡행' 홍콩 여행 기획전
-- 매체 3곳 · 대한뉴스 · 브레이크뉴스 · 주간한국  ← 여러 곳이 썼다
-  - 브레이크뉴스: 여행·여가 플랫폼 여기어때가 자사 유튜브 채널 '때때때'의 콘텐츠 '연차없이 어떡행' 홍콩편 공개를 기념해 홍콩 여행 기획전을 진행한다고 9일 밝혔다
-    http://breaknews.com/1249295
-  - 대한뉴스: [대한뉴스=이윤성 기자] 대한민국 대표 종합 여행·여가 플랫폼 여기어때(대표 정명훈)가 자사 오리지널 유튜브 채널 ‘때때때’의 콘텐츠 ‘연차없이 어떡행’ 홍콩편 공개를 기념해 홍콩 여행 기획전을 진행한다. 홍콩관광청과 함께 진행하는 이번 프로모션은 콘텐츠 속 여행 경험을 실제 여행으로 
-    http://www.dhns.co.kr/news/articleView.html?idxno=388354
-  - 주간한국: [주간한국 송정인 기자] 여기어때가 자사 오리지널 유튜브 채널 ‘때때때’의 콘텐츠 ‘연차없이 어떡행’ 홍콩편 공개를 기념해 홍콩 여행 기획전을 진행한다고 9일 밝혔다. 이번 프로모션은 홍콩관광청과 마련했으며, 콘텐츠서 소개한 여행 경험을 여행으로 연결하기 위해 기획됐다.
-    https://weekly.hankooki.com/news/articleView.html?idxno=7192937
+### “브루나이 여행, 어디서 뭘 즐길까?”…로열브루나이항공, 현지 체험 예약 플랫폼 ‘디스커버 브루나이’ 론칭
+- 매체 2곳 · 투어코리아 · 트래블데일리  ← 여러 곳이 썼다
+  - 투어코리아: [투어코리아=조성란 기자] 브루나이 여행이 한층 편리해진다. 현지 문화유산 탐방부터 열대 자연 속 액티비티, 다이빙, 미식 체험까지 브루나이에서 즐길 수 있는 관광상품을 한곳에서 찾아보고 예약할 수 있는 디지털 플랫폼이 등장했다.
+    https://www.tournews21.com/news/articleView.html?idxno=148004
+  - 트래블데일리: 로열브루나이항공(Royal Brunei Airlines)이 브루나이의 다양한 관광 콘텐츠를 한곳에서 확인하고 예약할 수 있는 디지털 플랫폼 ‘디스커버 브루나이’를 공식 론칭했다. 디스커버 브루나이는 11월 4일 영국 런던에서 열린 ‘2026 런던 세계여행박람회(World Travel M
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72641
+
+### 모두투어, 中 옌타이서 첫 파크골프대회…해외 스포츠 테마여행 키운다
+- 매체 2곳 · 아주경제 · 트래블데일리  ← 여러 곳이 썼다
+  - 아주경제: 
+    https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uaERLQThNMHU3YUV0NXVtWFFZOFpDNFQ5OWJiM3p2SWFCVXFUdGFHWlhaT1VkV2hlaUJWMGFocHlTSUcwdDhwUnl3TmI3ZFNnVUFUS1ppYVZaZ9IBWEFVX3lxTE5UbjlZTlRocXVLSVpLdVp3T3ctbDFLcm91a1pSTzNvR0tBUjhEZ3o5WmZhcFczc09uWTVUZFh3NkFrOGh2amxqT05ZNXV0em1CMDRQVG1HN2w?oc=5
+  - 트래블데일리: 모두투어는 중국 산둥성 옌타이에서 ‘제1회 모두투어배 산동성 파크골프대회’를 성공적으로 마무리하고, 대회 운영과 현지 관광·휴양을 결합한 해외 스포츠 테마여행 사업 확대에 나선다. 이번 대회는 지난 3일부터 7일까지 4박 5일 일정으로 진행됐으며 참가 선수 33명이 함께했다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72637
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 28건)
 
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
 
+- [2026-11-10·국내] 11월에도 꽃놀이…통영 부겐베리아 축제 21일 개막
+  통영 동백커피식물원이 옛 파프리카 재배 온실을 무대로 늦가을 꽃축제를 선보인다. 11월 21~30일 ‘천만 송이 부겐베리아 페스타’를 열고 부겐베리아 꽃길과 음악 공연을 함께 선보인다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500693
 - [2026-11-10·여행업계] 국제선은 날개를 달았는데 공항은 제자리…청주공항의 성장통
   청주국제공항의 국제선 이용객이 역대 최대 기록을 경신했지만 공항 인프라는 늘어나는 수요를 따라가지 못하고 있다. 일본과 중국을 중심으로 신규 취항과 증편이 이어지면서 국제선 여객은 올해 10월 말 이미 지난해 연간 실적을 넘어섰다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500671
@@ -559,16 +498,11 @@
 - [2026-11-02·여행업계] 학생이 떠난 캠퍼스, 관광지가 될 수 있을까 [고성호의 관광 개발 이야기]
   지방에서 대학은 교육시설 그 이상이다. 수천 명의 학생과 교직원이 생활하고 소비하며, 주변으로 원룸과 상가가 들어선다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500619
-- [2026-11-02·여행업계] [기자수첩] AI의 빈틈을 노려라
-  얼마 전 LA에서 휴가를 보내고 왔다. 낯선 곳에서 지내는 시간은 궁금한 것들로 가득했고, 그래서 평소보다 AI에게 던지는 질문이 왕창 늘었다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500610
 
 ## 공연·전시 — category: stage, 하루 두 편 이상
 
-### [stage] 파리 오페라 발레의 감동이 스크린으로…박세은 주연 ‘로미오와 줄리엣’ 22일 개봉
-- 매체 4곳 · 뉴스인 · 뉴스코리아 NEWS KOREA · 뉴스탭 · 에너지뉴스
-  - 뉴스탭: 한국인 최초로 파리 오페라 발레의 최고 등급인 에투알에 오른 발레리나 박세은이 줄리엣으로 변신해 국내 관객을 만난다. 세계적인 발레단 파리 오페라 발레(Paris
-    https://www.newstap.co.kr/news/articleView.html?idxno=337518
+### [stage] 한국인 첫 파리 오페라 발레 에투알 박세은, ‘로미오와 줄리엣’으로 국내 스크린 찾는다
+- 매체 3곳 · 뉴스인 · 뉴스코리아 NEWS KOREA · 에너지뉴스
   - 뉴스코리아 NEWS KOREA: (뉴스코리아=서울) 배소윤 기자 = 한국인 최초로 프랑스 파리 오페라 발레(Paris Opera Ballet)의 최고 등급인 에투알(Étoile)에 오른 발레리나
     https://www.newskorea.ne.kr/news/articleView.html?idxno=21935
   - 에너지뉴스: 공연예술 콘텐츠 전문 배급사 위즈온센이 세계적인 발레단 파리 오페라 발레(Paris Opera Ballet)의 2026/27 시즌 라인업을 국내에 선보인다. 첫
@@ -576,16 +510,16 @@
   - 뉴스인: [뉴스인] 김영일 기자 = 공연예술 콘텐츠 전문 배급사 위즈온센(WYS EN SCÈNE)이 세계적인 발레단 파리 오페라 발레(Paris Opera Ballet)의 2026/27 시즌을 국내에 선보인다. 그 화려한 포문을 여는 첫 번째 작품은 셰익스피어의 불멸의 비극을 무대 위에 펼쳐낸 
     https://www.newsin.co.kr/news/articleView.html?idxno=134876
 
-### [stage] 우리들의 첫 번째 선율… ‘ 꿈의 오케스트라 금천’ 첫 공연
-- 매체 4곳 · G밸리타임스(지밸리타임스) · 서프라이즈뉴스 · 충북일보 · 충청타임즈
-  - 서프라이즈뉴스: [서프라이즈뉴스] 금천문화재단은 오는 11월 24일 오후 7시 30분 금천뮤지컬센터에서 ‘꿈의 오케스트라 금천’의 첫 정기연주회 ‘우리들의 첫 번째 선율’을 개최한다고 밝혔다. ‘꿈의 오케스트라 금천’은 지역 아동·청소년들이 악기를 배우고 함께 연주하는 오케스트라 교육 프로그램이다.
-    http://www.surprisenews.kr/news/articleView.html?idxno=721245
+### [stage] 금천구 아이들의 첫번째 선율…‘꿈의 오케스트라 금천’ 11월 24일 첫 공연
+- 매체 4곳 · G밸리타임스(지밸리타임스) · 충북일보 · 충청도민일보 · 충청타임즈
   - G밸리타임스(지밸리타임스): 금천문화재단이 오는 11월 24일 오후 7시 30분 금천뮤지컬센터에서 ‘꿈의 오케스트라 금천’의 첫 정기연주회 ‘우리들의 첫 번째 선율’을 개최한다. ‘꿈의 오케스
     https://www.gvalleytimes.com/news/articleView.html?idxno=6417
   - 충청타임즈: [충청타임즈] 충북 옥천군의 마을교육공동체 지원사업에 참여하는 ‘그루터기 이원’(대표 도남영)과 ‘꿈이 있는 작은도서관’(대표 오필록)이 오케스트라 연주회를 잇따라 개최한다. `그루터기 이원&#39;은 오는 20일 오후 5시 이원다목적회관에서 제2회 그루터기 이원 오케스트라 연주회를 갖
     https://www.cctimes.kr/news/articleView.html?idxno=936470
   - 충북일보: ［충북일보］ 오케스트라 상상의 창작공연 '閾:Threshold'이 오는 14일 오후 5시 증평문화회관 무대에 오른다. 이번 공연은 국악기와 현악 오케스트라, 밴드와 타악기 연주, 전자음악과 전통예술을 접목한 'Contemporary Series'의 두 번째 작품이다.
     https://www.inews365.com/news/article.html?no=942876
+  - 충청도민일보: [충청도민일보 김락호 기자] = 옥천군 마을교육공동체에 참여하는 학생과 주민들이 함께 준비한 오케스트라 연주회가 오는 20일과 21일 잇따라 열린다. 옥천군은 마을
+    https://www.dominilbo.com/news/articleView.html?idxno=282699
 
 ### [stage] 이하림·김주환 개인전, 김세중미술관서 동시 개최…자연과 인간의 관계 조명
 - 매체 2곳 · 뉴스플릭스(NewsFlix) · 아트코리아방송
@@ -594,95 +528,68 @@
   - 아트코리아방송: 이하림의 개인전 ‘대지로부터-Return to Mother Earth’와 김주환의 개인전 ‘Parikalpita-혼방된 상상력의 한 형태’가 2026년 11월 14일부터 12월 5일까지 김세중미술관에서 동시에 열린다. 두 전시는 자연과 인간의 관계, 그리고 인간이 세계를 바라보고 해석
     https://www.artkoreatv.com/news/articleView.html?idxno=105539
 
-### [stage] 금천구 아동·청소년 52명의 첫 무대…‘꿈의 오케스트라 금천’ 첫 정기연주회
-- 매체 3곳 · 경기평화신문 · 뉴스탑전남 · 뉴스홈(newshome)
-  - 뉴스홈(newshome): 서울시 금천문화재단은 오는 24일 오후 7시 30분 금천뮤지컬센터에서 ‘꿈의 오케스트라 금천’의 첫 정기연주회 ‘우리들의 첫 번째 선율’을 개최한다. ‘꿈의 오케스트라 금천’은 지역 아동·청소년들이 악기를 배우고 함께 연주하며 음악적 성장과 협동심을 키우는 오케스트라 교육 프로그램이다.
-    https://www.news-home.co.kr/news/articleView.html?idxno=78763
-  - 경기평화신문: 포스터 평택시청소년문화센터는 오는 20일 오후 7시 평택남부문화예술회관 대공연장에서 ‘2026 꿈의오케스트라 평택 정
-    https://www.ggpyeonghwa.com/626700
-  - 뉴스탑전남: 독일 베를린과 오스트리아 빈에서 순회공연을 마친 여수 청소년 오케스트라가 오는 15일 귀국 정기연주회를 열고 시민들과 만난다. 여수시가 주최하고 사단법인 한독한마음
-    https://www.dbltv.com/news/articleView.html?idxno=45028
+### [stage] 오케스트라 상상, 국악·전자음악 융합 공연 ‘?’ 선보인다
+- 매체 1곳 · 충청매일
+  - 충청매일: 충북 증평군에서 국악과 전자음악, 전통예술이 어우러진 창작공연이 펼쳐진다. 증평군은 오는 14일 오후 5시 증평문화회관에서 오케스트라 상상(예술감독 유용성)의 창작공연 ‘?’를 선보인다고 10일 밝혔다.
+    https://www.ccdn.co.kr/news/articleView.html?idxno=1110280
 
-### [stage] 국립창원대·라 스텔라 오페라단, '라 트라비아타' 무대 올린다
-- 매체 1곳 · CNB뉴스
-  - CNB뉴스: 국립창원대학교 글로컬사업단과 라 스텔라 오페라단이 오는 26~27일 총 3회에 걸쳐 오페라 '라 트라비아타'를 무대에 올린다. 이번 공연은 2026년 국립창원대 글
-    https://www.cnbnews.com/news/articleView.html?idxno=1022963
+### [stage] KBS교향악단, 베토벤 서거 200주년 기념 무대…정명훈·정경화 등 출연
+- 매체 2곳 · 경향신문 · 매일일보
+  - 경향신문: KBS 교향악단이 2027년 베토벤 서거 200주년을 맞아 베토벤의 주요 작품을 집중 조명하는 특별 공연을 선보인다. 3월에는 정명훈이 지휘와 피아노 연주를 맡고 바이올리니스트 정경화와 첼리스트 지안 왕이 함께 베토벤 삼중협주곡을 연주한다.
+    https://www.khan.co.kr/article/202611101617001
+  - 매일일보: 매일일보 = 이용 기자 | KBS교향악단이 베토벤 서거 200주년을 맞아 그의 주요 교향곡과 협주곡을 집중 조명하는 한편, 독일 낭만주의부터 현대음악까지 아우르는
+    https://www.m-i.kr/news/articleView.html?idxno=2016841
 
-### [stage] 국립창원대, 오페라 ‘라 트라비아타’ 26~27일 무료 공연
-- 매체 1곳 · 문화뉴스
-  - 문화뉴스: 지역 시민과 대학생, 전문 연주자들이 함께하는 오페라 공연이 창원에서 열린다. 시민들이 직접 노래와 연기에 참여하는 무대로, 전석 무료 관람이 가능하다.
-    https://www.mhns.co.kr/news/articleView.html?idxno=768137
+### [stage] 갤러리현대 박민준 개인전 《IMAGINATIO》 개최
+- 매체 2곳 · artworldnews · 파이낸셜투데이
+  - artworldnews: 갤러리현대는 2026년 11월 11일부터 12월 27일까지 박민준(1971년생)의 개인전 《IMAGINATIO》를 개최한다. 2022년 《X》 이후 4년 만에 갤러
+    https://www.artworldnews.co.kr/news/articleView.html?idxno=6126
+  - 파이낸셜투데이: 갤러리현대가 오는 11일부터 12월 27일까지 박민준 작가(b.1971) 개인전 ‘이마기나티오(IMAGINATIO)’를 개최한다. 전시 제목인 ‘이마기나티오’는 영어 ‘이매지네이션(Imagination)’의 어원이 되는 라틴어로, 눈앞에 없는 대상을 마음속에 떠올리고 형상화하는 능력을
+    http://www.ftoday.co.kr/news/articleView.html?idxno=369350
 
-### [stage] 성신여대, 창립 90주년 기념 ‘성신 윈드 오케스트라 특별연주회’ 개최
-- 매체 1곳 · 교수신문
-  - 교수신문: 성신여자대학교(총장 이성근)는 성신학원 창립 90주년을 기념해 마련한 ‘지역사회와 함께하는 성신 윈드 오케스트라 특별연주회’를 지난 5일 서울 잠실 롯데콘서트홀에
-    https://www.kyosu.net/news/articleView.html?idxno=212178
-
-### [stage] 김지희 작가, 중국 상하이 뉴본드 갤러리 개관전 개최…‘더 세이크리드 골드’ 선보여
-- 매체 2곳 · CBC뉴스 | CBCNEWS · 국제뉴스
-  - CBC뉴스 | CBCNEWS: [CBC뉴스] 한국 현대미술 작가 김지희가 중국 상하이에 새롭게 문을 연 뉴본드 갤러리(New Bond Gallery)의 개관 기념 전시를 통해 현지 관객들과 만난다. 김지희 작가는 지난 3일 상하이 뉴본드 갤러리에서 개인전 ‘더 세이크리드 골드(The Sacred Gold)’를 개막했
-    https://www.cbci.co.kr/news/articleView.html?idxno=624809
+### [stage] 김지희 작가, 중국 상하이 뉴본드 갤러리 개관기념 개인전 개최
+- 매체 1곳 · 국제뉴스
   - 국제뉴스: (서울=국제뉴스) 최정희 기자 = 한국 현대미술 작가 김지희가 지난 11월 3일 중국 상하이 뉴본드 갤러리(New Bond Gallery)에서 개인전 《The Sacred Gold》를 개막했다. 이번 전시는 중국 K11 미술관 개인전 이후 약 2년 만에 중국에서 선보이는 개인전으로, 뉴
     https://www.gukjenews.com/news/articleView.html?idxno=3747414
 
-### [stage] '커피향에 스며든 오페라의 유령'…동서식품, 이색 협업
-- 매체 2곳 · S저널 · 조세일보
-  - 조세일보: 동서식품이 뮤지컬 '오페라의 유령'과 협업해 서울 한남동의 브랜드 체험공간 '맥심플랜트'를 19세기 파리 오페라 하우스 분위기로 꾸민다. 작품의 주요
-    http://www.joseilbo.com/news/htmls/2026/11/20261109579221.html
+### [stage] 유럽 무대 빛낸 여수 청소년 오케스트라, 15일 정기연주회
+- 매체 1곳 · 뉴스탑전남
+  - 뉴스탑전남: 독일 베를린과 오스트리아 빈에서 순회공연을 마친 여수 청소년 오케스트라가 오는 15일 귀국 정기연주회를 열고 시민들과 만난다. 여수시가 주최하고 사단법인 한독한마음
+    https://www.dbltv.com/news/articleView.html?idxno=45028
+
+### [stage] 청와대 사랑채서 강원 문화 특별전…계촌별빛오케스트라 공연도
+- 매체 2곳 · 뉴스핌 · 아시아경제
+  - 아시아경제: 청와대 사랑채 1층에서 연말까지 강원특별자치도 특별전이 열린다.
+    https://www.asiae.co.kr/article/2026110921515145035
+  - 뉴스핌: [서울=뉴스핌] 양진영 기자 = 문화체육관광부(장관 최휘영)는 지역문화진흥원(원장 정광렬)과 함께 11월 11일부터 12월 31일까지 청와대 사랑채 1층에서 기획전시 '섬·들·산 솟아오르다' 강원특별자치도 특별전을 개최한다. 이번 전시는 지난 6
+    https://www.newspim.com/news/view/20261110000054
+
+### [stage] 동서식품, 뮤지컬 '오페라의 유령' 협업… 맥심플랜트서 한정 메뉴·프로모션 진행
+- 매체 1곳 · S저널
   - S저널: 동서식품이 서울 한남동에 위치한 브랜드 체험공간 ‘맥심플랜트’에서 뮤지컬 '오페라의 유령'과 협업한 공간을 운영하고 한정메뉴를 선보인다. 회사에 따르면 맥심플랜트
     https://www.s-journal.co.kr/news/articleView.html?idxno=45151
 
-### [stage] 뮤지컬 ‘겨울왕국’ 1위 유지…‘오페라의 유령’ 2위 [11월 8일 공연 예매순위]
-- 매체 1곳 · ER 이코노믹리뷰
-  - ER 이코노믹리뷰: 뮤지컬 ‘겨울왕국’이 공연예술통합전산망(KOPIS) 11월 9일 0시 집계 기준, 8일 공연 예매순위에서 전날에 이어 1위를 기록했다. 공연은 2027년 3월 1일까지 서울 샤롯데씨어터에서 열린다.
-    https://www.econovill.com/news/articleView.html?idxno=756462
-  - ER 이코노믹리뷰: 뮤지컬 ‘오페라의 유령 40주년 스페셜 시즌’이 공연예술통합전산망(KOPIS) 11월 9일 0시 집계 기준, 6일부터 8일까지 주말 공연 예매순위에서 전주 23위에서 22계단 상승해 1위를 기록했다. 공연은 12월 22일부터 2027년 2월 28일까지 서울 블루스퀘어 우리은행홀에서 열린
-    https://www.econovill.com/news/articleView.html?idxno=756477
-
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 36개 확인, 사진 줄 2개)
+(자유 이용 사진: 이름 후보 35개 확인, 사진 줄 3개)
 
-### 🔥 화제(매체 19곳) [movie] 최종면접, 11월 6일 박스오피스 1위 탈환…누적 관객 8만5049명
-- 매체 2곳 · ER 이코노믹리뷰 · 다이어리포인트  ← 여러 곳이 썼다
-  - 다이어리포인트: 영화 ‘최종면접’이 개봉 사흘째인 11월 6일 박스오피스 1위에 올랐다. 이날 관객 2만2729명을 모았고 누적 관객은 8만5049명이다.
-    https://www.diarypoint.com/news/articleView.html?idxno=6862
+### 🔥 화제(매체 18곳) [movie] ‘최종면접’ 누적 17만명 돌파하며 다시 1위…‘극장판 치이카와’ 3위로 [11월 9일 영화 박스오피스]
+- 매체 1곳 · ER 이코노믹리뷰
   - ER 이코노믹리뷰: ‘최종면접’이 11월 9일 하루 1만2395명을 동원하며 박스오피스 1위에 올랐다. 누적 관객수는 17만9197명이다.
     https://www.econovill.com/news/articleView.html?idxno=756618
 
-### 🔥 화제(매체 12곳) [movie] '명탐정 코난' 개봉 첫날 1위…'최종면접' 하루 만에 밀렸다 [영화순위]
-- 매체 3곳 · bntnews · 맥스무비닷컴 · 톱스타뉴스  ← 여러 곳이 썼다
-  - 톱스타뉴스: 
-    https://www.topstarnews.net/news/articleView.html?idxno=16269558
-  - bntnews: 영화 ‘최종면접’이 개봉 첫 주 한국영화 박스오피스 1위에 올랐다. 주요 예매 사이트에서 높은 관객 평점을 기록한 가운데 다양한 상영회와 관
-    https://www.bntnews.co.kr/article/view/bnt202611090035
-  - 맥스무비닷컴: 영화 '최종면접'이 박스오피스 1위를 탈환했다. 10일 영진위 영화관입장권 통합전산망 집계를 보면 어제(9일) '최종면접'은 1만 2395명을 동원해 일별 박스오피
-    https://www.maxmovie.com/news/articleView.html?idxno=502870
-
-### 🔥 화제(매체 7곳) [startrip] 아일릿 '브레이크 이븐', 美 '빌보드 200' 6위 진입
-- 매체 3곳 · 뉴스핌 · 문화일보 · 연합뉴스TV  ← 여러 곳이 썼다
-  - 뉴스핌: [서울=뉴스핌] 이지은 기자 = 그룹 아일릿이 미니 5집으로 미국 빌보드 메인 앨범차트 '톱 10'에 입성했다. 빌보드가 8일(현지시간) 공식 홈페이지에 게재한 차트 예고 기사에 따르면, 아일릿의 미니 5집 '브레이크 이븐(BREAK EVEN)'은 최신 '빌보드
-    https://m.newspim.com/news/view/20261109000152
-  - 문화일보: 걸그룹 아일릿이 데뷔 후 처음으로 미국 빌보드 메인 앨범차트 ‘빌보드200’ 톱10에 진입했다. 8일(현지시간) 빌보드 차트 예고 기사에 따르면, 아일릿의 미니 5집 ‘브레이크 이븐’(BREAK EVEN)은 ‘빌보드 200’(11월 14일 자) 6위로 진입했다.
-    https://www.munhwa.com/article/11629805
-  - 연합뉴스TV: 걸그룹 아일릿이 미국 빌보드 메인 앨범 순위인 ’빌보드 200’에서 처음으로 상위 10위 안에 이름을 올렸습니다. 빌보드는 현지시간 9일 차트 예고 기사를 통해 아일릿의 새 미니앨범 ’브레이크 이븐’이 빌보드 200 차트(10월 30일~11월 5일 기준) 6위로 진입했
-    https://www.yonhapnewstv.co.kr/news/AKR20261110032032DGw
-
-### 🔥 화제(매체 7곳) [movie] 임영웅 콘서트 실황 영화 '아임 히어로 더 스타디움2', 예매율 1위 등극…개봉 언제?
-- 매체 1곳 · 톱스타뉴스
+### 🔥 화제(매체 6곳) [movie] 임영웅 영화 11월 18일 개봉…용산 4면 SCREENX 상영
+- 매체 1곳 · 다이어리포인트
 - 사진(자유 이용, 임영웅): `![임영웅 · 사진 구전녹용 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2a/Lim_Young-woong_in_an_ad_for_%EA%B5%AC%EC%A0%84%EB%85%B9%EC%9A%A9_%28June_2020%29_%28cropped%29.jpg)`
-  - 톱스타뉴스: 임영웅의 두 번째 스타디움 공연 실황 영화 ‘아임 히어로 더 스타디움 2’가 예매 시작 당일 실시간 예매율 1위에 올랐다. 9일 오후 4시 기준 예매율은 12.4%, 예매 관객 수는 2만6443명이다.
-    https://www.topstarnews.net/news/articleView.html?idxno=16272116
+  - 다이어리포인트: 임영웅 공연실황 영화가 11월 18일 전국 CGV에서 개봉한다. SCREENX는 좌우 화면을 확장하며, 용산아이파크몰에서는 천장까지 쓰는 4면 상영도 진행한다.
+    https://www.diarypoint.com/news/articleView.html?idxno=7020
 
-### 🔥 화제(매체 5곳) [startrip] [인터뷰] 설경구 "'가능한 사랑' 오스카 수상 기대해, 최선 다할 것"
-- 매체 1곳 · YTN star
-  - YTN star: "우리가 이런 영화를 그리워했구나 싶었죠. 지인과 영화인들에게 '고맙다'는 연락을 참 많이 받았습니다.
-    https://star.ytn.co.kr/_sn/0117_202611091749126966
-
-### 🔥 화제(매체 5곳) [movie] 임영웅, 데뷔 10주년 공연 실황 영화 예매 오픈…18일 전국 개봉
-- 매체 1곳 · Queen 이코노미퀸
+### 🔥 화제(매체 6곳) [movie] 임영웅, 데뷔 10주년 공연 실황 영화 예매 오픈…18일 전국 개봉
+- 매체 2곳 · JTBC 뉴스 · Queen 이코노미퀸  ← 여러 곳이 썼다
 - 사진(자유 이용, 임영웅): `![임영웅 · 사진 구전녹용 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2a/Lim_Young-woong_in_an_ad_for_%EA%B5%AC%EC%A0%84%EB%85%B9%EC%9A%A9_%28June_2020%29_%28cropped%29.jpg)`
   - Queen 이코노미퀸: 
     http://www.queen.co.kr/news/articleView.html?idxno=466009
+  - JTBC 뉴스: 영화 ‘최종면접’이 개봉 첫 주 한국영화 정상을 차지했다. 4일 개봉한 ‘최종면접(김정훈 감독)’은 영화진흥위원회 영화관입장권통합전산망 기준 ...
+    https://news.jtbc.co.kr/article/NB12327155
 
 ### 🔥 화제(매체 4곳) [startrip] 하나은행, The Banker·PWM誌 선정 '대한민국 최우수 PB은행' 수상
 - 매체 1곳 · 연합뉴스  ← 여러 곳이 썼다
@@ -691,244 +598,137 @@
   - 연합뉴스: ▲ 하나은행은 글로벌 금융전문매체 더 뱅커와 PWM이 공동 주최한 '제18회 글로벌 PB어워드'에서 국가별 최고상인 '대한민국 최우수 PB은행'...
     https://www.yna.co.kr/view/AKR20261110041700002
 
-### 🔥 화제(매체 4곳) [movie] [박스오피스] 주말 극장가 애니메이션 강세…‘치이카와’ 5주 연속 정상
-- 매체 1곳 · 애드뉴스인천
-  - 애드뉴스인천: 11월 극장가에서 일본 애니메이션의 흥행세가 이어지고 있다. 신작 영화들의 잇따른 개봉에도 '극장판 치이카와: 인어 섬의 비밀'이 5주 연속 주말 박스오피스 정상
-    https://www.addnewsin.com/news/articleView.html?idxno=63539
-
-### 🔥 화제(매체 4곳) [movie] 김민하, '꿀알바' 이어 '낮과 밤은 서로에게' 개봉…스크린·OTT 동시 활동
-- 매체 2곳 · JTN뉴스 · 톱스타뉴스  ← 여러 곳이 썼다
-  - 톱스타뉴스: 배우 김민하가 넷플릭스 시리즈 '꿀알바' 공개에 이어 영화 '낮과 밤은 서로에게'로 관객을 만나고 있다. 영화는 11월 7일까지 누적 관객 9,425명을 기록했으며, 김민하는 공포 판타지와 감성 로맨스를 오가는 서로 다른 배역으로 활동 영역을 넓혔다.
-    https://www.topstarnews.net/news/articleView.html?idxno=16271398
-  - JTN뉴스: 
-    http://m.jtn.co.kr/view.php?m=culture&idx=79885
+### 🔥 화제(매체 3곳) [startrip] '러시아 귀화' 빅토르 안, '스피드퀸' 출연…7년만 국내 예능
+- 매체 2곳 · iMBC 연예 · 연합뉴스  ← 여러 곳이 썼다
+  - 연합뉴스: (서울=연합뉴스) 고가혜 기자 = 한국 쇼트트랙 간판 출신으로 러시아로 귀화했던 빅토르 안(41·안현수)이 7년여 만에 국내 예능 프로그램에 출. ..
+    https://www.yna.co.kr/view/AKR20261110148200005
+  - iMBC 연예: ‘쇼트트랙 황제’ 빅토르 안(한국명 안현수)이 ‘스피드퀸’에 히든 코치로 참여한다. 세계 정상에 올랐던 쇼트트랙 전설이 오랜 공백을 깨고 국내 방송에서 지도자로 나선다는 소식에 관심이 집중되고 있다.
+    https://enews.imbc.com/News/RetrieveNewsInfo/524292
 
 ### 🔥 화제(매체 3곳) [movie] 올해 전주국제영화제 화제작 만난다…13∼22일 CGV서 기획전
 - 매체 1곳 · 연합뉴스
   - 연합뉴스: (서울=연합뉴스) 박원희 기자 = 제27회 전주국제영화제 화제작들을 만나볼 수 있는 특별 기획전 '전주 2026: 에필로그 앳(at) CGV'가. ..
     https://www.yna.co.kr/amp/view/AKR20261110047900005
 
+### 🔥 화제(매체 3곳) [movie] [NC박스오피스] 관객 뚝 떨어진 극장, '최종면접' 1위 재탈환
+- 매체 2곳 · 뉴스컬처 · 맥스무비닷컴  ← 여러 곳이 썼다
+  - 뉴스컬처: [뉴스컬처 노규민 기자] 영화 '최종면접'이 주말 동안 빼앗겼던 박스오피스 1위 자리를 되찾았다. 10일 영화진흥위원회 영화관입장권 통합전산망에 따르면 '최종면접'
+    https://www.nc.press/news/articleView.html?idxno=630606
+  - 맥스무비닷컴: 영화 '최종면접'이 박스오피스 1위를 탈환했다. 10일 영진위 영화관입장권 통합전산망 집계를 보면 어제(9일) '최종면접'은 1만 2395명을 동원해 일별 박스오피
+    https://www.maxmovie.com/news/articleView.html?idxno=502870
+
+### 🔥 화제(매체 3곳) [movie] 앤 해서웨이 ‘마더 메리’, 개봉 D-1
+- 매체 1곳 · bntnews
+  - bntnews: 영화 ‘마더 메리’가 개봉을 하루 앞두고 리뷰 포스터와 디깅 포인트를 공개했다. 지난 5일 서울 프리미어로 열린 ‘언피니시드 드레스 시사
+    https://www.bntnews.co.kr/article/view/bnt202611100195
+
+### [movie] 임영웅 영화, 아이맥스 개봉도 확정⋯스타디움 스케일 담았다
+- 매체 1곳 · 이투데이
+- 사진(자유 이용, 임영웅): `![임영웅 · 사진 구전녹용 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2a/Lim_Young-woong_in_an_ad_for_%EA%B5%AC%EC%A0%84%EB%85%B9%EC%9A%A9_%28June_2020%29_%28cropped%29.jpg)`
+  - 이투데이: ▲(사진제공=물고기뮤직)가수 임영웅의 스타디움 공연 실황 영화가 2D(일반)와 스크린엑스에 이어 아이맥스까지 상영을 확정했다. 10일 오후 임영웅 공
+    https://www.etoday.co.kr/news/view/2646271?trc=main_list_news
+
+### [startrip] 리센느, 신보 'PULSE' 초동 60만 장…데뷔 첫 하프 밀리언셀러 등극
+- 매체 1곳 · YTN star
+  - YTN star: 그룹 리센느(RESCENE)가 새 앨범으로 자체 최고 초동 판매량을 기록했다. 10일 한터차트에 따르면, 리센느(원이, 리브, 미나미, 메이, 제나)의 네 번째 미니 앨범 'PULSE'(펄스)는 발매 후 일주일(11월 3~9일) 동안 총 60만 2,688장이 판매됐다.
+    https://star.ytn.co.kr/_sn/0117_202611101052165927
+
 ---
-거리 124건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 118건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
 
 관광청·방송사·소속사·배급사 공식 유튜브만 모았다. 영상 제목·설명의 사실로 기사를 쓰고,
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
-(검색어 34개 · 고른 영상 15개)
+(검색어 33개 · 고른 영상 15개)
 
 ## CHAERYEONG(채령) “Lovesick” M/V
-- 채널 JYP Entertainment · 조회수 2,315,272회 · 1일 전
+- 채널 JYP Entertainment · 조회수 2,800,537회 · 1일 전
 - `@youtube pe-rk1ekb4w` · https://www.youtube.com/watch?v=pe-rk1ekb4w
 
-## 체포하겠어 - 아일릿(ILLIT) [뮤직뱅크/Music Bank] | KBS 261106 방송
-- 채널 KBS Kpop · 조회수 909,150회 · 4일 전
-- `@youtube 2w2rqmE-dL8` · https://www.youtube.com/watch?v=2w2rqmE-dL8
-
-## TXT (투모로우바이투게더) PERFECT STORM Preview
-- 채널 HYBE LABELS · 조회수 808,046회 · 5일 전
-- `@youtube 77SfHCoJfgc` · https://www.youtube.com/watch?v=77SfHCoJfgc
-
 ## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
-- 채널 tvN DRAMA · 조회수 733,933회 · 2일 전
+- 채널 tvN DRAMA · 조회수 734,726회 · 3일 전
 - `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
 
-## ILLIT (아일릿) - You’re Under Arrest (체포하겠어) | Show! MusicCore | MBC261107방송
-- 채널 MBCkpop · 조회수 687,078회 · 3일 전
-- `@youtube Bi-fUmfamyI` · https://www.youtube.com/watch?v=Bi-fUmfamyI
-
-## [11화 예고] 김유정의 정체를 눈치챈 듯한 사토 부자?!😨 그리고 걸려온 의문의 전화☎
-- 채널 tvN DRAMA · 조회수 617,602회 · 1일 전
-- `@youtube d0kBID9SX6w` · https://www.youtube.com/watch?v=d0kBID9SX6w
-
-## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DREAM Ver.)
-- 채널 HYBE LABELS · 조회수 564,810회 · 6일 전
-- `@youtube XItzOV6huqw` · https://www.youtube.com/watch?v=XItzOV6huqw
-
-## [7화 예고] "까야겠네, 강비서 여자인 거💥" 여자인 걸 들켜버린 설인아와 임시완의 깊어지는 오해😱 #나의유죄인간 EP.7
-- 채널 tvN DRAMA · 조회수 393,488회 · 6일 전
-- `@youtube 40VaBfB6e88` · https://www.youtube.com/watch?v=40VaBfB6e88
-
-## ILLIT アイルリット 아일릿 - You’re Under Arrest [Music Bank] | KBS WORLD TV 261106
-- 채널 KBS WORLD TV · 조회수 367,398회 · 3일 전
-- `@youtube 8m9dGifYc70` · https://www.youtube.com/watch?v=8m9dGifYc70
-
-## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 성훈 (SUNGHOON)
-- 채널 HYBE LABELS · 조회수 356,004회 · 3일 전
-- `@youtube ftWK9_qLXyQ` · https://www.youtube.com/watch?v=ftWK9_qLXyQ
-
-## xikers 'DIENAMITE’｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 346,267회 · 6일 전
-- `@youtube k-xc9wWWTDc` · https://www.youtube.com/watch?v=k-xc9wWWTDc
-
 ## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 338,058회 · 1일 전
+- 채널 tvN DRAMA · 조회수 401,184회 · 1일 전
 - `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
 
-## Did I do something wrong?｜Between Two Chairs｜AND2BLE ZHANG HAO YOO SEUNGEON
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 286,638회 · 7일 전
-- `@youtube 7X6AVEUKpRc` · https://www.youtube.com/watch?v=7X6AVEUKpRc
+## [7화 예고] "까야겠네, 강비서 여자인 거💥" 여자인 걸 들켜버린 설인아와 임시완의 깊어지는 오해😱 #나의유죄인간 EP.7
+- 채널 tvN DRAMA · 조회수 395,479회 · 7일 전
+- `@youtube 40VaBfB6e88` · https://www.youtube.com/watch?v=40VaBfB6e88
 
-## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 니키 (NI-KI)
-- 채널 HYBE LABELS · 조회수 271,810회 · 1일 전
-- `@youtube iB3zmnG6UMs` · https://www.youtube.com/watch?v=iB3zmnG6UMs
+## xikers 'DIENAMITE’｜On the Spot
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 365,746회 · 6일 전
+- `@youtube k-xc9wWWTDc` · https://www.youtube.com/watch?v=k-xc9wWWTDc
+
+## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 성훈 (SUNGHOON)
+- 채널 HYBE LABELS · 조회수 360,832회 · 4일 전
+- `@youtube ftWK9_qLXyQ` · https://www.youtube.com/watch?v=ftWK9_qLXyQ
 
 ## [라이어 5회 예고] ＂당신이 이겼어＂, MBC 261113 방송
-- 채널 MBCdrama · 조회수 242,100회 · 2일 전
+- 채널 MBCdrama · 조회수 252,799회 · 3일 전
 - `@youtube HgU_TkMhXjE` · https://www.youtube.com/watch?v=HgU_TkMhXjE
 
+## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
+- 채널 HYBE LABELS · 조회수 235,512회 · 1일 전
+- `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
+
+## ［30회 예고］나만 위해서 그랬을 것 같니? [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 233,188회 · 2일 전
+- `@youtube RESSBa51NL8` · https://www.youtube.com/watch?v=RESSBa51NL8
+
+## [29화 선공개] 무서워서 왔어요 [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 230,655회 · 2일 전
+- `@youtube EtvuLAC0qWU` · https://www.youtube.com/watch?v=EtvuLAC0qWU
+
+## ［29회 예고］우리 그냥 의절하면 안 돼? [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 188,765회 · 3일 전
+- `@youtube Fm4bi3Pu4XY` · https://www.youtube.com/watch?v=Fm4bi3Pu4XY
+
+## [종합 예고] 하나의 나라를 위한 피로 쓴 마지막 전쟁 [문무] | KBS 방송
+- 채널 KBS Drama · 조회수 142,153회 · 5일 전
+- `@youtube dg5PPnh_7sU` · https://www.youtube.com/watch?v=dg5PPnh_7sU
+
+## [53화 예고] 이게 다 아줌마 때문이라고! [욕망의 덫] | KBS 방송
+- 채널 KBS Drama · 조회수 126,423회 · 5일 전
+- `@youtube iF-qLwaGasE` · https://www.youtube.com/watch?v=iF-qLwaGasE
+
+## [가족관계증명서 74회 예고] ＂일절 안 했으면 좋겠어서...＂, MBC 261104 방송
+- 채널 MBCdrama · 조회수 70,560회 · 7일 전
+- `@youtube FtF2tldTS8A` · https://www.youtube.com/watch?v=FtF2tldTS8A
+
+## [가족관계증명서 77회 예고] ＂이젠 당신까지 끌어들일 거야＂, MBC 261110 방송
+- 채널 MBCdrama · 조회수 69,359회 · 1일 전
+- `@youtube IhT6VeaWAjM` · https://www.youtube.com/watch?v=IhT6VeaWAjM
 
 
-# 방송 재료 — (2026-11-10)
+
+# 방송 재료 — (2026-11-11)
 
 방송사 보도자료다. **문장을 옮기지 말고** 사실만 가져다 우리 문장으로 쓴다.
 사진은 쓰지 않는다 — 빌드가 프로그램 카드를 그린다.
-
-## KBS2 일일드라마 욕망의 덫 · 54회 — 11/10 19:50 방송
-- 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
-- 보도자료 제목: [일일드라마 욕망의 덫] 11월 10일 예고편 / 19:50 방송
-- 유튜브 예고(공식 KBS Drama): `@youtube _N9qsz8O_sY` — [54화 예고] 딸 약혼식인데 내가 빠지면 안 되지! [욕망의 덫] | KBS 방송
-- 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
-
-54회 미란의 이간질에 흔들린 은설은 끝내 가족 앞에서 독립을 선언한다. 한편 소연의 잠든 기억이 깨어날 조짐을 보이자, 영훈은 해라와 석진의 약혼에 이어 결혼까지 서두르는데...
-
-## KBS1 일일드라마 엄마가 미쳤어요 · 32회 — 11/10 20:30 방송
-- 출처: KBS 미리보기 · https://program.kbs.co.kr/1tv/drama/mompossible
-- 보도자료 제목: [일일드라마 엄마가 미쳤어요] 11월 10일 예고편 / 20:30 방송
-- 유튜브 예고(공식 KBS Drama): `@youtube K1fzwPKNJl8` — [32화 예고] 오 씨 할머니가 강학성 저 인간이었어? [엄마가 미쳤어요] | KBS 방송
-- 사진(자유 이용, 출연자 정민아): `![정민아 · 사진 뉴스인스타 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/93/190718_%EC%A0%95%EB%AF%BC%EC%95%84_%281%29.jpg)`
-
-[32회] 미미는 순덕이 학성을 몰래 만나는 모습을 목격하고 충격에 빠진다. 한편 승윤은 다미에게 2026 S/S 상품 중 판매가 부진한 옷들의 원인을 이틀 안에 찾으라는 과제를 주는데...
-
-## SBS 틈만나면, — 11/10 21:00 방송
-- 출처: SBS 보도자료(예능) · https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9362
-- 보도자료 제목: [SBS 틈만나면,] 블랙핑크 지수-트와이스 나연, SBS '틈만나면,' 첫 출격! 데뷔 후 첫 동반 예능 출연!
-- 사진(자유 이용, 출연자 지수): `![지수 · 사진 티비텐 TV10 · CC BY 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2e/Jisoo_at_Boyfriend_on_Demand_press_conference_on_26022026_%2812%29.png)`
-- 사진(자유 이용, 출연자 나연): `![나연 · 사진 TV10 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2d/Nayeon_in_November_2025.png)`
-
-유재석X유연석 SBS <틈만나면,>
-블랙핑크 지수-트와이스 나연, SBS ‘틈만나면,’ 첫 출격!
-데뷔 후 첫 동반 예능 출연! ‘찐친 토끼즈’ 인증!
-“연습생 때부터 친해. 당시 JYP, YG의 에이스”
-지수, “산본의 첫째 딸은 김연아 선수, 둘째 딸은 나”
-산본이 낳은 두 번째 월클 스타 활약! 기대UP
-나연-유재석, 뜻밖의 친분 인증! “재석 선배님과 같은 아파트”
-- SBS ‘틈만나면,’ 지수, “김연아 선수는 벽화도 있어. 저는 둘째 딸 정도”
-- SBS ‘틈만나면,’ 지수-나연, 3세대 찐친 아이돌 인증! “데뷔 전부터 서로 알아. 자주 밥도 먹어”
-‘월클 아이돌’ 블랙핑크 지수, 트와이스 나연이 SBS ‘틈만나면,’에 첫 출격을 알린 가운데, 데뷔 이후 처음으로 예능에 동반 출연해 이목을 집중시킨다.
-SBS 예능 프로그램 '틈만나면,'(연출 최보필/작가 채진아)은 일상 속 마주하는 잠깐의 틈새 시간 사이에 행운을 선물하는 '틈새 공략' 버라이어티. 지난 3일(화) 방송이 12주 연속 동시간대 예능, 교양 전체 1위를 차지하며 화요 예능 최강자임을 입증했다. (닐슨코리아 가구 기준) 오는 10일(화) 방송에서는 ‘투유 MC’ 유재석, 유연석과 함께 ‘틈친구’(게스트) 블랙핑크 지수, 트와이스 나연이 군포 산본동의 틈새 시간을 찾는다.
-이날 유재석, 유연석은 지수와 나연이 함께 등장하자 그 어느 때보다 화들짝 놀란다. 생각지도 못한 조합에 유재석이 “어떻게 둘이 친분이 돈독한 거냐”라며 궁금해하자, 지수는 “서로 연습생 때부터 친했다. 자주 밥도 먹는다”라며 남다른 인연을 공개한다. 지수는 “둘 다 연습생 때 각자 회사에서 유명했다. 오래 연습하면 ‘얘가 에이스래’라고 소문이 나는데, 그게 나연이”라고 회상하더니, 어떤 수식어로 유명했냐는 질문에 “그냥 ‘나연이’로 유명했다”라며 쿨한 한 마디로 정리해 폭소를 유발한다. 이에 유연석은 “다른 회사여도 소문이 나는구나”라며 낯선 아이돌 세계에 신기해한다는 전언이다.
-그런가 하면 지수가 ‘산본의 둘째 딸’로 거듭난다고 해 관심을 모은다. 지수는 “제가 요 앞 아파트에서 10살 때까지 살았다”라고 인증한 것도 잠시, ‘산본의 딸’이라는 호칭에 손사래를 쳐 모두를 어리둥절하게 한다. 이에 지수는 “‘산본의 딸’은 김연아 선수다. 심지어 피겨 벽화도 있다”라며 뜻밖의 넘사벽 클래스를 언급해 모두를 수긍하게 한다. 그러자 유연석은 “그럼 연아 선수가 첫째 딸, 지수가 둘째 딸 하자”라며 중재안을 제시, 지수는 “영광입니다”라며 너스레를 떨어 웃음을 자아낸다. 이에 유재석이 나연에게 어느 동네에 사는지 질문하자, 나연은 깜짝 놀란 표정으로 “저 논현인데요?”라더니 빙그레 웃으며 “재석 선배님이랑 같은 아파트다”라고 수줍게 밝혀 유재석을 깜짝 놀라게 한다. 뜻밖의 주민 회동에 당황한 유재석은 “나연이 성수동에 살았던 것만 생각나서 헛갈렸다”라며 수습해 나연을 빵 터지게 한다.
-유재석을 당황시킬 만큼 유쾌하고 사랑스러운 두 절친 지수, 나연의 청량미 넘치는 ‘틈만나면,’첫 출격 모습은 오는 10일(화) 본 방송을 통해 공개된다.
-더욱 강력한 생활밀착형 웃음과 감동을 예고하는 힐링 예능 ‘틈만나면,’은 매주 화요일 밤 9시 방송된다.
-Copyright © SBS & SBSi. All rights reserved.
-무단 전재, 재배포 및 AI학습 이용 금지
-
-## SBS 너는 내 운명 — 11/10 22:40 방송
-- 출처: SBS 보도자료(예능) · https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9370
-- 보도자료 제목: [SBS 너는 내 운명] 이유진♥차경은, 상견례 도중 때아닌 '눈물 사태'?! 스튜디오까지 눈시울 붉힌 역대급 사연은?
-
-'이효정 아들' 이유진, 'SNL 라이징 스타' 차경은과 SBS ’동상이몽 2’ 합류!
-‘11월 결혼’ 이유진♥차경은, 배우만 6명인 역대급 '연예인 가족' 탄생?!
-'46년 차 배우' 이효정, 예비 며느리 부탁에 파격 노출 감행?! 최산 따라 'BAD' 챌린지 도전!
-이유진♥차경은, 상견례 도중 때아닌 '눈물 사태'?! 스튜디오까지 눈시울 붉힌 역대급 사연은?
-10일 화요일 방송되는 SBS ‘동상이몽 시즌 2 – 너는 내 운명’(이하 ‘동상이몽 2’)에서는 11월 결혼을 앞둔 예비부부 이유진, 차경은의 일상이 최초 공개된다.
-이날 방송에는 ‘이효정 아들’ 이유진이 예비 신부 차경은과 새로운 운명 부부로 합류한다. 배우와 감독으로 만나 연인으로 발전한 두 사람. 앞서 진행된 녹화에서는 결혼을 앞둔 예비부부답게 달달한 분위기를 자아냈다. 차경은은 MZ세대 사이에서 화제를 모은 인기 웹드라마의 주연으로 활약하며 작품 누적 조회수 6,500만 회를 기록했다. 또한 ‘SNL 크루’로 활동하며 얼굴을 알린 라이징 스타인데. 또한 이유진의 아버지 이효정, 작은아버지 이기영은 물론 예비 신부 차경은의 가족들까지 배우라는 사실이 밝혀져 놀라움을 안겼다. 두 사람의 결혼으로 양가를 통틀어 배우만 무려 6명인 역대급 ‘배우 패밀리’ 탄생에 스튜디오마저 술렁였다는 후문이다.
-이어 46년 차 배우 이효정이 중후한 이미지를 벗고 파격 변신에 나서 이목을 집중시켰다. 이효정은 새롭게 이전한 정육 식당 홍보를 위해 아들 이유진의 지원 사격을 받아 릴스 촬영에 나섰다. 이효정은 최근 전 세계적으로 인기를 얻은 에이티즈 최산의 ‘BAD’ 챌린지에 도전하며 65세의 나이가 무색할 정도로 열정을 불태웠다. 특히 예비 며느리 차경은의 부탁에 파격 노출까지 감행하는가 하면, 상상초월 춤사위까지 선보여 현장은 물론 스튜디오까지 발칵 뒤집었다.
-또한, 이유진, 차경은의 상견례 현장이 공개돼 눈길을 끌었다. 양가 가족들은 첫 만남에도 화기애애한 분위기 속 웃음꽃을 피웠다. 그러나 훈훈함도 잠시, 모두가 예상치 못한 상황이 벌어졌다. 급기야 양가 가족들은 하나둘 눈물을 보이기 시작했다. 이를 지켜보던 스튜디오마저 연신 눈시울을 붉히며 뭉클함을 감추지 못했다고 전해진다. 상견례 현장에서 때아닌 눈물 사태가 벌어진 이유는 무엇일지, 이유진, 차경은의 달달한 예비부부 일상과 감동 가득한 상견례 현장은 10일 화요일 밤 10시 40분 방송되는 SBS ‘동상이몽 2’에서 확인할 수 있다.
-Copyright © SBS & SBSi. All rights reserved.
-무단 전재, 재배포 및 AI학습 이용 금지
-
-## EBS EBS 스페이스 공감 — 11/10 방송
-- 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005622381
-- 보도자료 제목: EBS ‘스페이스 공감’, 12월 공연 라인업 공개! 이승열·김필·오존·서니데이 서비스 등 출격
-- 사진(자유 이용, 출연자 김필): `![김필 · 사진 SBS Radio · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/1/14/Kim_Feel_210107.png)`
-
-[EBS 스페이스 공감]
-EBS ‘스페이스 공감’, 12월 공연 라인업 공개!
-이승열·김필·오존·서니데이 서비스 등 출격
-- 연말 기획 ‘SPACE NIGHT’, 김심야·김도언·이디오테잎·힙노시스테라피가 꾸미는 네 번의 밤
-- 김심야, 피치포크 한국 힙합 음반 최고점 ‘도그마’ 발매 후 첫 방송 출연
-- 12월 공연 관객 모집 시작… EBS ‘스페이스 공감’ 공식 홈페이지에서 신청
-EBS ‘스페이스 공감’이 일본 인디 록부터 힙합과 전자음악까지 아우르는 12월 공연 라인업을 공개하고 관객 모집을 시작했다.
-12월 2일(수)에는 일본 인디 록 밴드 서니데이 서비스(Sunny Day Service)가 포문을 연다. 초기 대표작 ‘동경(東京)’ 발매 30주년을 맞아 소박한 노랫말과 선명한 멜로디가 어우러진 로큰롤을 3인조 라이브로 들려준다. 4일(금)에는 모던 록 듀오 유앤미 블루(U&Me Blue)로 데뷔한 이승열이 오랜만에 ‘스페이스 공감’을 찾는다. 기발표 싱글과 기존 곡을 새롭게 해석한 버전을 담은 앨범 ‘돈 트라이’의 그윽한 목소리와 단출한 사운드를 라이브로 만날 수 있다.
-10일(목)에는 더 발룬티어스(The Volunteers)가 ‘스페이스 공감’에 처음 출연한다. 5년 만의 정규 앨범 ‘i love u’로 돌아온 이들은 조니의 기타와 김치헌의 드럼, 백예린의 섬세한 보컬로 강렬한 울림을 전할 예정이다.
-15일(화)에는 김필과 오존의 서로 다른 음색을 한자리에서 만나볼 수 있다. 김필은 약 7년 만의 정규 앨범인 2집 ‘JOURNEY’를 중심으로 혼란과 상실을 지나 자신을 받아들이기까지의 여정을 노래한다. 오존(O3ohn)은 데뷔 10년 만에 선보이는 첫 정규 앨범 ‘Qualia’를 바탕으로 담백한 목소리와 다채로운 사운드를 들려준다.
-18일(금)부터는 연말 기획 ‘SPACE NIGHT’가 이어진다. 첫 번째 밤 ‘해탈’의 주인공 김심야는 정규 2집 ‘도그마’로 세계적인 음악 평론 매체 피치포크(Pitchfork)에서 한국 힙합 음반 중 역대 최고점을 기록했다. 김심야는 앨범 발매 이후 처음으로 방송에 출연해 ‘도그마’에서 시도한 음악적 실험을 무대 위로 옮길 예정이다. 21일(월) 두 번째 밤 ‘상상’에서는 김도언이 여러 연주자와 함께 정규 2집 ‘SLAPSTICK’의 장난스러운 리듬과 예측하기 어려운 전개를 처음으로 라이브에서 풀어낸다.
-22일(화) 세 번째 밤 ‘해방’에는 이디오테잎(IDIOTAPE)이 무대에 오른다. 네 번째 정규 앨범 ‘SUBHUMAN’에 다양한 보컬을 더한 이들은 신시사이저와 라이브 드럼이 맞물리는 특유의 에너지를 전한다. 23일(수) 마지막 밤 ‘치유’는 래퍼 짱유와 프로듀서 제이플로우(Jflow)가 결성한 힙합·전자음악 듀오 힙노시스테라피가 장식한다. 반복되는 리듬과 실험적인 전자음, 거침없는 퍼포먼스로 올해 ‘스페이스 공감’의 마지막 무대를 채운다.
-12월 공연 관람 신청은 EBS ‘스페이스 공감’ 공식 홈페이지 내 ‘공연-공연 안내 및 관람 신청’ 페이지에서 할 수 있다. 당첨 여부는 공연별 신청 마감 후 홈페이지에서 확인할 수 있다.
-끝. (관련 사진 별첨)
-/kor/images/respond/sub/icon_file.jpg -->
-첨부파일
-[261109] EBS '스페이스 공감' 12월 공연 라인업 공개!.jpg
-[261109] EBS ‘스페이스 공감’, 12월 공연 라인업 공개! 이승열·김필·오존·서니데이 서비스 등 출격.hwp
-[261109] EBS '스페이스 공감' 12월 공연 라인업 공개!.zip이전글
-[왔다! 내 손주] 네팔 리아나 가족의 K-웨딩 성공기 (11월 12일 밤 9시 55분, EBS1)다음글
-펭수 일곱 번째 팬미팅 PENGSOO WONDER HOTEL 성료
-목록
-
-## EBS 방송일자 — 11/10 방송
-- 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005613632
-- 보도자료 제목: [건축탐구 집] 그 남자의 사랑법 나 그대에게 집을 드리리 (11월 10일 밤 9시 55분 EBS1)
-
-건축탐구 집
-그 남자의 사랑법 나 그대에게 집을 드리리
-- 욕실도 없던 단칸방 신혼 시절을 견딘 아내에게 보답한 집
-- 100년 된 유럽 농가를 닮은 헌 집 같은 새집?
-- 러시아에서 사랑 하나 믿고 한국에 온 아내를 위한 집
-- 집 지어본 경험 無, 내 손으로 우리 집 짓기 강행!
-*방송일시: 2026년 11월 10일 (화) 밤 9시 55분, EBS1
-단칸방 신혼살이에 보답한 집
-충청북도 충주시 월악산 자락, 계곡 옆에 낡은 듯 멋스러운 숲속 산장 같은 집이 있다. 지은 지 2년 남짓 된 새집이지만, 준공 검사차 방문한 공무원이 30분 동안 집을 찾지 못해 헤맸을 정도로 세월의 흔적이 느껴지는데... 이 집은 산골 카페 사장님 남편 영권 씨가 서울살이를 접고 자신의 곁으로 내려온 아내 미경 씨를 위해 지었다. 강남에서 웨딩숍을 운영하던 미경 씨가 우연히 지인과 휴식을 취하려 영권 씨의 카페를 찾은 게 인연이 되었단다.
-번듯한 신혼집 하나 없이 카페 한편 작은 다락에서 결혼생활을 시작한 부부는 그때를 회상하면 춥고 불편한 기억뿐이란다. 욕실이 따로 없어 평소엔 카페 화장실에서 세수하고, 겨울에는 5분 거리 수안보 온천에서 목욕하고 와야 했다. 심지어 전기장판 하나에 얇은 패딩을 껴입고 겨울날을 보내기도 했다는데... 남편으로서 의식주의 기본인 집조차 마련해주지 못해 마음의 빚을 안고 있던 영권 씨는 매년 조금씩 돈을 모아 아내가 꿈꾸던 집을 짓는 긴 프로젝트에 돌입했다.
-새것보다 세월이 깃든 것을 좋아하는 부부는 취향까지 찰떡궁합! 그래서인지 이 집의 외관은 부부보다 더 나이가 들어 보인다. 20여 년 전, 경북 칠곡군 미군 부대 막사를 철거할 때 나온 버려질 뻔한 아연 도금 골강판으로 목조주택에 독특한 옷을 입혔기 때문. 오랜 세월 모은 고재와 유럽식 창호, 100년 된 영국제 문틀 등 묵혀둔 자재와 소품으로 아내가 꿈꾸던 100년 된 유럽 농가 주택의 정취를 재현했다.
-외관만큼 실내 곳곳에도 빈티지의 맛을 살렸는데, 포인트는 1층 유럽식 창호! 국내 사업을 철수한 업체의 제품이라 신축으로는 준공 허가가 나지 않자 목조주택에 꼭 맞는 이 창호를 쓰기 위해 기존 집을 대수선하는 방법을 택했단다. 상식을 뒤엎은 욕실도 보는 재미가 쏠쏠하다. 벽지와 목재로 마감해 동화 속 공주의 방을 연상케 하는 욕실! 차가운 타일 대신 벽지를 택한 것 또한 아내에게 따스한 공간을 선물하고 싶은 마음에서였다고.
-아직도 마음에 드는 조명을 찾지 못해 조명 설치는 미완성. 4년째 아내를 생각하며 손수 지어온 집인 만큼 과정도 순탄하지 않았다. 지붕에서 떨어져 팔이 부러졌을 때도 깁스를 한 채 한 팔로 공사를 강행했다고. 그런 남편을 지켜보며 속이 탔지만 고마운 마음이 크다는 미경 씨가 이 집에 매긴 점수는 90점! 영권 씨는 야박한 점수에 서운해하면서도 늦게나마 큰 선물을 건네 마음의 빚을 조금은 덜었단다.
-말이 아닌 행동으로 사랑을 증명한 남편과 그를 믿고 묵묵히 곁을 지켜준 아내. 월악산 자락 천생연분 부부의 빈티지 하우스로 초대한다.
-러시아에서 온 담양댁이 뿌리내린 집
-전남광주통합특별시 담양군, 황금빛으로 물든 들판 한가운데 존재감을 뿜어내는 새하얀 집! 마당에 우뚝 선 파초 한 그루가 이국적인 인상을 풍기는 이 집은 남편 상원 씨와 러시아에서 온 아내 폴리나 씨가 갓 지은 집이다. 사업이 어려워지자 마음을 달래려 훌쩍 떠난 러시아 여행길에서 상원 씨는 운명처럼 폴리나 씨를 만났다.
-사랑 하나만 믿고 한국행 티켓을 끊은 아내는 남편과 머리를 맞대고 사업을 확장했으나 결국 폐업 수순을 밟았다는데... 다시 일어서기 위해 부부가 택한 건 새벽 배송! 설상가상으로 상원 씨는 설암 판정을 받고 수술대에 올랐다. 아들의 회복을 바란 부모님은 텃밭으로 쓰던 땅을 내주며 곁에 살기를 권했고, 상원 씨는 자신을 믿고 타국에 와 밤낮이 바뀐 삶을 견뎌온 아내를 위해 일생일대의 집 짓기에 나섰다.
-골조를 세운 뒤 “하루이틀이면 다 하겠다!”라며 호기롭게 시공에 뛰어든 두 사람! 아내도 우리 집만큼은 자신의 손을 보태 완성하고 싶다고 공구를 들었단다. 매일 밤 다음 공정을 공부하고 폭염 속에서도 방수, 단열, 도배까지 직접 해냈다. 예산이 빠듯해 아일랜드 상판은 인조석, 바닥은 장판, 소파와 가전은 중고로 해결했지만, 젊은 감각을 발휘해 알뜰살뜰 고급스러움을 살렸다. 대신 이제 막 10개월을 넘긴 딸 하린이에게도 물려줄 집인 만큼 기초 공사에는 아낌없이 정성을 쏟았다.
-새벽 배송을 오래 해온 아내가 원한 건 단연 빛이었다. 거실과 주방에는 큼직한 고정 창을 뚫고, 아이 방에는 양쪽으로 코너 창을 둬 햇살 명당을 만들어냈다. 러시아 대가족 품에서 자란 아내가 바란 대로 주방과 거실은 온 가족이 둘러앉을 수 있도록 넓게 꾸몄다. 이 집의 백미는 2층 욕실! 설계 당시 환기창 하나뿐이던 욕실에 대형 창을 내 아내가 추월산을 바라보며 반신욕을 즐길 수 있도록 
-
-## EBS 특집 다큐- 청춘, 경로의 재구성 — 11/10 방송
-- 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005613559
-- 보도자료 제목: EBS 특집 다큐 '청춘, 경로의 재구성' 2부 ‘헤매 본 사람이 길을 찾는다’ (11월 10일 밤 10시 50분, EBS1)
-
-나만의 길을 찾아 떠난 학교 밖 청소년들의 첫 번째 수학여행
-특집 다큐 <청춘, 경로의 재구성>
-2부 ‘헤매 본 사람이 길을 찾는다’
-- 스스로 길을 찾아 떠나는 네 청소년의 특별한 수학여행
-- 서툰 마음을 포개며 서로의 울타리가 되어준 우정의 기록
-- 방황 끝에서 나만의 꿈과 내일을 발견해 나간 특별한 시간
-* 방송일시 : 2026년 11월 10일 화요일 밤 10시 50분, EBS1
-‘학교 밖 청소년’과 ‘쉬었음 청년’의 목소리를 통해 우리 사회의 획일적인 성장 경로를 되돌아보는 EBS 5부작 특집 다큐멘터리 <청춘, 경로의 재구성> 2부 ‘헤매 본 사람이 길을 찾는다’가 11월 10일 화요일 밤 10시 50분에 EBS 1TV에서 방송된다.
-학교를 떠난 청소년들이 잃어버린 것은 비단 교실만이 아니다. 또래와 함께 추억을 쌓고 관계를 배우는 수학여행, 단체 활동의 추억 역시 이들에게는 허락되지 않은 빈자리였다. 2부에서는 전국에서 지원해 선발된 4명의 학교 밖 청소년들이 직접 가고 싶은 곳을 정해 3박 4일간 특별한 수학여행을 떠나는 과정을 밀착 기록한다.
-낯선 장소, 서툰 마음을 포개며 완성해 가는 관계
-교육 격차와 관계의 상처로 감옥 같이 느껴지던 학교를 나온 미현(19), 초등학교 때부터 두 번의 자퇴를 겪어야 했던 성준(18), 획일적인 입시 대신 일찍이 진짜 자기 길을 찾아 나선 은택(19), 국제 학교의 언어 장벽 속에서 교문을 나선 보미(19). 각기 다른 이유로 자퇴를 택했던 아이들이 한자리에 모였다.
-처음 만난 자리에서 서로 눈치만 보던 아이들은 수산시장에서 전 재산 10만 원을 쥐고 상인들과 하이 파이브를 나누며 웃음을 터뜨린다. 생애 처음으로 생선을 씻고 달콤(?)한 매운탕과 화산 모양 계란찜을 함께 만들며, 아이들은 마음속에 깊이 숨겨두었던 서툰 진심을 꺼내기 시작한다.
-세상이라는 더 큰 학교에서 진짜 나를 찾아가는 시간
-독립서점에서 서로를 위한 책을 골라주며 위로를 건네고, 작은 사찰에서 108배와 발우공양을 경험하며 "이 세상에 너보다 귀한 사람은 없다"라는 스님의 말에 눈시울을 적시는 아이들.
-쉬지 않고 아르바이트를 하며 메이크업 아티스트의 꿈을 키우는 보미, 수상구조사와 제빵 자격증을 준비하며 밴드 합주를 즐기는 은택이, 뮤지컬 배우의 꿈을 향해 달리는 미현이, 그리고 성우의 꿈을 향해 노력 중인 성준이까지. 아이들은 정해진 정답 경로를 벗어나 비로소 스스로의 힘으로 일상을 지켜내고 있다.
-아이들의 당당한 고백, “조금 돌아가도 우리만의 내일은 올 거야”
-여행 마지막 날 밤, 직접 꾹꾹 눌러 담은 랩 가사로 서로를 향해 “학교 밖에서도 우린 할 수 있어, 어떠한 역경이 와도 never mind”라며 읊조리는 진심 어린 고백과, “헤맬 수도 있지만, 오히려 헤맸을 때 더 좋은 걸 찾을 수 있다”라는 아이들의 덤덤하면서도 단단한 고백은 획일적인 정답만을 강요해 온 우리 사회에 묵직한 화두를 던진다. 방황을 두려워하지 않고 헤맨 만큼 더 선명한 내일을 그려가는 청소년들의 눈부신 여정이 따뜻한 공감을 전할 예정이다.
-정해진 궤도를 벗어나 낯선 길 위에서 생애 가장 뜨거운 수학여행을 그려나가는 아이들. 방황을 두려워하지 않고 함께 헤맨 만큼 더 선명한 내일을 찾아가는 발견의 기록, EBS 특집 다큐 <청춘, 경로의 재구성> 제2부 ‘헤매 본 사람이 길을 찾는다’는 오는 11월 10일(화) 밤 10시 50분 EBS 1TV에서 방송된다.
-*관련 사진은 EBS 기관 홈페이지(about.ebs.co.kr)-사이버홍보실-하이라이트, 해당 방송 날짜에 있습니다.끝.
-/kor/images/respond/sub/icon_file.jpg -->
-첨부파일
-[261109]_특집_다큐_청춘,_경로의_재구성_2부_스틸모음.jpg
-[261109]_특집_다큐_'청춘,_경로의_재구성'_2부_‘헤매_본_사람이_길을_찾는다’_(11월_10일_화요일_밤_10시_50분,_EBS1).hwp
-[261109]_특집_다큐_청춘,_경로의_재구성_2부_스틸컷.zip이전글
-[건축탐구 집] 그 남자의 사랑법 나 그대에게 집을 드리리 (11월 10일 밤 9시 55분 EBS1)다음글
-[한국기행] 찬란하다, 가을빛 (11월 9일 ~ 11월 13일 밤 9시 35분, EBS1)
-목록
 
 ## KBS1 인간극장 — 11/11 07:50 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/1tv/culture/human
 - 보도자료 제목: [인간극장] 11월 11일 예고편 / 07:50 방송
 
 다시 뜨겁게 레슬링 삼부자방송일 : 2026년 11월 09일(월) ~ 11월 13일(금) / 오전 7:50~8:25방송매체 : KBS1-TV보도자료 문의 : 유동희 취재작가 (02-782-5555)아버지도, 그리고 두 아들도 레슬링 국가대표 출신인 가족이 있다.아버지 조영진(61) 씨와 두 아들 조민수(28) 씨, 조현수(26) 씨삼부자가 그 주인공이다.올림픽 메달을 꿈꾸며 실업팀까지 입단해 선수 생활을 이어갔지만,민수 씨는 햄스트링 부상으로,현수 씨는 어깨 부상으로 결국 매트 위를 떠났다.선수 생활을 마친 두 아들이 새롭게 선택한 길은아버지가 32년간 이어온 배관·설비 일이었다.민수 씨는 공사 상담과 견적, 일정 관리 등을 맡고 있고,현수 씨도 철거와 자재 운반부터배관 작업까지 하나씩 배워가고 있다.아버지는 작은 작업 하나에도 정확함과 원칙을 강조하며두 아들에게 기술을 전수한다.한때는 레슬링으로 매트 위에서 함께 땀 흘렸던 삼부자.이제는 공사 현장에서 서로의 든든한 버팀목이 되어 뜨거운 인생 2막을 열어가고 있다.# 배관공이 된 '레슬링 삼부자'수십 킬로그램의 무거운 장비와 자재를 실은 트럭이아침 공기를 가르며 공사 현장으로 향한다.앳된 얼굴에 다부진 체격을 뽐내는 두 형제 조민수(28) 씨와 조현수(26) 씨,그리고 32년 현장 경험을 자랑하는 베테랑 배관공, 아버지 조영진(61) 씨.아버지 영진 씨는 현장의 지휘관이다.배관의 위치를 보고, 도면을 확인하고, 문제가 생기면 해결책을 찾는다.아들 민수 씨와 현수 씨는 젊음과 체력을 앞세워철거와 조적, 방수, 미장까지 온갖 힘든 작업을 도맡는다.완벽한 호흡을 맞추다가도 가끔은 어처구니 실수도 나온다.그럴 때면 아버지 영진 씨는 완전히 돌변, 호랑이 선생님으로 바뀐다.남들에겐 천사 같은 아버지가 자식들에게 유난히 엄격한데...아버지의 가르침과 꾸지람 속에 형제는 하루하루 배관공으로 성장해가고 있다.# 부상으로 멈춰 선 올림픽 메달의 꿈불과 몇 년 전까지만 해도민수 씨와 현수 씨의 삶의 중심에는 레슬링이 있었다.형제는 초등학교 때부터 레슬링을 시작해 전국체전을 휩쓸었고,태극마크를 달고 세계 대회를 누빈 엘리트 레슬링 선수였다.레슬링 세계주니어 선수권 금메달리스트 출신인 아버지 영진 씨에게형제는 인생의 기쁨이자 자랑이었다.그런데, 올림픽 메달을 꿈꾸던 두 아들이 부상으로 무너졌다.고통스러운 재활 과정을 이어갔지만, 결국 은퇴를 결정한 두 아들.아버지는 가슴이 찢어졌지만, 형제의 은퇴와 새로운 출발을 응원했다.그런데, 아들들이 아버지의 기술을 배우고 뒤를 이어보겠단다.민수 씨는 자격증을 따고 영업을 배우고, 본격적으로 현장에 뛰어들었다.처음엔 걱정이 많았는데, 젊은 아들 둘이 합류한 뒤로 사업이 날개를 달았다.# 가족과 함께 다시 뜨겁게, 두 번째 인생을 위해영진 씨의 아내이자 형제의 어머니인 김은정 씨(56).30년 넘게 배관공의 아내이자 삼 형제의 어머니로 살아온은정 씨의 지난날들은 그리 편안하지 않았다.막내 출산 후, 심한 산후우울증으로 고생한 은정 씨는그 뒤로도 건강이 좋지 않았다.하지만 긴 세월 한결같은 사랑을 보내주는 남편 영진 씨와바르고 착한 아들들 덕분에 은정 씨는 차츰차츰 웃음을 되찾았다.한창 레슬링을 할 때는 훈련에, 합숙에, 대회 참가로집을 떠나 있는 시간이 많았던 아들들.그런데 배관 설비를 시작하면서 오히려 가족이 하나로 똘똘 뭉치게 됐다.민수 씨는 꿈이 있다. 배관 설비 업계의 금메달리스트가 되는 것.그래서 아버지가 좀 더 좋은 환경에 쉴 수 있게 해드리고 싶고,어머니의 건강도 더 잘 보살펴 드리고 싶다.매트 위에선 혼자 싸웠지만, 인생에서는 가족이 한 팀이다.함께 땀 흘리고, 함께 부대끼며 오늘도 꿈을 꾼다.더 나은 내일을 이해, 더 빛날 인생 2막을 위해,‘다시 뜨겁게’ 달려가는 레슬링 삼부자다.3부 줄거리사라진 열쇠를 찾느라 한바탕 소동을 겪고우여곡절 끝에 나선 가족 나들이모처럼 캠핑장과 바닷가를 찾아그간 나누지 못했던 웃음꽃을 피운다.달콤했던 휴식을 뒤로하고 돌아온 현장민수 씨는 학원 천장 누수 공사를 깔끔하게 끝내며어엿한 배관공으로서의 자부심을 쌓아가고어머니 은정 씨 역시 오랜 우울증을 털어내려동네 떡집으로 출근 도장을 찍기 시작한다.한편, 아파트 확장 공사 현장에 나선 아버지와 막내 현수 씨.순조롭게 끝나가던 배관 공사에서바닥이 자꾸 떠오르는 돌발 사고가 터지고 마는데!연출 : 김병현글 : 신지현촬영 : 민병일조연출 : 황보효윤취재작가 : 유동희
+
+## KBS1 황신혜의 같이 삽시다 — 11/11 19:40 방송
+- 출처: KBS 미리보기 · https://program.kbs.co.kr/1tv/enter/livetogether
+- 보도자료 제목: [황신혜의 같이 삽시다] 381회 미리보기 / 2026년 11월 11일 19:40 방송
+
+KBS1 <황신혜의 같이 삽시다> 장수 사진 촬영 D-DAY! 사진사로 변신한 싱글즈KBS1 <황신혜의 같이 삽시다> 황신혜, 장수 사진 스타일링 총괄 디렉터로 맹활약! 고정관념 깬 파격 변신 주도KBS1 <황신혜의 같이 삽시다> 눈물바다가 된 장수 사진 촬영장, 무슨 사연? <황신혜의 같이 삽시다>는 서로 다른 삶을 살아온 싱글들이 동거 생활을 통해 혼자였던 일상에서 벗어나 함께 살아가는 의미를 되짚어 보는 관찰 예능 프로그램이다. 장수 사진 촬영 D-DAY싱글즈가 이웃 주민의 장수 사진을 직접 촬영하기 위해 만반의 준비에 나선다. 무병장수를 기원하는 마음을 담아 장수 사진과 함께 한과를 선물하기로 한 싱글즈는 한과 명인에게 유과 만드는 법을 배운다. 이어 집을 사진관으로 꾸민 세 사람은 장수 사진 촬영을 앞두고 각자 역할을 나누며 촬영 준비에 박차를 가한다.주인공과의 만남싱글즈가 장수 사진 촬영의 신청자인 83세 어르신 댁을 찾는다. 어머님은 4년 전 세상을 떠난 남편과의 추억이 고스란히 남아 있는 집에서 지난날을 떠올린다. 암 투병을 했던 남편의 곁을 지키며 간호했던 시간을 회상하고, 애틋한 부부의 이야기는 싱글즈의 마음을 뭉클하게 한다.한편, 황신혜는 정형화된 장수 사진 스타일에서 벗어나 일상복을 활용한 색다른 스타일링을 제안하고, 어머님과 함께 옷장을 살피며 의상 후보를 추려낸다. 장수 사진에 담긴 인생싱글즈가 본격적인 장수 사진 촬영에 돌입한다. 어머님의 단장을 책임진 황신혜는 생기를 더하는 색조 화장부터 섬세한 머리 손질까지 정성을 쏟는다. 사진 촬영을 맡은 신계숙은 사진 전문 용어까지 구사하며 실력을 발휘하고, 양정아는 다양한 화제로 어머님의 환한 미소를 끌어낸다. 한편, 싱글즈는 어르신이 살아온 인생을 되돌아보며 그동안 마음속에 담아두었던 이야기를 허심탄회하게 털어놓을 수 있는 시간을 마련한다. 어머님은 평생 자녀들을 위해 살아왔지만 정작 해주지 못한 것들만 마음에 남는다며 눈물을 보인다. 수십 년간 가슴에 담아두었던 미안함을 꺼내 놓는 어머님의 모습에 싱글즈 역시 함께 눈시울을 붉힌다. 감동 속에서 진행된 장수 사진 촬영은 11월 11일 수요일 저녁 7시 40분 KBS1 <황신혜의 같이 삽시다>에서 확인할 수 있다.
+
+## KBS2 일일드라마 욕망의 덫 · 55회 — 11/11 19:50 방송
+- 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
+- 보도자료 제목: [일일드라마 욕망의 덫] 11월 11일 예고편 / 19:50 방송
+- 유튜브 예고(공식 KBS Drama): `@youtube b2P0XZmnt74` — [55화 예고] 해라야, 아빠야 [욕망의 덫] | KBS 방송
+- 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
+
+55회 미란은 해라와 석진의 약혼식에 나타난 국철 때문에 불안에 휩싸인다. 한편 미란의 도움으로 독립을 결심한 은설은 미란에게 첫 선물을 건네다 뜻밖의 사실을 알게 되는데...
 
 ## SBS 골 때리는 그녀들 — 11/11 21:00 방송
 - 출처: SBS 보도자료(예능) · https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9369
@@ -971,6 +771,7 @@ Copyright © SBS & SBSi. All rights reserved.
 ## EBS 서장훈의 이웃집 백만장자 — 11/11 방송
 - 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005626075
 - 보도자료 제목: [서장훈의 이웃집 백만장자] 라우식, 평범한 주부에서 50대에 소고깃집으로 대박...서장훈 '부자된 이유 있어'
+- 사진(자유 이용, 출연자 서장훈): `![서장훈 · 사진 LG전자 · CC BY 2.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/d/de/Seo_Jang-Hoon.jpg)`
 
 [EBS 서장훈의 이웃집 백만장자]
 '8천 평·100억' 대저택 주인이 버린 옷 주워 입는다?!
@@ -1019,6 +820,34 @@ EBS FM <정경의 클래식 클래식> 수요 초대석, 피아니스트 문지�
 [왔다! 내 손주] 네팔 리아나 가족의 K-웨딩 성공기 (11월 12일 밤 9시 55분, EBS1)
 목록
 
+## EBS 방송일자 — 11/11 방송
+- 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005614727
+- 보도자료 제목: 교육부 x EBS '아이돌이 들려주는 교과서 속 문학' 베이비 돈 크라이 이현·베니 참여, 11월 11일 공개
+
+베이비 돈 크라이 이현·베니, 한용운·나희덕의 시로 만난다
+교육부 x EBS <아이돌이 들려주는 교과서 속 문학> 참여… 11월 11일 공개
+- 교육부×EBS <아이돌이 들려주는 교과서 속 문학> Baby DONT Cry(베이비 돈 크라이) 이현·베니 참여
+- 이현, 한용운 「나룻배와 행인」 낭독… 변함없는 사랑과 기다림의 의미
+- 베니, 나희덕 「그 복숭아나무 곁으로」 낭독… 선입견을 넘어 발견하는 타인의 다채로운 내면
+- 11월 11일 수요일 오전 9시 ‘함께학교’ 홈페이지 및 앱에서 무료 공개
+베이비 돈 크라이 이현·베니 (피네이션 제공)
+교육부와 EBS가 공동 기획한 오디오 학습 콘텐츠 <아이돌이 들려주는 교과서 속 문학>에 그룹 Baby DONT Cry(베이비 돈 크라이)의 이현과 베니가 참여한다.
+<아이돌이 들려주는 교과서 속 문학>은 K팝 아티스트들이 고등학교 문학 교과서에 실린 주요 작품 30편을 직접 낭독하고 작품의 배경과 표현 기법, 감상 포인트를 함께 소개하는 오디오 콘텐츠다. 앞서 하이키(H1-KEY), 플레어 유(FLARE U), 원어스(ONEUS), 정세운, 엑스디너리 히어로즈(Xdinary Heroes), OWIS(오위스), 에이티투메이저(82MAJOR), TNX, TUIDE, ONEWE(원위), IVE(아이브) 등에 이어 이번에는 베이비 돈 크라이의 두 멤버가 사랑과 이해를 주제로 한 시를 들려준다.
+이현은 한용운 시인의 「나룻배와 행인」을 낭독한다. 이 작품은 ‘나’를 나룻배에 ‘당신’을 행인에 빗대어 어떤 시련에도 변치 않는 헌신적인 사랑과 기다림을 그린 시다. 노래와 춤, 랩 등 다방면에서 활약해 온 이현은 자신의 강점인 목소리 표현력을 살려 작품을 낭독한다. 특히 시의 처음과 끝에 같은 구절을 배치한 수미상관의 구조와 ‘당신’에 담긴 다양한 의미를 짚으며 작품을 폭넓게 감상할 수 있도록 돕는다.
+베니는 나희덕 시인의 「그 복숭아나무 곁으로」를 들려준다. 해당 시는 복숭아나무를 멀리하던 화자가 시간이 흐르며 나무의 참모습을 발견하는 과정을 통해 타인에 대한 이해와 소통의 의미를 일깨우는 작품이다. 베니는 데뷔 후 팬들과 마음을 주고받으며 소통의 즐거움을 알게 된 자신의 경험을 시와 연결한다. 또한 복숭아나무의 흰꽃과 분홍꽃 사이에 존재하는 ‘수천의 빛깔’에 주목하며 겉모습만으로는 알 수 없는 타인의 복잡하고 다채로운 내면을 이해하는 태도의 중요성을 전한다.
+이번 콘텐츠는 상대를 향한 한결같은 믿음과 기다림, 그리고 선입견을 넘어 타인의 마음을 이해하는 과정을 두 편의 시로 풀어낸다. 특히 이현과 베니의 경험을 작품에 자연스럽게 녹여내 학생들이 시 속 상징과 표현 기법을 익히는 동시에 주변의 소중한 관계를 돌아볼 수 있도록 구성했다.
+한편, 베이비 돈 크라이 이현과 베니가 참여한 <아이돌이 들려주는 교과서 속 문학>은 11월 11일 수요일 오전 9시에 공개된다. 해당 콘텐츠는 교육부와 EBS가 선보이는 ‘아이돌 오디오 클래스’ 시리즈로 전국 학생, 학부모, 교사가 이용하는 교육 플랫폼 ‘함께학교’ 홈페이지 및 전용 앱을 통해 누구나 무료로 청취할 수 있다.
+끝. (관련 사진 별첨)
+/kor/images/respond/sub/icon_file.jpg -->
+첨부파일
+[261111] 교육부 x EBS '아이돌이 들려주는 교과서 속 문학' 베이비 돈 크라이 이현·베니 (피네이션 제공).jpg
+[261111] 교육부 x EBS '아이돌이 들려주는 교과서 속 문학' 베이비 돈 크라이 이현·베니 참여, 11월 11일 공개.hwp
+교육부 x EBS '아이돌이 들려주는 교과서 속 문학' 베이비 돈 크라이 이현( 피네이션 제공).jpg
+[261111] 교육부 x EBS '아이돌이 들려주는 교과서 속 문학' 베이비 돈 크라이 베니 (피네이션 제공).jpg이전글
+펭수 일곱 번째 팬미팅 PENGSOO WONDER HOTEL 성료다음글
+EBS 다큐프라임 '생각의 멸종' 2부 ‘내겐 너무 완벽한 AI’ (11월 9일 밤 9시 55분, EBS1)
+목록
+
 ## EBS 지식채널e — 11/11 방송
 - 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005610395
 - 보도자료 제목: [지식채널e] 11월 9일~11월 11일 주요 방송 (월~수 밤 12시 40분, EBS1)
@@ -1056,5 +885,90 @@ EBS FM <정경의 클래식 클래식> 수요 초대석, 피아니스트 문지�
 [261107] 지식채널e 스틸컷.zip이전글
 [세계테마기행] 여기 산다고? 중국 (11월 9일 ~ 11월
 
----
-수집 실패: MBC 목록: timed out
+## MBC 구해줘! 홈즈 — 11/12 22:00 방송
+- 출처: MBC 보도자료 · https://with.mbc.co.kr/pr/press/view.html?idx=36962
+- 보도자료 제목: [구해줘! 홈즈]  ‘내향인 조합’ 김숙X양세형X김향기, 바쁜 서울살이 속 숨 돌릴 수 있는 ‘틈 있는 집’ 임장!
+
+MBC [구해줘! 홈즈] ‘내향인 조합’ 김숙X양세형X김향기, 바쁜 서울살이 속 숨 돌릴 수 있는 ‘틈 있는 집’ 임장!
+MBC [구해줘! 홈즈] 장동민X김향기, 알고 보니 같은 영화 출연?! 18년 전 ‘방울토마토’ 인연 비하인드 공개!
+MBC [구해줘! 홈즈] 초역세권 오피스텔에 옥상 텃밭이?! ‘도시 농부’의 숨 쉴 틈 공개
+MBC [구해줘! 홈즈] 김숙, 김향기에 “같이 여행 갈래?” 깜짝 제안! 내향인들의 여행 동맹, 과연 성사 될까...
+12일(목) 방송되는 MBC ‘구해줘! 홈즈’(연출: 정다히, 장효종, 김유진/이하 ‘홈즈’)에서는 바쁜 서울살이 속 ‘틈 있는 집’ 임장에 나선다.
+이날 방송에서는 정신없이 돌아가는 서울살이 속에서도 나만의 ‘틈’을 찾아 쉬어가는 사람들의 집을 찾아 나선다. 아파트부터 오피스텔, 단독주택까지 다양한 주거 형태의 집을 살펴보며, 각자의 방식으로 바쁜 일상 속 여유를 누리는 공간들을 만나본다. 이번 임장에는 틈이 절실한 ‘내향인 조합’ 김숙, 양세형, 김향기가 함께한다. 낯가림 가득한 세 사람이 조금씩 거리를 좁혀가는 모습이 소소한 재미를 더할 예정이다.
+김향기는 오는 18일 개봉하는 영화 ‘옆에서 숨만 쉬어도 좋아’에서 주연을 맡아 관객들과 만난다. 전세 사기를 당한 청춘 커플이 지하 2층에서 동거를 이어가게 되면서 벌어지는 이야기로, 집을 소재로 한다는 점에서 ‘홈즈’와도 맞닿아 있다. 영화에서 현실적인 주거 문제를 그린 김향기가 ‘홈즈’에서는 어떤 집들을 만나게 될지 관심이 집중된다.
+본격적인 임장에 앞서, 장동민과 김향기의 뜻밖의 인연도 공개된다. 두 사람이 2008년 개봉한 영화 ‘방울토마토’에 함께 출연했던 것. 당시 장동민은 우정 출연으로 짧게 얼굴을 비췄다. 18년 전 두 사람이 한 작품에서 만났던 사연과 함께 당시 촬영 비하인드도 전해진다. 특히 장동민의 예상치 못한 과거 연기가 공개되자 현장은 웃음바다가 된다.
+세 사람은 처음으로 서울 동대문구의 초역세권에 자리한 30대 1인 가구의 오피스텔을 찾는다. 전형적인 오피스텔의 모습과는 달리 복층으로 이어진 높은 층고와 쏟아지는 채광이 반전을 선사한다. 패션 인플루언서인 집주인답게 옷 가게를 방불케 하는 드레스룸도 눈길을 끈다. 이를 계기로 이들은 각자 돈을 가장 많이 쓰는 분야에 대한 이야기를 나눈다. 김숙은 여행에 가장 많은 돈을 쓴다고 털어놓고, 이에 김향기도 여행은 비용이 많이 들지만 그만큼 즐겁다며 공감한다. 그러자 김숙은 “같이 여행 갈래?”라며 내향인답지 않은 깜짝 제안을 건넨다. 과연 ‘내향기’ 김향기와 김숙의 여행 약속은 성사될 수 있을지 궁금증을 자극한다.
+한편, 이 집의 특별한 ‘숨 쉴 틈’은 옥상에 있다. 집과 연결된 옥상에는 도심 한복판이라고는 믿기 어려운 특별한 공간이 펼쳐진다. 집주인은 이곳에서 직접 농사를 지으며 바쁜 일상 속 여유를 찾는다고. 이를 본 주우재 역시 “서울 안에 있는 세컨하우스로도 좋을 것 같다”며 감탄한다. 과연 도심 속 옥상에서 발견한 이 집만의 ‘틈’은 어떤 모습일지 기대를 모은다.
+MBC ‘구해줘! 홈즈’ 틈 있는 집 편은 오는 12일 목요일 밤 10시에 방송된다.
+
+## EBS 왔다! 내 손주 — 11/12 방송
+- 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005622385
+- 보도자료 제목: [왔다! 내 손주] 네팔 리아나 가족의 K-웨딩 성공기 (11월 12일 밤 9시 55분, EBS1)
+
+왔다! 내 손주
+네팔 리아나 가족의 K-웨딩 성공기
+*방송일시: 2026년 11월 12일 (목) 밤 9시 55분, EBS1
+가족의 100% 리얼 일상 영상으로 23만 구독자의 사랑을 받고 있는 부부 아시스(35세)와 김나희 씨(38세). 한국 웨딩 스튜디오에서 일하며 배운 기술을 접목해 네팔 카트만두에 차린 K-웨딩 스튜디오까지 승승장구하고 있는데. 이렇게 화려한 성공의 일등 공신은 바로 부부의 인싸력을 꼭 빼닮은 딸 리아나 (4세)와 “우리 집엔 시월드는 없다” 라고 자랑할 정도로 든든한 지원군인 시어머니와 시아버지! <왔다! 내 손주> 제작진마저 혹하게(?) 만들었다는, 네팔 리아나 가족의 K-웨딩 성공기가 공개된다.
+영어 공부부터 댄스까지! 육각형 4세 리아나
+그루브 넘치는 네팔 유치원 일상
+다양한 민족과 언어가 공존하며 살아가는 다문화 국가 ‘네팔’! 공용어는 네팔어지만, 실생활에서 영어를 많이 사용하기 때문에 영어 수업 비중이 높은 리아나의 유치원을 탐방한다. 평소 한글과 네팔어로 소통 가능하지만 선생님의 질문에 영어 단어도 곧바로 맞히고, 단짝 친구의 공부까지 도와주는 4세 리아나! 이런 똑순이 리아나가 가장 좋아하는 시간은 바로 댄스 수업이다. 당당히 센터에 자리 잡고, K-팝 댄스가 흘러나오자마자 예사롭지 않은 그루브를 보여주는데. 육각형 4세 리아나의 일상 大 공개!
+“절대 망하지 않을 자신이 있었어요”
+네팔을 사로잡은 K-웨딩 스튜디오의 성공 비결?
+네팔 카트만두 번화가에 위치한 부부의 K-웨딩 스튜디오. 한국 웨딩 스튜디오에서 일하며 배운 기술대로만 하면 “망하지 않을 자신이 있었다”라는 아시스의 확언은 현실이 되었다. 창업한 지 3년도 안 되어서 여섯 명의 직원을 거느리고 극찬 리뷰가 쏟아질 정도로 승승장구하고 있는데. 과연 이들의 성공 비결은 무엇인지 궁금했던 제작진의 카메라에 포착된 한 예비 부부의 웨딩 촬영 현장. 러브 배틀부터 부부가 직접 시범을 보이는 스킨십 포즈, “메이크업 냄새가 좋다고 속삭여라“, ”1년 뒤에 다이어몬드 반지 사줄게“ 등등 웃음 타율 100% 멘트까지! 네팔에 없는 자연광 스튜디오 도입 등 네팔 고객을 사로잡은 K-웨딩 스튜디오의 성공 비결을 밀착 관찰한다.
+대지진까지 뚫은 부부의 사랑
+23만 구독자를 홀린 리아나 가족의 인싸력!
+”나희(아내)와 함께 하면 무조건 잘 된다“ 남편 아시스가 K-웨딩 스튜디오의 성공을 확신할 수 있었던 건 바로 아내에 대한 굳건한 믿음이 있었기 때문. 네팔 아이들을 가르치는 NGO 봉사활동을 함께 하면서 첫 인연을 맺은 부부가 결혼까지 골인할 수 있었던 결정적인 계기는 바로 2015년 규모 7.9의 네팔 대지진! 당시 지진 현장에 고립될 위기에 처해 있었던 나희 씨는 남자친구였던 아시스에게 문자를 보냈고, 실제 여진이 있는 위험한 상황 속에서도 목숨을 걸고 나희 씨를 구하기 위해 달려간 아시스. 나희 씨는 자신의 생명을 구해준 아시스를 보고 결혼을 결심했다. 이처럼 진정성 넘치는 부부의 100% 리얼 일상을 보여주는 개인 채널은 23만 구독자까지 달성할 정도로 인기몰이. 이젠 딸 리아나의 일상을 더 궁금해할 정도로 네팔에서 인싸력을 제대로 보여주고 있는 가족의 일상을 따라가본다.
+”시월드는 없어요“ 한 지붕 3대 가족, 웃음도 행복도 3배!
+가족의 건강 밥상을 위해서라면~ 시어머니의 백전백승 장보기!
+위아래층에 시댁과 함께 살고 있는 리아나 가족. 집 한편에 있는 기도방에서 매일 아침 가족을 위해 기도할 정도로 독실한 힌두교 신자인 시어머니와 한없이 인자한 시아버지. 리아나랑 같이 산 이후부터 집안에 웃음꽃이 피었다는 시부모님은 리아나를 정성스레 돌봐주고 있다. 무엇보다 가족들의 건강한 밥상을 위해서 비가 오나 눈이 오나 매일 아침 직접 장을 보는 시어머니. 어떤 식재료든 신선도는 물론이고, 가격 흥정에서도 결코 밀리는 법이 없는 시어머니의 백전백승 장보기 현장을 만나본다.
+리아나 가족의 인싸력 계보!
+어기야디야~K-할매의 민요 한마당
+리아나의 외할머니를 만난 곳은 경기도 고양시. 대낮에 공원 한복판에서 아리랑부터 뱃노래까지 열창하던 외할머니는 제작진과 초면에 민요를 주고받기 시작하는데. 13년 전, 민요를 배우기 시작해서 이젠 민요 공연까지 할 정도로 수준급 실력의 소유자인 리아나의 외할머니! 캐리어에 화려한 한복을 챙기는 이유는 바로 리아나의 유치원에서 민요 공연을 앞두고 있기 때문. 자주 보지 못해 다소 서먹서먹한 리아나와 더 가까워지기 위해 큰맘 먹고 네팔로 향하는 K-민요 할매의 두근두근 출국길. 한편 네팔에선, 공항에 마중나가기 직전 리아나가 열이 펄펄 나기 시작해 온 가족은 비상 사태인데... 과연 리아나와 K-민요 할매는 무사히 만날 수 있을까?
+촬영까지 잊을 정도로 제작진을 웃고 울린
+리아나 가족의 100% 리얼 감동 스토리!
+촬영 도중 리아나가 아프기 시작해 우여곡절이 유난히 많았다는 제작진. 하지만, 리아나 가족의 
+
+## EBS 세계테마기행 — 11/12 방송
+- 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005610396
+- 보도자료 제목: [세계테마기행] 여기 산다고? 중국 (11월 9일 ~ 11월 12일 저녁 8시 40분, EBS1)
+
+세계테마기행
+여기 산다고? 중국
+무엇을 상상하든 그 이상!
+웅장한 풍경 너머 도무지 믿기지 않는 공간.
+그곳에서도 삶은 계속 된다.
+때로는 자연환경에 적응하고,
+때로는 지형을 거스르며 삶을 일궈온 지혜.
+기발한 건축과 독특한 생활 방식 뒤에 숨겨진
+놀라운 이야기들을 만난다.
+소리는 들려도 사람은 보이지 않는 디컹위안
+불이 꺼지지 않는 ‘8차원’ 도시 충칭
+험준한 벼랑 끝 피어난 삶 타이항산
+고수들의 마을 허난성, 구이저우성
+낯설고 기묘한 풍경 속 사람들의 일상을 만나러 중국으로 떠난다.
+* 방송일시: 2026년 11월 9일(월) ~ 2026년 11월 12일(목) 저녁 8시 40분, EBS1
+* 큐레이터 : 정태겸 (여행작가)
+산둥성에서 어학연수를 하고 기자 활동을 거쳐 여행작가로 전향했다. 음식과 사람 이야기를 좋아하며, 수많은 중국 여행 경험을 바탕으로 중국 문화에 대해서 특유의 말맛을 살려 재치 있고 이해하기 쉽게 설명한다. 여행잡지를 포함한 다양한 매체에 사진과 글을 기고하고 있다.
+1부. 별난 집, 놀라운 풍경 – 11월 9일 (월)
+상상을 초월하는 중국의 놀라운 풍경 중 하나는 사람이 사는 집! 그 별난 집들을 찾아간다. 최근 몇 년 사이 여행객들 사이에 핫한 여행지로 떠오른 중국 서남부의 대도시, 충칭(重庆)에서 시작하는 여정.
+세계적인 이색 명소로 인기를 끌고 있는 곳이 있는데 바로 리즈바(李子坝)역이다. 상가와 아파트가 같이 있는 주상복합 건물인데 6층부터 8층까지는 경전철이 통과한다. 전철이 건물 한가운데로 들어갔다가 반대편으로 빠져나가는 세계 어디에서도 보기 드문 모습에 관광객들은 입을 다물지 못하는데. 전철의 소음과 진동 문제를 아파트 주민과 상인들은 어떻게 견디고 있는 것일까? 그 설계의 비밀을 들어본다.
+도심을 벗어나 인적이 드문 산길엔 두 눈을 의심케 하는 집이 있다. 바로 절벽에 박힌 집이다. 절벽 틈 사이에 목조구조물을 걸고 딱 맞게 끼워 맞췄는데 5층짜리 목조 주택이 고풍스럽기까지 하다. 이 집의 주인공은 60대 부부인 뤄위안저우 씨와 황쓰비 씨. 4대째 살고 있는데 거의 100년의 역사를 자랑하는 집이라고. 집 안쪽의 벽은 암벽 그대로. 주방 아궁이에서 피어오른 연기는 천장 빈틈으로 다 빠져나간다. 맨 꼭대기 5층은 오픈돼 있지만 비도 들치지 않아 곡식을 말리기에 제격. 산속이지만 둘이 함께라면 그 무엇도 무섭지 않다는 노부부의 행복한 일상을 엿본다.
+다음으로 별난 집이 독특한 풍경을 이루고 있다고 해 찾아간 곳은 허난성(河南省) 싼먼샤(三门峡)시 산저우(陕州区)구의 한 마을. ’나무는 보여도 마을은 보이지 않고 소리는 들려도 사람은 보이지 않는‘다는 곳인데. 지상에 집을 세우는 대신 오랜 세월 황허 유역에 쌓인 황토 땅을 사각형으로 깊게 파고 그 안에 집을 지은 독특한 주거 형태, 디컹위안(地坑院)이다. 아무것도 없는 것처럼 보이지만, 계단을 따라 아래로 내려가면 가운데 널찍한 마당과 그를 중심으로 사방에 동굴형 방들이 나타난다. 1933년 한 비행사가 우연히 발견하고 촬영한 항공사진 때문에 외부에 알려졌다. 허난성에는 아직도 약 1만 2천여 개 이상의 디컹위안이 있다는데. 가족들은 다 떠나고 홀로 디컹위안에 거주하고 있는 캉양을 할머니. 땅속 공간은 외부 기온 변화의 영향을 상대적으로 적게 받아 여름에는 시원하고 겨울에는 따뜻하다. 오늘도 땅속 마을에서의 삶을 이어가고 있는 할머니의 이야기를 들어본다.
+2부. 기묘한 도시 충칭 – 11월 10일 (화)
+화려한 야경과 산악 도시로 유명한 충칭(重庆)! 산을 깎고 계곡을 건너 도시를 건설해 도로와 철도, 건물들이 위아래로 겹겹이 쌓여 있다. 그래서 별명이 ’8차원의 도시‘다.
+도심에 미스터리한 집이 있다고 해서 먼저 간 곳은 오래된 주거용 아파트 단지, 바이샹쥐(白象居). 충칭을 대표하는 건축물 중 하나로 빼어난 도심 뷰를 자랑한다. 평범한 고층 아파트처럼 보이지만 24층인데 엘리베이터가 없다. 총 6개의 동이 중간의 구름다리로 연결되는데 다리를 건너면 층이 바뀐다! 게다가 건물의 출입구는 1층과, 10층, 15층 무려 세 군데! 모두 큰 도로와 연결돼 사실상 1층의 역할을 한다는데. 그 비밀은 산이 많고 경사가 가파른 충칭의 지형 때문. 산을 빙 둘러 도로를 내면서 건물들이 서로 다른 높이의 도로와 맞닿아있다. 이 독특한 구조를 보러 관광객이 몰리면서 아파트는 단순한 주거 공간을 넘어 식당이나 상가로도 변모했는데. 이곳에서 30년 넘게 살고 있다는 르윈 씨를 만나본다.
+다음으로 10년 넘게 불이 꺼지지 않는 집이 있다고 해 찾아간다. 뒷마당이 바로 산으로 연결되는 양밍쉔과 진밍쩐 씨 부부의 집. 한두 군데가 아니라 바위틈 곳곳에서 불이 타오르고 있는데 화력도 세다. 12년 전 가스 냄새와 이상한 소리가 나 불을 붙여본 이래 계속 타오르고 있는 중. 정부 차원에서 조사한 결과 셰일 천연가스가 매장돼 있는 걸 확인했지만 채산성이 낮아 그
+
+## MBC ? — 11/12 방송
+- 출처: MBC 보도자료 · https://with.mbc.co.kr/pr/press/view.html?idx=36968
+- 보도자료 제목: ‘피터팬 아빠’가 남긴 마지막 부탁, 극장에서 만난다... MBC 특집 다큐 <안녕 피터팬> 오는 12일 CGV 영등포타임스퀘어 특별 상영회
+
+‘피터팬 아빠’가 남긴 마지막 부탁, 극장에서 만난다... MBC 특집 다큐 <안녕 피터팬> 오는 12일 CGV 영등포타임스퀘어 특별 상영회
+그동안 세상에 알려지지 않았던 ‘피터팬 아빠’의 마지막 6개월, 80분의 기록
+MBC 특집 다큐멘터리〈안녕, 피터팬〉특별상영회가 오는 12일(목) 오후 7시 30분, CGV 영등포타임스퀘어에서 열린다. 중증 발달장애 아들의 홀로서기를 위해 생의 마지막 순간까지 세상의 문을 두드렸던 ‘피터팬 아빠’, 故 전경철 씨의 마지막 여정을 극장에서 만나는 자리다.
+말기 암으로 시한부 선고를 받은 아버지, 故 전경철 씨에게는 반드시 해야 할 일이 있었다. 중증 자폐성 장애가 있는 아들 제원씨가 자신 없이도 살아갈 곳을 찾는 것. 전국 천여 곳의 장애인 거주시설에 문을 두드렸지만, 아들을 받아주는 곳은 없었다. 아버지는 자신의 마지막을 준비하는 동시에, 홀로 남을 아들의 삶을 준비해야 했다.
+〈안녕, 피터팬〉은 그동안 세상에 알려지지 않았던 ‘피터팬 아빠’ 故 전경철 씨의 마지막 6개월의 시간을 기록한 80분 분량의 다큐멘터리다. 아들을 향한 그리움과 죽음을 앞둔 고통, 같은 처지의 가족들을 위해 ‘네버랜드’를 만들고자 했던 간절한 꿈까지. 아버지의 부탁에 기꺼이 손을 내민 평범한 사람들이 함께하며 그가 꿈꾸던 동화는 조금씩 현실이 되어간다.
+“나는 가도 아들만은 살아서 지구에 남기고 싶다” _ 故 전경철
+그가 세상에 남긴 마지막 부탁은 같은 고민을 안고 살아가는 수많은 발달장애인 가족들의 마음이기도 하다. 이번 특별상영회는 부모가 떠난 뒤에도 발달장애인이 안전하고 존엄하게 살아갈 수 있도록, 우리 사회가 돌봄의 책임을 어떻게 나눌지 함께 모색하는 자리이기도 하다. 피터팬 아빠가 세상에 남긴 부탁을 우리 사회의 약속으로 이어가고자 한다.
+또 상영 후에는 강다솜 아나운서의 진행으로 최철훈 MBC PD, 임지영 피터팬재단 설립추진위원회 총괄디렉터, 이연실 이야기장수 대표가 무대에 올라, 작품에 다 담지 못한 이야기 등을 관객, 언론인들과 나눌 예정이다.//
+

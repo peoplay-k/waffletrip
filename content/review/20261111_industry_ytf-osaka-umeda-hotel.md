@@ -4,15 +4,18 @@ channel: travel
 region: industry
 section: news
 kind: 보도자료
-title: "노랑풍선, 오사카 '호텔 인터게이트 우메다' 패키지에 첫 도입"
+title: 노랑풍선, 오사카 '호텔 인터게이트 우메다' 패키지에 첫 도입
 source_name: ''
 source_url: ''
-summary: 노랑풍선이 오사카 우메다의 '호텔 인터게이트 오사카 우메다'를 일본 패키지 상품에 처음 넣었다. 지난 7일 CJ온스타일에서 이 호텔을 쓴 상품을 처음 선보였다.
+summary: 노랑풍선이 오사카 우메다의 '호텔 인터게이트 오사카 우메다'를 일본 패키지 상품에 처음 넣었다. 지난 7일 CJ온스타일에서 이 호텔을
+  쓴 상품을 처음 선보였다.
 sources:
-  - https://www.newspim.com/news/view/20261110000097
-  - https://www.fetv.co.kr/news/articleView.html?idxno=313387
-  - https://www.dailian.co.kr/news/view/1712917/%EB%85%B8%EB%9E%91%ED%92%8D%EC%84%A0-%EC%98%A4%EC%82%AC%EC%B9%B4-%EC%9A%B0%EB%A9%94%EB%8B%A4-%ED%98%B8%ED%85%94%EA%B3%BC-%EC%86%90%EC%9E%A1%EA%B3%A0-2026
-status: approved
+- https://www.newspim.com/news/view/20261110000097
+- https://www.fetv.co.kr/news/articleView.html?idxno=313387
+- https://www.dailian.co.kr/news/view/1712917/%EB%85%B8%EB%9E%91%ED%92%8D%EC%84%A0-%EC%98%A4%EC%82%AC%EC%B9%B4-%EC%9A%B0%EB%A9%94%EB%8B%A4-%ED%98%B8%ED%85%94%EA%B3%BC-%EC%86%90%EC%9E%A1%EA%B3%A0-2026
+status: published
+published_id: c-4a8c5d21260658e488ad9f857076854b634a7f2b
+published_on: '2026-11-11'
 ---
 노랑풍선이 일본 오사카 현지 호텔과 손잡고 패키지 여행 상품의 숙박 구성을 바꾼다. 우메다 지역의 호텔 한 곳을 처음으로 상품에 넣어 일본 패키지 경쟁력을 높이겠다는 계획이다.
 
