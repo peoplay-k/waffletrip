@@ -5,16 +5,19 @@ category: movie
 region: ''
 section: news
 kind: 해설
-title: "전주국제영화제, 서울서 '전주 2026: 에필로그' 21편 재상영"
+title: '전주국제영화제, 서울서 ''전주 2026: 에필로그'' 21편 재상영'
 source_name: ''
 source_url: ''
-summary: 전주국제영화제가 올해 수상작과 화제작 21편을 11월 13일부터 29일까지 서울 CGV·씨스퀘어·인디스페이스에서 다시 상영한다. CGV 기획전은 13~22일 열린다.
+summary: 전주국제영화제가 올해 수상작과 화제작 21편을 11월 13일부터 29일까지 서울 CGV·씨스퀘어·인디스페이스에서 다시 상영한다. CGV
+  기획전은 13~22일 열린다.
 sources:
 - https://www.newspim.com/news/view/20261027000576
 - https://www.todayan.com/news/articleView.html?idxno=634855
 - https://www.todayan.com/news/articleView.html?idxno=633257
 - https://www.yna.co.kr/amp/view/AKR20261110047900005
-status: approved
+status: published
+published_id: c-b0230d5dc9bf1e8b51da6754b5913ca52784e80e
+published_on: '2026-11-10'
 ---
 전주국제영화제가 올해 영화제에서 주목받은 작품 21편을 서울 극장에서 다시 상영한다. 상영 프로그램 이름은 '전주 2026: 에필로그(JEONJU 2026: Epilogue)'로, 13일부터 29일까지 열린다.
 

@@ -5,15 +5,18 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "'꿈의 오케스트라 금천', 24일 첫 정기연주회 '우리들의 첫 번째 선율'"
+title: '''꿈의 오케스트라 금천'', 24일 첫 정기연주회 ''우리들의 첫 번째 선율'''
 source_name: ''
 source_url: ''
-summary: 금천문화재단이 11월 24일 오후 7시 30분 금천뮤지컬센터에서 '꿈의 오케스트라 금천'의 첫 정기연주회를 연다. 아동·청소년 52명이 무대에 오른다.
+summary: 금천문화재단이 11월 24일 오후 7시 30분 금천뮤지컬센터에서 '꿈의 오케스트라 금천'의 첫 정기연주회를 연다. 아동·청소년 52명이
+  무대에 오른다.
 sources:
 - http://www.surprisenews.kr/news/articleView.html?idxno=721245
 - https://www.news-home.co.kr/news/articleView.html?idxno=78763
 - https://www.gvalleytimes.com/news/articleView.html?idxno=6417
-status: approved
+status: published
+published_id: c-f0bcfe556ac11cc051e74b6fe3f52d9bedfb0ff8
+published_on: '2026-11-10'
 ---
 금천문화재단이 '꿈의 오케스트라 금천'의 첫 정기연주회 '우리들의 첫 번째 선율'을 11월 24일 오후 7시 30분 금천뮤지컬센터에서 연다.
 

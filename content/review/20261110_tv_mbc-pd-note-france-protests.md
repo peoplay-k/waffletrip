@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'PD수첩' 프랑스 시위 55일, 청년들은 왜 거리로 나섰나"
+title: '''PD수첩'' 프랑스 시위 55일, 청년들은 왜 거리로 나섰나'
 source_name: ''
 source_url: ''
-summary: MBC 'PD수첩'이 10일 밤 10시 20분 55일째 이어지는 프랑스 시위 현장을 다룬다. 낙후 지역 학교 문제와 긴축·감세 논란, 국가부채 GDP 대비 119%가 짚인다.
+summary: MBC 'PD수첩'이 10일 밤 10시 20분 55일째 이어지는 프랑스 시위 현장을 다룬다. 낙후 지역 학교 문제와 긴축·감세 논란,
+  국가부채 GDP 대비 119%가 짚인다.
 sources:
 - https://with.mbc.co.kr/pr/press/view.html?idx=36966
-status: approved
+status: published
+published_id: c-e7558bc2ee1b20399c638f76bbccbb6a627757e8
+published_on: '2026-11-10'
 ---
 > **방송 정보**
 > 채널 · MBC | 프로그램 · PD수첩 | 편 · 성난 민중들, 흔들리는 프랑스에 가다

@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'서장훈의 이웃집 백만장자' 라우식, 50대 소고깃집 성공 뒤 8천 평 저택 무료 개방"
+title: '''서장훈의 이웃집 백만장자'' 라우식, 50대 소고깃집 성공 뒤 8천 평 저택 무료 개방'
 source_name: ''
 source_url: ''
-summary: EBS '서장훈의 이웃집 백만장자'가 11일 밤 9시 55분 51세에 소고깃집을 열어 성공한 라우식을 만난다. 8천 평 대지에 100억 원을 들인 집을 1년 내내 무료로 개방하고 있다.
+summary: EBS '서장훈의 이웃집 백만장자'가 11일 밤 9시 55분 51세에 소고깃집을 열어 성공한 라우식을 만난다. 8천 평 대지에 100억
+  원을 들인 집을 1년 내내 무료로 개방하고 있다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005626075
-status: approved
+status: published
+published_id: c-e608e9cd8c2602217b84742cb1a7c6f019218f85
+published_on: '2026-11-10'
 ---
 > **방송 정보**
 > 채널 · EBS | 프로그램 · 서장훈의 이웃집 백만장자
