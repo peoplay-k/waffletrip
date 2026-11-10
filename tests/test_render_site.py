@@ -490,8 +490,10 @@ def test_여행_카툰에는_AI_그림_캡션이_붙는다(tmp_path):
     item.photo = "/img/cartoon/ep-test.webp"
     item.body_md = "본문."
     render_site([item], str(tmp_path), TODAY)
+    # 기사 하나에 지면(긴 주소)과 짧은 주소(c-xxxxxx/) 넘겨주기 쪽 두 장이 생긴다. glob 순서는
+    # 파일 시스템마다 달라 넘겨주기 쪽을 집으면 그림이 없어 실패했다 — 본문이 있는 큰 쪽을 집는다.
     pages = [p.read_text(encoding="utf-8") for p in tmp_path.glob("korea/*/index.html")]
-    page = next(p for p in pages if "시험 회차" in p)
+    page = max((p for p in pages if "시험 회차" in p), key=len)
     assert "그림 · AI 생성. 등장인물과 사연은 꾸며낸 것입니다." in page
     assert "<figcaption>직접 촬영" not in page   # 꼬리말의 사진 원칙 문장은 그대로 있다
 
