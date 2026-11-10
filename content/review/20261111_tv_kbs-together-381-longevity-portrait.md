@@ -8,12 +8,14 @@ kind: 보도자료
 title: KBS1 '황신혜의 같이 삽시다' 381회, 싱글즈가 찍어 주는 83세 어르신의 장수 사진
 source_name: ''
 source_url: ''
-summary: KBS1 '황신혜의 같이 삽시다'가 11일(수) 저녁 7시 40분 381회를 방송한다. 싱글즈가 사진사로 변신해 83세 어르신의 장수 사진을 찍는다. 황신혜는 일상복 스타일링을 맡고, 신계숙은 촬영, 양정아는 분위기를 이끈다.
+summary: KBS1 '황신혜의 같이 삽시다'가 11일(수) 저녁 7시 40분 381회를 방송한다. 싱글즈가 사진사로 변신해 83세 어르신의 장수
+  사진을 찍는다. 황신혜는 일상복 스타일링을 맡고, 신계숙은 촬영, 양정아는 분위기를 이끈다.
 sources:
 - https://program.kbs.co.kr/1tv/enter/livetogether
-status: approved
+status: published
+published_id: c-04dc68e37c70d21bd5ae9cad7998612e271f5ea2
+published_on: '2026-11-11'
 ---
-
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 황신혜의 같이 삽시다 | 회차 · 381회
 > 방송 · 2026년 11월 11일(수) 저녁 7시 40분

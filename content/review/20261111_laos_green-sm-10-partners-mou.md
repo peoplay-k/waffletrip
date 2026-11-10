@@ -7,12 +7,14 @@ kind: 해설
 title: 그린 SM, 라오스서 관광·숙박 등 10개 파트너와 MOU…전기차 이동 서비스 확대
 source_name: ''
 source_url: ''
-summary: 전기차 기반 이동 서비스 그린 SM이 라오스에서 금융·은행, 통신, 결제, 관광·숙박 분야 10개 전략 파트너와 양해각서를 맺었다. 플랫폼을 연결하고 서비스를 통합해 라오스의 친환경 이동 생태계를 넓힌다는 계획이다.
+summary: 전기차 기반 이동 서비스 그린 SM이 라오스에서 금융·은행, 통신, 결제, 관광·숙박 분야 10개 전략 파트너와 양해각서를 맺었다.
+  플랫폼을 연결하고 서비스를 통합해 라오스의 친환경 이동 생태계를 넓힌다는 계획이다.
 sources:
 - https://www.vietnam.vn/ko/green-sm-hop-tac-voi-10-doi-tac-chien-luoc-mo-rong-he-sinh-thai-di-chuyen-xanh-tai-lao
-status: approved
+status: published
+published_id: c-bd65f4c0c8aee262c490730dd346f978e47bf49c
+published_on: '2026-11-11'
 ---
-
 라오스에서 전기차 택시를 타는 일이 더 편해질 전망이다. 전기차 이동 서비스 그린 SM(Green SM)은 라오스에서 10개 전략 파트너와 양해각서(MOU)를 맺었다고 발표했다.
 
 협약 상대는 금융·은행, 통신, 결제, 관광·숙박 분야에 걸쳐 있다. 그린 SM은 이들과 플랫폼을 연결하고 서비스를 통합하며, 이용자에게 편리한 기능을 들여와 라오스의 친환경 이동 생태계를 넓히겠다는 계획이다.

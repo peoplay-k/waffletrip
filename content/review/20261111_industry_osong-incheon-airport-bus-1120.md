@@ -7,13 +7,15 @@ kind: 해설
 title: KTX 오송역~인천공항 시외버스 20일 운행 시작…하루 왕복 2회
 source_name: ''
 source_url: ''
-summary: 청주 KTX 오송역과 인천국제공항을 오가는 시외버스가 11월 20일부터 운행한다. 오송역 버스환승센터 8번 승차홈에서 하루 왕복 2회 다니며, 출발 시간은 오전 4시와 오후 5시다.
+summary: 청주 KTX 오송역과 인천국제공항을 오가는 시외버스가 11월 20일부터 운행한다. 오송역 버스환승센터 8번 승차홈에서 하루 왕복 2회
+  다니며, 출발 시간은 오전 4시와 오후 5시다.
 sources:
 - http://www.ccgnews.kr/news/articleView.html?idxno=20826
 - https://www.ccdn.co.kr/news/articleView.html?idxno=1110235
-status: approved
+status: published
+published_id: c-845edc5528f731b94800bec3b4a86d645c4e10cd
+published_on: '2026-11-11'
 ---
-
 세종·충북 지역에서 인천공항 가는 길이 하나 더 생긴다. 충청북도에 따르면 청주 KTX 오송역과 인천국제공항을 오가는 시외버스가 11월 20일부터 운행을 시작한다.
 
 버스는 오송역 버스환승센터 8번 승차홈에서 출발한다. 하루 왕복 2회 운행하며, 오송역 출발 시간은 오전 4시와 오후 5시다.

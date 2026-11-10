@@ -8,15 +8,17 @@ kind: 해설
 title: KBS2 대하드라마 '문무' 14일 첫 방송…종합 예고 공개
 source_name: ''
 source_url: ''
-summary: KBS2 새 대하드라마 '문무'가 14일(토) 밤 9시 20분 첫 방송을 앞두고 종합 예고와 단체 포스터를 공개했다. 신라와 고구려·백제·당나라의 대립 속 삼국통일 전쟁을 그리며 김강우·이현욱·박성웅·장혁 등이 출연한다.
+summary: KBS2 새 대하드라마 '문무'가 14일(토) 밤 9시 20분 첫 방송을 앞두고 종합 예고와 단체 포스터를 공개했다. 신라와 고구려·백제·당나라의
+  대립 속 삼국통일 전쟁을 그리며 김강우·이현욱·박성웅·장혁 등이 출연한다.
 sources:
 - https://www.youtube.com/watch?v=dg5PPnh_7sU
 - http://www.ksw-news.com/news/articleView.html?idxno=3058511
 - https://www.bntnews.co.kr/article/view/bnt202611100056
 - https://www.topstarnews.net/news/articleView.html?idxno=16271013
-status: approved
+status: published
+published_id: c-1bc2f99595c7beaf3c010966e3b0f808f386cf9f
+published_on: '2026-11-11'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 대하드라마 '문무'
 > 첫 방송 · 2026년 11월 14일(토) 밤 9시 20분
