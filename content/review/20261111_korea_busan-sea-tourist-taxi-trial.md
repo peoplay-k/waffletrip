@@ -4,18 +4,19 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "부산시, 수영강~광안리~해운대 해상관광택시 시험운항"
+title: 부산시, 수영강~광안리~해운대 해상관광택시 시험운항
 source_name: ''
 source_url: ''
 summary: 부산시가 11일 수영강과 광안리, 해운대를 잇는 해상관광택시의 시험운항을 했다. 본격 운항은 내년 하반기를 목표로 추진한다.
 sources:
-  - https://www.newsis.com/view/NISX20261111_0003863207
-  - https://www.haesanews.com/news/articleView.html?idxno=152710
-  - https://www.newspim.com/news/view/20261111000097
-  - https://nuriilbo.com/news/article.html?no=939612
-status: approved
+- https://www.newsis.com/view/NISX20261111_0003863207
+- https://www.haesanews.com/news/articleView.html?idxno=152710
+- https://www.newspim.com/news/view/20261111000097
+- https://nuriilbo.com/news/article.html?no=939612
+status: published
+published_id: c-e1662014b0a4c173f96ffcbc19cd1ee47403289f
+published_on: '2026-11-11'
 ---
-
 부산시가 수영강과 광안리, 해운대를 바닷길로 잇는 '부산해상관광택시'의 시험운항을 11일 진행했다. 본격 운항은 내년 하반기를 목표로 추진한다.
 
 부산시는 이날 APEC나루공원 승선장에서 오전 10시 30분과 오후 2시 두 차례 시험운항을 했다. 참가자 16명이 탑승해 수영만 일대 운항 코스를 직접 체험했다. 노선은 수영강에서 광안리를 거쳐 해운대까지 이어지며, 운항 시간은 45분가량이다.

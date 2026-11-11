@@ -4,17 +4,19 @@ channel: travel
 region: jeju
 section: flight
 kind: 해설
-title: "중국남방항공, 12월 광저우~제주 노선 새로 연다"
+title: 중국남방항공, 12월 광저우~제주 노선 새로 연다
 source_name: ''
 source_url: ''
-summary: 중국남방항공이 올해 한국 시장 수송객이 27% 늘어 역대 최고를 기록했다며, 12월부터 광저우~제주 노선을 새로 운항한다고 밝혔다. 5일 서울에서 동계 상품설명회를 열었다.
+summary: 중국남방항공이 올해 한국 시장 수송객이 27% 늘어 역대 최고를 기록했다며, 12월부터 광저우~제주 노선을 새로 운항한다고 밝혔다.
+  5일 서울에서 동계 상품설명회를 열었다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500691
-  - https://www.joongang.co.kr/article/25477003
-  - https://m.segye.com/ampView/20261110506963
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500691
+- https://www.joongang.co.kr/article/25477003
+- https://m.segye.com/ampView/20261110506963
+status: published
+published_id: c-86fb9394679027094c8bebecaa8b06fcb981302a
+published_on: '2026-11-11'
 ---
-
 중국남방항공이 12월부터 광저우와 제주를 잇는 노선을 새로 연다. 올해 한국 시장 수송객이 27% 늘어 역대 최고를 기록한 데 따른 노선 확대다.
 
 중국남방항공 한국지사는 5일 서울 앰배서더 서울 풀만 호텔에서 '2026 중국남방항공 동계 상품설명회'를 열고 동계 노선과 서비스를 소개했다고 밝혔다. 이 자리에서 광저우~제주 신규 취항을 함께 발표했다. 항공사는 올해 한국 시장 수송객이 지난해보다 27% 늘었다고 설명했다.

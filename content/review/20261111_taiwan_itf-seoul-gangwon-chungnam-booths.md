@@ -4,18 +4,20 @@ channel: travel
 region: taiwan
 section: news
 kind: 해설
-title: "서울·강원·충남·대구, 타이베이국제여전서 대만 관광객 잡기 나섰다"
+title: 서울·강원·충남·대구, 타이베이국제여전서 대만 관광객 잡기 나섰다
 source_name: ''
 source_url: ''
-summary: 6~9일 타이베이 난강전람관에서 열린 대만국제여전에 서울관광재단과 강원관광재단, 충남도, 대구시가 홍보관을 꾸렸다. 서울은 금요일 밤 웰니스 상품을, 충남은 2027년 대형 행사 4개를 앞세웠다.
+summary: 6~9일 타이베이 난강전람관에서 열린 대만국제여전에 서울관광재단과 강원관광재단, 충남도, 대구시가 홍보관을 꾸렸다. 서울은 금요일
+  밤 웰니스 상품을, 충남은 2027년 대형 행사 4개를 앞세웠다.
 sources:
-  - https://www.seoulcity.co.kr/news/articleView.html?idxno=550718
-  - https://www.tournews21.com/news/articleView.html?idxno=148095
-  - https://www.todaychungnam.net/news/articleView.html?idxno=479836
-  - https://www.kbmaeil.com/article/20261109500533
-status: approved
+- https://www.seoulcity.co.kr/news/articleView.html?idxno=550718
+- https://www.tournews21.com/news/articleView.html?idxno=148095
+- https://www.todaychungnam.net/news/articleView.html?idxno=479836
+- https://www.kbmaeil.com/article/20261109500533
+status: published
+published_id: c-c4ea9e08b62a6859df699a2f4b1dfcc98cf39540
+published_on: '2026-11-11'
 ---
-
 서울관광재단과 강원관광재단, 충남도, 대구시가 지난 6일부터 9일까지 타이베이에서 열린 대만 최대 관광박람회에 홍보관을 열고 대만 관광객 유치에 나섰다. 서울은 주말 웰니스 상품, 충남은 내년 대형 행사, 대구는 먹거리를 내세웠다.
 
 행사는 타이베이 난강전람관에서 열린 '2026 대만국제여전(ITF)'이다. 대만관광협회가 주최하며 올해로 40주년을 맞은 대만 최대 규모 국제관광박람회다. 한국 지방자치단체와 관광 기관이 현지 소비자와 여행업계를 한꺼번에 만날 수 있는 자리여서 올해도 여러 곳이 참가했다.

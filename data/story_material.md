@@ -54,10 +54,20 @@
 
 ## 베트남
 
+### 친환경적인 생활 경험은 다낭을 찾는 관광객들을 끌어들이는 요인입니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: DNO - 다낭을 방문하는 관광객들은 이제 관광과 오락 외에도 친환경적인 방식으로 관광과 쇼핑을 경험할 수 있습니다. 이는 자연과 가까운 새로운 관광 트렌드로, 다낭 관광 산업의 메시지인 "본래의 모습으로 돌아가기"와도 일맥상통합니다.
+    https://www.vietnam.vn/ko/trai-nghiem-song-xanh-thu-hut-du-khach-khi-den-da-nang
+
 ### 호찌민시 100년 비전 마스터플랜… "관광을 도시 재구조화 핵심 동력으로"
 - 매체 1곳 · 베트남 교민잡지 ! 씬짜오 베트남
   - 베트남 교민잡지 ! 씬짜오 베트남: 호찌민(Hồ Chí Minh)시가 100년을 내다보는 도시 마스터플랜을 수립하면서, 관광 산업을 도시 구조 재편의 핵심 축으로 통합해야 한다는 주장이 제기됐다. 전문가들은 관광을 인프라 개발 이후의 부가 서비스로 보는 시각에서 벗어나, 성장 거점과 위성도시 계획 수립 단계부터 관광을…
     https://chaovietnam.co.kr/194103/
+
+### 베트남항공이 국제 노선을 확대하며 두 자릿수 성장을 견인하고 있습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 베트남항공은 지속적으로 새로운 국제 노선을 개설하고 주요 시장에 대한 항공편 운항 횟수를 늘림으로써 무역에 상당한 기회를 창출하여 두 자릿수 경제 성장 목표 달성에 직접적으로 기여해 왔습니다.
+    https://www.vietnam.vn/ko/vietnam-airlines-mo-rong-canh-bay-quoc-te-thuc-day-tang-truong-hai-con-so
 
 ### 2026년 다낭에서 MICE 관광객 유치에 성공할 수 있는 3가지 이유
 - 매체 1곳 · vietnam.vn
@@ -68,16 +78,6 @@
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: VHO - 다낭은 국제 문화 공간과 음식 축제부터 야간 레이스, 콘서트, 일출 감상 활동에 이르기까지 연말과 새해 초에 관광객들을 위한 더욱 다양한 볼거리를 선보일 계획입니다.
     https://www.vietnam.vn/ko/da-nang-tung-chuoi-hoat-dong-hap-dan-chao-nam-moi-2027
-
-### 하노이는 바비 호수에서 호안끼엠 호수까지 관광 영역을 확장하고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 하노이시는 바비, 흐엉선, 호안끼엠 호수-구시가지 지역을 국가 관광 구역으로 지정받기 위한 신청 절차를 마무리하고 있습니다. 신청 준비와 더불어, 하노이시는 차, 커피, 음식, 전통 공예품 등을 테마로 한 다양한 행사를 기획하여 수도를 방문하는 관광객들에게 더 많은 볼거리를 제공할 계획
-    https://www.vietnam.vn/ko/tu-ba-vi-den-ho-hoan-kiem-ha-noi-mo-rong-khong-gian-du-lich
-
-### 비엣 트래블은 썬 푸꾸옥 항공과 협력하여 썬웨이를 출시함으로써 999만 VND부터 시작하는 동중국 여행 상품에 대한 수요를 촉진하고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 베트남 여행 주식회사(Viet Travel Joint Stock Company)는 선푸꾸옥 항공(Sun PhuQuoc Airways) 및 전략적 파트너와 협력하여 선웨이 콤플렉스(Sunway Complex)를 개장하고, 2026년 11월 26일부터 하노이-상하이 직항 노선과 연계된 99
-    https://www.vietnam.vn/ko/lu-hanh-viet-bat-tay-sun-phuquoc-airways-ra-mat-sunway-kich-cau-tour-hoa-dong-tu-9-99-trieu-dong
 
 ## 코타키나발루
 
@@ -113,11 +113,6 @@
   - 여행신문: 제주관광공사 문성종 제7대 사장이 취임했다. 제주관광의 신뢰 회복을 최우선 과제로 내세우고, 관광객 유치 규모보다 체류시간과 지역 소비를 중시하는 관광정책을 추진하겠다는 구상이다.
     https://www.traveltimes.co.kr/news/articleView.html?idxno=500697
 
-### 역대 최고 기록한 중국남방항공, 광저우-제주 노선 연다
-- 매체 1곳 · 여행신문
-  - 여행신문: 중국남방항공이 올해 한국 시장 수송객을 27% 늘려 역대 최고를 기록한 가운데, 12월 광저우-제주 노선을 새로 연다. 중국남방항공 한국지사는 11월 5일 앰배서더 서울 풀만 호텔에서 ‘2026 중국남방항공 동계 상품설명회’를 열고 동계 노선과 서비스를 소개했다.
-    https://www.traveltimes.co.kr/news/articleView.html?idxno=500691
-
 ### [여행단신] 부산관공·제주신화월드·모두투어
 - 매체 1곳 · 트래블데일리
   - 트래블데일리: ◆부산관광공사, ‘부산 온(溫) 투어’ 출시부산관광공사는 부산시티투어버스와 지역 온천·스파 시설을 연계한 부산형 웰니스 관광상품 ‘부산 온(溫) 투어(BUSAN
@@ -132,6 +127,11 @@
 - 매체 1곳 · 파이낸셜뉴스
   - 파이낸셜뉴스: 제주 애니메이션 제작사가 자체 지식재산권을 기반으로 만든 가족용 애니메이션 '호텔 페니'가 SBS 전국 방송에 편성됐다. 향후 시청 성과와 후속 콘텐츠 유통, 지식재산권 사업화 여부가 기업 성장의 주요 지표가 될 전망이다.
     https://www.fnnews.com/news/202611111344323878
+
+### 억새와 동백, 제주 미식까지… 다시 제주를 여행할 시간
+- 매체 1곳 · 여성조선
+  - 여성조선: 올해 제주를 찾은 관광객은 늘었지만 내국인의 발길은 줄었다. 제주특별자치도관광협회에 따르면 지난 11월 5일까지 제주 방문객은 1191만5332명으로 지난해 같은 기간보다 1.7% 증가했다.
+    http://woman.chosun.com/news/articleView.html?idxno=126834
 
 ## 일본
 
@@ -176,6 +176,11 @@
 
 ## 태국
 
+### “첫눈 내리자 겨울 골프여행 고민”… 태국행 줄고 일본행 늘었다
+- 매체 1곳 · 데이터투자
+  - 데이터투자: 서울 첫눈 8일 관측… 평년보다 12일 빨라9월 태국 방문 한국인 30.1% 감소… 일본은 25.6% 증가규슈 남부, 그린피·셀프 라운드·접근성으로 겨울 골프여행 대안 부상평년보다 이른 첫눈이 내리면서 겨울 골프여행을 준비하는 골퍼들의 관심이 해외로 향하고 있다. 그동안 겨울철 해외 골
+    https://www.datatooza.com/article/2026111117123694285e62b76150_80
+
 ### 안성훈, 2027년 태국 치앙마이서 단독 갈라 디너쇼 개최…공연 일정·예매 방법?
 - 매체 1곳 · 톱스타뉴스
   - 톱스타뉴스: 가수 안성훈이 2027년 1월 24일 태국 치앙마이 센타라 리버사이드 호텔에서 단독 갈라 디너쇼를 개최한다. 약 90분간 라이브 공연과 토크, 팬 참여 이벤트를 선보이며 참가자를 위한 포토타임도 진행한다.
@@ -187,11 +192,11 @@
     https://www.vietnam.vn/ko/nganh-du-lich-thai-lan-chung-ta-khong-con-vi-the-canh-tranh-noi-bat
 
 ### Chinese tourists skip Thailand as safety concerns persist
-- 매체 2곳 · The Thaiger · VnExpress International  ← 여러 곳이 썼다
+- 매체 2곳 · The Thaiger · VnExpress International – Latest news, business, travel and analysis from Vietnam  ← 여러 곳이 썼다
   - The Thaiger: Chinese tourist arrivals in Thailand fell in October despite China’s Golden Week holiday, with concerns over safety and recent flooding in Bangkok cited as poss
     https://thethaiger.com/hot-news/tourism/chinese-tourists-thailand-safety-concerns-october
-  - VnExpress International: 
-    https://news.google.com/rss/articles/CBMixwFBVV95cUxPSEItRjZHYU54azM5TXc2Z2tsVmNoU2xvUDZaeEVrRm9FelFtNUdiT1JfX3ZxYUhDWWJ3UEoxMzBrR08yNjVjLXBwSlFSZWxkakNpRV9SYUhFRlYyWXR3MGpZb21WQ1paSGVOaWZEcHRlOEdfelEwVXFkNHlwSTlqUlBTMGpJUWtVaFpDRVg5ZVZHcm0tcmc2MHBxamhIYWxEX0ZPOVVVNjJnMzVieDlwSEJhczRZMWp1Q2RvaHJkVEgzTzVRc1dr?oc=5
+  - VnExpress International – Latest news, business, travel and analysis from Vietnam: Thailand is strengthening tourist safety measures and working with China to restore visitor confidence after warnings about safety and fraudulent job recruitmen
+    https://e.vnexpress.net/news/travel/as-chinese-tourists-stay-away-thailand-vows-measures-to-address-safety-concerns-5142679.html
 
 ### Thailand strengthens Balkan tourism links with new Sofia–Phuket flights and Romanian trade partnerships
 - 매체 2곳 · The Phuket News · Travel Daily News Asia-Pacific  ← 여러 곳이 썼다
@@ -390,7 +395,7 @@
   - 로이슈: 하나투어가 겨울철 개별 여행객을 겨냥해 휴양지와 관광도시를 아우르는 자유여행 상품을 선보인다. 항공권과 숙박, 현지 체험 상품을 중심으로 계절별 여행 수요에 대응하는 구성을 마련했다.
     https://www.lawissue.co.kr/view.php?ud=202611101555124716204ead0791_12
 
-## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 27건)
+## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 26건)
 
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
@@ -401,7 +406,7 @@
 - [2026-11-11·여행업계] 크루즈 관광객 지갑은 열렸는데…여행사엔 ‘남의 얘기’
   크루즈 관광객은 기항지에 평균 5시간 48분 머물며 1인당 174.5달러를 지출하는 것으로 조사됐다. 다만 일부 인바운드 업계에서는 관광객의 소비가 실질적인 수익
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500670
-- [2026-11-11·제주] 역대 최고 기록한 중국남방항공, 광저우-제주 노선 연다
+- ✅ [2026-11-11·제주] 역대 최고 기록한 중국남방항공, 광저우-제주 노선 연다
   중국남방항공이 올해 한국 시장 수송객을 27% 늘려 역대 최고를 기록한 가운데, 12월 광저우-제주 노선을 새로 연다. 중국남방항공 한국지사는 11월 5일 앰배서더 서울 풀만 호텔에서 ‘2026 중국남방항공 동계 상품설명회’를 열고 동계 노선과 서비스를 소개했다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500691
 - ✅ [2026-11-11·여행업계] 더 오래 머물고 다시 찾게…말레이시아, 한국 시장 공략
@@ -600,6 +605,13 @@
   - 뉴스21 통신: 서울발레시어터의 '호두까기인형' 공연 / 출처 제주시청제주아트센터가 연말을 맞아 온 가족이 함께 즐길 수 있는 고전 발레 공연 '호두까기인형'을 선보인다. 제주아트센터는 오는 12월 11일부터 12일까지 서울발레시어터의 '호두까기인형' 공연을 개최한다고 밝혔다.
     https://www.news21tongsin.co.kr/news/309881
 
+### [stage] “전설의 마에스트로 사이먼 래틀 경이 온다!”…바이에른 방송교향악단, 12~13일 공연
+- 매체 2곳 · KBS 뉴스 · 파이낸스투데이
+  - KBS 뉴스: 독일을 대표하는 오케스트라 중 하나이자 세계 최정상급 교향악단으로 평가받는 명문 악단인 바이에른 방송. ..
+    https://news.kbs.co.kr/news/view.do?ncd=8708791
+  - 파이낸스투데이: 사진설명: 나탈리 슈바베 바이에른 방송교향악단 단원 대표(왼쪽부터), 벤자민 슈워츠 오케스트라 공연 기획 총괄, 지휘자 사이먼 래틀 경, 타바레 페를라스 오케스트라 대표가 11일 서울 서초구 로데아트센터에서 열린 &#39;사이먼 래틀 경&바이에른 방송교향악단 기자간담회&#39;에서 기념
+    https://www.fntoday.co.kr/news/articleView.html?idxno=397761
+
 ### [stage] 국립현대미술관, ‘조지아 오키프’ 특별전 12일 개막
 - 매체 2곳 · bntnews · 파이낸스투데이
   - bntnews: 미국 모더니즘을 대표하는 화가 조지아 오키프의 작품을 국내 최대 규모로 만날 수 있는 전시가 열린다. 국립현대미술관은 12일부터 내년 3월 21일까지
@@ -619,13 +631,8 @@
   - DWBNEWS(장애인복지뉴스): 제주대학교 음악학부 심희정 교수와 이정은 피아니스트가 오는 12일 오후 7시 30분 제주대 아라뮤즈홀에서 ‘피아노 듀오 리사이틀’을 개최한다. 이번 공연에서는 바흐와 멘델스존, 브람스 등 독일 작곡가들의 작품을 두 피아니스트의 호흡으로 선보인다.
     https://www.dwbnews.kr/news/articleView.html?idxno=125025
 
-### [stage] 오케스트라 상상, 국악·전자음악 융합 공연 ‘?’ 선보인다
-- 매체 1곳 · 충청매일
-  - 충청매일: 충북 증평군에서 국악과 전자음악, 전통예술이 어우러진 창작공연이 펼쳐진다. 증평군은 오는 14일 오후 5시 증평문화회관에서 오케스트라 상상(예술감독 유용성)의 창작공연 ‘?’를 선보인다고 10일 밝혔다.
-    https://www.ccdn.co.kr/news/articleView.html?idxno=1110280
-
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 37개 확인, 사진 줄 3개)
+(자유 이용 사진: 이름 후보 37개 확인, 사진 줄 2개)
 
 ### 🔥 화제(매체 32곳) [movie] ‘최종면접’ 누적 17만명 돌파하며 다시 1위…‘극장판 치이카와’ 3위로 [11월 9일 영화 박스오피스]
 - 매체 1곳 · ER 이코노믹리뷰  ← 여러 곳이 썼다
@@ -688,14 +695,15 @@
   - 연합뉴스: ▲ 하나은행은 글로벌 금융전문매체 더 뱅커와 PWM이 공동 주최한 '제18회 글로벌 PB어워드'에서 국가별 최고상인 '대한민국 최우수 PB은행'...
     https://www.yna.co.kr/view/AKR20261110041700002
 
-### 🔥 화제(매체 3곳) [startrip] KBS교향악단, 정명훈·정경화 한 무대로 새 시즌 연다
-- 매체 1곳 · 한국경제
-- 사진(자유 이용, 정명훈): `![정명훈 · 사진 acrofan.com · CC BY-SA 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/1/16/Jung_Myung-Hoon_%28comedian%29_from_acrofan.jpg)`
-  - 한국경제: KBS교향악단, 정명훈·정경화 한 무대로 새 시즌 연다, 2027시즌 공연 일정 공개. ..정기연주회 열두 차례 정명훈 &ldquo;작곡가 고유 색채와 개성 깊게 표현&rdquo; 베토벤 서거 200주년 맞아 기획 공연 4회도 3월엔 정명훈, 정경화, 지안 왕 삼중협주곡 연주
-    https://www.hankyung.com/article/202611108516i
+### 🔥 화제(매체 3곳) [startrip] 방탄소년단 'SWIM', K팝 그룹 최초 애플뮤직 글로벌 '2026 베스트 송' 선정
+- 매체 2곳 · YTN star · 스타뉴스  ← 여러 곳이 썼다
+  - 스타뉴스: 그룹 방탄소년단(BTS·RM, 진, 슈가, 제이홉, 지민, 뷔, 정국)이 정규 5집 '아리랑'(ARIRANG)의 타이틀곡 'SWIM'을 애플뮤직 글로벌 '2026 베스트 송'에 한국 그룹 최초로 올렸다. 이 플레이리스트는 한 해를 대표하는 100곡을 선정한다.
+    https://www.starnewskorea.com/music/2026/11/11/2026111107063376958
+  - YTN star: 그룹 방탄소년단(BTS)의 'SWIM'이 애플뮤직이 선정한 2026년 최고의 노래 중 하나로 꼽혔다. 지난 7일(현지 시간) 애플뮤직이 발표한 연말 플레이리스트에 따르면, 방탄소년단의 정규 5집 '아리랑(ARIRANG)' 타이틀곡 'SWIM'이 글로벌 '2026 베스트 송(Best So
+    https://star.ytn.co.kr/_sn/0117_202611111745112579
 
 ---
-거리 119건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 120건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -705,65 +713,64 @@
 (검색어 33개 · 고른 영상 15개)
 
 ## CHAERYEONG(채령) “Lovesick” M/V
-- 채널 JYP Entertainment · 조회수 3,567,425회 · 2일 전
+- 채널 JYP Entertainment · 조회수 3,616,210회 · 2일 전
 - `@youtube pe-rk1ekb4w` · https://www.youtube.com/watch?v=pe-rk1ekb4w
 
 ## TXT (투모로우바이투게더) PERFECT STORM Preview
-- 채널 HYBE LABELS · 조회수 846,136회 · 6일 전
+- 채널 HYBE LABELS · 조회수 847,385회 · 6일 전
 - `@youtube 77SfHCoJfgc` · https://www.youtube.com/watch?v=77SfHCoJfgc
 
 ## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
-- 채널 tvN DRAMA · 조회수 735,601회 · 3일 전
+- 채널 tvN DRAMA · 조회수 735,706회 · 3일 전
 - `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
 
+## [11화 예고] 김유정의 정체를 눈치챈 듯한 사토 부자?!😨 그리고 걸려온 의문의 전화☎
+- 채널 tvN DRAMA · 조회수 661,771회 · 2일 전
+- `@youtube d0kBID9SX6w` · https://www.youtube.com/watch?v=d0kBID9SX6w
+
 ## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 433,096회 · 1일 전
+- 채널 tvN DRAMA · 조회수 434,039회 · 1일 전
 - `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
-  티빙에서 스트리밍 : https://tving.onelink.me/xHqC/mvei8582 살인 용의자로 지목된 안하무인 재벌 3세와 그의 수행비서로 잠입한 특수부대 출신 여형사의 밀착 스릴 로맨스 tvN 〈나의 유죄인간〉 [월화] 저녁 8시 50분 | tvN #tvN #나의유죄인간 #LoveinDisguise #임시완 #설인아 #김정현 #연우 #즐거움엔20tvN #스트리밍은TVING #티빙에서스트리밍
 
 ## xikers 'DIENAMITE’｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 399,140회 · 6일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 400,929회 · 7일 전
 - `@youtube k-xc9wWWTDc` · https://www.youtube.com/watch?v=k-xc9wWWTDc
 
 ## [7화 예고] "까야겠네, 강비서 여자인 거💥" 여자인 걸 들켜버린 설인아와 임시완의 깊어지는 오해😱 #나의유죄인간 EP.7
-- 채널 tvN DRAMA · 조회수 397,701회 · 7일 전
+- 채널 tvN DRAMA · 조회수 397,820회 · 7일 전
 - `@youtube 40VaBfB6e88` · https://www.youtube.com/watch?v=40VaBfB6e88
 
-## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 제이크 (JAKE)
-- 채널 HYBE LABELS · 조회수 391,716회 · 5일 전
-- `@youtube qwivRjjPlZU` · https://www.youtube.com/watch?v=qwivRjjPlZU
-
 ## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
-- 채널 tvN DRAMA · 조회수 342,520회 · 1일 전
+- 채널 tvN DRAMA · 조회수 350,256회 · 1일 전
 - `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
 
+## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 제이 (JAY)
+- 채널 HYBE LABELS · 조회수 337,258회 · 3일 전
+- `@youtube oPCjiOQcxRY` · https://www.youtube.com/watch?v=oPCjiOQcxRY
+
+## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 정원 (JUNGWON)
+- 채널 HYBE LABELS · 조회수 291,693회 · 2일 전
+- `@youtube cNXeIF1dGBg` · https://www.youtube.com/watch?v=cNXeIF1dGBg
+
 ## [라이어 5회 예고] ＂당신이 이겼어＂, MBC 261113 방송
-- 채널 MBCdrama · 조회수 266,190회 · 3일 전
+- 채널 MBCdrama · 조회수 267,024회 · 3일 전
 - `@youtube HgU_TkMhXjE` · https://www.youtube.com/watch?v=HgU_TkMhXjE
 
 ## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
-- 채널 HYBE LABELS · 조회수 261,019회 · 1일 전
+- 채널 HYBE LABELS · 조회수 261,831회 · 1일 전
 - `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
 
 ## ［30회 예고］나만 위해서 그랬을 것 같니? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 244,505회 · 2일 전
+- 채널 KBS Drama · 조회수 245,362회 · 2일 전
 - `@youtube RESSBa51NL8` · https://www.youtube.com/watch?v=RESSBa51NL8
 
-## [29화 선공개] 무서워서 왔어요 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 231,904회 · 3일 전
-- `@youtube EtvuLAC0qWU` · https://www.youtube.com/watch?v=EtvuLAC0qWU
-
 ## ［29회 예고］우리 그냥 의절하면 안 돼? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 189,307회 · 3일 전
+- 채널 KBS Drama · 조회수 189,563회 · 3일 전
 - `@youtube Fm4bi3Pu4XY` · https://www.youtube.com/watch?v=Fm4bi3Pu4XY
 
 ## [종합 예고] 하나의 나라를 위한 피로 쓴 마지막 전쟁 [문무] | KBS 방송
-- 채널 KBS Drama · 조회수 143,625회 · 6일 전
+- 채널 KBS Drama · 조회수 144,025회 · 6일 전
 - `@youtube dg5PPnh_7sU` · https://www.youtube.com/watch?v=dg5PPnh_7sU
-
-## [53화 예고] 이게 다 아줌마 때문이라고! [욕망의 덫] | KBS 방송
-- 채널 KBS Drama · 조회수 127,095회 · 5일 전
-- `@youtube iF-qLwaGasE` · https://www.youtube.com/watch?v=iF-qLwaGasE
 
 
 

@@ -4,18 +4,20 @@ channel: travel
 region: japan
 section: news
 kind: 해설
-title: "강원관광재단, 나고야서 일본 중부 여행업계 공략…'제3의 방한시장' 개척"
+title: 강원관광재단, 나고야서 일본 중부 여행업계 공략…'제3의 방한시장' 개척
 source_name: ''
 source_url: ''
-summary: 강원관광재단이 5일 나고야 힐튼호텔에서 열린 'K-관광 비즈니스데이'에 참가해 일본 중부 여행업계를 상대로 강원 관광을 알렸다. 도쿄·오사카에 이은 세 번째 방한시장을 노린다.
+summary: 강원관광재단이 5일 나고야 힐튼호텔에서 열린 'K-관광 비즈니스데이'에 참가해 일본 중부 여행업계를 상대로 강원 관광을 알렸다. 도쿄·오사카에
+  이은 세 번째 방한시장을 노린다.
 sources:
-  - https://www.gninews.co.kr/news/article.html?no=884361
-  - https://newssunday.co.kr/news/view.php?no=255964
-  - https://www.viva100.com/article/20261110500149
-  - https://www.fnnews.com/news/202611101005267144
-status: approved
+- https://www.gninews.co.kr/news/article.html?no=884361
+- https://newssunday.co.kr/news/view.php?no=255964
+- https://www.viva100.com/article/20261110500149
+- https://www.fnnews.com/news/202611101005267144
+status: published
+published_id: c-47b69fd8d630bc25c527b196cfaceedc9516d1e9
+published_on: '2026-11-11'
 ---
-
 강원관광재단이 일본 나고야에서 현지 여행업계를 만나 강원 관광상품을 알렸다. 도쿄와 오사카에 이어 일본 중부 지역을 '제3의 방한시장'으로 키우겠다는 계획이다.
 
 강원관광재단은 지난 5일 나고야 힐튼호텔에서 열린 '2026 K-관광 비즈니스데이 in 나고야'에 참가했다고 10일 밝혔다. 이 행사에는 현지 여행사와 항공사 관계자 100명가량이 참석했다.

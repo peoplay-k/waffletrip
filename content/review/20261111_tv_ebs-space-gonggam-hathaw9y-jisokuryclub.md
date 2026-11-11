@@ -5,15 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '스페이스 공감' 해서웨이·지소쿠리클럽 '이 밴드가 사는 법'"
+title: EBS '스페이스 공감' 해서웨이·지소쿠리클럽 '이 밴드가 사는 법'
 source_name: ''
 source_url: ''
 summary: 11일 밤 10시 50분 EBS '스페이스 공감'에 부산 밴드 해서웨이와 지소쿠리클럽이 출연해 라이브를 펼친다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005630358
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005630358
+status: published
+published_id: c-b77c9403af518921a9dd63705a986226a2f8c80b
+published_on: '2026-11-11'
 ---
-
 > **방송 정보**
 > 채널 · EBS | 프로그램 · 스페이스 공감 | 부제 · 이 밴드가 사는 법
 > 방송 · 2026년 11월 11일(수) 밤 10시 50분
