@@ -8,13 +8,15 @@ kind: 해설
 title: SBS '굿파트너2' 캐릭터 포스터 4종 공개…장나라·김혜윤·표지훈·박해진
 source_name: ''
 source_url: ''
-summary: SBS 새 금토드라마 '굿파트너2'가 캐릭터 포스터 4종을 공개했다. 장나라가 차은경, 김혜윤이 강혜성, 표지훈이 전은호, 박해진이 박태수 역을 맡았다. 첫 방송은 11월 20일이다.
+summary: SBS 새 금토드라마 '굿파트너2'가 캐릭터 포스터 4종을 공개했다. 장나라가 차은경, 김혜윤이 강혜성, 표지훈이 전은호, 박해진이
+  박태수 역을 맡았다. 첫 방송은 11월 20일이다.
 sources:
 - https://www.topstarnews.net/news/articleView.html?idxno=16273535
 - https://www.diarypoint.com/news/articleView.html?idxno=6831
-status: approved
+status: published
+published_id: c-3d83794a80bf42a1626e1a68b44ea9ed5ed9455a
+published_on: '2026-11-12'
 ---
-
 SBS 새 금토드라마 '굿파트너2'가 첫 방송을 앞두고 네 주인공의 얼굴을 먼저 공개했다. 제작진은 장나라, 김혜윤, 표지훈, 박해진의 캐릭터 포스터 4종을 내놨다.
 
 ![김혜윤 · 사진 TV10 · CC BY 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/1/1c/Kim_Hye-yoon_in_January_2026.png)

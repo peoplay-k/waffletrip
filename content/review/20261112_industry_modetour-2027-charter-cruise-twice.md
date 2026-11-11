@@ -7,14 +7,16 @@ kind: 해설
 title: 모두투어, 내년 단독 크루즈 전세선 두 번 띄운다…5월 17일·10월 8일 부산 출발
 source_name: ''
 source_url: ''
-summary: 모두투어가 올해 6월 첫 단독 크루즈 전세선 '모두의 크루즈' 운영 경험을 바탕으로 2027년 5월 17일과 10월 8일 두 차례 전세선을 운항한다. 부산에서 출발해 나가사키와 상하이를 기항하며, 선상 콘텐츠와 기항지 관광을 결합한다.
+summary: 모두투어가 올해 6월 첫 단독 크루즈 전세선 '모두의 크루즈' 운영 경험을 바탕으로 2027년 5월 17일과 10월 8일 두 차례
+  전세선을 운항한다. 부산에서 출발해 나가사키와 상하이를 기항하며, 선상 콘텐츠와 기항지 관광을 결합한다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500707
 - https://www.econovill.com/news/articleView.html?idxno=756784
 - https://www.traveldaily.co.kr/news/articleView.html?idxno=72659
-status: approved
+status: published
+published_id: c-54a29d487cb4c1cf063c2ed2a89da6bf918e9a8e
+published_on: '2026-11-12'
 ---
-
 부산에서 출발하는 단독 크루즈가 내년에는 두 번 뜬다. 모두투어는 2027년 5월 17일과 10월 8일 단독 크루즈 전세선 '모두의 크루즈'를 운항한다고 11일 밝혔다.
 
 모두투어는 올해 6월 창립 이후 처음으로 단독 전세선을 띄웠다. 이때 크루즈 사업의 성장 가능성을 확인했고, 그 경험을 바탕으로 내년에는 운항을 연 2회로 늘린다.
