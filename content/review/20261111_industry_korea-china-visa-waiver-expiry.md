@@ -7,11 +7,13 @@ kind: 해설
 title: 한·중 무비자 입국, 연말 동시 만료…연장 여부 '아직'
 source_name: ''
 source_url: ''
-summary: 한국과 중국이 상대국 국민에게 적용해 온 무비자 입국 제도가 올해 말 나란히 종료를 앞두고 있다. 연장 여부는 아직
-  정해지지 않았지만, 여행업계는 현행 기조가 이어질 가능성에 무게를 두고 있다.
+summary: 한국과 중국이 상대국 국민에게 적용해 온 무비자 입국 제도가 올해 말 나란히 종료를 앞두고 있다. 연장 여부는 아직 정해지지 않았지만,
+  여행업계는 현행 기조가 이어질 가능성에 무게를 두고 있다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500676
-status: approved
+status: published
+published_id: c-d5387b958b55051c7c1ba6eb05fa11654c0a2212
+published_on: '2026-11-11'
 ---
 한국과 중국을 오가는 길을 터 준 무비자 제도가 연말을 기점으로 갈림길에 선다. 양국이 상대국 국민에게 적용해 온 무비자 입국 제도가 올해 말 나란히 종료를 앞두고 있다.
 

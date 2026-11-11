@@ -8,13 +8,14 @@ kind: 해설
 title: 한국인 첫 파리오페라발레 에투알 박세은, '로미오와 줄리엣' 국내 스크린 상영
 source_name: ''
 source_url: ''
-summary: 한국인 최초로 파리 오페라 발레의 최고 등급 에투알에 오른 발레리나 박세은의 '로미오와 줄리엣'이 국내 스크린에
-  걸린다. 배급사 위즈온센이 파리 오페라 발레 2026/27 시즌 작품을 국내에 들여온다.
+summary: 한국인 최초로 파리 오페라 발레의 최고 등급 에투알에 오른 발레리나 박세은의 '로미오와 줄리엣'이 국내 스크린에 걸린다. 배급사 위즈온센이
+  파리 오페라 발레 2026/27 시즌 작품을 국내에 들여온다.
 sources:
 - https://www.newskorea.ne.kr/news/articleView.html?idxno=21935
 - https://www.2news.co.kr/news/articleView.html?idxno=31965
 - https://www.newsin.co.kr/news/articleView.html?idxno=134876
-status: approved
+status: duplicate
+duplicate_of: 20261110_stage_paris-opera-ballet-romeo-juliet-park-seye-1122.md
 ---
 파리의 무대가 국내 스크린으로 옮겨온다. 한국인 최초로 프랑스 파리 오페라 발레(Paris Opera Ballet)의 최고 등급인 에투알(Étoile)에 오른 발레리나 박세은이 출연한 '로미오와 줄리엣'이 국내 스크린에서 상영된다.
 

@@ -7,11 +7,13 @@ kind: 보도자료
 title: 태국·중국, 관광객 보호 위한 공동 실무그룹 꾸린다
 source_name: ''
 source_url: ''
-summary: 태국 관광체육부와 방콕 주재 중국 대사관이 중국인 관광객 보호를 강화하기 위한 공동 실무그룹을 설립한다. 중국인을
-  미얀마 국경 너머로 유인하는 사기 행위를 막는 것이 목적이다.
+summary: 태국 관광체육부와 방콕 주재 중국 대사관이 중국인 관광객 보호를 강화하기 위한 공동 실무그룹을 설립한다. 중국인을 미얀마 국경 너머로
+  유인하는 사기 행위를 막는 것이 목적이다.
 sources:
 - https://www.vietnam.vn/ko/thai-lan-va-trung-quoc-lap-co-che-phoi-hop-bao-ve-du-khach
-status: approved
+status: published
+published_id: c-ddfcf3fb919bc216b6b135ccbdf6ebd40df1c415
+published_on: '2026-11-11'
 ---
 태국과 중국이 관광객 보호를 위해 손을 잡는다. 태국 관광체육부와 방콕 주재 중국 대사관은 중국인 관광객 보호를 강화하기 위한 공동 실무그룹을 설립할 예정이라고 밝혔다.
 

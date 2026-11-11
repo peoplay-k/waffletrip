@@ -7,12 +7,14 @@ kind: 해설
 title: 대구·타이베이, 관광 교류를 첨단산업·재난대응까지 넓힌다
 source_name: ''
 source_url: ''
-summary: 대구시와 타이베이시가 관광 중심의 자매도시 교류를 첨단산업·헬스케어·재난 대응 분야로 넓히기로 했다. 타이베이시
-  부시장 대표단이 대구를 찾아 협력 확대를 논의했다.
+summary: 대구시와 타이베이시가 관광 중심의 자매도시 교류를 첨단산업·헬스케어·재난 대응 분야로 넓히기로 했다. 타이베이시 부시장 대표단이 대구를
+  찾아 협력 확대를 논의했다.
 sources:
 - https://www.ksw-news.com/news/articleView.html?idxno=3057790
 - https://tk.newdaily.co.kr/site/data/html/2026/11/07/2026110700043.html
-status: approved
+status: published
+published_id: c-0bb136ddb4c6db18a90100897c73fe6b6359bb0c
+published_on: '2026-11-11'
 ---
 대구와 타이베이의 교류가 관광을 넘어 첨단산업과 재난 대응으로 넓어진다. 타이베이시 장온덕 부시장을 비롯한 대표단이 지난 6일 대구를 찾아 대구시와 협력 확대 방안을 논의했다.
 

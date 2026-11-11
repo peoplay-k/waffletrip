@@ -8,11 +8,13 @@ kind: 보도자료
 title: '''욕망의 덫'' 55회, 약혼식 나타난 국철에 불안해진 미란'
 source_name: ''
 source_url: ''
-summary: KBS2 일일드라마 '욕망의 덫' 55회가 11일 밤 7시 50분 방송된다. 해라와 석진의 약혼식에 국철이 나타나 미란이
-  불안에 휩싸이고, 은설은 미란에게 선물을 건네다 뜻밖의 사실을 알게 된다.
+summary: KBS2 일일드라마 '욕망의 덫' 55회가 11일 밤 7시 50분 방송된다. 해라와 석진의 약혼식에 국철이 나타나 미란이 불안에 휩싸이고,
+  은설은 미란에게 선물을 건네다 뜻밖의 사실을 알게 된다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+status: published
+published_id: c-feb597657d3f106fa5f81ed51a065dfa17173f1b
+published_on: '2026-11-11'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 욕망의 덫 | 회차 · 55회

@@ -8,11 +8,13 @@ kind: 보도자료
 title: '''서장훈의 이웃집 백만장자'', 51세 주부서 월매출 3억 한우집 주인 된 사연'
 source_name: ''
 source_url: ''
-summary: EBS '서장훈의 이웃집 백만장자'가 11일 밤 9시 55분 방송된다. 51세에 가정주부에서 사업가로 변신해 월 매출
-  3억 원의 한우 식당을 일군 라우식의 이야기를 조명한다.
+summary: EBS '서장훈의 이웃집 백만장자'가 11일 밤 9시 55분 방송된다. 51세에 가정주부에서 사업가로 변신해 월 매출 3억 원의 한우
+  식당을 일군 라우식의 이야기를 조명한다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005630360
-status: approved
+status: published
+published_id: c-749cab846772cef6261ec317c79e464135f2c5aa
+published_on: '2026-11-11'
 ---
 > **방송 정보**
 > 채널 · EBS | 프로그램 · 서장훈의 이웃집 백만장자 | 회차 · 11월 11일 방송분

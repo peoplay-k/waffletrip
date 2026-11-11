@@ -7,13 +7,15 @@ kind: 해설
 title: 델타항공, 미니애폴리스~마우이 직항 노선 새로 열어
 source_name: ''
 source_url: ''
-summary: 델타항공이 미국 미니애폴리스-세인트폴(MSP)과 하와이 마우이를 잇는 직항 노선을 새로 띄웠다. 경유 없이 마우이로 바로
-  갈 수 있게 됐고, 첫 비행은 고래철과 맞물려 출발했다.
+summary: 델타항공이 미국 미니애폴리스-세인트폴(MSP)과 하와이 마우이를 잇는 직항 노선을 새로 띄웠다. 경유 없이 마우이로 바로 갈 수 있게
+  됐고, 첫 비행은 고래철과 맞물려 출발했다.
 sources:
 - https://wjon.com/msp-maui-direct-flight/
 - https://minnesotasnewcountry.com/ixp/67/p/msp-maui-direct-flight/
 - https://b105country.com/delta-nonstop-flight-minneapolis-maui/
-status: approved
+status: published
+published_id: c-148664f69c092d3e32deef5b38ffc94924b574f3
+published_on: '2026-11-11'
 ---
 미국 미니애폴리스에서 하와이 마우이로 가는 길이 짧아졌다. 델타항공이 미니애폴리스-세인트폴(MSP) 국제공항과 마우이를 잇는 직항 노선을 새로 열었다.
 
