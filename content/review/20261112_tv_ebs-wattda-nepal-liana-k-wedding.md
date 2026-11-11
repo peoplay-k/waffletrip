@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS1 '왔다! 내 손주', 네팔 리아나 가족의 K-웨딩 스튜디오 성공기"
+title: EBS1 '왔다! 내 손주', 네팔 리아나 가족의 K-웨딩 스튜디오 성공기
 source_name: ''
 source_url: ''
 summary: EBS1 '왔다! 내 손주'가 12일 밤 9시 55분 네팔 카트만두에서 K-웨딩 스튜디오를 운영하는 리아나 가족을 찾아간다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005622385
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005622385
+status: published
+published_id: c-93f487b24e6949c65ab9b00dacf9e4eff142e019
+published_on: '2026-11-12'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 왔다! 내 손주

@@ -5,15 +5,17 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "서울발레시어터 '호두까기인형', 12월 11~12일 제주아트센터 무대"
+title: 서울발레시어터 '호두까기인형', 12월 11~12일 제주아트센터 무대
 source_name: ''
 source_url: ''
 summary: 제주아트센터가 12월 11일과 12일 서울발레시어터의 '호두까기인형'을 올린다. 한복과 장구춤 등 한국적 색채를 더한 연말 가족 공연이다.
 sources:
-  - https://www.newsis.com/view/NISX20261111_0003863420
-  - http://www.newslinejeju.com/news/articleView.html?idxno=177880
-  - https://www.news21tongsin.co.kr/news/309881
-status: approved
+- https://www.newsis.com/view/NISX20261111_0003863420
+- http://www.newslinejeju.com/news/articleView.html?idxno=177880
+- https://www.news21tongsin.co.kr/news/309881
+status: published
+published_id: c-af3cf1e9b94be9923ee113e8965abdcb419cea40
+published_on: '2026-11-12'
 ---
 서울발레시어터가 연말 제주 관객을 만난다. 제주아트센터는 12월 11일부터 12일까지 이 단체의 고전 발레 '호두까기인형'을 무대에 올린다고 밝혔다.
 

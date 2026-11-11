@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '거장항준' 5회, 허성태의 오디션 징크스와 곽선영·이민기 출격"
+title: SBS '거장항준' 5회, 허성태의 오디션 징크스와 곽선영·이민기 출격
 source_name: ''
 source_url: ''
-summary: SBS 예능 '거장항준'이 12일 밤 9시 5회를 방송한다. 허성태, 곽선영, 이민기가 게스트로 나와 오디션 루틴과 촬영장 일화를 풀어낸다.
+summary: SBS 예능 '거장항준'이 12일 밤 9시 5회를 방송한다. 허성태, 곽선영, 이민기가 게스트로 나와 오디션 루틴과 촬영장 일화를
+  풀어낸다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9376
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9376
+status: published
+published_id: c-482e9c88ec42e0c265f71538c4afea6533730cdc
+published_on: '2026-11-12'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 거장항준 | 회차 · 5회

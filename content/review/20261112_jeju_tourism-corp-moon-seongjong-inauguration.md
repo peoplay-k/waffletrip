@@ -4,16 +4,18 @@ channel: travel
 region: jeju
 section: news
 kind: 해설
-title: "문성종 제7대 제주관광공사 사장 취임, 체류시간·지역 소비 중심으로"
+title: 문성종 제7대 제주관광공사 사장 취임, 체류시간·지역 소비 중심으로
 source_name: ''
 source_url: ''
-summary: 문성종 제7대 제주관광공사 사장이 9일 취임했다. 관광객 수보다 체류시간과 지역 소비를 앞세우고 제주관광의 신뢰 회복을 우선 과제로 꼽았다.
+summary: 문성종 제7대 제주관광공사 사장이 9일 취임했다. 관광객 수보다 체류시간과 지역 소비를 앞세우고 제주관광의 신뢰 회복을 우선 과제로
+  꼽았다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72628
-  - https://www.yna.co.kr/view/AKR20261105088851056
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500697
-  - http://woman.chosun.com/news/articleView.html?idxno=126834
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72628
+- https://www.yna.co.kr/view/AKR20261105088851056
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500697
+- http://woman.chosun.com/news/articleView.html?idxno=126834
+status: duplicate
+duplicate_of: 20261110_jeju_moon-sungjong-jeju-tourism-org-ceo.md
 ---
 문성종 제7대 제주관광공사 사장이 9일 취임해 임기를 시작했다. 신임 사장은 제주관광의 신뢰 회복을 우선 과제로 두고, 관광객을 얼마나 불러 모으느냐보다 얼마나 오래 머물며 지역에서 소비하느냐를 정책의 기준으로 삼겠다는 구상이다.
 

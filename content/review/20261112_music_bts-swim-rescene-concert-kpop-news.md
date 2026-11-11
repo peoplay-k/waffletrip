@@ -5,16 +5,19 @@ category: music
 region: ''
 section: news
 kind: 해설
-title: "BTS 'SWIM' 애플뮤직 올해의 노래 선정, 리센느는 내년 2월 첫 단독 콘서트"
+title: BTS 'SWIM' 애플뮤직 올해의 노래 선정, 리센느는 내년 2월 첫 단독 콘서트
 source_name: ''
 source_url: ''
-summary: 방탄소년단 'SWIM'이 애플뮤직 글로벌 '2026 베스트 송'에 한국 그룹 최초로 선정됐다. 걸그룹 리센느는 내년 2월 19~21일 올림픽홀에서 데뷔 후 첫 단독 콘서트를 연다.
+summary: 방탄소년단 'SWIM'이 애플뮤직 글로벌 '2026 베스트 송'에 한국 그룹 최초로 선정됐다. 걸그룹 리센느는 내년 2월 19~21일
+  올림픽홀에서 데뷔 후 첫 단독 콘서트를 연다.
 sources:
-  - https://www.starnewskorea.com/music/2026/11/11/2026111107063376958
-  - https://star.ytn.co.kr/_sn/0117_202611111745112579
-  - https://news.sbs.co.kr/news/endPage.do?news_id=N1008840911
-  - https://www.starnewskorea.com/music/2026/11/11/2026111109253031299
-status: approved
+- https://www.starnewskorea.com/music/2026/11/11/2026111107063376958
+- https://star.ytn.co.kr/_sn/0117_202611111745112579
+- https://news.sbs.co.kr/news/endPage.do?news_id=N1008840911
+- https://www.starnewskorea.com/music/2026/11/11/2026111109253031299
+status: published
+published_id: c-80451d66b4250fd80673127ce87f101676211288
+published_on: '2026-11-12'
 ---
 방탄소년단의 'SWIM'이 애플뮤직이 꼽은 올해의 노래 목록에 한국 그룹 최초로 올랐고, 걸그룹 리센느는 데뷔 후 처음으로 단독 콘서트를 연다. 11일 전해진 K팝 소식 두 가지다.
 

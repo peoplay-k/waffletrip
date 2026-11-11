@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS1 '인간극장' 다시 뜨겁게 레슬링 삼부자, 4부에서 소개팅 나서는 큰아들"
+title: KBS1 '인간극장' 다시 뜨겁게 레슬링 삼부자, 4부에서 소개팅 나서는 큰아들
 source_name: ''
 source_url: ''
-summary: KBS1 '인간극장'이 12일 오전 7시 50분 '다시 뜨겁게 레슬링 삼부자' 4부를 방송한다. 레슬링 국가대표 출신 아버지와 두 아들이 배관 현장에서 일하는 가족 이야기다.
+summary: KBS1 '인간극장'이 12일 오전 7시 50분 '다시 뜨겁게 레슬링 삼부자' 4부를 방송한다. 레슬링 국가대표 출신 아버지와 두
+  아들이 배관 현장에서 일하는 가족 이야기다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/human
-status: approved
+- https://program.kbs.co.kr/1tv/culture/human
+status: published
+published_id: c-73375767e59c03982cdf17b292be25edca569e2f
+published_on: '2026-11-12'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 인간극장 | 편 · 다시 뜨겁게 레슬링 삼부자(4부)

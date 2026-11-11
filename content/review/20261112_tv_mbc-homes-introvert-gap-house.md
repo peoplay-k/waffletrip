@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "MBC '구해줘! 홈즈', 김숙·양세형·김향기와 서울 '틈 있는 집' 임장"
+title: MBC '구해줘! 홈즈', 김숙·양세형·김향기와 서울 '틈 있는 집' 임장
 source_name: ''
 source_url: ''
-summary: MBC '구해줘! 홈즈'가 12일 밤 10시 '틈 있는 집' 편을 방송한다. 김숙, 양세형, 김향기가 동대문구 초역세권 복층 오피스텔과 옥상 텃밭을 찾는다.
+summary: MBC '구해줘! 홈즈'가 12일 밤 10시 '틈 있는 집' 편을 방송한다. 김숙, 양세형, 김향기가 동대문구 초역세권 복층 오피스텔과
+  옥상 텃밭을 찾는다.
 sources:
-  - https://with.mbc.co.kr/pr/press/view.html?idxno=36962
-status: approved
+- https://with.mbc.co.kr/pr/press/view.html?idxno=36962
+status: published
+published_id: c-7d2dcc4206cf2d21c14563cbbcfdcaffb4da0549
+published_on: '2026-11-12'
 ---
 > **방송 정보**
 > 채널 · MBC | 프로그램 · 구해줘! 홈즈

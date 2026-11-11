@@ -5,18 +5,21 @@ category: stage
 region: ''
 section: news
 kind: 해설
-title: "오키프 특별전 개막·사이먼 래틀 내한, 이번 주 문을 여는 전시와 공연"
+title: 오키프 특별전 개막·사이먼 래틀 내한, 이번 주 문을 여는 전시와 공연
 source_name: ''
 source_url: ''
-summary: 국립현대미술관 '조지아 오키프와 미국 모더니즘'이 12일 개막하고, 사이먼 래틀과 바이에른 방송교향악단이 12~13일 서울에서 공연한다. 14일에는 김세중미술관에서 두 작가의 개인전이 시작된다.
+summary: 국립현대미술관 '조지아 오키프와 미국 모더니즘'이 12일 개막하고, 사이먼 래틀과 바이에른 방송교향악단이 12~13일 서울에서 공연한다.
+  14일에는 김세중미술관에서 두 작가의 개인전이 시작된다.
 sources:
-  - https://www.bntnews.co.kr/article/view/bnt202611110032
-  - https://www.fntoday.co.kr/news/articleView.html?idxno=397694
-  - https://www.fntoday.co.kr/news/articleView.html?idxno=397761
-  - https://news.kbs.co.kr/news/view.do?ncd=8708791
-  - https://www.artkoreatv.com/news/articleView.html?idxno=105539
-  - https://www.krcom.co.kr/news/articleView.html?idxno=265526
-status: approved
+- https://www.bntnews.co.kr/article/view/bnt202611110032
+- https://www.fntoday.co.kr/news/articleView.html?idxno=397694
+- https://www.fntoday.co.kr/news/articleView.html?idxno=397761
+- https://news.kbs.co.kr/news/view.do?ncd=8708791
+- https://www.artkoreatv.com/news/articleView.html?idxno=105539
+- https://www.krcom.co.kr/news/articleView.html?idxno=265526
+status: published
+published_id: c-cef1d938300caab017aff6468b7f04169d6c7f6d
+published_on: '2026-11-12'
 ---
 미국 모더니즘 화가 조지아 오키프의 대규모 특별전이 12일 막을 올리고, 세계적인 지휘자 사이먼 래틀이 바이에른 방송교향악단과 함께 서울 무대에 선다. 이번 주 전시와 공연 소식을 정리한다.
 
