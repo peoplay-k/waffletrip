@@ -4,18 +4,21 @@ channel: travel
 region: industry
 section: data
 kind: 해설
-title: "방한 외국인 관광객 12일 첫 2,000만 명 돌파…2012년 1,000만 이후 14년 만"
+title: 방한 외국인 관광객 12일 첫 2,000만 명 돌파…2012년 1,000만 이후 14년 만
 source_name: ''
 source_url: ''
-summary: 문화체육관광부는 12일 올해 한국을 찾은 외국인 관광객이 사상 처음 2,000만 명을 넘었다고 밝혔다. 1~9월 관광 소비는 47.7% 늘었지만 9월 관광수지는 4억 9,800만 달러 적자로 3개월 연속 적자다.
+summary: 문화체육관광부는 12일 올해 한국을 찾은 외국인 관광객이 사상 처음 2,000만 명을 넘었다고 밝혔다. 1~9월 관광 소비는 47.7%
+  늘었지만 9월 관광수지는 4억 9,800만 달러 적자로 3개월 연속 적자다.
 sources:
-  - https://www.newspim.com/news/view/20261112000795
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500712
-  - https://www.khan.co.kr/article/202611121623001/
-  - https://www.mt.co.kr/index.php/culture/2026/11/12/2026111211454790437
-  - https://www.hankyung.com/article/2026111235881
-  - https://www.goodmorningvietnam.co.kr/news/article.html?no=84503
-status: approved
+- https://www.newspim.com/news/view/20261112000795
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500712
+- https://www.khan.co.kr/article/202611121623001/
+- https://www.mt.co.kr/index.php/culture/2026/11/12/2026111211454790437
+- https://www.hankyung.com/article/2026111235881
+- https://www.goodmorningvietnam.co.kr/news/article.html?no=84503
+status: published
+published_id: c-fb86420153f3a00abd9e95ba0096d6cf4f617fcf
+published_on: '2026-11-13'
 ---
 올해 한국을 찾은 외국인 관광객이 사상 처음으로 연간 2,000만 명을 넘어섰다. 외래 관광객이 1,000만 명을 처음 돌파한 2012년 이후 14년 만에 규모가 두 배가 됐다.
 

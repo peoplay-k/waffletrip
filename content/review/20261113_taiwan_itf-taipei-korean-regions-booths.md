@@ -4,19 +4,21 @@ channel: travel
 region: taiwan
 section: news
 kind: 해설
-title: "서울·강원·제주·충남·전남, 타이베이 대만국제여전서 대만 관광객 유치전"
+title: 서울·강원·제주·충남·전남, 타이베이 대만국제여전서 대만 관광객 유치전
 source_name: ''
 source_url: ''
-summary: 11월 6~9일 타이베이 난강전람관에서 열린 대만국제여전에 서울관광재단과 강원관광재단, 제주관광공사, 충남도, 전남관광재단 등이 홍보관을 꾸렸다. 서울은 금요일 밤 웰니스 상품을, 충남은 내년 대형 행사 4개를 내세웠다.
+summary: 11월 6~9일 타이베이 난강전람관에서 열린 대만국제여전에 서울관광재단과 강원관광재단, 제주관광공사, 충남도, 전남관광재단 등이 홍보관을
+  꾸렸다. 서울은 금요일 밤 웰니스 상품을, 충남은 내년 대형 행사 4개를 내세웠다.
 sources:
-  - https://www.tournews21.com/news/articleView.html?idxno=148095
-  - https://www.seoulcity.co.kr/news/articleView.html?idxno=550718
-  - https://www.expressnews.co.kr/news/articleView.html?idxno=332298
-  - https://www.jejudomin.co.kr/news/articleView.html?idxno=402261
-  - https://news.bbsi.co.kr/news/articleView.html?idxno=4118171
-  - https://news.mtn.co.kr/article/2026111215420015610
-  - https://www.newsis.com/view/NISX20261112_0003865087
-status: approved
+- https://www.tournews21.com/news/articleView.html?idxno=148095
+- https://www.seoulcity.co.kr/news/articleView.html?idxno=550718
+- https://www.expressnews.co.kr/news/articleView.html?idxno=332298
+- https://www.jejudomin.co.kr/news/articleView.html?idxno=402261
+- https://news.bbsi.co.kr/news/articleView.html?idxno=4118171
+- https://news.mtn.co.kr/article/2026111215420015610
+- https://www.newsis.com/view/NISX20261112_0003865087
+status: duplicate
+duplicate_of: 20261111_taiwan_itf-seoul-gangwon-chungnam-booths.md
 ---
 국내 지자체와 관광기관들이 대만 최대 관광박람회에 나란히 부스를 차렸다. 11월 6일부터 9일까지 타이베이 난강전람관에서 열린 '2026 대만국제여전(ITF)'에서 서울과 강원, 제주, 충남, 전남이 저마다 다른 상품을 내걸고 대만 관광객 잡기에 나섰다.
 

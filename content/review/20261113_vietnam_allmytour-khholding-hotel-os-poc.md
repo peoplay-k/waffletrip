@@ -4,15 +4,18 @@ channel: travel
 region: vietnam
 section: news
 kind: 보도자료
-title: "올마이투어, 베트남 K-HOLDING과 '프로젝트 탈로스' 호텔 운영체제 현지 기술검증 착수"
+title: 올마이투어, 베트남 K-HOLDING과 '프로젝트 탈로스' 호텔 운영체제 현지 기술검증 착수
 source_name: ''
 source_url: ''
-summary: 올마이투어가 12일 베트남 관광복합그룹 K-HOLDING과 AI 기반 호텔 운영체제 '프로젝트 탈로스'의 현지 기술검증에 들어갔다고 밝혔다. 한국관광공사 주관 오픈이노베이션 프로그램을 통해 성사됐다.
+summary: 올마이투어가 12일 베트남 관광복합그룹 K-HOLDING과 AI 기반 호텔 운영체제 '프로젝트 탈로스'의 현지 기술검증에 들어갔다고
+  밝혔다. 한국관광공사 주관 오픈이노베이션 프로그램을 통해 성사됐다.
 sources:
-  - http://www.ftoday.co.kr/news/articleView.html?idxno=369527
-  - http://www.ttlnews.com/news/articleView.html?idxno=3161552
-  - https://www.mt.co.kr/future/2026/11/12/2026111214531463081
-status: approved
+- http://www.ftoday.co.kr/news/articleView.html?idxno=369527
+- http://www.ttlnews.com/news/articleView.html?idxno=3161552
+- https://www.mt.co.kr/future/2026/11/12/2026111214531463081
+status: published
+published_id: c-ff13e3fd7ddcf580601ba0b60a8fdf856a245bbc
+published_on: '2026-11-13'
 ---
 숙박 유통 기업 올마이투어가 베트남 관광복합그룹 K-HOLDING과 차세대 호텔 운영체제(OS) '프로젝트 탈로스(Project Talos)'의 현지 기술검증(PoC)에 들어갔다. 인공지능 자연어 검색을 바탕으로 한 실시간 호텔 예약 플랫폼을 베트남 현장에서 시험한다.
 

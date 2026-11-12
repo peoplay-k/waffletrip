@@ -4,13 +4,16 @@ channel: travel
 region: thailand
 section: news
 kind: 보도자료
-title: "태국관광청, 러이 끄라통 15일부터 15일간 전국 개최…수코타이·치앙마이·방콕"
+title: 태국관광청, 러이 끄라통 15일부터 15일간 전국 개최…수코타이·치앙마이·방콕
 source_name: ''
 source_url: ''
-summary: 태국정부관광청이 올해 러이 끄라통 축제를 11월 15일부터 29일까지 15일간 전국에서 연다고 밝혔다. 보름달이 뜨는 11월 24일을 전후해 수코타이·딱·치앙마이·방콕과 중부·동부·남부 해안에서 행사가 이어진다.
+summary: 태국정부관광청이 올해 러이 끄라통 축제를 11월 15일부터 29일까지 15일간 전국에서 연다고 밝혔다. 보름달이 뜨는 11월 24일을
+  전후해 수코타이·딱·치앙마이·방콕과 중부·동부·남부 해안에서 행사가 이어진다.
 sources:
-  - http://www.ttlnews.com/news/articleView.html?idxno=3161712
-status: approved
+- http://www.ttlnews.com/news/articleView.html?idxno=3161712
+status: published
+published_id: c-1b345fb28b4fe5e3b03585ac9c0bb148c1285aff
+published_on: '2026-11-13'
 ---
 태국정부관광청이 올해 러이 끄라통(Loi Krathong) 축제를 11월 15일부터 29일까지 15일간 전국에서 연다. 보름달이 뜨는 11월 24일을 전후해 북부 고도부터 방콕, 해안 지역까지 곳곳에서 행사가 이어진다.
 

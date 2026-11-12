@@ -4,16 +4,18 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "부산시, 수영강~광안리~해운대 '해상관광택시' 시험운항…정식 운항은 내년 하반기"
+title: 부산시, 수영강~광안리~해운대 '해상관광택시' 시험운항…정식 운항은 내년 하반기
 source_name: ''
 source_url: ''
-summary: 부산시가 11일 수영강에서 광안리를 거쳐 해운대를 잇는 해상관광택시를 처음 시험운항했다. 승선장 3곳에 14억 원이 들었고, 본격 운항은 내년 하반기가 목표다.
+summary: 부산시가 11일 수영강에서 광안리를 거쳐 해운대를 잇는 해상관광택시를 처음 시험운항했다. 승선장 3곳에 14억 원이 들었고, 본격
+  운항은 내년 하반기가 목표다.
 sources:
-  - http://www.haesanews.com/news/articleView.html?idxno=152710
-  - https://www.newsis.com/view/NISX20261111_0003863207
-  - https://news.tf.co.kr/read/national/2387422.htm
-  - https://www.ytn.co.kr/_ln/0115_202611112103219158
-status: approved
+- http://www.haesanews.com/news/articleView.html?idxno=152710
+- https://www.newsis.com/view/NISX20261111_0003863207
+- https://news.tf.co.kr/read/national/2387422.htm
+- https://www.ytn.co.kr/_ln/0115_202611112103219158
+status: duplicate
+duplicate_of: 20261111_korea_busan-sea-tourist-taxi-trial.md
 ---
 부산 수영강에서 광안리를 지나 해운대까지 바닷길로 이동하는 '부산해상관광택시'가 처음 시험운항에 들어갔다. 부산시는 이 노선을 2027년 하반기 본격 운항을 목표로 준비하고 있다.
 

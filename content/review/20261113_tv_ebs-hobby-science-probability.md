@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '취미는 과학' 109화, 데프콘과 서울대 서인석 교수가 푸는 '확률'"
+title: EBS '취미는 과학' 109화, 데프콘과 서울대 서인석 교수가 푸는 '확률'
 source_name: ''
 source_url: ''
-summary: EBS1 '취미는 과학'이 13일(금) 밤 10시 50분 109화 '확률, 왜 이렇게 맞히기 어려울까'를 방송한다. 서울대 수리과학부 서인석 교수와 복권 당첨 확률, 동전 던지기 35만 번 실험, 추천 알고리즘을 다룬다.
+summary: EBS1 '취미는 과학'이 13일(금) 밤 10시 50분 109화 '확률, 왜 이렇게 맞히기 어려울까'를 방송한다. 서울대 수리과학부
+  서인석 교수와 복권 당첨 확률, 동전 던지기 35만 번 실험, 추천 알고리즘을 다룬다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005630903
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005630903
+status: published
+published_id: c-d006453b3d12acb0b843cad70bf8a4348f2069bc
+published_on: '2026-11-13'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 취미는 과학 | 회차 · 109화 '확률, 왜 이렇게 맞히기 어려울까'
