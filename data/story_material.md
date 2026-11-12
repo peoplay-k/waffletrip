@@ -5,6 +5,13 @@
 
 ## 괌
 
+### “2박 이상 반값 할인”…에어서울, 호시노 리조트 리조나레 괌과 제휴
+- 매체 2곳 · (주) 서울경제티브이 · 트래블데일리  ← 여러 곳이 썼다
+  - (주) 서울경제티브이: 에어서울 탑승객은 괌 ‘호시노 리조트 리조나레 괌’에 2박 이상 묵으면 객실 요금을 50% 할인받을 수 있다. 리조트 조식 뷔페와 공항 왕복 셔틀
+    https://www.sentv.co.kr/article/view/sentv202611120088
+  - 트래블데일리: 에어서울이 본격적인 겨울 휴양 시즌을 맞아 ‘호시노 리조트 리조나레 괌(Hoshino Resorts RISONARE Guam)’과 단독 제휴를 맺고 탑승객 대상 특별 프로모션을 진행한다. 이번 프로모션은 연말연시 따뜻한 괌에서 특별한 휴식을 즐기려는 가족 및 연인 여행객의 체류 부담을 
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72665
+
 ### 한진트래블, ‘괌심집중’ 괌 특가 프로모션 전개
 - 매체 1곳 · 비욘드포스트
   - 비욘드포스트: 한진트래블이 겨울 시즌을 앞두고 괌 여행을 합리적인 비용으로 떠날 수 있는 ‘괌심집중’ 프로모션을 운영한다고 밝혔다. 오는 11월 30일(월)까지 이어지는 이번 행사는 동반자 구성에 따른 요금 할인과 마일리지 적립 등 여러 특전으로 꾸려졌다.
@@ -16,6 +23,11 @@
     https://www.dongponews.net/news/articleView.html?idxno=61643
 
 ## 하와이
+
+### 서울시의회, 호놀룰루시의회와 교류 확대방안 논의
+- 매체 1곳 · 투어코리아
+  - 투어코리아: [투어코리아=유경훈 기자 ] 서울시의회와 미국 호놀룰루시의회가 앞으로도 지속적으로 교류 협력을 확대해 나가기로 했다. 임만균 서울시의회 의장은 어제(11일) 호놀룰루시의회 대표단(의장 토미 워터스Tommy Waters)을 시의회로 초청해 양 의회 간 교류 협력 확대 방안을 논의했다.
+    https://www.tournews21.com/news/articleView.html?idxno=148278
 
 ### First Alert Forecast: Wind Advisory posted for parts of the state, gusty winds expected through Thursday
 - 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
@@ -49,15 +61,15 @@
   - 머니투데이: [이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 '데이터랩'에서 볼 수 있습니다. ] 글로벌 베드뱅크(숙박유통) 솔루션 기업 올마이투어가 베트남 관광복합그룹 'K-홀딩'과 차세대 호텔 운영체제(OS) '프로젝트 탈로스(Project Talos)'의 
     https://www.mt.co.kr/future/2026/11/12/2026111214531463081
 
-### [Global Networks]2026 베트남 미쉐린 키 호텔 발표
-- 매체 1곳 · 호텔앤레스토랑
-  - 호텔앤레스토랑: 최근 미쉐린 가이드가 발표한 ‘2026 베트남 미쉐린 키’ 선정 결과에 업계의 이목이 다시 한번 집중되고 있는 가운데, 지난해 총 13곳이었던 베트남의 미쉐린 키 호텔은 올해 총 21곳으로 대폭 확대되며 베트남 럭셔리 관광 생태계의 비약적인 성장을 입증했다.
-    https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22410
-
-### 하노이시는 지하철 5개 노선의 사업 계획서 작성이 지연되고 있는 점을 비판했다.
+### "베트남 경유 관광객 활용 - 하노이의 기회와 해결책" 세미나가 곧 개최될 예정입니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 하노이 인민위원회 위원장 부 다이 탕은 하노이 도시철도관리위원회의 업무 처리 속도가 느리다고 비판하며, 5개 도시철도 노선(1호선, 2호선, 8호선, 10호선, 14호선)의 계획 문서와 사업 부지 선정 작업을 2026년 11월 15일 이전에 완료하여 승인을 받을 것을 요구했다.
-    https://www.vietnam.vn/ko/ha-noi-phe-binh-viec-cham-hoan-thien-ho-so-5-tuyen-metro
+  - vietnam.vn: HNP - 하노이시 국회 대표단의 계획에 따르면, "베트남 환승객 활용 - 하노이 수도를 위한 기회와 해결책"이라는 제목의 세미나가 2026년 11월 17일에 개최될 예정입니다.
+    https://www.vietnam.vn/ko/sap-dien-ra-hoi-thao-khai-thac-khach-trung-chuyen-den-viet-nam-co-hoi-va-giai-phap-doi-voi-thu-do-ha-noi
+
+### 하노이시는 인공지능과 360도 가상현실을 통합한 디지털 관광 플랫폼 '하노이고(HanoiGo)'를 곧 출시할 예정이다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: iHanoi 슈퍼 앱, 모바일 애플리케이션 및 웹 인터페이스에 통합된 하노이고(HanoiGo) 문화 관광 디지털 플랫폼은 수도 하노이를 탐험하는 새로운 방식을 제시할 것으로 기대됩니다.
+    https://www.vietnam.vn/ko/ha-noi-sap-van-hanh-nen-tang-so-du-lich-hanoigo-tich-hop-ai-va-thuc-te-ao-360
 
 ## 라오스
 
@@ -68,19 +80,21 @@
 
 ## 제주
 
+### 제주 찾는 대만 관광객 53% 급증…사계절 관광 공략
+- 매체 3곳 · 뉴스제주 · 뉴스코리아 · 트래블데일리  ← 여러 곳이 썼다
+  - 뉴스제주: [뉴스제주 최지희 기자] 제주를 찾는 대만 관광객이 지난해보다 53% 증가한 가운데 제주도가 현지 관광시장 공략을 강화하며 사계절 관광객 유치에 나섰다. 12일 제주도와 제주관광공사에 따르면 올해 10월까지 제주를 방문한 대만 관광객은 28만3000여 명으로 지난해 같은 기간보다 약 5
+    https://www.newsjeju.net/news/articleView.html?idxno=428307
+  - 뉴스코리아: 
+    https://www.newskorea.ne.kr/news/articleView.html?idxno=21964
+  - 트래블데일리: 제주특별자치도와 제주관광공사는 제주특별자치도관광협회와 함께 지난 6일부터 9일까지 대만 타이베이 난강전람관에서 열린 ‘2026 대만국제여전(ITF)’에 참가해 제주의 사계절 관광 매력을 알리고 현지 관광업계와 협력 확대에 나섰다. 대만국제여전은 대만관광협회가 주최하는 현지 최대 규모의 
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72666
+
 ### 가을 나들이
 - 매체 2곳 · 제주일보 · 투어코리아  ← 여러 곳이 썼다
   - 제주일보: 완연한 가을 날씨를 보인 11일 제주시 도남동 제주시민복지타운광장을 찾은 아이들이 선생님과 함께 나들이를 즐기고 있다. 고봉수 기자
     http://www.jejunews.com/news/articleView.html?idxno=2228767
   - 투어코리아: [투어코리아=조성란 기자] "가을·겨울여행 제주로 오세요! "제주특별자치도와 제주특별자치도관광협회가 12일~15일까지 4일간 경기 고양시 킨텍스에서 열리는 '메가쇼&트래블쇼 2026 시즌2'에 참가해 '더 제주 포시즌(The Jeju Four Seasons)' 캠페인과 연계해 제주의 가
     https://www.tournews21.com/news/articleView.html?idxno=148268
-
-### 제주 찾는 대만 관광객 53% 급증…사계절 관광 공략
-- 매체 2곳 · 뉴스제주 · 뉴스코리아  ← 여러 곳이 썼다
-  - 뉴스제주: [뉴스제주 최지희 기자] 제주를 찾는 대만 관광객이 지난해보다 53% 증가한 가운데 제주도가 현지 관광시장 공략을 강화하며 사계절 관광객 유치에 나섰다. 12일 제주도와 제주관광공사에 따르면 올해 10월까지 제주를 방문한 대만 관광객은 28만3000여 명으로 지난해 같은 기간보다 약 5
-    https://www.newsjeju.net/news/articleView.html?idxno=428307
-  - 뉴스코리아: 
-    https://www.newskorea.ne.kr/news/articleView.html?idxno=21964
 
 ### 5성급 호텔 숙박권·흑돼지 가공품 세트까지···제주도, 고향사랑기부 연말 총력전
 - 매체 2곳 · 경향신문 · 서울신문  ← 여러 곳이 썼다
@@ -123,10 +137,10 @@
   - 아시아경제: 해외에서 처방받은 비만치료제의 국내 반입이 허용되자 일본 병원들이 발 빠르게 한국인 환자 유치에 나섰다.
     https://www.asiae.co.kr/article/2026111216004767127
 
-### "일본 여행서 슬쩍" 잇따르자…최대 2만 엔 과태료 도입
-- 매체 1곳 · SBS 뉴스
-  - SBS 뉴스: 일본에서 관광객들이 여행용 캐리어를 무단으로 버리는 문제가 심각해지자 한 지방자치단체가 이를 규제하는 조례를 시행하기로 했습니다. 니혼게이자이신문 등 일본 언론은 도쿄 도시마구가 길거리에 여행용 캐리어를 방치하면 최대 2만 엔의 과태료를 부과하는 조례를 마련했다고 오늘 보도했습니다.
-    https://news.sbs.co.kr/news/endPage.do?news_id=N1008843227
+### “관광객들 해도 해도 너무해” 日 분노…최대 16만원 과태료 도입한다 [월드픽]
+- 매체 1곳 · 서울신문
+  - 서울신문: 일본 도쿄 도시마구가 관광객의 여행용 캐리어 무단 방치를 막기 위해 최대 2만엔 과태료 조례를 마련했다. 내년 4월 시행 뒤 7월부터 부과하며, 이케부쿠로역과 오츠카역 주변을 중심으로 단속할 계획이다.
+    https://www.seoul.co.kr/news/international/japan/2026/11/12/20261112500284
 
 ## 태국
 
@@ -144,6 +158,13 @@
 - 매체 1곳 · 팸타임스 FAM Times
   - 팸타임스 FAM Times: 
     https://www.famtimes.co.kr/news/articleView.html?idxno=704595
+
+### CAAT addresses soaring Chiang Mai flight prices ahead of festival
+- 매체 2곳 · Thai PBS World · The Thaiger  ← 여러 곳이 썼다
+  - The Thaiger: Return flights between Bangkok and Chiang Mai are being advertised for as much as 28,000 baht on online booking platforms during the upcoming Loy Krathong and Y
+    https://thethaiger.com/news/world/aviation/chiang-mai-flight-prices-28000-baht-yi-peng
+  - Thai PBS World: The Civil Aviation Authority of Thailand blamed surging Bangkok-Chiang Mai airfares during Loy Krathong on high demand and safety-related flight cuts over sky l
+    https://www.thaipbsworld.com/travel-tourism/572616
 
 ## 대만
 
@@ -231,6 +252,17 @@
 
 ## 여행업계
 
+### 한국 노선 탑승객 100만명 넘었다…홍콩익스프레스, 성수동에 첫 팝업
+- 매체 4곳 · 뉴스1 · 이데일리 · 투어코리아 · 트래블데일리  ← 여러 곳이 썼다
+  - 뉴스1: 
+    https://www.news1.kr/industry/hotel-tourism/6352036
+  - 이데일리: 자넷 마오(Jeanette Mao) 홍콩익스프레스 최고경영자(CEO)가 12일 성수동 언더스탠드에비뉴에서 개막한 ‘홍콩 갈 땐? 홍콩익스프레스항공’에서 승무원들과 함께 기념사진을 촬영하고 있다.
+    https://www.edaily.co.kr/News/Read?newsId=04752726645645064&mediaCodeNo=257
+  - 트래블데일리: 홍콩익스프레스(HK Express)가 12일 서울 성수동에서 국내 첫 오프라인 소비자 대상 브랜드 행사를 개최했다. 이번 행사는 홍콩익스프레스가 동북아시아 주요 시장 중 하나인 한국에서 고객과의 소통을 확대하기 위해 마련됐다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72667
+  - 투어코리아: [투어코리아=조성란 기자] “한국은 홍콩익스프레스가 장기적으로 중요하게 생각하는 핵심 시장 중 하나다. 올해 1월부터 10월까지 한국 노선 이용객이 100만명을 넘어섰으며, 이는 전년 동기 대비 20% 이상 증가한 수치다.
+    https://www.tournews21.com/news/articleView.html?idxno=148280
+
 ### 울산문화관광재단, 2029년 하반기 분리 추진…통합 6년 만에 재편
 - 매체 3곳 · 뉴시스 · 문화뉴스 · 연합뉴스  ← 여러 곳이 썼다
   - 문화뉴스: 울산시가 울산문화관광재단을 문화콘텐츠와 관광·전시복합산업(MICE) 분야로 분리하는 방안을 추진한다. 울산시는 12일 문화예술과 관광산업의 전문성을 강화하기 위해 오는 2029년 하반기 새로운 재단 출범을 목표로 울산문화관광재단 분리 절차에 착수한다고 밝혔다.
@@ -241,6 +273,45 @@
     https://www.newsis.com/view/NISX20261112_0003865118
   - 연합뉴스: (울산=연합뉴스) 허광무 기자 = 울산시가 울산문화관광재단을 문화콘텐츠 분야와 관광·전시복합산업(MICE) 분야로 분리하는 방안을 추진한다.
     https://www.yna.co.kr/view/AKR20261112134600057
+
+### 대한항공, 내년 5월 22일부터 인천발 뉴어크 노선 매일 운항
+- 매체 3곳 · TTL뉴스 · 연합뉴스 · 트래블데일리  ← 여러 곳이 썼다
+  - TTL뉴스: 대한항공이 미국 동부 최대 경제권인 뉴욕과 뉴저지 일대를 잇는 새로운 직항 하늘길을 연다. 기존 뉴욕 존 F.
+    http://www.ttlnews.com/news/articleView.html?idxno=3161567
+  - 연합뉴스: (서울=연합뉴스) 홍규빈 기자 = 대한항공은 내년 5월 22일부터 인천∼미국 뉴어크 노선을 매일 운항한다고 12일 밝혔다.
+    https://www.yna.co.kr/view/AKR20261112040200003
+  - 트래블데일리: 대한항공은 내년 5월 22일부터 인천발 미국 뉴어크 노선을 매일 운항한다. 인천~뉴어크 노선은 인천국제공항에서 오후 10시에 출발해 뉴어크 리버티 국제공항에 현지 시각 오후 11시에 도착한다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72672
+
+### 외국인 관광객 2000만명 돌파, 통계 집계 이래 처음…2012년 1000만 이후 14년만
+- 매체 3곳 · 문화일보 · 트래블데일리 · 파이낸셜뉴스  ← 여러 곳이 썼다
+  - 문화일보: 올해 한국을 찾은 외국인 관광객이 12일 연간 누적 2000만 명을 넘어설 것으로 보인다. 외래 관광객 수가 한 해 2000만 명을 돌파하는 것은 관광 통계 집계 이래 처음이다.
+    https://www.munhwa.com/article/11630742
+  - 파이낸셜뉴스: 올해 한국을 찾은 외국인 관광객이 사상 처음 2000만명을 넘어선 것으로 추산됐다. 1~9월 외국인의 관광 분야 카드 소비액은 16조원에 육박했고 비수도권 공항과 항만을 통한 입국도 늘었다.
+    https://www.fnnews.com/news/202611121249243528
+  - 트래블데일리: 11월 12일 한국을 방문한 외국인 관광객 수가 사상 최초로 2000만 명을 돌파했다. 이는 지난 2012년에 1000만 명을 달성한 이후 14년 만에 거둔 성과다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72671
+
+### [창간 11주년 특집] 동남아 여행 트렌드의 변화
+- 매체 1곳 · 트래블데일리  ← 여러 곳이 썼다
+  - 트래블데일리: ①동남아 여행 트렌드의 변화(원제: How Southeast Asia Is Choosing to Travel)②음식이 곧 여행의 목적지(원제:Food Is the New Destination)‘IMM Asia 2026’이 지난 10월 19~20일 싱가포르 선텍 컨벤션센터에서 열렸다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72662
+  - 트래블데일리: ①동남아 여행 트렌드의 변화(원제: How Southeast Asia Is Choosing to Travel)②음식이 곧 여행의 목적지(원제:Food Is the New Destination)올해 ‘TravMedia Summit’에서 다뤄진 내용 중 두 번째 ‘미식, 새로운 여행 목적지
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72674
+
+### '3월 통합 출범' 진에어·에어부산·에어서울 합병 인가…공정위도 기업결합 승인
+- 매체 2곳 · 트래블데일리 · 한국면세뉴스  ← 여러 곳이 썼다
+  - 한국면세뉴스: 진에어와 에어부산, 에어서울의 통합이 국토교통부 합병 인가와 공정거래위원회 기업결합 승인 절차를 모두 통과했다. 국토부는 안전운항체계 구축과 소비자 보호 계획 이행 등을 조건으로 부과하면서 이들 3사 통합을 인가했다고 12일 밝혔다.
+    http://www.kdfnews.com/news/articleView.html?idxno=190838
+  - 트래블데일리: 국토교통부는 진에어가 에어서울 및 에어부산과 통합하고자 신청한 법인 합병 건에 대해 ‘항공사업법’에 따른 면밀한 심사를 거쳐 합병을 인가했다. 아울러, 공정거래위원회도 본 합병 건 관련 기업결합 신고를 승인했다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72673
+
+### 아시아나, 고유가에 3Q 영업손실 1790억…환차익에 순익은 흑자
+- 매체 2곳 · 뉴시스 · 트래블데일리  ← 여러 곳이 썼다
+  - 뉴시스: [서울=뉴시스] 류인선 기자 = 아시아나항공이 올해 3분기 고유가 여파로 1790억원의 영업손실을 냈다. 다만 분기 말 환율이 내리면서 외화환산이익이 발생해 당기순이익은 흑자로 돌아섰다.
+    https://www.newsis.com/view/NISX20261112_0003866118
+  - 트래블데일리: 아시아나항공이 올해 3분기 여객사업의 성장에도 불구하고 고유가와 안전 투자 확대, 대한항공과의 통합 준비 비용 등의 영향으로 영업적자를 이어갔다. 다만 환율 하락에 따른 대규모 외화환산이익이 발생하면서 당기순이익은 흑자로 전환했다.
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72669
 
 ### 방한 외국인 관광객 사상 첫 2,000만 명…14년 만에 두 배로
 - 매체 2곳 · 경향신문 · 여행신문  ← 여러 곳이 썼다
@@ -263,53 +334,14 @@
   - 지이코노미: 지이코노미 양하영 기자 | 은퇴층의 전유물로 여겨지던 크루즈 여행이 4050 세대와 가족 단위 여행객으로 저변을 넓히는 가운데, 국내 주요 여행사가 단독으로 배를 빌려 운항하는 '크루즈 전세선' 사업을 대폭 확대한다. 해외 공항으로 이동할 필요 없이 국내 항구에서 곧바로 탑승해 일본과 
     https://www.geconomy.co.kr/mobile/article.html?no=325574
 
-### 대한항공, 국가고객만족도 4년 연속 1위
-- 매체 1곳 · 트래블데일리  ← 여러 곳이 썼다
-  - 트래블데일리: 대한항공이 한국생산성본부가 주관하는 국가고객만족도(NCSI·National Customer Satisfaction Index) 조사에서 대형항공(FSC) 부문 4년 연속 1위에 올랐다. 인증식은 11일 더그랜드롯데 서울에서 열렸다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72654
-  - 트래블데일리: 트리니티항공이 한국생산성본부가 주관하는 ‘2026년 국가고객만족도(NCSI, National Customer Satisfaction Index)’ 조사에서 1위에 선정됐다. NCSI는 한국생산성본부와 미국 미시간대학이 공동 개발한 세계적 권위의 고객 만족 측정 모델이다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72650
-
-### 한국 노선 탑승객 100만명 넘었다…홍콩익스프레스, 성수동에 첫 팝업
-- 매체 2곳 · 뉴스1 · 이데일리  ← 여러 곳이 썼다
-  - 뉴스1: 
-    https://www.news1.kr/industry/hotel-tourism/6352036
-  - 이데일리: 자넷 마오(Jeanette Mao) 홍콩익스프레스 최고경영자(CEO)가 12일 성수동 언더스탠드에비뉴에서 개막한 ‘홍콩 갈 땐? 홍콩익스프레스항공’에서 승무원들과 함께 기념사진을 촬영하고 있다.
-    https://www.edaily.co.kr/News/Read?newsId=04752726645645064&mediaCodeNo=257
-
-### 외국인 관광객 2000만 명 돌파…한국서 쓴 돈도 48% 급증
-- 매체 2곳 · 뉴스1 · 한국경제  ← 여러 곳이 썼다
-  - 뉴스1: 
-    https://www.news1.kr/industry/hotel-tourism/6351868
-  - 한국경제: K웨이브의 힘…외국인 관광객 2000만 시대, 올 9월까지 소비액 15.9兆 연말 2300만명 돌파할 듯
-    https://www.hankyung.com/article/2026111235881
-
-### 시흥시, 외국인 유학생 취업·정주박람회’ 개최
-- 매체 2곳 · 뉴시스 · 투어코리아  ← 여러 곳이 썼다
-  - 투어코리아: [투어코리아=유경훈 기자 ] 경기 시흥시(시장 임병택)는 지역 기업체의 인력난을 해소하고 외국인 유학생에게 지역 기업체의 취업 기회를 돕기 위한 ‘경기 서남권 외국인 유학생 취업·정주박람회’를 개최한다고 12일 밝혔다. 이번 박람회는 경기도, 경기과학기술대학교와 함께 하며, 오는 18일
-    https://www.tournews21.com/news/articleView.html?idxno=148221
-  - 뉴시스: [서울=뉴시스]이예인 인턴 기자 = 서경대학교 국제교류처와 진로취업처는 지난 9일과 10일 교내 유담관에서 '2026 외국인 유학생 취업설명회'를 개최했다고 12일 밝혔다. 행사는 국내 취업을 희망하는 외국인 재학생과 졸업예정자가 기업 관계자를 직접 만나 취업 정보를 얻고 실무 역량을 
-    https://www.newsis.com/view/NISX20261112_0003866112
-
-### 울산시, KTX울산역 무장애 관광안내센터 운영
-- 매체 2곳 · 뉴스1 · 연합뉴스  ← 여러 곳이 썼다
-  - 연합뉴스: (울산=연합뉴스) 허광무 기자 = 울산시는 관광 취약계층 정보 접근성을 높이고 여행 편의를 개선하고자 KTX울산역에서 '무장애 관광안내센터'를 ...
-    https://www.yna.co.kr/view/AKR20261112137900057
-  - 뉴스1: 
-    https://www.news1.kr/local/ulsan/6351985
-
-### 청주공항 국제선 수속장 이원화…"항공사별 카운터 확인"
-- 매체 2곳 · 뉴시스 · 충청매일  ← 여러 곳이 썼다
-  - 뉴시스: [청주=뉴시스] 연현철 기자 = 충북 청주국제공항의 국제선 탑승수속장이 항공사별로 두 구역으로 나뉘어 운영된다. 한국공항공사 청주공항은 12일 국제선 탑승수속 시설을 개편해 운영한다고 밝혔다.
-    https://www.newsis.com/view/NISX20261112_0003865832
-  - 충청매일: 
-    https://news.google.com/rss/articles/CBMiakFVX3lxTFB4SXZVcmp3YkdoaTJiMGo3NktMQ2gzS2NoVjNoYUItRW4tbkVrcjNvUGNWbjkwTXc3QndjM2JKc3NMbTRsSTB5N1pCd3ZnR0h5UGZ0NWUtQTMwYW1za0x5SWhCS1NrT2lxV1E?oc=5
-
-## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 24건)
+## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 25건)
 
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
 
+- [2026-11-13·여행업계] ‘여보새요’, 회원 모임 넘어 여행업계 협업의 장으로
+  여행 스타트업 대표들의 네트워킹 모임 ‘여보새요(여행산업을 살펴보는 새로운 요즘 사람들의 모임)’가 교류의 범위를 넓히고 있다. 올해는 다양한 분야의 여행업계 관
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500717
 - [2026-11-12·여행업계] [인사] 대한항공 한국지역본부장에 서종우 상무
   대한항공이 11월 12일부로 한국지역본부장에 서종우 상무를 임명했다. 서종우 신임 본부장은 1996년 대한항공에 입사해 뉴욕여객지점장, 경영전략본부 경영관리팀장, 감사실장, 미서부지점장, 한국지역본부 판매지원팀장 등을 역임했다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500719
@@ -456,9 +488,6 @@
 - ✅ [2026-11-03·여행업계] 외국인도 교통카드 없이 버스·지하철 이용하게 될까
   외국인 관광객이 별도의 교통카드를 구매하지 않고 신용카드나 체크카드로 국내 대중교통을 이용할 수 있도록 하는 방안이 논의되고 있다. 정부는 지방공항 국제선 확대와 철도·버스·택시 이용 환경 개선도 함께 추진해 외국인 관광객의 지역 이동 편의를 높일 계획이다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500660
-- ✅ [2026-11-03·여행업계] 4일부터 미국행 항공편 탑승하려면 이것 필수!
-  11월 4일부터 미국행 항공편에 탑승하려면 최근 21일 동안 콩고민주공화국(DRC)에 방문하거나 체류한 사실이 없다는 서약서를 제출해야 한다. 괌과 하와이를 포함한 미국행 전 노선에 적용되며, 서약서를 제출하지 않으면 탑승이 제한된다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500658
 
 ## 공연·전시 — category: stage, 하루 두 편 이상
 
@@ -539,7 +568,7 @@
     http://www.domin.co.kr/news/articleView.html?idxno=1575308
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 32개 확인, 사진 줄 0개)
+(자유 이용 사진: 이름 후보 31개 확인, 사진 줄 0개)
 
 ### 🔥 화제(매체 13곳) [movie] ‘극장판 치이카와’ 282만명 돌파하며 1위 탈환…‘폴2’ 개봉 첫날 2위 [11월 11일 영화 박스오피스]
 - 매체 1곳 · ER 이코노믹리뷰
@@ -555,6 +584,13 @@
 - 매체 1곳 · bntnews
   - bntnews: 영화 ‘최종면접’이 개봉 2주 차에도 한국영화 박스오피스 1위를 굳건히 지키며 흥행 순항을 이어가고 있다. 영화 ‘최종면접’이 탄탄한
     https://www.bntnews.co.kr/article/view/bnt202611120213
+
+### 🔥 화제(매체 5곳) [drama] 클라라, '솔로라서2' 출연…10년 만의 한국 예능
+- 매체 2곳 · 뉴데일리 · 더팩트  ← 여러 곳이 썼다
+  - 더팩트: 중국에서의 솔로 라이프 공개 예정…12월 7일 첫 방송 배우 클라라가 솔로라서2로 오랜만에 국내 시청자들을 찾는다. SBS Plus·E채널 새 예능프로그램 솔로라서2 제작진은 12…
+    https://news.tf.co.kr/read/entertain/2387821.htm
+  - 뉴데일리: 배우 클라라가 9년 만에 국내 예능 프로그램에 출연한다. &nbsp;12일 제작진에 따르면 클라라는 SBS Plus·E채널 예능 '솔로라서2'에서 현지 생활과 홀로 지내는 일상을 공개한다.
+    https://www.newdaily.co.kr/site/data/html/2026/11/12/2026111200149.html
 
 ### 🔥 화제(매체 4곳) [startrip] 리센느, 내년 2월 첫 단독 콘서트…"꿈만 같아, 최선 다해 준비"
 - 매체 1곳 · 연합뉴스TV
@@ -592,15 +628,8 @@
   - SBS연예뉴스: 걸그룹 리센느가 쿠팡플레이와 손잡고 데뷔 첫 단독 콘서트를 개최한다. 11일 쿠팡플레이는 더뮤즈엔터테인먼트와 함께 오는 2027년 2월 19일(금)부터 21일(일)까지 3일간 서울 송파구 올림픽공원 올림픽홀에서 리센느의 첫 단독 콘서트 '2027 RESCENE CONCERT IN SEO
     https://ent.sbs.co.kr/news/article.do?article_id=E10010324528
 
-### 🔥 화제(매체 3곳) [music] 리센느 ‘PULSE’ 초동 60만장 돌파… ‘With’, 멜론 톱100 1위 : 연예
-- 매체 2곳 · 재경일보 · 한국경제  ← 여러 곳이 썼다
-  - 재경일보: 그룹 리센느의 미니 4집 ‘PULSE’가 발매 첫 주 60만장을 넘기며 팀 자체 최고 판매 기록을 세웠다. 타이틀곡 ‘With’는 멜론 톱100 정상에 올랐고, 앨범 수록곡 전곡이 차트에 진입했다.
-    https://news.jkn.co.kr/post/1082905
-  - 한국경제: 리센느, 확신의 대세…초동 60만장·음방 1위·내년 콘서트, 김수영 기자, 연예
-    https://www.hankyung.com/article/202611119221H
-
 ---
-거리 112건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 115건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -610,64 +639,64 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## CHAERYEONG(채령) “Lovesick” M/V
-- 채널 JYP Entertainment · 조회수 5,034,570회 · 3일 전
+- 채널 JYP Entertainment · 조회수 5,242,308회 · 3일 전
 - `@youtube pe-rk1ekb4w` · https://www.youtube.com/watch?v=pe-rk1ekb4w
 
-## With - RESCENE (리센느) [뮤직뱅크/Music Bank] | KBS 261106 방송
-- 채널 KBS Kpop · 조회수 1,676,990회 · 6일 전
-- `@youtube ECz-M-jwGzQ` · https://www.youtube.com/watch?v=ECz-M-jwGzQ
-
-## RESCENE (리센느) - Inside Out (백화요란) | Show! MusicCore | MBC261107방송
-- 채널 MBCkpop · 조회수 1,223,879회 · 5일 전
-- `@youtube C7vNpNTv7fQ` · https://www.youtube.com/watch?v=C7vNpNTv7fQ
-
-## RESCENE (리센느) - With | Show! MusicCore | MBC261107방송
-- 채널 MBCkpop · 조회수 1,221,078회 · 5일 전
-- `@youtube _XhBc88qS_E` · https://www.youtube.com/watch?v=_XhBc88qS_E
-
 ## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
-- 채널 tvN DRAMA · 조회수 736,444회 · 5일 전
+- 채널 tvN DRAMA · 조회수 736,623회 · 5일 전
 - `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
 
 ## [11화 예고] 김유정의 정체를 눈치챈 듯한 사토 부자?!😨 그리고 걸려온 의문의 전화☎
-- 채널 tvN DRAMA · 조회수 705,953회 · 4일 전
+- 채널 tvN DRAMA · 조회수 710,934회 · 4일 전
 - `@youtube d0kBID9SX6w` · https://www.youtube.com/watch?v=d0kBID9SX6w
 
 ## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
-- 채널 tvN DRAMA · 조회수 498,495회 · 2일 전
+- 채널 tvN DRAMA · 조회수 522,370회 · 2일 전
 - `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
 
-## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 447,171회 · 3일 전
-- `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
-
 ## NCT DREAM - Boogie Woogie | 1theKILLPO | Performance
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 443,858회 · 1일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 481,862회 · 1일 전
 - `@youtube HYHu_ui8t2s` · https://www.youtube.com/watch?v=HYHu_ui8t2s
 
-## [#숨바꼭질2] '다 내 거야'ㅣ𝟖𝐭𝐡 𝐏𝐋𝐀𝐘𝐄𝐑 #RESCENE #리센느 선공개
-- 채널 Mnet K-POP · 조회수 391,563회 · 1일 전
-- `@youtube 3HUIX3oopGw` · https://www.youtube.com/watch?v=3HUIX3oopGw
+## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
+- 채널 tvN DRAMA · 조회수 449,027회 · 3일 전
+- `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 니키 (NI-KI)
-- 채널 HYBE LABELS · 조회수 383,109회 · 3일 전
+- 채널 HYBE LABELS · 조회수 389,143회 · 3일 전
 - `@youtube iB3zmnG6UMs` · https://www.youtube.com/watch?v=iB3zmnG6UMs
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 정원 (JUNGWON)
-- 채널 HYBE LABELS · 조회수 303,312회 · 4일 전
+- 채널 HYBE LABELS · 조회수 306,243회 · 4일 전
 - `@youtube cNXeIF1dGBg` · https://www.youtube.com/watch?v=cNXeIF1dGBg
 
 ## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
-- 채널 HYBE LABELS · 조회수 286,395회 · 3일 전
+- 채널 HYBE LABELS · 조회수 291,695회 · 3일 전
 - `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
 
 ## [라이어 5회 예고] ＂당신이 이겼어＂, MBC 261113 방송
-- 채널 MBCdrama · 조회수 283,614회 · 5일 전
+- 채널 MBCdrama · 조회수 285,887회 · 5일 전
 - `@youtube HgU_TkMhXjE` · https://www.youtube.com/watch?v=HgU_TkMhXjE
 
+## [예고] 외할아버지♥️하루♥️형탁아빠 이 셋의 사랑 영원하길 | 슈퍼맨이 돌아왔다 261118 KBS 방송
+- 채널 KBS 슈퍼맨이 돌아왔다 · 조회수 275,568회 · 1일 전
+- `@youtube -3hLdX4w9A8` · https://www.youtube.com/watch?v=-3hLdX4w9A8
+
 ## ［30회 예고］나만 위해서 그랬을 것 같니? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 264,722회 · 4일 전
+- 채널 KBS Drama · 조회수 265,629회 · 4일 전
 - `@youtube RESSBa51NL8` · https://www.youtube.com/watch?v=RESSBa51NL8
+
+## [메이킹] 티랑이들, 힘들고 지겨울 땐 뭐다?👀 방방강쥐 임시완♥설인아 X 능글냥이 김정현♥연우 보기😍 #나의유죄인간 EP.8
+- 채널 tvN DRAMA · 조회수 203,071회 · 1일 전
+- `@youtube KakUksE913M` · https://www.youtube.com/watch?v=KakUksE913M
+
+## ［29회 예고］우리 그냥 의절하면 안 돼? [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 190,484회 · 5일 전
+- `@youtube Fm4bi3Pu4XY` · https://www.youtube.com/watch?v=Fm4bi3Pu4XY
+
+## [종합 예고] 하나의 나라를 위한 피로 쓴 마지막 전쟁 [문무] | KBS 방송
+- 채널 KBS Drama · 조회수 147,849회 · 7일 전
+- `@youtube dg5PPnh_7sU` · https://www.youtube.com/watch?v=dg5PPnh_7sU
 
 
 
@@ -871,3 +900,5 @@ EBS, ‘겨울방학 학습전략설명회’ 오는 21일 (토) 온라인 생�
 과학자의 복권 사용법 공개! [취미는 과학] 확률, 왜 이렇게 맞히기 어려울까 (11월 13일 밤 10시 50분, EBS1)
 목록
 
+---
+수집 실패: MBC 목록: timed out

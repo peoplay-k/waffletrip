@@ -4,17 +4,20 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "울산시, 울산문화관광재단 문화·관광MICE 분리 착수…2029년 하반기 새 재단 출범 목표"
+title: 울산시, 울산문화관광재단 문화·관광MICE 분리 착수…2029년 하반기 새 재단 출범 목표
 source_name: ''
 source_url: ''
-summary: 울산시가 2023년 합쳐진 울산문화관광재단을 문화콘텐츠와 관광·전시복합산업(MICE) 두 재단으로 다시 나누는 절차에 들어갔다. 새 재단 출범 목표는 2029년 하반기다.
+summary: 울산시가 2023년 합쳐진 울산문화관광재단을 문화콘텐츠와 관광·전시복합산업(MICE) 두 재단으로 다시 나누는 절차에 들어갔다. 새
+  재단 출범 목표는 2029년 하반기다.
 sources:
 - https://www.mhns.co.kr/news/articleView.html?idxno=768851
 - https://www.newsis.com/view/NISX20261112_0003865118
 - https://www.hankookilbo.com/news/article/A2026111213020003877
 - https://www.munhwa.com/article/11630892
 - https://www.fnnews.com/news/202611121525550934
-status: approved
+status: published
+published_id: c-5b67c0232c98548ed7646fb4d23d834342fc206e
+published_on: '2026-11-13'
 ---
 울산시가 통합 운영해 온 울산문화관광재단을 문화콘텐츠 분야와 관광·전시복합산업(MICE) 분야의 재단 둘로 나누는 절차에 들어갔다. 새 재단 출범 목표 시점은 2029년 하반기다.
 

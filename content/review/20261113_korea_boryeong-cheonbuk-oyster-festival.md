@@ -4,7 +4,7 @@ channel: travel
 region: korea
 section: news
 kind: 보도자료
-title: "보령시, 제21회 천북굴축제 14~15일 개최…굴구이·굴국밥에 굴까기 체험"
+title: 보령시, 제21회 천북굴축제 14~15일 개최…굴구이·굴국밥에 굴까기 체험
 source_name: ''
 source_url: ''
 summary: 충남 보령시 천북면 굴단지에서 14일부터 이틀간 제21회 천북굴축제가 열린다. 굴구이와 굴국밥, 굴까기 체험과 공연이 마련된다.
@@ -13,7 +13,9 @@ sources:
 - http://www.ccnnews.co.kr/news/articleView.html?idxno=417647
 - https://www.todaychungnam.net/news/articleView.html?idxno=480132
 - https://www.munhwatoday.co.kr/news/article.html?no=178399
-status: approved
+status: published
+published_id: c-69463401f67b559f625fbb012e9ec4d0b6f631d1
+published_on: '2026-11-13'
 ---
 충남 보령시 천북면 굴단지에서 14일부터 이틀간 제21회 천북굴축제가 열린다. 겨울 제철을 맞은 천북굴을 구이와 국밥으로 맛보고, 굴을 직접 까 보는 체험도 즐길 수 있다.
 

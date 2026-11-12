@@ -4,17 +4,20 @@ channel: travel
 region: industry
 section: news
 kind: 보도자료
-title: "한국공항공사 청주공항, 국제선 탑승수속장 두 구역으로 개편…연간 이용객 500만 명 눈앞"
+title: 한국공항공사 청주공항, 국제선 탑승수속장 두 구역으로 개편…연간 이용객 500만 명 눈앞
 source_name: ''
 source_url: ''
-summary: 한국공항공사 청주공항이 12일부터 국제선 탑승수속 시설을 개편해 항공사별로 두 구역에서 수속을 받도록 했다. 올해 이용객은 438만 명을 넘었다.
+summary: 한국공항공사 청주공항이 12일부터 국제선 탑승수속 시설을 개편해 항공사별로 두 구역에서 수속을 받도록 했다. 올해 이용객은 438만
+  명을 넘었다.
 sources:
 - https://www.newsis.com/view/NISX20261112_0003865832
 - https://www.news1.kr/local/sejong-chungbuk/6352285
 - https://www.news1.kr/local/sejong-chungbuk/6347919
 - https://www.nocutnews.co.kr/news/6606247
 - https://www.fntoday.co.kr/news/articleView.html?idxno=398016
-status: approved
+status: published
+published_id: c-94ef5e69567dcac5b70003b6e9b4e15d95d7d6d1
+published_on: '2026-11-13'
 ---
 충북 청주국제공항의 국제선 탑승수속장이 두 구역으로 나뉘어 운영된다. 항공사에 따라 수속 구역이 달라지므로 항공사별 카운터 위치가 구역마다 다르다.
 

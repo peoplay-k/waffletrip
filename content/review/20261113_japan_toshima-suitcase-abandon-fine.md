@@ -4,14 +4,16 @@ channel: travel
 region: japan
 section: news
 kind: 해설
-title: "도쿄 도시마구, 길거리에 캐리어 버리면 최대 2만 엔 과태료…내년 4월 조례 시행"
+title: 도쿄 도시마구, 길거리에 캐리어 버리면 최대 2만 엔 과태료…내년 4월 조례 시행
 source_name: ''
 source_url: ''
 summary: 도쿄 도시마구가 관광객의 여행용 캐리어 무단 방치를 막는 조례를 마련했다. 내년 4월 시행하고 7월부터 최대 2만 엔의 과태료를 부과한다.
 sources:
 - https://news.sbs.co.kr/news/endPage.do?news_id=N1008843227
 - https://www.seoul.co.kr/news/international/japan/2026/11/12/20261112500284
-status: approved
+status: published
+published_id: c-24f2dfd8c84d9e7d9ae2c41a95734f52e3794502
+published_on: '2026-11-13'
 ---
 일본 도쿄 도시마구가 길거리에 여행용 캐리어를 버리거나 방치한 사람에게 최대 2만 엔의 과태료를 물리는 조례를 마련했다. 일본을 찾는 관광객이 늘면서 캐리어를 무단으로 버리는 일이 문제가 되자 내놓은 대책이다.
 

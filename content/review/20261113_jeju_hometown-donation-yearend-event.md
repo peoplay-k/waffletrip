@@ -4,7 +4,7 @@ channel: travel
 region: jeju
 section: news
 kind: 보도자료
-title: "제주도, 16일부터 12월 4일까지 고향사랑기부 연말 이벤트…5성급 호텔 숙박권 등 경품"
+title: 제주도, 16일부터 12월 4일까지 고향사랑기부 연말 이벤트…5성급 호텔 숙박권 등 경품
 source_name: ''
 source_url: ''
 summary: 제주도가 16일부터 12월 4일까지 고향사랑기부 참여자에게 5성급 호텔 스위트룸 숙박권과 모바일 상품권 등을 주는 연말 행사를 연다.
@@ -12,7 +12,9 @@ sources:
 - https://www.khan.co.kr/article/202611121130001
 - https://www.seoul.co.kr/news/society/2026/11/12/20261112500234
 - https://www.jejusori.net/news/articleView.html?idxno=508270
-status: approved
+status: published
+published_id: c-e9e0692fab5df589a86505d3657c2a3dfd144c26
+published_on: '2026-11-13'
 ---
 제주도가 연말 고향사랑기부제 참여를 늘리기 위해 기부자에게 5성급 호텔 스위트룸 숙박권과 모바일 상품권 등을 주는 특별 행사를 연다.
 
