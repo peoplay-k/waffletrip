@@ -4,16 +4,17 @@ channel: travel
 region: japan
 section: flight
 kind: 보도자료
-title: "에어부산, 부산~나가사키 직항 재취항…내년 1~2월 주 3회, 편도 12만 9,900원부터"
+title: 에어부산, 부산~나가사키 직항 재취항…내년 1~2월 주 3회, 편도 12만 9,900원부터
 source_name: ''
 source_url: ''
 summary: 에어부산이 부산(김해)과 일본 나가사키를 잇는 노선에 다시 취항한다. 내년 1~2월 주 3회 운항하며 요금은 편도 12만 9,900원부터다.
 sources:
 - https://www.k-today.com/news/articleView.html?idxno=10816
 - https://www.golftimes.co.kr/news/articleView.html?idxno=201393
-status: approved
+status: published
+published_id: c-1d6c666dca18d0ab8d9fde81b45fc23932bbc48d
+published_on: '2026-11-12'
 ---
-
 에어부산이 부산(김해)과 일본 나가사키를 오가는 직항 노선에 다시 취항한다. 내년 1~2월 주 3회 띄우며, 요금은 편도 12만 9,900원부터다.
 
 나가사키현 서울사무소는 에어부산이 부산-나가사키 노선에 재취항한다고 밝혔다. 일본 규슈를 대표하는 관광지 나가사키현으로 가는 하늘길이 넓어지는 셈이다.
