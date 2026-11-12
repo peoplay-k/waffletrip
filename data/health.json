@@ -359,11 +359,10 @@
     },
     {
       "date": "2026-11-13",
-      "collected": 3641,
-      "published": 291,
-      "ours": 10,
+      "collected": 3620,
+      "published": 325,
+      "ours": 23,
       "failed_sources": [
-        "guam_pdn",
         "guam_post",
         "kr_hotelavia",
         "kr_ktnbm",

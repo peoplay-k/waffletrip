@@ -7,12 +7,14 @@ kind: 해설
 title: 하노이, AI·360도 가상현실 담은 디지털 관광 플랫폼 '하노이고' 곧 출시
 source_name: ''
 source_url: ''
-summary: 하노이시가 인공지능(AI)과 360도 가상현실을 결합한 문화관광 디지털 플랫폼 '하노이고(HanoiGo)'를 곧 내놓는다. iHanoi 슈퍼앱과 모바일 앱, 웹 화면에 함께 들어간다.
+summary: 하노이시가 인공지능(AI)과 360도 가상현실을 결합한 문화관광 디지털 플랫폼 '하노이고(HanoiGo)'를 곧 내놓는다. iHanoi
+  슈퍼앱과 모바일 앱, 웹 화면에 함께 들어간다.
 sources:
 - https://www.vietnam.vn/ko/ha-noi-sap-van-hanh-nen-tang-so-du-lich-hanoigo-tich-hop-ai-va-thuc-te-ao-360
-status: approved
+status: published
+published_id: c-5e012c9999667abe804342c6a638b0552aa72b1d
+published_on: '2026-11-13'
 ---
-
 하노이 여행을 스마트폰으로 미리 둘러볼 수 있는 플랫폼이 나온다. 하노이시는 인공지능(AI)과 360도 가상현실(VR)을 결합한 문화관광 디지털 플랫폼 '하노이고(HanoiGo)'를 곧 운영한다.
 
 하노이고는 하노이시의 통합 앱인 iHanoi 슈퍼앱과 별도 모바일 앱, 웹 화면에 함께 들어간다. 이용자는 여러 경로에서 같은 플랫폼에 접속해 하노이의 문화·관광 정보를 볼 수 있다.

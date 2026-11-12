@@ -8,12 +8,14 @@ kind: 보도자료
 title: KBS2 '욕망의 덫' 57회, 각자 유전자 검사에 나선 은설과 해라
 source_name: ''
 source_url: ''
-summary: KBS2 일일드라마 '욕망의 덫'이 13일(금) 저녁 7시 50분 57회를 방송한다. 은설과 해라가 서로 다른 의심을 품고 각자 유전자 검사에 나서고, 해라를 뒤쫓던 미란은 카페에서 믿기 어려운 광경을 목격한다.
+summary: KBS2 일일드라마 '욕망의 덫'이 13일(금) 저녁 7시 50분 57회를 방송한다. 은설과 해라가 서로 다른 의심을 품고 각자 유전자
+  검사에 나서고, 해라를 뒤쫓던 미란은 카페에서 믿기 어려운 광경을 목격한다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+status: published
+published_id: c-ae94f675f48a3e547bc99bc73084d5d1b5869405
+published_on: '2026-11-13'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 욕망의 덫 | 회차 · 57회
 > 방송 · 2026년 11월 13일(금) 저녁 7시 50분
