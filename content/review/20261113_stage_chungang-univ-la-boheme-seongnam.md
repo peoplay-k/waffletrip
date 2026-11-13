@@ -5,15 +5,18 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "중앙대 개교 110주년 기념 오페라 '라 보엠', 13·14일 성남아트센터"
+title: 중앙대 개교 110주년 기념 오페라 '라 보엠', 13·14일 성남아트센터
 source_name: ''
 source_url: ''
-summary: 중앙대학교가 개교 110주년을 기념해 13일 오후 7시 30분과 14일 오후 3시 경기 성남아트센터 오페라하우스에서 오페라 '라 보엠'을 올린다. 예술대학 음악학부가 주최하고 두산이 후원한다.
+summary: 중앙대학교가 개교 110주년을 기념해 13일 오후 7시 30분과 14일 오후 3시 경기 성남아트센터 오페라하우스에서 오페라 '라 보엠'을
+  올린다. 예술대학 음악학부가 주최하고 두산이 후원한다.
 sources:
-  - https://www.joongang.co.kr/article/25478068
-  - https://www.hani.co.kr/arti/economy/biznews/1287169.html
-  - https://www.dailysmart.co.kr/news/articleView.html?idxno=132434
-status: approved
+- https://www.joongang.co.kr/article/25478068
+- https://www.hani.co.kr/arti/economy/biznews/1287169.html
+- https://www.dailysmart.co.kr/news/articleView.html?idxno=132434
+status: published
+published_id: c-64fe1acea8996451ab3769a1cd8c72a12ab370a7
+published_on: '2026-11-13'
 ---
 중앙대학교가 개교 110주년을 맞아 푸치니의 오페라 '라 보엠(La Bohème)'을 무대에 올린다. 공연은 13일 오후 7시 30분과 14일 오후 3시, 경기 성남아트센터 오페라하우스에서 열린다.
 

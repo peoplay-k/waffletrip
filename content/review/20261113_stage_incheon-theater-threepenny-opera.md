@@ -5,16 +5,19 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "인천시립극단, 브레히트 '서푼짜리 오페라'를 1948년 서울로 옮겨 29일 개막"
+title: 인천시립극단, 브레히트 '서푼짜리 오페라'를 1948년 서울로 옮겨 29일 개막
 source_name: ''
 source_url: ''
-summary: 인천시립극단이 11월 29일부터 12월 6일까지 인천문화예술회관 소공연장에서 음악극 '서푼짜리 오페라'를 공연한다. 배경을 정부 수립 직전인 1948년 서울로 바꿨고, 임도완 예술감독이 각색과 연출을 맡았다.
+summary: 인천시립극단이 11월 29일부터 12월 6일까지 인천문화예술회관 소공연장에서 음악극 '서푼짜리 오페라'를 공연한다. 배경을 정부 수립
+  직전인 1948년 서울로 바꿨고, 임도완 예술감독이 각색과 연출을 맡았다.
 sources:
-  - https://www.newstown.co.kr/news/articleView.html?idxno=721670
-  - https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040756
-  - https://www.incheonin.com/news/articleView.html?idxno=122240
-  - https://www.metroseoul.co.kr/article/20261113500028
-status: approved
+- https://www.newstown.co.kr/news/articleView.html?idxno=721670
+- https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040756
+- https://www.incheonin.com/news/articleView.html?idxno=122240
+- https://www.metroseoul.co.kr/article/20261113500028
+status: published
+published_id: c-08d0f7afe2b47e8d612c3c65cc8155e6b42834bb
+published_on: '2026-11-13'
 ---
 인천시립극단이 독일 극작가 베르톨트 브레히트의 음악극 '서푼짜리 오페라'를 1948년 정부 수립 직전의 서울로 옮겨 무대에 올린다. 공연은 11월 29일부터 12월 6일까지 인천문화예술회관 소공연장에서 이어진다.
 

@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '보통의 기록 회고', 16~20일 평일 오후 5시 50분 보통 사람 5인의 인생 고백"
+title: EBS '보통의 기록 회고', 16~20일 평일 오후 5시 50분 보통 사람 5인의 인생 고백
 source_name: ''
 source_url: ''
-summary: EBS1이 16일부터 20일까지 평일 오후 5시 50분 '보통의 기록 회고'를 방송한다. 무료 결혼식을 이어 온 예식장 대표, 폐교 터 마을의 청년 반장 등 다섯 사람의 이야기를 하루 한 명씩 소개한다.
+summary: EBS1이 16일부터 20일까지 평일 오후 5시 50분 '보통의 기록 회고'를 방송한다. 무료 결혼식을 이어 온 예식장 대표, 폐교
+  터 마을의 청년 반장 등 다섯 사람의 이야기를 하루 한 명씩 소개한다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005633473
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005633473
+status: published
+published_id: c-e730a5e6e996102dc885bcc2a294e1bd017eb038
+published_on: '2026-11-13'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 보통의 기록 회고 | 회차 · 1~5부

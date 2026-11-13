@@ -4,15 +4,18 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "정부, 12월 ICAO 항공안전평가 앞두고 21개 기관 합동 대응"
+title: 정부, 12월 ICAO 항공안전평가 앞두고 21개 기관 합동 대응
 source_name: ''
 source_url: ''
-summary: 국토교통부는 13일 국가정책조정회의에서 다음 달 국제민간항공기구(ICAO) 항공안전평가에 대한 범정부 합동대응 방안을 논의했다. 항공기 운항·공항 안전 등 9개 분야를 점검하고 공항 안전감독 전담 조직을 추진한다.
+summary: 국토교통부는 13일 국가정책조정회의에서 다음 달 국제민간항공기구(ICAO) 항공안전평가에 대한 범정부 합동대응 방안을 논의했다. 항공기
+  운항·공항 안전 등 9개 분야를 점검하고 공항 안전감독 전담 조직을 추진한다.
 sources:
-  - https://www.mt.co.kr/index.php/estate/2026/11/13/2026111309482741005
-  - https://www.fnnews.com/news/202611130842272396
-  - https://www.news1.kr/realestate/general/6353068
-status: approved
+- https://www.mt.co.kr/index.php/estate/2026/11/13/2026111309482741005
+- https://www.fnnews.com/news/202611130842272396
+- https://www.news1.kr/realestate/general/6353068
+status: published
+published_id: c-7c6ce952ce38a343dbe470f104706ade07478bf7
+published_on: '2026-11-13'
 ---
 정부가 다음 달 예정된 국제민간항공기구(ICAO)의 항공안전평가에 대비해 관계기관 합동 점검에 들어갔다. 항공기 운항과 공항 안전 등 9개 분야의 국제기준 이행 상황을 살피고, 공항 안전감독을 맡을 전담 조직 신설도 추진한다.
 

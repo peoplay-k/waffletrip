@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '위대한 수업, 그레이트 마인즈' 그레고리 나지의 '호메로스' 5강, 13일부터"
+title: EBS '위대한 수업, 그레이트 마인즈' 그레고리 나지의 '호메로스' 5강, 13일부터
 source_name: ''
 source_url: ''
-summary: EBS1이 13일부터 19일까지 평일 밤 11시 45분 '위대한 수업, 그레이트 마인즈' 그레고리 나지 편 '호메로스'를 방송한다. 하버드대 고전그리스문학 석좌교수가 호메로스 서사시의 탄생과 전승을 짚는다.
+summary: EBS1이 13일부터 19일까지 평일 밤 11시 45분 '위대한 수업, 그레이트 마인즈' 그레고리 나지 편 '호메로스'를 방송한다.
+  하버드대 고전그리스문학 석좌교수가 호메로스 서사시의 탄생과 전승을 짚는다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005630891
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005630891
+status: published
+published_id: c-a9796c1e33960142b49e1d50cdc7f5671e0efef1
+published_on: '2026-11-13'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 위대한 수업, 그레이트 마인즈 | 회차 · 그레고리 나지 '호메로스' (5강)
