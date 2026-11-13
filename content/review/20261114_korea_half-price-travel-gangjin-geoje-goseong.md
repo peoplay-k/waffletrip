@@ -7,16 +7,18 @@ kind: 해설
 title: '''반값여행'' 효과 숫자로 확인…강진 소비 153억, 고성 7,465명, 거제는 신혼부부 모집'
 source_name: ''
 source_url: ''
-summary: 여행 경비 절반을 돌려주는 지자체 '반값여행'이 성과를 내고 있다. 호남지방데이터청 분석에서 강진 반값여행이 관광객 증가와 관내 소비 확대에 기여한 것으로 나타났고, 경남 고성은 9월 이후 2,659팀 7,465명이 참여했다. 거제는 신혼부부 35팀을 모집한다.
+summary: 여행 경비 절반을 돌려주는 지자체 '반값여행'이 성과를 내고 있다. 호남지방데이터청 분석에서 강진 반값여행이 관광객 증가와 관내 소비
+  확대에 기여한 것으로 나타났고, 경남 고성은 9월 이후 2,659팀 7,465명이 참여했다. 거제는 신혼부부 35팀을 모집한다.
 sources:
 - https://www.newspim.com/news/view/20261113000414
 - https://www.yna.co.kr/view/AKR20261112070300054
 - https://www.newsis.com/view/NISX20261111_0003864525
 - https://www.geojejournal.co.kr/news/articleView.html?idxno=208959
 - https://www.taeannews.co.kr/news/articleView.html?idxno=69494
-status: approved
+status: published
+published_id: c-aae82d271e0f2fefa4a8c6604811cd92b10bed25
+published_on: '2026-11-14'
 ---
-
 여행 경비의 절반을 돌려주는 지자체 '반값여행'이 숫자로 효과를 보여 주고 있다.
 
 '반값여행 원조'로 불리는 전남광주통합특별시 강진군은 13일 호남지방데이터청이 발표한 '강진 반값여행 정책성과 및 지역지표 변화 분석'을 공개했다. 분석에 따르면 반값여행은 관광객 유입과 관내 소비 확대를 이끌었고, 참여팀과 소비 금액이 크게 늘어 식음료와 숙박 등 소상공인 매출이 올랐다. 반값여행과 관련한 소비 금액은 153억원으로 늘었다.

@@ -8,12 +8,14 @@ kind: 보도자료
 title: KBS2 '사랑이 온다' 30회, 모든 일의 배후 알게 된 무진…어머니와 마주하다
 source_name: ''
 source_url: ''
-summary: KBS2 주말드라마 '사랑이 온다'가 14일(토) 밤 8시 30회를 방송한다. 모든 일의 배후를 알게 된 무진이 옥선을 향한 분노를 안고 어머니와 마주하고, 규림을 걱정하던 규영은 예상치 못한 상황에 맞닥뜨린다.
+summary: KBS2 주말드라마 '사랑이 온다'가 14일(토) 밤 8시 30회를 방송한다. 모든 일의 배후를 알게 된 무진이 옥선을 향한 분노를
+  안고 어머니와 마주하고, 규림을 걱정하던 규영은 예상치 못한 상황에 맞닥뜨린다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/loveonthemenu
-status: approved
+status: published
+published_id: c-39b14bc1a2d2b3feb4bd006a6b1bcc614193c048
+published_on: '2026-11-14'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 30회
 > 방송 · 2026년 11월 14일(토) 밤 8시

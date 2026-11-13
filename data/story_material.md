@@ -41,11 +41,6 @@
 
 ## 베트남
 
-### [사진] 2026 하노이 창의디자인 페스티벌 개막식
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 11월 13일, 호안끼엠 호수 동쪽 광장에서 하노이 창의디자인 페스티벌 2026이 개막했으며, 동시에 하노이의 문화관광 디지털 플랫폼 "HanoiGo"가 출범했습니다. 이는 창의성을 연결하고 확산하며 현대 사회에서 수도 하노이의 정체성을 더욱 확고히 하는 여정의 시작을 알렸습니다.
-    https://www.vietnam.vn/ko/anh-khai-mac-le-hoi-thiet-ke-sang-tao-ha-noi-2026
-
 ### 병원, 리조트와 제휴: 다낭, 관광과 의료 서비스를 결합한 관광객 유치 목표로
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 다낭의 경우, 관광객들이 휴식을 취하면서 건강 검진과 상담을 받을 수 있도록 병원과 호텔, 리조트를 연계하는 것이 전문가들이 제안하는 방향입니다. 이러한 프로그램은 의학적 기반을 갖추고 있어야 하며, 확대 시행 전에 효과성을 평가해야 합니다.
@@ -61,10 +56,15 @@
   - vietnam.vn: 하노이시는 11월 13일 인공지능(AI)이 접목된 문화관광 디지털 플랫폼을 공식 출범시켰습니다. 이 플랫폼은 시민과 관광객들이 목적지를 편리하게 검색하고, 여행 일정을 계획하며, 관광 서비스를 이용할 수 있도록 지원합니다.
     https://www.vietnam.vn/ko/ha-noi-dua-ai-vao-trai-nghiem-du-lich-thong-minh
 
-### 나트랑 혼트레 섬에서 펼쳐지는 다채로운 크리스마스와 새해 행사를 만나보세요.
+### 호찌민시는 제조업 강점을 바탕으로 산업 관광을 개발하고 있습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 2026년 12월 15일부터 나트랑 메리어트 리조트 & 스파 혼 트레 아일랜드는 혼 트레 섬에서 휴식, 미식, 엔터테인먼트 및 웰빙을 만끽할 수 있는 다양한 크리스마스 및 새해 축하 행사를 제공합니다.
-    https://www.vietnam.vn/ko/kham-pha-chuoi-hoat-dong-don-giang-sinh-va-nam-moi-hap-dan-tai-dao-hon-tre-nha-trang
+  - vietnam.vn: 호치민시의 공장 및 생산 시설들을 학생과 투자자들을 위한 체험형 관광지로 개발할 가능성을 검토하고 있습니다. 이러한 접근 방식은 관광 상품을 다양화하고, 지역의 강점을 활용하며, 도시 관광의 매력을 더욱 높이는 데 기여할 것입니다.
+    https://www.vietnam.vn/ko/tp-ho-chi-minh-phat-trien-du-lich-cong-nghiep-tu-the-manh-san-xuat
+
+### '선택관광 걱정 없이 5성급에서' 웹투어, 다낭·나트랑·달랏 3박 5일 패키지 출시
+- 매체 1곳 · 빅데이터뉴스
+  - 빅데이터뉴스: 웹투어(대표 홍성원)가 쇼핑엔티와 함께 선택관광이 없는 베트남 3박 5일 패키지를 선보인다. 다낭과 나트랑·달랏 가운데 고를 수 있으며, 방송은 11월 15일 오후 9시 30분과 20일 오후 11시 30분이다.
+    https://www.thebigdata.co.kr/view.php?ud=2026111223033399936cf2d78c68_23
 
 ## 코타키나발루
 
@@ -108,10 +108,10 @@
   - 이데일리: 매트리스 전문 브랜드 베스트슬립은 5성급 제주 오리엔탈호텔에 시그니처 라인인 Z시리즈 매트리스를 공급했다고 13일 밝혔다. 베스트슬립은 1989년부터 매트리스를 개발·생산해 온 기업으로, 국내외 호텔을 대상으로 제품 공급을 확대하고 있다.
     https://www.edaily.co.kr/News/Read?newsId=03906486645645392&mediaCodeNo=257
 
-### 제주관광협회, '메가쇼&트래블쇼 2026 시즌2'서 가을·겨울 여행 혜택 및 우수 관광기념품 선보여
-- 매체 1곳 · TTL뉴스
-  - TTL뉴스: 제주특별자치도와 제주특별자치도관광협회가 수도권 잠재 관광객을 겨냥한 현장 마케팅에 본격적으로 나섰다. 양 기관은 11월 12일부터 15일까지 나흘간 경기 고양시 일산 킨텍스에서 열리는 라이프스타일 박람회 '메가쇼&트래블쇼 2026 시즌2'에 참가해 제주관광 홍보관을 운영 중이다.
-    http://www.ttlnews.com/news/articleView.html?idxno=3162208
+### 제주 커피파인더, ‘아시아·태평양 100대 커피숍’ 선정
+- 매체 1곳 · 제주의소리
+  - 제주의소리: 창업 11년째인 제주도 로스터리 카페 ‘커피파인더(Coffee Finder, 대표 지준호)’가 아시아·태평양을 대표하는 100대 커피숍에 당당히 이름을 올렸다. 제주에서는 유일하게 선정되면서 지역 커피업계의 경쟁력을 입증했다.
+    https://www.jejusori.net/news/articleView.html?idxno=508320
 
 ## 일본
 
@@ -148,6 +148,11 @@
 
 ## 태국
 
+### 골프부터 웰니스·가족 휴양까지…폴 윌슨 라구나 푸켓 총괄 “한국 시장 확대 박차” [인터뷰]
+- 매체 1곳 · 데일리안
+  - 데일리안: 태국 푸켓에 위치한 라구나 푸켓은 약 122만 평에 이르는 부지에 6개 호텔 브랜드, 1400개 이상의 객실·스위트룸·빌라가 들어서 있다. 또한 18홀 고급 골프 코스와 35개 이상의 식음시설, 스파와 웰니스 프로그램, 수상 스포츠와 문화 체험까지 한 공간에서 이용할 수 있다.
+    https://www.dailian.co.kr/news/view/1714561/%EA%B3%A8%ED%94%84-%EC%9B%B0%EB%8B%88%EC%8A%A4%EA%B0%80%EC%A1%B1-%ED%9C%B4%EC%96%91%EA%B9%8C%EC%A7%80%ED%8F%B4-%EC%9C%8C%EC%8A%A8-%EB%9D%BC%EA%B5%AC-2026
+
 ### 나윤권, 테이와 ‘동성 열애설’ 전말 공개…“단둘이 태국여행 갔다가”
 - 매체 1곳 · 헤럴드경제
   - 헤럴드경제: 가수 나윤권이 테이와의 동성 열애설에 대해 해명하며 테이 회사 대표님이 태국에 지인이 있어 같이 여행을 가게 되었다고 말했다.
@@ -167,13 +172,6 @@
 - 매체 1곳 · 투어코리아
   - 투어코리아: [투어코리아=조성란 기자] 밤이 되면 강물 위로 수많은 촛불이 떠오르고, 고대 사원은 황금빛 조명으로 물든다. 밤하늘을 향해 소원을 담은 등불이 날아오르는 장관도 펼쳐진다.
     https://www.tournews21.com/news/articleView.html?idxno=148403
-
-### Radisson introduces first Park Inn property to Bangkok
-- 매체 2곳 · Hotel Management Network · TravelWires  ← 여러 곳이 썼다
-  - Hotel Management Network: Radisson Hotel Group has expanded its operational footprint in Thailand through the launch of Park Inn by Radisson Bangkok Sukhumvit 13, marking the debut of th
-    https://www.hotelmanagement-network.com/news/radisson-bangkok-park-inn/
-  - TravelWires: 
-    https://news.google.com/rss/articles/CBMikgFBVV95cUxQNGZYQmRubWVEU3g5TUs3aU5GM1FZQUNUd0hyVEpxOFpBY05uVEgwM3NvSDJ4RHVEWDNtWGpkYmoxWlVnNm1LMzBGQVBiWUs4YzhpbXVnQVMxQUcwRldBT0drdm9WS1FXZmVXSERtU21oeFkyVWVNTDlzalhfMzZWYVF2bkJTbGdqQ2lwMkpWN3N4Zw?oc=5
 
 ## 대만
 
@@ -236,12 +234,12 @@
   - 메드월드뉴스: 은성의료재단 산하 좋은문화병원(병원장 문화숙)과 좋은강안병원(병원장 허현)이 13일 벡스코 제1전시장에서 열린 ‘2026 부산국제의료관광컨벤션’ 개막식에서 부산광역시장 표창을 받았다. 표창 부문은 좋은문화병원이 ‘의료관광산업 육성 유공’, 좋은강안병원이 ‘국제의료교류 및 외국인환자 유치
     http://www.medworld.co.kr/news/articleView.html?idxno=266074
 
-### "신혼여행 거제로!" 거제시, 반값 여행 신혼부부 모집
-- 매체 2곳 · LG헬로비전 · 거제저널  ← 여러 곳이 썼다
-  - LG헬로비전: 거제시가 '반값 여행'에 참여할 신혼부부를 모집합니다. 대상은 거제와 가까운 지역인 통영, 고성을 제외한 관외 거주자 가운데 혼인 관계 증명서상 결혼 3년 이내의 신혼부부입니다.
-    http://news.lghellovision.net/news/articleView.html?idxno=562265
-  - 거제저널: 거제시는 13일 결혼 3년 이내 신혼부부를 대상으로 하반기 '신혼부부 설렘가득 반값여행'을 추진한다고 밝혔다. 이번 프로그램은 지난 8월 호우로 인해 침체된 관광업
-    https://www.geojejournal.co.kr/news/articleView.html?idxno=208959
+### 어촌어항공단, 통영 욕지도서 체류형 다이빙 관광 선보여
+- 매체 2곳 · 부산일보 · 불교방송  ← 여러 곳이 썼다
+  - 불교방송: 한국어촌어항공단이 경남 통영시 욕지도 유동마을에서 다이빙과 숙박을 연계한 1박 2일 체류형 관광 프로그램을 선보였습니다. 공단은 지난달 31일부터 이달 1일까지 유동마을에서 '유동 가을 다이빙 행사'를 시범 운영했다고 밝혔습니다.
+    https://news.bbsi.co.kr/news/articleView.html?idxno=4118516
+  - 부산일보: 통영 욕지도 유동마을에서의 ‘유동 가을 다이빙 행사’ 유동마을 현장 행사(10월 31일). 해수부 제공 한국어촌어항공단이 경남 통영.
+    https://www.busan.com/view/busan/view.php?code=2026111322572263477
 
 ## 여행업계
 
@@ -308,6 +306,13 @@
   - 동아일보: 올해 한국을 찾은 외국인 관광객이 12일 기준 2000만 명을 넘어섰다. 2012년 방문객 1000만 명을 달성한 뒤 14년 만에 연 2000만 명 시대를 열었다.
     https://www.donga.com/news/Opinion/article/all/20261113/135022982/2
 
+### [속보]미 항공청, 미국 전역 공항 운항 중단 조치
+- 매체 2곳 · 뉴시스 · 한국일보  ← 여러 곳이 썼다
+  - 뉴시스: [서울=뉴시스] 강영진 기자 = 미국 연방항공청(FAA)이 "이례적인 상황"과 "안전상의 이유"를 들어 미국 전역의 모든 공항에 대해 극히 드문 전국적인 항공기 운항 중단 조치를 내렸다고 미 액시오스(AXIOS)가 13일(현지시각) 보도했다.
+    https://www.newsis.com/view/NISX20261114_0003867943
+  - 한국일보: ① 항공교통관제 시스템에 통신 장애가 생기면서 13일 미국 전역에서 항공기 운항이 전면 중단됐습니다. ② 연방항공청은 안전을 이유로 전국 공항에 이륙 중단 지침을 내렸고 이륙 대기 항공기는 지상에서 기다리도록 했습니다.
+    https://www.hankookilbo.com/news/article/A2026111406530004266
+
 ### KAI, 인니 PTDI와 항공산업 협력 확대…MOU 3건 체결
 - 매체 2곳 · 뉴스핌 · 매일경제  ← 여러 곳이 썼다
   - 뉴스핌: [서울=뉴스핌] 김지헌 기자= 한국항공우주산업(KAI)이 인도네시아 국영 항공우주기업 PTDI와 방산 및 민항기 분야의 협력을 확대한다. KAI는 지난 11일 인도네시아 국방부에서 열린 '제12차 한-인니 방산협력위원회(DICC)'를 계기로 PTDI와 총 3건의
@@ -322,14 +327,7 @@
   - 뉴시스: [대구=뉴시스]정재익 기자 = 대구·경북이 중국 시안에서 의료관광을 홍보하고 현지 의료·교육기관과 협력 확대에 나선다. 13일 AI바이오·메디시티대구협의회에 따르면 방문단은 오는 16일부터 18일까지 시안에서 의료·관광 홍보설명회와 비즈니스 상담회를 진행한다.
     https://www.newsis.com/view/NISX20261113_0003867415
 
-### 항공연대 장병들과 기념 촬영하는 멜라니아 여사
-- 매체 1곳 · 뉴시스  ← 여러 곳이 썼다
-  - 뉴시스: [포트 러커=뉴욕타임스/뉴시스] 도널드 트럼프 미국 대통령 부인 멜라니아(가운데) 여사가 12일(현지 시간) 앨라배마주 포트 러커의 제1 항공연대를 방문해 제1대대 C중대 장병들과 함께 기념사진을 찍고 있다. 2026.11.13.
-    https://www.newsis.com/view/NISI20261113_0002291131
-  - 뉴시스: 도널드 트럼프 미국 대통령 부인 멜라니아(가운데) 여사가 12일(현지 시간) 앨라배마주 포트 러커의 제1 항공연대를 방문해 부대원들에게 연설하고 있다
-    https://mobile.newsis.com/photo/NISI20261113_0002291135
-
-## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 27건)
+## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 26건)
 
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
@@ -337,7 +335,7 @@
 - [2026-11-13·여행업계] 발권 장벽 허물어진 GDS 시장…무한 경쟁 시대 진입
   대한항공과 아시아나항공의 통합을 앞두고 국내 GDS(항공 예약 발권 시스템) 시장의 경쟁이 달아오르고 있다. 11월 2일을 기점으로 토파스, 한진세이버, 트래블포트 국내 주요 GDS 3사에서 대한항공과 아시아나항공의 항공권 발권이 모두 가능해지면서다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500700
-- [2026-11-13·여행업계] 가업상속공제 제외 위기 호텔업, 국회서 구제 입법 나왔다
+- ✅ [2026-11-13·여행업계] 가업상속공제 제외 위기 호텔업, 국회서 구제 입법 나왔다
   가업상속공제 대상에서 제외될 위기에 놓인 호텔업을 지원하기 위한 법안이 국회에 제출됐다. 관광업계 12개 단체가 10월 말 공동 탄원서를 제출한 데 이어 호텔업의 특성을 고려한 별도 입법까지 추진되면서 정부의 가업상속공제 개편안이 수정될지 주목된다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500718
 - [2026-11-13·여행업계] 홍콩익스프레스, 한국발 수요 키운다…소비자 공략 강화
@@ -622,63 +620,63 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## CHAERYEONG(채령) “Lovesick” M/V
-- 채널 JYP Entertainment · 조회수 6,356,370회 · 4일 전
+- 채널 JYP Entertainment · 조회수 6,362,567회 · 4일 전
 - `@youtube pe-rk1ekb4w` · https://www.youtube.com/watch?v=pe-rk1ekb4w
 
 ## 천천히 강렬하게 | 공식 티저 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 1,296,356회 · 1일 전
+- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 1,306,020회 · 1일 전
 - `@youtube iEmGtIh60DE` · https://www.youtube.com/watch?v=iEmGtIh60DE
 
 ## oftheblue(오브더블루) "풍선인간" Blind Performance Video
-- 채널 JYP Entertainment · 조회수 856,729회 · 3일 전
+- 채널 JYP Entertainment · 조회수 860,238회 · 3일 전
 - `@youtube d1AknDUMAE0` · https://www.youtube.com/watch?v=d1AknDUMAE0
 
 ## [11화 예고] 김유정의 정체를 눈치챈 듯한 사토 부자?!😨 그리고 걸려온 의문의 전화☎
-- 채널 tvN DRAMA · 조회수 747,289회 · 5일 전
+- 채널 tvN DRAMA · 조회수 748,679회 · 5일 전
 - `@youtube d0kBID9SX6w` · https://www.youtube.com/watch?v=d0kBID9SX6w
 
 ## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
-- 채널 tvN DRAMA · 조회수 737,554회 · 6일 전
+- 채널 tvN DRAMA · 조회수 737,591회 · 6일 전
 - `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
 
 ## NCT DREAM - Boogie Woogie | 1theKILLPO | Performance
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 662,332회 · 2일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 664,518회 · 2일 전
 - `@youtube HYHu_ui8t2s` · https://www.youtube.com/watch?v=HYHu_ui8t2s
 
 ## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
-- 채널 tvN DRAMA · 조회수 575,865회 · 3일 전
+- 채널 tvN DRAMA · 조회수 576,443회 · 3일 전
 - `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
 
 ## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 456,503회 · 4일 전
+- 채널 tvN DRAMA · 조회수 456,628회 · 4일 전
 - `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 니키 (NI-KI)
-- 채널 HYBE LABELS · 조회수 410,089회 · 4일 전
+- 채널 HYBE LABELS · 조회수 410,647회 · 4일 전
 - `@youtube iB3zmnG6UMs` · https://www.youtube.com/watch?v=iB3zmnG6UMs
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 제이 (JAY)
-- 채널 HYBE LABELS · 조회수 357,676회 · 6일 전
+- 채널 HYBE LABELS · 조회수 357,858회 · 6일 전
 - `@youtube oPCjiOQcxRY` · https://www.youtube.com/watch?v=oPCjiOQcxRY
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 정원 (JUNGWON)
-- 채널 HYBE LABELS · 조회수 316,447회 · 5일 전
+- 채널 HYBE LABELS · 조회수 316,762회 · 5일 전
 - `@youtube cNXeIF1dGBg` · https://www.youtube.com/watch?v=cNXeIF1dGBg
 
 ## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
-- 채널 HYBE LABELS · 조회수 307,756회 · 4일 전
+- 채널 HYBE LABELS · 조회수 308,060회 · 4일 전
 - `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
 
 ## [라이어 5회 예고] ＂당신이 이겼어＂, MBC 261113 방송
-- 채널 MBCdrama · 조회수 295,793회 · 6일 전
+- 채널 MBCdrama · 조회수 295,865회 · 6일 전
 - `@youtube HgU_TkMhXjE` · https://www.youtube.com/watch?v=HgU_TkMhXjE
 
 ## ［30회 예고］나만 위해서 그랬을 것 같니? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 277,275회 · 5일 전
+- 채널 KBS Drama · 조회수 278,708회 · 5일 전
 - `@youtube RESSBa51NL8` · https://www.youtube.com/watch?v=RESSBa51NL8
 
 ## [메이킹] 티랑이들, 힘들고 지겨울 땐 뭐다?👀 방방강쥐 임시완♥설인아 X 능글냥이 김정현♥연우 보기😍 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 225,622회 · 2일 전
+- 채널 tvN DRAMA · 조회수 226,000회 · 2일 전
 - `@youtube KakUksE913M` · https://www.youtube.com/watch?v=KakUksE913M
 
 
