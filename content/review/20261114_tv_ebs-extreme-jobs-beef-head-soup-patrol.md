@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '극한직업', 영천 소머리곰탕집과 고속도로 암행순찰팀 14일 방송"
+title: EBS '극한직업', 영천 소머리곰탕집과 고속도로 암행순찰팀 14일 방송
 source_name: ''
 source_url: ''
-summary: EBS1 '극한직업'이 14일(토) 밤 9시 5분 소머리곰탕을 하루 300그릇 끓이는 3대째 가게와 매일 서울~부산 거리를 달리는 고속도로순찰대 암행순찰팀을 따라간다.
+summary: EBS1 '극한직업'이 14일(토) 밤 9시 5분 소머리곰탕을 하루 300그릇 끓이는 3대째 가게와 매일 서울~부산 거리를 달리는
+  고속도로순찰대 암행순찰팀을 따라간다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005633479
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005633479
+status: published
+published_id: c-764b9b97d8126e5c6fe23fc720fc44ec5b91bd51
+published_on: '2026-11-14'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 극한직업 | 회차 · 소머리곰탕과 고속도로순찰대 암행순찰팀

@@ -4,16 +4,17 @@ channel: travel
 region: japan
 section: flight
 kind: 보도자료
-title: "에어로케이, 후지드림항공과 '일본 여행' 공동 SNS 이벤트"
+title: 에어로케이, 후지드림항공과 '일본 여행' 공동 SNS 이벤트
 source_name: ''
 source_url: ''
 summary: 에어로케이항공이 일본 지역항공사 후지드림항공과 함께 공동 SNS 이벤트를 연다. 추첨으로 두 항공사의 왕복항공권을 한 장씩 제공한다.
 sources:
-  - https://www.econovill.com/news/articleView.html?idxno=757170
-  - https://www.kcilbo.com/articles/2026111373965
-status: approved
+- https://www.econovill.com/news/articleView.html?idxno=757170
+- https://www.kcilbo.com/articles/2026111373965
+status: published
+published_id: c-db7de588e4a89f9cb5d0475bec0eeeb71f5ec16e
+published_on: '2026-11-14'
 ---
-
 에어로케이항공이 일본 지역 항공사 후지드림항공(Fuji Dream Airlines)과 공동 SNS 이벤트 '더 자유롭고 넓어지는 일본 여행'을 연다. 국제선과 국내선을 이어 붙인 여행 코스를 소개하고, 추첨으로 두 항공사의 왕복항공권을 각각 한 장씩 주는 이벤트다.
 
 두 항공사는 한국에서 일본으로 건너가는 국제선과 일본 안에서 이동하는 국내선을 하나의 여행 동선으로 엮어 보여 준다. 일본 도착 뒤 지방 도시로 한 번 더 날아가는 일정을 상정한 것으로, 에어로케이는 이 코스를 통해 일본 여행의 선택지를 넓힌다는 방침이다.

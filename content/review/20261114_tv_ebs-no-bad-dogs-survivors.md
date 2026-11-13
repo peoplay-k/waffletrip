@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '세상에 나쁜 개는 없다' 위기의 개들 2부, 학대에서 살아남은 개들"
+title: EBS '세상에 나쁜 개는 없다' 위기의 개들 2부, 학대에서 살아남은 개들
 source_name: ''
 source_url: ''
-summary: EBS1 '세상에 나쁜 개는 없다'가 14일(토) 밤 10시 위기의 개들 특집 2부 '지옥에서 살아남은 개들'을 방송한다. 개정 동물보호법 배경과 구조 현장, 학대 피해견의 회복 과정을 다룬다.
+summary: EBS1 '세상에 나쁜 개는 없다'가 14일(토) 밤 10시 위기의 개들 특집 2부 '지옥에서 살아남은 개들'을 방송한다. 개정 동물보호법
+  배경과 구조 현장, 학대 피해견의 회복 과정을 다룬다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005630956
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005630956
+status: published
+published_id: c-37095a18ab5dd19acf2a652ea1863190e4101ed8
+published_on: '2026-11-14'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 세상에 나쁜 개는 없다 | 회차 · 위기의 개들 특집 2부 '지옥에서 살아남은 개들'

@@ -4,17 +4,19 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "이스타항공, 엔믹스 이미지 입힌 '래핑 항공기' 내년 4월까지 운항"
+title: 이스타항공, 엔믹스 이미지 입힌 '래핑 항공기' 내년 4월까지 운항
 source_name: ''
 source_url: ''
-summary: 이스타항공이 걸그룹 엔믹스 멤버 6인의 이미지를 동체 양쪽에 입힌 항공기를 내년 4월까지 운영한다. 엔믹스의 해외 팬덤을 국제선 네트워크로 연결해 외국인 탑승객을 늘린다는 구상이다.
+summary: 이스타항공이 걸그룹 엔믹스 멤버 6인의 이미지를 동체 양쪽에 입힌 항공기를 내년 4월까지 운영한다. 엔믹스의 해외 팬덤을 국제선 네트워크로
+  연결해 외국인 탑승객을 늘린다는 구상이다.
 sources:
-  - https://www.fnnews.com/news/202611131041200360
-  - https://www.pointdaily.co.kr/news/articleView.html?idxno=325865
-  - https://www.e-science.co.kr/news/articleView.html?idxno=139694
-status: approved
+- https://www.fnnews.com/news/202611131041200360
+- https://www.pointdaily.co.kr/news/articleView.html?idxno=325865
+- https://www.e-science.co.kr/news/articleView.html?idxno=139694
+status: published
+published_id: c-dbe61552e4ff38149bd7bd5a0d6dc68149589e56
+published_on: '2026-11-14'
 ---
-
 이스타항공이 걸그룹 엔믹스(NMIXX)의 이미지를 동체에 입힌 항공기를 띄우고, 국내외 팬을 겨냥한 마케팅에 나선다. 엔믹스의 해외 팬덤을 국제선 노선과 이어 외국인 탑승객을 늘리겠다는 계획이다.
 
 이스타항공은 13일 엔믹스 멤버 6명의 이미지를 동체 양쪽에 담은 '엔믹스 래핑 항공기'를 선보였다고 밝혔다. 이 항공기는 내년 4월까지 운영된다. 항공기 동체가 아이돌 그룹의 홍보 공간으로 쓰이는 셈이다.
