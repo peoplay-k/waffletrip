@@ -4,16 +4,18 @@ channel: travel
 region: guam
 section: news
 kind: 보도자료
-title: "노랑풍선, 괌정부관광청과 공동 프로모션…내년 3월 출발까지"
+title: 노랑풍선, 괌정부관광청과 공동 프로모션…내년 3월 출발까지
 source_name: ''
 source_url: ''
 summary: 노랑풍선이 괌정부관광청과 연말 성수기와 겨울방학을 겨냥한 괌 공동 프로모션을 연다. 이달부터 2027년 3월까지 출발하는 상품이 대상이다.
 sources:
-  - https://www.newspim.com/news/view/20261113000096
-  - https://www.discoverynews.kr/news/articleView.html?idxno=1106697
-  - https://www.insightkorea.co.kr/news/articleView.html?idxno=258845
-  - https://www.thedailypost.kr/news/articleView.html?idxno=116910
-status: approved
+- https://www.newspim.com/news/view/20261113000096
+- https://www.discoverynews.kr/news/articleView.html?idxno=1106697
+- https://www.insightkorea.co.kr/news/articleView.html?idxno=258845
+- https://www.thedailypost.kr/news/articleView.html?idxno=116910
+status: published
+published_id: c-838721eebf3acfdd80c3bd5859b2095c26414b72
+published_on: '2026-11-14'
 ---
 노랑풍선이 괌정부관광청과 손잡고 괌 공동 프로모션에 나선다. 연말 성수기와 겨울방학 수요를 겨냥한 행사로, 이달부터 2027년 3월까지 출발하는 상품이 대상이다.
 

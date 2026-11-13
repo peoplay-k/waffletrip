@@ -12,37 +12,25 @@
   - 뉴스핌: [서울=뉴스핌] 이나영 기자= 노랑풍선이 괌정부관광청과 함께 연말 성수기와 겨울방학 시즌을 겨냥한 괌 공동 프로모션을 진행한다고 13일 밝혔다. 이달부터 오는 2027년 3월까지 출발하는 상품을 대상으로 한다.
     https://www.newspim.com/news/view/20261113000096
 
-### 에어서울, ‘호시노 리조트 리조나레 괌’과 단독 제휴
-- 매체 1곳 · 트래블데일리
-  - 트래블데일리: 에어서울이 본격적인 겨울 휴양 시즌을 맞아 ‘호시노 리조트 리조나레 괌(Hoshino Resorts RISONARE Guam)’과 단독 제휴를 맺고 탑승객 대상 특별 프로모션을 진행한다. 이번 프로모션은 연말연시 따뜻한 괌에서 특별한 휴식을 즐기려는 가족 및 연인 여행객의 체류 부담을 
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72665
-
 ### 노랑풍선, 내년 3월까지 괌 여행 기획전 운영…가족·커플 맞춤형 라인업
 - 매체 1곳 · 데일리포스트
   - 데일리포스트: ㅣ데일리포스트=곽민구 기자ㅣ여행 전문기업 노랑풍선이 연말 성수기와 겨울방학 시즌을 앞두고 따뜻한 남태평양 휴양지를 찾는 여행객들을 위한 맞춤형 상품군을 선보인다. 노랑풍선은
     https://www.thedailypost.kr/news/articleView.html?idxno=116910
 
-### 한진트래블, 동계 시즌 맞이 괌 체류형 여행 기획전 운영
-- 매체 1곳 · 디스커버리뉴스(DISCOVERYNEWS)
-  - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 기온이 낮아지는 겨울철을 앞두고 한국에서 약 4시간대의 비행거리로 접근성이 뛰어난 온화한 휴양지 괌을 찾는 여행 수요가 이어지면서, 여행업계가 동반자 유형과 체류 목적에 맞춘 기획 상품을 선보이고 있다. 한진트래블은 동계 시즌을 맞아 오는 30일까지 괌 여
-    https://www.discoverynews.kr/news/articleView.html?idxno=1106769
+### 에어서울, 괌 리조트 숙박 50% 할인…조식·공항 셔틀 무료
+- 매체 1곳 · 뉴스투데이
+  - 뉴스투데이: [뉴스투데이=박혜성 기자] 에어서울이 괌을 방문하는 탑승객을 대상으로 리조트 숙박료 50% 할인과 무료 조식, 공항 셔틀 서비스를 제공한다. 현지 유명 리조트와 단독 제휴를 맺고 겨울 휴양객을 위한 특별 프로모션을 마련했다.
+    https://www.news2day.co.kr/article/20261112500390
 
-### 노랑풍선, 괌정부관광청과 손잡고 연말·겨울 기획전 전개
-- 매체 1곳 · 인사이트코리아
-  - 인사이트코리아: [인사이트코리아 = 이상훈 기자] 여행업계가 연말 성수기와 겨울방학을 앞두고 따뜻한 휴양지로 떠나려는 동계 여행 수요 공략에 나섰다. 노랑풍선은 괌정부관광청과 협업해 이달부터 내년 3월까지 출발하는 여행객을 대상으로 공동 프로모션을 진행한다고 13일 밝혔다.
-    https://www.insightkorea.co.kr/news/articleView.html?idxno=258845
+### 호텔서 먹고 쉬고, 마지막 날엔 늦은 퇴실…겨울 괌 여행 갈까
+- 매체 1곳 · 뉴스1
+  - 뉴스1: 
+    https://www.news1.kr/industry/hotel-tourism/6352749
 
-## 사이판
-
-### 사이판 유일 LPGA 정규 코스와 올인클루시브 휴양의 만남… 이랜드파크 겨울 골프 상품 판매
-- 매체 1곳 · TTL뉴스
-  - TTL뉴스: 겨울철 국내 골프장 휴장과 한파를 피해 따뜻한 남태평양으로 눈을 돌리는 해외 골프 여행 수요가 본격화되면서 사이판도 손님 모시기에 나섰다. 이랜드파크는 13일 사이판 내 주요 리조트 2곳을 연계해 라운딩과 휴양을 동시에 즐길 수 있는 '트로피컬 골프 기획전'을 선보였다.
-    http://www.ttlnews.com/news/articleView.html?idxno=3162082
-
-### 이랜드파크, 코럴 오션 리조트·PIC 사이판 '골프 기획전' 선봬
-- 매체 1곳 · 연합뉴스
-  - 연합뉴스: (서울=연합뉴스) 이상서 기자 = 이랜드파크가 운영하는 코럴 오션 리조트 사이판과 PIC 사이판은 바다 전망의 라운딩을 즐길 수 있는 '트로피컬. ..
-    https://www.yna.co.kr/view/AKR20261113054000030
+### "괌 갈 돈이면 일본·중국 간다"…고환율이 뒤집은 해외여행 판도
+- 매체 1곳 · 재외동포신문
+  - 재외동포신문: 
+    https://www.dongponews.net/news/articleView.html?idxno=61643
 
 ## 하와이
 
@@ -53,30 +41,30 @@
 
 ## 베트남
 
+### [사진] 2026 하노이 창의디자인 페스티벌 개막식
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 11월 13일, 호안끼엠 호수 동쪽 광장에서 하노이 창의디자인 페스티벌 2026이 개막했으며, 동시에 하노이의 문화관광 디지털 플랫폼 "HanoiGo"가 출범했습니다. 이는 창의성을 연결하고 확산하며 현대 사회에서 수도 하노이의 정체성을 더욱 확고히 하는 여정의 시작을 알렸습니다.
+    https://www.vietnam.vn/ko/anh-khai-mac-le-hoi-thiet-ke-sang-tao-ha-noi-2026
+
 ### 병원, 리조트와 제휴: 다낭, 관광과 의료 서비스를 결합한 관광객 유치 목표로
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 다낭의 경우, 관광객들이 휴식을 취하면서 건강 검진과 상담을 받을 수 있도록 병원과 호텔, 리조트를 연계하는 것이 전문가들이 제안하는 방향입니다. 이러한 프로그램은 의학적 기반을 갖추고 있어야 하며, 확대 시행 전에 효과성을 평가해야 합니다.
     https://www.vietnam.vn/ko/benh-vien-bat-tay-resort-da-nang-tinh-hut-khach-du-lich-ket-hop-cham-soc-suc-khoe
 
+### 썬 그룹이 구상한 남부 하노이 리조트 타운의 설계 단계부터 실제 모습까지 살펴보겠습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 개발사인 썬 그룹은 썬 어반 시티의 주택, 편의시설, 조경 설계 도면이 점차 생생한 현실로 구현됨에 따라 명성을 더욱 확고히 하고 있습니다.
+    https://www.vietnam.vn/ko/ngam-do-thi-nghi-duong-sun-group-nam-ha-noi-tu-ban-ve-den-thuc-te
+
+### 하노이는 인공지능을 스마트 관광 경험에 접목했습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 하노이시는 11월 13일 인공지능(AI)이 접목된 문화관광 디지털 플랫폼을 공식 출범시켰습니다. 이 플랫폼은 시민과 관광객들이 목적지를 편리하게 검색하고, 여행 일정을 계획하며, 관광 서비스를 이용할 수 있도록 지원합니다.
+    https://www.vietnam.vn/ko/ha-noi-dua-ai-vao-trai-nghiem-du-lich-thong-minh
+
 ### 나트랑 혼트레 섬에서 펼쳐지는 다채로운 크리스마스와 새해 행사를 만나보세요.
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 2026년 12월 15일부터 나트랑 메리어트 리조트 & 스파 혼 트레 아일랜드는 혼 트레 섬에서 휴식, 미식, 엔터테인먼트 및 웰빙을 만끽할 수 있는 다양한 크리스마스 및 새해 축하 행사를 제공합니다.
     https://www.vietnam.vn/ko/kham-pha-chuoi-hoat-dong-don-giang-sinh-va-nam-moi-hap-dan-tai-dao-hon-tre-nha-trang
-
-### '선택관광 걱정 없이 5성급에서' 웹투어, 다낭·나트랑·달랏 3박 5일 패키지 출시
-- 매체 1곳 · 빅데이터뉴스
-  - 빅데이터뉴스: 웹투어(대표 홍성원)가 쇼핑엔티와 함께 선택관광이 없는 베트남 3박 5일 패키지를 선보인다. 다낭과 나트랑·달랏 가운데 고를 수 있으며, 방송은 11월 15일 오후 9시 30분과 20일 오후 11시 30분이다.
-    https://www.thebigdata.co.kr/view.php?ud=2026111223033399936cf2d78c68_23
-
-### 크리스마스와 눈부신 새해맞이를 위해 다낭으로 오세요.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 관광정보센터에 따르면, 다낭은 국제 여행 잡지 론리플래닛이 발표한 크리스마스부터 새해까지 휴가를 보내기에 이상적인 여행지 10곳 중 4위에 올랐습니다. 베트남 대표 여행지인 다낭은 아름다운 해변, 여유로운 생활 방식, 그리고 독특한 문화유산을 통해 매력을 뽐내고 있습니다.
-    https://www.vietnam.vn/ko/den-da-nang-de-don-giang-sinh-va-khoanh-khac-giao-thua-ruc-ro
-
-### 달랏 호텔 화재: 갇혔던 한 사람이 발코니로 탈출해 도움을 요청했습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: TPO - 람동성 달랏의 한 호텔 5층에서 갑자기 화재가 발생해 한 명이 갇혔는데, 그는 발코니로 뛰쳐나가 도움을 요청해야 했습니다.
-    https://www.vietnam.vn/ko/chay-khach-san-o-da-lat-mot-nguoi-mac-ket-chay-ra-ban-cong-keu-cuu
 
 ## 코타키나발루
 
@@ -110,6 +98,11 @@
   - 제주의소리: 휴일을 맞는 제주도는 15일 아침까지 비가 내리는 곳이 있겠다. 예상 강수량은 10~60mm.중국 산둥반도 부근에서 동쪽으로 이동하는 기압골의 영향을 받는 제주도는 15일 아침까지 비가 내린 뒤 16일 밤부터 다시 비가 내릴 것으로 전망된다.
     https://www.jejusori.net/news/articleView.html?idxno=508311
 
+### 이란의 '제주도' 게슘, 전쟁통에 관광 초토화 [박종원의 그때 여기]
+- 매체 1곳 · 파이낸셜뉴스
+  - 파이낸셜뉴스: 지난 8월, 이란 호텔 협회의 잠쉬드 함제자데 회장은 현지 매체 사르그를 통해 이란 전역의 호텔 숙박률이 거의 0%라고 말했다.
+    https://www.fnnews.com/news/202611130844579279
+
 ### 베스트슬립, 5성급 '제주 오리엔탈호텔'에 Z시리즈 매트리스 공급
 - 매체 1곳 · 이데일리
   - 이데일리: 매트리스 전문 브랜드 베스트슬립은 5성급 제주 오리엔탈호텔에 시그니처 라인인 Z시리즈 매트리스를 공급했다고 13일 밝혔다. 베스트슬립은 1989년부터 매트리스를 개발·생산해 온 기업으로, 국내외 호텔을 대상으로 제품 공급을 확대하고 있다.
@@ -119,11 +112,6 @@
 - 매체 1곳 · TTL뉴스
   - TTL뉴스: 제주특별자치도와 제주특별자치도관광협회가 수도권 잠재 관광객을 겨냥한 현장 마케팅에 본격적으로 나섰다. 양 기관은 11월 12일부터 15일까지 나흘간 경기 고양시 일산 킨텍스에서 열리는 라이프스타일 박람회 '메가쇼&트래블쇼 2026 시즌2'에 참가해 제주관광 홍보관을 운영 중이다.
     http://www.ttlnews.com/news/articleView.html?idxno=3162208
-
-### 제주 커피파인더, ‘아시아·태평양 100대 커피숍’ 선정
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 창업 11년째인 제주도 로스터리 카페 ‘커피파인더(Coffee Finder, 대표 지준호)’가 아시아·태평양을 대표하는 100대 커피숍에 당당히 이름을 올렸다. 제주에서는 유일하게 선정되면서 지역 커피업계의 경쟁력을 입증했다.
-    https://www.jejusori.net/news/articleView.html?idxno=508320
 
 ## 일본
 
@@ -175,19 +163,17 @@
   - VOCO News 全球即時新聞: 태국항공이 서드파티 예약 시스템 아마데us를 통한 무단 접근으로 6만529건의 여객 정보가 유출됐다고 밝혔습니다. 여권번호와 연락처가 포함된 기록도 있으며, 캐세이퍼시픽·일본항공·대한항공도 피해가 확인됐습니다.
     https://news.vocofm.com/ko/%E4%BA%9E%E6%B4%B2%E6%96%B0%E8%81%9E/209285/
 
+### 태국 전역 15일부터 환상적인 ‘빛의 축제’…“강물엔 소원의 꽃배, 밤하늘엔 빛나는 등불!”
+- 매체 1곳 · 투어코리아
+  - 투어코리아: [투어코리아=조성란 기자] 밤이 되면 강물 위로 수많은 촛불이 떠오르고, 고대 사원은 황금빛 조명으로 물든다. 밤하늘을 향해 소원을 담은 등불이 날아오르는 장관도 펼쳐진다.
+    https://www.tournews21.com/news/articleView.html?idxno=148403
+
 ### Radisson introduces first Park Inn property to Bangkok
 - 매체 2곳 · Hotel Management Network · TravelWires  ← 여러 곳이 썼다
   - Hotel Management Network: Radisson Hotel Group has expanded its operational footprint in Thailand through the launch of Park Inn by Radisson Bangkok Sukhumvit 13, marking the debut of th
     https://www.hotelmanagement-network.com/news/radisson-bangkok-park-inn/
   - TravelWires: 
     https://news.google.com/rss/articles/CBMikgFBVV95cUxQNGZYQmRubWVEU3g5TUs3aU5GM1FZQUNUd0hyVEpxOFpBY05uVEgwM3NvSDJ4RHVEWDNtWGpkYmoxWlVnNm1LMzBGQVBiWUs4YzhpbXVnQVMxQUcwRldBT0drdm9WS1FXZmVXSERtU21oeFkyVWVNTDlzalhfMzZWYVF2bkJTbGdqQ2lwMkpWN3N4Zw?oc=5
-
-### Thailand Lets Tourists Turn Crypto Into Baht for Spending
-- 매체 2곳 · Bloomberg.com · KuCoin  ← 여러 곳이 썼다
-  - Bloomberg.com: 
-    https://news.google.com/rss/articles/CBMirAFBVV95cUxPQzFMbWpreWstdlRjdGo2NzFjaGwzS1NMaFN2b0N2eUV5Znk4VndfVE1ySEZjUmNQbWJWRE1aQjd5a1ZtRTRQdVlmeFd5RENQa2U4TzllaUdzV0dxRnNLam1PbE15SVNPYzBIWUVxNEJLOEZFdkJaTUNPZFowVkJEZnNRY0VLOWZ1R2twbXVEQmFVeXFiemE3ZVdPUWtFRlc3TFRFeXpRbElFUm5G?oc=5
-  - KuCoin: 
-    https://news.google.com/rss/articles/CBMikwFBVV95cUxOMWhkSFA5Zm92a215UTh4MnBxVGExZkRNWU5iVjFJSW1mUDdtbVBzQUMydEhocTlXbzQ1UUlBYzdOb0xGNUItT3dwS2x3UzI4RUVpUVozaGg4bzNiT1UzUllCTzZCMVB5c2lab1JPY3l2VFRYOHBxNEJTY1JmMTNRSUl1Z3lYZnpZcjlJdnh6V3ZObEE?oc=5
 
 ## 대만
 
@@ -626,7 +612,7 @@
     https://www.newscj.com/news/articleView.html?idxno=3448395
 
 ---
-거리 120건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 118건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -636,64 +622,64 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## CHAERYEONG(채령) “Lovesick” M/V
-- 채널 JYP Entertainment · 조회수 6,229,778회 · 4일 전
+- 채널 JYP Entertainment · 조회수 6,356,370회 · 4일 전
 - `@youtube pe-rk1ekb4w` · https://www.youtube.com/watch?v=pe-rk1ekb4w
 
 ## 천천히 강렬하게 | 공식 티저 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 1,214,313회 · 1일 전
+- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 1,296,356회 · 1일 전
 - `@youtube iEmGtIh60DE` · https://www.youtube.com/watch?v=iEmGtIh60DE
 
 ## oftheblue(오브더블루) "풍선인간" Blind Performance Video
-- 채널 JYP Entertainment · 조회수 825,166회 · 3일 전
+- 채널 JYP Entertainment · 조회수 856,729회 · 3일 전
 - `@youtube d1AknDUMAE0` · https://www.youtube.com/watch?v=d1AknDUMAE0
 
-## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
-- 채널 tvN DRAMA · 조회수 737,245회 · 6일 전
-- `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
-
 ## [11화 예고] 김유정의 정체를 눈치챈 듯한 사토 부자?!😨 그리고 걸려온 의문의 전화☎
-- 채널 tvN DRAMA · 조회수 736,724회 · 5일 전
+- 채널 tvN DRAMA · 조회수 747,289회 · 5일 전
 - `@youtube d0kBID9SX6w` · https://www.youtube.com/watch?v=d0kBID9SX6w
 
+## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
+- 채널 tvN DRAMA · 조회수 737,554회 · 6일 전
+- `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
+
 ## NCT DREAM - Boogie Woogie | 1theKILLPO | Performance
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 642,654회 · 2일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 662,332회 · 2일 전
 - `@youtube HYHu_ui8t2s` · https://www.youtube.com/watch?v=HYHu_ui8t2s
 
 ## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
-- 채널 tvN DRAMA · 조회수 567,618회 · 3일 전
+- 채널 tvN DRAMA · 조회수 575,865회 · 3일 전
 - `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
 
 ## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 455,245회 · 4일 전
+- 채널 tvN DRAMA · 조회수 456,503회 · 4일 전
 - `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 니키 (NI-KI)
-- 채널 HYBE LABELS · 조회수 404,624회 · 4일 전
+- 채널 HYBE LABELS · 조회수 410,089회 · 4일 전
 - `@youtube iB3zmnG6UMs` · https://www.youtube.com/watch?v=iB3zmnG6UMs
 
+## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 제이 (JAY)
+- 채널 HYBE LABELS · 조회수 357,676회 · 6일 전
+- `@youtube oPCjiOQcxRY` · https://www.youtube.com/watch?v=oPCjiOQcxRY
+
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 정원 (JUNGWON)
-- 채널 HYBE LABELS · 조회수 312,869회 · 5일 전
+- 채널 HYBE LABELS · 조회수 316,447회 · 5일 전
 - `@youtube cNXeIF1dGBg` · https://www.youtube.com/watch?v=cNXeIF1dGBg
 
 ## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
-- 채널 HYBE LABELS · 조회수 303,882회 · 4일 전
+- 채널 HYBE LABELS · 조회수 307,756회 · 4일 전
 - `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
 
 ## [라이어 5회 예고] ＂당신이 이겼어＂, MBC 261113 방송
-- 채널 MBCdrama · 조회수 293,492회 · 6일 전
+- 채널 MBCdrama · 조회수 295,793회 · 6일 전
 - `@youtube HgU_TkMhXjE` · https://www.youtube.com/watch?v=HgU_TkMhXjE
 
 ## ［30회 예고］나만 위해서 그랬을 것 같니? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 271,746회 · 5일 전
+- 채널 KBS Drama · 조회수 277,275회 · 5일 전
 - `@youtube RESSBa51NL8` · https://www.youtube.com/watch?v=RESSBa51NL8
 
-## 전생에서 만난 스마일 클리닉 직원들? [스마일 클리닉] 전생편
-- 채널 쿠팡플레이 Coupang Play · 조회수 145,097회 · 2일 전
-- `@youtube 0qAsMDz2CNU` · https://www.youtube.com/watch?v=0qAsMDz2CNU
-
-## 이게 다 메이크업이라고? 👀 메이크업의 새로운 역사 [저스트 메이크업] 시즌2 티저 예고편 
-- 채널 쿠팡플레이 Coupang Play · 조회수 118,930회 · 1일 전
-- `@youtube qpmnD4lWpTQ` · https://www.youtube.com/watch?v=qpmnD4lWpTQ
+## [메이킹] 티랑이들, 힘들고 지겨울 땐 뭐다?👀 방방강쥐 임시완♥설인아 X 능글냥이 김정현♥연우 보기😍 #나의유죄인간 EP.8
+- 채널 tvN DRAMA · 조회수 225,622회 · 2일 전
+- `@youtube KakUksE913M` · https://www.youtube.com/watch?v=KakUksE913M
 
 
 
@@ -900,5 +886,3 @@ Copyright © SBS & SBSi. All rights reserved.
 Copyright © SBS & SBSi. All rights reserved.
 무단 전재, 재배포 및 AI학습 이용 금지
 
----
-수집 실패: MBC 목록: timed out

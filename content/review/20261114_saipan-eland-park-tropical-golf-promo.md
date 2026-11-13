@@ -4,14 +4,16 @@ channel: travel
 region: saipan
 section: news
 kind: 보도자료
-title: "이랜드파크, 사이판 리조트 두 곳 잇는 '트로피컬 골프 기획전' 선봬"
+title: 이랜드파크, 사이판 리조트 두 곳 잇는 '트로피컬 골프 기획전' 선봬
 source_name: ''
 source_url: ''
 summary: 이랜드파크가 코럴 오션 리조트 사이판과 PIC 사이판을 묶어 라운딩과 휴양을 함께 즐기는 '트로피컬 골프 기획전'을 열었다.
 sources:
-  - http://www.ttlnews.com/news/articleView.html?idxno=3162082
-  - https://www.yna.co.kr/view/AKR20261113054000030
-status: approved
+- http://www.ttlnews.com/news/articleView.html?idxno=3162082
+- https://www.yna.co.kr/view/AKR20261113054000030
+status: published
+published_id: c-94b8bed54859032b7940ddbdd1a25d5dbdf6709c
+published_on: '2026-11-14'
 ---
 이랜드파크가 사이판의 리조트 두 곳을 묶은 겨울 골프 상품을 내놓았다. 바다를 바라보며 라운딩하고 리조트에서 쉬는 일정을 한 번에 짜는 '트로피컬 골프 기획전'이다.
 

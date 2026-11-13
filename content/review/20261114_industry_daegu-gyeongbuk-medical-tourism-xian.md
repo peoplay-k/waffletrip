@@ -4,13 +4,16 @@ channel: travel
 region: industry
 section: news
 kind: 보도자료
-title: "대구·경북, 중국 시안서 의료관광 홍보설명회…16~18일 상담회"
+title: 대구·경북, 중국 시안서 의료관광 홍보설명회…16~18일 상담회
 source_name: ''
 source_url: ''
-summary: 대구·경북 방문단이 16일부터 18일까지 중국 시안에서 의료·관광 홍보설명회와 비즈니스 상담회를 연다. 현지 의료·교육기관과의 협력도 넓힌다.
+summary: 대구·경북 방문단이 16일부터 18일까지 중국 시안에서 의료·관광 홍보설명회와 비즈니스 상담회를 연다. 현지 의료·교육기관과의 협력도
+  넓힌다.
 sources:
-  - https://www.newsis.com/view/NISX20261113_0003867415
-status: approved
+- https://www.newsis.com/view/NISX20261113_0003867415
+status: published
+published_id: c-6bfd399d99348b11fbf0c5e11b6b74da7825a77a
+published_on: '2026-11-14'
 ---
 대구·경북이 중국 시안에서 의료관광 홍보에 나선다. 방문단은 16일부터 18일까지 현지에서 의료·관광 홍보설명회와 비즈니스 상담회를 열고 중국 환자 유치 길을 넓힌다.
 
