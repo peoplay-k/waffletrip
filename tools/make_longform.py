@@ -589,14 +589,12 @@ def build_voiced(scenes: list[dict], out_dir: str,
     if not clips:
         raise RuntimeError("읽을 장면이 없다")
 
-    listing = os.path.join(work, "list.txt")
-    with open(listing, "w", encoding="utf-8") as fh:
-        for clip in clips:
-            fh.write(f"file '{os.path.abspath(clip)}'\n")
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, f"{name}.mp4")
-    subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
-                    "-i", listing, "-c", "copy", out], check=True)
+    from editing import FADE, add_bgm, join, seed_of
+    join(ff, clips, out, audio=True, crf="22")
+    total -= FADE * (len(clips) - 1)
+    add_bgm(ff, out, seed_of(name + datetime.now(KST).strftime("%Y%m%d")))
     poster = out.rsplit(".", 1)[0] + ".jpg"
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
@@ -628,15 +626,13 @@ def build_silent(scenes: list[dict], out_dir: str,
         ], check=True)
         clips.append(clip)
 
-    listing = os.path.join(work, "list.txt")
-    with open(listing, "w", encoding="utf-8") as fh:
-        for clip in clips:
-            fh.write(f"file '{os.path.abspath(clip)}'\n")
-
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, f"{name}.mp4")
-    subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
-                    "-i", listing, "-c", "copy", out], check=True)
+    from editing import FADE, join
+    join(ff, clips, out, audio=False, crf="22")
+    durations = durations[:]
+    if len(durations) > 1:
+        durations[-1] -= FADE * (len(durations) - 1)
     poster = out.rsplit(".", 1)[0] + ".jpg"
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)

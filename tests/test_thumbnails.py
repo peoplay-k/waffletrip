@@ -62,3 +62,15 @@ def test_motion_starts_at_cover_size():
     import make_shorts as ms
     f = ms.motion(0, 3.0)
     assert "zoompan" in f and "min(1+" in f and f"s={ms.W}x{ms.H}" in f
+
+
+def test_bgm_is_stereo_soft_and_varies_by_seed():
+    import bgm
+    a, b = bgm.synth(6, seed=1), bgm.synth(6, seed=2)
+    assert a.shape[1] == 2 and abs(a).max() <= 0.81
+    assert a.shape == b.shape and not (a == b).all()
+
+
+def test_seed_of_is_stable():
+    import editing
+    assert editing.seed_of("peopleroad-guam-20261115-voiced.mp4") == editing.seed_of("peopleroad-guam-20261115-voiced.mp4")

@@ -549,14 +549,12 @@ def build_voiced(city: str, out_dir: str) -> str:
         ], check=True)
         parts.append(clip)
 
-    listing = os.path.join(work, "list.txt")
-    with open(listing, "w", encoding="utf-8") as fh:
-        for clip in parts:
-            fh.write(f"file '{os.path.abspath(clip)}'\n")
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, f"{stem_of(city)}-voiced.mp4")
-    subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
-                    "-i", listing, "-c", "copy", out], check=True)
+    from editing import FADE, add_bgm, join, seed_of
+    join(ff, parts, out, audio=True)
+    total -= FADE * (len(parts) - 1)
+    add_bgm(ff, out, seed_of(os.path.basename(out)))
     poster = out.rsplit(".", 1)[0] + ".jpg"
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "0.5", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
@@ -604,7 +602,8 @@ def build_silent(city: str, out_dir: str) -> str:
     work = tempfile.mkdtemp(prefix="waffle-shorts-")
     # 여는 카드에 전체 길이를 적으므로 길이를 먼저 다 잰다.
     durations = [read_seconds(silent_text(sc)) for sc in scenes]
-    total_sec = sum(durations)
+    from editing import FADE
+    total_sec = sum(durations) - FADE * (len(durations) - 1)   # 디졸브로 겹치는 만큼 짧아진다
     parts = []
     for n, scene in enumerate(scenes):
         frame = os.path.join(work, f"f{n:02d}.png")
@@ -618,14 +617,11 @@ def build_silent(city: str, out_dir: str) -> str:
         ], check=True)
         parts.append(clip)
 
-    listing = os.path.join(work, "list.txt")
-    with open(listing, "w", encoding="utf-8") as fh:
-        for clip in parts:
-            fh.write(f"file '{clip}'\n")
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, f"{stem_of(city)}-silent.mp4")
-    subprocess.run([ff, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
-                    "-i", listing, "-c", "copy", out], check=True)
+    # 무음판에는 배경음을 깔지 않는다 — 발행 앱에서 트렌드 음원을 얹는다.
+    from editing import join
+    join(ff, parts, out, audio=False)
     poster = out.rsplit(".", 1)[0] + ".jpg"
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "0.5", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
