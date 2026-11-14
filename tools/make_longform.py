@@ -28,6 +28,7 @@ from PIL import Image, ImageDraw, ImageFont  # noqa: E402
 
 from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.models import REGION_NAMES  # noqa: E402
+from thumbnails import long_thumb, save_jpg  # noqa: E402
 from video_brief import _speakable, facts_from, load_items  # noqa: E402
 
 
@@ -296,11 +297,51 @@ def build_script(items: list[dict]) -> list[dict]:
         "narration": "피플로드는 매일 아침 여덟 시에 새 기사를 올립니다. "
                      f"{DOMAIN} 에서 보실 수 있습니다.",
     })
+    # 첫 화면을 표지로 쓴다 — 다룬 지역과 건수, 우리 사진 두 장.
+    regions = [sc["name"] for sc in scenes if sc["kind"] == "section"]
+    if scenes and scenes[0]["kind"] == "title" and regions:
+        scenes[0]["cover"] = {
+            "regions": regions,
+            "count": sum(1 for sc in scenes if sc["kind"] == "story"),
+            "photos": cover_photos([sc["region"] for sc in scenes if sc["kind"] == "section"]),
+        }
     return scenes
+
+
+def cover_photos(regions: list[str]) -> list[str]:
+    """표지에 걸 사진 두 장 — 다룬 지역 앞쪽부터 한 장씩. 자사 촬영본만."""
+    from make_shorts import region_photos
+    out: list[str] = []
+    for region in regions:
+        try:
+            pics = region_photos(region)
+        except Exception:       # 사진 목록이 없어도 표지는 글자로 선다
+            pics = []
+        if pics:
+            out.append(pics[0])
+        if len(out) == 2:
+            break
+    return out
+
+
+def cover_image(scene: dict, size=(W, H)) -> Image.Image:
+    c = scene["cover"]
+    return long_thumb(c["regions"], c["count"], c["photos"], size=size,
+                      title=scene.get("headline") or "이번 주 여행 뉴스")
+
+
+def write_thumb(scenes: list[dict], out: str) -> str | None:
+    """유튜브 표지 `<이름>-thumb.jpg` (1280×720, 2MB 이하)."""
+    if not scenes or not scenes[0].get("cover"):
+        return None
+    return save_jpg(cover_image(scenes[0], (1280, 720)),
+                    out.rsplit(".", 1)[0] + "-thumb.jpg")
 
 
 def render(scene: dict) -> Image.Image:
     kind = scene["kind"]
+    if kind == "title" and scene.get("cover"):
+        return cover_image(scene)
     if kind == "title":
         return card_title(scene["headline"], scene["sub"])
     if kind == "section":
@@ -342,6 +383,7 @@ def main() -> int:
             from narrate import reuse_today
             if reuse_today("peopleroad-week", args.out, datetime.now(KST).strftime("%Y-%m-%d")):
                 print("오늘 구운 나레이션 롱폼을 다시 쓴다(크레딧 아끼기) → peopleroad-week")
+                write_thumb(scenes, os.path.join(args.out, "peopleroad-week.mp4"))
             else:
                 out = build_voiced(scenes, args.out)
                 print(f"나레이션 영상 → {out}")
@@ -487,6 +529,7 @@ def build_voiced(scenes: list[dict], out_dir: str,
     poster = out.rsplit(".", 1)[0] + ".jpg"
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
+    write_thumb(scenes, out)
     _write_longform_meta(scenes, out, poster, total, "voiced")
     return out
 
@@ -527,6 +570,7 @@ def build_silent(scenes: list[dict], out_dir: str,
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
 
+    write_thumb(scenes, out)
     _write_longform_meta(scenes, out, poster, sum(durations), "silent")
     return out
 

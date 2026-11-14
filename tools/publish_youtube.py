@@ -249,6 +249,7 @@ def post_ent(state: dict, plans: list[dict]) -> None:
             try:
                 entry["video_id"] = upload(token, path, p)
                 print(f"  ✓ 연예 올림 https://youtu.be/{entry['video_id']}")
+                set_thumbnail(token, entry["video_id"], p)
             except QuotaExceeded:
                 print("  ⏸ 유튜브 업로드 할당량을 다 썼다(과미와 같은 할당량) — 오늘 연예 업로드는 멈춘다.")
                 return
@@ -326,6 +327,43 @@ def upload(token: str, path: str, plan: dict) -> str:
         raise UploadUnknown(str(e)) from e
 
 
+def thumb_url(video_url: str) -> str:
+    """영상 옆에 구워 둔 표지 주소. 만드는 쪽이 `<이름>-thumb.jpg` 로 둔다."""
+    return video_url.rsplit(".", 1)[0] + "-thumb.jpg"
+
+
+def set_thumbnail(token: str, video_id: str, plan: dict) -> bool:
+    """올린 영상에 우리가 만든 표지를 건다. 실패해도 업로드는 이미 끝났으니 넘어간다.
+
+    표지가 없는 영상(연예 숏폼 등)은 404 로 끝난다. 채널 전화 인증이 안 돼 있으면
+    유튜브가 403 을 준다 — 그때는 영상 첫 화면(같은 디자인)이 표지 노릇을 한다.
+    """
+    if not video_id or video_id in ("unknown", "already_on_channel"):
+        return False
+    try:
+        with urllib.request.urlopen(thumb_url(plan["url"]), timeout=60) as r:
+            img = r.read()
+    except (urllib.error.URLError, OSError):
+        return False
+    if not img or len(img) > 2_000_000:
+        return False
+    req = urllib.request.Request(
+        f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}",
+        data=img, method="POST",
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "image/jpeg"})
+    try:
+        with urllib.request.urlopen(req, timeout=120):
+            pass
+    except urllib.error.HTTPError as e:
+        print(f"    표지 못 걺({e.code}) — 영상 첫 화면이 표지가 된다")
+        return False
+    except (urllib.error.URLError, OSError) as e:
+        print(f"    표지 못 걺({type(e).__name__})")
+        return False
+    print("    ✓ 표지 걺")
+    return True
+
+
 def _fetch_json(url: str) -> dict | None:
     try:
         with urllib.request.urlopen(url, timeout=60) as r:
@@ -387,6 +425,7 @@ def post_travel(state: dict, plans: list[dict]) -> int:
             try:
                 entry["video_id"] = upload(token, path, p)
                 print(f"  ✓ 올림 https://youtu.be/{entry['video_id']}")
+                set_thumbnail(token, entry["video_id"], p)
             except QuotaExceeded:
                 print("  ⏸ 유튜브 업로드 할당량을 다 썼다 — 오늘은 더 올리지 않는다.")
                 return 0

@@ -34,6 +34,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from PIL import Image, ImageDraw, ImageFont  # noqa: E402
 
 from src.brand import DOMAIN  # noqa: E402
+from thumbnails import ent_thumb, save_jpg  # noqa: E402
 
 KST = timezone(timedelta(hours=9))
 INK, PAPER, CORAL, MUTED, LINE = (14, 14, 15), (250, 250, 249), (240, 78, 55), (110, 110, 115), (225, 225, 220)
@@ -43,7 +44,7 @@ FONTS = ("/System/Library/Fonts/AppleSDGothicNeo.ttc",
          "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc")
 # 화면 버전. 화면 디자인을 바꾸면 올린다 — 같은 날 이미 구운 목소리판을 다시 쓰는 장치가
 # 옛 화면을 계속 쓰지 않게(2026-10-21: 사진을 넣었는데 오전 판이 재사용됐다).
-RENDERER = "2026-10-21-photos-wrap"
+RENDERER = "2026-11-14-cover"
 MIN_ITEMS = 2          # 한 편짜리는 '오늘의 방송'이 아니다
 MAX_LONG = 8
 MAX_SHORTS = 2         # 숏폼은 하루 두 편까지 — 2026-10-16 크레딧이 바닥나 셋에서 줄였다
@@ -192,6 +193,8 @@ def _spoken(text: str) -> str:
 def script_long(items: list[dict], today: str) -> list[dict]:
     d = datetime.fromisoformat(today)
     scenes = [{"kind": "open", "count": len(items), "date": f"{d.month}월 {d.day}일",
+               "programs": [it["info"].get("program") or "" for it in items],
+               "photos": [p for it in items for p in photos_of(it)][:3],
                "narration": f"{d.month}월 {d.day}일, 오늘의 방송을 피플로드가 미리 봤습니다. "
                             f"모두 {len(items)}편입니다."}]
     for n, it in enumerate(items, 1):
@@ -242,6 +245,8 @@ def render_long(sc: dict) -> Image.Image:
     _brand(d, P, 64, 34)
     d.line([(P, H - 96), (W - P, H - 96)], fill=LINE, width=2)
     d.text((P, H - 78), DOMAIN, font=_font(26), fill=MUTED)
+    if sc["kind"] == "open" and "programs" in sc:
+        return open_cover(sc, (W, H))
     if sc["kind"] == "open":
         d.text((P, 360), sc["date"], font=_font(48), fill=CORAL)
         d.text((P, 430), "오늘의 방송", font=_font(150), fill=INK)
@@ -268,6 +273,19 @@ def render_long(sc: dict) -> Image.Image:
         d.text((P, 500), f"{DOMAIN}/ent/tv", font=_font(96), fill=INK)
         d.line([(P, 640), (P + 160, 640)], fill=CORAL, width=8)
     return im
+
+
+def open_cover(sc: dict, size=(1920, 1080)) -> Image.Image:
+    """여는 화면이자 유튜브 표지. 받을 수 있는 첫 출연자 사진을 쓴다(출처 캡션 함께)."""
+    photo = None
+    for p in sc.get("photos") or []:
+        im = fetch_photo(p["url"])
+        if im is not None:
+            photo = (im, p["caption"])
+            break
+    return ent_thumb(sc["date"], sc.get("programs") or [], sc["count"],
+                     photo[0] if photo else None, size=size,
+                     credit=photo[1] if photo else "")
 
 
 def render_short(sc: dict) -> Image.Image:
@@ -437,6 +455,10 @@ def main(argv=None) -> int:
         made.append({"file": os.path.basename(out), "seconds": secs,
                      "kind": "voiced" if voiced else "silent"})
         print(f"  → {out} {secs}초 ({'나레이션' if voiced else '무음'})")
+    try:
+        save_jpg(open_cover(long_sc[0], (1280, 720)), os.path.join(args.out, f"{stem}-thumb.jpg"))
+    except Exception as e:              # 표지가 없어도 영상은 나간다
+        print(f"표지 실패: {type(e).__name__}: {e}", file=sys.stderr)
     meta = {"date": today, "renderer": RENDERER, "videos": made,
             "youtube": youtube_meta(items, today),
             "articles": [it["id"] for it in items]}

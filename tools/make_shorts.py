@@ -32,6 +32,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from PIL import Image, ImageDraw, ImageOps
 
+from thumbnails import save_jpg, short_cover
+
 from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.cities import CITY_NAMES, CITY_REGION
 from src.models import REGION_NAMES
@@ -325,13 +327,17 @@ def build(city: str) -> list[dict]:
 
     for i, sc in enumerate(scenes):
         sc["photo"] = photos[i % len(photos)]
+    # 표지(첫 화면·썸네일)에 걸 한 줄 — 첫 소식의 제목. 지어내지 않는다.
+    facts_sc = [sc for sc in scenes if sc["kind"] == "fact"]
+    if facts_sc:
+        scenes[0]["hook"] = facts_sc[0]["headline"]
     return scenes
 
 
 def render(scene: dict) -> Image.Image:
     ph = scene.get("photo")
     if scene["kind"] == "open":
-        return card_open(scene["name"], scene["count"], photo=ph)
+        return short_cover(scene["name"], scene["count"], scene.get("hook", ""), ph)
     if scene["kind"] == "close":
         return card_close(ph)
     return card_fact(scene["n"], scene["total"], scene["headline"],
@@ -380,7 +386,7 @@ def silent_text(scene: dict) -> str:
 def render_silent(scene: dict, seconds: int = 40) -> Image.Image:
     ph = scene.get("photo")
     if scene["kind"] == "open":
-        return card_open(scene["name"], scene["count"], seconds, ph)
+        return short_cover(scene["name"], scene["count"], scene.get("hook", ""), ph, seconds)
     if scene["kind"] == "close":
         return card_close(ph)
     return card_caption(scene["n"], scene["total"], silent_text(scene),
@@ -504,8 +510,21 @@ def build_voiced(city: str, out_dir: str) -> str:
     poster = out.rsplit(".", 1)[0] + ".jpg"
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "0.5", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
+    write_thumb(scenes, out)
     _write_meta(city, scenes, out, poster, round(total, 1), "voiced")
     return out
+
+
+def write_thumb(scenes: list[dict], out: str, seconds: int | None = None) -> str:
+    """유튜브에 따로 거는 표지. 영상 옆에 `<이름>-thumb.jpg` 로 둔다.
+
+    발행기가 영상 주소에서 이 이름을 바로 짐작해 받아간다. 2MB 를 넘으면
+    유튜브가 받지 않으므로 save_jpg 가 화질을 낮춰 맞춘다.
+    """
+    sc = scenes[0]
+    path = out.rsplit(".", 1)[0] + "-thumb.jpg"
+    return save_jpg(short_cover(sc["name"], sc["count"], sc.get("hook", ""),
+                                sc.get("photo"), seconds), path)
 
 
 def _write_meta(city, scenes, out, poster, seconds, kind):
@@ -562,6 +581,7 @@ def build_silent(city: str, out_dir: str) -> str:
     poster = out.rsplit(".", 1)[0] + ".jpg"
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "0.5", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
+    write_thumb(scenes, out, round(total_sec))
     meta = out.rsplit(".", 1)[0] + ".json"
     with open(meta, "w", encoding="utf-8") as fh:
         meta = {"city": city, "name": place_name(city),
@@ -680,6 +700,7 @@ def main() -> int:
                            "built_at": datetime.now(KST).isoformat(timespec="seconds")},
                           fh, ensure_ascii=False, indent=2)
             print(f"오늘 구운 나레이션 영상을 다시 쓴다 → {stem}")
+            write_thumb(scenes, os.path.join(args.out, f"{stem}.mp4"))
         else:
             out = build_voiced(args.city, args.out)
             print(f"나레이션 영상 → {out}")
