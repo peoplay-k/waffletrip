@@ -213,12 +213,32 @@ def accent_for(name: str):
     return _ACCENTS[sum(map(ord, name or "")) % len(_ACCENTS)]
 
 
+def pick_variant(name: str, n: int = 3, now=None) -> int:
+    """날·곳마다 배치를 바꾼다. 매일 같은 자리에 같은 상자가 뜨면 자동 생성 티가 난다."""
+    from datetime import datetime, timedelta, timezone
+    day = (now or datetime.now(timezone(timedelta(hours=9)))).toordinal()
+    return (day + sum(map(ord, name or ""))) % n
+
+
 def short_cover(name: str, count: int, hook: str = "", photo: str | None = None,
-                seconds: int | None = None, period: str = "이번 주") -> Image.Image:
-    """사진을 크게 살리고, 지명 하나와 기사 한 토막만 자막 상자로 얹는다."""
-    img = shade(cover(photo, (SHORT_W, SHORT_H), 0.35), "bottom", start=0.55, strength=170)
+                seconds: int | None = None, period: str = "이번 주",
+                variant: int | None = None) -> Image.Image:
+    """사진을 크게 살리고, 지명 하나와 기사 한 토막만 자막 상자로 얹는다.
+
+    배치는 세 가지를 돌린다.
+      0 아래 왼쪽에 지명 상자(오른쪽으로 기울임) + 검은 자막 상자
+      1 위쪽에 지명 상자(왼쪽으로 기울임), 아래에 흰 자막 상자
+      2 상자 없는 큰 지명 글씨 + 그 위에 기울인 노랑 자막 상자
+    """
+    v = pick_variant(name) if variant is None else variant % 3
+    top_bias = (0.35, 0.6, 0.45)[v]
+    img = cover(photo, (SHORT_W, SHORT_H), top_bias)
+    img = shade(img, "bottom", start=0.55, strength=170)
+    if v == 1:
+        img = shade(img, "top", start=0.70, strength=120)
     d = ImageDraw.Draw(img)
-    soft_shadow_text(img, (SHORT_PAD, 120), "피플로드", font(38))
+    soft_shadow_text(img, (SHORT_PAD, 120) if v != 1 else (SHORT_W - SHORT_PAD - 170, 120),
+                     "피플로드", font(38))
 
     bottom = SHORT_H - SHORT_SAFE_BOTTOM - 10
     lines, hf = ([], None)
@@ -227,12 +247,30 @@ def short_cover(name: str, count: int, hook: str = "", photo: str | None = None,
         lines, hf = fit_lines(d, text, SHORT_W - SHORT_PAD * 2 - 60, 2, (68, 62, 56, 52))
     hook_h = int(hf.size * 1.32) * len(lines) if hf else 0
     name_f = font(200 if len(name) <= 3 else 160 if len(name) <= 5 else 120)
-    y_name = bottom - hook_h - (30 if lines else 0) - int(name_f.size * 1.32)
-    y_small = y_name - 70
-    soft_shadow_text(img, (SHORT_PAD + 6, y_small), f"{period} 소식 {count}가지", font(46))
-    box_lines(img, (SHORT_PAD, y_name), [name], name_f, accent_for(name), BLACK, angle=2.0, pad=(30, 6))
-    if lines:
-        box_lines(img, (SHORT_PAD, bottom - hook_h), lines, hf, BLACK, WHITE, angle=0.0, pad=(22, 10))
+    small = f"{period} 소식 {count}가지"
+    accent = accent_for(name)
+
+    if v == 0:
+        y_name = bottom - hook_h - (30 if lines else 0) - int(name_f.size * 1.32)
+        soft_shadow_text(img, (SHORT_PAD + 6, y_name - 70), small, font(46))
+        box_lines(img, (SHORT_PAD, y_name), [name], name_f, accent, BLACK, angle=2.0, pad=(30, 6))
+        if lines:
+            box_lines(img, (SHORT_PAD, bottom - hook_h), lines, hf, BLACK, WHITE, pad=(22, 10))
+    elif v == 1:
+        y_name = 300
+        box_lines(img, (SHORT_PAD, y_name), [name], name_f, accent, BLACK, angle=-2.5, pad=(30, 6))
+        soft_shadow_text(img, (SHORT_PAD + 10, y_name + int(name_f.size * 1.32) + 40), small, font(46))
+        if lines:
+            box_lines(img, (SHORT_PAD, bottom - hook_h), lines, hf, WHITE, BLACK, pad=(22, 10))
+    else:
+        y_name = bottom - int(name_f.size * 1.25)
+        if lines:
+            box_lines(img, (SHORT_PAD, y_name - hook_h - 40), lines, hf, YELLOW, BLACK,
+                      angle=1.5, pad=(22, 10))
+            soft_shadow_text(img, (SHORT_PAD + 6, y_name - hook_h - 120), small, font(46))
+        else:
+            soft_shadow_text(img, (SHORT_PAD + 6, y_name - 80), small, font(46))
+        soft_shadow_text(img, (SHORT_PAD, y_name), name, name_f, blur=12)
     return img
 
 

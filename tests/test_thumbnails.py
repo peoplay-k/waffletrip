@@ -40,3 +40,25 @@ def test_set_thumbnail_skips_unknown_uploads():
 def test_short_hook_only_trims_never_rewrites():
     assert th.short_hook("노랑풍선, 괌정부관광청과 공동 프로모션…내년 3월 출발까지") == "노랑풍선, 괌정부관광청과 공동 프로모션"
     assert th.short_hook("호이안 '등불 축제' 12월") == "호이안 등불 축제 12월"
+
+
+def test_photo_history_puts_recent_photos_last(tmp_path):
+    import photo_history as ph
+    path = str(tmp_path / "latest.json")
+    ph.write_latest({"stem": "x"}, path)
+    ph.remember(["a.jpg", "b.jpg"], path)
+    assert ph.fresh_first(["a.jpg", "b.jpg", "c.jpg"], path)[0] == "c.jpg"
+    # 다른 칸을 새로 써도 기록은 남는다
+    ph.write_latest({"stem": "y"}, path)
+    assert set(ph.history(path)) == {"a.jpg", "b.jpg"}
+
+
+def test_short_cover_has_three_layouts():
+    imgs = [th.short_cover("괌", 4, "괌 소식…덧붙임", None, variant=v) for v in range(3)]
+    assert len({im.tobytes() for im in imgs}) == 3
+
+
+def test_motion_starts_at_cover_size():
+    import make_shorts as ms
+    f = ms.motion(0, 3.0)
+    assert "zoompan" in f and "min(1+" in f and f"s={ms.W}x{ms.H}" in f

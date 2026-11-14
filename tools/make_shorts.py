@@ -32,7 +32,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from PIL import Image, ImageDraw, ImageOps
 
-from thumbnails import save_jpg, short_cover
+from photo_history import fresh_first, remember, write_latest
+from thumbnails import BLACK as T_BLACK, WHITE as T_WHITE, box_lines, fit_lines, font as bold, save_jpg, short_cover, soft_shadow_text
 
 from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.cities import CITY_NAMES, CITY_REGION
@@ -156,8 +157,28 @@ def card_open(name: str, count: int, seconds: int = 40,
     return img
 
 
+def card_boxed(n: int, total: int, text: str, outlet: str, photo: str | None,
+               sizes=(62, 58, 54, 50), max_lines: int = 6) -> Image.Image:
+    """자막 상자 사실 카드. 사람이 편집한 쇼츠처럼 줄마다 검은 띠에 굵은 흰 글씨.
+
+    얇은 글씨를 어두운 막 위에 얹으면 뉴스 자동 슬라이드처럼 보인다(2026-11-14).
+    """
+    img, d, ink, muted = _base(photo)
+    lines, f = fit_lines(d, tidy(text), W - PAD * 2 - 60, max_lines, sizes)
+    lh = int(f.size * 1.32)
+    y = H - SAFE_BOTTOM - 40 - len(lines) * lh
+    soft_shadow_text(img, (PAD + 4, y - 70), f"{n} / {total}", bold(40))
+    box_lines(img, (PAD, y), lines, f, T_BLACK, T_WHITE, pad=(20, 8))
+    if outlet:
+        ImageDraw.Draw(img).text((PAD, H - SAFE_BOTTOM + 60), f"출처 · {outlet}",
+                                 font=_f(38), fill=muted)
+    return img
+
+
 def card_fact(n: int, total: int, headline: str, outlet: str,
               photo: str | None = None) -> Image.Image:
+    if photo:
+        return card_boxed(n, total, headline, outlet, photo, (68, 62, 58, 54), 5)
     img, d, ink, muted = _base(photo)
     head = _f(76)
     lines = _wrap(d, tidy(headline), head, W - PAD * 2)[:5]
@@ -282,7 +303,8 @@ def build(city: str) -> list[dict]:
             f"  지역 {', '.join(REGION_NAMES)}")
     # 장면마다 사진 한 장. 사진이 없으면 **영상을 만들지 않는다** —
     # 글자만 넘어가는 영상은 릴스가 아니다(2026-09-15 사장님 지적).
-    photos = region_photos(region, city)
+    # 최근에 쓴 사진은 뒤로 — 같은 곳이 다시 나와도 표지·장면 사진이 달라진다.
+    photos = fresh_first(region_photos(region, city))
     if len(photos) < MIN_PHOTOS:
         raise SystemExit(
             f"{name} 은(는) 쓸 사진이 {len(photos)}장뿐이라 영상을 만들지 않는다.\n"
@@ -372,6 +394,8 @@ def read_seconds(text: str) -> float:
 def card_caption(n: int, total: int, caption: str, outlet: str,
                  photo: str | None = None) -> Image.Image:
     """무음판 사실 카드. 제목이 아니라 **읽어줄 문장**을 얹는다."""
+    if photo:
+        return card_boxed(n, total, caption, outlet, photo, (58, 54, 50, 46), 8)
     img, d, ink, muted = _base(photo)
     body = _f(64)
     lines = _wrap(d, tidy(caption), body, W - PAD * 2)[:8]
@@ -470,6 +494,26 @@ def caption_for(city: str, scenes: list[dict]) -> str:
     return "\n".join(x for x in lines if x is not None).strip()
 
 
+ZOOM = 0.07             # 한 장면에서 다가가거나 물러나는 정도(7%)
+
+
+def motion(n: int, secs: float) -> str:
+    """정지 화면에 느린 줌을 준다. 장면마다 다가가기·물러나기를 번갈아.
+
+    사진이 그대로 멈춰 넘어가면 슬라이드쇼 — 자동으로 만든 티가 가장 많이 난다
+    (2026-11-14 사장님 "사람이 만든 것처럼"). 첫 장면은 1배에서 시작해 첫 화면이
+    표지와 똑같다. 2배로 키운 뒤 줌을 걸어야 픽셀이 떨리지 않는다.
+    """
+    frames = max(1, int(round(secs * FPS)) + 2)
+    step = ZOOM / frames
+    if n % 2 == 0:
+        z = f"min(1+{step:.6f}*on,{1 + ZOOM:.3f})"
+    else:
+        z = f"max({1 + ZOOM:.3f}-{step:.6f}*on,1)"
+    return (f"scale={W * 2}:{H * 2},zoompan=z='{z}':x='iw/2-(iw/zoom/2)':"
+            f"y='ih/2-(ih/zoom/2)':d={frames}:s={W}x{H}:fps={FPS},format=yuv420p")
+
+
 def build_voiced(city: str, out_dir: str) -> str:
     """나레이션을 얹은 숏폼. 장면 길이를 **말하는 길이**에 맞춘다.
 
@@ -502,10 +546,10 @@ def build_voiced(city: str, out_dir: str) -> str:
         render(scene).save(frame)
         clip = os.path.join(work, f"c{n:02d}.mp4")
         subprocess.run([
-            ff, "-y", "-loglevel", "error", "-loop", "1", "-i", frame, "-i", mp3,
+            ff, "-y", "-loglevel", "error", "-i", frame, "-i", mp3,
             "-filter_complex",
             f"[1:a]apad=pad_dur={TAIL},aresample=44100[a];"
-            f"[0:v]scale={W}:{H},format=yuv420p,fps={FPS}[v]",
+            f"[0:v]{motion(n, secs)}[v]",
             "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium",
             "-crf", "23", "-c:a", "aac", "-b:a", "128k", "-t", f"{secs:.2f}", clip,
         ], check=True)
@@ -534,6 +578,7 @@ def write_thumb(scenes: list[dict], out: str, seconds: int | None = None) -> str
     유튜브가 받지 않으므로 save_jpg 가 화질을 낮춰 맞춘다.
     """
     sc = scenes[0]
+    remember([x.get("photo") for x in scenes])
     path = out.rsplit(".", 1)[0] + "-thumb.jpg"
     return save_jpg(short_cover(sc["name"], sc["count"], sc.get("hook", ""),
                                 sc.get("photo"), seconds, period=sc.get("period", "이번 주")), path)
@@ -547,14 +592,11 @@ def _write_meta(city, scenes, out, poster, seconds, kind):
             "poster": "/video/" + os.path.basename(poster)}
     with open(out.rsplit(".", 1)[0] + ".json", "w", encoding="utf-8") as fh:
         json.dump(meta, fh, ensure_ascii=False, indent=2)
-    latest = os.path.join("data", "shorts_latest.json")
     os.makedirs("data", exist_ok=True)
     stem = os.path.basename(out).rsplit(".", 1)[0]
-    with open(latest, "w", encoding="utf-8") as fh:
-        json.dump({"stem": stem, "city": city, "name": place_name(city),
+    write_latest({"stem": stem, "city": city, "name": place_name(city),
                    "caption": meta["caption"], "seconds": seconds, "kind": kind,
-                   "built_at": datetime.now(KST).isoformat(timespec="seconds")},
-                  fh, ensure_ascii=False, indent=2)
+                   "built_at": datetime.now(KST).isoformat(timespec="seconds")})
 
 
 def build_silent(city: str, out_dir: str) -> str:
@@ -576,8 +618,8 @@ def build_silent(city: str, out_dir: str) -> str:
         seconds = durations[n]
         clip = os.path.join(work, f"c{n:02d}.mp4")
         subprocess.run([
-            ff, "-y", "-loglevel", "error", "-loop", "1", "-i", frame,
-            "-t", str(seconds), "-vf", f"fps={FPS},format=yuv420p",
+            ff, "-y", "-loglevel", "error", "-i", frame,
+            "-t", str(seconds), "-vf", motion(n, seconds),
             "-c:v", "libx264", "-preset", "medium", "-crf", "23", clip,
         ], check=True)
         parts.append(clip)
@@ -607,14 +649,11 @@ def build_silent(city: str, out_dir: str) -> str:
     # 발행 잡은 저장소를 새로 받아온다. `static/video` 의 숏폼 메타는
     # gitignore 라 거기엔 없다. 그래서 **글자만 담은 작은 파일**을 따로
     # 남겨 커밋한다 — 이게 없으면 발행기가 오늘 뭘 올릴지 알 수 없다.
-    latest = os.path.join("data", "shorts_latest.json")
     os.makedirs("data", exist_ok=True)
-    with open(latest, "w", encoding="utf-8") as fh:
-        json.dump({"stem": f"{stem_of(city)}-silent", "city": city,
+    write_latest({"stem": f"{stem_of(city)}-silent", "city": city,
                    "name": place_name(city), "caption": meta["caption"],
                    "seconds": meta["seconds"],
-                   "built_at": datetime.now(KST).isoformat(timespec="seconds")},
-                  fh, ensure_ascii=False, indent=2)
+                   "built_at": datetime.now(KST).isoformat(timespec="seconds")})
     return out
 
 
@@ -670,11 +709,9 @@ def use_ent_short(out_dir: str) -> bool:
                                       (yt.get("description") or "").split("\n\n기사 전문")[0],
                                       "", f"전문은 {DOMAIN}/ent/tv", "", tags + " #방송 #예능 #드라마"] if x is not None)
     os.makedirs("data", exist_ok=True)
-    with open(os.path.join("data", "shorts_latest.json"), "w", encoding="utf-8") as fh:
-        json.dump({"stem": f"peopleroad-tv-{day}-1", "city": "tv", "name": "오늘의 방송",
+    write_latest({"stem": f"peopleroad-tv-{day}-1", "city": "tv", "name": "오늘의 방송",
                    "caption": caption.strip(), "seconds": short.get("seconds"), "kind": "voiced",
-                   "built_at": datetime.now(KST).isoformat(timespec="seconds")},
-                  fh, ensure_ascii=False, indent=2)
+                   "built_at": datetime.now(KST).isoformat(timespec="seconds")})
     print(f"오늘은 연예 숏폼을 릴스로 낸다 → peopleroad-tv-{day}-1")
     return True
 
@@ -741,12 +778,10 @@ def main() -> int:
             with open(os.path.join(args.out, f"{stem}.json"), encoding="utf-8") as fh:
                 meta = json.load(fh)
             os.makedirs("data", exist_ok=True)
-            with open(os.path.join("data", "shorts_latest.json"), "w", encoding="utf-8") as fh:
-                json.dump({"stem": stem, "city": args.city, "name": place_name(args.city),
+            write_latest({"stem": stem, "city": args.city, "name": place_name(args.city),
                            "caption": meta.get("caption", ""), "seconds": meta.get("seconds"),
                            "kind": "voiced",
-                           "built_at": datetime.now(KST).isoformat(timespec="seconds")},
-                          fh, ensure_ascii=False, indent=2)
+                           "built_at": datetime.now(KST).isoformat(timespec="seconds")})
             print(f"오늘 구운 나레이션 영상을 다시 쓴다 → {stem}")
             write_thumb(scenes, os.path.join(args.out, f"{stem}.mp4"))
         else:

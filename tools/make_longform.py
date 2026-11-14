@@ -311,10 +311,11 @@ def build_script(items: list[dict]) -> list[dict]:
 def cover_photos(regions: list[str]) -> list[str]:
     """표지에 걸 사진 두 장 — 다룬 지역 앞쪽부터 한 장씩. 자사 촬영본만."""
     from make_shorts import region_photos
+    from photo_history import fresh_first
     out: list[str] = []
     for region in regions:
         try:
-            pics = region_photos(region)
+            pics = fresh_first(region_photos(region))
         except Exception:       # 사진 목록이 없어도 표지는 글자로 선다
             pics = []
         if pics:
@@ -334,6 +335,8 @@ def write_thumb(scenes: list[dict], out: str) -> str | None:
     """유튜브 표지 `<이름>-thumb.jpg` (1280×720, 2MB 이하)."""
     if not scenes or not scenes[0].get("cover"):
         return None
+    from photo_history import remember
+    remember(scenes[0]["cover"]["photos"])
     return save_jpg(cover_image(scenes[0], (1280, 720)),
                     out.rsplit(".", 1)[0] + "-thumb.jpg")
 
