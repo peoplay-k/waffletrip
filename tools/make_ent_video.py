@@ -34,6 +34,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from PIL import Image, ImageDraw, ImageFont  # noqa: E402
 
 from src.brand import DOMAIN  # noqa: E402
+from motion import motion_filter  # noqa: E402
 from thumbnails import ent_thumb, save_jpg  # noqa: E402
 
 KST = timezone(timedelta(hours=9))
@@ -44,7 +45,7 @@ FONTS = ("/System/Library/Fonts/AppleSDGothicNeo.ttc",
          "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc")
 # 화면 버전. 화면 디자인을 바꾸면 올린다 — 같은 날 이미 구운 목소리판을 다시 쓰는 장치가
 # 옛 화면을 계속 쓰지 않게(2026-10-21: 사진을 넣었는데 오전 판이 재사용됐다).
-RENDERER = "2026-11-14-cover"
+RENDERER = "2026-11-14-motion"
 MIN_ITEMS = 2          # 한 편짜리는 '오늘의 방송'이 아니다
 MAX_LONG = 8
 MAX_SHORTS = 2         # 숏폼은 하루 두 편까지 — 2026-10-16 크레딧이 바닥나 셋에서 줄였다
@@ -344,20 +345,21 @@ def bake(scenes: list[dict], render, size: tuple[int, int], out: str, voiced: bo
         frame = os.path.join(work, f"f{n:02d}.png")
         render(sc).save(frame)
         clip = os.path.join(work, f"c{n:02d}.mp4")
-        vf = f"scale={size[0]}:{size[1]},format=yuv420p,fps=25"
         if voiced:
             from narrate import ENT_VOICE_ID, speak
             mp3 = os.path.join(work, f"a{n:02d}.mp3")
             speak(sc["narration"], mp3, voice_id=ENT_VOICE_ID)
             secs = _secs_of(ff, mp3) + TAIL
-            subprocess.run([ff, "-y", "-loglevel", "error", "-loop", "1", "-i", frame, "-i", mp3,
+            vf = motion_filter(n, secs, size[0], size[1], 25, 0.05, 1.5)
+            subprocess.run([ff, "-y", "-loglevel", "error", "-i", frame, "-i", mp3,
                             "-filter_complex", f"[1:a]apad=pad_dur={TAIL},aresample=44100[a];[0:v]{vf}[v]",
                             "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium",
                             "-crf", "22", "-c:a", "aac", "-b:a", "128k", "-t", f"{secs:.2f}", clip],
                            check=True)
         else:
             secs = max(READ_FLOOR, len(sc["narration"]) / READ_CPS + READ_LEAD)
-            subprocess.run([ff, "-y", "-loglevel", "error", "-loop", "1", "-i", frame,
+            vf = motion_filter(n, secs, size[0], size[1], 25, 0.05, 1.5)
+            subprocess.run([ff, "-y", "-loglevel", "error", "-i", frame,
                             "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
                             "-vf", vf, "-c:v", "libx264", "-preset", "medium", "-crf", "22",
                             "-c:a", "aac", "-shortest", "-t", f"{secs:.2f}", clip], check=True)

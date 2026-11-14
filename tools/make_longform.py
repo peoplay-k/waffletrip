@@ -28,7 +28,10 @@ from PIL import Image, ImageDraw, ImageFont  # noqa: E402
 
 from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.models import REGION_NAMES  # noqa: E402
+from motion import motion_filter  # noqa: E402
 from thumbnails import long_thumb, save_jpg  # noqa: E402
+
+LF_ZOOM = 0.04          # 가로 화면은 글이 넓게 깔려 줌을 작게 — 가장자리 글자가 잘리지 않게
 from video_brief import _speakable, facts_from, load_items  # noqa: E402
 
 
@@ -510,10 +513,10 @@ def build_voiced(scenes: list[dict], out_dir: str,
         render(scene).save(frame)
         clip = os.path.join(work, f"c{n:02d}.mp4")
         subprocess.run([
-            ff, "-y", "-loglevel", "error", "-loop", "1", "-i", frame, "-i", mp3,
+            ff, "-y", "-loglevel", "error", "-i", frame, "-i", mp3,
             "-filter_complex",
             f"[1:a]apad=pad_dur={TAIL},aresample=44100[a];"
-            f"[0:v]scale={W}:{H},format=yuv420p,fps=25[v]",
+            f"[0:v]{motion_filter(n, secs, W, H, 25, LF_ZOOM, 1.5)}[v]",
             "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium",
             "-crf", "22", "-c:a", "aac", "-b:a", "128k", "-t", f"{secs:.2f}", clip,
         ], check=True)
@@ -553,9 +556,9 @@ def build_silent(scenes: list[dict], out_dir: str,
         render(scene).save(frame)
         clip = os.path.join(work, f"c{n:02d}.mp4")
         subprocess.run([
-            ff, "-y", "-loglevel", "error", "-loop", "1", "-i", frame,
+            ff, "-y", "-loglevel", "error", "-i", frame,
             "-t", f"{durations[n]:.2f}",
-            "-vf", f"scale={W}:{H},format=yuv420p,fps=25",
+            "-vf", motion_filter(n, durations[n], W, H, 25, LF_ZOOM, 1.5),
             "-c:v", "libx264", "-preset", "medium", "-crf", "22", clip,
         ], check=True)
         clips.append(clip)

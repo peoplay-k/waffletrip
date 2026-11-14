@@ -504,14 +504,8 @@ def motion(n: int, secs: float) -> str:
     (2026-11-14 사장님 "사람이 만든 것처럼"). 첫 장면은 1배에서 시작해 첫 화면이
     표지와 똑같다. 2배로 키운 뒤 줌을 걸어야 픽셀이 떨리지 않는다.
     """
-    frames = max(1, int(round(secs * FPS)) + 2)
-    step = ZOOM / frames
-    if n % 2 == 0:
-        z = f"min(1+{step:.6f}*on,{1 + ZOOM:.3f})"
-    else:
-        z = f"max({1 + ZOOM:.3f}-{step:.6f}*on,1)"
-    return (f"scale={W * 2}:{H * 2},zoompan=z='{z}':x='iw/2-(iw/zoom/2)':"
-            f"y='ih/2-(ih/zoom/2)':d={frames}:s={W}x{H}:fps={FPS},format=yuv420p")
+    from motion import motion_filter
+    return motion_filter(n, secs, W, H, FPS, ZOOM)
 
 
 def build_voiced(city: str, out_dir: str) -> str:
