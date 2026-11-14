@@ -35,3 +35,8 @@ def test_thumb_url_sits_next_to_video():
 def test_set_thumbnail_skips_unknown_uploads():
     assert yt.set_thumbnail("t", "unknown", {"url": "https://x/v.mp4"}) is False
     assert yt.set_thumbnail("t", "", {"url": "https://x/v.mp4"}) is False
+
+
+def test_short_hook_only_trims_never_rewrites():
+    assert th.short_hook("노랑풍선, 괌정부관광청과 공동 프로모션…내년 3월 출발까지") == "노랑풍선, 괌정부관광청과 공동 프로모션"
+    assert th.short_hook("호이안 '등불 축제' 12월") == "호이안 등불 축제 12월"

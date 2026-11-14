@@ -448,7 +448,7 @@ def outlets_of(scenes: list[dict]) -> list[str]:
 # 해시태그는 **큰 것부터** 단다. 팔로워가 적은 계정은 도달이 거의 전부
 # 탐색 탭에서 오는데, 니치 태그만 달면 노출 면적 자체가 사라진다.
 # (실측: 니치만 달았을 때 도달 197 → 83)
-BIG_TAGS = ["#여행", "#해외여행", "#여행스타그램", "#여행에미치다", "#travel"]
+BIG_TAGS = ["#해외여행"]   # 해시태그를 잔뜩 붙이면 자동 계정처럼 보인다
 
 
 def caption_for(city: str, scenes: list[dict]) -> str:

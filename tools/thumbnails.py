@@ -19,6 +19,7 @@
 from __future__ import annotations
 
 import os
+import re
 
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 
@@ -158,139 +159,144 @@ SHORT_SAFE_BOTTOM = 420      # 세 플랫폼 모두 아래를 UI 로 덮는다
 SHORT_PAD = 72
 
 
+def short_hook(headline: str) -> str:
+    """기사 제목에서 표지에 걸 앞 토막만. '…' 뒤 덧붙임과 따옴표를 뗀다.
+
+    뉴스 제목을 통째로 얹으면 기계가 붙인 자막처럼 보인다. 사람이 만든 표지는
+    한 토막만 크게 쓴다. 말은 바꾸지 않고 자르기만 한다(지어내지 않는다).
+    """
+    t = re.split(r"\s*(?:…|\.\.\.)\s*", (headline or "").strip())[0]
+    t = re.sub(r"[‘’'\"“”]", "", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def box_lines(img: Image.Image, xy, lines: list[str], f, bg, fg, angle: float = 0.0,
+              pad=(26, 12)) -> int:
+    """자막 상자처럼 줄마다 색 띠를 깔고 글씨를 얹는다. 살짝 기울여 손으로 붙인 느낌.
+
+    줄 길이대로 띠 길이가 달라진다 — 틀에서 찍은 같은 크기 딱지와 다르다.
+    그린 높이를 돌려준다.
+    """
+    d0 = ImageDraw.Draw(img)
+    lh = int(f.size * 1.32)
+    widths = [int(d0.textlength(t, font=f)) + pad[0] * 2 for t in lines]
+    lw, lh_all = max(widths) + 40, lh * len(lines) + 40
+    layer = Image.new("RGBA", (lw, lh_all), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    y = 20
+    for t, wd in zip(lines, widths):
+        d.rectangle((20, y, 20 + wd, y + lh - 6), fill=bg + (255,))
+        d.text((20 + pad[0], y + (lh - 6 - f.size) / 2 - f.size * 0.12), t, font=f, fill=fg)
+        y += lh
+    if angle:
+        layer = layer.rotate(angle, resample=Image.BICUBIC, expand=True)
+    img.paste(layer, (int(xy[0]) - 20, int(xy[1]) - 20), layer)
+    return lh * len(lines)
+
+
+def soft_shadow_text(img: Image.Image, xy, text: str, f, fill=WHITE, blur: int = 6):
+    """테두리 대신 부드러운 그림자. 굵은 검은 테두리는 템플릿 티가 난다."""
+    w, h = img.size
+    sh = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(sh).text((xy[0] + 3, xy[1] + 5), text, font=f, fill=255,
+                                stroke_width=max(2, f.size // 18), stroke_fill=255)
+    sh = sh.filter(ImageFilter.GaussianBlur(blur))
+    img.paste(Image.new("RGB", (w, h), BLACK), (0, 0), sh)
+    ImageDraw.Draw(img).text(xy, text, font=f, fill=fill)
+
+
+# 곳마다 띠 색을 달리한다. 날마다 같은 노랑이면 자동으로 찍어낸 티가 난다.
+_ACCENTS = [(255, 214, 0), (255, 255, 255), (64, 224, 208), (255, 138, 101), (190, 242, 100)]
+
+
+def accent_for(name: str):
+    return _ACCENTS[sum(map(ord, name or "")) % len(_ACCENTS)]
+
+
 def short_cover(name: str, count: int, hook: str = "", photo: str | None = None,
                 seconds: int | None = None, period: str = "이번 주") -> Image.Image:
-    """'괌 이번 주 소식 4건' + 대표 기사 제목. 사진은 위쪽을 밝게 살린다."""
-    img = shade(cover(photo, (SHORT_W, SHORT_H), 0.35), "bottom", start=0.30, strength=235)
+    """사진을 크게 살리고, 지명 하나와 기사 한 토막만 자막 상자로 얹는다."""
+    img = shade(cover(photo, (SHORT_W, SHORT_H), 0.35), "bottom", start=0.55, strength=170)
     d = ImageDraw.Draw(img)
-    brand(d, (SHORT_PAD, 110), 40)
+    soft_shadow_text(img, (SHORT_PAD, 120), "피플로드", font(38))
 
-    # 아래에서부터 쌓는다 — 안전선 위에 글자 덩어리의 바닥을 맞춘다.
-    bottom = SHORT_H - SHORT_SAFE_BOTTOM - 20
-    hook_lines, hf = ([], None)
-    if hook:
-        hook_lines, hf = fit_lines(d, hook, SHORT_W - SHORT_PAD * 2, 3, (72, 66, 60, 56))
-    hook_h = int(len(hook_lines) * (hf.size * 1.22)) if hf else 0
-
-    name_f = font(210 if len(name) <= 3 else 170 if len(name) <= 5 else 130)
-    sub_f = font(64)
-    y = bottom - hook_h - (40 if hook_lines else 0)
-    # '이번 주 소식 N건' 딱지
-    y_chip = y - int(name_f.size * 1.32) - 80
-    w = chip(d, (SHORT_PAD, y_chip), f"{period} 여행 소식", font(46))
-    chip(d, (SHORT_PAD + w + 16, y_chip), f"{count}건", font(46), bg=YELLOW, fg=BLACK)
-    # 지명 — 가장 크게, 노랑
-    stroke_text(d, (SHORT_PAD, y_chip + 80), name, name_f, fill=YELLOW, stroke=10)
-    y = y_chip + 80 + int(name_f.size * 1.32)
-    if hook_lines:
-        headline_block(d, SHORT_PAD, y, hook_lines, hf, line_gap=1.22)
-    if seconds:
-        d.text((SHORT_PAD, SHORT_H - SHORT_SAFE_BOTTOM + 70), f"{seconds}초 정리 · waffletrip.com",
-               font=font(36), fill=(225, 228, 232))
-    del sub_f
+    bottom = SHORT_H - SHORT_SAFE_BOTTOM - 10
+    lines, hf = ([], None)
+    text = short_hook(hook)
+    if text:
+        lines, hf = fit_lines(d, text, SHORT_W - SHORT_PAD * 2 - 60, 2, (68, 62, 56, 52))
+    hook_h = int(hf.size * 1.32) * len(lines) if hf else 0
+    name_f = font(200 if len(name) <= 3 else 160 if len(name) <= 5 else 120)
+    y_name = bottom - hook_h - (30 if lines else 0) - int(name_f.size * 1.32)
+    y_small = y_name - 70
+    soft_shadow_text(img, (SHORT_PAD + 6, y_small), f"{period} 소식 {count}가지", font(46))
+    box_lines(img, (SHORT_PAD, y_name), [name], name_f, accent_for(name), BLACK, angle=2.0, pad=(30, 6))
+    if lines:
+        box_lines(img, (SHORT_PAD, bottom - hook_h), lines, hf, BLACK, WHITE, angle=0.0, pad=(22, 10))
     return img
 
 
 # ── 여행 주간 롱폼 썸네일 (가로) ─────────────────────────────────────
 def long_thumb(regions: list[str], count: int, photos: list[str], size=(1280, 720),
                title: str = "이번 주 여행 뉴스") -> Image.Image:
-    """왼쪽엔 큰 제목, 오른쪽엔 사진 두 장. 지역 이름을 딱지로 줄 세운다."""
+    """사진 한 장을 꽉 채우고, 제목을 자막 상자로. 다룬 곳은 한 줄 글씨로."""
     w, h = size
     s = w / 1280
-    img = Image.new("RGB", size, NAVY)
-    # 오른쪽 사진 두 장(위·아래)
-    px = int(w * 0.50)
-    pics = [p for p in photos if p and os.path.exists(p)][:2]
-    if pics:
-        if len(pics) == 1:
-            img.paste(cover(pics[0], (w - px, h)), (px, 0))
-        else:
-            img.paste(cover(pics[0], (w - px, h // 2)), (px, 0))
-            img.paste(cover(pics[1], (w - px, h - h // 2)), (px, h // 2))
-    img = shade(img, "left", start=0.38, strength=255)
-    d = ImageDraw.Draw(img)
-    pad = int(56 * s)
-    brand(d, (pad, int(40 * s)), int(30 * s))
+    pics = [p for p in photos if p and os.path.exists(p)]
+    img = shade(cover(pics[0] if pics else None, size, 0.45), "bottom", start=0.40, strength=200)
+    soft_shadow_text(img, (int(48 * s), int(36 * s)), "피플로드", font(int(30 * s)))
     words = title.split()
-    big = font(int(128 * s))
-    # '이번 주' / '여행 뉴스' 두 줄. 둘째 줄은 노랑.
-    if len(words) >= 3:
-        l1, l2 = " ".join(words[:2]), " ".join(words[2:])
-    else:
-        l1, l2 = title, ""
-    y = int(170 * s)
-    stroke_text(d, (pad, y), l1, big, stroke=int(8 * s))
+    l1, l2 = (" ".join(words[:2]), " ".join(words[2:])) if len(words) >= 3 else (title, "")
+    big = font(int(104 * s))
+    x = int(56 * s)
+    y = int(330 * s)
+    box_lines(img, (x, y), [l1], big, WHITE, BLACK, angle=-1.5, pad=(int(24 * s), int(4 * s)))
     if l2:
-        stroke_text(d, (pad, y + int(150 * s)), l2, big, fill=YELLOW, stroke=int(8 * s))
-    y += int(330 * s)
-    cf = font(int(34 * s))
-    x = pad
-    for r in regions[:5]:
-        cw = chip(d, (x, y), r, cf, pad=(int(18 * s), int(8 * s)))
-        x += cw + int(12 * s)
-        if x > px - int(80 * s):
-            break
-    d.text((pad, h - int(70 * s)), f"핵심 {count}건 · waffletrip.com", font=font(int(30 * s)),
-           fill=(220, 224, 230))
+        box_lines(img, (x + int(30 * s), y + int(150 * s)), [l2], big, YELLOW, BLACK,
+                  angle=-1.5, pad=(int(24 * s), int(4 * s)))
+    names = " · ".join(regions[:6])
+    soft_shadow_text(img, (x, h - int(84 * s)), names, font(int(38 * s)))
     return img
 
 
 # ── 연예 '오늘의 방송' 썸네일 (가로) ────────────────────────────────────
 def ent_thumb(date_label: str, programs: list[str], count: int, photo_img: Image.Image | None = None,
               size=(1280, 720), credit: str = "") -> Image.Image:
-    """'11월 14일 오늘의 방송' + 프로그램 이름 딱지. 출연자 사진(자유 이용)이 있으면 오른쪽에."""
+    """'오늘의 방송' 자막 상자 + 오늘 나가는 프로그램 이름. 출연자 사진(자유 이용)이 있으면 크게."""
     w, h = size
     s = w / 1280
-    img = Image.new("RGB", size, (26, 16, 40))
+    progs = [p for p in programs if p]
     if photo_img is not None:
-        pw = int(w * 0.42)
-        ph = ImageOps.fit(photo_img.convert("RGB"), (pw, h), Image.LANCZOS, centering=(0.5, 0.3))
-        img.paste(ph, (w - pw, 0))
-        img = shade(img, "left", start=0.45, strength=255)
+        img = ImageOps.fit(photo_img.convert("RGB"), size, Image.LANCZOS, centering=(0.6, 0.3))
+        img = shade(img, "left", start=0.30, strength=215)
+    else:
+        img = Image.new("RGB", size, (26, 16, 40))
     d = ImageDraw.Draw(img)
     pad = int(56 * s)
-    if photo_img is None:
-        # 사진이 없으면 오른쪽에 오늘 방송 목록을 번호와 함께 크게 세운다.
-        bx = int(w * 0.60)
-        d.rectangle((bx, 0, w, h), fill=CORAL)
-        lf = font(int(46 * s))
-        y0 = int(110 * s)
-        for i, p in enumerate([x for x in programs if x][:5], 1):
-            line = p
-            while d.textlength(line, font=lf) > w - bx - int(150 * s) and len(line) > 2:
-                line = line[:-1]
-            if line != p:
-                line = line.rstrip() + "…"
-            d.text((bx + int(44 * s), y0), f"{i:02d}", font=font(int(34 * s)), fill=(255, 225, 215))
-            d.text((bx + int(110 * s), y0 - int(8 * s)), line, font=lf, fill=WHITE)
-            y0 += int(104 * s)
-    brand(d, (pad, int(40 * s)), int(30 * s))
-    chip(d, (pad, int(150 * s)), date_label, font(int(40 * s)), bg=YELLOW, fg=BLACK)
-    stroke_text(d, (pad, int(230 * s)), "오늘의", font(int(140 * s)), stroke=int(8 * s))
-    stroke_text(d, (pad, int(390 * s)), "방송", font(int(140 * s)), fill=YELLOW, stroke=int(8 * s))
-    cf = font(int(32 * s))
-    x, y = pad, int(585 * s)
-    limit = w - int(w * 0.42) - pad if photo_img is not None else int(w * 0.60) - pad
-    for p in (programs if photo_img is not None else []):
-        if not p:
-            continue
-        tw = d.textlength(p, font=cf) + 36 * s
-        if x + tw > limit:
-            break
-        x += chip(d, (x, y), p, cf, pad=(int(18 * s), int(8 * s))) + int(12 * s)
+    soft_shadow_text(img, (pad, int(36 * s)), "피플로드 연예", font(int(30 * s)))
+    soft_shadow_text(img, (pad + int(6 * s), int(170 * s)), date_label, font(int(44 * s)))
+    big = font(int(118 * s))
+    box_lines(img, (pad, int(250 * s)), ["오늘의 방송"], big, YELLOW, BLACK, angle=-1.5,
+              pad=(int(24 * s), int(4 * s)))
+    lf = font(int(40 * s))
+    y = int(450 * s)
+    limit = int(w * 0.55) if photo_img is not None else int(w * 0.92)
+    for p in progs[:4]:
+        line = p
+        while d.textlength(line, font=lf) > limit - pad and len(line) > 2:
+            line = line[:-1]
+        soft_shadow_text(img, (pad, y), line if line == p else line.rstrip() + "…", lf)
+        y += int(58 * s)
     if photo_img is not None and credit:
         # 자유 이용 사진은 작성자·라이선스를 사진 곁에 밝혀야 쓸 수 있다(CC BY).
         cf2 = font(max(12, int(16 * s)))
-        pw = int(w * 0.42)
         cap = credit
-        while d.textlength(cap, font=cf2) > pw - int(24 * s) and len(cap) > 8:
+        while d.textlength(cap, font=cf2) > w * 0.45 and len(cap) > 8:
             cap = cap[:-2]
         if cap != credit:
             cap += "…"
-        d.text((w - pw + int(12 * s), int(14 * s)), cap, font=cf2, fill=(235, 235, 240),
-               stroke_width=2, stroke_fill=(0, 0, 0))
-    d.text((w - pad - d.textlength(f"{count}편 미리보기", font=font(int(30 * s))), h - int(64 * s)),
-           f"{count}편 미리보기", font=font(int(30 * s)), fill=(225, 225, 235))
+        d.text((w - int(12 * s) - d.textlength(cap, font=cf2), h - int(30 * s)), cap, font=cf2,
+               fill=(235, 235, 240), stroke_width=2, stroke_fill=(0, 0, 0))
     return img
 
 
