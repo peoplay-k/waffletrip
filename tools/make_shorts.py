@@ -549,12 +549,16 @@ def make_clip(ff: str, scene: dict, n: int, secs: float, work: str, place: str, 
     from captions import load_align, overlay_filter, scene_captions
     frame = os.path.join(work, f"f{n:02d}.png")
     if scene["kind"] == "open":
-        render(scene).save(frame)
-        caps = []
-    else:
-        card_scene(scene, place, n_facts).save(frame)
-        caps = scene_captions(text or scene["narration"], speech or secs, secs, work, f"{n:02d}",
-                              load_align(mp3) if mp3 else None)
+        # 첫 3초 — 표지가 타이포로 차례차례 나타난다
+        from captions import opening_clip
+        return opening_clip(
+            ff, short_cover,
+            (scene["name"], scene["count"], scene.get("hook", ""), scene.get("photo"), scene.get("seconds")),
+            {"period": scene.get("period", "이번 주")}, secs, work, f"{n:02d}",
+            os.path.join(work, f"c{n:02d}.mp4"), FPS, mp3=mp3, tail=tail)
+    card_scene(scene, place, n_facts).save(frame)
+    caps = scene_captions(text or scene["narration"], speech or secs, secs, work, f"{n:02d}",
+                          load_align(mp3) if mp3 else None)
     clip = os.path.join(work, f"c{n:02d}.mp4")
     args = [ff, "-y", "-loglevel", "error", "-i", frame]
     for path, _a, _b in caps:
@@ -614,7 +618,7 @@ def build_voiced(city: str, out_dir: str) -> str:
     total -= FADE * (len(parts) - 1)
     add_bgm(ff, out, seed_of(os.path.basename(out)), kind="travel")
     poster = out.rsplit(".", 1)[0] + ".jpg"
-    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "0.5", "-i", out,
+    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "2.9", "-i", out,  # 오프닝 애니메이션이 끝난 뒤
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
     write_thumb(scenes, out)
     _write_meta(city, scenes, out, poster, round(total, 1), "voiced")
@@ -677,7 +681,7 @@ def build_silent(city: str, out_dir: str) -> str:
     from editing import join
     join(ff, parts, out, audio=False)
     poster = out.rsplit(".", 1)[0] + ".jpg"
-    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "0.5", "-i", out,
+    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "2.9", "-i", out,  # 오프닝 애니메이션이 끝난 뒤
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
     write_thumb(scenes, out, round(total_sec))
     meta = out.rsplit(".", 1)[0] + ".json"

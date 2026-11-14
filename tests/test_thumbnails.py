@@ -114,3 +114,15 @@ def test_music_tracks_prefers_kind_folder(tmp_path):
     assert [os.path.basename(p) for p in editing.music_tracks("travel", str(tmp_path))] == ["a.mp3"]
     assert sorted(os.path.basename(p) for p in editing.music_tracks("ent", str(tmp_path))) == ["a.mp3", "b.mp3"]
     assert editing.music_tracks("travel", str(tmp_path / "nope")) == []
+
+
+@needs_font
+def test_opening_ends_on_the_static_cover():
+    import numpy as np
+    static = th.short_cover("괌", 4, "괌 정부관광청 겨울 공동 프로모션…덧붙임", None, variant=0)
+    base, layers = th.record(th.short_cover, "괌", 4, "괌 정부관광청 겨울 공동 프로모션…덧붙임", None, variant=0)
+    assert layers and th.opening_length(layers) <= 2.8
+    first = th.opening_frame(base, layers, 0.0)
+    last = th.opening_frame(base, layers, 5.0)
+    assert np.abs(np.asarray(last, int) - np.asarray(static, int)).mean() < 1.0
+    assert np.asarray(first).mean() < np.asarray(last).mean()     # 어둠에서 밝아진다

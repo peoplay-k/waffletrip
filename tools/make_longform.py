@@ -258,6 +258,10 @@ def scene_clip(ff: str, scene: dict, n: int, secs: float, work: str,
                    scene.get("photo")).save(frame)
         caps = scene_captions(scene["narration"], secs - tail, secs, work, f"{n:02d}",
                               load_align(mp3) if mp3 else None, **LF_CAP)
+    elif scene["kind"] == "title" and scene.get("cover"):
+        from captions import opening_clip     # 첫 장면 — 표지가 타이포로 나타난다
+        return opening_clip(ff, cover_image, (scene,), {}, secs, work, f"{n:02d}",
+                            os.path.join(work, f"c{n:02d}.mp4"), 25, mp3=mp3, tail=tail, crf="22")
     else:
         render(scene).save(frame)
     vf = motion_filter(n, secs, W, H, 25, LF_ZOOM, 1.5)
@@ -641,7 +645,7 @@ def build_voiced(scenes: list[dict], out_dir: str,
     total -= FADE * (len(clips) - 1)
     add_bgm(ff, out, seed_of(name + datetime.now(KST).strftime("%Y%m%d")), kind="travel")
     poster = out.rsplit(".", 1)[0] + ".jpg"
-    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
+    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "3", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
     write_thumb(scenes, out)
     _write_longform_meta(scenes, out, poster, total, "voiced")
@@ -670,7 +674,7 @@ def build_silent(scenes: list[dict], out_dir: str,
     if len(durations) > 1:
         durations[-1] -= FADE * (len(durations) - 1)
     poster = out.rsplit(".", 1)[0] + ".jpg"
-    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
+    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "3", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
 
     write_thumb(scenes, out)

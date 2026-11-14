@@ -45,7 +45,7 @@ FONTS = ("/System/Library/Fonts/AppleSDGothicNeo.ttc",
          "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc")
 # 화면 버전. 화면 디자인을 바꾸면 올린다 — 같은 날 이미 구운 목소리판을 다시 쓰는 장치가
 # 옛 화면을 계속 쓰지 않게(2026-10-21: 사진을 넣었는데 오전 판이 재사용됐다).
-RENDERER = "2026-11-14-talk-captions"
+RENDERER = "2026-11-15-typo-opening"
 MIN_ITEMS = 2          # 한 편짜리는 '오늘의 방송'이 아니다
 MAX_LONG = 8
 MAX_SHORTS = 2         # 숏폼은 하루 두 편까지 — 2026-10-16 크레딧이 바닥나 셋에서 줄였다
@@ -373,6 +373,12 @@ def bake(scenes: list[dict], render, size: tuple[int, int], out: str, voiced: bo
             secs = _secs_of(ff, mp3) + TAIL
         else:
             secs = max(READ_FLOOR, len(sc["narration"]) / READ_CPS + READ_LEAD)
+        if sc["kind"] == "open" and "programs" in sc:
+            from captions import opening_clip     # 첫 장면 — 표지가 타이포로 나타난다
+            clips.append(opening_clip(ff, open_cover, (sc, size), {}, secs, work, f"{n:02d}", clip, 25,
+                                      mp3=mp3, tail=TAIL, silence=not mp3, crf="22"))
+            total += secs
+            continue
         caps = []
         if talk:
             from captions import load_align, scene_captions
@@ -408,7 +414,7 @@ def bake(scenes: list[dict], render, size: tuple[int, int], out: str, voiced: bo
     total -= FADE * (len(clips) - 1)
     if voiced:
         add_bgm(ff, out, seed_of(os.path.basename(out)), kind="ent")
-    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
+    subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "3", "-i", out,
                     "-frames:v", "1", "-q:v", "3", out.rsplit(".", 1)[0] + ".jpg"], check=True)
     return round(total, 1)
 

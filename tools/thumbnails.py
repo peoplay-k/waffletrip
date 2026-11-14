@@ -170,6 +170,31 @@ def short_hook(headline: str) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 
+# ── 그리기 기록(오프닝 애니메이션용) ──────────────────────────────────
+# 표지를 그릴 때 글자 덩어리(상자·그림자 글씨)를 바로 붙이지 않고 따로 모아 두면,
+# 같은 표지를 시간에 따라 하나씩 등장시킬 수 있다(opening_frames). 기록하지 않을 때는
+# 예전처럼 바로 붙인다 — 정지 표지와 애니메이션 마지막 화면이 똑같다.
+_REC: list | None = None
+
+
+def _box_layer(lines: list[str], f, bg, fg, angle: float, pad) -> Image.Image:
+    probe = ImageDraw.Draw(Image.new("RGB", (8, 8)))
+    lh = int(f.size * 1.32)
+    widths = [int(probe.textlength(t, font=f)) + pad[0] * 2 if t else 0 for t in lines]
+    lw, lh_all = max(widths + [1]) + 40, lh * len(lines) + 40
+    layer = Image.new("RGBA", (lw, lh_all), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    y = 20
+    for t, wd in zip(lines, widths):
+        if t:
+            d.rectangle((20, y, 20 + wd, y + lh - 6), fill=tuple(bg) + (255,))
+            d.text((20 + pad[0], y + (lh - 6 - f.size) / 2 - f.size * 0.12), t, font=f, fill=fg)
+        y += lh
+    if angle:
+        layer = layer.rotate(angle, resample=Image.BICUBIC, expand=True)
+    return layer
+
+
 def box_lines(img: Image.Image, xy, lines: list[str], f, bg, fg, angle: float = 0.0,
               pad=(26, 12)) -> int:
     """자막 상자처럼 줄마다 색 띠를 깔고 글씨를 얹는다. 살짝 기울여 손으로 붙인 느낌.
@@ -177,32 +202,163 @@ def box_lines(img: Image.Image, xy, lines: list[str], f, bg, fg, angle: float = 
     줄 길이대로 띠 길이가 달라진다 — 틀에서 찍은 같은 크기 딱지와 다르다.
     그린 높이를 돌려준다.
     """
-    d0 = ImageDraw.Draw(img)
-    lh = int(f.size * 1.32)
-    widths = [int(d0.textlength(t, font=f)) + pad[0] * 2 for t in lines]
-    lw, lh_all = max(widths) + 40, lh * len(lines) + 40
-    layer = Image.new("RGBA", (lw, lh_all), (0, 0, 0, 0))
-    d = ImageDraw.Draw(layer)
-    y = 20
-    for t, wd in zip(lines, widths):
-        d.rectangle((20, y, 20 + wd, y + lh - 6), fill=bg + (255,))
-        d.text((20 + pad[0], y + (lh - 6 - f.size) / 2 - f.size * 0.12), t, font=f, fill=fg)
-        y += lh
-    if angle:
-        layer = layer.rotate(angle, resample=Image.BICUBIC, expand=True)
-    img.paste(layer, (int(xy[0]) - 20, int(xy[1]) - 20), layer)
-    return lh * len(lines)
+    layer = _box_layer(lines, f, bg, fg, angle, pad)
+    xy0 = (int(xy[0]) - 20, int(xy[1]) - 20)
+    if _REC is not None:
+        _REC.append({"kind": "box", "img": layer, "xy": xy0, "lines": list(lines), "f": f,
+                     "bg": bg, "fg": fg, "angle": angle, "pad": pad})
+    else:
+        img.paste(layer, xy0, layer)
+    return int(f.size * 1.32) * len(lines)
+
+
+def _shadow_layer(size, xy, text: str, f, fill, blur: int) -> Image.Image:
+    w, h = size
+    sh = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(sh).text((xy[0] + 3, xy[1] + 5), text, font=f, fill=255,
+                            stroke_width=max(2, f.size // 18), stroke_fill=255)
+    sh = sh.filter(ImageFilter.GaussianBlur(blur))
+    layer = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    layer.putalpha(sh)
+    ImageDraw.Draw(layer).text(xy, text, font=f, fill=fill)
+    return layer
 
 
 def soft_shadow_text(img: Image.Image, xy, text: str, f, fill=WHITE, blur: int = 6):
     """테두리 대신 부드러운 그림자. 굵은 검은 테두리는 템플릿 티가 난다."""
+    if _REC is not None:
+        # 그림자 글씨는 글자 둘레만 잘라 둔다(통째 화면 크기로 두면 프레임마다 무겁다).
+        full = _shadow_layer(img.size, xy, text, f, fill, blur)
+        box = full.getbbox() or (0, 0, 1, 1)
+        _REC.append({"kind": "text", "img": full.crop(box), "xy": (box[0], box[1]), "text": text})
+        return
     w, h = img.size
     sh = Image.new("L", (w, h), 0)
     ImageDraw.Draw(sh).text((xy[0] + 3, xy[1] + 5), text, font=f, fill=255,
-                                stroke_width=max(2, f.size // 18), stroke_fill=255)
+                            stroke_width=max(2, f.size // 18), stroke_fill=255)
     sh = sh.filter(ImageFilter.GaussianBlur(blur))
     img.paste(Image.new("RGB", (w, h), BLACK), (0, 0), sh)
     ImageDraw.Draw(img).text(xy, text, font=f, fill=fill)
+
+
+def record(fn, *args, **kwargs):
+    """표지 함수를 '기록' 모드로 불러 (바탕 그림, 글자 덩어리 목록)을 돌려준다."""
+    global _REC
+    _REC = []
+    try:
+        base = fn(*args, **kwargs)
+        layers = _REC
+    finally:
+        _REC = None
+    return base, layers
+
+
+# ── 오프닝 애니메이션 ──────────────────────────────────────────────────
+TYPE_CPS = 16           # 타이핑 속도(초당 글자) — 눈으로 따라 읽을 만큼
+
+
+def _ease_out(x: float) -> float:
+    x = min(max(x, 0.0), 1.0)
+    return 1 - (1 - x) ** 3
+
+
+def _ease_back(x: float) -> float:
+    """살짝 넘쳤다 돌아오는 튀어오름."""
+    x = min(max(x, 0.0), 1.0)
+    c1, c3 = 1.7, 2.7
+    return 1 + c3 * (x - 1) ** 3 + c1 * (x - 1) ** 2
+
+
+def schedule(layers: list[dict]) -> list[tuple[float, float]]:
+    """글자 덩어리마다 (시작, 길이). 앞 덩어리가 거의 끝날 즈음 다음이 시작한다. 2.6초 안에 끝낸다."""
+    out, t = [], 0.25
+    for L in layers:
+        if L["kind"] == "box" and sum(len(x) for x in L["lines"]) >= 10:
+            dur = sum(len(x) for x in L["lines"]) / TYPE_CPS      # 긴 상자: 타이핑
+        elif L["kind"] == "box":
+            dur = 0.45                                             # 짧은 상자: 튀어오름
+        else:
+            dur = 0.35                                             # 그림자 글씨: 밀려 들어옴
+        out.append((t, dur))
+        t += dur * 0.55 if L["kind"] == "box" else 0.12
+    end = max((a + b for a, b in out), default=0)
+    if end > 2.6:
+        k = 2.6 / end
+        out = [(a * k, b * k) for a, b in out]
+    return out
+
+
+def opening_frame(base: Image.Image, layers: list[dict], t: float,
+                  plan: list[tuple[float, float]] | None = None) -> Image.Image:
+    """t 초 시점의 오프닝 화면. 사진은 살짝 당겨지며 밝아지고, 글자 덩어리가 차례로 나온다."""
+    plan = plan or schedule(layers)
+    w, h = base.size
+    z = 1.0 + 0.06 * (1 - _ease_out(t / 0.9))
+    img = base
+    if z > 1.0001:
+        cw, ch = int(w / z), int(h / z)
+        img = base.crop(((w - cw) // 2, (h - ch) // 2, (w - cw) // 2 + cw, (h - ch) // 2 + ch)).resize((w, h), Image.BILINEAR)
+    if t < 0.3:
+        img = Image.blend(Image.new("RGB", (w, h), BLACK), img, max(0.0, t / 0.3))
+    img = img.convert("RGBA")
+    for L, (a, dur) in zip(layers, plan):
+        if t < a:
+            continue
+        p = (t - a) / dur if dur else 1.0
+        x, y = L["xy"]
+        if L["kind"] == "box" and sum(len(s) for s in L["lines"]) >= 10:
+            n = int(round(sum(len(s) for s in L["lines"]) * min(1.0, p)))
+            if n <= 0:
+                continue
+            part, left = [], n
+            for s in L["lines"]:
+                part.append(s[:max(0, left)])
+                left -= len(s)
+            if p < 1.0:
+                # 깜박이는 커서 대신 마지막 글자 뒤에 얇은 막대
+                for i in range(len(part) - 1, -1, -1):
+                    if part[i]:
+                        part[i] = part[i] + "▏"
+                        break
+            lay = _box_layer(part, L["f"], L["bg"], L["fg"], L["angle"], L["pad"])
+            img.alpha_composite(lay, (int(x), int(y)))
+        elif L["kind"] == "box":
+            s = 0.55 + 0.45 * _ease_back(p)
+            lay = L["img"]
+            if abs(s - 1) > 0.005:
+                lw, lh = lay.size
+                lay = lay.resize((max(1, int(lw * s)), max(1, int(lh * s))), Image.BILINEAR)
+                x += (lw - lay.size[0]) // 2
+                y += (lh - lay.size[1]) // 2
+            if p < 0.3:
+                alpha = lay.getchannel("A").point(lambda v, k=p / 0.3: int(v * k))
+                lay = lay.copy()
+                lay.putalpha(alpha)
+            _paste_clip(img, lay, int(x), int(y))
+        else:
+            e = _ease_out(p)
+            lay = L["img"]
+            if e < 1:
+                lay = lay.copy()
+                lay.putalpha(lay.getchannel("A").point(lambda v, k=e: int(v * k)))
+            _paste_clip(img, lay, int(x - 60 * (1 - e)), int(y))
+    return img.convert("RGB")
+
+
+def _paste_clip(img: Image.Image, lay: Image.Image, x: int, y: int) -> None:
+    """화면 밖으로 나가는 부분은 잘라서 붙인다(alpha_composite 는 음수 좌표를 못 받는다)."""
+    sx, sy = max(0, -x), max(0, -y)
+    if sx or sy:
+        lay = lay.crop((sx, sy, lay.size[0], lay.size[1]))
+        x, y = x + sx, y + sy
+    if x >= img.size[0] or y >= img.size[1]:
+        return
+    img.alpha_composite(lay, (x, y))
+
+
+def opening_length(layers: list[dict]) -> float:
+    plan = schedule(layers)
+    return max((a + b for a, b in plan), default=0.0) + 0.15
 
 
 # 곳마다 띠 색을 달리한다. 날마다 같은 노랑이면 자동으로 찍어낸 티가 난다.

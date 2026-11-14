@@ -217,3 +217,41 @@ def talk_clip(ff: str, frame: str, caps: list[tuple[str, float, float]], secs: f
              "-t", f"{secs:.2f}", out]
     subprocess.run(args, check=True)
     return out
+
+
+def opening_clip(ff: str, cover_fn, args: tuple, kwargs: dict, secs: float, work: str, tag: str,
+                 out: str, fps: int = 30, mp3: str | None = None, tail: float = 0.6,
+                 silence: bool = False, crf: str = "21") -> str:
+    """첫 장면 — 표지가 '타이포'로 차례차례 나타난다(2026-11-14 사장님: "초반 3초를 잡아야 해").
+
+    cover_fn 을 기록 모드로 불러 글자 덩어리를 따로 받고(thumbnails.record), 사진이 밝아지며
+    당겨지는 동안 작은 글씨 → 지명·제목 상자(튀어오름) → 기사 제목(타이핑) 순으로 띄운다.
+    애니메이션이 끝나면 마지막 화면(= 정지 표지와 같다)을 장면 끝까지 둔다.
+    """
+    import subprocess
+    from thumbnails import opening_frame, opening_length, record, schedule
+    base, layers = record(cover_fn, *args, **kwargs)
+    plan = schedule(layers)
+    length = min(opening_length(layers), max(0.5, secs - 0.2))
+    fdir = os.path.join(work, f"op_{tag}")
+    os.makedirs(fdir, exist_ok=True)
+    n = max(1, int(length * fps))
+    for i in range(n):
+        opening_frame(base, layers, i / fps, plan).save(os.path.join(fdir, f"{i:04d}.png"), compress_level=1)
+    hold = max(0.0, secs - n / fps) + 0.2
+    args_ = [ff, "-y", "-loglevel", "error", "-framerate", str(fps), "-i", os.path.join(fdir, "%04d.png")]
+    flt = f"[0:v]tpad=stop_mode=clone:stop_duration={hold:.3f},format=yuv420p[v]"
+    amap = []
+    if mp3:
+        args_ += ["-i", mp3]
+        flt += f";[1:a]apad=pad_dur={tail},aresample=44100[a]"
+        amap = ["-map", "[a]", "-c:a", "aac", "-b:a", "128k"]
+    elif silence:
+        args_ += ["-f", "lavfi", "-t", f"{secs:.2f}", "-i", "anullsrc=r=44100:cl=stereo"]
+        flt += ";[1:a]anull[a]"
+        amap = ["-map", "[a]", "-c:a", "aac", "-b:a", "128k"]
+    args_ += ["-filter_complex", flt, "-map", "[v]", *amap, "-r", str(fps),
+              "-c:v", "libx264", "-preset", "medium", "-crf", crf, "-pix_fmt", "yuv420p",
+              "-t", f"{secs:.2f}", out]
+    subprocess.run(args_, check=True)
+    return out
