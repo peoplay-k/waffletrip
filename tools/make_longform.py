@@ -29,7 +29,9 @@ from PIL import Image, ImageDraw, ImageFont  # noqa: E402
 from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.models import REGION_NAMES  # noqa: E402
 from motion import motion_filter  # noqa: E402
-from thumbnails import long_thumb, save_jpg  # noqa: E402
+from thumbnails import (BLACK, WHITE, accent_for, box_lines, cover, fit_lines,  # noqa: E402
+                        long_thumb, save_jpg, shade, soft_shadow_text, wrap)
+from thumbnails import font as bold  # noqa: E402
 
 LF_ZOOM = 0.04          # 가로 화면은 글이 넓게 깔려 줌을 작게 — 가장자리 글자가 잘리지 않게
 from video_brief import _speakable, facts_from, load_items  # noqa: E402
@@ -172,6 +174,39 @@ def card_story(headline: str, summary: str, outlet: str, n: int,
     return img
 
 
+def photo_section(name: str, count: int, photo: str) -> Image.Image:
+    """지역 장면 — 사진을 꽉 채우고 지명을 기울인 색 상자로."""
+    img = shade(cover(photo, (W, H), 0.5), "bottom", start=0.45, strength=190)
+    soft_shadow_text(img, (PAD, 64), "피플로드", bold(34))
+    f = bold(150)
+    y = H // 2 - 40
+    box_lines(img, (PAD, y), [name], f, accent_for(name), BLACK, angle=-2.0, pad=(34, 6))
+    soft_shadow_text(img, (PAD + 8, y + int(f.size * 1.32) + 40), f"이번 주 {count}건", bold(48))
+    return img
+
+
+def photo_story(headline: str, summary: str, outlet: str, n: int, total: int,
+                photo: str) -> Image.Image:
+    """기사 장면 — 사진 위에 제목은 자막 상자, 요약은 그림자 글씨."""
+    img = shade(cover(photo, (W, H), 0.45), "bottom", start=0.25, strength=230)
+    d = ImageDraw.Draw(img)
+    soft_shadow_text(img, (PAD, 64), "피플로드", bold(34))
+    max_w = W - PAD * 2 - 80
+    head, hf = fit_lines(d, headline, max_w, 2, (64, 58, 54))
+    body = wrap(d, summary, bold(38), max_w, 3) if summary else []
+    hl = int(hf.size * 1.32)
+    y_body = H - 150 - len(body) * 56
+    y_head = y_body - 30 - hl * len(head)
+    soft_shadow_text(img, (PAD + 4, y_head - 64), f"{n} / {total}", bold(34))
+    box_lines(img, (PAD, y_head), head, hf, BLACK, WHITE, pad=(22, 8))
+    for line in body:
+        soft_shadow_text(img, (PAD + 4, y_body), line, bold(38))
+        y_body += 56
+    if outlet:
+        d.text((PAD, H - 70), f"출처 · {outlet}", font=_f(28), fill=(220, 222, 226))
+    return img
+
+
 def card_data(rows: list[tuple[str, str]]) -> Image.Image:
     img, d = _base()
     d.text((PAD, 190), "오늘의 데이터", font=_f(34), fill=CORAL)
@@ -308,7 +343,32 @@ def build_script(items: list[dict]) -> list[dict]:
             "count": sum(1 for sc in scenes if sc["kind"] == "story"),
             "photos": cover_photos([sc["region"] for sc in scenes if sc["kind"] == "section"]),
         }
+    assign_photos(scenes)
     return scenes
+
+
+def assign_photos(scenes: list[dict]) -> None:
+    """지역 장면과 그 지역 기사 장면에 우리 사진을 한 장씩. 표지 사진·앞서 쓴 사진은 피한다.
+
+    흰 바탕 카드만 넘어가면 자동 슬라이드처럼 보인다(2026-11-14). 사진이 없는
+    지역(자사 촬영본 0장인 일본·태국·대만 등)은 그대로 지면 카드로 간다.
+    """
+    from make_shorts import region_photos
+    from photo_history import fresh_first
+    taken = set((scenes[0].get("cover") or {}).get("photos") or []) if scenes else set()
+    pool: list[str] = []
+    for sc in scenes:
+        if sc["kind"] == "section":
+            try:
+                pool = [p for p in fresh_first(region_photos(sc["region"])) if p not in taken]
+            except Exception:
+                pool = []
+        elif sc["kind"] != "story":
+            pool = []
+            continue
+        if pool:
+            sc["photo"] = pool.pop(0)
+            taken.add(sc["photo"])
 
 
 def cover_photos(regions: list[str]) -> list[str]:
@@ -339,7 +399,7 @@ def write_thumb(scenes: list[dict], out: str) -> str | None:
     if not scenes or not scenes[0].get("cover"):
         return None
     from photo_history import remember
-    remember(scenes[0]["cover"]["photos"])
+    remember(scenes[0]["cover"]["photos"] + [sc["photo"] for sc in scenes if sc.get("photo")])
     return save_jpg(cover_image(scenes[0], (1280, 720)),
                     out.rsplit(".", 1)[0] + "-thumb.jpg")
 
@@ -350,8 +410,13 @@ def render(scene: dict) -> Image.Image:
         return cover_image(scene)
     if kind == "title":
         return card_title(scene["headline"], scene["sub"])
+    if kind == "section" and scene.get("photo"):
+        return photo_section(scene["name"], scene["count"], scene["photo"])
     if kind == "section":
         return card_section(scene["name"], scene["count"])
+    if kind == "story" and scene.get("photo"):
+        return photo_story(scene["headline"], scene.get("summary", ""), scene.get("outlet", ""),
+                           scene["n"], scene["total"], scene["photo"])
     if kind == "data":
         return card_data(scene["rows"])
     return card_story(scene["headline"], scene.get("summary", ""),
