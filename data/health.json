@@ -363,13 +363,12 @@
     },
     {
       "date": "2026-11-14",
-      "collected": 3423,
-      "published": 265,
+      "collected": 3558,
+      "published": 377,
       "ours": 18,
       "failed_sources": [
         "guam_pdn",
         "guam_post",
-        "kota_nst",
         "kr_hotelavia",
         "kr_ktnbm",
         "kr_travelpress",

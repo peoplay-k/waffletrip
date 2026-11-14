@@ -5,6 +5,13 @@
 
 ## 괌
 
+### 노랑풍선, 괌정부관광청과 손잡고 연말·겨울 기획전 전개
+- 매체 2곳 · 인사이트코리아 · 청년일보  ← 여러 곳이 썼다
+  - 인사이트코리아: [인사이트코리아 = 이상훈 기자] 여행업계가 연말 성수기와 겨울방학을 앞두고 따뜻한 휴양지로 떠나려는 동계 여행 수요 공략에 나섰다. 노랑풍선은 괌정부관광청과 협업해 이달부터 내년 3월까지 출발하는 여행객을 대상으로 공동 프로모션을 진행한다고 13일 밝혔다.
+    https://www.insightkorea.co.kr/news/articleView.html?idxno=258845
+  - 청년일보: 【 청년일보 】 노랑풍선은 괌정부관광청과 함께 연말 성수기와 겨울방학을 겨냥한 괌 여행 공동 프로모션을 진행한다고 13일 밝혔다. 이번 행사는 겨울철 휴양지를 찾는 여행객을 대상으로 가족과 커플 등 여행 형태에 맞춘 상품을 선보이기 위해 마련됐다.
+    https://www.youthdaily.co.kr/news/article.html?no=229814
+
 ### 노랑풍선-괌정부관광청, 동계 시즌 맞이 괌 여행 활성화 공동 캠페인 전개
 - 매체 2곳 · 뉴스핌 · 디스커버리뉴스(DISCOVERYNEWS)  ← 여러 곳이 썼다
   - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 동절기 추위를 피해 온화한 기후의 해외 휴양지를 찾는 여행 수요가 증가하는 가운데, 국내 여행업계와 해외 관광청이 협력해 동계 시즌 괌 여행 활성화에 나섰다. 노랑풍선은 괌정부관광청과 함께 연말 성수기 및 겨울방학 기간을 겨냥한 괌 공동 기획전을 운영한다고
@@ -27,11 +34,6 @@
   - 뉴스1: 
     https://www.news1.kr/industry/hotel-tourism/6352749
 
-### "괌 갈 돈이면 일본·중국 간다"…고환율이 뒤집은 해외여행 판도
-- 매체 1곳 · 재외동포신문
-  - 재외동포신문: 
-    https://www.dongponews.net/news/articleView.html?idxno=61643
-
 ## 하와이
 
 ### 서울시의회, 호놀룰루시의회와 교류 확대방안 논의
@@ -41,32 +43,39 @@
 
 ## 베트남
 
+### 이 철도 회사는 하노이와 타이응우옌 사이를 운행하는 관광 열차를 운행합니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 11월 14일부터 철도 업계는 하노이와 루싸(타이응우옌)를 오가는 QT1/QT2 여객 열차 서비스를 매주 토요일과 일요일에 운행합니다. 이 서비스는 철도와 도로 교통을 결합하여 주말 여행에 더 많은 선택지를 제공하고 두 지역 간의 문화 및 음식 명소를 연결합니다.
+    https://www.vietnam.vn/ko/duong-sat-to-chuc-chay-tau-du-lich-ha-noi-thai-nguyen
+
+### 호치민시는 디지털 콘텐츠 제작자들을 연결하고 연말 경제 활성화에 기여합니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: (단찌신문) - 호치민시 디지털 콘텐츠 크리에이터 위크 2026이 개막하여, KOL, KOC, 기술 기업 및 미디어 플랫폼 커뮤니티가 소비자 수요를 촉진하고 활성화하기 위한 다양한 활동을 펼치고 있습니다.
+    https://www.vietnam.vn/ko/tphcm-ket-noi-nha-sang-tao-noi-dung-so-tong-kich-cau-kinh-te-cuoi-nam
+
+### 2026년 11월 14일부터 하노이와 타이응우옌을 연결하는 관광 열차 두 편이 운행됩니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 철도 부문은 하노이-루싸 노선에서 주말에 운행되는 QT1/QT2 관광 열차 서비스를 공식 개시했으며, 전 구간 티켓 가격은 18만 VND입니다. 이는 관광 연계를 강화하고 타이응우옌 지역의 차 문화를 홍보하는 데 기여할 것입니다.
+    https://www.vietnam.vn/ko/tu-14-11-2026-khai-thac-doi-tau-du-lich-ket-noi-ha-noi-thai-nguyen
+
+### 달랏의 가을 단풍은 관광객들을 매료시킨다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 요즘 달랏 산간 도시는 계절의 변화를 맞이하고 있습니다. 감이 익어가고, 벚꽃은 잎을 떨구고, 단풍잎은 물들어 가고 있습니다.
+    https://www.vietnam.vn/ko/sac-thu-da-lat-niu-chan-du-khach
+
 ### 병원, 리조트와 제휴: 다낭, 관광과 의료 서비스를 결합한 관광객 유치 목표로
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 다낭의 경우, 관광객들이 휴식을 취하면서 건강 검진과 상담을 받을 수 있도록 병원과 호텔, 리조트를 연계하는 것이 전문가들이 제안하는 방향입니다. 이러한 프로그램은 의학적 기반을 갖추고 있어야 하며, 확대 시행 전에 효과성을 평가해야 합니다.
     https://www.vietnam.vn/ko/benh-vien-bat-tay-resort-da-nang-tinh-hut-khach-du-lich-ket-hop-cham-soc-suc-khoe
 
-### 썬 그룹이 구상한 남부 하노이 리조트 타운의 설계 단계부터 실제 모습까지 살펴보겠습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 개발사인 썬 그룹은 썬 어반 시티의 주택, 편의시설, 조경 설계 도면이 점차 생생한 현실로 구현됨에 따라 명성을 더욱 확고히 하고 있습니다.
-    https://www.vietnam.vn/ko/ngam-do-thi-nghi-duong-sun-group-nam-ha-noi-tu-ban-ve-den-thuc-te
-
-### 하노이는 인공지능을 스마트 관광 경험에 접목했습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 하노이시는 11월 13일 인공지능(AI)이 접목된 문화관광 디지털 플랫폼을 공식 출범시켰습니다. 이 플랫폼은 시민과 관광객들이 목적지를 편리하게 검색하고, 여행 일정을 계획하며, 관광 서비스를 이용할 수 있도록 지원합니다.
-    https://www.vietnam.vn/ko/ha-noi-dua-ai-vao-trai-nghiem-du-lich-thong-minh
-
-### 호찌민시는 제조업 강점을 바탕으로 산업 관광을 개발하고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 호치민시의 공장 및 생산 시설들을 학생과 투자자들을 위한 체험형 관광지로 개발할 가능성을 검토하고 있습니다. 이러한 접근 방식은 관광 상품을 다양화하고, 지역의 강점을 활용하며, 도시 관광의 매력을 더욱 높이는 데 기여할 것입니다.
-    https://www.vietnam.vn/ko/tp-ho-chi-minh-phat-trien-du-lich-cong-nghiep-tu-the-manh-san-xuat
-
-### '선택관광 걱정 없이 5성급에서' 웹투어, 다낭·나트랑·달랏 3박 5일 패키지 출시
-- 매체 1곳 · 빅데이터뉴스
-  - 빅데이터뉴스: 웹투어(대표 홍성원)가 쇼핑엔티와 함께 선택관광이 없는 베트남 3박 5일 패키지를 선보인다. 다낭과 나트랑·달랏 가운데 고를 수 있으며, 방송은 11월 15일 오후 9시 30분과 20일 오후 11시 30분이다.
-    https://www.thebigdata.co.kr/view.php?ud=2026111223033399936cf2d78c68_23
-
 ## 코타키나발루
+
+### Selangor sees increase in flood victims, Perak records drop
+- 매체 1곳 · New Straits Times  ← 여러 곳이 썼다
+  - New Straits Times: KUALA LUMPUR: The number of flood victims at relief centres in Selangor has increased, while it has decreased in Perak, as of 8am today.
+    https://www.nst.com.my/news/nation/2026/11/1576672/selangor-sees-increase-flood-victims-perak-records-drop
+  - New Straits Times: KUALA LUMPUR: The number of flood evacuees seeking shelter at temporary relief centres (PPS) increased in Selangor but declined in Perak as of 8am today.
+    https://www.nst.com.my/news/regional/2026/11/1577247/flood-evacuees-increase-selangor-drop-perak
 
 ### Anwar chairs special meeting to step up Selangor flood response
 - 매체 1곳 · New Straits Times  ← 여러 곳이 썼다
@@ -98,6 +107,11 @@
   - 제주의소리: 휴일을 맞는 제주도는 15일 아침까지 비가 내리는 곳이 있겠다. 예상 강수량은 10~60mm.중국 산둥반도 부근에서 동쪽으로 이동하는 기압골의 영향을 받는 제주도는 15일 아침까지 비가 내린 뒤 16일 밤부터 다시 비가 내릴 것으로 전망된다.
     https://www.jejusori.net/news/articleView.html?idxno=508311
 
+### [오늘 날씨] 전국 대부분 비…제주 최고 50mm, 모레 강원산지 1~5cm 눈
+- 매체 1곳 · 문화뉴스
+  - 문화뉴스: (더쎈뉴스 / The CEN News 이수현 기자) 오늘(14일)은 전국에 5mm~50mm의 비가 내리며, 제주도는 10mm~50mm의 많은 비가 예상된다. 수도권과 강원도는 5mm~10mm, 충청권, 전라권, 경상권은 대부분 5mm~30mm의 비 소식이 이어질 전망이다.
+    https://www.mhns.co.kr/news/articleView.html?idxno=769084
+
 ### 이란의 '제주도' 게슘, 전쟁통에 관광 초토화 [박종원의 그때 여기]
 - 매체 1곳 · 파이낸셜뉴스
   - 파이낸셜뉴스: 지난 8월, 이란 호텔 협회의 잠쉬드 함제자데 회장은 현지 매체 사르그를 통해 이란 전역의 호텔 숙박률이 거의 0%라고 말했다.
@@ -107,11 +121,6 @@
 - 매체 1곳 · 이데일리
   - 이데일리: 매트리스 전문 브랜드 베스트슬립은 5성급 제주 오리엔탈호텔에 시그니처 라인인 Z시리즈 매트리스를 공급했다고 13일 밝혔다. 베스트슬립은 1989년부터 매트리스를 개발·생산해 온 기업으로, 국내외 호텔을 대상으로 제품 공급을 확대하고 있다.
     https://www.edaily.co.kr/News/Read?newsId=03906486645645392&mediaCodeNo=257
-
-### 제주 커피파인더, ‘아시아·태평양 100대 커피숍’ 선정
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 창업 11년째인 제주도 로스터리 카페 ‘커피파인더(Coffee Finder, 대표 지준호)’가 아시아·태평양을 대표하는 100대 커피숍에 당당히 이름을 올렸다. 제주에서는 유일하게 선정되면서 지역 커피업계의 경쟁력을 입증했다.
-    https://www.jejusori.net/news/articleView.html?idxno=508320
 
 ## 일본
 
@@ -211,6 +220,15 @@
   - 시사코리아저널: 상하이 춘추여행사와 관광 활성화·상품개발 업무협약 체결씨트립 등 중국 여행업계 34개사 대상 관광설명회 개최경남 상해사무소·경남관광재단 협력으로 김해공항 연계 관광객 유치 확대[시사코리아저널=정종민 선임기자] 거제시가 김해공항과 부산을 거쳐 거제까지 이어지는 체류형 여. ..
     http://m.koreajn.co.kr/news/articleView.html?idxno=160452
 
+### 좋은문화·좋은강안병원, 의료관광·국제교류 공로로 부산시장 표창
+- 매체 3곳 · 간호사신문 · 메드월드뉴스 · 보건신문  ← 여러 곳이 썼다
+  - 간호사신문: 좋은문화병원과 좋은강안병원이 외국인환자 유치와 의료관광 발전에 기여한 공로로 부산광역시장 표창을 받았다. 두 병원은 좋은삼선병원과 함께 부산국제의료관광컨벤션에 참
+    https://www.nursenews.co.kr/news/articleView.html?idxno=46705
+  - 메드월드뉴스: 은성의료재단 산하 좋은문화병원(병원장 문화숙)과 좋은강안병원(병원장 허현)이 13일 벡스코 제1전시장에서 열린 ‘2026 부산국제의료관광컨벤션’ 개막식에서 부산광역시장 표창을 받았다. 표창 부문은 좋은문화병원이 ‘의료관광산업 육성 유공’, 좋은강안병원이 ‘국제의료교류 및 외국인환자 유치
+    http://www.medworld.co.kr/news/articleView.html?idxno=266074
+  - 보건신문: 좋은문화병원 황종식 경영 부원장 수상 은성의료재단 좋은병원들 산하 좋은문화병원(병원장 문화숙)과 좋은강안병원(병원장 허현)이 13일 벡스코 제1전시장에서 열린 &#39;2026 부산국제의료관광컨벤션(BIM..
+    http://www.bokuennews.com/news/article.html?no=287187
+
 ### 파주도시공사 `행복한 관광나눔 파주여행` 추진
 - 매체 3곳 · https://www.timess.co.kr/ · 경기평화신문 · 내외뉴스통신  ← 여러 곳이 썼다
   - 경기평화신문: 
@@ -220,26 +238,19 @@
   - 내외뉴스통신: [파주=내외뉴스통신] 이용범 기자파주도시공사는 관광 취약계층인 장애인을 대상으로 두 차례에 걸쳐 ‘행복한 관광나눔 파주여행’ 프로그램을 성공적으로 운영했다고 밝혔다.
     http://www.nbnnews.co.kr/news/articleView.html?idxno=1070014
 
-### '성수동에서 홍콩 여행 하세요'
-- 매체 2곳 · 뉴스1 · 매일경제  ← 여러 곳이 썼다
-  - 뉴스1: 
-    https://www.news1.kr/photos/8210948
-  - 매일경제: 다채로운 미식과 항구의 야경, 동서양 문화가 어우러진 도시 홍콩. 캐세이퍼시픽(Cathay Pacific) 자회사 저비용항공사(LCC) 홍콩익스프레스(HK Express)가 한국 고객들에게 본격적으로 브랜드 인지도를 높이기 위해 지난 12일 서울 성수동에서 국내 첫 오프라인 소비자 대상
-    https://www.mk.co.kr/news/culture/12208474
+### 밀양시, 인도와 요가·치유관광산업 국제협력 추진
+- 매체 2곳 · 뉴스핌 · 아시아경제  ← 여러 곳이 썼다
+  - 아시아경제: 경남 밀양시가 인도 요가·명상 전문기관과 업무협약을 체결하고 글로벌 치유관광도시 도약을 위한 국제협력에 .
+    https://www.asiae.co.kr/article/2026111315283130829
+  - 뉴스핌: [밀양=뉴스핌] 남경문 기자 = 경남 밀양시가 인도 S-VYASA대학교와 손잡고 요가·명상을 넘어 치유관광과 체류형 웰니스 관광의 중심지 도약에 나선다. 시는 안병구 시장이 최근 인도를 방문해 요가·명상 전문기관인 S-VYASA대학교와 요가&mi
+    https://www.newspim.com/news/view/20261114000039
 
-### 좋은문화·좋은강안병원, 의료관광·국제교류 공로로 부산시장 표창
-- 매체 2곳 · 간호사신문 · 메드월드뉴스  ← 여러 곳이 썼다
-  - 간호사신문: 좋은문화병원과 좋은강안병원이 외국인환자 유치와 의료관광 발전에 기여한 공로로 부산광역시장 표창을 받았다. 두 병원은 좋은삼선병원과 함께 부산국제의료관광컨벤션에 참
-    https://www.nursenews.co.kr/news/articleView.html?idxno=46705
-  - 메드월드뉴스: 은성의료재단 산하 좋은문화병원(병원장 문화숙)과 좋은강안병원(병원장 허현)이 13일 벡스코 제1전시장에서 열린 ‘2026 부산국제의료관광컨벤션’ 개막식에서 부산광역시장 표창을 받았다. 표창 부문은 좋은문화병원이 ‘의료관광산업 육성 유공’, 좋은강안병원이 ‘국제의료교류 및 외국인환자 유치
-    http://www.medworld.co.kr/news/articleView.html?idxno=266074
-
-### 어촌어항공단, 통영 욕지도서 체류형 다이빙 관광 선보여
-- 매체 2곳 · 부산일보 · 불교방송  ← 여러 곳이 썼다
-  - 불교방송: 한국어촌어항공단이 경남 통영시 욕지도 유동마을에서 다이빙과 숙박을 연계한 1박 2일 체류형 관광 프로그램을 선보였습니다. 공단은 지난달 31일부터 이달 1일까지 유동마을에서 '유동 가을 다이빙 행사'를 시범 운영했다고 밝혔습니다.
-    https://news.bbsi.co.kr/news/articleView.html?idxno=4118516
-  - 부산일보: 통영 욕지도 유동마을에서의 ‘유동 가을 다이빙 행사’ 유동마을 현장 행사(10월 31일). 해수부 제공 한국어촌어항공단이 경남 통영.
-    https://www.busan.com/view/busan/view.php?code=2026111322572263477
+### 필~승! 이찬원, 오늘(14일) '포항 해병대문화축제' 출연..기대 UP
+- 매체 2곳 · bntnews · 스타뉴스  ← 여러 곳이 썼다
+  - 스타뉴스: 가수 이찬원이 '포항 해병대문화축제' 무대를 빛낸다. 이찬원은 11월 14일 오후 3시 경북 포항시 남구 오천읍 용덕리 해병대 제1사단 특설무대에서 열리는 '2026 포항 해병대문화축제' 축하 무대에 오른다.
+    https://www.starnewskorea.com/music/2026/11/14/2026111407140899559
+  - bntnews: 가수 이찬원이 감미로운 감성과 흥겨운 트로트 무대를 앞세워 ‘2026 포항 해병대문화축제’의 열기를 끌어올린다. 이찬원은 오늘(14일) 오후 3시
+    https://www.bntnews.co.kr/article/view/bnt202611140059
 
 ## 여행업계
 
@@ -306,26 +317,26 @@
   - 동아일보: 올해 한국을 찾은 외국인 관광객이 12일 기준 2000만 명을 넘어섰다. 2012년 방문객 1000만 명을 달성한 뒤 14년 만에 연 2000만 명 시대를 열었다.
     https://www.donga.com/news/Opinion/article/all/20261113/135022982/2
 
-### [속보]미 항공청, 미국 전역 공항 운항 중단 조치
-- 매체 2곳 · 뉴시스 · 한국일보  ← 여러 곳이 썼다
-  - 뉴시스: [서울=뉴시스] 강영진 기자 = 미국 연방항공청(FAA)이 "이례적인 상황"과 "안전상의 이유"를 들어 미국 전역의 모든 공항에 대해 극히 드문 전국적인 항공기 운항 중단 조치를 내렸다고 미 액시오스(AXIOS)가 13일(현지시각) 보도했다.
-    https://www.newsis.com/view/NISX20261114_0003867943
-  - 한국일보: ① 항공교통관제 시스템에 통신 장애가 생기면서 13일 미국 전역에서 항공기 운항이 전면 중단됐습니다. ② 연방항공청은 안전을 이유로 전국 공항에 이륙 중단 지침을 내렸고 이륙 대기 항공기는 지상에서 기다리도록 했습니다.
-    https://www.hankookilbo.com/news/article/A2026111406530004266
+### 대구시의회 건교위, 신공항 건설·대구공항 활성화·주민 소음피해 대책 점검
+- 매체 2곳 · 매일일보 · 헤럴드경제  ← 여러 곳이 썼다
+  - 매일일보: 매일일보 = 이인수 기자 | 대구시의회 건설교통위원회(위원장 김태우)는 13일 대구시 신공항건설단과 교통연수원을 대상으로 행정사무감사를 실시하고, 대구경북신공항
+    https://www.m-i.kr/news/articleView.html?idxno=2018381
+  - 헤럴드경제: [헤럴드경제(대구)=김병진 기자]대구시의회 건설교통위원회는 지난 13일 대구시 신공항건설단과 교통연수원을 대상으로 행정사무감사를 실시하고 신공항 건설과 대구공항
+    https://biz.heraldcorp.com/article/10936948
 
-### KAI, 인니 PTDI와 항공산업 협력 확대…MOU 3건 체결
-- 매체 2곳 · 뉴스핌 · 매일경제  ← 여러 곳이 썼다
-  - 뉴스핌: [서울=뉴스핌] 김지헌 기자= 한국항공우주산업(KAI)이 인도네시아 국영 항공우주기업 PTDI와 방산 및 민항기 분야의 협력을 확대한다. KAI는 지난 11일 인도네시아 국방부에서 열린 '제12차 한-인니 방산협력위원회(DICC)'를 계기로 PTDI와 총 3건의
-    https://www.newspim.com/news/view/20261113000897
-  - 매일경제: KF-21 부품 현지생산도 계속
-    https://www.mk.co.kr/news/business/12208247
+### 美 하늘길 멈췄다…“모든 공항 항공기 이륙 전면 중단” 무슨 일
+- 매체 2곳 · YTN · 중앙일보  ← 여러 곳이 썼다
+  - 중앙일보: 미국 전역의 공항에서 13일 오후 4시쯤(미 동부시간 기준)부터 항공기 이륙이 전면 중단됐다. 미 연방항공청(FAA)은 “이례적인 상황과 안전상의 이유”라며 “모든 공항에서 항공기 이륙이 중단됐다”고 발표했다.
+    https://www.joongang.co.kr/article/25478595
+  - YTN: 전문가와 함께 짚어보겠습니다. 권보헌 극동대 항공안전관리학과 교수, 전화로 연결돼 있습니다.
+    https://www.ytn.co.kr/_ln/0104_202611141059483927
 
-### 대구·경북, ‘의료관광 원팀’ 꾸려 중국 대륙 진출 본격화
-- 매체 2곳 · 뉴시스 · 헬스조선  ← 여러 곳이 썼다
-  - 헬스조선: 헬스케어N(헬스케어엔) 모바일 건강/의료 전문가 뉴스 포탈, 보건정책, 병의원, 약사, 제약, 의료IT 뉴스정보
-    https://health.chosun.com/news/dailynews_view.jsp?mn_idx=585465
-  - 뉴시스: [대구=뉴시스]정재익 기자 = 대구·경북이 중국 시안에서 의료관광을 홍보하고 현지 의료·교육기관과 협력 확대에 나선다. 13일 AI바이오·메디시티대구협의회에 따르면 방문단은 오는 16일부터 18일까지 시안에서 의료·관광 홍보설명회와 비즈니스 상담회를 진행한다.
-    https://www.newsis.com/view/NISX20261113_0003867415
+### 美 항공기 '올스탑'에 대한항공도 운항 차질…"필요 조치 예정"
+- 매체 2곳 · KB의 생각 · 연합인포맥스  ← 여러 곳이 썼다
+  - 연합인포맥스: 미국 전역 공항에서 관제 통신 시스템 장애로 항공기 운항이 전면 중단되면서 대한항공[003490]도 운항에 차질을 겪고 있다. 대한항공은 14일 "미국 항로교통관제 센터 통신장애로 인해 미국 전 공항에서 이륙이 금지되고 있다"고 밝혔다.
+    https://news.einfomax.co.kr/news/articleView.html?idxno=4444774
+  - KB의 생각: 대한항공 "필요 조치 예정" 윤은별 이효지 기자 = 미국 전역 공항에서 관제 통신 시스템 장애로 항공기 운항이 전면 중단되면서 우리나라 항공편도 운항에 차질을 빚고 있다. 국토교통부 관계자는 14일 "미국측 관제시스템 장애로 미주노선 항공편 출발중지 요청이 있어 항공사
+    https://kbthink.com/news-list/view.html?newsId=20261114101652579
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 26건)
 
@@ -506,6 +517,13 @@
   - 충청투데이: [충청투데이 최광현 기자] 대전신세계갤러리는 연말 기획전 ‘눈부신 순간들 : Shining Moments’을 개최한다고 12일 밝혔다. 전시는 13일부터 내년 1월 3일까지 대전신세계 Art&Science 6층 대전신세계갤러리에서 열린다.
     https://www.cctoday.co.kr/news/articleView.html?idxno=2240158
 
+### [stage] 국악버전으로 재탄생‘오페라 버섯전’
+- 매체 2곳 · 뉴스파이어 · 타임뉴스
+  - 뉴스파이어: [뉴스파이어] 대전시립연정국악원은 2026시즌공연으로 국악기가 함께하는 오페라 버섯전 을 오는 11월 19일과 20일 오후 7시 30분 국악원 큰마당에서 선보인다. 서양 오페라의 아름다운 선율에 우리 국악기의 흥겨운 가락을 더하고 조선시대 양반가의 사랑과 질투, 은밀한 비밀을 유쾌한 해
+    https://www.newsfire.co.kr/news/articleView.html?idxno=1529873
+  - 타임뉴스: 
+    https://www.timenews.co.kr/article/1751297
+
 ### [stage] 데뷔 70주년 피아니스트 백건우, 차세대와 대구·서울서 ‘백건우와 영 프렌즈’ 무대
 - 매체 2곳 · 경북매일 · 매일신문
   - 경북매일: 데뷔 70주년을 맞은 한국 클래식 음악의 거장 피아니스트 백건우(80)가 차세대 음악가들과 함께하는 특별공연 ‘백건우와 영 프렌즈’로 관객들과 만난다. ‘건반 위의 구도자’로 불리는 백건우는 오는 29일 오후 5시 대구 수성아트피아 대극장에서 후배 음악가들과 함께 앙상
@@ -538,11 +556,6 @@
     https://www.shinailbo.co.kr/news/articleView.html?idxno=5082981
   - 충남일보: [충남일보 심영운 기자] 대전시립교향악단이 오는 20일 대전시립연정국악원 작은마당에서 'DPO 클로즈업 3' 무대를 펼친다. 13일 대전시향에 따르면 DPO 클로즈업은 대전시향 단원이 중심이 돼 독주와 실내악을 선보이는 공연이다.
     https://www.chungnamilbo.co.kr/news/articleView.html?idxno=920662
-
-### [stage] 함안 무대에 오르는 베르디의 걸작…오페라 ‘라 트라비아타’ 20일 공연
-- 매체 1곳 · 글로벌이코노믹
-  - 글로벌이코노믹: 세계 오페라 애호가들에게 꾸준히 사랑받아 온 베르디의 명작 ‘라 트라비아타’가 함안에서 웅장한 무대를 선보인다. 함안문화예술회관은 오는 20일 오후 7시30분 대공연장에서 오페라 ‘라 트라비아타’를 공연한다고 밝혔다.
-    https://www.g-enews.com/article/General-News/2026/11/202611131317467037104339cca1_1
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
 (자유 이용 사진: 이름 후보 33개 확인, 사진 줄 2개)
@@ -598,19 +611,19 @@
   - 아이러브PC방: 웨이브(대표 이양기)는 지난 6일 독점 공개한 오리지널 드라마 ‘옆자리, 프란체스카(제작 MBC, CAC코퍼레이션)’가 공개 첫날 웨이브 전 장르를 통틀어 신규
     https://www.ilovepcbang.com/news/articleView.html?idxno=203289
 
+### [music] 방송·팬덤 없이 멜론 1위 찍었다…가요계 판도 흔드는 ‘AI 가수’
+- 매체 1곳 · 조세일보
+  - 조세일보: 
+    http://www.joseilbo.com/news/htmls/2026/11/20261114579637.html
+
 ### [startrip] '엑소 새 유닛' 카이·세훈, 팬콘 투어 '사일런트 시티' 개최…내년 1월 서울서 포문
 - 매체 1곳 · 엑스포츠뉴스
 - 사진(자유 이용, 카이): `![카이 · 사진 티비텐 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/f/ff/210205_%EC%B9%B4%EC%9D%B4.png)`
   - 엑스포츠뉴스: (엑스포츠뉴스 김수아 기자) 그룹 엑소(EXO)의 카이와 세훈이 새 유닛으로 뭉쳐 아시아 팬들과 만난다. 엑소의 새로운 유닛 엑소-카이세훈(EXO-KASE)은 오는 12월 1일 첫 번째 미니앨범 'Waking Up The City'(웨이킹 업 더 시티)를 발매하고, 내년 1월부터 팬콘 
     https://www.xportsnews.com/article/2219151
 
-### [drama] [이번주 뭐보지] 귀칼·문무·스누피 등 드라마&시리즈 공개
-- 매체 1곳 · 여론조사에 강한 신문- 천지일보
-  - 여론조사에 강한 신문- 천지일보: [천지일보=황해연 기자] 온라인동영상서비스(OTT)들이 다양한 드라마&시리즈 라인업을 13일 공개했다. ‘극장판 체인소 맨: 레제편’은 후지모토 타츠키의 인기 만화를 원작으로 한 ‘체인소 맨’의 첫 극장판으로 TV 애니메이션 1기 이후의 이야기를 그린다.
-    https://www.newscj.com/news/articleView.html?idxno=3448395
-
 ---
-거리 118건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 119건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -620,64 +633,64 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## CHAERYEONG(채령) “Lovesick” M/V
-- 채널 JYP Entertainment · 조회수 6,362,567회 · 4일 전
+- 채널 JYP Entertainment · 조회수 6,534,895회 · 4일 전
 - `@youtube pe-rk1ekb4w` · https://www.youtube.com/watch?v=pe-rk1ekb4w
 
 ## 천천히 강렬하게 | 공식 티저 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 1,306,020회 · 1일 전
+- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 1,437,352회 · 1일 전
 - `@youtube iEmGtIh60DE` · https://www.youtube.com/watch?v=iEmGtIh60DE
 
 ## oftheblue(오브더블루) "풍선인간" Blind Performance Video
-- 채널 JYP Entertainment · 조회수 860,238회 · 3일 전
+- 채널 JYP Entertainment · 조회수 890,549회 · 3일 전
 - `@youtube d1AknDUMAE0` · https://www.youtube.com/watch?v=d1AknDUMAE0
 
+## ENHYPEN (엔하이픈) 'I Want You' Official Teaser
+- 채널 HYBE LABELS · 조회수 865,904회 · 1일 전
+- `@youtube _pLJBPzp3Fg` · https://www.youtube.com/watch?v=_pLJBPzp3Fg
+
 ## [11화 예고] 김유정의 정체를 눈치챈 듯한 사토 부자?!😨 그리고 걸려온 의문의 전화☎
-- 채널 tvN DRAMA · 조회수 748,679회 · 5일 전
+- 채널 tvN DRAMA · 조회수 762,053회 · 5일 전
 - `@youtube d0kBID9SX6w` · https://www.youtube.com/watch?v=d0kBID9SX6w
 
 ## [10화 예고] 폭발로 아수라장이 된 조선총독부💣 과연 김유정과 구국단의 운명은?
-- 채널 tvN DRAMA · 조회수 737,591회 · 6일 전
+- 채널 tvN DRAMA · 조회수 737,625회 · 6일 전
 - `@youtube -DcsMN-bzhs` · https://www.youtube.com/watch?v=-DcsMN-bzhs
 
 ## NCT DREAM - Boogie Woogie | 1theKILLPO | Performance
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 664,518회 · 2일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 687,096회 · 2일 전
 - `@youtube HYHu_ui8t2s` · https://www.youtube.com/watch?v=HYHu_ui8t2s
 
 ## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
-- 채널 tvN DRAMA · 조회수 576,443회 · 3일 전
+- 채널 tvN DRAMA · 조회수 580,654회 · 3일 전
 - `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
 
 ## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 456,628회 · 4일 전
+- 채널 tvN DRAMA · 조회수 457,769회 · 4일 전
 - `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 니키 (NI-KI)
-- 채널 HYBE LABELS · 조회수 410,647회 · 4일 전
+- 채널 HYBE LABELS · 조회수 414,213회 · 4일 전
 - `@youtube iB3zmnG6UMs` · https://www.youtube.com/watch?v=iB3zmnG6UMs
 
-## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 제이 (JAY)
-- 채널 HYBE LABELS · 조회수 357,858회 · 6일 전
-- `@youtube oPCjiOQcxRY` · https://www.youtube.com/watch?v=oPCjiOQcxRY
-
-## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 정원 (JUNGWON)
-- 채널 HYBE LABELS · 조회수 316,762회 · 5일 전
-- `@youtube cNXeIF1dGBg` · https://www.youtube.com/watch?v=cNXeIF1dGBg
-
 ## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
-- 채널 HYBE LABELS · 조회수 308,060회 · 4일 전
+- 채널 HYBE LABELS · 조회수 309,824회 · 4일 전
 - `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
 
 ## [라이어 5회 예고] ＂당신이 이겼어＂, MBC 261113 방송
-- 채널 MBCdrama · 조회수 295,865회 · 6일 전
+- 채널 MBCdrama · 조회수 296,771회 · 6일 전
 - `@youtube HgU_TkMhXjE` · https://www.youtube.com/watch?v=HgU_TkMhXjE
 
 ## ［30회 예고］나만 위해서 그랬을 것 같니? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 278,708회 · 5일 전
+- 채널 KBS Drama · 조회수 290,750회 · 5일 전
 - `@youtube RESSBa51NL8` · https://www.youtube.com/watch?v=RESSBa51NL8
 
 ## [메이킹] 티랑이들, 힘들고 지겨울 땐 뭐다?👀 방방강쥐 임시완♥설인아 X 능글냥이 김정현♥연우 보기😍 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 226,000회 · 2일 전
+- 채널 tvN DRAMA · 조회수 228,415회 · 3일 전
 - `@youtube KakUksE913M` · https://www.youtube.com/watch?v=KakUksE913M
+
+## [나 혼자 산다 674회 예고] 수영에 도전하는 수영 꿈나무 김신영🏊 & 7개월 차 초보 자취러 연준🌱, MBC 261120 방송
+- 채널 MBCentertainment · 조회수 165,640회 · 0일 전
+- `@youtube mfJFeWmTt1Y` · https://www.youtube.com/watch?v=mfJFeWmTt1Y
 
 
 
