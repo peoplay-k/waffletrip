@@ -34,12 +34,48 @@ SETTINGS = {"stability": 0.5, "similarity_boost": 0.75,
             "style": 0.0, "use_speaker_boost": True}
 
 
+def align_path(out_path: str) -> str:
+    """나레이션 mp3 옆에 두는 글자별 시각 파일."""
+    return out_path.rsplit(".", 1)[0] + ".align.json"
+
+
 def speak(text: str, out_path: str, voice_id: str | None = None) -> str:
+    """나레이션 mp3 를 만든다. 가능하면 **글자마다 말하는 시각**도 함께 받는다.
+
+    2026-11-14 사장님: "나레이션에 맞게 자막이 나오는 형식으로". 일레븐랩스
+    with-timestamps 는 같은 값(크레딧)으로 오디오와 글자별 시작·끝 시각을 준다.
+    그 시각으로 자막을 말과 맞춘다(captions.py). 받지 못하면 오디오만 받는다 —
+    자막은 글자 수 비례로 시각을 어림한다.
+    """
     key = os.environ.get("ELEVENLABS_API_KEY", "").strip()
     if not key:
         raise SystemExit("[중단] ELEVENLABS_API_KEY 가 없습니다.")
     body = json.dumps({"text": text, "model_id": MODEL,
                        "voice_settings": SETTINGS}).encode()
+    os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
+    try:
+        req = urllib.request.Request(
+            f"{API}/{voice_id or VOICE_ID}/with-timestamps", data=body,
+            headers={"xi-api-key": key, "Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=180) as r:
+            data = json.load(r)
+        import base64
+        audio = base64.b64decode(data["audio_base64"])
+        align = data.get("alignment") or data.get("normalized_alignment")
+        if audio:
+            with open(out_path, "wb") as fh:
+                fh.write(audio)
+            if align and align.get("characters"):
+                with open(align_path(out_path), "w", encoding="utf-8") as fh:
+                    json.dump({"text": text, **align}, fh, ensure_ascii=False)
+            return out_path
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 402, 429):      # 키·크레딧·속도 문제는 다시 해도 같다
+            raise SystemExit(f"[중단] 일레븐랩스 {e.code} — {e.read().decode()[:300]}")
+        print(f"  타임스탬프 나레이션 실패({e.code}) — 오디오만 받는다", file=sys.stderr)
+    except Exception as e:      # noqa: BLE001
+        print(f"  타임스탬프 나레이션 실패({type(e).__name__}) — 오디오만 받는다", file=sys.stderr)
+
     req = urllib.request.Request(
         f"{API}/{voice_id or VOICE_ID}", data=body,
         headers={"xi-api-key": key, "Content-Type": "application/json",
@@ -49,7 +85,6 @@ def speak(text: str, out_path: str, voice_id: str | None = None) -> str:
             audio = r.read()
     except urllib.error.HTTPError as e:
         raise SystemExit(f"[중단] 일레븐랩스 {e.code} — {e.read().decode()[:300]}")
-    os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
     with open(out_path, "wb") as fh:
         fh.write(audio)
     return out_path

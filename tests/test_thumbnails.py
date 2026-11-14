@@ -74,3 +74,23 @@ def test_bgm_is_stereo_soft_and_varies_by_seed():
 def test_seed_of_is_stable():
     import editing
     assert editing.seed_of("peopleroad-guam-20261115-voiced.mp4") == editing.seed_of("peopleroad-guam-20261115-voiced.mp4")
+
+
+def test_captions_chunk_short_and_keep_titles_whole():
+    import captions
+    parts = captions.chunks("KBS2 '사랑이 온다'가 14일 밤 8시 30회를 방송한다. 무진은 놀란다.")
+    assert parts[0] == "KBS2 '사랑이 온다'가"
+    assert all(len(p) <= 20 for p in parts)
+    assert "방송한다" in parts       # 문장 끝에서 끊는다
+
+
+def test_caption_timings_follow_alignment():
+    import captions
+    text = "괌 가시는 분들, 이번 주 소식 4건입니다."
+    parts = captions.chunks(text)
+    st = [i * 0.1 for i in range(len(text))]
+    al = {"characters": list(text), "character_start_times_seconds": st}
+    times = captions.timings(text, parts, 4.0, al, 4.6)
+    second = text.index("이번")
+    assert times[0][0] == 0.0 and abs(times[1][0] - (second * 0.1 - captions.LEAD)) < 1e-6
+    assert times[-1][1] == 4.6

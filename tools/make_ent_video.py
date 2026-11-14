@@ -45,7 +45,7 @@ FONTS = ("/System/Library/Fonts/AppleSDGothicNeo.ttc",
          "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc")
 # 화면 버전. 화면 디자인을 바꾸면 올린다 — 같은 날 이미 구운 목소리판을 다시 쓰는 장치가
 # 옛 화면을 계속 쓰지 않게(2026-10-21: 사진을 넣었는데 오전 판이 재사용됐다).
-RENDERER = "2026-11-14-dissolve-bgm"
+RENDERER = "2026-11-14-talk-captions"
 MIN_ITEMS = 2          # 한 편짜리는 '오늘의 방송'이 아니다
 MAX_LONG = 8
 MAX_SHORTS = 2         # 숏폼은 하루 두 편까지 — 2026-10-16 크레딧이 바닥나 셋에서 줄였다
@@ -231,9 +231,9 @@ def script_short(item: dict) -> list[dict]:
 
 
 # ── 화면 ──────────────────────────────────────────────────────────
-def _brand(d, x, y, size):
+def _brand(d, x, y, size, ink=None):
     f = _font(size)
-    d.text((x, y), "피플로드", font=f, fill=INK)
+    d.text((x, y), "피플로드", font=f, fill=ink or INK)
     d.text((x + d.textlength("피플로드", font=f), y), ".", font=f, fill=CORAL)
     d.text((x + d.textlength("피플로드.", font=f) + 16, y + size * 0.25), "연예 · 오늘의 방송",
            font=_font(int(size * 0.6)), fill=MUTED)
@@ -289,11 +289,21 @@ def open_cover(sc: dict, size=(1920, 1080)) -> Image.Image:
                      credit=photo[1] if photo else "")
 
 
+DARK_BG = (22, 14, 34)
+DARK_INK = (246, 244, 250)
+DARK_MUTED = (184, 176, 200)
+
+
 def render_short(sc: dict) -> Image.Image:
     W, H, P = 1080, 1920, 84
-    im = Image.new("RGB", (W, H), PAPER)
+    # 어두운 바탕 — 흰 자막이 또렷하고, 흰 지면보다 영상답다(2026-11-14).
+    im = Image.new("RGB", (W, H), DARK_BG)
+    glow = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(glow).ellipse((-300, -200, W + 300, 1100), fill=90)
+    from PIL import ImageFilter
+    im = Image.composite(Image.new("RGB", (W, H), (70, 40, 110)), im, glow.filter(ImageFilter.GaussianBlur(160)))
     d = ImageDraw.Draw(im)
-    _brand(d, P, 120, 40)
+    _brand(d, P, 120, 40, DARK_INK)
     info = sc.get("info") or {}
     top = 520
     if sc.get("photo") and _paste_photo(im, d, sc["photo"], (P, 260, W - P, 960), 26):
@@ -304,20 +314,20 @@ def render_short(sc: dict) -> Image.Image:
         label = "오늘 방송" if not info.get("day") or info.get("day") == today_md else f"{info['day']} 방송"
         d.text((P, top), label, font=_font(48), fill=CORAL)
         d.text((P, top + 70), " · ".join(x for x in (info.get("channel"), info.get("when")) if x),
-               font=_font(56), fill=MUTED)
+               font=_font(56), fill=DARK_MUTED)
         y = top + 180
         for line in _wrap(d, sc["title"], _font(84), W - P * 2, 5 if top == 520 else 3):
-            d.text((P, y), line, font=_font(84), fill=INK)
+            d.text((P, y), line, font=_font(84), fill=DARK_INK)
             y += 112
     elif sc["kind"] == "s_line":
         d.text((P, top), info.get("program", ""), font=_font(48), fill=CORAL)
         y = top + 100
         for line in _wrap(d, sc["line"], _font(72), W - P * 2, 7 if top == 520 else 4):
-            d.text((P, y), line, font=_font(72), fill=INK)
+            d.text((P, y), line, font=_font(72), fill=DARK_INK)
             y += 100
     else:
-        d.text((P, 760), "피플로드 연예", font=_font(96), fill=INK)
-        d.text((P, 900), f"{DOMAIN}/ent/tv", font=_font(48), fill=MUTED)
+        d.text((P, 760), "피플로드 연예", font=_font(96), fill=DARK_INK)
+        d.text((P, 900), f"{DOMAIN}/ent/tv", font=_font(48), fill=DARK_MUTED)
         d.line([(P, 1000), (P + 160, 1000)], fill=CORAL, width=8)
     # 세 플랫폼 모두 아래쪽을 UI 로 덮는다 — 글자는 위에만 둔다.
     return im
@@ -343,26 +353,43 @@ def bake(scenes: list[dict], render, size: tuple[int, int], out: str, voiced: bo
     clips, total = [], 0.0
     for n, sc in enumerate(scenes):
         frame = os.path.join(work, f"f{n:02d}.png")
-        render(sc).save(frame)
+        # 세로 숏폼의 문장 장면은 글을 바탕에 깔지 않고, 말에 맞춰 자막으로 띄운다(2026-11-14).
+        talk = size[1] > size[0] and sc["kind"] == "s_line"
+        render({**sc, "line": ""} if talk else sc).save(frame)
         clip = os.path.join(work, f"c{n:02d}.mp4")
+        mp3 = None
         if voiced:
             from narrate import ENT_VOICE_ID, speak
             mp3 = os.path.join(work, f"a{n:02d}.mp3")
             speak(sc["narration"], mp3, voice_id=ENT_VOICE_ID)
             secs = _secs_of(ff, mp3) + TAIL
-            vf = motion_filter(n, secs, size[0], size[1], 25, 0.05, 1.5)
-            subprocess.run([ff, "-y", "-loglevel", "error", "-i", frame, "-i", mp3,
-                            "-filter_complex", f"[1:a]apad=pad_dur={TAIL},aresample=44100[a];[0:v]{vf}[v]",
-                            "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium",
-                            "-crf", "22", "-c:a", "aac", "-b:a", "128k", "-t", f"{secs:.2f}", clip],
-                           check=True)
         else:
             secs = max(READ_FLOOR, len(sc["narration"]) / READ_CPS + READ_LEAD)
-            vf = motion_filter(n, secs, size[0], size[1], 25, 0.05, 1.5)
-            subprocess.run([ff, "-y", "-loglevel", "error", "-i", frame,
-                            "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
-                            "-vf", vf, "-c:v", "libx264", "-preset", "medium", "-crf", "22",
-                            "-c:a", "aac", "-shortest", "-t", f"{secs:.2f}", clip], check=True)
+        caps = []
+        if talk:
+            from captions import load_align, scene_captions
+            caps = scene_captions(sc["narration"], secs - TAIL, secs, work, f"{n:02d}",
+                                  load_align(mp3) if mp3 else None, width=size[0])
+        has_photo = bool(sc.get("photo")) and fetch_photo(sc["photo"]["url"]) is not None
+        args = [ff, "-y", "-loglevel", "error", "-i", frame]
+        for path, _a, _b in caps:
+            args += ["-loop", "1", "-framerate", "25", "-t", f"{secs:.2f}", "-i", path]
+        flt = f"[0:v]{motion_filter(n, secs, size[0], size[1], 25, 0.05, 1.5)}[bg]"
+        from captions import overlay_filter
+        over, last = overlay_filter("[bg]", caps, 1, 1330 if has_photo else 1000)
+        if over:
+            flt += ";" + over
+        ai = len(caps) + 1
+        if mp3:
+            args += ["-i", mp3]
+            flt += f";[{ai}:a]apad=pad_dur={TAIL},aresample=44100[a]"
+        else:
+            args += ["-f", "lavfi", "-t", f"{secs:.2f}", "-i", "anullsrc=r=44100:cl=stereo"]
+            flt += f";[{ai}:a]anull[a]"
+        args += ["-filter_complex", flt, "-map", last, "-map", "[a]",
+                 "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-pix_fmt", "yuv420p",
+                 "-c:a", "aac", "-b:a", "128k", "-t", f"{secs:.2f}", clip]
+        subprocess.run(args, check=True)
         clips.append(clip)
         total += secs
     os.makedirs(os.path.dirname(out) or ".", exist_ok=True)

@@ -369,7 +369,7 @@ def render(scene: dict) -> Image.Image:
     ph = scene.get("photo")
     if scene["kind"] == "open":
         return short_cover(scene["name"], scene["count"], scene.get("hook", ""), ph,
-                           period=scene.get("period", "이번 주"))
+                           scene.get("seconds"), period=scene.get("period", "이번 주"))
     if scene["kind"] == "close":
         return card_close(ph)
     return card_fact(scene["n"], scene["total"], scene["headline"],
@@ -508,6 +508,73 @@ def motion(n: int, secs: float) -> str:
     return motion_filter(n, secs, W, H, FPS, ZOOM)
 
 
+# ── 말 자막 장면 (2026-11-14) ─────────────────────────────────────────
+CAP_Y = 1250            # 자막 덩어리의 가운데. 아래 UI(안전선 1500) 위, 화면 3분의 2 지점
+
+
+def card_scene(scene: dict, place: str, n_facts: int) -> Image.Image:
+    """자막이 얹힐 바탕. 사진을 크게, 위에 진행 막대와 지명 머리표만.
+
+    문장은 바탕에 쓰지 않는다 — 말에 맞춰 자막으로 뜬다.
+    """
+    from thumbnails import accent_for, cover, shade
+    img = cover(scene.get("photo"), (W, H), 0.4)
+    img = shade(img, "bottom", start=0.45, strength=215)
+    img = shade(img, "top", start=0.78, strength=150)
+    d = ImageDraw.Draw(img)
+    # 진행 막대 — 몇 번째 소식인지 한눈에
+    done = scene.get("n", n_facts) if scene["kind"] == "fact" else n_facts
+    gap, x0, x1, y = 10, PAD, W - PAD, 70
+    seg = (x1 - x0 - gap * (n_facts - 1)) / max(n_facts, 1)
+    for i in range(n_facts):
+        a = x0 + i * (seg + gap)
+        d.rounded_rectangle((a, y, a + seg, y + 8), radius=4,
+                            fill=(255, 255, 255) if i < done else (110, 110, 115))
+    if scene["kind"] == "fact":
+        box_lines(img, (PAD, 130), [place], bold(54), accent_for(place), T_BLACK, angle=-2.0, pad=(18, 2))
+        w = ImageDraw.Draw(img).textlength(place, font=bold(54)) + 36 + 30
+        soft_shadow_text(img, (PAD + w, 140), f"{scene.get('period', '이번 주')} 소식 {scene['n']}/{scene['total']}",
+                         bold(44))
+    else:   # 맺음
+        box_lines(img, (PAD, 150), ["매일 아침 8시"], bold(76), T_WHITE, T_BLACK, angle=-2.0, pad=(24, 4))
+        soft_shadow_text(img, (PAD + 6, 290), DOMAIN, bold(52))
+    return img
+
+
+def make_clip(ff: str, scene: dict, n: int, secs: float, work: str, place: str, n_facts: int,
+              mp3: str | None = None, speech: float | None = None, tail: float = 0.6,
+              text: str | None = None) -> str:
+    """장면 하나: 사진 줌 + 말에 맞춘 자막(+나레이션). 여는 장면은 표지 그대로."""
+    import subprocess
+    from captions import load_align, overlay_filter, scene_captions
+    frame = os.path.join(work, f"f{n:02d}.png")
+    if scene["kind"] == "open":
+        render(scene).save(frame)
+        caps = []
+    else:
+        card_scene(scene, place, n_facts).save(frame)
+        caps = scene_captions(text or scene["narration"], speech or secs, secs, work, f"{n:02d}",
+                              load_align(mp3) if mp3 else None)
+    clip = os.path.join(work, f"c{n:02d}.mp4")
+    args = [ff, "-y", "-loglevel", "error", "-i", frame]
+    for path, _a, _b in caps:
+        args += ["-loop", "1", "-framerate", str(FPS), "-t", f"{secs:.2f}", "-i", path]
+    flt = f"[0:v]{motion(n, secs)}[bg]"
+    over, last = overlay_filter("[bg]", caps, 1, CAP_Y)
+    if over:
+        flt += ";" + over
+    if mp3:
+        args += ["-i", mp3]
+        flt += f";[{len(caps) + 1}:a]apad=pad_dur={tail},aresample=44100[a]"
+    args += ["-filter_complex", flt, "-map", last]
+    if mp3:
+        args += ["-map", "[a]", "-c:a", "aac", "-b:a", "128k"]
+    args += ["-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p",
+             "-t", f"{secs:.2f}", clip]
+    subprocess.run(args, check=True)
+    return clip
+
+
 def build_voiced(city: str, out_dir: str) -> str:
     """나레이션을 얹은 숏폼. 장면 길이를 **말하는 길이**에 맞춘다.
 
@@ -524,6 +591,8 @@ def build_voiced(city: str, out_dir: str) -> str:
     scenes = build(city)
     ff = imageio_ffmpeg.get_ffmpeg_exe()
     work = tempfile.mkdtemp(prefix="waffle-voiced-")
+    place = scenes[0]["name"]
+    n_facts = sum(1 for sc in scenes if sc["kind"] == "fact")
     TAIL = 0.6                      # 말끝에 두는 숨(초)
 
     parts, total = [], 0.0
@@ -535,19 +604,8 @@ def build_voiced(city: str, out_dir: str) -> str:
         secs = ((int(m.group(1)) * 3600 + int(m.group(2)) * 60 + float(m.group(3)))
                 if m else 4.0) + TAIL
         total += secs
-
-        frame = os.path.join(work, f"f{n:02d}.png")
-        render(scene).save(frame)
-        clip = os.path.join(work, f"c{n:02d}.mp4")
-        subprocess.run([
-            ff, "-y", "-loglevel", "error", "-i", frame, "-i", mp3,
-            "-filter_complex",
-            f"[1:a]apad=pad_dur={TAIL},aresample=44100[a];"
-            f"[0:v]{motion(n, secs)}[v]",
-            "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium",
-            "-crf", "23", "-c:a", "aac", "-b:a", "128k", "-t", f"{secs:.2f}", clip,
-        ], check=True)
-        parts.append(clip)
+        parts.append(make_clip(ff, scene, n, secs, work, place, n_facts, mp3=mp3,
+                               speech=secs - TAIL, tail=TAIL))
 
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, f"{stem_of(city)}-voiced.mp4")
@@ -605,17 +663,13 @@ def build_silent(city: str, out_dir: str) -> str:
     from editing import FADE
     total_sec = sum(durations) - FADE * (len(durations) - 1)   # 디졸브로 겹치는 만큼 짧아진다
     parts = []
+    place = scenes[0]["name"]
+    n_facts = sum(1 for sc in scenes if sc["kind"] == "fact")
     for n, scene in enumerate(scenes):
-        frame = os.path.join(work, f"f{n:02d}.png")
-        render_silent(scene, round(total_sec)).save(frame)
-        seconds = durations[n]
-        clip = os.path.join(work, f"c{n:02d}.mp4")
-        subprocess.run([
-            ff, "-y", "-loglevel", "error", "-i", frame,
-            "-t", str(seconds), "-vf", motion(n, seconds),
-            "-c:v", "libx264", "-preset", "medium", "-crf", "23", clip,
-        ], check=True)
-        parts.append(clip)
+        if scene["kind"] == "open":
+            scene = {**scene, "seconds": round(total_sec)}
+        parts.append(make_clip(ff, scene, n, durations[n], work, place, n_facts,
+                               speech=durations[n] - 0.6, text=silent_text(scene)))
 
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, f"{stem_of(city)}-silent.mp4")
