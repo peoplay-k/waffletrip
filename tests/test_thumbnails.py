@@ -6,10 +6,17 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(
 
 from PIL import Image  # noqa: E402
 
+import pytest  # noqa: E402
+
 import publish_youtube as yt  # noqa: E402
 import thumbnails as th  # noqa: E402
 
+# 굵은 한글 폰트가 있어야 그릴 수 있다. CI 는 테스트를 폰트 설치(영상 만들기) 전에 돌린다.
+needs_font = pytest.mark.skipif(not any(os.path.exists(p) for p, _ in th._BOLD),
+                                reason="굵은 한글 폰트 없음(fonts-noto-cjk)")
 
+
+@needs_font
 def test_short_cover_is_vertical_and_fits_youtube_limit(tmp_path):
     img = th.short_cover("괌", 4, "괌 정부관광청, 겨울 성수기 맞아 직항 늘린다", None, 38)
     assert img.size == (1080, 1920)
@@ -17,6 +24,7 @@ def test_short_cover_is_vertical_and_fits_youtube_limit(tmp_path):
     assert os.path.getsize(path) <= 2_000_000
 
 
+@needs_font
 def test_long_and_ent_thumbs_are_16_9(tmp_path):
     long = th.long_thumb(["괌", "사이판", "하와이"], 9, [])
     assert long.size == (1280, 720)
@@ -53,6 +61,7 @@ def test_photo_history_puts_recent_photos_last(tmp_path):
     assert set(ph.history(path)) == {"a.jpg", "b.jpg"}
 
 
+@needs_font
 def test_short_cover_has_three_layouts():
     imgs = [th.short_cover("괌", 4, "괌 소식…덧붙임", None, variant=v) for v in range(3)]
     assert len({im.tobytes() for im in imgs}) == 3
