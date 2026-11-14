@@ -29,7 +29,7 @@ from PIL import Image, ImageDraw, ImageFont  # noqa: E402
 from src.brand import DOMAIN, SITE_URL  # noqa: E402 — 정본은 brand.py
 from src.models import REGION_NAMES  # noqa: E402
 from motion import motion_filter  # noqa: E402
-from thumbnails import (BLACK, WHITE, accent_for, box_lines, cover, fit_lines,  # noqa: E402
+from thumbnails import (BLACK, WHITE, YELLOW, accent_for, box_lines, cover, fit_lines,  # noqa: E402
                         long_thumb, save_jpg, shade, soft_shadow_text, wrap)
 from thumbnails import font as bold  # noqa: E402
 
@@ -75,12 +75,13 @@ def _find_font() -> str:
 FONT = _find_font()
 PAD = 132
 
-# 사이트와 같은 색을 쓴다. 영상만 다른 색이면 같은 매체로 보이지 않는다.
-INK = (14, 14, 15)
-PAPER = (250, 250, 249)
-CORAL = (240, 78, 55)
-MUTED = (110, 110, 115)
-LINE = (225, 225, 220)
+# 짙은 남색 화면(2026-11-14). 흰 지면 카드는 사진·자막 장면 사이에서 튀고 영상답지 않았다.
+# 강조색(코랄)은 사이트와 같게 둔다.
+INK = (244, 246, 250)
+PAPER = (16, 24, 42)
+CORAL = (255, 120, 96)
+MUTED = (170, 180, 198)
+LINE = (52, 64, 92)
 
 # 한 편에 담을 지역. 한국인이 많이 가는 곳부터.
 ORDER = ["japan", "vietnam", "thailand", "taiwan", "jeju",
@@ -121,6 +122,11 @@ def _wrap(draw, text: str, font, max_w: int) -> list[str]:
 
 def _base() -> tuple[Image.Image, ImageDraw.ImageDraw]:
     img = Image.new("RGB", (W, H), PAPER)
+    glow = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(glow).ellipse((-400, -500, W + 400, 700), fill=110)
+    from PIL import ImageFilter
+    img = Image.composite(Image.new("RGB", (W, H), (44, 70, 120)), img,
+                          glow.filter(ImageFilter.GaussianBlur(220)))
     d = ImageDraw.Draw(img)
     # 제호는 늘 같은 자리에. 어느 장면을 캡처해도 매체를 알 수 있어야 한다.
     brand = _f(34)
@@ -174,7 +180,7 @@ def card_story(headline: str, summary: str, outlet: str, n: int,
     return img
 
 
-def photo_section(name: str, count: int, photo: str) -> Image.Image:
+def photo_section(name: str, count: int, photo: str | None) -> Image.Image:
     """지역 장면 — 사진을 꽉 채우고 지명을 기울인 색 상자로."""
     img = shade(cover(photo, (W, H), 0.5), "bottom", start=0.45, strength=190)
     soft_shadow_text(img, (PAD, 64), "피플로드", bold(34))
@@ -205,6 +211,58 @@ def photo_story(headline: str, summary: str, outlet: str, n: int, total: int,
     if outlet:
         d.text((PAD, H - 70), f"출처 · {outlet}", font=_f(28), fill=(220, 222, 226))
     return img
+
+
+def talk_story(headline: str, outlet: str, n: int, total: int,
+               photo: str | None = None) -> Image.Image:
+    """말 자막 장면의 바탕(2026-11-14). 요약 문장은 쓰지 않는다 — 말에 맞춰 자막으로 뜬다.
+
+    위에는 기사 제목을 작은 상자로 걸어, 지금 무슨 소식인지 화면만 봐도 알게 한다.
+    """
+    if photo:
+        img = shade(cover(photo, (W, H), 0.45), "bottom", start=0.45, strength=225)
+        img = shade(img, "top", start=0.70, strength=160)
+    else:
+        img = Image.new("RGB", (W, H), (16, 24, 42))
+        glow = Image.new("L", (W, H), 0)
+        ImageDraw.Draw(glow).ellipse((-400, -500, W + 400, 700), fill=110)
+        from PIL import ImageFilter
+        img = Image.composite(Image.new("RGB", (W, H), (44, 70, 120)), img,
+                              glow.filter(ImageFilter.GaussianBlur(220)))
+    d = ImageDraw.Draw(img)
+    soft_shadow_text(img, (PAD, 56), "피플로드", bold(34))
+    soft_shadow_text(img, (W - PAD - 120, 56), f"{n} / {total}", bold(34))
+    head, hf = fit_lines(d, headline, W - PAD * 2 - 200, 2, (54, 50, 46))
+    if photo:
+        box_lines(img, (PAD, 130), head, hf, WHITE, BLACK, pad=(22, 6))
+    else:
+        box_lines(img, (PAD, 300), head, bold(66) if len(head) == 1 else hf, YELLOW, BLACK,
+                  angle=-1.0, pad=(26, 6))
+    if outlet:
+        d.text((PAD, H - 56), f"출처 · {outlet}", font=_f(26), fill=(205, 208, 214))
+    return img
+
+
+LF_CAP = dict(width=W, max_chars=24, size=66)
+LF_CAP_Y = 905          # 가로 화면 자막 자리(아래 3분의 1)
+
+
+def scene_clip(ff: str, scene: dict, n: int, secs: float, work: str,
+               mp3: str | None = None, tail: float = 0.6) -> str:
+    """장면 하나. 기사 장면은 말 자막, 나머지(표지·데이터·지역·맺음)는 화면 그대로."""
+    from captions import load_align, scene_captions, talk_clip
+    frame = os.path.join(work, f"f{n:02d}.png")
+    caps = []
+    if scene["kind"] == "story":
+        talk_story(scene["headline"], scene.get("outlet", ""), scene["n"], scene["total"],
+                   scene.get("photo")).save(frame)
+        caps = scene_captions(scene["narration"], secs - tail, secs, work, f"{n:02d}",
+                              load_align(mp3) if mp3 else None, **LF_CAP)
+    else:
+        render(scene).save(frame)
+    vf = motion_filter(n, secs, W, H, 25, LF_ZOOM, 1.5)
+    return talk_clip(ff, frame, caps, secs, vf, os.path.join(work, f"c{n:02d}.mp4"),
+                     LF_CAP_Y, mp3=mp3, tail=tail)
 
 
 def card_data(rows: list[tuple[str, str]]) -> Image.Image:
@@ -410,10 +468,8 @@ def render(scene: dict) -> Image.Image:
         return cover_image(scene)
     if kind == "title":
         return card_title(scene["headline"], scene["sub"])
-    if kind == "section" and scene.get("photo"):
-        return photo_section(scene["name"], scene["count"], scene["photo"])
-    if kind == "section":
-        return card_section(scene["name"], scene["count"])
+    if kind == "section":       # 사진이 없으면 짙은 남색 바탕에 같은 지명 상자
+        return photo_section(scene["name"], scene["count"], scene.get("photo"))
     if kind == "story" and scene.get("photo"):
         return photo_story(scene["headline"], scene.get("summary", ""), scene.get("outlet", ""),
                            scene["n"], scene["total"], scene["photo"])
@@ -574,18 +630,7 @@ def build_voiced(scenes: list[dict], out_dir: str,
         secs = ((int(m.group(1)) * 3600 + int(m.group(2)) * 60 + float(m.group(3)))
                 if m else 4.0) + TAIL
         total += secs
-        frame = os.path.join(work, f"f{n:02d}.png")
-        render(scene).save(frame)
-        clip = os.path.join(work, f"c{n:02d}.mp4")
-        subprocess.run([
-            ff, "-y", "-loglevel", "error", "-i", frame, "-i", mp3,
-            "-filter_complex",
-            f"[1:a]apad=pad_dur={TAIL},aresample=44100[a];"
-            f"[0:v]{motion_filter(n, secs, W, H, 25, LF_ZOOM, 1.5)}[v]",
-            "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium",
-            "-crf", "22", "-c:a", "aac", "-b:a", "128k", "-t", f"{secs:.2f}", clip,
-        ], check=True)
-        clips.append(clip)
+        clips.append(scene_clip(ff, scene, n, secs, work, mp3=mp3, tail=TAIL))
     if not clips:
         raise RuntimeError("읽을 장면이 없다")
 
@@ -594,7 +639,7 @@ def build_voiced(scenes: list[dict], out_dir: str,
     from editing import FADE, add_bgm, join, seed_of
     join(ff, clips, out, audio=True, crf="22")
     total -= FADE * (len(clips) - 1)
-    add_bgm(ff, out, seed_of(name + datetime.now(KST).strftime("%Y%m%d")))
+    add_bgm(ff, out, seed_of(name + datetime.now(KST).strftime("%Y%m%d")), kind="travel")
     poster = out.rsplit(".", 1)[0] + ".jpg"
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
@@ -615,16 +660,7 @@ def build_silent(scenes: list[dict], out_dir: str,
     durations = [read_seconds(screen_text(sc)) for sc in scenes]
     clips = []
     for n, scene in enumerate(scenes):
-        frame = os.path.join(work, f"f{n:02d}.png")
-        render(scene).save(frame)
-        clip = os.path.join(work, f"c{n:02d}.mp4")
-        subprocess.run([
-            ff, "-y", "-loglevel", "error", "-i", frame,
-            "-t", f"{durations[n]:.2f}",
-            "-vf", motion_filter(n, durations[n], W, H, 25, LF_ZOOM, 1.5),
-            "-c:v", "libx264", "-preset", "medium", "-crf", "22", clip,
-        ], check=True)
-        clips.append(clip)
+        clips.append(scene_clip(ff, scene, n, durations[n], work))
 
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, f"{name}.mp4")

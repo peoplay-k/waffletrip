@@ -94,3 +94,14 @@ def test_caption_timings_follow_alignment():
     second = text.index("이번")
     assert times[0][0] == 0.0 and abs(times[1][0] - (second * 0.1 - captions.LEAD)) < 1e-6
     assert times[-1][1] == 4.6
+
+
+def test_music_tracks_prefers_kind_folder(tmp_path):
+    import editing
+    (tmp_path / "travel").mkdir()
+    (tmp_path / "travel" / "a.mp3").write_bytes(b"x")
+    (tmp_path / "b.mp3").write_bytes(b"x")
+    (tmp_path / "README.md").write_text("x")
+    assert [os.path.basename(p) for p in editing.music_tracks("travel", str(tmp_path))] == ["a.mp3"]
+    assert sorted(os.path.basename(p) for p in editing.music_tracks("ent", str(tmp_path))) == ["a.mp3", "b.mp3"]
+    assert editing.music_tracks("travel", str(tmp_path / "nope")) == []

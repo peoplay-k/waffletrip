@@ -239,19 +239,35 @@ def _brand(d, x, y, size, ink=None):
            font=_font(int(size * 0.6)), fill=MUTED)
 
 
+DARK_BG = (22, 14, 34)
+DARK_INK = (246, 244, 250)
+DARK_MUTED = (184, 176, 200)
+
+
+def _dark_bg(w: int, h: int) -> Image.Image:
+    """짙은 보라 바탕에 위쪽만 은은하게 밝힌다 — 흰 지면보다 영상답고 흰 자막이 또렷하다."""
+    from PIL import ImageFilter
+    im = Image.new("RGB", (w, h), DARK_BG)
+    glow = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(glow).ellipse((-w // 4, -h // 3, w + w // 4, int(h * 0.6)), fill=90)
+    return Image.composite(Image.new("RGB", (w, h), (70, 40, 110)), im,
+                           glow.filter(ImageFilter.GaussianBlur(min(w, h) // 7)))
+
+
 def render_long(sc: dict) -> Image.Image:
     W, H, P = 1920, 1080, 132
-    im = Image.new("RGB", (W, H), PAPER)
+    im = _dark_bg(W, H)
     d = ImageDraw.Draw(im)
-    _brand(d, P, 64, 34)
-    d.line([(P, H - 96), (W - P, H - 96)], fill=LINE, width=2)
-    d.text((P, H - 78), DOMAIN, font=_font(26), fill=MUTED)
+    _brand(d, P, 64, 34, DARK_INK)
+    if not sc.get("talk"):     # 말 자막 장면은 아래를 자막 자리로 비운다
+        d.line([(P, H - 96), (W - P, H - 96)], fill=(70, 60, 90), width=2)
+        d.text((P, H - 78), DOMAIN, font=_font(26), fill=DARK_MUTED)
     if sc["kind"] == "open" and "programs" in sc:
         return open_cover(sc, (W, H))
     if sc["kind"] == "open":
         d.text((P, 360), sc["date"], font=_font(48), fill=CORAL)
-        d.text((P, 430), "오늘의 방송", font=_font(150), fill=INK)
-        d.text((P, 640), f"피플로드가 미리 본 {sc['count']}편", font=_font(48), fill=MUTED)
+        d.text((P, 430), "오늘의 방송", font=_font(150), fill=DARK_INK)
+        d.text((P, 640), f"피플로드가 미리 본 {sc['count']}편", font=_font(48), fill=DARK_MUTED)
     elif sc["kind"] == "story":
         info = sc["info"]
         text_w = W - P * 2
@@ -260,18 +276,18 @@ def render_long(sc: dict) -> Image.Image:
             text_w = W - P * 2 - 660
         d.text((P, 190), f"{sc['n']:02d} / {sc['total']:02d}", font=_font(32), fill=CORAL)
         tag = " · ".join(x for x in (info["channel"], info["when"], info["episode"]) if x)
-        d.text((P, 240), tag, font=_font(40), fill=MUTED)
+        d.text((P, 240), tag, font=_font(40), fill=DARK_MUTED)
         y = 320
         for line in _wrap(d, sc["title"], _font(68), text_w, 4):
-            d.text((P, y), line, font=_font(68), fill=INK)
+            d.text((P, y), line, font=_font(68), fill=DARK_INK)
             y += 92
         y += 30
-        for line in _wrap(d, sc["summary"], _font(40), text_w, 5):
-            d.text((P, y), line, font=_font(40), fill=MUTED)
+        for line in ([] if sc.get("talk") else _wrap(d, sc["summary"], _font(40), text_w, 5)):
+            d.text((P, y), line, font=_font(40), fill=DARK_MUTED)
             y += 58
     else:
-        d.text((P, 420), "자세한 이야기는", font=_font(56), fill=MUTED)
-        d.text((P, 500), f"{DOMAIN}/ent/tv", font=_font(96), fill=INK)
+        d.text((P, 420), "자세한 이야기는", font=_font(56), fill=DARK_MUTED)
+        d.text((P, 500), f"{DOMAIN}/ent/tv", font=_font(96), fill=DARK_INK)
         d.line([(P, 640), (P + 160, 640)], fill=CORAL, width=8)
     return im
 
@@ -289,19 +305,10 @@ def open_cover(sc: dict, size=(1920, 1080)) -> Image.Image:
                      credit=photo[1] if photo else "")
 
 
-DARK_BG = (22, 14, 34)
-DARK_INK = (246, 244, 250)
-DARK_MUTED = (184, 176, 200)
-
-
 def render_short(sc: dict) -> Image.Image:
     W, H, P = 1080, 1920, 84
     # 어두운 바탕 — 흰 자막이 또렷하고, 흰 지면보다 영상답다(2026-11-14).
-    im = Image.new("RGB", (W, H), DARK_BG)
-    glow = Image.new("L", (W, H), 0)
-    ImageDraw.Draw(glow).ellipse((-300, -200, W + 300, 1100), fill=90)
-    from PIL import ImageFilter
-    im = Image.composite(Image.new("RGB", (W, H), (70, 40, 110)), im, glow.filter(ImageFilter.GaussianBlur(160)))
+    im = _dark_bg(W, H)
     d = ImageDraw.Draw(im)
     _brand(d, P, 120, 40, DARK_INK)
     info = sc.get("info") or {}
@@ -354,8 +361,9 @@ def bake(scenes: list[dict], render, size: tuple[int, int], out: str, voiced: bo
     for n, sc in enumerate(scenes):
         frame = os.path.join(work, f"f{n:02d}.png")
         # 세로 숏폼의 문장 장면은 글을 바탕에 깔지 않고, 말에 맞춰 자막으로 띄운다(2026-11-14).
-        talk = size[1] > size[0] and sc["kind"] == "s_line"
-        render({**sc, "line": ""} if talk else sc).save(frame)
+        vertical = size[1] > size[0]
+        talk = sc["kind"] == ("s_line" if vertical else "story")
+        render(({**sc, "line": ""} if vertical else {**sc, "talk": True}) if talk else sc).save(frame)
         clip = os.path.join(work, f"c{n:02d}.mp4")
         mp3 = None
         if voiced:
@@ -368,15 +376,17 @@ def bake(scenes: list[dict], render, size: tuple[int, int], out: str, voiced: bo
         caps = []
         if talk:
             from captions import load_align, scene_captions
+            cap_opts = {} if vertical else {"max_chars": 26, "size": 64}
             caps = scene_captions(sc["narration"], secs - TAIL, secs, work, f"{n:02d}",
-                                  load_align(mp3) if mp3 else None, width=size[0])
+                                  load_align(mp3) if mp3 else None, width=size[0], **cap_opts)
         has_photo = bool(sc.get("photo")) and fetch_photo(sc["photo"]["url"]) is not None
         args = [ff, "-y", "-loglevel", "error", "-i", frame]
         for path, _a, _b in caps:
             args += ["-loop", "1", "-framerate", "25", "-t", f"{secs:.2f}", "-i", path]
         flt = f"[0:v]{motion_filter(n, secs, size[0], size[1], 25, 0.05, 1.5)}[bg]"
         from captions import overlay_filter
-        over, last = overlay_filter("[bg]", caps, 1, 1330 if has_photo else 1000)
+        y_cap = (1330 if has_photo else 1000) if vertical else 960
+        over, last = overlay_filter("[bg]", caps, 1, y_cap)
         if over:
             flt += ";" + over
         ai = len(caps) + 1
@@ -397,7 +407,7 @@ def bake(scenes: list[dict], render, size: tuple[int, int], out: str, voiced: bo
     join(ff, clips, out, audio=True, crf="22")
     total -= FADE * (len(clips) - 1)
     if voiced:
-        add_bgm(ff, out, seed_of(os.path.basename(out)))
+        add_bgm(ff, out, seed_of(os.path.basename(out)), kind="ent")
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "1", "-i", out,
                     "-frames:v", "1", "-q:v", "3", out.rsplit(".", 1)[0] + ".jpg"], check=True)
     return round(total, 1)

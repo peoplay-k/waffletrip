@@ -161,16 +161,17 @@ def render(text: str, width: int = 1080, size: int = CAP_SIZE, pad: int = 70) ->
 
 
 def scene_captions(text: str, speech_secs: float, scene_secs: float, work: str, tag: str,
-                   align: dict | None = None, width: int = 1080) -> list[tuple[str, float, float]]:
-    """자막 그림 파일과 보일 구간 목록."""
-    parts = chunks(text)
+                   align: dict | None = None, width: int = 1080, max_chars: int = MAX_CHARS,
+                   size: int = CAP_SIZE) -> list[tuple[str, float, float]]:
+    """자막 그림 파일과 보일 구간 목록. 가로 영상은 width·max_chars·size 를 키워 부른다."""
+    parts = chunks(text, max_chars)
     if not parts:
         return []
     times = timings(text, parts, speech_secs, align, scene_secs)
     out = []
     for k, (p, (a, b)) in enumerate(zip(parts, times)):
         path = os.path.join(work, f"cap_{tag}_{k:02d}.png")
-        render(p, width).save(path)
+        render(p, width, size, pad=70 if width <= 1080 else 160).save(path)
         out.append((path, a, b))
     return out
 
@@ -187,3 +188,32 @@ def overlay_filter(base: str, caps: list[tuple[str, float, float]], first_input:
                      f"enable='between(t,{a:.3f},{b:.3f})'{nxt}")
         cur = nxt
     return ";".join(parts), cur
+
+
+def talk_clip(ff: str, frame: str, caps: list[tuple[str, float, float]], secs: float, vf: str,
+              out: str, y_center: int, mp3: str | None = None, tail: float = 0.6, fps: int = 25,
+              silence: bool = False, crf: str = "22") -> str:
+    """바탕 그림(줌) + 자막 + 나레이션으로 장면 클립 하나. silence 면 무음 트랙을 단다."""
+    import subprocess
+    args = [ff, "-y", "-loglevel", "error", "-i", frame]
+    for path, _a, _b in caps:
+        args += ["-loop", "1", "-framerate", str(fps), "-t", f"{secs:.2f}", "-i", path]
+    flt = f"[0:v]{vf}[bg]"
+    over, last = overlay_filter("[bg]", caps, 1, y_center)
+    if over:
+        flt += ";" + over
+    ai = len(caps) + 1
+    amap = []
+    if mp3:
+        args += ["-i", mp3]
+        flt += f";[{ai}:a]apad=pad_dur={tail},aresample=44100[a]"
+        amap = ["-map", "[a]", "-c:a", "aac", "-b:a", "128k"]
+    elif silence:
+        args += ["-f", "lavfi", "-t", f"{secs:.2f}", "-i", "anullsrc=r=44100:cl=stereo"]
+        flt += f";[{ai}:a]anull[a]"
+        amap = ["-map", "[a]", "-c:a", "aac", "-b:a", "128k"]
+    args += ["-filter_complex", flt, "-map", last, *amap,
+             "-c:v", "libx264", "-preset", "medium", "-crf", crf, "-pix_fmt", "yuv420p",
+             "-t", f"{secs:.2f}", out]
+    subprocess.run(args, check=True)
+    return out

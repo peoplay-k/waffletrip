@@ -612,7 +612,7 @@ def build_voiced(city: str, out_dir: str) -> str:
     from editing import FADE, add_bgm, join, seed_of
     join(ff, parts, out, audio=True)
     total -= FADE * (len(parts) - 1)
-    add_bgm(ff, out, seed_of(os.path.basename(out)))
+    add_bgm(ff, out, seed_of(os.path.basename(out)), kind="travel")
     poster = out.rsplit(".", 1)[0] + ".jpg"
     subprocess.run([ff, "-y", "-loglevel", "error", "-ss", "0.5", "-i", out,
                     "-frames:v", "1", "-q:v", "3", poster], check=True)
