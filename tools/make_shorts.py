@@ -206,6 +206,7 @@ def is_korean(text: str) -> bool:
     return ko / len(letters) >= 0.5
 
 
+WIDE_DAYS = 14          # 이번 주 기사가 모자랄 때 넓혀 보는 기간
 MIN_PHOTOS = 5          # 장면 수만큼은 있어야 같은 사진이 반복되지 않는다
 
 
@@ -287,15 +288,23 @@ def build(city: str) -> list[dict]:
             f"{name} 은(는) 쓸 사진이 {len(photos)}장뿐이라 영상을 만들지 않는다.\n"
             f"  글자만 넘어가는 영상은 릴스가 아니고, 같은 사진을 돌려쓰면\n"
             f"  그것대로 티가 난다. NAS 에서 더 캐면 그때 생긴다.")
-    facts = own_facts(load_items(), region, city, name)
+    items = load_items()
+    facts, period = own_facts(items, region, city, name), "이번 주"
+    if len(facts) < MIN_FACTS:
+        # 이번 주 기사가 모자라면 두 주로 넓힌다. 그래야 괌만 계속 나가지 않는다
+        # (2026-11-14 사장님 "괌만 나오는거 고쳐줘"). 화면·나레이션·캡션에는
+        # '최근 2주'라고 정직하게 적는다.
+        wider = own_facts(items, region, city, name, days=WIDE_DAYS)
+        if len(wider) >= MIN_FACTS:
+            facts, period = wider, "최근 2주"
     if len(facts) < MIN_FACTS:
         raise SystemExit(
-            f"{name} 은(는) 이번 주 우리 기사가 {len(facts)}건뿐이라 영상을 만들지 않는다.\n"
+            f"{name} 은(는) 최근 2주 우리 기사가 {len(facts)}건뿐이라 영상을 만들지 않는다.\n"
             f"  한 건짜리 영상은 릴스로 낼 값이 안 된다.")
 
     scenes = [{
-        "kind": "open", "name": name, "count": len(facts),
-        "narration": f"{name} 가시는 분들, 이번 주 소식 {len(facts)}건입니다.",
+        "kind": "open", "name": name, "count": len(facts), "period": period,
+        "narration": f"{name} 가시는 분들, {period} 소식 {len(facts)}건입니다.",
     }]
     for n, fact in enumerate(facts, 1):
         # 쇼츠는 한 화면에 한 문장이다. 요약이 길면 제목만 읽는다.
@@ -337,7 +346,8 @@ def build(city: str) -> list[dict]:
 def render(scene: dict) -> Image.Image:
     ph = scene.get("photo")
     if scene["kind"] == "open":
-        return short_cover(scene["name"], scene["count"], scene.get("hook", ""), ph)
+        return short_cover(scene["name"], scene["count"], scene.get("hook", ""), ph,
+                           period=scene.get("period", "이번 주"))
     if scene["kind"] == "close":
         return card_close(ph)
     return card_fact(scene["n"], scene["total"], scene["headline"],
@@ -386,7 +396,8 @@ def silent_text(scene: dict) -> str:
 def render_silent(scene: dict, seconds: int = 40) -> Image.Image:
     ph = scene.get("photo")
     if scene["kind"] == "open":
-        return short_cover(scene["name"], scene["count"], scene.get("hook", ""), ph, seconds)
+        return short_cover(scene["name"], scene["count"], scene.get("hook", ""), ph, seconds,
+                           period=scene.get("period", "이번 주"))
     if scene["kind"] == "close":
         return card_close(ph)
     return card_caption(scene["n"], scene["total"], silent_text(scene),
@@ -448,7 +459,8 @@ def caption_for(city: str, scenes: list[dict]) -> str:
              if h and not _dangling(h)]
     # 건수는 **실제로 적은 줄 수**와 같아야 한다. 걸러낸 것까지 세면
     # 캡션이 사실과 어긋난다.
-    lines = [f"{name} 이번 주 소식 {len(heads)}건", ""]
+    period = next((sc.get("period") for sc in scenes if sc.get("kind") == "open"), None) or "이번 주"
+    lines = [f"{name} {period} 소식 {len(heads)}건", ""]
     lines += [f"· {tidy(h)}" for h in heads]
     outlets = outlets_of(scenes)
     lines += ["", f"인용 · {' · '.join(outlets)}" if outlets else "",
@@ -524,7 +536,7 @@ def write_thumb(scenes: list[dict], out: str, seconds: int | None = None) -> str
     sc = scenes[0]
     path = out.rsplit(".", 1)[0] + "-thumb.jpg"
     return save_jpg(short_cover(sc["name"], sc["count"], sc.get("hook", ""),
-                                sc.get("photo"), seconds), path)
+                                sc.get("photo"), seconds, period=sc.get("period", "이번 주")), path)
 
 
 def _write_meta(city, scenes, out, poster, seconds, kind):
@@ -606,6 +618,40 @@ def build_silent(city: str, out_dir: str) -> str:
     return out
 
 
+# 워크플로의 --rotate 목록 밖이지만 사진이 넉넉해 돌려도 되는 곳.
+# 워크플로 파일은 이 저장소 토큰으로 못 고쳐서 여기서 더한다.
+EXTRA_PLACES = ("danang",)
+
+
+def recent_posts() -> dict[str, str]:
+    """곳별로 마지막으로 내보낸 날(YYYYMMDD). 유튜브·인스타 발행 기록에서 읽는다."""
+    names: list[str] = []
+    for path in (os.path.join("data", "youtube_posted.json"),
+                 os.path.join("data", "instagram_posted.json")):
+        try:
+            with open(path, encoding="utf-8") as fh:
+                data = json.load(fh)
+        except (OSError, ValueError):
+            continue
+        for e in data.get("posted") or []:
+            names.append(e.get("key", "") if isinstance(e, dict) else str(e))
+    last: dict[str, str] = {}
+    for n in names:
+        m = re.search(r"peopleroad-([a-z]+)-(\d{8})", n)
+        if m and m.group(1) != "tv" and m.group(2) > last.get(m.group(1), ""):
+            last[m.group(1)] = m.group(2)
+    return last
+
+
+def pick_place(candidates: list[str], last: dict[str, str]) -> str:
+    """만들 수 있는 곳 가운데 **가장 오래 안 나간 곳**. 같으면 오늘의 순번대로.
+
+    예전에는 순번에서 '만들 수 있는 첫 곳'을 골랐는데, 기사가 넉넉한 곳이 괌뿐인
+    주에는 매일 괌이 나갔다(11-10·12·13·14 연속).
+    """
+    return min(candidates, key=lambda p: (last.get(p, ""), candidates.index(p)))
+
+
 def use_ent_short(out_dir: str) -> bool:
     """오늘 구운 연예 숏폼(목소리판)을 릴스 발행 대상으로 올린다. 올렸으면 True."""
     day = datetime.now(KST).strftime("%Y%m%d")
@@ -660,20 +706,22 @@ def main() -> int:
     # 순서는 유지하되(한 곳만 계속 나가지 않게) **되는 곳까지 내려간다.**
     if args.rotate:
         places = args.rotate.split()
+        places += [p for p in EXTRA_PLACES if p not in places]
         start = datetime.now(KST).toordinal() % len(places)
         order = places[start:] + places[:start]
+        ready = {}
         for place in order:
             try:
-                scenes = build(place)
+                ready[place] = build(place)
             except SystemExit as why:
                 print(f"  건너뜀 · {place} — {str(why).splitlines()[0]}")
-                continue
-            args.city = place
-            print(f"오늘 만들 곳: {place}")
-            break
-        else:
+        if not ready:
             print("오늘은 만들 수 있는 곳이 없다.", file=sys.stderr)
             return 0
+        place = pick_place(list(ready), recent_posts())
+        scenes = ready[place]
+        args.city = place
+        print(f"오늘 만들 곳: {place} (후보 {', '.join(ready)})")
     else:
         scenes = build(args.city)
     chars = sum(len(s["narration"]) for s in scenes)

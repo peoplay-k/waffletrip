@@ -85,3 +85,13 @@ def test_연예_숏폼이_무음이면_올리지_않는다(tmp_path):
     (tmp_path / f"peopleroad-tv-{day}.json").write_text(_json.dumps({
         "videos": [{"file": f"peopleroad-tv-{day}-1.mp4", "kind": "silent"}]}), encoding="utf-8")
     assert not ms.use_ent_short(str(tmp_path))
+
+
+def test_pick_place_prefers_least_recently_posted():
+    import make_shorts as ms
+    last = {"guam": "20261114", "hanoi": "20261101", "kota": "20261111"}
+    assert ms.pick_place(["guam", "kota", "hanoi"], last) == "hanoi"
+    # 한 번도 안 나간 곳이 먼저
+    assert ms.pick_place(["guam", "danang"], last) == "danang"
+    # 기록이 같으면 오늘의 순번(후보 순서)대로
+    assert ms.pick_place(["kota", "guam"], {}) == "kota"

@@ -159,7 +159,7 @@ SHORT_PAD = 72
 
 
 def short_cover(name: str, count: int, hook: str = "", photo: str | None = None,
-                seconds: int | None = None) -> Image.Image:
+                seconds: int | None = None, period: str = "이번 주") -> Image.Image:
     """'괌 이번 주 소식 4건' + 대표 기사 제목. 사진은 위쪽을 밝게 살린다."""
     img = shade(cover(photo, (SHORT_W, SHORT_H), 0.35), "bottom", start=0.30, strength=235)
     d = ImageDraw.Draw(img)
@@ -177,7 +177,7 @@ def short_cover(name: str, count: int, hook: str = "", photo: str | None = None,
     y = bottom - hook_h - (40 if hook_lines else 0)
     # '이번 주 소식 N건' 딱지
     y_chip = y - int(name_f.size * 1.32) - 80
-    w = chip(d, (SHORT_PAD, y_chip), "이번 주 여행 소식", font(46))
+    w = chip(d, (SHORT_PAD, y_chip), f"{period} 여행 소식", font(46))
     chip(d, (SHORT_PAD + w + 16, y_chip), f"{count}건", font(46), bg=YELLOW, fg=BLACK)
     # 지명 — 가장 크게, 노랑
     stroke_text(d, (SHORT_PAD, y_chip + 80), name, name_f, fill=YELLOW, stroke=10)
