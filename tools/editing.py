@@ -98,10 +98,11 @@ def music_tracks(kind: str = "", root: str = MUSIC_DIR) -> list[str]:
     return scan(root, True) if os.path.isdir(root) else []
 
 
-def add_bgm(ff: str, video: str, seed: int, kind: str = "", db: float = -27.0) -> bool:
+def add_bgm(ff: str, video: str, seed: int, kind: str = "", db: float = -12.0) -> bool:
     """나레이션이 든 영상에 배경음을 깐다(제자리에서 바꾼다). 성공하면 True.
 
-    - 음원 크기가 제각각이라 먼저 크기를 고르게 맞춘다(loudnorm).
+    - 음원 크기가 제각각이라(실측 -8~-26dB) 먼저 -16 LUFS 로 고르게 맞추고 db 만큼 내린다.
+      기본 -12dB → 말 없을 때 약 -28 LUFS, 나레이션(약 -16)보다 12dB 아래. 말할 때는 더킹으로 더 내려간다.
     - 말할 때는 자동으로 작아진다(사이드체인 더킹), 처음·끝은 스르르.
     - 곡이 영상보다 짧으면 이어 돌리고, 곡 안의 시작 지점을 영상마다 바꾼다.
     - 음원이 하나도 없으면 깔지 않는다. 합성 음악은 PEOPLEROAD_SYNTH_BGM=1 일 때만.
