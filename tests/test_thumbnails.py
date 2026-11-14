@@ -126,3 +126,12 @@ def test_opening_ends_on_the_static_cover():
     last = th.opening_frame(base, layers, 5.0)
     assert np.abs(np.asarray(last, int) - np.asarray(static, int)).mean() < 1.0
     assert np.asarray(first).mean() < np.asarray(last).mean()     # 어둠에서 밝아진다
+
+
+def test_sfx_track_places_sounds_at_events():
+    import sfx
+    tr = sfx.track([(1.0, "whoosh"), (2.0, "pop"), (2.5, "tick")], 3.0)
+    assert tr.shape == (3 * sfx.SR, 2)
+    quiet = abs(tr[: int(0.5 * sfx.SR)]).max()
+    loud = abs(tr[int(0.7 * sfx.SR): int(1.1 * sfx.SR)]).max()
+    assert quiet == 0 and loud > 0.05

@@ -613,8 +613,9 @@ def build_voiced(city: str, out_dir: str) -> str:
 
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, f"{stem_of(city)}-voiced.mp4")
-    from editing import FADE, add_bgm, join, seed_of
-    join(ff, parts, out, audio=True)
+    from editing import FADE, add_bgm, add_sfx, join, seed_of, sfx_events
+    marks = join(ff, parts, out, audio=True)
+    add_sfx(ff, out, sfx_events(parts, marks))
     total -= FADE * (len(parts) - 1)
     add_bgm(ff, out, seed_of(os.path.basename(out)), kind="travel")
     poster = out.rsplit(".", 1)[0] + ".jpg"

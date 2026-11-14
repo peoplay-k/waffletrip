@@ -40,12 +40,18 @@ def _concat(ff: str, clips: list[str], out: str) -> None:
                     "-i", listing, "-c", "copy", out], check=True)
 
 
+TRANSITION = "smoothleft"   # 장면이 왼쪽으로 '휙' 밀려 나간다(2026-11-15). 예전엔 fade(디졸브)
+
+
 def join(ff: str, clips: list[str], out: str, audio: bool, fade: float = FADE,
-         crf: str = "23") -> None:
-    """장면 클립을 디졸브로 잇는다. 클립은 같은 크기·프레임률이어야 한다."""
+         crf: str = "23", transition: str = TRANSITION) -> list[float]:
+    """장면 클립을 전환 효과로 잇는다. 클립은 같은 크기·프레임률이어야 한다.
+
+    전환이 일어나는 시각(초) 목록을 돌려준다 — 그 자리에 '휙' 효과음을 놓는다.
+    """
     if len(clips) < 2:
         _concat(ff, clips, out)
-        return
+        return []
     try:
         durs = [duration(ff, c) for c in clips]
         if min(durs) <= fade * 2:
@@ -56,7 +62,7 @@ def join(ff: str, clips: list[str], out: str, audio: bool, fade: float = FADE,
         parts, v, a, offset = [], "[0:v]", "[0:a]", 0.0
         for i in range(1, len(clips)):
             offset += durs[i - 1] - fade
-            parts.append(f"{v}[{i}:v]xfade=transition=fade:duration={fade}:offset={offset:.3f}[v{i}]")
+            parts.append(f"{v}[{i}:v]xfade=transition={transition}:duration={fade}:offset={offset:.3f}[v{i}]")
             v = f"[v{i}]"
             if audio:
                 parts.append(f"{a}[{i}:a]acrossfade=d={fade}:c1=tri:c2=tri[a{i}]")
@@ -67,9 +73,53 @@ def join(ff: str, clips: list[str], out: str, audio: bool, fade: float = FADE,
         args += ["-c:v", "libx264", "-preset", "medium", "-crf", crf, "-pix_fmt", "yuv420p",
                  "-movflags", "+faststart", out]
         subprocess.run(args, check=True)
+        marks, t = [], 0.0
+        for d in durs[:-1]:
+            t += d - fade
+            marks.append(round(t + fade / 2, 3))
+        return marks
     except Exception as e:      # noqa: BLE001 — 실패하면 그냥 이어 붙인다
-        print(f"디졸브 실패 — 그냥 잇는다: {type(e).__name__}: {e}", file=sys.stderr)
+        print(f"전환 실패 — 그냥 잇는다: {type(e).__name__}: {e}", file=sys.stderr)
         _concat(ff, clips, out)
+        return []
+
+
+def sfx_events(clips: list[str], marks: list[float]) -> list[tuple[float, str]]:
+    """장면 전환 '휙' + 첫 장면 오프닝 효과음(opening_clip 이 남긴 .sfx.json)."""
+    import json
+    ev = [(t, "whoosh") for t in marks]
+    if clips:
+        try:
+            with open(clips[0] + ".sfx.json", encoding="utf-8") as fh:
+                ev += [(float(a), str(b)) for a, b in json.load(fh)]
+        except (OSError, ValueError):
+            pass
+    return ev
+
+
+def add_sfx(ff: str, video: str, events: list[tuple[float, str]], db: float = -6.0) -> bool:
+    """효과음을 영상 소리에 섞는다(제자리). 영상에 소리 트랙이 있어야 한다."""
+    if not events:
+        return False
+    from sfx import write_wav
+    work = tempfile.mkdtemp(prefix="sfx-")
+    try:
+        secs = duration(ff, video)
+        wav = write_wav(os.path.join(work, "sfx.wav"), events, secs + 0.5)
+        out = os.path.join(work, "out.mp4")
+        flt = (f"[1:a]volume={db}dB[s];[0:a]aresample=44100,aformat=channel_layouts=stereo[v];"
+               "[v][s]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]")
+        subprocess.run([ff, "-y", "-loglevel", "error", "-i", video, "-i", wav,
+                        "-filter_complex", flt, "-map", "0:v", "-map", "[a]",
+                        "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-t", f"{secs:.3f}",
+                        "-movflags", "+faststart", out], check=True)
+        shutil.move(out, video)
+        return True
+    except Exception as e:      # noqa: BLE001
+        print(f"효과음 실패 — 없이 둔다: {type(e).__name__}: {e}", file=sys.stderr)
+        return False
+    finally:
+        shutil.rmtree(work, ignore_errors=True)
 
 
 MUSIC_DIR = os.path.join("assets", "music")

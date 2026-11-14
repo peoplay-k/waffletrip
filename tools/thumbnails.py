@@ -341,7 +341,7 @@ def opening_frame(base: Image.Image, layers: list[dict], t: float,
             if e < 1:
                 lay = lay.copy()
                 lay.putalpha(lay.getchannel("A").point(lambda v, k=e: int(v * k)))
-            _paste_clip(img, lay, int(x - 60 * (1 - e)), int(y))
+            _paste_clip(img, lay, int(x - 140 * (1 - e)), int(y))
     return img.convert("RGB")
 
 
@@ -354,6 +354,22 @@ def _paste_clip(img: Image.Image, lay: Image.Image, x: int, y: int) -> None:
     if x >= img.size[0] or y >= img.size[1]:
         return
     img.alpha_composite(lay, (x, y))
+
+
+def opening_events(layers: list[dict]) -> list[tuple[float, str]]:
+    """오프닝 효과음 자리: 시작 '휙', 상자 튀어오름 '톡', 그림자 글씨 '쉭', 타이핑 '타닥'."""
+    plan = schedule(layers)
+    ev = [(0.05, "swish")]
+    for L, (a, dur) in zip(layers, plan):
+        if L["kind"] == "box" and sum(len(x) for x in L["lines"]) >= 10:
+            n = sum(len(x) for x in L["lines"])
+            step = dur / max(n, 1)
+            ev += [(a + i * step, "tick") for i in range(0, n, 2)]   # 두 글자에 한 번
+        elif L["kind"] == "box":
+            ev.append((a + 0.02, "pop"))
+        else:
+            ev.append((a, "swish"))
+    return ev
 
 
 def opening_length(layers: list[dict]) -> float:

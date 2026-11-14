@@ -184,7 +184,9 @@ def overlay_filter(base: str, caps: list[tuple[str, float, float]], first_input:
         nxt = f"[cv{k}]"
         # 뜰 때 0.12초 동안 스르르 — 툭 튀어나오면 기계 같다
         parts.append(f"[{first_input + k}:v]format=rgba,fade=t=in:st={a:.3f}:d=0.12:alpha=1[cf{k}]")
-        parts.append(f"{cur}[cf{k}]overlay=x=(W-w)/2:y={y_center}-h/2:"
+        # 아래에서 살짝 튀어 올라온다(0.15초) — '휙' 나오는 느낌
+        parts.append(f"{cur}[cf{k}]overlay=x=(W-w)/2:"
+                     f"y='{y_center}-h/2+36*max(0,1-(t-{a:.3f})/0.15)':eval=frame:"
                      f"enable='between(t,{a:.3f},{b:.3f})'{nxt}")
         cur = nxt
     return ";".join(parts), cur
@@ -229,8 +231,10 @@ def opening_clip(ff: str, cover_fn, args: tuple, kwargs: dict, secs: float, work
     애니메이션이 끝나면 마지막 화면(= 정지 표지와 같다)을 장면 끝까지 둔다.
     """
     import subprocess
-    from thumbnails import opening_frame, opening_length, record, schedule
+    from thumbnails import opening_events, opening_frame, opening_length, record, schedule
     base, layers = record(cover_fn, *args, **kwargs)
+    with open(out + ".sfx.json", "w", encoding="utf-8") as fh:
+        json.dump(opening_events(layers), fh)
     plan = schedule(layers)
     length = min(opening_length(layers), max(0.5, secs - 0.2))
     fdir = os.path.join(work, f"op_{tag}")

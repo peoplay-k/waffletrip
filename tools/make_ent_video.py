@@ -45,7 +45,7 @@ FONTS = ("/System/Library/Fonts/AppleSDGothicNeo.ttc",
          "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc")
 # 화면 버전. 화면 디자인을 바꾸면 올린다 — 같은 날 이미 구운 목소리판을 다시 쓰는 장치가
 # 옛 화면을 계속 쓰지 않게(2026-10-21: 사진을 넣었는데 오전 판이 재사용됐다).
-RENDERER = "2026-11-15-typo-opening"
+RENDERER = "2026-11-15-sfx-whip"
 MIN_ITEMS = 2          # 한 편짜리는 '오늘의 방송'이 아니다
 MAX_LONG = 8
 MAX_SHORTS = 2         # 숏폼은 하루 두 편까지 — 2026-10-16 크레딧이 바닥나 셋에서 줄였다
@@ -410,7 +410,10 @@ def bake(scenes: list[dict], render, size: tuple[int, int], out: str, voiced: bo
         total += secs
     os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
     from editing import FADE, add_bgm, join, seed_of
-    join(ff, clips, out, audio=True, crf="22")
+    marks = join(ff, clips, out, audio=True, crf="22")
+    if voiced:
+        from editing import add_sfx, sfx_events
+        add_sfx(ff, out, sfx_events(clips, marks))
     total -= FADE * (len(clips) - 1)
     if voiced:
         add_bgm(ff, out, seed_of(os.path.basename(out)), kind="ent")
