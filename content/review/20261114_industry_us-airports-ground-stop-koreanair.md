@@ -4,15 +4,18 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "미국 전역 공항 이륙 전면 중단, 대한항공 미주 노선 운항 차질"
+title: 미국 전역 공항 이륙 전면 중단, 대한항공 미주 노선 운항 차질
 source_name: ''
 source_url: ''
-summary: 미국 연방항공청이 13일 오후 전국 공항의 항공기 이륙을 전면 중단시켰다. 관제 통신 시스템 장애가 원인으로 알려졌고 대한항공은 미주 노선에 차질이 생겼다고 밝혔다.
+summary: 미국 연방항공청이 13일 오후 전국 공항의 항공기 이륙을 전면 중단시켰다. 관제 통신 시스템 장애가 원인으로 알려졌고 대한항공은 미주
+  노선에 차질이 생겼다고 밝혔다.
 sources:
-  - https://www.joongang.co.kr/article/25478595
-  - https://news.einfomax.co.kr/news/articleView.html?idxno=4444774
-  - https://kbthink.com/news-list/view.html?newsId=20261114101652579
-status: approved
+- https://www.joongang.co.kr/article/25478595
+- https://news.einfomax.co.kr/news/articleView.html?idxno=4444774
+- https://kbthink.com/news-list/view.html?newsId=20261114101652579
+status: published
+published_id: c-1a703ccac6379c86e6168d9b8df24663cc5d39aa
+published_on: '2026-11-15'
 ---
 미국 전역 공항에서 항공기 이륙이 한꺼번에 멈췄다. 관제 통신 시스템 장애가 원인으로, 미국을 오가는 한국 항공편도 운항에 차질을 빚고 있다.
 

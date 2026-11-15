@@ -7,12 +7,14 @@ kind: 해설
 title: 다낭 메리어트 리조트, 북유럽 콘셉트 연말 행사…트리 점등·해변 카운트다운
 source_name: ''
 source_url: ''
-summary: 베트남 다낭 메리어트 리조트 앤 스파가 북유럽을 콘셉트로 한 크리스마스·새해 행사를 연다. 크리스마스트리 점등식과 연말 만찬, 가족 프로그램, 해변 카운트다운 파티를 준비했다.
+summary: 베트남 다낭 메리어트 리조트 앤 스파가 북유럽을 콘셉트로 한 크리스마스·새해 행사를 연다. 크리스마스트리 점등식과 연말 만찬, 가족
+  프로그램, 해변 카운트다운 파티를 준비했다.
 sources:
 - https://e.vnexpress.net/news/travel/da-nang-resort-plans-nordic-themed-christmas-and-new-year-celebrations-5143952.html
-status: approved
+status: published
+published_id: c-c25a068805c242bb7d55afd536cb8377b2105ead
+published_on: '2026-11-15'
 ---
-
 베트남 다낭의 다낭 메리어트 리조트 앤 스파가 북유럽을 콘셉트로 한 연말 행사를 준비했다. 크리스마스트리 점등식을 시작으로 연말 특선 만찬과 가족 단위 프로그램을 운영하고, 새해 전야에는 해변에서 카운트다운 파티를 연다.
 
 ## 연말 다낭, 무엇이 열리나

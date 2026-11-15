@@ -7,12 +7,14 @@ kind: 보도자료
 title: 대한항공, 한국지역본부장에 서종우 상무 임명
 source_name: ''
 source_url: ''
-summary: 대한항공이 11월 12일부로 한국지역본부장에 서종우 상무를 임명했다. 서 본부장은 1996년 입사해 뉴욕여객지점장, 감사실장, 미서부지점장, 한국지역본부 판매지원팀장 등을 거쳤다.
+summary: 대한항공이 11월 12일부로 한국지역본부장에 서종우 상무를 임명했다. 서 본부장은 1996년 입사해 뉴욕여객지점장, 감사실장, 미서부지점장,
+  한국지역본부 판매지원팀장 등을 거쳤다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500719
-status: approved
+status: published
+published_id: c-c5b8225cd5f923628a6e620a62d6c4ab3034381c
+published_on: '2026-11-15'
 ---
-
 대한항공이 11월 12일부로 한국지역본부장에 서종우 상무를 임명했다.
 
 ## 미주 지점·판매 지원 거친 영업통

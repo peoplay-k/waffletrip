@@ -5,16 +5,19 @@ category: music
 region: ''
 section: news
 kind: 해설
-title: "에이티즈, 미니 15집 '골든 아워 : 파트 6' 컴백 간담회…타이틀곡 '업'"
+title: '에이티즈, 미니 15집 ''골든 아워 : 파트 6'' 컴백 간담회…타이틀곡 ''업'''
 source_name: ''
 source_url: ''
-summary: "에이티즈가 12일 서울 강남에서 미니 15집 '골든 아워 : 파트 6' 발매 기념 간담회를 열었다. 타이틀곡은 '업(UP)'이며 앞서 10일 뮤직비디오 티저가 공개됐다."
+summary: '에이티즈가 12일 서울 강남에서 미니 15집 ''골든 아워 : 파트 6'' 발매 기념 간담회를 열었다. 타이틀곡은 ''업(UP)''이며
+  앞서 10일 뮤직비디오 티저가 공개됐다.'
 sources:
-  - https://www.starnewskorea.com/music/2026/11/10/2026111014164270226
-  - https://ent.sbs.co.kr/news/article.do?article_id=E10010324495
-  - https://www.mhns.co.kr/news/articleView.html?idxno=768857
-  - https://enews.imbc.com/News/RetrieveNewsInfo/524577
-status: approved
+- https://www.starnewskorea.com/music/2026/11/10/2026111014164270226
+- https://ent.sbs.co.kr/news/article.do?article_id=E10010324495
+- https://www.mhns.co.kr/news/articleView.html?idxno=768857
+- https://enews.imbc.com/News/RetrieveNewsInfo/524577
+status: published
+published_id: c-357dd040d2fb61e95fcc1a3e4f76a236be92c006
+published_on: '2026-11-15'
 ---
 그룹 에이티즈가 미니 15집 '골든 아워 : 파트 6(GOLDEN HOUR : Part.6)'으로 돌아왔다. 타이틀곡은 '업(UP)'이다.
 

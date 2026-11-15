@@ -8,12 +8,14 @@ kind: 해설
 title: MBC '나 혼자 산다' 674회 예고…김신영 수영 도전, 연준 '7개월 차 초보 자취러'
 source_name: ''
 source_url: ''
-summary: MBC '나 혼자 산다' 674회 예고 영상이 MBCentertainment 공식 유튜브에 올라왔다. 수영에 도전하는 김신영과 7개월 차 초보 자취러 연준의 일상을 예고했다. 674회는 20일 방송된다.
+summary: MBC '나 혼자 산다' 674회 예고 영상이 MBCentertainment 공식 유튜브에 올라왔다. 수영에 도전하는 김신영과 7개월
+  차 초보 자취러 연준의 일상을 예고했다. 674회는 20일 방송된다.
 sources:
 - https://www.youtube.com/watch?v=mfJFeWmTt1Y
-status: approved
+status: published
+published_id: c-894c3dec657f47f792e5f24de41c5f08c4a1d79d
+published_on: '2026-11-15'
 ---
-
 MBC '나 혼자 산다' 674회 예고가 공개됐다. MBCentertainment 공식 유튜브에 올라온 예고 영상은 공개 당일 조회수 16만 회를 넘었다.
 
 @youtube mfJFeWmTt1Y

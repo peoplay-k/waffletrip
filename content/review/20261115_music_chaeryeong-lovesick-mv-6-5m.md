@@ -8,14 +8,16 @@ kind: 해설
 title: 있지 채령 첫 솔로 'Lovesick' 뮤직비디오, 공개 나흘 만에 조회수 650만 회
 source_name: ''
 source_url: ''
-summary: 그룹 있지(ITZY) 채령의 첫 솔로 미니앨범 타이틀곡 'Lovesick' 뮤직비디오가 JYP엔터테인먼트 공식 유튜브에서 공개 나흘 만에 조회수 653만 회를 넘었다.
+summary: 그룹 있지(ITZY) 채령의 첫 솔로 미니앨범 타이틀곡 'Lovesick' 뮤직비디오가 JYP엔터테인먼트 공식 유튜브에서 공개 나흘
+  만에 조회수 653만 회를 넘었다.
 sources:
 - https://www.youtube.com/watch?v=pe-rk1ekb4w
 - https://news.kbs.co.kr/news/pc/view/view.do?ncd=8707590
 - https://www.newspim.com/news/view/20261109000899
-status: approved
+status: published
+published_id: c-19c91f2b712a67c990d39377521a63ccf07de344
+published_on: '2026-11-15'
 ---
-
 그룹 있지(ITZY) 채령의 첫 솔로곡 'Lovesick' 뮤직비디오가 빠르게 재생되고 있다. JYP엔터테인먼트 공식 유튜브에 올라온 'CHAERYEONG(채령) "Lovesick" M/V'는 공개 나흘 만에 조회수 653만 회를 넘었다.
 
 @youtube pe-rk1ekb4w

@@ -5,16 +5,19 @@ category: stage
 region: ''
 section: news
 kind: 해설
-title: "데뷔 70주년 피아니스트 백건우, 29일 대구서 '영 프렌즈'와 합동 무대"
+title: 데뷔 70주년 피아니스트 백건우, 29일 대구서 '영 프렌즈'와 합동 무대
 source_name: ''
 source_url: ''
-summary: 데뷔 70주년을 맞은 피아니스트 백건우가 11월 29일 대구 수성아트피아에서 후배 연주자들과 무대에 서고, 12월 27일에는 천안예술의전당 송년음악회에서 KBS교향악단과 협연한다.
+summary: 데뷔 70주년을 맞은 피아니스트 백건우가 11월 29일 대구 수성아트피아에서 후배 연주자들과 무대에 서고, 12월 27일에는 천안예술의전당
+  송년음악회에서 KBS교향악단과 협연한다.
 sources:
-  - https://www.kbmaeil.com/article/20261113500096
-  - https://www.imaeil.com/page/view/2026111317413134913
-  - https://www.canews.kr/news/articleView.html?idxno=9710
-  - https://www.icj.kr/news/58002
-status: approved
+- https://www.kbmaeil.com/article/20261113500096
+- https://www.imaeil.com/page/view/2026111317413134913
+- https://www.canews.kr/news/articleView.html?idxno=9710
+- https://www.icj.kr/news/58002
+status: published
+published_id: c-6d12526773095a00ebe70bdcae48f43ba9ac30b0
+published_on: '2026-11-15'
 ---
 데뷔 70주년을 맞은 피아니스트 백건우(80)가 이달 말 대구에서 젊은 연주자들과 한 무대에 서고, 연말에는 천안에서 오케스트라와 협연한다.
 

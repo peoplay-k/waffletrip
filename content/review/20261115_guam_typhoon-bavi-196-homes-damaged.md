@@ -7,12 +7,14 @@ kind: 해설
 title: 괌 당국 "7월 슈퍼태풍 바비로 주택 196채 피해, 10채 전파"
 source_name: ''
 source_url: ''
-summary: 괌 당국은 지난 7월 괌을 지난 슈퍼태풍 바비로 주택 196채가 피해를 입었고 이 가운데 10채가 완전히 부서졌다고 밝혔다. 크게 파손된 집은 68채다.
+summary: 괌 당국은 지난 7월 괌을 지난 슈퍼태풍 바비로 주택 196채가 피해를 입었고 이 가운데 10채가 완전히 부서졌다고 밝혔다. 크게
+  파손된 집은 68채다.
 sources:
 - https://www.postguam.com/news/local/officials-bavi-damaged-196-guam-homes-destroyed-10/article_806e5b7b-0b5a-4135-9e89-fd821d72dc84.html
-status: approved
+status: published
+published_id: c-e49a3cd305b10fdbc7c0a4ceac331b448522e470
+published_on: '2026-11-15'
 ---
-
 지난 7월 괌을 지난 슈퍼태풍 바비(Bavi)의 주택 피해 규모가 집계됐다. 괌 국토안보 담당 루시아 페레스 자문관 대행에 따르면 태풍으로 주택 196채가 피해를 입었고, 이 가운데 10채가 완전히 부서졌다. 크게 파손된 집은 68채다.
 
 ## 피해 집계는 넉 달 만

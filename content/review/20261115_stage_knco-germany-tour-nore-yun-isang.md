@@ -5,15 +5,18 @@ category: stage
 region: ''
 section: news
 kind: 해설
-title: "국립심포니콘서트오케스트라, 첫 독일 투어 마치고 윤이상 헌정 무대"
+title: 국립심포니콘서트오케스트라, 첫 독일 투어 마치고 윤이상 헌정 무대
 source_name: ''
 source_url: ''
-summary: 국립심포니오케스트라의 청년 악단 국립심포니콘서트오케스트라가 11월 3~5일 함부르크와 베를린에서 첫 해외 공연 '노래'를 마쳤다. 단원 20명이 세 차례 단독 무대로 현지 관객 600여 명을 만났다.
+summary: 국립심포니오케스트라의 청년 악단 국립심포니콘서트오케스트라가 11월 3~5일 함부르크와 베를린에서 첫 해외 공연 '노래'를 마쳤다.
+  단원 20명이 세 차례 단독 무대로 현지 관객 600여 명을 만났다.
 sources:
-  - https://www.2news.co.kr/news/articleView.html?idxno=32186
-  - https://www.koya-culture.com/news/article.html?no=153662
-  - https://media1.or.kr/2026/11/knco-germany-tour-nore-yun-isang-2026/
-status: approved
+- https://www.2news.co.kr/news/articleView.html?idxno=32186
+- https://www.koya-culture.com/news/article.html?no=153662
+- https://media1.or.kr/2026/11/knco-germany-tour-nore-yun-isang-2026/
+status: published
+published_id: c-fa0eea42e40c76b7377d2f4764d0312cdc48032c
+published_on: '2026-11-15'
 ---
 국립심포니오케스트라의 청년 악단인 국립심포니콘서트오케스트라(KNCO)가 독일에서 첫 해외 공연을 마쳤다. 지난 3일부터 5일까지 함부르크와 베를린을 돌며 '노래(Nore)'라는 이름의 탐방 무대를 올렸다.
 

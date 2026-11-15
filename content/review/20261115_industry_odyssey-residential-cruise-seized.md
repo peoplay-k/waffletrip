@@ -7,13 +7,15 @@ kind: 해설
 title: '''평생 바다 위에서'' 내건 거주형 크루즈 오디세이호, 운항 중단 뒤 압류…승객 203명 하선'
 source_name: ''
 source_url: ''
-summary: 선실을 사거나 장기 임대하면 바다 위에서 살 수 있다고 내세운 미국 업체의 거주형 크루즈선이 운항을 멈춘 데 이어 압류됐다. 승객 203명은 이미 배에서 내렸고, 미리 낸 선실 구매비와 이용료를 돌려받을 수 있을지 불투명하다.
+summary: 선실을 사거나 장기 임대하면 바다 위에서 살 수 있다고 내세운 미국 업체의 거주형 크루즈선이 운항을 멈춘 데 이어 압류됐다. 승객
+  203명은 이미 배에서 내렸고, 미리 낸 선실 구매비와 이용료를 돌려받을 수 있을지 불투명하다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500705
 - https://news.sbs.co.kr/news/endPage.do?news_id=N1008837470
-status: approved
+status: published
+published_id: c-e5dfb472a4b4439105f3bf35c509b6685a79dfdc
+published_on: '2026-11-15'
 ---
-
 '바다 위의 평생 거주지'를 내세웠던 미국 업체의 거주형 크루즈선이 운항을 멈춘 데 이어 압류됐다. 배에 타고 있던 승객 203명은 이미 내렸고, 미리 낸 선실 구매비와 이용료를 돌려받을 수 있을지는 불투명하다.
 
 ## 1억~5억 원 선실 분양, 3년 반 세계 일주

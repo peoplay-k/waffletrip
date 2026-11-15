@@ -7,13 +7,15 @@ kind: 해설
 title: 대만, 중국인 관광객 입국 심사서 '독립국가' 서약 요구 논란…중국 "정치적 조작" 반발
 source_name: ''
 source_url: ''
-summary: 대만 당국이 중국인 관광객 입국 심사에서 대만이 독립 국가임을 인정하는 내용의 서약을 요구한 사실이 알려져 논란이 일었다. 중국은 양안 교류를 막는 정치적 조작이라며 반발했고, 대만 당국은 규정에 따른 심사라면서도 표현을 고치겠다고 했다.
+summary: 대만 당국이 중국인 관광객 입국 심사에서 대만이 독립 국가임을 인정하는 내용의 서약을 요구한 사실이 알려져 논란이 일었다. 중국은
+  양안 교류를 막는 정치적 조작이라며 반발했고, 대만 당국은 규정에 따른 심사라면서도 표현을 고치겠다고 했다.
 sources:
 - https://www.yonhapnewstv.co.kr/news/AKR20261112165112K5y
 - https://biz.chosun.com/international/international_general/2026/11/12/5NFKHS7I2JCNXHHZDZPN2YRZ4Q/
-status: approved
+status: published
+published_id: c-fd8c1310a68abe04a4fb90755468c3691a42035b
+published_on: '2026-11-15'
 ---
-
 대만 당국이 중국인 관광객의 입국 심사 과정에서 대만이 독립 국가임을 인정하는 내용의 자필 서약을 요구한 사실이 알려지며 논란이 일었다.
 
 ## 호텔 예약서 '중국 대만' 표기가 발단

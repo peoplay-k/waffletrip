@@ -4,16 +4,18 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "밀양시, 인도 S-VYASA대와 요가·치유관광 협력 추진"
+title: 밀양시, 인도 S-VYASA대와 요가·치유관광 협력 추진
 source_name: ''
 source_url: ''
-summary: 경남 밀양시가 인도 요가·명상 전문 교육기관 S-VYASA대학교와 업무협약을 맺고 치유관광과 체류형 웰니스 관광 육성에 나선다. 안병구 시장이 최근 인도를 방문해 협약을 마무리했다.
+summary: 경남 밀양시가 인도 요가·명상 전문 교육기관 S-VYASA대학교와 업무협약을 맺고 치유관광과 체류형 웰니스 관광 육성에 나선다. 안병구
+  시장이 최근 인도를 방문해 협약을 마무리했다.
 sources:
-  - https://www.newspim.com/news/view/20261114000039
-  - https://www.asiae.co.kr/article/2026111315283130829
-status: approved
+- https://www.newspim.com/news/view/20261114000039
+- https://www.asiae.co.kr/article/2026111315283130829
+status: published
+published_id: c-c09c50997ecf434fbc030100d97041be3c0bfe86
+published_on: '2026-11-15'
 ---
-
 경남 밀양시가 인도의 요가·명상 전문기관과 손잡고 치유관광 사업에 나선다. 요가와 명상 체험을 체류형 웰니스 관광으로 확장해 글로벌 치유관광도시로 자리 잡겠다는 구상이다.
 
 밀양시는 안병구 시장이 최근 인도를 방문해 S-VYASA대학교와 요가·치유관광 산업 육성을 위한 업무협약을 체결했다고 밝혔다. S-VYASA대학교는 요가와 명상을 전문으로 다루는 인도의 교육기관이다. 시는 이번 협약을 계기로 요가·명상에 그치지 않고 치유관광과 체류형 웰니스 관광 전반으로 협력 범위를 넓힌다는 계획이다.

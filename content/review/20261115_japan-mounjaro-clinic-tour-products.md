@@ -7,14 +7,16 @@ kind: 해설
 title: 마운자로 휴대 반입 허용되자…일본 현지 진료+관광 여행상품 등장
 source_name: ''
 source_url: ''
-summary: 해외에서 처방받은 비만치료제 마운자로의 국내 휴대 반입이 허용되면서, 일본 현지 진료와 관광을 묶은 여행상품이 나왔다. 일본 비대면 진료 플랫폼에는 예약이 몰려 시간대가 마감되기도 했다.
+summary: 해외에서 처방받은 비만치료제 마운자로의 국내 휴대 반입이 허용되면서, 일본 현지 진료와 관광을 묶은 여행상품이 나왔다. 일본 비대면
+  진료 플랫폼에는 예약이 몰려 시간대가 마감되기도 했다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500711
 - https://www.joongang.co.kr/article/25478180
 - https://www.joongang.co.kr/article/25478070
-status: approved
+status: published
+published_id: c-d1107b67c2ca9fbe3612cf33ee7ae20d0848810a
+published_on: '2026-11-15'
 ---
-
 해외에서 처방받은 비만치료제 마운자로를 국내에 가지고 들어올 수 있게 되면서, 일본 현지 진료와 관광을 결합한 여행상품이 등장했다. 일본 내 약값이 국내보다 상당히 싸다는 점에 착안한 상품이다.
 
 ## 예약 몰린 일본 진료 플랫폼

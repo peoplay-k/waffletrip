@@ -5,14 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "쿠팡플레이 '저스트 메이크업' 시즌2, 27일 공개"
+title: 쿠팡플레이 '저스트 메이크업' 시즌2, 27일 공개
 source_name: ''
 source_url: ''
 summary: 쿠팡플레이가 K-뷰티를 대표하는 메이크업 아티스트들이 실력만으로 맞붙는 서바이벌 예능 '저스트 메이크업' 시즌2를 27일 공개한다.
 sources:
-  - https://www.newsis.com/view/NISX20261113_0003866925
-  - https://www.newspim.com/news/view/20261113000595
-status: approved
+- https://www.newsis.com/view/NISX20261113_0003866925
+- https://www.newspim.com/news/view/20261113000595
+status: published
+published_id: c-c12b7e73ee5ca7671728ea86395dad9ec98ac67b
+published_on: '2026-11-15'
 ---
 쿠팡플레이가 예능 '저스트 메이크업' 시즌2를 오는 27일 공개한다. K-뷰티를 대표하는 메이크업 아티스트들이 오직 실력으로 겨루는 서바이벌 프로그램이다.
 

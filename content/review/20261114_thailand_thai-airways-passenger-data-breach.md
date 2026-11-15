@@ -4,13 +4,16 @@ channel: travel
 region: thailand
 section: news
 kind: 해설
-title: "태국항공, 예약 시스템 무단 접근으로 여객 정보 6만 건 유출"
+title: 태국항공, 예약 시스템 무단 접근으로 여객 정보 6만 건 유출
 source_name: ''
 source_url: ''
-summary: 태국항공이 외부 예약 시스템 아마데우스를 통한 무단 접근으로 여객 정보 6만529건이 유출됐다고 밝혔다. 캐세이퍼시픽·일본항공·대한항공 승객도 피해가 확인됐다.
+summary: 태국항공이 외부 예약 시스템 아마데우스를 통한 무단 접근으로 여객 정보 6만529건이 유출됐다고 밝혔다. 캐세이퍼시픽·일본항공·대한항공
+  승객도 피해가 확인됐다.
 sources:
-  - https://news.vocofm.com/ko/%E4%BA%9E%E6%B4%B2%E6%96%B0%E8%81%9E/209285/
-status: approved
+- https://news.vocofm.com/ko/%E4%BA%9E%E6%B4%B2%E6%96%B0%E8%81%9E/209285/
+status: published
+published_id: c-498bfe17ddbf209667e5ff277c1f190e7ae29ca9
+published_on: '2026-11-15'
 ---
 태국항공이 외부 예약 시스템을 통한 무단 접근으로 여객 정보 6만529건이 유출됐다고 밝혔다. 일부 기록에는 여권번호와 연락처가 들어 있다.
 

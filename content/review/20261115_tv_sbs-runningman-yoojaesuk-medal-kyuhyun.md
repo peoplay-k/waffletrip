@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'런닝맨' 유재석, 데뷔 35년 만에 보관문화훈장…규현과 가을 사진 명소 레이스"
+title: '''런닝맨'' 유재석, 데뷔 35년 만에 보관문화훈장…규현과 가을 사진 명소 레이스'
 source_name: ''
 source_url: ''
-summary: SBS '런닝맨'이 15일(일) 오후 6시 10분 방송된다. 유재석의 보관문화훈장 수훈을 축하하는 현장과 규현이 함께한 '가을 투 비 컨티뉴드' 레이스가 공개된다.
+summary: SBS '런닝맨'이 15일(일) 오후 6시 10분 방송된다. 유재석의 보관문화훈장 수훈을 축하하는 현장과 규현이 함께한 '가을 투
+  비 컨티뉴드' 레이스가 공개된다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9384
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9384
+status: published
+published_id: c-53ca148dadf26eb7a57537ed392057b231b8dd75
+published_on: '2026-11-15'
 ---
-
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 런닝맨
 > 방송 · 2026년 11월 15일(일) 오후 6시 10분

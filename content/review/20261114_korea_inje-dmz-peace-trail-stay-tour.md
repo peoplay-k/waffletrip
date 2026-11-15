@@ -4,15 +4,18 @@ channel: travel
 region: korea
 section: news
 kind: 보도자료
-title: "인제군, 코리아둘레길 하이라이트 구간 공모 선정…DMZ 평화의 길 체류형 관광 만든다"
+title: 인제군, 코리아둘레길 하이라이트 구간 공모 선정…DMZ 평화의 길 체류형 관광 만든다
 source_name: ''
 source_url: ''
-summary: 인제군이 한국관광공사 '2027 코리아둘레길 하이라이트 구간 활성화' 사전공모에 선정돼 DMZ 평화의 길과 농촌체험을 묶은 1박 2일 체류형 상품을 개발한다.
+summary: 인제군이 한국관광공사 '2027 코리아둘레길 하이라이트 구간 활성화' 사전공모에 선정돼 DMZ 평화의 길과 농촌체험을 묶은 1박 2일
+  체류형 상품을 개발한다.
 sources:
-  - https://www.kwnews.co.kr/article/20261109500192
-  - https://www.cnbnews.com/news/articleView.html?idxno=1023002
-  - https://news.kbs.co.kr/news/pc/view/view.do?ncd=8708652
-status: approved
+- https://www.kwnews.co.kr/article/20261109500192
+- https://www.cnbnews.com/news/articleView.html?idxno=1023002
+- https://news.kbs.co.kr/news/pc/view/view.do?ncd=8708652
+status: published
+published_id: c-c5de6df94a5dcafd4502a41da68eaac7f367034f
+published_on: '2026-11-15'
 ---
 강원 인제군이 DMZ 평화의 길과 농촌 체험을 묶은 1박 2일 체류형 관광 상품을 만든다. 한국관광공사의 '2027 코리아둘레길 하이라이트 구간 활성화' 사업 사전공모에 선정된 데 따른 것이다.
 

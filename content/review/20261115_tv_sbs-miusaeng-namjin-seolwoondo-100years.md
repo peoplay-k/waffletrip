@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'미운 우리 새끼' 남진·설운도 '백 년 잔치'…돌잡이에 인내심 폭발"
+title: '''미운 우리 새끼'' 남진·설운도 ''백 년 잔치''…돌잡이에 인내심 폭발'
 source_name: ''
 source_url: ''
-summary: SBS '미운 우리 새끼'가 15일(일) 밤 9시 방송된다. 허경환·임원희가 트로트 가수 하루와 함께 남진·설운도의 데뷔 햇수를 합친 100년을 기념하는 잔치를 준비한다.
+summary: SBS '미운 우리 새끼'가 15일(일) 밤 9시 방송된다. 허경환·임원희가 트로트 가수 하루와 함께 남진·설운도의 데뷔 햇수를 합친
+  100년을 기념하는 잔치를 준비한다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9383
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9383
+status: published
+published_id: c-19d08efe68aee5613e889fbb008b703395a46efb
+published_on: '2026-11-15'
 ---
-
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 미운 우리 새끼
 > 방송 · 2026년 11월 15일(일) 밤 9시
