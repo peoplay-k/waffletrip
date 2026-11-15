@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS2 '사랑이 온다' 31회, 정체 드러난 성욱 막아선 규림…집으로 돌아온 규영"
+title: KBS2 '사랑이 온다' 31회, 정체 드러난 성욱 막아선 규림…집으로 돌아온 규영
 source_name: ''
 source_url: ''
-summary: KBS2 주말드라마 '사랑이 온다'가 15일(일) 밤 8시 31회를 방송한다. 성욱의 실체를 알게 된 규림이 그를 막아서고, 쫓겨난 규영은 가족 곁으로 돌아온다.
+summary: KBS2 주말드라마 '사랑이 온다'가 15일(일) 밤 8시 31회를 방송한다. 성욱의 실체를 알게 된 규림이 그를 막아서고, 쫓겨난
+  규영은 가족 곁으로 돌아온다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/loveonthemenu
-status: approved
+status: published
+published_id: c-b4393bbe3ed8353a0d9acde6ae143cb74f7c6ec7
+published_on: '2026-11-15'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 31회

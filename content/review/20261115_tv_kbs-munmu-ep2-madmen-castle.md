@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS2 대하드라마 '문무' 2회 '광인들의 성'…분열 막는 김유신, 대야성의 고타소"
+title: KBS2 대하드라마 '문무' 2회 '광인들의 성'…분열 막는 김유신, 대야성의 고타소
 source_name: ''
 source_url: ''
-summary: KBS2 대하드라마 '문무'가 15일 밤 9시 20분 2회 '광인들의 성'을 방송한다. 정치적 위기에 몰린 춘추를 김유신이 구하고, 연개소문과 의자왕은 신라 공격을 모의한다.
+summary: KBS2 대하드라마 '문무'가 15일 밤 9시 20분 2회 '광인들의 성'을 방송한다. 정치적 위기에 몰린 춘추를 김유신이 구하고,
+  연개소문과 의자왕은 신라 공격을 모의한다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/munmu
-status: approved
+status: published
+published_id: c-a0c403bc030c35d085b22c5f7bae24ba09aab5bd
+published_on: '2026-11-15'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 문무 | 회차 · 2회

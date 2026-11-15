@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'역사스페셜 시간여행자' 45회, 7년 나당전쟁 추적…마지막 회 '신라, 대제국 당을 이기다'"
+title: '''역사스페셜 시간여행자'' 45회, 7년 나당전쟁 추적…마지막 회 ''신라, 대제국 당을 이기다'''
 source_name: ''
 source_url: ''
-summary: KBS1 '역사스페셜 시간여행자'가 15일 밤 8시 10분 '문무 2부작' 2부를 방송한다. 670년 압록강 기습부터 매소성, 기벌포까지 나당전쟁의 고비를 따라가며, 이번 회가 마지막 회다.
+summary: KBS1 '역사스페셜 시간여행자'가 15일 밤 8시 10분 '문무 2부작' 2부를 방송한다. 670년 압록강 기습부터 매소성, 기벌포까지
+  나당전쟁의 고비를 따라가며, 이번 회가 마지막 회다.
 sources:
 - https://program.kbs.co.kr/1tv/culture/newhistoryspecial
-status: approved
+status: published
+published_id: c-1fe768e9598334ebec15348bb8805af0314d2b3d
+published_on: '2026-11-15'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 역사스페셜 시간여행자 | 회차 · 45회
