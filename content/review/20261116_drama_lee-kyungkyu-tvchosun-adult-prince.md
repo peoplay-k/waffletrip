@@ -8,14 +8,16 @@ kind: 해설
 title: 이경규, TV조선 새 예능 '어른왕자'로 돌아온다…30일 밤 10시 첫 방송
 source_name: ''
 source_url: ''
-summary: '''예능 대부'' 이경규가 출연하는 TV조선 리얼 버라이어티 ''어른왕자''가 30일 월요일 밤 10시 첫 방송된다. 어른이지만 마음은 철없는 남자들이 사소한 꿈을 함께 이루는 예능이다.'
+summary: '''예능 대부'' 이경규가 출연하는 TV조선 리얼 버라이어티 ''어른왕자''가 30일 월요일 밤 10시 첫 방송된다. 어른이지만
+  마음은 철없는 남자들이 사소한 꿈을 함께 이루는 예능이다.'
 sources:
 - https://www.yna.co.kr/view/AKR20261113041500005
 - http://www.ftoday.co.kr/news/articleView.html?idxno=369626
 - https://www.joynews24.com/view/2025848
-status: approved
+status: published
+published_id: c-c50eeddbc78219221bc7e677925bb0629e155bfc
+published_on: '2026-11-16'
 ---
-
 '예능 대부' 이경규가 새 예능으로 안방을 찾는다. TV조선은 이경규가 출연하는 리얼 버라이어티 '어른왕자'가 30일 월요일 밤 10시에 첫 방송된다고 13일 밝혔다.
 
 ![이경규 · 사진 acrofan.com · CC BY-SA 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/Lee_Kyung-kyu_from_acrofan.jpg)

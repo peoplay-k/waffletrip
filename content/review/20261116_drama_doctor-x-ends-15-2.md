@@ -8,13 +8,15 @@ kind: 해설
 title: 김지원 주연 SBS '닥터X' 15.2%로 종영…20% 문턱에서 아쉬운 마무리
 source_name: ''
 source_url: ''
-summary: '김지원 주연의 SBS 금토드라마 ''닥터X: 하얀 마피아의 시대''가 14일 최종회에서 시청률 15.2%(닐슨코리아)를 기록하며 막을 내렸다. 두 자릿수 시청률을 지켰지만 한때 20% 돌파를 눈앞에 뒀던 만큼 아쉬움을 남겼다.'
+summary: '김지원 주연의 SBS 금토드라마 ''닥터X: 하얀 마피아의 시대''가 14일 최종회에서 시청률 15.2%(닐슨코리아)를 기록하며
+  막을 내렸다. 두 자릿수 시청률을 지켰지만 한때 20% 돌파를 눈앞에 뒀던 만큼 아쉬움을 남겼다.'
 sources:
 - https://www.xportsnews.com/article/2219666
 - https://www.yna.co.kr/view/AKR20261115015700005
-status: approved
+status: published
+published_id: c-af68369edc90db948bb65b4a95db0a0fc54aa639
+published_on: '2026-11-16'
 ---
-
 김지원 주연의 메디컬 드라마 '닥터X: 하얀 마피아의 시대'(이하 '닥터X')가 15%대 시청률로 끝났다. 시청률 조사회사 닐슨코리아에 따르면 14일 방송된 SBS 금토드라마 '닥터X' 최종회 시청률은 15.2%였다.
 
 ![김지원 · 사진 K-POPIT 케이팝잇 TV10 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/e/ed/Kim_Jiwon_%EA%B9%80%EC%A7%80%EC%9B%90_Airport_Departure_May_2025.png)

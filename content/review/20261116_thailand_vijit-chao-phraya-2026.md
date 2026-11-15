@@ -7,14 +7,16 @@ kind: 보도자료
 title: 방콕 짜오프라야강 빛 축제 '비짓 짜오프라야 2026' 개막…12월 13일까지 31일 밤
 source_name: ''
 source_url: ''
-summary: 태국관광청이 방콕 짜오프라야강 강변에서 빛 축제 '비짓 짜오프라야 2026'을 11월 13일부터 12월 13일까지 연다. 강변 19곳과 강 위 떠 있는 조명 작품에서 라이트쇼, 프로젝션 매핑, 드론 쇼, 불꽃놀이, 공연이 펼쳐진다.
+summary: 태국관광청이 방콕 짜오프라야강 강변에서 빛 축제 '비짓 짜오프라야 2026'을 11월 13일부터 12월 13일까지 연다. 강변 19곳과
+  강 위 떠 있는 조명 작품에서 라이트쇼, 프로젝션 매핑, 드론 쇼, 불꽃놀이, 공연이 펼쳐진다.
 sources:
 - https://www.tatnews.org/2026/11/vijit-chao-phraya-2026-brings-a-month-long-spectacle-of-light-and-imagination-to-bangkoks-riverfront/
 - https://www.tatnews.org/2026/11/vijit-chao-phraya-2026-opens-31-nights-of-light-and-imagination-across-bangkoks-riverfront/
 - https://www.vietnam.vn/ko/thai-lan-thap-sang-song-chao-phraya-thuc-day-du-lich-dem
-status: approved
+status: published
+published_id: c-02ad06da38119605ce45a42a1e33d9470afffa63
+published_on: '2026-11-16'
 ---
-
 방콕의 밤 강변이 한 달 동안 빛으로 물든다. 태국관광청(TAT)은 짜오프라야강 강변에서 빛 축제 '비짓 짜오프라야(Vijit Chao Phraya) 2026'을 11월 13일부터 12월 13일까지 31일 밤 동안 연다고 밝혔다.
 
 ## 강변 19곳 + 강 위 조명 작품

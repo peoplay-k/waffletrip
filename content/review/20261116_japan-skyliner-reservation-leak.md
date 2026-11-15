@@ -7,12 +7,14 @@ kind: 해설
 title: 나리타공항 잇는 '스카이라이너' 예약 시스템 무단 접근…고객 정보 최대 337만 건 유출 가능성
 source_name: ''
 source_url: ''
-summary: 도쿄 도심과 나리타공항을 잇는 특급열차 스카이라이너의 예약 시스템에 무단 접근이 있었고, 고객 정보 최대 337만 건이 유출됐을 수 있는 것으로 알려졌다.
+summary: 도쿄 도심과 나리타공항을 잇는 특급열차 스카이라이너의 예약 시스템에 무단 접근이 있었고, 고객 정보 최대 337만 건이 유출됐을 수
+  있는 것으로 알려졌다.
 sources:
 - https://japantoday.com/category/national/3-mil-records-possibly-leaked-after-unauthorized-access-to-Skyliner-system
-status: approved
+status: published
+published_id: c-a38e71eefbb73cac9fbb601099b879c86c38ccff
+published_on: '2026-11-16'
 ---
-
 도쿄 도심과 나리타공항을 잇는 특급열차 '스카이라이너'의 예약 시스템에 외부의 무단 접근이 있었다. 이 때문에 고객 정보가 최대 337만 건 유출됐을 수 있는 것으로 알려졌다.
 
 ## 나리타 오가는 여행객이 많이 쓰는 열차

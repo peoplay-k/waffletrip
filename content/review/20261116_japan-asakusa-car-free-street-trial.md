@@ -10,9 +10,10 @@ source_url: ''
 summary: 관광객이 몰리는 도쿄 아사쿠사 일대가 하루 동안 차 없는 거리로 시험 운영됐다. 과잉 관광에 대응하려는 실험이다.
 sources:
 - https://ichannela.com/news/detail/000000560078.do
-status: approved
+status: published
+published_id: c-ba41f96c1b7c9d8ef0dba30e5b4114385bd8b62a
+published_on: '2026-11-16'
 ---
-
 일본의 대표 관광지인 도쿄 아사쿠사 일대가 하루 동안 '차 없는 거리'가 됐다. 관광객이 지나치게 몰리는 과잉 관광 문제에 대응하려는 시험 운영이다.
 
 ## 지진 우려에도 관광객은 몰려

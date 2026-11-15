@@ -10,9 +10,10 @@ source_url: ''
 summary: 하와이 카우아이 군수가 허리케인 로웰에 따른 비상 기간을 60일 연장했다. 함께 면제했던 폐기물 반입 수수료는 다시 받는다.
 sources:
 - https://www.hawaiinewsnow.com/2026/11/14/kauai-extends-hurricane-lowell-emergency-period/
-status: approved
+status: published
+published_id: c-911080ae79c0734a1878a80c581986a7ecc24b7d
+published_on: '2026-11-16'
 ---
-
 하와이 카우아이섬이 허리케인 로웰(Lowell)에 따른 비상 기간을 60일 더 늘렸다. 카우아이 군수는 비상 기간 연장을 발표하며, 그동안 면제해 온 폐기물 반입 수수료는 11월부터 다시 받는다고 밝혔다.
 
 ## 카우아이 여행객은

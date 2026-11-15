@@ -8,12 +8,14 @@ kind: 해설
 title: KBS2 '욕망의 덫' 58회, 머리 자르고 달라진 은설…미란, 해라 몰래 만난 국철 찾아간다
 source_name: ''
 source_url: ''
-summary: KBS2 일일드라마 '욕망의 덫' 58회가 16일 저녁 7시 50분 방송된다. 머리를 자르고 달라진 은설이 미란을 흔들기 시작하고, 해라가 국철을 몰래 만나고 있다는 걸 안 미란은 직접 국철을 찾아간다.
+summary: KBS2 일일드라마 '욕망의 덫' 58회가 16일 저녁 7시 50분 방송된다. 머리를 자르고 달라진 은설이 미란을 흔들기 시작하고,
+  해라가 국철을 몰래 만나고 있다는 걸 안 미란은 직접 국철을 찾아간다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+status: published
+published_id: c-2001983c390b5c288146b5f90b80ebdae8124615
+published_on: '2026-11-16'
 ---
-
 KBS2 일일드라마 '욕망의 덫' 58회가 16일 저녁 7시 50분에 방송된다. 공식 예고 제목은 "당신이 짠 판에서 놀아나지 않아"다.
 
 @youtube Dps6croc8lI

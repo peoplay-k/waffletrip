@@ -7,12 +7,14 @@ kind: 해설
 title: 인천~괌 9월 탑승률 47.5%…한 달 새 15%p 떨어져
 source_name: ''
 source_url: ''
-summary: 한국교통연구원 9월 항공통계에 따르면 인천~괌 노선의 평균 탑승률은 8월 62.5%에서 9월 47.5%로 15.0%p 내렸다. 여객도 24% 줄었다.
+summary: 한국교통연구원 9월 항공통계에 따르면 인천~괌 노선의 평균 탑승률은 8월 62.5%에서 9월 47.5%로 15.0%p 내렸다. 여객도
+  24% 줄었다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500722
-status: approved
+status: published
+published_id: c-58cb78015041c5487880661ef6b94c64eaf8ce43
+published_on: '2026-11-16'
 ---
-
 인천~괌 노선의 9월 평균 탑승률이 47.5%로 떨어졌다. 한국교통연구원의 9월 항공통계 자료에 따르면, 이 노선의 평균 탑승률은 8월 62.5%에서 9월 47.5%로 한 달 새 15.0%p 내렸다. 같은 기간 여객은 24% 줄었다.
 
 ## 여름 성수기 끝난 9월
