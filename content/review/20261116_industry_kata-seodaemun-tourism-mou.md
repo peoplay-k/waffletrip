@@ -4,16 +4,17 @@ channel: travel
 region: industry
 section: news
 kind: 보도자료
-title: "한국여행업협회, 서대문구청과 관광 활성화 업무협약 체결"
+title: 한국여행업협회, 서대문구청과 관광 활성화 업무협약 체결
 source_name: ''
 source_url: ''
 summary: 한국여행업협회와 서대문구청이 13일 업무협약을 맺고 서대문구의 역사·문화·자연을 활용한 관광상품 개발과 관광객 유치에 협력하기로 했다.
 sources:
-  - http://www.ttlnews.com/news/articleView.html?idxno=3162360
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72687
-status: approved
+- http://www.ttlnews.com/news/articleView.html?idxno=3162360
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72687
+status: published
+published_id: c-c62933aaaf417f1e47090ae13ae6bd59af0f9992
+published_on: '2026-11-16'
 ---
-
 한국여행업협회(KATA)와 서대문구청이 서대문구 관광 활성화와 국내외 관광객 유치를 위한 업무협약을 맺었다. 양 기관은 구의 역사·문화·자연을 살린 관광상품을 함께 개발한다.
 
 두 기관은 13일 서대문구청 구청장실에서 협약을 체결했다. 협약에 따라 관광 연계사업을 함께 발굴하고, 공동 홍보와 마케팅을 추진한다. 이를 통해 지역 관광과 지역 상권을 살린다는 구상이다.

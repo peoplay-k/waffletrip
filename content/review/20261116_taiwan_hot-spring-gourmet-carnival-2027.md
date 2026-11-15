@@ -4,17 +4,18 @@ channel: travel
 region: taiwan
 section: news
 kind: 해설
-title: "대만 '2026-2027 온천·미식 카니발' 내년 6월까지, 19개 온천 권역 참여"
+title: 대만 '2026-2027 온천·미식 카니발' 내년 6월까지, 19개 온천 권역 참여
 source_name: ''
 source_url: ''
 summary: 대만 관광당국의 온천·미식 카니발이 2027년 6월 30일까지 이어진다. 베이터우·자오시·관쯔링·쓰충시 등 19개 온천 권역이 참여한다.
 sources:
-  - https://www.thetrippick.com/news/articleView.html?idxno=4559
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72683
-  - https://www.onews.tv/news/articleView.html?idxno=291679
-status: approved
+- https://www.thetrippick.com/news/articleView.html?idxno=4559
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72683
+- https://www.onews.tv/news/articleView.html?idxno=291679
+status: published
+published_id: c-b850337f08997943dc06545eafd87952ab6be572
+published_on: '2026-11-16'
 ---
-
 대만 관광당국이 진행하는 '2026-2027 대만 온천·미식 카니발'이 2027년 6월 30일까지 이어진다. 쌀쌀해지는 계절에 맞춰 온천과 현지 음식을 함께 즐기는 여행을 앞세운 행사다.
 
 행사에는 타이베이의 베이터우, 자오시, 관쯔링, 쓰충시 등 19개 온천 권역이 참여한다. 권역별로 온천 이용과 음식을 묶은 구성을 내놓는 방식이어서, 여행객은 일정에 넣을 지역을 골라 혜택을 확인할 수 있다.

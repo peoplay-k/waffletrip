@@ -4,16 +4,18 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "공주시, 21일 제민천 일원서 '감성라면 & 깍두기 축제'"
+title: 공주시, 21일 제민천 일원서 '감성라면 & 깍두기 축제'
 source_name: ''
 source_url: ''
-summary: 충남 공주시 중학동이 11월 21일 오전 11시부터 오후 5시까지 제민천 일원 반죽동 당간지주공원에서 라면과 깍두기를 주제로 한 축제를 연다.
+summary: 충남 공주시 중학동이 11월 21일 오전 11시부터 오후 5시까지 제민천 일원 반죽동 당간지주공원에서 라면과 깍두기를 주제로 한 축제를
+  연다.
 sources:
-  - https://www.dailycc.net/news/articleView.html?idxno=879415
-  - https://www.tournews21.com/news/articleView.html?idxno=148463
-status: approved
+- https://www.dailycc.net/news/articleView.html?idxno=879415
+- https://www.tournews21.com/news/articleView.html?idxno=148463
+status: published
+published_id: c-77848a0e5ddb1c14e7dc30f7c5331504cadfaf35
+published_on: '2026-11-16'
 ---
-
 충남 공주시 원도심 제민천 일대에서 라면과 깍두기를 주제로 한 작은 축제가 열린다. 공주시는 오는 21일 오전 11시부터 오후 5시까지 반죽동 당간지주공원 일원에서 '2026 공주 제민천 감성라면 & 깍두기 축제'를 개최한다고 밝혔다.
 
 행사 무대는 공주 원도심의 대표 명소인 제민천이다. 남녀노소 누구나 즐겨 먹는 라면에 지역의 역사가 담긴 깍두기를 접목해, 원도심에 새로운 활기를 불어넣겠다는 것이 취지다. 행사는 공주시 중학동이 주관한다.

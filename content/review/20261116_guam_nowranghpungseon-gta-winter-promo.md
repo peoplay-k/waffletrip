@@ -4,17 +4,19 @@ channel: travel
 region: guam
 section: news
 kind: 보도자료
-title: "노랑풍선, 괌정부관광청과 겨울철 괌 여행 기획전 공동 운영"
+title: 노랑풍선, 괌정부관광청과 겨울철 괌 여행 기획전 공동 운영
 source_name: ''
 source_url: ''
-summary: 노랑풍선이 괌정부관광청과 손잡고 2027년 3월까지 출발하는 겨울철 괌 상품을 여행 목적별로 묶어 판매한다. 연말 성수기와 겨울방학 수요를 겨냥한 기획전이다.
+summary: 노랑풍선이 괌정부관광청과 손잡고 2027년 3월까지 출발하는 겨울철 괌 상품을 여행 목적별로 묶어 판매한다. 연말 성수기와 겨울방학
+  수요를 겨냥한 기획전이다.
 sources:
-  - https://www.lawissue.co.kr/view.php?ud=202611131218517246204ead0791_12
-  - https://www.mk.co.kr/news/culture/12207966
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72680
-status: approved
+- https://www.lawissue.co.kr/view.php?ud=202611131218517246204ead0791_12
+- https://www.mk.co.kr/news/culture/12207966
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72680
+status: published
+published_id: c-f7b3fd9a983827e03a71769b8f1ad60040b8a9b2
+published_on: '2026-11-16'
 ---
-
 노랑풍선이 괌정부관광청과 함께 겨울철 괌 여행 기획전을 연다. 2026년 11월부터 2027년 3월까지 출발하는 상품이 대상이며, 가족·커플 등 여행 목적에 따라 고를 수 있게 구성했다.
 
 노랑풍선은 연말 성수기와 겨울방학을 앞두고 따뜻한 휴양지를 찾는 수요가 늘어날 것으로 보고 이번 공동 프로모션을 마련했다고 밝혔다. 추운 계절을 피해 떠나는 여행객이 함께 가는 사람과 일정 성격에 맞춰 상품을 비교해 선택하도록 한다는 취지다.

@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '다큐프라임' <생각의 멸종> 3부, 'AI 맹신' 진단하는 마지막 회"
+title: EBS '다큐프라임' <생각의 멸종> 3부, 'AI 맹신' 진단하는 마지막 회
 source_name: ''
 source_url: ''
-summary: EBS 다큐프라임 <생각의 멸종> 3부 '질문하는 사람은 멸종하지 않는다'가 16일 밤 9시 55분 최종회로 방송된다. 챗봇 과의존의 실태와 싱가포르·핀란드의 교육 해법을 다룬다.
+summary: EBS 다큐프라임 <생각의 멸종> 3부 '질문하는 사람은 멸종하지 않는다'가 16일 밤 9시 55분 최종회로 방송된다. 챗봇 과의존의
+  실태와 싱가포르·핀란드의 교육 해법을 다룬다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005633592
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005633592
+status: published
+published_id: c-649ed528e4fcf53cfbe4c5a761f458a0753b489b
+published_on: '2026-11-16'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 다큐프라임 <생각의 멸종> | 회차 · 3부(최종회) '질문하는 사람은 멸종하지 않는다'
 > 방송 · 2026년 11월 16일(월) 밤 9시 55분
