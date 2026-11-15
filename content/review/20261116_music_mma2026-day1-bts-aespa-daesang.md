@@ -5,16 +5,19 @@ category: music
 region: ''
 section: news
 kind: 해설
-title: "BTS·에스파, 'MMA 2026' 첫날 나란히 대상"
+title: BTS·에스파, 'MMA 2026' 첫날 나란히 대상
 source_name: ''
 source_url: ''
-summary: "2026 멜론뮤직어워드 첫날인 14일 방탄소년단이 정규 5집 '아리랑'으로 '올해의 앨범'을, 에스파가 '올해의 글로벌-K 아티스트'를 받았다. 올해 처음 이틀로 열린 시상식은 15일 둘째 날로 이어진다."
+summary: 2026 멜론뮤직어워드 첫날인 14일 방탄소년단이 정규 5집 '아리랑'으로 '올해의 앨범'을, 에스파가 '올해의 글로벌-K 아티스트'를
+  받았다. 올해 처음 이틀로 열린 시상식은 15일 둘째 날로 이어진다.
 sources:
-  - https://www.yna.co.kr/view/AKR20261114049700005
-  - https://www.hankyung.com/article/202611146620H
-  - https://www.starnewskorea.com/music/2026/11/14/2026111422035476268
-  - https://www.xportsnews.com/article/2219598
-status: approved
+- https://www.yna.co.kr/view/AKR20261114049700005
+- https://www.hankyung.com/article/202611146620H
+- https://www.starnewskorea.com/music/2026/11/14/2026111422035476268
+- https://www.xportsnews.com/article/2219598
+status: published
+published_id: c-62a1e3ef244454333c94a7dff093d110d8801a54
+published_on: '2026-11-16'
 ---
 2026 멜론뮤직어워드(MMA 2026) 첫날 대상 격인 '올해의 앨범'은 방탄소년단이 가져갔다. 에스파는 '올해의 글로벌-K 아티스트'를 받아, 두 팀이 첫날 나란히 큰 상을 나눠 가졌다.
 

@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '한국기행' 가을이 절정입니다, 설악산 한계산성에서 정선 민둥산까지"
+title: EBS '한국기행' 가을이 절정입니다, 설악산 한계산성에서 정선 민둥산까지
 source_name: ''
 source_url: ''
-summary: "EBS1 '한국기행'이 16일부터 20일까지 평일 밤 9시 35분 '가을이 절정입니다'를 방송한다. 첫 회는 설악산 한계산성과 정선 민둥산 억새 길을 따라간다."
+summary: EBS1 '한국기행'이 16일부터 20일까지 평일 밤 9시 35분 '가을이 절정입니다'를 방송한다. 첫 회는 설악산 한계산성과 정선
+  민둥산 억새 길을 따라간다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005634059
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005634059
+status: published
+published_id: c-64c0824e977df7ac11f28c776633dd96b09b9bf4
+published_on: '2026-11-16'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 한국기행 | 기획 · 가을이 절정입니다

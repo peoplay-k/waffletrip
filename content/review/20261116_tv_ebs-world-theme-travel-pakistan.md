@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '세계테마기행' 방랑의 계절, 파키스탄 스카르두에서 칼라시까지"
+title: EBS '세계테마기행' 방랑의 계절, 파키스탄 스카르두에서 칼라시까지
 source_name: ''
 source_url: ''
-summary: "EBS1 '세계테마기행'이 16일부터 19일까지 저녁 8시 40분 '방랑의 계절, 파키스탄'을 방송한다. 여행자이자 사진작가 알렉스 김이 스카르두, 훈자, 칼라시 마을, 카간밸리를 차례로 찾는다."
+summary: EBS1 '세계테마기행'이 16일부터 19일까지 저녁 8시 40분 '방랑의 계절, 파키스탄'을 방송한다. 여행자이자 사진작가 알렉스
+  김이 스카르두, 훈자, 칼라시 마을, 카간밸리를 차례로 찾는다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005633939
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005633939
+status: published
+published_id: c-4ff7fe01ac3c7b43243c2fb372f0b7dd47857db8
+published_on: '2026-11-16'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 세계테마기행 | 기획 · 방랑의 계절, 파키스탄
