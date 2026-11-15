@@ -15,7 +15,7 @@
       ],
       "count": 10,
       "photos": [
-        "assets/photos/vietnam/PEO_3322.webp",
+        "assets/photos/vietnam/PEO_3317.webp",
         "assets/photos/jeju/DSC01484.webp"
       ]
     }
@@ -93,7 +93,7 @@
     "region": "vietnam",
     "count": 1,
     "narration": "베트남 소식입니다.",
-    "photo": "assets/photos/vietnam/260904_하노이여행_13번.webp"
+    "photo": "assets/photos/vietnam/260905_하롱베이크루즈_11번.webp"
   },
   {
     "kind": "story",
@@ -103,7 +103,7 @@
     "summary": "베트남 민간항공청의 제안에 따르면, 추라이 국제공항은 2030년까지 연간 500만 명, 2050년까지 연간 3천만 명의 승객을 수용할 수 있는 4F급 공항으로 건설될 예정이며, 이를 위해 약 81조 6,120억 VND의 투자가 필요할 것으로 추산됩니다",
     "outlet": "vietnam.vn",
     "narration": "다낭시 인민위원회는 추라이 공항에 투자할 수 있는 권한을 부여해 줄 것을 요청했습니다.",
-    "photo": "assets/photos/vietnam/PEO_2798.webp"
+    "photo": "assets/photos/vietnam/PEO_3319.webp"
   },
   {
     "kind": "section",
@@ -186,7 +186,7 @@
     "region": "guam",
     "count": 1,
     "narration": "괌 소식입니다.",
-    "photo": "assets/photos/guam/PEO_3276.webp"
+    "photo": "assets/photos/guam/e23_1.webp"
   },
   {
     "kind": "story",
@@ -196,7 +196,7 @@
     "summary": "4일 괌 투몬 베이에 위치한 두짓타니 괌(Dusit Thani Guam) 리조트 객실 발코니에서 본 투몬 베이 전경",
     "outlet": "국제뉴스",
     "narration": "두짓타니 괌에서는 내 방이 전망대!.",
-    "photo": "assets/photos/guam/PEO_9670.webp"
+    "photo": "assets/photos/guam/PEO_3546.webp"
   },
   {
     "kind": "title",
