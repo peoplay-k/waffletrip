@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '틈만나면,' 고수·육성재 첫 출격, 용인 수지구 틈새 찾는다"
+title: SBS '틈만나면,' 고수·육성재 첫 출격, 용인 수지구 틈새 찾는다
 source_name: ''
 source_url: ''
-summary: SBS '틈만나면,'이 17일 밤 9시 고수와 육성재를 '틈친구'로 맞는다. 두 사람은 경기 용인시 수지구의 틈새 시간을 찾아 게임에 나선다. 지난 10일 방송은 최고 시청률 4.9%를 기록했다.
+summary: SBS '틈만나면,'이 17일 밤 9시 고수와 육성재를 '틈친구'로 맞는다. 두 사람은 경기 용인시 수지구의 틈새 시간을 찾아 게임에
+  나선다. 지난 10일 방송은 최고 시청률 4.9%를 기록했다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9391
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9391
+status: published
+published_id: c-391c3ab49aa03f6235781c6c0c3650c32893eda8
+published_on: '2026-11-17'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 틈만나면, | 회차 · 11월 17일 방송분

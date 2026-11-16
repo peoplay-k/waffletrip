@@ -4,14 +4,17 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "트리니티항공, 3분기 영업손실 419억원…적자 546억원 줄어"
+title: 트리니티항공, 3분기 영업손실 419억원…적자 546억원 줄어
 source_name: ''
 source_url: ''
-summary: 트리니티항공이 3분기 별도 기준 영업손실 419억원을 냈다. 전년 같은 기간 965억원보다 적자가 546억원 줄었다. 매출은 5,336억원으로 18.6% 늘었다.
+summary: 트리니티항공이 3분기 별도 기준 영업손실 419억원을 냈다. 전년 같은 기간 965억원보다 적자가 546억원 줄었다. 매출은 5,336억원으로
+  18.6% 늘었다.
 sources:
-  - http://www.kdfnews.com/news/articleView.html?idxno=191011
-  - https://www.newsis.com/view/NISX20261116_0003869683
-status: approved
+- http://www.kdfnews.com/news/articleView.html?idxno=191011
+- https://www.newsis.com/view/NISX20261116_0003869683
+status: published
+published_id: c-a4273b98702b11e84d5a356a8ba7b5da98c7f300
+published_on: '2026-11-17'
 ---
 트리니티항공이 올해 3분기 영업손실 419억원을 기록했다. 적자 폭은 지난해보다 크게 줄었고 매출은 두 자릿수로 늘었다.
 

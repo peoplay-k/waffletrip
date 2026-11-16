@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '건축탐구 집' 수제로 지은 집, 안성 부자의 집짓기와 공주 '달아달아 집'"
+title: EBS '건축탐구 집' 수제로 지은 집, 안성 부자의 집짓기와 공주 '달아달아 집'
 source_name: ''
 source_url: ''
-summary: EBS1 '건축탐구 집'이 17일 밤 9시 55분 '위대한 손맛, 수제로 지었습니다' 편을 방송한다. 경기 안성에서 1억원으로 시작한 부자의 집짓기를 따라간다. 충남 공주 계룡산 도예촌의 증축한 집도 소개한다.
+summary: EBS1 '건축탐구 집'이 17일 밤 9시 55분 '위대한 손맛, 수제로 지었습니다' 편을 방송한다. 경기 안성에서 1억원으로 시작한
+  부자의 집짓기를 따라간다. 충남 공주 계룡산 도예촌의 증축한 집도 소개한다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005634078
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005634078
+status: published
+published_id: c-c41e7ab7662709391126e186d637f28a53d26234
+published_on: '2026-11-17'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 건축탐구 집 | 회차 · 위대한 손맛, 수제로 지었습니다

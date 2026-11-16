@@ -174,13 +174,13 @@
 ## 국내
 
 ### (재)부산문화회관, ‘2026 시민뜨락축제’ 개최
-- 매체 3곳 · 거제뉴스광장 · 국제신문 · 이론경제  ← 여러 곳이 썼다
+- 매체 3곳 · 거제뉴스광장 · 국제신문 · 메가충청뉴스  ← 여러 곳이 썼다
   - 국제신문: (재)부산문화회관은 15일 부산 기장군 롯데프리미엄아울렛 동부산점 야외 광장에서 ‘2026 시민뜨락축제’를 열었다. 시민이 저글링 아티스트 오장욱의 역동적인 퍼포.
     https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=00&key=20261116.22020004509
   - 거제뉴스광장: 거제시(시장 변광용)는 오는 11월 28일(토) 오후 1시부터 7시 30분까지 장승포 거제문화예술회관 대극장에서 「2026 거제청년축제 ‘청년위캔’」을 개최한다.
     https://www.gjnewsplaza.com/news/articleView.html?idxno=33400
-  - 이론경제: 공주문화관광재단(대표이사 김지광)은 지난 14일 아트센터고마에서 개최한 ‘2026 공주 댕댕와유 페스티벌’을 성황리에 마무리했다고 밝혔다. 올해 처음으로 개최된 이번 행사는 반려동물과 함께 즐길 수 있는 새로운 관광 콘텐츠를 선보이며 반려인과 비반려인이 함께 어우러지는 축제의 장을 마련
-    https://www.eronnews.co.kr/news/articleView.html?idxno=46744
+  - 메가충청뉴스: [메가충청뉴스] 공주문화관광재단은 지난 14일 아트센터고마에서 개최한 ‘2026 공주 댕댕와유 페스티벌’을 성황리에 마무리했다고 밝혔다. 올해 처음으로 개최된 이번
+    https://www.megaccnews.com/news/articleView.html?idxno=16204
 
 ### 부산항만공사, 임직원 가족과 어촌관광 체험 행사
 - 매체 1곳 · 파이낸셜뉴스  ← 여러 곳이 썼다
@@ -526,7 +526,7 @@
     https://www.m-i.kr/news/articleView.html?idxno=2018707
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 36개 확인, 사진 줄 3개)
+(자유 이용 사진: 이름 후보 36개 확인, 사진 줄 2개)
 
 ### 🔥 화제(매체 14곳) [movie] ‘극장판 치이카와’ 1위 지키며 294만명 돌파…300만명 눈앞 [11월 15일 영화 박스오피스]
 - 매체 2곳 · ER 이코노믹리뷰 · SBS연예뉴스  ← 여러 곳이 썼다
@@ -568,7 +568,6 @@
 
 ### 🔥 화제(매체 3곳) [startrip] NCT 드림, 정규 6집 초동 100만장 돌파…11개 앨범 연속 밀리언셀러
 - 매체 1곳 · 문화뉴스
-- 사진(자유 이용, 드림): `![드림 · 사진 MGXINE · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/c/c6/Dream_at_VidCon_Anaheim_2023.png)`
   - 문화뉴스: 그룹 NCT 드림(NCT DREAM)이 정규 6집 ‘드림 애프터 드림’(DREAM AFTER DREAM)으로 11개 앨범 연속 밀리언셀러 기록을 달성했다. 소속사 SM엔터테인먼트는 16일 NCT 드림이 지난 9일 발매한 정규 6집으로 한터차트 기준 발매 첫 주 판매량 100만2500여장
     https://www.mhns.co.kr/news/articleView.html?idxno=769220
 
@@ -597,67 +596,7 @@
 
 관광청·방송사·소속사·배급사 공식 유튜브만 모았다. 영상 제목·설명의 사실로 기사를 쓰고,
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
-(검색어 34개 · 고른 영상 15개)
-
-## ENHYPEN (엔하이픈) 'I Want You' Official MV
-- 채널 HYBE LABELS · 조회수 20,835,632회 · 3일 전
-- `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
-
-## CHAERYEONG(채령) “Lovesick” M/V
-- 채널 JYP Entertainment · 조회수 9,466,053회 · 7일 전
-- `@youtube pe-rk1ekb4w` · https://www.youtube.com/watch?v=pe-rk1ekb4w
-
-## GIRLSET "young & dumb" Music Video
-- 채널 JYP Entertainment · 조회수 6,722,756회 · 3일 전
-- `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
-
-## oftheblue(오브더블루) "풍선인간" Blind Performance Video
-- 채널 JYP Entertainment · 조회수 1,326,648회 · 6일 전
-- `@youtube d1AknDUMAE0` · https://www.youtube.com/watch?v=d1AknDUMAE0
-
-## 리센느, 결국 법적 대응…이미 1차 형사 고소 완료 [투데이 '픽'/iMBC연예뉴스]
-- 채널 iMBC연예 · 조회수 1,257,480회 · 3일 전
-- `@youtube 9vekzviOOjw` · https://www.youtube.com/watch?v=9vekzviOOjw
-
-## NCT DREAM - Boogie Woogie | 1theKILLPO | Performance
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,041,423회 · 5일 전
-- `@youtube HYHu_ui8t2s` · https://www.youtube.com/watch?v=HYHu_ui8t2s
-
-## ENHYPEN (엔하이픈) 'I Want You' Official Teaser
-- 채널 HYBE LABELS · 조회수 923,200회 · 4일 전
-- `@youtube _pLJBPzp3Fg` · https://www.youtube.com/watch?v=_pLJBPzp3Fg
-
-## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
-- 채널 tvN DRAMA · 조회수 671,752회 · 6일 전
-- `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
-
-## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 583,744회 · 1일 전
-- `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
-
-## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 468,710회 · 7일 전
-- `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
-
-## RESCENE (리센느) - With | Show! MusicCore | MBC261114방송
-- 채널 MBCkpop · 조회수 408,449회 · 2일 전
-- `@youtube RSxusLXRQ80` · https://www.youtube.com/watch?v=RSxusLXRQ80
-
-## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
-- 채널 tvN DRAMA · 조회수 342,484회 · 2일 전
-- `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
-
-## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
-- 채널 HYBE LABELS · 조회수 325,366회 · 7일 전
-- `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
-
-## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 선우 (SUNOO)
-- 채널 HYBE LABELS · 조회수 306,366회 · 6일 전
-- `@youtube rF640_v3ikE` · https://www.youtube.com/watch?v=rF640_v3ikE
-
-## ［31회 예고］제가 혹이라서 허락 안 하신 거예요? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 270,851회 · 2일 전
-- `@youtube 1x4AkY0HbA4` · https://www.youtube.com/watch?v=1x4AkY0HbA4
+(검색어 34개 · 고른 영상 0개)
 
 
 
@@ -753,7 +692,6 @@
 ## KBS2 일일드라마 욕망의 덫 · 59회 — 11/17 19:50 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
 - 보도자료 제목: [일일드라마 욕망의 덫] 11월 17일 예고편 / 19:50 방송
-- 유튜브 예고(공식 KBS Drama): `@youtube Bvsga2zQbzU` — [59화 예고] 청마의 주인은 당신이 되고 싶었던 거지? [욕망의 덫] | KBS 방송
 - 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
 
 59회 은설은 현재가 남긴 증거들을 하나씩 정리하며 반격을 준비하고, 정선은 영훈의 서랍에서 낯선 흔적을 발견한다. 그 사이 미란 앞으로 정체 모를 택배 상자 하나가 도착하는데...
@@ -761,7 +699,6 @@
 ## KBS1 일일드라마 엄마가 미쳤어요 · 37회 — 11/17 20:30 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/1tv/drama/mompossible
 - 보도자료 제목: [일일드라마 엄마가 미쳤어요] 11월 17일 예고편 / 20:30 방송
-- 유튜브 예고(공식 KBS Drama): `@youtube f5ZC8ewnTn8` — [37화 예고] 내가 무엇이든 다 들어주지 [엄마가 미쳤어요] | KBS 방송
 - 사진(자유 이용, 출연자 정민아): `![정민아 · 사진 뉴스인스타 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/93/190718_%EC%A0%95%EB%AF%BC%EC%95%84_%281%29.jpg)`
 
 [37회] 미미는 큰맘 먹고 산 노란 원피스로 가족들을 깜짝 놀라게 하고, 금순은 인성의 복직을 허락한다. 한편 진희는 안성댁에게 돈을 건네며 금순의 일상을 낱낱이 보고하라고 지시하는데...
