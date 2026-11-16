@@ -4,16 +4,17 @@ channel: travel
 region: korea
 section: data
 kind: 해설
-title: "단양군, 올가을 단풍철 방문객 84만9780명…지난해보다 11.7% 늘어"
+title: 단양군, 올가을 단풍철 방문객 84만9780명…지난해보다 11.7% 늘어
 source_name: ''
 source_url: ''
 summary: 충북 단양군이 단풍철 방문객 집계를 내놨다. 10월 15일부터 11월 7일까지 84만9780명이 다녀갔고, 지난해보다 11.7% 늘었다.
 sources:
-  - https://www.newsis.com/view/NISX20261116_0003869315
-  - https://www.newspim.com/news/view/20261116000284
-status: approved
+- https://www.newsis.com/view/NISX20261116_0003869315
+- https://www.newspim.com/news/view/20261116000284
+status: published
+published_id: c-20b5deef4cc70010e38280480a0316293d682d5a
+published_on: '2026-11-16'
 ---
-
 충북 단양을 찾은 올가을 단풍철 방문객이 지난해보다 11.7% 늘었다. 단풍 명소로 꼽히는 보발재 일대가 연일 붐볐고, 전통시장도 가을 관광 수요를 함께 누렸다.
 
 단양군은 16일 단풍철이던 지난달 15일부터 이달 7일까지 단양을 찾은 방문객이 모두 84만9780명으로 집계됐다고 밝혔다. 같은 기간 지난해보다 11.7% 많은 수치다.
