@@ -48,7 +48,7 @@ def test_table_cell_content_is_escaped():
 
 def test_bullet_and_numbered_lists():
     assert render("- 하나\n- 둘").count("<li>") == 2
-    assert "<ol>" in render("1. 하나\n2. 둘")
+    assert "<ol class=\"nlist\">" in render("1. 하나\n2. 둘")
 
 
 def test_blockquote_and_rule():
@@ -110,3 +110,15 @@ def test_유튜브_예고편은_id_만_받아_nocookie_로_띄운다():
     assert 'src="https://www.youtube-nocookie.com/embed/NTk5p8RJJ6k"' in got
     assert "<iframe" not in render('@youtube "><script>x')
     assert "<iframe" not in render("@youtube https://evil.example/aaaaaaaaaaa")
+
+
+def test_readability_rules_2026_11_16():
+    from src.render.md import highlight, maps_of, summary_lines
+    out = render("첫 문장이다. 둘째 문장이다.\n\n자세한 건 https://example.com/x 에서.")
+    assert "첫 문장이다.<br>둘째 문장이다." in out                # 한 문장 한 줄
+    assert "바로가기" in out and ">https://" not in out               # 주소는 지면에 안 보인다
+    assert 'class="slist"' in render("- 하나\n- 둘")
+    assert "@map" not in render("본문.\n\n@map 제주 도두항") and maps_of("본문.\n\n@map 제주 도두항") == ["제주 도두항"]
+    assert 'class="ai-note"' in render("본문이다.\n\n이 카툰은 AI 로 그렸다.")
+    assert len(summary_lines("가가가가가가가가가가가가. 나나나나나나나나나나나, 다다다다다다다다다다다다.")) == 3
+    assert "<mark>24%</mark>" in highlight("여객이 24% 줄었다") and "<mark>" not in highlight("11월 13일")

@@ -21,6 +21,13 @@ _LIST = re.compile(r"^([-*·]|\d+\.)\s+")
 # 방송사 공식 유튜브 예고편(2026-10-17). 영상 id 는 11자 고정 문자만 받는다.
 _YOUTUBE = re.compile(r"^@youtube\s+([\w-]{11})$")
 _IMAGE = re.compile(r"^!\[([^\]]*)\]\((https://[^)\s]+)\)$")
+# 지도(2026-11-16 사장님: "관련된 곳 지도 첨부 필수"). 본문 어디에 써도 기사 끝에 모아 붙인다.
+_MAP = re.compile(r"^@map\s+(.{2,80})$")
+_BARE_URL = re.compile(r"https?://[^\s<>\"']+")
+# 기사 끝 'AI 로 썼다' 안내 — 작은 글씨로(2026-11-16 사장님)
+_AI_NOTE = re.compile(r"AI\s*(?:로|가|를|와)?\s*.{0,30}(?:그렸|작성|썼|만들|생성)")
+# 문장 끝. 소수점(3.5)·약어 안의 점은 뒤에 빈칸이 없어 걸리지 않는다.
+_SENT_END = re.compile(r"(?<=[.!?…])\s+(?=[^\s])")
 
 
 def _safe_href(url: str) -> str:
@@ -30,25 +37,60 @@ def _safe_href(url: str) -> str:
 
 def _inline(text: str) -> str:
     out = html.escape(text, quote=True)          # ← 반드시 먼저
+    keep: list[str] = []                          # 만든 링크는 맨 끝에 되돌린다(주소 자동 링크와 겹치지 않게)
+
+    def stash(a: str) -> str:
+        keep.append(a)
+        return f"\x00{len(keep) - 1}\x00"
 
     def link(m):
         href = _safe_href(html.unescape(m.group(2)))
         label = m.group(1)
         if not href:
             return label
+        # 링크 글자가 주소 그대로면 '바로가기'로 바꾼다 — 주소는 지면에 드러내지 않는다
+        # (2026-11-16 사장님: "링크 삽입하고 링크 주소는 지워").
+        if _BARE_URL.fullmatch(html.unescape(label)):
+            label = "바로가기"
         # 우리 쪽 링크에는 nofollow·새 창을 붙이지 않는다. nofollow 는 남의
         # 사이트로 신뢰를 넘기지 않으려는 표시인데 우리 쪽에 붙이면 우리
         # 지면끼리 연결이 검색엔진에 전달되지 않는다. 새 창도 같은 사이트
         # 안에서는 성가시기만 하다.
         if href.startswith("/"):
-            return '<a href="%s">%s</a>' % (html.escape(href, quote=True), label)
-        return '<a href="%s" rel="nofollow noopener" target="_blank">%s</a>' % (
-            html.escape(href, quote=True), label)
+            return stash('<a href="%s">%s</a>' % (html.escape(href, quote=True), label))
+        return stash('<a href="%s" rel="nofollow noopener" target="_blank">%s</a>' % (
+            html.escape(href, quote=True), label))
+
+    def bare(m):
+        url = m.group(0).rstrip(".,)")
+        tail = m.group(0)[len(url):]
+        href = _safe_href(html.unescape(url))
+        if not href:
+            return m.group(0)
+        return stash('<a class="go" href="%s" rel="nofollow noopener" target="_blank">바로가기</a>'
+                     % html.escape(href, quote=True)) + tail
 
     out = _LINK.sub(link, out)
+    out = _BARE_URL.sub(bare, out)
     out = _BOLD.sub(r"<strong>\1</strong>", out)
     out = _CODE.sub(r"<code>\1</code>", out)
-    return out
+    return re.sub(r"\x00(\d+)\x00", lambda m: keep[int(m.group(1))], out)
+
+
+def maps_of(src: str) -> list[str]:
+    """본문의 `@map 장소` 줄. 기사 끝 지도에 쓴다."""
+    return [m.group(1).strip() for m in (_MAP.match(l.strip()) for l in (src or "").split("\n")) if m]
+
+
+def _para(buf: list[str]) -> str:
+    """문단 — 한 문장 한 줄. 폰에서 긴 문단이 한 덩어리로 보이지 않게 문장마다 줄을 바꾼다
+    (2026-11-16 사장님: "호흡을 짧게, 문단이 안 보인다")."""
+    text = " ".join(buf)
+    sents = [x for x in _SENT_END.split(text) if x.strip()]
+    inner = "<br>".join(_inline(x) for x in sents)
+    if _AI_NOTE.search(text) and len(text) < 120:
+        return '<p class="ai-note">%s</p>' % inner
+    return "<p>%s</p>" % inner
 
 
 _CREDIT_END = re.compile(r"^이 기사는 .*(?:정리|작성)했다\.?$")
@@ -98,6 +140,10 @@ def render(src: str) -> str:
         # 방송사 보도용 스틸(2026-10-16 사장님: 출처를 밝혀 쓴다). https 만 받는다.
         # 남의 서버에 걸린 사진이라 리퍼러를 보내지 않는다 — 핫링크 차단을 덜 맞고,
         # 독자가 어느 기사에서 왔는지 남의 서버에 넘기지 않는다.
+        if _MAP.match(stripped):          # 지도는 기사 끝에 모아 붙인다(템플릿)
+            i += 1
+            continue
+
         yt = _YOUTUBE.match(stripped)
         if yt:
             # nocookie 도메인 — 독자가 재생하기 전에는 유튜브가 쿠키를 심지 않는다.
@@ -160,8 +206,9 @@ def render(src: str) -> str:
             while i < len(lines) and _LIST.match(lines[i].strip()):
                 buf.append(_LIST.sub("", lines[i].strip()))
                 i += 1
-            out.append("<%s>%s</%s>" % (
-                tag, "".join("<li>%s</li>" % _inline(b) for b in buf), tag))
+            out.append('<%s class="%s">%s</%s>' % (
+                tag, "nlist" if tag == "ol" else "slist",
+                "".join("<li>%s</li>" % _inline(b) for b in buf), tag))
             continue
 
         buf = []
@@ -173,8 +220,41 @@ def render(src: str) -> str:
             buf.append(lines[i].strip())
             i += 1
         if buf:
-            out.append("<p>%s</p>" % _inline(" ".join(buf)))
+            out.append(_para(buf))
         else:
-            out.append("<p>%s</p>" % _inline(stripped))
+            out.append(_para([stripped]))
             i += 1
     return "\n".join(out)
+
+
+
+def summary_lines(summary: str, n: int = 3) -> list[str]:
+    """요약을 세 줄로 — 문장마다 한 줄. 한두 문장뿐이면 쉼표에서 나눠 세 줄을 채운다."""
+    text = re.sub(r"\s+", " ", (summary or "").strip())
+    if not text:
+        return []
+    lines = [x.strip() for x in _SENT_END.split(text) if x.strip()]
+    while len(lines) < n:
+        # 긴 줄부터 쉼표·'~고'·'~며'·'~에서' 자리에서 나눠 본다. 나눈 토막이 너무 짧으면 다음 줄로.
+        for k in sorted(range(len(lines)), key=lambda k: -len(lines[k])):
+            parts = re.split(r"(?<=,)\s+|(?<=[고며])\s+(?=\S{2,})|(?<=에서)\s+(?=\S{2,})",
+                             lines[k], maxsplit=1)
+            if len(parts) == 2 and min(len(p) for p in parts) >= 10:
+                lines[k:k + 1] = [parts[0].rstrip(","), parts[1]]
+                break
+        else:
+            break
+    return lines[:n] if len(lines) <= n else lines[:n - 1] + [" ".join(lines[n - 1:])]
+
+
+# 형광펜은 '얼마나'를 말하는 숫자에만 — 날짜(월·일·년)까지 칠하면 줄이 얼룩덜룩해진다
+_NUM = re.compile(r"(?<![\w.])(\d[\d,.]*\s?(?:%p|%|만\s?원|억\s?원|만|억|천|원|명|건|곳|배|개국|개|달러|바트|엔|km|㎞|위)(?![가-힣]{0,0}\d))")
+
+
+def highlight(line: str) -> str:
+    """세 줄 요약 한 줄 — 숫자는 형광펜, 따옴표 속 이름은 굵게."""
+    out = html.escape(line, quote=False)          # 글 안이라 따옴표는 그대로 둬도 안전하다
+    out = re.sub(r"('[^'<>]{1,30}'|‘[^’<>]{1,30}’|\"[^\"<>]{1,40}\"|“[^”<>]{1,40}”)",
+                 r"<b>\1</b>", out)
+    out = _NUM.sub(r"<mark>\1</mark>", out)
+    return out

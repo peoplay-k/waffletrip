@@ -23,7 +23,7 @@ from src.desks import (BEATS, DESK_DUTIES, ENT_DESK, GENERAL_REPORTER,
 from src.photos import (photo_credits, assign as assign_photos, copy_into, load_manifest, og_path,
                         photo_dims, photo_places, render_og_images,
                         load_used, save_used)
-from src.render.md import render as md_render
+from src.render.md import highlight as md_highlight, maps_of, render as md_render, summary_lines
 from src.cities import CITY_NAMES, CITY_REGION, cities_of, group_by_city
 from src.topics import (ENT_ALIASES, ENT_TOPIC_DESCS, ENT_TOPIC_NAMES, ENT_TOPICS,
                         STARTRIP, TOPIC_ALIASES, TOPIC_DESCS, TOPIC_NAMES, TOPICS,
@@ -305,6 +305,8 @@ def _env() -> Environment:
     env.filters["md"] = lambda text: Markup(md_render(text))
     # 지역면 패널에서도 같은 압축을 쓴다. 항목명은 템플릿이 따로 보여준다.
     env.filters["compact"] = compact_fact
+    # 세 줄 요약(2026-11-16 사장님: 가독성) — 문장마다 한 줄, 숫자는 형광펜
+    env.filters["three_lines"] = lambda t: [Markup(md_highlight(x)) for x in summary_lines(t)]
     # JSON-LD 는 이스케이프하면 &#34; 가 되어 파싱이 통째로 깨진다.
     # json.dumps 가 이미 안전한 문자열을 만든다.
     env.filters["ld"] = lambda t: Markup(t)
@@ -415,6 +417,29 @@ def load_moved_urls(path: str | None = None) -> dict[str, str]:
         return {str(k): str(v) for k, v in data.items()} if isinstance(data, dict) else {}
     except (OSError, ValueError):
         return {}
+
+
+_COUNTRY_REGIONS = {"japan", "thailand", "taiwan", "vietnam", "laos"}
+
+
+def article_maps(item: Item) -> list[dict]:
+    """기사 끝 지도. 본문의 `@map 장소` 가 있으면 그곳을, 없으면 여행 기사의 도시·지역을.
+
+    2026-11-16 사장님: "마지막에 지도 첨부 필수, 관련된 곳 지도". 연예·업계·국내 기사는
+    장소를 적어 둔 경우에만 단다(나라 전체 지도는 쓸모가 없다).
+    """
+    named = maps_of(item.body_md or "")[:2]
+    if named:
+        return [{"q": q, "z": 15} for q in named]
+    if item.channel == "ent" or item.region in ("industry", "korea", ""):
+        return []
+    mine = cities_of(item)
+    if mine and mine[0] in CITY_NAMES:
+        return [{"q": CITY_NAMES[mine[0]], "z": 12}]
+    name = REGION_NAMES.get(item.region, "")
+    if not name:
+        return []
+    return [{"q": name, "z": 6 if item.region in _COUNTRY_REGIONS else 10}]
 
 
 def article_url(item: Item) -> str:
@@ -1061,6 +1086,7 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
                 item=item, related=related, more=more,
                 source_label=source_label(item),
                 more_label=more_label, more_link=more_link, facts=facts,
+                maps=article_maps(item),
                 article_ld=_article_ld(item, urls),
                 crumb_ld=_crumb_ld(item, urls),
                 region_name=tag_of(item)["label"],
