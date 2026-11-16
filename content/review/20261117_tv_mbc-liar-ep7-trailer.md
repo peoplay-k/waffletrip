@@ -8,13 +8,15 @@ kind: 해설
 title: MBC '라이어' 7회 예고 "언니가 어떻게 나를 속일 수가 있어?"…20일 방송
 source_name: ''
 source_url: ''
-summary: MBC 금토드라마 '라이어' 7회 예고가 MBCdrama 공식 유튜브에서 조회수 25만 회를 넘었다. 예고 대사는 "언니가 어떻게 나를 속일 수가 있어?"다. 7회는 20일 방송된다.
+summary: MBC 금토드라마 '라이어' 7회 예고가 MBCdrama 공식 유튜브에서 조회수 25만 회를 넘었다. 예고 대사는 "언니가 어떻게
+  나를 속일 수가 있어?"다. 7회는 20일 방송된다.
 sources:
 - https://www.youtube.com/watch?v=mueEY-8Pw_0
 - https://zdnet.co.kr/view/?no=20261109165919
-status: approved
+status: published
+published_id: c-900f9ae0d5d353f8b865c22be91d2f53ffa871aa
+published_on: '2026-11-17'
 ---
-
 MBC 금토드라마 '라이어'의 7회 예고가 공개됐다.
 MBCdrama 공식 유튜브에 올라온 예고는 이틀 만에 조회수 25만 회를 넘었다.
 

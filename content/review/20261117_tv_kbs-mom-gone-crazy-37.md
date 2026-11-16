@@ -8,12 +8,14 @@ kind: 해설
 title: KBS1 '엄마가 미쳤어요' 37회, 노란 원피스 입은 미미…진희는 안성댁에 '금순 감시' 지시
 source_name: ''
 source_url: ''
-summary: KBS1 일일드라마 '엄마가 미쳤어요' 37회가 17일 저녁 8시 30분 방송된다. 미미는 큰맘 먹고 산 노란 원피스로 가족을 놀라게 한다. 진희는 안성댁에게 돈을 건네며 금순의 일상을 보고하라고 지시한다.
+summary: KBS1 일일드라마 '엄마가 미쳤어요' 37회가 17일 저녁 8시 30분 방송된다. 미미는 큰맘 먹고 산 노란 원피스로 가족을 놀라게
+  한다. 진희는 안성댁에게 돈을 건네며 금순의 일상을 보고하라고 지시한다.
 sources:
 - https://program.kbs.co.kr/1tv/drama/mompossible
-status: approved
+status: published
+published_id: c-34af1894a911b613be33950aee4264b2134a83a6
+published_on: '2026-11-17'
 ---
-
 KBS1 '엄마가 미쳤어요' 37회가 17일 저녁 8시 30분 방송된다.
 공식 예고 제목은 "내가 무엇이든 다 들어주지"다.
 

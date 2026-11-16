@@ -70,11 +70,6 @@
   - 제주일보: 도의회 정책연구위원 수를 탄력적으로 운용할 수 있도록 한 제주특별법 개정안과 항공 이동권에 대한 도지사 권한을 키운 제주특별법 개정안이 행정안전위원회 법안 소위에서 논의된다.
     http://www.jejunews.com/news/articleView.html?idxno=2228861
 
-### 지방 찾는 외국인 느는데, 숙소 절반 ‘서울-제주-부산’
-- 매체 1곳 · 동아일보
-  - 동아일보: “한국을 여행하는 8일 동안 경주도 갈 예정이지만 잠은 서울과 부산에서만 자요. 경주는 조명 때문에 유적지 야경이 아름답다고 해서 하룻밤 묵고 싶었는데 마땅한 숙소가 없어서 아쉽더라고요.
-    https://www.donga.com/news/Economy/article/all/20261117/135035519/2
-
 ### 이호 원담 산책
 - 매체 1곳 · 제주일보
   - 제주일보: 16일 제주시 이호태우해수욕장을 찾은 사람들이 물이 빠진 원담위를 산책하며 즐거운 시간을 보내고 있다. 고봉수 기자
@@ -84,6 +79,11 @@
 - 매체 1곳 · 제주일보
   - 제주일보: 16일 제주시 용담3동 소재 해안에서 관광객들이 주변을 둘러보며 담소를 나누고 있다. 고봉수 기자
     http://www.jejunews.com/news/articleView.html?idxno=2228846
+
+### 제주 정석비행장, 조종사 훈련장 넘어 '미래 하늘길' 연구기지로 탈바꿈
+- 매체 1곳 · 파이낸셜뉴스
+  - 파이낸셜뉴스: 한국항공대학교와 제주특별자치도가 지난 20여년간 여객기 조종사를 길러내던 제주 정석비행장을 드론택시와 무인기 등 미래 항공 기술을 연구하고 시험하는 첨단 산업 기지로 탈바꿈시킨다.
+    https://www.fnnews.com/news/202611162043041086
 
 ## 일본
 
@@ -202,23 +202,23 @@
   - 파이낸셜뉴스: 부산항만공사가 임직원 가족과 함께 어촌관광을 체험하며 지역사회와 상생협력에 나섰다. BPA는 한국어촌어항공단과 함께 지난 14일 부산 영도 동삼마을과 경남 거제 옥계마을에서 임직원 가족이 참여하는 어촌관광 투어를 했다고 16일 밝혔다.
     https://www.fnnews.com/news/202611161924102812
 
-### 단양 단풍 관광객 11.7% 늘어…보발재 연일 북적
-- 매체 3곳 · 뉴스핌 · 뉴시스 · 충청투데이  ← 여러 곳이 썼다
-  - 뉴시스: [단양=뉴시스] 이병찬 기자 = 충북 단양의 단풍 명소를 찾은 관광객 수가 지난해보다 증가한 것으로 나타났다. 16일 단양군에 따르면 단풍철이었던 지난달 15일부터 지난 7일까지 84만9780명이 단양을 방문한 것으로 집계됐다.
-    https://www.newsis.com/view/NISX20261116_0003869315
-  - 뉴스핌: [단양=뉴스핌] 조영석 기자 =충북 단양이 올가을 전국 관광객들의 발길을 사로잡았다. 단풍 명소마다 관광객이 몰리고 전통시장까지 활기를 띠면서 가을 관광 특수를 누렸다.
-    https://www.newspim.com/news/view/20261116000284
-  - 충청투데이: [충청투데이 이상복 기자] 단양군은 10월 15일부터 11월 7일까지 약 84만 9780명이 단양을 방문했다고 16일 밝혔다. 이는 전년 동기 대비 11.7% 증가한 수치로, 한국관광공사 관광데이터랩 자료를 기준으로 집계됐다.
-    https://www.cctoday.co.kr/news/articleView.html?idxno=2240304
+### 청주공항~제천·단양 잇는 초광역 관광버스 운행…하루 2회 왕복
+- 매체 3곳 · 뉴스핌 · 매일경제 마켓 · 충청투데이  ← 여러 곳이 썼다
+  - 충청투데이: [충청투데이 김영재 기자] 충북의 주요 교통거점인 청주국제공항과 북부권 대표 관광지인 제천(청풍)·단양을 잇는 ‘초광역형 관광교통 연계노선’ 운행이 16일 시작됐다.
+    https://www.cctoday.co.kr/news/articleView.html?idxno=2240330
+  - 뉴스핌: [청주=뉴스핌] 백운학 기자 = 청주국제공항에서 제천과 단양 주요 관광지를 환승 없이 연결하는 관광교통 노선이 16일부터 운행된다. 충북도는 청주국제공항과 제천 청풍호권, 단양을 잇는 '초광역형 관광교통 연계노선'을 개통한다고 밝혔다.
+    https://www.newspim.com/news/view/20261116000154
+  - 매일경제 마켓: (청주=연합뉴스) 전창해 ...
+    https://stock.mk.co.kr/news/view/1199629
 
-### 군산의 밤하늘과 바다를 물들인 '2026 군산불꽃축제'
-- 매체 3곳 · 연합뉴스 · 전북금강일보 · 한국방송뉴스  ← 여러 곳이 썼다
-  - 연합뉴스: 
-    https://www.yna.co.kr/view/RPR20261116002600353
-  - 한국방송뉴스: [군산/김주창기자] 군산문화관광재단은 14일 군산 내항 친수공원 일원에서 개최된 ‘2026 군산불꽃축제 군산의 밤을 물들이다’가 10만여 명의 시민과 관광객이 함께한 가운데 단 한 건의 안전사고 없이 성황리에 마무리됐다고 밝혔다. 이날 군산 내항 일원은 축제를 관람하기 위해 모여든 시민
-    https://www.ikbn.news/news/article.html?no=217446
-  - 전북금강일보: 지난주말,군산의가을밤하늘을붉게물들였다. 시민들의염원과군산이한단계더도약하기바라는간절한마음을담은한줄기불꽃이하늘높이솟아올랐다.
-    http://www.gkg.co.kr/195519
+### 청주국제공항서 제천·단양까지 ‘직행’ … 충북도, 관광교통 연계노선 운행
+- 매체 3곳 · K-Life TV · 경향신문 · 뉴스1  ← 여러 곳이 썼다
+  - 경향신문: 청주국제공항에서 충북 북부권 핵심 관광지인 제천과 단양을 환승 없이 한 번에 갈 수 있는 교통망이 개통됐다. 충북도는 16일부터 청주국제공항과 제천, 단양을 잇는 ‘초광역형 관광교통 연계노선’ 운행을 시작했다고 밝혔다.
+    https://www.khan.co.kr/article/202611161128001
+  - K-Life TV: [K-Life TV=AI 기자] 충북도는 청주국제공항과 제천·단양 관광지를 환승 없이 연결해 관광객의 이동 편의를 높이는 ‘초광역형 관광교통 연계노선’을 2026
+    https://www.k-lifetv.co.kr/news/articleView.html?idxno=40342
+  - 뉴스1: 
+    https://www.news1.kr/local/sejong-chungbuk/6355104
 
 ## 여행업계
 
@@ -551,6 +551,11 @@
   - Daum | 나우무비: ﻿인공지능(AI)이 마침내 국내 음원차트 정상까지 점령했다. 작곡부터 편곡, 가창까지 AI를 활용해 제작한 노래가 인기 아이돌 그룹들을 제치고 멜론 차트 1위에 오른 것이다.
     https://v.daum.net/v/f9yWkHUZxF
 
+### 🔥 화제(매체 7곳) [music] [이슈] AI 음악 차트 습격‥머무르의 멜론차트 1위
+- 매체 1곳 · JTBC 뉴스
+  - JTBC 뉴스: 음악을 만드는 방식이 달라졌다. 그리고 통했다.
+    https://news.jtbc.co.kr/article/NB12328265
+
 ### 🔥 화제(매체 6곳) [startrip] 제니, 그래미서 ’올해의 레코드’ 등 2개 부문 후보
 - 매체 2곳 · 연합뉴스TV · 한겨레  ← 여러 곳이 썼다
   - 연합뉴스TV: 걸그룹 블랙핑크의 제니가 미국 대중음악 시상식인 제69회 ’그래미 어워즈’에서 본상에 해당하는 ’올해의 레코드’를 포함해 2개 부문 후보에 올랐습니다. 제니는 오늘(16일) 히트곡 ’드라큘라’(Dracula)로 ’올해의 레코드’와 ’베스트 팝 듀오/그룹 퍼포먼스’ 부문
@@ -592,11 +597,6 @@
   - 동아일보: 글로벌 슈퍼 그룹 ‘방탄소년단(BTS)’과 신인류 그룹 ‘코르티스(CORTIS)’, 4세대 대표 걸그룹들인 ‘아이브(IVE)’와 ‘에스파(aespa)’가 ‘2026 멜론뮤직어워드(MMA2026)’ 대상을 나눠 가졌다. 15일 카카오엔터테인먼트 뮤직플랫폼 멜론에 따르면,…
     https://www.donga.com/news/Culture/article/all/20261116/135029143/1
 
-### 🔥 화제(매체 3곳) [music] 인기 아이돌 제치고 멜론 차트 1위 찍은 ＇이 곡＇…AI가 불렀다
-- 매체 1곳 · 한국경제TV
-  - 한국경제TV: 국내 대표 음원 플랫폼 멜론 '톱 100' 차트 1위 자리에 AI가 부른 노래가 올라섰다. 13일 가요계에 따르면 머무르의 노래 '꿈꾸던 어른이 되었나요'가 이날 오후 5시 기준 멜론 '톱 100' 차트 정상을 차지했다.
-    https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611130158
-
 ---
 거리 113건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
@@ -608,39 +608,51 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## ENHYPEN (엔하이픈) 'I Want You' Official MV
-- 채널 HYBE LABELS · 조회수 20,946,863회 · 3일 전
+- 채널 HYBE LABELS · 조회수 20,963,570회 · 3일 전
 - `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
 
+## CHAERYEONG(채령) “Lovesick” M/V
+- 채널 JYP Entertainment · 조회수 9,636,956회 · 7일 전
+- `@youtube pe-rk1ekb4w` · https://www.youtube.com/watch?v=pe-rk1ekb4w
+
 ## GIRLSET "young & dumb" Music Video
-- 채널 JYP Entertainment · 조회수 6,987,752회 · 3일 전
+- 채널 JYP Entertainment · 조회수 7,037,399회 · 3일 전
 - `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
 
 ## oftheblue(오브더블루) "풍선인간" Blind Performance Video
-- 채널 JYP Entertainment · 조회수 1,350,780회 · 6일 전
+- 채널 JYP Entertainment · 조회수 1,356,477회 · 6일 전
 - `@youtube d1AknDUMAE0` · https://www.youtube.com/watch?v=d1AknDUMAE0
 
 ## NCT DREAM - Boogie Woogie | 1theKILLPO | Performance
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,065,994회 · 5일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,068,571회 · 5일 전
 - `@youtube HYHu_ui8t2s` · https://www.youtube.com/watch?v=HYHu_ui8t2s
 
+## ENHYPEN (엔하이픈) 'I Want You' Official Teaser
+- 채널 HYBE LABELS · 조회수 926,293회 · 4일 전
+- `@youtube _pLJBPzp3Fg` · https://www.youtube.com/watch?v=_pLJBPzp3Fg
+
 ## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
-- 채널 tvN DRAMA · 조회수 676,522회 · 6일 전
+- 채널 tvN DRAMA · 조회수 676,759회 · 6일 전
 - `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
 
 ## With - RESCENE (리센느) [뮤직뱅크/Music Bank] | KBS 261113 방송
-- 채널 KBS Kpop · 조회수 651,771회 · 3일 전
+- 채널 KBS Kpop · 조회수 651,920회 · 3일 전
 - `@youtube jmlBMoCn0Ec` · https://www.youtube.com/watch?v=jmlBMoCn0Ec
 
 ## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 626,887회 · 1일 전
+- 채널 tvN DRAMA · 조회수 629,020회 · 1일 전
 - `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
+
+## [#숨바꼭질2] '다 내 거야'ㅣ𝟖𝐭𝐡 𝐏𝐋𝐀𝐘𝐄𝐑 #RESCENE #리센느 선공개
+- 채널 Mnet K-POP · 조회수 497,993회 · 5일 전
+- `@youtube 3HUIX3oopGw` · https://www.youtube.com/watch?v=3HUIX3oopGw
 
 ## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
 - 채널 tvN DRAMA · 조회수 469,093회 · 7일 전
 - `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
 
 ## RESCENE (리센느) - With | Show! MusicCore | MBC261114방송
-- 채널 MBCkpop · 조회수 411,568회 · 2일 전
+- 채널 MBCkpop · 조회수 411,841회 · 2일 전
 - `@youtube RSxusLXRQ80` · https://www.youtube.com/watch?v=RSxusLXRQ80
 
 ## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
@@ -648,24 +660,12 @@
 - `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
 
 ## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
-- 채널 HYBE LABELS · 조회수 326,217회 · 7일 전
+- 채널 HYBE LABELS · 조회수 326,353회 · 7일 전
 - `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 선우 (SUNOO)
-- 채널 HYBE LABELS · 조회수 307,527회 · 6일 전
+- 채널 HYBE LABELS · 조회수 307,730회 · 6일 전
 - `@youtube rF640_v3ikE` · https://www.youtube.com/watch?v=rF640_v3ikE
-
-## ［31회 예고］제가 혹이라서 허락 안 하신 거예요? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 272,518회 · 2일 전
-- `@youtube 1x4AkY0HbA4` · https://www.youtube.com/watch?v=1x4AkY0HbA4
-
-## [라이어 7회 예고] ＂언니가 어떻게 나를 속일 수가 있어?＂, MBC 261120 방송
-- 채널 MBCdrama · 조회수 253,271회 · 2일 전
-- `@youtube mueEY-8Pw_0` · https://www.youtube.com/watch?v=mueEY-8Pw_0
-
-## 누가 더 유죄인간인가 | 유죄와 벌⚖️❤️‍🔥 EP.00  #나의유죄인간
-- 채널 tvN DRAMA · 조회수 172,757회 · 5일 전
-- `@youtube VFiUuc-HHUY` · https://www.youtube.com/watch?v=VFiUuc-HHUY
 
 
 
@@ -872,7 +872,7 @@ TWS(투어스) 지훈·경민, 문학 작품으로 청춘의 감성 전한다
 [261116] 교육부xEBS '아이돌이 들려주는 교과서 속 문학' 순서대로 TWS(투어스) 지훈, 경민(플레디스엔터테인먼트 제공).png
 [261116] 교육부xEBS '아이돌이 들려주는 교과서 속 문학' TWS(투어스) 경민(플레디스엔터테인먼트 제공).jpg
 [261116] 교육부xEBS '아이돌이 들려주는 교과서 속 문학' TWS(투어스) 지훈(플레디스엔터테인먼트 제공).jpg이전글
-이전 게시글이 없습니다.다음글
+19일 수능 당일 특별 생방송부터 경향분석 LIVE까지... EBS, 수험생을 위한 다양한 서비스 제공다음글
 EBS 'AI 고전, 역사를 바꾼 100책', 국제 AI 영상 시상식에서 최우수상 수상
 목록
 
@@ -910,5 +910,3 @@ AI의 발전은 오랫동안 풀리지 않았던 문제의 해답을 찾고, 인
 [261114]_지식채널e_11월_16일~11월_18일_주요방송_(월~수_밤_12시_40분,_EBS1).hwp
 [261114]_지식채널e_스틸모음_(겨울잠_스위치)
 
----
-수집 실패: MBC 목록: timed out

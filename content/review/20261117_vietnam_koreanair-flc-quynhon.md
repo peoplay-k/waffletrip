@@ -7,13 +7,15 @@ kind: 해설
 title: 대한항공, 베트남 FLC그룹과 꾸이년 노선·관광 협력 논의
 source_name: ''
 source_url: ''
-summary: 대한항공이 베트남 FLC그룹과 항공·관광 협력을 논의했다. 대표단은 13일 하노이에서 FLC그룹 경영진을 만났다. 베트남 중부 꾸이년(퀴논)을 거점으로 한 신규 노선이 핵심 의제다.
+summary: 대한항공이 베트남 FLC그룹과 항공·관광 협력을 논의했다. 대표단은 13일 하노이에서 FLC그룹 경영진을 만났다. 베트남 중부 꾸이년(퀴논)을
+  거점으로 한 신규 노선이 핵심 의제다.
 sources:
 - https://www.fnnews.com/news/202611161238446916
 - https://www.theguru.co.kr/news/article.html?no=109770
-status: approved
+status: published
+published_id: c-fa0684f3b4a4686e1b224ee725bae336997aff0d
+published_on: '2026-11-17'
 ---
-
 대한항공이 베트남 FLC그룹과 손잡는 방안을 논의했다.
 대한항공 대표단은 13일 하노이 FLC 랜드마크 타워에서 FLC그룹 경영진과 만났다.
 핵심은 베트남 중부 꾸이년(퀴논)이다.

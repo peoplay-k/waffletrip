@@ -7,14 +7,16 @@ kind: 보도자료
 title: 여기어때 '블랙위크'…엄선 숙소 '블랙' 최대 86% 할인, 12월 30일까지
 source_name: ''
 source_url: ''
-summary: 여기어때가 12월 30일까지 '블랙위크'를 연다. 여행 전문가가 고른 국내 숙소 '블랙'을 최대 86% 깎아 준다. 연말 국내 여행 수요를 겨냥했다.
+summary: 여기어때가 12월 30일까지 '블랙위크'를 연다. 여행 전문가가 고른 국내 숙소 '블랙'을 최대 86% 깎아 준다. 연말 국내 여행
+  수요를 겨냥했다.
 sources:
 - https://weekly.hankooki.com/news/articleView.html?idxno=7194147
 - http://www.dhns.co.kr/news/articleView.html?idxno=388826
 - https://www.thepowernews.co.kr/view.php?ud=202611160955086599de3f0aa1be_7
-status: approved
+status: published
+published_id: c-ea06933d49d961fd271509f1cfb950e077ce22af
+published_on: '2026-11-17'
 ---
-
 여기어때가 연말 국내 여행객을 겨냥한 할인 행사를 연다.
 '블랙위크'는 다음 달 30일까지 이어진다.
 

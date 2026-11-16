@@ -8,12 +8,14 @@ kind: 해설
 title: KBS2 '욕망의 덫' 59회, 반격 준비하는 은설…미란 앞으로 정체 모를 택배
 source_name: ''
 source_url: ''
-summary: KBS2 일일드라마 '욕망의 덫' 59회가 17일 저녁 7시 50분 방송된다. 은설은 현재가 남긴 증거를 정리하며 반격을 준비한다. 미란에게는 정체 모를 택배 상자가 도착한다.
+summary: KBS2 일일드라마 '욕망의 덫' 59회가 17일 저녁 7시 50분 방송된다. 은설은 현재가 남긴 증거를 정리하며 반격을 준비한다.
+  미란에게는 정체 모를 택배 상자가 도착한다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+status: published
+published_id: c-3195866586d2d16184b9ad4db5784a4f52753388
+published_on: '2026-11-17'
 ---
-
 KBS2 '욕망의 덫' 59회가 17일 저녁 7시 50분 방송된다.
 공식 예고 제목은 "청마의 주인은 당신이 되고 싶었던 거지?"다.
 
