@@ -1,18 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-10-17",
-      "collected": 1247,
-      "published": 136,
-      "ours": 14,
-      "failed_sources": [
-        "guam_pdn",
-        "guam_post",
-        "saipan_tribune",
-        "weather"
-      ]
-    },
-    {
       "date": "2026-10-18",
       "collected": 1236,
       "published": 122,
@@ -382,6 +370,21 @@
         "kr_travelpress",
         "saipan_tribune",
         "thailand_bangkokpost_travel"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "collected": 3703,
+      "published": 201,
+      "ours": 0,
+      "failed_sources": [
+        "guam_pdn",
+        "kr_hotelavia",
+        "kr_ktnbm",
+        "kr_travelpress",
+        "saipan_tribune",
+        "thailand_bangkokpost_travel",
+        "weather"
       ]
     }
   ]

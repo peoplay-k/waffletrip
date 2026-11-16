@@ -1,14 +1,14 @@
 {
-  "stem": "peopleroad-danang-20261116-voiced",
-  "city": "danang",
-  "name": "다낭",
-  "caption": "다낭 최근 2주 소식 4건\n\n· 다낭 메리어트 리조트, 북유럽 콘셉트 연말 행사…트리 점등·해변 카운트다운\n· 호이안 국제 등불 축제 12월 3~6일…주제는 '유산의 색채'\n· 다낭시·비엣젯항공, 2026~2030년 포괄 협력 협약…기체에 다낭 관광 홍보\n· 다낭, 크리스마스 마켓 다시 열고 용다리 불·물 쇼 주중 이틀 늘린다\n\n\n전문은 waffletrip.com\n\n#다낭 #다낭여행 #다낭자유여행 #해외여행",
-  "seconds": 33.1,
+  "stem": "peopleroad-hawaii-20261117-voiced",
+  "city": "hawaii",
+  "name": "하와이",
+  "caption": "하와이 최근 2주 소식 4건\n\n· 하와이 카우아이, 허리케인 로웰 비상 기간 60일 연장\n· 델타항공, 미니애폴리스~마우이 직항 노선 새로 열어\n· 하와이관광청 한국사무소, 여수세계섬박람회 하와이관 운영…박람회 4일 폐막\n· 하와이 킬라우에아 화산, 56번째 분출 앞두고 전조 활동 시작\n\n\n전문은 waffletrip.com\n\n#하와이 #하와이여행 #하와이자유여행 #해외여행",
+  "seconds": 37.5,
   "kind": "voiced",
-  "built_at": "2026-11-16T19:03:58+09:00",
+  "built_at": "2026-11-17T00:27:34+09:00",
   "photo_history": {
     "assets/photos/vietnam/PEO_3318.webp": "2026-11-16T19:03:58+09:00",
-    "assets/photos/jeju/DSC01484.webp": "2026-11-16T19:03:49+09:00",
+    "assets/photos/jeju/DSC01484.webp": "2026-11-17T00:26:04+09:00",
     "assets/photos/vietnam/260904_하노이여행_10번.webp": "2026-11-15T09:08:02+09:00",
     "assets/photos/vietnam/PEO_2796.webp": "2026-11-16T19:03:58+09:00",
     "assets/photos/guam/agana_cathedral_1.webp": "2026-11-15T09:08:02+09:00",
@@ -59,6 +59,17 @@
     "assets/photos/vietnam/260910_하노이닌빈여행_12번.webp": "2026-11-16T19:03:49+09:00",
     "assets/photos/vietnam/260910_하노이닌빈여행_1번.webp": "2026-11-16T19:03:49+09:00",
     "assets/photos/guam/KakaoTalk_20250403_075807081.webp": "2026-11-16T19:03:49+09:00",
-    "assets/photos/guam/guam_beach_letters.webp": "2026-11-16T19:03:49+09:00"
+    "assets/photos/guam/guam_beach_letters.webp": "2026-11-16T19:03:49+09:00",
+    "assets/photos/vietnam/260910_하노이닌빈여행_6번.webp": "2026-11-17T00:26:04+09:00",
+    "assets/photos/vietnam/260910_하노이닌빈여행_7번.webp": "2026-11-17T00:26:04+09:00",
+    "assets/photos/vietnam/260910_하노이닌빈여행_8번.webp": "2026-11-17T00:26:04+09:00",
+    "assets/photos/guam/PEO_3167.webp": "2026-11-17T00:26:04+09:00",
+    "assets/photos/guam/PEO_3555.webp": "2026-11-17T00:26:04+09:00",
+    "assets/photos/hawaii/DJI_0345.webp": "2026-11-17T00:27:34+09:00",
+    "assets/photos/hawaii/DJI_0343.webp": "2026-11-17T00:27:34+09:00",
+    "assets/photos/hawaii/PEO_1262.webp": "2026-11-17T00:27:34+09:00",
+    "assets/photos/hawaii/DJI_0359.webp": "2026-11-17T00:27:34+09:00",
+    "assets/photos/hawaii/DJI_0352.webp": "2026-11-17T00:27:34+09:00",
+    "assets/photos/hawaii/DJI_0372.webp": "2026-11-17T00:27:34+09:00"
   }
 }
