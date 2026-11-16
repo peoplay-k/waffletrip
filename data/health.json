@@ -374,15 +374,20 @@
     },
     {
       "date": "2026-11-17",
-      "collected": 3710,
-      "published": 216,
-      "ours": 3,
+      "collected": 3604,
+      "published": 350,
+      "ours": 9,
       "failed_sources": [
-        "guam_post",
+        "gn_ent_chart",
+        "gn_ent_stage_exhibit",
+        "gn_focustaiwan_en",
+        "gn_mk",
+        "gn_phuket",
+        "gn_sedaily",
+        "guam_pdn",
         "kr_hotelavia",
         "kr_ktnbm",
         "kr_travelpress",
-        "saipan_tribune",
         "thailand_bangkokpost_travel"
       ]
     }

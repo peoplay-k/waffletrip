@@ -4,15 +4,18 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "하나투어, 3분기 중국 기획상품 이용객 12% 증가…자연·문화 체험 상품으로 다변화"
+title: 하나투어, 3분기 중국 기획상품 이용객 12% 증가…자연·문화 체험 상품으로 다변화
 source_name: ''
 source_url: ''
-summary: 하나투어의 올해 3분기 중국 기획상품 이용객이 전년 동기보다 12% 늘었다. 중국 무비자 입국 정책과 항공 노선 확대로 접근성이 좋아졌다. 하나투어는 자연·문화 체험 중심으로 상품을 넓히고 있다.
+summary: 하나투어의 올해 3분기 중국 기획상품 이용객이 전년 동기보다 12% 늘었다. 중국 무비자 입국 정책과 항공 노선 확대로 접근성이 좋아졌다.
+  하나투어는 자연·문화 체험 중심으로 상품을 넓히고 있다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72704
-  - http://www.kdfnews.com/news/articleView.html?idxno=190952
-  - https://www.news1.kr/industry/sb-founded/6355442
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72704
+- http://www.kdfnews.com/news/articleView.html?idxno=190952
+- https://www.news1.kr/industry/sb-founded/6355442
+status: published
+published_id: c-e01a140558d34812e4235249f8beecb0c3063308
+published_on: '2026-11-17'
 ---
 하나투어의 올해 3분기 중국 여행 기획상품 이용객이 1년 전보다 12% 늘었다. 하나투어는 기존 주요 관광지에 더해 자연과 문화 체험을 앞세운 상품으로 중국 노선을 넓히고 있다.
 

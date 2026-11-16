@@ -4,14 +4,17 @@ channel: travel
 region: industry
 section: news
 kind: 보도자료
-title: "문체부·관광공사, '2030 관광기업 육성 비전' 선포…관광벤처 지원 방식 전환"
+title: 문체부·관광공사, '2030 관광기업 육성 비전' 선포…관광벤처 지원 방식 전환
 source_name: ''
 source_url: ''
-summary: 문화체육관광부와 한국관광공사가 16일 '2030 관광기업 육성 비전 선포식'을 열었다. 서울 드림플러스 강남에서 열린 행사에서 관광벤처기업 성장 지원의 패러다임을 바꾸겠다고 선언했다. 관광 유니콘 육성이 목표로 제시됐다.
+summary: 문화체육관광부와 한국관광공사가 16일 '2030 관광기업 육성 비전 선포식'을 열었다. 서울 드림플러스 강남에서 열린 행사에서 관광벤처기업
+  성장 지원의 패러다임을 바꾸겠다고 선언했다. 관광 유니콘 육성이 목표로 제시됐다.
 sources:
-  - https://www.newspim.com/news/view/20261116001197
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72703
-status: approved
+- https://www.newspim.com/news/view/20261116001197
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72703
+status: published
+published_id: c-2ff37e820e0e15c75042a8066728e7284dc88dd4
+published_on: '2026-11-17'
 ---
 문화체육관광부와 한국관광공사가 관광벤처기업 지원 방식을 바꾼다. 두 기관은 16일 '2030 관광기업 육성 비전'을 선포하고 관광 유니콘 육성을 목표로 내걸었다.
 

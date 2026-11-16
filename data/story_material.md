@@ -38,25 +38,25 @@
   - 더구루: [더구루=김예지 기자] 대한항공이 베트남 부동산·관광 기업 FLC그룹과 베트남 중부 퀴논(Quy Nhon) 관광시장 공략을 위한 협력 가능성을 모색했다. FLC그룹이 보유한 해변 리조트와 골프장 인프라에 대한항공의 항공 네트워크를 연계해 한국인 관광객 유입을 확대하려는 구상이다.
     https://www.theguru.co.kr/news/article.html?no=109770
 
+### [현장] 릭소스, 푸꾸옥에 아시아 첫 올인클루시브 리조트…“게임체인저 될 것”
+- 매체 1곳 · 열린뉴스통신
+  - 열린뉴스통신: (서울=열린뉴스통신) 최선혜 기자 = 글로벌 럭셔리 올인클루시브 리조트 브랜드 릭소스(Rixos)가 베트남 푸꾸옥에 아시아 최초로 브랜드 고유의 ‘All-Inclusive, All-Exclusive’ 콘셉트를 적용한 리조트를 선보이며 아시아 시장 확대에 나선다.
+    https://www.onews.tv/news/articleView.html?idxno=291801
+
 ### 나트랑은 해안 지형의 이점을 활용하여 지역 주민과 관광객을 위한 무료 주차장을 조성했습니다.
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 낭비와 미관 저해를 방지하기 위해 나트랑 구 인민위원회는 해안 공원 부지를 활용하여 주민과 관광객을 위한 무료 주차장을 조성했습니다.
     https://www.vietnam.vn/ko/tan-dung-khu-dat-ven-bien-nha-trang-lam-bai-dau-xe-mien-phi-cho-nguoi-dan-du-khach
 
-### 베트남 다낭, 세계적 여행 가이드 론리플래닛 선정 ‘연말 추천 여행지’ …썬월드 바나힐 대표 명소로 소개
-- 매체 1곳 · livesnews.com
-  - livesnews.com: 베트남 중부의 대표 관광도시 다낭이 세계적인 여행 가이드 론리플래닛이 선정한 연말 추천 여행지에 이름을 올렸다. 론리플래닛은 다낭의 주요 관광명소로 베트남 썬그룹이 운영하는 '썬월드 바나힐'을 소개하고, 숙박시설로 '인터컨티넨탈 다낭 썬 페닌슐라 리조트'를 추천했다.
-    https://livesnews.com/news/article.html?no=66002
-
-### 하노이는 아오자이(베트남 전통 ​​의상)의 유산을 관광 개발 및 문화 산업과 연계하고 있습니다.
+### 하노이시는 전기 및 친환경 에너지 버스로의 전환을 가속화하고 있습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 다양한 특별 활동을 통해 2026 하노이 관광 아오자이 축제는 아오자이를 단순한 문화적 상징을 넘어 하노이만의 독특한 관광 상품을 개발하는 영감의 원천으로 자리매김하고자 합니다.
-    https://www.vietnam.vn/ko/ha-noi-ket-noi-di-san-ao-dai-voi-phat-trien-du-lich-va-cong-nghiep-van-hoa
+  - vietnam.vn: 2026년 초부터 현재까지 하노이시는 34개 노선에 568대의 전기버스를 도입하여, 시내 전기 및 친환경 에너지 버스 총 대수를 64개 노선에서 1,051대로 늘렸습니다. 이로써 친환경 에너지 버스는 전체 버스 대수의 52.7%를 차지하게 되었습니다.
+    https://www.vietnam.vn/ko/ha-noi-day-manh-chuyen-doi-xe-buyt-su-dung-dien-va-nang-luong-xanh
 
-### [전관수의 세계음식여행]베트남을 넘어 전 세계로
-- 매체 1곳 · 호텔앤레스토랑
-  - 호텔앤레스토랑: 베트남 하노이에 위치한 인터컨티넨탈 하노이 랜드마크 72는 2024년부터 한국의 음식과 문화를 베트남에 알리고 베트남으로 한국의 식재료를 수출하는 이들을 돕고자 한국 미식 주간 행사를 시작했으며 올해로 4회째를 맞이했다.
-    https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22412
+### 베트남동 투자자 빈홈스–SGC, 하노이 메트로 5개 노선 계약 체결
+- 매체 1곳 · 베트남 교민잡지 ! 씬짜오 베트남
+  - 베트남 교민잡지 ! 씬짜오 베트남: 빈홈스(Vinhomes)–SGC 컨소시엄이 2026년 10월 15일 하노이(Hà Nội) 도시철도관리국과 계약을 체결하고 메트로 5개 노선 건설에 착수한다. 대상 노선은 1·2·8·10·14호선으로 총연장 253.5km이며, 2030년 완공을 목표로 한다.
+    https://chaovietnam.co.kr/194543/
 
 ## 제주
 
@@ -65,25 +65,25 @@
   - 트래블데일리: 제주가 아시아 유산균·프로바이오틱스 분야 국제학술대회 유치에 성공하며 글로벌 학술교류와 국제회의 개최지로서의 입지를 넓혀가고 있다. 제주특별자치도와 제주관광공사는 16일 오는 2027년 열리는 ‘제17회 아시아유산균학회(ACLAB 17)’의 제주 개최가 최종 확정됐다고 밝혔다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72693
 
-### 제주 정석비행장, 조종사 훈련장 넘어 '미래 하늘길' 연구기지로 탈바꿈
-- 매체 1곳 · 파이낸셜뉴스
-  - 파이낸셜뉴스: 한국항공대학교와 제주특별자치도가 지난 20여년간 여객기 조종사를 길러내던 제주 정석비행장을 드론택시와 무인기 등 미래 항공 기술을 연구하고 시험하는 첨단 산업 기지로 탈바꿈시킨다.
-    https://www.fnnews.com/news/202611162043041086
+### 제주특별법 개정안 3건, 행안위 소위서 논의
+- 매체 1곳 · 제주일보
+  - 제주일보: 도의회 정책연구위원 수를 탄력적으로 운용할 수 있도록 한 제주특별법 개정안과 항공 이동권에 대한 도지사 권한을 키운 제주특별법 개정안이 행정안전위원회 법안 소위에서 논의된다.
+    http://www.jejunews.com/news/articleView.html?idxno=2228861
 
-### 제주도·한국항공대, 미래 우주·항공 산업 육성 협력
-- 매체 1곳 · 연합뉴스
-  - 연합뉴스: (제주=연합뉴스) 변지철 기자 = 제주도와 한국항공대학교가 미래 우주·항공 산업 육성과 전문인력 양성을 위해 협력한다.
-    https://www.yna.co.kr/view/AKR20261116140900056
+### 지방 찾는 외국인 느는데, 숙소 절반 ‘서울-제주-부산’
+- 매체 1곳 · 동아일보
+  - 동아일보: “한국을 여행하는 8일 동안 경주도 갈 예정이지만 잠은 서울과 부산에서만 자요. 경주는 조명 때문에 유적지 야경이 아름답다고 해서 하룻밤 묵고 싶었는데 마땅한 숙소가 없어서 아쉽더라고요.
+    https://www.donga.com/news/Economy/article/all/20261117/135035519/2
 
-### 제주 내국인 발길 6개월째 찬바람·겨울 항공편까지 감소 ‘어쩌나’
-- 매체 1곳 · 경향신문
-  - 경향신문: 제주를 찾는 내국인 관광객이 6개월 연속 감소세를 이어가면서 겨울철 제주 기점 국내선 하늘길마저 좁아지고 있다. 내국인 관광시장이 더욱 위축될 것으로 전망되면서 제주도는 돌파구 마련에 고심하고 있다.
-    https://www.khan.co.kr/article/202611161607001
+### 이호 원담 산책
+- 매체 1곳 · 제주일보
+  - 제주일보: 16일 제주시 이호태우해수욕장을 찾은 사람들이 물이 빠진 원담위를 산책하며 즐거운 시간을 보내고 있다. 고봉수 기자
+    http://www.jejunews.com/news/articleView.html?idxno=2228847
 
-### [날씨] 17일 제주 가끔 비…18일 찬 공기 내려와 ‘쌀쌀’
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 17~18일 제주는 대체로 흐리고 가끔 비가 내리겠다. 18일 밤부터는 한라산 높은 산지에 비 또는 눈이 내려 쌓이는 곳도 있겠다.
-    https://www.jejusori.net/news/articleView.html?idxno=508375
+### 제주 해안 산책
+- 매체 1곳 · 제주일보
+  - 제주일보: 16일 제주시 용담3동 소재 해안에서 관광객들이 주변을 둘러보며 담소를 나누고 있다. 고봉수 기자
+    http://www.jejunews.com/news/articleView.html?idxno=2228846
 
 ## 일본
 
@@ -101,10 +101,10 @@
   - 여성소비자신문: [여성소비자신문 최문정 기자] 서울신라호텔의 일식당 아리아께는 일본의 일식당 ‘기요다’와 함께 행사를 진행하는 한편 호텔신라는 대한항공과 국내외. ..
     http://www.wsobi.com/news/articleView.html?idxno=321865
 
-### 아시아나항공, 12월 국제선 유류할증료 인하…일본 7,900원·미주 2만8,700원 내렸다
-- 매체 1곳 · 톱스타뉴스
-  - 톱스타뉴스: 아시아나항공이 2026년 12월 한국 출발 국제선 유류할증료를 인하한다. 일본 노선은 편도 최대 7,900원, 미주·유럽 등 장거리 노선은 2만8,700원 낮아진다.
-    https://www.topstarnews.net/news/articleView.html?idxno=16277844
+### 국제관광인포럼, 일본 도쿠시마 관광교류 확대... 한일 관광협력 새 길 모색
+- 매체 1곳 · 서울자치신문
+  - 서울자치신문: 일본 시코쿠 도쿠시마현이 한국 관광업계와의 교류를 확대하며 새로운 관광시장 개척에 나섰다. 국제관광인포럼은 지난 11월 7일부터 10일까지 3박 4일간 일본 도쿠시마현을 방문해 현지 관광업계와 비즈니스 상담 및 관광교류 세미나를 진행하고, 지역의 주요 관광.
+    https://www.onseoul.net/news/articleView.html?idxno=47325
 
 ### 일본 경유하려다 ‘날벼락’ 맞을 수도…“이것 없인 비행기 못 탄다” 대체 무슨 제도길래
 - 매체 1곳 · 서울경제
@@ -134,11 +134,11 @@
     https://www.tournews21.com/news/articleView.html?idxno=148535
 
 ### Thai Airways emergency landing in Delhi, Bangkok arrival due today
-- 매체 2곳 · Nation Thailand · The Thaiger  ← 여러 곳이 썼다
+- 매체 2곳 · The Thaiger · nationthailand  ← 여러 곳이 썼다
   - The Thaiger: Flight TG925 from Munich diverted to New Delhi after a reported engine fault, and Thai Airways is flying the stranded passengers on to Bangkok on a special flig
     https://thethaiger.com/news/world/aviation/thai-airways-emergency-landing-in-new-delhi-on-munich-flight
-  - Nation Thailand: 
-    https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQM2o2VjktRGJQWkxjODl5b2JBMmpEQ1FQTFlFSm5hX1NoSk1YUnhqXzJQd3BQdGEtZlVMSlBDT3kwYXJsMG96MjBhaElhWDJhVXZRMXBqSkJDeWltNFRGNTZ3?oc=5
+  - nationthailand: Thai Airways addresses the emergency landing of Munich-Bangkok flight TG925 in New Delhi due to a technical issue, ensuring passenger safety
+    https://www.nationthailand.com/news/general/40073542
 
 ## 대만
 
@@ -173,6 +173,17 @@
 
 ## 국내
 
+### 경주국립공원 `경주 명산 오악잇기 스탬프투어` 성료
+- 매체 4곳 · 경북도민일보 · 경북일보 · 경상북도 정치, 시회, 경제, 단체행사, 읍면동 소식 및 생활정보 수록 · 투어코리아  ← 여러 곳이 썼다
+  - 경상북도 정치, 시회, 경제, 단체행사, 읍면동 소식 및 생활정보 수록: 국립공원공단 경주국립공원사무소(소장 김창길)는 경주의 명산과 역사·문화자원, 전통시장을 연계한 체험형 탐방프로그램「경주 명산 오악잇기 스탬프 투어」가 탐방객의 큰 호응을 얻으며 지난달 31일 성황리에 마무리했다고 ..
+    http://m.icbnnews.com/view.php?idx=188520
+  - 경북도민일보: 신라시대 국가 제례의 대상이었던 신라오악과 경주 주요 문화유산, 관광명소 및 전통시장을 연계해 지역의 자연·역사·문화자원을 체험할 수 있도록 기획된 프로그램이 종
+    https://www.hidomin.com/news/articleView.html?idxno=729572
+  - 경북일보: 불국사와 황리단길 등 도심 평지 유적에 편중됐던 경주 관광의 외연이 신라 천년의 영산과 지역 전통시장으로 넓어지며 체류형 생태관광의 새로운 성공 모델을 제시했다. 산행과 문화유산 답사, 지역 상권 소비를 하나의 동선으로 엮어낸 체험형 프로그램이 탐방객들의 폭발적인 호응을 이끌어냈다는 평
+    https://www.kyongbuk.co.kr/news/articleView.html?idxno=4091023
+  - 투어코리아: [투어코리아=김교환 기자] 국립공원공단 경주국립공원사무소(소장 김창길)는 경주의 명산과 문화유산, 전통시장을 연계한 탐방프로그램 「경주 명산 오악잇기 스탬프투어」가 지난 10월 31일 마무리됐다고 밝혔다. 올해로 4회째인 이 프로그램은 신라시대 국가 제사를 지낸 신라오악과 경주 주요 관
+    https://www.tournews21.com/news/articleView.html?idxno=148608
+
 ### (재)부산문화회관, ‘2026 시민뜨락축제’ 개최
 - 매체 3곳 · 거제뉴스광장 · 국제신문 · 메가충청뉴스  ← 여러 곳이 썼다
   - 국제신문: (재)부산문화회관은 15일 부산 기장군 롯데프리미엄아울렛 동부산점 야외 광장에서 ‘2026 시민뜨락축제’를 열었다. 시민이 저글링 아티스트 오장욱의 역동적인 퍼포.
@@ -191,15 +202,6 @@
   - 파이낸셜뉴스: 부산항만공사가 임직원 가족과 함께 어촌관광을 체험하며 지역사회와 상생협력에 나섰다. BPA는 한국어촌어항공단과 함께 지난 14일 부산 영도 동삼마을과 경남 거제 옥계마을에서 임직원 가족이 참여하는 어촌관광 투어를 했다고 16일 밝혔다.
     https://www.fnnews.com/news/202611161924102812
 
-### 경주국립공원 `경주 명산 오악잇기 스탬프투어` 성료
-- 매체 3곳 · 경북도민일보 · 경북일보 · 경상북도 정치, 시회, 경제, 단체행사, 읍면동 소식 및 생활정보 수록  ← 여러 곳이 썼다
-  - 경상북도 정치, 시회, 경제, 단체행사, 읍면동 소식 및 생활정보 수록: 국립공원공단 경주국립공원사무소(소장 김창길)는 경주의 명산과 역사·문화자원, 전통시장을 연계한 체험형 탐방프로그램「경주 명산 오악잇기 스탬프 투어」가 탐방객의 큰 호응을 얻으며 지난달 31일 성황리에 마무리했다고 ..
-    http://m.icbnnews.com/view.php?idx=188520
-  - 경북도민일보: 신라시대 국가 제례의 대상이었던 신라오악과 경주 주요 문화유산, 관광명소 및 전통시장을 연계해 지역의 자연·역사·문화자원을 체험할 수 있도록 기획된 프로그램이 종
-    https://www.hidomin.com/news/articleView.html?idxno=729572
-  - 경북일보: 불국사와 황리단길 등 도심 평지 유적에 편중됐던 경주 관광의 외연이 신라 천년의 영산과 지역 전통시장으로 넓어지며 체류형 생태관광의 새로운 성공 모델을 제시했다. 산행과 문화유산 답사, 지역 상권 소비를 하나의 동선으로 엮어낸 체험형 프로그램이 탐방객들의 폭발적인 호응을 이끌어냈다는 평
-    https://www.kyongbuk.co.kr/news/articleView.html?idxno=4091023
-
 ### 단양 단풍 관광객 11.7% 늘어…보발재 연일 북적
 - 매체 3곳 · 뉴스핌 · 뉴시스 · 충청투데이  ← 여러 곳이 썼다
   - 뉴시스: [단양=뉴시스] 이병찬 기자 = 충북 단양의 단풍 명소를 찾은 관광객 수가 지난해보다 증가한 것으로 나타났다. 16일 단양군에 따르면 단풍철이었던 지난달 15일부터 지난 7일까지 84만9780명이 단양을 방문한 것으로 집계됐다.
@@ -209,12 +211,14 @@
   - 충청투데이: [충청투데이 이상복 기자] 단양군은 10월 15일부터 11월 7일까지 약 84만 9780명이 단양을 방문했다고 16일 밝혔다. 이는 전년 동기 대비 11.7% 증가한 수치로, 한국관광공사 관광데이터랩 자료를 기준으로 집계됐다.
     https://www.cctoday.co.kr/news/articleView.html?idxno=2240304
 
-### 대만 관광객 10명 중 9명 부산 방문 의향… 재방문 시장 공략 강화
-- 매체 2곳 · 뉴스타운 · 브릿지경제  ← 여러 곳이 썼다
-  - 브릿지경제: 대만 관광시장에서 부산이 재방문 여행지로 주목받고 있다. 현지 관광박람회 설문조사에서 응답자 절반 이상이 부산을 방문한 경험이 있고 10명 중 9명은 향후 1년 이내 부산을 방문할 의향이 있는 것으로 나타났다.
-    https://www.viva100.com/article/20261116501021
-  - 뉴스타운: 부산을 찾았던 대만 관광객들이 다시 부산을 방문하려는 수요가 높은 것으로 나타났다. 대만 현지 관광박람회에서 실시한 설문조사 결과 응답자의 55.3%가 부산 방문 경험이 있었으며, 90.1%는 향후 1년 이내 방문하거나 재방문할 의향이 있다고 답했다.
-    https://www.newstown.co.kr/news/articleView.html?idxno=722161
+### 군산의 밤하늘과 바다를 물들인 '2026 군산불꽃축제'
+- 매체 3곳 · 연합뉴스 · 전북금강일보 · 한국방송뉴스  ← 여러 곳이 썼다
+  - 연합뉴스: 
+    https://www.yna.co.kr/view/RPR20261116002600353
+  - 한국방송뉴스: [군산/김주창기자] 군산문화관광재단은 14일 군산 내항 친수공원 일원에서 개최된 ‘2026 군산불꽃축제 군산의 밤을 물들이다’가 10만여 명의 시민과 관광객이 함께한 가운데 단 한 건의 안전사고 없이 성황리에 마무리됐다고 밝혔다. 이날 군산 내항 일원은 축제를 관람하기 위해 모여든 시민
+    https://www.ikbn.news/news/article.html?no=217446
+  - 전북금강일보: 지난주말,군산의가을밤하늘을붉게물들였다. 시민들의염원과군산이한단계더도약하기바라는간절한마음을담은한줄기불꽃이하늘높이솟아올랐다.
+    http://www.gkg.co.kr/195519
 
 ## 여행업계
 
@@ -258,6 +262,15 @@
   - 한국경제: 美 항공대란 사흘째, 1.7만편 결항, 조종사들, 근무시간 한도 걸려 인력 확보 난항&hellip;정상화 먼 길
     https://www.hankyung.com/article/2026111600371
 
+### 여기어때 블랙위크 진행…국내 블랙 숙소 최대 86% 할인
+- 매체 3곳 · 대한뉴스 · 숙박매거진 · 주간한국  ← 여러 곳이 썼다
+  - 숙박매거진: 
+    https://news.google.com/rss/articles/CBMicEFVX3lxTE5wYUd5Qzl2WmFtWWU0Ni1YbzFGVlpmaXJqN0NwZ3Z5enRjZjNBV2lSVm5CMjJmLUFMVVY0eGVEUlUyNHFlZVR0T05LVFNQeHAyUWFyQ1NHSm01WjZLT1ZHbFlRMEp4S2hPR01NbHNnV2I?oc=5
+  - 주간한국: [주간한국 송정인 기자] 여기어때는 내달 30일까지 '블랙위크'를 열고 국내 블랙 숙소를 할인된 가격에 제공한다고 16일 밝혔다. 블랙은 호텔과 리조트, 펜션 등 국내 숙소를 여행 전문가가 평가하고 선별해 소개하는 숙소 큐레이션 서비스다.
+    https://weekly.hankooki.com/news/articleView.html?idxno=7194147
+  - 대한뉴스: [대한뉴스=이윤성 기자] 대한민국 대표 여행·여가 플랫폼 여기어때(대표 정명훈)가 연말을 맞아 최대 규모의 블랙 숙소 할인 이벤트인 ‘블랙위크’를 진행한다. 여기어때 블랙은 호텔, 리조트, 펜션 등을 여행 전문가가 직접 평가하고 선별한 숙소 큐레이션 서비스다.
+    http://www.dhns.co.kr/news/articleView.html?idxno=388826
+
 ### 파르나스호텔, 3분기 영업익 419억…분기 사상 최대
 - 매체 3곳 · 연합뉴스 · 조선비즈 · 한국경제  ← 여러 곳이 썼다
   - 한국경제: 파르나스호텔, 3분기 영업익 419억…분기 사상 최대, 신용현 기자, 경제
@@ -296,13 +309,6 @@
     https://www.yna.co.kr/view/AKR20261116021000030
   - 트래블데일리: 한국관광공사가 말레이시아 대표 건강식품 및 웰니스 제품 직접판매 기업인 ‘비이 인터내셔널(BE International)’의 포상관광단 1500여 명을 유치했다. 비이 인터내셔널은 매년 1000~2000명 규모의 해외 포상관광을 추진하는 기업으로 공사 쿠알라룸푸르지사의 지속적인 유치 활
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72694
-
-### 모두투어, 39일간 연말 여행 할인전…최대 52% 할인
-- 매체 2곳 · 인사이트코리아 · 트래블데일리  ← 여러 곳이 썼다
-  - 인사이트코리아: 
-    https://news.google.com/rss/articles/CBMic0FVX3lxTE9rcllmclVNT2VTZ1l4VFN0WFZIcUMteEJBSktIMWxkbGtacW1qdWM1SFVKRFZoZHZCOFRMcXp2T1M3YWZuLXhHOUJ4M2gtQV92YmZYc3pzV2xJY0xZZ056b0ZtUWJoLU1oa1A4NlRrQmxOOTTSAXdBVV95cUxOUnZmMkVHR0xFZ0g0M0t0YWE2eTdFUGZDbk9qZXBjVmtvUVBCNTFzUHZ0TlNzb2p6MUNsT1JvcHFqTUVIMUI2X1RLQ2FqRHp0aXFXRFpqWkNyLVJ5QmJsQzR6eHVDSG5zb2NxSXloX3VtUjRjMTlqVQ?oc=5
-  - 트래블데일리: 모두투어는 겨울 성수기와 연말·연초 해외여행 수요를 겨냥해 여행상품 특가와 할인 쿠폰, 마일리지, 결제 혜택 등을 한데 모은 전사 프로모션 ‘2026 메가세일(MEGA SALE)’을 11월 16일부터 12월 24일까지 39일간 진행한다. 이번 메가세일은 고객의 여행 비용 부담을 낮추고 
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72692
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 30건)
 
@@ -526,7 +532,7 @@
     https://www.m-i.kr/news/articleView.html?idxno=2018707
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 36개 확인, 사진 줄 2개)
+(자유 이용 사진: 이름 후보 36개 확인, 사진 줄 3개)
 
 ### 🔥 화제(매체 14곳) [movie] ‘극장판 치이카와’ 1위 지키며 294만명 돌파…300만명 눈앞 [11월 15일 영화 박스오피스]
 - 매체 2곳 · ER 이코노믹리뷰 · SBS연예뉴스  ← 여러 곳이 썼다
@@ -545,6 +551,13 @@
   - Daum | 나우무비: ﻿인공지능(AI)이 마침내 국내 음원차트 정상까지 점령했다. 작곡부터 편곡, 가창까지 AI를 활용해 제작한 노래가 인기 아이돌 그룹들을 제치고 멜론 차트 1위에 오른 것이다.
     https://v.daum.net/v/f9yWkHUZxF
 
+### 🔥 화제(매체 6곳) [startrip] 제니, 그래미서 ’올해의 레코드’ 등 2개 부문 후보
+- 매체 2곳 · 연합뉴스TV · 한겨레  ← 여러 곳이 썼다
+  - 연합뉴스TV: 걸그룹 블랙핑크의 제니가 미국 대중음악 시상식인 제69회 ’그래미 어워즈’에서 본상에 해당하는 ’올해의 레코드’를 포함해 2개 부문 후보에 올랐습니다. 제니는 오늘(16일) 히트곡 ’드라큘라’(Dracula)로 ’올해의 레코드’와 ’베스트 팝 듀오/그룹 퍼포먼스’ 부문
+    https://www.yonhapnewstv.co.kr/news/AKR20261116233556V77
+  - 한겨레: 블랙핑크 제니가 미국 최고 권위의 음악 시상식인 그래미 어워즈에서 본상인 ‘올해의 레코드’를 포함해 2개 부문 후보에 올랐다. 지난해 로제에 이어 케이(K)팝 가수로는 두번째 ‘올해의 레코드’ 후보 지명이다.
+    https://www.hani.co.kr/arti/culture/music/1287634.html
+
 ### 🔥 화제(매체 5곳) [startrip] BTS, MMA2026서 6관왕…임영웅 '베스트 솔로'·아이브·에스파 대상
 - 매체 2곳 · 연합뉴스 · 지디넷코리아  ← 여러 곳이 썼다
 - 사진(자유 이용, 임영웅): `![임영웅 · 사진 구전녹용 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2a/Lim_Young-woong_in_an_ad_for_%EA%B5%AC%EC%A0%84%EB%85%B9%EC%9A%A9_%28June_2020%29_%28cropped%29.jpg)`
@@ -561,13 +574,9 @@
   - bntnews: 2026년 극장가 최고의 영화 '왕과 사는 남자'(이하 '왕사남')의 흥행 뒤에 숨겨진 훈훈한 미담이 전해져 화제를 모으고 있다. 장항준 감독과 제작진이 영
     https://www.bntnews.co.kr/article/view/bnt202611160239
 
-### 🔥 화제(매체 3곳) [startrip] 제니, 그래미서 ’올해의 레코드’ 등 2개 부문 후보
-- 매체 1곳 · 연합뉴스TV
-  - 연합뉴스TV: 걸그룹 블랙핑크의 제니가 미국 대중음악 시상식인 제69회 ’그래미 어워즈’에서 본상에 해당하는 ’올해의 레코드’를 포함해 2개 부문 후보에 올랐습니다. 제니는 오늘(16일) 히트곡 ’드라큘라’(Dracula)로 ’올해의 레코드’와 ’베스트 팝 듀오/그룹 퍼포먼스’ 부문
-    https://www.yonhapnewstv.co.kr/news/AKR20261116233556V77
-
 ### 🔥 화제(매체 3곳) [startrip] NCT 드림, 정규 6집 초동 100만장 돌파…11개 앨범 연속 밀리언셀러
 - 매체 1곳 · 문화뉴스
+- 사진(자유 이용, 드림): `![드림 · 사진 MGXINE · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/c/c6/Dream_at_VidCon_Anaheim_2023.png)`
   - 문화뉴스: 그룹 NCT 드림(NCT DREAM)이 정규 6집 ‘드림 애프터 드림’(DREAM AFTER DREAM)으로 11개 앨범 연속 밀리언셀러 기록을 달성했다. 소속사 SM엔터테인먼트는 16일 NCT 드림이 지난 9일 발매한 정규 6집으로 한터차트 기준 발매 첫 주 판매량 100만2500여장
     https://www.mhns.co.kr/news/articleView.html?idxno=769220
 
@@ -596,7 +605,67 @@
 
 관광청·방송사·소속사·배급사 공식 유튜브만 모았다. 영상 제목·설명의 사실로 기사를 쓰고,
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
-(검색어 34개 · 고른 영상 0개)
+(검색어 34개 · 고른 영상 15개)
+
+## ENHYPEN (엔하이픈) 'I Want You' Official MV
+- 채널 HYBE LABELS · 조회수 20,946,863회 · 3일 전
+- `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
+
+## GIRLSET "young & dumb" Music Video
+- 채널 JYP Entertainment · 조회수 6,987,752회 · 3일 전
+- `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
+
+## oftheblue(오브더블루) "풍선인간" Blind Performance Video
+- 채널 JYP Entertainment · 조회수 1,350,780회 · 6일 전
+- `@youtube d1AknDUMAE0` · https://www.youtube.com/watch?v=d1AknDUMAE0
+
+## NCT DREAM - Boogie Woogie | 1theKILLPO | Performance
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,065,994회 · 5일 전
+- `@youtube HYHu_ui8t2s` · https://www.youtube.com/watch?v=HYHu_ui8t2s
+
+## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
+- 채널 tvN DRAMA · 조회수 676,522회 · 6일 전
+- `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
+
+## With - RESCENE (리센느) [뮤직뱅크/Music Bank] | KBS 261113 방송
+- 채널 KBS Kpop · 조회수 651,771회 · 3일 전
+- `@youtube jmlBMoCn0Ec` · https://www.youtube.com/watch?v=jmlBMoCn0Ec
+
+## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
+- 채널 tvN DRAMA · 조회수 626,887회 · 1일 전
+- `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
+
+## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
+- 채널 tvN DRAMA · 조회수 469,093회 · 7일 전
+- `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
+
+## RESCENE (리센느) - With | Show! MusicCore | MBC261114방송
+- 채널 MBCkpop · 조회수 411,568회 · 2일 전
+- `@youtube RSxusLXRQ80` · https://www.youtube.com/watch?v=RSxusLXRQ80
+
+## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
+- 채널 tvN DRAMA · 조회수 342,931회 · 2일 전
+- `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
+
+## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
+- 채널 HYBE LABELS · 조회수 326,217회 · 7일 전
+- `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
+
+## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 선우 (SUNOO)
+- 채널 HYBE LABELS · 조회수 307,527회 · 6일 전
+- `@youtube rF640_v3ikE` · https://www.youtube.com/watch?v=rF640_v3ikE
+
+## ［31회 예고］제가 혹이라서 허락 안 하신 거예요? [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 272,518회 · 2일 전
+- `@youtube 1x4AkY0HbA4` · https://www.youtube.com/watch?v=1x4AkY0HbA4
+
+## [라이어 7회 예고] ＂언니가 어떻게 나를 속일 수가 있어?＂, MBC 261120 방송
+- 채널 MBCdrama · 조회수 253,271회 · 2일 전
+- `@youtube mueEY-8Pw_0` · https://www.youtube.com/watch?v=mueEY-8Pw_0
+
+## 누가 더 유죄인간인가 | 유죄와 벌⚖️❤️‍🔥 EP.00  #나의유죄인간
+- 채널 tvN DRAMA · 조회수 172,757회 · 5일 전
+- `@youtube VFiUuc-HHUY` · https://www.youtube.com/watch?v=VFiUuc-HHUY
 
 
 
@@ -692,6 +761,7 @@
 ## KBS2 일일드라마 욕망의 덫 · 59회 — 11/17 19:50 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
 - 보도자료 제목: [일일드라마 욕망의 덫] 11월 17일 예고편 / 19:50 방송
+- 유튜브 예고(공식 KBS Drama): `@youtube Bvsga2zQbzU` — [59화 예고] 청마의 주인은 당신이 되고 싶었던 거지? [욕망의 덫] | KBS 방송
 - 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
 
 59회 은설은 현재가 남긴 증거들을 하나씩 정리하며 반격을 준비하고, 정선은 영훈의 서랍에서 낯선 흔적을 발견한다. 그 사이 미란 앞으로 정체 모를 택배 상자 하나가 도착하는데...
@@ -699,6 +769,7 @@
 ## KBS1 일일드라마 엄마가 미쳤어요 · 37회 — 11/17 20:30 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/1tv/drama/mompossible
 - 보도자료 제목: [일일드라마 엄마가 미쳤어요] 11월 17일 예고편 / 20:30 방송
+- 유튜브 예고(공식 KBS Drama): `@youtube f5ZC8ewnTn8` — [37화 예고] 내가 무엇이든 다 들어주지 [엄마가 미쳤어요] | KBS 방송
 - 사진(자유 이용, 출연자 정민아): `![정민아 · 사진 뉴스인스타 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/93/190718_%EC%A0%95%EB%AF%BC%EC%95%84_%281%29.jpg)`
 
 [37회] 미미는 큰맘 먹고 산 노란 원피스로 가족들을 깜짝 놀라게 하고, 금순은 인성의 복직을 허락한다. 한편 진희는 안성댁에게 돈을 건네며 금순의 일상을 낱낱이 보고하라고 지시하는데...
@@ -839,3 +910,5 @@ AI의 발전은 오랫동안 풀리지 않았던 문제의 해답을 찾고, 인
 [261114]_지식채널e_11월_16일~11월_18일_주요방송_(월~수_밤_12시_40분,_EBS1).hwp
 [261114]_지식채널e_스틸모음_(겨울잠_스위치)
 
+---
+수집 실패: MBC 목록: timed out

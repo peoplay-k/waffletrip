@@ -4,14 +4,17 @@ channel: travel
 region: jeju
 section: news
 kind: 해설
-title: "제주도·한국항공대, 정석비행장을 드론택시·무인기 연구 기지로 전환 협력"
+title: 제주도·한국항공대, 정석비행장을 드론택시·무인기 연구 기지로 전환 협력
 source_name: ''
 source_url: ''
-summary: 제주도와 한국항공대가 정석비행장을 미래 항공 기술 연구 기지로 바꾼다. 20여 년간 조종사를 길러 온 곳이다. 드론택시와 무인기를 연구하고 시험하는 시설로 쓴다.
+summary: 제주도와 한국항공대가 정석비행장을 미래 항공 기술 연구 기지로 바꾼다. 20여 년간 조종사를 길러 온 곳이다. 드론택시와 무인기를
+  연구하고 시험하는 시설로 쓴다.
 sources:
-  - https://www.fnnews.com/news/202611162043041086
-  - https://www.yna.co.kr/view/AKR20261116140900056
-status: approved
+- https://www.fnnews.com/news/202611162043041086
+- https://www.yna.co.kr/view/AKR20261116140900056
+status: published
+published_id: c-6ef83b9de1bc04ad7d120d1c5c60f609dfc625a2
+published_on: '2026-11-17'
 ---
 제주도와 한국항공대학교가 제주 정석비행장을 미래 항공 기술 연구 기지로 바꾼다. 20여 년간 여객기 조종사를 길러 온 훈련장이 드론택시와 무인기를 시험하는 곳으로 옮겨 간다.
 

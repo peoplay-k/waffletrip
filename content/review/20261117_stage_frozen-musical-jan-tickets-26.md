@@ -5,14 +5,17 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "뮤지컬 '겨울왕국' 한국 초연, 1월 공연 티켓 26일 오후 2시 오픈"
+title: 뮤지컬 '겨울왕국' 한국 초연, 1월 공연 티켓 26일 오후 2시 오픈
 source_name: ''
 source_url: ''
-summary: 뮤지컬 '겨울왕국' 한국 초연의 1월 공연 예매가 26일 오후 2시에 시작된다. 대상은 2027년 1월 5일부터 31일까지의 전 회차다. 겨울방학 기간이 포함됐다.
+summary: 뮤지컬 '겨울왕국' 한국 초연의 1월 공연 예매가 26일 오후 2시에 시작된다. 대상은 2027년 1월 5일부터 31일까지의 전 회차다.
+  겨울방학 기간이 포함됐다.
 sources:
-  - https://www.mhns.co.kr/news/articleView.html?idxno=769181
-  - https://www.bntnews.co.kr/article/view/bnt202611160120
-status: approved
+- https://www.mhns.co.kr/news/articleView.html?idxno=769181
+- https://www.bntnews.co.kr/article/view/bnt202611160120
+status: published
+published_id: c-87905f5b578cf0546caec9e1a0ce1f29f1630de6
+published_on: '2026-11-17'
 ---
 뮤지컬 '겨울왕국' 한국 초연의 1월 공연 티켓이 26일 풀린다. 예매는 이날 오후 2시에 시작한다.
 

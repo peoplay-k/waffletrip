@@ -5,14 +5,17 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "국립오페라단, '돈 카를로스' 13년 만에 무대…국내 첫 프랑스어 5막 버전"
+title: 국립오페라단, '돈 카를로스' 13년 만에 무대…국내 첫 프랑스어 5막 버전
 source_name: ''
 source_url: ''
-summary: 국립오페라단이 12월 3~6일 예술의전당 오페라극장에서 '돈 카를로스'를 올린다. 13년 만의 공연이다. 1886년 모데나 5막 판본의 프랑스어 버전으로, 국내에서는 처음이다.
+summary: 국립오페라단이 12월 3~6일 예술의전당 오페라극장에서 '돈 카를로스'를 올린다. 13년 만의 공연이다. 1886년 모데나 5막 판본의
+  프랑스어 버전으로, 국내에서는 처음이다.
 sources:
-  - https://www.ytn.co.kr/_ln/0106_202611161053005600
-  - https://www.yna.co.kr/view/AKR20261116024300005
-status: approved
+- https://www.ytn.co.kr/_ln/0106_202611161053005600
+- https://www.yna.co.kr/view/AKR20261116024300005
+status: published
+published_id: c-825bfd60734f61e012357923bb1f9925513cc0a5
+published_on: '2026-11-17'
 ---
 베르디의 걸작 오페라 '돈 카를로스'가 13년 만에 국내 무대에 선다. 국립오페라단은 다음 달 3일부터 6일까지 서울 예술의전당 오페라극장에서 이 작품을 공연한다고 밝혔다.
 
