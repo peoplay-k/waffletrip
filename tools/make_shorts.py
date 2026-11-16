@@ -737,6 +737,14 @@ def pick_place(candidates: list[str], last: dict[str, str]) -> str:
     예전에는 순번에서 '만들 수 있는 첫 곳'을 골랐는데, 기사가 넉넉한 곳이 괌뿐인
     주에는 매일 괌이 나갔다(11-10·12·13·14 연속).
     """
+    # 오늘 이미 내보낸 곳이 있으면 그곳을 다시 고른다 — 발행은 하루 서너 번 도는데, 돌 때마다
+    # 다른 곳을 고르면 하루에 쇼츠가 여러 편 올라가고 나레이션도 매번 새로 산다
+    # (2026-11-16 실측: 다낭·하노이·사이판 세 편). 같은 곳이면 오늘 구운 영상을 다시 쓰고
+    # 발행기는 이미 올린 것으로 보고 건너뛴다.
+    today = datetime.now(KST).strftime("%Y%m%d")
+    for p in candidates:
+        if last.get(p) == today:
+            return p
     return min(candidates, key=lambda p: (last.get(p, ""), candidates.index(p)))
 
 

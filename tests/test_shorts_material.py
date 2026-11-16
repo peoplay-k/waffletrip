@@ -95,3 +95,9 @@ def test_pick_place_prefers_least_recently_posted():
     assert ms.pick_place(["guam", "danang"], last) == "danang"
     # 기록이 같으면 오늘의 순번(후보 순서)대로
     assert ms.pick_place(["kota", "guam"], {}) == "kota"
+
+
+def test_pick_place_sticks_to_todays_place():
+    import make_shorts as ms
+    today = ms.datetime.now(ms.KST).strftime("%Y%m%d")
+    assert ms.pick_place(["guam", "hanoi"], {"guam": "20260101", "hanoi": today}) == "hanoi"
