@@ -5,16 +5,19 @@ category: music
 region: ''
 section: news
 kind: 해설
-title: "BTS, 'MMA2026' 대상 2개 포함 6관왕…아이브·에스파·코르티스도 대상"
+title: BTS, 'MMA2026' 대상 2개 포함 6관왕…아이브·에스파·코르티스도 대상
 source_name: ''
 source_url: ''
-summary: "방탄소년단이 'MMA2026'에서 대상 2개를 포함해 6관왕에 올랐다. 아이브와 에스파, 코르티스도 각각 대상을 받았다. 임영웅은 '베스트 솔로' 남자 부문을 수상했다."
+summary: 방탄소년단이 'MMA2026'에서 대상 2개를 포함해 6관왕에 올랐다. 아이브와 에스파, 코르티스도 각각 대상을 받았다. 임영웅은
+  '베스트 솔로' 남자 부문을 수상했다.
 sources:
-  - https://zdnet.co.kr/view/?no=20261116000043
-  - https://www.yna.co.kr/view/AKR20261115056300005
-  - https://www.xportsnews.com/article/2219846
-  - https://www.etnews.com/20261116000292
-status: approved
+- https://zdnet.co.kr/view/?no=20261116000043
+- https://www.yna.co.kr/view/AKR20261115056300005
+- https://www.xportsnews.com/article/2219846
+- https://www.etnews.com/20261116000292
+status: published
+published_id: c-cf3f06ec0f3ccaa28d711f99852892142b4ac998
+published_on: '2026-11-18'
 ---
 방탄소년단이 '2026 멜론뮤직어워드(MMA2026)'에서 대상 2개를 포함해 6관왕에 올랐다. 이번 시상식 최다 수상이다.
 

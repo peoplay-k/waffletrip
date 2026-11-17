@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '서장훈의 이웃집 백만장자', 900평 떡 공장 '떡만장자' 김덕식 출격"
+title: EBS '서장훈의 이웃집 백만장자', 900평 떡 공장 '떡만장자' 김덕식 출격
 source_name: ''
 source_url: ''
-summary: "EBS '서장훈의 이웃집 백만장자'가 18일 방송에서 40년 떡 외길 김덕식 씨를 만난다. 900평대 공장은 하루 평균 쌀 2톤을 쓰고 100여 가지 떡을 만든다. 서장훈과 장예원이 떡 먹방에 나선다."
+summary: EBS '서장훈의 이웃집 백만장자'가 18일 방송에서 40년 떡 외길 김덕식 씨를 만난다. 900평대 공장은 하루 평균 쌀 2톤을
+  쓰고 100여 가지 떡을 만든다. 서장훈과 장예원이 떡 먹방에 나선다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005650253
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005650253
+status: published
+published_id: c-471640aba8871ce66c6f06cc15da5f35c6fbc90a
+published_on: '2026-11-18'
 ---
 > **방송 정보**
 > 채널 · EBS | 프로그램 · 서장훈의 이웃집 백만장자

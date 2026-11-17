@@ -8,10 +8,13 @@ kind: 해설
 title: KBS1 '엄마가 미쳤어요' 38회, 새 단화에 춤 실력 뽐내는 미미
 source_name: ''
 source_url: ''
-summary: KBS1 일일드라마 '엄마가 미쳤어요' 38회가 18일 저녁 8시 30분 방송된다. 미미는 새 단화로 발이 편해져 춤 실력을 뽐낸다. 금순은 승윤을 보며 죽은 큰아들의 이름을 부른다.
+summary: KBS1 일일드라마 '엄마가 미쳤어요' 38회가 18일 저녁 8시 30분 방송된다. 미미는 새 단화로 발이 편해져 춤 실력을 뽐낸다.
+  금순은 승윤을 보며 죽은 큰아들의 이름을 부른다.
 sources:
-  - https://program.kbs.co.kr/1tv/drama/mompossible
-status: approved
+- https://program.kbs.co.kr/1tv/drama/mompossible
+status: published
+published_id: c-31f48bb4851e888fd431c1ae057b7820e74dccf1
+published_on: '2026-11-18'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 엄마가 미쳤어요 | 회차 · 38회

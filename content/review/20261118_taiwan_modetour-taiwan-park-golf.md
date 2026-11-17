@@ -4,14 +4,17 @@ channel: travel
 region: taiwan
 section: news
 kind: 보도자료
-title: "모두투어, 첫 대만 파크골프 상품 출시…온천 휴양 결합"
+title: 모두투어, 첫 대만 파크골프 상품 출시…온천 휴양 결합
 source_name: ''
 source_url: ''
-summary: "모두투어가 대만 파크골프 상품을 처음 내놓았다. 36홀 라운드에 온천 휴양과 현지 관광을 묶었다. 시니어와 동호회 고객의 선택 폭을 넓힌다."
+summary: 모두투어가 대만 파크골프 상품을 처음 내놓았다. 36홀 라운드에 온천 휴양과 현지 관광을 묶었다. 시니어와 동호회 고객의 선택 폭을
+  넓힌다.
 sources:
-  - https://www.worldculture.news/news/articleView.html?idxno=14779
-  - http://www.dailymagazine.co.kr/news/newsview.php?ncode=1065592008921005
-status: approved
+- https://www.worldculture.news/news/articleView.html?idxno=14779
+- http://www.dailymagazine.co.kr/news/newsview.php?ncode=1065592008921005
+status: published
+published_id: c-6f6858cfd4bb56223154468c2adbef887f62c6c2
+published_on: '2026-11-18'
 ---
 모두투어가 대만 파크골프 상품을 처음 선보였다. 36홀 라운드에 온천 휴양과 현지 관광을 묶어 시니어와 동호회 고객의 선택 폭을 넓힌다.
 

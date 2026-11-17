@@ -4,16 +4,19 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "포항국제불빛축제 19일 개막…21일 한·일·프랑스 불꽃쇼"
+title: 포항국제불빛축제 19일 개막…21일 한·일·프랑스 불꽃쇼
 source_name: ''
 source_url: ''
-summary: "'2026 포항국제불빛축제'가 19일부터 사흘간 열린다. 영일대해수욕장과 송도 포항구항 일원이 무대다. 마지막 날 한국·일본·프랑스 3개국 불꽃쇼가 펼쳐진다."
+summary: '''2026 포항국제불빛축제''가 19일부터 사흘간 열린다. 영일대해수욕장과 송도 포항구항 일원이 무대다. 마지막 날 한국·일본·프랑스
+  3개국 불꽃쇼가 펼쳐진다.'
 sources:
-  - https://www.ftimes.kr/news/articleView.html?idxno=41153
-  - https://news.bbsi.co.kr/news/articleView.html?idxno=4119000
-  - https://www.hidomin.com/news/articleView.html?idxno=729801
-  - https://www.kbmaeil.com/article/20261117500647
-status: approved
+- https://www.ftimes.kr/news/articleView.html?idxno=41153
+- https://news.bbsi.co.kr/news/articleView.html?idxno=4119000
+- https://www.hidomin.com/news/articleView.html?idxno=729801
+- https://www.kbmaeil.com/article/20261117500647
+status: published
+published_id: c-0901f9fbfd149932dea10bd228f0b587be22d1c3
+published_on: '2026-11-18'
 ---
 '2026 포항국제불빛축제'가 19일 막을 올린다. 21일까지 사흘간 영일대해수욕장과 송도 포항구항 일원에서 열린다.
 

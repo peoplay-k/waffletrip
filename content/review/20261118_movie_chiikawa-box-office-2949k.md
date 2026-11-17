@@ -5,16 +5,19 @@ category: movie
 region: ''
 section: news
 kind: 해설
-title: "'극장판 치이카와' 주말 1위 지켜…누적 294만 명, 300만 눈앞"
+title: '''극장판 치이카와'' 주말 1위 지켜…누적 294만 명, 300만 눈앞'
 source_name: ''
 source_url: ''
-summary: "'극장판 치이카와: 인어 섬의 비밀'이 15일 4만6032명을 모아 1위를 지켰다. 누적 관객은 294만9096명이다. 16일에는 '폴2: 데드포인트'가 1위를 되찾았다."
+summary: '''극장판 치이카와: 인어 섬의 비밀''이 15일 4만6032명을 모아 1위를 지켰다. 누적 관객은 294만9096명이다. 16일에는
+  ''폴2: 데드포인트''가 1위를 되찾았다.'
 sources:
-  - https://www.econovill.com/news/articleView.html?idxno=757346
-  - https://www.econovill.com/news/articleView.html?idxno=757268
-  - https://www.yna.co.kr/view/AKR20261116036500005
-  - https://www.econovill.com/news/articleView.html?idxno=757492
-status: approved
+- https://www.econovill.com/news/articleView.html?idxno=757346
+- https://www.econovill.com/news/articleView.html?idxno=757268
+- https://www.yna.co.kr/view/AKR20261116036500005
+- https://www.econovill.com/news/articleView.html?idxno=757492
+status: published
+published_id: c-747675b74c8871eb929a7aaf9b0b4a729d3265f8
+published_on: '2026-11-18'
 ---
 '극장판 치이카와: 인어 섬의 비밀'이 주말 박스오피스 1위를 지켰다. 누적 관객은 294만9096명으로 300만 명이 눈앞이다.
 

@@ -4,16 +4,19 @@ channel: travel
 region: vietnam
 section: news
 kind: 보도자료
-title: "릭소스, 서울서 '릭소스 푸꾸옥 베트남' 론칭…12월 초 일부 개관"
+title: 릭소스, 서울서 '릭소스 푸꾸옥 베트남' 론칭…12월 초 일부 개관
 source_name: ''
 source_url: ''
-summary: "릭소스가 16일 서울 조선호텔에서 '릭소스 푸꾸옥 베트남' 론칭 행사를 열었다. 아시아 최초의 올인클루시브 콘셉트 리조트다. 12월 초 일부가 문을 연다."
+summary: 릭소스가 16일 서울 조선호텔에서 '릭소스 푸꾸옥 베트남' 론칭 행사를 열었다. 아시아 최초의 올인클루시브 콘셉트 리조트다. 12월
+  초 일부가 문을 연다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72720
-  - http://www.snakorea.com/news/articleView.html?idxno=1065066
-  - https://www.onews.tv/news/articleView.html?idxno=291801
-  - http://www.ttlnews.com/news/articleView.html?idxno=3163039
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72720
+- http://www.snakorea.com/news/articleView.html?idxno=1065066
+- https://www.onews.tv/news/articleView.html?idxno=291801
+- http://www.ttlnews.com/news/articleView.html?idxno=3163039
+status: published
+published_id: c-b636a581f838cc72fbce8b9e4ec6850e564f32f0
+published_on: '2026-11-18'
 ---
 글로벌 럭셔리 호텔 브랜드 릭소스가 베트남 푸꾸옥에 아시아 첫 올인클루시브 리조트를 연다. 12월 초 일부가 먼저 문을 열고 소프트 오픈에 들어간다.
 

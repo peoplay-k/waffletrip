@@ -4,13 +4,16 @@ channel: travel
 region: taiwan
 section: news
 kind: 보도자료
-title: "서울관광재단, 대만 인기 캐릭터 '카푸'와 관광 홍보 캠페인"
+title: 서울관광재단, 대만 인기 캐릭터 '카푸'와 관광 홍보 캠페인
 source_name: ''
 source_url: ''
-summary: "서울관광재단이 대만 인기 캐릭터 '카푸'와 서울 관광 홍보 캠페인을 연다. 27일까지 이어진다. 비짓서울이 해외 캐릭터와 손잡은 첫 사례다."
+summary: 서울관광재단이 대만 인기 캐릭터 '카푸'와 서울 관광 홍보 캠페인을 연다. 27일까지 이어진다. 비짓서울이 해외 캐릭터와 손잡은 첫
+  사례다.
 sources:
-  - https://www.khan.co.kr/article/202611171534011/
-status: approved
+- https://www.khan.co.kr/article/202611171534011/
+status: published
+published_id: c-6c13db470e3775baa1afe6ccaa0030e007461d3a
+published_on: '2026-11-18'
 ---
 서울관광재단이 대만 인기 캐릭터 '카푸(CAPOO)'와 손잡고 서울 관광 홍보에 나선다. 캠페인은 27일까지 이어진다.
 

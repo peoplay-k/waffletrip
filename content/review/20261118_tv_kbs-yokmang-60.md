@@ -8,10 +8,13 @@ kind: 해설
 title: KBS2 '욕망의 덫' 60회, 익명의 편지와 함께 돌아온 장갑 한 짝
 source_name: ''
 source_url: ''
-summary: KBS2 일일드라마 '욕망의 덫' 60회가 18일 저녁 7시 50분 방송된다. 미란에게 장갑 한 짝이 익명의 편지와 함께 배달된다. 석진은 사라졌던 소연을 찾는다.
+summary: KBS2 일일드라마 '욕망의 덫' 60회가 18일 저녁 7시 50분 방송된다. 미란에게 장갑 한 짝이 익명의 편지와 함께 배달된다.
+  석진은 사라졌던 소연을 찾는다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+- https://program.kbs.co.kr/2tv/drama/yokmang
+status: published
+published_id: c-26b8c5f0360717a8bdec9f87cfdd8e62707aaaf0
+published_on: '2026-11-18'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 욕망의 덫 | 회차 · 60회
