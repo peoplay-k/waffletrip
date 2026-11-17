@@ -5,6 +5,13 @@
 
 ## 괌
 
+### PHR 코리아, 괌 여행상품 경쟁력 알렸다…‘괌 아카데미’ 성료
+- 매체 2곳 · TTL뉴스 · 미래를 보는 창 - 전자신문  ← 여러 곳이 썼다
+  - 미래를 보는 창 - 전자신문: 가족 단위 휴양지로 익숙한 PIC 괌이 스포츠와 웰니스, 섬 탐방을 결합한 성인 여행 콘텐츠로 영역을 넓히고 있다. PHR 코리아는 지난 12일부터 16일까지 4박5일간 국내 여행업계 관계자를 대상으로 &lsquo;2026 PH
+    https://www.etnews.com/20261117000170
+  - TTL뉴스: 전통적인 가족 단위 휴양지로 인식돼 온 남태평양 괌 관광업계가 20대부터 40대까지의 젊은 성인층을 새로운 핵심 소비층으로 끌어들이기 위해 체류형 스포츠·웰니스 상품을 전면에 내세우며 체질 개선에 나섰다.
+    http://www.ttlnews.com/news/articleView.html?idxno=3163168
+
 ### [인천공항 탑승률 통계] 괌 여객 24%↓…탑승률 47%대로 급락
 - 매체 1곳 · 여행신문
   - 여행신문: 인천-괌 노선의 9월 평균 탑승률이 전월(8월) 대비 15.0%p 하락했다. 한국교통연구원의 9월 항공통계 자료에 따르면, 인천-괌 노선의 평균 탑승률은 8월 62.5%에서 9월 47.5%로 내렸다.
@@ -25,11 +32,6 @@
   - 이데일리: “폭싹 속았수다! (고생하셨습니다.
     https://www.edaily.co.kr/News/Read?newsId=04569046645646704&mediaCodeNo=257
 
-### PHR 코리아, 괌 5개 호텔&리조트 경쟁력 점검
-- 매체 1곳 · 비즈엔터
-  - 비즈엔터: ‘2026 PHR 괌 아카데미’…스포츠·웰니스 성인 특화 프로그램 체험▲PIC 괌(사진출처=PHR KOREA )PHR 코리아가 괌 소재 주요 리조트 5곳의 상품 경쟁력을
-    https://enter.etoday.co.kr/news/view/305402
-
 ## 하와이
 
 ### First Alert Forecast: Wind advisory issued for most of Hawaii
@@ -40,6 +42,13 @@
     https://www.hawaiinewsnow.com/2026/11/16/first-alert-forecast-breezy-trades-passing-showers-much-coming-work-week/
 
 ## 베트남
+
+### [현장] 릭소스, 푸꾸옥에 아시아 첫 올인클루시브 리조트…“게임체인저 될 것”
+- 매체 2곳 · 열린뉴스통신 · 트래블데일리  ← 여러 곳이 썼다
+  - 열린뉴스통신: (서울=열린뉴스통신) 최선혜 기자 = 글로벌 럭셔리 올인클루시브 리조트 브랜드 릭소스(Rixos)가 베트남 푸꾸옥에 아시아 최초로 브랜드 고유의 ‘All-Inclusive, All-Exclusive’ 콘셉트를 적용한 리조트를 선보이며 아시아 시장 확대에 나선다.
+    https://www.onews.tv/news/articleView.html?idxno=291801
+  - 트래블데일리: 글로벌 럭셔리 호텔 브랜드 릭소스(Rixos)가 베트남 푸꾸옥을 통해 아시아 시장 공략에 본격적으로 나선다. 릭소스는 16일 조선호텔에서 ‘릭소스 푸꾸옥 베트남(R
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72720
 
 ### 대한항공, 베트남 FLC그룹과 항공·관광 협력..꾸이년 신규노선 등 논의
 - 매체 2곳 · 더구루 · 파이낸셜뉴스  ← 여러 곳이 썼다
@@ -55,20 +64,15 @@
   - 서울신문: 베트남 다낭이 론리플래닛의 연말 추천 여행지와 2027년 해외여행 목적지에 연이어 선정됐다. 썬월드 바나힐은 대표 관광명소로, 인터컨티넨탈 다낭 썬 페닌슐라 리조트는 추천 숙박시설로 소개됐다.
     https://www.seoul.co.kr/news/life/travel-news/2026/11/16/20261116500132
 
-### 베트남항공이 다낭과 싱가포르 간 직항 노선을 신설했습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: DNO - 11월 17일 오후, 베트남항공은 다낭에서 싱가포르까지 직항 노선을 개설하여 베트남과 싱가포르 간 주 42회 왕복 항공편을 운항하게 되었습니다.
-    https://www.vietnam.vn/ko/vietnam-airlines-mo-duong-bay-thang-da-nang-singapore
+### '릭소스 푸꾸옥 베트남' 아시아 최초 론칭…글로벌 럭셔리 휴양 시장 정조준
+- 매체 1곳 · 서울뉴스통신
+  - 서울뉴스통신: 【서울 = 서울뉴스통신】 이민희 기자 = 글로벌 호스피탈리티 기업 에니스모어 산하 럭셔리 호텔 브랜드 릭소스가 아시아 시장 진출을 본격화했다. 릭소스는 16일 저녁 서울 조선호텔에서 '릭소스 푸꾸옥 베트남' 론칭 행사를 열고 아시아 럭셔리 올인클루시브 호스피탈리티 시장의 새로운 기준을 
+    http://www.snakorea.com/news/articleView.html?idxno=1065066
 
-### 다낭에서 생산된 제품의 시장 인지도를 높이는 것.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: DNO - 11월 17일 오전, 다낭시 산업통상부 산하 산업진흥무역진흥센터는 "관광객을 위한 산업 생산 시설 및 기념품 제조 시설의 경영 역량 강화" 교육 프로그램을 개최했습니다.
-    https://www.vietnam.vn/ko/tiep-suc-de-san-pham-made-in-da-nang-vuon-xa-tren-thi-truong
-
-### [현장] 릭소스, 푸꾸옥에 아시아 첫 올인클루시브 리조트…“게임체인저 될 것”
-- 매체 1곳 · 열린뉴스통신
-  - 열린뉴스통신: (서울=열린뉴스통신) 최선혜 기자 = 글로벌 럭셔리 올인클루시브 리조트 브랜드 릭소스(Rixos)가 베트남 푸꾸옥에 아시아 최초로 브랜드 고유의 ‘All-Inclusive, All-Exclusive’ 콘셉트를 적용한 리조트를 선보이며 아시아 시장 확대에 나선다.
-    https://www.onews.tv/news/articleView.html?idxno=291801
+### 푸꾸옥, 늘어난 국내외 관광객에 수입도 ‘짭짤’…10월 기준 관광수입 63조 동 전년동기比 38%↑
+- 매체 1곳 · 인사이드비나
+  - 인사이드비나: 올 들어 10월까지 베트남의 대표적인 휴양섬 푸꾸옥을 찾는 외국인 관광객이 200만 명을 넘어선 것으로 나타났다. 외국인 관광객이 큰 폭으로 늘면서 관광 매출 또
+    https://www.insidevina.com/news/articleView.html?idxno=44529
 
 ## 제주
 
@@ -105,6 +109,13 @@
 
 ## 일본
 
+### 조국, 일본 입국 거부 당해…혁신당 “日 정부, 사과하라”
+- 매체 2곳 · 경향신문 · 중앙일보  ← 여러 곳이 썼다
+  - 중앙일보: 조국 전 대표, 일본 공항서 입국 거부 당했다
+    https://www.joongang.co.kr/article/25479413
+  - 경향신문: 조국 조국혁신당 혁신정책연구원장이 17일 일본 하네다공항에서 입국을 거부당했다. 일본 정부는 조 원장의 1990년대 형사처벌 전력을 문제삼은 것으로 알려졌다.
+    https://www.khan.co.kr/article/202611171741001
+
 ### 클룩, ‘긴급연차여행’ 온라인 프로모션…일본 호텔 최대 50만 원 할인
 - 매체 2곳 · 뉴스트래블 · 여행레저신문  ← 여러 곳이 썼다
   - 뉴스트래블: [뉴스트래블=박민영 기자] 클룩(Klook)이 브랜드 유튜브 콘텐츠 ‘긴급연차여행’을 온라인 프로모션으로 확장하고 일본 여행객을 대상으로 호텔과 항공권 할인 혜택을 선보인다. 긴급연차여행은 서울 주요 업무지구에서 직장인을 만나 즉석에서 연차 사용을 제안하고, 미션에 성공한 참가자에게 해
@@ -126,15 +137,12 @@
   - 여성소비자신문: [여성소비자신문 최문정 기자] 서울신라호텔의 일식당 아리아께는 일본의 일식당 ‘기요다’와 함께 행사를 진행하는 한편 호텔신라는 대한항공과 국내외. ..
     http://www.wsobi.com/news/articleView.html?idxno=321865
 
-### 선박 길잡이서 관광 상품으로…日 등대의 변신
-- 매체 1곳 · 연합뉴스
-  - 연합뉴스: (서울=연합뉴스) 최이락 기자 = 위성항법장치(GPS) 보급으로 뱃길 안내 역할이 줄어든 일본의 등대가 민간에 개방되며 관광 자원으로 탈바꿈하고. ..
-    https://www.yna.co.kr/view/AKR20261117122800009
-
-### 조국, 일본 입국 거부 당해…혁신당 “日 정부, 사과하라”
-- 매체 1곳 · 중앙일보
-  - 중앙일보: 조국 전 대표, 일본 공항서 입국 거부 당했다
-    https://www.joongang.co.kr/article/25479413
+### 5월의 도쿄, 추천 관광지와 액티비티
+- 매체 1곳 · 도쿄 관광 공식 사이트GO TOKYO  ← 여러 곳이 썼다
+  - 도쿄 관광 공식 사이트GO TOKYO: 물론이죠! 5월 초에는 일본의 대형연휴 중 하나인 골든위크가 있습니다.
+    https://www.gotokyo.org/kr/story/guide/may/index.html
+  - 도쿄 관광 공식 사이트GO TOKYO: 일본의 8월은 여름축제가 한창인 시기입니다. 다양한 이벤트가 개최됩니다.
+    https://www.gotokyo.org/kr/story/guide/august/index.html
 
 ## 태국
 
@@ -148,6 +156,11 @@
     https://www.g-enews.com/article/Industry/2026/11/202611171622482710ea14faf6f5_1
   - 뉴시스: [대구=뉴시스] 박준 기자 = 트리니티항공이 태국 관광 활성화에 나섰다
     https://mobile.newsis.com/view_amp.html?ar_id=NISX20261117_0003871486
+
+### [팜투어] 코사무이 동쪽 절벽 품은 친환경 리조트… ‘실라바디 풀 스파 리조트’의 건축과 미식
+- 매체 1곳 · 디스커버리뉴스(DISCOVERYNEWS)
+  - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 태국 코사무이(Koh Samui) 동쪽 해안 절벽에 자리한 ‘실라바디 풀 스파 리조트(Silavadee Pool Spa Resort)’가 개장 18주년을 맞아 지난 5월 시그니처 레스토랑 ‘더 하이트(The Height)’를 전면 새단장해 문을 열었다.
+    https://www.discoverynews.kr/news/articleView.html?idxno=1107093
 
 ### 태국 여행 준비한다면 주목… 트리니티항공, 항공권·쿠폰 혜택 마련
 - 매체 1곳 · ER 이코노믹리뷰
@@ -164,21 +177,18 @@
   - 이데일리: 국내 호텔 테크 기업 두왓(DOWHAT)이 한국관광공사의 ‘2026 방콕 관광분야 오픈이노베이션 프로그램’ 실증(PoC) 대상 스타트업으로 선정됐다. 두왓은 태국 크라비의 레드진저 시크 리조트(Red Ginger Chic Resort)와 소셜 기반 호텔 예약 플랫폼 ...
     https://www.edaily.co.kr/News/Read?newsId=03519446645646704&mediaCodeNo=257
 
-### 태국 푸껫의 한 관광 리조트에서 대형 화재가 발생했습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 11월 16일 새벽, 태국 남부 푸껫주 카투 지구 파통 관광지에서 대형 화재가 발생해 11명이 사망하고 30명 이상이 부상당했습니다.
-    https://www.vietnam.vn/ko/chay-lon-tai-khu-du-lich-o-phuket-cua-thai-lan
-
 ## 대만
 
 ### 모두투어, 시니어 동호회 고객 폭 넓혔다..대만 파크골프 상품 출시
-- 매체 3곳 · 경인뷰 · 데일리매거진 · 한국정경신문  ← 여러 곳이 썼다
+- 매체 4곳 · 경인뷰 · 데일리매거진 · 세계문화신문 · 한국정경신문  ← 여러 곳이 썼다
   - 한국정경신문: 
     https://news.google.com/rss/articles/CBMiUkFVX3lxTE03LVlESkFCYXZNUjJWdWhZMS1sbjFNczB3WlFyR002N1FYTDY4ODFTaG50blFneWd6Qmdhd2s2bDd5S0N3X0p0ejdyT1RZMngwcVE?oc=5
   - 경인뷰: 
     https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DbG9uREY1YnBXM0JHRFdqa0JZR1dKUE1RNjJkdWNaMFJiY1czQ3Y1allaNGFuc2dkSmZ1NnAyX3FJVVJsZFFYOUp0dHBTdlVKUF9BVGg3Y2ROT3RFN2xXRXR3?oc=5
   - 데일리매거진: -36홀 파크골프 라운드에 온천 휴양과 현지 관광을 결합-시니어와 동호회 고객의 선택 폭을 넓힌 것
     http://www.dailymagazine.co.kr/news/newsview.php?ncode=1065592008921005
+  - 세계문화신문: 모두투어는 해외 파크골프 여행 수요 확대에 맞춰 대만 파크골프 상품을 처음으로 출시하고, 스포츠와 관광·휴양을 결합한 해외 테마여행 라인업을 강화한다고 17일 밝혔다. 최근 파크골프는 시니어층과 동호회를 중심으로 참여 저변이 넓어지면서 관광·휴양을 결합한 해외 테마여행으로도 주목받고 있
+    https://www.worldculture.news/news/articleView.html?idxno=14779
 
 ### 대만 관광박람회 방문객 절반 이상 "부산 여행 경험"
 - 매체 2곳 · 뉴시스 · 트래블데일리  ← 여러 곳이 썼다
@@ -219,6 +229,17 @@
   - 뉴스경남: (재)통영문화재단(이사장 강석주)은 오는 18일 통영국제음악당 콘서트홀에서 2026 학교 관현악단 축제, 중학교 관현악단 정기공연을 개최한다. 이번 공연은 문화체육관광부가 선정한 대한민국 문화 도시 통영 조성 사업의 일환으로 추진하는 학교 관현악단 활성화 지원 사업의 성과를 공유하고,
     https://www.newsgn.com/news/articleView.html?idxno=586187
 
+### 군산의 밤하늘과 바다를 물들인 '2026 군산불꽃축제'
+- 매체 3곳 · 연합뉴스 · 전북금강일보 · 한국방송뉴스  ← 여러 곳이 썼다
+  - 연합뉴스: 
+    https://www.yna.co.kr/view/RPR20261116002600353
+  - 한국방송뉴스: [군산/김주창기자] 군산문화관광재단은 14일 군산 내항 친수공원 일원에서 개최된 ‘2026 군산불꽃축제 군산의 밤을 물들이다’가 10만여 명의 시민과 관광객이 함께한 가운데 단 한 건의 안전사고 없이 성황리에 마무리됐다고 밝혔다. 이날 군산 내항 일원은 축제를 관람하기 위해 모여든 시민
+    https://www.ikbn.news/news/article.html?no=217446
+  - 전북금강일보: 지난주말,군산의가을밤하늘을붉게물들였다. 시민들의염원과군산이한단계더도약하기바라는간절한마음을담은한줄기불꽃이하늘높이솟아올랐다.
+    http://www.gkg.co.kr/195519
+  - 한국방송뉴스: [군산/김주창기자] 늦가을 밤, 군산 내항의 밤하늘과 바다를 오색찬란한 불꽃으로 물들인 「2026 군산불꽃축제」가 시민과 관광객들의 뜨거운 관심과 호응 속에 성황리에 막을 내렸다. 군산문화관광재단은 지난 14일 오후 8시 군산 내항 친수공원 일원에서 개최한 ‘2026 군산불꽃축제 「군산
+    https://www.ikbn.news/news/article.html?no=217526
+
 ### 경주국립공원 `경주 명산 오악잇기 스탬프투어` 성료
 - 매체 4곳 · 경북도민일보 · 경북일보 · 경상북도 정치, 시회, 경제, 단체행사, 읍면동 소식 및 생활정보 수록 · 투어코리아  ← 여러 곳이 썼다
   - 경상북도 정치, 시회, 경제, 단체행사, 읍면동 소식 및 생활정보 수록: 국립공원공단 경주국립공원사무소(소장 김창길)는 경주의 명산과 역사·문화자원, 전통시장을 연계한 체험형 탐방프로그램「경주 명산 오악잇기 스탬프 투어」가 탐방객의 큰 호응을 얻으며 지난달 31일 성황리에 마무리했다고 ..
@@ -239,23 +260,14 @@
   - 경북도민일보: 포항의 밤바다와 도심을 화려한 빛으로 물들일 ‘2026 포항국제불빛축제’가 오는 19일부터 21일까지 사흘간 영일대해수욕장과 해오름대교, 송도동 포항구항 일원에서
     https://www.hidomin.com/news/articleView.html?idxno=729801
 
-### 공주문화관광재단, 2026 공주 이 시대의 사진작가전
-- 매체 3곳 · 뉴스타운 · 대전일보 · 특급뉴스  ← 여러 곳이 썼다
-  - 특급뉴스: (재)공주문화관광재단은 11월 12일 아트센터고마 전시실 2에서 「2026 공주 이 시대의 사진작가전」 이정복 展 《흐르다, 멈추다, 사라지다》 개막식을 개최했다. 이날 개막식에는 공주시청 오현규 자치안전국장, 공주시의회 권경운 부의장, 공주문화원 이일주 원장을 비롯한 지역 문화예술계
-    https://www.expressnews.co.kr/news/articleView.html?idxno=332706
-  - 대전일보: [공주]공주문화관광재단은 아트센터고마에서 개최한 '2026 공주 댕댕와유 페스티벌'을 성황리에 마무리했다. 올해 처음으로 개최된 이번 행사는 반려동물과 함께 즐길 수 있는 새로운 관광 콘텐츠를 선보이며 반려인과 비반려인이 함께 어우러지는 축제의 장을 마련했다.
-    https://www.daejonilbo.com/news/articleView.html?idxno=2314129
-  - 뉴스타운: (재)공주문화관광재단이 지난 12일 아트센터고마 전시실 2에서 ‘2026 공주 이 시대의 사진작가전 이정복 展 흐르다, 멈추다, 사라지다’ 개막식을 개최했다. 이날 개막식에는 공주시 오현규 자치안전국장, 공주시의회 권경운 부의장, 공주문화원 이일주 원장을 비롯한 지역 문화예술계 관계자와
-    https://www.newstown.co.kr/news/articleView.html?idxno=722145
-
-### 포항 해병대문화축제 성료…이틀간 12만 명 찾아 민·관·군 화합
-- 매체 3곳 · 경북도민일보 · 폴리뉴스 Polinews · 프레시안  ← 여러 곳이 썼다
-  - 프레시안: 해병대 1사단 부대 개방…군 장비 전시·병영문화 체험 등 다채로운 프로그램 운영
-    https://www.pressian.com/pages/articles/2026111520560026255
-  - 경북도민일보: 2026 포항 해병대문화축제가 이틀간 시민과 관광객 9만여명이 찾은 가운데 마무리됐다. 지난 14일부터 15일까지 남구 오천읍 서문사거리와 해병대 제1사단 일원에
-    https://www.hidomin.com/news/articleView.html?idxno=729549
-  - 폴리뉴스 Polinews: [폴리뉴스 권택석(=경북) 기자] 포항의 대표 군 문화축제인 '2026 포항 해병대문화축제'가 이틀간 9만여 명의 시민과 관광객을 유치하며 성황리에 마무리됐다.
-    https://www.polinews.co.kr/news/articleView.html?idxno=748568
+### 공주문화관광재단, 헌혈로 생명나눔 실천
+- 매체 3곳 · 충청시사신문 · 충청투데이 · 투데이충남  ← 여러 곳이 썼다
+  - 투데이충남: [공주] 이춘주 기자 = 공주문화관광재단 직원들이 지역의 헌혈 참여 문화를 넓히기 위해 팔을 걷었다. 재단은 지난 11일 새로 개소한 헌혈의집 공주대학교센터에서
+    https://www.todaychungnam.net/news/articleView.html?idxno=480600
+  - 충청시사신문: [충청시사신문=공주] 충남 공주문화관광재단이 직원 참여형 헌혈 활동을 통해 지역사회 공헌과 환경·사회·지배구조(ESG) 경영 실천에 나섰다. 공주문화관광재단은 지난
+    https://www.csnnews.co.kr/news/articleView.html?idxno=34187
+  - 충청투데이: [충청투데이 김익환 기자] 공주문화관광재단(대표이사 김지광)은 공주대학교센터에서 ‘함께 만드는 즐거운 헌혈’ 행사를 진행했다고 17일 밝혔다. 이번 행사는 재단의 사회공헌활동의 일환으로, 새롭게 문을 연 헌혈의집 공주대학교센터에서 진행되었으며, 재단 직원들이 자발적으로 참여해 생명나눔의
+    https://www.cctoday.co.kr/news/articleView.html?idxno=2240401
 
 ## 여행업계
 
@@ -269,6 +281,17 @@
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72704
   - 중소기업신문: 
     https://news.google.com/rss/articles/CBMibEFVX3lxTE16c2N0UlVULS1DcXUzUDV2NUk1RklCcXZKUzVFNjI3NUJZaDJ0dnJpTmRLT0o3d290TVNjZzI1REFxN1MtemJXYzA1Q0lpMG9JX085YTBRWnZYVzcya3ZDb2M5NTBVajU1bEVRSw?oc=5
+
+### 충청남도의회 최광선 의원, 예산-인천공항 직행버스 노선 신설 추진 결실
+- 매체 4곳 · 국제뉴스 · 아산포커스 · 중도일보 · 충남일보  ← 여러 곳이 썼다
+  - 아산포커스: 
+    https://news.google.com/rss/articles/CBMibkFVX3lxTE9iNXYzZ2VKOWlycnFqS0NUYzVMRmc0Q2pMM2oxTVo2U1dxdGxyMnRRbEIwT3FpMnJoaEVmNm1mWFRQc1lRamZ2amtCbXdRV3R5T2xLWnQxdXJheU5uS1lSVGh1RVoxZFM1RXZnMWln?oc=5
+  - 충남일보: [충남일보 우명균 기자] 청양-예산-인천공항 직행버스 노선이 신설돼 내년 1월부터 운행될 전망이다. 충남도의회 최광선 의원(예산1⋅국민의힘)에 따르면 이번 노선은 청양과 예산을 거쳐 인천국제공항을 연결하는 시외버스 노선으로, 2027년 1월 4일부터 버스 2대를 투입해 3회 운행할 계획
+    https://www.chungnamilbo.co.kr/news/articleView.html?idxno=921345
+  - 중도일보: 
+    https://m.joongdo.co.kr/view.php?key=20261117010006001
+  - 국제뉴스: (충남=국제뉴스) 박의규 기자 = 청양과 예산을 잇는 인천국제공항 직행버스 노선이 신설돼 내년 1월부터 운행을 시작할 예정이다. 이 노선은 예산과 청양 지역 주민들의 공항 접근성을 높이기 위해 추진됐다.
+    https://www.gukjenews.com/news/articleView.html?idxno=3755020
 
 ### 대한항공·조종사노조, 임단협 잠정 합의…10년 만의 파업 '일단락'
 - 매체 4곳 · YTN · 뉴스1 · 파이낸셜뉴스 · 헬스조선  ← 여러 곳이 썼다
@@ -318,8 +341,8 @@
     https://www.segye.com/newsView/20261117516932
   - 파이낸셜뉴스: 인천국제공항공사가 공항 내 보안 위협에 신속하게 대응하기 위해 지휘·보고체계를 정비하고 현장 근무자들의 보안 역량 강화에 나섰다.
     https://www.fnnews.com/news/202611171403525575
-  - 기호일보: 
-    https://news.google.com/rss/articles/CBMib0FVX3lxTFBZeE5wSVM2bkd6MGlMUW5EN1lVYlYxTEhGRThnOW1rdG9MYUd5VVdBaExFdGp0UjhtbWx3MGdfQV96Tl9tME1UZFJGNWl1R0ZXVzR5WTk3Qmw0VVNVR3pxR3g1aVYwRlY5QXBZVUI3dw?oc=5
+  - 기호일보: 인천국제공항공사가 인천국제공항보안과 함께 공항 보안 역량 강화를 위해 ‘지휘·보고체계 점검 워크숍’과 상주직원 대상 캠페인을 진행했다고 17일 전했다. 제1여객터
+    https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041225
 
 ### 관광벤처 매출 2배·투자기업 30%…2030년 ‘관광 유니콘’ 키운다
 - 매체 3곳 · 재외동포신문 · 투어코리아 · 파이낸셜뉴스  ← 여러 곳이 썼다
@@ -347,15 +370,6 @@
     https://www.khan.co.kr/article/202611160858001
   - 한국경제: 美 항공대란 사흘째, 1.7만편 결항, 조종사들, 근무시간 한도 걸려 인력 확보 난항&hellip;정상화 먼 길
     https://www.hankyung.com/article/2026111600371
-
-### 여기어때 블랙위크 진행…국내 블랙 숙소 최대 86% 할인
-- 매체 3곳 · 대한뉴스 · 숙박매거진 · 주간한국  ← 여러 곳이 썼다
-  - 숙박매거진: 
-    https://news.google.com/rss/articles/CBMicEFVX3lxTE5wYUd5Qzl2WmFtWWU0Ni1YbzFGVlpmaXJqN0NwZ3Z5enRjZjNBV2lSVm5CMjJmLUFMVVY0eGVEUlUyNHFlZVR0T05LVFNQeHAyUWFyQ1NHSm01WjZLT1ZHbFlRMEp4S2hPR01NbHNnV2I?oc=5
-  - 주간한국: [주간한국 송정인 기자] 여기어때는 내달 30일까지 '블랙위크'를 열고 국내 블랙 숙소를 할인된 가격에 제공한다고 16일 밝혔다. 블랙은 호텔과 리조트, 펜션 등 국내 숙소를 여행 전문가가 평가하고 선별해 소개하는 숙소 큐레이션 서비스다.
-    https://weekly.hankooki.com/news/articleView.html?idxno=7194147
-  - 대한뉴스: [대한뉴스=이윤성 기자] 대한민국 대표 여행·여가 플랫폼 여기어때(대표 정명훈)가 연말을 맞아 최대 규모의 블랙 숙소 할인 이벤트인 ‘블랙위크’를 진행한다. 여기어때 블랙은 호텔, 리조트, 펜션 등을 여행 전문가가 직접 평가하고 선별한 숙소 큐레이션 서비스다.
-    http://www.dhns.co.kr/news/articleView.html?idxno=388826
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 30건)
 
@@ -515,13 +529,15 @@
 ## 공연·전시 — category: stage, 하루 두 편 이상
 
 ### [stage] 서울역사박물관, 기획전 ‘도시의 경계, 중랑천’ 개최…서울 동부의 변천사 조명
-- 매체 3곳 · 국민기자뉴스 · 뉴시니어 · 환경과조경
+- 매체 4곳 · 국민기자뉴스 · 뉴시니어 · 웹이코노미 · 환경과조경
   - 뉴시니어: [뉴시니어 = 노태영 기자] 서울역사박물관 분관 청계천박물관이 중랑천을 통해 서울 동부 지역의 역사와 도시 변화 과정을 조명한다. 청계천박물관은 하반기 기획전시 도시의 경계, 중랑천을 17일부터 2027년 3월 28일까지 박물관 1층 기획전시실에서 개최한다고 밝혔다.
     https://www.nsenior.co.kr/news/article.html?no=139142
   - 환경과조경: 
     https://www.lak.co.kr/news/boardview.php?id=24331
   - 국민기자뉴스: - 조선시대 한양의 동쪽 외곽에서 현대 서울의 도시공간으로 이어진 중랑천 일대의 변화 조명 -- 왕의 사냥터와 목장, 1925년 을축년 대홍수, 도시개발 등 시대별 중랑천의 역사 소개 -- 2024년 청계천 기획연구 《중랑천》의 조사·연구 성과를 바탕으로 기획 -조선시대 왕의 사냥터와
     https://www.kmkj.kr/news/articleView.html?idxno=145999
+  - 웹이코노미: 서울역사박물관은 인사도시유적전시관 개관을 기념해 기획전 ‘다시 모은 조각들_인사동의 시간’을 연다. 전시는 11월 17일부터 내년 3월 28일까지 인사도시유적전시관
+    https://www.webeconomy.co.kr/news/articleView.html?idxno=2378753
 
 ### [stage] “푸치니의 선율이 성남을 울렸다”… 중앙대, 개교 110주년 기념 대작 오페라 ‘라 보엠’ 대성황 속 폐막
 - 매체 3곳 · 스마트경제 · 중앙일보 · 포인트데일리
@@ -657,10 +673,12 @@
   - 아이즈(ize): 수지, 이진욱 영화 '실연당한 사람들을 위한 일곱 시 조찬모임'이 12월 30일 개봉일을 확정했다. 16일 배급사 바이포엠스튜디오는 오는 12월 30일 영화 '실연당한 사람들을 위한 일곱 시 조찬모임'(감독 임선애.
     https://www.ize.co.kr/news/articleView.html?idxno=82656
 
-### 🔥 화제(매체 3곳) [drama] [보도자료] ‘저스트 메이크업 시즌2’ 쿠팡플레이 예능 ‘저스트 메이크업’ 시즌2, 태연·윈터·장도연·나연·임윤아! 역대급 5MC 출격! 5MC 포스터 & 5MC 예고편 공개!
-- 매체 1곳 · 쿠팡
-  - 쿠팡: 
-    https://news.coupang.com/archives/68646/
+### 🔥 화제(매체 3곳) [drama] 넷플릭스 예능 ‘데블스 플랜: 데드 어게인’ 오늘 6-10회 공개…대한민국 TOP 10 시리즈 1위
+- 매체 2곳 · 제이앤엠뉴스 · 톱스타뉴스  ← 여러 곳이 썼다
+  - 톱스타뉴스: 넷플릭스 예능 ‘데블스 플랜: 데드 어게인’이 공개 직후 대한민국 TOP 10 시리즈 1위를 기록한 가운데, 오늘 6-10회를 선보이며 유배지 생존전과 생활동·감옥동의 본격 대립을 공개한다.
+    https://www.topstarnews.net/news/articleView.html?idxno=16278599
+  - 제이앤엠뉴스: 제이앤엠뉴스 | 넷플릭스 두뇌 서바이벌 예능 '데블스 플랜: 데드 어게인'이 공개 첫 주 TV·OTT 비드라마 화제성 1위에 올랐다. 역대 서바이벌 강자들이 한자리에 모인 경쟁 구도에 탈락자의 재도전이라는 새로운 규칙이 더해지면서 시청자들의 관심이 이어지고 있다.
+    https://www.jnmnews.com/news/article.html?no=678577
 
 ---
 거리 116건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
@@ -673,64 +691,64 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## ENHYPEN (엔하이픈) 'I Want You' Official MV
-- 채널 HYBE LABELS · 조회수 21,126,872회 · 3일 전
+- 채널 HYBE LABELS · 조회수 21,202,779회 · 3일 전
 - `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
 
 ## GIRLSET "young & dumb" Music Video
-- 채널 JYP Entertainment · 조회수 7,991,105회 · 4일 전
+- 채널 JYP Entertainment · 조회수 8,661,443회 · 4일 전
 - `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
 
 ## oftheblue(오브더블루) "풍선인간" Blind Performance Video
-- 채널 JYP Entertainment · 조회수 1,419,445회 · 6일 전
+- 채널 JYP Entertainment · 조회수 1,441,396회 · 6일 전
 - `@youtube d1AknDUMAE0` · https://www.youtube.com/watch?v=d1AknDUMAE0
 
 ## NCT DREAM - Boogie Woogie | 1theKILLPO | Performance
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,127,387회 · 5일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,152,730회 · 6일 전
 - `@youtube HYHu_ui8t2s` · https://www.youtube.com/watch?v=HYHu_ui8t2s
 
-## 박진서, 깊은 울림으로 탑백귀 마음 두드린 ＜조용필 - 바람의 노래＞ 무대♪
-- 채널 SBS Entertainment · 조회수 1,068,289회 · 7일 전
-- `@youtube qSWxVaM-zB0` · https://www.youtube.com/watch?v=qSWxVaM-zB0
-
 ## ENHYPEN (엔하이픈) 'I Want You' Official Teaser
-- 채널 HYBE LABELS · 조회수 929,242회 · 4일 전
+- 채널 HYBE LABELS · 조회수 930,232회 · 5일 전
 - `@youtube _pLJBPzp3Fg` · https://www.youtube.com/watch?v=_pLJBPzp3Fg
 
 ## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
-- 채널 tvN DRAMA · 조회수 679,114회 · 6일 전
+- 채널 tvN DRAMA · 조회수 680,164회 · 7일 전
 - `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
 
-## With - RESCENE (리센느) [뮤직뱅크/Music Bank] | KBS 261113 방송
-- 채널 KBS Kpop · 조회수 657,256회 · 4일 전
-- `@youtube jmlBMoCn0Ec` · https://www.youtube.com/watch?v=jmlBMoCn0Ec
-
 ## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 656,785회 · 1일 전
+- 채널 tvN DRAMA · 조회수 679,143회 · 2일 전
 - `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
 
-## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 469,392회 · 7일 전
-- `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
+## With - RESCENE (리센느) [뮤직뱅크/Music Bank] | KBS 261113 방송
+- 채널 KBS Kpop · 조회수 658,695회 · 4일 전
+- `@youtube jmlBMoCn0Ec` · https://www.youtube.com/watch?v=jmlBMoCn0Ec
 
 ## RESCENE (리센느) - With | Show! MusicCore | MBC261114방송
-- 채널 MBCkpop · 조회수 418,309회 · 3일 전
+- 채널 MBCkpop · 조회수 421,250회 · 3일 전
 - `@youtube RSxusLXRQ80` · https://www.youtube.com/watch?v=RSxusLXRQ80
 
 ## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
-- 채널 tvN DRAMA · 조회수 343,269회 · 2일 전
+- 채널 tvN DRAMA · 조회수 343,506회 · 3일 전
 - `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
 
-## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
-- 채널 HYBE LABELS · 조회수 327,339회 · 7일 전
-- `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
+## 홀로 섬 지키며 살다가 노총각 탈출한 남자 어떻게 지낼까 가봤더니｜죽도의 마지막 주민 근황｜한국기행｜#골라듄다큐
+- 채널 EBSDocumentary (EBS 다큐) · 조회수 291,579회 · 1일 전
+- `@youtube ooUX4nH2iKo` · https://www.youtube.com/watch?v=ooUX4nH2iKo
 
-## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 선우 (SUNOO)
-- 채널 HYBE LABELS · 조회수 309,361회 · 6일 전
-- `@youtube rF640_v3ikE` · https://www.youtube.com/watch?v=rF640_v3ikE
+## [10화 예고] 내가 널 만난 건 행운이 아니라 기적💞 서로가 있어 행복한 임시완X설인아에 다가온 또다른 위협? #나의유죄인간 EP.10
+- 채널 tvN DRAMA · 조회수 285,824회 · 1일 전
+- `@youtube izmmaIqoz3s` · https://www.youtube.com/watch?v=izmmaIqoz3s
 
 ## ［31회 예고］제가 혹이라서 허락 안 하신 거예요? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 273,481회 · 2일 전
+- 채널 KBS Drama · 조회수 274,529회 · 3일 전
 - `@youtube 1x4AkY0HbA4` · https://www.youtube.com/watch?v=1x4AkY0HbA4
+
+## [라이어 7회 예고] ＂언니가 어떻게 나를 속일 수가 있어?＂, MBC 261120 방송
+- 채널 MBCdrama · 조회수 274,270회 · 2일 전
+- `@youtube mueEY-8Pw_0` · https://www.youtube.com/watch?v=mueEY-8Pw_0
+
+## [신인감독 김연경2] 원더 저 너머로✨ 필승 원더독스 2기 포스터 촬영 비하인드🔥📷, MBC 202611 방송
+- 채널 MBCentertainment · 조회수 269,623회 · 1일 전
+- `@youtube i11ILsFQNF8` · https://www.youtube.com/watch?v=i11ILsFQNF8
 
 
 
@@ -738,22 +756,6 @@
 
 방송사 보도자료다. **문장을 옮기지 말고** 사실만 가져다 우리 문장으로 쓴다.
 사진은 쓰지 않는다 — 빌드가 프로그램 카드를 그린다.
-
-## KBS2 일일드라마 욕망의 덫 · 59회 — 11/17 19:50 방송
-- 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
-- 보도자료 제목: [일일드라마 욕망의 덫] 11월 17일 예고편 / 19:50 방송
-- 유튜브 예고(공식 KBS Drama): `@youtube Bvsga2zQbzU` — [59화 예고] 청마의 주인은 당신이 되고 싶었던 거지? [욕망의 덫] | KBS 방송
-- 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
-
-59회 은설은 현재가 남긴 증거들을 하나씩 정리하며 반격을 준비하고, 정선은 영훈의 서랍에서 낯선 흔적을 발견한다. 그 사이 미란 앞으로 정체 모를 택배 상자 하나가 도착하는데...
-
-## KBS1 일일드라마 엄마가 미쳤어요 · 37회 — 11/17 20:30 방송
-- 출처: KBS 미리보기 · https://program.kbs.co.kr/1tv/drama/mompossible
-- 보도자료 제목: [일일드라마 엄마가 미쳤어요] 11월 17일 예고편 / 20:30 방송
-- 유튜브 예고(공식 KBS Drama): `@youtube f5ZC8ewnTn8` — [37화 예고] 내가 무엇이든 다 들어주지 [엄마가 미쳤어요] | KBS 방송
-- 사진(자유 이용, 출연자 정민아): `![정민아 · 사진 뉴스인스타 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/93/190718_%EC%A0%95%EB%AF%BC%EC%95%84_%281%29.jpg)`
-
-[37회] 미미는 큰맘 먹고 산 노란 원피스로 가족들을 깜짝 놀라게 하고, 금순은 인성의 복직을 허락한다. 한편 진희는 안성댁에게 돈을 건네며 금순의 일상을 낱낱이 보고하라고 지시하는데...
 
 ## SBS 틈만나면, — 11/17 21:00 방송
 - 출처: SBS 보도자료(예능) · https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9391
@@ -926,6 +928,22 @@ EBS는 학교 밖 청소년과 쉬었음 청년의 목소리를 통해 우리 �
 흔들리는 마음을 다잡고 7년 만에 아버지와의 만남을 준비하고 있다.
 하나의 파도를 넘고 나면, 또 하나의 파도가 기다리는 바람 잘 날 없는 인생.
 그럼에도 이젠 혼자가 아니기에 두 사람은 서로의 손을 꼭 잡고 앞으로 
+
+## KBS2 일일드라마 욕망의 덫 · 60회 — 11/18 19:50 방송
+- 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
+- 보도자료 제목: [일일드라마 욕망의 덫] 11월 18일 예고편 / 19:50 방송
+- 유튜브 예고(공식 KBS Drama): `@youtube m1hZwDtrZL4` — [60화 예고] 그날 기억이 났어요 [욕망의 덫] | KBS 방송
+- 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
+
+60회 미란은 잃어버린 장갑 한 짝이 익명의 편지와 함께 배달되자 불안에 휩싸이고, 은설은 그런 미란 앞에서 더욱 다정한 딸을 자처한다. 한편 사라졌던 소연을 찾은 석진은 소연의 말에서 아버지의 죽음에 얽힌 단서를 발견하는데…
+
+## KBS1 일일드라마 엄마가 미쳤어요 · 38회 — 11/18 20:30 방송
+- 출처: KBS 미리보기 · https://program.kbs.co.kr/1tv/drama/mompossible
+- 보도자료 제목: [일일드라마 엄마가 미쳤어요] 11월 18일 예고편 / 20:30 방송
+- 유튜브 예고(공식 KBS Drama): `@youtube AZLd8jM5XIo` — [38화 예고] 제 발로 나가게 하려는데, 방법이 없나? [엄마가 미쳤어요] | KBS 방송
+- 사진(자유 이용, 출연자 정민아): `![정민아 · 사진 뉴스인스타 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/93/190718_%EC%A0%95%EB%AF%BC%EC%95%84_%281%29.jpg)`
+
+[38회] 경호가 건넨 새 단화로 발이 편해진 미미가 왕년의 춤 실력을 뽐낸다. 한편, 금순은 퇴근하고 집에 들어온 승윤을 보며 죽은 큰 아들의 이름을 부르는데...
 
 ## EBS 서장훈의 이웃집 백만장자 — 11/18 방송
 - 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005650253

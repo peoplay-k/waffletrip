@@ -7,14 +7,16 @@ kind: 보도자료
 title: 클룩 '긴급연차여행', 홍석천과 당일 일본행 미션…일본 호텔 최대 50만 원 할인
 source_name: ''
 source_url: ''
-summary: 클룩이 브랜드 유튜브 콘텐츠 '긴급연차여행'을 온라인 할인 행사로 넓혔다. 진행자 홍석천이 직장인에게 즉석에서 연차를 권하고 당일 일본 출국 미션을 건다. 일본 호텔 최대 50만 원 할인 룰렛과 제주항공 최대 67% 할인을 함께 내놨다.
+summary: 클룩이 브랜드 유튜브 콘텐츠 '긴급연차여행'을 온라인 할인 행사로 넓혔다. 진행자 홍석천이 직장인에게 즉석에서 연차를 권하고 당일
+  일본 출국 미션을 건다. 일본 호텔 최대 50만 원 할인 룰렛과 제주항공 최대 67% 할인을 함께 내놨다.
 sources:
 - https://www.newstravel.co.kr/news/article.html?no=28138
 - https://www.newspim.com/news/view/20261116001084
 - https://thetravelnews.co.kr/2026/11/klook-urgent-leave-japan-hotel-2026/
-status: approved
+status: published
+published_id: c-2a380e71b8818f7c5de31173c8d1561d5e0e69e7
+published_on: '2026-11-17'
 ---
-
 홍석천이 직장인에게 "오늘 일본 가자"고 제안한다.
 클룩의 유튜브 콘텐츠 '긴급연차여행' 이야기다.
 클룩은 이 콘텐츠를 온라인 할인 행사로 넓힌다고 16일 밝혔다.
