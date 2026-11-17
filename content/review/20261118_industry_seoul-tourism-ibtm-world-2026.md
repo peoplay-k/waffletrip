@@ -7,12 +7,14 @@ kind: 보도자료
 title: 서울관광재단, 'IBTM World 2026' 참가…유럽 마이스 시장 공략
 source_name: ''
 source_url: ''
-summary: 서울관광재단이 유럽 최대 규모의 마이스 전시회 'IBTM World 2026'에 참가한다. 회의·포상관광·컨벤션·전시 행사의 서울 유치를 노린다. 유럽 마이스 시장을 겨냥한 마케팅이다.
+summary: 서울관광재단이 유럽 최대 규모의 마이스 전시회 'IBTM World 2026'에 참가한다. 회의·포상관광·컨벤션·전시 행사의 서울
+  유치를 노린다. 유럽 마이스 시장을 겨냥한 마케팅이다.
 sources:
 - https://www.newsis.com/view/NISX20261117_0003871999
-status: approved
+status: published
+published_id: c-6a9d1b6e134a745e95ea566f76e5fe07ab157ce3
+published_on: '2026-11-18'
 ---
-
 서울관광재단이 유럽 마이스 시장 공략에 나섰다.
 재단은 'IBTM World 2026'에 참가해 서울을 알린다.
 

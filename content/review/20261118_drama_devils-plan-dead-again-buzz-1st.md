@@ -8,13 +8,15 @@ kind: 해설
 title: '넷플릭스 ''데블스 플랜: 데드 어게인'' 첫 주 비드라마 화제성 1위…6~10회 공개'
 source_name: ''
 source_url: ''
-summary: '넷플릭스 두뇌 서바이벌 예능 ''데블스 플랜: 데드 어게인''이 공개 첫 주 TV·OTT 비드라마 화제성 1위에 올랐다. 공개 직후 넷플릭스 대한민국 TOP 10 시리즈 1위도 기록했다. 17일 6~10회가 공개됐다.'
+summary: '넷플릭스 두뇌 서바이벌 예능 ''데블스 플랜: 데드 어게인''이 공개 첫 주 TV·OTT 비드라마 화제성 1위에 올랐다. 공개 직후
+  넷플릭스 대한민국 TOP 10 시리즈 1위도 기록했다. 17일 6~10회가 공개됐다.'
 sources:
 - https://www.jnmnews.com/news/article.html?no=678577
 - https://www.topstarnews.net/news/articleView.html?idxno=16278599
-status: approved
+status: published
+published_id: c-c1d04e9f3abce65c5e75d022f8dbef6f31b8ae80
+published_on: '2026-11-18'
 ---
-
 '데블스 플랜: 데드 어게인'이 첫 주부터 화제를 모았다.
 공개 첫 주 TV·OTT 비드라마 화제성 1위에 올랐다.
 넷플릭스 대한민국 TOP 10 시리즈 1위도 기록했다.

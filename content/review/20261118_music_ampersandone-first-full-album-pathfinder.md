@@ -8,14 +8,16 @@ kind: 해설
 title: 앰퍼샌드원, 데뷔 3년 만에 첫 정규 '패스파인더'…"K팝의 왕 되고 싶다"
 source_name: ''
 source_url: ''
-summary: 그룹 앰퍼샌드원이 데뷔 3년 만에 첫 정규 앨범 '패스파인더(PATHFINDER)'를 냈다. 17일 서울 광진구 예스24라이브홀에서 쇼케이스를 열었다. 멤버들은 "다국적 그룹인 만큼 해외에도 K팝을 알려 'K팝의 왕'이 되고 싶다"고 했다.
+summary: 그룹 앰퍼샌드원이 데뷔 3년 만에 첫 정규 앨범 '패스파인더(PATHFINDER)'를 냈다. 17일 서울 광진구 예스24라이브홀에서
+  쇼케이스를 열었다. 멤버들은 "다국적 그룹인 만큼 해외에도 K팝을 알려 'K팝의 왕'이 되고 싶다"고 했다.
 sources:
 - https://www.yna.co.kr/view/AKR20261117124400005
 - https://www.joynews24.com/view/2027218
 - https://enews.imbc.com/News/RetrieveNewsInfo/525173
-status: approved
+status: published
+published_id: c-d4f89aad8041781a91d614089502feffcc8758e3
+published_on: '2026-11-18'
 ---
-
 앰퍼샌드원이 첫 정규 앨범으로 돌아왔다.
 앨범 이름은 '패스파인더(PATHFINDER)'다.
 데뷔 3년 만의 첫 정규다.

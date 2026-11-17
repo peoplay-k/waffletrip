@@ -8,13 +8,15 @@ kind: 해설
 title: tvN '나의 유죄인간' 10·11화 예고…행복한 임시완·설인아에 닥친 위협, 그리고 이별
 source_name: ''
 source_url: ''
-summary: tvN '나의 유죄인간' 10화·11화 예고 영상이 tvN DRAMA 공식 유튜브에서 각각 조회수 30만·13만 회를 넘었다. 10화는 행복한 두 사람에게 다가온 또 다른 위협을 예고했다. 11화는 설인아를 너무 사랑해서 이별을 택한 임시완을 담았다.
+summary: tvN '나의 유죄인간' 10화·11화 예고 영상이 tvN DRAMA 공식 유튜브에서 각각 조회수 30만·13만 회를 넘었다. 10화는
+  행복한 두 사람에게 다가온 또 다른 위협을 예고했다. 11화는 설인아를 너무 사랑해서 이별을 택한 임시완을 담았다.
 sources:
 - https://www.youtube.com/watch?v=izmmaIqoz3s
 - https://www.youtube.com/watch?v=U6B7fo8sDTw
-status: approved
+status: published
+published_id: c-0d059f716e6f9009d5efb11ba9bece9059e4a4f3
+published_on: '2026-11-18'
 ---
-
 tvN '나의 유죄인간'의 다음 회 예고가 잇달아 공개됐다.
 10화 예고는 공개 하루 만에 조회수 30만 회를, 11화 예고는 공개 당일 13만 회를 넘었다.
 
