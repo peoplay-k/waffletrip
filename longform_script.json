@@ -15,7 +15,7 @@
       ],
       "count": 18,
       "photos": [
-        "assets/photos/vietnam/260908_하노이자유여행일정_6번.webp",
+        "assets/photos/vietnam/260910_하노이닌빈여행_12번.webp",
         "assets/photos/jeju/DSC01484.webp"
       ]
     }
@@ -102,7 +102,7 @@
     "region": "vietnam",
     "count": 3,
     "narration": "베트남 소식입니다.",
-    "photo": "assets/photos/vietnam/260908_하노이자유여행일정_7번.webp"
+    "photo": "assets/photos/vietnam/260910_하노이닌빈여행_1번.webp"
   },
   {
     "kind": "story",
@@ -112,7 +112,7 @@
     "summary": "릭소스가 16일 서울 조선호텔에서 '릭소스 푸꾸옥 베트남' 론칭 행사를 열었다. 아시아 최초의 올인클루시브 콘셉트 리조트다. 12월 초 일부가 문을 연다",
     "outlet": "",
     "narration": "릭소스가 16일 서울 조선호텔에서 '릭소스 푸꾸옥 베트남' 론칭 행사를 열었다. 아시아 최초의 올인클루시브 콘셉트 리조트다.",
-    "photo": "assets/photos/vietnam/PEO_3319.webp"
+    "photo": "assets/photos/vietnam/PEO_3318.webp"
   },
   {
     "kind": "story",
@@ -122,7 +122,7 @@
     "summary": "베트남 다낭이 론리플래닛의 연말 추천 여행지에 올랐다. 2027년 해외여행 목적지에도 이름을 올렸다. 썬월드 바나힐이 대표 명소로 소개됐다",
     "outlet": "",
     "narration": "베트남 다낭이 론리플래닛의 연말 추천 여행지에 올랐다. 2027년 해외여행 목적지에도 이름을 올렸다.",
-    "photo": "assets/photos/vietnam/PEO_3327.webp"
+    "photo": "assets/photos/vietnam/PEO_2796.webp"
   },
   {
     "kind": "story",
@@ -132,7 +132,7 @@
     "summary": "대한항공이 베트남 FLC그룹과 항공·관광 협력을 논의했다. 대표단은 13일 하노이에서 FLC그룹 경영진을 만났다. 베트남 중부 꾸이년(퀴논)을 거점으로 한 신규 노선이 핵심 의제다",
     "outlet": "",
     "narration": "대한항공이 베트남 FLC그룹과 항공·관광 협력을 논의했다. 대표단은 13일 하노이에서 FLC그룹 경영진을 만났다.",
-    "photo": "assets/photos/vietnam/260908_하노이자유여행일정_8번.webp"
+    "photo": "assets/photos/vietnam/PEO_3322.webp"
   },
   {
     "kind": "section",
@@ -242,37 +242,37 @@
     "region": "guam",
     "count": 3,
     "narration": "괌 소식입니다.",
-    "photo": "assets/photos/guam/KakaoTalk_20250404_072316086_06.webp"
+    "photo": "assets/photos/guam/KakaoTalk_20250404_072926245_05.webp"
   },
   {
     "kind": "story",
     "n": 1,
     "total": 3,
-    "headline": "인천~괌 9월 탑승률 47.5%…한 달 새 15%p 떨어져",
-    "summary": "한국교통연구원 9월 항공통계에 따르면 인천~괌 노선의 평균 탑승률은 8월 62.5%에서 9월 47.5%로 15.0%p 내렸다. 여객도 24% 줄었다",
+    "headline": "PHR 코리아, 여행·항공업계 28명 초청 '2026 PHR 괌 아카데미' 마쳐",
+    "summary": "PHR 코리아가 12일부터 16일까지 괌에서 '2026 PHR 괌 아카데미'를 열었다. 업계 관계자 28명이 참가했다. 스포츠와 웰니스를 앞세운 성인 대상 상품을 알렸다",
     "outlet": "",
-    "narration": "한국교통연구원 9월 항공통계에 따르면 인천~괌 노선의 평균 탑승률은 8월 62.5%에서 9월 47.5%로 15.0%p 내렸다. 여객도 24% 줄었다.",
-    "photo": "assets/photos/guam/KakaoTalk_20250404_072316086_08.webp"
+    "narration": "PHR 코리아가 12일부터 16일까지 괌에서 '2026 PHR 괌 아카데미'를 열었다. 업계 관계자 28명이 참가했다.",
+    "photo": "assets/photos/guam/KakaoTalk_20250404_072926245_07.webp"
   },
   {
     "kind": "story",
     "n": 2,
     "total": 3,
-    "headline": "노랑풍선, 괌정부관광청과 겨울철 괌 여행 기획전 공동 운영",
-    "summary": "노랑풍선이 괌정부관광청과 손잡고 2027년 3월까지 출발하는 겨울철 괌 상품을 여행 목적별로 묶어 판매한다. 연말 성수기와 겨울방학 수요를 겨냥한 기획전이다",
+    "headline": "인천~괌 9월 탑승률 47.5%…한 달 새 15%p 떨어져",
+    "summary": "한국교통연구원 9월 항공통계에 따르면 인천~괌 노선의 평균 탑승률은 8월 62.5%에서 9월 47.5%로 15.0%p 내렸다. 여객도 24% 줄었다",
     "outlet": "",
-    "narration": "노랑풍선이 괌정부관광청과 손잡고 2027년 3월까지 출발하는 겨울철 괌 상품을 여행 목적별로 묶어 판매한다. 연말 성수기와 겨울방학 수요를 겨냥한 기획전이다.",
-    "photo": "assets/photos/guam/KakaoTalk_20250404_072316086_11.webp"
+    "narration": "한국교통연구원 9월 항공통계에 따르면 인천~괌 노선의 평균 탑승률은 8월 62.5%에서 9월 47.5%로 15.0%p 내렸다. 여객도 24% 줄었다.",
+    "photo": "assets/photos/guam/agana_cathedral_1.webp"
   },
   {
     "kind": "story",
     "n": 3,
     "total": 3,
-    "headline": "괌 당국 \"7월 슈퍼태풍 바비로 주택 196채 피해, 10채 전파\"",
-    "summary": "괌 당국은 지난 7월 괌을 지난 슈퍼태풍 바비로 주택 196채가 피해를 입었고 이 가운데 10채가 완전히 부서졌다고 밝혔다. 크게 파손된 집은 68채다",
+    "headline": "노랑풍선, 괌정부관광청과 겨울철 괌 여행 기획전 공동 운영",
+    "summary": "노랑풍선이 괌정부관광청과 손잡고 2027년 3월까지 출발하는 겨울철 괌 상품을 여행 목적별로 묶어 판매한다. 연말 성수기와 겨울방학 수요를 겨냥한 기획전이다",
     "outlet": "",
-    "narration": "괌 당국은 지난 7월 괌을 지난 슈퍼태풍 바비로 주택 196채가 피해를 입었고 이 가운데 10채가 완전히 부서졌다고 밝혔다. 크게 파손된 집은 68채다.",
-    "photo": "assets/photos/guam/KakaoTalk_20250404_072926245.webp"
+    "narration": "노랑풍선이 괌정부관광청과 손잡고 2027년 3월까지 출발하는 겨울철 괌 상품을 여행 목적별로 묶어 판매한다. 연말 성수기와 겨울방학 수요를 겨냥한 기획전이다.",
+    "photo": "assets/photos/guam/PEO_3153.webp"
   },
   {
     "kind": "title",

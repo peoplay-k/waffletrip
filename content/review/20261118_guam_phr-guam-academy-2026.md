@@ -4,17 +4,20 @@ channel: travel
 region: guam
 section: news
 kind: 보도자료
-title: "PHR 코리아, 여행·항공업계 28명 초청 '2026 PHR 괌 아카데미' 마쳐"
+title: PHR 코리아, 여행·항공업계 28명 초청 '2026 PHR 괌 아카데미' 마쳐
 source_name: ''
 source_url: ''
-summary: PHR 코리아가 12일부터 16일까지 괌에서 '2026 PHR 괌 아카데미'를 열었다. 업계 관계자 28명이 참가했다. 스포츠와 웰니스를 앞세운 성인 대상 상품을 알렸다.
+summary: PHR 코리아가 12일부터 16일까지 괌에서 '2026 PHR 괌 아카데미'를 열었다. 업계 관계자 28명이 참가했다. 스포츠와 웰니스를
+  앞세운 성인 대상 상품을 알렸다.
 sources:
 - https://www.traveldaily.co.kr/news/articleView.html?idxno=72717
 - https://www.etnews.com/20261117000170
 - http://www.ttlnews.com/news/articleView.html?idxno=3163168
 - https://www.joongang.co.kr/article/25479460
 - https://enter.etoday.co.kr/news/view/305402
-status: approved
+status: published
+published_id: c-9e7af35af36e1c9516e79add7c85a268e53f4345
+published_on: '2026-11-18'
 ---
 괌 PIC를 운영하는 PHR 코리아가 국내 여행업계 실무진을 괌으로 불러 '2026 PHR 괌 아카데미'를 열었다.
 스포츠와 웰니스를 앞세운 성인 대상 상품을 알리는 자리였다.

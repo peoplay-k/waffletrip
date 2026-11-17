@@ -4,17 +4,20 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "방한 외국인 관광객 연 2천만 명 첫 돌파…문체부, 지방공항 중심 '5대 관광권' 조성"
+title: 방한 외국인 관광객 연 2천만 명 첫 돌파…문체부, 지방공항 중심 '5대 관광권' 조성
 source_name: ''
 source_url: ''
-summary: 올해 방한 외국인 관광객이 사상 처음 연 2,000만 명을 넘어섰다. 문체부는 지방공항을 중심으로 '5대 관광권'을 만든다. 수도권에 몰린 수요를 지방으로 넓혀 3,000만 명 시대를 준비한다.
+summary: 올해 방한 외국인 관광객이 사상 처음 연 2,000만 명을 넘어섰다. 문체부는 지방공항을 중심으로 '5대 관광권'을 만든다. 수도권에
+  몰린 수요를 지방으로 넓혀 3,000만 명 시대를 준비한다.
 sources:
 - https://www.yna.co.kr/view/AKR20261117115100030
 - https://www.yna.co.kr/view/AKR20261117115151030
 - https://www.fnnews.com/news/202611171408510355
 - https://news.jkn.co.kr/post/1102196
 - https://www.traveldaily.co.kr/news/articleView.html?idxno=72719
-status: approved
+status: published
+published_id: c-91b9466a157a495a4d406e9f01bd28dde125e041
+published_on: '2026-11-18'
 ---
 올해 한국을 찾은 외국인 관광객이 사상 처음으로 연 2,000만 명을 넘어섰다.
 정부는 수도권에 몰린 수요를 지방으로 넓히기 위해 지방공항 중심의 '5대 관광권'을 만든다.

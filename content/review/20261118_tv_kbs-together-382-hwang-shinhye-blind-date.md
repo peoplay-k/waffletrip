@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS1 '황신혜의 같이 삽시다' 382회, 신계숙·양정아가 마련한 깜짝 소개팅"
+title: KBS1 '황신혜의 같이 삽시다' 382회, 신계숙·양정아가 마련한 깜짝 소개팅
 source_name: ''
 source_url: ''
-summary: KBS1 '황신혜의 같이 삽시다' 382회가 18일 저녁 7시 40분 방송된다. 신계숙과 양정아가 황신혜에게 깜짝 소개팅을 마련한다. 커플 매니저 홍유진이 함께한다.
+summary: KBS1 '황신혜의 같이 삽시다' 382회가 18일 저녁 7시 40분 방송된다. 신계숙과 양정아가 황신혜에게 깜짝 소개팅을 마련한다.
+  커플 매니저 홍유진이 함께한다.
 sources:
 - https://program.kbs.co.kr/1tv/enter/livetogether
-status: approved
+status: published
+published_id: c-cc35337724c9bd1c352ef9802c09567503d91db0
+published_on: '2026-11-18'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 황신혜의 같이 삽시다 | 회차 · 382회

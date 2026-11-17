@@ -5,14 +5,17 @@ category: music
 region: ''
 section: news
 kind: 해설
-title: "제니 '드라큘라', 빌보드 '핫 100' 3위 수성…59주째 차트인"
+title: 제니 '드라큘라', 빌보드 '핫 100' 3위 수성…59주째 차트인
 source_name: ''
 source_url: ''
-summary: 블랙핑크 제니와 테임 임팔라의 '드라큘라'가 빌보드 '핫 100'에서 3위를 지켰다. 이 곡은 59주째 차트에 이름을 올렸다. 제니는 이 곡으로 그래미 후보에도 올랐다.
+summary: 블랙핑크 제니와 테임 임팔라의 '드라큘라'가 빌보드 '핫 100'에서 3위를 지켰다. 이 곡은 59주째 차트에 이름을 올렸다. 제니는
+  이 곡으로 그래미 후보에도 올랐다.
 sources:
 - https://www.yna.co.kr/view/AKR20261117038500005
 - https://www.cineplay.co.kr/ko-kr/articles/30839
-status: approved
+status: published
+published_id: c-3db644011ec0d163fa1ae0e22f68c56ee240cfe4
+published_on: '2026-11-18'
 ---
 블랙핑크 제니가 호주 사이키델릭 록 프로젝트 테임 임팔라와 함께한 '드라큘라'가 미국 빌보드 메인 싱글 차트 '핫 100'에서 3위를 지켰다.
 이 곡은 59주째 차트에 이름을 올렸다.
