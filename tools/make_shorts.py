@@ -812,7 +812,15 @@ def main() -> int:
         if not ready:
             print("오늘은 만들 수 있는 곳이 없다.", file=sys.stderr)
             return 0
-        place = pick_place(list(ready), recent_posts())
+        last = recent_posts()
+        today = datetime.now(KST).strftime("%Y%m%d")
+        done_today = [p for p, d in last.items() if d == today]
+        if done_today and done_today[0] not in ready:
+            # 오늘 이미 한 편 냈다. 그곳을 지금은 못 만들어도(기사가 2주 기한을 넘김) 다른 곳을
+            # 새로 만들지 않는다 — 11-18 실측: 코타 뒤에 괌이 또 올라가 하루 두 편이 됐다.
+            print(f"오늘 쇼츠는 이미 냈다({done_today[0]}) — 새로 만들지 않는다.")
+            return 0
+        place = pick_place(list(ready), last)
         scenes = ready[place]
         args.city = place
         print(f"오늘 만들 곳: {place} (후보 {', '.join(ready)})")
