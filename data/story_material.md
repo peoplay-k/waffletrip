@@ -315,6 +315,9 @@
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
 
+- [2026-11-17·여행업계] “비행기에서 이런 것도 해요?”…하늘 위 진화하는 승무원들의 ‘부캐’
+  “승객 여러분, 잠시 주목해주시겠습니까? 지금부터 에어카페 상품 판매를 시작하겠습니다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500634
 - [2026-11-16·여행업계] “밤새 비행하고 또 새벽 출근”…승무원들이 밝힌 피로의 실태
   “오늘 밤을 꼬박 새서 새벽에 도착해도 내일 새벽 3~4시에 일어나 다시 출근 준비를 합니다. ”20년 차 객실 승무원인 아시아나항공노조 유재현 노동안전부장이 국회에서 전한 근무 실태다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500687
@@ -461,9 +464,6 @@
 - [2026-11-06·여행업계] 관광·항공업계도 국회로…입법박람회에 88개 기관 참여
   국회가 첨단 기술을 체험하고 입법 아이디어를 제안하는 축제의 장으로 변신했다. 로봇과 수소차, 우주발사체 모형 등 다양한 전시를 비롯해 관광·항공·교통 분야의 정책 현안까지 살펴볼 수 있는 ‘2026 국회 입법박람회’가 11월 5일부터 6일까지 국회 중앙잔디광장에서 열린다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500708
-- [2026-11-06·여행업계] 승객은 넘쳐도 수익은 글쎄…국제선 1억 명 시대의 그늘
-  국내 국제선 여객이 올해 처음으로 1억 명을 돌파할 것으로 전망되지만 항공업계의 표정이 마냥 밝지만은 않다. 여객 증가가 항공사 수익성 개선으로 직결되지 않는 데다 유가와 환율, 항공기 운영 비용 등 부담 요인이 여전하기 때문이다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500675
 
 ## 공연·전시 — category: stage, 하루 두 편 이상
 
@@ -534,12 +534,14 @@
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
 (자유 이용 사진: 이름 후보 36개 확인, 사진 줄 3개)
 
-### 🔥 화제(매체 14곳) [movie] ‘극장판 치이카와’ 1위 지키며 294만명 돌파…300만명 눈앞 [11월 15일 영화 박스오피스]
-- 매체 2곳 · ER 이코노믹리뷰 · SBS연예뉴스  ← 여러 곳이 썼다
+### 🔥 화제(매체 15곳) [movie] ‘극장판 치이카와’ 1위 지키며 294만명 돌파…300만명 눈앞 [11월 15일 영화 박스오피스]
+- 매체 3곳 · ER 이코노믹리뷰 · SBS연예뉴스 · 연합뉴스  ← 여러 곳이 썼다
   - ER 이코노믹리뷰: ‘극장판 치이카와: 인어 섬의 비밀’이 11월 15일 하루 4만6032명을 동원하며 박스오피스 1위를 지켰다. 누적 관객수는 294만9096명이다.
     https://www.econovill.com/news/articleView.html?idxno=757346
   - SBS연예뉴스: 영화 '폴2: 데드포인트'(이하 '폴2')가 박스오피스 1위를 차지했다. 13일 영화진흥위원회 영화관입장권 통합전산망 집계에 따르면 '폴2'는 지난 12일 전국 1만 2,372명을 동원했다.
     https://ent.sbs.co.kr/news/article.do?article_id=E10010324628
+  - 연합뉴스: (서울=연합뉴스) 정래원 기자 = 일본 애니메이션 영화 '극장판 치이카와: 인어 섬의 비밀'이 주말 박스오피스 정상을 지키며 누적 관객 300만. ..
+    https://www.yna.co.kr/view/AKR20261116036500005
 
 ### 🔥 화제(매체 9곳) [movie] [주말 영화 박스오피스] ‘치이카와’ 1위 수성…‘임영웅 아임 히어로 더 스타디움 2’ 예매 1위
 - 매체 1곳 · 국제신문
@@ -608,64 +610,65 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## ENHYPEN (엔하이픈) 'I Want You' Official MV
-- 채널 HYBE LABELS · 조회수 20,963,570회 · 3일 전
+- 채널 HYBE LABELS · 조회수 20,994,984회 · 3일 전
 - `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
+  ENHYPEN (엔하이픈) 'I Want You' Official MV Welcome to THE SIN : PARALLEL WORLD https://enhypen.lnk.to/THESINPARALLELWORLD EXECUTIVE PRODUCER KIM TAEHO Directed by ZUAE (NOISYROOM) * YouTube 특전이 포함된 앨범 구매 방법: 영상 왼쪽 하단 아이콘 클릭 → 태그된 제품을 클릭해 연결되는 위버스샵 방문 → 제품 구매 * How to order the album with YouTube Gift: Click the icon at the bottom left of this video → Click the tagged product and get redirected to Weverse Shop → Purchase the album ⓒ BELIFT LAB Inc. All Rights Reserved Connect with ENHYPEN OFFICIAL W
 
 ## CHAERYEONG(채령) “Lovesick” M/V
-- 채널 JYP Entertainment · 조회수 9,636,956회 · 7일 전
+- 채널 JYP Entertainment · 조회수 9,693,399회 · 7일 전
 - `@youtube pe-rk1ekb4w` · https://www.youtube.com/watch?v=pe-rk1ekb4w
 
 ## GIRLSET "young & dumb" Music Video
-- 채널 JYP Entertainment · 조회수 7,037,399회 · 3일 전
+- 채널 JYP Entertainment · 조회수 7,161,572회 · 3일 전
 - `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
 
 ## oftheblue(오브더블루) "풍선인간" Blind Performance Video
-- 채널 JYP Entertainment · 조회수 1,356,477회 · 6일 전
+- 채널 JYP Entertainment · 조회수 1,368,925회 · 6일 전
 - `@youtube d1AknDUMAE0` · https://www.youtube.com/watch?v=d1AknDUMAE0
 
 ## NCT DREAM - Boogie Woogie | 1theKILLPO | Performance
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,068,571회 · 5일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,076,356회 · 5일 전
 - `@youtube HYHu_ui8t2s` · https://www.youtube.com/watch?v=HYHu_ui8t2s
 
 ## ENHYPEN (엔하이픈) 'I Want You' Official Teaser
-- 채널 HYBE LABELS · 조회수 926,293회 · 4일 전
+- 채널 HYBE LABELS · 조회수 926,924회 · 4일 전
 - `@youtube _pLJBPzp3Fg` · https://www.youtube.com/watch?v=_pLJBPzp3Fg
 
 ## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
-- 채널 tvN DRAMA · 조회수 676,759회 · 6일 전
+- 채널 tvN DRAMA · 조회수 677,343회 · 6일 전
 - `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
 
 ## With - RESCENE (리센느) [뮤직뱅크/Music Bank] | KBS 261113 방송
-- 채널 KBS Kpop · 조회수 651,920회 · 3일 전
+- 채널 KBS Kpop · 조회수 652,570회 · 3일 전
 - `@youtube jmlBMoCn0Ec` · https://www.youtube.com/watch?v=jmlBMoCn0Ec
 
 ## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 629,020회 · 1일 전
+- 채널 tvN DRAMA · 조회수 633,287회 · 1일 전
 - `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
 
-## [#숨바꼭질2] '다 내 거야'ㅣ𝟖𝐭𝐡 𝐏𝐋𝐀𝐘𝐄𝐑 #RESCENE #리센느 선공개
-- 채널 Mnet K-POP · 조회수 497,993회 · 5일 전
-- `@youtube 3HUIX3oopGw` · https://www.youtube.com/watch?v=3HUIX3oopGw
-
 ## [8화 예고] 내가 파혼하면, 너 나 좋아할래?💔 노골적인 위협에 위태로워진 임시완의 간절한 고백💧 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 469,093회 · 7일 전
+- 채널 tvN DRAMA · 조회수 469,195회 · 7일 전
 - `@youtube Q03ELPNAe_c` · https://www.youtube.com/watch?v=Q03ELPNAe_c
 
 ## RESCENE (리센느) - With | Show! MusicCore | MBC261114방송
-- 채널 MBCkpop · 조회수 411,841회 · 2일 전
+- 채널 MBCkpop · 조회수 413,016회 · 2일 전
 - `@youtube RSxusLXRQ80` · https://www.youtube.com/watch?v=RSxusLXRQ80
 
 ## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
-- 채널 tvN DRAMA · 조회수 342,931회 · 2일 전
+- 채널 tvN DRAMA · 조회수 343,002회 · 2일 전
 - `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
 
 ## TOMORROW X TOGETHER WORLD TOUR 'STEAL THE WIND' Official Trailer
-- 채널 HYBE LABELS · 조회수 326,353회 · 7일 전
+- 채널 HYBE LABELS · 조회수 326,581회 · 7일 전
 - `@youtube XSSCREq27ZQ` · https://www.youtube.com/watch?v=XSSCREq27ZQ
 
 ## ENHYPEN (엔하이픈) 'THE SIN : PARALLEL WORLD' Concept Film (DAY&NIGHT Ver.) - 선우 (SUNOO)
-- 채널 HYBE LABELS · 조회수 307,730회 · 6일 전
+- 채널 HYBE LABELS · 조회수 308,088회 · 6일 전
 - `@youtube rF640_v3ikE` · https://www.youtube.com/watch?v=rF640_v3ikE
+
+## "무섭다 AI, 어디까지 갈거니?..." 단 3일 만에 1000년이 걸릴 일을 끝내버린 AI의 무서운 습득력 / 취미는 과학 #몰아볼교양
+- 채널 EBSCulture (EBS 교양) · 조회수 276,592회 · 7일 전
+- `@youtube Es-PVVy6P6Y` · https://www.youtube.com/watch?v=Es-PVVy6P6Y
 
 
 
@@ -761,7 +764,6 @@
 ## KBS2 일일드라마 욕망의 덫 · 59회 — 11/17 19:50 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
 - 보도자료 제목: [일일드라마 욕망의 덫] 11월 17일 예고편 / 19:50 방송
-- 유튜브 예고(공식 KBS Drama): `@youtube Bvsga2zQbzU` — [59화 예고] 청마의 주인은 당신이 되고 싶었던 거지? [욕망의 덫] | KBS 방송
 - 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
 
 59회 은설은 현재가 남긴 증거들을 하나씩 정리하며 반격을 준비하고, 정선은 영훈의 서랍에서 낯선 흔적을 발견한다. 그 사이 미란 앞으로 정체 모를 택배 상자 하나가 도착하는데...
@@ -769,7 +771,6 @@
 ## KBS1 일일드라마 엄마가 미쳤어요 · 37회 — 11/17 20:30 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/1tv/drama/mompossible
 - 보도자료 제목: [일일드라마 엄마가 미쳤어요] 11월 17일 예고편 / 20:30 방송
-- 유튜브 예고(공식 KBS Drama): `@youtube f5ZC8ewnTn8` — [37화 예고] 내가 무엇이든 다 들어주지 [엄마가 미쳤어요] | KBS 방송
 - 사진(자유 이용, 출연자 정민아): `![정민아 · 사진 뉴스인스타 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/93/190718_%EC%A0%95%EB%AF%BC%EC%95%84_%281%29.jpg)`
 
 [37회] 미미는 큰맘 먹고 산 노란 원피스로 가족들을 깜짝 놀라게 하고, 금순은 인성의 복직을 허락한다. 한편 진희는 안성댁에게 돈을 건네며 금순의 일상을 낱낱이 보고하라고 지시하는데...
