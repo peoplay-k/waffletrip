@@ -374,29 +374,19 @@
     },
     {
       "date": "2026-11-17",
-      "collected": 3346,
-      "published": 501,
+      "collected": 3718,
+      "published": 742,
       "ours": 24,
       "failed_sources": [
-        "gn_ent_movie",
-        "gn_ent_stage_festival",
-        "gn_ent_starnews",
-        "gn_ent_top",
-        "gn_ent_xportsnews",
-        "gn_fnnews",
-        "gn_nocut",
-        "gn_pattaya",
-        "gn_phuket",
-        "gn_taichung",
-        "gn_ytn",
+        "gn_japan_en",
+        "gn_news1",
         "guam_pdn",
         "guam_post",
         "kr_hotelavia",
         "kr_ktnbm",
+        "kr_ppss",
         "kr_travelpress",
-        "saipan_tribune",
-        "thailand_bangkokpost_travel",
-        "weather"
+        "thailand_bangkokpost_travel"
       ]
     }
   ]
