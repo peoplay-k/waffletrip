@@ -4,15 +4,18 @@ channel: travel
 region: korea
 section: news
 kind: 보도자료
-title: "경주국립공원 '경주 명산 오악잇기 스탬프투어' 4회째 마무리"
+title: 경주국립공원 '경주 명산 오악잇기 스탬프투어' 4회째 마무리
 source_name: ''
 source_url: ''
-summary: 경주국립공원사무소가 '경주 명산 오악잇기 스탬프투어'를 10월 31일 마쳤다. 올해로 4회째다. 명산과 문화유산, 전통시장을 한 동선으로 엮었다.
+summary: 경주국립공원사무소가 '경주 명산 오악잇기 스탬프투어'를 10월 31일 마쳤다. 올해로 4회째다. 명산과 문화유산, 전통시장을 한 동선으로
+  엮었다.
 sources:
-  - https://www.tournews21.com/news/articleView.html?idxno=148608
-  - https://www.hidomin.com/news/articleView.html?idxno=729572
-  - https://www.kyongbuk.co.kr/news/articleView.html?idxno=4091023
-status: approved
+- https://www.tournews21.com/news/articleView.html?idxno=148608
+- https://www.hidomin.com/news/articleView.html?idxno=729572
+- https://www.kyongbuk.co.kr/news/articleView.html?idxno=4091023
+status: published
+published_id: c-e4d009362f51af2b57dbc4426cdaabbe9d3c72cf
+published_on: '2026-11-17'
 ---
 국립공원공단 경주국립공원사무소가 운영한 '경주 명산 오악잇기 스탬프투어'가 지난 10월 31일 끝났다. 올해로 4회째를 맞았다.
 

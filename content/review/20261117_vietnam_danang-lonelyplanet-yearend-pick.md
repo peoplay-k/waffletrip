@@ -4,14 +4,17 @@ channel: travel
 region: vietnam
 section: news
 kind: 해설
-title: "다낭, 론리플래닛 '연말 추천 여행지' 선정"
+title: 다낭, 론리플래닛 '연말 추천 여행지' 선정
 source_name: ''
 source_url: ''
-summary: 베트남 다낭이 론리플래닛의 연말 추천 여행지에 올랐다. 2027년 해외여행 목적지에도 이름을 올렸다. 썬월드 바나힐이 대표 명소로 소개됐다.
+summary: 베트남 다낭이 론리플래닛의 연말 추천 여행지에 올랐다. 2027년 해외여행 목적지에도 이름을 올렸다. 썬월드 바나힐이 대표 명소로
+  소개됐다.
 sources:
-  - https://livesnews.com/news/article.html?no=66002
-  - https://www.seoul.co.kr/news/life/travel-news/2026/11/16/20261116500132
-status: approved
+- https://livesnews.com/news/article.html?no=66002
+- https://www.seoul.co.kr/news/life/travel-news/2026/11/16/20261116500132
+status: published
+published_id: c-35ef7ea57f63ca46ca8bb995940eaf82a8db6c24
+published_on: '2026-11-17'
 ---
 베트남 중부 관광도시 다낭이 세계적인 여행 가이드 론리플래닛의 연말 추천 여행지에 이름을 올렸다. 론리플래닛의 2027년 해외여행 목적지에도 이어서 선정됐다.
 

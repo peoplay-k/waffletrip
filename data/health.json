@@ -374,18 +374,18 @@
     },
     {
       "date": "2026-11-17",
-      "collected": 3718,
-      "published": 742,
-      "ours": 24,
+      "collected": 3852,
+      "published": 1076,
+      "ours": 30,
       "failed_sources": [
-        "gn_japan_en",
-        "gn_news1",
         "guam_pdn",
         "guam_post",
+        "kota_nst",
         "kr_hotelavia",
         "kr_ktnbm",
-        "kr_ppss",
         "kr_travelpress",
+        "saipan_tribune",
+        "taiwan_taipeitimes",
         "thailand_bangkokpost_travel"
       ]
     }

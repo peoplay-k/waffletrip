@@ -5,14 +5,17 @@ category: movie
 region: ''
 section: news
 kind: 보도자료
-title: "수지·이진욱 '실연당한 사람들을 위한 일곱 시 조찬모임' 12월 30일 개봉"
+title: 수지·이진욱 '실연당한 사람들을 위한 일곱 시 조찬모임' 12월 30일 개봉
 source_name: ''
 source_url: ''
-summary: 영화 '실연당한 사람들을 위한 일곱 시 조찬모임'이 12월 30일 개봉한다. 배급사가 포스터와 메인 예고편을 공개했다. 수지와 이진욱이 주연을 맡았다.
+summary: 영화 '실연당한 사람들을 위한 일곱 시 조찬모임'이 12월 30일 개봉한다. 배급사가 포스터와 메인 예고편을 공개했다. 수지와 이진욱이
+  주연을 맡았다.
 sources:
-  - https://www.starnewskorea.com/movie/2026/11/16/2026111607334696580
-  - https://www.ize.co.kr/news/articleView.html?idxno=82656
-status: approved
+- https://www.starnewskorea.com/movie/2026/11/16/2026111607334696580
+- https://www.ize.co.kr/news/articleView.html?idxno=82656
+status: published
+published_id: c-393d258c2f81389e00bf120a69e765eaa61c6b29
+published_on: '2026-11-17'
 ---
 수지와 이진욱이 주연한 영화 '실연당한 사람들을 위한 일곱 시 조찬모임'이 12월 30일 개봉한다. 배급사 바이포엠스튜디오는 16일 개봉일을 확정하고 포스터와 메인 예고편을 공개했다고 밝혔다.
 

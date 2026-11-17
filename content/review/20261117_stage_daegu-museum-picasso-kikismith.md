@@ -5,15 +5,18 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "대구미술관, 한·불 수교 140주년 특별전 '피카소부터 키키스미스까지' 개막"
+title: 대구미술관, 한·불 수교 140주년 특별전 '피카소부터 키키스미스까지' 개막
 source_name: ''
 source_url: ''
-summary: 대구미술관이 17일부터 2027년 3월 14일까지 특별전을 연다. 프랑스 릴 메트로폴 근현대미술관과 소장품을 나눠 공동 기획했다. 모딜리아니와 피카소 등의 초상 작품을 선보인다.
+summary: 대구미술관이 17일부터 2027년 3월 14일까지 특별전을 연다. 프랑스 릴 메트로폴 근현대미술관과 소장품을 나눠 공동 기획했다.
+  모딜리아니와 피카소 등의 초상 작품을 선보인다.
 sources:
-  - https://news.bbsi.co.kr/news/articleView.html?idxno=4118837
-  - https://www.omate.kr/news/articleView.html?idxno=58829
-  - https://www.kbmaeil.com/article/20261117500056
-status: approved
+- https://news.bbsi.co.kr/news/articleView.html?idxno=4118837
+- https://www.omate.kr/news/articleView.html?idxno=58829
+- https://www.kbmaeil.com/article/20261117500056
+status: published
+published_id: c-3f3f21940aff0b908809c2a8836e9930e7f90b3e
+published_on: '2026-11-17'
 ---
 대구미술관이 한·불 수교 140주년을 기념해 특별전 '피카소부터 키키스미스까지-모더니티의 초상'을 17일 개막했다. 전시는 2027년 3월 14일까지 이어진다.
 
