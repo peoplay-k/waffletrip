@@ -33,8 +33,21 @@ from thumbnails import (BLACK, WHITE, YELLOW, accent_for, box_lines, cover, fit_
                         long_thumb, save_jpg, shade, soft_shadow_text, wrap)
 from thumbnails import font as bold  # noqa: E402
 
+LF_RENDERER = "2026-11-17-own-articles"   # 대본·화면 짜는 법이 바뀌면 올린다 — 같은 날 재사용을 막는다
 LF_ZOOM = 0.04          # 가로 화면은 글이 넓게 깔려 줌을 작게 — 가장자리 글자가 잘리지 않게
 from video_brief import _speakable, facts_from, load_items  # noqa: E402
+
+
+def _sentences(text: str, n: int, limit: int) -> str:
+    """앞 n 문장(합쳐서 limit 자 안). 우리 기사 요약은 세 문장이라 두 문장이면 충분하다."""
+    parts = re.split(r"(?<=[.!?])\s+", (text or "").strip())
+    out = ""
+    for p in parts[:n]:
+        nxt = f"{out} {p}".strip()
+        if out and len(nxt) > limit:
+            break
+        out = nxt
+    return out.rstrip(".")
 
 
 def _sentence(text: str, limit: int) -> str:
@@ -86,7 +99,7 @@ LINE = (52, 64, 92)
 # 한 편에 담을 지역. 한국인이 많이 가는 곳부터.
 ORDER = ["japan", "vietnam", "thailand", "taiwan", "jeju",
          "guam", "saipan", "hawaii", "kota", "laos"]
-PER_REGION = 2          # 지역마다 기사 두 건. 더 넣으면 지루해진다.
+PER_REGION = 3          # 지역마다 우리 기사 세 건까지(2026-11-17: 두 건·한 문장이라 95초짜리가 됐다)
 MAX_REGIONS = 6
 
 
@@ -353,13 +366,17 @@ def build_script(items: list[dict]) -> list[dict]:
                          "환율과 날씨는 저희가 매일 직접 만드는 값입니다.",
         })
 
+    # **이번 주 우리가 쓴 기사(C)** 로 짠다(2026-11-17). 그전에는 '이번 주 ○○에서 나온 소식'
+    # 묶음을 읽었는데, 그 묶음은 10-02 각색 원칙 뒤로 더 만들어지지 않는다. 그래서 9월에
+    # 묶인 옛 소식(11월 영상에 '제주 태풍급 비바람')과 남의 기사 제목을 한 줄씩 읽어 95초짜리가
+    # 나갔다. 쇼츠(make_shorts.own_facts)와 같은 재료를 쓴다.
+    from make_shorts import own_facts
     used = 0
     for region in ORDER:
-        item = by_region.get(region)
-        if not item or used >= MAX_REGIONS:
-            continue
+        if used >= MAX_REGIONS:
+            break
         name = REGION_NAMES.get(region, region)
-        facts = [f for f in facts_from(item, focus=name)][:PER_REGION]
+        facts = own_facts(items, region, "", name, days=7)[:PER_REGION]
         if not facts:
             continue
         used += 1
@@ -371,7 +388,7 @@ def build_script(items: list[dict]) -> list[dict]:
         for n, fact in enumerate(facts, 1):
             # 요약이 한 문장으로 끝나면 그걸 읽고, 아니면 제목을 읽는다.
             # 제목은 원래 한 덩어리라 중간에서 끊기지 않는다.
-            summary = _sentence(fact["summary"], 100)
+            summary = _sentences(fact["summary"], 2, 170)
             # 통신사 리드는 "[서울=뉴시스] 홍길동 기자 = 1일 태국 방콕에…" 꼴이라,
             # 앞머리를 떼고 나면 날짜 조각으로 시작한다. 화면에 "1일 태국 방콕에
             # 위치한…" 이 걸리면 읽는 사람은 무슨 1일인지 알 수 없다. 날짜를
@@ -511,8 +528,10 @@ def main() -> int:
         # 숏폼과 같은 목소리(narrate.VOICE_ID)라 브랜드가 한결같다. 실패하면 무음으로
         # 떨어진다 — 영상이 아예 안 나가는 것보다 낫고, 홈에 옛 영상이 남는 것도 막는다.
         try:
-            from narrate import reuse_today
-            if reuse_today("peopleroad-week", args.out, datetime.now(KST).strftime("%Y-%m-%d")):
+            from narrate import live_meta, reuse_today
+            # 대본 짜는 법이 바뀐 날은 오늘 구운 것도 다시 굽는다(LF_RENDERER 가 다르면)
+            same = (live_meta("peopleroad-week") or {}).get("renderer") == LF_RENDERER
+            if same and reuse_today("peopleroad-week", args.out, datetime.now(KST).strftime("%Y-%m-%d")):
                 print("오늘 구운 나레이션 롱폼을 다시 쓴다(크레딧 아끼기) → peopleroad-week")
                 write_thumb(scenes, os.path.join(args.out, "peopleroad-week.mp4"))
             else:
@@ -600,6 +619,7 @@ def _write_longform_meta(scenes: list[dict], out: str, poster: str,
         "kind": kind,
         "photos": False,             # 지면 카드로 만든다. 사진 영상이 아니다
         "built_at": datetime.now(KST).isoformat(timespec="seconds"),
+        "renderer": LF_RENDERER,
     }
     with open(out.rsplit(".", 1)[0] + ".json", "w", encoding="utf-8") as fh:
         json.dump(meta, fh, ensure_ascii=False, indent=2)

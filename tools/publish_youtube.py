@@ -125,13 +125,26 @@ def plan_short(state: dict, latest: dict | None) -> dict | None:
     }
 
 
+FORCE_LONGFORM = os.path.join("data", "youtube_force_longform.txt")
+
+
+def force_longform_today(now: datetime, path: str = FORCE_LONGFORM) -> bool:
+    """사장님이 '지금 올려'라고 한 날(파일에 그날 날짜가 적힌 날)은 일주일 간격을 건너뛴다.
+    같은 판(built_at)을 두 번 올리지 않는 검사는 그대로다."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            return fh.read().strip()[:10] == now.date().isoformat()
+    except OSError:
+        return False
+
+
 def plan_longform(state: dict, meta: dict | None, now: datetime) -> dict | None:
     if not meta or not meta.get("built_at"):
         return None
     if meta.get("kind") != "voiced":          # 목소리 없는 판은 올리지 않는다
         return None
     last = last_longform_at(state)
-    if last and now - last < timedelta(days=LONGFORM_EVERY_DAYS):
+    if last and now - last < timedelta(days=LONGFORM_EVERY_DAYS) and not force_longform_today(now):
         return None
     key = f"longform:{meta['built_at']}"
     if already(state, key):

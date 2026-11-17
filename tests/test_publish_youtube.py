@@ -127,3 +127,13 @@ def test_연예_채널목록을_못읽으면_안올림(monkeypatch, capsys):
     monkeypatch.setattr(yt, "upload", lambda *a: called.append(1) or "x")
     yt.post_ent({"posted": []}, yt.plan_ent({"posted": []}, ENT_META, NOW))
     assert not called and "중복을 확인할 수 없다" in capsys.readouterr().out
+
+
+def test_force_longform_today(tmp_path):
+    from datetime import datetime, timedelta, timezone
+    now = datetime(2026, 11, 17, 9, 0, tzinfo=timezone(timedelta(hours=9)))
+    f = tmp_path / "force.txt"
+    f.write_text("2026-11-17  # 메모", encoding="utf-8")
+    assert yt.force_longform_today(now, str(f))
+    assert not yt.force_longform_today(now + timedelta(days=1), str(f))
+    assert not yt.force_longform_today(now, str(tmp_path / "없음.txt"))
