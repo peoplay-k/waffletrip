@@ -378,11 +378,10 @@
     },
     {
       "date": "2026-11-18",
-      "collected": 4050,
-      "published": 514,
+      "collected": 4047,
+      "published": 553,
       "ours": 26,
       "failed_sources": [
-        "gn_sapporo",
         "guam_pdn",
         "guam_post",
         "kr_hotelavia",

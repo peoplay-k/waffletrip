@@ -40,20 +40,20 @@
   - vietnam.vn: (단찌신문) - 하노이시 건설국은 순환도로 1호선 지역과 환승 지점 및 주변 지역을 연결하는 새로운 전기 미니버스 노선 두 개를 개통하는 계획을 시 인민위원회에 제안했다.
     https://www.vietnam.vn/ko/de-xuat-mo-2-tuyen-mini-buyt-dien-phuc-vu-vung-phat-thai-thap-o-ha-noi
 
+### 전북 관광기업 7개사, 베트남 달랏서 해외 판로 개척
+- 매체 1곳 · 투데이안
+  - 투데이안: -11월 20~24일 ‘K-Vietnam Wellness Festa&Expo’ 참가-지난해 MOU 15건·투자의향서 2건·5만 달러 투자계약 성과 이어간다[투데이안] 전북특별자치도문화관광재단이 도내 관광기업 7개사와 함께 베트남 시장 공략에 나선다.
+    http://www.todayan.com/news/articleView.html?idxno=637714
+
+### 하노이시는 5개 지하철 노선에 걸쳐 28개 역의 우선 건설 예정지를 공식 발표했습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 하노이 교통국(TPO)은 하노이 지하철 5개 노선 건설 투자 사업의 노선 및 역 배치 계획안에 대한 의견을 1/500 축척으로 공개 수렴하고 있습니다. 특히, 제안된 계획안에는 28개의 우선 건설 역 계획이 포함되어 있습니다.
+    https://www.vietnam.vn/ko/ha-noi-cong-khai-28-vi-tri-nha-ga-uu-tien-tren-5-tuyen-metro
+
 ### 하노이 시의회 의장은 서부 탕롱 도로 노선에 대한 재검토를 지시했다.
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: (점검) - 유권자가 타이탕롱 도로의 곡선 구간을 줄이고 이주해야 할 가구 수를 최소화하기 위해 도로 노선을 약 15미터 정도 변경해 달라는 요청을 하자, 하노이 인민위원회 위원장 부다이탕은 해당 계획에 대한 재검토를 지시했다.
     https://www.vietnam.vn/ko/chu-tich-ha-noi-chi-dao-ra-soat-lai-huong-tuyen-duong-tay-thang-long
-
-### 하노이는 전통 공예 마을에서 문화유산 관광과 녹색 경제를 발전시키고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 하노이시 농업환경국은 최근 시내 각 면과 동에서 디지털 전환, 문화유산 관광 개발 및 녹색 경제를 촉진하기 위한 포럼 개최에 관한 계획 제195호를 발표했습니다.
-    https://www.vietnam.vn/ko/ha-noi-phat-trien-du-lich-di-san-kinh-te-xanh-tai-cac-lang-nghe
-
-### 응우옌 만 흥 시 인민위원회 위원장은 베트남 교사의 날을 맞아 각 기관과 부서를 방문하여 축하 인사를 전했습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 11월 17일 오후, 응우옌 만 흥 다낭시 당위원회 부서기 겸 시 인민위원회 주석은 베트남 교사의 날(11월 20일)을 맞아 교육훈련국, 레 꾸이 돈 전문고등학교, 다낭 관광대학을 방문하여 축하 인사를 전했다.
-    https://www.vietnam.vn/ko/chu-tich-ubnd-thanh-pho-nguyen-manh-hung-tham-chuc-mung-co-quan-don-vi-nhan-ngay-nha-giao-viet-nam
 
 ## 라오스
 
@@ -63,6 +63,13 @@
     https://www.traveltimes.co.kr/news/articleView.html?idxno=500699
 
 ## 제주
+
+### 모두투어, 제주 감귤국제마라톤 연계 러닝 여행 운영… 참여형 스포츠 관광 확대
+- 매체 2곳 · 디스커버리뉴스(DISCOVERYNEWS) · 한국정경신문  ← 여러 곳이 썼다
+  - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 생활 체육 인구 증가와 함께 마라톤, 트레킹 등 스포츠 활동 자체를 여행의 핵심 목적으로 삼는 ‘스포츠 투어리즘(스포츠 관광)’ 수요가 꾸준히 확대되면서, 국내 여행업계가 전문 플랫폼과 손잡고 지역 마라톤 대회와 현지 관광을 결합한 맞춤형 일정 운영에 속도
+    https://www.discoverynews.kr/news/articleView.html?idxno=1107123
+  - 한국정경신문: [한국정경신문=나연지 기자] 모두투어가 마라톤 대회 참가와 제주 여행을 결합한 스포츠 테마여행 상품을 운영했다. 18일 모두투어에 따르면 러닝 플랫폼 러너블과 협업해 지난 15일 열린 ‘제주 감귤국제마라톤’에 맞춰 여행 프로그램을 진행했다.
+    https://kpenews.com/View.aspx?No=4317606
 
 ### 제주 소상공인단체 “무사증 폐지 법안 반대”
 - 매체 2곳 · 제주의소리 · 제주일보  ← 여러 곳이 썼다
@@ -87,11 +94,6 @@
 - 매체 1곳 · 트래블데일리
   - 트래블데일리: 제주가 아시아 유산균·프로바이오틱스 분야 국제학술대회 유치에 성공하며 글로벌 학술교류와 국제회의 개최지로서의 입지를 넓혀가고 있다. 제주특별자치도와 제주관광공사는 16일 오는 2027년 열리는 ‘제17회 아시아유산균학회(ACLAB 17)’의 제주 개최가 최종 확정됐다고 밝혔다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72693
-
-### 소노벨 제주, 제25회 대한민국 안전대상 우수기업상 수상… 2년 연속 수상
-- 매체 1곳 · TTL뉴스
-  - TTL뉴스: 국내 최고 권위의 안전 분야 시상식에서 호스피탈리티 기업 소노인터내셔널이 2년 연속 수상 기록을 세우며 다중이용숙박시설의 안전관리 표준을 입증했다. 소노인터내셔널이 운영하는 제주 조천읍 함덕 소재 리조트 소노벨 제주는 11월 17일 경기 고양시 킨텍스 제1전시장에서 열린 제25회 대한민
-    http://www.ttlnews.com/news/articleView.html?idxno=3163644
 
 ## 일본
 
@@ -183,6 +185,11 @@
   - 경향신문: 서울관광재단이 대만 관광객 유치를 위해 현지 인기 캐릭터 ‘카푸(CAPOO)’와 협업한 서울 관광 홍보 캠페인을 27일까지 진행한다. 이번 캠페인은 비짓서울이 해외 캐릭터 지식재산권(IP)과 협업하는 첫 사례다.
     https://www.khan.co.kr/article/202611171534011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news
 
+### 대만에서 파크골프와 온천을 함께 즐긴다
+- 매체 1곳 · 우먼스토리뉴스
+  - 우먼스토리뉴스: 여행의 즐거움이 달라지고 있다. 아름다운 풍경을 감상하는 관광에서 벗어나 좋아하는 운동을 즐기고 건강과 휴식까지 챙기는 체험형 여행이 주목받고 있다.
+    http://www.woman-story.co.kr/news/articleView.html?idxno=14192
+
 ### 美 "대만 총통기 비행 차단은 위험한 선례"…中 "정치 조작" 반발
 - 매체 1곳 · 이데일리
   - 이데일리: 미국이 국제민간항공기구(ICAO)에 대만 총통 탑승기 문제를 공식 제기했다. 지난 4월 라이칭더 대만 총통이 아프리카 순방에 나섰을 때 일부 국가가 탑승기의 비행허가를 취소한 사안이다.
@@ -192,11 +199,6 @@
 - 매체 1곳 · 동아일보
   - 동아일보: 교촌치킨을 운영하는 교촌에프앤비가 글로벌 관광업계와의 협력을 통해 해외 소비자와의 접점 확대에 속도를 내고 있다. 교촌에프앤비는 6일부터 9일까지 나흘간 대만 타이베이 난강전람관에서 열린 ‘2026 타이완국제여전’에 참가해 브랜드 체험 프로그램 ‘교촌1991스쿨’을 한…
     https://www.donga.com/news/Economy/article/all/20261112/135013818/1
-
-### 타이완, 중 관광객에 '독립국가 인정' 자필 서약 요구…중 반발
-- 매체 1곳 · SBS 뉴스
-  - SBS 뉴스: 중국 정부는 양안 교류를 가로막는 정치적 조작이라고 반발했고, 타이완 내부에서도 관광객에게 정치적 입장을 강요하는 것은 부적절하다는 비판이 나왔습니다.
-    https://news.sbs.co.kr/news/endPage.do?news_id=N1008842930
 
 ## 국내
 
@@ -279,8 +281,8 @@
     http://www.kdfnews.com/news/articleView.html?idxno=191030
   - 뉴스1: 
     https://www.news1.kr/industry/general-industry/6356486
-  - 이코노미스트: 
-    https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QRHRNRjhDN2hyYXk2T0ltelZ2VnlYX0tOWDdac19rbU1CSlB5Q1R0elZCYU4tNlU1M0dTVXAtNHVWU1hRNXp3U2lWQXpkb0c3bW5tX2RVbVhUNWk5ZVR2cTln?oc=5
+  - 이코노미스트: 파라타항공이 내년 5월 미국 로스앤젤레스(LA) 취항을 앞두고 현지 시장 공략에 나섰다. 첫 미주 노선인 인천~LA 항공권 판매를 시작한 데 이어 캘리포니
+    https://economist.co.kr/article/view/ecn202611180015
   - ER 이코노믹리뷰: 일본 나리타로 첫 국제선을 띄운 지 1년, 파라타항공이 이번에는 태평양을 건넌다. 내년 5월 미국 로스앤젤레스(LA) 취항을 앞두고 항공권 판매를 시작하면서 아시아 중심이던 국제선 운항 범위를 미주 지역까지 넓히게 됐다.
     https://www.econovill.com/news/articleView.html?idxno=757544
 
@@ -312,8 +314,8 @@
     https://www.newspim.com/news/view/20261117000228
   - 매일일보: 매일일보 = 신승엽 기자 | 교원투어 여행이지는 백두산과 러시아 블라디보스토크를 연계한 패키지를 선보인다고 17일 밝혔다. 교원투어는 지난해 속초~블라디보스토크
     https://www.m-i.kr/news/articleView.html?idxno=2019594
-  - 비즈월드: 
-    https://news.google.com/rss/articles/CBMiakFVX3lxTFA5WjdZdlpoLV9ieUdGRnV6bmJid19MWkdHTGNoejhacEtMcXZqNDA2S3l4ZzBEb3I5WV9iZGtRUFBISjFUaWZaQjQwMlo4STduaVY0aUJWbkZwUXhRd3ppdG1HN1VKX3NZZkE?oc=5
+  - 비즈월드: [비즈월드] 교원투어 여행이지가 백두산과 러시아 블라디보스토크를 한 번에 둘러볼 수 있는 여행 상품을 마련했다. 교원투어 여행이지는 중국 동북지역과 러시아 극동지역을 함께 여행할 수 있는 ‘블라디보스토크·백두산 6일’ 패키지를 출시했다고 18일 밝혔다.
+    http://www.bizwnews.com/news/articleView.html?idxno=152184
 
 ### 인천공항, 공항 보안 강화 나서
 - 매체 3곳 · 기호일보 · 세계일보 · 파이낸셜뉴스  ← 여러 곳이 썼다
@@ -569,7 +571,7 @@
     https://www.mhns.co.kr/news/articleView.html?idxno=769582
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 33개 확인, 사진 줄 1개)
+(자유 이용 사진: 이름 후보 33개 확인, 사진 줄 0개)
 
 ### 🔥 화제(매체 13곳) [music] AI 보컬 ‘머무르’ 5일째 멜론 차트 1위, 가수 컴백 물결은?
 - 매체 1곳 · 한국사회복지저널
@@ -631,7 +633,6 @@
 
 ### 🔥 화제(매체 4곳) [music] [빌보드차트] 그래미 후보 제니 '드라큘라', 59주째 차트인… '핫 100' 3위 수성
 - 매체 3곳 · 뉴스핌 · 씨네플레이 · 연합뉴스  ← 여러 곳이 썼다
-- 사진(자유 이용, 후보): `![후보 · 사진 Steppinman · CC BY-SA 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/0/0a/Hu_Bo.jpg)`
   - 씨네플레이: '글로벌 롱런 음원 파워' 입증하며 세운 대기록 그룹 블랙핑크의 멤버 '제니'가 호주 사이키델릭 록 프로젝트 '테임 임팔라'(Tame Impala)와 협업한 곡 '드라큘라'(Dracula)로 미국 빌보드 메인 싱글 차트 최상위권을 굳건히 지켰다.
     https://www.cineplay.co.kr/ko-kr/articles/30839
   - 연합뉴스: (서울=연합뉴스) 이태수 기자 = 블랙핑크 제니가 호주 가수 테임 임팔라와 협업한 히트곡 '드라큘라'(Dracula)가 미국 빌보드 메인 싱글 ...
@@ -654,7 +655,67 @@
 
 관광청·방송사·소속사·배급사 공식 유튜브만 모았다. 영상 제목·설명의 사실로 기사를 쓰고,
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
-(검색어 34개 · 고른 영상 0개)
+(검색어 34개 · 고른 영상 15개)
+
+## ENHYPEN (엔하이픈) 'I Want You' Official MV
+- 채널 HYBE LABELS · 조회수 21,427,544회 · 4일 전
+- `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
+
+## GIRLSET "young & dumb" Music Video
+- 채널 JYP Entertainment · 조회수 9,680,113회 · 4일 전
+- `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
+
+## oftheblue(오브더블루) "풍선인간" Blind Performance Video
+- 채널 JYP Entertainment · 조회수 1,478,252회 · 7일 전
+- `@youtube d1AknDUMAE0` · https://www.youtube.com/watch?v=d1AknDUMAE0
+
+## NCT DREAM - Boogie Woogie | 1theKILLPO | Performance
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,221,900회 · 6일 전
+- `@youtube HYHu_ui8t2s` · https://www.youtube.com/watch?v=HYHu_ui8t2s
+
+## ENHYPEN (엔하이픈) 'I Want You' Official Teaser
+- 채널 HYBE LABELS · 조회수 933,803회 · 5일 전
+- `@youtube _pLJBPzp3Fg` · https://www.youtube.com/watch?v=_pLJBPzp3Fg
+
+## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
+- 채널 tvN DRAMA · 조회수 718,405회 · 2일 전
+- `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
+
+## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
+- 채널 tvN DRAMA · 조회수 681,542회 · 7일 전
+- `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
+
+## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
+- 채널 tvN DRAMA · 조회수 343,986회 · 3일 전
+- `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
+
+## [10화 예고] 내가 널 만난 건 행운이 아니라 기적💞 서로가 있어 행복한 임시완X설인아에 다가온 또다른 위협? #나의유죄인간 EP.10
+- 채널 tvN DRAMA · 조회수 305,019회 · 1일 전
+- `@youtube izmmaIqoz3s` · https://www.youtube.com/watch?v=izmmaIqoz3s
+
+## [라이어 7회 예고] ＂언니가 어떻게 나를 속일 수가 있어?＂, MBC 261120 방송
+- 채널 MBCdrama · 조회수 287,670회 · 3일 전
+- `@youtube mueEY-8Pw_0` · https://www.youtube.com/watch?v=mueEY-8Pw_0
+
+## 누가 더 유죄인간인가 | 유죄와 벌⚖️❤️‍🔥 EP.00  #나의유죄인간
+- 채널 tvN DRAMA · 조회수 183,658회 · 6일 전
+- `@youtube VFiUuc-HHUY` · https://www.youtube.com/watch?v=VFiUuc-HHUY
+
+## ［32회 예고］못 데려갑니다 결이 [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 174,262회 · 2일 전
+- `@youtube OgU1Nkhzai8` · https://www.youtube.com/watch?v=OgU1Nkhzai8
+
+## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
+- 채널 tvN DRAMA · 조회수 160,973회 · 1일 전
+- `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
+
+## [라이어 6회 예고] ＂이번엔 내가 거짓말을 하려고＂, MBC 261114 방송
+- 채널 MBCdrama · 조회수 118,380회 · 4일 전
+- `@youtube eo1DUkzb8b8` · https://www.youtube.com/watch?v=eo1DUkzb8b8
+
+## [60화 예고] 그날 기억이 났어요 [욕망의 덫] | KBS 방송
+- 채널 KBS Drama · 조회수 67,178회 · 1일 전
+- `@youtube m1hZwDtrZL4` · https://www.youtube.com/watch?v=m1hZwDtrZL4
 
 
 
@@ -672,6 +733,7 @@ KBS1 <황신혜의 같이 삽시다> 황신혜 솔로 탈출 작전! 신계숙·
 ## KBS2 일일드라마 욕망의 덫 · 60회 — 11/18 19:50 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
 - 보도자료 제목: [일일드라마 욕망의 덫] 11월 18일 예고편 / 19:50 방송
+- 유튜브 예고(공식 KBS Drama): `@youtube m1hZwDtrZL4` — [60화 예고] 그날 기억이 났어요 [욕망의 덫] | KBS 방송
 - 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
 
 60회 미란은 잃어버린 장갑 한 짝이 익명의 편지와 함께 배달되자 불안에 휩싸이고, 은설은 그런 미란 앞에서 더욱 다정한 딸을 자처한다. 한편 사라졌던 소연을 찾은 석진은 소연의 말에서 아버지의 죽음에 얽힌 단서를 발견하는데…
@@ -863,5 +925,3 @@ K-백숙 VS 네팔식 치킨! 두 할매의 막상막하 요리 배틀
 네팔 가족에게 백숙의 맛을 제대로 보여주기 위해 사위를 대동하고 네팔 시장으로 향한 민요 할매. 난생처음 방문한 정육점이지만, 닭 한 마리도 허투루 고르지 않는 K-살림꾼의 위엄을 뽐낸다. 인간 네비가 되어서 시장 구석구석을 안내하던 사위와 함께 도착한 야채 가게. 민요 할매는 낯선 가게 분위기에 상인이 아닌 손님에게 계산을 부탁하는 실수를 하고, 오이 하나를 찾는 데도 우왕좌왕하는데. 어딜 가나 좌충우돌! K-할매와 짐꾼 사위의 네팔 시장 탐방기가 공개된다. 드디어, 정성 들여 사 온 닭과 한국에서 직접 공수해 온 인삼과 당귀까지 넣어 백숙을 만드는 K-할매. 그런데, 이 모든 조리 과정을 유심히 지켜보는 이가 있었으니 바로 네팔 할매다. 은은한 불로 백숙이 푹 익어가고 있는 사이, 네팔 할매는 갑자기 강황 가루를 꺼내며 네팔식 치킨을 만들기 시작하는데. 예상치 못한 라이벌(?) 요리에 살짝 긴장한 K-민요 할매와 “누군가는 백숙을 싫어할 수도 있어 네팔식 치킨을 만든다”라며 요리 실력을 뽐내는 네팔 할매! 묘한 긴장감이 감돌았던 ‘K-백숙 VS 네팔식 치킨! 닭 요리 배틀’의 결과는?
 EBS <왔다! 내 손주> ‘K-스타일 상륙! 민요 할매의 우당탕탕 네팔 탐방기’는 오는 11월 19일(목) 밤 9시 55분에
 
----
-수집 실패: MBC 목록: timed out
