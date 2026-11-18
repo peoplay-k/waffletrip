@@ -4,18 +4,20 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "부산관광공사, 용두산공원 관광콘텐츠 운영할 민간사업자 공개 모집"
+title: 부산관광공사, 용두산공원 관광콘텐츠 운영할 민간사업자 공개 모집
 source_name: ''
 source_url: ''
-summary: "부산관광공사가 용두산공원에서 관광 콘텐츠를 운영할 민간사업자를 모집한다. 접수는 18일부터 12월 4일까지다. 관광·문화·이벤트 분야가 대상이다."
+summary: 부산관광공사가 용두산공원에서 관광 콘텐츠를 운영할 민간사업자를 모집한다. 접수는 18일부터 12월 4일까지다. 관광·문화·이벤트 분야가
+  대상이다.
 sources:
-  - https://www.newsis.com/view/NISX20261118_0003872744
-  - https://www.mhns.co.kr/news/articleView.html?idxno=769560
-  - https://www.wbcb.co.kr/news/articleView.html?idxno=107836
-  - http://www.inews24.com/view/2027606
-status: approved
+- https://www.newsis.com/view/NISX20261118_0003872744
+- https://www.mhns.co.kr/news/articleView.html?idxno=769560
+- https://www.wbcb.co.kr/news/articleView.html?idxno=107836
+- http://www.inews24.com/view/2027606
+status: published
+published_id: c-4dbeb7bf9e5d3085328bfc4d4f2116e9a40f1bf7
+published_on: '2026-11-19'
 ---
-
 부산관광공사가 부산 원도심 대표 관광명소인 용두산공원에 새 관광 콘텐츠를 들일 민간사업자를 찾는다.
 관광·문화·이벤트 프로그램을 기획하고 운영할 사업자가 대상이다.
 

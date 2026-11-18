@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '왔다! 내 손주', 민요 할매 조춘자 10년 만에 네팔 손주 만나러"
+title: EBS '왔다! 내 손주', 민요 할매 조춘자 10년 만에 네팔 손주 만나러
 source_name: ''
 source_url: ''
-summary: "EBS1 '왔다! 내 손주'가 19일 밤 9시 55분 네팔 편을 방송한다. 민요 할머니 조춘자 씨가 딸의 결혼 10년 만에 네팔을 찾는다. 네팔 시장 탐방과 딸 가족의 웨딩 스튜디오 방문이 담긴다."
+summary: EBS1 '왔다! 내 손주'가 19일 밤 9시 55분 네팔 편을 방송한다. 민요 할머니 조춘자 씨가 딸의 결혼 10년 만에 네팔을
+  찾는다. 네팔 시장 탐방과 딸 가족의 웨딩 스튜디오 방문이 담긴다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005646610
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005646610
+status: published
+published_id: c-9f96dce6a160176ca2216d34e3c667dd48395a8c
+published_on: '2026-11-19'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 왔다! 내 손주

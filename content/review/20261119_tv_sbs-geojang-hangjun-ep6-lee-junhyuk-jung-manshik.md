@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '거장항준' 6회, 정만식 아내표 도시락 들고 이준혁과 주연 쟁탈전"
+title: SBS '거장항준' 6회, 정만식 아내표 도시락 들고 이준혁과 주연 쟁탈전
 source_name: ''
 source_url: ''
-summary: "SBS 예능 '거장항준'이 19일 밤 9시 6회를 방송한다. 이준혁과 정만식이 장항준 차기작 주연 자리를 놓고 오디션 경쟁을 벌인다. 정만식은 아내가 싼 도시락을 들고 나타난다."
+summary: SBS 예능 '거장항준'이 19일 밤 9시 6회를 방송한다. 이준혁과 정만식이 장항준 차기작 주연 자리를 놓고 오디션 경쟁을 벌인다.
+  정만식은 아내가 싼 도시락을 들고 나타난다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9407
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9407
+status: published
+published_id: c-131a423cd3ae7fff8373e0657d624198212ab0b8
+published_on: '2026-11-19'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 거장항준 | 회차 · 6회
