@@ -111,3 +111,10 @@ def test_filter_items_splits_kept_and_dropped():
 
 def test_filter_items_on_empty_list():
     assert filter_items([]) == ([], [])
+
+
+def test_우리_카툰_컷은_원문_이미지로_보지_않는다():
+    """여행 카툰 컷(@panel /img/cartoon/…)은 우리가 그린 그림이다(2026-11-18). 남의 이미지 임베드가 아니다."""
+    item = make(grade="C", source_name="", source_url="",
+                body_md="본문.\n\n@panel /img/cartoon/ep006_1.webp 1컷\n\n@panel /img/cartoon/ep006_2.webp")
+    assert not any("이미지" in v for v in violations(item))

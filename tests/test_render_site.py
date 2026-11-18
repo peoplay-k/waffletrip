@@ -512,6 +512,31 @@ def test_카툰_그림은_사진_목록_없이_지면과_공유_카드로_간다
         assert og.size == tuple(OG_SIZE)
 
 
+def test_카툰_컷은_지면에만_가고_공유_카드는_표지만_만든다(tmp_path):
+    """여러 컷 카툰(2026-11-18): 표지 ep-test.webp + 컷 ep-test_1.webp. 공유 카드는 표지 하나."""
+    from PIL import Image
+    from src.render.cartoons import copy_cartoons
+    src = tmp_path / "cartoon"
+    src.mkdir()
+    Image.new("RGB", (400, 500), "white").save(src / "ep-test.webp", "WEBP")
+    Image.new("RGB", (400, 500), "white").save(src / "ep-test_1.webp", "WEBP")
+    assert copy_cartoons(str(tmp_path / "out"), str(src)) == 2
+    assert (tmp_path / "out" / "img" / "cartoon" / "ep-test_1.webp").exists()
+    assert (tmp_path / "out" / "og" / "cartoon" / "ep-test.jpg").exists()
+    assert not (tmp_path / "out" / "og" / "cartoon" / "ep-test_1.jpg").exists()
+
+
+def test_카툰_컷은_기사_본문에_그림으로_실린다(tmp_path):
+    item = make("c-cartoon-panels", "[여행 카툰] 컷 시험 회차", region="korea", grade="C")
+    item.photo = "/img/cartoon/ep-test.webp"
+    item.body_md = "첫 문단.\n\n@panel /img/cartoon/ep-test_1.webp 1컷\n\n@panel /img/cartoon/ep-test_2.webp 2컷\n\n끝 문단."
+    render_site([item], str(tmp_path), TODAY)
+    pages = [p.read_text(encoding="utf-8") for p in tmp_path.glob("korea/*/index.html")]
+    page = max((p for p in pages if "컷 시험 회차" in p), key=len)
+    assert page.count('<figure class="panel">') == 2
+    assert page.index("ep-test_1.webp") < page.index("ep-test_2.webp")
+
+
 def test_편집실_필자는_기자_명부에서만_고른다():
     """손으로 치게 두면 명부에 없는 이름 — 지어낸 기자 — 가 생긴다."""
     import sys as _s

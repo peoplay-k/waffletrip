@@ -21,7 +21,7 @@ def body_text(body: str) -> str:
     out = []
     for line in body.splitlines():
         s = line.strip()
-        if s.startswith(("**출처**", "이 기사는 위 보도를", "@youtube", "![", "<!--")):
+        if s.startswith(("**출처**", "이 기사는 위 보도를", "@youtube", "@panel", "![", "<!--")):
             continue
         out.append(line)
     return re.sub(r"<!--.*?-->", "", "\n".join(out), flags=re.S).strip()

@@ -14,7 +14,10 @@ from src.photos import OG_SIZE
 
 
 def copy_cartoons(out_dir: str, source: str = os.path.join("assets", "cartoon")) -> int:
-    """assets/cartoon/*.webp → /img/cartoon/ + 공유 카드 /og/cartoon/*.jpg(제목이 보이게 위쪽 기준)."""
+    """assets/cartoon/*.webp → /img/cartoon/ + 공유 카드 /og/cartoon/*.jpg(제목이 보이게 위쪽 기준).
+
+    이름에 밑줄이 있는 그림(ep006_1.webp)은 본문 속 카툰 컷이다(@panel). 공유 카드는 표지에만 만든다.
+    """
     from PIL import Image, ImageOps
     n = 0
     for path in sorted(glob.glob(os.path.join(source, "*.webp"))):
@@ -23,8 +26,10 @@ def copy_cartoons(out_dir: str, source: str = os.path.join("assets", "cartoon"))
         os.makedirs(img_dir, exist_ok=True)
         os.makedirs(og_dir, exist_ok=True)
         shutil.copy2(path, os.path.join(img_dir, name + ".webp"))
+        n += 1
+        if "_" in name:
+            continue
         with Image.open(path) as im:
             ImageOps.fit(im.convert("RGB"), OG_SIZE, Image.LANCZOS, centering=(0.5, 0.0)).save(
                 os.path.join(og_dir, name + ".jpg"), "JPEG", quality=82, optimize=True)
-        n += 1
     return n

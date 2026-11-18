@@ -21,6 +21,9 @@ _LIST = re.compile(r"^([-*·]|\d+\.)\s+")
 # 방송사 공식 유튜브 예고편(2026-10-17). 영상 id 는 11자 고정 문자만 받는다.
 _YOUTUBE = re.compile(r"^@youtube\s+([\w-]{11})$")
 _IMAGE = re.compile(r"^!\[([^\]]*)\]\((https://[^)\s]+)\)$")
+# 여행 카툰 컷(2026-11-18 사장님: "이미지 4장 이상, 스토리 있게"). 우리가 그린 카툰 그림
+# (/img/cartoon/ 아래 파일 하나)만 받는다. 남의 주소·상위 폴더(..)는 받지 않고 줄째 버린다.
+_PANEL = re.compile(r"^@panel\s+(/img/cartoon/[A-Za-z0-9_-]+\.webp)(?:\s+(.{1,200}))?$")
 # 지도(2026-11-16 사장님: "관련된 곳 지도 첨부 필수"). 본문 어디에 써도 기사 끝에 모아 붙인다.
 _MAP = re.compile(r"^@map\s+(.{2,80})$")
 _BARE_URL = re.compile(r"https?://[^\s<>\"']+")
@@ -120,7 +123,7 @@ def strip_credits(src: str) -> str:
 
 
 def render(src: str) -> str:
-    """지원 문법: 소제목(##~####) · 문단 · 목록 · 표 · 인용 · 구분선 · 사진(한 줄)."""
+    """지원 문법: 소제목(##~####) · 문단 · 목록 · 표 · 인용 · 구분선 · 사진(한 줄) · 카툰 컷(@panel)."""
     if not src:
         return ""
     lines = strip_credits(src).split("\n")
@@ -151,6 +154,16 @@ def render(src: str) -> str:
                        'title="방송사 공식 예고 영상" loading="lazy" allowfullscreen '
                        'referrerpolicy="strict-origin-when-cross-origin" '
                        'allow="encrypted-media; picture-in-picture"></iframe></div>' % yt.group(1))
+            i += 1
+            continue
+
+        if stripped.startswith("@panel"):
+            panel = _PANEL.match(stripped)
+            if panel:
+                out.append('<figure class="panel"><img src="%s" alt="%s" loading="lazy" '
+                           'decoding="async"></figure>'
+                           % (html.escape(panel.group(1), quote=True),
+                              html.escape(panel.group(2) or "", quote=True)))
             i += 1
             continue
 

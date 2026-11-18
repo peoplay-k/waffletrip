@@ -122,3 +122,30 @@ def test_readability_rules_2026_11_16():
     assert 'class="ai-note"' in render("본문이다.\n\n이 카툰은 AI 로 그렸다.")
     assert len(summary_lines("가가가가가가가가가가가가. 나나나나나나나나나나나, 다다다다다다다다다다다다.")) == 3
     assert "<mark>24%</mark>" in highlight("여객이 24% 줄었다") and "<mark>" not in highlight("11월 13일")
+
+
+def test_카툰_컷은_우리_카툰_그림만_세로로_붙인다():
+    """여행 카툰을 여러 컷 이야기로 싣는다(2026-11-18 사장님: "이미지 4장 이상, 스토리 있게")."""
+    out = render("@panel /img/cartoon/ep006_1.webp 1컷 · 근고기집에 들어선 준\n\n"
+                 "@panel /img/cartoon/ep006_2.webp")
+    assert out.count('<figure class="panel">') == 2
+    assert '<img src="/img/cartoon/ep006_1.webp" alt="1컷 · 근고기집에 들어선 준"' in out
+    assert '<img src="/img/cartoon/ep006_2.webp" alt=""' in out
+    assert "<figcaption>" not in out            # 컷 밑에 설명을 달지 않는다
+    assert "@panel" not in out
+
+
+def test_카툰_컷은_남의_주소와_상위_폴더를_받지_않는다():
+    for line in ("@panel https://example.com/x.webp",
+                 "@panel /img/cartoon/../photos/a.webp",
+                 "@panel /img/guam/a.webp",
+                 '@panel /img/cartoon/ep006_1.webp"onerror=alert(1)'):
+        out = render(line)
+        assert "<img" not in out and "<figure" not in out, line
+        assert "@panel" not in out, line          # 못 쓰는 줄은 글자로도 남기지 않는다
+
+
+def test_카툰_컷의_설명은_이스케이프한다():
+    out = render('@panel /img/cartoon/ep006_1.webp <script>alert(1)</script>')
+    assert "<script>" not in out
+    assert "&lt;script&gt;" in out
