@@ -8,14 +8,16 @@ kind: 해설
 title: 김명민, 데뷔 30년 만 첫 예능 '유퀴즈'…"할 말 못 할 말 못 가려"
 source_name: ''
 source_url: ''
-summary: 배우 김명민이 데뷔 30년 만에 처음으로 예능에 나왔다. 18일 tvN '유 퀴즈 온 더 블럭' 369회 단독 게스트로 출연했다. 그동안 예능을 하지 않은 이유도 털어놨다.
+summary: 배우 김명민이 데뷔 30년 만에 처음으로 예능에 나왔다. 18일 tvN '유 퀴즈 온 더 블럭' 369회 단독 게스트로 출연했다.
+  그동안 예능을 하지 않은 이유도 털어놨다.
 sources:
 - https://enews.imbc.com/News/RetrieveNewsInfo/525298
 - https://www.joynews24.com/view/2027827
 - https://www.diarypoint.com/news/articleView.html?idxno=7347
-status: approved
+status: published
+published_id: c-1330b33d28d858825667e4f879984c202ad674bc
+published_on: '2026-11-19'
 ---
-
 배우 김명민이 30년 만에 예능 무대에 섰다.
 18일 밤 방송된 tvN '유 퀴즈 온 더 블럭' 369회에 단독 게스트로 나왔다.
 

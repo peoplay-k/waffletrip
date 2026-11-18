@@ -8,12 +8,14 @@ kind: 해설
 title: 배종옥 첫 공포영화 '완벽한 집' 25일 개봉…장규리와 호흡
 source_name: ''
 source_url: ''
-summary: 배우 배종옥이 처음 공포영화에 출연했다. 장규리와 함께한 '완벽한 집'이 25일 개봉한다. 월세와 보증금 부담에 시달리던 대학생에게 뜻밖의 기회가 찾아오며 이야기가 시작된다.
+summary: 배우 배종옥이 처음 공포영화에 출연했다. 장규리와 함께한 '완벽한 집'이 25일 개봉한다. 월세와 보증금 부담에 시달리던 대학생에게
+  뜻밖의 기회가 찾아오며 이야기가 시작된다.
 sources:
 - https://www.yna.co.kr/view/AKR20261118146300005
-status: approved
+status: published
+published_id: c-ed340ce21d79e20d7be8eb64df49eb369798342d
+published_on: '2026-11-19'
 ---
-
 배종옥의 첫 공포영화가 극장에 걸린다.
 영화 '완벽한 집'이 25일 개봉한다.
 

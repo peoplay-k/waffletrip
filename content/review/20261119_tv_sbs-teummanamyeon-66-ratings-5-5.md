@@ -8,13 +8,15 @@ kind: 해설
 title: '''틈만나면,'' 고수 허당 매력에 최고 5.5%…14주 연속 동시간대 1위'
 source_name: ''
 source_url: ''
-summary: SBS '틈만나면,' 66회가 분당 최고 시청률 5.5%를 기록했다. 틈친구로 나선 배우 고수가 엉뚱한 원칙주의와 허당미로 웃음을 줬다. 프로그램은 14주 연속 화요일 동시간대 1위를 지켰다.
+summary: SBS '틈만나면,' 66회가 분당 최고 시청률 5.5%를 기록했다. 틈친구로 나선 배우 고수가 엉뚱한 원칙주의와 허당미로 웃음을
+  줬다. 프로그램은 14주 연속 화요일 동시간대 1위를 지켰다.
 sources:
 - https://www.diarypoint.com/news/articleView.html?idxno=7373
 - https://www.youtube.com/watch?v=Ziw_H1EQFFY
-status: approved
+status: published
+published_id: c-02963e885583c32ce8a1544d3b051bd09d79b1ff
+published_on: '2026-11-19'
 ---
-
 SBS '틈만나면,'이 또 화요일 밤 1위를 지켰다.
 17일 방송된 66회는 분당 최고 시청률 5.5%를 찍었다.
 

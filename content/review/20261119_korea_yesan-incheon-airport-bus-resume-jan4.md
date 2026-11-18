@@ -7,15 +7,17 @@ kind: 해설
 title: 예산~인천공항 직행버스 6년 만에 다시 달린다…내년 1월 4일부터 하루 3회
 source_name: ''
 source_url: ''
-summary: 충남 예산종합터미널과 인천국제공항을 잇는 직행버스가 내년 1월 4일 운행을 재개한다. 코로나19로 멈춘 지 6년여 만이다. 청양에서 출발해 예산을 거쳐 인천공항 제1·2여객터미널까지 하루 세 차례 왕복한다.
+summary: 충남 예산종합터미널과 인천국제공항을 잇는 직행버스가 내년 1월 4일 운행을 재개한다. 코로나19로 멈춘 지 6년여 만이다. 청양에서
+  출발해 예산을 거쳐 인천공항 제1·2여객터미널까지 하루 세 차례 왕복한다.
 sources:
 - http://www.ccnnews.co.kr/news/articleView.html?idxno=417970
 - https://www.localtoday.co.kr/news/articleView.html?idxno=417530
 - https://www.chungnamilbo.co.kr/news/articleView.html?idxno=921345
 - https://www.greened.kr/news/articleView.html?idxno=354816
-status: approved
+status: published
+published_id: c-018c44d3dcd102d974faf6517bea846196bcb3f4
+published_on: '2026-11-19'
 ---
-
 예산과 청양 주민들이 인천공항까지 한 번에 갈 수 있게 된다.
 예산군은 예산종합터미널~인천국제공항 직행버스를 내년 1월 4일부터 다시 운행한다고 18일 밝혔다.
 
