@@ -33,6 +33,13 @@
   - 트래블데일리: 글로벌 럭셔리 호텔 브랜드 릭소스(Rixos)가 베트남 푸꾸옥을 통해 아시아 시장 공략에 본격적으로 나선다. 릭소스는 16일 조선호텔에서 ‘릭소스 푸꾸옥 베트남(R
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72720
 
+### 전북 관광기업 7개사, 베트남 달랏서 해외 판로 개척
+- 매체 2곳 · 전민일보 · 투데이안  ← 여러 곳이 썼다
+  - 투데이안: -11월 20~24일 ‘K-Vietnam Wellness Festa&Expo’ 참가-지난해 MOU 15건·투자의향서 2건·5만 달러 투자계약 성과 이어간다[투데이안] 전북특별자치도문화관광재단이 도내 관광기업 7개사와 함께 베트남 시장 공략에 나선다.
+    http://www.todayan.com/news/articleView.html?idxno=637714
+  - 전민일보: 
+    https://news.google.com/rss/articles/CBMia0FVX3lxTE1yWEFHdENSTnR5aFVDVHdxbVhuWGJfM25VUDRNbFU2U0pwVG4yMl9kY1BJOVZWYUx6dUd5YWtCQXhCWEZXWGV0cEM1Q3BPRFNmWHl0WTR5dmtCLWQ3WWVGbHM2TnpkNC1oaUNV?oc=5
+
 ### 베트남항공이 다낭과 싱가포르 간 직항 노선을 신설했습니다.
 - 매체 1곳 · vietnam.vn  ← 여러 곳이 썼다
   - vietnam.vn: DNO - 11월 17일 오후, 베트남항공은 다낭에서 싱가포르까지 직항 노선을 개설하여 베트남과 싱가포르 간 주 42회 왕복 항공편을 운항하게 되었습니다.
@@ -47,15 +54,10 @@
   - vietnam.vn: (단찌신문) - 하노이시 건설국은 순환도로 1호선 지역과 환승 지점 및 주변 지역을 연결하는 새로운 전기 미니버스 노선 두 개를 개통하는 계획을 시 인민위원회에 제안했다.
     https://www.vietnam.vn/ko/de-xuat-mo-2-tuyen-mini-buyt-dien-phuc-vu-vung-phat-thai-thap-o-ha-noi
 
-### 전북 관광기업 7개사, 베트남 달랏서 해외 판로 개척
-- 매체 1곳 · 투데이안
-  - 투데이안: -11월 20~24일 ‘K-Vietnam Wellness Festa&Expo’ 참가-지난해 MOU 15건·투자의향서 2건·5만 달러 투자계약 성과 이어간다[투데이안] 전북특별자치도문화관광재단이 도내 관광기업 7개사와 함께 베트남 시장 공략에 나선다.
-    http://www.todayan.com/news/articleView.html?idxno=637714
-
-### 하노이시는 약 293km에 달하는 5개 지하철 노선의 노선도와 역 위치를 발표하고 시민 의견 수렴에 나섰다.
+### 다낭이 2027년 베트남에서 꼭 방문해야 할 11곳 중 1위로 선정되었습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 하노이시는 시민 의견 수렴을 위해 약 293km에 걸쳐 22개 면과 동을 가로지르는 5개 도시철도 노선의 노선 계획과 역 위치를 공개했습니다.
-    https://www.vietnam.vn/ko/ha-noi-cong-bo-huong-tuyen-vi-tri-cac-nha-ga-thuoc-5-tuyen-metro-dai-gan-293km-de-lay-y-kien-nguoi-dan
+  - vietnam.vn: 다낭은 국제 여행 간행물에서 꾸준히 두각을 나타내고 있으며, 세계적인 여행 가이드인 론리 플래닛이 선정한 '2027년 꼭 방문해야 할 베트남 11곳' 목록에서 첫 번째로 이름을 올렸습니다.
+    https://www.vietnam.vn/ko/da-nang-dan-dau-danh-sach-11-diem-den-viet-nam-dang-ghe-tham-nam-2027
 
 ## 라오스
 
@@ -65,6 +67,13 @@
     https://www.traveltimes.co.kr/news/articleView.html?idxno=500699
 
 ## 제주
+
+### 제주시 호텔서 화재 오인 경보…투숙객 2명 대피하다 넘어져
+- 매체 2곳 · 뉴스1 · 제주일보  ← 여러 곳이 썼다
+  - 뉴스1: 
+    https://www.news1.kr/local/jeju/6357624
+  - 제주일보: 호텔에서 화재 경보기가 울리자 대피하던 투숙객 2명이 넘어져 다치는 사고가 발생했다. 18일 제주소방안전본부에 따르면 전날 오후 8시57분께 제주시 한 호텔에서 화재 경보기가 울려 투숙객들이 대피하고 있다는 신고가 접수됐다.
+    http://www.jejunews.com/news/articleView.html?idxno=2228901
 
 ### [사설] 24년 된 제주 무사증 입국, 원점 재검토를 - 머니투데이
 - 매체 2곳 · 머니투데이 · 제주일보  ← 여러 곳이 썼다
@@ -94,23 +103,16 @@
   - 제주일보: 제주특별자치도의회가 제주 무사증 입국 특례 폐지 법안에 대해 즉각적인 철회를 촉구했다. 한동수 제주도의회 의원(더불어민주당·이도2동을)은 17일 456회 정례회 6차 본회의 5분 발언을 통해 지난 13일 송언석 국회의원이 발의한 제주 무사증 입국 특례를 폐지하는 제주특별법 개정안의 철회
     http://www.jejunews.com/news/articleView.html?idxno=2228878
 
-### 제주 해안 산책
-- 매체 2곳 · 제주의소리 · 제주일보  ← 여러 곳이 썼다
-  - 제주일보: 16일 제주시 용담3동 소재 해안에서 관광객들이 주변을 둘러보며 담소를 나누고 있다. 고봉수 기자
-    http://www.jejunews.com/news/articleView.html?idxno=2228846
-  - 제주의소리: 제주제2공항강행저지비상도민회의는 17일 성명을 내고 “국가가 인정한 전국 1위 겨울철새 서식지 한복판에 공항을 지을 수 없다”며 제주 제2공항 계획 백지화를 촉구했다. 비상도민회의는 국립생물자원관이 최근 발간한 ‘한국의 겨울철새 서식지역의 물새류 군집 특성’을 근거로 들었다.
-    https://www.jejusori.net/news/articleView.html?idxno=508403
-
 ## 일본
 
 ### 조국, 일본 입국 거부 당해…혁신당 “日 정부, 사과하라”
-- 매체 3곳 · MBC 뉴스 · 경향신문 · 중앙일보  ← 여러 곳이 썼다
+- 매체 3곳 · KBS 뉴스 · 경향신문 · 중앙일보  ← 여러 곳이 썼다
   - 중앙일보: 조국 전 대표, 일본 공항서 입국 거부 당했다
     https://www.joongang.co.kr/article/25479413
   - 경향신문: 조국 조국혁신당 혁신정책연구원장이 17일 일본 하네다공항에서 입국을 거부당했다. 일본 정부는 조 원장의 1990년대 형사처벌 전력을 문제삼은 것으로 알려졌다.
     https://www.khan.co.kr/article/202611171741001
-  - MBC 뉴스: 조국 조국혁신당 혁신정책연구원장이 일본 하네다공항에서 입국을 거부당했습니다. 조국혁신당은 조 원장이 메이지가쿠인대학과의 공동 세미나 참석 등을 위해 오늘 오전 11시 5분쯤 하네다.
-    https://imnews.imbc.com/news/2026/politics/article/6866293_36911.html
+  - KBS 뉴스: 
+    https://news.google.com/rss/articles/CBMiW0FVX3lxTE5obmFqSGJ4cUg0cUg4a1NmbTR6TU52ZDZ6Vjc1WDMtM29CRnA4cmFFTnRpd3dqX1VBZmdWT0t4QTZKbTY5ei1JeGc4UWJzVTZSSVczLW5vckVhblU?oc=5
 
 ### 제주항공, 올해 일본 노선 탑승객 414만 명…역대 최대
 - 매체 2곳 · 불교방송 · 한국경제  ← 여러 곳이 썼다
@@ -363,7 +365,7 @@
   - 한겨레: 대한항공이 미국 뉴욕 대도시권으로 가는 인천~뉴어크 노선을 내년 5월부터 매일 운항한다. 12일 대한항공은 인천국제공항에서 오후 10시에 출발해 미국 뉴저지주 뉴어크 리버티 국제공항에 현지 시각 오후 11시에 도착하는 미주 노선을 내년 5월22일부터 주 7회 운항한다고
     https://www.hani.co.kr/arti/economy/economy_general/1286955.html
 
-## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 30건)
+## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 29건)
 
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
@@ -407,7 +409,7 @@
 - ✅ [2026-11-16·여행업계] 골프 여행 견적부터 항공권 발권까지…한 번에 해결
   골프 전문 여행사 투어링스가 실시간 항공권 예약 서비스를 도입하고, 2027년 골프 MICE 상품 확대에 나선다. 항공권 검색부터 발권까지 온라인으로 처리해 여행사의 견적 업무를 간소화하고, 해외 골프 대회와 기업 인센티브 등 단체 수요에도 대응한다는 계획이다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500706
-- [2026-11-16·여행업계] 스위스다운 접근…‘조용한 럭셔리’로 경쟁력 강화
+- ✅ [2026-11-16·여행업계] 스위스다운 접근…‘조용한 럭셔리’로 경쟁력 강화
   스위스정부관광청이 방문 시기를 분산하고 한 지역에 오래 머무르는 여행상품 개발을 국내 여행업계에 제안했다. 방문객 수 확대보다 관광지 혼잡을 줄이고 지역사회와 조화를 이루는 여행에 무게를 둔 모습이다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500704
 - [2026-11-16·여행업계] [기자수첩] 동시다발 발권 프로모션, 그다음은?
@@ -589,7 +591,7 @@
     https://www.kbmaeil.com/article/20261117500056
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 33개 확인, 사진 줄 1개)
+(자유 이용 사진: 이름 후보 30개 확인, 사진 줄 0개)
 
 ### 🔥 화제(매체 13곳) [music] AI 보컬 ‘머무르’ 5일째 멜론 차트 1위, 가수 컴백 물결은?
 - 매체 1곳 · 한국사회복지저널
@@ -649,14 +651,15 @@
   - 뉴스핌: [서울=뉴스핌] 이지은 기자 = 그룹 앰퍼샌드원이 더욱 강렬해진 퍼포먼스를 통해 왕좌에 이르는 모습을 그려낸다. 앰퍼샌드원은 17일 서울 광진구에 위치한 예스24라이브홀에서 첫 번째 정규앨범 '패스파인더(PATHFINDER)' 발매 기념 미디어 쇼케이스를 열고
     https://www.newspim.com/news/view/20261117000945
 
-### 🔥 화제(매체 5곳) [startrip] 제니, 美 빌보드 메인 싱글차트 3위…피원하모니, 앨범 4위 진입
-- 매체 1곳 · KBS 뉴스
-  - KBS 뉴스: 
-    https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715818
+### 🔥 화제(매체 4곳) [movie] 유선X이종혁X이천무 `고인아파트` 25일 개봉
+- 매체 2곳 · 부산일보 · 연합뉴스  ← 여러 곳이 썼다
+  - 부산일보: 
+    https://www.busan.com/view/busan/view.php?code=2026111418464533507
+  - 연합뉴스: (서울=연합뉴스) 정래원 기자 = 월세와 보증금 부담에 시달리던 대학생 규빈(장규리 분)에게 뜻밖의 기회가 찾아온다. 서울 한복판의 80평짜리 ...
+    https://www.yna.co.kr/view/AKR20261118146300005
 
 ### 🔥 화제(매체 4곳) [movie] 임영웅 스타디움 실황 영화 개봉 '영웅시대로 북적이는 영화관' [TF사진관]
 - 매체 1곳 · 더팩트
-- 사진(자유 이용, 임영웅): `![임영웅 · 사진 구전녹용 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2a/Lim_Young-woong_in_an_ad_for_%EA%B5%AC%EC%A0%84%EB%85%B9%EC%9A%A9_%28June_2020%29_%28cropped%29.jpg)`
   - 더팩트: 18일 오후 임영웅의 공연 실황 영화 임영웅│아임 히어로 더 스타디움 2가 개봉한 가운데 서울 용산구 CGV 용산아이파크몰을 찾은 팬들이 기념사진을 촬영하고 있다. 임영웅│…
     https://news.tf.co.kr/read/photomovie/2390403.htm
 
@@ -670,65 +673,65 @@
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
 (검색어 34개 · 고른 영상 15개)
 
+## ENHYPEN (엔하이픈) 'I Want You' Official MV
+- 채널 HYBE LABELS · 조회수 21,491,571회 · 4일 전
+- `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
+
+## GIRLSET "young & dumb" Music Video
+- 채널 JYP Entertainment · 조회수 10,183,051회 · 5일 전
+- `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
+
+## oftheblue(오브더블루) "풍선인간" Blind Performance Video
+- 채널 JYP Entertainment · 조회수 1,486,124회 · 7일 전
+- `@youtube d1AknDUMAE0` · https://www.youtube.com/watch?v=d1AknDUMAE0
+
+## NCT DREAM - Boogie Woogie | 1theKILLPO | Performance
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,252,613회 · 6일 전
+- `@youtube HYHu_ui8t2s` · https://www.youtube.com/watch?v=HYHu_ui8t2s
+
+## ENHYPEN (엔하이픈) 'I Want You' Official Teaser
+- 채널 HYBE LABELS · 조회수 934,853회 · 5일 전
+- `@youtube _pLJBPzp3Fg` · https://www.youtube.com/watch?v=_pLJBPzp3Fg
+
 ## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 727,172회 · 2일 전
+- 채널 tvN DRAMA · 조회수 727,414회 · 2일 전
 - `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
 
-## [11월 20일 예고] 이서진×김광규, ‘상남자 my스타’ 김종국의 수발보다 더 힘든 유산소 지옥↗
-- 채널 SBS Entertainment · 조회수 454,125회 · 2일 전
-- `@youtube 7HpdN3C2XXA` · https://www.youtube.com/watch?v=7HpdN3C2XXA
-
-## [11월 22일 예고] “전 안 돼요?” 김승수, 박혜연에게 진심 담아 조심스럽게 전한 고백♥
-- 채널 SBS Entertainment · 조회수 338,826회 · 2일 전
-- `@youtube K8UwMEuCPdA` · https://www.youtube.com/watch?v=K8UwMEuCPdA
+## [9화 예고] 설인아의 성별을 알고 상처받은 임시완 ( ͒ ඉ .̫ ඉ ͒) 그럼에도 그녀를 지키기 위한 선택은...결혼? #나의유죄인간 EP.9
+- 채널 tvN DRAMA · 조회수 681,670회 · 7일 전
+- `@youtube N5ORKqBGaRs` · https://www.youtube.com/watch?v=N5ORKqBGaRs
 
 ## [10화 예고] 내가 널 만난 건 행운이 아니라 기적💞 서로가 있어 행복한 임시완X설인아에 다가온 또다른 위협? #나의유죄인간 EP.10
-- 채널 tvN DRAMA · 조회수 306,649회 · 1일 전
+- 채널 tvN DRAMA · 조회수 306,665회 · 1일 전
 - `@youtube izmmaIqoz3s` · https://www.youtube.com/watch?v=izmmaIqoz3s
 
-## [30화 선공개] 너 다 알고 넘어가자고 한 거지? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 304,000회 · 4일 전
-- `@youtube re0HhCzvZo0` · https://www.youtube.com/watch?v=re0HhCzvZo0
-
-## [메이킹] 티랑이들, 힘들고 지겨울 땐 뭐다?👀 방방강쥐 임시완♥설인아 X 능글냥이 김정현♥연우 보기😍 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 293,111회 · 7일 전
-- `@youtube KakUksE913M` · https://www.youtube.com/watch?v=KakUksE913M
+## 더 커진 판, 더 독해진 가족 [가족계획 시즌2] 티저 예고편
+- 채널 쿠팡플레이 Coupang Play · 조회수 292,065회 · 0일 전
+- `@youtube cBHXKJiXFJs` · https://www.youtube.com/watch?v=cBHXKJiXFJs
 
 ## [라이어 7회 예고] ＂언니가 어떻게 나를 속일 수가 있어?＂, MBC 261120 방송
 - 채널 MBCdrama · 조회수 291,361회 · 3일 전
 - `@youtube mueEY-8Pw_0` · https://www.youtube.com/watch?v=mueEY-8Pw_0
 
-## 더 커진 판, 더 독해진 가족 [가족계획 시즌2] 티저 예고편
-- 채널 쿠팡플레이 Coupang Play · 조회수 284,330회 · 0일 전
-- `@youtube cBHXKJiXFJs` · https://www.youtube.com/watch?v=cBHXKJiXFJs
-
-## “점점 못 걷겠어요” 걷기로 고친 몸이 걷기로 다시 병들었다는 위암 투병 환자 │귀하신 몸│#EBS건강
-- 채널 EBS 건강 · 조회수 276,015회 · 1일 전
-- `@youtube xuK3xtie4kc` · https://www.youtube.com/watch?v=xuK3xtie4kc
-
-## ［31회 예고］제가 혹이라서 허락 안 하신 거예요? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 273,301회 · 3일 전
-- `@youtube 1x4AkY0HbA4` · https://www.youtube.com/watch?v=1x4AkY0HbA4
-
-## [31화 선공개] 규영이한테 무슨 짓을 한 거야? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 218,628회 · 3일 전
-- `@youtube c7bPNGg1cMc` · https://www.youtube.com/watch?v=c7bPNGg1cMc
+## 누가 더 유죄인간인가 | 유죄와 벌⚖️❤️‍🔥 EP.00  #나의유죄인간
+- 채널 tvN DRAMA · 조회수 185,722회 · 6일 전
+- `@youtube VFiUuc-HHUY` · https://www.youtube.com/watch?v=VFiUuc-HHUY
 
 ## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
-- 채널 tvN DRAMA · 조회수 176,131회 · 1일 전
+- 채널 tvN DRAMA · 조회수 176,698회 · 1일 전
 - `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
 
 ## ［32회 예고］못 데려갑니다 결이 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 175,188회 · 2일 전
+- 채널 KBS Drama · 조회수 175,704회 · 2일 전
 - `@youtube OgU1Nkhzai8` · https://www.youtube.com/watch?v=OgU1Nkhzai8
 
-## [60화 예고] 그날 기억이 났어요 [욕망의 덫] | KBS 방송
-- 채널 KBS Drama · 조회수 82,412회 · 1일 전
-- `@youtube m1hZwDtrZL4` · https://www.youtube.com/watch?v=m1hZwDtrZL4
+## [58화 예고] 당신이 짠 판에서 놀아나지 않아 [욕망의 덫] | KBS 방송
+- 채널 KBS Drama · 조회수 126,542회 · 4일 전
+- `@youtube Dps6croc8lI` · https://www.youtube.com/watch?v=Dps6croc8lI
 
-## 은설, 반격 시작! 180도 달라진 전혜원의 모습에 놀란 장서희 [욕망의 덫] | KBS 261117 방송
-- 채널 KBS Drama · 조회수 76,664회 · 1일 전
-- `@youtube PHsC3Tc1myk` · https://www.youtube.com/watch?v=PHsC3Tc1myk
+## [라이어 6회 예고] ＂이번엔 내가 거짓말을 하려고＂, MBC 261114 방송
+- 채널 MBCdrama · 조회수 118,652회 · 4일 전
+- `@youtube eo1DUkzb8b8` · https://www.youtube.com/watch?v=eo1DUkzb8b8
 
 
 
@@ -746,6 +749,7 @@ KBS1 <황신혜의 같이 삽시다> 황신혜 솔로 탈출 작전! 신계숙·
 ## KBS2 일일드라마 욕망의 덫 · 60회 — 11/18 19:50 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
 - 보도자료 제목: [일일드라마 욕망의 덫] 11월 18일 예고편 / 19:50 방송
+- 유튜브 예고(공식 KBS Drama): `@youtube m1hZwDtrZL4` — [60화 예고] 그날 기억이 났어요 [욕망의 덫] | KBS 방송
 - 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
 
 60회 미란은 잃어버린 장갑 한 짝이 익명의 편지와 함께 배달되자 불안에 휩싸이고, 은설은 그런 미란 앞에서 더욱 다정한 딸을 자처한다. 한편 사라졌던 소연을 찾은 석진은 소연의 말에서 아버지의 죽음에 얽힌 단서를 발견하는데…

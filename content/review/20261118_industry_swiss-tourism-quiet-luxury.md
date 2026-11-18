@@ -4,13 +4,16 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "스위스정부관광청, 국내 여행업계에 체류형·분산형 상품 개발 제안"
+title: 스위스정부관광청, 국내 여행업계에 체류형·분산형 상품 개발 제안
 source_name: ''
 source_url: ''
-summary: 스위스정부관광청이 국내 여행업계에 새 상품 방향을 제안했다. 방문 시기를 분산하고 한 지역에 오래 머무는 일정이 핵심이다. 방문객 수보다 혼잡 완화를 앞세운다.
+summary: 스위스정부관광청이 국내 여행업계에 새 상품 방향을 제안했다. 방문 시기를 분산하고 한 지역에 오래 머무는 일정이 핵심이다. 방문객
+  수보다 혼잡 완화를 앞세운다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500704
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500704
+status: published
+published_id: c-71465eac33ea25e9c8e21b9ce2374abde2c7053e
+published_on: '2026-11-18'
 ---
 스위스정부관광청이 방문 시기를 나누고 한 지역에 오래 머무는 여행상품을 만들어 달라고 국내 여행업계에 제안했다.
 방문객 숫자를 늘리기보다 관광지 혼잡을 줄이는 쪽에 무게를 둔 제안이다.

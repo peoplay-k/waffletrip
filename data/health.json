@@ -378,16 +378,16 @@
     },
     {
       "date": "2026-11-18",
-      "collected": 3977,
-      "published": 823,
-      "ours": 35,
+      "collected": 3949,
+      "published": 863,
+      "ours": 37,
       "failed_sources": [
         "guam_pdn",
+        "guam_post",
         "kr_hotelavia",
         "kr_ktnbm",
         "kr_travelpress",
-        "thailand_bangkokpost_travel",
-        "weather"
+        "thailand_bangkokpost_travel"
       ]
     }
   ]
