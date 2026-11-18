@@ -429,7 +429,12 @@ def youtube_meta(items: list[dict], today: str) -> dict:
     lines = [f"{d.month}월 {d.day}일 오늘 방송되는 프로그램을 피플로드가 미리 정리했습니다.", ""]
     for it in items:
         i = it["info"]
-        lines.append(f"· {i['channel']} {i['program']} {i['when']}".strip())
+        # 방송 정보 상자가 없는 기사는 채널·프로그램이 비어 '·' 만 남았다(11-19 실측).
+        # 프로그램 이름이 없으면 기사 제목으로 채우고, 그래도 비면 줄을 뺀다.
+        name = " ".join(x for x in (i.get("channel", ""), i.get("program", "") or it.get("title", "")) if x)
+        line = " ".join(x for x in (name, i.get("when", "")) if x).strip()
+        if line:
+            lines.append(f"· {line}")
     lines += ["", f"기사 전문 https://{DOMAIN}/ent/tv/",
               "방송사 보도자료를 바탕으로 피플로드가 정리했습니다. 나레이션은 AI 음성입니다."]
     return {"title": f"[오늘의 방송] {d.month}/{d.day} " + " · ".join(progs[:3])[:80],

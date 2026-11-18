@@ -43,3 +43,14 @@ def test_기사_본문의_자유_이용_사진을_읽는다():
     assert v.photos_of({"body_md": body}) == [
         {"caption": "김혜윤 · 사진 TV10 · CC BY 4.0 · 위키미디어 공용",
          "url": "https://upload.wikimedia.org/a/b.jpg"}]
+
+
+def test_방송_정보가_없는_기사도_설명에_빈_줄로_남지_않는다():
+    empty = {"channel": "", "program": "", "episode": "", "when": "", "sort": 9999, "day": ""}
+    items = [{"title": "'유퀴즈' 김명민 첫 예능", "info": dict(empty)},
+             {"title": "", "info": dict(empty)},
+             {"title": "t", "info": v.info_of({"body_md": BODY})}]
+    desc = v.youtube_meta(items, "2026-11-19")["description"].splitlines()
+    assert "· '유퀴즈' 김명민 첫 예능" in desc
+    assert "· KBS2 욕망의 덫 오후 7시 50분" in desc
+    assert "·" not in [l.strip() for l in desc]
