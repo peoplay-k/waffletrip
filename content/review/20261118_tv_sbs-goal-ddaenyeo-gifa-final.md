@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '골 때리는 그녀들', FC원더우먼 결승 삼수 도전"
+title: SBS '골 때리는 그녀들', FC원더우먼 결승 삼수 도전
 source_name: ''
 source_url: ''
-summary: SBS '골 때리는 그녀들'이 18일 밤 9시 방송된다. 제3회 GIFA컵 결승전에서 FC원더우먼과 FC액셔니스타가 맞붙는다. 마시마는 10경기 연속골에 도전한다.
+summary: SBS '골 때리는 그녀들'이 18일 밤 9시 방송된다. 제3회 GIFA컵 결승전에서 FC원더우먼과 FC액셔니스타가 맞붙는다. 마시마는
+  10경기 연속골에 도전한다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9405
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9405
+status: published
+published_id: c-a349c58456954f32b0901ca8318e54481e910dc8
+published_on: '2026-11-18'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 골 때리는 그녀들 | 회차 · 제3회 GIFA컵 결승

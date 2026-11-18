@@ -8,10 +8,13 @@ kind: 보도자료
 title: 피원하모니, 빌보드 200서 자체 최고 4위…통산 세 번째 톱10
 source_name: ''
 source_url: ''
-summary: 그룹 피원하모니가 미국 '빌보드 200'에서 4위에 올랐다. 자체 최고 순위와 타이를 이뤘다. 새 앨범 '블로우 업'으로 통산 세 번째 톱10에 들었다.
+summary: 그룹 피원하모니가 미국 '빌보드 200'에서 4위에 올랐다. 자체 최고 순위와 타이를 이뤘다. 새 앨범 '블로우 업'으로 통산 세
+  번째 톱10에 들었다.
 sources:
-  - https://www.newsis.com/view/NISX20261116_0003868830
-status: approved
+- https://www.newsis.com/view/NISX20261116_0003868830
+status: published
+published_id: c-53f92bbc3841666ac741da3e2bbc9f0a6fe5ae4b
+published_on: '2026-11-18'
 ---
 그룹 피원하모니가 미국 빌보드 메인 앨범차트 '빌보드 200'에서 4위에 올랐다.
 그룹의 자체 최고 순위와 타이를 이룬 성적이다.

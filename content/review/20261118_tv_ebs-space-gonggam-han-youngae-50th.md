@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '스페이스 공감', 한영애 데뷔 50주년 특집 공연"
+title: EBS '스페이스 공감', 한영애 데뷔 50주년 특집 공연
 source_name: ''
 source_url: ''
-summary: EBS '스페이스 공감'이 18일 밤 10시 50분 방송된다. 한영애의 데뷔 50주년 특집 공연 '코뿔소'를 담는다. 황소윤과 오지은이 함께 무대에 오른다.
+summary: EBS '스페이스 공감'이 18일 밤 10시 50분 방송된다. 한영애의 데뷔 50주년 특집 공연 '코뿔소'를 담는다. 황소윤과 오지은이
+  함께 무대에 오른다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005653705
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005653705
+status: published
+published_id: c-6096f3474106c2882947aed34c507978c930884a
+published_on: '2026-11-18'
 ---
 > **방송 정보**
 > 채널 · EBS | 프로그램 · 스페이스 공감 | 특집 · 한영애 데뷔 50주년 '코뿔소'

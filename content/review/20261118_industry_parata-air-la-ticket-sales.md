@@ -7,12 +7,15 @@ kind: 해설
 title: 파라타항공, 취항 1년 만에 미주 진출…인천~LA 항공권 판매
 source_name: ''
 source_url: ''
-summary: 파라타항공이 첫 미주 노선인 인천~LA 항공권 판매를 시작했다. 지난해 11월 국제선 취항 1년 만의 확장이다. 내년 5월 LA에 처음 취항할 예정이다.
+summary: 파라타항공이 첫 미주 노선인 인천~LA 항공권 판매를 시작했다. 지난해 11월 국제선 취항 1년 만의 확장이다. 내년 5월 LA에
+  처음 취항할 예정이다.
 sources:
-  - http://www.kdfnews.com/news/articleView.html?idxno=191030
-  - https://economist.co.kr/article/view/ecn202611180015
-  - https://www.econovill.com/news/articleView.html?idxno=757544
-status: approved
+- http://www.kdfnews.com/news/articleView.html?idxno=191030
+- https://economist.co.kr/article/view/ecn202611180015
+- https://www.econovill.com/news/articleView.html?idxno=757544
+status: published
+published_id: c-078c8e93c7b071c5c662cccd9642e57caab8a164
+published_on: '2026-11-18'
 ---
 파라타항공이 국제선 취항 1년 만에 미주 노선으로 사업 영역을 넓힌다.
 첫 미주 노선인 인천~로스앤젤레스(LA) 노선의 항공권 판매를 시작했다.

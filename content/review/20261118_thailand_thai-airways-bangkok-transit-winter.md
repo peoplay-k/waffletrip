@@ -7,10 +7,13 @@ kind: 보도자료
 title: 타이항공, 동계 인천~방콕 노선 하루 3회로 늘린다
 source_name: ''
 source_url: ''
-summary: 타이항공이 동계 시즌 인천~방콕 노선을 하루 3회 운항한다. 방콕을 경유하는 태국 국내선·이원 구간 판매에도 힘을 싣는다. 지난 12일 서울서 관련 설명회를 열었다.
+summary: 타이항공이 동계 시즌 인천~방콕 노선을 하루 3회 운항한다. 방콕을 경유하는 태국 국내선·이원 구간 판매에도 힘을 싣는다. 지난 12일
+  서울서 관련 설명회를 열었다.
 sources:
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500724
-status: approved
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500724
+status: published
+published_id: c-d1c1f47eed0edca983bd192bbc65478eb698d96b
+published_on: '2026-11-18'
 ---
 타이항공이 동계 시즌 인천~방콕 노선을 하루 3회 운항한다.
 방콕을 경유하는 태국 국내선과 이원 구간 판매에도 힘을 싣는다.

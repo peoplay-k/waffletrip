@@ -8,11 +8,14 @@ kind: 해설
 title: 서울백제어린이박물관, 매머드 디마 빙하기 특별전 개막
 source_name: ''
 source_url: ''
-summary: 서울백제어린이박물관이 빙하기 매머드를 주제로 한 특별전을 열었다. 아기 매머드 '디마'를 따라 빙하기를 체험하는 전시다. 내년 3월 7일까지 송파구에서 볼 수 있다.
+summary: 서울백제어린이박물관이 빙하기 매머드를 주제로 한 특별전을 열었다. 아기 매머드 '디마'를 따라 빙하기를 체험하는 전시다. 내년 3월
+  7일까지 송파구에서 볼 수 있다.
 sources:
-  - https://www.vegannews.co.kr/news/article.html?no=406501
-  - https://www.momonews.com/82029
-status: approved
+- https://www.vegannews.co.kr/news/article.html?no=406501
+- https://www.momonews.com/82029
+status: published
+published_id: c-4c45a3565645822b555df3c7e83884b49e4459cf
+published_on: '2026-11-18'
 ---
 서울백제어린이박물관이 빙하기 매머드를 주제로 한 특별전을 열었다.
 아기 매머드 '디마'를 따라가며 어린이들이 빙하기를 체험하는 전시다.

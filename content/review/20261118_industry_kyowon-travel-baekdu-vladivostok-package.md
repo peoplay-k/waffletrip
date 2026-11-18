@@ -7,12 +7,15 @@ kind: 해설
 title: 교원투어, 백두산·블라디보스토크 연계 6일 패키지 출시
 source_name: ''
 source_url: ''
-summary: 교원투어 여행이지가 백두산과 러시아 블라디보스토크를 묶은 패키지를 내놓았다. '블라디보스토크·백두산 6일' 상품이다. 중국 동북지역과 러시아 극동지역을 함께 돌아본다.
+summary: 교원투어 여행이지가 백두산과 러시아 블라디보스토크를 묶은 패키지를 내놓았다. '블라디보스토크·백두산 6일' 상품이다. 중국 동북지역과
+  러시아 극동지역을 함께 돌아본다.
 sources:
-  - https://www.newspim.com/news/view/20261117000228
-  - https://www.m-i.kr/news/articleView.html?idxno=2019594
-  - http://www.bizwnews.com/news/articleView.html?idxno=152184
-status: approved
+- https://www.newspim.com/news/view/20261117000228
+- https://www.m-i.kr/news/articleView.html?idxno=2019594
+- http://www.bizwnews.com/news/articleView.html?idxno=152184
+status: published
+published_id: c-e9777269e1cdea9815e8f3301bb6900ba211c122
+published_on: '2026-11-18'
 ---
 교원투어 여행이지가 백두산과 러시아 블라디보스토크를 함께 둘러보는 패키지를 내놓았다.
 중국 동북지역과 러시아 극동지역을 한 번에 여행하는 상품이다.

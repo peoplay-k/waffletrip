@@ -5,14 +5,16 @@ category: stage
 region: ''
 section: news
 kind: 해설
-title: "서울역사박물관, 인사동 유적 기획전 '다시 모은 조각들' 개최"
+title: 서울역사박물관, 인사동 유적 기획전 '다시 모은 조각들' 개최
 source_name: ''
 source_url: ''
 summary: 서울역사박물관이 인사도시유적전시관 개관 기념전을 열었다. 조선시대 그릇과 제기, 근대 생활용품을 선보인다. 내년 3월 28일까지 전시한다.
 sources:
-  - https://www.mt.co.kr/index.php/policy/2026/11/17/2026111617255941476
-  - https://www.webeconomy.co.kr/news/articleView.html?idxno=2378753
-status: approved
+- https://www.mt.co.kr/index.php/policy/2026/11/17/2026111617255941476
+- https://www.webeconomy.co.kr/news/articleView.html?idxno=2378753
+status: published
+published_id: c-02344d96a82d7e9c8bef68c07ac21496e401d947
+published_on: '2026-11-18'
 ---
 서울역사박물관이 서울 종로구 인사동 유적에서 나온 유물을 모은 기획전을 열었다.
 조선시대부터 근대까지 서울 도심이 변해 온 모습을 보여준다.

@@ -7,11 +7,14 @@ kind: 해설
 title: 제주항공, 일본노선 여객 414만명 넘어…LCC 수송 1위
 source_name: ''
 source_url: ''
-summary: 제주항공이 올해 일본노선에서 414만명 넘는 여객을 실어 날랐다. 10개월 만에 지난해 연간 실적을 넘어선 수치다. 중화권 노선도 늘어 전체 탑승객이 함께 증가했다.
+summary: 제주항공이 올해 일본노선에서 414만명 넘는 여객을 실어 날랐다. 10개월 만에 지난해 연간 실적을 넘어선 수치다. 중화권 노선도
+  늘어 전체 탑승객이 함께 증가했다.
 sources:
-  - https://www.m-i.kr/news/articleView.html?idxno=2020021
-  - https://www.industrynews.co.kr/news/articleView.html?idxno=89750
-status: approved
+- https://www.m-i.kr/news/articleView.html?idxno=2020021
+- https://www.industrynews.co.kr/news/articleView.html?idxno=89750
+status: published
+published_id: c-90362b044fadf1bcc32fc198e7feeb932dfc2e46
+published_on: '2026-11-18'
 ---
 제주항공이 올해 일본노선에서 저비용항공사(LCC) 가운데 가장 많은 여객을 실어 날랐다.
 10개월 만에 지난해 연간 일본노선 수송 실적을 넘어섰다.
