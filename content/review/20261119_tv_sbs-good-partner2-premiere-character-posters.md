@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '굿파트너2' 20일 첫 방송, 장나라·김혜윤·표지훈·박해진 캐릭터 포스터 공개"
+title: SBS '굿파트너2' 20일 첫 방송, 장나라·김혜윤·표지훈·박해진 캐릭터 포스터 공개
 source_name: ''
 source_url: ''
-summary: SBS 새 금토드라마 '굿파트너2'가 20일 밤 9시 50분 첫 방송된다. 제작진은 네 변호사의 캐릭터 포스터를 공개했다. 최유나 작가가 이번에도 극본을 쓴다.
+summary: SBS 새 금토드라마 '굿파트너2'가 20일 밤 9시 50분 첫 방송된다. 제작진은 네 변호사의 캐릭터 포스터를 공개했다. 최유나
+  작가가 이번에도 극본을 쓴다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65174?cmd=view&board_no=343139
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65174?cmd=view&board_no=343139
+status: published
+published_id: c-9469b23aad6d803ca458ed1006d09a1061108b56
+published_on: '2026-11-19'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 굿파트너2 | 편성 · 금토드라마

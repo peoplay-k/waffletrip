@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS1 '인간극장' 어부 동선 씨의 행복할 결심, 남해 3년 차 어부의 새 출발"
+title: KBS1 '인간극장' 어부 동선 씨의 행복할 결심, 남해 3년 차 어부의 새 출발
 source_name: ''
 source_url: ''
-summary: KBS1 '인간극장'이 16일부터 20일까지 '어부 동선 씨의 행복할 결심'을 방송한다. 서울 직장인에서 남해 3년 차 어부가 된 신동선 씨의 이야기다. 19일 오전 7시 50분 방송에서는 귀농한 문정인 씨와의 만남이 그려진다.
+summary: KBS1 '인간극장'이 16일부터 20일까지 '어부 동선 씨의 행복할 결심'을 방송한다. 서울 직장인에서 남해 3년 차 어부가 된
+  신동선 씨의 이야기다. 19일 오전 7시 50분 방송에서는 귀농한 문정인 씨와의 만남이 그려진다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/human
-status: approved
+- https://program.kbs.co.kr/1tv/culture/human
+status: published
+published_id: c-4f001f0100be9f5c4b8500fb3d536ce766d9e561
+published_on: '2026-11-19'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 인간극장 | 연작 · '어부 동선 씨의 행복할 결심'

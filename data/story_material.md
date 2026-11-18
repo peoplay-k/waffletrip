@@ -20,6 +20,15 @@
   - 트래블아이: 호시노 리조트 리조나레 괌, 하갓냐만에 해변 복합공간 개장 차모로 전통문화부터 미식·선셋·DJ 공연까지 한곳에서
     https://traveli.net/traveli/article-1794992402833-fe3b8175
 
+## 하와이
+
+### Woman injured in multi-vehicle crash involving bus near Honolulu airport
+- 매체 2곳 · Hawaii News Now · KHON2  ← 여러 곳이 썼다
+  - Hawaii News Now: EMS responded to a crash in the zipperlane on a H-1 eastbound off-ramp near Daniel K. Inouye International Airport around 7:15 a.m.
+    https://www.hawaiinewsnow.com/2026/11/18/woman-injured-multi-vehicle-crash-involving-bus-near-honolulu-airport/
+  - KHON2: HONOLULU (KHON2) -- An accident has been reported that has impacted the right shoulder near the Airport on H-1 Eastbound at the Airport Exit.
+    https://www.khon2.com/traffic/h-1-accident-impacts-traffic-near-honolulu-airport/
+
 ## 베트남
 
 ### 전북 관광기업 7개사, 베트남 달랏서 해외 판로 개척
@@ -29,25 +38,25 @@
   - 전민일보: 전북도 내 관광기업 7개사가 베트남 달랏에서 글로벌 시장 공략에 나선다. 전북특별자치도문화관광재단은 오는 20일부터 24일까지 베트남 달랏 람비엔 광장 일원에서 열리는 ‘2026 K-Vietnam Wellness Festa&Expo’에 참가해 전북 관광기업관을 단독 운영한다고 밝혔다.
     http://www.jeonmin.co.kr/news/articleView.html?idxno=450738
 
+### 하노이에서 산둥 문화를 홍보하고 베트남-중국 우정의 전통을 이어갑니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 이 프로그램은 중국에서 가장 문화적으로 풍부한 지역 중 하나의 유산, 명승지, 전통 예술 및 관광 잠재력을 경험할 수 있도록 구성되어 있습니다.
+    https://www.vietnam.vn/ko/quang-ba-van-hoa-son-dong-tai-ha-noi-tiep-noi-truyen-thong-huu-nghi-viet-trung
+
+### 하노이시는 5개 도시철도 노선의 제안된 노선 및 역 위치에 대한 시민 의견을 수렴하고 있습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 하노이시는 현재 총 길이 약 293km, 우선 순위 역 28개를 포함하는 5개 도시철도 노선의 노선 및 역 위치에 대한 공개 의견 수렴을 진행하고 있습니다.
+    https://www.vietnam.vn/ko/ha-noi-lay-y-kien-nguoi-dan-ve-phuong-an-huong-tuyen-va-vi-tri-nha-ga-5-tuyen-duong-sat-do-thi
+
+### 하노이와 산둥성은 문화유산의 가치를 연계하여 관광 협력을 증진합니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 하노이에서 진행되는 중국 산둥성의 문화와 관광을 소개하는 프로그램은 관광지 연계를 강화하고, 문화 관광 상품을 개발하며, 관광 시장을 확대하고, 양 지역 기업 간 협력을 증진할 수 있는 기회를 제공합니다.
+    https://www.vietnam.vn/ko/ha-noi-va-son-dong-thuc-day-hop-tac-du-lich-ket-noi-nhung-gia-tri-di-san
+
 ### 해진공, 베트남서 ‘동남아 물류·공급망 투자지원 설명회’…국내기업 해외 물류거점 확보 지원
 - 매체 1곳 · 부산일보
   - 부산일보: 천용건 한국해양진흥공사 해양금융본부장이 18일 베트남 하노이 롯데호텔에서 물류·항만·공급망 분야 기업과 투자자, 유관기관 관계자 등을 대상으로 열. ..
     https://www.busan.com/view/busan/view.php?code=2026111821324326819
-
-### 통합 이후 닌빈성 문화체육관광국에는 10명의 부국장이 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: VHO - 닌빈성 당위원회 상임위원회가 발표한 문화체육관광부 지도부 직책 개편에 따르면, 부이 반 만 씨는 2026년 12월 1일부터 국장 직책과 10명의 부국장 직책을 맡게 됩니다.
-    https://www.vietnam.vn/ko/so-vhttdl-tinh-ninh-binh-sau-hop-nhat-co-10-pho-giam-doc
-
-### 까마우는 남반구의 활기 넘치는 문화, 관광, 그리고 특산물을 하노이에 선사합니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: (Chinhphu.vn) - 까마우성 인민위원회는 11월 18일 오후 하노이에서 기자회견을 열고 하노이에서 개최되는 "헬로 까마우 2026" 행사와 2026년에 열릴 제2회 까마우 새우 축제에 대한 정보를 제공했습니다.
-    https://www.vietnam.vn/ko/ca-mau-dua-sac-mau-van-hoa-du-lich-va-dac-san-vung-cuc-nam-den-ha-noi
-
-### 호이안 사람들이 들려주는 호이안의 문화와 관광에 대한 이야기를 들어보세요.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: DNO - 11월 18일 오후, 호이안 공원에서 호이안구 베트남 조국전선위원회는 "호이안의 문화와 관광에 대한 호이안 사람들의 이야기를 들어보자"라는 주제로 포럼을 개최했습니다.
-    https://www.vietnam.vn/ko/nghe-nguoi-hoi-an-ke-ve-chuyen-van-hoa-du-lich-hoi-an
 
 ## 라오스
 
@@ -105,11 +114,13 @@
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72735
 
 ### 조국, 일본 입국 거부당해... 독도 방문 때문인가
-- 매체 2곳 · 세계일보 · 오마이뉴스  ← 여러 곳이 썼다
+- 매체 3곳 · 세계일보 · 오마이뉴스 · 중앙일보  ← 여러 곳이 썼다
   - 오마이뉴스: 강연과 세미나 참석 등을 위해 일본을 방문하려던 조국 조국혁신당 혁신정책연꾸원 원장이 일본 정부로부터 입국을 거부당했다. 거부 사유를 상세히 밝히진 않았지만 과거 독도를 방문했던 일을 문제삼은 것으로 추측된다.
     https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003285800
   - 세계일보: 일본 입국을 거부당한 조국혁신당 조국 혁신정책연구원장이 독도 방문을 추진한다. 혁신당 싱크탱크인 혁신정책연구원은 18일 “동해 해상 사정을 점검한 뒤 당원·국민과 함께 독도를 다시 방문한다.
     https://www.segye.com/newsView/20261118512703
+  - 중앙일보: 조국 전 조국혁신당 대표가 지난 17일 일본 입국을 거부당한 것과 관련해 외교부가 독도 방문 이력 때문이 아닌 국내 법령 위반 사실에 따른 조치라고 밝혔다.
+    https://www.joongang.co.kr/article/25479980
 
 ### 폐식용유로 밝히는 41만 개의 분홍빛 겨울 벚꽃, 도쿄 ‘메구로강 모두의 일루미네이션 2026’ 개막
 - 매체 2곳 · ACROFAN · 에너지뉴스  ← 여러 곳이 썼다
@@ -190,6 +201,17 @@
 
 ## 국내
 
+### 포항국제불빛축제 19일 개막…영일대·송도서 사흘간 빛의 향연 펼친다
+- 매체 6곳 · TTL뉴스 · 뉴스타운 · 뉴시스 · 문화뉴스 · 이로운넷 · 투어코리아  ← 여러 곳이 썼다
+  - 문화뉴스: (더쎈뉴스 / The CEN News) 한종근 기자 hjk2749@naver.com‘2026 포항국제불빛축제’가 오는 19일 저녁 송도 포항구항에서 열리는 미디어파사드 점등식을 시작으로 21일까지 사흘간 펼쳐진다. 올해 축제는 ‘All Light!
+    https://www.mhns.co.kr/news/articleView.html?idxno=769667
+  - TTL뉴스: [퍼블릭뉴스통신]​‘2026포항국제불빛축제’가 오는 19일 저녁 송도 포항구항에서 열리는 미디어파사드 점등식을 시작으로 21일까지 사흘간 영일대해수욕장과 송도 포항구항 일원에서 펼쳐진다. ​‘All Light!
+    http://www.ttlnews.com/news/articleView.html?idxno=3163920
+  - 이로운넷: 이로운넷 = 강진구 기자 ‘2026 포항국제불빛축제’가 오는 19일부터 21일까지 사흘 간 영일대해수욕장과 송도 포항구항 일원에서 개최된다. 포항시는 올해 축제를 ‘All Light!
+    https://www.eroun.net/news/articleView.html?idxno=95897
+  - 뉴시스: [포항=뉴시스]송종욱 기자 = '2026 포항국제불빛축제'가 19~21일 사흘간 영일대해수욕장과 송도 포항구항 일원에서 빛의 향연을 펼친다. 축제는 '올 라이트 올 굿'이란 주제로 불꽃·미디어아트·거리 예술·시민 참여 프로그램을 결합한 야간 관광 콘텐츠를 선보인다.
+    https://www.newsis.com/view/NISX20261118_0003873804
+
 ### 부산 용두산공원 새 관광거리 찾는다…민간사업자 공모
 - 매체 5곳 · 뉴시스 · 더쎈뉴스(The CEN News) · 복지TV부울경방송 · 아이뉴스24 · 트래블데일리  ← 여러 곳이 썼다
   - 더쎈뉴스(The CEN News): [더쎈뉴스 / The CEN News] 부산관광공사가 용두산공원에 새로운 관광거리를 마련하기 위해 민간사업자를 모집한다. 공사는 18일부터 다음 달 4일까지 용두산공원에서 관광·문화·행사 프로그램을 운영할 사업자를 공개 모집한다고 밝혔다.
@@ -201,17 +223,6 @@
   - 아이뉴스24: 내달 4일까지 관광&middot;문화&middot;이벤트 분야 운영 주체 모집 현장설명회 개별 운영&hellip;공간 특성 반영한 콘텐츠 발굴 부산 원도심의 관광 거점인 용두산공원이 민간의 아이디어와 운영 역량을 활용해 새로운 관광 콘텐츠를 선보인다. 부산관광공사는 공원 내 관광자원을 
     http://www.inews24.com/view/2027606
 
-### 포항국제불빛축제 19일 개막…영일대·송도서 사흘간 빛의 향연 펼친다
-- 매체 5곳 · TTL뉴스 · 뉴스타운 · 뉴시스 · 문화뉴스 · 이로운넷  ← 여러 곳이 썼다
-  - 문화뉴스: (더쎈뉴스 / The CEN News) 한종근 기자 hjk2749@naver.com‘2026 포항국제불빛축제’가 오는 19일 저녁 송도 포항구항에서 열리는 미디어파사드 점등식을 시작으로 21일까지 사흘간 펼쳐진다. 올해 축제는 ‘All Light!
-    https://www.mhns.co.kr/news/articleView.html?idxno=769667
-  - TTL뉴스: [퍼블릭뉴스통신]​‘2026포항국제불빛축제’가 오는 19일 저녁 송도 포항구항에서 열리는 미디어파사드 점등식을 시작으로 21일까지 사흘간 영일대해수욕장과 송도 포항구항 일원에서 펼쳐진다. ​‘All Light!
-    http://www.ttlnews.com/news/articleView.html?idxno=3163920
-  - 이로운넷: 이로운넷 = 강진구 기자 ‘2026 포항국제불빛축제’가 오는 19일부터 21일까지 사흘 간 영일대해수욕장과 송도 포항구항 일원에서 개최된다. 포항시는 올해 축제를 ‘All Light!
-    https://www.eroun.net/news/articleView.html?idxno=95897
-  - 뉴시스: [포항=뉴시스]송종욱 기자 = '2026 포항국제불빛축제'가 19~21일 사흘간 영일대해수욕장과 송도 포항구항 일원에서 빛의 향연을 펼친다. 축제는 '올 라이트 올 굿'이란 주제로 불꽃·미디어아트·거리 예술·시민 참여 프로그램을 결합한 야간 관광 콘텐츠를 선보인다.
-    https://www.newsis.com/view/NISX20261118_0003873804
-
 ### 부산관광공사, 용두산공원 관광 콘텐츠 기획·운영 민간사업자 공개 모집
 - 매체 3곳 · LG헬로비전 · 부산일보 · 브릿지경제  ← 여러 곳이 썼다
   - 부산일보: 용두산공원 전경. 부산관광공사 제공 부산관광공사(사장 이정실, 이하 공사)는 부산 원도심의 대표 관광명소인 용두산공원의 활성화를 위.
@@ -221,19 +232,19 @@
   - 브릿지경제: 부산관광공사가 부산 원도심의 대표 관광명소인 용두산공원에 민간의 창의성과 전문성을 접목해 새로운 관광콘텐츠 발굴에 나선다. 부산관광공사는 용두산공원의 관광자원을 활용한 콘텐츠를 기획·운영할 민간사업자를 공개 모집한다고 18일 밝혔다.
     https://www.viva100.com/article/20261118501127
 
+### 포항시, 국제불빛축제 앞두고 착한요금·부당요금 근절 캠페인 개최
+- 매체 2곳 · 다경뉴스 · 매일일보  ← 여러 곳이 썼다
+  - 다경뉴스: [포항=다경뉴스 김은하 기자] 포항시는 오는 19일 개막하는 ‘2026 포항국제불빛축제’를 앞두고 관광객이 안심하고 즐길 수 있는 축제 환경을 조성하기
+    http://www.dkitnews.com/523928
+  - 매일일보: 매일일보 = 김성찬 기자 | 포항시는 오는 19일 개막하는 '2026 포항국제불빛축제'를 앞두고 관광객이 안심하고 즐길 수 있는 축제 환경을 조성하기 위해 지난
+    https://www.m-i.kr/news/articleView.html?idxno=2019858
+
 ### 경성대, 글로벌 관광혁신 포럼 개최… 부산 관광산업 경쟁력 강화 모색
 - 매체 2곳 · 브릿지경제 · 인더스트리뉴스  ← 여러 곳이 썼다
   - 브릿지경제: 경성대가 국내외 대학 및 관광 분야 전문기관과 협력해 부산 관광산업의 경쟁력 강화와 글로벌 인재 양성에 나선다. 경성대 글로벌인재유치센터는 최근 교내 건학기념관에서 ‘2026 부산 글로벌 관광혁신 포럼’을 개최했다고 18일 밝혔다.
     https://www.viva100.com/article/20261118501154
   - 인더스트리뉴스: [인더스트리뉴스 부산=하용성 기자] 경성대학교가 국내외 관광 전문가들과 손잡고 부산 문화관광산업의 경쟁력 강화와 글로벌 인재 양성에 나섰다. 학술 교류를 넘어 공
     https://www.industrynews.co.kr/news/articleView.html?idxno=89810
-
-### 제천문화관광재단, 수험생·가족 위한 특별 문화행사…AI 체험·뮤지컬 상영
-- 매체 2곳 · 신아일보 · 충청매일  ← 여러 곳이 썼다
-  - 신아일보: 충북 제천에서 대학수학능력시험을 마친 수험생들이 가족과 함께 인공지능(AI) 기술을 체험하고 뮤지컬 공연을 감상하며 휴식을 즐길 수 있는 문화행사가 열린다. 제천문
-    https://www.shinailbo.co.kr/news/articleView.html?idxno=5084740
-  - 충청매일: 제천문화관광재단(이사장 정연우)은 오는 28일 제천영상미디어센터에서 수능을 마친 학생과 가족을 대상으로 인공지능(AI) 캐릭터 제작 체험과 뮤지컬 공연 실황 특별상영을 연다. 체험 프로그램 ‘상상 온(ON)!
-    https://www.ccdn.co.kr/news/articleView.html?idxno=1112066
 
 ## 여행업계
 
@@ -474,6 +485,13 @@
 
 ## 공연·전시 — category: stage, 하루 두 편 이상
 
+### [stage] '국립심포니 6 첼리스트' 22일 예술의전당 다채로운 첼로 공연
+- 매체 2곳 · 매일일보 · 충북데일리
+  - 매일일보: 매일일보 = 김종혁 기자 | 국립심포니오케스트라는 오는 22일 오후 2시 예술의전당 IBK기업은행챔버홀에서 실내악 시리즈 3 ‘국립심포니 6 첼리스트’를 개최한다
+    https://www.m-i.kr/news/articleView.html?idxno=2020002
+  - 충북데일리: 실내악 시리즈 Ⅲ ‘국립심포니 6 첼리스트’, 탱고부터 오페라까지 다채로운 첼로 향연단일 악기의 다양한 음색과 표현력을 조명하는 무대 탱고·오페라·민요·모음곡을 아우르는 편곡 프로그램 국립심포니 첼로 단원만으로 꾸린 첫 앙상블 공연 KNSO아카데미 청년교육단원 특별 출연해 선배 음악가들
+    https://www.cbdaily.co.kr/news/article.html?no=64639
+
 ### [stage] '진격의 거인' 첫 공식 심포니 콘서트 내년 3월 내한
 - 매체 2곳 · 에너지뉴스 · 연합뉴스
   - 에너지뉴스: 인기 애니메이션 '진격의 거인' 시리즈 최초의 공식 라이선스 심포니 오케스트라 콘서트 '심포니 프롬 파라디'(Symphony from Paradis)가 내년 3월
@@ -481,14 +499,32 @@
   - 연합뉴스: (서울=연합뉴스) 임순현 기자 = 일본 애니메이션 '진격의 거인'의 공식 라이선스 심포니 오케스트라 콘서트인 '진격의 거인 오피셜 오케스트라 콘. ..
     https://www.yna.co.kr/view/AKR20261118042500005
 
+### [stage] 감귤박물관 특별기획전 ‘형형색색形形色色: 네 개의 세계’ 개최
+- 매체 2곳 · 서귀포방송 · 제주일보
+  - 제주일보: 서귀포시 감귤박물관과 서귀포시장애인종합복지관이 공동 기획한 전시 ‘형형색색(形形色色): 네 개의 세계’가 오는 19일부터 내년 2월 14일까지 감귤박물관 2층 기획전시실에서 열린다. 전시에서는 ‘형형색색’의 의미를 확장해 서로 다른 시선과 경험, 표현 방식을 바탕으로 자신만의 작품 세계
+    https://www.jejunews.com/news/articleView.html?idxno=2228893
+  - 서귀포방송: 서귀포시 감귤박물관과 서귀포시장애인종합복지관(관장 윤보철)이 공동 기획한 특별기획전 ‘형형색색: 네 개의 세계’가 오는 19일부터 내년 2월 14일까지 88일간 감귤박물관 2층 기획전시실에서 열린다. ‘형형색색’은 서로 다른 형태와 색깔이 어우러진 다채로운 모습을 뜻한다.
+    http://www.seogwipo.tv/news/articleView.html?idxno=15139
+
 ### [stage] 대전시향, 26일 마티네 콘서트…모차르트 오페라로 인간의 감정 조명
-- 매체 3곳 · 뉴스홈(newshome) · 충청게릴라뉴스 · 충청매일
+- 매체 4곳 · 금강일보 · 뉴스홈(newshome) · 충청게릴라뉴스 · 충청매일
   - 뉴스홈(newshome): 대전시립교향악단은 오는 26일 오전 11시 대전시립연정국악원 큰마당에서 대표 기획 시리즈인 ‘마티네 콘서트’의 네 번째 공연을 개최한다. 마티네 콘서트는 아름다운 클래식 음악에 쉽고 흥미로운 해설을 더한 공연으로, 클래식 애호가는 물론 일반 시민들에게도 특별한 오전 시간을 선사하며 꾸준
     https://www.news-home.co.kr/news/articleView.html?idxno=79750
   - 충청게릴라뉴스: 대전시립교향악단이 오는 26일 대전시립연정국악원 큰마당에서 기획 시리즈인 &#39;마티네 콘서트&#39; 네번째 무대를 펼친다. 18일 대전시향에 따르면 마티네 콘서트는 아름다운 음악과 쉽고 흥미로운 해설이 어우러진 공연으로 클래식 애호가는 물론 시민들에게도 특별한 시간을 선사하며 꾸준
     http://www.ccgnews.kr/news/articleView.html?idxno=20895
   - 충청매일: 대전시립교향악단이 모차르트 탄생 270주년을 기념하는 마티네 콘서트의 마지막 무대를 선보인다. 대전시립교향악단은 오는 26일 오전 11시 대전시립연정국악원 큰마당에서 기획 시리즈 ‘마티네 콘서트’ 네 번째 공연을 개최한다고 18일 밝혔다.
     https://www.ccdn.co.kr/news/articleView.html?idxno=1112062
+  - 금강일보: 대전시립교향악단은 오는 26일 오전 11시 대전시립연정국악원 큰마당에서 대표 기획 시리즈인 ‘마티네 콘서트’의 네 번째 무대를 선보인다. 아름다운 음악과 쉽고 흥미로운 해설이 어우러진 ‘마티네 콘서트’는 클래식 애호가는 물론 일반 시민들에게도 특별한 오전 시간을 선사하며 꾸준한 사랑을 
+    https://www.ggilbo.com/news/articleView.html?idxno=1193998
+
+### [stage] 대구오페라하우스 ‘투란도트’ 세계 무대에…23일부터 온라인 송출
+- 매체 3곳 · OMATE 시니어 · 경북매일 · 매일신문
+  - 경북매일: 대구국제오페라축제에서 선보인 한·이탈리아 공동제작 오페라가 온라인을 통해 전 세계 관객을 만난다. 대구문화예술진흥원 대구오페라하우스는 이탈리아 아슬리코 꼬모 극장과 공동제작한 오페라 ‘투란도트: 박물관의 수수께끼’를 오는 23일과 24일 글로벌 오페라 스트리밍 플랫폼
+    https://www.kbmaeil.com/article/20261118500554
+  - 매일신문: 오페라비전 투란도트. 대구문화예술진흥원.
+    https://www.imaeil.com/page/view/2026111815224626687
+  - OMATE 시니어: 대구오페라하우스가 이탈리아 아슬리코 꼬모 극장과 공동 제작한 오페라 ‘투란도트: 박물관의 수수께끼’를 글로벌 오페라 스트리밍 플랫폼 오페라비전(OperaVisio
+    https://www.omate.kr/news/articleView.html?idxno=58943
 
 ### [stage] CN갤러리, 이성용 개인전 "화(花)" 개최
 - 매체 2곳 · 아산포커스 · 퍼블릭뉴스통신(Public news-network for TTL)
@@ -496,11 +532,6 @@
     https://www.asanfocus.co.kr/news/articleView.html?idxno=54334
   - 퍼블릭뉴스통신(Public news-network for TTL): 세종대학교 세종뮤지엄갤러리 2관이 한지를 주요 재료로 시간의 축적과 흔적을 표현해 온 최은정 작가의 개인전을 연다. ‘시간’을 주제로 한 이번 전시에서는 작가가
     https://www.ttlnews.com/news/articleView.html?idxno=3163784
-
-### [stage] '국립심포니 6 첼리스트' 22일 예술의전당 다채로운 첼로 공연
-- 매체 1곳 · 매일일보
-  - 매일일보: 매일일보 = 김종혁 기자 | 국립심포니오케스트라는 오는 22일 오후 2시 예술의전당 IBK기업은행챔버홀에서 실내악 시리즈 3 ‘국립심포니 6 첼리스트’를 개최한다
-    https://www.m-i.kr/news/articleView.html?idxno=2020002
 
 ### [stage] '진격의 거인' OST, 오케스트라로 듣는다⋯내년 3월 서울 공연
 - 매체 1곳 · 이투데이
@@ -526,20 +557,8 @@
   - 문화뉴스: [더쎈뉴스 / The CEN News] 부산콘서트홀에서 발레와 오케스트라 연주를 함께 즐길 수 있는 '호두까기 인형' 공연이 열린다. 클래식부산은 오는 27일 오후 7시 30분과 28일 오후 5시 부산콘서트홀에서 '해설이 있는 콘서트발레-호두까기 인형'을 공연한다고 18일 밝혔다.
     https://www.mhns.co.kr/news/articleView.html?idxno=769582
 
-### [stage] 대구오페라하우스 ‘투란도트’ 세계 무대에…23일부터 온라인 송출
-- 매체 2곳 · 경북매일 · 매일신문
-  - 경북매일: 대구국제오페라축제에서 선보인 한·이탈리아 공동제작 오페라가 온라인을 통해 전 세계 관객을 만난다. 대구문화예술진흥원 대구오페라하우스는 이탈리아 아슬리코 꼬모 극장과 공동제작한 오페라 ‘투란도트: 박물관의 수수께끼’를 오는 23일과 24일 글로벌 오페라 스트리밍 플랫폼
-    https://www.kbmaeil.com/article/20261118500554
-  - 매일신문: 오페라비전 투란도트. 대구문화예술진흥원.
-    https://www.imaeil.com/page/view/2026111815224626687
-
-### [stage] 음성군 2026 송년음악회 … 소프라노 조수미 세계무대 데뷔 40주년 기념 공연
-- 매체 1곳 · 음성타임즈
-  - 음성타임즈: 음성군은 2026년 한 해를 마무리하는 송년음악회로 세계적인 소프라노 조수미의 세계무대 데뷔 40주년을 기념하는 공연을 오는 12월 14일 오후. ..
-    http://www.estimes.co.kr/news/articleView.html?idxno=34505
-
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 33개 확인, 사진 줄 5개)
+(자유 이용 사진: 이름 후보 34개 확인, 사진 줄 3개)
 
 ### 🔥 화제(매체 13곳) [music] AI 보컬 ‘머무르’ 5일째 멜론 차트 1위, 가수 컴백 물결은?
 - 매체 1곳 · 한국사회복지저널
@@ -562,11 +581,37 @@
   - 뉴시스: [서울=뉴시스]이재훈 기자 = K-팝 간판 걸그룹 '블랙핑크(BLACKPINK)' 멤버 겸 글로벌 팝스타 제니(JENNIE)와 호주 사이키델릭 록 밴드 '테임 임팔라(Tame Impala)'의 협업곡 '드라큘라(Dracula)'가 미국 빌보드 메인 싱글 차트 '핫 100' 최상위권을 굳
     https://www.newsis.com/view/NISX20261118_0003872357
 
+### 🔥 화제(매체 4곳) [startrip] '유퀴즈' 김명민, 데뷔 30년 만 첫 예능⋯유재석과 동갑·동문 케미
+- 매체 2곳 · iMBC 연예 · 아이뉴스24  ← 여러 곳이 썼다
+  - 아이뉴스24: 배우 김명민이 '유퀴즈'로 데뷔 30년 만 첫 예능 출연에 나선다. 나이가 같은 유재석과 남다른 케미를 보여줄 김명민의 반전 입담이 어떤 재미를 안겨줄지 기대가 커진다.
+    https://www.joynews24.com/view/2027827
+  - iMBC 연예: 배우 김명민이 예능 출연을 하지 않았던 이유를 밝혔다. 18일 방송된 tvN '유퀴즈 온 더 블럭'에는 배우 김명민이 출연했다.
+    https://enews.imbc.com/News/RetrieveNewsInfo/525298
+
+### 🔥 화제(매체 4곳) [movie] 세종꿈드림센터, 학교 밖 청소년 단편영화 시사회 열어
+- 매체 2곳 · 웹이코노미 · 충청메시지  ← 여러 곳이 썼다
+  - 웹이코노미: 세종특별자치시학교밖청소년지원센터는 11월 18일 세종시청자미디어센터에서 영상동아리 ‘#학교 밖 TAKE2’ 시사회와 수료식을 개최했다. 이번 프로그램은 9월 29일
+    https://www.webeconomy.co.kr/news/articleView.html?idxno=2381751
+  - 충청메시지: 세종특별자치시학교밖청소년지원센터(이하 세종꿈드림센터)는 11월 18일(수) 세종시청자미디어센터에서 학교 밖 청소년 「자기계발 프로그램」 영상동아리 ‘#학교 밖 T
+    https://www.ccmessage.kr/news/articleView.html?idxno=125828
+
+### 🔥 화제(매체 4곳) [startrip] 제니, 美 빌보드 메인 싱글차트 3위…피원하모니, 앨범 4위 진입
+- 매체 1곳 · KBS WORLD Radio
+  - KBS WORLD Radio: 그룹 블랙핑크 제니와 피원하모니 등 K팝 가수들이 미국 빌보드 메인 차트에서 호성적을 거뒀다. 17일(현지시간) 빌보드에 따르면 제니가 호주 가수 테임 임팔라와 협업한 '드라큘라'(Dracula)가 미국 빌보드 메인 싱글 차트 '핫 100'에서 전주와 동일한 3위를 기록하며 자체 최고 
+    https://world.kbs.co.kr/service/contents_view.htm?lang=k&menu_cate=enternews&id=&board_seq=472892
+
 ### 🔥 화제(매체 4곳) [movie] 임영웅 스타디움 실황 영화 개봉 '영웅시대로 북적이는 영화관' [TF사진관]
 - 매체 1곳 · 더팩트
 - 사진(자유 이용, 임영웅): `![임영웅 · 사진 구전녹용 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2a/Lim_Young-woong_in_an_ad_for_%EA%B5%AC%EC%A0%84%EB%85%B9%EC%9A%A9_%28June_2020%29_%28cropped%29.jpg)`
   - 더팩트: 18일 오후 임영웅의 공연 실황 영화 임영웅│아임 히어로 더 스타디움 2가 개봉한 가운데 서울 용산구 CGV 용산아이파크몰을 찾은 팬들이 기념사진을 촬영하고 있다. 임영웅│…
     https://news.tf.co.kr/read/photomovie/2390403.htm
+
+### 🔥 화제(매체 3곳) [startrip] 황민현·투어스, 수능 D-1 수험생 응원 "차분하게..후회 없이"
+- 매체 2곳 · 뉴스핌 · 스타뉴스  ← 여러 곳이 썼다
+  - 스타뉴스: 가수 겸 배우 황민현과 그룹 투어스(TWS)가 2027학년도 대학수학능력시험(수능)을 앞둔 수험생에게 응원을 전했다. 황민현과투어스(신유, 도훈, 영재, 한진, 지훈, 경민)는 18일 각자의 공식 유튜브 채널에 2027학년도 수능 응원 메시지 영상을 게재했다.
+    https://www.starnewskorea.com/music/2026/11/18/2026111817042024184
+  - 뉴스핌: [서울=뉴스핌] 최문선 기자 = 가수 겸 배우 황민현과 그룹 투어스가 2027학년도 대학수학능력시험을 앞둔 수험생들에게 따뜻한 격려와 응원의 메시지를 전했다. 가수 겸 배우 황민현과 투어스는 18일 각자 공식 유튜브 채널에 2027학년도 수능 응원 메시지 영상을 게재했다
+    https://www.newspim.com/news/view/20261118001246
 
 ### 🔥 화제(매체 3곳) [movie] 배종옥 첫 공포영화 '완벽한 집' 25일 개봉…장규리와 호흡
 - 매체 1곳 · 연합뉴스
@@ -580,34 +625,8 @@
   - 아이뉴스24: 소녀시대 태연이 내년 1월 일곱 번째 단독 콘서트를 개최한다. 태연의 단독 콘서트 'TAEYEON CONCERT - F.L.Y.
     https://www.joynews24.com/view/2027652
 
-### 🔥 화제(매체 3곳) [startrip] 바 루아, 광주 선수 최초로 K리그 이달의 선수 수상
-- 매체 2곳 · 스타뉴스 · 연합뉴스  ← 여러 곳이 썼다
-- 사진(자유 이용, 루아): `![루아 · 사진 NINE STARS · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/a/ab/181011_%EC%9C%84%ED%82%A4%EB%AF%B8%ED%82%A4_%EB%A3%A8%EC%95%84.jpg)`
-  - 연합뉴스: (서울=연합뉴스) 최송아 기자 = 프로축구 K리그1 광주FC의 바 루아가 광주 선수로는 처음으로 리그 이달의 선수로 뽑혔다.
-    https://www.yna.co.kr/view/AKR20261118069000007
-  - 스타뉴스: 프로축구 K리그1 광주FC 공격수 바 루아(30)가 광주 선수 최초로 K리그 이달의 선수로 선정됐다. 한국프로축구연맹은 18일 "EA SPORTS 이달의 선수상 10월 수상자로 바 루아가 뽑혔다"고 밝혔다.
-    https://www.starnewskorea.com/sports/2026/11/18/2026111813501253482
-  - 연합뉴스: (서울=연합뉴스) 배진남 기자 = 프로축구 K리그2 수원 삼성의 미드필더 김민우(24)가 개인 통산 두 번째로 K리그 '이달의 딜리버리'를 수상. ..
-    https://www.yna.co.kr/view/AKR20261118102400007
-
-### 🔥 화제(매체 3곳) [startrip] [핌in현장] 앰퍼샌드원, 데뷔 3년 만에 첫 정규…"'K팝의 왕'으로 불리길"
-- 매체 1곳 · 뉴스핌
-  - 뉴스핌: [서울=뉴스핌] 이지은 기자 = 그룹 앰퍼샌드원이 더욱 강렬해진 퍼포먼스를 통해 왕좌에 이르는 모습을 그려낸다. 앰퍼샌드원은 17일 서울 광진구에 위치한 예스24라이브홀에서 첫 번째 정규앨범 '패스파인더(PATHFINDER)' 발매 기념 미디어 쇼케이스를 열고
-    https://www.newspim.com/news/view/20261117000945
-
-### 🔥 화제(매체 3곳) [movie] '하늘빛 임영웅'의 또 다른 감동! 임영웅 영화 오늘(18일) 개봉
-- 매체 1곳 · 스타뉴스
-- 사진(자유 이용, 임영웅): `![임영웅 · 사진 구전녹용 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2a/Lim_Young-woong_in_an_ad_for_%EA%B5%AC%EC%A0%84%EB%85%B9%EC%9A%A9_%28June_2020%29_%28cropped%29.jpg)`
-  - 스타뉴스: '하늘빛 임영웅'의 또 다른 감동이 찾아온다. 임영웅은 공연실황영화 '임영웅│아임 히어로 더 스타디움 2'를 18일 전국 CGV에서 개봉한다.
-    https://www.starnewskorea.com/star/2026/11/18/2026111808010684012
-
-### [music] [TF초점] 숏폼을 타고 다시 음원 차트 점령한 K팝
-- 매체 1곳 · 더팩트
-  - 더팩트: 2020년대 이후 K팝이 음원 차트 강세 숏폼 대중화와 시기 맞물려 피프티 피프티, 뉴진스 성공도 큰 영향 음원 차트에 다시 K팝 그룹의 시대가 도래했다. 18일 기준 음악 플랫폼…
-    https://news.tf.co.kr/read/entertain/2390662.htm
-
 ---
-거리 114건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 115건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -616,65 +635,65 @@
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
 (검색어 33개 · 고른 영상 15개)
 
+## ENHYPEN (엔하이픈) 'I Want You' Official MV
+- 채널 HYBE LABELS · 조회수 21,686,897회 · 5일 전
+- `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
+
 ## GIRLSET "young & dumb" Music Video
-- 채널 JYP Entertainment · 조회수 10,965,583회 · 5일 전
+- 채널 JYP Entertainment · 조회수 11,254,225회 · 5일 전
 - `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
 
+## ENHYPEN (엔하이픈) 'I Want You' Official Teaser
+- 채널 HYBE LABELS · 조회수 937,247회 · 6일 전
+- `@youtube _pLJBPzp3Fg` · https://www.youtube.com/watch?v=_pLJBPzp3Fg
+
 ## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 741,200회 · 3일 전
+- 채널 tvN DRAMA · 조회수 746,790회 · 3일 전
 - `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
 
-## 더 커진 판, 더 독해진 가족 [가족계획 시즌2] 티저 예고편
-- 채널 쿠팡플레이 Coupang Play · 조회수 510,692회 · 1일 전
-- `@youtube cBHXKJiXFJs` · https://www.youtube.com/watch?v=cBHXKJiXFJs
+## [놀면 뭐하니?] 민사는 민사 사건이고 형사는 형사 사건(?) 우당탕탕 강력 3팀🤣 수사반장 유 반장 1편 | MBC210206방송
+- 채널 올끌 (All of MBClassic) · 조회수 464,922회 · 6일 전
+- `@youtube _248l8fX-fM` · https://www.youtube.com/watch?v=_248l8fX-fM
 
-## [11월 20일 예고] 이서진×김광규, ‘상남자 my스타’ 김종국의 수발보다 더 힘든 유산소 지옥↗
-- 채널 SBS Entertainment · 조회수 482,589회 · 2일 전
-- `@youtube 7HpdN3C2XXA` · https://www.youtube.com/watch?v=7HpdN3C2XXA
+## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
+- 채널 tvN DRAMA · 조회수 343,118회 · 4일 전
+- `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
+
+## [10화 예고] 내가 널 만난 건 행운이 아니라 기적💞 서로가 있어 행복한 임시완X설인아에 다가온 또다른 위협? #나의유죄인간 EP.10
+- 채널 tvN DRAMA · 조회수 307,921회 · 2일 전
+- `@youtube izmmaIqoz3s` · https://www.youtube.com/watch?v=izmmaIqoz3s
 
 ## [라이어 7회 예고] ＂언니가 어떻게 나를 속일 수가 있어?＂, MBC 261120 방송
-- 채널 MBCdrama · 조회수 296,575회 · 4일 전
+- 채널 MBCdrama · 조회수 299,755회 · 4일 전
 - `@youtube mueEY-8Pw_0` · https://www.youtube.com/watch?v=mueEY-8Pw_0
 
-## [메이킹] 티랑이들, 힘들고 지겨울 땐 뭐다?👀 방방강쥐 임시완♥설인아 X 능글냥이 김정현♥연우 보기😍 #나의유죄인간 EP.8
-- 채널 tvN DRAMA · 조회수 296,563회 · 7일 전
-- `@youtube KakUksE913M` · https://www.youtube.com/watch?v=KakUksE913M
+## ［31회 예고］제가 혹이라서 허락 안 하신 거예요? [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 274,648회 · 4일 전
+- `@youtube 1x4AkY0HbA4` · https://www.youtube.com/watch?v=1x4AkY0HbA4
 
 ## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
-- 채널 tvN DRAMA · 조회수 192,529회 · 1일 전
+- 채널 tvN DRAMA · 조회수 199,195회 · 1일 전
 - `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
 
 ## 누가 더 유죄인간인가 | 유죄와 벌⚖️❤️‍🔥 EP.00  #나의유죄인간
-- 채널 tvN DRAMA · 조회수 188,025회 · 7일 전
+- 채널 tvN DRAMA · 조회수 189,518회 · 7일 전
 - `@youtube VFiUuc-HHUY` · https://www.youtube.com/watch?v=VFiUuc-HHUY
 
 ## ［32회 예고］못 데려갑니다 결이 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 177,838회 · 3일 전
+- 채널 KBS Drama · 조회수 178,484회 · 3일 전
 - `@youtube OgU1Nkhzai8` · https://www.youtube.com/watch?v=OgU1Nkhzai8
 
-## [#음중직캠] BESTie YU-JI (베스티 유지) – 연애의 조건 FanCam | 쇼! 음악중심 | MBC261114
-- 채널 MBCkpop · 조회수 176,751회 · 4일 전
-- `@youtube KWCo_DQtx4Q` · https://www.youtube.com/watch?v=KWCo_DQtx4Q
+## [66회 선공개] “3말 4초다!” 유재석×유연석, 틈친구 연령대 추리 100% 적중↗
+- 채널 SBS Entertainment · 조회수 177,317회 · 1일 전
+- `@youtube Ziw_H1EQFFY` · https://www.youtube.com/watch?v=Ziw_H1EQFFY
 
-## [60화 예고] 그날 기억이 났어요 [욕망의 덫] | KBS 방송
-- 채널 KBS Drama · 조회수 99,990회 · 1일 전
-- `@youtube m1hZwDtrZL4` · https://www.youtube.com/watch?v=m1hZwDtrZL4
+## [K-Fancam] 베스티 유지 직캠 '연애의 조건 (Love Options)' (BESTie Yuji Fancam) @뮤직뱅크(Music Bank) 261113
+- 채널 KBS Kpop · 조회수 176,511회 · 4일 전
+- `@youtube DHcLy-kYIeA` · https://www.youtube.com/watch?v=DHcLy-kYIeA
 
-## [2화 예고] 너도 이제 나라를 위해 칼을 들어야 한다 [문무] | KBS 방송
-- 채널 KBS Drama · 조회수 64,956회 · 4일 전
-- `@youtube rjQ6jL2Hdes` · https://www.youtube.com/watch?v=rjQ6jL2Hdes
-
-## [3화 예고] 들리지 않느냐? 전쟁의 소리가 [문무] | KBS 방송
-- 채널 KBS Drama · 조회수 59,755회 · 2일 전
-- `@youtube WNVgm1vCmqE` · https://www.youtube.com/watch?v=WNVgm1vCmqE
-
-## [60화 하이라이트] 장서희가 뒤바꾼 딸의 정체를 알게 된 주새벽? [욕망의 덫] | KBS 261118 방송
-- 채널 KBS Drama · 조회수 52,419회 · 0일 전
-- `@youtube pgjLUU3VEuY` · https://www.youtube.com/watch?v=pgjLUU3VEuY
-
-## YENA - Sakuranbo｜Beyond the Studio｜LIVE
-- 채널 1theK Live - 원더케이 라이브 · 조회수 47,136회 · 0일 전
-- `@youtube 8wdKPH6_YGc` · https://www.youtube.com/watch?v=8wdKPH6_YGc
+## [58화 예고] 당신이 짠 판에서 놀아나지 않아 [욕망의 덫] | KBS 방송
+- 채널 KBS Drama · 조회수 126,996회 · 5일 전
+- `@youtube Dps6croc8lI` · https://www.youtube.com/watch?v=Dps6croc8lI
 
 
 

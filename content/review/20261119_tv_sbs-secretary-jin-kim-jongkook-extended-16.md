@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '비서진' 16회로 연장, 20일 김종국 시작으로 지수·화사 출연"
+title: SBS '비서진' 16회로 연장, 20일 김종국 시작으로 지수·화사 출연
 source_name: ''
 source_url: ''
-summary: SBS '비서진'이 16회로 연장을 확정했다. 한 주 쉰 뒤 20일 김종국, 27일 블랙핑크 지수, 12월 4일 화사가 차례로 나온다. 방송은 금요일 밤 11시 10분이다.
+summary: SBS '비서진'이 16회로 연장을 확정했다. 한 주 쉰 뒤 20일 김종국, 27일 블랙핑크 지수, 12월 4일 화사가 차례로 나온다.
+  방송은 금요일 밤 11시 10분이다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9395
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9395
+status: published
+published_id: c-72cdafe658648361dbd7863e15d69ba81672ca85
+published_on: '2026-11-19'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 무엇이든 해줄지니 - 비서진 | 회차 · 20일 방송분

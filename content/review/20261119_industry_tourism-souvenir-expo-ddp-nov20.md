@@ -4,16 +4,19 @@ channel: travel
 region: industry
 section: news
 kind: 보도자료
-title: "문체부·관광공사, 20~22일 DDP서 '대한민국 관광기념품 박람회'"
+title: 문체부·관광공사, 20~22일 DDP서 '대한민국 관광기념품 박람회'
 source_name: ''
 source_url: ''
-summary: 문화체육관광부와 한국관광공사가 20일부터 22일까지 DDP에서 '2026 대한민국 관광기념품 박람회'를 연다. 143개 기업·기관이 참여한다. 수험표를 가져오면 키캡키링을 선착순으로 준다.
+summary: 문화체육관광부와 한국관광공사가 20일부터 22일까지 DDP에서 '2026 대한민국 관광기념품 박람회'를 연다. 143개 기업·기관이
+  참여한다. 수험표를 가져오면 키캡키링을 선착순으로 준다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72732
-  - https://www.yna.co.kr/view/AKR20261118033700030
-  - https://www.fnnews.com/news/202611180116012656
-  - https://www.news2day.co.kr/article/20261118500036
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72732
+- https://www.yna.co.kr/view/AKR20261118033700030
+- https://www.fnnews.com/news/202611180116012656
+- https://www.news2day.co.kr/article/20261118500036
+status: published
+published_id: c-5018456898ea6436e6568720de09d3ab7ce31e67
+published_on: '2026-11-19'
 ---
 문화체육관광부와 한국관광공사가 '2026 대한민국 관광기념품 박람회'를 연다. 20일부터 22일까지 사흘간 서울 동대문디자인플라자(DDP) 아트홀 1·2관에서 열린다.
 
