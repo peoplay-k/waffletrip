@@ -6,9 +6,16 @@
 ## 괌
 
 ### 호시노 리조트 리조나레 괌, 현지 문화·미식 결합한 '비치클럽' 및 'CHOCHO' 오픈
-- 매체 1곳 · TTL뉴스
+- 매체 2곳 · TTL뉴스 · 숙박매거진  ← 여러 곳이 썼다
   - TTL뉴스: 괌 서부 해안의 대표 휴양지인 하갓냐만에 현지 전통문화와 현대적 휴양 감각을 결합한 신규 복합 공간이 들어섰다. 호시노 리조트 리조나레 괌은 11월 1일 괌 지역 리조트 업계 최초로 본격적인 콘셉트형 비치클럽을 정식 개장했다고 밝혔다.
     http://www.ttlnews.com/news/articleView.html?idxno=3164001
+  - 숙박매거진: 호시노 리조트 리조나레 괌이 지난 11월 1일 하갓냐만 해변에 음식과 음료, 휴식 공간, 해양 액티비티를 갖춘 ‘비치클럽’을 열었다. 지난 8월 8일 문을 연 올데이 다이닝 ‘CHOCHO’와 더불어 차모로 문화에서 착안한 공간과 현지 식재료를 쓴 요리를 선보인다.
+    http://www.sukbakmagazine.com/news/articleView.html?idxno=70027
+
+### 힐튼 괌 리조트 & 스파, 열대어와 수영하고, 해산물 요리 먹고…찬 바람 불 땐 괌에서 몸 녹여요
+- 매체 1곳 · 한국경제
+  - 한국경제: 힐튼 괌 리조트 & 스파, 열대어와 수영하고, 해산물 요리 먹고…찬 바람 불 땐 괌에서 몸 녹여요, 투몬만의 아름다운 오션뷰부터 요일별 테마 뷔페&middot;피클볼까지
+    https://www.hankyung.com/article/2026111964801
 
 ### PHR코리아, 여행업계 관계자 초청 '괌 아카데미' 진행
 - 매체 1곳 · 파이낸셜뉴스
@@ -24,13 +31,6 @@
 - 매체 1곳 · 트래블아이
   - 트래블아이: 호시노 리조트 리조나레 괌, 하갓냐만에 해변 복합공간 개장 차모로 전통문화부터 미식·선셋·DJ 공연까지 한곳에서
     https://traveli.net/traveli/article-1794992402833-fe3b8175
-
-### FAA pauses router installations after nationwide ground stop
-- 매체 2곳 · Pacific Daily News · The Guam Daily Post  ← 여러 곳이 썼다
-  - Pacific Daily News: (The Center Square) - The Federal Aviation Administration on Tuesday paused installation of routers linked to last week’s nationwide ground stop, the FAA confir
-    https://www.guampdn.com/news/national/faa-pauses-router-installations-after-nationwide-ground-stop/article_5e0b4a32-6bde-5c13-b47d-aaf92d9248bf.html
-  - The Guam Daily Post: Guam appeared to escape the effects of a nationwide Federal Aviation Administration grounding order Saturday morning, with flights continuing to operate at A.B.
-    https://www.postguam.com/news/local/guam-unaffected-by-faa-nationwide-ground-stop/article_9c17e37d-ea21-4e61-ab33-3e3dc05a7f4a.html
 
 ## 하와이
 
@@ -57,25 +57,25 @@
   - 전민일보: 전북도 내 관광기업 7개사가 베트남 달랏에서 글로벌 시장 공략에 나선다. 전북특별자치도문화관광재단은 오는 20일부터 24일까지 베트남 달랏 람비엔 광장 일원에서 열리는 ‘2026 K-Vietnam Wellness Festa&Expo’에 참가해 전북 관광기업관을 단독 운영한다고 밝혔다.
     http://www.jeonmin.co.kr/news/articleView.html?idxno=450738
 
+### 하노이시는 논-하노이 노선의 S12 지하철역 건설을 원활하게 진행하기 위해 쩐흥다오 거리와 꽌쑤 거리의 교통 흐름을 조정했습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 2026년 11월 19일부터 2027년 5월 31일까지 S12 지하철역 건설, 차선 변경 및 년-하노이역 도시철도 차량기지 건설을 위해 쩐흥다오 거리와 꽌쑤 거리의 교통이 재정비될 예정입니다.
+    https://www.vietnam.vn/ko/ha-noi-dieu-chinh-giao-thong-duong-tran-hung-dao-quan-su-de-thi-cong-ga-ngam-s12-tuyen-nhon-ga-ha-noi
+
+### 까마우는 시장을 확대하고 하노이 소비자들과 제품을 판매할 수 있는 기회를 모색하고 있습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 까마우시는 하노이에서 "헬로 까마우 2026" 행사를 개최하여 기업과 유통업체를 연결하고, 농수산물의 안정적인 판로를 찾고, 물류 비용을 절감하는 데 기여했습니다.
+    https://www.vietnam.vn/ko/ca-mau-tim-co-hoi-mo-rong-thi-truong-ket-noi-tieu-thu-san-pham-tai-ha-noi
+
+### 베트남 전통 ​​의상인 아오자이를 기념하고 관광 진흥을 도모합니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 11월 21일부터 23일까지 하노이에서 다채로운 공연, 전시, 체험 행사가 펼쳐지는 '하노이 관광 아오자이 페스티벌 2026'이 개최됩니다. 이번 축제는 베트남 전통 ​​의상인 아오자이의 아름다움을 기념하는 것을 넘어, 문화유산의 가치와 관광 개발을 연계하고, 창의성을 함양하며, 하노이
+    https://www.vietnam.vn/ko/ton-vinh-ao-dai-gan-voi-quang-ba-du-lich
+
 ### 다낭의 이미지를 세계에 알리는 데 도움이 될 만한 아이디어를 독자 여러분께서 공유해 주시기를 바랍니다.
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 다낭이 국제 사회에 오래도록 기억될 만한 인상을 남기려면 어떻게 홍보해야 할까요? 더 많은 관광객과 투자자를 유치하고 세계 지도에서 도시의 위상을 높이기 위해 무엇을 해야 할까요?
     https://www.vietnam.vn/ko/moi-ban-doc-hien-ke-y-tuong-quang-ba-hinh-anh-da-nang-ra-the-gioi
-
-### 호치민시의 약 720헥타르에 달하는 산림지가 생태관광 개발을 위한 투자자를 기다리고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 호치민시에 위치한 꼰다오 국립공원은 생태관광, 리조트 및 엔터테인먼트 서비스 개발을 목적으로 총 면적 약 720헥타르에 달하는 16개 지역의 산림지를 임대할 단체 및 개인을 선정했다고 공식 발표했습니다.
-    https://www.vietnam.vn/ko/gan-720-ha-moi-truong-rung-lam-du-lich-sinh-thai-o-tp-hcm-cho-nha-dau-tu
-
-### 하노이에서 산둥 문화를 홍보하고 베트남-중국 우정의 전통을 이어갑니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 이 프로그램은 중국에서 가장 문화적으로 풍부한 지역 중 하나의 유산, 명승지, 전통 예술 및 관광 잠재력을 경험할 수 있도록 구성되어 있습니다.
-    https://www.vietnam.vn/ko/quang-ba-van-hoa-son-dong-tai-ha-noi-tiep-noi-truyen-thong-huu-nghi-viet-trung
-
-### 하노이시는 5개 도시철도 노선의 제안된 노선 및 역 위치에 대한 시민 의견을 수렴하고 있습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 하노이시는 현재 총 길이 약 293km, 우선 순위 역 28개를 포함하는 5개 도시철도 노선의 노선 및 역 위치에 대한 공개 의견 수렴을 진행하고 있습니다.
-    https://www.vietnam.vn/ko/ha-noi-lay-y-kien-nguoi-dan-ve-phuong-an-huong-tuyen-va-vi-tri-nha-ga-5-tuyen-duong-sat-do-thi
 
 ## 라오스
 
@@ -94,6 +94,13 @@
     http://www.ftoday.co.kr/news/articleView.html?idxno=370025
   - 열린뉴스통신: (서울=열린뉴스통신) 박소연 기자 = 가을 제주의 해안과 도심을 달리는 마라톤 레이스에 지역 관광 일정을 더한 이색 러닝 여행이 펼쳐졌다. 모두투어는 지난 14일 출발한 '제주 감귤국제마라톤 런트립'을 통해 스포츠와 관광을 결합한 테마여행 일정을 40여 명의 참여 속에 마쳤다고 18일 
     http://www.onews.tv/news/articleView.html?idxno=291964
+
+### 제주신화월드 메리어트 리조트, '베스트 인센티브 호텔' 선정
+- 매체 2곳 · 뉴스1 · 호텔앤레스토랑  ← 여러 곳이 썼다
+  - 뉴스1: 
+    https://www.news1.kr/local/jeju/6359196
+  - 호텔앤레스토랑: 국내 최대 복합리조트 제주신화월드 메리어트 리조트가 ‘월드 마이스 어워즈 2026(World MICE Awards 2026)’에서 ‘대한민국 베스트 인센티브 호텔’(South Korea’s Best Incentive Hotel 2026)로 선정됐다. 월드 마이스 어워즈는 글로벌 MICE
+    https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22541
 
 ### [내일 날씨] 전국 곳곳 영하 7도~10도 한파…충청·전라·제주 최대 10mm 비/눈, 강풍 주의
 - 매체 1곳 · 문화뉴스  ← 여러 곳이 썼다
@@ -116,17 +123,10 @@
   - 제주일보: 최근 제주 무사증(무비자) 제도가 전국적으로 이슈다. 제주 무사증 폐지 국회 청원이 제출된 데 이어 송언석 국회의원(국민의힘·경북 김천시)이 지난 13일 제주 무사증 입국 특례를 없애는 제주특별법 개정안을 대표발의한 것이다.
     http://www.jejunews.com/news/articleView.html?idxno=2228899
 
-### 제주서 中관광객 상대 불법 여행업·유상운송 적발
-- 매체 2곳 · 뉴시스 · 연합뉴스  ← 여러 곳이 썼다
-  - 뉴시스: [제주=뉴시스] 김수환 기자 = 외국인 관광객을 상대로 무등록 여행업과 불법 유상운송 영업을 벌인 불법 관광업자들이 제주 자치경찰에 적발됐다.
-    https://www.newsis.com/view/NISX20261118_0003872832
-  - 연합뉴스: (제주=연합뉴스) 고성식 기자 = 중국인 등 외국인 관광객을 대상으로 무등록 여행업과 불법 유상 운송 영업을 한 중국인 4명이 적발됐다.
-    https://www.yna.co.kr/view/AKR20261118080600056
-
 ## 일본
 
 ### 제주항공, 올해 일본 노선 탑승객 414만 명…역대 최대
-- 매체 4곳 · 메디컬투데이 · 불교방송 · 트래블데일리 · 한국경제  ← 여러 곳이 썼다
+- 매체 5곳 · 메디컬투데이 · 불교방송 · 트래블데일리 · 한국경제 · 한국정경신문  ← 여러 곳이 썼다
   - 불교방송: 제주항공의 올해 일본 노선 탑승객이 지난해 연간 실적을 넘어 역대 최대를 기록했습니다. 제주항공은 국토교통부 항공정보포털시스템 집계 결과 올해 1월부터 지난달까지 누적 탑승객이 천 132만 5천여 명으로, 지난해 같은 기간보다 12.3% 증가했다고 오늘 밝혔습니다.
     https://news.bbsi.co.kr/news/articleView.html?idxno=4119324
   - 한국경제: "벌써 414만명 탔다"…제주항공 일본 노선 승객 '역대 최대', 신용현 기자, 경제
@@ -150,7 +150,7 @@
   - YTN: 정부는 조국 혁신정책연구원 원장의 일본 입국이 거부된 것과 관련해 일본 측에 유감을 표하고, 재발 방지를 요구했습니다. 외교부는 조국 원장의 일본 입국 거부 상황을 파악한 뒤 곧바로 영사 조력을 제공하고, 외교 경로를 통해 일본 측에 유감의 뜻을 전했다고 밝혔습니다.
     https://www.ytn.co.kr/_ln/0101_202611171816515379
   - KBS 뉴스: 
-    https://news.google.com/rss/articles/CBMia0FVX3lxTE1BcUU1VnpMRVhGT3JNMV9hNnViVDNrU0pFMXhNQTQ3ZVBCMnB6XzlQTEFpQXhtSktkQ182dkJkZnlqS1hHdDJnRWt5NmU4d081RDVaYng0VkpkNVZfVmppUjJQcVo0STlFZEg4?oc=5
+    https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8716739
 
 ### 폐식용유로 밝히는 41만 개의 분홍빛 겨울 벚꽃, 도쿄 ‘메구로강 모두의 일루미네이션 2026’ 개막
 - 매체 2곳 · ACROFAN · 에너지뉴스  ← 여러 곳이 썼다
@@ -178,22 +178,20 @@
   - 여행신문: 타이항공이 동계 인천-방콕 노선을 하루 3회 운항하며 방콕 경유 태국 국내선·이원 구간 판매에 힘을 싣는다. 타이항공은 11월 12일 더그랜드롯데 서울에서 태국정부
     https://www.traveltimes.co.kr/news/articleView.html?idxno=500724
 
+### 라구나푸켓·라구나빈탄, 2026 월드골프어워즈 나란히 수상
+- 매체 1곳 · 데일리안
+  - 데일리안: 태국 푸켓의 대표적인 복합 리조트 단지인 라구나푸켓(Laguna Phuket)과 인도네시아의 라구나빈탄(Laguna Bintan)이 세계적인 골프 산업 시상식인 ‘2026 월드골프어워즈(World Golf Awards)’에서 나란히 수상의 영예를 안았다.
+    https://www.dailian.co.kr/news/view/1717053/%EB%9D%BC%EA%B5%AC%EB%82%98%ED%91%B8%EC%BC%93%EB%9D%BC%EA%B5%AC%EB%82%98%EB%B9%88%ED%83%84-2026-%EC%9B%94%EB%93%9C%EA%B3%A8%ED%94%84-2026
+
 ### ﻿1년에 10개월만 허락된 바다…태국 푸켓·코사무이 신혼여행
 - 매체 1곳 · TTL뉴스
   - TTL뉴스: 깎아지른 석회암 절벽 사이로 눈부신 백사장과 청록빛 바다가 펼쳐지는 태국 피피레섬의 마야베이가 두 달간의 휴식을 마치고 여행객을 다시 맞이했다. 태국 국립공원야생동식물보호국(DNP)은 산호초와 해양 생태계 복원, 우기 해상 안전사고 예방을 위해 매년 8월 1일부터 9월 30일까지 마야베
     http://www.ttlnews.com/news/articleView.html?idxno=3163688
 
-### 라구나푸켓·라구나빈탄, 2026 월드골프어워즈 나란히 수상
-- 매체 1곳 · 데일리안
-  - 데일리안: 
-    https://news.google.com/rss/articles/CBMijgJBVV95cUxPdzU3bEh5S0YyV3RtRUIzS0hTR1FMTUtmRFlYY1hDSS1TR0puRkxOdnlUYkl3aHBLWmNyeFlzMFBmdnhpUTc1bDQtUi12N3dUejJoU3lXdlpobUcyTlItZWRMWHlkZXBjNklOUEwxeEcxX2tPbG5sa2ZWS3JQRVlNVzhiY3l1VWc5VUF5c0J3bjN3QlZqZm1QSXZNaXdpaTQxanRFU3NjcUFFY2Q1TmhXS2tDM2g2aDVpSV9jemdUYm9CY3FVeDJOLXZDU3VFbmpXMzBEYjFBNHh0LTNiQlNrRkJRR2JIcjRYOWE1OEFZQXdycnlxVHNLckZKTUNpWERWSFhldXJnVnBWLWphWUE?oc=5
-
-### Hilton signs first Tempo hotel in South East Asia with 164-room Phuket development
-- 매체 2곳 · Hotel Management Network · Travel Daily News Asia-Pacific  ← 여러 곳이 썼다
-  - Travel Daily News Asia-Pacific: 
-    https://www.traveldailynews.asia/hotels-lodging/tempo-by-hilton-phuket-bang-tao-2030/
-  - Hotel Management Network: Hilton has signed an agreement with Sindhu Development Co. to open Tempo by Hilton Phuket Bang Tao,, marking the brand’s first project in South East Asia
-    https://www.hotelmanagement-network.com/news/hilton-signs-first-tempo-hotel/
+### 방콕 호텔방 파고든 불법 진료실…국경 넘은 K-성형의 그늘
+- 매체 1곳 · 시사저널
+  - 시사저널: 
+    https://www.sisajournal.com/news/articleViewAmp.html?idxno=393668
 
 ## 대만
 
@@ -225,7 +223,7 @@
 ## 국내
 
 ### 포항국제불빛축제 19일 개막…영일대·송도서 사흘간 빛의 향연 펼친다
-- 매체 7곳 · TTL뉴스 · Tbc.co.kr · 뉴스타운 · 뉴시스 · 문화뉴스 · 이로운넷 · 투어코리아  ← 여러 곳이 썼다
+- 매체 8곳 · TTL뉴스 · Tbc.co.kr · 뉴스타운 · 뉴시스 · 문화뉴스 · 아주경제 · 이로운넷 · 투어코리아  ← 여러 곳이 썼다
   - 문화뉴스: (더쎈뉴스 / The CEN News) 한종근 기자 hjk2749@naver.com‘2026 포항국제불빛축제’가 오는 19일 저녁 송도 포항구항에서 열리는 미디어파사드 점등식을 시작으로 21일까지 사흘간 펼쳐진다. 올해 축제는 ‘All Light!
     https://www.mhns.co.kr/news/articleView.html?idxno=769667
   - TTL뉴스: [퍼블릭뉴스통신]​‘2026포항국제불빛축제’가 오는 19일 저녁 송도 포항구항에서 열리는 미디어파사드 점등식을 시작으로 21일까지 사흘간 영일대해수욕장과 송도 포항구항 일원에서 펼쳐진다. ​‘All Light!
@@ -234,6 +232,17 @@
     https://www.eroun.net/news/articleView.html?idxno=95897
   - 뉴시스: [포항=뉴시스]송종욱 기자 = '2026 포항국제불빛축제'가 19~21일 사흘간 영일대해수욕장과 송도 포항구항 일원에서 빛의 향연을 펼친다. 축제는 '올 라이트 올 굿'이란 주제로 불꽃·미디어아트·거리 예술·시민 참여 프로그램을 결합한 야간 관광 콘텐츠를 선보인다.
     https://www.newsis.com/view/NISX20261118_0003873804
+
+### 보령머드축제, ‘2026 피나클 어워즈 세계대회’ 금상 3개·은상 1개 수상 쾌거
+- 매체 6곳 · 글로벌뉴스통신GNA · 뉴데일리 · 메가충청뉴스 · 문화뉴스 · 에이티엔뉴스 · 한려투데이  ← 여러 곳이 썼다
+  - 메가충청뉴스: [메가충청뉴스] 보령시와 (재)보령축제관광재단은 대한민국 대표 여름 축제인 ‘보령머드축제’가 세계축제협회 주관 ‘2026 피나클 어워즈 세계대회’에서 금상 3개,
+    https://www.megaccnews.com/news/articleView.html?idxno=17130
+  - 뉴데일리: 충남 보령시와 보령축제관광재단은 보령머드축제가 세계축제협회(IFEA) 주관 ‘2026 피나클 어워즈’ 세계대회에서 금상 3개와 은상 1개를 받았다고 19일 밝혔다. 보령머드축제는 현장 공간 연출, 축제 기념상품, 스폰서십 프로그램 부문에서 금상을, 기관 웹사이트 부문에서 은상을 받았다.
+    https://cc.newdaily.co.kr/site/data/html/2026/11/19/2026111950026.html
+  - 글로벌뉴스통신GNA: [보령=글로벌뉴스통신] 보령시와 (재)보령축제관광재단은 ‘보령머드축제’가 세계축제협회(IFEA WORLD) 주관 ‘2026 피나클 어워즈(Pinnacle Awar
+    https://www.globalnewsagency.kr/news/articleView.html?idxno=505695
+  - 문화뉴스: 충남 보령머드축제가 체험 프로그램뿐 아니라 지역기업과의 협력, 관광상품 개발에서도 국제적인 평가를 받았다. 보령시와 보령축제관광재단은 19일 보령머드축제가 세계축제협회(IFEA WORLD) 주관 '2026 피나클 어워즈(Pinnacle Awards) 세계대회'에서 금상 3개와 은상 1개
+    https://www.mhns.co.kr/news/articleView.html?idxno=769912
 
 ### 부산 용두산공원 새 관광거리 찾는다…민간사업자 공모
 - 매체 5곳 · 뉴시스 · 더쎈뉴스(The CEN News) · 복지TV부울경방송 · 아이뉴스24 · 트래블데일리  ← 여러 곳이 썼다
@@ -246,32 +255,27 @@
   - 아이뉴스24: 내달 4일까지 관광&middot;문화&middot;이벤트 분야 운영 주체 모집 현장설명회 개별 운영&hellip;공간 특성 반영한 콘텐츠 발굴 부산 원도심의 관광 거점인 용두산공원이 민간의 아이디어와 운영 역량을 활용해 새로운 관광 콘텐츠를 선보인다. 부산관광공사는 공원 내 관광자원을 
     http://www.inews24.com/view/2027606
 
-### 부산관광공사, 용두산공원 관광 콘텐츠 기획·운영 민간사업자 공개 모집
-- 매체 4곳 · LG헬로비전 · 메트로신문 · 부산일보 · 브릿지경제  ← 여러 곳이 썼다
-  - 부산일보: 용두산공원 전경. 부산관광공사 제공 부산관광공사(사장 이정실, 이하 공사)는 부산 원도심의 대표 관광명소인 용두산공원의 활성화를 위.
-    https://www.busan.com/view/busan/view.php?code=2026111810392135323
-  - LG헬로비전: 부산관광공사가 원도심 대표 관광명소인 용두산공원의 활성화를 위해 민간사업자를 공개 모집합니다. 이번 공모는 공원의 특색을 살린 창의적인 관광 콘텐츠를 기획하고 운영할 역량 있는 사업자를 선정하기 위해 마련됐습니다.
-    https://news.lghellovision.net/news/articleView.html?idxno=562802
-  - 브릿지경제: 부산관광공사가 부산 원도심의 대표 관광명소인 용두산공원에 민간의 창의성과 전문성을 접목해 새로운 관광콘텐츠 발굴에 나선다. 부산관광공사는 용두산공원의 관광자원을 활용한 콘텐츠를 기획·운영할 민간사업자를 공개 모집한다고 18일 밝혔다.
-    https://www.viva100.com/article/20261118501127
-  - 메트로신문: 부산관광공사는 18일부터 다음 달 4일까지 용두산공원의 관광 콘텐츠를 기획·운영할 민간 사업자를 공개 모집한다. 공원의 관광자원을 활용한 콘텐츠를 도입해 국내외 관광객을 유치하고 원도심 관광을 활성화하기 위한 취지다.
-    https://www.metroseoul.co.kr/article/20261118500543
-
-### 보령머드축제, ‘2026 피나클 어워즈 세계대회’ 금상 3개·은상 1개 수상 쾌거
-- 매체 3곳 · 글로벌뉴스통신GNA · 뉴데일리 · 메가충청뉴스  ← 여러 곳이 썼다
-  - 메가충청뉴스: [메가충청뉴스] 보령시와 (재)보령축제관광재단은 대한민국 대표 여름 축제인 ‘보령머드축제’가 세계축제협회 주관 ‘2026 피나클 어워즈 세계대회’에서 금상 3개,
-    https://www.megaccnews.com/news/articleView.html?idxno=17130
-  - 뉴데일리: 충남 보령시와 보령축제관광재단은 보령머드축제가 세계축제협회(IFEA) 주관 ‘2026 피나클 어워즈’ 세계대회에서 금상 3개와 은상 1개를 받았다고 19일 밝혔다. 보령머드축제는 현장 공간 연출, 축제 기념상품, 스폰서십 프로그램 부문에서 금상을, 기관 웹사이트 부문에서 은상을 받았다.
-    https://cc.newdaily.co.kr/site/data/html/2026/11/19/2026111950026.html
-  - 글로벌뉴스통신GNA: [보령=글로벌뉴스통신] 보령시와 (재)보령축제관광재단은 ‘보령머드축제’가 세계축제협회(IFEA WORLD) 주관 ‘2026 피나클 어워즈(Pinnacle Awar
-    https://www.globalnewsagency.kr/news/articleView.html?idxno=505695
+### 최원철 공주시장, 피나클 축제리더상 수상
+- 매체 4곳 · 공뉴스 · 매일일보 · 에너지경제신문 · 투데이충남  ← 여러 곳이 썼다
+  - 투데이충남: [공주] 이춘주 기자 = 공주 왕도심의 근대 국가유산을 야간 공연과 체험 무대로 활용해 온 최원철 공주시장이 ‘2026 축제리더상’을 받았다. 공주시는 같은 대회
+    https://www.todaychungnam.net/news/articleView.html?idxno=480831
+  - 에너지경제신문: 공주=에너지경제신문 김은지 기자 최원철 공주시장이 옛 도심의 근대 국가유산을 야간 축제 무대로 활용한 `공주 국가유산 야행`을 이끈 공로로 `2026 축제리더상`을 받았다. 19일.
+    https://www.ekn.kr/web/view.php?key=20261119020061926
+  - 매일일보: 매일일보 = 오정환 기자 | 최원철 공주시장이 지역 문화유산을 활용한 축제 활성화 성과를 인정받아 ‘2026 축제리더상’ 문화유산 활성화 부문을 수상했다. 공주시도
+    https://www.m-i.kr/news/articleView.html?idxno=2020935
+  - 공뉴스: 충남 공주시가 지역 역사문화자원을 활용한 축제 운영 성과를 인정받아 제20회 피나클 어워즈 한국대회에서 개인상과 본상 등 모두 4개 부문을 수상했다. 공주시는 최원
+    https://www.bzeronews.com/news/articleView.html?idxno=825532
 
 ### 단양 소선암오토캠핑장, 20일부터 첫 동계 운영
-- 매체 2곳 · 경기뉴스원 · 신아일보  ← 여러 곳이 썼다
+- 매체 4곳 · 경기뉴스원 · 글로벌뉴스통신GNA · 신아일보 · 충북일보  ← 여러 곳이 썼다
   - 신아일보: 충북 단양군 소선암오토캠핑장이 개장 이후 처음으로 겨울철 운영에 들어가 캠핑객 맞이에 나선다. 단양관광공사는 오는 20일부터 소선암오토캠핑장의 동계 운영을 시작한다
     https://www.shinailbo.co.kr/news/articleView.html?idxno=5085325
   - 경기뉴스원: [경기뉴스원/경기뉴스1] | 단양관광공사는 11월 20일부터 소선암오토캠핑장의 동계 운영을 시작한다고 밝혔다. 소선암 오토캠핑장의 동계 운영은 시설 운영이래 첫 시행으로, 동계 캠핑을 즐기려는 이용객의 수요에 응답하고 캠핑장 운영 활성화를 위해 추진한다.
     https://www.ggnews1.co.kr/news/article.html?no=673087
+  - 글로벌뉴스통신GNA: [서울=글로벌뉴스통신] 단양관광공사가 오는 20일(금)부터 소선암오토캠핑장을 연중무휴로 운영한다. 이번 조치는 겨울철 캠핑 수요 증가에 대응하기 위해 추진됐다.
+    https://www.globalnewsagency.kr/news/articleView.html?idxno=505730
+  - 충북일보: ［충북일보］ 단양관광공사가 20일부터 소선암오토캠핑장의 동계 운영을 본격 시작한다. 이번 동계 운영은 캠핑장 시설 운영 역사상 첫 시행으로, 겨울철 캠핑 수요에 적극 대응하고 캠핑장 운영 활성화를 위한 조치다.
+    https://www.inews365.com/news/article.html?no=944331
 
 ## 여행업계
 
@@ -283,8 +287,8 @@
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72732
   - 뉴시스: [정선=뉴시스]홍춘봉 기자 = 강원랜드가 운영하는 하이원리조트가 오는 20~22일 서울 동대문디자인플라자(DDP)에서 열리는 '2026 대한민국 관광기념품 박람회'에 참가한다
     https://mobile.newsis.com/view_amp.html?ar_id=NISX20261119_0003874506
-  - 주간한국: 
-    https://news.google.com/rss/articles/CBMicEFVX3lxTFBYQ0hnUXJnSi13T0NfWTh6MTFDM2ZXX2ZPYnliUzB0YjFGUld0RXNxNF9aRnlKOUlaLW9aaXV3cG9PTHdINVlnR1NNWU9UOUE2NzY1UGFtcFhldlM3dEFmbVpaUWZRWmh0ZVNPUWk2MlLSAXRBVV95cUxOa0ZCV1VNSVNGaXdWNmkwU0ZzbGpCZlNfZzkzU3c5ZzNkbVpSUUdPbVZTMUUtQ2w2ZHZZRTBuaFg4ZUFRakVBdHNyTElidzlZLTY5d19zLWFtSHppbGVPVERaVUFNQVJGUGpPQlZaUFNaNi0yQw?oc=5
+  - 주간한국: [주간한국 김동용 기자] 강원랜드는 자사가 운영하는 하이원리조트가 ‘2026 대한민국 관광기념품 박람회’에 참가해 브랜드 기념품과 참여형 이벤트를 선보인다고 19일 밝혔다. 오는 20일부터 22일까지 사흘간 서울 동대문디자인플라자(DDP)에서 열리는 이번 박람회는 문화체육관광부가 주최하
+    https://weekly.hankooki.com/news/articleView.html?idxno=7194708
 
 ### 법원, 새만금공항 2심도 취소... "입지 선정 때 조류충돌 위험 평가 안 했다"
 - 매체 4곳 · 동아일보 · 파이낸셜뉴스 · 한겨레 · 한국경제  ← 여러 곳이 썼다
@@ -305,6 +309,24 @@
     http://www.ttlnews.com/news/articleView.html?idxno=3163533
   - 호텔앤레스토랑: 문화체육관광부(이하 문체부)와 한국관광공사(이하 공사)는 방한관광 2천만 시대의 개막을 축하하기 위해 17일 인천국제공항 제2여객터미널에서 기념행사를 개최했다. 이번 행사의 슬로건은 ‘방한관광 2천만 시대, 대체불가 관광대국 대한민국’으로, 정부와 관광업계가 한자리에 모여 글로벌 관광 
     https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22532
+
+### 파라타항공, 마일리지 제도 도입…FSC급 서비스 강화
+- 매체 3곳 · 뉴스1 · 머니투데이 · 한국일보  ← 여러 곳이 썼다
+  - 뉴스1: 
+    https://www.news1.kr/industry/general-industry/6358852
+  - 한국일보: ① 파라타항공이 11월 17일부터 승객 마일리지 적립 제도를 시행하며 대형항공사 수준 서비스 강화를 시작했습니다. ② 마일리지는 국내선과 국제선 운항 거리와 좌석 등급에 따라 다르게 적립되며 11월 17일 이후 발권과 탑승을 마친 항공권부터 적용했습니다.
+    https://www.hankookilbo.com/news/article/A2026111913440003253
+  - 머니투데이: 
+    https://news.google.com/rss/articles/CBMiekFVX3lxTE9uVHZDRk12S3VkTDdMUG4yb1MtTFVpamc3b2p4eE9ZWUtCcjg4RDdnUDNZZklWakpoRVduWEpxZGRpRC1STHZaVjljSExtNjY4R1U1NDFFX0Q4VnJwbG1LWS1SVXA1dURsZFRxNTBHY2FaUDNzNU9QNnZB0gF_QVVfeXFMTmw5RkIxWG9vY2twR01DUGp4VzJ6blZQX1hCSkJUd1E3cVptVzRHMUlPc3cxeE0ydGxkZDlOYnJNdHBVUGlkeVJxZ1YxbUt5SUJta1pONGVEdWZLQVl1UXVfUEs2cS03SDFRbFh1U2VnbC10dE1tamdqWHdPbjRSSQ?oc=5
+
+### 특징주, 제주항공-항공/저가항공사 테마 상승세에 8.31% ↑
+- 매체 1곳 · 매일경제 마켓  ← 여러 곳이 썼다
+  - 매일경제 마켓: 19일 항공/저가항공사 테마가 전일 ...
+    https://stock.mk.co.kr/news/view/1202299
+  - 매일경제 마켓: 19일 여행 테마가 전일 대비 13....
+    https://stock.mk.co.kr/news/view/1202302
+  - 매일경제 마켓: 19일 여행 테마가 전일 대비 13....
+    https://stock.mk.co.kr/news/view/1202295
 
 ### 예산군-인천공항 직행버스 재개…내년 1월 4일부터
 - 매체 3곳 · 뉴스티앤티 · 로컬투데이 · 충청뉴스  ← 여러 곳이 썼다
@@ -346,20 +368,6 @@
     https://www.onews.tv/news/articleView.html?idxno=291859
   - 트래블데일리: 노랑풍선은 지난 13일 서울 중구 한국프레스센터 국제회의장에서 열린 ‘제19회 대한민국소통어워즈’ 시상식에서 ‘대한민국소셜미디어대상’ 관광·여행 부문 대상을 수상했다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72728
-
-### 트리니티항공, 글로벌 간편결제 서비스 페이팔 제휴 프로모션
-- 매체 2곳 · 매일경제 · 트래블데일리  ← 여러 곳이 썼다
-  - 매일경제: 트리니티항공이 글로벌 간편결제 서비스인 페이팔(PayPal)과 협업해 해외 인바운드 고객을 대상으로 항공권 할인 프로모션에 나선다. 이번 프로모션은 한국을 방문한 해외 여행객이 평소 익숙하게 이용하는 글로벌 결제 수단으로 편리하게 항공권을 구매하게끔 하자는 차원에서 기획됐다.
-    https://www.mk.co.kr/news/business/12212331
-  - 트래블데일리: 트리니티항공은 글로벌 간편결제 서비스인 페이팔(PayPal)과 함께 해외 인바운드 고객을 대상으로 항공권 할인 프로모션을 진행한다. 이번 프로모션은 한국을 방문하는 해외 여행객들이 평소 익숙하게 이용하는 글로벌 결제 수단을 통해 보다 편리하게 항공권을 구매할 수 있도록 마련됐다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72725
-
-### 백두산부터 블라디보스토크까지 7일 패키지여행 등장
-- 매체 2곳 · TTL뉴스 · 트래블데일리  ← 여러 곳이 썼다
-  - TTL뉴스: 백두산 천지와 블라디보스토크 주요 명소를 둘러보고 시베리아 횡단열차까지 탑승하는 여행상품이 등장했다. 중국 무비자 정책 시행 이후 폭증한 중국행 여행 심리와 팬데믹 이후 회복세에 접어든 극동 러시아 관광 수요가 맞물리면서 생긴 변화다.
-    http://www.ttlnews.com/news/articleView.html?idxno=3163190
-  - 트래블데일리: 교원투어 여행이지가 업계 최초로 백두산과 러시아 블라디보스토크를 연계한 프리미엄 패키지를 선보인다. 교원투어는 지난해 속초~블라디보스토크 카페리 노선 운항 재개에 맞춰 블라디보스토크 패키지를 출시한 바 있다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72724
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 32건)
 
@@ -518,6 +526,22 @@
 
 ## 공연·전시 — category: stage, 하루 두 편 이상
 
+### [stage] '오페라의 유령' 작곡가 로이드 웨버 방한‥"음악보다 좋은 이야기가 중요"
+- 매체 1곳 · MBC 뉴스
+  - MBC 뉴스: '오페라의 유령'과 '캣츠', '지저스 크라이스트 수퍼스타' 등 전 세계적으로 사랑받고 있는 뮤지컬을 작곡한 거장 앤드루 로이드 웨버가 우리나라를 찾았습니다. 로이드 웨버는 오늘 ...
+    https://imnews.imbc.com/news/2026/society/article/6866954_36918.html
+
+### [stage] CN갤러리, 이성용 개인전 "화(花)" 개최
+- 매체 5곳 · artworldnews · 뉴시스 · 문화뉴스 · 아산포커스 · 퍼블릭뉴스통신(Public news-network for TTL)
+  - 아산포커스: 충남문화관광재단은 충청남도 문화예술 서울전시장 CN갤러리(서울 종로구 북촌로5길 56-7)에서 2026년 제 14차 정기대관 전시 이성용 개인전 를 11월 25일부터 12월 6일까지 개최한다고 밝혔다. 이성용 작가는 공주시 아트센터 고마에서 차세대 작가전 를 개최하는 등, 충남을 배경으
+    https://www.asanfocus.co.kr/news/articleView.html?idxno=54334
+  - 퍼블릭뉴스통신(Public news-network for TTL): 세종대학교 세종뮤지엄갤러리 2관이 한지를 주요 재료로 시간의 축적과 흔적을 표현해 온 최은정 작가의 개인전을 연다. ‘시간’을 주제로 한 이번 전시에서는 작가가
+    https://www.ttlnews.com/news/articleView.html?idxno=3163784
+  - 문화뉴스: 11월 24일부터 30일까지 서울 종로구 인사동 갤러리 H에서 박태현 작가의 목판화 개인전 《경계를 넘어, 일상을 새기다(Beyond Boundaries, Engraving Daily Life)》가 개최된다. 이번 전시는 테이프화를 중심으로 독창적인 조형 언어를 구축해 온 박태현 작가가
+    https://www.mhns.co.kr/news/articleView.html?idxno=769888
+  - artworldnews: 김용환 작가의 제5회 개인전이 2026년 11월 18일부터 23일까지 서울 종로구 인사동 갤러리올에서 개최된다. "반전(反轉)과 전회(轉回)의 순간"을 주제로 열리
+    https://www.artworldnews.co.kr/news/articleView.html?idxno=6189
+
 ### [stage] '국립심포니 6 첼리스트' 22일 예술의전당 다채로운 첼로 공연
 - 매체 2곳 · 매일일보 · 충북데일리
   - 매일일보: 매일일보 = 김종혁 기자 | 국립심포니오케스트라는 오는 22일 오후 2시 예술의전당 IBK기업은행챔버홀에서 실내악 시리즈 3 ‘국립심포니 6 첼리스트’를 개최한다
@@ -534,12 +558,28 @@
   - 은평시민신문: 은평문화재단이 운영하는 꿈의 오케스트라 '은평'이 오는 12월 5일 오후 2시 은평문화예술회관 대공연장에서 제2회 정기연주회 'WINTER FANTASY'를 연다
     https://www.epnews.net/news/articleView.html?idxno=41715
 
+### [stage] 경남도립미술관, 25일부터 올해 마지막 기획전 2건 동시 개막
+- 매체 2곳 · 문화뉴스 · 연합뉴스
+  - 연합뉴스: (창원=연합뉴스) 이정훈 기자 = 경남도립미술관은 25일부터 올해 마지막 기획전 '기계 인간 유령', '의미는 그렇게 만들어진다'를 동시 개막한. ..
+    https://www.yna.co.kr/view/AKR20261119071400052
+  - 문화뉴스: 경남도립미술관이 산업도시 창원의 특성을 예술로 조명하고, 지난 20여 년간 수집한 소장품의 가치를 재해석하는 두 전시를 선보인다. 기계와 인간의 관계를 탐구하는 동시대 미술부터 관람객이 직접 작품의 의미를 해석하고 공유하는 참여형 프로그램까지 마련했다.
+    https://www.mhns.co.kr/news/articleView.html?idxno=769879
+
 ### [stage] '진격의 거인' 첫 공식 심포니 콘서트 내년 3월 내한
 - 매체 2곳 · 에너지뉴스 · 연합뉴스
   - 에너지뉴스: 인기 애니메이션 '진격의 거인' 시리즈 최초의 공식 라이선스 심포니 오케스트라 콘서트 '심포니 프롬 파라디'(Symphony from Paradis)가 내년 3월
     https://www.2news.co.kr/news/articleView.html?idxno=33017
   - 연합뉴스: (서울=연합뉴스) 임순현 기자 = 일본 애니메이션 '진격의 거인'의 공식 라이선스 심포니 오케스트라 콘서트인 '진격의 거인 오피셜 오케스트라 콘. ..
     https://www.yna.co.kr/view/AKR20261118042500005
+
+### [stage] 음성군 2026 송년음악회 … 소프라노 조수미 세계무대 데뷔 40주년 기념 공연
+- 매체 3곳 · 뉴스1 · 음성뉴스 · 음성타임즈
+  - 음성타임즈: 음성군은 2026년 한 해를 마무리하는 송년음악회로 세계적인 소프라노 조수미의 세계무대 데뷔 40주년을 기념하는 공연을 오는 12월 14일 오후. ..
+    http://www.estimes.co.kr/news/articleView.html?idxno=34505
+  - 음성뉴스: 음성군은 2026년 한 해를 마무리하는 송년음악회로 세계적인 소프라노 조수미의 세계무대 데뷔 40주년을 기념하는 공연을 오는 12월 14일 오후 7시 30분 음성문화예술회관에서 개최한다고 밝혔다.
+    http://www.esnews.co.kr/news/articleView.html?idxno=34823
+  - 뉴스1: 
+    https://www.news1.kr/photos/8222726
 
 ### [stage] 감귤박물관 특별기획전 ‘형형색색形形色色: 네 개의 세계’ 개최
 - 매체 2곳 · 서귀포방송 · 제주일보
@@ -567,30 +607,6 @@
     https://www.imaeil.com/page/view/2026111815224626687
   - OMATE 시니어: 대구오페라하우스가 이탈리아 아슬리코 꼬모 극장과 공동 제작한 오페라 ‘투란도트: 박물관의 수수께끼’를 글로벌 오페라 스트리밍 플랫폼 오페라비전(OperaVisio
     https://www.omate.kr/news/articleView.html?idxno=58943
-
-### [stage] 음성군 2026 송년음악회 … 소프라노 조수미 세계무대 데뷔 40주년 기념 공연
-- 매체 2곳 · 음성뉴스 · 음성타임즈
-  - 음성타임즈: 음성군은 2026년 한 해를 마무리하는 송년음악회로 세계적인 소프라노 조수미의 세계무대 데뷔 40주년을 기념하는 공연을 오는 12월 14일 오후. ..
-    http://www.estimes.co.kr/news/articleView.html?idxno=34505
-  - 음성뉴스: 음성군은 2026년 한 해를 마무리하는 송년음악회로 세계적인 소프라노 조수미의 세계무대 데뷔 40주년을 기념하는 공연을 오는 12월 14일 오후 7시 30분 음성문화예술회관에서 개최한다고 밝혔다.
-    http://www.esnews.co.kr/news/articleView.html?idxno=34823
-
-### [stage] CN갤러리, 이성용 개인전 "화(花)" 개최
-- 매체 2곳 · 아산포커스 · 퍼블릭뉴스통신(Public news-network for TTL)
-  - 아산포커스: 충남문화관광재단은 충청남도 문화예술 서울전시장 CN갤러리(서울 종로구 북촌로5길 56-7)에서 2026년 제 14차 정기대관 전시 이성용 개인전 를 11월 25일부터 12월 6일까지 개최한다고 밝혔다. 이성용 작가는 공주시 아트센터 고마에서 차세대 작가전 를 개최하는 등, 충남을 배경으
-    https://www.asanfocus.co.kr/news/articleView.html?idxno=54334
-  - 퍼블릭뉴스통신(Public news-network for TTL): 세종대학교 세종뮤지엄갤러리 2관이 한지를 주요 재료로 시간의 축적과 흔적을 표현해 온 최은정 작가의 개인전을 연다. ‘시간’을 주제로 한 이번 전시에서는 작가가
-    https://www.ttlnews.com/news/articleView.html?idxno=3163784
-
-### [stage] '진격의 거인' OST, 오케스트라로 듣는다⋯내년 3월 서울 공연
-- 매체 1곳 · 이투데이
-  - 이투데이: ▲'진격의 거인 오피셜 오케스트라 콘서트' 포스터. (사진제공=낫싱벗칠)일본 인기 애니메이션 '진격의 거인'의 대표 음악을 대규모 오케스트라 연주로
-    https://www.etoday.co.kr/news/view/2649690
-
-### [stage] 서울백제어린이박물관, 아기 매머드 디마와 함께하는 빙하기 탐험 특별전 개최
-- 매체 1곳 · 이트레블뉴스
-  - 이트레블뉴스: [이트레블뉴스=김미숙 기자] 서울시 한성백제박물관 부설 서울백제어린이박물관이 전곡선사박물관과 손을 잡고 어린이들을 위한 특별한 빙하기 탐험의
-    https://www.momonews.com/82029
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
 (자유 이용 사진: 이름 후보 34개 확인, 사진 줄 3개)
@@ -673,64 +689,64 @@
 (검색어 33개 · 고른 영상 15개)
 
 ## ENHYPEN (엔하이픈) 'I Want You' Official MV
-- 채널 HYBE LABELS · 조회수 21,764,834회 · 5일 전
+- 채널 HYBE LABELS · 조회수 21,840,638회 · 5일 전
 - `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
 
+## TXT (투모로우바이투게더) 'Angel Bite' Official MV
+- 채널 HYBE LABELS · 조회수 15,856,250회 · 3일 전
+- `@youtube M9G4guYg-i8` · https://www.youtube.com/watch?v=M9G4guYg-i8
+
 ## GIRLSET "young & dumb" Music Video
-- 채널 JYP Entertainment · 조회수 11,624,501회 · 5일 전
+- 채널 JYP Entertainment · 조회수 12,014,661회 · 6일 전
 - `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
 
-## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 750,298회 · 3일 전
-- `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
-
 ## 더 커진 판, 더 독해진 가족 [가족계획 시즌2] 티저 예고편
-- 채널 쿠팡플레이 Coupang Play · 조회수 638,229회 · 1일 전
+- 채널 쿠팡플레이 Coupang Play · 조회수 888,602회 · 1일 전
 - `@youtube cBHXKJiXFJs` · https://www.youtube.com/watch?v=cBHXKJiXFJs
 
+## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
+- 채널 tvN DRAMA · 조회수 758,657회 · 3일 전
+- `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
+
 ## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
-- 채널 tvN DRAMA · 조회수 343,277회 · 4일 전
+- 채널 tvN DRAMA · 조회수 343,354회 · 4일 전
 - `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
 
 ## [10화 예고] 내가 널 만난 건 행운이 아니라 기적💞 서로가 있어 행복한 임시완X설인아에 다가온 또다른 위협? #나의유죄인간 EP.10
-- 채널 tvN DRAMA · 조회수 308,180회 · 2일 전
+- 채널 tvN DRAMA · 조회수 308,303회 · 2일 전
 - `@youtube izmmaIqoz3s` · https://www.youtube.com/watch?v=izmmaIqoz3s
 
 ## [라이어 7회 예고] ＂언니가 어떻게 나를 속일 수가 있어?＂, MBC 261120 방송
-- 채널 MBCdrama · 조회수 302,069회 · 4일 전
+- 채널 MBCdrama · 조회수 304,367회 · 4일 전
 - `@youtube mueEY-8Pw_0` · https://www.youtube.com/watch?v=mueEY-8Pw_0
 
 ## ［31회 예고］제가 혹이라서 허락 안 하신 거예요? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 274,389회 · 4일 전
+- 채널 KBS Drama · 조회수 275,200회 · 4일 전
 - `@youtube 1x4AkY0HbA4` · https://www.youtube.com/watch?v=1x4AkY0HbA4
 
 ## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
-- 채널 tvN DRAMA · 조회수 203,025회 · 1일 전
+- 채널 tvN DRAMA · 조회수 207,222회 · 1일 전
 - `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
 
 ## [K-Fancam] 베스티 유지 직캠 '연애의 조건 (Love Options)' (BESTie Yuji Fancam) @뮤직뱅크(Music Bank) 261113
-- 채널 KBS Kpop · 조회수 179,057회 · 5일 전
+- 채널 KBS Kpop · 조회수 182,346회 · 5일 전
 - `@youtube DHcLy-kYIeA` · https://www.youtube.com/watch?v=DHcLy-kYIeA
 
 ## ［32회 예고］못 데려갑니다 결이 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 177,526회 · 3일 전
+- 채널 KBS Drama · 조회수 178,385회 · 3일 전
 - `@youtube OgU1Nkhzai8` · https://www.youtube.com/watch?v=OgU1Nkhzai8
 
 ## 김수아×한로이, 두 사람의 아름다운 화음으로 완성한 ＜하림 - 사랑이 다른 사랑으로 잊혀지네＞ 무대♪
-- 채널 SBS Entertainment · 조회수 140,611회 · 2일 전
+- 채널 SBS Entertainment · 조회수 147,266회 · 2일 전
 - `@youtube 7cHG0qXbzrU` · https://www.youtube.com/watch?v=7cHG0qXbzrU
 
+## [58화 예고] 당신이 짠 판에서 놀아나지 않아 [욕망의 덫] | KBS 방송
+- 채널 KBS Drama · 조회수 127,019회 · 5일 전
+- `@youtube Dps6croc8lI` · https://www.youtube.com/watch?v=Dps6croc8lI
+
 ## [라이어 6회 예고] ＂이번엔 내가 거짓말을 하려고＂, MBC 261114 방송
-- 채널 MBCdrama · 조회수 118,856회 · 5일 전
+- 채널 MBCdrama · 조회수 118,942회 · 5일 전
 - `@youtube eo1DUkzb8b8` · https://www.youtube.com/watch?v=eo1DUkzb8b8
-
-## [60화 예고] 그날 기억이 났어요 [욕망의 덫] | KBS 방송
-- 채널 KBS Drama · 조회수 104,429회 · 1일 전
-- `@youtube m1hZwDtrZL4` · https://www.youtube.com/watch?v=m1hZwDtrZL4
-
-## [59화 예고] 청마의 주인은 당신이 되고 싶었던 거지? [욕망의 덫] | KBS 방송
-- 채널 KBS Drama · 조회수 86,081회 · 2일 전
-- `@youtube Bvsga2zQbzU` · https://www.youtube.com/watch?v=Bvsga2zQbzU
 
 
 

@@ -5,14 +5,17 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "서귀포 감귤박물관, 특별기획전 '형형색색: 네 개의 세계' 내년 2월 14일까지"
+title: '서귀포 감귤박물관, 특별기획전 ''형형색색: 네 개의 세계'' 내년 2월 14일까지'
 source_name: ''
 source_url: ''
-summary: "서귀포시 감귤박물관이 19일 특별기획전 '형형색색: 네 개의 세계'를 연다. 서귀포시장애인종합복지관과 함께 꾸민 전시다. 내년 2월 14일까지 88일간 이어진다."
+summary: '서귀포시 감귤박물관이 19일 특별기획전 ''형형색색: 네 개의 세계''를 연다. 서귀포시장애인종합복지관과 함께 꾸민 전시다. 내년
+  2월 14일까지 88일간 이어진다.'
 sources:
 - https://www.jejunews.com/news/articleView.html?idxno=2228893
 - http://www.seogwipo.tv/news/articleView.html?idxno=15139
-status: approved
+status: published
+published_id: c-d4f82be029e04a58140d234e4ec34f3edc670736
+published_on: '2026-11-19'
 ---
 제주 서귀포의 감귤박물관에서 특별기획전이 열린다.
 제목은 '형형색색: 네 개의 세계'다.

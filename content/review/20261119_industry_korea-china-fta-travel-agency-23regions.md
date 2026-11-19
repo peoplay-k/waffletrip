@@ -7,7 +7,8 @@ kind: 해설
 title: 한중 FTA 후속협상 실질 타결, 한국 여행사 중국 23개 지역서 직접 모객
 source_name: ''
 source_url: ''
-summary: 한국과 중국이 FTA 서비스·투자 후속협상을 8년 8개월 만에 실질 타결했다. 한국 여행사가 중국 23개 지역에서 중국인을 직접 모집할 길이 열린다. 관광업계 단체들은 환영 입장을 냈다.
+summary: 한국과 중국이 FTA 서비스·투자 후속협상을 8년 8개월 만에 실질 타결했다. 한국 여행사가 중국 23개 지역에서 중국인을 직접 모집할
+  길이 열린다. 관광업계 단체들은 환영 입장을 냈다.
 sources:
 - https://www.fnnews.com/news/202611181618005841
 - https://www.mk.co.kr/news/politics/12212801
@@ -15,7 +16,9 @@ sources:
 - https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22539
 - http://www.ttlnews.com/news/articleView.html?idxno=3164019
 - https://www.ajunews.com/view/20261119110709597
-status: approved
+status: published
+published_id: c-cad1e163b20f3ddfc919412344572f18f0895eb9
+published_on: '2026-11-19'
 ---
 한국과 중국이 자유무역협정 서비스·투자 후속협상을 실질적으로 마무리했다.
 한국 여행사가 중국 현지에서 중국인 관광객을 직접 모집하는 길이 열린다.
