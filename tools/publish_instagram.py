@@ -68,10 +68,14 @@ def pick(state: dict) -> dict | None:
     if os.path.exists(LATEST):
         with open(LATEST, encoding="utf-8") as fh:
             meta = json.load(fh)
-        stem = meta.get("stem", "")
-        if stem and stem not in done:
-            meta["video_url"] = f"{SITE}/video/{stem}.mp4"
-            return meta
+        # 홀숫날은 여행 숏폼 옆에 연예 '오늘의 방송' 숏폼이 `reel` 로 붙는다(2026-11-19).
+        # 릴스는 그것을 먼저 올리고, 이미 올렸으면 여행 숏폼으로 간다.
+        for cand in (meta.get("reel") or {}, meta):
+            stem = cand.get("stem", "")
+            if stem and stem not in done:
+                out = {k: v for k, v in cand.items() if k not in ("reel", "photo_history")}
+                out["video_url"] = f"{SITE}/video/{stem}.mp4"
+                return out
         return None
 
     if not os.path.isdir(VIDEO_DIR):

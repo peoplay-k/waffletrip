@@ -748,29 +748,58 @@ def pick_place(candidates: list[str], last: dict[str, str]) -> str:
     return min(candidates, key=lambda p: (last.get(p, ""), candidates.index(p)))
 
 
-def use_ent_short(out_dir: str) -> bool:
-    """오늘 구운 연예 숏폼(목소리판)을 릴스 발행 대상으로 올린다. 올렸으면 True."""
+def ent_short_fields(out_dir: str) -> dict | None:
+    """오늘 구운 연예 숏폼(목소리판)의 발행 정보. 없거나 무음판이면 None."""
     day = datetime.now(KST).strftime("%Y%m%d")
     meta_path = os.path.join(out_dir, f"peopleroad-tv-{day}.json")
     video = os.path.join(out_dir, f"peopleroad-tv-{day}-1.mp4")
     if not (os.path.exists(meta_path) and os.path.exists(video)):
-        return False
+        return None
     with open(meta_path, encoding="utf-8") as fh:
         meta = json.load(fh)
     short = next((v for v in meta.get("videos") or [] if v.get("file") == os.path.basename(video)), {})
     if short.get("kind") != "voiced":
-        return False
+        return None
     yt = meta.get("youtube") or {}
     tags = " ".join("#" + t for t in (yt.get("tags") or [])[:8])
     caption = "\n".join(x for x in [yt.get("title", "오늘의 방송"), "",
                                       (yt.get("description") or "").split("\n\n기사 전문")[0],
                                       "", f"전문은 {DOMAIN}/ent/tv", "", tags + " #방송 #예능 #드라마"] if x is not None)
+    return {"stem": f"peopleroad-tv-{day}-1", "city": "tv", "name": "오늘의 방송",
+            "caption": caption.strip(), "seconds": short.get("seconds"), "kind": "voiced",
+            "built_at": datetime.now(KST).isoformat(timespec="seconds")}
+
+
+def use_ent_short(out_dir: str) -> bool:
+    """오늘 구운 연예 숏폼(목소리판)을 릴스 발행 대상으로 올린다. 올렸으면 True."""
+    fields = ent_short_fields(out_dir)
+    if not fields:
+        return False
     os.makedirs("data", exist_ok=True)
-    write_latest({"stem": f"peopleroad-tv-{day}-1", "city": "tv", "name": "오늘의 방송",
-                   "caption": caption.strip(), "seconds": short.get("seconds"), "kind": "voiced",
-                   "built_at": datetime.now(KST).isoformat(timespec="seconds")})
-    print(f"오늘은 연예 숏폼을 릴스로 낸다 → peopleroad-tv-{day}-1")
+    write_latest(fields)
+    print(f"오늘은 연예 숏폼을 릴스로 낸다 → {fields['stem']}")
     return True
+
+
+def attach_reel(reel: dict, path: str = os.path.join("data", "shorts_latest.json")) -> None:
+    """여행 숏폼 기록 옆에 그날의 릴스(연예 숏폼)를 `reel` 로 붙인다.
+
+    유튜브 @peopleroad 는 `stem`(여행)만 올리고, 인스타는 `reel` 이 있으면 그것을 먼저 올린다.
+    여행 기록이 아예 없으면 예전처럼 연예 숏폼을 그대로 기록한다.
+    """
+    try:
+        with open(path, encoding="utf-8") as fh:
+            latest = json.load(fh)
+    except (OSError, ValueError):
+        latest = {}
+    stem = latest.get("stem", "")
+    if not stem or stem.startswith("peopleroad-tv-") or latest.get("city") == "tv":
+        write_latest(reel, path)
+        return
+    latest["reel"] = reel
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(latest, fh, ensure_ascii=False, indent=2)
+    print(f"여행 숏폼({stem}) 옆에 오늘 릴스를 붙인다 → {reel['stem']}")
 
 
 def main() -> int:
@@ -788,13 +817,21 @@ def main() -> int:
     ap.add_argument("--out", default="static/video")
     args = ap.parse_args()
 
-    # 홀숫날은 연예 '오늘의 방송' 숏폼을 릴스로 낸다(2026-10-23). 여행 숏폼은 그 주 우리
-    # 기사가 세 편 넘는 곳이 괌뿐이라 사흘 내리 괌만 나갔다. 연예 숏폼은 make_longform 이
-    # 먼저 구워 둔다(같은 출력 폴더). 없으면 평소대로 여행 숏폼으로 간다.
+    # 홀숫날은 연예 '오늘의 방송' 숏폼을 릴스로 낸다(2026-10-23). 연예 숏폼은 make_longform 이
+    # 먼저 구워 둔다(같은 출력 폴더). 예전에는 그날 여행 숏폼을 아예 안 만들어 유튜브
+    # @peopleroad 가 홀숫날마다 비었다 — 사장님 2026-11-19 "홀숫날에도 여행 쇼츠 피플로드에
+    # 올려줘". 이제 여행 숏폼은 매일 만들고, 연예 숏폼은 릴스 몫(`reel`)으로만 붙인다.
+    reel = None
     if args.rotate and args.voiced and datetime.now(KST).toordinal() % 2 == 1:
-        if use_ent_short(args.out):
-            return 0
+        reel = ent_short_fields(args.out)
+    rc = make_travel(args)
+    if reel:
+        os.makedirs("data", exist_ok=True)
+        attach_reel(reel)
+    return rc
 
+
+def make_travel(args) -> int:
     # 고정 도시로 하면 그날 그곳에 우리말 소식이 모자랄 때 아무것도 안
     # 나온다. 2026-09-16 실측: 다섯 곳 중 사이판 하나만 통과했다.
     # 순서는 유지하되(한 곳만 계속 나가지 않게) **되는 곳까지 내려간다.**

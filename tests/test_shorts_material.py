@@ -101,3 +101,40 @@ def test_pick_place_sticks_to_todays_place():
     import make_shorts as ms
     today = ms.datetime.now(ms.KST).strftime("%Y%m%d")
     assert ms.pick_place(["guam", "hanoi"], {"guam": "20260101", "hanoi": today}) == "hanoi"
+
+
+def test_홀숫날_연예_숏폼은_여행_숏폼_옆에_릴스로_붙는다(tmp_path):
+    import json as _json
+    import make_shorts as ms
+    path = tmp_path / "shorts_latest.json"
+    path.write_text(_json.dumps({"stem": "peopleroad-guam-20261119-voiced", "city": "guam",
+                                 "photo_history": {"a.webp": "2026-11-19"}}), encoding="utf-8")
+    reel = {"stem": "peopleroad-tv-20261119-1", "city": "tv", "caption": "c"}
+    ms.attach_reel(reel, str(path))
+    latest = _json.loads(path.read_text(encoding="utf-8"))
+    assert latest["stem"] == "peopleroad-guam-20261119-voiced"     # 유튜브 @peopleroad 는 여행
+    assert latest["reel"]["stem"] == "peopleroad-tv-20261119-1"     # 인스타 릴스는 연예
+    assert latest["photo_history"] == {"a.webp": "2026-11-19"}
+
+
+def test_여행_기록이_없으면_연예_숏폼을_그대로_기록한다(tmp_path):
+    import json as _json
+    import make_shorts as ms
+    path = tmp_path / "shorts_latest.json"
+    ms.attach_reel({"stem": "peopleroad-tv-20261119-1", "city": "tv"}, str(path))
+    assert _json.loads(path.read_text(encoding="utf-8"))["stem"] == "peopleroad-tv-20261119-1"
+
+
+def test_인스타는_릴스를_먼저_올리고_올렸으면_여행으로_간다(tmp_path, monkeypatch):
+    import json as _json
+    import publish_instagram as pi
+    path = tmp_path / "shorts_latest.json"
+    path.write_text(_json.dumps({"stem": "peopleroad-guam-20261119-voiced", "caption": "travel",
+                                 "reel": {"stem": "peopleroad-tv-20261119-1", "caption": "ent"}}),
+                    encoding="utf-8")
+    monkeypatch.setattr(pi, "LATEST", str(path))
+    first = pi.pick({"posted": []})
+    assert first["stem"] == "peopleroad-tv-20261119-1" and first["video_url"].endswith("-1.mp4")
+    second = pi.pick({"posted": ["peopleroad-tv-20261119-1"]})
+    assert second["stem"] == "peopleroad-guam-20261119-voiced" and "reel" not in second
+    assert pi.pick({"posted": ["peopleroad-tv-20261119-1", "peopleroad-guam-20261119-voiced"]}) is None
