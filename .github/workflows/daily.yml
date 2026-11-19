@@ -331,6 +331,8 @@ jobs:
           WAFFLETRIP_YT_CLIENT_ID: ${{ secrets.WAFFLETRIP_YT_CLIENT_ID }}
           WAFFLETRIP_YT_CLIENT_SECRET: ${{ secrets.WAFFLETRIP_YT_CLIENT_SECRET }}
           WAFFLETRIP_YT_REFRESH_TOKEN: ${{ secrets.WAFFLETRIP_YT_REFRESH_TOKEN }}
+          # 연예 '오늘의 방송' → @waffletrip(2026-10-30 '둘 다 나눠서'). 시크릿이 없으면 연예만 건너뛴다.
+          WAFFLETRIP_ENT_YT_REFRESH_TOKEN: ${{ secrets.WAFFLETRIP_ENT_YT_REFRESH_TOKEN }}
         run: python tools/publish_youtube.py --post
         continue-on-error: true
 

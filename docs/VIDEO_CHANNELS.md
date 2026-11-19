@@ -31,7 +31,7 @@
    cd ~/Desktop/여행신문 && python3 tools/youtube_auth.py --target ent
    ```
    @waffletrip 이 아니면 등록하지 않고 멈춘다. @peopleroad 시크릿은 건드리지 않는다.
-2. GitHub 웹에서 `.github/workflows/daily.yml` 의 '유튜브' 단계 `env:` 에 한 줄을 더한다(Claude 토큰은 워크플로 파일을 못 고친다).
+2. ~~워크플로에 한 줄 더하기~~ — 2026-11-19 Claude 가 넣었다(`WAFFLETRIP_ENT_YT_REFRESH_TOKEN` env). 이제 1번만 하면 된다.
    `WAFFLETRIP_YT_REFRESH_TOKEN: ...` 줄 바로 아래:
    ```yaml
              WAFFLETRIP_ENT_YT_REFRESH_TOKEN: ${{ secrets.WAFFLETRIP_ENT_YT_REFRESH_TOKEN }}
