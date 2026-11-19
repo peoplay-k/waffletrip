@@ -5,19 +5,20 @@ category: music
 region: ''
 section: news
 kind: 해설
-title: "제니 '드라큘라', 빌보드 '핫 100' 3위 수성…그래미 2개 부문 후보"
+title: 제니 '드라큘라', 빌보드 '핫 100' 3위 수성…그래미 2개 부문 후보
 source_name: ''
 source_url: ''
-summary: "블랙핑크 제니의 '드라큘라'가 빌보드 '핫 100'에서 전주와 같은 3위를 지켰다. 이 곡은 59주째 차트에 올라 있다. 제니는 제69회 그래미 어워즈 2개 부문 후보에도 이름을 올렸다."
+summary: 블랙핑크 제니의 '드라큘라'가 빌보드 '핫 100'에서 전주와 같은 3위를 지켰다. 이 곡은 59주째 차트에 올라 있다. 제니는 제69회
+  그래미 어워즈 2개 부문 후보에도 이름을 올렸다.
 sources:
-  - https://www.yna.co.kr/view/AKR20261117038500005
-  - https://www.newsis.com/view/NISX20261118_0003872357
-  - https://www.newspim.com/news/view/20261118000087
-  - https://www.donga.com/news/People/article/all/20261118/135042569/2
-  - https://world.kbs.co.kr/service/contents_view.htm?lang=k&menu_cate=enternews&id=&board_seq=472892
-status: approved
+- https://www.yna.co.kr/view/AKR20261117038500005
+- https://www.newsis.com/view/NISX20261118_0003872357
+- https://www.newspim.com/news/view/20261118000087
+- https://www.donga.com/news/People/article/all/20261118/135042569/2
+- https://world.kbs.co.kr/service/contents_view.htm?lang=k&menu_cate=enternews&id=&board_seq=472892
+status: duplicate
+duplicate_of: 20261118_music_jennie-dracula-billboard-hot100-3rd.md
 ---
-
 블랙핑크 제니가 호주 밴드 테임 임팔라와 함께한 '드라큘라(Dracula)'가 미국 빌보드 메인 싱글 차트 '핫 100'에서 3위를 지켰다. 빌보드가 17일(현지시간) 공개한 최신 차트에서 전주와 같은 순위로, 이 곡의 자체 최고 순위다.
 
 '드라큘라'는 이번 차트까지 59주째 이름을 올렸다. 최상위권에서 순위를 이어 가고 있다.

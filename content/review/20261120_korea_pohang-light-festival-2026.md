@@ -4,19 +4,21 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "포항국제불빛축제 19일 개막, 21일 한·일·프랑스 3개국 불꽃쇼"
+title: 포항국제불빛축제 19일 개막, 21일 한·일·프랑스 3개국 불꽃쇼
 source_name: ''
 source_url: ''
-summary: "'2026 포항국제불빛축제'가 19일 개막해 21일까지 사흘간 이어진다. 무대는 영일대해수욕장과 송도 포항구항이다. 마지막 날 한국·일본·프랑스 3개국 불꽃쇼가 열린다."
+summary: '''2026 포항국제불빛축제''가 19일 개막해 21일까지 사흘간 이어진다. 무대는 영일대해수욕장과 송도 포항구항이다. 마지막 날
+  한국·일본·프랑스 3개국 불꽃쇼가 열린다.'
 sources:
-  - https://www.mhns.co.kr/news/articleView.html?idxno=769667
-  - https://www.newsis.com/view/NISX20261118_0003873804
-  - https://www.polinews.co.kr/news/articleView.html?idxno=748694
-  - https://www.eroun.net/news/articleView.html?idxno=95763
-  - https://www.kbmaeil.com/article/20261118500588
-status: approved
+- https://www.mhns.co.kr/news/articleView.html?idxno=769667
+- https://www.newsis.com/view/NISX20261118_0003873804
+- https://www.polinews.co.kr/news/articleView.html?idxno=748694
+- https://www.eroun.net/news/articleView.html?idxno=95763
+- https://www.kbmaeil.com/article/20261118500588
+status: published
+published_id: c-38b0698eddac3df49e531b9de14c8fd9a94bea24
+published_on: '2026-11-20'
 ---
-
 경북 포항의 야간 관광축제 '2026 포항국제불빛축제'가 19일 막을 올렸다. 21일까지 사흘간 영일대해수욕장과 송도 포항구항 일대에서 불꽃과 미디어아트 공연이 이어진다.
 
 개막은 19일 저녁 송도 포항구항에서 열린 미디어파사드 점등식이다. 올해는 행사장이 영일대해수욕장 중심에서 송도 포항구항까지 넓어졌다. 포항구항에서는 높이 50m 시멘트 사일로를 화면 삼아 미디어아트 '조수가 만나는 곳'을 선보인다.

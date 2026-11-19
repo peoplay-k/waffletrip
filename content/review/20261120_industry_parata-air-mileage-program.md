@@ -4,17 +4,19 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "파라타항공, 전 노선 자체 마일리지 제도 도입"
+title: 파라타항공, 전 노선 자체 마일리지 제도 도입
 source_name: ''
 source_url: ''
-summary: "파라타항공이 17일부터 자체 마일리지 제도를 시행했다. 국내선부터 미주 장거리까지 전 노선이 대상이다. 적립량은 운항 거리와 좌석 등급에 따라 달라진다."
+summary: 파라타항공이 17일부터 자체 마일리지 제도를 시행했다. 국내선부터 미주 장거리까지 전 노선이 대상이다. 적립량은 운항 거리와 좌석
+  등급에 따라 달라진다.
 sources:
-  - https://www.ekn.kr/web/view.php?key=20261117029350511
-  - https://www.hankookilbo.com/news/article/A2026111913440003253
-  - https://www.etoday.co.kr/news/view/2648644
-status: approved
+- https://www.ekn.kr/web/view.php?key=20261117029350511
+- https://www.hankookilbo.com/news/article/A2026111913440003253
+- https://www.etoday.co.kr/news/view/2648644
+status: published
+published_id: c-dda7d7492432aeb9bc904551486e83c9cd2dab37
+published_on: '2026-11-20'
 ---
-
 파라타항공이 17일부터 승객 마일리지 적립 제도를 시행했다. 대형항공사(FSC)급 서비스를 내세우며 서비스 강화에 나선 첫 조치다. 항공권 발권과 탑승분부터 마일리지를 쌓는 방식으로 순차 시행에 들어갔다.
 
 제도는 단거리 국내선에서 미주 장거리까지 직접 운항하는 전 노선에 적용된다. 마일리지는 운항 거리와 좌석 등급에 따라 다르게 쌓인다. 국내선과 국제선 모두 같은 방식이다.

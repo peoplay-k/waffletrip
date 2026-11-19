@@ -4,18 +4,20 @@ channel: travel
 region: korea
 section: news
 kind: 보도자료
-title: "단양 소선암오토캠핑장, 20일부터 첫 동계 운영"
+title: 단양 소선암오토캠핑장, 20일부터 첫 동계 운영
 source_name: ''
 source_url: ''
-summary: "단양관광공사가 20일부터 소선암오토캠핑장을 겨울에도 연다. 시설 운영 이래 처음 시행하는 동계 운영이다. 겨울철 캠핑 수요에 대응해 연중무휴로 문을 연다."
+summary: 단양관광공사가 20일부터 소선암오토캠핑장을 겨울에도 연다. 시설 운영 이래 처음 시행하는 동계 운영이다. 겨울철 캠핑 수요에 대응해
+  연중무휴로 문을 연다.
 sources:
-  - https://www.shinailbo.co.kr/news/articleView.html?idxno=5085325
-  - https://www.ggnews1.co.kr/news/article.html?no=673087
-  - https://www.newsis.com/view/NISX20261119_0003874719
-  - https://www.inews365.com/news/article.html?no=944331
-status: approved
+- https://www.shinailbo.co.kr/news/articleView.html?idxno=5085325
+- https://www.ggnews1.co.kr/news/article.html?no=673087
+- https://www.newsis.com/view/NISX20261119_0003874719
+- https://www.inews365.com/news/article.html?no=944331
+status: published
+published_id: c-a19734b480cc2bd4eee4145504565b7d75c7904c
+published_on: '2026-11-20'
 ---
-
 충북 단양의 소선암오토캠핑장이 겨울에도 문을 연다. 단양관광공사는 20일부터 캠핑장 동계 운영을 시작한다고 19일 밝혔다.
 
 그동안 이 캠핑장은 겨울철에는 운영하지 않았다. 동계 운영은 시설을 운영하기 시작한 이래 처음이다. 이에 따라 소선암오토캠핑장은 20일부터 연중무휴로 운영되며, 겨울에도 캠핑객을 맞는다.
