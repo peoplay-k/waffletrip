@@ -47,30 +47,30 @@
 
 ## 베트남
 
+### “지갑 꺼낼 일 없는 휴가”…푸꾸옥에 1,490실 규모 올인클루시브
+- 매체 1곳 · 여행신문
+  - 여행신문: 리조트에 도착하면 지갑은 금고에 넣어둔다. 식사부터 공연과 스포츠까지 숙박 요금에 포함해 투숙객이 머무는 동안 아무것도 걱정하지 않고 쉴 수 있게 하는 것이 릭소
+    https://www.traveltimes.co.kr/news/articleView.html?idxno=500738
+
 ### "베트남 롱탄국제공항 취항 시기 연기해야"..베트남 정부 해외 항공사 34곳 설문 결과
 - 매체 1곳 · 파이낸셜뉴스
   - 파이낸셜뉴스: 베트남 최대 규모 신공항인 롱탄국제공항이 다음 달 상업 운항 개시를 앞두고 있는 가운데 해외 항공사 34곳이 충분한 사전 준비 기간 확보를 위해 기존 떤선녓 국제공항에서의 노선 이전을 내년 말 동계시즌 이후로 늦추기를 희망하는 것으로 조사됐다. 19일 현지 언론…
     https://www.fnnews.com/news/202611191233579342
 
-### 하노이시는 논-하노이 노선의 S12 지하철역 건설을 원활하게 진행하기 위해 쩐흥다오 거리와 꽌쑤 거리의 교통 흐름을 조정했습니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 2026년 11월 19일부터 2027년 5월 31일까지 S12 지하철역 건설, 차선 변경 및 년-하노이역 도시철도 차량기지 건설을 위해 쩐흥다오 거리와 꽌쑤 거리의 교통이 재정비될 예정입니다.
-    https://www.vietnam.vn/ko/ha-noi-dieu-chinh-giao-thong-duong-tran-hung-dao-quan-su-de-thi-cong-ga-ngam-s12-tuyen-nhon-ga-ha-noi
+### 베트남 휴양지 달랏, 공항-호수-관광지 잇는 도시철도 6개노선 달릴까?
+- 매체 1곳 · 아세안익스프레스
+  - 아세안익스프레스: 베트남 중부 고원도시 달랏(Dalat)은 해발고도 1400미터에 위치한 도시다. 소나무숲이 울창하고 일년내내 꽃이 피어 ‘꽃의 도시’로 불린다.
+    https://www.aseanexpress.co.kr/news/article.html?no=13256
 
-### 까마우는 시장을 확대하고 하노이 소비자들과 제품을 판매할 수 있는 기회를 모색하고 있습니다.
+### 하노이는 문화적 가치를 통해 소비 지출을 촉진합니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 까마우시는 하노이에서 "헬로 까마우 2026" 행사를 개최하여 기업과 유통업체를 연결하고, 농수산물의 안정적인 판로를 찾고, 물류 비용을 절감하는 데 기여했습니다.
-    https://www.vietnam.vn/ko/ca-mau-tim-co-hoi-mo-rong-thi-truong-ket-noi-tieu-thu-san-pham-tai-ha-noi
+  - vietnam.vn: 하노이는 문화유산, 관광, 소비 촉진 활동을 연계함으로써 문화적 강점을 무역, 서비스 및 경제 성장을 위한 자원으로 점차 전환하고 있습니다.
+    https://www.vietnam.vn/ko/ha-noi-kich-cau-tieu-dung-tu-nhung-gia-tri-van-hoa
 
-### 베트남 전통 ​​의상인 아오자이를 기념하고 관광 진흥을 도모합니다.
+### 하노이시는 5곳의 국가 무형문화유산을 지정했습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 11월 21일부터 23일까지 하노이에서 다채로운 공연, 전시, 체험 행사가 펼쳐지는 '하노이 관광 아오자이 페스티벌 2026'이 개최됩니다. 이번 축제는 베트남 전통 ​​의상인 아오자이의 아름다움을 기념하는 것을 넘어, 문화유산의 가치와 관광 개발을 연계하고, 창의성을 함양하며, 하노이
-    https://www.vietnam.vn/ko/ton-vinh-ao-dai-gan-voi-quang-ba-du-lich
-
-### 다낭의 이미지를 세계에 알리는 데 도움이 될 만한 아이디어를 독자 여러분께서 공유해 주시기를 바랍니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 다낭이 국제 사회에 오래도록 기억될 만한 인상을 남기려면 어떻게 홍보해야 할까요? 더 많은 관광객과 투자자를 유치하고 세계 지도에서 도시의 위상을 높이기 위해 무엇을 해야 할까요?
-    https://www.vietnam.vn/ko/moi-ban-doc-hien-ke-y-tuong-quang-ba-hinh-anh-da-nang-ra-the-gioi
+  - vietnam.vn: 이번에 5곳의 새로운 국가 무형문화유산이 추가되면서 하노이시는 총 65곳의 국가 무형문화유산을 보유하게 되었습니다. 하노이시는 관광 및 문화 산업 발전과 더불어 문화유산의 가치 보존 및 진흥을 강화하는 것을 목표로 하고 있습니다.
+    https://www.vietnam.vn/ko/ha-noi-trao-quyet-dinh-ghi-danh-5-di-san-van-hoa-phi-vat-the-quoc-gia
 
 ## 제주
 
@@ -161,8 +161,8 @@
 - 매체 2곳 · La Revue des Hôtels · The Hotel Conversation  ← 여러 곳이 썼다
   - The Hotel Conversation: 
     https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRGE1a3RjNlV6WDdnVHhBWmQzbU5mQUV2SXphNzE0VEw2cmVtSGl5ZFFpX2t6c1ktWkdpanN6MXBKZ2pIa1Z4Qm9YVTNRNXJ1c3ZsX1ZVTVNkUlhtWU9BeUlaLXhub0Z6MDVTa3JVdEV4WlpMYlpyVV9HdU1YZHRPR1B4WG1BZ3BfbHZ5V0VheElWYkZ4dzVqUnVBWVZYY1BuTmR0emdtNUd2bUJfRlNpdFFYTUVoVnl3MWE0dXZpaDRMVEVUUlJpZw?oc=5
-  - La Revue des Hôtels: 
-    https://news.google.com/rss/articles/CBMipAFBVV95cUxPc09jR3pFa3BBTkd5Yng5alg1VF9Yd3FMWmpuYU5wRzNGTjdKc01Mb2JvMFJEZ3V1cmpxOGljZVRWRUZzNTgtOHpQdnZabWlhQUs1WF9xQU5CTEZ2SWdlVjloZ29EMHdESnhJRXgzNFZNSWwxSEtXbzU3ZlgtU0w3d3h4M255OGc3NTVUY3VrTDFkYTdCNmY2WWRMazB0VFhCeWs2SQ?oc=5
+  - La Revue des Hôtels: On Koh Phangan, Thailand, Buri Rasa Village Phangan will become the Avani Koh Phangan Resort, the island's first Avani: 63 rooms on Thong Nai Pan Noi.
+    https://larevuedeshotels.com/en/avani-koh-phangan-resort-thailand-will-be-completed-by-late-2027-thong
 
 ## 대만
 
@@ -204,6 +204,28 @@
   - 문화뉴스: 충남 보령머드축제가 체험 프로그램뿐 아니라 지역기업과의 협력, 관광상품 개발에서도 국제적인 평가를 받았다. 보령시와 보령축제관광재단은 19일 보령머드축제가 세계축제협회(IFEA WORLD) 주관 '2026 피나클 어워즈(Pinnacle Awards) 세계대회'에서 금상 3개와 은상 1개
     https://www.mhns.co.kr/news/articleView.html?idxno=769912
 
+### 군산시간여행축제·국가유산야행, 피너클 어워즈 5개 부문 수상
+- 매체 5곳 · 더펜뉴스 · 연합뉴스 · 전민일보 · 투데이 군산 · 한국방송뉴스  ← 여러 곳이 썼다
+  - 연합뉴스: (군산=연합뉴스) 김진방 기자 = 전북 군산시는 지역 대표 축제인 군산시간여행축제와 군산국가유산야행이 '피너클 어워즈'(Pinnacle Awar...
+    https://www.yna.co.kr/amp/view/AKR20261119040500055
+  - 한국방송뉴스: [군산/김주창기자] 군산시(시장 김재준)의 대표 행사인 ‘군산시간여행축제’와 ‘군산국가유산야행’이 세계적 권위의 국제 축제 시상식인 ‘피너클 어워즈(Pinnacle Awards)’ 세계대회와 한국대회에서 나란히 수상하며 대한민국 대표 관광도시로서의 위상을 입증했다. 18일부터 19일까지
+    https://www.ikbn.news/news/article.html?no=217638
+  - 투데이 군산: 군산시 대표 축제인 군산시간여행축제와 군산국가유산야행이 세계적 권위의 '피너클 어워즈((Pinnacle Awards)’를 통해 대한민국 대표 관광도시로서 위상을 입증했다.
+    http://www.todaygunsan.co.kr/news/articleView.html?idxno=24386
+  - 더펜뉴스: 군산의 근대역사 자원을 활용한 두 대표 문화관광 행사가 국제 축제 평가에서 잇따라 수상했다. 관광객이 단순히 역사를 관람하는 데 그치지 않고 주민과 어린이, 지역 상인이 직접 프로그램을 만들고 참여하도록 한 운영 방식이 국내외 평가에서 주목받았다.
+    https://www.thepennews.net/news/article.html?no=47696
+
+### ​밤바다 수놓는 빛의 향연…‘2026 포항국제불빛축제’ 19일 팡파르
+- 매체 5곳 · TTL뉴스 · 세계일보 · 아주경제 · 쿠키뉴스 · 폴리뉴스 Polinews  ← 여러 곳이 썼다
+  - TTL뉴스: [퍼블릭뉴스통신]​‘2026포항국제불빛축제’가 오는 19일 저녁 송도 포항구항에서 열리는 미디어파사드 점등식을 시작으로 21일까지 사흘간 영일대해수욕장과 송도 포항구항 일원에서 펼쳐진다. ​‘All Light!
+    http://www.ttlnews.com/news/articleView.html?idxno=3163920
+  - 폴리뉴스 Polinews: [폴리뉴스 권택석(=경북) 기자] '2026 포항국제불빛축제'가 19일부터 21일까지 사흘간 영일대해수욕장과 송도 포항구항 일원에서 열린다. 축제 마지막 날인 2
+    https://www.polinews.co.kr/news/articleView.html?idxno=748694
+  - 세계일보: 늦가을 경북 포항에서 화려한 불빛의 향연이 펼쳐진다. 포항시는 ‘2026 포항국제불빛축제’가 19일 오후 송도 포항구항에서 열리는 미디어파사드 점등식을 시작으로 21일까지 3일간 펼쳐진다고 밝혔다.
+    https://www.segye.com/newsView/20261119505337?OutUrl=google
+  - 아주경제: 경북 포항의 대표 야간관광 축제인 ‘2026 포항국제불빛축제’가 19일 송도 포항구항 미디어파사드 점등식을 시작으로 사흘 간의 일정에 들어간. ..
+    https://www.ajunews.com/view/20261119020101645
+
 ### 최원철 공주시장, 피나클 축제리더상 수상
 - 매체 4곳 · 공뉴스 · 매일일보 · 에너지경제신문 · 투데이충남  ← 여러 곳이 썼다
   - 투데이충남: [공주] 이춘주 기자 = 공주 왕도심의 근대 국가유산을 야간 공연과 체험 무대로 활용해 온 최원철 공주시장이 ‘2026 축제리더상’을 받았다. 공주시는 같은 대회
@@ -225,28 +247,6 @@
     https://www.globalnewsagency.kr/news/articleView.html?idxno=505730
   - 충북일보: ［충북일보］ 단양관광공사가 20일부터 소선암오토캠핑장의 동계 운영을 본격 시작한다. 이번 동계 운영은 캠핑장 시설 운영 역사상 첫 시행으로, 겨울철 캠핑 수요에 적극 대응하고 캠핑장 운영 활성화를 위한 조치다.
     https://www.inews365.com/news/article.html?no=944331
-
-### 군산시간여행축제·국가유산야행, 피너클 어워즈 5개 부문 수상
-- 매체 4곳 · 더펜뉴스 · 연합뉴스 · 투데이 군산 · 한국방송뉴스  ← 여러 곳이 썼다
-  - 연합뉴스: (군산=연합뉴스) 김진방 기자 = 전북 군산시는 지역 대표 축제인 군산시간여행축제와 군산국가유산야행이 '피너클 어워즈'(Pinnacle Awar...
-    https://www.yna.co.kr/amp/view/AKR20261119040500055
-  - 한국방송뉴스: [군산/김주창기자] 군산시(시장 김재준)의 대표 행사인 ‘군산시간여행축제’와 ‘군산국가유산야행’이 세계적 권위의 국제 축제 시상식인 ‘피너클 어워즈(Pinnacle Awards)’ 세계대회와 한국대회에서 나란히 수상하며 대한민국 대표 관광도시로서의 위상을 입증했다. 18일부터 19일까지
-    https://www.ikbn.news/news/article.html?no=217638
-  - 투데이 군산: 군산시 대표 축제인 군산시간여행축제와 군산국가유산야행이 세계적 권위의 '피너클 어워즈((Pinnacle Awards)’를 통해 대한민국 대표 관광도시로서 위상을 입증했다.
-    http://www.todaygunsan.co.kr/news/articleView.html?idxno=24386
-  - 더펜뉴스: 군산의 근대역사 자원을 활용한 두 대표 문화관광 행사가 국제 축제 평가에서 잇따라 수상했다. 관광객이 단순히 역사를 관람하는 데 그치지 않고 주민과 어린이, 지역 상인이 직접 프로그램을 만들고 참여하도록 한 운영 방식이 국내외 평가에서 주목받았다.
-    https://www.thepennews.net/news/article.html?no=47696
-
-### ​밤바다 수놓는 빛의 향연…‘2026 포항국제불빛축제’ 19일 팡파르
-- 매체 4곳 · TTL뉴스 · 세계일보 · 아주경제 · 폴리뉴스 Polinews  ← 여러 곳이 썼다
-  - TTL뉴스: [퍼블릭뉴스통신]​‘2026포항국제불빛축제’가 오는 19일 저녁 송도 포항구항에서 열리는 미디어파사드 점등식을 시작으로 21일까지 사흘간 영일대해수욕장과 송도 포항구항 일원에서 펼쳐진다. ​‘All Light!
-    http://www.ttlnews.com/news/articleView.html?idxno=3163920
-  - 폴리뉴스 Polinews: [폴리뉴스 권택석(=경북) 기자] '2026 포항국제불빛축제'가 19일부터 21일까지 사흘간 영일대해수욕장과 송도 포항구항 일원에서 열린다. 축제 마지막 날인 2
-    https://www.polinews.co.kr/news/articleView.html?idxno=748694
-  - 세계일보: 늦가을 경북 포항에서 화려한 불빛의 향연이 펼쳐진다. 포항시는 ‘2026 포항국제불빛축제’가 19일 오후 송도 포항구항에서 열리는 미디어파사드 점등식을 시작으로 21일까지 3일간 펼쳐진다고 밝혔다.
-    https://www.segye.com/newsView/20261119505337?OutUrl=google
-  - 아주경제: 경북 포항의 대표 야간관광 축제인 ‘2026 포항국제불빛축제’가 19일 송도 포항구항 미디어파사드 점등식을 시작으로 사흘 간의 일정에 들어간. ..
-    https://www.ajunews.com/view/20261119020101645
 
 ## 여행업계
 
@@ -336,17 +336,26 @@
   - 트래블데일리: 인스파이어 엔터테인먼트 리조트가 다가오는 겨울방학과 연말연시를 맞아 가족, 연인, 친구와 특별한 호캉스를 계획하는 고객들을 위한 ‘윈터 원더랜드’ 겨울 패키지 4종을 선보인다. 이번 패키지는 미식, 레저, 쇼핑 등 리조트 내 다양한 시설과 콘텐츠를 결합한 ‘플레이케이션(Play + Va
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72739
 
-## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 34건)
+## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 36건)
 
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
 
-- [2026-11-19·여행업계] 노선 더 늘리고 싶어도…슬롯·주기장에 막힌 청주공항
-  https://news.google.com/rss/articles/CBMickFVX3lxTFA4RVV4R045U2dLd29DMGtwaGZrMExQbG5vd2tDYkNQRjI2R2ZYSW53NzNuV2I2MDdLWEV3VVBpUXhLZjdleGF4akZOOUJ3NnJ4VmtYQXhQYlJUZHozdzlSUndnQkxnUHFXbzFQb0VwZUpnQQ?oc=5
-- [2026-11-19·여행업계] 내년 3월 직항 뜬다… 이스라엘관광청, 관광객 맞이 채비
-  https://news.google.com/rss/articles/CBMickFVX3lxTE5BVWJRNU1Cd2pScWRMOGJCSTJjMTIwdjZ1aGlwUjhsZW9MYkVRcXdsMl90QW81a2pkUjJyWTRyQWNWT0toRWd5S1RMeFNsN0NqbkpWR1ZhMDVOUkNuMllCZHZmbjJZRW1nd2RacGM0R0dHUQ?oc=5
-- [2026-11-19·베트남] “지갑 꺼낼 일 없는 휴가”…푸꾸옥에 1,490실 규모 올인클루시브
-  https://news.google.com/rss/articles/CBMickFVX3lxTFAtQVlobTF2WkVGb2FvRURMUk81Y2ZwUXZyX1Z0aG5ENjhuOGtsOGRVT3JjalBZUzh1WXpVeUlnQjFUMkRYZGN4a2dKVmtfWmlqdDItZHpmTlRiZzhGYllZbE1HbHJ3TzZQVTVSNjNXRG42dw?oc=5
+- [2026-11-20·여행업계] 노선 더 늘리고 싶어도…슬롯·주기장에 막힌 청주공항
+  청주국제공항의 국제선 확대가 이어지고 있지만 항공사들은 슬롯과 주기장 등 운항 인프라 부족을 호소하고 있다. 일본과 중국을 중심으로 신규 노선이 늘고 추가 증편
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500672
+- [2026-11-20·여행업계] 내년 3월 직항 뜬다… 이스라엘관광청, 관광객 맞이 채비
+  이스라엘이 2027년 직항 취항을 발판으로 한국 관광 시장 재건에 나선다. 기존 성지순례 수요를 회복하는 동시에 MICE, 프리미엄 여행, MZ 세대로 고객층을
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500742
+- [2026-11-20·베트남] “지갑 꺼낼 일 없는 휴가”…푸꾸옥에 1,490실 규모 올인클루시브
+  리조트에 도착하면 지갑은 금고에 넣어둔다. 식사부터 공연과 스포츠까지 숙박 요금에 포함해 투숙객이 머무는 동안 아무것도 걱정하지 않고 쉴 수 있게 하는 것이 릭소
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500738
+- [2026-11-20·여행업계] 여행 SNS 대상 14년 연속 받은 여행사…비결은 ‘밈·드라마’? [주간 여행 산업 동향]
+  여행사 부문밈·드라마 엮은 여행 콘텐츠로 ‘S등급’노랑풍선이 11월 13일 열린 ‘제19회 대한민국소통어워즈’에서 ‘대한민국소셜미디어대상’ 관광·여행 부문 대상을 받았다. 2012년 첫 수상 이후 14년 연속 수상이다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500759
+- [2026-11-20·여행업계] B2B 호텔 예약의 새로운 문법…“검색 대신 ‘카톡’하세요”
+  제품을 기획하고 개발해 세상에 내놓는다. 여기서 끝이 아니다.
+  https://www.traveltimes.co.kr/news/articleView.html?idxno=500749
 - [2026-11-19·일본] 일본 구마모토서 또 지진…규모 5.7에 교통 차질
   일본 규슈 구마모토현에서 규모 5.7의 지진이 발생해 일부 철도 운행과 고속도로 통행에 차질이 빚어졌다. 지난 7월 발생한 대규모 지진 이후에도 지진 활동이 이어지고 있다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500750
@@ -481,12 +490,6 @@
 - [2026-11-11·여행업계] 크루즈 관광객 지갑은 열렸는데…여행사엔 ‘남의 얘기’
   크루즈 관광객은 기항지에 평균 5시간 48분 머물며 1인당 174.5달러를 지출하는 것으로 조사됐다. 다만 일부 인바운드 업계에서는 관광객의 소비가 실질적인 수익
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500670
-- ✅ [2026-11-11·제주] 역대 최고 기록한 중국남방항공, 광저우-제주 노선 연다
-  중국남방항공이 올해 한국 시장 수송객을 27% 늘려 역대 최고를 기록한 가운데, 12월 광저우-제주 노선을 새로 연다. 중국남방항공 한국지사는 11월 5일 앰배서더 서울 풀만 호텔에서 ‘2026 중국남방항공 동계 상품설명회’를 열고 동계 노선과 서비스를 소개했다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500691
-- ✅ [2026-11-11·여행업계] 더 오래 머물고 다시 찾게…말레이시아, 한국 시장 공략
-  말레이시아관광청이 ‘말레이시아 방문의 해’를 2027년까지 연장하고 한국 시장에서 장기 체류와 재방문 수요를 공략한다. 장기 체류 프로그램을 캠페인에 포함하고, 국내 여행업계와 협력해 생태 탐방과 섬 휴양 등 현지 체험을 살린 여행 상품을 늘린다는 방침이다.
-  https://www.traveltimes.co.kr/news/articleView.html?idxno=500689
 
 ## 공연·전시 — category: stage, 하루 두 편 이상
 
@@ -557,7 +560,12 @@
     http://www.seogwipo.tv/news/articleView.html?idxno=15139
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 36개 확인, 사진 줄 2개)
+(자유 이용 사진: 이름 후보 36개 확인, 사진 줄 1개)
+
+### 🔥 화제(매체 24곳) [startrip] 첫 내한 ‘뮤지컬 거장’ 앤드루 로이드 웨버 “이야기의 힘 그리고 지금 브로드웨이”
+- 매체 1곳 · 브릿지경제
+  - 브릿지경제: “제가 가지고 있는 신념 중 하나는 부족한 음악은 좋은 이야기가 채워줄 수 있지만 부족한 이야기는 아무리 음악이 좋아도 채울 수 없다는 겁니다. 제 작품 중 큰 흥행을 거두지 못한 경우도 그랬어요.
+    https://www.viva100.com/article/20261120500002
 
 ### 🔥 화제(매체 24곳) [movie] ‘폭설’ 개봉 첫날 1위…임영웅 콘서트 실황 영화 2위 출발 [11월 18일 영화 박스오피스]
 - 매체 2곳 · ER 이코노믹리뷰 · 재경일보  ← 여러 곳이 썼다
@@ -613,12 +621,6 @@
   - iMBC 연예: 배우 김명민이 예능 출연을 하지 않았던 이유를 밝혔다. 18일 방송된 tvN '유퀴즈 온 더 블럭'에는 배우 김명민이 출연했다.
     https://enews.imbc.com/News/RetrieveNewsInfo/525298
 
-### 🔥 화제(매체 3곳) [music] 베스티, 빌보드도 뚫었다.. ‘연애의 조건’, 발매 13년 만에 빌보드 글로벌 차트 진입
-- 매체 1곳 · MHN스포츠
-- 사진(자유 이용, 베스티): `![베스티 · 사진 SJ · CC BY 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/b/be/BESTie_at_Pyeongchon_Cultural_street_Festival%2C_18_September_2015.jpg)`
-  - MHN스포츠: 
-    https://mhnse.com/news/articleView.html?idxno=1702884
-
 ---
 거리 115건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
@@ -627,68 +629,67 @@
 
 관광청·방송사·소속사·배급사 공식 유튜브만 모았다. 영상 제목·설명의 사실로 기사를 쓰고,
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
-(검색어 33개 · 고른 영상 15개)
+(검색어 34개 · 고른 영상 15개)
 
 ## ENHYPEN (엔하이픈) 'I Want You' Official MV
-- 채널 HYBE LABELS · 조회수 21,922,473회 · 6일 전
+- 채널 HYBE LABELS · 조회수 21,990,208회 · 6일 전
 - `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
 
 ## TXT (투모로우바이투게더) 'Angel Bite' Official MV
-- 채널 HYBE LABELS · 조회수 17,100,450회 · 3일 전
+- 채널 HYBE LABELS · 조회수 17,749,654회 · 3일 전
 - `@youtube M9G4guYg-i8` · https://www.youtube.com/watch?v=M9G4guYg-i8
 
 ## GIRLSET "young & dumb" Music Video
-- 채널 JYP Entertainment · 조회수 12,440,424회 · 6일 전
+- 채널 JYP Entertainment · 조회수 12,503,075회 · 6일 전
 - `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
 
-## 천천히 강렬하게 | 공식 티저 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 2,494,130회 · 6일 전
-- `@youtube iEmGtIh60DE` · https://www.youtube.com/watch?v=iEmGtIh60DE
-
-## 임윤아부터 윈터까지! 역대급 5MC 등장 [저스트 메이크업] 시즌2 5MC 예고편
-- 채널 쿠팡플레이 Coupang Play · 조회수 1,074,909회 · 2일 전
-- `@youtube jS9OuwckDEM` · https://www.youtube.com/watch?v=jS9OuwckDEM
-
 ## 더 커진 판, 더 독해진 가족 [가족계획 시즌2] 티저 예고편
-- 채널 쿠팡플레이 Coupang Play · 조회수 1,065,059회 · 1일 전
+- 채널 쿠팡플레이 Coupang Play · 조회수 1,100,141회 · 1일 전
 - `@youtube cBHXKJiXFJs` · https://www.youtube.com/watch?v=cBHXKJiXFJs
 
+## 임윤아부터 윈터까지! 역대급 5MC 등장 [저스트 메이크업] 시즌2 5MC 예고편
+- 채널 쿠팡플레이 Coupang Play · 조회수 1,080,575회 · 2일 전
+- `@youtube jS9OuwckDEM` · https://www.youtube.com/watch?v=jS9OuwckDEM
+
 ## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 769,947회 · 4일 전
+- 채널 tvN DRAMA · 조회수 777,973회 · 4일 전
 - `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
 
-## [선공개] 수상할 정도로 여유로운 한국인 용의자 | 푸른길 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 660,911회 · 2일 전
-- `@youtube KVUkmP2tCoI` · https://www.youtube.com/watch?v=KVUkmP2tCoI
-
 ## 삼체: 시즌 2 | 공식 티저 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 370,304회 · 2일 전
+- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 371,106회 · 2일 전
 - `@youtube MEsBnTrMPjc` · https://www.youtube.com/watch?v=MEsBnTrMPjc
-  안녕. 한동안 말을 건네지 않았지. 하지만 줄곧 지켜보고 있었다.\r \r 에미상 후보에 오른 흥행 대작 《삼체》가 시즌 2로 돌아온다. 1월 14일 공개. 오직 넷플릭스에서.\r \r 넷플릭스 채널 구독: https://vo.la/j7zAG\r https://www.youtube.com/@NetflixKorea
 
 ## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
-- 채널 tvN DRAMA · 조회수 343,498회 · 5일 전
+- 채널 tvN DRAMA · 조회수 343,599회 · 5일 전
 - `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
 
-## [10화 예고] 내가 널 만난 건 행운이 아니라 기적💞 서로가 있어 행복한 임시완X설인아에 다가온 또다른 위협? #나의유죄인간 EP.10
-- 채널 tvN DRAMA · 조회수 308,559회 · 3일 전
-- `@youtube izmmaIqoz3s` · https://www.youtube.com/watch?v=izmmaIqoz3s
-
 ## [라이어 7회 예고] ＂언니가 어떻게 나를 속일 수가 있어?＂, MBC 261120 방송
-- 채널 MBCdrama · 조회수 307,469회 · 5일 전
+- 채널 MBCdrama · 조회수 309,658회 · 5일 전
 - `@youtube mueEY-8Pw_0` · https://www.youtube.com/watch?v=mueEY-8Pw_0
 
+## [10화 예고] 내가 널 만난 건 행운이 아니라 기적💞 서로가 있어 행복한 임시완X설인아에 다가온 또다른 위협? #나의유죄인간 EP.10
+- 채널 tvN DRAMA · 조회수 308,611회 · 3일 전
+- `@youtube izmmaIqoz3s` · https://www.youtube.com/watch?v=izmmaIqoz3s
+
 ## ［31회 예고］제가 혹이라서 허락 안 하신 거예요? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 275,888회 · 5일 전
+- 채널 KBS Drama · 조회수 276,041회 · 5일 전
 - `@youtube 1x4AkY0HbA4` · https://www.youtube.com/watch?v=1x4AkY0HbA4
 
-## 데블스플랜 B | 공식 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 274,293회 · 6일 전
-- `@youtube yD-4vl93ZQU` · https://www.youtube.com/watch?v=yD-4vl93ZQU
+## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
+- 채널 tvN DRAMA · 조회수 214,643회 · 2일 전
+- `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
 
-## YENA - Sakuranbo｜Beyond the Studio｜LIVE
-- 채널 1theK Live - 원더케이 라이브 · 조회수 250,383회 · 1일 전
-- `@youtube 8wdKPH6_YGc` · https://www.youtube.com/watch?v=8wdKPH6_YGc
+## ［32회 예고］못 데려갑니다 결이 [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 180,051회 · 4일 전
+- `@youtube OgU1Nkhzai8` · https://www.youtube.com/watch?v=OgU1Nkhzai8
+
+## 이게 다 메이크업이라고? 👀 메이크업의 새로운 역사 [저스트 메이크업] 시즌2 티저 예고편 
+- 채널 쿠팡플레이 Coupang Play · 조회수 150,728회 · 6일 전
+- `@youtube qpmnD4lWpTQ` · https://www.youtube.com/watch?v=qpmnD4lWpTQ
+
+## [라디오스타] 그야말로 진짜 '효자곡'👑 이적이 밝힌 임영웅 '다시 만날 수 있을까' 비하인드, MBC 261118 방송
+- 채널 MBCentertainment · 조회수 140,548회 · 1일 전
+- `@youtube Se3ng4UIToU` · https://www.youtube.com/watch?v=Se3ng4UIToU
 
 
 
@@ -919,5 +920,3 @@ EBS는 <세상에 나쁜 개는 없다> 특집 위기의 개들 3부 ‘도로 �
 한편, 고속도로에서 구조된 뒤 반려견 미용사들의 보살핌으로 새로운 삶을 살고 있는 ‘꿀떡이’의 사연도 만난다. 위험한 도로에서 꿀떡이를 구한 이들은 돌아가며 임시 보호를 하다 끝내 가족으로 품었다. 길 위에서 하루하루를 버티던 꿀떡이는 이제 사랑하는 이들과 함께 걷는다. 오래도록 곁을 지키고 싶다는 이들의 마음은 구조 이후의 삶을 책임진다는 것, 생명을 가족으로 맞이한다는 것의 의미를 돌아보게 한다.
 가족이 떠
 
----
-수집 실패: MBC 목록: timed out
