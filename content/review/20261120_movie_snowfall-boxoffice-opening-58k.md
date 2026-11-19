@@ -5,15 +5,18 @@ category: movie
 region: ''
 section: news
 kind: 해설
-title: "'폭설', 개봉 첫날 5만 8천 명으로 박스오피스 1위"
+title: '''폭설'', 개봉 첫날 5만 8천 명으로 박스오피스 1위'
 source_name: ''
 source_url: ''
-summary: "미스터리 스릴러 '폭설'이 18일 개봉 첫날 5만 8,038명을 모아 박스오피스 1위에 올랐다. 누적 관객은 6만 3,697명이다. 임영웅 콘서트 실황 영화가 2위로 출발했다."
+summary: 미스터리 스릴러 '폭설'이 18일 개봉 첫날 5만 8,038명을 모아 박스오피스 1위에 올랐다. 누적 관객은 6만 3,697명이다.
+  임영웅 콘서트 실황 영화가 2위로 출발했다.
 sources:
-  - https://www.econovill.com/news/articleView.html?idxno=757796
-  - https://news.jkn.co.kr/post/1101319
-  - https://www.hankookilbo.com/news/article/A2026111616250002716
-status: approved
+- https://www.econovill.com/news/articleView.html?idxno=757796
+- https://news.jkn.co.kr/post/1101319
+- https://www.hankookilbo.com/news/article/A2026111616250002716
+status: published
+published_id: c-dc1f1ff0ab0cf4156c76633ee0c3a05da9ac21c1
+published_on: '2026-11-20'
 ---
 영화 '폭설'이 개봉 첫날 박스오피스 1위에 올랐다. 18일 하루 관객은 5만 8,038명이다. 개봉 전 상영분을 합친 누적 관객은 6만 3,697명이다.
 

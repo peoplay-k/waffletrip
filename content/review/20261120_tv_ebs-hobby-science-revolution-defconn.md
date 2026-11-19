@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'취미는 과학' 과학혁명 편, 데프콘의 '가요계 레전드'는 조용필"
+title: '''취미는 과학'' 과학혁명 편, 데프콘의 ''가요계 레전드''는 조용필'
 source_name: ''
 source_url: ''
-summary: "EBS1 '취미는 과학'이 20일 밤 10시 50분 '과학혁명, 판은 어떻게 뒤집히나?'를 방송한다. 한양대 이상욱 교수가 토머스 쿤의 《과학혁명의 구조》를 풀어 준다. 코페르니쿠스·라부아지에·다윈이 과학자들의 '레전드' 후보로 오른다."
+summary: EBS1 '취미는 과학'이 20일 밤 10시 50분 '과학혁명, 판은 어떻게 뒤집히나?'를 방송한다. 한양대 이상욱 교수가 토머스
+  쿤의 《과학혁명의 구조》를 풀어 준다. 코페르니쿠스·라부아지에·다윈이 과학자들의 '레전드' 후보로 오른다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005654823
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005654823
+status: published
+published_id: c-ccd9d36e8437ad1ed5cb6269e93481faf8b08435
+published_on: '2026-11-20'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 취미는 과학 | 주제 · 과학혁명, 판은 어떻게 뒤집히나?

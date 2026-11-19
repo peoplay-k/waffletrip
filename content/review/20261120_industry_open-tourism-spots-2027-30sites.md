@@ -4,17 +4,20 @@ channel: travel
 region: industry
 section: news
 kind: 보도자료
-title: "문체부·관광공사, 2027년 '열린 관광지' 30곳 선정…경포해변·용문산 포함"
+title: 문체부·관광공사, 2027년 '열린 관광지' 30곳 선정…경포해변·용문산 포함
 source_name: ''
 source_url: ''
-summary: "문화체육관광부와 한국관광공사가 2027년 '열린 관광지 조성 사업' 대상지 30곳을 골랐다. 강릉 경포해변과 양평 용문산관광지가 들어갔다. 경주·포항은 '무장애 관광 연계성 강화 사업' 대상 권역이 됐다."
+summary: 문화체육관광부와 한국관광공사가 2027년 '열린 관광지 조성 사업' 대상지 30곳을 골랐다. 강릉 경포해변과 양평 용문산관광지가 들어갔다.
+  경주·포항은 '무장애 관광 연계성 강화 사업' 대상 권역이 됐다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72746
-  - https://www.newsis.com/view/NISX20261119_0003875532
-  - https://www.yna.co.kr/view/AKR20261119026100030
-  - https://zdnet.co.kr/view/?no=20261119140741
-  - https://www.fnnews.com/news/202611190349050400
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72746
+- https://www.newsis.com/view/NISX20261119_0003875532
+- https://www.yna.co.kr/view/AKR20261119026100030
+- https://zdnet.co.kr/view/?no=20261119140741
+- https://www.fnnews.com/news/202611190349050400
+status: published
+published_id: c-e065e176633345dc897e9b7b67546b71adc9a3be
+published_on: '2026-11-20'
 ---
 문화체육관광부가 한국관광공사와 함께 2027년 '열린 관광지 조성 사업' 대상지 30곳을 선정했다. 장애인과 고령자, 영유아 동반 가족도 불편 없이 다닐 수 있도록 관광지의 접근성을 높이는 사업이다.
 

@@ -4,16 +4,19 @@ channel: travel
 region: japan
 section: flight
 kind: 해설
-title: "에어부산, 겨울 일본 노선 확대…나가사키 재운항·시즈오카 증편"
+title: 에어부산, 겨울 일본 노선 확대…나가사키 재운항·시즈오카 증편
 source_name: ''
 source_url: ''
-summary: "에어부산이 내년 1월 5일부터 부산~나가사키 부정기편을 주 3회 다시 띄운다. 부산~시즈오카는 1월 3일부터 주 3회에서 주 5회로 늘린다. 두 노선 모두 2월 28일까지 운항한다."
+summary: 에어부산이 내년 1월 5일부터 부산~나가사키 부정기편을 주 3회 다시 띄운다. 부산~시즈오카는 1월 3일부터 주 3회에서 주 5회로
+  늘린다. 두 노선 모두 2월 28일까지 운항한다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72745
-  - https://www.mt.co.kr/policy/2026/11/19/2026111917361260515
-  - https://www.sedaily.com/article/20116214
-  - https://mbiz.heraldcorp.com/article/10942076
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72745
+- https://www.mt.co.kr/policy/2026/11/19/2026111917361260515
+- https://www.sedaily.com/article/20116214
+- https://mbiz.heraldcorp.com/article/10942076
+status: published
+published_id: c-dd369b23a1d7fbf7cf427b582f8459ad099cabac
+published_on: '2026-11-20'
 ---
 에어부산이 겨울 성수기에 맞춰 일본 노선을 늘린다. 부산~나가사키 노선은 다시 띄우고, 부산~시즈오카 노선은 운항 횟수를 늘린다.
 

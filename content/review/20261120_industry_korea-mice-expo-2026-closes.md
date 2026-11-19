@@ -4,17 +4,20 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "'2026 코리아 마이스 엑스포' 폐막…업계 5천 명 참가, 상담 5천 건"
+title: '''2026 코리아 마이스 엑스포'' 폐막…업계 5천 명 참가, 상담 5천 건'
 source_name: ''
 source_url: ''
-summary: "'2026 코리아 마이스 엑스포'가 19일 코엑스마곡에서 사흘 일정을 마쳤다. 국내외 MICE 업계 관계자 약 5,000명이 참가했다. 비즈니스 상담도 약 5,000건 이뤄졌다."
+summary: '''2026 코리아 마이스 엑스포''가 19일 코엑스마곡에서 사흘 일정을 마쳤다. 국내외 MICE 업계 관계자 약 5,000명이
+  참가했다. 비즈니스 상담도 약 5,000건 이뤄졌다.'
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72747
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72738
-  - https://www.tournews21.com/news/articleView.html?idxno=148786
-  - https://www.dtoday.co.kr/news/articleView.html?idxno=804343
-  - http://www.todayan.com/news/articleView.html?idxno=637992
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72747
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72738
+- https://www.tournews21.com/news/articleView.html?idxno=148786
+- https://www.dtoday.co.kr/news/articleView.html?idxno=804343
+- http://www.todayan.com/news/articleView.html?idxno=637992
+status: published
+published_id: c-3003d4cfefdce8d236238456872ebf15f7d2f743
+published_on: '2026-11-20'
 ---
 국내 최대 MICE 산업 박람회 '2026 코리아 마이스 엑스포'가 19일 서울 코엑스마곡에서 막을 내렸다. 17일 개막해 사흘간 열렸다.
 

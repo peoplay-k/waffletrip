@@ -31,6 +31,11 @@
 
 ## 하와이
 
+### 유나이티드항공 전산 장애로 출발편 차질… 하와이 여행객 불편 가중
+- 매체 1곳 · KBFD
+  - KBFD: 항공업계에서 전산 장애로 인한 운항 차질이 잇따르고 있습니다. 지난 금요일 전국적인 항공기 운항 중단 사태가 발생한 데 이어, 이번에는 유나이티드항공의 시스템 장애로 출발 항공편들이 영향을 받았습니다.
+    https://kbfd.com/?p=25996
+
 ### First Alert Forecast: Wet and windy into the weekend
 - 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
   - Hawaii News Now: The trade winds are easing a bit today as the high pressure to our north weakens and drifts eastward. A new strong high will replace it by Friday and we will be
@@ -57,11 +62,6 @@
   - 파이낸셜뉴스: 베트남 최대 규모 신공항인 롱탄국제공항이 다음 달 상업 운항 개시를 앞두고 있는 가운데 해외 항공사 34곳이 충분한 사전 준비 기간 확보를 위해 기존 떤선녓 국제공항에서의 노선 이전을 내년 말 동계시즌 이후로 늦추기를 희망하는 것으로 조사됐다. 19일 현지 언론…
     https://www.fnnews.com/news/202611191233579342
 
-### 베트남 휴양지 달랏, 공항-호수-관광지 잇는 도시철도 6개노선 달릴까?
-- 매체 1곳 · 아세안익스프레스
-  - 아세안익스프레스: 베트남 중부 고원도시 달랏(Dalat)은 해발고도 1400미터에 위치한 도시다. 소나무숲이 울창하고 일년내내 꽃이 피어 ‘꽃의 도시’로 불린다.
-    https://www.aseanexpress.co.kr/news/article.html?no=13256
-
 ### 하노이는 문화적 가치를 통해 소비 지출을 촉진합니다.
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 하노이는 문화유산, 관광, 소비 촉진 활동을 연계함으로써 문화적 강점을 무역, 서비스 및 경제 성장을 위한 자원으로 점차 전환하고 있습니다.
@@ -71,6 +71,11 @@
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 이번에 5곳의 새로운 국가 무형문화유산이 추가되면서 하노이시는 총 65곳의 국가 무형문화유산을 보유하게 되었습니다. 하노이시는 관광 및 문화 산업 발전과 더불어 문화유산의 가치 보존 및 진흥을 강화하는 것을 목표로 하고 있습니다.
     https://www.vietnam.vn/ko/ha-noi-trao-quyet-dinh-ghi-danh-5-di-san-van-hoa-phi-vat-the-quoc-gia
+
+### 하노이시는 논-하노이 노선의 S12 지하철역 건설을 원활하게 진행하기 위해 쩐흥다오 거리와 꽌쑤 거리의 교통 흐름을 조정했습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 2026년 11월 19일부터 2027년 5월 31일까지 S12 지하철역 건설, 차선 변경 및 년-하노이역 도시철도 차량기지 건설을 위해 쩐흥다오 거리와 꽌쑤 거리의 교통이 재정비될 예정입니다.
+    https://www.vietnam.vn/ko/ha-noi-dieu-chinh-giao-thong-duong-tran-hung-dao-quan-su-de-thi-cong-ga-ngam-s12-tuyen-nhon-ga-ha-noi
 
 ## 제주
 
@@ -290,6 +295,15 @@
   - 주간한국: [주간한국 김동용 기자] 강원랜드는 자사가 운영하는 하이원리조트가 ‘2026 대한민국 관광기념품 박람회’에 참가해 브랜드 기념품과 참여형 이벤트를 선보인다고 19일 밝혔다. 오는 20일부터 22일까지 사흘간 서울 동대문디자인플라자(DDP)에서 열리는 이번 박람회는 문화체육관광부가 주최하
     https://weekly.hankooki.com/news/articleView.html?idxno=7194708
 
+### 조폐공사, 관광기념품 박람회서 화폐 굿즈 판매
+- 매체 3곳 · 디트NEWS24 · 신아일보 · 충청매일  ← 여러 곳이 썼다
+  - 신아일보: 한국조폐공사는 화폐 제조 과정에서 나온 부산물로 만든 생활 소품을 관광기념품 박람회에서 판매한다. 그동안 온라인을 중심으로 선보인 돈명태 마그넷과 돈볼펜 등을 현
+    https://www.shinailbo.co.kr/news/articleView.html?idxno=5085174
+  - 디트NEWS24: 한국조폐공사가 화폐 제조 과정에서 발생하는 부산물을 활용한 이색 굿즈와 다양한 카드형 제품을 선보이며 관광기념품 시장 공략에 나선다. 온라인을 중심으로 판매해 온 화폐굿즈를 오프라인에서 직접 전시·판매하는 만큼 소비자들이 제품을 체험하고 구매할 수 있는 기회가 될 전망이다.
+    https://www.dtnews24.com/news/articleView.html?idxno=817377
+  - 충청매일: 한국조폐공사는 20일부터 22일까지 서울 동대문디자인플라자(DDP) 아트홀에서 열리는 ‘2026 대한민국 관광기념품 박람회’에 참가해 화폐굿즈와 카드형 제품을 전시·판매한다고 밝혔다. 이번 박람회에서는 화폐 제조 과정에서 발생하는 부산물에 새로운 가치를 더한 굿즈 브랜드 ‘머니메이드(
+    https://www.ccdn.co.kr/news/articleView.html?idxno=1112332
+
 ### 특징주, 제주항공-항공/저가항공사 테마 상승세에 8.31% ↑
 - 매체 1곳 · 매일경제 마켓  ← 여러 곳이 썼다
   - 매일경제 마켓: 19일 항공/저가항공사 테마가 전일 ...
@@ -328,13 +342,6 @@
     https://www.newsis.com/view/ALSX20261118_0000008274
   - 트래블데일리: 부킹 홀딩스가 파트너가 여행을 통해 사업을 성장시키고 고객에게 더 많은 가치를 제공하며, 부킹 홀딩스의 글로벌 도달 범위, 선도적인 기술, 전문성, 지속적인 혁신을 활용해 새로운 기회를 열도록 돕기 위해 설계한 새로운 글로벌 B2B 조직 부킹 파트너 사업부(Booking Partner 
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72744
-
-### 콜링투어, 겨울 홉스골 동행투어 4종 출시
-- 매체 2곳 · 트래블데일리 · 한국경제  ← 여러 곳이 썼다
-  - 한국경제: 콜링투어, 겨울 홉스골 동행투어 4종 출시, 2030 크리스마스 투어 24명 중 20명 예약&hellip;4050 전용 상품 첫 출시 2027년 차탕족 눈&middot;순록축제와 홉스골 얼음축제 연계 상품 운영 국내선&middot;차량 이동형 구성&hellip;한 팀 전용 맞춤여행도 확
-    https://www.hankyung.com/article/202611185803O
-  - 트래블데일리: 인스파이어 엔터테인먼트 리조트가 다가오는 겨울방학과 연말연시를 맞아 가족, 연인, 친구와 특별한 호캉스를 계획하는 고객들을 위한 ‘윈터 원더랜드’ 겨울 패키지 4종을 선보인다. 이번 패키지는 미식, 레저, 쇼핑 등 리조트 내 다양한 시설과 콘텐츠를 결합한 ‘플레이케이션(Play + Va
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72739
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 36건)
 
@@ -493,10 +500,24 @@
 
 ## 공연·전시 — category: stage, 하루 두 편 이상
 
+### [stage] 오페라의 유령 한국어 노랫말, 너무 아름다워… 계속 듣고싶다
+- 매체 1곳 · 동아일보
+  - 동아일보: “만약 40여 년 전으로 거슬러 올라가 ‘에비타’ 다음에 무슨 작품을 쓸지 인공지능(AI)에 물었다면, 시인 T S 엘리엇의 시를 바탕으로 사람을 고양이 모습으로 무대에 올리는 ‘캣츠’를 제안하지는 못했을 겁니다. ” ‘살아있는 뮤지컬 음악의 전설’ 앤드루 로이드 웨…
+    https://www.donga.com/news/Culture/article/all/20261119/135057348/2
+
 ### [stage] '오페라의 유령' 작곡가 로이드 웨버 방한‥"음악보다 좋은 이야기가 중요"
 - 매체 1곳 · MBC 뉴스
   - MBC 뉴스: '오페라의 유령'과 '캣츠', '지저스 크라이스트 수퍼스타' 등 전 세계적으로 사랑받고 있는 뮤지컬을 작곡한 거장 앤드루 로이드 웨버가 우리나라를 찾았습니다. 로이드 웨버는 오늘 ...
     https://imnews.imbc.com/news/2026/society/article/6866954_36918.html
+
+### [stage] 경남도립미술관, 25일부터 올해 마지막 기획전 2건 동시 개막
+- 매체 3곳 · 경남도민신문 · 문화뉴스 · 연합뉴스
+  - 연합뉴스: (창원=연합뉴스) 이정훈 기자 = 경남도립미술관은 25일부터 올해 마지막 기획전 '기계 인간 유령', '의미는 그렇게 만들어진다'를 동시 개막한. ..
+    https://www.yna.co.kr/view/AKR20261119071400052
+  - 문화뉴스: 경남도립미술관이 산업도시 창원의 특성을 예술로 조명하고, 지난 20여 년간 수집한 소장품의 가치를 재해석하는 두 전시를 선보인다. 기계와 인간의 관계를 탐구하는 동시대 미술부터 관람객이 직접 작품의 의미를 해석하고 공유하는 참여형 프로그램까지 마련했다.
+    https://www.mhns.co.kr/news/articleView.html?idxno=769879
+  - 경남도민신문: 창원의 산업도시 특성에서 출발한 동시대 미술전 ‘기계 인간 유령’ 20여 년 소장품의 가치를 재조명하는 ‘의미는 그렇게 만들어진다’ 경남도립미술관은 오는 25일부터 2027년 2월 14일까지 미술관 전 층에서 기획전 ‘기계 인간 유령’과 소장품전 ‘의미는 그렇게 만들어진다’를 동시에 개
+    http://www.gndomin.com/news/articleView.html?idxno=497562
 
 ### [stage] 음성군 2026 송년음악회 … 소프라노 조수미 세계무대 데뷔 40주년 기념 공연
 - 매체 4곳 · 뉴스1 · 음성뉴스 · 음성타임즈 · 충청매일
@@ -508,13 +529,6 @@
     https://www.news1.kr/photos/8222726
   - 충청매일: ‘신이 내린 목소리’ 소프라노 조수미가 세계 무대 데뷔 40주년을 기념해 충북 음성군민들을 위한 특별한 송년 무대에 오른다. 군은 2026년 한 해를 마무리하는 송년음악회로 소프라노 조수미 데뷔 40주년 기념 공연을 다음달 14일 오후 7시 30분 음성문화예술회관에서 개최한다.
     https://www.ccdn.co.kr/news/articleView.html?idxno=1112359
-
-### [stage] 경남도립미술관, 25일부터 올해 마지막 기획전 2건 동시 개막
-- 매체 2곳 · 문화뉴스 · 연합뉴스
-  - 연합뉴스: (창원=연합뉴스) 이정훈 기자 = 경남도립미술관은 25일부터 올해 마지막 기획전 '기계 인간 유령', '의미는 그렇게 만들어진다'를 동시 개막한. ..
-    https://www.yna.co.kr/view/AKR20261119071400052
-  - 문화뉴스: 경남도립미술관이 산업도시 창원의 특성을 예술로 조명하고, 지난 20여 년간 수집한 소장품의 가치를 재해석하는 두 전시를 선보인다. 기계와 인간의 관계를 탐구하는 동시대 미술부터 관람객이 직접 작품의 의미를 해석하고 공유하는 참여형 프로그램까지 마련했다.
-    https://www.mhns.co.kr/news/articleView.html?idxno=769879
 
 ### [stage] 꿈의 오케스트라 울주, 오늘 첫 정기연주회
 - 매체 2곳 · 울산일보 · 은평시민신문
@@ -553,11 +567,6 @@
 - 매체 1곳 · 경상투데이
   - 경상투데이: 
     https://www.gyeongsangtoday.com/news/view.php?idx=277009
-
-### [stage] 감귤박물관 특별기획전 ‘형형색색: 네 개의 세계’ 19일 개막
-- 매체 1곳 · 서귀포방송
-  - 서귀포방송: 서귀포시 감귤박물관과 서귀포시장애인종합복지관(관장 윤보철)이 공동 기획한 특별기획전 ‘형형색색: 네 개의 세계’가 오는 19일부터 내년 2월 14일까지 88일간 감귤박물관 2층 기획전시실에서 열린다. ‘형형색색’은 서로 다른 형태와 색깔이 어우러진 다채로운 모습을 뜻한다.
-    http://www.seogwipo.tv/news/articleView.html?idxno=15139
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
 (자유 이용 사진: 이름 후보 36개 확인, 사진 줄 1개)
@@ -622,7 +631,7 @@
     https://enews.imbc.com/News/RetrieveNewsInfo/525298
 
 ---
-거리 115건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 116건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -632,63 +641,64 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## ENHYPEN (엔하이픈) 'I Want You' Official MV
-- 채널 HYBE LABELS · 조회수 21,990,208회 · 6일 전
+- 채널 HYBE LABELS · 조회수 22,011,000회 · 6일 전
 - `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
 
 ## TXT (투모로우바이투게더) 'Angel Bite' Official MV
-- 채널 HYBE LABELS · 조회수 17,749,654회 · 3일 전
+- 채널 HYBE LABELS · 조회수 17,854,295회 · 3일 전
 - `@youtube M9G4guYg-i8` · https://www.youtube.com/watch?v=M9G4guYg-i8
 
-## GIRLSET "young & dumb" Music Video
-- 채널 JYP Entertainment · 조회수 12,503,075회 · 6일 전
-- `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
-
 ## 더 커진 판, 더 독해진 가족 [가족계획 시즌2] 티저 예고편
-- 채널 쿠팡플레이 Coupang Play · 조회수 1,100,141회 · 1일 전
+- 채널 쿠팡플레이 Coupang Play · 조회수 1,103,539회 · 1일 전
 - `@youtube cBHXKJiXFJs` · https://www.youtube.com/watch?v=cBHXKJiXFJs
 
 ## 임윤아부터 윈터까지! 역대급 5MC 등장 [저스트 메이크업] 시즌2 5MC 예고편
-- 채널 쿠팡플레이 Coupang Play · 조회수 1,080,575회 · 2일 전
+- 채널 쿠팡플레이 Coupang Play · 조회수 1,081,591회 · 2일 전
 - `@youtube jS9OuwckDEM` · https://www.youtube.com/watch?v=jS9OuwckDEM
 
 ## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 777,973회 · 4일 전
+- 채널 tvN DRAMA · 조회수 778,895회 · 4일 전
 - `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
 
+## NAYEON SINGLE “NA-sty” SNEAK PEEK
+- 채널 JYP Entertainment · 조회수 452,675회 · 6일 전
+- `@youtube x64Vby_D3Ps` · https://www.youtube.com/watch?v=x64Vby_D3Ps
+
 ## 삼체: 시즌 2 | 공식 티저 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 371,106회 · 2일 전
+- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 371,211회 · 2일 전
 - `@youtube MEsBnTrMPjc` · https://www.youtube.com/watch?v=MEsBnTrMPjc
+  안녕. 한동안 말을 건네지 않았지. 하지만 줄곧 지켜보고 있었다.\r \r 에미상 후보에 오른 흥행 대작 《삼체》가 시즌 2로 돌아온다. 1월 14일 공개. 오직 넷플릭스에서.\r \r 넷플릭스 채널 구독: https://vo.la/j7zAG\r https://www.youtube.com/@NetflixKorea
 
 ## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
-- 채널 tvN DRAMA · 조회수 343,599회 · 5일 전
+- 채널 tvN DRAMA · 조회수 343,681회 · 5일 전
 - `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
 
 ## [라이어 7회 예고] ＂언니가 어떻게 나를 속일 수가 있어?＂, MBC 261120 방송
-- 채널 MBCdrama · 조회수 309,658회 · 5일 전
+- 채널 MBCdrama · 조회수 310,014회 · 5일 전
 - `@youtube mueEY-8Pw_0` · https://www.youtube.com/watch?v=mueEY-8Pw_0
 
 ## [10화 예고] 내가 널 만난 건 행운이 아니라 기적💞 서로가 있어 행복한 임시완X설인아에 다가온 또다른 위협? #나의유죄인간 EP.10
-- 채널 tvN DRAMA · 조회수 308,611회 · 3일 전
+- 채널 tvN DRAMA · 조회수 307,837회 · 3일 전
 - `@youtube izmmaIqoz3s` · https://www.youtube.com/watch?v=izmmaIqoz3s
 
 ## ［31회 예고］제가 혹이라서 허락 안 하신 거예요? [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 276,041회 · 5일 전
+- 채널 KBS Drama · 조회수 276,045회 · 5일 전
 - `@youtube 1x4AkY0HbA4` · https://www.youtube.com/watch?v=1x4AkY0HbA4
 
 ## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
-- 채널 tvN DRAMA · 조회수 214,643회 · 2일 전
+- 채널 tvN DRAMA · 조회수 215,012회 · 2일 전
 - `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
 
 ## ［32회 예고］못 데려갑니다 결이 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 180,051회 · 4일 전
+- 채널 KBS Drama · 조회수 180,212회 · 4일 전
 - `@youtube OgU1Nkhzai8` · https://www.youtube.com/watch?v=OgU1Nkhzai8
 
 ## 이게 다 메이크업이라고? 👀 메이크업의 새로운 역사 [저스트 메이크업] 시즌2 티저 예고편 
-- 채널 쿠팡플레이 Coupang Play · 조회수 150,728회 · 6일 전
+- 채널 쿠팡플레이 Coupang Play · 조회수 150,772회 · 6일 전
 - `@youtube qpmnD4lWpTQ` · https://www.youtube.com/watch?v=qpmnD4lWpTQ
 
 ## [라디오스타] 그야말로 진짜 '효자곡'👑 이적이 밝힌 임영웅 '다시 만날 수 있을까' 비하인드, MBC 261118 방송
-- 채널 MBCentertainment · 조회수 140,548회 · 1일 전
+- 채널 MBCentertainment · 조회수 143,595회 · 1일 전
 - `@youtube Se3ng4UIToU` · https://www.youtube.com/watch?v=Se3ng4UIToU
 
 
