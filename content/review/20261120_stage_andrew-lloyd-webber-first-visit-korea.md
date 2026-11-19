@@ -8,14 +8,16 @@ kind: 해설
 title: 앤드루 로이드 웨버 첫 내한…"부족한 이야기는 음악으로 못 채운다"
 source_name: ''
 source_url: ''
-summary: '''오페라의 유령'' 작곡가 앤드루 로이드 웨버가 처음 한국을 찾았다. ''오페라의 유령'' 세계 초연 40주년과 한국어 초연 25주년 기념 시즌을 앞둔 방문이다. 그는 음악보다 좋은 이야기가 중요하다고 말했다.'
+summary: '''오페라의 유령'' 작곡가 앤드루 로이드 웨버가 처음 한국을 찾았다. ''오페라의 유령'' 세계 초연 40주년과 한국어 초연 25주년
+  기념 시즌을 앞둔 방문이다. 그는 음악보다 좋은 이야기가 중요하다고 말했다.'
 sources:
 - https://www.viva100.com/article/20261120500002
 - https://imnews.imbc.com/news/2026/society/article/6866954_36918.html
 - https://www.fnnews.com/news/202611171841359351
-status: approved
+status: published
+published_id: c-9c36d9f73f07555ab530709018ddd0e8697703af
+published_on: '2026-11-20'
 ---
-
 뮤지컬 거장 앤드루 로이드 웨버가 한국을 처음 공식 방문했다.
 그는 16일 한국에 왔다.
 

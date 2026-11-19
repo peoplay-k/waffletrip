@@ -12,9 +12,10 @@ summary: '넷플릭스 예능 ''피지컬: 아시아''가 시즌2로 돌아온�
 sources:
 - https://www.yna.co.kr/view/AKR20261119043100005
 - http://www.breaknews.com/1252182
-status: approved
+status: published
+published_id: c-d695aa7d9ef5f77a401383efacc7151cdb9b3b32
+published_on: '2026-11-20'
 ---
-
 '피지컬: 아시아'가 시즌2를 만든다.
 넷플릭스가 19일 이 소식을 알렸다.
 

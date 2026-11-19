@@ -7,12 +7,14 @@ kind: 해설
 title: 구마모토서 규모 5.7 지진…일부 철도·고속도로 차질
 source_name: ''
 source_url: ''
-summary: 일본 규슈 구마모토현에서 규모 5.7의 지진이 났다. 일부 철도 운행과 고속도로 통행에 차질이 생겼다. 지난 7월 큰 지진 이후에도 지진 활동이 이어지고 있다.
+summary: 일본 규슈 구마모토현에서 규모 5.7의 지진이 났다. 일부 철도 운행과 고속도로 통행에 차질이 생겼다. 지난 7월 큰 지진 이후에도
+  지진 활동이 이어지고 있다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500750
-status: approved
+status: published
+published_id: c-c055011bee5bd087295be67961054f7bccda947b
+published_on: '2026-11-20'
 ---
-
 일본 구마모토현에서 또 지진이 났다.
 규모는 5.7이다.
 

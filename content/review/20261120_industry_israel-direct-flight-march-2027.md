@@ -7,12 +7,14 @@ kind: 해설
 title: 이스라엘, 내년 3월 한국 직항 앞두고 관광객 맞이 채비
 source_name: ''
 source_url: ''
-summary: 이스라엘관광청이 2027년 3월 직항 취항을 앞두고 한국 시장 재건에 나선다. 성지순례 수요를 되살리는 데 그치지 않는다. MICE와 프리미엄 여행, MZ세대로 손님층을 넓힌다는 계획이다.
+summary: 이스라엘관광청이 2027년 3월 직항 취항을 앞두고 한국 시장 재건에 나선다. 성지순례 수요를 되살리는 데 그치지 않는다. MICE와
+  프리미엄 여행, MZ세대로 손님층을 넓힌다는 계획이다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500742
-status: approved
+status: published
+published_id: c-13de5abdd7d06e448fa974452cd7141ca86557e5
+published_on: '2026-11-20'
 ---
-
 한국과 이스라엘을 잇는 직항이 내년 3월 뜬다.
 이스라엘관광청은 이를 발판으로 한국 관광 시장을 다시 키운다.
 

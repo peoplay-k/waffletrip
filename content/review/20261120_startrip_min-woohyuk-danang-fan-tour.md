@@ -8,12 +8,14 @@ kind: 해설
 title: 민우혁, 팬들과 베트남 다낭 간다…12월 팬투어 'SUPER STAR'
 source_name: ''
 source_url: ''
-summary: 뮤지컬 배우 민우혁이 팬들과 함께 베트남 다낭으로 여행을 떠난다. 12월 5일부터 9일까지 3박 5일 일정이다. 팬투어 이름은 'SUPER STAR'다.
+summary: 뮤지컬 배우 민우혁이 팬들과 함께 베트남 다낭으로 여행을 떠난다. 12월 5일부터 9일까지 3박 5일 일정이다. 팬투어 이름은 'SUPER
+  STAR'다.
 sources:
 - https://www.sisamagazine.co.kr/article/1000000000931
-status: approved
+status: published
+published_id: c-406e2fb9153266b1514ded9c117bc6a2c16681ad
+published_on: '2026-11-20'
 ---
-
 뮤지컬 배우 민우혁이 팬들과 해외여행을 떠난다.
 행선지는 베트남 다낭이다.
 

@@ -8,12 +8,14 @@ kind: 해설
 title: KBS2 '욕망의 덫' 62회, 궁지에 몰린 정선 돕는 은설…정체 알게 된 해라
 source_name: ''
 source_url: ''
-summary: KBS2 일일드라마 '욕망의 덫' 62회가 20일 저녁 7시 50분 방송된다. 은설은 궁지에 몰린 정선을 돕고, 해라는 은설의 정체를 알고 혼란에 빠진다. 석진은 소연의 기억 속 이름 오태섭을 찾아간다.
+summary: KBS2 일일드라마 '욕망의 덫' 62회가 20일 저녁 7시 50분 방송된다. 은설은 궁지에 몰린 정선을 돕고, 해라는 은설의 정체를
+  알고 혼란에 빠진다. 석진은 소연의 기억 속 이름 오태섭을 찾아간다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+status: published
+published_id: c-1956f6c19e802781c14e49bbaba30507d67f89fd
+published_on: '2026-11-20'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 욕망의 덫 | 회차 · 62회
 > 방송 · 2026년 11월 20일(금) 저녁 7시 50분

@@ -8,12 +8,14 @@ kind: 해설
 title: 넷플릭스 '삼체' 시즌2, 1월 14일 공개…티저 조회수 37만
 source_name: ''
 source_url: ''
-summary: 넷플릭스 시리즈 '삼체'가 시즌2로 돌아온다. 공개일은 1월 14일이다. 넷플릭스 코리아 공식 채널에 올라온 티저는 이틀 만에 조회수 37만 회를 넘었다.
+summary: 넷플릭스 시리즈 '삼체'가 시즌2로 돌아온다. 공개일은 1월 14일이다. 넷플릭스 코리아 공식 채널에 올라온 티저는 이틀 만에 조회수
+  37만 회를 넘었다.
 sources:
 - https://www.youtube.com/watch?v=MEsBnTrMPjc
-status: approved
+status: published
+published_id: c-c2da241e79b72cd2219ef9319cedffb8b639a53f
+published_on: '2026-11-20'
 ---
-
 에미상 후보에 올랐던 '삼체'가 돌아온다.
 넷플릭스는 시즌2를 1월 14일 공개한다.
 

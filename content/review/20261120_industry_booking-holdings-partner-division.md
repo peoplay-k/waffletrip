@@ -7,13 +7,15 @@ kind: 해설
 title: 부킹 홀딩스, B2B 전담 '부킹 파트너 사업부' 출범
 source_name: ''
 source_url: ''
-summary: 부킹닷컴의 모회사 부킹 홀딩스가 새 글로벌 B2B 조직 '부킹 파트너 사업부'를 출범했다. 협력사가 여행 사업을 키우도록 돕는 조직이다. 부킹 홀딩스의 글로벌 망과 기술을 협력사가 활용할 수 있게 한다.
+summary: 부킹닷컴의 모회사 부킹 홀딩스가 새 글로벌 B2B 조직 '부킹 파트너 사업부'를 출범했다. 협력사가 여행 사업을 키우도록 돕는 조직이다.
+  부킹 홀딩스의 글로벌 망과 기술을 협력사가 활용할 수 있게 한다.
 sources:
 - https://www.traveldaily.co.kr/news/articleView.html?idxno=72744
 - https://www.newsis.com/view/ALSX20261118_0000008274
-status: approved
+status: published
+published_id: c-4c03f4afbbade56ea17c6ca95c94c7dc92227588
+published_on: '2026-11-20'
 ---
-
 부킹 홀딩스가 기업 간 거래(B2B)를 전담할 조직을 만들었다.
 이름은 '부킹 파트너 사업부(Booking Partner Division)'다.
 
