@@ -5,17 +5,19 @@ category: stage
 region: ''
 section: news
 kind: 해설
-title: "경남도립미술관, 올해 마지막 기획전 '기계 인간 유령'·소장품전 25일 동시 개막"
+title: 경남도립미술관, 올해 마지막 기획전 '기계 인간 유령'·소장품전 25일 동시 개막
 source_name: ''
 source_url: ''
-summary: "경남도립미술관이 25일 기획전 '기계 인간 유령'과 소장품전 '의미는 그렇게 만들어진다'를 연다. 두 전시는 2027년 2월 14일까지 미술관 전 층에서 이어진다. 산업도시 창원의 특성과 20여 년 소장품을 각각 다룬다."
+summary: 경남도립미술관이 25일 기획전 '기계 인간 유령'과 소장품전 '의미는 그렇게 만들어진다'를 연다. 두 전시는 2027년 2월 14일까지
+  미술관 전 층에서 이어진다. 산업도시 창원의 특성과 20여 년 소장품을 각각 다룬다.
 sources:
-  - https://www.yna.co.kr/view/AKR20261119071400052
-  - https://www.mhns.co.kr/news/articleView.html?idxno=769879
-  - http://www.gndomin.com/news/articleView.html?idxno=497562
-status: approved
+- https://www.yna.co.kr/view/AKR20261119071400052
+- https://www.mhns.co.kr/news/articleView.html?idxno=769879
+- http://www.gndomin.com/news/articleView.html?idxno=497562
+status: published
+published_id: c-85f30afe8d0c90ea76bf998529620f58f39aba2f
+published_on: '2026-11-20'
 ---
-
 경남도립미술관이 올해 마지막 전시로 기획전 두 건을 한꺼번에 연다. 25일 개막하는 '기계 인간 유령'과 '의미는 그렇게 만들어진다'다.
 
 경남도립미술관은 25일부터 2027년 2월 14일까지 미술관 전 층에서 기획전 '기계 인간 유령'과 소장품전 '의미는 그렇게 만들어진다'를 동시에 연다고 밝혔다. 두 전시를 합쳐 올해 마지막 기획전으로 내놓는다.

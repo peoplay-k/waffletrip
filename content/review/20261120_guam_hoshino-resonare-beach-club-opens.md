@@ -4,18 +4,20 @@ channel: travel
 region: guam
 section: news
 kind: 보도자료
-title: "호시노 리조트 리조나레 괌, 하갓냐만에 괌 리조트 업계 최초 콘셉트형 비치클럽 개장"
+title: 호시노 리조트 리조나레 괌, 하갓냐만에 괌 리조트 업계 최초 콘셉트형 비치클럽 개장
 source_name: ''
 source_url: ''
-summary: "호시노 리조트 리조나레 괌이 11월 1일 하갓냐만 해변에 비치클럽을 열었다. 괌 리조트 업계에서 본격적인 콘셉트형 비치클럽은 처음이다. 8월 문을 연 올데이 다이닝 'CHOCHO'와 함께 차모로 문화를 내세운다."
+summary: 호시노 리조트 리조나레 괌이 11월 1일 하갓냐만 해변에 비치클럽을 열었다. 괌 리조트 업계에서 본격적인 콘셉트형 비치클럽은 처음이다.
+  8월 문을 연 올데이 다이닝 'CHOCHO'와 함께 차모로 문화를 내세운다.
 sources:
-  - http://www.ttlnews.com/news/articleView.html?idxno=3164001
-  - http://www.sukbakmagazine.com/news/articleView.html?idxno=70027
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72740
-  - https://traveli.net/traveli/article-1794992402833-fe3b8175
-status: approved
+- http://www.ttlnews.com/news/articleView.html?idxno=3164001
+- http://www.sukbakmagazine.com/news/articleView.html?idxno=70027
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72740
+- https://traveli.net/traveli/article-1794992402833-fe3b8175
+status: published
+published_id: c-0fa3ebe94d7a7b42187bc9a2de31ab072998ec8e
+published_on: '2026-11-20'
 ---
-
 괌 서부 해안 하갓냐만에 새 비치클럽이 들어섰다. 호시노 리조트 리조나레 괌이 11월 1일 문을 열었다. 괌 리조트 업계에서 본격적인 콘셉트형 비치클럽은 이번이 처음이다.
 
 호시노 리조트 리조나레 괌은 하갓냐만 해변에 비치클럽을 정식 개장했다고 밝혔다. 음식과 음료, 휴식 공간, 해양 액티비티를 한곳에 갖춘 복합 공간이다. 차모로 전통문화와 현대적 휴양 감각을 섞었다.

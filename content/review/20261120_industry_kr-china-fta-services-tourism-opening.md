@@ -4,18 +4,19 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "한중 FTA 서비스·투자 후속협상 실질타결…중국 23개 지역 관광 서비스 시장 열린다"
+title: 한중 FTA 서비스·투자 후속협상 실질타결…중국 23개 지역 관광 서비스 시장 열린다
 source_name: ''
 source_url: ''
-summary: "한중 양국이 18일 FTA 서비스·투자 후속협상의 실질타결을 선언했다. 관광 분야에서는 중국 23개 주요 지역의 서비스 시장이 개방된다. 한국관광협회중앙회와 한국여행업협회는 환영 입장을 냈다."
+summary: 한중 양국이 18일 FTA 서비스·투자 후속협상의 실질타결을 선언했다. 관광 분야에서는 중국 23개 주요 지역의 서비스 시장이 개방된다.
+  한국관광협회중앙회와 한국여행업협회는 환영 입장을 냈다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72751
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72750
-  - http://www.ttlnews.com/news/articleView.html?idxno=3164019
-  - https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22539
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72751
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72750
+- http://www.ttlnews.com/news/articleView.html?idxno=3164019
+- https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22539
+status: duplicate
+duplicate_of: 20261119_industry_korea-china-fta-travel-agency-23regions.md
 ---
-
 한국과 중국이 서비스·투자 분야 후속협상을 사실상 마무리했다. 이번 타결로 중국 23개 주요 지역의 관광 서비스 시장이 열린다.
 
 산업통상부는 18일 아시아태평양경제협력체(APEC) 정상회의를 계기로 열린 한중 정상회담에서 양국이 '한중 자유무역협정(FTA) 서비스·투자 후속협상'의 실질타결을 선언했다고 밝혔다.

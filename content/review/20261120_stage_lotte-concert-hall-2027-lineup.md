@@ -5,16 +5,18 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "롯데콘서트홀, 2027 기획공연 라인업 공개…조수미 신년음악회·아르헤리치 베토벤 무대"
+title: 롯데콘서트홀, 2027 기획공연 라인업 공개…조수미 신년음악회·아르헤리치 베토벤 무대
 source_name: ''
 source_url: ''
-summary: "롯데콘서트홀이 2027년 기획공연 라인업을 공개했다. 소프라노 조수미의 신년음악회와 피아니스트 마르타 아르헤리치의 베토벤 기념 공연이 포함됐다. 베토벤 서거 200주년을 중심 축으로 삼았다."
+summary: 롯데콘서트홀이 2027년 기획공연 라인업을 공개했다. 소프라노 조수미의 신년음악회와 피아니스트 마르타 아르헤리치의 베토벤 기념 공연이
+  포함됐다. 베토벤 서거 200주년을 중심 축으로 삼았다.
 sources:
-  - https://www.yna.co.kr/view/AKR20261119067000005
-  - https://www.d-art.co.kr/news/articleView.html?idxno=6702
-status: approved
+- https://www.yna.co.kr/view/AKR20261119067000005
+- https://www.d-art.co.kr/news/articleView.html?idxno=6702
+status: published
+published_id: c-86f393f1fa9bf9d44534caf826ee336e1b55cc68
+published_on: '2026-11-20'
 ---
-
 롯데콘서트홀이 내년 무대를 미리 내놨다. 소프라노 조수미의 신년음악회와 피아니스트 마르타 아르헤리치의 베토벤 기념 공연이 라인업에 들어갔다.
 
 롯데콘서트홀은 19일 2027년 기획공연 라인업을 공개했다. 2026년 개관 10주년을 지나 새로운 10년의 첫 장을 여는 시즌이다.
