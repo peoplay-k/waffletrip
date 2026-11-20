@@ -8,13 +8,15 @@ kind: 해설
 title: BTS 아시아 투어 시작…가오슝 이어 방콕·싱가포르 등 7개 도시 21회
 source_name: ''
 source_url: ''
-summary: 방탄소년단이 대만 가오슝을 시작으로 아시아·호주 투어에 들어갔다. 아시아에서만 7개 도시에서 21회 공연한다. 원정 관람을 계획하는 팬이라면 도시별 일정부터 챙겨야 한다.
+summary: 방탄소년단이 대만 가오슝을 시작으로 아시아·호주 투어에 들어갔다. 아시아에서만 7개 도시에서 21회 공연한다. 원정 관람을 계획하는
+  팬이라면 도시별 일정부터 챙겨야 한다.
 sources:
 - https://www.starnewskorea.com/music/2026/11/19/2026111907214212720
 - https://enews.imbc.com/News/RetrieveNewsInfo/525305
-status: approved
+status: published
+published_id: c-a08633921b327a90affcdcf65981be69fa8059d1
+published_on: '2026-11-21'
 ---
-
 방탄소년단이 아시아 무대에 오른다.
 월드투어 '아리랑'의 아시아·호주 일정이 대만 가오슝에서 시작됐다.
 

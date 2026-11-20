@@ -8,12 +8,14 @@ kind: 해설
 title: KBS2 '사랑이 온다' 32회, 한결을 두고 맞선 무진과 현범
 source_name: ''
 source_url: ''
-summary: KBS2 주말드라마 '사랑이 온다' 32회가 21일 밤 8시 방송된다. 규림은 윤희에게 한결 이야기를 전하고, 무진은 한결을 두고 현범과 맞선다. 규오는 희나의 심상치 않은 소식을 듣는다.
+summary: KBS2 주말드라마 '사랑이 온다' 32회가 21일 밤 8시 방송된다. 규림은 윤희에게 한결 이야기를 전하고, 무진은 한결을 두고
+  현범과 맞선다. 규오는 희나의 심상치 않은 소식을 듣는다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/loveonthemenu
-status: approved
+status: published
+published_id: c-c23fcfa93a4a015b9b1a1c157b817feefdd1be1f
+published_on: '2026-11-21'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 32회
 > 방송 · 2026년 11월 21일(토) 밤 8시

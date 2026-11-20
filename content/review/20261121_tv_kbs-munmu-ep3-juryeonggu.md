@@ -8,12 +8,14 @@ kind: 해설
 title: KBS2 대하드라마 '문무' 3회 '던져진 주령구'…대야성 공격한 백제
 source_name: ''
 source_url: ''
-summary: KBS2 대하드라마 '문무'가 21일 밤 9시 20분 3회 '던져진 주령구'를 방송한다. 법민과 춘추가 서라벌로 돌아간 사이 백제가 대야성을 공격한다. 법민의 집에는 관 세 개가 도착한다.
+summary: KBS2 대하드라마 '문무'가 21일 밤 9시 20분 3회 '던져진 주령구'를 방송한다. 법민과 춘추가 서라벌로 돌아간 사이 백제가
+  대야성을 공격한다. 법민의 집에는 관 세 개가 도착한다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/munmu
-status: approved
+status: published
+published_id: c-295672743b742fdb417b1abce3f82295fc927fab
+published_on: '2026-11-21'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 문무 | 회차 · 3회
 > 방송 · 2026년 11월 21일(토) 밤 9시 20분

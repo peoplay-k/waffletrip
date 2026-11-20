@@ -8,14 +8,16 @@ kind: 해설
 title: 베스티 '연애의 조건', 발매 13년 만에 빌보드 글로벌 차트 진입
 source_name: ''
 source_url: ''
-summary: 그룹 베스티의 '연애의 조건'이 발매 13년 만에 빌보드 글로벌 차트에 들었다. 최근 역주행 바람을 타고 음악방송 무대에도 다시 섰다. 원더케이 공식 채널의 퍼포먼스 영상은 하루 만에 조회수 63만 회를 넘었다.
+summary: 그룹 베스티의 '연애의 조건'이 발매 13년 만에 빌보드 글로벌 차트에 들었다. 최근 역주행 바람을 타고 음악방송 무대에도 다시 섰다.
+  원더케이 공식 채널의 퍼포먼스 영상은 하루 만에 조회수 63만 회를 넘었다.
 sources:
 - https://mhnse.com/news/articleView.html?idxno=1702884
 - https://www.topstarnews.net/news/articleView.html?idxno=16273085
 - https://www.youtube.com/watch?v=FVNI7zBuk-4
-status: approved
+status: published
+published_id: c-e6f4041cb77b558457a2cfe95d4f9d8331639a73
+published_on: '2026-11-21'
 ---
-
 13년 전 노래가 빌보드에 올랐다.
 베스티의 '연애의 조건'이 빌보드 글로벌 차트에 진입했다.
 
