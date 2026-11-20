@@ -3,7 +3,7 @@
     "kind": "title",
     "narration": "안녕하세요, 피플로드입니다. 이번 주 여행 뉴스를 정리해 드립니다.",
     "headline": "이번 주 여행 뉴스",
-    "sub": "2026년 11월 20일 · 피플로드",
+    "sub": "2026년 11월 21일 · 피플로드",
     "cover": {
       "regions": [
         "일본",
@@ -15,7 +15,7 @@
       ],
       "count": 18,
       "photos": [
-        "assets/photos/vietnam/260912_하노이여행지_13번.webp",
+        "assets/photos/vietnam/260912_하노이여행지_4번.webp",
         "assets/photos/jeju/DSC01484.webp"
       ]
     }
@@ -25,7 +25,7 @@
     "rows": [
       [
         "일본",
-        "100 JPY = 약 836원"
+        "100 JPY = 약 833원"
       ],
       [
         "베트남",
@@ -57,10 +57,10 @@
       ],
       [
         "라오스",
-        "100 LAK = 약 6.0원"
+        "100 LAK = 약 5.9원"
       ]
     ],
-    "narration": "먼저 오늘의 환율입니다. 일본은 100 JPY = 약 836원, 베트남은 100 VND = 약 5.2원, 태국은 1 THB = 약 39.2원. 환율과 날씨는 저희가 매일 직접 만드는 값입니다."
+    "narration": "먼저 오늘의 환율입니다. 일본은 100 JPY = 약 833원, 베트남은 100 VND = 약 5.2원, 태국은 1 THB = 약 39.2원. 환율과 날씨는 저희가 매일 직접 만드는 값입니다."
   },
   {
     "kind": "section",
@@ -102,7 +102,7 @@
     "region": "vietnam",
     "count": 3,
     "narration": "베트남 소식입니다.",
-    "photo": "assets/photos/vietnam/260912_하노이여행지_1번.webp"
+    "photo": "assets/photos/vietnam/260912_하노이여행지_5번.webp"
   },
   {
     "kind": "story",
@@ -112,7 +112,7 @@
     "summary": "하노이 시내 쩐흥다오 거리와 꽌쑤 거리의 교통 흐름이 바뀐다. 년~하노이역 노선 S12 지하역 공사 때문이다. 조정은 11월 19일부터 2027년 5월 31일까지 이어진다",
     "outlet": "",
     "narration": "하노이 시내 쩐흥다오 거리와 꽌쑤 거리의 교통 흐름이 바뀐다. 년~하노이역 노선 S12 지하역 공사 때문이다.",
-    "photo": "assets/photos/vietnam/260910_하노이닌빈여행_6번.webp"
+    "photo": "assets/photos/vietnam/260905_하롱베이크루즈_11번.webp"
   },
   {
     "kind": "story",
@@ -122,7 +122,7 @@
     "summary": "베트남 최대 신공항인 롱탄국제공항이 다음 달 상업 운항을 시작한다. 해외 항공사 34곳은 기존 떤선녓공항 노선의 이전을 내년 말 동계시즌 이후로 미루고 싶다고 답했다. 준비 기간이 더 필요하다는 이유다",
     "outlet": "",
     "narration": "베트남 최대 신공항인 롱탄국제공항이 다음 달 상업 운항을 시작한다. 해외 항공사 34곳은 기존 떤선녓공항 노선의 이전을 내년 말 동계시즌 이후로 미루고 싶다고 답했다.",
-    "photo": "assets/photos/vietnam/260910_하노이닌빈여행_7번.webp"
+    "photo": "assets/photos/vietnam/260905_하롱베이크루즈_12번.webp"
   },
   {
     "kind": "story",
@@ -132,7 +132,7 @@
     "summary": "베트남 고원 도시 달랏의 꽃 축제가 올해 12월 12일 막을 올린다. 당초 계획보다 일주일 빨라졌다. 주민과 관광객을 위한 여러 행사가 함께 열린다",
     "outlet": "",
     "narration": "베트남 고원 도시 달랏의 꽃 축제가 올해 12월 12일 막을 올린다. 당초 계획보다 일주일 빨라졌다.",
-    "photo": "assets/photos/vietnam/260910_하노이닌빈여행_8번.webp"
+    "photo": "assets/photos/vietnam/260905_하롱베이크루즈_1번.webp"
   },
   {
     "kind": "section",
@@ -242,7 +242,7 @@
     "region": "guam",
     "count": 3,
     "narration": "괌 소식입니다.",
-    "photo": "assets/photos/guam/KakaoTalk_20250404_072316086_06.webp"
+    "photo": "assets/photos/guam/PEO_3276.webp"
   },
   {
     "kind": "story",
@@ -252,7 +252,7 @@
     "summary": "호시노 리조트 리조나레 괌이 11월 1일 하갓냐만 해변에 비치클럽을 열었다. 괌 리조트 업계에서 본격적인 콘셉트형 비치클럽은 처음이다. 8월 문을 연 올데이 다이닝 'CHOCHO'와 함께 차모로 문화를 내세운다",
     "outlet": "",
     "narration": "호시노 리조트 리조나레 괌이 11월 1일 하갓냐만 해변에 비치클럽을 열었다. 괌 리조트 업계에서 본격적인 콘셉트형 비치클럽은 처음이다.",
-    "photo": "assets/photos/guam/KakaoTalk_20250404_072316086_08.webp"
+    "photo": "assets/photos/guam/PEO_9670.webp"
   },
   {
     "kind": "story",
@@ -262,7 +262,7 @@
     "summary": "PHR 코리아가 12일부터 16일까지 괌에서 '2026 PHR 괌 아카데미'를 열었다. 업계 관계자 28명이 참가했다. 스포츠와 웰니스를 앞세운 성인 대상 상품을 알렸다",
     "outlet": "",
     "narration": "PHR 코리아가 12일부터 16일까지 괌에서 '2026 PHR 괌 아카데미'를 열었다. 업계 관계자 28명이 참가했다.",
-    "photo": "assets/photos/guam/KakaoTalk_20250404_072316086_11.webp"
+    "photo": "assets/photos/guam/KakaoTalk_20250404_072926245_05.webp"
   },
   {
     "kind": "story",
@@ -272,7 +272,7 @@
     "summary": "한국교통연구원 9월 항공통계에 따르면 인천~괌 노선의 평균 탑승률은 8월 62.5%에서 9월 47.5%로 15.0%p 내렸다. 여객도 24% 줄었다",
     "outlet": "",
     "narration": "한국교통연구원 9월 항공통계에 따르면 인천~괌 노선의 평균 탑승률은 8월 62.5%에서 9월 47.5%로 15.0%p 내렸다. 여객도 24% 줄었다.",
-    "photo": "assets/photos/guam/KakaoTalk_20250404_072926245.webp"
+    "photo": "assets/photos/guam/KakaoTalk_20250404_072926245_07.webp"
   },
   {
     "kind": "title",

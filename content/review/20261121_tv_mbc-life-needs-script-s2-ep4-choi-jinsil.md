@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'인생도 각본이 필요해' 시즌2 4회, '내 생애 마지막 스캔들'로 본 중년 여성 건강"
+title: '''인생도 각본이 필요해'' 시즌2 4회, ''내 생애 마지막 스캔들''로 본 중년 여성 건강'
 source_name: ''
 source_url: ''
-summary: MBC '인생도 각본이 필요해' 시즌2 4회가 21일 오전 8시 10분에 방송된다. 드라마 '내 생애 마지막 스캔들'을 매개로 중년 여성의 건강 고민을 짚는다. 피부과 전문의가 콜라겐 관리법을 소개한다.
+summary: MBC '인생도 각본이 필요해' 시즌2 4회가 21일 오전 8시 10분에 방송된다. 드라마 '내 생애 마지막 스캔들'을 매개로 중년
+  여성의 건강 고민을 짚는다. 피부과 전문의가 콜라겐 관리법을 소개한다.
 sources:
-  - https://with.mbc.co.kr/pr/press/view.html?idx=36982
-status: approved
+- https://with.mbc.co.kr/pr/press/view.html?idx=36982
+status: published
+published_id: c-706bbc8503717ca6c651830e82aaaf639401830c
+published_on: '2026-11-21'
 ---
-
 > **방송 정보**
 > 채널 · MBC | 프로그램 · 인생도 각본이 필요해 시즌2 | 회차 · 4회
 > 방송 · 2026년 11월 21일(토) 오전 8시 10분
