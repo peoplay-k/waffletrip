@@ -396,12 +396,11 @@
     },
     {
       "date": "2026-11-21",
-      "collected": 4061,
-      "published": 144,
-      "ours": 1,
+      "collected": 4010,
+      "published": 232,
+      "ours": 5,
       "failed_sources": [
-        "gn_nhatrang",
-        "gn_tokyo",
+        "guam_pdn",
         "hawaii_staradvertiser",
         "kr_hotelavia",
         "kr_ktnbm",

@@ -4,18 +4,20 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "경북도·포항시, 한화호텔앤드리조트와 환호지구 4800억 관광숙박시설 투자협약"
+title: 경북도·포항시, 한화호텔앤드리조트와 환호지구 4800억 관광숙박시설 투자협약
 source_name: ''
 source_url: ''
-summary: "경북도와 포항시가 20일 한화호텔앤드리조트 등과 '환호지구' 투자양해각서를 맺었다. 총사업비 4800억 원으로 객실 385실 규모 5성급 호텔과 리조트를 짓는다. 공사는 2027년부터 2031년까지 이어진다."
+summary: 경북도와 포항시가 20일 한화호텔앤드리조트 등과 '환호지구' 투자양해각서를 맺었다. 총사업비 4800억 원으로 객실 385실 규모
+  5성급 호텔과 리조트를 짓는다. 공사는 2027년부터 2031년까지 이어진다.
 sources:
-  - https://www.newsis.com/view/NISX20261120_0003876920
-  - https://news.bbsi.co.kr/news/articleView.html?idxno=4119897
-  - https://news.jkn.co.kr/post/1110396
-  - https://www.ytn.co.kr/_ln/0115_202611201502197022
-status: approved
+- https://www.newsis.com/view/NISX20261120_0003876920
+- https://news.bbsi.co.kr/news/articleView.html?idxno=4119897
+- https://news.jkn.co.kr/post/1110396
+- https://www.ytn.co.kr/_ln/0115_202611201502197022
+status: published
+published_id: c-d4ec79ac6261e81fa1ba7fa3137e861d459a317b
+published_on: '2026-11-21'
 ---
-
 포항 환호공원 일대에 5성급 호텔과 프리미엄 리조트가 들어선다. 총사업비는 4800억 원이다.
 
 경상북도와 포항시는 20일 경북도청에서 한화호텔앤드리조트, 포항하나원과 '환호지구 관광숙박시설 조성 투자양해각서'를 체결했다. 포항에는 지금까지 특급호텔이 한 곳도 없었다.

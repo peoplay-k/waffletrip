@@ -4,19 +4,21 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "대한항공, 'APEX 5성' 10년 연속 선정…2027년 알마티 직항도 신설"
+title: 대한항공, 'APEX 5성' 10년 연속 선정…2027년 알마티 직항도 신설
 source_name: ''
 source_url: ''
-summary: "대한항공이 싱가포르 APEX 행사에서 '2027 APEX 5성 글로벌 항공사'에 10년 연속 선정됐다. 평가는 실제 탑승객의 평가를 바탕으로 이뤄진다. 2027년 하계 시즌에는 카자흐스탄 알마티 정기 직항도 연다."
+summary: 대한항공이 싱가포르 APEX 행사에서 '2027 APEX 5성 글로벌 항공사'에 10년 연속 선정됐다. 평가는 실제 탑승객의 평가를
+  바탕으로 이뤄진다. 2027년 하계 시즌에는 카자흐스탄 알마티 정기 직항도 연다.
 sources:
-  - https://www.ttlnews.com/news/articleView.html?idxno=3164520
-  - https://www.yna.co.kr/view/AKR20261120057500003
-  - https://www.mk.co.kr/news/business/12214818
-  - https://www.leadeconomy.co.kr/news/articleView.html?idxno=11394
-  - https://www.theguru.co.kr/news/article.html?no=110025
-status: approved
+- https://www.ttlnews.com/news/articleView.html?idxno=3164520
+- https://www.yna.co.kr/view/AKR20261120057500003
+- https://www.mk.co.kr/news/business/12214818
+- https://www.leadeconomy.co.kr/news/articleView.html?idxno=11394
+- https://www.theguru.co.kr/news/article.html?no=110025
+status: published
+published_id: c-5d0189fa79b922d854c866d08401fa3cd98e4809
+published_on: '2026-11-21'
 ---
-
 대한항공이 글로벌 항공 서비스 평가에서 10년 연속 최고 등급을 받았다.
 
 대한항공은 18~19일 싱가포르에서 열린 'APEX FTE EXPO 2026'에서 '2027 APEX 5성 글로벌 항공사'로 선정됐다고 20일 밝혔다. APEX는 항공 승객 경험을 평가하는 국제 기관이다.

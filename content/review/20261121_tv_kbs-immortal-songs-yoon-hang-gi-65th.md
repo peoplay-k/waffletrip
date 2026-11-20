@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'불후의 명곡' 윤항기 데뷔 65주년 편, 조항조·최백호·장미화 헌정 무대"
+title: '''불후의 명곡'' 윤항기 데뷔 65주년 편, 조항조·최백호·장미화 헌정 무대'
 source_name: ''
 source_url: ''
-summary: "KBS2 '불후의 명곡'이 21일 오후 6시 5분 윤항기 데뷔 65주년 편을 방송한다. 조항조, 최백호, 장미화, 최성수, 장계현이 헌정 무대를 꾸민다. 윤항기는 처음으로 오프닝 무대를 선보인다."
+summary: KBS2 '불후의 명곡'이 21일 오후 6시 5분 윤항기 데뷔 65주년 편을 방송한다. 조항조, 최백호, 장미화, 최성수, 장계현이
+  헌정 무대를 꾸민다. 윤항기는 처음으로 오프닝 무대를 선보인다.
 sources:
-  - https://program.kbs.co.kr/2tv/enter/satfreedom
-status: approved
+- https://program.kbs.co.kr/2tv/enter/satfreedom
+status: published
+published_id: c-d58fbfd483021fe83ab52a1fcabc2a423e659ebd
+published_on: '2026-11-21'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 불후의 명곡
 > 방송 · 2026년 11월 21일(토) 오후 6시 5분

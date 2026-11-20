@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'동네 한 바퀴' 395화, 마산 국화축제부터 주남저수지 철새까지 창원 세 동네"
+title: '''동네 한 바퀴'' 395화, 마산 국화축제부터 주남저수지 철새까지 창원 세 동네'
 source_name: ''
 source_url: ''
-summary: "KBS1 '동네 한 바퀴' 395화가 21일 오후 7시 10분 방송된다. 경남 창원 마산·창원산단·진해 이웃을 찾아간다. 국화축제와 탱수국, 주남저수지 철새 이야기가 나온다."
+summary: KBS1 '동네 한 바퀴' 395화가 21일 오후 7시 10분 방송된다. 경남 창원 마산·창원산단·진해 이웃을 찾아간다. 국화축제와
+  탱수국, 주남저수지 철새 이야기가 나온다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/town2
-status: approved
+- https://program.kbs.co.kr/1tv/culture/town2
+status: published
+published_id: c-df76823e26e5a096dea24f0a6c588f8444e7be09
+published_on: '2026-11-21'
 ---
-
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 동네 한 바퀴 | 회차 · 395화
 > 방송 · 2026년 11월 21일(토) 오후 7시 10분
