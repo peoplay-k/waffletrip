@@ -16,6 +16,15 @@
     https://www.hawaiinewsnow.com/2026/11/19/first-alert-forecast-stronger-winds-with-more-showers-heading-weekend/
   - Hawaii News Now: First Alert Forecast: Stronger winds with more scattered showers expected to persist through Saturday
     https://www.hawaiinewsnow.com/2026/11/20/first-alert-forecast-stronger-winds-with-more-scattered-showers-expected-persist-through-saturday/
+  - Hawaii News Now: Expect breezy to windy conditions all weekend with enhanced trade wind showers. There will be plenty of leeward sunshine.
+    https://www.hawaiinewsnow.com/2026/11/21/first-alert-forecast-windy-wet-weekend-ahead/
+
+### Search for Hawaii Tourism Authority CEO down to two finalists
+- 매체 2곳 · Hawaii News Now · The Business Journals  ← 여러 곳이 썼다
+  - Hawaii News Now: The Hawaii Tourism Authority has narrowed down its search for a new CEO to two finalists.
+    https://www.hawaiinewsnow.com/2026/11/20/search-hawaii-tourism-authority-ceo-down-two-finalists/
+  - The Business Journals: 
+    https://www.bizjournals.com/stlouis/news/2026/11/20/explore-st-louis-exec-finalist-hawaii-tourism.html
 
 ## 베트남
 
@@ -31,20 +40,20 @@
   - 여행신문: 리조트에 도착하면 지갑은 금고에 넣어둔다. 식사부터 공연과 스포츠까지 숙박 요금에 포함해 투숙객이 머무는 동안 아무것도 걱정하지 않고 쉴 수 있게 하는 것이 릭소
     https://www.traveltimes.co.kr/news/articleView.html?idxno=500738
 
-### 베트남 텔레비전과 문화체육관광부는 디지털 문화산업 생태계 조성을 위해 포괄적으로 협력하고 있습니다.
+### 하노이행 항공편은 롱탄 메가공항 개항일에 가장 먼저 개통될 노선입니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: VTV.vn - 문화체육관광부와 베트남 텔레비전은 협력, 솔직함, 그리고 혁신에 대한 의지를 바탕으로 여러 핵심 정책에 합의했습니다.
-    https://www.vietnam.vn/ko/dai-thvn-va-bo-vhttdl-hop-tac-toan-dien-kien-tao-he-sinh-thai-cong-nghiep-van-hoa-so
+  - vietnam.vn: 베트남항공과 비엣젯항공 모두 베트남 최대 규모의 공항인 롱탄공항 개항 첫날 하노이 노선에 항공편을 운항할 것으로 예상된다.
+    https://www.vietnam.vn/ko/duong-bay-ra-ha-noi-se-mo-hang-sieu-san-bay-long-thanh-ngay-khai-truong
 
-### 다낭의 이미지를 세계에 알릴 수 있는 아이디어와 제안을 모집합니다.
+### 미국 잡지 포브스는 다낭을 세계에서 가장 매력적인 은퇴 목적지 중 하나로 선정했습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: DNO - 다낭시 문화체육관광국은 "2026년부터 2030년까지 다낭시의 해외 이미지 홍보 및 소통" 프로젝트의 발전을 지원하기 위해 시민, 독자, 국내외 관광객을 대상으로 설문조사를 실시하여 의견을 수렴하고 있습니다.
-    https://www.vietnam.vn/ko/lay-y-kien-hien-ke-quang-ba-hinh-anh-da-nang-ra-the-gioi
+  - vietnam.vn: 포브스지는 처음으로 베트남을 2026년 최고의 해외 은퇴 목적지 목록에 포함시켰으며, 아름다운 해변, 합리적인 생활비, 여유로운 삶의 속도를 자랑하는 다낭을 대표적인 사례로 꼽았습니다.
+    https://www.vietnam.vn/ko/tap-chi-my-forbes-vinh-danh-da-nang-trong-danh-sach-nhung-diem-den-nghi-huu-hap-dan-nhat-the-gioi
 
-### 다낭은 관광객들을 위해 해안 꽃길을 따라 21개의 주요 명소를 마련했습니다.
+### 다낭으로 가는 정기 국제선 항공편 20개 노선
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 다낭시는 미케, 안방, 꾸아다이, 땀탄 지역의 해안 도로를 따라 꽃, 해양 생물, 돛단배, 문화 상징물 등 21개의 모형을 설치할 예정입니다.
-    https://www.vietnam.vn/ko/da-nang-bo-tri-21-diem-nhan-tren-duong-hoa-bien-phuc-vu-du-khach
+  - vietnam.vn: 다낭 관광진흥센터에 따르면, 베트남항공이 11월 17일 다낭-싱가포르 노선을 취항함에 따라 다낭에는 이제 20개의 정기 국제선 노선이 생겼습니다.
+    https://www.vietnam.vn/ko/20-duong-bay-quoc-te-thuong-ky-den-da-nang
 
 ## 제주
 
@@ -52,6 +61,11 @@
 - 매체 1곳 · 문화뉴스
   - 문화뉴스: (더쎈뉴스 / The CEN News 이수현 기자) 오늘(21일)은 충남과 전라, 제주도를 중심으로 비나 눈이 내리겠고 일부 지역에서 빙판길이 예상된다. 수도권은 대체로 맑겠으나, 오후부터 세종과 충남 내륙에 5mm 안팎의 비, 1cm 안팎의 눈이 오겠다.
     https://www.mhns.co.kr/news/articleView.html?idxno=770108
+
+### 제주도 버스·택시로 둘러보기, 시니어 여행 이동 실전 가이드
+- 매체 1곳 · Lifetag
+  - Lifetag: 제주도 여행을 계획할 때 렌터카를 필수로 여기는 경우가 많지만, 운전이 부담스럽거나 장거리 운전을 피하고 싶은 시니어 여행자라면 대중교통과 택시를 조합하는 방법이 현실적이다. 버스만으로는 배차 간격과 환승이 부담스럽고, 택시만으로는 비용이 커지기 쉽다.
+    https://lifetag.fnnews.com/post/3087
 
 ### 동서대·광주대·제주관광대, 초광역 AI 리빙랩 해커톤 공동 개최
 - 매체 1곳 · 아시아경제
@@ -67,11 +81,6 @@
 - 매체 1곳 · 제주의소리
   - 제주의소리: 주말 제주에는 비 또는 눈이 내리는 곳이 있겠다. 한라산에는 대설특보가 발효된 가운데 21일 새벽 시간당 1~3㎝의 강한 눈이 내릴 전망이다.
     https://www.jejusori.net/news/articleView.html?idxno=508537
-
-### 제주 풀뿌리 경제 버팀목...상인연합회 '2026 워크숍'
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 활력 넘치는 전통시장을 위하 제주특별자치도상인연합회가 2026년 워크숍을 개최한다. 제주특별자치도상인연합회(회장 고정호)는 11월 23일 오후 5시 메종글래드호텔 2층에서 \'상인연합회 워크숍\'을 개최한다고 밝혔다.
-    https://www.jejusori.net/news/articleView.html?idxno=508529
 
 ## 일본
 
@@ -93,6 +102,13 @@
   - 한국면세뉴스: 노랑풍선이 일본 산인 지역의 자연과 문화, 온천 등을 체험할 수 있는 여행상품 '요나고·돗토리·마쓰에'를 출시했다. 해당 상품은 일본 돗토리현과 시마네현에 걸쳐 있는 산인 지역의 주요 관광지를 둘러보는 일정으로 구성됐다.
     http://www.kdfnews.com/news/articleView.html?idxno=191219
 
+### 일본 오카야마 여행 부담 낮춘다…NOL, 대한항공 직항 항공권 최대 5만원 할인
+- 매체 2곳 · IT타임스 · 뉴스탭  ← 여러 곳이 썼다
+  - 뉴스탭: 놀유니버스(대표 이철웅)가 운영하는 여행 플랫폼 NOL이 일본 오카야마현과 손잡고 항공권부터 숙박, 현지 액티비티까지 할인 혜택을 제공하는 특별 기획전 ‘햇살 아
+    https://www.newstap.co.kr/news/articleView.html?idxno=338143
+  - IT타임스: 여행·여가 플랫폼 'NOL(놀)'을 운영하는 놀유니버스가 대한항공의 일본 오카야마 직항 노선 취항 35주년을 기념해 오카야마현과 손잡고 공동 특별 기획전을 선보인다. 놀유니버스(대표 이철웅)는 NOL에서 오카야마현과 협업한 '햇살 아래 레트로 산책: 오카야마' 프로모션을 다음 달 9일까
+    https://www.ittimes.com/news/articleView.html?idxno=88098
+
 ### 노랑풍선, 일본 산인 지역 소도시 연계 ‘요나고·돗토리·마쓰에’ 공개
 - 매체 2곳 · 디스커버리뉴스(DISCOVERYNEWS) · 청년일보  ← 여러 곳이 썼다
   - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 일본 대도시 중심의 여행에서 벗어나 한적한 지역 고유의 자연환경과 온천, 전통문화를 체험하려는 소도시 여행 수요가 이어지면서, 일본 혼슈 서부 산인(山陰) 지역을 중심으로 한 연계 일정 상품이 출시됐다.
@@ -100,15 +116,10 @@
   - 청년일보: 【 청년일보 】 노랑풍선은 SK스토아 홈쇼핑을 통해 일본 산인 지역을 둘러보는 여행상품 ‘요나고·돗토리·마쓰에’를 선보인다고 20일 밝혔다. 이번 상품은 오는 20일과 21일 양일간 방송된다.
     https://www.youthdaily.co.kr/news/article.html?no=230142
 
-### 도쿄 호텔 로비에 등장한 ‘가구라자카 게이샤’…15분간 펼쳐진 일본 전통예능
-- 매체 1곳 · 헤럴드경제
-  - 헤럴드경제: 19일 호텔오플라자호텔 도쿄는 본관 3층 메인 로비에서 ‘가구라자카 게이샤가 물들이는 일본의 사계(神楽坂芸者が彩る日本の四季)’ 공연을 열었으며 공연은 오후 3시45분
-    https://biz.heraldcorp.com/article/10944020
-
-### [Q&A]일본 여행 간 김에 왕창?···‘스시자로’ 이렇게 가져오면 입국 때 걸려요
-- 매체 1곳 · 경향신문
-  - 경향신문: 지난 12일부터 해외에서 정상적으로 처방받아 구매한 비만치료제를 국내에 휴대해 반입하는 것이 허용됐다. 한 번에 반입할 수 있는 수량은 얼마나 되는지, 여러 차례 나눠 들여오는 것은 가능한지 등 해외 비만치료제 반입과 관련한 궁금증을 식품의약품안전처에 문의해 일문일답으로 정리했다.
-    https://www.khan.co.kr/article/202611201425011
+### 7년 만에 돌아오는 슈리성… 11월 오키나와 여행이 특별해진다
+- 매체 1곳 · 7년 만에 돌아오는 슈리성… 11월 오키나와 여행이 특별해진다 - 얼리어답터뉴스 - 얼리어답터신문
+  - 7년 만에 돌아오는 슈리성… 11월 오키나와 여행이 특별해진다 - 얼리어답터뉴스 - 얼리어답터신문: 일본 오키나와가 11월에 접어들면서 한여름의 무더위를 벗어나 본격적인 늦가을 관광 시즌을 맞고 있다. 강렬했던 햇볕이 한층 부드러워지고 선선한 바람이 불기 시작하면서 역사유적 탐방과 도심 관광, 자연 산책 등 야외활동을 즐기기 좋은 환경이 조성되고 있다.
+    https://www.eanews.kr/news/1054446
 
 ## 태국
 
@@ -131,6 +142,13 @@
 
 ## 대만
 
+### 대만 관광객 200만명 돌파…올마이투어, 현지 호텔 예약망 확대
+- 매체 2곳 · 머니투데이 · 아주경제  ← 여러 곳이 썼다
+  - 아주경제: 한국을 찾는 대만 관광객이 200만명을 넘어선 가운데 국내 여행 플랫폼 기업 올마이투어가 대만 여행사를 통한 한국 호텔 객실 공급을 확대하고 있다. 현지 여행사들.
+    https://www.ajunews.com/view/20261120084534913
+  - 머니투데이: [이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 '데이터랩'에서 볼 수 있습니다. ] AI(인공지능) 기반 호텔 유통 솔루션 기업 올마이투어가 대만 주요 여행사와 국내 호텔 객실 공급 협력을 확대하며 내년 방한 관광객 수요 선점에 나선다.
+    https://www.mt.co.kr/future/2026/11/21/2026112016351775391
+
 ### 백승욱 셰프 한식 '도사', 대만 인터컨티넨탈 타이베이 호텔 개점 - 머니투데이
 - 매체 1곳 · 머니투데이
   - 머니투데이: 한국계 글로벌 스타 셰프 아키라 백(한국명 백승욱)의 한식 파인다이닝 브랜드 '도사(DOSA)'가 대만 타이베이에 문을 열었다. 20일 백승욱 셰프의 매니지먼트를 맡고 있는 에이전시 머스트비전에 따르면 도사는 대만 인터컨티넨탈 타이베이 호텔에 정식 개점했다.
@@ -151,15 +169,10 @@
   - 뉴스케이: (C) The Asuncion Times남미의 주요 축산 강국인 파라과이의 대표 수출품인 소고기가 아시아 하늘길을 누비는 프리미엄 기내식 식재료로 채택됐다. 대만 국영 항공사인 중화항공(China Airlines)은 2026년 11월부터 대만 타이베이로 향하는 아시아 주요 지역 노선의 
     https://newsk.net/py/?idx=175772405&bmode=view
 
-### 「2023 부산국제관광전」에서 「최우수 마케팅상」 수상한 타이난시, 오늘 시정부 회의에서 황웨이저(黃偉哲) 시장에게 수여
-- 매체 1곳 · 台南旅遊網
-  - 台南旅遊網: 
-    https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Uc0NEUVhtWGZpVWdqcUUwbnd2MDU1NUQ0d1ZsMUNGUWdXbl9pVnRjRENsY2YySzRScXV0TDR3SHN4X3BLWWxpcGFhaGdkcWd0UnhaLTVMNlNDNkMtdjI4?oc=5
-
 ## 국내
 
 ### 포항 환호공원에 4800억원 투입…5성급 호텔·리조트 들어선다
-- 매체 5곳 · 경북도민일보 · 경북신문 · 경북일보 · 데일리안 · 문화뉴스  ← 여러 곳이 썼다
+- 매체 6곳 · 경북도민일보 · 경북신문 · 경북일보 · 글로벌휴먼타임즈(GlobalHumanTimes) · 데일리안 · 문화뉴스  ← 여러 곳이 썼다
   - 경북도민일보: 경북 포항 환호공원 일대에 4800억원을 투입해 5성급 호텔과 프리미엄 리조트를 건립하는 대규모 관광숙박시설 조성사업이 본격 추진된다. 경북도와 포항시, 한화호텔앤
     https://www.hidomin.com/news/articleView.html?idxno=730306
   - 데일리안: 특급호텔이 한 곳도 없는 포항에 5성급 호텔과 프리미엄 리조트가 조성된다. 총사업비 4800억원 규모다.
@@ -168,6 +181,17 @@
     https://www.kyongbuk.co.kr/news/articleView.html?idxno=4091533
   - 경북신문: 
     https://www.kbsm.net/news/view.php?idx=542637
+
+### 퇴근길에 감상하는 미디어 파사드 ‘2026 포항국제불빛축제’ 개막
+- 매체 2곳 · 경북매일 · 뉴스1  ← 여러 곳이 썼다
+  - 경북매일: ‘2026 포항국제불빛축제’가 19일 오후 포항시 남구 송도동에서 펼쳐진 미디어파사드를 시작으로 사흘 일정에 들어갔다. 미디어파사드는 높이 50m, 지름 20m의 삼표시멘트 사일로에 미디어아트를 투사해 산업시설을 예술 캔버스로 활용한 것으로 포항 불빛 축제에서는 처음
+    https://www.kbmaeil.com/article/20261119500782
+  - 뉴스1: 
+    https://www.news1.kr/local/daegu-gyeongbuk/6360226
+  - 뉴스1: 
+    https://www.news1.kr/photos/8225867
+  - 뉴스1: 
+    https://www.news1.kr/photos/8225836
 
 ### 송상조 부산시의회 부의장 "500만 관광도시 부산, ‘안전’과 ‘부산다움’ 함께 준비해야"
 - 매체 3곳 · LG헬로비전 · 경남도민뉴스 · 복지TV부울경방송  ← 여러 곳이 썼다
@@ -196,17 +220,10 @@
   - KBS 뉴스: [앵커] 우리나라 3대 불꽃축제로 꼽히는 포항국제불빛축제가 어제(19일) 개막해 내일까지 사흘간 영일대 해. ..
     https://news.kbs.co.kr/news/pc/view/view.do?ncd=8718119
 
-### 부산 초광역관광 활성화 조례 제정 추진…배영숙 시의원 "관광협력으로 지역경제 활성화“
-- 매체 2곳 · LG헬로비전 · 뉴시스  ← 여러 곳이 썼다
-  - LG헬로비전: 부산과 다른 지방자치단체와 관광자원을 연계해 관광산업을 활성화하기 위한 부산 초광역관광 활성화 조례의 제정이 추진됩니다. ‘부산광역시 초광역관광 육성 및 활성화에 관한 조례안’을 발의한 배영숙 의원은 부산과 다른 지역의 관광자원을 유기적으로 연결해 체류와 소비 확대로 이어질 수 있도록 
-    http://news.lghellovision.net/news/articleView.html?idxno=562983
-  - 뉴시스: [부산=뉴시스]원동화 기자 = 부산시의회 국민의힘 배영숙(부산진구4) 의원이 부산 지역어 보전과 초광역관광 활성화, 한류산업 육성을 위한 조례 제·개정을 추진한다.
-    https://www.newsis.com/view/NISX20261120_0003876781
-
 ## 여행업계
 
 ### 한국관광공사, 관광 스타트업 5곳 미국 시장 진출 지원
-- 매체 4곳 · TTL뉴스 · 라이센스뉴스 · 에너지경제신문 · 재외동포신문  ← 여러 곳이 썼다
+- 매체 5곳 · IT타임스 · TTL뉴스 · 라이센스뉴스 · 에너지경제신문 · 재외동포신문  ← 여러 곳이 썼다
   - 라이센스뉴스: 라이센스뉴스 = 최은경 기자 | 한국관광공사가 국내 관광 스타트업의 해외 사업 기회를 찾기 위해 미국 여행산업 행사에 참가했다. 현지 투자사와 여행업계 관계자들에
     https://www.lcnews.co.kr/news/articleView.html?idxno=211732
   - TTL뉴스: 한국관광공사가 미국 글로벌 관광 컨퍼런스와 현지 데모데이에서 국내 관광 스타트업의 혁신 기술과 사업모델을 선보이며 미주 시장 진출을 지원했다. 관광기업 5개사는 글로벌 업계와 투자 관계자를 만나 협력 기회를 모색했다.
@@ -452,12 +469,19 @@
   - 오피니언뉴스: [오피니언뉴스=김솔아 기자] 우리은행은 지난 19일부터 우리WON뱅킹에서 발달장애 작가들의 작품을 선보이는 'WON 아르떼 갤러리' 네 번째 전시를 개최했다고 20일 밝혔다. 'WON 아르떼 갤러리'는 우리은행이 밀알문화예술센터와 협력해 발달장애 예술인들의 작품을 소개하는 온라인 전시 
     https://www.opinionnews.co.kr/news/articleView.html?idxno=147321
 
+### [stage] 인천 갤러리 그림마실, ‘작은숨’ 첫 번째 전시회 개최…일상 속 예술로 전하는 따뜻한 위로
+- 매체 1곳 · 유엔저널
+  - 유엔저널: 유엔저널 김태연 기자 | 인천에서 활동하는 미술인들이 바쁜 일상 속 작은 쉼과 위로를 전하는 특별한 전시회를 마련했다. 그림글방(구월동)과 사단법인 한국문화센터 인천청라지부가 주최하는 ‘작은숨, 첫 번째 전시회’가 지난 11월 18일부터 오는 12월 1일까지 인천광역시 남동구 갤러리 그
+    https://www.unjournal.co.kr/news/article.html?no=26717
+
 ### [stage] 블루노트 도쿄 올스타 재즈 오케스트라, 첫 내한…리사 오노와 협연
-- 매체 2곳 · weekly기독교타임즈 · 메트로신문
+- 매체 3곳 · weekly기독교타임즈 · 뉴시스 · 메트로신문
   - 메트로신문: 아시아 재즈를 대표하는 빅밴드 '블루노트 도쿄 올스타 재즈 오케스트라'가 세계적인 보사노바 보컬리스트 리사 오노와 함께 한국 관객을 만난다. CBS는 오는 12월 2~3일 서울 롯데콘서트홀에서 '블루노트 도쿄 올스타 재즈 오케스트라 위드 리사 오노(Blue Note T
     https://www.metroseoul.co.kr/article/20261120500168
   - weekly기독교타임즈: ‘블루노트 도쿄 올스타 재즈 오케스트라(Blue Note Tokyo All-Star Jazz Orchestra) with LISA ONO’ 내한공연이 오는 12월
     https://www.kmctimes.com/news/articleView.html?idxno=60775
+  - 뉴시스: [서울=뉴시스] 남정현 기자 = CBS가 '리사 오노와 함께하는 블루노트 도쿄 올스타 재즈 오케스트라' 내한공연을 다음 달 2·3일 서울 롯데콘서트홀에서 개최한다고 20일 밝혔다. 블루노트 도쿄 올스타 재즈 오케스트라는 일본 재즈 신을 대표하는 최정상급 연주자들로 구성된 18인조 빅밴드
+    https://www.newsis.com/view/NISX20261120_0003876681
 
 ### [stage] 롯데콘서트홀, 2027 라인업 공개… 조수미·이반 피셔·아르헤리치 내한 무대
 - 매체 2곳 · 데일리아트 Daily Art · 파이낸셜투데이
@@ -492,22 +516,24 @@
   - 경남도민신문: 창원의 산업도시 특성에서 출발한 동시대 미술전 ‘기계 인간 유령’ 20여 년 소장품의 가치를 재조명하는 ‘의미는 그렇게 만들어진다’ 경남도립미술관은 오는 25일부터 2027년 2월 14일까지 미술관 전 층에서 기획전 ‘기계 인간 유령’과 소장품전 ‘의미는 그렇게 만들어진다’를 동시에 개
     http://www.gndomin.com/news/articleView.html?idxno=497562
 
-### [stage] 토탈미술관, 개관 50주년 맞아 AI 아트 해커톤 개최...한국미술 42개 이야기 재해석
-- 매체 2곳 · 더퍼블릭 · 뷰어스
-  - 더퍼블릭: [더퍼블릭=손세희 기자] 토탈미술관이 개관 50주년을 기념해 이달 27~28일 AI 아트 해커톤 ‘0에서 50의 〈사이〉’를 개최한다고 20일 밝혔다. 이번 행사는 미술관 특별전 ‘한국미술 0년: 42개의 이야기’와 연계해 진행한다.
-    https://www.thepublic.kr/news/articleView.html?idxno=327731
-  - 뷰어스: 토탈미술관이 개관 50주년을 기념해 인공지능(AI)을 활용한 창작 실험에 나선다. AI로 결과물을 빠르게 만드는 대신 질문과 관찰, 기록을 거쳐 작품을 완성하는 독특한 방식의 해커톤을 선보인다.
-    https://theviewers.co.kr/View.aspx?No=4321684
-
-### [stage] 한 걸음 더 나아가다, 피아니스트 문지혜 귀국 독주회 'RE:UNION'
-- 매체 2곳 · 뉴스인 · 클래시안
-  - 뉴스인: [뉴스인] 김영일 기자 = 피아니스트 문지혜가 오는 12월 21일(월) 오후 7시 30분, 금호아트홀 연세에서 귀국 독주회 으로 관객 앞에 선다. 문지혜는 이번 무대를 ‘돌아왔다’는 인사에서 그치지 않고 한 걸음 더 밀고 나간다.
-    https://www.newsin.co.kr/news/articleView.html?idxno=135111
-  - 클래시안: 돌아왔다는 인사만으로는 독주회 한 회를 채울 수 없다. 피아니스트 문지혜가 귀국 무대의 제목을 재회로 잡되, 그 재회의 대상을 관객이 아니라 작품으로 설정했다.
-    https://classian.co.kr/View.aspx?No=4322352
+### [stage] 클래식부산, 연말 가족 공연 부산발레시즌Ⅲ 호두까기인형 개최
+- 매체 1곳 · 이트레블뉴스
+  - 이트레블뉴스: [이트레블뉴스=이형찬 기자] 클래식부산은 다가오는 연말을 맞이하여 온 가족이 함께 즐길 수 있는 특별한 제작공연인 부산발레시즌Ⅲ 해설이 있는 콘
+    http://momonews.com/82071
 
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
 (자유 이용 사진: 이름 후보 39개 확인, 사진 줄 2개)
+
+### 🔥 화제(매체 62곳) [movie] [오늘의 키워드] 55만 수능·영화 폭설 개봉일 박스오피스 1위
+- 매체 4곳 · 강릉뉴스 · 맥스무비닷컴 · 스페셜타임스 · 에너지뉴스  ← 여러 곳이 썼다
+  - 강릉뉴스: 2027학년도 대학수학능력시험이 19일 전국 1,312개 시험장에서 치러졌다. 55만여 명이 지원한 이번 수능에서는 스마트기기를 이용한 부정행위를 막기 위해 위급
+    https://www.gangneungnews.kr/news/articleView.html?idxno=70264
+  - 에너지뉴스: 영화 '폭설'(감독 홍의정·박선우)이 이틀 연속 전체 박스오피스 정상을 차지하며 흥행세를 이어가고 있다. 뉴스1에 따르면 20일 영화진흥위원회 영화관입장권 통합전산
+    https://www.2news.co.kr/news/articleView.html?idxno=33261
+  - 스페셜타임스: 겨울 스릴러 '폭설' 박스오피스 1위와 누적 관객 현황영화진흥위원회 통합전산망에 따르면 영화 '폭설'은 지난 20일 하루 동안 6만 8633명의 관객을 동원해 박스오피스 1위에 올랐다. 이로써 '폭설'은 3일 연속 극장가 1위를 지키고 있으며 누적 관객 수는 18만 939명으로 집계됐
+    http://www.specialtimes.co.kr/news/articleView.html?idxno=488530
+  - 맥스무비닷컴: 영화 '폭설'이 개봉 이틀째 박스오피스 1위를 유지했다. 20일 영진위 영화관입장권 통합전산망 집계를 보면 어제(19일) '폭설'은 4만 8609명을 동원해 일별
+    https://www.maxmovie.com/news/articleView.html?idxno=503075
 
 ### 🔥 화제(매체 43곳) [startrip] 첫 내한 ‘뮤지컬 거장’ 앤드루 로이드 웨버 “이야기의 힘 그리고 지금 브로드웨이”
 - 매체 2곳 · KBS 뉴스 · 브릿지경제  ← 여러 곳이 썼다
@@ -515,13 +541,6 @@
     https://www.viva100.com/article/20261120500002
   - KBS 뉴스: 
     https://news.kbs.co.kr/news/pc/view/view.do?ncd=8717997
-
-### 🔥 화제(매체 30곳) [movie] [오늘의 키워드] 55만 수능·영화 폭설 개봉일 박스오피스 1위
-- 매체 2곳 · 강릉뉴스 · 에너지뉴스  ← 여러 곳이 썼다
-  - 강릉뉴스: 2027학년도 대학수학능력시험이 19일 전국 1,312개 시험장에서 치러졌다. 55만여 명이 지원한 이번 수능에서는 스마트기기를 이용한 부정행위를 막기 위해 위급
-    https://www.gangneungnews.kr/news/articleView.html?idxno=70264
-  - 에너지뉴스: 영화 '폭설'(감독 홍의정·박선우)이 이틀 연속 전체 박스오피스 정상을 차지하며 흥행세를 이어가고 있다. 뉴스1에 따르면 20일 영화진흥위원회 영화관입장권 통합전산
-    https://www.2news.co.kr/news/articleView.html?idxno=33261
 
 ### 🔥 화제(매체 29곳) [movie] [주말 극장가] 김윤석·구교환 ‘폭설’, 이틀 연속 박스오피스 1위…흥행 청신호
 - 매체 1곳 · 애드뉴스인천
@@ -572,7 +591,7 @@
     https://www.starnewskorea.com/music/2026/11/19/2026111907214212720
 
 ---
-거리 110건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 111건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -582,64 +601,64 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## TXT (투모로우바이투게더) 'Angel Bite' Official MV
-- 채널 HYBE LABELS · 조회수 23,092,426회 · 4일 전
+- 채널 HYBE LABELS · 조회수 24,683,257회 · 5일 전
 - `@youtube M9G4guYg-i8` · https://www.youtube.com/watch?v=M9G4guYg-i8
 
 ## ENHYPEN (엔하이픈) 'I Want You' Official MV
-- 채널 HYBE LABELS · 조회수 22,391,985회 · 7일 전
+- 채널 HYBE LABELS · 조회수 22,491,553회 · 7일 전
 - `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
 
-## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 825,176회 · 5일 전
-- `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
-
 ## BESTie - Love Options | Suit Dance | Performance | 4K
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 721,229회 · 1일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 933,280회 · 1일 전
 - `@youtube FVNI7zBuk-4` · https://www.youtube.com/watch?v=FVNI7zBuk-4
 
+## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
+- 채널 tvN DRAMA · 조회수 837,588회 · 5일 전
+- `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
+
 ## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
-- 채널 tvN DRAMA · 조회수 344,394회 · 6일 전
+- 채널 tvN DRAMA · 조회수 344,957회 · 6일 전
 - `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
 
 ## [라이어 7회 예고] ＂언니가 어떻게 나를 속일 수가 있어?＂, MBC 261120 방송
-- 채널 MBCdrama · 조회수 324,431회 · 6일 전
+- 채널 MBCdrama · 조회수 326,565회 · 6일 전
 - `@youtube mueEY-8Pw_0` · https://www.youtube.com/watch?v=mueEY-8Pw_0
 
-## [10화 예고] 내가 널 만난 건 행운이 아니라 기적💞 서로가 있어 행복한 임시완X설인아에 다가온 또다른 위협? #나의유죄인간 EP.10
-- 채널 tvN DRAMA · 조회수 308,678회 · 4일 전
-- `@youtube izmmaIqoz3s` · https://www.youtube.com/watch?v=izmmaIqoz3s
-
 ## [라디오스타] 그야말로 진짜 '효자곡'👑 이적이 밝힌 임영웅 '다시 만날 수 있을까' 비하인드, MBC 261118 방송
-- 채널 MBCentertainment · 조회수 295,036회 · 2일 전
+- 채널 MBCentertainment · 조회수 309,017회 · 2일 전
 - `@youtube Se3ng4UIToU` · https://www.youtube.com/watch?v=Se3ng4UIToU
 
 ## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
-- 채널 tvN DRAMA · 조회수 224,944회 · 3일 전
+- 채널 tvN DRAMA · 조회수 226,862회 · 3일 전
 - `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
 
+## [32화 선공개] 저 아저씨 엄마 만났어요 [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 210,373회 · 0일 전
+- `@youtube Oomy6QlD5ss` · https://www.youtube.com/watch?v=Oomy6QlD5ss
+
 ## ［32회 예고］못 데려갑니다 결이 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 189,874회 · 5일 전
+- 채널 KBS Drama · 조회수 198,710회 · 5일 전
 - `@youtube OgU1Nkhzai8` · https://www.youtube.com/watch?v=OgU1Nkhzai8
 
-## [11월 27일 예고] ‘월드스타’ 지수, 이서진×김광규에게 혹독한 장군 훈련 시작♨
-- 채널 SBS Entertainment · 조회수 152,637회 · 0일 전
-- `@youtube 9UIFoDPXaA0` · https://www.youtube.com/watch?v=9UIFoDPXaA0
-
 ## MINHO 'Out Of My Hands'｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 141,321회 · 1일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 168,229회 · 2일 전
 - `@youtube nsDov52sl-M` · https://www.youtube.com/watch?v=nsDov52sl-M
 
 ## [라이어 6회 예고] ＂이번엔 내가 거짓말을 하려고＂, MBC 261114 방송
-- 채널 MBCdrama · 조회수 119,823회 · 7일 전
+- 채널 MBCdrama · 조회수 119,924회 · 7일 전
 - `@youtube eo1DUkzb8b8` · https://www.youtube.com/watch?v=eo1DUkzb8b8
 
 ## [Playlist] 고작 이별하기 위해 널 사랑한 건 아닌데 (Singing My Blues)
-- 채널 YG ENTERTAINMENT · 조회수 114,545회 · 1일 전
+- 채널 YG ENTERTAINMENT · 조회수 119,868회 · 2일 전
 - `@youtube hyYkvbMt-rE` · https://www.youtube.com/watch?v=hyYkvbMt-rE
 
 ## [가족관계증명서 86회 예고] ＂임신 중이었다고요?＂, MBC 261123 방송
-- 채널 MBCdrama · 조회수 97,514회 · 1일 전
+- 채널 MBCdrama · 조회수 113,275회 · 1일 전
 - `@youtube QiTgO2BPXHk` · https://www.youtube.com/watch?v=QiTgO2BPXHk
+
+## [60화 예고] 그날 기억이 났어요 [욕망의 덫] | KBS 방송
+- 채널 KBS Drama · 조회수 107,328회 · 3일 전
+- `@youtube m1hZwDtrZL4` · https://www.youtube.com/watch?v=m1hZwDtrZL4
 
 
 
@@ -684,7 +703,7 @@ MBC <인생도 각본이 필요해> 시즌2 4회는 11월 21일 토요일 오전
 ## KBS2 주말드라마 사랑이 온다 · 32회 — 11/21 20:00 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/loveonthemenu
 - 보도자료 제목: [주말드라마 사랑이 온다] 11월 21일 예고편 / 20:00 방송
-- 유튜브 예고(공식 KBS Drama): `@youtube OgU1Nkhzai8` — ［32회 예고］못 데려갑니다 결이 [사랑이 온다] | KBS 방송
+- 유튜브 예고(공식 KBS Drama): `@youtube Oomy6QlD5ss` — [32화 선공개] 저 아저씨 엄마 만났어요 [사랑이 온다] | KBS 방송
 - 사진(자유 이용, 출연자 하석진): `![하석진 · 사진 디스패치 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/0/0b/190604_%ED%95%98%EC%84%9D%EC%A7%84.jpg)`
 - 사진(자유 이용, 출연자 안희연): `![안희연 · 사진 Cheer on LE · CC BY 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/d/db/180802_2018_%EC%BD%94%EB%A6%AC%EC%95%84_%EB%AE%A4%EC%A7%81_%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C%28KMF%29_%EA%B3%A0%EC%B2%99%EB%8F%94_EXID_%ED%95%98%EB%8B%88_%EC%A7%81%EC%B0%8D_%281%29.jpg)`
 - 사진(자유 이용, 출연자 박유나): `![박유나 · 사진 WIP엔터테인먼트 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/7/73/Parkyoona2019.png)`
@@ -694,6 +713,7 @@ MBC <인생도 각본이 필요해> 시즌2 4회는 11월 21일 토요일 오전
 ## KBS2 대하드라마 문무 · 3회 — 11/21 21:20 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/munmu
 - 보도자료 제목: [대하드라마 문무] 3화 던져진 주령구 / 11월 21일 21:20 방송
+- 사진(자유 이용, 출연자 장혁): `![장혁 · 사진 tenasia10 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/5/56/Jang-hyuk_in_2017_2.jpg)`
 - 사진(자유 이용, 출연자 김강우): `![김강우 · 사진 PARKJAEHWAN (kinocine.com) · CC BY-SA 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/7/7a/Kim_Kang-woo_in_Dec_2019_%28Revised%29.png)`
 - 사진(자유 이용, 출연자 박성웅): `![박성웅 · 사진 김등등 · CC BY 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/e/e1/160206_Park_Sung-woong_6_cropped.jpg)`
 

@@ -5,16 +5,19 @@ category: movie
 region: ''
 section: news
 kind: 해설
-title: "'임영웅 | 아임 히어로 더 스타디움 2', 개봉 사흘 만에 매출 10억 원 돌파"
+title: '''임영웅 | 아임 히어로 더 스타디움 2'', 개봉 사흘 만에 매출 10억 원 돌파'
 source_name: ''
 source_url: ''
-summary: 임영웅의 공연 실황 영화가 개봉 사흘 만에 누적 매출 10억 원을 넘었다. 개봉 이틀째에는 누적 관객 3만 명을 돌파했다. 21일부터 첫 주말 상영에 들어간다.
+summary: 임영웅의 공연 실황 영화가 개봉 사흘 만에 누적 매출 10억 원을 넘었다. 개봉 이틀째에는 누적 관객 3만 명을 돌파했다. 21일부터
+  첫 주말 상영에 들어간다.
 sources:
-  - https://www.youthassembly.kr/news/1045717
-  - https://enter.etoday.co.kr/news/view/305500
-  - https://www.starnewskorea.com/star/2026/11/18/2026111808010684012
-  - https://www.newscj.com/news/articleView.html?idxno=3449654
-status: approved
+- https://www.youthassembly.kr/news/1045717
+- https://enter.etoday.co.kr/news/view/305500
+- https://www.starnewskorea.com/star/2026/11/18/2026111808010684012
+- https://www.newscj.com/news/articleView.html?idxno=3449654
+status: published
+published_id: c-a97dba25dcdb0213598cafa9388e11c51d9d448d
+published_on: '2026-11-21'
 ---
 가수 임영웅의 공연 실황 영화가 개봉 사흘 만에 매출 10억 원을 넘었다.
 영화는 '임영웅 | 아임 히어로 더 스타디움 2'다.
