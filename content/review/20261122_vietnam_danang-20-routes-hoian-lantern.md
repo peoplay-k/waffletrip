@@ -7,15 +7,18 @@ kind: 해설
 title: 다낭 정기 국제선 20개 노선으로…호이안 등불 축제는 12월 3일 개막
 source_name: ''
 source_url: ''
-summary: 베트남항공이 11월 17일 다낭~싱가포르 직항을 열면서 다낭 정기 국제선이 20개 노선이 됐다. 호이안 국제 등불 축제는 12월 3일부터 6일까지 열린다. 다낭시는 해안 도로에 꽃길 모형 21점을 설치한다.
+summary: 베트남항공이 11월 17일 다낭~싱가포르 직항을 열면서 다낭 정기 국제선이 20개 노선이 됐다. 호이안 국제 등불 축제는 12월 3일부터
+  6일까지 열린다. 다낭시는 해안 도로에 꽃길 모형 21점을 설치한다.
 sources:
-  - https://www.vietnam.vn/ko/20-duong-bay-quoc-te-thuong-ky-den-da-nang
-  - https://www.vietnam.vn/ko/vietnam-airlines-mo-duong-bay-thang-da-nang-singapore
-  - https://www.vietnam.vn/ko/vietnam-airlines-khai-truong-duong-bay-da-nang-singapore
-  - https://www.vietnam.vn/ko/da-nang-cong-bo-le-hoi-den-long-quoc-te-hoi-an-2026
-  - https://www.vietnam.vn/ko/8-quoc-gia-tham-du-le-hoi-den-long-quoc-te-hoi-an-2026
-  - https://www.vietnam.vn/ko/da-nang-bo-tri-21-diem-nhan-tren-duong-hoa-bien-phuc-vu-du-khach
-status: approved
+- https://www.vietnam.vn/ko/20-duong-bay-quoc-te-thuong-ky-den-da-nang
+- https://www.vietnam.vn/ko/vietnam-airlines-mo-duong-bay-thang-da-nang-singapore
+- https://www.vietnam.vn/ko/vietnam-airlines-khai-truong-duong-bay-da-nang-singapore
+- https://www.vietnam.vn/ko/da-nang-cong-bo-le-hoi-den-long-quoc-te-hoi-an-2026
+- https://www.vietnam.vn/ko/8-quoc-gia-tham-du-le-hoi-den-long-quoc-te-hoi-an-2026
+- https://www.vietnam.vn/ko/da-nang-bo-tri-21-diem-nhan-tren-duong-hoa-bien-phuc-vu-du-khach
+status: published
+published_id: c-6452741b05db6947ee7fb589a59247a53885fe48
+published_on: '2026-11-22'
 ---
 다낭의 정기 국제선이 20개 노선으로 늘었다.
 베트남항공이 11월 17일 다낭~싱가포르 직항을 열었기 때문이다.

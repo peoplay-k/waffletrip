@@ -7,14 +7,17 @@ kind: 해설
 title: 대한항공·아시아나, 12월 국제선 유류할증료 인하…4개월 만에 하락 전환
 source_name: ''
 source_url: ''
-summary: 대한항공과 아시아나항공이 17일 12월 국제선 유류할증료를 내린다고 밝혔다. 9월부터 석 달 연속 오르던 할증료가 4개월 만에 내림세로 돌아섰다. 국제유가 하락이 항공유 가격에 반영됐다.
+summary: 대한항공과 아시아나항공이 17일 12월 국제선 유류할증료를 내린다고 밝혔다. 9월부터 석 달 연속 오르던 할증료가 4개월 만에 내림세로
+  돌아섰다. 국제유가 하락이 항공유 가격에 반영됐다.
 sources:
-  - https://www.newsis.com/view/NISI20261117_0021535629
-  - https://www.econovill.com/news/articleView.html?idxno=757593
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72721
-  - https://www.senmoney.co.kr/news/articleView.html?idxno=38703
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500739
-status: approved
+- https://www.newsis.com/view/NISI20261117_0021535629
+- https://www.econovill.com/news/articleView.html?idxno=757593
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72721
+- https://www.senmoney.co.kr/news/articleView.html?idxno=38703
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500739
+status: published
+published_id: c-63bb2a361ce630d07afc267f4a93c069c54848cd
+published_on: '2026-11-22'
 ---
 대한항공과 아시아나항공이 12월 국제선 유류할증료를 내린다.
 두 항공사는 17일 이 같은 내용을 밝혔다.
