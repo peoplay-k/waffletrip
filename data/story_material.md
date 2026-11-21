@@ -48,6 +48,11 @@
 
 ## 제주
 
+### [오늘 날씨] 전남북서부 오전 1cm 눈·제주 5~10mm 비…빙판길 주의
+- 매체 1곳 · 문화뉴스
+  - 문화뉴스: (더쎈뉴스 / The CEN News 이수현 기자) 오늘(21일)은 충남과 전라, 제주도를 중심으로 비나 눈이 내리겠고 일부 지역에서 빙판길이 예상된다. 수도권은 대체로 맑겠으나, 오후부터 세종과 충남 내륙에 5mm 안팎의 비, 1cm 안팎의 눈이 오겠다.
+    https://www.mhns.co.kr/news/articleView.html?idxno=770108
+
 ### 동서대·광주대·제주관광대, 초광역 AI 리빙랩 해커톤 공동 개최
 - 매체 1곳 · 아시아경제
   - 아시아경제: 부산과 제주, 호남권 대학생 130여명이 인공지능(AI) 기술을 활용해 지역사회 현안 해결에 나섰다.
@@ -67,11 +72,6 @@
 - 매체 1곳 · 제주의소리
   - 제주의소리: 활력 넘치는 전통시장을 위하 제주특별자치도상인연합회가 2026년 워크숍을 개최한다. 제주특별자치도상인연합회(회장 고정호)는 11월 23일 오후 5시 메종글래드호텔 2층에서 \'상인연합회 워크숍\'을 개최한다고 밝혔다.
     https://www.jejusori.net/news/articleView.html?idxno=508529
-
-### 제주 무사증 폐지 철회 요청 ‘송언석 의원은 부재’
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 제주특별자치도와 제주관광공사, 제주특별자치도관광협회가 직접 국회를 찾아 최근 발의된 제주 무사증 제도 폐지 법안의 철회를 공식 건의했다. 황경선 제주도 관광교류국장과 문성종 제주관광공사 사장, 강동훈 제주관광협회장은 19일 국회를 방문해 국회 행정안전위원회 법안심사제1소위원장인 이해식 
-    https://www.jejusori.net/news/articleView.html?idxno=508530
 
 ## 일본
 
@@ -122,6 +122,13 @@
   - KPI뉴스: 
     https://m.kpinews.kr/amp/1065597974626234
 
+### Thailand weather today, 20 November: heavy rain in 9 provinces
+- 매체 1곳 · The Thaiger  ← 여러 곳이 썼다
+  - The Thaiger: Heavy rain hits 9 provinces today, with the South facing the worst downpours and flash-flood risk, while Bangkok cools by 1-2°C under strong wind.
+    https://thethaiger.com/hot-news/weather/thailand-weather-today-20-november-2026
+  - The Thaiger: TMD's bulletin of 21 November 2026 expects heavy rain in 11 provinces, very heavy in Nakhon Si Thammarat, Phatthalung, Songkhla. Bangkok: a slight drop in tempe
+    https://thethaiger.com/hot-news/weather/thailand-weather-today-21-november-2026
+
 ## 대만
 
 ### 백승욱 셰프 한식 '도사', 대만 인터컨티넨탈 타이베이 호텔 개점 - 머니투데이
@@ -152,7 +159,7 @@
 ## 국내
 
 ### 포항 환호공원에 4800억원 투입…5성급 호텔·리조트 들어선다
-- 매체 4곳 · 경북도민일보 · 경북신문 · 경북일보 · 데일리안  ← 여러 곳이 썼다
+- 매체 5곳 · 경북도민일보 · 경북신문 · 경북일보 · 데일리안 · 문화뉴스  ← 여러 곳이 썼다
   - 경북도민일보: 경북 포항 환호공원 일대에 4800억원을 투입해 5성급 호텔과 프리미엄 리조트를 건립하는 대규모 관광숙박시설 조성사업이 본격 추진된다. 경북도와 포항시, 한화호텔앤
     https://www.hidomin.com/news/articleView.html?idxno=730306
   - 데일리안: 특급호텔이 한 곳도 없는 포항에 5성급 호텔과 프리미엄 리조트가 조성된다. 총사업비 4800억원 규모다.
@@ -209,6 +216,15 @@
   - 재외동포신문: 문체부와 한국관광공사가 국내 관광 스타트업의 혁신 기술을 앞세워 미국 시장 공략에 나섰다. 인공지능(AI) 기반 여행 솔루션과 통신·커머스·뷰티 플랫폼 등 K-관광 기술의 경쟁력을 글로벌 관광업계에 알리고 해외 진출 기회를 모색했다.
     https://www.dongponews.net/news/articleView.html?idxno=61795
 
+### 영광 백제불교최초도래지, 열린관광지 선정…전남광주 유일
+- 매체 3곳 · TTL뉴스 · 뉴시스 · 투어코리아  ← 여러 곳이 썼다
+  - 뉴시스: [영광=뉴시스]이창우 기자 = 전남광주 영광군의 백제불교최초도래지가 문화체육관광부의 2027년 열린관광지 조성사업으로 선정돼 장애인과 고령자 등 관광 취약계층을 위한 무장애 관광환경을 갖추게 됐다. 20일 영광군에 따르면 문화체육관광부와 한국관광공사가 주관한 이번 공모에서 법성포 백제불
+    https://www.newsis.com/view/NISX20261120_0003876694
+  - TTL뉴스: [퍼블릭뉴스통신] 영광군(군수 장세일)은 20일 문화체육관광부와 한국관광공사가 주관한 ‘2027 열린 관광지 조성 사업’ 공모에서 ‘영광백제불교최초도래지’가 최종 선정됐다고 밝혔다. 이번 공모는 지난 9월부터 서면 평가와 현장평가를 거쳐 전국 30곳을 선정했으며, 전남광주특별시에서는 영
+    http://www.ttlnews.com/news/articleView.html?idxno=3164802
+  - 투어코리아: [투어코리아=유경훈 기자 ] 전남광주통합특별시에 영광군 법성면에 위치한 ‘백제불교최초도래지’가 내년도 열린관광지사업 대상으로 선정됐다. 이로써 군은 2018년 백수해안도로, 2023년 불갑저수지수변공원에 이어 세 번째로‘ 무장애 열린 관광 환경’을 갖출 수 있게 됐다.
+    https://www.tournews21.com/news/articleView.html?idxno=149045
+
 ### 관광공사, 말레이시아 포상관광객 1500명 유치…무슬림 맞춤 지원
 - 매체 3곳 · 글로벌이코노믹 · 파이낸셜뉴스 · 한국경제  ← 여러 곳이 썼다
   - 글로벌이코노믹: 한국관광공사가 말레이시아 기업의 포상관광객 1500여 명을 유치했다. 참가자의 60% 이상이 무슬림인 점을 고려해 할랄 음식과 기도실 등을 갖춘 관광환경을 제안하며 당초 튀르키예를 검토했던 기업의 한국 방문을 이끌었다.
@@ -224,13 +240,6 @@
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72751
   - 트래블데일리: 한국관광협회중앙회는 한-중 자유무역협정(FTA) 서비스·투자 후속협상에서 관광 분야 시장개방 협상이 타결된 데 대해 환영의 뜻을 밝혔다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72750
-
-### 영광 백제불교최초도래지, 열린관광지 선정…전남광주 유일
-- 매체 2곳 · TTL뉴스 · 뉴시스  ← 여러 곳이 썼다
-  - 뉴시스: [영광=뉴시스]이창우 기자 = 전남광주 영광군의 백제불교최초도래지가 문화체육관광부의 2027년 열린관광지 조성사업으로 선정돼 장애인과 고령자 등 관광 취약계층을 위한 무장애 관광환경을 갖추게 됐다. 20일 영광군에 따르면 문화체육관광부와 한국관광공사가 주관한 이번 공모에서 법성포 백제불
-    https://www.newsis.com/view/NISX20261120_0003876694
-  - TTL뉴스: [퍼블릭뉴스통신] 영광군(군수 장세일)은 20일 문화체육관광부와 한국관광공사가 주관한 ‘2027 열린 관광지 조성 사업’ 공모에서 ‘영광백제불교최초도래지’가 최종 선정됐다고 밝혔다. 이번 공모는 지난 9월부터 서면 평가와 현장평가를 거쳐 전국 30곳을 선정했으며, 전남광주특별시에서는 영
-    http://www.ttlnews.com/news/articleView.html?idxno=3164802
 
 ### 대한항공, 10년째 '5성 항공사'…좌석 편안함도 세계 최고 인정
 - 매체 2곳 · 디지틀조선TV · 매일경제  ← 여러 곳이 썼다
@@ -563,7 +572,7 @@
     https://www.starnewskorea.com/music/2026/11/19/2026111907214212720
 
 ---
-거리 109건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 110건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -572,65 +581,65 @@
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
 (검색어 34개 · 고른 영상 15개)
 
-## ENHYPEN (엔하이픈) 'I Want You' Official MV
-- 채널 HYBE LABELS · 조회수 22,342,089회 · 7일 전
-- `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
-
 ## TXT (투모로우바이투게더) 'Angel Bite' Official MV
-- 채널 HYBE LABELS · 조회수 22,108,193회 · 4일 전
+- 채널 HYBE LABELS · 조회수 23,092,426회 · 4일 전
 - `@youtube M9G4guYg-i8` · https://www.youtube.com/watch?v=M9G4guYg-i8
 
-## GIRLSET "young & dumb" Music Video
-- 채널 JYP Entertainment · 조회수 12,571,927회 · 7일 전
-- `@youtube It1JR0u2eVE` · https://www.youtube.com/watch?v=It1JR0u2eVE
+## ENHYPEN (엔하이픈) 'I Want You' Official MV
+- 채널 HYBE LABELS · 조회수 22,391,985회 · 7일 전
+- `@youtube dE_Ro8Sac2M` · https://www.youtube.com/watch?v=dE_Ro8Sac2M
 
 ## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 818,744회 · 5일 전
+- 채널 tvN DRAMA · 조회수 825,176회 · 5일 전
 - `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
 
 ## BESTie - Love Options | Suit Dance | Performance | 4K
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 649,329회 · 1일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 721,229회 · 1일 전
 - `@youtube FVNI7zBuk-4` · https://www.youtube.com/watch?v=FVNI7zBuk-4
 
 ## [12화 예고] 김유정을 향해 좁혀오는 진선규의 수사망! 드러나는 밀정의 정체?
-- 채널 tvN DRAMA · 조회수 344,218회 · 6일 전
+- 채널 tvN DRAMA · 조회수 344,394회 · 6일 전
 - `@youtube QABlWqYPTSU` · https://www.youtube.com/watch?v=QABlWqYPTSU
 
 ## [라이어 7회 예고] ＂언니가 어떻게 나를 속일 수가 있어?＂, MBC 261120 방송
-- 채널 MBCdrama · 조회수 322,628회 · 6일 전
+- 채널 MBCdrama · 조회수 324,431회 · 6일 전
 - `@youtube mueEY-8Pw_0` · https://www.youtube.com/watch?v=mueEY-8Pw_0
 
 ## [10화 예고] 내가 널 만난 건 행운이 아니라 기적💞 서로가 있어 행복한 임시완X설인아에 다가온 또다른 위협? #나의유죄인간 EP.10
-- 채널 tvN DRAMA · 조회수 308,589회 · 4일 전
+- 채널 tvN DRAMA · 조회수 308,678회 · 4일 전
 - `@youtube izmmaIqoz3s` · https://www.youtube.com/watch?v=izmmaIqoz3s
 
 ## [라디오스타] 그야말로 진짜 '효자곡'👑 이적이 밝힌 임영웅 '다시 만날 수 있을까' 비하인드, MBC 261118 방송
-- 채널 MBCentertainment · 조회수 282,437회 · 2일 전
+- 채널 MBCentertainment · 조회수 295,036회 · 2일 전
 - `@youtube Se3ng4UIToU` · https://www.youtube.com/watch?v=Se3ng4UIToU
 
 ## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
-- 채널 tvN DRAMA · 조회수 223,888회 · 3일 전
+- 채널 tvN DRAMA · 조회수 224,944회 · 3일 전
 - `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
 
 ## ［32회 예고］못 데려갑니다 결이 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 188,069회 · 5일 전
+- 채널 KBS Drama · 조회수 189,874회 · 5일 전
 - `@youtube OgU1Nkhzai8` · https://www.youtube.com/watch?v=OgU1Nkhzai8
 
+## [11월 27일 예고] ‘월드스타’ 지수, 이서진×김광규에게 혹독한 장군 훈련 시작♨
+- 채널 SBS Entertainment · 조회수 152,637회 · 0일 전
+- `@youtube 9UIFoDPXaA0` · https://www.youtube.com/watch?v=9UIFoDPXaA0
+
 ## MINHO 'Out Of My Hands'｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 126,907회 · 1일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 141,321회 · 1일 전
 - `@youtube nsDov52sl-M` · https://www.youtube.com/watch?v=nsDov52sl-M
 
 ## [라이어 6회 예고] ＂이번엔 내가 거짓말을 하려고＂, MBC 261114 방송
-- 채널 MBCdrama · 조회수 119,761회 · 7일 전
+- 채널 MBCdrama · 조회수 119,823회 · 7일 전
 - `@youtube eo1DUkzb8b8` · https://www.youtube.com/watch?v=eo1DUkzb8b8
 
 ## [Playlist] 고작 이별하기 위해 널 사랑한 건 아닌데 (Singing My Blues)
-- 채널 YG ENTERTAINMENT · 조회수 112,854회 · 1일 전
+- 채널 YG ENTERTAINMENT · 조회수 114,545회 · 1일 전
 - `@youtube hyYkvbMt-rE` · https://www.youtube.com/watch?v=hyYkvbMt-rE
 
-## [60화 예고] 그날 기억이 났어요 [욕망의 덫] | KBS 방송
-- 채널 KBS Drama · 조회수 107,338회 · 3일 전
-- `@youtube m1hZwDtrZL4` · https://www.youtube.com/watch?v=m1hZwDtrZL4
+## [가족관계증명서 86회 예고] ＂임신 중이었다고요?＂, MBC 261123 방송
+- 채널 MBCdrama · 조회수 97,514회 · 1일 전
+- `@youtube QiTgO2BPXHk` · https://www.youtube.com/watch?v=QiTgO2BPXHk
 
 
 
@@ -685,7 +694,6 @@ MBC <인생도 각본이 필요해> 시즌2 4회는 11월 21일 토요일 오전
 ## KBS2 대하드라마 문무 · 3회 — 11/21 21:20 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/munmu
 - 보도자료 제목: [대하드라마 문무] 3화 던져진 주령구 / 11월 21일 21:20 방송
-- 사진(자유 이용, 출연자 장혁): `![장혁 · 사진 tenasia10 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/5/56/Jang-hyuk_in_2017_2.jpg)`
 - 사진(자유 이용, 출연자 김강우): `![김강우 · 사진 PARKJAEHWAN (kinocine.com) · CC BY-SA 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/7/7a/Kim_Kang-woo_in_Dec_2019_%28Revised%29.png)`
 - 사진(자유 이용, 출연자 박성웅): `![박성웅 · 사진 김등등 · CC BY 4.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/e/e1/160206_Park_Sung-woong_6_cropped.jpg)`
 
