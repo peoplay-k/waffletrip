@@ -8,13 +8,15 @@ kind: 해설
 title: 빅뱅, MAMA서 '기립' 첫 무대…공식 영상 하루 만에 313만 회
 source_name: ''
 source_url: ''
-summary: 데뷔 20주년 빅뱅이 21일 '2026 MAMA 어워즈'에 올랐다. 'BAD', 'LIVE FAST DIE SLOW', 신곡 '기립', 'BiiiG'를 이어 불렀다. Mnet 공식 채널의 무대 영상은 공개 하루 만에 조회수 313만 회를 넘었다.
+summary: 데뷔 20주년 빅뱅이 21일 '2026 MAMA 어워즈'에 올랐다. 'BAD', 'LIVE FAST DIE SLOW', 신곡 '기립',
+  'BiiiG'를 이어 불렀다. Mnet 공식 채널의 무대 영상은 공개 하루 만에 조회수 313만 회를 넘었다.
 sources:
 - https://www.youtube.com/watch?v=f0-Oq0kh298
 - https://www.youtube.com/watch?v=FHl9ST9GaKE
-status: approved
+status: published
+published_id: c-e4ad1b69428a08f193a9a038e390c3c14dafd6fa
+published_on: '2026-11-22'
 ---
-
 빅뱅이 MAMA 무대에서 20주년을 장식했다.
 21일 방송된 '2026 MAMA 어워즈'에 출연했다.
 

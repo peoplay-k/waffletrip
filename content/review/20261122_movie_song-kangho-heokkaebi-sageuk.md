@@ -8,13 +8,15 @@ kind: 해설
 title: 송강호, 사극 '허깨비' 출연 확정…산골 촌부들과 왜군의 한양행
 source_name: ''
 source_url: ''
-summary: 배우 송강호가 영화 '허깨비' 출연을 확정했다. 산골 촌부들이 우연히 잡은 왜군과 함께 한양으로 가며 벌어지는 휴먼 코미디 사극이다. 연출은 이석훈 감독이 맡는다.
+summary: 배우 송강호가 영화 '허깨비' 출연을 확정했다. 산골 촌부들이 우연히 잡은 왜군과 함께 한양으로 가며 벌어지는 휴먼 코미디 사극이다.
+  연출은 이석훈 감독이 맡는다.
 sources:
 - https://www.starnewskorea.com/movie/2026/11/20/2026112009404580442
 - https://www.joynews24.com/view/2028469
-status: approved
+status: published
+published_id: c-017364ce919c410266bb9e16f9c9cc4d805b9d52
+published_on: '2026-11-22'
 ---
-
 송강호가 사극으로 돌아온다.
 영화 '허깨비' 출연이 확정됐다.
 

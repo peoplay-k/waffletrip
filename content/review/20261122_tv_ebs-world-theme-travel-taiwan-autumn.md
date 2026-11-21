@@ -8,12 +8,14 @@ kind: 해설
 title: EBS '세계테마기행' 가을엔 타이완…200kg 새치·진흙 화산 닭구이
 source_name: ''
 source_url: ''
-summary: EBS1 '세계테마기행'이 23일부터 26일까지 저녁 8시 40분 '가을엔 타이완, 맛있는 발견'을 방송한다. 중어중문학과 교수 이규일이 제철 맛과 대를 이은 손맛을 찾아 타이완을 돈다. 타이둥 청궁항의 새치, 가오슝 진흙 화산 요리 등을 소개한다.
+summary: EBS1 '세계테마기행'이 23일부터 26일까지 저녁 8시 40분 '가을엔 타이완, 맛있는 발견'을 방송한다. 중어중문학과 교수 이규일이
+  제철 맛과 대를 이은 손맛을 찾아 타이완을 돈다. 타이둥 청궁항의 새치, 가오슝 진흙 화산 요리 등을 소개한다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005661584
-status: approved
+status: published
+published_id: c-972ea9d3ff3793d6986d281424fb48e862e1ead8
+published_on: '2026-11-22'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 세계테마기행 | 기획 · 가을엔 타이완, 맛있는 발견
 > 방송 · 2026년 11월 23일(월)~26일(목) 저녁 8시 40분
