@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS2 대하드라마 '문무' 4회, 고구려에서 마주 선 연개소문과 김춘추"
+title: KBS2 대하드라마 '문무' 4회, 고구려에서 마주 선 연개소문과 김춘추
 source_name: ''
 source_url: ''
-summary: "KBS2 대하드라마 '문무'가 22일 밤 9시 20분 4회 '연개소문과 김춘추'를 방송한다. 춘추는 대야성 함락의 책임을 지려 고구려로 간다. 연개소문은 춘추를 감옥에 가둔다."
+summary: KBS2 대하드라마 '문무'가 22일 밤 9시 20분 4회 '연개소문과 김춘추'를 방송한다. 춘추는 대야성 함락의 책임을 지려 고구려로
+  간다. 연개소문은 춘추를 감옥에 가둔다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/munmu
-status: approved
+- https://program.kbs.co.kr/2tv/drama/munmu
+status: published
+published_id: c-ed94e6b0a94ae4d31cdb5b816a9cb60ccdc6a07f
+published_on: '2026-11-22'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 문무 | 회차 · 4회

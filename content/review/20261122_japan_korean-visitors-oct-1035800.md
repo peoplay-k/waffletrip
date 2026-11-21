@@ -7,11 +7,14 @@ kind: 해설
 title: 10월 방일 한국인 103만 5,800명, 월간 역대 최대…연 1,000만 명까지 70만 명
 source_name: ''
 source_url: ''
-summary: 일본정부관광국 집계로 10월 일본을 찾은 한국인은 103만 5,800명이다. 전년 같은 달보다 19.4% 늘어 10월 기준 역대 최대다. 올해 10월까지 누적은 929만 8,400명으로, 연간 1,000만 명까지 70만 1,600명이 남았다.
+summary: 일본정부관광국 집계로 10월 일본을 찾은 한국인은 103만 5,800명이다. 전년 같은 달보다 19.4% 늘어 10월 기준 역대 최대다.
+  올해 10월까지 누적은 929만 8,400명으로, 연간 1,000만 명까지 70만 1,600명이 남았다.
 sources:
-  - https://www.sedaily.com/article/20117196
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500747
-status: approved
+- https://www.sedaily.com/article/20117196
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500747
+status: published
+published_id: c-a1b39597c8b26e6d1e89e356412ead7466f874a6
+published_on: '2026-11-22'
 ---
 10월 한 달 일본을 찾은 한국인이 100만 명을 넘었다.
 10월 기준으로는 역대 가장 많다.

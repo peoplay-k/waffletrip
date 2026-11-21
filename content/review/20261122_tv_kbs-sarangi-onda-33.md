@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "KBS2 '사랑이 온다' 33회, 한결의 눈물 뒤에 숨은 이야기와 규영의 갑작스러운 변화"
+title: KBS2 '사랑이 온다' 33회, 한결의 눈물 뒤에 숨은 이야기와 규영의 갑작스러운 변화
 source_name: ''
 source_url: ''
-summary: "KBS2 주말드라마 '사랑이 온다'가 22일 밤 8시 33회를 방송한다. 한결은 무진과만 따로 이야기하겠다며 자리를 옮긴다. 규영은 가족들에게 갑자기 다정해진다."
+summary: KBS2 주말드라마 '사랑이 온다'가 22일 밤 8시 33회를 방송한다. 한결은 무진과만 따로 이야기하겠다며 자리를 옮긴다. 규영은
+  가족들에게 갑자기 다정해진다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/loveonthemenu
-status: approved
+- https://program.kbs.co.kr/2tv/drama/loveonthemenu
+status: published
+published_id: c-5d0b3ede2654fab0a35c41290a2164501be8983b
+published_on: '2026-11-22'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 33회

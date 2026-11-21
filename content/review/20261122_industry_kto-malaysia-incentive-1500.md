@@ -7,12 +7,15 @@ kind: 해설
 title: 한국관광공사, 말레이시아 직접판매 기업 포상관광단 1,500명 유치
 source_name: ''
 source_url: ''
-summary: 한국관광공사는 16일 말레이시아 웰니스 제품 기업 '비이 인터내셔널'의 포상관광단 1,500여 명을 유치했다고 밝혔다. 이 기업은 튀르키예를 유력 후보로 검토하다 5월 한국 방문을 확정했다. 공사는 사전답사와 무슬림 맞춤 유치 활동을 지원했다.
+summary: 한국관광공사는 16일 말레이시아 웰니스 제품 기업 '비이 인터내셔널'의 포상관광단 1,500여 명을 유치했다고 밝혔다. 이 기업은
+  튀르키예를 유력 후보로 검토하다 5월 한국 방문을 확정했다. 공사는 사전답사와 무슬림 맞춤 유치 활동을 지원했다.
 sources:
-  - https://www.fnnews.com/news/202611161102047040
-  - https://www.newsa.co.kr/news/articleView.html?idxno=403865
-  - https://www.pinpointnews.co.kr/news/articleView.html?idxno=504333
-status: approved
+- https://www.fnnews.com/news/202611161102047040
+- https://www.newsa.co.kr/news/articleView.html?idxno=403865
+- https://www.pinpointnews.co.kr/news/articleView.html?idxno=504333
+status: published
+published_id: c-9053dbc7f1c5413cb944559ead15b91dae43cdb1
+published_on: '2026-11-22'
 ---
 한국관광공사가 말레이시아 기업의 대규모 포상관광단을 유치했다.
 무슬림 관광객에 맞춘 지원이 목적지 선택에 영향을 줬다.
