@@ -5,13 +5,16 @@ category: music
 region: ''
 section: news
 kind: 보도자료
-title: "몬스타엑스, 인천 인스파이어 아레나서 월드투어 앙코르 콘서트 이틀간 개최"
+title: 몬스타엑스, 인천 인스파이어 아레나서 월드투어 앙코르 콘서트 이틀간 개최
 source_name: ''
 source_url: ''
-summary: "몬스타엑스가 21일과 22일 인천 인스파이어 아레나에서 월드투어 앙코르 콘서트를 연다. 공연 이름은 '더 엑스 : 넥서스'다. 최초 공개 무대가 예고됐다."
+summary: '몬스타엑스가 21일과 22일 인천 인스파이어 아레나에서 월드투어 앙코르 콘서트를 연다. 공연 이름은 ''더 엑스 : 넥서스''다.
+  최초 공개 무대가 예고됐다.'
 sources:
 - https://enews.imbc.com/News/RetrieveNewsInfo/525571
-status: approved
+status: published
+published_id: c-a5a7e9ee5d28fec218b85045f2f0e7ed0bedaa36
+published_on: '2026-11-22'
 ---
 몬스타엑스가 월드투어의 앙코르 무대를 연다.
 21일에 막을 올렸고 22일에 한 번 더 이어진다.

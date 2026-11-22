@@ -5,13 +5,15 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "진주실크박물관, 하반기 기획전 '진주의 날+씨' 24일 개막"
+title: 진주실크박물관, 하반기 기획전 '진주의 날+씨' 24일 개막
 source_name: ''
 source_url: ''
 summary: 진주시가 진주실크박물관 하반기 기획전 '진주의 날+씨'를 연다. 24일부터 2027년 3월 21일까지 이어진다. 장소는 박물관 기획전시실이다.
 sources:
 - https://www.knnewstoday.co.kr/news/articleView.html?idxno=334745
-status: approved
+status: published
+published_id: c-16af3814c4f9cde43782d186a381c7ed5cc4dbda
+published_on: '2026-11-22'
 ---
 진주실크박물관이 겨울 기획전을 연다.
 제목은 '진주의 날+씨'다.

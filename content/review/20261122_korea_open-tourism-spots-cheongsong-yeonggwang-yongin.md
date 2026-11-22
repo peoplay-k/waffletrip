@@ -4,17 +4,20 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "청송·영광·용인, 2027 열린관광지 선정…무장애 관광 환경 조성"
+title: 청송·영광·용인, 2027 열린관광지 선정…무장애 관광 환경 조성
 source_name: ''
 source_url: ''
-summary: 문체부와 관광공사의 '2027 열린관광지' 공모에 청송군과 영광군, 용인시가 뽑혔다. 청송 3곳과 용인 3곳에 각각 15억 원이 들어간다. 영광은 세 번째 열린관광지를 갖게 됐다.
+summary: 문체부와 관광공사의 '2027 열린관광지' 공모에 청송군과 영광군, 용인시가 뽑혔다. 청송 3곳과 용인 3곳에 각각 15억 원이 들어간다.
+  영광은 세 번째 열린관광지를 갖게 됐다.
 sources:
 - https://www.mhns.co.kr/news/articleView.html?idxno=770033
 - https://www.straightnews.co.kr/news/articleView.html?idxno=315875
 - http://www.ttlnews.com/news/articleView.html?idxno=3164802
 - https://www.tournews21.com/news/articleView.html?idxno=149045
 - https://www.khan.co.kr/article/202611221050001
-status: approved
+status: published
+published_id: c-47c72854dfe7445ab05a9b3395dc9c7cfabe0101
+published_on: '2026-11-22'
 ---
 문화체육관광부와 한국관광공사의 '2027 열린관광지' 공모에서 청송, 영광, 용인이 선정됐다.
 세 곳 모두 이동이 불편한 관광객도 다닐 수 있는 무장애 환경을 만든다.

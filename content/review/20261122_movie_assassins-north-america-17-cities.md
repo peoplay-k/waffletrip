@@ -5,13 +5,15 @@ category: movie
 region: ''
 section: news
 kind: 해설
-title: "영화 '암살자(들)', 북미 17개 도시 개봉 확정…국내 340만 관객 돌파"
+title: 영화 '암살자(들)', 북미 17개 도시 개봉 확정…국내 340만 관객 돌파
 source_name: ''
 source_url: ''
 summary: 영화 '암살자(들)'이 현지시간 20일 북미 개봉을 확정했다. 17개 도시에서 현지 관객을 만난다. 국내에서는 340만 관객을 넘겼다.
 sources:
 - https://www.yonhapnewstv.co.kr/news/MYH20261120130717sTj
-status: approved
+status: published
+published_id: c-ab702e5347d526d9b47264fb95fa44aa0c1c7499
+published_on: '2026-11-22'
 ---
 영화 '암살자(들)'이 북미 극장에 걸린다.
 국내에서 340만 관객을 넘긴 작품이다.
