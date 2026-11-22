@@ -4,13 +4,16 @@ channel: travel
 region: japan
 section: news
 kind: 보도자료
-title: "팬스타 '미라클호', 부산~오사카 항로서 12월 31일까지 크리스마스 행사"
+title: 팬스타 '미라클호', 부산~오사카 항로서 12월 31일까지 크리스마스 행사
 source_name: ''
 source_url: ''
-summary: "팬스타그룹은 22일 부산~오사카 크루즈페리 '팬스타 미라클호'의 크리스마스 행사를 알렸다. 12월 31일까지 이어진다. 선내는 북극곰과 오로라를 주제로 꾸몄다."
+summary: 팬스타그룹은 22일 부산~오사카 크루즈페리 '팬스타 미라클호'의 크리스마스 행사를 알렸다. 12월 31일까지 이어진다. 선내는 북극곰과
+  오로라를 주제로 꾸몄다.
 sources:
-  - https://www.mhns.co.kr/news/articleView.html?idxno=770205
-status: approved
+- https://www.mhns.co.kr/news/articleView.html?idxno=770205
+status: published
+published_id: c-65d9d4fef2a18337aab502eb1085cd01f0b33a11
+published_on: '2026-11-23'
 ---
 팬스타그룹이 부산~오사카 항로 크루즈페리 '팬스타 미라클호'에서 연말 크리스마스 특별행사를 연다. 행사는 12월 31일까지 이어진다.
 

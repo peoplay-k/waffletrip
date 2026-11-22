@@ -4,14 +4,17 @@ channel: travel
 region: jeju
 section: news
 kind: 해설
-title: "제주공항 심야 급행버스 3개 노선 추가, 25일부터 성산·한경·남원행"
+title: 제주공항 심야 급행버스 3개 노선 추가, 25일부터 성산·한경·남원행
 source_name: ''
 source_url: ''
-summary: "제주도는 25일부터 공항발 시외 심야 급행버스를 늘린다. 성산·한경·남원 3개 노선이 각각 1회씩 추가된다. 늦은 항공편 이용객의 이동난을 덜기 위해서다."
+summary: 제주도는 25일부터 공항발 시외 심야 급행버스를 늘린다. 성산·한경·남원 3개 노선이 각각 1회씩 추가된다. 늦은 항공편 이용객의
+  이동난을 덜기 위해서다.
 sources:
-  - https://www.jejusori.net/news/articleView.html?idxno=508547
-  - https://www.fnnews.com/news/202611221134068700
-status: approved
+- https://www.jejusori.net/news/articleView.html?idxno=508547
+- https://www.fnnews.com/news/202611221134068700
+status: published
+published_id: c-6f96e3e94fbe94e6f822a3155dcc23420e00b645
+published_on: '2026-11-23'
 ---
 제주도가 25일부터 제주국제공항발 시외 방면 심야 급행버스를 늘린다. 성산·한경·남원 방면 3개 노선이 각각 한 차례씩 더 달린다.
 

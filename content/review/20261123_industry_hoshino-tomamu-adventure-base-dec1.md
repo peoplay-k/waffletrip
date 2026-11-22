@@ -4,13 +4,16 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "호시노 리조트 토마무, 스키장 신규 거점 '어드벤처 베이스' 12월 1일 오픈"
+title: 호시노 리조트 토마무, 스키장 신규 거점 '어드벤처 베이스' 12월 1일 오픈
 source_name: ''
 source_url: ''
-summary: "홋카이도 호시노 리조트 토마무가 12월 1일 '어드벤처 베이스'를 연다. 3층 규모의 복합 서비스 시설이다. 스키·스노보드 준비 과정을 한곳에서 해결하도록 꾸몄다."
+summary: 홋카이도 호시노 리조트 토마무가 12월 1일 '어드벤처 베이스'를 연다. 3층 규모의 복합 서비스 시설이다. 스키·스노보드 준비 과정을
+  한곳에서 해결하도록 꾸몄다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72761
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72761
+status: published
+published_id: c-ef4c47a0cb59b8f25628e643fa0f2152d222986c
+published_on: '2026-11-23'
 ---
 홋카이도 복합 리조트 호시노 리조트 토마무가 12월 1일 스키장 신규 거점 '어드벤처 베이스'를 연다. 스키와 스노보드 준비를 한곳에서 마치도록 만든 시설이다.
 

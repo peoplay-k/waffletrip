@@ -17,7 +17,21 @@
   - 톱스타뉴스: 
     https://article.topstarnews.net/news/articleView.html?idxno=16124269
 
+## 하와이
+
+### First Alert Forecast: Drier weather on the way, but expect a cold front for Thanksgiving
+- 매체 1곳 · Hawaii News Now  ← 여러 곳이 썼다
+  - Hawaii News Now: The front is expected to bring gusty north winds and increasing rain chances Wednesday night into Thanksgiving Day.
+    https://www.hawaiinewsnow.com/2026/11/22/first-alert-forecast-drier-weather-way-expect-cold-front-thanksgiving/
+  - Hawaii News Now: Breezy trade winds will weaken today as a cold front passes by far north of the islands.
+    https://www.hawaiinewsnow.com/2026/11/22/first-alert-forecast-cold-front-arrives-holiday-weekend/
+
 ## 베트남
+
+### 2026년 아오자이 디자인 결선은 베트남 문화의 아름다움을 널리 알렸습니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 11월 22일 저녁, 하노이 박물관에서 5개 대학에서 온 10개 팀이 2026 아오자이 디자인 공모전 결선에 참가하여 전통적 가치와 현대적 감각을 결합한 작품들을 선보였습니다. 이 작품들은 문화유산을 기리고 수도 하노이의 관광을 활성화하는 데 기여했습니다.
+    https://www.vietnam.vn/ko/chung-ket-thiet-ke-ao-dai-2026-lan-toa-ve-dep-van-hoa-viet
 
 ### 2026년 달랏 꽃 축제 - 람동 관광 활성화에 기여할 전망.
 - 매체 1곳 · vietnam.vn
@@ -38,11 +52,6 @@
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 호치민시의 모델은 치료 역량과 지역의 휴식, 재활 및 경험을 연계할 수 있는 길을 열어줍니다. 베트남은 의료 관광 브랜드를 구축하기 위해 품질 표준화, 지역 간 협력 체계 구축, 인적 자원 개발 및 통합적인 접근 방식을 추진해야 합니다.
     https://www.vietnam.vn/ko/nang-tam-du-lich-y-te-bai-3-lien-vung-de-xay-thuong-hieu-viet
-
-### [경제] 달랏서 '한-베트남 경제문화교류' 개막…럼동성, 한국 기업과 웰니스·관광 협력 모색
-- 매체 1곳 · 굿모닝베트남미디어
-  - 굿모닝베트남미디어: 【굿모닝베트남미디어】 베트남 중부 고원 도시 달랏(Đà Lạt)에서 한국과 베트남의 경제·문화 교류 행사가 막을 올렸다. 베트남 럼동(Lâm Đồng)성은 지자체와 기업 간 교류를 관광, 웰니스, 미용 분야의 장기 협력으로 이어가겠다는 구상이다.
-    https://www.goodmorningvietnam.co.kr/news/article.html?no=84745
 
 ## 코타키나발루
 
@@ -100,10 +109,12 @@
   - 서울경제: 에어부산(298690)이 일본 여행 수요 증가와 겨울 성수기에 대응해 일본 노선 운항을 대폭 확대한다. 에어부산은 부산~나가사키 부정기편을 내년 1월 5일부터 2월 28일까지 주 3회(화·금·일) 일정으로 재운항한다고 19일 밝혔다.
     https://www.sedaily.com/article/20116262
 
-### 부산~오사카 뱃길에 산타 뜬다…팬스타, 연말 선상 행사
-- 매체 1곳 · 문화뉴스
-  - 문화뉴스: [더쎈뉴스 / The CEN News] 팬스타그룹이 부산~오사카 항로를 운항하는 크루즈페리 ‘팬스타 미라클호’에서 오는 12월 31일까지 크리스마스 특별행사를 진행한다고 22일 밝혔다. 선내는 팬스타 아크로호의 북극항로 시범운항에서 착안해 북극곰과 오로라를 주제로 꾸몄다.
-    https://www.mhns.co.kr/news/articleView.html?idxno=770205
+### 日 긴자의 스시 명인이 온다…서울신라호텔 ‘기요다’ 갈라 디너
+- 매체 2곳 · 금융경제신문 · 헤럴드경제  ← 여러 곳이 썼다
+  - 헤럴드경제: [헤럴드경제=채상우 기자] 도쿄 긴자의 스시 명가 ‘기요다’ 셰프들이 서울신라호텔에서 정통 에도마에 스시를 선보인다. 17일 서울신라호텔은 이달 22일 저녁 기요다 셰
+    https://mbiz.heraldcorp.com/article/10939789
+  - 금융경제신문: [금융경제신문=조정현 기자] 서울신라호텔 일식당 아리아께가 일본 도쿄 긴자의 유명 일식당 ‘기요다’와 함께 특별 행사를 진행한다. 16일 서울신라호텔에 따르면 오는 22일 저녁 진행되는 ‘기요다 스시 갈라 디너’ 행사는 서울신라호텔의 아리아께가 일본 정통 에도마에 스시의 정수를 국내 고
+    https://www.fetimes.co.kr/news/articleView.html?idxno=129005
 
 ### 바다 한가운데서 ‘공짜 땅’ 솟아났다…日 화산 분화 “매우 드문 현상”
 - 매체 1곳 · 문화일보
@@ -153,12 +164,37 @@
 
 ## 국내
 
+### 2026년 껀토시에서 열리는 오옥옴복 축제 개막식 - 응오 보트 경주
+- 매체 2곳 · Vietnam.vn · vietnam.vn  ← 여러 곳이 썼다
+  - Vietnam.vn: 
+    https://www.vietnam.vn/ko/khai-mac-le-hoi-ooc-om-boc-dua-ghe-ngo-tp-can-tho-nam-2026
+  - vietnam.vn: 11월 21일 저녁, 껀터시 푸로이동 30/4 공원에서 11월 24일 베트남 문화의 날을 기념하고 "남부 문화유산의 색채"를 주제로 2026년 욱옴복 축제 및 응오 보트 경주 개막을 축하하는 예술 행사가 열렸습니다. 이번 행사는 크메르족의 문화적 정체성을 기리고 민족 간 연대를 강화하며
+    https://www.vietnam.vn/ko/le-hoi-ooc-om-boc-dua-ghe-ngo-nam-2026-lan-toa-sac-mau-di-san-phuong-nam
+  - Vietnam.vn: 
+    https://www.vietnam.vn/ko/hao-huc-don-cho-le-hoi-ooc-om-boc-dua-ghe-ngo-tp-can-tho-nam-2026
+
 ### 경주시,‘2027년 무장애 관광환경 조성’공모 선정
-- 매체 2곳 · 경주시민신문 · 뉴스웍스  ← 여러 곳이 썼다
+- 매체 3곳 · 경주시민신문 · 뉴스웍스 · 매일일보  ← 여러 곳이 썼다
   - 경주시민신문: 
     https://www.gjsiminnews.com/news/view.php?idx=79725
   - 뉴스웍스: [뉴스웍스=최만수 기자] 경주시가 역대 최대인 2조2200억원 규모의 내년도 본예산안을 짜고 도로·주차장 등 생활 기반시설과 민생·복지에 재원을 우선 배분했다. 시
     https://www.newsworks.co.kr/news/articleView.html?idxno=903946
+  - 매일일보: 
+    https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FaU9LSVVWUmMtSjdCUlM4eWtCbE1GdFVzdDVWd3N6WG9HSGJrMWk5MElUT1kwSHhKWEJmTVFPQWlvREtBMXNLVHdPYlJPRmY3LUR3VjRUaS1lcnNkUnBXN1RHQlY?oc=5
+
+### 진주시 관광 캐릭터 ‘하모’, 순천 문화콘텐츠 페어서 진주 관광 홍보
+- 매체 2곳 · 시사일보 · 아시아경제  ← 여러 곳이 썼다
+  - 아시아경제: 경남 진주시가 지역 관광 캐릭터 &#039;하모&#039;를 활용해 전남 순천에서 열린 문화콘텐츠 행사에 참여하고 진주 관광자원.
+    https://www.asiae.co.kr/article/2026112215160779538
+  - 시사일보: 진주 관광캐릭터 ‘하모’, 순천 로컬 캐릭터 빌리지에 뜬다 [시사일보=정몽호 기자] 진주시는 20일과 21일 전남광주 순천시의 순천만생태문화교육원에
+    http://www.koreasisailbo.com/2477038
+
+### 부산 영도구 90명, 90분 AI 검색 교육으로 2026년 제2회 부산관광 데이터공유회 준비 전문가와 함께
+- 매체 2곳 · 뉴스와이어 · 스페셜타임스  ← 여러 곳이 썼다
+  - 스페셜타임스: 랜선스퀘어는 11월 20일 부산 관광업계 대상 AI 검색 대응 교육을 진행했다고 밝혔다. 부산광역시와 부산관광공사가 주최한 ‘2026년 제2회 부산관광 데이터공유회’의 데이터 활용 교육 순서다.
+    https://www.specialtimes.co.kr/news/articleView.html?idxno=488668
+  - 뉴스와이어: 랜선스퀘어는 11월 20일 부산 관광업계 대상 AI 검색 대응 교육을 진행했다고 밝혔다. 부산광역시와 부산관광공사가 주최한 ‘2026년 제2회 부산관광 데이터공유회’의 데이터 활용 교육 순서다.
+    https://www.newswire.co.kr/newsRead.php?no=1047735
 
 ### 부산 여성문화회관, 이탈리아 명작 따라가는 미술관 인문학 여행 연다
 - 매체 2곳 · 노컷뉴스 · 복지TV부울경방송  ← 여러 곳이 썼다
@@ -167,26 +203,14 @@
   - 노컷뉴스: 부산시 여성문화회관은 다음 달 10일 오후 5시부터 6시 30분까지 여성문화회관 3층 소극장에서 '2026년 하반기 시민의식함양특강'을 운영한다고 밝혔다.
     https://www.nocutnews.co.kr/news/6610574
 
-### 2026년 껀토시에서 열리는 오옥옴복 축제 개막식 - 응오 보트 경주
-- 매체 2곳 · Vietnam.vn · vietnam.vn  ← 여러 곳이 썼다
-  - Vietnam.vn: 
-    https://www.vietnam.vn/ko/khai-mac-le-hoi-ooc-om-boc-dua-ghe-ngo-tp-can-tho-nam-2026
-  - vietnam.vn: 11월 21일 저녁, 껀터시 푸로이동 30/4 공원에서 11월 24일 베트남 문화의 날을 기념하고 "남부 문화유산의 색채"를 주제로 2026년 욱옴복 축제 및 응오 보트 경주 개막을 축하하는 예술 행사가 열렸습니다. 이번 행사는 크메르족의 문화적 정체성을 기리고 민족 간 연대를 강화하며
-    https://www.vietnam.vn/ko/le-hoi-ooc-om-boc-dua-ghe-ngo-nam-2026-lan-toa-sac-mau-di-san-phuong-nam
-
-### ‘2026 포항국제불빛축제 국제 불꽃 쇼’ 차가운 밤하늘을 뜨겁게 달군 아름다운 불꽃을 영일만 바다 건너편 남구 동해면에서 바라보다
-- 매체 2곳 · 경북매일 · 코리아투데이뉴스  ← 여러 곳이 썼다
-  - 경북매일: 2026 포항국제불빛축제 마지막 날인 21일 오후 영일대해수욕장에서 ‘윤슬: 빛이 만나, 우리가 되다’를 주제로 한국, 프랑스, 일본 3개국이 참가하는 국제 불꽃 쇼가 열렸다. 마지막 순서로 ‘비상: 함께 날아오르다, 하나 되어 오르는 빛’을 주제로 한국의 아름답고 장
-    https://www.kbmaeil.com/article/20261121500202
-  - 코리아투데이뉴스: 
-    https://www.ktnnews.co.kr/132111
-
-### 포항국제불빛축제 폐막…영일대 밤바다엔 불꽃, 골목엔 인파
-- 매체 1곳 · 경북일보
-  - 경북일보: 지난 21일 오후 8시, 포항 영일대 앞바다에서 불꽃이 터지자 해변의 관람객들이 일제히 휴대전화를 들어 올렸다. 바다가 내려다보이는 인근 아파트에서도 주민들이 베란다에 나와 밤하늘을 바라봤다.
-    https://www.kyongbuk.co.kr/news/articleView.html?idxno=4091682
-
 ## 여행업계
+
+### 용인시, 자연휴양림·농촌테마파크 등 관광지에 15억 투자···무장애 열린관광지 조성
+- 매체 2곳 · 경향신문 · 국민일보  ← 여러 곳이 썼다
+  - 경향신문: 경기 용인시는 용인자연휴양림 등 3곳에 15억 원을 투자해 장애인이나 어르신 등 거동이 불편한 관광객이 안전하게 관람할 수 있는 무장애 열린관광지로 조성한다고 22일 밝혔다. 용인시는 문화체육관광부와 한국관광공사가 주관하는 ‘2027 무장애 관광환경 조성 통합공모’에 참가해 열린관광지 
+    https://www.khan.co.kr/article/202611221050001
+  - 국민일보: 경기도 용인특례시는 용인자연휴양림 등 3곳에 총 15억원을 투입해 장애인이나 어르신 등 거동이 불편한 관광객이 안전하게 관람할 수 있는 무장애 열린관광지로 조성한다고 22일 밝혔다. 문화체육관광부와 한국관광공사가 주관하는 ‘2027 무장애 관광환경 조성 통합공모’에 선
+    https://www.kmib.co.kr/article/20261122501116
 
 ### [인터뷰] ‘항공 공급’ 증가, 뉴욕의 다음 전략은?
 - 매체 1곳 · 트래블데일리
@@ -227,11 +251,6 @@
 - 매체 1곳 · 트래블데일리
   - 트래블데일리: 트리니티항공이 성공적인 리브랜딩과 독자적인 SSC(Selective Service Carrier) 사업모델을 기반으로 견조한 실적 성장세를 이어가며 차세대 글로벌 항공사로 본격 도약한다. 전자공시시스템(DART)에 공시된 3분기 보고서에 따르면, 트리니티항공의 올해 9월 누적 매출(별도
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72762
-
-### 호시노 리조트 토마무, ‘어드벤처 베이스’ 12월 오픈
-- 매체 1곳 · 트래블데일리
-  - 트래블데일리: 홋카이도의 대자연을 만끽할 수 있는 복합 리조트 ‘호시노 리조트 토마무’가 오는 12월 1일 스키장 신규 거점 ‘어드벤처 베이스(Adventure Base)’를 오픈한다. 어드벤처 베이스는 스키와 스노보드를 즐기기 전 필요한 준비 과정을 한곳에서 해결할 수 있도록 조성한 3층 규모의 복
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72761
 
 ### 세부, 다채로운 여행 매력 조명
 - 매체 1곳 · 트래블데일리
@@ -421,6 +440,16 @@
   - 매일일보: 매일일보 = 이인수 기자 | 대구 서구문화회관은 오는 28일 오후 5시 서구문화회관 공연장에서 ‘친절한 오케스트라 시리즈’의 네 번째 공연인 ‘오페라 갈라 콘서트
     https://www.m-i.kr/news/articleView.html?idxno=2021712
 
+### [stage] 갤러리그림손 김정남 개인전 "Natural rhythm : 시간의 현상" 개최
+- 매체 1곳 · artworldnews
+  - artworldnews: 갤러리그림손 김정남 개인전 2026. 11.
+    https://www.artworldnews.co.kr/news/articleView.html?idxno=6206
+
+### [stage] 피아니스트 윤은경, 건반 위에 새로운 빛을 밝히다
+- 매체 1곳 · 우먼스토리뉴스
+  - 우먼스토리뉴스: 삶에는 지나온 시간을 돌아보는 순간이 있고, 더 이상 미룰 수 없는 새로운 도전을 선택하는 순간이 있다. 피아니스트 윤은경이 음악을 통해 자신만의 시간과 열정을 비추는 무대를 마련한다.
+    http://www.woman-story.co.kr/news/articleView.html?idxno=14224
+
 ### [stage] 임현재, 만토바 챔버 오케스트라와 대구서 모차르트 협연
 - 매체 1곳 · 경북일보
   - 경북일보: 바이올리니스트 임현재와 이탈리아 만토바 챔버 오케스트라가 대구에서 바로크와 고전, 현대음악을 아우르는 무대를 펼친다. 대구콘서트하우스는 오는 24일 오후 7시 30분 그랜드홀에서 2026 월드오케스트라페스티벌 공연 ‘임현재 & 만토바 챔버 오케스트라’를 연다.
@@ -436,23 +465,19 @@
   - 한국경제: 아르헤리치와 뒤트와의 '동반', 나이는 잊고 깊은 울림만 남았다, 샤를 뒤트와&마르타 아르헤리치 공연 리뷰 고령으로 인한 영감의 쇠퇴 찾아볼 수 없어 아르헤리치 에너지와 뒤트아의 정밀함 돋보여
     https://www.hankyung.com/article/202611222188i
 
-### [stage] 한·이탈리아 합작 영아티스트 오페라 ‘투란도트’, 세계 안방극장 찾는다
-- 매체 1곳 · 대경일보
-  - 대경일보: 대구오페라하우스와 이탈리아 아슬리코 꼬모 극장이 공동 제작한 영아티스트 오페라 ‘투란도트: 박물관의 수수께끼’가 전 세계 관객들과 만난다. 대구문화예술진흥원 대구오페라하우스는 유럽 오페라 협의체 오페라유로파가 운영하는 글로벌 스트리밍 플랫폼 오페라비전을 통해 해당 공연 영상을 전 세계에
-    https://www.dkilbo.com/news/articleView.html?idxno=561588
-
-### [stage] 원주박물관, 강원감영의 출판문화 담은 특별전 개최해
-- 매체 1곳 · 연세춘추
-  - 연세춘추: 
-    https://news.google.com/rss/articles/CBMib0FVX3lxTE5yNGljeVlrbUtGZnJRQUNJcjRTd0h4ZVpUWGYwcWpqaXpYMExLVVY0cWFhTHlQcElucTViZ2NLVGVnZDFPdWY4RTk2MlRKVmhmN1daT3F6aHN4NVRnVThjTHo2cUdiNm5uVWYzcUhJYw?oc=5
-
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 33개 확인, 사진 줄 0개)
+(자유 이용 사진: 이름 후보 36개 확인, 사진 줄 1개)
 
 ### 🔥 화제(매체 33곳) [movie] ‘폭설’ 4일 연속 1위·30만 돌파…‘치이카와’ 300만 달성 [11월 21일 영화 박스오피스]
 - 매체 1곳 · ER 이코노믹리뷰
   - ER 이코노믹리뷰: 김윤석·구교환 주연 영화 ‘폭설’이 4일 연속 박스오피스 1위를 지켰다. 토요일 관객이 전날보다 90.4% 증가하며 개봉 4일차에 30만명을 돌파했다.
     https://www.econovill.com/news/articleView.html?idxno=758070
+
+### 🔥 화제(매체 17곳) [movie] 임영웅 영화, 개봉 첫 주말 누적 관객 6만 돌파
+- 매체 1곳 · 비즈엔터
+- 사진(자유 이용, 임영웅): `![임영웅 · 사진 구전녹용 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/2/2a/Lim_Young-woong_in_an_ad_for_%EA%B5%AC%EC%A0%84%EB%85%B9%EC%9A%A9_%28June_2020%29_%28cropped%29.jpg)`
+  - 비즈엔터: ▲‘임영웅│아임 히어로 더 스타디움 2’(사진출처=물고기뮤직)가수 임영웅의 공연 실황 영화 '임영웅 | 아임 히어로 더 스타디움2'가 개봉 첫 주말 박스
+    https://enter.etoday.co.kr/news/view/305618
 
 ### 🔥 화제(매체 4곳) [startrip] 아일릿, 일본 레코드 대상 우수작품상…코르티스 특별국제음악상
 - 매체 3곳 · YTN · iMBC 연예 · 연합뉴스  ← 여러 곳이 썼다
@@ -478,100 +503,99 @@
   - 경향신문: 데뷔 20주년을 맞은 그룹 빅뱅이 20일 오후 2시 신곡을 깜짝 발표한다. 지난 8월 발매한 '빅' 이후 3개월 만이다.
     https://www.khan.co.kr/article/202611201044001
 
+### 🔥 화제(매체 3곳) [startrip] 송강호, '허깨비' 출연 확정⋯휴먼 코미디 사극 컴백
+- 매체 2곳 · SBS연예뉴스 · 아이뉴스24  ← 여러 곳이 썼다
+  - 아이뉴스24: 배우 송강호가 '허깨비' 출연을 확정 짓고 휴먼 코미디 사극으로 컴백한다. 송강호 특유의 인간미 넘치는 연기로 완성될 색다른 캐릭터와 이석훈 감독의 연출력이 더해질 '허깨비'에 기대가 커진다.
+    https://www.joynews24.com/view/2028469
+  - SBS연예뉴스: 배우 송강호가 영화 '허깨비'에 출연한다. '허깨비'는 산골 촌부들이 우연히 잡은 왜군과 함께 한양으로 향하며 펼쳐지는 예측불허의 이야기다.
+    https://ent.sbs.co.kr/news/article.do?article_id=E10010324921
+
+### [startrip] 엔하이픈, '2026 MAMA'서 2년 연속 대상→안무 연습 영상 공개
+- 매체 1곳 · iMBC 연예  ← 여러 곳이 썼다
+  - iMBC 연예: 그룹 엔하이픈(ENHYPEN)이 '2026 MAMA' 무대 준비 과정을 공개했다. 21일 엔하이픈(정원, 제이, 제이크, 성훈, 선우, 니키)은 팀 공식 계정에 '2026 MAMA AWARDS 'Big Girls Don't Cry' &amp; 'Knife' Performance Prac
+    https://enews.imbc.com/News/RetrieveNewsInfo/525651
+  - iMBC 연예: 코르티스(CORTIS)가 '2026 MAMA'에서 대상 포함 4관왕에 올랐다. 20, 21일 일본 교세라 돔 오사카에서 열린 '2026 MAMA AWARDS'(이하 '2026 MAMA')에서 코르티스(마틴, 제임스, 주훈, 성현, 건호)는 미니 2집 타이틀곡 'REDRED'로 대상 중 
+    https://enews.imbc.com/News/RetrieveNewsInfo/525644
+
+### [music] AI 노래 첫 멜론 1위… '꿈꾸던 어른이 되었나요?' 정상 질주
+- 매체 1곳 · 금강일보
+  - 금강일보: 인공지능(AI)이 부른 노래가 국내 최대 음원 플랫폼 멜론 정상 자리를 지키고 있다. 반짝 1위로 끝나지 않고 K팝 아이돌의 신곡들을 제치며 1위를 이어가는 모습이다.
+    http://www.ggilbo.com/news/articleView.html?idxno=1194047
+
 ### [drama] ‘6주 연속 1위→최고 시청률 7%’ 찍더니 남다른 기세로 첫 해외 원정 떠나는 韓 예능
 - 매체 1곳 · TV리포트
   - TV리포트: 
     https://tvreport.co.kr/entertainment/article/1092677/
 
-### [startrip] 안세영 끝내 2위…'17위→1위 대반전' 日 야마구치 총력전 통했나→월드투어랭킹 '오피셜' 확정, 월투파 한일 결승전 성사 주목
-- 매체 1곳 · 엑스포츠뉴스
-  - 엑스포츠뉴스: (엑스포츠뉴스 김현기 기자) '배드민턴 여제' 안세영(삼성생명·세계랭킹 1위)이 월드투어랭킹에선 2위를 확정지으면서 그를 최대한 피하려는 세계랭킹 2위 야마구치 아카네(일본)의 노림수가 적중한 것 아니냐는 평가가 나온다.
-    https://www.xportsnews.com/article/2221212
-
-### [startrip] "'K팝의 왕' 될 것" 앰퍼샌드원, 칼 갈았다..데뷔 3년만 첫 정규로 증명할 성장 [종합]
-- 매체 1곳 · 스타뉴스
-  - 스타뉴스: 그룹 앰퍼샌드원(AMPERS&ONE)가 첫 정규 앨범을 통해 성장을 증명한다. 앰퍼샌드원(나캠든, 브라이언, 최지호, 윤시윤, 카이렐, 마카야, 김승모)은 17일 오후 서울 광진구 예스24 라이브홀에서 정규 1집 '패스파인더(PATHFINDER)' 발매 기념 쇼케이스를 진행했다.
-    https://www.starnewskorea.com/music/2026/11/17/2026111714195570516
-
-### [drama] 최민정, 쇼트트랙 예능 '스피드퀸' 출연…25일 첫 방송
-- 매체 1곳 · 한국사회복지저널
-  - 한국사회복지저널: 쇼트트랙 국가대표 최민정이 리얼리티 예능 '스피드퀸'에서 출연 선수들과 정면 승부를 벌인다. TV CHOSUN은 오는 25일 수요일 오후 10시 0분 이 프로그램을 처음 방송한다.
-    http://www.ksw-news.com/news/articleView.html?idxno=3065557
-
-### [movie] '코리안 블랙 아이즈' 전국 확대개봉
-- 매체 1곳 · https://www.ohnews.co.kr/
-  - https://www.ohnews.co.kr/: 
-    https://news.google.com/rss/articles/CBMiakFVX3lxTE5sb243UjFkT0tBUHJFOUV4VktwN1J1N1dpOVdUWi1DX1BIQS1EM3lRVUZ2VFJPTWdNbWVCUWlFRnlveTNFem9lZE5yN2lWNU5GNEtzM2R6V0NaWFB6WnQ4b2VTV2VvV3RiZVE?oc=5
-
 ---
-거리 109건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 110건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
 
 관광청·방송사·소속사·배급사 공식 유튜브만 모았다. 영상 제목·설명의 사실로 기사를 쓰고,
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
-(검색어 32개 · 고른 영상 15개)
+(검색어 33개 · 고른 영상 15개)
 
 ## TXT (투모로우바이투게더) 'Angel Bite' Official MV
-- 채널 HYBE LABELS · 조회수 30,161,873회 · 6일 전
+- 채널 HYBE LABELS · 조회수 30,528,428회 · 6일 전
 - `@youtube M9G4guYg-i8` · https://www.youtube.com/watch?v=M9G4guYg-i8
 
 ## [#2026MAMA] 아일릿 (ILLIT) - It′s Me (MAMA Ver.) + D.B : SECRET AGENT + 체포하겠어 | Mnet 261120 방송
-- 채널 Mnet K-POP · 조회수 3,777,086회 · 2일 전
+- 채널 Mnet K-POP · 조회수 3,962,196회 · 2일 전
 - `@youtube a7xzBj-vYQ8` · https://www.youtube.com/watch?v=a7xzBj-vYQ8
 
 ## BESTie - Love Options | Suit Dance | Performance | 4K
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,722,069회 · 2일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 1,816,531회 · 2일 전
 - `@youtube FVNI7zBuk-4` · https://www.youtube.com/watch?v=FVNI7zBuk-4
 
 ## [13화 예고] 진선규의 압박으로 벼랑 끝에 몰린 김유정X박진영, 더욱 치열해지는 세 사람의 대립!
-- 채널 tvN DRAMA · 조회수 873,529회 · 7일 전
+- 채널 tvN DRAMA · 조회수 882,274회 · 7일 전
 - `@youtube -tbEwnRGNQQ` · https://www.youtube.com/watch?v=-tbEwnRGNQQ
 
-## NAYEON “BABY ANGEL” M/V Teaser 1
-- 채널 JYP Entertainment · 조회수 761,912회 · 5일 전
-- `@youtube KOZ_7ZSO470` · https://www.youtube.com/watch?v=KOZ_7ZSO470
-
 ## [14화 예고] 진선규를 향한 김유정X박진영의 반격 시작🔥 사토VS후쿠다VS김승억 🐶싸움도 시작!
-- 채널 tvN DRAMA · 조회수 383,236회 · 1일 전
+- 채널 tvN DRAMA · 조회수 395,372회 · 1일 전
 - `@youtube PRfV3IPNddA` · https://www.youtube.com/watch?v=PRfV3IPNddA
 
-## [33화 선공개] 아들이 하나 있어, 약혼만 했었고... [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 360,629회 · 1일 전
-- `@youtube gQye8sGhQvU` · https://www.youtube.com/watch?v=gQye8sGhQvU
+## [15화 예고] "억울하게 죽은 거잖아 당신 때문에!" 절규하는 김유정😭 구국단과 박진영의 운명은?
+- 채널 tvN DRAMA · 조회수 353,135회 · 0일 전
+- `@youtube EbhLvwbcJTs` · https://www.youtube.com/watch?v=EbhLvwbcJTs
 
-## [11월 27일 예고] ‘월드스타’ 지수, 이서진×김광규에게 혹독한 장군 훈련 시작♨
-- 채널 SBS Entertainment · 조회수 337,856회 · 1일 전
-- `@youtube 9UIFoDPXaA0` · https://www.youtube.com/watch?v=9UIFoDPXaA0
-
-## SANTOS BRAVOS x &TEAM - “ORIGAMI” │ MV TEASER 2
-- 채널 HYBE LABELS · 조회수 317,288회 · 2일 전
-- `@youtube ghIMQdZ16Og` · https://www.youtube.com/watch?v=ghIMQdZ16Og
+## [라디오스타] 그야말로 진짜 '효자곡'👑 이적이 밝힌 임영웅 '다시 만날 수 있을까' 비하인드, MBC 261118 방송
+- 채널 MBCentertainment · 조회수 340,698회 · 4일 전
+- `@youtube Se3ng4UIToU` · https://www.youtube.com/watch?v=Se3ng4UIToU
 
 ## [10화 예고] 내가 널 만난 건 행운이 아니라 기적💞 서로가 있어 행복한 임시완X설인아에 다가온 또다른 위협? #나의유죄인간 EP.10
-- 채널 tvN DRAMA · 조회수 309,878회 · 6일 전
+- 채널 tvN DRAMA · 조회수 310,041회 · 6일 전
 - `@youtube izmmaIqoz3s` · https://www.youtube.com/watch?v=izmmaIqoz3s
 
 ## [32화 선공개] 저 아저씨 엄마 만났어요 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 299,285회 · 1일 전
+- 채널 KBS Drama · 조회수 298,057회 · 1일 전
 - `@youtube Oomy6QlD5ss` · https://www.youtube.com/watch?v=Oomy6QlD5ss
 
 ## MINHO 'Out Of My Hands'｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 276,324회 · 3일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 292,018회 · 3일 전
 - `@youtube nsDov52sl-M` · https://www.youtube.com/watch?v=nsDov52sl-M
 
+## [라이어 9회 예고] ＂누가 민준호를 죽였을까요?', MBC 261127 방송
+- 채널 MBCdrama · 조회수 241,054회 · 1일 전
+- `@youtube raQmrxZiCtw` · https://www.youtube.com/watch?v=raQmrxZiCtw
+
 ## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
-- 채널 tvN DRAMA · 조회수 236,780회 · 5일 전
+- 채널 tvN DRAMA · 조회수 239,914회 · 5일 전
 - `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
 
+## ［33회 예고］나 모르겠니 규림아 [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 228,690회 · 1일 전
+- `@youtube 1uxginBULlU` · https://www.youtube.com/watch?v=1uxginBULlU
+
 ## ［32회 예고］못 데려갑니다 결이 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 219,831회 · 7일 전
+- 채널 KBS Drama · 조회수 221,429회 · 7일 전
 - `@youtube OgU1Nkhzai8` · https://www.youtube.com/watch?v=OgU1Nkhzai8
 
-## ［33회 예고］나 모르겠니 규림아 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 219,235회 · 1일 전
-- `@youtube 1uxginBULlU` · https://www.youtube.com/watch?v=1uxginBULlU
+## [가족관계증명서 86회 예고] ＂임신 중이었다고요?＂, MBC 261123 방송
+- 채널 MBCdrama · 조회수 139,498회 · 2일 전
+- `@youtube QiTgO2BPXHk` · https://www.youtube.com/watch?v=QiTgO2BPXHk
 
 
 
