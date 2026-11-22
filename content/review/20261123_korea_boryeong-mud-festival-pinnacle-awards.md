@@ -4,15 +4,16 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "보령머드축제, 세계축제협회 '피나클 어워즈' 금상 3개·은상 1개"
+title: 보령머드축제, 세계축제협회 '피나클 어워즈' 금상 3개·은상 1개
 source_name: ''
 source_url: ''
-summary: "'보령머드축제'가 세계 대회에서 금상 3개를 받았다. 은상도 1개 더했다. 보령시는 19일 수상 사실을 밝혔다."
+summary: '''보령머드축제''가 세계 대회에서 금상 3개를 받았다. 은상도 1개 더했다. 보령시는 19일 수상 사실을 밝혔다.'
 sources:
-  - https://cc.newdaily.co.kr/site/data/html/2026/11/19/2026111950026.html
-  - https://www.megaccnews.com/news/articleView.html?idxno=17130
-  - https://www.globalnewsagency.kr/news/articleView.html?idxno=505695
-status: approved
+- https://cc.newdaily.co.kr/site/data/html/2026/11/19/2026111950026.html
+- https://www.megaccnews.com/news/articleView.html?idxno=17130
+- https://www.globalnewsagency.kr/news/articleView.html?idxno=505695
+status: duplicate
+duplicate_of: 20261120_korea_boryeong-mud-festival-pinnacle-world.md
 ---
 '보령머드축제'가 세계축제협회(IFEA) 주관 '2026 피나클 어워즈' 세계대회에서 금상 3개와 은상 1개를 받았다.
 여름 대표 축제로 꼽히는 보령머드축제가 국제 무대에서 성과를 낸 셈이다.

@@ -9,10 +9,12 @@ source_name: ''
 source_url: ''
 summary: 청주국제공항에서 제천·단양까지 직통버스가 달린다. 16일부터 운행을 시작했다. 환승 없이 한 번에 이동할 수 있다.
 sources:
-  - https://www.sedaily.com/article/20114685
-  - https://www.goodmorningcc.com/news/articleView.html?idxno=456042
-  - https://www.krcom.co.kr/news/articleView.html?idxno=270616
-status: approved
+- https://www.sedaily.com/article/20114685
+- https://www.goodmorningcc.com/news/articleView.html?idxno=456042
+- https://www.krcom.co.kr/news/articleView.html?idxno=270616
+status: published
+published_id: c-54818a9fe9167aa2b63b9c18844527f45e978641
+published_on: '2026-11-23'
 ---
 청주국제공항에서 충북 북부권 관광지인 제천과 단양까지 환승 없이 갈 수 있는 직통버스가 16일 운행을 시작했다.
 공항 이용객이 북부권으로 이동하는 길이 한결 단순해졌다.
