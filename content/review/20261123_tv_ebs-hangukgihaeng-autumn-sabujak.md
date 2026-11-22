@@ -8,12 +8,14 @@ kind: 해설
 title: EBS '한국기행' 가을바람 따라 사부작사부작…익산·완주·진안고원
 source_name: ''
 source_url: ''
-summary: EBS1 '한국기행'이 23일부터 27일까지 밤 9시 35분 '가을바람 따라 사부작사부작'을 방송한다. 배우 정보석이 익산 치유 농장, 완주 도예 명장, 진안고원 마을을 찾는다. 바쁜 일상을 내려놓고 가을을 천천히 누리는 사람들의 이야기다.
+summary: EBS1 '한국기행'이 23일부터 27일까지 밤 9시 35분 '가을바람 따라 사부작사부작'을 방송한다. 배우 정보석이 익산 치유 농장,
+  완주 도예 명장, 진안고원 마을을 찾는다. 바쁜 일상을 내려놓고 가을을 천천히 누리는 사람들의 이야기다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005661585
-status: approved
+status: published
+published_id: c-90ccac5f8351226d91dc250361dc8e71c4d2269b
+published_on: '2026-11-23'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 한국기행 | 기획 · 가을바람 따라 사부작사부작
 > 방송 · 2026년 11월 23일(월)~27일(금) 밤 9시 35분

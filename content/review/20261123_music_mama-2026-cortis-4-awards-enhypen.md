@@ -8,13 +8,15 @@ kind: 해설
 title: 코르티스, '2026 MAMA' 대상 포함 4관왕…엔하이픈 2년 연속 대상
 source_name: ''
 source_url: ''
-summary: 코르티스가 '2026 MAMA 어워즈'에서 대상을 포함해 4관왕에 올랐다. 엔하이픈은 2년 연속 대상을 받고 무대 연습 영상을 공개했다. 시상식은 20~21일 일본 교세라 돔 오사카에서 열렸다.
+summary: 코르티스가 '2026 MAMA 어워즈'에서 대상을 포함해 4관왕에 올랐다. 엔하이픈은 2년 연속 대상을 받고 무대 연습 영상을 공개했다.
+  시상식은 20~21일 일본 교세라 돔 오사카에서 열렸다.
 sources:
 - https://enews.imbc.com/News/RetrieveNewsInfo/525644
 - https://enews.imbc.com/News/RetrieveNewsInfo/525651
-status: approved
+status: published
+published_id: c-9e8d85d3da4b768ca6e5599920a22f01fc1f89df
+published_on: '2026-11-23'
 ---
-
 '2026 MAMA 어워즈'의 주인공이 가려졌다.
 시상식은 20~21일 일본 교세라 돔 오사카에서 열렸다.
 

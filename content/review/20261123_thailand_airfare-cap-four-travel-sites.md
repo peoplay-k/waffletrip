@@ -7,12 +7,14 @@ kind: 해설
 title: 태국, 항공권 가격 상한 지키게…여행 사이트 4곳 새해 전 등록 추진
 source_name: ''
 source_url: ''
-summary: 태국 교통부가 온라인 여행 사이트 4곳을 새해 전까지 등록하게 할 계획이다. 항공권 가격 상한을 지키는지 감독하기 위해서다. 예약을 했는데 항공권을 받지 못한 승객이 손해배상을 청구할 길도 마련한다.
+summary: 태국 교통부가 온라인 여행 사이트 4곳을 새해 전까지 등록하게 할 계획이다. 항공권 가격 상한을 지키는지 감독하기 위해서다. 예약을
+  했는데 항공권을 받지 못한 승객이 손해배상을 청구할 길도 마련한다.
 sources:
 - https://www.nationthailand.com/news/general/40073747
-status: approved
+status: published
+published_id: c-67d2f8f5387f96b6f1274e6bdc9f518e533bcbdd
+published_on: '2026-11-23'
 ---
-
 태국이 온라인 항공권 판매를 들여다본다.
 교통부가 여행 사이트 4곳을 새해 전까지 등록하게 한다.
 

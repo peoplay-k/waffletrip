@@ -7,13 +7,15 @@ kind: 해설
 title: 치앙마이 이펭 축제에 항공편 189편 조정…52편 결항
 source_name: ''
 source_url: ''
-summary: 태국 치앙마이·람푼의 러이끄라통·이펭 축제 기간에 항공편 189편이 영향을 받는다. 항공사들은 52편을 결항하고 137편의 시간을 바꿨다. 하늘로 띄우는 풍등이 항공 안전을 위협하기 때문이다.
+summary: 태국 치앙마이·람푼의 러이끄라통·이펭 축제 기간에 항공편 189편이 영향을 받는다. 항공사들은 52편을 결항하고 137편의 시간을
+  바꿨다. 하늘로 띄우는 풍등이 항공 안전을 위협하기 때문이다.
 sources:
 - https://thethaiger.com/news/chiang-mai/yi-peng-festival-189-flights-chiang-mai-lamphun
 - https://www.bangkokpost.com/thailand/general/3358240/chiang-mai-airport-expects-40000-passengers-a-day-at-yi-peng-peak
-status: approved
+status: published
+published_id: c-aba65cd112869333bf75daa27bb5f01828b898eb
+published_on: '2026-11-23'
 ---
-
 치앙마이 풍등 축제 기간 항공편을 탄다면 일정을 확인해야 한다.
 러이끄라통·이펭 축제를 앞두고 항공편이 대거 조정됐다.
 

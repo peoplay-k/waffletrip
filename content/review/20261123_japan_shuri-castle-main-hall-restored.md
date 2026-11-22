@@ -7,13 +7,15 @@ kind: 해설
 title: 오키나와 슈리성 정전, 화재 7년 만에 복원
 source_name: ''
 source_url: ''
-summary: 오키나와 슈리성의 정전이 복원됐다. 2019년 화재로 불탄 지 7년 만이다. 늦가을 오키나와 여행에서 다시 볼 수 있는 대표 명소가 돌아왔다.
+summary: 오키나와 슈리성의 정전이 복원됐다. 2019년 화재로 불탄 지 7년 만이다. 늦가을 오키나와 여행에서 다시 볼 수 있는 대표 명소가
+  돌아왔다.
 sources:
 - https://www.nippon.com/en/articles/-/57836
 - https://www.eanews.kr/news/1054446
-status: approved
+status: published
+published_id: c-7483f53c2022b733fe54fdcaec8515ac84217cee
+published_on: '2026-11-23'
 ---
-
 오키나와의 상징 슈리성이 다시 섰다.
 화재로 불탔던 정전이 7년 만에 복원됐다.
 

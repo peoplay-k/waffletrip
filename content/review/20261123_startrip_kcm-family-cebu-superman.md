@@ -8,12 +8,14 @@ kind: 해설
 title: KCM, 가족과 필리핀 세부로…'슈퍼맨이 돌아왔다'서 가족 신혼여행
 source_name: ''
 source_url: ''
-summary: 가수 KCM이 아내 방예원 씨, 세 자녀와 필리핀 세부로 가족여행을 떠났다. 여행은 KBS2 '슈퍼맨이 돌아왔다' 11일과 18일 방송에서 그려졌다. 가족에게 특별한 신혼여행지가 된 세부가 눈길을 끌었다.
+summary: 가수 KCM이 아내 방예원 씨, 세 자녀와 필리핀 세부로 가족여행을 떠났다. 여행은 KBS2 '슈퍼맨이 돌아왔다' 11일과 18일
+  방송에서 그려졌다. 가족에게 특별한 신혼여행지가 된 세부가 눈길을 끌었다.
 sources:
 - https://www.traveldaily.co.kr/news/articleView.html?idxno=72758
-status: approved
+status: published
+published_id: c-7a85d7e033677106ee0709cee5605c7f4bad5129
+published_on: '2026-11-23'
 ---
-
 KCM 가족이 필리핀 세부로 떠났다.
 KBS2 '슈퍼맨이 돌아왔다'가 이 여행을 두 차례 방송했다.
 

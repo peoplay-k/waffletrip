@@ -7,12 +7,14 @@ kind: 해설
 title: 롯데관광개발, 코스타 크루즈 한국 단독 총판 맡는다
 source_name: ''
 source_url: ''
-summary: 롯데관광개발이 글로벌 크루즈 선사 코스타 크루즈와 한국 단독 공식 총판 계약을 맺었다. 앞으로 코스타 크루즈 상품의 국내 판매를 롯데관광개발이 맡는다. 총판은 영어로 GSP(General Sales Partner)라 부른다.
+summary: 롯데관광개발이 글로벌 크루즈 선사 코스타 크루즈와 한국 단독 공식 총판 계약을 맺었다. 앞으로 코스타 크루즈 상품의 국내 판매를 롯데관광개발이
+  맡는다. 총판은 영어로 GSP(General Sales Partner)라 부른다.
 sources:
 - https://www.traveldaily.co.kr/news/articleView.html?idxno=72766
-status: approved
+status: published
+published_id: c-2eae74c91cacfc98b15fa1d57b0d991b6dd5f2ed
+published_on: '2026-11-23'
 ---
-
 코스타 크루즈의 한국 판매 창구가 정해졌다.
 롯데관광개발이 단독 공식 총판 계약을 맺었다.
 
