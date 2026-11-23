@@ -8,13 +8,15 @@ kind: 해설
 title: 이준호, 2년 만에 팬콘서트 'Twilight'…1월 15~17일
 source_name: ''
 source_url: ''
-summary: 가수 겸 배우 이준호가 약 2년 만에 팬콘서트를 연다. 2027년 1월 15일부터 17일까지 서울 올림픽공원 티켓링크 라이브 아레나에서다. 공연 이름은 '2027 이준호 팬콘서트 Twilight'다.
+summary: 가수 겸 배우 이준호가 약 2년 만에 팬콘서트를 연다. 2027년 1월 15일부터 17일까지 서울 올림픽공원 티켓링크 라이브 아레나에서다.
+  공연 이름은 '2027 이준호 팬콘서트 Twilight'다.
 sources:
 - https://enews.imbc.com/News/RetrieveNewsInfo/525667
 - https://www.starnewskorea.com/star/2026/11/23/2026112308012192043
-status: approved
+status: published
+published_id: c-51912ce235d982280db13438e7c973faf6dc9baa
+published_on: '2026-11-24'
 ---
-
 이준호가 새해를 팬들과 함께 연다.
 약 2년 만의 팬콘서트다.
 

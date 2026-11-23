@@ -413,11 +413,13 @@
     },
     {
       "date": "2026-11-24",
-      "collected": 3652,
-      "published": 293,
-      "ours": 10,
+      "collected": 3855,
+      "published": 392,
+      "ours": 21,
       "failed_sources": [
+        "guam_pdn",
         "guam_post",
+        "hawaii_magazine",
         "hawaii_staradvertiser",
         "kr_hotelavia",
         "kr_ktnbm",

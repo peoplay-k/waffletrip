@@ -7,15 +7,17 @@ kind: 해설
 title: 추수감사절 앞두고 델타항공 전산 장애…항공편 1860편 지연
 source_name: ''
 source_url: ''
-summary: 미국 델타항공의 항공기 중량·평형 계산 시스템에 22일 장애가 났다. 애틀랜타 공항 이륙이 한때 멈추며 약 1860편이 지연됐다. 이달 들어 미 연방항공청 관제 통신, 유나이티드항공에 이은 세 번째 대형 장애다.
+summary: 미국 델타항공의 항공기 중량·평형 계산 시스템에 22일 장애가 났다. 애틀랜타 공항 이륙이 한때 멈추며 약 1860편이 지연됐다.
+  이달 들어 미 연방항공청 관제 통신, 유나이티드항공에 이은 세 번째 대형 장애다.
 sources:
 - https://www.donga.com/news/Inter/article/all/20261124/135077420/2
 - https://www.newsis.com/view/NISX20261123_0003878407
 - https://www.khan.co.kr/article/202611230735001
 - https://www.seoul.co.kr/news/international/USA-amrica/2026/11/24/20261124012008
-status: approved
+status: published
+published_id: c-f11699c8ceaea80cb1faa5d0a8a217767bc96f21
+published_on: '2026-11-24'
 ---
-
 미국 추수감사절(26일)을 앞두고 또 항공 대란이 났다.
 이번엔 델타항공의 전산 시스템이 멈췄다.
 

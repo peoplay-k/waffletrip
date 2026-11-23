@@ -8,12 +8,14 @@ kind: 해설
 title: SBS '틈만나면,' 비 "저 지방간 있어요"…김재욱과 신촌 출격
 source_name: ''
 source_url: ''
-summary: SBS '틈만나면,'이 24일 밤 9시 비와 김재욱을 틈친구로 맞는다. 체지방률 0%대로 알려진 비가 지방간이 있다고 털어놓는다. 브런치·바이크 동호회 친구라는 두 사람은 유재석·유연석과 신촌의 틈새 시간을 찾는다.
+summary: SBS '틈만나면,'이 24일 밤 9시 비와 김재욱을 틈친구로 맞는다. 체지방률 0%대로 알려진 비가 지방간이 있다고 털어놓는다.
+  브런치·바이크 동호회 친구라는 두 사람은 유재석·유연석과 신촌의 틈새 시간을 찾는다.
 sources:
 - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9429
-status: approved
+status: published
+published_id: c-8a46bbdcd50e9c60b521349af25a3dcca3dcfdc5
+published_on: '2026-11-24'
 ---
-
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 틈만나면, | 틈친구 · 비, 김재욱
 > 방송 · 2026년 11월 24일(화) 밤 9시

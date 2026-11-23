@@ -7,13 +7,15 @@ kind: 해설
 title: 대한항공 조종사노조, 임단협 잠정합의안 부결
 source_name: ''
 source_url: ''
-summary: 대한항공과 조종사노조가 마련한 임금·단체협약 잠정합의안이 조합원 투표에서 부결됐다. 2024~2026년 3년 치를 묶은 합의안이었다. 노사는 다시 협상해야 한다.
+summary: 대한항공과 조종사노조가 마련한 임금·단체협약 잠정합의안이 조합원 투표에서 부결됐다. 2024~2026년 3년 치를 묶은 합의안이었다.
+  노사는 다시 협상해야 한다.
 sources:
 - https://www.yna.co.kr/amp/view/AKR20261123165800003
 - https://www.newsis.com/view/NISX20261123_0003880005
-status: approved
+status: published
+published_id: c-8a69e3cfc5d85e30424214bc5bff3e212df3a345
+published_on: '2026-11-24'
 ---
-
 대한항공 노사의 임금 협상이 원점으로 돌아갔다.
 조종사노조 조합원들이 잠정합의안을 받아들이지 않았다.
 

@@ -7,12 +7,14 @@ kind: 해설
 title: 괌 츠바키 타워, 인피니티풀에서 투몬 해변 바로 가는 전용 계단 열어
 source_name: ''
 source_url: ''
-summary: 괌 더 츠바키 타워가 호텔 인피니티풀과 투몬베이를 잇는 투숙객 전용 계단을 새로 열었다. 수영장에서 해변으로 곧장 내려갈 수 있다. 괌 호텔들의 겨울 프로모션과 함께 23일 소개됐다.
+summary: 괌 더 츠바키 타워가 호텔 인피니티풀과 투몬베이를 잇는 투숙객 전용 계단을 새로 열었다. 수영장에서 해변으로 곧장 내려갈 수 있다.
+  괌 호텔들의 겨울 프로모션과 함께 23일 소개됐다.
 sources:
 - http://www.snakorea.com/news/articleView.html?idxno=1066507
-status: approved
+status: published
+published_id: c-7aeaa32d50d643b0b59c0804a9ccf4c0aac7048c
+published_on: '2026-11-24'
 ---
-
 괌 투몬의 호텔 수영장과 바다가 계단 하나로 이어졌다.
 더 츠바키 타워가 투숙객 전용 계단을 새로 열었다.
 
