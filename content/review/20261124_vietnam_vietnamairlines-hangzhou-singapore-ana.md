@@ -7,13 +7,16 @@ kind: 해설
 title: 베트남항공, 하노이~항저우·다낭~싱가포르 신규 취항…ANA와 공동사업 추진 합의
 source_name: ''
 source_url: ''
-summary: 베트남항공이 중국과 싱가포르를 잇는 직항 노선을 새로 연다. 하노이~항저우, 다낭~싱가포르 노선이다. 일본 전일본공수(ANA)와는 공동사업 추진에 합의했다.
+summary: 베트남항공이 중국과 싱가포르를 잇는 직항 노선을 새로 연다. 하노이~항저우, 다낭~싱가포르 노선이다. 일본 전일본공수(ANA)와는
+  공동사업 추진에 합의했다.
 sources:
-  - https://www.yna.co.kr/view/AKR20261123054300805
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72781
-  - http://www.ttlnews.com/news/articleView.html?idxno=3165086
-  - https://www.discoverynews.kr/news/articleView.html?idxno=1107494
-status: approved
+- https://www.yna.co.kr/view/AKR20261123054300805
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72781
+- http://www.ttlnews.com/news/articleView.html?idxno=3165086
+- https://www.discoverynews.kr/news/articleView.html?idxno=1107494
+status: published
+published_id: c-47d15bbe6cb9d7bd247a0fc83237e744e8d19cfd
+published_on: '2026-11-24'
 ---
 베트남항공이 중국과 싱가포르 신규 직항 노선을 열고 국제선 그물망을 넓힌다. 일본 전일본공수(ANA)와는 공동사업을 추진하기로 합의했다.
 

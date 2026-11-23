@@ -7,12 +7,15 @@ kind: 해설
 title: 인천공항공사 박남춘 신임 사장 취임…"연 여객 7400만→9000만명" 목표
 source_name: ''
 source_url: ''
-summary: 인천국제공항공사 제11대 사장에 박남춘 사장이 23일 취임했다. 사장 자리가 비어 있던 지 9개월 만이다. 여객 규모를 7400만 명에서 9000만 명으로 늘리겠다는 목표를 밝혔다.
+summary: 인천국제공항공사 제11대 사장에 박남춘 사장이 23일 취임했다. 사장 자리가 비어 있던 지 9개월 만이다. 여객 규모를 7400만
+  명에서 9000만 명으로 늘리겠다는 목표를 밝혔다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72784
-  - https://www.mk.co.kr/news/business/12216067
-  - https://www.hankyung.com/article/202611233869h
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72784
+- https://www.mk.co.kr/news/business/12216067
+- https://www.hankyung.com/article/202611233869h
+status: published
+published_id: c-d8374900ec238841ede2a72c3046b341588ae904
+published_on: '2026-11-24'
 ---
 인천국제공항공사 제11대 사장에 박남춘 사장이 23일 취임했다. 사장 자리가 공석이 된 지 9개월 만이다.
 
