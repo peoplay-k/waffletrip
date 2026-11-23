@@ -406,10 +406,11 @@
     },
     {
       "date": "2026-11-23",
-      "collected": 3611,
-      "published": 262,
+      "collected": 3658,
+      "published": 512,
       "ours": 19,
       "failed_sources": [
+        "guam_pdn",
         "guam_post",
         "hawaii_staradvertiser",
         "kr_hotelavia",
