@@ -1151,6 +1151,7 @@
     "0a7e494280afdf80206ea9611738d59a2732b29d",
     "0a885b98ee1160f260e3ce5288c7a368d7811496",
     "0a88c579f34166d67cfb8997cc23508e04d92f50",
+    "0a891c824f783fe9e7d5b74cf8c36b1f080a3e90",
     "0a8a77f0c4c053a96db81fef8e134bb77c5d0d52",
     "0a8c538d339dec07a332a0fd74966c4007070247",
     "0a8ee2d14c7a698b6603e3b0e60598e3b37d5b5c",
@@ -1889,6 +1890,7 @@
     "1195c87ed4920fea77fc1aa3616263b1212760f3",
     "1198020eccaf9e79566e0d3c83e24fac5cb42f9e",
     "1199c6f62687681856f65d4ef68a0d37bb8a4e66",
+    "119ad27d2d82716d8031ad5d2c21738d5beb5132",
     "11a3d183ff8c946b1d085eddf37b1ed98ed1570e",
     "11a67d0f9ae474cf1b95e5e7fde9997a73ad41cc",
     "11a7e2a09c404860c03368bd89fb262602819426",
@@ -2113,6 +2115,7 @@
     "13c617e9bbeb6ea6e8034fb7f29f1970a0f85f44",
     "13c88def21c899221b3804a71b81892581082882",
     "13c9d301ab37a362a48627ccfa5249d848fbcf41",
+    "13cae270eb6e0884122b2db0a47690ece9126efb",
     "13d1221043df2bb1178082e6980c46b64fee5df7",
     "13d451812bb57f58b62a52048d15cc708e81992b",
     "13d5bf30dccc9c94372134abaa8df1428440d8ca",
@@ -2834,6 +2837,7 @@
     "1a3a8e76a0ea5f45a8ef351e1a347e2e21653a9d",
     "1a3c7b2d635753c5f57a5487ff17a3b2ca437f58",
     "1a3c86469dd6e37deecc48147f573a1dcd9c58f1",
+    "1a3df62d1d47752b17c1031a7353a79899b6327e",
     "1a41db142a7c19e2363a5b398d9c1ea5b669d6d4",
     "1a4249fdefbdf635d49aa73e7cb44a6103b4aeff",
     "1a442f48c8806e3d00e50c1fa6859d926e8b9a74",
@@ -3637,6 +3641,7 @@
     "214f85727d5de98f9dfbe64c79a17efc48afce3a",
     "215021d9ad1da87a765aec9280e40fd82e2238db",
     "2150c5cda1d29998887e6cd7bb3e699d3e1729c2",
+    "2151d7e733ba3be675990865ea7d1b62b1c2df9a",
     "215389a800a487df84168381d6173341d3e72a14",
     "215465d71c974fd862b1834a99ac1276468e353e",
     "2154bd7fb16bdd2b6f5a5434d1fa206977862d05",
@@ -3663,6 +3668,7 @@
     "2185af605f4aa70aa42c82e05bd6af15b6265dd2",
     "2185e8454c0caf04c5c0b6cb574400aa2d62f7ed",
     "2187166245260a1e25ecc0cb034afb21516039d1",
+    "2187de324c3bf19d24d94db8b573c81627a03c26",
     "21897111646897dd815be4e05b9b98921930ac6d",
     "218b9e5a32ab7a5d0e34e071dc66796e96a2fd43",
     "218c2df91e8e0449c60312a4858a5b6a02c4e5e4",
@@ -3789,6 +3795,7 @@
     "22a8c439ae25bfcb74a618f319d4a23a1e580867",
     "22a9f3c0c865e10e17323076f06cbb49825736ae",
     "22ac74aaf94947c44cdf66af8103a3fe801edfac",
+    "22b1724e571d6df6631f48b4ecd5a4e67e286dcf",
     "22b2731adbd421fd840d3779d52fd183a77640a0",
     "22b4abb89b231fb740aaea1e0f774438f8fa9d57",
     "22b57eb23960293ffd4e4c4370fdd58ba1f5f53b",
@@ -3896,6 +3903,7 @@
     "23c4096adbbfde040d2123a16710acc6e08061b6",
     "23c8164e414eb295d111d6c376c9b64cb268b458",
     "23c8ec5d2d3199e869c42ec20341fb05ae8d6b0d",
+    "23ce51a6a7347ae7a636437b8bb93d111c3f1a93",
     "23cfbbb6d2c065c888f088b9933b94c632ce7740",
     "23d0e55cbd755a4c54e75c65f090ebd6bc001899",
     "23d277c0120017c240ec5b848f7cf021dc6eb640",
@@ -4844,7 +4852,9 @@
     "2cda6329d623780ac306437e3bb1b5018acddb20",
     "2cdb71f8e1c5f0ae97c869bdbcc03454e866e120",
     "2cdd6a26be0be25fb028a4483fa7b60358f08ca0",
+    "2cdedf3146126db74f9ba5e875d8d3353743d183",
     "2cdf02cd297e9109dca29e187653bcf26d8f6f7f",
+    "2cdffc49fdb8172d28821f52da7555127c4ad8e3",
     "2ce03c8a795576fe1fc32200fda46d47035403b8",
     "2ce0c39a282561f2142530f7ea2b18597531032a",
     "2ce11685bcd46dd06163fb898b887ff9fb9365ce",
@@ -5821,6 +5831,7 @@
     "355c7bc8a2891754bb40d6c4c4756146a1ec49c1",
     "355eaad65294a8b4fab4b62b056719ba641bee39",
     "3561f69388bea9a452f238d923d1f0e9cce7dd15",
+    "3563080779970f3344585e56334b510c63572c87",
     "356345ba474df8c6458248cfe819147b2481e02b",
     "3564e913297012e21bcacd3e5341a2ac366d0783",
     "3565ba548d6c9e9c78cd2c3c96ae89f0908f0f17",
@@ -6125,6 +6136,7 @@
     "384d8b0e7d2ef49a31f1d4640ba3f3fcbc16ac83",
     "384d92f86c31a94be69eaaceeef68a2aba8fcc0a",
     "384e022083706f2a3c8ba6562a8c60e917cc945d",
+    "385050a5979bd2c75b9c24b3988ad59f3312757d",
     "3850da569c6f2929a677ddc900cb9c8a5fb7e579",
     "385334fe0be867fe9c91586e727ff33870b82f93",
     "385369130c10f3d3d13a2f9ed460f4cfa7c26dfb",
@@ -6216,6 +6228,7 @@
     "3923ecc8775a6e6021d5a610dca32801d3fe3811",
     "39244af107c18102a4dc722848f9d4d07296ed1a",
     "3924955ea19cff76a568e553e59c2823086701c8",
+    "3924abe1aea82ecc502343aa4b6a65e39b26842d",
     "39257e182d78d3720b1118646c4e78a496a41d31",
     "392796a179e55b62eec9abd0aef4120019e515a5",
     "39297e148b5488e4f6a874d18211b13f2f26ba6f",
@@ -6931,6 +6944,7 @@
     "3f833bb21da2acb30c8a5cbd5e4e5c02c09dcc66",
     "3f83cfce60aa66f155f3cadbd2f7bd91d12c84e8",
     "3f895002845b30d495dddccbbf412d94222370d3",
+    "3f8bf31fc42fbddd86a5b1a336823730dd59541a",
     "3f8cdc6f7307b3550de0489e7b2db812bce4d7cf",
     "3f9734097483d111c38a1f581a4f74645b44cf46",
     "3f9ab44256f8e9b10dbe16240b27451f7c1743c8",
@@ -7338,6 +7352,7 @@
     "4330d74858fdbd06f8706c2dc38e8b7eb466b45f",
     "4331bafbdb9b3e153ba0ac11eacb12144b628619",
     "4335925ba3405b7fb96e37bdd44e977c26e1bc81",
+    "4338c63b516320a6950fefa01714047bfbf49148",
     "433a483019f5acf4c6d3e8e5e7e471122d8a6dc2",
     "433c3be8aee4d06fda3e9af7dc555456b04a4607",
     "433f826fe912d0b64f6e452ea6b1f41bc1cc9180",
@@ -7465,6 +7480,7 @@
     "446ba1e36ba02ab8ccb83a52d0f2210f31d95474",
     "446c04e2ebd46d511ca80ef6693811671a451f84",
     "446dc93a71ba6fce9c51df05ba42864e4b3841d4",
+    "446dde3e92871d498290becb1f4b2dc5c75966d9",
     "447274023bf0a7e8bccb4966d17d32b0b16409d9",
     "4473016209b57ff18a52ccd8a32bc5f956b134f2",
     "447391bef69e2b555981ea7ddb367901a58ebd43",
@@ -7803,10 +7819,12 @@
     "47798d7cc57d2fb5bcc689207e74aac1afc9e216",
     "477e93c8c0eda3335a7cda561c9ccab069e04d92",
     "478093348dc5270a7def4e5c850753d575bd9b04",
+    "4784508efd279bc8ac640887ec6df673bf539489",
     "478b654cf4c23c6ce8393226792834858ea17226",
     "478c270980e3a885f15636b12dc8faf5ec67e588",
     "478df5518ce43b68ebee67996d905cfe7a41b955",
     "478e4c3c52b3adb9be6f89b5e8284b336dfc94b5",
+    "478fb4e528f7770ad6010b4e7d2aa53febe6031e",
     "479286641fde498d93d6b26bebfc9c77e7e4ac8e",
     "479312da109f82fcdfd205e8a4f59b95d4e2bec6",
     "479400df2767636cbbe86f4388003d3b1d32094b",
@@ -8205,6 +8223,7 @@
     "4b076fdd6706863b815f2ea7c2e6b09bd42cb224",
     "4b104a0e253e1cc096ed31510ac9bdc8920fccd4",
     "4b105f86f79f9e4c8abe9881e3ccbfd35cfe1730",
+    "4b10a50c6e40b7b33d2a762cf3ad73628673ae76",
     "4b17741adcc4da69b3f6e38d4e441d7991e5034b",
     "4b1d6559c106d058ae53a0b2f70278f6cc9ee6a0",
     "4b1d81368dff0a58d5c0ba8f14b2cac96b0eef92",
@@ -9334,6 +9353,7 @@
     "54e0d14be42afba7791f972b43255daeaf052746",
     "54e439b30dab92dc415e29372895b1d9f731b879",
     "54e617108b3503316165913454c3673573c7ee62",
+    "54e7b8018f8e85a7b796511656c953f6376c371c",
     "54e7ecdbdf6137a02ad6581a9ad9c1b1c4cad1f5",
     "54f21007ee187b3f3071d49066bc06d053ab0ba6",
     "54f236c0c00475237bfcb02e7edbb2569d98e49e",
@@ -10243,6 +10263,7 @@
     "5d826e0e69df52ad2cf76fe03bc29313df3310b6",
     "5d83301fe5d0ac9691b500e461730e394d701ce5",
     "5d863eaa0b5a510a88725e469415404b4ea840d7",
+    "5d864f65590233134d96e3cf81fde2ba6e480a23",
     "5d8910ae9e0aca8b6d7310b01bdf794f944cdb47",
     "5d8a6b7902887ba51608a03eafb6dafedfbe4781",
     "5d8a6e659b6f9bd51ff1bc927f101c69de65ea79",
@@ -10620,6 +10641,7 @@
     "60f4b1c58728bd47ff3aed89a858c01bd708a935",
     "60f5595ae69b137b360bb7a5821edd2dc74f085f",
     "60f57333e9e8285532fd1647f993e171ff1d1494",
+    "60f7e09a2ac458163081240bff373041fe5f017f",
     "60f970b8277e2885bf2d9038b8b6efdaa73633fe",
     "60f9b6943fd6c99249429d6a5bfaf29059e492b0",
     "60fb8da894b9aca8351b794f31b0d9c18da40dfc",
@@ -11251,6 +11273,7 @@
     "66ba249b91c397bf9ffc07c8884a4fa2e59ef8d7",
     "66ba461063f7f3655d097870cabfa4a6890b11af",
     "66bb0c8a54fa5526d5962341b4de4d01f0954cb4",
+    "66bf3730b56fa4fd33538017015962ed9491e375",
     "66cf644fc483ae02280b6c3a03d3a37c9c7b2059",
     "66d1502543d0d38ceb58b8e917b2c224ca8495ee",
     "66d82199b41f341ae51558a15eaf8aa7a0403a88",
@@ -12219,6 +12242,7 @@
     "6f5b98ade18622426767a09233fdc626f96829c7",
     "6f5c4c4765ffddf8b9b7d272607a4653ab9e2734",
     "6f631305501aded277bc4751339ba15378a9b6b7",
+    "6f64809e9ebb1a17129285516060e442c50ab9d5",
     "6f651c98c0d0f3567cf063fc48e700c95da97de7",
     "6f672c664c4811e663a63e7001b4da66d80c5427",
     "6f6ab4565b619adecc9aa5e2ff92a6369888252a",
@@ -12454,6 +12478,7 @@
     "71ba60ef320275dcc511f5b601972966fa71b59a",
     "71c3d481c581b7f81714002413552cffb047277d",
     "71c5658eaec2d63dc283a2c9b4afeb25a7f5f57f",
+    "71c6e214506db0e32dfb7a5f0da0415fd335a7c5",
     "71c7b97abddf6be344e037e034431d09a876c05c",
     "71c7ef4d06fc28de22dcf43c8c34e875723352a2",
     "71c7f060748716c58ab3178ab80210c793f79903",
@@ -13259,6 +13284,7 @@
     "7924d0fee49ec35af51bfdd6d91a42b38442ff64",
     "79261ad67e319eb2cf0ea3619da6b28eac87d6be",
     "792b9842d0ddf8328cc90f78a61b9edb0fcac6e7",
+    "792d0f0317e4f46b2ead6d6ffdddca2ab18fcf0f",
     "792ec7e05379f028c790fd6d0846ec022e683aef",
     "7932cdd35321fac25c6a3179a1766acabec6ea40",
     "7936a93e21536aa509b6bf15dc6c245bb9e4d837",
@@ -13336,6 +13362,7 @@
     "79d969e0b7337935946385d4be5e2aef6be954b5",
     "79dd348cb7961609597520ffd6d62192bd0b5825",
     "79de25f79143ffcbcdfc647d22d7024f6e5cee20",
+    "79de8ab824d115b75e65f356f5bb0a768bf76800",
     "79e011a8932a480c458847eae8d8cd8c329bb590",
     "79e0a2b68684722407ccc7d7b64a3d62d743c77b",
     "79e1f1fcb41e2d26f4b389d89d75eced6e9a4ef9",
@@ -13406,6 +13433,7 @@
     "7a7263344366c2fcf8559300f798910c495e7a1f",
     "7a72fb3876222789027073c37e89ce8459534840",
     "7a746e2aab67c6fb432e93907c34526dd2581ff7",
+    "7a7ad95b7765bbc0da67c350da05dbfc2b4dbf17",
     "7a7b982e774d5268065bccab6dfaa6340a802303",
     "7a7c12fdd9a6287613bd01db142e7db1e6a6881b",
     "7a800dd33b7dc3c93435568570948d13b6618358",
@@ -13636,6 +13664,7 @@
     "7c74ada9a4d8061ac68f889c4023544946a1749a",
     "7c772214e6618b272ee145549da36427cfccb750",
     "7c78a4e9302a018c68e725d5e37fae4d845ee495",
+    "7c7da52a09d3a957364b846eb62b8c3bfcb2ddb4",
     "7c803578fd90bdfde072597baaaf76b67c7c9eb6",
     "7c84215eb40915429a153584daa478413274ba3c",
     "7c8728fd62f450854bff82fcc6302048923dbe20",
@@ -13654,6 +13683,7 @@
     "7c9fd5fe6fa65aea8323784d18b0cbe1390c0a9e",
     "7ca0caa8112c081021373fd4780daa01e578ee20",
     "7ca0dfcc3674e0488d6505f84544aec628962465",
+    "7ca2231d5ca422731a7538a60e6684a16ae43329",
     "7ca4a7c8e39228b2b695bdc4970366cc38527c95",
     "7ca5a86b7a29ad0581f4f8fd8c689191d9ab246a",
     "7ca8dafae6f0059afaafd50d86b41991f81fdbff",
@@ -13714,6 +13744,7 @@
     "7d2e08da8c43b244d6872e4a180158ab5e368937",
     "7d2fa60edc80e763a6200c0718c33dd096b84809",
     "7d3369e38d5d0d412dc63c81b4bcde70b6e12311",
+    "7d35b75157792a63125c70fb4df01ebf6d853a4c",
     "7d3a9fc67e461bcb0108eda74598f73478c2a628",
     "7d3b6b88d90fc5a4d125ca7aa3637463f0899c7b",
     "7d3bd6011b414c15ea0cce8dcf51378ec967b67c",
@@ -13839,6 +13870,7 @@
     "7e5c2b0c87f254881648ba2014c692bdeca1c1e3",
     "7e5c55d672a1ca235cb1604d1713260998ac1f61",
     "7e5e225155f59ffabf125d8b84932c29c292c56c",
+    "7e5f2fbbfba6ed1d3c2049346b879bfc506f864a",
     "7e6009f730f6be792e848942d276e4e494add1bc",
     "7e615916a6187d2991b4c985749be5054589b46a",
     "7e6447392fdeaedfc92f4770235bd68f4d3177cf",
@@ -13956,6 +13988,7 @@
     "7f4ccb39a2a162fbf979498a0ffc9cb72046ba3f",
     "7f4d1f3235869a45a3ddb74c998f179d6934982f",
     "7f544c115b8e738e9f73ea1964c106476350b97a",
+    "7f5494b1dd471a495b0ad51add44f834721079e8",
     "7f5781c048ffd2710b858311262a9930ff51dc70",
     "7f59d32d5a7c4d59d6851da2b181c59a6ef67caa",
     "7f5af860ef8ca4e2752ef89d87f6930f3d9f963a",
@@ -14591,6 +14624,7 @@
     "8589b8af3309a9af73b5dd63f117078f1c5e35ef",
     "858b4c2e7d2cb3f8a604be5b1cd9d6530f816079",
     "858beab66823cf51bdd05037e9646ec36333c8f0",
+    "859065aea583456a31310ec330c4d4b55e8e96e8",
     "8591ffaa4a15d79dbfd21d5ff60f811a22f7cd94",
     "8592b821eccf7437f335fab545e6bcbbcb8172ff",
     "85933f4f4b5299280dd66cb874798d238a69777d",
@@ -14909,6 +14943,7 @@
     "8892265a6bdfd8065e5320cebb27c2cfe325594d",
     "88924cb73ed8219eb144d510170e9d5c426269ed",
     "8893fc45ee94a28f06b21c048b9768016651d6da",
+    "8896458c7da2c4c90a14141a6cf52e358e43af34",
     "8897d304512e8b15126473dca2a936eb20550d72",
     "8898d812abc4d51bf185d2f6bb728ec54d4bf7ea",
     "889aacaf9fa418780c741d363d6d4d3b77f2c8c1",
@@ -15361,6 +15396,7 @@
     "8cd05315d2e9c7f3b2b46c241fd83f02876c67f0",
     "8cd14c426515e4f13a67031f597c77b16bdee1a7",
     "8cd1e26b6b9176e3656fba1ba81467a769b288a3",
+    "8cd41a0a382a4cdc6a4cff7be20429bb92337cbf",
     "8cd4e7464d6b865cb8a9fbbbedb488fa51622144",
     "8cd526b7943abbb5daee07e4373d09f83fcfa3b4",
     "8cd56e0b503c7f749794238f13d14ad6591ab911",
@@ -15476,6 +15512,7 @@
     "8dd6f640eeb3ab848ae5ce37ac389c8de9e03d44",
     "8dddf77cdc540786dec2142e367b184fe3f7020d",
     "8ddf1f4f4f9eea9636335569eb2a42b0de10b518",
+    "8ddfe6a26c86b54af3cb44ca9083ccd327384b4a",
     "8de0b79954048f056b9abafa227f54959c7b3767",
     "8de3a7a0225135d84011d1937ad1e6a9caa8180a",
     "8de5e33f43ea696cb853f309642c8b353c72f7ec",
@@ -15738,6 +15775,7 @@
     "907a0aed3460791f4471f863fadf17ba31a18d10",
     "907b1a79ef19d2e4780461cd0e081f8eee8f4994",
     "907b91c1aa8eb5ea748cc3a6e14aa63c2d26e29f",
+    "907cff96df63e786a3cb3b24863eda94a5a48ad9",
     "907dcb8e3c33871b7e818503762ae5fe0ca26ca2",
     "907feb20c6e412de44df01b8e444b3bd957ca823",
     "90824da3ac172fe50645c420b3072d5f12a0de7c",
@@ -16236,6 +16274,7 @@
     "9532e2084c5e121f05cb505bad928f2650ace6e5",
     "95342f53ea5f542e5c4cb5cb45b8079be0087636",
     "95343a15866d9b38b363c5973cb10670105d0a38",
+    "9536da261dba716744906f584bf0433709c70c04",
     "953a1212b8faac736ea8f979917ce1ad67fdaa55",
     "953a9d6dc757ce4b065154373410a68dd461a45c",
     "953b691e31fa3c4710a984b288b292a71491994d",
@@ -16328,6 +16367,7 @@
     "9617532aebf4aff7f59dd42a3a291be9de97478f",
     "96190e87730dacdb474d3c485e4023c2a00f9705",
     "961acbd23aad307cad77093b4a0098ca749ddcd3",
+    "961ce3da6a0eccd801ebfe0b2a0e478ddc0ddc9e",
     "9623fc0f03cd9ec6f0b4fbb28bd0627feaf37413",
     "9627519007a85d65991667e04a326c5487790dda",
     "962c8692692845a1b0fd00752f82067351f981fc",
@@ -16351,6 +16391,7 @@
     "965bb482ebb46b480f6c37fcff4ad4d880d7c4b6",
     "965d8bb557b5d57ffeb5e769a1435c884d5ee94f",
     "965daae98dcf8d00db2115d331efb74c5d744759",
+    "965e60384dedf0e097d1989d02fafa2b991b4d50",
     "965f1448d6bdc9ca756d24b30ebd3290c6955e7b",
     "9662af9cb381bb41da21d2792756a93be8a0a09f",
     "9662b601cf922751bb9947d32743534434fcc595",
@@ -17295,6 +17336,7 @@
     "9ebab3e48b1d411ea6ce5c9a3cef03ebbdafa3ff",
     "9ebe403c7e418622552074b1e35b926975ebe370",
     "9ec1f916985fcb65f961cac768a796aeb0c4d744",
+    "9ec21503ef63def54adaa898b266a592994c9f39",
     "9ec3c2b75c8fa4673b3ea16541a95264a9cb9409",
     "9ec43129e2683858821084088965c34da81c9af3",
     "9ec62ca536a1b7d08b6a93f523802e9be6d679da",
@@ -18666,6 +18708,7 @@
     "aaee4901e176fb85b110b897fd123d0b25666ce4",
     "aaf1b393563759be399d435e09df305595a0a325",
     "aaf34d73ab3abb2375de3cc7131c58f07bd100bb",
+    "aaf488cd3f789a1c5dcd1e96c44e9d623e604fc0",
     "aaf4f5ea98b0fb1ec3b1bf510b736452d0fad744",
     "aaf59d6b452909bcb1054462c8d7399493058331",
     "aaf7786121584225da8792277dde11809ee12b40",
@@ -18802,6 +18845,7 @@
     "ac2da21960ace1b678205428aeb6423d9294de7c",
     "ac31681c3861a8226b2d72f7ea0ade5a331e85ef",
     "ac32885bb10d0ba42ecd9c7dbfce1750fa28bb96",
+    "ac339bcc49b237e786f59d427e8b3ba8110e483f",
     "ac3a904179a2ab773b623079b39215647d28f206",
     "ac3bcd7c8135f708cfddfa83502da534ce2b6f4a",
     "ac3dad40fc512562accee0173c06b4f2b6f02bf3",
@@ -19334,6 +19378,7 @@
     "b0fde9a97b94ae91582d2353bb4983e0d5fcac20",
     "b0fe32c42cb1ed72365052fcce02854fa48fea8e",
     "b0fe5f66ace47ab1c4889cde55ab5fcd533ab028",
+    "b0ff1d72f1cdf2a05dc0fa6d6853e54daf190fed",
     "b1007600a2b8a585e36c0167ec53bf8c778b348d",
     "b1066412e31d712285969bc0899ea5a918420a11",
     "b1085ddff084c0f4f576effee73692b8eb47de15",
@@ -19735,6 +19780,7 @@
     "b4508584dacbab3b0b17bf558058d7017579d6fc",
     "b450bcf56839a84529b0a16700db869c9ca6c5fa",
     "b451413d64360db7f0f420c34a5b52bbf2090f10",
+    "b45522a3508662612260d1302913974c07db321a",
     "b458a085f057752569c45ef46e595bfa5d8bfe7d",
     "b459519fb919532afdd4cf735bcd3aa5e90a7859",
     "b45b879ddb248aa94f7acb24ce1b4461347a6cf0",
@@ -19805,6 +19851,7 @@
     "b500607c01a7134d0ce67cffa81d404b2860a802",
     "b5028748b96f88147da1b2fdc9bed5ea7ec6d3f1",
     "b50429c7fcff5077fb69075a617a3c11d85e3857",
+    "b505ec5afeda7efc3af65c79f23f8abe520412b5",
     "b50b05f5084bffb4738f30c2e8ef3883a0504436",
     "b50b63945da2d3d92659778b5afcf0f16c75db2b",
     "b50b65bcefc07b73a89e3fa33b2cfb866f833ff3",
@@ -19893,6 +19940,7 @@
     "b5ea6fd03a3376360c1043fff609e004a7e921b7",
     "b5ed8dbe23de46243e92f8ee49dd379fe9919bb9",
     "b5f1e29841316b9338a9295c288697e7a0c522e1",
+    "b5f5eaaa66394a13935f64d9c5bf37b5bb2ef700",
     "b5fb66d831a40e31947cacff320754306f25d3d9",
     "b6002b6646a9610d25b423184a0c6ce1a5658631",
     "b600fb245635b7ee281a7f35db3eb596bc8cd073",
@@ -20170,6 +20218,7 @@
     "b89f3eb3e664cbec8c8d274461c727db14a1a5c0",
     "b8a150eeb83fb6bf987e3923ac093a114120218c",
     "b8a26733a4a2403a6062ab071f70936854484d4e",
+    "b8a3d4bac19aa1766513b275ad00f19394b8c9a9",
     "b8a5388b55649b52ada81ae37eefc00f50c37f7c",
     "b8a70949769cbdd051c7b21fdc9ec1bd4d88bf0d",
     "b8a7670785ed8dcc50df121a1b6f593660f65381",
@@ -20293,6 +20342,7 @@
     "b9bc37a7b642df447acf59317c775bfa99530975",
     "b9c7e312b1503d4b2fed1b3fd041813bf2fdc762",
     "b9c8c87a5afa0b19419c30071970068800211e20",
+    "b9ca8c7e0dbaf67d00c2c72f2edecb8b67bcec75",
     "b9cdce5522ba2c16615f440ff323ab89190a474f",
     "b9ce8fcb462b5f4007bdb6a844fe6c97eb9c3ab8",
     "b9cfb156b4249cc504c27f4fcde269c51ee6dceb",
@@ -21117,6 +21167,7 @@
     "c-23329b717e68bedd66ace4da88574f9bc7ab4db2",
     "c-2336180cf811c6a3732712c5e6ac8c062fdd142b",
     "c-23494a07c13175b740415e6dd36d5392f79c925a",
+    "c-234f62e801ea96ea65b38d39fcddedc6d1424d1e",
     "c-235e6f5f0a7274dc33a05562d14e4a2d663bec1b",
     "c-237ffa276b5c56db18a280891efe894f7825816c",
     "c-23ecc172f9f61e55525aab634bad52b88472af6c",
@@ -21138,6 +21189,7 @@
     "c-2a380e71b8818f7c5de31173c8d1561d5e0e69e7",
     "c-2a82e75891fa407360eed25e325cf1f1bf7477ee",
     "c-2ae50105fdeb8c40f5ba7891643cbcfca21b487d",
+    "c-2b12a5cfe8ab4f14991edd518ab3bf1caf0f70fe",
     "c-2b15b2e15d099b8cb2a86d31755998d37e1ab82d",
     "c-2b36fa788042ea56da4a8cb056b3f304962a6cbc",
     "c-2bd74855a9f16f1ae4bf4e8c7a776286f5bbeb66",
@@ -21234,6 +21286,7 @@
     "c-44d17d9744b48e9799bb533d329dec2c2354fef5",
     "c-44e756de482e36f8dcdeac05656cd4105ede30b5",
     "c-45043eda14ea244ddda25069ef99f408dc411c7b",
+    "c-452176ba59ea09631573490e62a10c7e1a669ea3",
     "c-45361acff4f827c1eb70068595df326c8b0b4095",
     "c-45fc6d9afcf9c3fe57a8cd381c1d28c635f07c86",
     "c-46d0c91bb8bd50ff77245e66c094dd8d061f1b59",
@@ -21288,6 +21341,7 @@
     "c-5149b14bd37255bf7ac3ad6e761c81c83f204c77",
     "c-5190c438ce32daf49ef21f53454282ad6a33abe7",
     "c-519a55690276f6b42c936d70013779b23bdce974",
+    "c-51c642aaa8ec305ab62131d5382738cbaab2d3ad",
     "c-525553c94b1de34c3ad322ec5435ac1dec45820a",
     "c-526c6765b26fe4ade4c92818fc8c1b17943909ef",
     "c-532a43f6f0e9335d3b2de459ab9167f936ebe452",
@@ -21648,6 +21702,7 @@
     "c-ae94f675f48a3e547bc99bc73084d5d1b5869405",
     "c-aec34121132c835bf77ed25ed1bc2d2954760e5d",
     "c-aec468d89d7611f643b15e40b98ecd19fbb3a959",
+    "c-af0086d902aea33e41d8d2976cfe6d256ccd46c8",
     "c-af37b844bcab0a86dbccf4da2b09d45f6144af17",
     "c-af3cf1e9b94be9923ee113e8965abdcb419cea40",
     "c-af68369edc90db948bb65b4a95db0a0fc54aa639",
@@ -21891,6 +21946,7 @@
     "c-eeed79d0b57b2b4aaab31cdde1f73fa88c491e93",
     "c-ef4c47a0cb59b8f25628e643fa0f2152d222986c",
     "c-ef73bff944c02ccf04a3fba4837fc0e22eb51e30",
+    "c-ef99b3ae455aa49c6fd94447aca421e3ce29a0e7",
     "c-efc7553fb27721a762823e0df8fafe11a944f028",
     "c-f021b212d30d7c40eaa18db5e765bcb5a11987ef",
     "c-f091adafb3a2be2cfacc8f4c6b9f0eef004b4983",
@@ -22871,6 +22927,7 @@
     "c807c7e9d790312e54a1e6503b70f26a465aea29",
     "c80e525a46895391ba71ce6e4e001247b19b362b",
     "c80ef148cd9ee7a8b25df0948bee999ebc0419fe",
+    "c811d2d0c6bbe10e76ead0031219bf3bc3b5e122",
     "c8138d8c5dac11138812d23593da99972ba3a436",
     "c81428e9aa364feb28eaa02a2c1e139130ea1a1c",
     "c816392a9efbd275311055d8de40330a19f9693e",
@@ -22886,6 +22943,7 @@
     "c82d05c55152cbcc04043d87239c1ede7b518f0d",
     "c835fde63ba8d9cad45bf8669e3c11a8ce62062b",
     "c83a42e64afb5e06f341e8ebd5c110d6e0c54bff",
+    "c83e649ff815d46682b34667db7bbe016b7494e5",
     "c83fe502e6bcc8c2516d7338c784aa5bd33a8bf7",
     "c8420e0d82127fcb0d16b8d9966c975f573718dc",
     "c8422509b39f4321533279ebaec7a09c4b646076",
@@ -23437,6 +23495,7 @@
     "cd1d782b41b8e54284bdf7d48b19107a4cc92853",
     "cd1e38bfbfd58b27fcf32e594a14e212caad1ea4",
     "cd1ed510a92b25f9f8a8a8bd73ee31854502c968",
+    "cd1f6ea4c46d95e8a8a1f4a41c4b70c79629bafa",
     "cd21aecf64227c9b826a728e84225202637ecd76",
     "cd21e54d7a287044fb182b76cded289f91b2c469",
     "cd222849702b17d34f132d01385ae1bb73f9a13c",
@@ -24057,6 +24116,7 @@
     "d2a5d456bf935d67d3f70ddbc596299f0d3babfc",
     "d2a882ecf2b8edc36c34e4846d2f2dcfec6dca2a",
     "d2aa2179be13e147738f7eb1a7549873c28a8375",
+    "d2afdf2cb4d1f1f2c6d0378a88be0b3b89425980",
     "d2b0f0b1b4d7da12ad52840c43bc65a7151b3ffc",
     "d2b364be2bc47557536ef8796d3ac5bbb72d3cd7",
     "d2b414707b64d1b49c035e7abf287a982c657122",
@@ -24975,6 +25035,7 @@
     "da409195bea0b3b740c618e6b358432b16decd92",
     "da43a026ead3c49e5ffc0c07b8a86e2e3a451e2f",
     "da45a46c92f71176dc048ccecb1a979b00f6242b",
+    "da45a5d836f4363cf138bdcdf6903e65d1cd1aa3",
     "da47db5679fd56a8eaa3f9df6b24b1b20f9ee88e",
     "da49f859d40f98ce2e6c5bc0e1656fcd9cf66e89",
     "da4ae3b8ddd7d035d8ed02eef15d0ffa2ed17595",
@@ -25868,6 +25929,7 @@
     "e25067412efdb6846acb88f6ea74181dd85f4f39",
     "e25116aa7f438b5fa2fb7241e383b925737af2cd",
     "e25235abc3d87c4a6f1f6076d16c0c5d04cdefae",
+    "e2526d10f4cfe6fb1d8f64e16743a672ddce2a18",
     "e2568afea3d84d810571113f650548141035f9a4",
     "e26435f7002887ace9fefaac01a048f39c424601",
     "e26ac4f0925d657392e5fc0163aa5e2461973c49",
@@ -28299,6 +28361,7 @@
     "f90cf972d0d9aaf28ef467732b30911de3a91956",
     "f90fda8da2e1a4d48a3469e68e853f00abdae48b",
     "f91141710ba28e2c5c626f08cde699a697fec2a7",
+    "f914275b3b451f1f8516a0e86af48e2cca822980",
     "f91484db7bab706eb6c6ce095a1a82a034454988",
     "f9169544e613e7afa6da736b8ae60b674d0a50b7",
     "f917a5e5bc85c3bac3af8b98a87dbe945e57efd3",
@@ -28819,6 +28882,7 @@
     "fd758a09674528bd59f7ccef169b8ba211c77e6b",
     "fd7647e0070a2e2203a5624c8b049eedfceefd2d",
     "fd782cf46f8cd6d7beee3749574390bfc6b6a861",
+    "fd7d08dc8907276af00e23851d61dbbbc1455473",
     "fd7fb02e2646332d3147e6fb8c6320c47baa7992",
     "fd7fcb9d1ab72f01bd064ac014178f7a4c831a90",
     "fd8a19217aea42764de1259f0a79a47168a1e253",
@@ -29061,6 +29125,7 @@
     "ffc92c238c03fe1a035d0908be9cfd7cb631ddba",
     "ffd163940783f4c1ba6d0ca02afbc4b132dfeea4",
     "ffd17a42c7bf93c4c94aa1ebdf6fdef41c332173",
+    "ffd2e671368d0e34058062d2eaa3b18388d1ca1b",
     "ffd7c549c3d1a0b4c5246d4a77214daa47cadd10",
     "ffd8e8a7a73cb09a4e2b602d7d84a3f8e05ce159",
     "ffdd0d53b0d3a3d4218899f31507f49e1d201a8d",
@@ -29081,1035 +29146,6 @@
     "ffffde8b78675bbfde57688b100a1a805c16f2a5"
   ],
   "recent": [
-    {
-      "id": "c-b61b7db325b26e0a0e8ab8c8f13e5d8355819487",
-      "title": "한국방문의 해 민·관·학 워킹그룹 첫 회의, 9월 내국인 출국자는 1.4% 증가",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "C"
-    },
-    {
-      "id": "c-c8099be9b5a96c43dcecb58d204d41dd91808aca",
-      "title": "제주 주말 비 26일까지, 제주관광공사 새 사장 청문회는 11월 5일",
-      "date": "2026-10-24",
-      "region": "jeju",
-      "grade": "C"
-    },
-    {
-      "id": "6ab733280a15d5c934688d4712b78d5926b55b4d",
-      "title": "10월 24일 여행 데이터 — 태국 34°C",
-      "date": "2026-10-24",
-      "region": "guam",
-      "grade": "C"
-    },
-    {
-      "id": "dc5b155c50f7a84e71a6882ff06db423a2665c0c",
-      "title": "오늘의 환율 — 1 USD",
-      "date": "2026-10-24",
-      "region": "guam",
-      "grade": "A"
-    },
-    {
-      "id": "25dd290933d0d1f54215f4330ff3febf0e88afd0",
-      "title": "오늘의 환율 — 1 USD",
-      "date": "2026-10-24",
-      "region": "saipan",
-      "grade": "A"
-    },
-    {
-      "id": "ce614168473c2a52acc2bdfa3de158f383c88d3d",
-      "title": "오늘의 환율 — 1 USD",
-      "date": "2026-10-24",
-      "region": "hawaii",
-      "grade": "A"
-    },
-    {
-      "id": "f194eab548f63c583a795a4cf78ee22aa9cf96cd",
-      "title": "오늘의 환율 — 100 VND",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "A"
-    },
-    {
-      "id": "65b85a663052b7516afc92ae19b16c64bc103fa1",
-      "title": "오늘의 환율 — 1 MYR",
-      "date": "2026-10-24",
-      "region": "kota",
-      "grade": "A"
-    },
-    {
-      "id": "828b5fb141c807d110ddbe271bfa91f4f0070dc3",
-      "title": "오늘의 환율 — 100 LAK",
-      "date": "2026-10-24",
-      "region": "laos",
-      "grade": "A"
-    },
-    {
-      "id": "644cf76aa0451855513c166111d50a08020b040b",
-      "title": "오늘의 환율 — 100 JPY",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "A"
-    },
-    {
-      "id": "a75fda2ce434b9b941e36a744a205ecaf4340a53",
-      "title": "오늘의 환율 — 1 THB",
-      "date": "2026-10-24",
-      "region": "thailand",
-      "grade": "A"
-    },
-    {
-      "id": "5cbaebde06ef2e92d71f7a1441cff6762ef2929c",
-      "title": "오늘의 환율 — 1 TWD",
-      "date": "2026-10-24",
-      "region": "taiwan",
-      "grade": "A"
-    },
-    {
-      "id": "411d5c4b9fcec80360299d54bb7c636eabe84da8",
-      "title": "오늘의 날씨 — 하갓냐",
-      "date": "2026-10-24",
-      "region": "guam",
-      "grade": "A"
-    },
-    {
-      "id": "f18409d0b64fd59eb586773cbb0fe4962163c7ea",
-      "title": "오늘의 날씨 — 사이판",
-      "date": "2026-10-24",
-      "region": "saipan",
-      "grade": "A"
-    },
-    {
-      "id": "fe9d48ad61d392f1beca984b4bf06dc7fdef7383",
-      "title": "오늘의 날씨 — 호놀룰루",
-      "date": "2026-10-24",
-      "region": "hawaii",
-      "grade": "A"
-    },
-    {
-      "id": "0018eedcb56a1a395be174a73f442f2ad5b9d5c4",
-      "title": "오늘의 날씨 — 다낭",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "A"
-    },
-    {
-      "id": "657b2b599b411b4b0b8fb2bc521186dfe214cacd",
-      "title": "오늘의 날씨 — 코타키나발루",
-      "date": "2026-10-24",
-      "region": "kota",
-      "grade": "A"
-    },
-    {
-      "id": "4b603ceef3f4c1d857a6de537518c620c1c4454f",
-      "title": "오늘의 날씨 — 비엔티안",
-      "date": "2026-10-24",
-      "region": "laos",
-      "grade": "A"
-    },
-    {
-      "id": "b5c41ff8add73b72c5eec5e3efaaf79eb1718a4d",
-      "title": "오늘의 날씨 — 제주",
-      "date": "2026-10-24",
-      "region": "jeju",
-      "grade": "A"
-    },
-    {
-      "id": "75826b483d51b0f426fae125f3b91fc8f78644b4",
-      "title": "오늘의 날씨 — 오사카",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "A"
-    },
-    {
-      "id": "00be0ff2aa5d5cd81a290d549919301ed8436a3d",
-      "title": "오늘의 날씨 — 방콕",
-      "date": "2026-10-24",
-      "region": "thailand",
-      "grade": "A"
-    },
-    {
-      "id": "d09b1f4e8cdbd334f06fe0ad9d7b8ff52f99fbd4",
-      "title": "오늘의 날씨 — 타이베이",
-      "date": "2026-10-24",
-      "region": "taiwan",
-      "grade": "A"
-    },
-    {
-      "id": "9a7ebf50c7f0ae2342805e2b700414a8e640c3e6",
-      "title": "‘극장판 치이카와’ 10일 연속 1위…10월 24일(토) 200만 돌파 [10월 23일 영화 박스오피스]",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "0a6d139c0baf1de0e55c596d6d4edd2ddeef37c1",
-      "title": "노랑풍선, '오사카 풀패키지’ 상품 론칭…온천·미식·관광 한 번에",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "3c530d911ddb39a2587e5a65f590bb9a9b949637",
-      "title": "K관광 인기에도 불편은 일본보다 많아…외국인 관광객 '인증·결제 장벽'",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "bca6c000907db344b9af7c85967938f2a9fe952c",
-      "title": "광양시, 후쿠오카 아태도시 서미트…도시외교 성과 풍성",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "8cd56e0b503c7f749794238f13d14ad6591ab911",
-      "title": "관광 산업의 성장과 함께, 더 페스트는 나트랑 남부 지역에서 획기적인 발전이 있을 것으로 기대하고 있습니다.",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "80b2c99f711c361518ef657ace7a412be6b3da23",
-      "title": "#NSTviral: Two men filmed riding on roof of moving Proton Wira",
-      "date": "2026-10-24",
-      "region": "kota",
-      "grade": "B"
-    },
-    {
-      "id": "fb7124f75f58097309f2332e91397ed80806747f",
-      "title": "2026년 다낭 최고의 접점 100선 공개",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "f45f07131a455456436932748586e2ba743d5948",
-      "title": "Guam International Dance Festival Earns FIDAF Certification, Boosting Cultural Tourism",
-      "date": "2026-10-24",
-      "region": "guam",
-      "grade": "B"
-    },
-    {
-      "id": "ffbb913038c5e45d961caf1ff44d59b311a1840c",
-      "title": "한국 박스오피스 정상 오른 영화 '실낙원’",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "a6d6aaafdfb1bfa9fc7ad47bcbc53926b3cc9959",
-      "title": "연말·겨울방학 '짧게 알차게'…싱가포르·오사카, 겨울 여행지로 업계 주목",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "5e883c1ac8e9cef9971864c7bc2c28f3895321a8",
-      "title": "Singapore content creator 'lonely' during travels just 2 months after quitting job",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "2370fc6c83b335b88ded3c0049ec2efebab1d4fc",
-      "title": "Vietnam takes Asia's best cruise destination title from Hong Kong",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "2961fafd3e3af83f70ed5c39e3af562d7b06e83a",
-      "title": "다낭시가 바다에서 숲까지 아우르는 100가지 특별한 관광 체험을 발표했습니다.",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "93de00956511bdaf4654a683851880cfdc862428",
-      "title": "다낭 국제공항은 연간 1천만~1,750만 명의 승객을 처리하는 공항 부문 후보로 선정되었습니다.",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "037c57204de55cd224637eb14c521e1a877f2da4",
-      "title": "다낭은 고유한 가치를 통해 매력을 발산합니다.",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "e7ed490837fc1df9587695e990d9833538abe7fd",
-      "title": "Sun Group promotes Phu Quoc, Visit Vietnam platform at ITB Asia 2026",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "a1a9dbcd618d895ff4e573c6206b3b57edd7a373",
-      "title": "Valvoline rolls out new motorcycle oils",
-      "date": "2026-10-24",
-      "region": "kota",
-      "grade": "B"
-    },
-    {
-      "id": "85fd350fb33cbf1db9f7731403390b6128b76625",
-      "title": "A2O LITE의 데뷔무대 스타일링이 남다른 진짜 이유",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "dcb19f3d304dd4d8ee75b7f772175010b58ff246",
-      "title": "다낭, 2026년 100대 핵심 접점 발표",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "3a4abc87ef7b4fe4100df911921c8c4d605c2a3a",
-      "title": "‘상수도 빨대’ 한화 애월포레스트, 용도지구 ‘재심의’",
-      "date": "2026-10-24",
-      "region": "jeju",
-      "grade": "B"
-    },
-    {
-      "id": "d6cc824592b2b4cb5106eed6f442d3afb30ffbc1",
-      "title": "다낭시, 2026년 주요 관광 명소 100곳 발표.",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "6eea9fa1c001ef069d2c21a9d85e7a399b835b54",
-      "title": "제주항공, 이번엔 `숲의 도시` 센다이로…내년 1월 하늘길 연다",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "7a4667d8828875d117d635484cec2fb7f2686413",
-      "title": "국내 최초 어린이 영어 뮤지컬 영화 개봉",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "db0ba01a1bb7a6ea73876754998eac65b054b348",
-      "title": "'암살자(들)', 20일 연속 1위…324만 돌파 '2026 韓영화 TOP4'",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "c-0b8cfba4926d702c67d68dbd5a96fc7f5ac505ce",
-      "title": "'불후의 명곡' 2026 궁중문화축전 편, 24일·31일 2주에 걸쳐 궁궐 무대",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "C"
-    },
-    {
-      "id": "c-1c454192bd1eb70b3f10c66cb6617d5455eb2707",
-      "title": "'동네 한 바퀴' 391화, 마이산 자락 진안에서 씨 없는 감과 가위 박물관을 만난다",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "C"
-    },
-    {
-      "id": "c-c8e5ed448819dc3c27496810446240c939e3176c",
-      "title": "다낭시, '2026 다낭 100대 명소' 공개…후보 1,500건에서 6개 테마로 추렸다",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "C"
-    },
-    {
-      "id": "11597ffefb4b20eecf8d2389456c465042c71612",
-      "title": "Billy V Live: Spotlighting local filmmakers at HIFF and developing ʻŌlelo Hawaiʻi Sign Language",
-      "date": "2026-10-24",
-      "region": "hawaii",
-      "grade": "B"
-    },
-    {
-      "id": "711362b636bdfffa73527f471ad4c551109c7f9b",
-      "title": "Hawaii Airfares Are In Big Trouble In 2027",
-      "date": "2026-10-24",
-      "region": "hawaii",
-      "grade": "B"
-    },
-    {
-      "id": "6a11eb69e3692fef71785d6209744b67ec52feea",
-      "title": "Hawaii Vacation Rental Fees Face A New Reckoning",
-      "date": "2026-10-24",
-      "region": "hawaii",
-      "grade": "B"
-    },
-    {
-      "id": "298aef0a65df9cfce0cdf5a2b7ebc48334626276",
-      "title": "파라타항공, 승무원이 기획한 기내 서비스 확대…다낭·삿포로서 ‘큐레이팅 플라이트’",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "2d2cf5c0682c61db310853d3ed88d65b8d90e096",
-      "title": "블랙핑크 리사, 새 미니앨범 '프레스 플레이' 발매",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "fb5c8ff20e816d4c3197e8382d73017117e7bde0",
-      "title": "Taiwan warns of 'destructive winds' as Typhoon Champi batters island",
-      "date": "2026-10-24",
-      "region": "kota",
-      "grade": "B"
-    },
-    {
-      "id": "b65c6da11caec3a53a81ebd0a28494378fcbb284",
-      "title": "노랑풍선, 오사카·교토·고베·나라 잇는 온천 결합 패키지 구성",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "6878b9d0cf5b1d5bd0e25f494d4bc7ef24fefca6",
-      "title": "Parents on the golf course, grandkids at the water park: Eland Park launches Saipan family travel package",
-      "date": "2026-10-24",
-      "region": "saipan",
-      "grade": "B"
-    },
-    {
-      "id": "785172cc55c37315c525624e996d7c73b2bd17d6",
-      "title": "“호텔 밖으로 나갈 필요 없네”…괌 웨스틴, 해변부터 미식까지 한곳에 담았다",
-      "date": "2026-10-24",
-      "region": "guam",
-      "grade": "B"
-    },
-    {
-      "id": "48ca95d093199e65f77c3717535d60894609e53b",
-      "title": "‘닥터X’ 김지원, 충격 과거 공개",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "b133f850f44b866d519244b4b91230a737f4c399",
-      "title": "Laos, Cambodia Mark 70 Years of Diplomatic Relations Through Tourism Cooperation",
-      "date": "2026-10-24",
-      "region": "laos",
-      "grade": "B"
-    },
-    {
-      "id": "76c68c02c12851e40c69d4a14d9912fd755b13a0",
-      "title": "다낭은 MICE 관광객 유치를 위해 싱가포르의 주요 파트너 20곳과 협력하고 있습니다.",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "b376f5a7fe66b2e9e2c4dfdf782c3cc40902bf07",
-      "title": "30호 태풍 참피 영향에 오키나와·대만·동남아 항공편 지연·결항…항공권 수수료 면제 조건 보니",
-      "date": "2026-10-24",
-      "region": "taiwan",
-      "grade": "B"
-    },
-    {
-      "id": "e8de4698685bcecba4513d90cb906ae5e6178d0f",
-      "title": "‘아기상어 크리스마스 스페셜’ 영화, 12월 5일 CGV 개봉 확정",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "3e81e8c5788b4e6bb4fd61a5b65007ad6ac9251a",
-      "title": "Typhoon Champi Closes Guam Ports as Flights Are Canceled",
-      "date": "2026-10-24",
-      "region": "guam",
-      "grade": "B"
-    },
-    {
-      "id": "a46f22fade3aee6282f1c44f036623c2b5ee69bc",
-      "title": "신세계그룹, 2027년 정기 임원인사…정용진 이마트 대표 체제 출범",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "36bc5af5750068c672eaca1bc8faeb656ade0fba",
-      "title": "LG 트윈스, 러닝 행사 피날레 ‘The Last Run : 굿바이잠실'…팬 1만 명 달린다",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "3f132fe10294544ffbf32574a74bd6eac00691b2",
-      "title": "우리銀, 사회적경제기업 지원 성과공유회…참여기업 고용 6명 증가",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "af1fe6feaa3fad435eff21a3f98fabc5672d0cae",
-      "title": "네이버페이, 서울레스토랑위크 맞춰 50% 적립…오프라인 결제 공략 속도",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "ecf00a65beb524e4a702c1fe1b715f427ca648b7",
-      "title": "GS건설, 폐기물 크레인 자동화 실증…위치 오차 10cm 이내",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "b1f329d91a6254a6501ad06247a0d932d6bc0cd2",
-      "title": "현대엘리베이터, 충주 비내섬서 생물 기록·정화…습지 보전 활동 이어가",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "4bf851b0ed9a8b3a3dedb0dd15470a4f6b34072a",
-      "title": "카카오, 소상공인대회서 '프로젝트 단골'·AI 창업 지원 소개",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "419efc22b2c3bb5fd460080b34f2e240c078e43a",
-      "title": "커피값 부담에 RTD 커피 경쟁 치열…서울우유 '강릉커피' 누적 4300만 개",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "6f004aff4e4a3695d7d8339e7d8fb407bead41d9",
-      "title": "애플 첫 폴더블 '아이폰 듀오' 국내 출시…신세계百 강남점에 체험 공간",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "862d62cf38712c713dfcf992e4c2a603195588cf",
-      "title": "효성중공업, 서해안 HVDC 국산화 점검회…”2027년 핵심기술 개발 완료\"",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "8575c32b098a54de9a43e50a6bec299a820e1b1a",
-      "title": "SC제일은행, '자산의 미래' 마스터클래스…디지털 자산 전망 공유",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "d6d131a2fe548cca02a0f57e79f12c2d9dacc7f8",
-      "title": "[강대호의 대중문화 읽기] 음원 차트 석권한 ‘A2O LITE'...'이수만 장르'의 힘?",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "622dcc03458c200e82f923efa808a92e737d76c7",
-      "title": "'치이카와' 관객 수 200만명 돌파…올해 애니로는 두 번째",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "bbc17da03a329f1ca6fda1e9ef92492d6e63303f",
-      "title": "[주말판] 또 다른 캐나다 여행 법",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "fa8767598bfe096ba8762b1979a34009c35bd225",
-      "title": "신장식 \"오세훈 무죄, 조희대 사법부의 극우 정치 선언\"…대법원장 탄핵 재차 촉구",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "fb257f75c82c9b1f949eba8fea78c0391b621d54",
-      "title": "국내 골프 '주춤', 일본 골프여행 '활기'…LCC '틈새전략' 펼친다",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "2cae4e8cf97c7d3ee26d623ce292727c282dff46",
-      "title": "[AI박스오피스] '암살자들' 손익분기점 돌파…'치이카와' 2주 연속 정상",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "69955b436a0f3040986b77d47be6bc287de7b5a3",
-      "title": "\"입터진 날\", '파이널 테이블' 천재 셰프 안효섭, 현실은 바닥에서 라면 먹방",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "da82020a93d0e13eab21c1d314891c32e85d6304",
-      "title": "First Alert Forecast: Enjoy the weekend! Very wet weather is coming next week",
-      "date": "2026-10-24",
-      "region": "hawaii",
-      "grade": "B"
-    },
-    {
-      "id": "db6dbe4ac89be1d8ed1ce2a40593d6ab05bd0ff8",
-      "title": "Southeast Asia's second most visited country delays $30 departure tax to sustain tourism growth",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "f77e9fcab693c6ea174bf5ee0c996c931df8e796",
-      "title": "고성 송지호 바다하늘길, 46일 만에 20만 명 찾았다...고성의 새 관광명소로 부상",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "9f6d1485fc30500cbac9732e72ad3ae6198d3551",
-      "title": "“라면 먹으러 구미 간다!”…11월 7일 '구미라면팝업열차' 달린다",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "e18968507aac35308dde6b7557c0790de285d54c",
-      "title": "하나투어, 중국 선양에 한국 비자신청센터 개소…동북 3성 방한 편의 높인다",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "164da0d730cddf729b192008992f6af43c0e28f9",
-      "title": "As Chinese tourists stay away, Japan records first January-September drop in foreign visitors since 2021",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "ba0fa725f1fcae0893c8ab4d76cf17b8454d72f8",
-      "title": "국회 농해수위, 해수부 종합감사 끝으로 2026년 국정감사 완료",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "d2b6b5c2ef7f752dadf1bd47b08752a2268c57cd",
-      "title": "남양주시 학부모 진로특강 시작…26·27일 AI 일자리·입시 멘탈 강의",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "bb3b1dcb20d50ad3b47a812c502dc33aa8e28f8d",
-      "title": "양주시, 영농부산물 불법 소각·산림 내 흡연 계도·단속…위반 시 과태료 최대 200만 원",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "16e0d3e93a1de69e2cb0b0c7ea4607c28fc63c1e",
-      "title": "구리시 공무원이 연구·제안한 정책 12건, 실현 가능성 검토",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "c8d6e2d34e87cb8c849f758d4e8b8c8766713354",
-      "title": "안민석 경기도교육감 \"가르치기만 하십시오, 지켜드리겠습니다\"",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "54310e18291f0ca079902b1fa3973253de684677",
-      "title": "노남수 전 광주 북구청장 후보, 22일 시위 끝 수사팀 기피신청 인용... 경찰 재수사 착수",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "7fc518925cb186c24c3e6538b21aa4e308dbc4ec",
-      "title": "김포시, 북한 대남 심리전 방송 재개 예고에 접경지역 비상 대응",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "59cfc6b44438b8cae97db5c3915fa06c9b9c788c",
-      "title": "인천경제청, 외국인 정착 돕는 ‘글로벌 패밀리 프로그램’ 첫 운영",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "87b9ea55043354f2d150427da50ce088b9e6843d",
-      "title": "계양산성박물관, 특별기획전 ‘신비한 지하아파트’ 개최",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "44bff3c2ebd0a0370d76ae673dc6d8f8a1ca3d5f",
-      "title": "77개국 1,397점 중 선정된 세계 도자예술…경기도자비엔날레 수상작 9점 주목",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "184d7fca7c866f902a948c5eb58c1d7dae4f6c74",
-      "title": "한국 도예 명장 64인의 작품 한자리에…백자·옹기·장작가마의 전통을 만나다",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "b430429a98e7e9ab32fb3ff6cec337b15fdb4b13",
-      "title": "수심 40m에서 삶을 건 잠수부 ‘머구리’…사라지는 머구리의 삶, 연극으로 되살린다",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "d11a1cf90c3a4ea18be44439049d85a67d335695",
-      "title": "다니엘 린데만, 영종구 주민 250명과 만났다…“문화 차이 넘어 소통과 이해로”",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "6d7d5a0d76d9a5e5f14c85fc5905fd083e02c95e",
-      "title": "제물포e음, 11~12월 캐시백 15% 지급…월 50만 원까지 적용",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "e0423b5366bbbeb7bb7c9e7ce4ac61e11540c224",
-      "title": "옹진군, 공공비축미 산물벼 3,316톤 확보…농가 희망 물량 전량 매입 추진",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "873d7254d690d7ea39b07d7f67c89b21a502a47a",
-      "title": "박승원 광명시장 “기후위기 대응, 일상 속 실천으로”… 광명시 첫 탄소정원 조성",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "9b502f651b80aa70cb6f4936cd6aae84c4dc9028",
-      "title": "고려아연 경영진 상대 MBK·영풍 손해배상 소송 잇단 기각… 법원 판단 주목",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "f75f92b2b5a7e3d756940571c8c240bbd50734a8",
-      "title": "덕적도 ‘섬송이 버섯’ 도심 팝업서 완판…버섯 수제맥주는 외국인도 호평",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "58eb632da000ca0a1019fde105ba46f02b20dabc",
-      "title": "인천지하철 무임수송 미실현 수입 4년 새 2.2배…전국 도시철도 노사, 국비 지원 촉구",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "0d8d285c3fe7f29a6882b3b0c244a259fd9bc075",
-      "title": "“청송사과축제장에 블랙이글스 뜬다” 청송사과축제 11월 4일 개막",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "bfe7cfe3689ade6820999122e1659865e7582e3f",
-      "title": "전진선 양평군수, 중국 조장시와 경제협력 확대… 지역기업 수출시장 개척 지원",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "1a9b784c87a4e10e6a6872f21ab64225684ea965",
-      "title": "강화도조약 150년, 조선의 개항은 어떤 선택이었나…인천서 국제학술회의",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "77957564f437f4d4bbd44d22eea9dfc95f9b3062",
-      "title": "봉화군, 맞춤형 농자재 지원사업 내년부터 시행...농업경영체 등록 현행화 당부",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "d64d2d234dc175da9236cfa354bfc8e6c195300c",
-      "title": "경북도, 일본 돗토리현 저출생 극복 경험 공유...국제포럼 개최",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "6ee0eadf82183d0eb014d9fef944fa8ea3cac724",
-      "title": "전주영상위원회, 영화 ‘수능, 출제의 비밀’ 26일 시사회",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "fae1afcda5a20c83fd56a6dd5614531cbac3a0f2",
-      "title": "다낭과 ​​후에를 연결하는 기차 노선과 다낭과 꾸이년 및 나트랑을 연결하는 기차 노선 두 곳이 2026년 세계에서 가장 아름다운 기차 여행 10선과 14선에 선정되었습니다.",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "c-61f1fb2d72a3e7bf7b657e074749298ee388edfd",
-      "title": "'2026 SBS 가요대전' 30주년 맞아 첫 양일 개최, 1차 라인업 22팀 공개",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "C"
-    },
-    {
-      "id": "c-46d0c91bb8bd50ff77245e66c094dd8d061f1b59",
-      "title": "여수시, 하와이 카운티와 친환경농업·관광 교류 나섰다",
-      "date": "2026-10-24",
-      "region": "hawaii",
-      "grade": "C"
-    },
-    {
-      "id": "c-0139a52883321f0b6339942493fb2839c1715f02",
-      "title": "롯데관광개발, 올해 외국인 크루즈 관광객 10만 명 넘겼다…작년의 두 배",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "C"
-    },
-    {
-      "id": "c-d54ae00b971e178a2e803cba5bca2fefd533c2f2",
-      "title": "노랑풍선, 오사카·교토·고베·나라 묶은 간사이 온천·미식 패키지 출시",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "C"
-    },
-    {
-      "id": "c-128a57f1ac7bebb874184d5357037ddcb79e285a",
-      "title": "'동행' 580회, 손주 공부시키는 일이 인생 후반전의 목표가 된 할머니",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "C"
-    },
-    {
-      "id": "c-ad1fe393ef3f7175c3bb430330891de4d6df728e",
-      "title": "'너 말고 다른 연애' 11회, 남궁의 집 아침상에 흐르는 묘한 감정",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "C"
-    },
-    {
-      "id": "0d6fb8598ec7cb68af53f350c98e17e07e6509dd",
-      "title": "[투어만평] 혹시... 별의 순간??",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "f904b0fee106e95964b637c69a5680d42228ecbd",
-      "title": "Ranau residents told to brace for more rain, landslides",
-      "date": "2026-10-24",
-      "region": "kota",
-      "grade": "B"
-    },
-    {
-      "id": "34cdfec2431830f3bf47b5aa8a45b61eabb4e299",
-      "title": "나트랑 지역: 임대료가 급격히 상승했습니다.",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "6dd860d323b4f62a2537444064e033197c5a7cf4",
-      "title": "Why has Halloween become so popular among adults?",
-      "date": "2026-10-24",
-      "region": "guam",
-      "grade": "B"
-    },
-    {
-      "id": "4ac3e5a689c11b2d9742162d08263f861f8f5278",
-      "title": "Cruise lines are betting big on the months they used to skip",
-      "date": "2026-10-24",
-      "region": "guam",
-      "grade": "B"
-    },
-    {
-      "id": "8a92898c6617ca89d83f110a8232e40a47e5d208",
-      "title": "[영화] 유선X이종혁 주연, '고인아파트' 11월 개봉",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "c-f3db815428aa24b6ee797d0d3de797c307f17d7a",
-      "title": "KBS2 '사랑이 온다' 24회, 규림과의 만남 허락을 구하는 무진에게 옥선이 내건 조건",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "C"
-    },
-    {
-      "id": "c-8ddf056788aeb5d9ca5299a9888a7241ff85d541",
-      "title": "SBS '런닝맨', 종로3가에서 '법카 어딧세이'…지예은 결혼식 사회는 유재석, 축가는 김종국",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "C"
-    },
-    {
-      "id": "a4d692170b1c27bb5ae6bd454f79c2ad20c6598d",
-      "title": "제주-일본 경제·관광 교류 활성화, 실천적 전략 아이디어는?",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "ba29bc08f2fb7423ee0ebe6c1d22c82b2d5bfade",
-      "title": "100년 된 고목이 수영장 한가운데…방콕에 들어선 신상 호텔",
-      "date": "2026-10-24",
-      "region": "thailand",
-      "grade": "B"
-    },
-    {
-      "id": "74abf2a0b023db2845cbb543f1954ff51971758f",
-      "title": "비바람 뚫고 덕유산 달린다…2026 GTWS 무주 그랜드 파이널 진행중",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "c298fc17e56014f448f1d95229e54d8250202d5a",
-      "title": "[기획특집]지민희 양평군의장, “동·서부 균형발전으로 양평 전체의 성장 이끌어야”",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "9a218ce4104c9185c7059d3db69d7dbce661cf91",
-      "title": "경기소방, 제2회 ‘119메모리얼데이’ 개최…추미애 지사 “소방관 안전·처우 개선 약속”",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "1e577a4430bb18d35c5a27358ed0d5add73b61e0",
-      "title": "일본 교도통신 \"중국 단둥서 교통·호텔 통제…북한 고위인사 방문 가능성\"",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "0f41676c310a23aaf0adfae506ed39fc76387b3d",
-      "title": "이현재 시장, 주민 질의응답 직접 주재…교통·교육·문화 인프라 추진 상황 공유",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "aa116270425ba6e95fd12cf1747da1505fcd2106",
-      "title": "김선옥 시흥시의장 “상호존중 실천으로 성숙한 의정문화 조성”",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "a29ad9d3e8707ee2f43c8d23a4501ae79bd86c6d",
-      "title": "경기도교육청과천도서관, 청소년 창작도서 16권 전시…학생들의 생각과 상상력 공유",
-      "date": "2026-10-24",
-      "region": "industry",
-      "grade": "B"
-    },
-    {
-      "id": "99f63151d5d3947debbc7025de67ed6af11842d8",
-      "title": "Two Malaysians injured by Typhoon Champi in stable condition",
-      "date": "2026-10-24",
-      "region": "kota",
-      "grade": "B"
-    },
-    {
-      "id": "6ede30d1517ba92303deff44fbba1bfa46ebdec7",
-      "title": "다낭시는 호이안 고대 도시의 관광객 부족에 대해 우려를 표명했습니다.",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "a8e57a43728593253da0520fac40e484f85ee8fe",
-      "title": "Woman returns from overseas holiday to find husband dead in massage chair",
-      "date": "2026-10-24",
-      "region": "kota",
-      "grade": "B"
-    },
-    {
-      "id": "1da8d142d5cde00f41a2255c4826a2aad83f3dcb",
-      "title": "Tsunami warning lifted after earthquake off Vanuatu",
-      "date": "2026-10-24",
-      "region": "kota",
-      "grade": "B"
-    },
-    {
-      "id": "8f5b7b48c8919d0808b3d0c86aad8d19a0124534",
-      "title": "태풍 참피 간접영향 제주 강풍·호우…피해 신고 2건",
-      "date": "2026-10-24",
-      "region": "jeju",
-      "grade": "B"
-    },
-    {
-      "id": "752a1e6bb47a9b2eb4f24d941062dbaa4953d5a6",
-      "title": "Citywave World Championships to debut in Ewa Beach in February",
-      "date": "2026-10-24",
-      "region": "hawaii",
-      "grade": "B"
-    },
-    {
-      "id": "a5c0b3b9a8b54b9f624cc1a499cc44325224318d",
-      "title": "호이안 관광객 감소: 다낭 관광협회 부회장, \"관광객 재방문을 유도하려면 어떻게 해야 할까?\" 질문",
-      "date": "2026-10-24",
-      "region": "vietnam",
-      "grade": "B"
-    },
-    {
-      "id": "e46f5208ac8f095e5c2a751d0a88aa3ca65ff863",
-      "title": "제주항공, 일본 소도시 노선 확대…내년 1월 인천-센다이 신규 취항",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
-    {
-      "id": "6292502a9a4a361ad72f84124da01875bf714946",
-      "title": "나혼자산다, 차우민 집 공개(나혼산)",
-      "date": "2026-10-24",
-      "region": "",
-      "grade": "B"
-    },
-    {
-      "id": "e70a4cf367616801242dc56d2b6209c62823ccf9",
-      "title": "알래스카 항공과 하와이안 항공, 시애틀발 오사카 및 파페에테 노선 추가",
-      "date": "2026-10-24",
-      "region": "japan",
-      "grade": "B"
-    },
     {
       "id": "c-65a3deb45e4d69853d88b3c1233d0c290180c749",
       "title": "호이안 비수기 한산함 길어진다…다낭 당국 '한 달간의 휴식기'",
@@ -181308,6 +180344,461 @@
       "title": "북한 이탈 예술인, 북녘 보이는 김포 애기봉서 특별한 공연",
       "date": "2026-11-23",
       "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "c-452176ba59ea09631573490e62a10c7e1a669ea3",
+      "title": "대한항공, 12월 1일부터 겨울 외투 무료 보관 '코트룸 서비스' 운영",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "C"
+    },
+    {
+      "id": "c-ef99b3ae455aa49c6fd94447aca421e3ce29a0e7",
+      "title": "제주항공, 내년 1월 8일 인천~센다이 신규 취항…일본 8개 지방 연결",
+      "date": "2026-11-24",
+      "region": "japan",
+      "grade": "C"
+    },
+    {
+      "id": "c-af0086d902aea33e41d8d2976cfe6d256ccd46c8",
+      "title": "제천 '빨간오뎅축제', 사흘에서 39일로 확대…12월 23일 개막",
+      "date": "2026-11-24",
+      "region": "korea",
+      "grade": "C"
+    },
+    {
+      "id": "c-2b12a5cfe8ab4f14991edd518ab3bf1caf0f70fe",
+      "title": "영화 '폭설', 4일 연속 박스오피스 1위…개봉 나흘 만에 30만 돌파",
+      "date": "2026-11-24",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "c-51c642aaa8ec305ab62131d5382738cbaab2d3ad",
+      "title": "서울관광재단, 타이베이 박람회서 겨울 서울 여행상품 공동 마케팅…448명 사전 모객",
+      "date": "2026-11-24",
+      "region": "taiwan",
+      "grade": "C"
+    },
+    {
+      "id": "c-234f62e801ea96ea65b38d39fcddedc6d1424d1e",
+      "title": "MBC '다큐:너머' 첫 작품 '안녕, 피터팬' 1부, 시한부 아빠의 마지막 6개월",
+      "date": "2026-11-24",
+      "region": "",
+      "grade": "C"
+    },
+    {
+      "id": "385050a5979bd2c75b9c24b3988ad59f3312757d",
+      "title": "11월 24일 여행 데이터",
+      "date": "2026-11-24",
+      "region": "guam",
+      "grade": "C"
+    },
+    {
+      "id": "119ad27d2d82716d8031ad5d2c21738d5beb5132",
+      "title": "오늘의 환율 — 1 USD",
+      "date": "2026-11-24",
+      "region": "guam",
+      "grade": "A"
+    },
+    {
+      "id": "f914275b3b451f1f8516a0e86af48e2cca822980",
+      "title": "오늘의 환율 — 1 USD",
+      "date": "2026-11-24",
+      "region": "saipan",
+      "grade": "A"
+    },
+    {
+      "id": "d2afdf2cb4d1f1f2c6d0378a88be0b3b89425980",
+      "title": "오늘의 환율 — 1 USD",
+      "date": "2026-11-24",
+      "region": "hawaii",
+      "grade": "A"
+    },
+    {
+      "id": "c83e649ff815d46682b34667db7bbe016b7494e5",
+      "title": "오늘의 환율 — 100 VND",
+      "date": "2026-11-24",
+      "region": "vietnam",
+      "grade": "A"
+    },
+    {
+      "id": "b505ec5afeda7efc3af65c79f23f8abe520412b5",
+      "title": "오늘의 환율 — 1 MYR",
+      "date": "2026-11-24",
+      "region": "kota",
+      "grade": "A"
+    },
+    {
+      "id": "60f7e09a2ac458163081240bff373041fe5f017f",
+      "title": "오늘의 환율 — 100 LAK",
+      "date": "2026-11-24",
+      "region": "laos",
+      "grade": "A"
+    },
+    {
+      "id": "2cdffc49fdb8172d28821f52da7555127c4ad8e3",
+      "title": "오늘의 환율 — 100 JPY",
+      "date": "2026-11-24",
+      "region": "japan",
+      "grade": "A"
+    },
+    {
+      "id": "961ce3da6a0eccd801ebfe0b2a0e478ddc0ddc9e",
+      "title": "오늘의 환율 — 1 THB",
+      "date": "2026-11-24",
+      "region": "thailand",
+      "grade": "A"
+    },
+    {
+      "id": "5d864f65590233134d96e3cf81fde2ba6e480a23",
+      "title": "오늘의 환율 — 1 TWD",
+      "date": "2026-11-24",
+      "region": "taiwan",
+      "grade": "A"
+    },
+    {
+      "id": "9536da261dba716744906f584bf0433709c70c04",
+      "title": "양산천·황산공원 따라 달린다…제20회 양산전국하프마라톤 내달 6일 개최",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "4b10a50c6e40b7b33d2a762cf3ad73628673ae76",
+      "title": "경동장학재단, 올해 UNIST 학생 10명에 1억 4천만원 장학금 전달…누적 장학생 206명",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "8ddfe6a26c86b54af3cb44ca9083ccd327384b4a",
+      "title": "울산시설공단·옥동119, 종하이노베이션센터서 실제 화재 가정한 종합훈련",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "2187de324c3bf19d24d94db8b573c81627a03c26",
+      "title": "울산대영교회, 북구에 이웃돕기 성금 3천만원 기탁…14년째 성탄 나눔",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "b9ca8c7e0dbaf67d00c2c72f2edecb8b67bcec75",
+      "title": "인천문화재단, 2027년 예술창작지원 공모…인천 거주·소재 요건 강화",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "79de8ab824d115b75e65f356f5bb0a768bf76800",
+      "title": "녹아내리는 빙하를 춤으로…트라이보울, 기후 위기 다룬 발레 ‘멜팅’ 공연",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "7e5f2fbbfba6ed1d3c2049346b879bfc506f864a",
+      "title": "[현장에서] 인천항에서 만난 ‘노르웨지안 제이드’",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "3563080779970f3344585e56334b510c63572c87",
+      "title": "관협중앙회, ‘관광공제회 운영위원회’ 개최",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "8cd41a0a382a4cdc6a4cff7be20429bb92337cbf",
+      "title": "[마이스] 인천, 국제회의·포상관광 유치 최대 1억원 지원",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "1a3df62d1d47752b17c1031a7353a79899b6327e",
+      "title": "제주항공, 내년 1월 8일 센다이 취항",
+      "date": "2026-11-24",
+      "region": "japan",
+      "grade": "B"
+    },
+    {
+      "id": "fd7d08dc8907276af00e23851d61dbbbc1455473",
+      "title": "마리아나, 박보겸과 겨울 골프 여행 선보여",
+      "date": "2026-11-24",
+      "region": "saipan",
+      "grade": "B"
+    },
+    {
+      "id": "ffd2e671368d0e34058062d2eaa3b18388d1ca1b",
+      "title": "인천국제공항공사, 박남춘 사장 취임",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "6f64809e9ebb1a17129285516060e442c50ab9d5",
+      "title": "대한항공, 인천·부산 ‘코트룸 서비스’ 운영",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "2151d7e733ba3be675990865ea7d1b62b1c2df9a",
+      "title": "하나투어, ‘하우스 오브 댄싱 워터’ 프로모션",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "c811d2d0c6bbe10e76ead0031219bf3bc3b5e122",
+      "title": "베트남항공-ANA 공동사업 추진",
+      "date": "2026-11-24",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "cd1f6ea4c46d95e8a8a1f4a41c4b70c79629bafa",
+      "title": "한국관광공사, 주민 주도 지역관광 혁신성과 선보여",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "aaf488cd3f789a1c5dcd1e96c44e9d623e604fc0",
+      "title": "태국 ‘우돈타니 세계원예박람회 2026’ 개최",
+      "date": "2026-11-24",
+      "region": "thailand",
+      "grade": "B"
+    },
+    {
+      "id": "b45522a3508662612260d1302913974c07db321a",
+      "title": "부산관공, ‘모닝 히스토리 런’ 성료",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "22b1724e571d6df6631f48b4ecd5a4e67e286dcf",
+      "title": "에이비스, 해외 렌터카 최대 7만 원 할인",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "23ce51a6a7347ae7a636437b8bb93d111c3f1a93",
+      "title": "트리니티항공, ‘이달의 결제 할인 혜택’ 진행",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "71c6e214506db0e32dfb7a5f0da0415fd335a7c5",
+      "title": "제주 마을 관광, 수도권 공략 나서",
+      "date": "2026-11-24",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "965e60384dedf0e097d1989d02fafa2b991b4d50",
+      "title": "아이도 부모도 누리는 럭셔리",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "0a891c824f783fe9e7d5b74cf8c36b1f080a3e90",
+      "title": "박두형 의장 비롯 의원·직원 20여 명 참여… 저소득층 3가구에 연탄 1,200장 전달",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "4784508efd279bc8ac640887ec6df673bf539489",
+      "title": "박애리·정은혜, 마당놀이 ‘춘풍처도 온다’서 13년 만에 같은 배역 맡는다",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "7d35b75157792a63125c70fb4df01ebf6d853a4c",
+      "title": "1747년 서양 지도에 ‘한국해’ 표기…국립중앙박물관, 고지도 13점 공개",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "9ec21503ef63def54adaa898b266a592994c9f39",
+      "title": "크로아티아 섬, 영국 원더러스트 독자 여행상 '유럽 지역' 1위",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "907cff96df63e786a3cb3b24863eda94a5a48ad9",
+      "title": "베트남항공, 하노이-항저우·다낭-싱가포르 직항 신규 취항…전일본공수와 공동사업 추진 합의",
+      "date": "2026-11-24",
+      "region": "vietnam",
+      "grade": "B"
+    },
+    {
+      "id": "2cdedf3146126db74f9ba5e875d8d3353743d183",
+      "title": "부산시, 맑은 물·신공항 등 10개 사업 국비 확보 나서",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "3924abe1aea82ecc502343aa4b6a65e39b26842d",
+      "title": "재해보험 있으나마나 \"농민들 두 번 울린다\"",
+      "date": "2026-11-24",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "e2526d10f4cfe6fb1d8f64e16743a672ddce2a18",
+      "title": "해양레저관광으로 지역경제 살린다…정부·업계 머리 맞대",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "446dde3e92871d498290becb1f4b2dc5c75966d9",
+      "title": "겨울 문턱에 활짝 핀 유채꽃",
+      "date": "2026-11-24",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "7f5494b1dd471a495b0ad51add44f834721079e8",
+      "title": "새연교 산책",
+      "date": "2026-11-24",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "7ca2231d5ca422731a7538a60e6684a16ae43329",
+      "title": "파크골프 즐기는 어르신들",
+      "date": "2026-11-24",
+      "region": "jeju",
+      "grade": "B"
+    },
+    {
+      "id": "7c7da52a09d3a957364b846eb62b8c3bfcb2ddb4",
+      "title": "소년의 만화책에서 하이퍼카까지…동커볼케 '꿈의 기록' 한자리에",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "66bf3730b56fa4fd33538017015962ed9491e375",
+      "title": "일동제약, 런던서 글로벌 파트너 찾기…위식도역류 신약 후보·먹는 비만약 후보 앞세워",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "54e7b8018f8e85a7b796511656c953f6376c371c",
+      "title": "SK플라즈마·에임드바이오 ADC 항암 후보 'AMB303', 미국서 첫 인체시험 노린다",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "8896458c7da2c4c90a14141a6cf52e358e43af34",
+      "title": "GS건설,데이터센터 가동 시점 앞당긴다…전력·통신·제어 기업과 '4사 원팀'",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "792d0f0317e4f46b2ead6d6ffdddca2ab18fcf0f",
+      "title": "게임 밖으로 나온 리니지…엔씨, 25일 킨텍스서 14개 브랜드와 협업 축제",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "da45a5d836f4363cf138bdcdf6903e65d1cd1aa3",
+      "title": "인쇄골목에 새 옷 입힌 IBK… 광주 서남동 인쇄거리, '희망디자인'으로 재탄생",
+      "date": "2026-11-24",
+      "region": "industry",
+      "grade": "B"
+    },
+    {
+      "id": "4338c63b516320a6950fefa01714047bfbf49148",
+      "title": "“천년고찰 걷고, 운해 보고”…합천에서 즐기는 늦가을 여행",
+      "date": "2026-11-24",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "7a7ad95b7765bbc0da67c350da05dbfc2b4dbf17",
+      "title": "정한설, '나의 유죄인간' 종영 앞두고 남긴 진심…\"정다운과 함께한 시간 영광\"",
+      "date": "2026-11-24",
+      "region": "",
+      "grade": "B"
+    },
+    {
+      "id": "478fb4e528f7770ad6010b4e7d2aa53febe6031e",
+      "title": "“구절초 꽃축제 끝나도 여행은 계속!”…정읍, 국악·미술·선비 풍류로 늦가을 물든다",
+      "date": "2026-11-24",
+      "region": "korea",
+      "grade": "B"
+    },
+    {
+      "id": "b8a3d4bac19aa1766513b275ad00f19394b8c9a9",
+      "title": "Viareggio’s Hotel Plaza e de Russie Has One of Its Best Seasons During the Time of Year Most Travelers Skip",
+      "date": "2026-11-24",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "b0ff1d72f1cdf2a05dc0fa6d6853e54daf190fed",
+      "title": "Cyber Monday isn’t just for gadgets anymore. Shoppers stock their pantries too",
+      "date": "2026-11-24",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "3f8bf31fc42fbddd86a5b1a336823730dd59541a",
+      "title": "First Alert Forecast: Best weather on the planet expected to persist through Wednesday",
+      "date": "2026-11-24",
+      "region": "hawaii",
+      "grade": "B"
+    },
+    {
+      "id": "13cae270eb6e0884122b2db0a47690ece9126efb",
+      "title": "Holiday treat yourself? 4 in 10 buying a gift for themselves",
+      "date": "2026-11-24",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "ac339bcc49b237e786f59d427e8b3ba8110e483f",
+      "title": "17 holiday sides you can prep in stages across this short workweek",
+      "date": "2026-11-24",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "859065aea583456a31310ec330c4d4b55e8e96e8",
+      "title": "Black Friday declared GovGuam holiday",
+      "date": "2026-11-24",
+      "region": "guam",
+      "grade": "B"
+    },
+    {
+      "id": "b5f5eaaa66394a13935f64d9c5bf37b5bb2ef700",
+      "title": "H-1B visa workers are fed up - and are abandoning American tech jobs",
+      "date": "2026-11-24",
+      "region": "guam",
       "grade": "B"
     }
   ]

@@ -4,14 +4,17 @@ channel: travel
 region: industry
 section: news
 kind: 보도자료
-title: "대한항공, 12월 1일부터 겨울 외투 무료 보관 '코트룸 서비스' 운영"
+title: 대한항공, 12월 1일부터 겨울 외투 무료 보관 '코트룸 서비스' 운영
 source_name: ''
 source_url: ''
-summary: 대한항공이 12월 1일부터 내년 2월 28일까지 '코트룸 서비스'를 운영한다. 인천공항과 김해공항 국제선 출국 승객이 대상이다. 외투를 최대 5일까지 무료로 맡길 수 있다.
+summary: 대한항공이 12월 1일부터 내년 2월 28일까지 '코트룸 서비스'를 운영한다. 인천공항과 김해공항 국제선 출국 승객이 대상이다. 외투를
+  최대 5일까지 무료로 맡길 수 있다.
 sources:
-  - http://www.ttlnews.com/news/articleView.html?idxno=3165018
-  - https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Nb05MLWZUdUtyNXlVaWVZRjYwWURUaFRxY2h6clpGRTYtNXhfY1BsTmllcnAxYUV4UUJPZnRiejhDWmlQOUdzTFcxbGdld0xhWW55bGpzYVAxeVXSAWBBVV95cUxPYVkzdFpzTWhKenY0YnBmX0ZfY0lLV2xoYkI4SnY1SnpZMWlYNmtybUJlcXBZR2Yyb2w4WlpDT2lmUG0yVWVFOHhyRi0yYk9DeEY0Vm9uaHcwcEg4MU5Ea1Q?oc=5
-status: approved
+- http://www.ttlnews.com/news/articleView.html?idxno=3165018
+- https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Nb05MLWZUdUtyNXlVaWVZRjYwWURUaFRxY2h6clpGRTYtNXhfY1BsTmllcnAxYUV4UUJPZnRiejhDWmlQOUdzTFcxbGdld0xhWW55bGpzYVAxeVXSAWBBVV95cUxPYVkzdFpzTWhKenY0YnBmX0ZfY0lLV2xoYkI4SnY1SnpZMWlYNmtybUJlcXBZR2Yyb2w4WlpDT2lmUG0yVWVFOHhyRi0yYk9DeEY0Vm9uaHcwcEg4MU5Ea1Q?oc=5
+status: published
+published_id: c-452176ba59ea09631573490e62a10c7e1a669ea3
+published_on: '2026-11-24'
 ---
 대한항공이 겨울 휴양지나 남반구로 떠나는 승객의 두꺼운 외투를 공항에서 맡아 준다. 올겨울에도 '코트룸 서비스'를 열고 출국 승객의 짐 부담을 덜어 준다.
 

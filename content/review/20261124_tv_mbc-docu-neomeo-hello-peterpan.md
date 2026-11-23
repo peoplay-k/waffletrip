@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "MBC '다큐:너머' 첫 작품 '안녕, 피터팬' 1부, 시한부 아빠의 마지막 6개월"
+title: MBC '다큐:너머' 첫 작품 '안녕, 피터팬' 1부, 시한부 아빠의 마지막 6개월
 source_name: ''
 source_url: ''
-summary: MBC '다큐:너머'가 24일 밤 9시 2부작 '안녕, 피터팬' 1부를 방송한다. 말기 간암 선고를 받고 중증 자폐성 장애 아들의 보금자리를 찾던 故 전경철 씨의 마지막 6개월을 담았다. 새 다큐 시리즈의 첫 작품이다.
+summary: MBC '다큐:너머'가 24일 밤 9시 2부작 '안녕, 피터팬' 1부를 방송한다. 말기 간암 선고를 받고 중증 자폐성 장애 아들의
+  보금자리를 찾던 故 전경철 씨의 마지막 6개월을 담았다. 새 다큐 시리즈의 첫 작품이다.
 sources:
-  - https://with.mbc.co.kr/pr/press/view.html?idx=36989
-status: approved
+- https://with.mbc.co.kr/pr/press/view.html?idx=36989
+status: published
+published_id: c-234f62e801ea96ea65b38d39fcddedc6d1424d1e
+published_on: '2026-11-24'
 ---
 > **방송 정보**
 > 채널 · MBC | 프로그램 · 다큐:너머 | 편성 · '안녕, 피터팬' 1부(2부작)

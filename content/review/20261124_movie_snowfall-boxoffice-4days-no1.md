@@ -5,15 +5,18 @@ category: movie
 region: ''
 section: news
 kind: 해설
-title: "영화 '폭설', 4일 연속 박스오피스 1위…개봉 나흘 만에 30만 돌파"
+title: 영화 '폭설', 4일 연속 박스오피스 1위…개봉 나흘 만에 30만 돌파
 source_name: ''
 source_url: ''
-summary: 김윤석·구교환 주연 '폭설'이 4일 연속 박스오피스 1위를 지켰다. 토요일 관객이 전날보다 90.4% 늘며 개봉 4일 차에 30만 명을 넘었다. '극장판 치이카와'는 누적 300만 명을 달성했다.
+summary: 김윤석·구교환 주연 '폭설'이 4일 연속 박스오피스 1위를 지켰다. 토요일 관객이 전날보다 90.4% 늘며 개봉 4일 차에 30만
+  명을 넘었다. '극장판 치이카와'는 누적 300만 명을 달성했다.
 sources:
-  - https://www.econovill.com/news/articleView.html?idxno=758070
-  - https://www.specialtimes.co.kr/news/articleView.html?idxno=488530
-  - https://www.joynews24.com/view/2028771
-status: approved
+- https://www.econovill.com/news/articleView.html?idxno=758070
+- https://www.specialtimes.co.kr/news/articleView.html?idxno=488530
+- https://www.joynews24.com/view/2028771
+status: published
+published_id: c-2b12a5cfe8ab4f14991edd518ab3bf1caf0f70fe
+published_on: '2026-11-24'
 ---
 김윤석·구교환 주연의 '폭설'이 개봉 첫 주말에도 박스오피스 정상을 지켰다. 개봉 나흘 만에 누적 관객 30만 명을 넘겼다.
 

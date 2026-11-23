@@ -4,16 +4,19 @@ channel: travel
 region: korea
 section: news
 kind: 해설
-title: "제천 '빨간오뎅축제', 사흘에서 39일로 확대…12월 23일 개막"
+title: 제천 '빨간오뎅축제', 사흘에서 39일로 확대…12월 23일 개막
 source_name: ''
 source_url: ''
-summary: 제천시가 '제3회 제천빨간오뎅축제'를 12월 23일부터 내년 1월 30일까지 연다. 사흘 일정을 39일로 늘리고 장소도 제천예술의전당 주차장으로 옮긴다. 겨울왕국 페스티벌, 얼음썰매장과 함께 운영한다.
+summary: 제천시가 '제3회 제천빨간오뎅축제'를 12월 23일부터 내년 1월 30일까지 연다. 사흘 일정을 39일로 늘리고 장소도 제천예술의전당
+  주차장으로 옮긴다. 겨울왕국 페스티벌, 얼음썰매장과 함께 운영한다.
 sources:
-  - https://www.newsis.com/view/NISX20261123_0003878749
-  - https://www.bzeronews.com/news/articleView.html?idxno=825679
-  - https://www.chungnamilbo.co.kr/news/articleView.html?idxno=922221
-  - https://www.dynews.co.kr/news/articleView.html?idxno=875118
-status: approved
+- https://www.newsis.com/view/NISX20261123_0003878749
+- https://www.bzeronews.com/news/articleView.html?idxno=825679
+- https://www.chungnamilbo.co.kr/news/articleView.html?idxno=922221
+- https://www.dynews.co.kr/news/articleView.html?idxno=875118
+status: published
+published_id: c-af0086d902aea33e41d8d2976cfe6d256ccd46c8
+published_on: '2026-11-24'
 ---
 충북 제천시가 '제3회 제천빨간오뎅축제'를 겨울 내내 이어지는 장기 축제로 키운다. 사흘이던 행사 기간이 39일로 늘고, 겨울왕국 페스티벌·얼음썰매장과 한데 묶여 운영된다.
 

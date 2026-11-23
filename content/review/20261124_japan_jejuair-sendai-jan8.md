@@ -4,17 +4,20 @@ channel: travel
 region: japan
 section: flight
 kind: 보도자료
-title: "제주항공, 내년 1월 8일 인천~센다이 신규 취항…일본 8개 지방 연결"
+title: 제주항공, 내년 1월 8일 인천~센다이 신규 취항…일본 8개 지방 연결
 source_name: ''
 source_url: ''
-summary: 제주항공이 내년 1월 8일 인천~센다이 노선에 취항한다. 주 3회, 수·금·일요일에 띄운다. 홋카이도부터 오키나와까지 일본 8개 지방이 이어진다.
+summary: 제주항공이 내년 1월 8일 인천~센다이 노선에 취항한다. 주 3회, 수·금·일요일에 띄운다. 홋카이도부터 오키나와까지 일본 8개 지방이
+  이어진다.
 sources:
-  - https://www.yna.co.kr/view/AKR20261123061900003
-  - https://news.tf.co.kr/read/economy/2392082.htm
-  - https://www.asiae.co.kr/article/2026112310423828263
-  - https://www.fnnews.com/news/202611231120253791
-  - https://news.jkn.co.kr/post/1115582
-status: approved
+- https://www.yna.co.kr/view/AKR20261123061900003
+- https://news.tf.co.kr/read/economy/2392082.htm
+- https://www.asiae.co.kr/article/2026112310423828263
+- https://www.fnnews.com/news/202611231120253791
+- https://news.jkn.co.kr/post/1115582
+status: published
+published_id: c-ef99b3ae455aa49c6fd94447aca421e3ce29a0e7
+published_on: '2026-11-24'
 ---
 제주항공이 내년 1월 일본 도호쿠 지방의 중심 도시 센다이에 신규 취항한다. 이 노선이 열리면 홋카이도부터 오키나와까지 일본 8개 지방이 제주항공 노선망으로 이어진다.
 
