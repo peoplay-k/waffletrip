@@ -5,13 +5,15 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '세계테마기행' 가을엔 타이완, 맛있는 발견…23~26일 나흘간"
+title: EBS '세계테마기행' 가을엔 타이완, 맛있는 발견…23~26일 나흘간
 source_name: ''
 source_url: ''
-summary: "EBS1 '세계테마기행'이 23일부터 26일까지 저녁 8시 40분 타이완의 가을 제철 맛을 찾아간다. 중어중문학과 이규일 교수가 큐레이터로 나선다. 1부는 청궁어항과 가오슝 진흙 화산, 신푸 곶감 마을을 간다."
+summary: EBS1 '세계테마기행'이 23일부터 26일까지 저녁 8시 40분 타이완의 가을 제철 맛을 찾아간다. 중어중문학과 이규일 교수가 큐레이터로
+  나선다. 1부는 청궁어항과 가오슝 진흙 화산, 신푸 곶감 마을을 간다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005661584
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005661584
+status: duplicate
+duplicate_of: 20261122_tv_ebs-world-theme-travel-taiwan-autumn.md
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 세계테마기행 | 기획 · 가을엔 타이완, 맛있는 발견

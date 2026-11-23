@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "MBC '옆자리, 프란체스카' 오늘 밤 첫 방송…'안녕, 프란체스카' 세계관 하이틴 로맨스로"
+title: MBC '옆자리, 프란체스카' 오늘 밤 첫 방송…'안녕, 프란체스카' 세계관 하이틴 로맨스로
 source_name: ''
 source_url: ''
-summary: "MBC 2부작 '옆자리, 프란체스카' 1부가 23일 밤 10시 50분 방송된다. 2005년 시트콤 '안녕, 프란체스카'의 세계관을 고등학교로 옮긴 스핀오프다. 심혜진·박슬기·박희진이 원작 주역으로 특별출연한다."
+summary: MBC 2부작 '옆자리, 프란체스카' 1부가 23일 밤 10시 50분 방송된다. 2005년 시트콤 '안녕, 프란체스카'의 세계관을
+  고등학교로 옮긴 스핀오프다. 심혜진·박슬기·박희진이 원작 주역으로 특별출연한다.
 sources:
-  - https://with.mbc.co.kr/pr/press/view.html?idx=36988
-status: approved
+- https://with.mbc.co.kr/pr/press/view.html?idx=36988
+status: published
+published_id: c-d3976fcab1d49439b90d84d92e1aaa7006db010f
+published_on: '2026-11-23'
 ---
 > **방송 정보**
 > 채널 · MBC | 프로그램 · 옆자리, 프란체스카 | 2부작

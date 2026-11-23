@@ -5,17 +5,20 @@ category: music
 region: ''
 section: news
 kind: 해설
-title: "에이티즈, 빌보드 200 통산 네 번째 1위…'골든 아워 : 파트 6'"
+title: '에이티즈, 빌보드 200 통산 네 번째 1위…''골든 아워 : 파트 6'''
 source_name: ''
 source_url: ''
-summary: "에이티즈가 미니 15집 '골든 아워 : 파트 6'로 빌보드 200 1위에 올랐다. 통산 네 번째 정상이고 2020년대 그룹 가운데 톱10 최다 기록이다. 발매 첫 주 음반 판매량은 205만 장을 넘겼다."
+summary: '에이티즈가 미니 15집 ''골든 아워 : 파트 6''로 빌보드 200 1위에 올랐다. 통산 네 번째 정상이고 2020년대 그룹 가운데
+  톱10 최다 기록이다. 발매 첫 주 음반 판매량은 205만 장을 넘겼다.'
 sources:
-  - https://www.mhns.co.kr/news/articleView.html?idxno=770233
-  - https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719571
-  - https://www.starnewskorea.com/music/2026/11/23/2026112307090212150
-  - https://enews.imbc.com/News/RetrieveNewsInfo/525448
-  - https://www.yna.co.kr/view/AKR20261120043500005
-status: approved
+- https://www.mhns.co.kr/news/articleView.html?idxno=770233
+- https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719571
+- https://www.starnewskorea.com/music/2026/11/23/2026112307090212150
+- https://enews.imbc.com/News/RetrieveNewsInfo/525448
+- https://www.yna.co.kr/view/AKR20261120043500005
+status: published
+published_id: c-e124dab1ad97f64f98867b4fa10eeb5d922ff77e
+published_on: '2026-11-23'
 ---
 그룹 에이티즈가 미국 빌보드 메인 앨범 차트 '빌보드 200'에서 통산 네 번째 1위를 차지했다.
 미니 15집 '골든 아워 : 파트 6'(GOLDEN HOUR : Part.6)가 이번 성적을 냈다.

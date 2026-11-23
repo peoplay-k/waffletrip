@@ -5,17 +5,19 @@ category: music
 region: ''
 section: news
 kind: 해설
-title: "아일릿, 일본 레코드 대상 우수작품상 3년 연속…코르티스는 특별국제음악상"
+title: 아일릿, 일본 레코드 대상 우수작품상 3년 연속…코르티스는 특별국제음악상
 source_name: ''
 source_url: ''
-summary: "제68회 '일본 레코드 대상' 수상자 명단이 21일 발표됐다. 아일릿이 '잇츠 미'로 우수작품상을 받아 2024년 신인상부터 3년 연속 수상했다. 코르티스는 특별국제음악상을 받았고, 시상식은 다음 달 30일 열린다."
+summary: 제68회 '일본 레코드 대상' 수상자 명단이 21일 발표됐다. 아일릿이 '잇츠 미'로 우수작품상을 받아 2024년 신인상부터 3년
+  연속 수상했다. 코르티스는 특별국제음악상을 받았고, 시상식은 다음 달 30일 열린다.
 sources:
-  - https://www.yna.co.kr/view/AKR20261121027900005
-  - https://www.ytn.co.kr/_ln/0106_202611211519238149
-  - https://enews.imbc.com/News/RetrieveNewsInfo/525565
-  - https://www.munhwa.com/article/11633111
-  - https://www.yonhapnewstv.co.kr/news/MYH20261121145021Wrs
-status: approved
+- https://www.yna.co.kr/view/AKR20261121027900005
+- https://www.ytn.co.kr/_ln/0106_202611211519238149
+- https://enews.imbc.com/News/RetrieveNewsInfo/525565
+- https://www.munhwa.com/article/11633111
+- https://www.yonhapnewstv.co.kr/news/MYH20261121145021Wrs
+status: duplicate
+duplicate_of: 20261122_music_illit-cortis-japan-record-awards.md
 ---
 K팝 그룹 아일릿과 코르티스가 '제68회 일본 레코드 대상'에서 상을 받는다.
 수상자 명단은 21일 발표됐고, 시상식은 다음 달 30일 열린다.
