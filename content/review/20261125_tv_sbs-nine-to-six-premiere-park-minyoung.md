@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '나인 투 식스' 첫 방송, 박민영 \"육성재는 애드리브, 나는 리액션\""
+title: SBS '나인 투 식스' 첫 방송, 박민영 "육성재는 애드리브, 나는 리액션"
 source_name: ''
 source_url: ''
-summary: SBS 새 수목드라마 '나인 투 식스'가 25일 오후 9시 첫 방송된다. 박민영이 법무팀 차장 강이지를 맡아 육성재·고수와 호흡한다. 박민영은 서면 인터뷰에서 세 사람의 균형을 자랑했다.
+summary: SBS 새 수목드라마 '나인 투 식스'가 25일 오후 9시 첫 방송된다. 박민영이 법무팀 차장 강이지를 맡아 육성재·고수와 호흡한다.
+  박민영은 서면 인터뷰에서 세 사람의 균형을 자랑했다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65174?cmd=view&board_no=343129
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65174?cmd=view&board_no=343129
+status: published
+published_id: c-fc62d6a666589615861d5c2873815e2469a55deb
+published_on: '2026-11-25'
 ---
-
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 나인 투 식스 | 회차 · 1회(첫 방송)
 > 방송 · 2026년 11월 25일(수) 오후 9시

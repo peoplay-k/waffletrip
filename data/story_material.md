@@ -3,6 +3,13 @@
 여러 매체가 같은 건을 쓴 것부터 놓았다. **문장을 옮기지 말고**
 사실만 가져다 우리 문장으로 쓴다. 인용한 매체는 본문에 밝힌다.
 
+## 괌
+
+### 호시노 리조트 리조나레 괌, 차모로 전통문화 담은 비치클럽과 올데이 다이닝 선보여
+- 매체 1곳 · 코리아스프린트
+  - 코리아스프린트: (서울=코리아스프린트) 괌의 전통문화와 지역 고유의 매력을 경험할 수 있는 비치 리조트 ‘호시노 리조트 리조나레 괌’이 지난 11월 1일 괌 최초의 본격적인 ‘비
+    https://www.koreasprint.com/news/articleView.html?idxno=23285
+
 ## 사이판
 
 ### 마리아나, 박보겸과 겨울 골프 여행 선보여
@@ -116,10 +123,10 @@
   - 트래블데일리: 1955년 미국 빈티지 감성을 담은 호텔 ‘1955 도쿄 베이 by 호시노 리조트’는 11월 10일부터 12월 25일까지 콜라를 테마로 한 겨울 시즌 한정 크리스마스 이벤트 ‘OLDIES COLA HOLIDAY 1955’를 진행하고 테마파크 여행과 홀리데이 무드를 동시에 만끽할 수 있는
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72794
 
-### '공룡 LCC' 진에어의 승부수..동남아서 부산 거쳐 일본으로 - 머니투데이
-- 매체 1곳 · 머니투데이
-  - 머니투데이: 서울과 부산을 양대 거점으로 삼아 노선망과 정비·훈련 인프라를 재편하고 통합 원년부터 연간 최소 260억원의 합병 시너지를 창출한다는 목표다. 우선 진에어는 부산발 취항지를 현재 29곳에서 통합 이후 35곳으로 약 21% 확대한다.
-    https://www.mt.co.kr/index.php/industry/2026/11/24/2026112413585150908
+### 일본 막부의 시작과 끝을 알린 이 해협, 한강보다 좁은 바다에 시대가 출렁였다 [요즘 여행]
+- 매체 1곳 · 한국일보
+  - 한국일보: ① 간몬해협은 혼슈 시모노세키와 규슈 모지코 사이를 잇는 폭 700m의 좁은 해협이었습니다. ② 이 해협에서는 1185년 단노우라 전투로 막부 정치가 시작됐고 이후 시모노세키 전쟁을 거치며 막부 몰락의 흐름도 이어졌습니다.
+    https://www.hankookilbo.com/news/article/A2026112407530005568
 
 ## 태국
 
@@ -138,15 +145,15 @@
   - vietnam.vn: 11월 24일 오후, 달랏시 쑤언후엉동에서 람동성 인민위원회는 람동 관광 진흥 및 람동-방콕(태국) 항공 노선 개발 연계를 위한 회의를 개최했습니다.
     https://www.vietnam.vn/ko/ket-noi-duong-bay-thai-lan-lam-dong-day-manh-xuc-tien-du-lich-dau-tu
 
+### 람동: 방콕(태국)행 항공편은 2026년 12월에 개통될 예정입니다.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: 람동성은 태국 시장에 관광 상품을 홍보하는 데 박차를 가하고 있으며, 국제 관광객 유치와 12월 19일부터 운항 예정인 달랏-방콕 직항 노선 재개를 목표로 하고 있습니다.
+    https://www.vietnam.vn/ko/lam-dong-du-kien-thang-12-2026-ket-noi-duong-bay-den-bangkok-thai-lan
+
 ### 람동성은 관광을 장려하고 방콕 직항편 재개를 위해 노력하고 있습니다.
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 2026년 11월 24일부터 27일까지 람동성은 리엔쿠옹-방콕 국제선 항공편 노선 복원을 촉진하기 위한 현장 조사 및 무역 네트워킹 회의를 위해 태국 팸트립 대표단을 맞이할 예정입니다.
     https://www.vietnam.vn/ko/lam-dong-xuc-tien-du-lich-thuc-day-mo-lai-duong-bay-thang-toi-bangkok
-
-### 베트남과 태국은 관광객 안전 확보를 위해 협력을 강화합니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 11월 19일, 태국 콘깬에서 딘 호앙 린 베트남 총영사는 통시암 미칸통 태국 관광경찰국장과 그의 대표단을 맞이하여 총영사관 구내에 마련된 호찌민 주석 제단에 향을 피우도록 했습니다.
-    https://www.vietnam.vn/ko/viet-nam-va-thai-lan-tang-cuong-phoi-hop-bao-dam-an-toan-cho-du-khach
 
 ## 대만
 
@@ -247,6 +254,15 @@
   - 로이슈: 모두투어가 남반구 여름 시즌을 앞두고 호주 퀸즐랜드주의 브리즈번과 골드코스트를 중심으로 여행 상품을 확대했다. 도시 관광과 해변 휴양에 현지 문화·액티비티 체험을 결합한 일정이 특징이다.
     https://www.lawissue.co.kr/view.php?ud=202611241839039059204ead0791_12
 
+### 진에어, 2006~2008년생 대상 항공권 할인 쿠폰팩 제공
+- 매체 3곳 · (주) 서울경제티브이 · BBS 불교방송 · 제민일보  ← 여러 곳이 썼다
+  - BBS 불교방송: 
+    https://news.google.com/rss/articles/CBMia0FVX3lxTE04SGQ5S2kwc0Y1eVFQNVEwdmNGQmNnempqX1d2NXBBdXh1V2RmNE9xb2hwV2VsM19OdVNObnVhdlZHYXd5NGhQUEZKUHFJVE1WcF9nQU1Ydm9lVWVWMVpZUnk5eUZGY3BINXNn?oc=5
+  - 제민일보: 진에어가 2027학년도 대학수학능력시험을 마친 수험생과 청년들을 대상으로 항공권 할인과 부가서비스 혜택을 제공한다. 진에어는 다음달 31일까지 2006~2008년생 신규 가입 회원을 대상으로 ‘스페셜 쿠폰팩’을 증정한다고 24일 밝혔다.
+    https://www.jemin.com/news/articleView.html?idxno=848329
+  - (주) 서울경제티브이: 진에어가 2006~2008년생 신규 회원을 대상으로 국내선 최대 1만 원, 국제선 최대 3만 원의 항공권 할인 혜택을 제공한다. 대학수학능력시험 응시 여부와
+    https://www.sentv.co.kr/article/view/sentv202611240128
+
 ### 마이리얼트립 자회사 AICX, 최은경 COO 영입…고객경험 사업 확대
 - 매체 3곳 · TTL뉴스 · 머니투데이 · 서울경제  ← 여러 곳이 썼다
   - TTL뉴스: 마이리얼트립의 고객경험 전문 자회사 에이아이씨엑스(AICX)가 최은경 최고운영책임자(COO)를 영입했다. 최 COO는 고객경험 컨설팅과 업무위탁운영을 총괄하며, AICX는 AI 컨택센터 솔루션을 넘어 기업 고객경험 서비스 확대에 나선다.
@@ -265,6 +281,13 @@
   - 헤럴드경제: [헤럴드경제=김명상 기자] 143개 기업·기관이 참여한 역대 최대 규모의 관광기념품 박람회가 20일 서울 동대문디자인플라자(DDP)에서 개막했다. 우수 기념품의 유통 판로
     https://biz.heraldcorp.com/article/10944404
 
+### 부산관공, ‘올해의 SNS’ 수상
+- 매체 2곳 · 투어코리아 · 트래블데일리  ← 여러 곳이 썼다
+  - 트래블데일리: 부산관광공사는 지난 23일 열린 ‘제12회 2026 올해의 SNS’ 시상식에서 ‘올해의 인스타그램’ 공공기업(공사) 부문 최우수상과 ‘올해의 유튜브’ 최우수상을 수상했다. ‘올해의 SNS’는 기업과 공공기관 등의 SNS 활용 현황과 소통 역량을 종합적으로 평가해 매체별 우수기관을 선정하
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72791
+  - 투어코리아: [투어코리아=김교환 기자] 울산 북구가 '제12회 2026 올해의 SNS' 기초지자체 자치구 부문에서 인스타그램 대상을 받았다. 이로써 북구는 4년 연속 수상 기록을 세웠다.
+    https://www.tournews21.com/news/articleView.html?idxno=149233
+
 ### 에어프레미아, 3분기 누적 시간준수율 88.9%…11개 항공사 최상위권
 - 매체 2곳 · 트래블데일리 · 헤럴드경제  ← 여러 곳이 썼다
   - 헤럴드경제: 
@@ -272,33 +295,19 @@
   - 트래블데일리: 에어프레미아가 올해 3분기까지 국적 항공사 평균을 웃도는 시간준수율을 기록하며 안정적인 운항 성과를 이어가고 있다. 월간항공소비자 리포트에 따르면 에어프레미아의 2026년 1~3분기 누적 시간준수율은 88.9%로 집계됐다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72800
 
+### 통합 앞둔 진에어 "LCC 최초 듀얼 허브 운영…부산 전격 활용" [TF현장]
+- 매체 2곳 · 더팩트 · 머니투데이  ← 여러 곳이 썼다
+  - 더팩트: 항공기 60대 보유 LCC…노선·일정 다양화 계획 韓, 인천 외 허브 없어…부산 활용 외국인 유치 통합 저비용항공사(LCC) 출범을 앞둔 진에어가 듀얼 허브 운영 계획을 재확인했…
+    https://news.tf.co.kr/read/economy/2392843.htm
+  - 머니투데이: 에어부산과 에어서울을 품는 진에어가 부산을 동남아시아와 일본을 잇는 국제선 환승허브로 키운다. 에어부산이 보유한 운수권과 신규 노선을 활용해 부산을 경유하는 국제선 환승수요도 확보할 방침이다.
+    https://www.mt.co.kr/index.php/industry/2026/11/25/2026112419411058506
+
 ### “동남권투자공사 1조·신공항 2000억 증액” 전재수, 국비 확보 총력
 - 매체 2곳 · 문화뉴스 · 서울경제  ← 여러 곳이 썼다
   - 서울경제: 전재수 부산시장이 해양수도 조성과 시민 생활 개선을 위한 내년도 국비 확보에 나섰다. 동남권투자공사 출자와 가덕도신공항 건설비 증액을 비롯해 전력반도체·피지컬 인공지능(AI) 등 산업 기반, 안전한 취수원과 해양관광 사업까지 10개 핵심 사업의 지원을 국회와 정부에 요
     https://www.sedaily.com/article/20117885
   - 문화뉴스: [더쎈뉴스 / The CEN News] 전재수 부산시장이 내년도 국비 확보를 위해 국회와 정부를 찾아 가덕도신공항 건설 예산 2000억 원 증액과 동남권투자공사 출자금 1조 원 신규 반영을 요청했다.
     https://www.mhns.co.kr/news/articleView.html?idxno=770532
-
-### 인천 스마트관광 앱 ‘인천e지’, 역대 최대 성과… 누적 다운로드 40만 돌파
-- 매체 2곳 · 투어코리아 · 헤럴드경제  ← 여러 곳이 썼다
-  - 헤럴드경제: 
-    https://biz.heraldcorp.com/article/10947596
-  - 투어코리아: [투어코리아=박태성 기자] 인천의 관광명소를 방문하고 지역 상점에서 할인 혜택을 받는 스마트관광 서비스가 이용자와 가맹점을 동시에 늘리며 역대 최대 실적을 기록했다. 인천관광공사는 인천시 공식 스마트관광 플랫폼 ‘인천e지’의 누적 다운로드가 지난 10월 31일 기준 40만여 건을 기록했
-    https://www.tournews21.com/news/articleView.html?idxno=149192
-
-### 서울신라호텔, 파리서 한식 선보여…레스토랑 4곳 '라 리스트' 5년 연속 선정
-- 매체 2곳 · 한국면세뉴스 · 헤럴드경제  ← 여러 곳이 썼다
-  - 한국면세뉴스: 서울신라호텔이 프랑스 파리에서 열린 한불수교 140주년 기념 행사에서 한국 전통 음식을 선보였다. 세계적인 미식 가이드 '라 리스트 2027'에서는 호텔 내 레스토랑 4곳이 5년 연속 글로벌 1000대 레스토랑에 이름을 올렸다.
-    http://www.kdfnews.com/news/articleView.html?idxno=191345
-  - 헤럴드경제: 
-    https://biz.heraldcorp.com/article/10947091
-
-### 에어프랑스-KLM 플라잉 블루, 인천 출발 파리·암스테르담 항공권에 1만 마일 증정
-- 매체 2곳 · TTL뉴스 · 연합뉴스  ← 여러 곳이 썼다
-  - TTL뉴스: 에어프랑스-KLM 그룹의 로열티 프로그램 플라잉 블루가 인천 출발 파리·암스테르담 노선 항공권을 구매하는 회원에게 기본 적립 마일 외에 보너스 마일을 제공한다. 기존 회원과 프로모션 기간 중 새로 가입한 회원 모두 대상이다.
-    http://www.ttlnews.com/news/articleView.html?idxno=3165685
-  - 연합뉴스: (서울=연합뉴스) 성연재 기자 = 에어프랑스-KLM 그룹은 내년 상반기 유럽 여행객을 대상으로 로열티 프로그램인 '플라잉 블루'(Flying B...
-    https://www.yna.co.kr/view/AKR20261124049800805
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 40건)
 
@@ -483,6 +492,11 @@
   - 이트레블뉴스: [이트레블뉴스=양상국 기자] 국가유산청 국립해양유산연구소 태안수중유산박물관은 한국 수중발굴 50주년을 기념해 오는 11월 25일부터 2027년 5월 2일까
     https://www.momonews.com/82089
 
+### [stage] 국립대구박물관, 특별전 ‘달구벌’ 개막…1,600년 전 대구의 일상을 만나다
+- 매체 1곳 · STN NEWS
+  - STN NEWS: [STN뉴스] 도현석 기자┃국립대구박물관이 고대 대구의 역사와 문화를 살펴보는 특별전 ‘달구벌達句伐: 이어진 터전, 펼쳐진 세계’를 11월 24일부터 2027년
+    https://www.stnsports.co.kr/news/articleView.html?idxno=325962
+
 ### [stage] 거제문화예술회관, 크리스마스 특별 무대 발레 ‘호두까기 인형’ 공연
 - 매체 1곳 · 거제신문
   - 거제신문: 연말 크리스마스 시즌을 맞아 온 가족이 함께 겨울 동화의 낭만을 만끽할 수 있는 정통 클래식 발레 무대가 거제를 찾는다. 거제시문화예술재단(이사장 변광용)은 오는 12월24일 오후 7시30분과 25일 오후 2시 거제문화예술회관 대극장에서 전남광주통합특별시립발레단 초청 공연 ‘호두까기 인
@@ -508,13 +522,8 @@
   - 중앙매일: 청주시립대청호미술관은 2026년 전시 지원 공모 선정전‘공동:선’을 오는 26일부터 2027년 2월 14일까지 개최할 예정이라고 24일 밝혔다. 전시는 지난해 전시 지원 공모 심사를 통해 선발된 김소산, 김현준, 김수정×문창환 세 팀의 작가가 참여해 대청호의 장소적 특성과 동시대 환경 
     http://www.jamill.kr/news/articleView.html?idxno=495102
 
-### [stage] 국립대구박물관, 내년 3월 7일까지 300여점 전시품 특별전 ‘달구벌·이어진 터전, 펼쳐진 세계’ 개최
-- 매체 1곳 · 대경일보
-  - 대경일보: 국립대구박물관이 24일부터 내년 3월 7일까지 특별전 ‘달구벌(達句伐)·이어진 터전, 펼쳐진 세계’를 연다. 이번 특별전은 거대 무덤과 화려한 위세품 중심으로 조명해 온 대구 고대문화를 일상의 삶에서 출발해 생산과 권력, 죽음으로 이어지는 이야기로 풀어낸다.
-    https://www.dkilbo.com/news/articleView.html?idxno=561884
-
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 29개 확인, 사진 줄 3개)
+(자유 이용 사진: 이름 후보 29개 확인, 사진 줄 2개)
 
 ### 🔥 화제(매체 54곳) [startrip] 그룹 에이티즈, 미 ‘빌보드 200’ 1위…통산 네 번째 기록
 - 매체 2곳 · 경향신문 · 뉴스핌  ← 여러 곳이 썼다
@@ -567,7 +576,6 @@
 
 ### 🔥 화제(매체 4곳) [movie] 윤경호·김혜윤 '고딩형사', 2027년 1월 개봉
 - 매체 1곳 · 뉴스핌
-- 사진(자유 이용, 윤경호): `![윤경호 · 사진 K-POPit 티비텐 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/a/a0/Yoon_Kyung-ho_20260625.png)`
   - 뉴스핌: [서울=뉴스핌] 정태이 기자 = 윤경호와 김혜윤 주연의 영화 '고딩형사'가 2027년 1월 개봉한다고 24일 밝혔다. [서울=뉴스핌] 정태이 기자 = 영화 고딩형사 포스터 [사진= NEW]2026.11.24 taeyi427@newspim.com'고딩형사'는 또래
     https://www.newspim.com/news/view/20261124000195
 
@@ -586,7 +594,7 @@
     https://www.yna.co.kr/view/AKR20261123156200005
 
 ---
-거리 111건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 112건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -596,63 +604,63 @@
 (검색어 34개 · 고른 영상 15개)
 
 ## NAYEON “BABY ANGEL” M/V
-- 채널 JYP Entertainment · 조회수 13,794,982회 · 4일 전
+- 채널 JYP Entertainment · 조회수 14,398,557회 · 4일 전
 - `@youtube 0JQ9k6kcKVs` · https://www.youtube.com/watch?v=0JQ9k6kcKVs
 
 ## BESTie - Love Options | Suit Dance | Performance | 4K
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 2,457,594회 · 4일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 2,549,500회 · 4일 전
 - `@youtube FVNI7zBuk-4` · https://www.youtube.com/watch?v=FVNI7zBuk-4
 
 ## [15화 예고] "억울하게 죽은 거잖아 당신 때문에!" 절규하는 김유정😭 구국단과 박진영의 운명은?
-- 채널 tvN DRAMA · 조회수 744,443회 · 2일 전
+- 채널 tvN DRAMA · 조회수 761,308회 · 2일 전
 - `@youtube EbhLvwbcJTs` · https://www.youtube.com/watch?v=EbhLvwbcJTs
 
-## MINHO 'Out Of My Hands'｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 438,122회 · 5일 전
-- `@youtube nsDov52sl-M` · https://www.youtube.com/watch?v=nsDov52sl-M
-
 ## HANHAE, Moon Se Yoon - Love Again (feat. ZENA of RESCENE) | Beyond the Studio｜LIVE
-- 채널 1theK Live - 원더케이 라이브 · 조회수 432,965회 · 1일 전
+- 채널 1theK Live - 원더케이 라이브 · 조회수 458,675회 · 1일 전
 - `@youtube mXveasS7ZRY` · https://www.youtube.com/watch?v=mXveasS7ZRY
 
+## MINHO 'Out Of My Hands'｜On the Spot
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 451,360회 · 5일 전
+- `@youtube nsDov52sl-M` · https://www.youtube.com/watch?v=nsDov52sl-M
+
 ## [14화 예고] 진선규를 향한 김유정X박진영의 반격 시작🔥 사토VS후쿠다VS김승억 🐶싸움도 시작!
-- 채널 tvN DRAMA · 조회수 404,001회 · 3일 전
+- 채널 tvN DRAMA · 조회수 404,614회 · 3일 전
 - `@youtube PRfV3IPNddA` · https://www.youtube.com/watch?v=PRfV3IPNddA
 
-## [32화 선공개] 저 아저씨 엄마 만났어요 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 309,443회 · 3일 전
-- `@youtube Oomy6QlD5ss` · https://www.youtube.com/watch?v=Oomy6QlD5ss
-
 ## [라이어 9회 예고] ＂누가 민준호를 죽였을까요?', MBC 261127 방송
-- 채널 MBCdrama · 조회수 304,828회 · 3일 전
+- 채널 MBCdrama · 조회수 309,730회 · 3일 전
 - `@youtube raQmrxZiCtw` · https://www.youtube.com/watch?v=raQmrxZiCtw
 
-## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
-- 채널 tvN DRAMA · 조회수 255,101회 · 7일 전
-- `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
+## [32화 선공개] 저 아저씨 엄마 만났어요 [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 308,918회 · 3일 전
+- `@youtube Oomy6QlD5ss` · https://www.youtube.com/watch?v=Oomy6QlD5ss
 
 ## [최종화 예고] 의식불명에 빠진 임시완X설인아, 모든 것을 끝내고 두 사람은 서로의 구원이 될 수 있을까❤️‍🩹 #나의유죄인간 EP.12
-- 채널 tvN DRAMA · 조회수 249,208회 · 1일 전
+- 채널 tvN DRAMA · 조회수 259,200회 · 1일 전
 - `@youtube kY7dJB1Rjso` · https://www.youtube.com/watch?v=kY7dJB1Rjso
 
+## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
+- 채널 tvN DRAMA · 조회수 255,486회 · 7일 전
+- `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
+
 ## ［33회 예고］나 모르겠니 규림아 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 248,211회 · 3일 전
+- 채널 KBS Drama · 조회수 250,621회 · 3일 전
 - `@youtube 1uxginBULlU` · https://www.youtube.com/watch?v=1uxginBULlU
 
 ## ［34회 예고］아저씨가 너무너무 미안해 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 168,080회 · 2일 전
+- 채널 KBS Drama · 조회수 171,649회 · 2일 전
 - `@youtube DrmtMqgE-qw` · https://www.youtube.com/watch?v=DrmtMqgE-qw
 
 ## [가족관계증명서 86회 예고] ＂임신 중이었다고요?＂, MBC 261123 방송
-- 채널 MBCdrama · 조회수 159,724회 · 4일 전
+- 채널 MBCdrama · 조회수 159,950회 · 4일 전
 - `@youtube QiTgO2BPXHk` · https://www.youtube.com/watch?v=QiTgO2BPXHk
 
 ## [Playlist] 고작 이별하기 위해 널 사랑한 건 아닌데 (Singing My Blues)
-- 채널 YG ENTERTAINMENT · 조회수 144,533회 · 5일 전
+- 채널 YG ENTERTAINMENT · 조회수 145,753회 · 5일 전
 - `@youtube hyYkvbMt-rE` · https://www.youtube.com/watch?v=hyYkvbMt-rE
 
 ## [라이어 8회 예고] ＂이제 정말 끝났네요＂, MBC 261121 방송
-- 채널 MBCdrama · 조회수 118,239회 · 4일 전
+- 채널 MBCdrama · 조회수 118,420회 · 4일 전
 - `@youtube FY1AoOA-iIw` · https://www.youtube.com/watch?v=FY1AoOA-iIw
 
 
@@ -683,6 +691,7 @@ KBS1 <황신혜의 같이 삽시다> 제이쓴 초대에 남양주 찾은 싱글
 ## KBS2 일일드라마 욕망의 덫 · 65회 — 11/25 19:50 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/yokmang
 - 보도자료 제목: [일일드라마 욕망의 덫] 11월 25일 예고편 / 19:50 방송
+- 유튜브 예고(공식 KBS Drama): `@youtube MT4KJ6Fp75w` — [65화 예고] 강영훈, 들킬까 봐 겁이 났던 거야? [욕망의 덫] | KBS 방송
 - 사진(자유 이용, 출연자 설정환): `![설정환 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/9/95/%EC%84%A4%EC%A0%95%ED%99%98_%EB%B0%B0%EC%9A%B0.jpg)`
 
 65회 석진은 소연을 위해 은설의 도움을 받게 되고, 미란은 해라를 앞세워 정선의 장학사업을 흔들 계략을 꾸민다. 그러던 중 은설은 정선, 영훈과 함께 식사를 하게 되는데...

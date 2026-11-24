@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "MBC '구해줘! 홈즈', 뮤지·김대호와 서울 '사대천왕' 하천 옆세권 임장"
+title: MBC '구해줘! 홈즈', 뮤지·김대호와 서울 '사대천왕' 하천 옆세권 임장
 source_name: ''
 source_url: ''
-summary: MBC '구해줘! 홈즈'가 26일 서울 하천 옆 매물을 찾아간다. 뮤지와 김대호가 홍제천·양재천·안양천·탄천을 돈다. 첫 집은 성곽을 담벼락 삼은 홍제천 옆 단독주택이다.
+summary: MBC '구해줘! 홈즈'가 26일 서울 하천 옆 매물을 찾아간다. 뮤지와 김대호가 홍제천·양재천·안양천·탄천을 돈다. 첫 집은 성곽을
+  담벼락 삼은 홍제천 옆 단독주택이다.
 sources:
-  - https://with.mbc.co.kr/pr/press/view.html?idx=36990
-status: approved
+- https://with.mbc.co.kr/pr/press/view.html?idx=36990
+status: published
+published_id: c-5f2ee3fd99a9ca5d1d0bdb069b7278ed6f782fe4
+published_on: '2026-11-25'
 ---
-
 > **방송 정보**
 > 채널 · MBC | 프로그램 · 구해줘! 홈즈
 > 방송 · 2026년 11월 26일(목) 오후 10시
