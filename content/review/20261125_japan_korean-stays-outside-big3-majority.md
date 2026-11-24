@@ -7,12 +7,14 @@ kind: 해설
 title: 한국인 일본 숙박, 절반 넘게 도쿄·오사카·나고야 밖에서
 source_name: ''
 source_url: ''
-summary: 지난해 한국인 여행객이 일본에서 보낸 숙박일수의 절반 이상이 3대 도시권 밖이었다. 도쿄·오사카·나고야를 벗어나 지방으로 가는 여행이 늘었다는 뜻이다. 일본 호텔들은 한국발 직항이 어느 도시로 뜨는지에 더 주목하고 있다.
+summary: 지난해 한국인 여행객이 일본에서 보낸 숙박일수의 절반 이상이 3대 도시권 밖이었다. 도쿄·오사카·나고야를 벗어나 지방으로 가는 여행이
+  늘었다는 뜻이다. 일본 호텔들은 한국발 직항이 어느 도시로 뜨는지에 더 주목하고 있다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500748
-status: approved
+status: published
+published_id: c-bf656bf99e7ab51df58f37616a3d0a979ac8d385
+published_on: '2026-11-25'
 ---
-
 한국인의 일본 여행 지도가 넓어졌다.
 지난해 한국인 숙박일수의 절반 이상이 3대 도시권 밖에서 나왔다.
 

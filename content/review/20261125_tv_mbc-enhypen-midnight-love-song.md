@@ -8,12 +8,14 @@ kind: 해설
 title: 'MBC ''엔하이픈 특집 쇼: 미드나잇 러브 송'' 12월 6일 방송'
 source_name: ''
 source_url: ''
-summary: 'MBC가 12월 6일 밤 11시 35분 ''엔하이픈 특집 쇼: 미드나잇 러브 송''을 방송한다. 엔하이픈이 사랑을 주제로 한 곡들로 한밤의 세레나데를 꾸민다. 녹화는 25일 MBC 상암공개홀에서 진행된다.'
+summary: 'MBC가 12월 6일 밤 11시 35분 ''엔하이픈 특집 쇼: 미드나잇 러브 송''을 방송한다. 엔하이픈이 사랑을 주제로 한 곡들로
+  한밤의 세레나데를 꾸민다. 녹화는 25일 MBC 상암공개홀에서 진행된다.'
 sources:
 - https://with.mbc.co.kr/pr/press/view.html?idx=36979
-status: approved
+status: published
+published_id: c-0e397ff342b51b7870417a0e2d1fca04ae1ab5c6
+published_on: '2026-11-25'
 ---
-
 > **방송 정보**
 > 채널 · MBC | 프로그램 · 엔하이픈 특집 쇼 : 미드나잇 러브 송 | 연출 · 장우성
 > 방송 · 2026년 12월 6일(일) 밤 11시 35분
