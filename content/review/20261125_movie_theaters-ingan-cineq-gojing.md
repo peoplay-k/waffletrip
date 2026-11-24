@@ -5,18 +5,21 @@ category: movie
 region: ''
 section: news
 kind: 해설
-title: "'인간 초거대 알고리즘' 25일 개봉, 씨네큐브 영화제 26일 개막, '고딩형사'는 내년 1월"
+title: '''인간 초거대 알고리즘'' 25일 개봉, 씨네큐브 영화제 26일 개막, ''고딩형사''는 내년 1월'
 source_name: ''
 source_url: ''
-summary: 경산시가 제작을 지원한 '인간 초거대 알고리즘'이 25일 전국 극장에서 개봉한다. 씨네큐브는 26일부터 다음 달 3일까지 미개봉 화제작 11편을 보여 주는 영화제를 연다. 윤경호·김혜윤 주연 '고딩형사'는 2027년 1월 개봉한다.
+summary: 경산시가 제작을 지원한 '인간 초거대 알고리즘'이 25일 전국 극장에서 개봉한다. 씨네큐브는 26일부터 다음 달 3일까지 미개봉 화제작
+  11편을 보여 주는 영화제를 연다. 윤경호·김혜윤 주연 '고딩형사'는 2027년 1월 개봉한다.
 sources:
-  - https://www.mhns.co.kr/news/articleView.html?idxno=770300
-  - http://m.icbnnews.com/view.php?idx=188781
-  - https://news.bbsi.co.kr/news/articleView.html?idxno=4120662
-  - https://www.leadeconomy.co.kr/news/articleView.html?idxno=11453
-  - https://www.inthenews.co.kr/news/article.html?no=94899
-  - https://www.newspim.com/news/view/20261124000195
-status: approved
+- https://www.mhns.co.kr/news/articleView.html?idxno=770300
+- http://m.icbnnews.com/view.php?idx=188781
+- https://news.bbsi.co.kr/news/articleView.html?idxno=4120662
+- https://www.leadeconomy.co.kr/news/articleView.html?idxno=11453
+- https://www.inthenews.co.kr/news/article.html?no=94899
+- https://www.newspim.com/news/view/20261124000195
+status: published
+published_id: c-70b5242fe3fbd541d010c2761c355dc65bc4e00b
+published_on: '2026-11-25'
 ---
 경북 곳곳에서 찍은 영화 '인간 초거대 알고리즘'이 25일 전국 극장에서 개봉한다. 예술영화관 씨네큐브는 26일부터 영화제를 열고, 윤경호·김혜윤 주연 '고딩형사'는 내년 1월 관객을 만난다.
 
