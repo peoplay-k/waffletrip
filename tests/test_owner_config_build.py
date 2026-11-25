@@ -37,6 +37,8 @@ def test_site_follows_the_owner_edits(tmp_path):
     script = textwrap.dedent(f"""
         import sys
         sys.path.insert(0, {ROOT!r})
+        import src.photos
+        src.photos.USED = {str(tmp_path / "used.json")!r}   # 진짜 사진 기록을 건드리지 않게(2026-11-25)
         from src.models import Item, title_hash
         from src.render.site import render_site
         def it(i, title, region="guam", channel="travel", category="", topic="", photo=None, when="2026-10-29T09:00:00+09:00"):
