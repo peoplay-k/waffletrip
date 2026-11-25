@@ -4,15 +4,17 @@ channel: travel
 region: guam
 section: news
 kind: 보도자료
-title: "투어비스, 괌정부관광청과 '올겨울, 따뜻한 괌 여행' 기획전 진행"
+title: 투어비스, 괌정부관광청과 '올겨울, 따뜻한 괌 여행' 기획전 진행
 source_name: ''
 source_url: ''
-summary: "투어비스가 괌정부관광청과 겨울 괌 기획전을 열었다. 수능을 마친 수험생과 학부모를 겨냥한 테마형 프로모션이다. 연말과 겨울방학 가족 휴양 수요를 반영해 짰다."
+summary: 투어비스가 괌정부관광청과 겨울 괌 기획전을 열었다. 수능을 마친 수험생과 학부모를 겨냥한 테마형 프로모션이다. 연말과 겨울방학 가족
+  휴양 수요를 반영해 짰다.
 sources:
-  - http://www.ttlnews.com/news/articleView.html?idxno=3166163
-status: approved
+- http://www.ttlnews.com/news/articleView.html?idxno=3166163
+status: published
+published_id: c-1c9f71c934846bc9f2ef1b812cac2f59f0114e94
+published_on: '2026-11-26'
 ---
-
 투어비스가 괌정부관광청과 손잡고 겨울 괌 여행 기획전 '올겨울, 따뜻한 괌 여행'을 선보였다. 대학수학능력시험을 마친 수험생과 학부모 세대가 대상이다.
 
 기획전은 테마형 프로모션으로 꾸몄다. 시험을 끝낸 가족이 함께 떠날 휴양지로 괌을 내세웠다.
