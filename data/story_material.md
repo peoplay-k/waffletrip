@@ -6,21 +6,16 @@
 ## 괌
 
 ### 투어비스-괌정부관광청, 수험생·학부모 대상 겨울 기획전 진행
-- 매체 1곳 · 디스커버리뉴스(DISCOVERYNEWS)
-  - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 겨울방학과 연말 휴가 시즌을 앞두고 수험생과 학부모 세대를 겨냥한 괌 여행 기획전이 마련됐다. 투어비스는 괌정부관광청과 협력해 수험생 및 학부모 대상 기획전 ‘올겨울, 따뜻한 괌 여행’을 운영한다.
-    https://www.discoverynews.kr/news/articleView.html?idxno=1107785
+- 매체 2곳 · TTL뉴스 · 디스커버리뉴스(DISCOVERYNEWS)  ← 여러 곳이 썼다
+  - 디스커버리뉴스(DISCOVERYNEWS): 
+    https://news.google.com/rss/articles/CBMickFVX3lxTE1YcVV5RUhjTENHbEdBMnhueHdLaHBQVzN0WE9UdTNtQklZa2l6LVpLWWhaVHZhM3h3Zkhsc0tYelF2TnlYTjFjdW1VQ2FfTnJITThyZ1JnOXg3YVdvbzJNbTRlLW13Yzg0Nml1VXBhd2ZsZw?oc=5
+  - TTL뉴스: 투어비스가 괌정부관광청과 손잡고 대학수학능력시험을 마친 수험생과 학부모 세대를 겨냥한 테마형 기획전 '올겨울, 따뜻한 괌 여행'을 선보였다. 이번 프로모션은 연말과 겨울방학 성수기를 앞두고 가족 단위 휴양지 수요가 급증하는 흐름을 반영해 기획됐다.
+    http://www.ttlnews.com/news/articleView.html?idxno=3166163
 
 ### 호시노 리조트 리조나레 괌, 차모로 전통문화 담은 비치클럽과 올데이 다이닝 선보여
 - 매체 1곳 · 코리아스프린트
   - 코리아스프린트: (서울=코리아스프린트) 괌의 전통문화와 지역 고유의 매력을 경험할 수 있는 비치 리조트 ‘호시노 리조트 리조나레 괌’이 지난 11월 1일 괌 최초의 본격적인 ‘비
     https://www.koreasprint.com/news/articleView.html?idxno=23285
-
-## 사이판
-
-### KLPGA 메이저 챔피언 박보겸과 함께하는 ‘한겨울 사이판 골프’
-- 매체 1곳 · 비즈월드
-  - 비즈월드: [비즈월드] 매서운 한파가 찾아오는 12월, 푸른 태평양을 배경으로 한국여자프로골프(KLPGA) 메이저 대회 우승자와 직접 샷 대결을 펼치는 이색 겨울 골프 여행 상품이 나왔다. 마리아나관광청은 공식 골프 앰배서더인 박보겸 프로와 함께하는 ‘사이판 겨울 골프 프로모션’을 선보인다고 23
-    https://www.bizwnews.com/news/articleView.html?idxno=152791
 
 ## 하와이
 
@@ -164,12 +159,10 @@
   - 지디넷코리아: 클룩 조사 결과, 연말을 앞두고 일본 온천·설경 명소 11곳의 한국인 호텔 예약이 지난 여름 대비 118.1% 급증한 것으로 나타났다. 25일 클룩에 따르면, 올해 10월 1일부터 11월 15일까지 일본 호텔 예약은 전년 동기 대비 13.9% 증가했다.
     https://zdnet.co.kr/view/?no=20261125090120
 
-### 울산경자청, 일본서 투자유치… 항만물류·관광·AI 등 진행
-- 매체 2곳 · KBS 뉴스 · 문화일보  ← 여러 곳이 썼다
-  - 문화일보: 울산=곽시열 기자 울산경제자유구역청(울산경자청)은 오는 27일까지 4일간 일본 도쿄(東京)와 나고야(名古屋)에서 열리는 ‘KFEZ 데이 인 재팬’에서 산업별 맞춤형 투자유치 활동을 펼친다고 24일 밝혔다. 이번 행사는 산업통상부와 대한무역투자진흥공사(KOTRA), 국내
-    https://www.munhwa.com/article/11633624
-  - KBS 뉴스: 
-    https://news.kbs.co.kr/news/pc/view/view.do?ncd=8721898
+### 1955 도쿄 베이 by 호시노 리조트, 2박 3일 체류 플랜 제안
+- 매체 1곳 · 트래블데일리
+  - 트래블데일리: 1955년 미국 빈티지 감성을 담은 호텔 ‘1955 도쿄 베이 by 호시노 리조트’는 11월 10일부터 12월 25일까지 콜라를 테마로 한 겨울 시즌 한정 크리스마스 이벤트 ‘OLDIES COLA HOLIDAY 1955’를 진행하고 테마파크 여행과 홀리데이 무드를 동시에 만끽할 수 있는
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72794
 
 ## 태국
 
@@ -199,17 +192,12 @@
   - 더파노라마: 태국 푸켓 여행 중 소란스러운 관광지를 벗어나 온전한 쉼에 집중하고 싶다면 남부 케이프 판와 아오욘 해변가에 자리한 '베란다 리조트 푸켓 오토그래프 컬렉션'이 제격이다. 빠통 시내와는 거리가 있어 도보권 상권이나 유흥을 기대하긴 어렵지만, 덕분에 프라이빗 비치에서 한적하게 카약과 패들보
     https://www.ftimes.kr/news/articleView.html?idxno=41336
 
-### 치앙마이 여행이 여전히 선사하는 것들
-- 매체 1곳 · ELLE
-  - ELLE: 강은 오래전부터 이곳에 있었고, 나는 잠시 다녀갈 뿐이다. 란나 왕국의 기억을 품은 치앙마이에서 물을 따라 흘러가본 시간.
-    https://www.elle.co.kr/article/1913602
+### 영산대, 태국 의료·웰니스관광협회 등과 다자간 업무협약
+- 매체 1곳 · 부산일보
+  - 부산일보: 와이즈유 영산대학교(총장 부구욱) 웰니스연구원장 정구점 교수가 부산의 신성장 동력인 치유관광(Wellness Tourism) 산업화와 글로벌 인재 양성을. ..
+    https://www.busan.com/view/busan/view.php?code=2026112509504921629
 
 ## 대만
-
-### 청주서 대만 가는 비행기 ‘하루 두 번’
-- 매체 1곳 · 공뉴스
-  - 공뉴스: 충북 청주국제공항에서 대만 타이베이로 향하는 항공편이 하루 한 차례에서 두 차례로 늘어난다. 오전편에 오후편이 추가되면서 한국과 대만을 오가는 여행객들의 항공편
-    https://www.bzeronews.com/news/articleView.html?idxno=825822
 
 ### 말 안 통해도 통했다…SNS로 한국인 여권 찾아준 대만인
 - 매체 1곳 · 한국경제
@@ -230,6 +218,11 @@
 - 매체 1곳 · 가오슝 관광여행 웹사이트
   - 가오슝 관광여행 웹사이트: (공지:이벤트정보번역은AI에의해생성되었습니다. )&#39;2026가오슝크리스마스파티&#39;가11월13일중앙공원에서낭만적으로막을올렸습니다.
     https://khh.travel/ko/event/calendardetail/8238/
+
+### 청주서 대만 가는 비행기 ‘하루 두 번’
+- 매체 1곳 · 공뉴스
+  - 공뉴스: 
+    https://news.google.com/rss/articles/CBMibEFVX3lxTE12X3FtMXRrVUpUQ2ppUE9XNE1HR01tejRUamhtMWs5ejVWVjVTRERoVXpWOFJTMm9xdkREWEtKTm8yal9KTllXZ1d4Y2lTZ1pWZWpwaGhLTnJFNGs5bTFjcTNPNnNBa1VHLVltcA?oc=5
 
 ## 국내
 
@@ -298,15 +291,35 @@
     https://www.traveltimes.co.kr/news/articleView.html?idxno=500771
 
 ### 관광공사, APEC 개최지 중국 선전서 한국 지역관광 홍보
-- 매체 5곳 · TTL뉴스 · 서울경제 · 숙박매거진 · 아시아투데이 · 연합뉴스  ← 여러 곳이 썼다
+- 매체 4곳 · 서울경제 · 숙박매거진 · 아시아투데이 · 연합뉴스  ← 여러 곳이 썼다
   - 연합뉴스: (서울=연합뉴스) 구정모 기자 = 문화체육관광부와 한국관광공사는 올해 아시아태평양경제협력체(APEC) 정상회의 개최지인 중국 선전에서 지난 21...
     https://www.yna.co.kr/view/AKR20261125032000030
   - 서울경제: 한국관광공사가 중국 화남지역의 방한 관광 수요를 국내 지방으로 유도하기 위한 현지 마케팅에 나섰다. 공사는 이달 21일부터 24일까지 올해 아시아태평양경제협력체(APEC) 정상회의가 열린 중국 선전에서 ‘2026 한국 페스티벌’을 개최했다고 25일 밝혔다.
     https://www.sedaily.com/article/20118715
-  - 숙박매거진: 문화체육관광부와 한국관광공사는 중국 선전에서 지난 21일부터 24일까지 ‘2026 한국 페스티벌’을 열고 한국 지역여행 콘텐츠를 선보였다. 주홍콩한국문화원, 한국농수산식품유통공사, 한국콘텐츠진흥원이 함께한 이번 행사는 2026 APEC 정상회의 이후의 관심을 방한 관광 수요로 연결하려
-    http://www.sukbakmagazine.com/news/articleView.html?idxno=70089
-  - 아시아투데이: 2026 아시아·태평양 경제협력체(APEC )정상회의 개최지인 중국 선전에서 한국 여행을 알리는 행사가 열렸다. 문화체육관광부와 한국관광공사는 지난 21~24일 선전에서 주홍콩한국문화원, 한국농수산식품유통공사, 한국콘텐츠진흥원과 함께 ‘2026 한국 페스티벌’을 개최했.
-    https://www.asiatoday.co.kr/kn/view.php?key=20261125010009755
+  - 숙박매거진: 
+    https://news.google.com/rss/articles/CBMicEFVX3lxTE1EREJQM1VXOFVzcWxVTlhsT1A3RmFGQ015NlFnQ1NwQjNmMWlJT21QU3BHbTdWa0N2SmppdHZWLUFuWk1KcXB2SkstV0xXRG1OVDdUVVp0Mmxrc044UVVOQ3JxUzBiMGR1SlZKWk9FS3Q?oc=5
+  - 아시아투데이: 
+    https://news.google.com/rss/articles/CBMibkFVX3lxTE5CS3RVTFU4MmRTcGRDVm05czJzYzBCQng3V1pzakxfbnJ0b1FYMkZvUXQ5a2RCLTNQVFZEMVBaZmJpS0ozNzkxSmpCcHI3V1NlMWNONndCeUt3aHp2Y2lSOXRBcUV5SHdNY0diOXZ3?oc=5
+
+### 2026 대한민국 관광기념품 박람회 '북적북적'
+- 매체 4곳 · 뉴스1 · 뉴시스 · 대한민국 정책브리핑 · 헤럴드경제  ← 여러 곳이 썼다
+  - 뉴스1: 
+    https://www.news1.kr/photos/8224861
+  - 뉴시스: [서울=뉴시스] 조성우 기자 = 20일 서울 중구 동대문디자인플라자(DDP) 아트홀에서 열린 2026 대한민국 관광기념품 박람회를 찾은 시민들이 다양한 기념품을 둘러보고 있다. 2026.11.20.
+    https://www.newsis.com/view/NISI20261120_0021540428
+  - 헤럴드경제: [헤럴드경제=김명상 기자] 143개 기업·기관이 참여한 역대 최대 규모의 관광기념품 박람회가 20일 서울 동대문디자인플라자(DDP)에서 개막했다. 우수 기념품의 유통 판로
+    https://biz.heraldcorp.com/article/10944404
+  - 대한민국 정책브리핑: 문화체육관광부에서 운영하는 대한민국 정책을 제공하는 포털사이트로 정책뉴스, 정책포커스, 국민이말하는정책, 정책기고, 문화칼럼, 사실은이렇습니다, 멀티미디어뉴스, 보도자료, 브리핑자료, 연설문, 채용정보 등을 서비스합니다. - 정책브리핑 | 뉴스 | 카드/한컷
+    https://www.korea.kr/multi/visualNewsView.do?newsId=148976142
+
+### 부산관공, ‘올해의 SNS’ 수상
+- 매체 2곳 · 투어코리아 · 트래블데일리  ← 여러 곳이 썼다
+  - 트래블데일리: 부산관광공사는 지난 23일 열린 ‘제12회 2026 올해의 SNS’ 시상식에서 ‘올해의 인스타그램’ 공공기업(공사) 부문 최우수상과 ‘올해의 유튜브’ 최우수상을 수상했다. ‘올해의 SNS’는 기업과 공공기관 등의 SNS 활용 현황과 소통 역량을 종합적으로 평가해 매체별 우수기관을 선정하
+    https://www.traveldaily.co.kr/news/articleView.html?idxno=72791
+  - 투어코리아: [투어코리아=김교환 기자] 울산 북구가 '제12회 2026 올해의 SNS' 기초지자체 자치구 부문에서 인스타그램 대상을 받았다. 이로써 북구는 4년 연속 수상 기록을 세웠다.
+    https://www.tournews21.com/news/articleView.html?idxno=149233
+  - 투어코리아: [투어코리아=류석만 기자] 충남 공주시가 대한민국 지방자치단체 SNS 소통 경쟁에서 다시 한번 정상급 역량을 입증했다. 최원철 공주시장이 이끄는 공주시가 ‘제12회 2026 올해의 SNS’ 기초지자체 페이스북 부문에서 최우수상을 수상하며, 시민과 소통하는 디지털 행정의 경쟁력을 대외적으
+    https://www.tournews21.com/news/articleView.html?idxno=149262
 
 ### 노랑풍선, 2027년 신혼여행 수요 겨냥 ‘2026 허니문 온라인 박람회’ 운영
 - 매체 3곳 · 뉴스핌 · 디스커버리뉴스(DISCOVERYNEWS) · 트래블데일리  ← 여러 곳이 썼다
@@ -361,22 +374,6 @@
     https://www.mt.co.kr/index.php/future/2026/11/23/2026112310153985744
   - 서울경제: 여행 플랫폼 기업 마이리얼트립의 고객경험 전문 자회사 에이아이씨엑스(AICX)가 최은경 최고운영책임자(COO)를 영입했다. 마이리얼트립은 최 COO가 고객경험 컨설팅과 업무위탁운영 사업을 총괄한다고 23일 밝혔다.
     https://www.sedaily.com/article/20117673
-
-### 2026 대한민국 관광기념품 박람회 '북적북적'
-- 매체 3곳 · 뉴스1 · 뉴시스 · 헤럴드경제  ← 여러 곳이 썼다
-  - 뉴스1: 
-    https://www.news1.kr/photos/8224861
-  - 뉴시스: [서울=뉴시스] 조성우 기자 = 20일 서울 중구 동대문디자인플라자(DDP) 아트홀에서 열린 2026 대한민국 관광기념품 박람회를 찾은 시민들이 다양한 기념품을 둘러보고 있다. 2026.11.20.
-    https://www.newsis.com/view/NISI20261120_0021540428
-  - 헤럴드경제: [헤럴드경제=김명상 기자] 143개 기업·기관이 참여한 역대 최대 규모의 관광기념품 박람회가 20일 서울 동대문디자인플라자(DDP)에서 개막했다. 우수 기념품의 유통 판로
-    https://biz.heraldcorp.com/article/10944404
-
-### 롯데관광, ‘실크로드 컬렉션’ 3종 출시
-- 매체 2곳 · 뉴스핌 · 트래블데일리  ← 여러 곳이 썼다
-  - 트래블데일리: 롯데관광개발은 중국 실크로드의 역사와 문화, 자연을 세 가지 여정으로 경험할 수 있는 ‘실크로드 컬렉션’ 3종을 선보인다.
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72793
-  - 뉴스핌: [서울=뉴스핌] 정태선 기자 = 중국 실크로드를 역사와 문화, 자연이라는 세 가지 시선으로 경험할 수 있는 테마 여행상품이 나왔다. 롯데관광개발은 중국 실크로드의 다양한 매력을 주제별로 즐길 수 있는 &apos;실크로드 컬렉션&apos; 3종을 출시한다고 25일
-    https://www.newspim.com/news/view/20261125000431
 
 ## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 38건)
 
@@ -606,8 +603,8 @@
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
 (자유 이용 사진: 이름 후보 31개 확인, 사진 줄 4개)
 
-### 🔥 화제(매체 61곳) [startrip] 그룹 에이티즈, 미 ‘빌보드 200’ 1위…통산 네 번째 기록
-- 매체 5곳 · 경향신문 · 뉴스핌 · 데일리굿뉴스 · 스포츠월드 · 이투데이  ← 여러 곳이 썼다
+### 🔥 화제(매체 60곳) [startrip] 그룹 에이티즈, 미 ‘빌보드 200’ 1위…통산 네 번째 기록
+- 매체 4곳 · 경향신문 · 뉴스핌 · 스포츠월드 · 이투데이  ← 여러 곳이 썼다
   - 경향신문: 그룹 에이티즈가 새 미니앨범 로 미국 빌보드 메인 앨범 차트 '빌보드 200'에서 그룹 통산 네 번째 1위를 기록했다. 에이티즈가 이 차트에서 1위를 기록한 것은 올해 7월 전작 이후 4개월 만이다.
     https://www.khan.co.kr/article/202611231948015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=culture_news
   - 뉴스핌: [서울=뉴스핌] 이지은 기자 = 그룹 에이티즈가 미국 빌보드 메인 앨범 차트 '빌보드 200'에서 통산 4번째 1위를 차지했다. 미국 음악 전문 매체 빌보드가 22일(현지시간) 공식 홈페이지를 통해 발표한 차트 예고 기사에 따르면, 에이티즈의 미니 15집 '골든
@@ -685,7 +682,7 @@
     https://enews.imbc.com/News/RetrieveNewsInfo/526023
 
 ---
-거리 119건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 118건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -694,65 +691,80 @@
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
 (검색어 33개 · 고른 영상 15개)
 
-## NAYEON “BABY ANGEL” M/V
-- 채널 JYP Entertainment · 조회수 15,629,923회 · 5일 전
-- `@youtube 0JQ9k6kcKVs` · https://www.youtube.com/watch?v=0JQ9k6kcKVs
-
 ## BESTie - Love Options | Suit Dance | Performance | 4K
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 2,680,425회 · 4일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 2,687,058회 · 5일 전
 - `@youtube FVNI7zBuk-4` · https://www.youtube.com/watch?v=FVNI7zBuk-4
+  베스티(BESTie) - 연애의 조건(Love Options) | Suit Dance | 수트댄스 | Performance | 4K #베스티#BESTie#연애의조건#LoveOptions#수트댄스#SuitDance #New1theKOriginal#1theK#원더케이#원더케이오리지널 K-POP Wonderland, 1theK K-POP의 모든 즐거움이 여기에, 다양한 원더케이 오리지널 컨텐츠를 만나보세요! K-POP Wonderland, 1theK All the joys of K-pop here! 1theK has a wide variety of Original Content ▶1theK YouTube https://www.youtube.com/1theK ▶1theK Originals YouTube https://www.youtube.com/1theKOriginals ▶1theK Live YouTube https://www.youtube.com/@1theKLive ▶1theK Insta
 
 ## [15화 예고] "억울하게 죽은 거잖아 당신 때문에!" 절규하는 김유정😭 구국단과 박진영의 운명은?
-- 채널 tvN DRAMA · 조회수 777,783회 · 2일 전
+- 채널 tvN DRAMA · 조회수 778,818회 · 2일 전
 - `@youtube EbhLvwbcJTs` · https://www.youtube.com/watch?v=EbhLvwbcJTs
-
-## NAYEON “BABY ANGEL” M/V Teaser 1
-- 채널 JYP Entertainment · 조회수 775,294회 · 7일 전
-- `@youtube KOZ_7ZSO470` · https://www.youtube.com/watch?v=KOZ_7ZSO470
+  티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 밀정이 된 경성 최고의 소매치기와 조선총독부의 엘리트 통역관이 적의 심장부에서 마주하며 벌어지는 100일간의 첩보 로맨스 tvN 20주년 특별기획 〈100일의 거짓말〉 [토일] 밤 9:10 | tvN #100일의거짓말 #100DaysofDeception #tvN #20주년특별기획 #김유정 #박진영 #김현주 #이무생 #진선규 #즐거움엔20tvN #스트리밍은TVING #티빙에서스트리밍
 
 ## HANHAE, Moon Se Yoon - Love Again (feat. ZENA of RESCENE) | Beyond the Studio｜LIVE
-- 채널 1theK Live - 원더케이 라이브 · 조회수 506,297회 · 1일 전
+- 채널 1theK Live - 원더케이 라이브 · 조회수 508,827회 · 2일 전
 - `@youtube mXveasS7ZRY` · https://www.youtube.com/watch?v=mXveasS7ZRY
-
-## MINHO 'Out Of My Hands'｜On the Spot
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 489,566회 · 5일 전
-- `@youtube nsDov52sl-M` · https://www.youtube.com/watch?v=nsDov52sl-M
-
-## [14화 예고] 진선규를 향한 김유정X박진영의 반격 시작🔥 사토VS후쿠다VS김승억 🐶싸움도 시작!
-- 채널 tvN DRAMA · 조회수 405,366회 · 3일 전
-- `@youtube PRfV3IPNddA` · https://www.youtube.com/watch?v=PRfV3IPNddA
+  한해, 문세윤 - Love Again (feat. 제나 of RESCENE)｜야외녹음실｜Beyond the Studio｜LIVE #한해#문세윤#제나#LoveAgain#야외녹음실 #BeyondtheStudio #New1theKOriginal#1theK#1theK_Live#원더케이#원더케이오리지널#원더케이라이브 K-POP의 모든 즐거움이 여기에, 1theK(원더케이)의 라이브 콘텐츠를 만나보세요! K-POP Wonderland, 1theK All the joys of K-pop here! 1theK has a wide variety of Original Live Content ▶1theK YouTube https://www.youtube.com/1theK ▶1theK Originals YouTube https://www.youtube.com/1theKOriginals ▶1theK Live YouTube https://www.youtube.com/@1theKLive ▶1theK Insta
 
 ## [라이어 9회 예고] ＂누가 민준호를 죽였을까요?', MBC 261127 방송
-- 채널 MBCdrama · 조회수 315,992회 · 3일 전
+- 채널 MBCdrama · 조회수 315,380회 · 3일 전
 - `@youtube raQmrxZiCtw` · https://www.youtube.com/watch?v=raQmrxZiCtw
-
-## [32화 선공개] 저 아저씨 엄마 만났어요 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 308,526회 · 4일 전
-- `@youtube Oomy6QlD5ss` · https://www.youtube.com/watch?v=Oomy6QlD5ss
+  #라이어 #유연석 #서현진 ★★★More clips are available★★★ iMBC https://program.imbc.com/ThePerfectLie ⓒ MBC&iMBC 무단 전재, 재배포 및 이용(AI학습 포함) 금지
 
 ## [최종화 예고] 의식불명에 빠진 임시완X설인아, 모든 것을 끝내고 두 사람은 서로의 구원이 될 수 있을까❤️‍🩹 #나의유죄인간 EP.12
-- 채널 tvN DRAMA · 조회수 262,901회 · 1일 전
+- 채널 tvN DRAMA · 조회수 263,020회 · 1일 전
 - `@youtube kY7dJB1Rjso` · https://www.youtube.com/watch?v=kY7dJB1Rjso
-
-## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
-- 채널 tvN DRAMA · 조회수 255,785회 · 7일 전
-- `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
+  티빙에서 스트리밍 : https://tving.onelink.me/xHqC/mvei8582 살인 용의자로 지목된 안하무인 재벌 3세와 그의 수행비서로 잠입한 특수부대 출신 여형사의 밀착 스릴 로맨스 tvN 〈나의 유죄인간〉 [월화] 저녁 8시 50분 | tvN #tvN #나의유죄인간 #LoveinDisguise #임시완 #설인아 #김정현 #연우 #즐거움엔20tvN #스트리밍은TVING #티빙에서스트리밍
 
 ## ［33회 예고］나 모르겠니 규림아 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 251,728회 · 3일 전
+- 채널 KBS Drama · 조회수 251,814회 · 3일 전
 - `@youtube 1uxginBULlU` · https://www.youtube.com/watch?v=1uxginBULlU
+  규림(안희연)은 한결(윤하빈)이 왜 그렇게 울었는지 궁금해하지만, 한결은 무진(하석진)과만 따로 이야기하고 싶다며 무진을 따라간다. 별일 아니라는 무진의 말에 안도한 것도 잠시, 규림의 가게로 뜻밖의 인물이 찾아오는데... 한편, 규영(박유나)은 갑자기 가족들에게 다정하게 굴기 시작하고, 가족들은 그런 규영의 변화에 얼떨떨해하는데... Copyright ⓒ KBS. All rights reserved. 무단 전재, 재배포 및 이용(AI 학습 포함) 금지 [사랑이 온다] 공식 홈페이지 : https://program.kbs.co.kr/2tv/drama/loveonthemenu/pc/index.html ＃하석진 ＃안희연 ＃사랑이온다 깨진 가족의 파편을 모아 세상에서 가장 따뜻한 인생 한 상을 차려내는 두 남녀의 패밀리 레시피 드라마 사랑이 온다, Love on the Menu 하석진, 안희연, 박유나, 배정남 ▶ Homepage : https://www.kbs.co.kr/ ▶ Wavve
 
 ## ［34회 예고］아저씨가 너무너무 미안해 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 176,539회 · 2일 전
+- 채널 KBS Drama · 조회수 176,761회 · 2일 전
 - `@youtube DrmtMqgE-qw` · https://www.youtube.com/watch?v=DrmtMqgE-qw
-
-## [가족관계증명서 86회 예고] ＂임신 중이었다고요?＂, MBC 261123 방송
-- 채널 MBCdrama · 조회수 160,266회 · 4일 전
-- `@youtube QiTgO2BPXHk` · https://www.youtube.com/watch?v=QiTgO2BPXHk
+  ［34회 예고］아저씨가 너무너무 미안해 Copyright ⓒ KBS. All rights reserved. 무단 전재, 재배포 및 이용(AI 학습 포함) 금지 [사랑이 온다] 공식 홈페이지 : https://program.kbs.co.kr/2tv/drama/loveonthemenu/pc/index.html ＃하석진 ＃안희연 ＃사랑이온다 깨진 가족의 파편을 모아 세상에서 가장 따뜻한 인생 한 상을 차려내는 두 남녀의 패밀리 레시피 드라마 사랑이 온다, Love on the Menu 하석진, 안희연, 박유나, 배정남 ▶ Homepage : https://www.kbs.co.kr/ ▶ Wavve : https://www.wavve.com/ ▶ Youtube : https://www.youtube.com/KBSdrama ▶ Facebook : https://www.facebook.com/KBSdrama/
 
 ## [Playlist] 고작 이별하기 위해 널 사랑한 건 아닌데 (Singing My Blues)
-- 채널 YG ENTERTAINMENT · 조회수 147,597회 · 5일 전
+- 채널 YG ENTERTAINMENT · 조회수 147,748회 · 6일 전
 - `@youtube hyYkvbMt-rE` · https://www.youtube.com/watch?v=hyYkvbMt-rE
+  어떻게 내가 어떻게 너를 To everyone going through a heartbreak, you DESERVE this playlist. Time Code 00:00:00 2NE1 - Lonely 00:03:27 태양 - 눈, 코, 입 00:07:17 AKMU - 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지 00:12:07 2NE1 - 아파 (Slow) 00:16:20 SE7EN - 와줘.. 00:20:27 거미 - 기억상실 00:24:20 빅마마 - 체념 00:29:21 BIGBANG - 눈물뿐인 바보 00:33:21 거미 - 친구라도 될 걸 그랬어 00:38:02 SE7EN - 안녕 (Duet With 거미) 00:42:15 1TYM - Without You 00:46:55 BIGBANG - 바보 00:50:39 WINNER - FOOL 00:54:19 G-DRAGON - 무제(無題) (Untitled, 2014) 00:58:02 이하이 - 밤샘 (Feat. TABLO)
+
+## [라이어 8회 예고] ＂이제 정말 끝났네요＂, MBC 261121 방송
+- 채널 MBCdrama · 조회수 118,794회 · 4일 전
+- `@youtube FY1AoOA-iIw` · https://www.youtube.com/watch?v=FY1AoOA-iIw
+  #라이어 #유연석 #서현진 ★★★More clips are available★★★ iMBC https://program.imbc.com/ThePerfectLie ⓒ MBC&iMBC 무단 전재, 재배포 및 이용(AI학습 포함) 금지
+
+## [5화 예고] 연개소문은 소문처럼 미친자 더이까 [문무] | KBS 방송
+- 채널 KBS Drama · 조회수 102,191회 · 2일 전
+- `@youtube 9F89mwO3ohw` · https://www.youtube.com/watch?v=9F89mwO3ohw
+  가까스로 연개소문에게서 도망쳐 온 춘추는 고구려가 곧 당과 전쟁할 것이란 판단을 내리지만, 진골들의 정치 공세로 연금된다. 한편, 전장의 법민은 무리한 공격으로 병사들이 무참히 죽어가는 모습에 회의를 느끼며 치열한 싸움을 이어간다. Copyright ⓒ KBS. All rights reserved. 무단 전재, 재배포 및 이용(AI 학습 포함) 금지 [문무] 공식 홈페이지 : https://program.kbs.co.kr/2tv/drama/munmu/ ＃이현욱 ＃장혁 ＃문무 600년간 이어진 전쟁과 삼국 내부의 격변 속에서 승리를 위해 모든 것을 건 지도자들의 이야기를 그린 드라마 문무, Sword & Silence 이현욱, 장혁, 김강우, 박성웅, 정웅인 ▶ Homepage : https://www.kbs.co.kr/ ▶ Wavve : https://www.wavve.com/ ▶ Youtube : https://www.youtube.com/KBSdrama ▶ Facebook : h
+
+## [12월 1일 예고] “너무 무서워요” 김우빈, ‘지원군’ 양현민과 함께 쓰는 성장 스토리★
+- 채널 SBS Entertainment · 조회수 95,249회 · 1일 전
+- `@youtube UbBWBLZzpK0` · https://www.youtube.com/watch?v=UbBWBLZzpK0
+  예 능 | 틈만 나면, 68회 본방송 | 12월 1일 화요일 밤 9시 #틈만나면 #김우빈 #양현민 Copyright ⓒ SBS. All rights reserved. 무단 전재, 재배포 및 AI학습 이용 금지
+
+## 김승수♥박혜연 달달한 두 번째 데이트💕 #미운우리새끼 #김승수 #박혜연
+- 채널 SBS Entertainment · 조회수 78,468회 · 0일 전
+- `@youtube lSvzzAuAUuM` · https://www.youtube.com/watch?v=lSvzzAuAUuM
+  #스브스 #sbs #스브스엔터 #sbsentertainment #미우새 #김승수 #박혜연 방송날짜: 2026.11.22. 출연진: 김승수, 박혜연 ━━━━━━━━━━━━━━━━━━━━━━━━━━ 📌 추천 콘텐츠 보러가기! 스브스엔터: https://www.youtube.com/@SBSenter.official 스브스드라마: https://www.youtube.com/@SBSdrama.official SBS Story: https://www.youtube.com/@SBSstory.official 달리: https://www.youtube.com/@sbs_dali 우와비: https://www.youtube.com/c/sbswowvideo 애니멀봐: https://www.youtube.com/@SBSANIMAL 빽드: https://www.youtube.com/@BBACKD 빽능: https://www.youtube.com/@BBACKENT 📌 공식 홈페이지: https://www.sb
+
+## ATEEZ(에이티즈).zip 📂 해적왕(Pirate King)부터 UP까지 | Show! MusicCore
+- 채널 MBCkpop · 조회수 66,024회 · 5일 전
+- `@youtube HLygRTwfDLE` · https://www.youtube.com/watch?v=HLygRTwfDLE
+  ATEEZ(에이티즈).zip 📂 해적왕(Pirate King)부터 UP까지 | Show! MusicCore 00:00 UP 261114 03:31 Drip 261031 06:51 BAD 260704 09:38 Adrenaline 260214 13:22 NASA 260207 16:48 Lemon Drop 250614 19:57 Ice On My Teeth 241116 23:09 WORK 240608 26:18 Empty Box 240601 29:52 미친폼 (Crazy Form) 231202 33:16 BOUNCY(K-HOT CHILLI PEPPERS) 230701 36:29 HALAZIA 230107 39:50 Guerrilla 220806 43:17 멋(The Real) 211218 46:59 Eternal Sunshine 211009 50:32 Deja Vu 210925 53:50 불놀이야 (I'm The One) 210306 57:25 THANXX 200912 1:00:30 I
+
+## [가족관계증명서 87회 예고] ＂더는 못 봐주겠다고＂, MBC 261124 방송
+- 채널 MBCdrama · 조회수 61,571회 · 1일 전
+- `@youtube 35OhNlpFh5E` · https://www.youtube.com/watch?v=35OhNlpFh5E
+  #박세영 #한고은 #가족관계증명서 ★★★More clips are available★★★ iMBC https://program.imbc.com/FamilyRegister ⓒ MBC&iMBC 무단 전재, 재배포 및 이용(AI학습 포함) 금지
+
+## [65화 예고] 강영훈, 들킬까 봐 겁이 났던 거야? [욕망의 덫] | KBS 방송
+- 채널 KBS Drama · 조회수 55,702회 · 1일 전
+- `@youtube MT4KJ6Fp75w` · https://www.youtube.com/watch?v=MT4KJ6Fp75w
+  [65화 예고] 강영훈, 들킬까 봐 겁이 났던 거야? Copyright ⓒ KBS. All rights reserved. 무단 전재, 재배포 및 이용(AI 학습 포함) 금지 [욕망의 덫] 공식 홈페이지 : https://program.kbs.co.kr/2tv/drama/yokmang/pc/index.html ＃장서희 ＃전혜원 ＃욕망의덫 살인 누명으로 인생을 빼앗긴 여자가 거대한 욕망에 맞서는 운명 복원 리벤지 극 욕망의 덫, A Trap Called Desire 장서희, 전혜원, 설정환, 주새벽, 윤해영, 유태웅 ▶ Homepage : https://www.kbs.co.kr/ ▶ Wavve : https://www.wavve.com/ ▶ Youtube : https://www.youtube.com/KBSdrama ▶ Facebook : https://www.facebook.com/KBSdrama/
 
 
 
@@ -887,6 +899,21 @@ AI 분야는 교양·윤리·실습·실무·심화 등 다섯 갈래로 세분�
 한편, <EBS 지식이 되는 10분>은 한국경제인협회(한경협), 한국청소년상담복지개발원과 함께한다.
 EBS 학교 밖 청소년 
 
+## MBC 엔하이픈 특집 쇼 : 미드나잇 러브 송 — 11/25 방송
+- 출처: MBC 보도자료 · https://with.mbc.co.kr/pr/press/view.html?idx=36979
+- 보도자료 제목: [엔하이픈 특집 쇼 : 미드나잇 러브 송] 엔하이픈이 전하는 한밤의 세레나데! 12월 6일(일) 밤 11시 35분 MBC 방송
+
+MBC ‘엔하이픈 특집 쇼 : 미드나잇 러브 송’, 엔하이픈이 전하는 한밤의 세레나데! 12월 6일(일) 밤 11시 35분 MBC 방송
+- MBC ‘엔하이픈 특집 쇼 : 미드나잇 러브 송’, 16일 티저 공개! 엔하이픈의 음악으로 채우는 특별한 밤! 사랑을 주제로 한 무대 예고
+- 엔하이픈, 겨울밤을 녹일 특별한 세레나데 준비! 25일 MBC 상암공개홀서 녹화
+MBC가 오는 12월 6일(일) 밤 11시 35분 ‘엔하이픈 특집 쇼 : 미드나잇 러브 송’(연출: 장우성)을 선보인다.
+‘엔하이픈 특집 쇼 : 미드나잇 러브 송’은 이번 달 신보 ‘THE SIN : PARALLEL WORLD’로 컴백하는 그룹 엔하이픈(ENHYPEN)이 준비한 특별한 세레나데다. MBC 장우성 PD가 연출을 맡았으며, 오는 11월 25일(수) MBC 상암공개홀에서 녹화를 진행한다.
+지난 16일(월) 공개된 티저 영상은 미지의 소녀가 눈밭을 걷는 모습으로 시작된다. 소녀의 발자국마다 꽃이 피어나고, 신비로운 장막 너머로 그녀를 기다리는 누군가의 저택이 모습을 드러낸다. 이윽고 햇살 같은 빛과 함께 문이 열리고 한 남자가 소녀를 맞이하며 영상은 막을 내린다. 앞선 ‘THE SIN’ 시리즈와는 사뭇 다른 사랑스럽고 포근한 분위기가 이번 신보와 특집 쇼에 대한 기대를 높인다.
+이번 특집 쇼는 엔하이픈의 음악 그 자체에 집중할 수 있는 무대로 꾸며진다. ‘미드나잇 러브 송’이라는 제목에 걸맞게 엔하이픈이 발표한 곡들 가운데 사랑을 주제로 한 곡들을 중심으로, 한밤의 세레나데 같은 특별한 시간을 선사할 예정이다.
+특히 강렬한 퍼포먼스와 독보적인 콘셉트로 사랑받아 온 엔하이픈의 음악을 새로운 시선으로 만나볼 수 있다는 점이 이번 특집 쇼의 관전 포인트다. 사랑의 설렘부터 애틋함, 서로를 향한 확신까지 노래에 담긴 다채로운 감정을 무대 위에 풀어내며, 익숙한 곡들도 색다른 분위기로 만나볼 수 있을 전망이다. 팬들에게는 좋아하는 곡을 특별한 무대로 다시 만나는 기회이자, 시청자들에게는 엔하이픈의 음악적 매력을 새롭게 발견하는 시간이 될 것으로 기대된다.
+한편, 이번 특집 쇼에 대한 기대감은 엔하이픈의 컴백 소식과 맞물려 더욱 높아지고 있다. 엔하이픈은 오는 20일 오후 2시 음원, 23일 오후 12시 음반을 통해 신보 ‘THE SIN : PARALLEL WORLD’를 발매한다. 서로 다른 평행 세계에서도 운명적인 사랑을 확신하는 연인의 이야기를 담은 앨범으로, 지난 13일 선공개된 타이틀 ‘I Want You’ 뮤직비디오는 16일 스포티파이 글로벌 일간 뮤직비디오 차트 1위에 오른 바 있다.
+엔하이픈이 준비한 특별한 세레나데가 어떤 무대로 펼쳐질지 기대가 모이는 MBC ‘엔하이픈 특집 쇼 : 미드나잇 러브 송’은 오는 12월 6일(일) 밤 11시 35분 MBC에서 방송된다.
+
 ## KBS1 인간극장 — 11/26 07:50 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/1tv/culture/human
 - 보도자료 제목: [인간극장] 11월 26일 예고편 / 07:50 방송
@@ -897,6 +924,21 @@ EBS 학교 밖 청소년
 양조장을 시작하고 벌써 햇수로 13년.기보 씨는 이제 막걸리 장인이라 해도 손색없을 만큼 능숙하게 누룩을 빚고 술을 만들어 낸다.물론 처음부터 부부의 도전이 순탄했던 것은 아니다.양조장과 함께 문을 열었던 주막은 코로나19의 여파로 결국 문을 닫아야 했다.하지만 포기하지 않고 묵묵히 술을 빚어온 끝에,이제는 술이 모자라 판매를 못 하는 날도 생길 만큼 양조장이 자리를 잡았다.기쁜 일도 잠시, 일흔을 바라보는 나이가 되니 기보 씨는 예전 같지 않은 몸이 걱정이다.매일 술을 젓고 고두밥을 찌느라 관절도 성치 않은 데다 건강검진에서도 적신호가 켜졌다.이제는 잘 일군 양조장을 누군가에게 물려주고 싶은 마음.자연스레 외아들 호진(43) 씨가 떠오르지만,서울에서 인테리어 일을 하며 어린 두 아들을 키우는 아들에게 선뜻 권하기도 쉽지 않다.호진 씨의 사정을 알기에 기보 부부도 차마 먼저 말을 꺼내지 못한다.그래도 친구들이 아들에게 가업을 물려주고 여유를 찾는 모습을 보면부러운 마음이 드는 건 어쩔 수 없다.언젠가 아들이 양조장을 이어주길 바라는 마음으로, 기보 씨는 오늘도 묵묵히 술을 빚는다.막걸리와 함께 달려온 세월, 이제 그에게는 또 하나의 오르막이 기다리고 있다.
 # 그래도 잘 빚었다!
 정신없이 막걸리를 빚다 보면 기보 씨의 눈에, 아내 선형 씨가 들어온다.회사에 다닐 때도, 대학교수로 학생들을 가르칠 때도 늘 곁에서 자신을 응원해 준 사람.코로나가 오기 전 함께 주막을 운영할 때도,
+
+## MBC 구해줘! 홈즈 — 11/26 22:00 방송
+- 출처: MBC 보도자료 · https://with.mbc.co.kr/pr/press/view.html?idx=36990
+- 보도자료 제목: [구해줘! 홈즈]  ‘힙살힙죽’ 듀오 뮤지X김대호, 서울 ‘사대천(川)왕’ 임장 출격! 하천 옆세권의 매력은?
+
+MBC [구해줘! 홈즈] ‘힙살힙죽’ 듀오 뮤지X김대호, 서울 ‘사대천(川)왕’ 임장 출격! 하천 옆세권의 매력은?
+MBC [구해줘! 홈즈] 스티로폼 타고 등교에 망태 할아버지 목격담까지?! ‘야생 하천’ 추억 소환
+MBC [구해줘! 홈즈] 성곽을 담벼락 삼은 홍제천 옆 인왕산 뷰 주택! 세월의 멋을 간직한 ‘오리지널 클래식’ 하우스!
+MBC [구해줘! 홈즈] ‘힙 호소인’ 김대호의 힙부심 폭발! 절친 뮤지가 직접 밝히는 ‘힙대호’의 실체는?
+26일(목) 방송되는 MBC ‘구해줘! 홈즈’(연출: 정다히, 장효종, 김유진/이하 ‘홈즈’)에서는 서울 ‘사대천(川)왕’ 임장에 나선다.
+이날 방송에서는 천변을 따라 발달한 생활 인프라와 쾌적한 자연환경을 동시에 누릴 수 있는 서울의 ‘하천 옆세권’을 찾아간다. 이번 임장에는 ‘힙의 정석’ 뮤지와 ‘힙 호소인’ 김대호가 출격한다. 두 사람은 홍제천, 양재천, 안양천, 탄천까지 서울을 대표하는 네 개의 하천을 따라 저마다 개성 넘치는 매력을 지닌 집들을 살펴볼 예정이다.
+본격적인 임장에 앞서 코디들은 그야말로 야생 그 자체였던 하천에 얽힌 옛 추억을 꺼내놓는다. 뮤지는 과거 하천이 범람하면 물에 잠긴 길을 아이들이 스티로폼을 타고 등교하기도 했다며 당시를 회상하고, 양세형도 넘친 물에 떠내려오는 물건을 잡기 위해 밧줄까지 던졌던 일화를 공개한다. 여기에 장동민도 과거 물난리 이후 거리에서 목격했던 기이한 광경을 더하며, 오늘날과는 사뭇 달랐던 천변의 모습을 전한다.
+두 사람이 처음 찾은 곳은 종로구 홍지동, 홍제천 바로 옆에 자리한 단독주택 매물이다. 홍지문과 이어진 성곽을 담벼락 삼은 독특한 집으로, 약 45년 전 미군 관사를 분양받은 집주인이 지금까지 거주하고 있다. 집 안에 들어서자 세월의 멋을 고스란히 간직한 인테리어가 시선을 사로잡는다. 뮤지는 “클래식한 인테리어에 감성이 젖는 느낌”이라며 집 안 곳곳을 둘러보며 감탄을 금치 못한다.
+2층에 올라서자 인왕산이 시원하게 내다보이는 탁 트인 통창이 두 사람을 맞이한다. 통창이 흔치 않던 80년대, 집주인이 직접 창을 수입해 시공했다는 사실에 놀라움을 안긴다. 이어 집 안 곳곳에 자리한 빈티지 소품에서 집주인의 남다른 안목을 엿본 김대호는 “진짜 너무 힙하신 분”이라며 감탄하는 한편, 자신만의 힙부심도 드러낸다. 평소 뮤지와 함께 핫플레이스에서 힙하게 논다는 김대호. 이를 믿지 못하는 코디들의 반응에 뮤지가 직접 나서 ‘힙대호’의 실체를 증언한다고 하는데. 과연 김대호는 자타공인 ‘힙스터’로 인정받을 수 있을지 관심이 집중된다.
+MBC ‘구해줘! 홈즈’ 서울 사대천왕 편은 오는 26일 목요일 밤 10시에 방송된다.
 
 ## EBS 왔다! 내 손주 — 11/26 방송
 - 출처: EBS 보도자료 · https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005669507
@@ -929,5 +971,3 @@ EBS 김만덕 편 (11월 23일 ~ 12월 4일까지 평일 저녁 6시 30분 EBS1)
 EBS FM '정경의 클래식 클래식' 11월 25일 특집 공개방송 송출
 목록
 
----
-수집 실패: MBC 목록: timed out
