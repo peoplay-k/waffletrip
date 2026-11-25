@@ -8,12 +8,14 @@ kind: 보도자료
 title: 강원 DMZ박물관, 'TO MY DEAR 아리랑' 특별전 개최
 source_name: ''
 source_url: ''
-summary: 강원특별자치도 DMZ박물관이 25일부터 특별전 'TO MY DEAR 아리랑'을 연다. 내년 3월 31일까지 이어진다. 한국전쟁 참전군인과 피난민의 삶을 두 주제로 다룬다.
+summary: 강원특별자치도 DMZ박물관이 25일부터 특별전 'TO MY DEAR 아리랑'을 연다. 내년 3월 31일까지 이어진다. 한국전쟁 참전군인과
+  피난민의 삶을 두 주제로 다룬다.
 sources:
-  - https://www.jeonmae.co.kr/news/articleView.html?idxno=1315257
-  - https://www.anewsa.com/detail.php?number=3221127
-  - https://www.k-today.com/news/articleView.html?idxno=10943
-status: approved
+- https://www.jeonmae.co.kr/news/articleView.html?idxno=1315257
+- https://www.anewsa.com/detail.php?number=3221127
+- https://www.k-today.com/news/articleView.html?idxno=10943
+status: duplicate
+duplicate_of: 20261124_stage_dmz-museum-to-my-dear-arirang.md
 ---
 강원특별자치도 DMZ박물관이 특별기획전 'TO MY DEAR 아리랑'을 연다. 전시는 25일부터 내년 3월 31일까지 이어진다.
 

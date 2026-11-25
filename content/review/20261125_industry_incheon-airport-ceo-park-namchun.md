@@ -8,13 +8,15 @@ kind: 해설
 title: 인천국제공항공사, 박남춘 신임 사장 취임
 source_name: ''
 source_url: ''
-summary: 박남춘 전 인천광역시장이 인천국제공항공사 11대 사장으로 23일 취임했다. 임기 내 취항도시 200개, 연간 여객 9000만 명을 목표로 내놨다. 취임사에서 '변화와 혁신'을 강조하며 5대 추진방향을 밝혔다.
+summary: 박남춘 전 인천광역시장이 인천국제공항공사 11대 사장으로 23일 취임했다. 임기 내 취항도시 200개, 연간 여객 9000만 명을
+  목표로 내놨다. 취임사에서 '변화와 혁신'을 강조하며 5대 추진방향을 밝혔다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72784
-  - https://www.newsis.com/view/NISX20261123_0003878501
-  - https://biz.chosun.com/policy/policy_sub/2026/11/23/X6ZGTC42HVGHBP2N6Q3BERNECE/
-  - https://www.traveltimes.co.kr/news/articleView.html?idxno=500771
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72784
+- https://www.newsis.com/view/NISX20261123_0003878501
+- https://biz.chosun.com/policy/policy_sub/2026/11/23/X6ZGTC42HVGHBP2N6Q3BERNECE/
+- https://www.traveltimes.co.kr/news/articleView.html?idxno=500771
+status: duplicate
+duplicate_of: 20261124_industry_incheon-airport-new-ceo-park-namchoon.md
 ---
 박남춘 전 인천광역시장이 인천국제공항공사 제11대 사장으로 취임했다. 임기 내 취항도시 200개, 연간 여객 9000만 명 달성을 핵심 목표로 내놨다.
 

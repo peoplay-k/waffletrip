@@ -8,11 +8,14 @@ kind: 해설
 title: 서울신라호텔, 파리서 한식 선보여…레스토랑 4곳 '라 리스트' 5년 연속
 source_name: ''
 source_url: ''
-summary: 서울신라호텔이 파리에서 한식을 선보였다. 한불수교 140주년 기념행사에서다. 호텔 레스토랑 4곳이 '라 리스트 2027'에 5년 연속 올랐다.
+summary: 서울신라호텔이 파리에서 한식을 선보였다. 한불수교 140주년 기념행사에서다. 호텔 레스토랑 4곳이 '라 리스트 2027'에 5년 연속
+  올랐다.
 sources:
-  - http://www.kdfnews.com/news/articleView.html?idxno=191345
-  - https://biz.heraldcorp.com/article/10947091
-status: approved
+- http://www.kdfnews.com/news/articleView.html?idxno=191345
+- https://biz.heraldcorp.com/article/10947091
+status: published
+published_id: c-7f5c4fdbd1114f0e6a3a9d792db5d7a39c0f9dd0
+published_on: '2026-11-25'
 ---
 서울신라호텔이 프랑스 파리에서 한국 전통 음식을 선보였다. 세계적 미식 가이드 '라 리스트 2027'에서는 호텔 레스토랑 4곳이 5년 연속 글로벌 1000대 레스토랑에 이름을 올렸다.
 

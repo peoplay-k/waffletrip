@@ -8,10 +8,13 @@ kind: 보도자료
 title: 에어로케이, 청주~타이베이 노선 하루 2회로 증편
 source_name: ''
 source_url: ''
-summary: 에어로케이항공이 청주~타이베이 노선을 27일부터 하루 2회로 늘린다. 주간 운항은 14회가 된다. 청주국제공항을 거점으로 한 노선 확대다.
+summary: 에어로케이항공이 청주~타이베이 노선을 27일부터 하루 2회로 늘린다. 주간 운항은 14회가 된다. 청주국제공항을 거점으로 한 노선
+  확대다.
 sources:
-  - https://www.kcilbo.com/articles/2026112557978
-status: approved
+- https://www.kcilbo.com/articles/2026112557978
+status: published
+published_id: c-d29c9786b7cddb0073473cd741780ad8debc6d04
+published_on: '2026-11-25'
 ---
 에어로케이항공이 청주~타이베이 노선을 하루 2회로 늘린다. 운항 횟수는 주 14회로 늘어난다.
 

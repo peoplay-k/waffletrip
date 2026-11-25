@@ -8,10 +8,13 @@ kind: 보도자료
 title: KBS2 일일드라마 '욕망의 덫' 65회, 은설 손 잡은 석진
 source_name: ''
 source_url: ''
-summary: KBS2 일일드라마 '욕망의 덫' 65회가 25일 방송된다. 석진은 소연을 지키기 위해 은설의 도움을 받는다. 미란은 해라를 앞세워 정선의 장학사업을 흔들 계략을 꾸민다.
+summary: KBS2 일일드라마 '욕망의 덫' 65회가 25일 방송된다. 석진은 소연을 지키기 위해 은설의 도움을 받는다. 미란은 해라를 앞세워
+  정선의 장학사업을 흔들 계략을 꾸민다.
 sources:
-  - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+- https://program.kbs.co.kr/2tv/drama/yokmang
+status: published
+published_id: c-1a0e9a1d89dd4da78eee0488f00fe12f798593fc
+published_on: '2026-11-25'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 일일드라마 욕망의 덫 | 회차 · 65회

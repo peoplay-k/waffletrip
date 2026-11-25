@@ -8,10 +8,13 @@ kind: 보도자료
 title: KBS1 '황신혜의 같이 삽시다' 383회, 제이쓴과 남양주 나들이
 source_name: ''
 source_url: ''
-summary: KBS1 '황신혜의 같이 삽시다'가 25일 383회를 방송한다. 제이쓴 초대로 싱글즈가 남양주를 찾는다. 황신혜는 생애 첫 자전거 라이딩에 도전한다.
+summary: KBS1 '황신혜의 같이 삽시다'가 25일 383회를 방송한다. 제이쓴 초대로 싱글즈가 남양주를 찾는다. 황신혜는 생애 첫 자전거
+  라이딩에 도전한다.
 sources:
-  - https://program.kbs.co.kr/1tv/enter/livetogether
-status: approved
+- https://program.kbs.co.kr/1tv/enter/livetogether
+status: published
+published_id: c-b36254a785b17fa048bc97e48e0fae331f96d46d
+published_on: '2026-11-25'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 황신혜의 같이 삽시다 | 회차 · 383회

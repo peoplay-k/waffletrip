@@ -8,12 +8,15 @@ kind: 해설
 title: '''폭설'' 7일 연속 박스오피스 1위, 50만 관객 눈앞'
 source_name: ''
 source_url: ''
-summary: 영화 '폭설'이 7일 연속 박스오피스 1위를 지켰다. 누적 관객은 49만9716명으로 50만 명 돌파를 앞뒀다. 개봉 첫 주말에만 31만 명 이상을 동원했다.
+summary: 영화 '폭설'이 7일 연속 박스오피스 1위를 지켰다. 누적 관객은 49만9716명으로 50만 명 돌파를 앞뒀다. 개봉 첫 주말에만
+  31만 명 이상을 동원했다.
 sources:
-  - http://knpp.co.kr/news/599112
-  - https://www.econovill.com/news/articleView.html?idxno=758444
-  - https://www.addnewsin.com/news/articleView.html?idxno=63985
-status: approved
+- http://knpp.co.kr/news/599112
+- https://www.econovill.com/news/articleView.html?idxno=758444
+- https://www.addnewsin.com/news/articleView.html?idxno=63985
+status: published
+published_id: c-aaf7e4ffc4083920805e5d40ded536889e41d310
+published_on: '2026-11-25'
 ---
 김윤석·구교환 주연의 영화 '폭설'이 개봉 이후 7일 연속 박스오피스 1위를 지켰다. 누적 관객 수는 49만9716명으로 50만 명 돌파를 앞뒀다.
 

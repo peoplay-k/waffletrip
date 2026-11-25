@@ -8,10 +8,13 @@ kind: 해설
 title: 관광공사, APEC 개최지 中 선전서 지방공항 연계 한국 관광상품 홍보
 source_name: ''
 source_url: ''
-summary: 문화체육관광부와 한국관광공사가 중국 선전에서 한국 지역관광을 홍보했다. 올해 APEC 정상회의 개최지에서 지방공항과 연계한 상품을 소개했다. 행사는 지난 21일 현지에서 열렸다.
+summary: 문화체육관광부와 한국관광공사가 중국 선전에서 한국 지역관광을 홍보했다. 올해 APEC 정상회의 개최지에서 지방공항과 연계한 상품을
+  소개했다. 행사는 지난 21일 현지에서 열렸다.
 sources:
-  - https://www.yna.co.kr/view/AKR20261125032000030
-status: approved
+- https://www.yna.co.kr/view/AKR20261125032000030
+status: published
+published_id: c-6d75a7bbd9327c6bc20c43816099457e9c2c9efc
+published_on: '2026-11-25'
 ---
 문화체육관광부와 한국관광공사가 중국 선전에서 한국 지역관광을 홍보했다. 올해 APEC 정상회의 개최지인 선전에서 지방공항과 연계한 한국 관광상품을 알렸다.
 

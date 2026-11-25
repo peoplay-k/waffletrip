@@ -8,14 +8,17 @@ kind: 해설
 title: 하와이 교통당국, 추수감사절 여행객에 "공항 일찍 오라"
 source_name: ''
 source_url: ''
-summary: 하와이주 교통국이 추수감사절 여행객에게 항공편·주차·보안 요건을 미리 확인하라고 당부했다. 출발이 몰려 지연이 예상된다. 날씨는 수요일까지 건조하지만 추수감사절 아침까지 찬 공기가 전역을 지난다.
+summary: 하와이주 교통국이 추수감사절 여행객에게 항공편·주차·보안 요건을 미리 확인하라고 당부했다. 출발이 몰려 지연이 예상된다. 날씨는 수요일까지
+  건조하지만 추수감사절 아침까지 찬 공기가 전역을 지난다.
 sources:
-  - https://www.khon2.com/local-news/traveling-thanksgiving-tips-airport/
-  - https://mauinow.com/2026/11/24/heading-to-kahului-airport-thanksgiving-advice-for-maui-travelers/
-  - https://www.hawaiinewsnow.com/2026/11/25/thanksgiving-airport-travel-hawaii-what-know/
-  - https://www.hawaiinewsnow.com/2026/11/25/first-alert-forecast-cold-front-sweep-across-state-thanksgiving/
-  - https://www.khon2.com/wake-up-2day/hawaii-holiday-week-weather/
-status: approved
+- https://www.khon2.com/local-news/traveling-thanksgiving-tips-airport/
+- https://mauinow.com/2026/11/24/heading-to-kahului-airport-thanksgiving-advice-for-maui-travelers/
+- https://www.hawaiinewsnow.com/2026/11/25/thanksgiving-airport-travel-hawaii-what-know/
+- https://www.hawaiinewsnow.com/2026/11/25/first-alert-forecast-cold-front-sweep-across-state-thanksgiving/
+- https://www.khon2.com/wake-up-2day/hawaii-holiday-week-weather/
+status: published
+published_id: c-200c3dc3ce4862b61a1e5cb1e37b56a548cb3087
+published_on: '2026-11-25'
 ---
 하와이주 교통국이 추수감사절 연휴를 앞두고 여행객들에게 항공편과 주차, 보안 검색 요건을 미리 확인하라고 당부했다. 공항에는 평소보다 일찍 나와야 한다고 권고했다.
 

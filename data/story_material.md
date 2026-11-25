@@ -5,22 +5,22 @@
 
 ## 괌
 
+### 투어비스-괌정부관광청, 수험생·학부모 대상 겨울 기획전 진행
+- 매체 1곳 · 디스커버리뉴스(DISCOVERYNEWS)
+  - 디스커버리뉴스(DISCOVERYNEWS): [디스커버리뉴스=정기환 기자] 겨울방학과 연말 휴가 시즌을 앞두고 수험생과 학부모 세대를 겨냥한 괌 여행 기획전이 마련됐다. 투어비스는 괌정부관광청과 협력해 수험생 및 학부모 대상 기획전 ‘올겨울, 따뜻한 괌 여행’을 운영한다.
+    https://www.discoverynews.kr/news/articleView.html?idxno=1107785
+
 ### 호시노 리조트 리조나레 괌, 차모로 전통문화 담은 비치클럽과 올데이 다이닝 선보여
 - 매체 1곳 · 코리아스프린트
   - 코리아스프린트: (서울=코리아스프린트) 괌의 전통문화와 지역 고유의 매력을 경험할 수 있는 비치 리조트 ‘호시노 리조트 리조나레 괌’이 지난 11월 1일 괌 최초의 본격적인 ‘비
     https://www.koreasprint.com/news/articleView.html?idxno=23285
 
-### 투어비스-괌정부관광청, 수험생·학부모 대상 겨울 기획전 진행
-- 매체 1곳 · 디스커버리뉴스(DISCOVERYNEWS)
-  - 디스커버리뉴스(DISCOVERYNEWS): 
-    https://news.google.com/rss/articles/CBMickFVX3lxTE1YcVV5RUhjTENHbEdBMnhueHdLaHBQVzN0WE9UdTNtQklZa2l6LVpLWWhaVHZhM3h3Zkhsc0tYelF2TnlYTjFjdW1VQ2FfTnJITThyZ1JnOXg3YVdvbzJNbTRlLW13Yzg0Nml1VXBhd2ZsZw?oc=5
-
 ## 사이판
 
-### 마리아나, 박보겸과 겨울 골프 여행 선보여
-- 매체 1곳 · 트래블데일리
-  - 트래블데일리: 마리아나관광청이 겨울에도 따뜻한 마리아나에서 공식 골프 앰배서더 박보겸 프로와 함께하는 골프 프로모션을 선보인다. 12월 3일과 4일 출발하는 4박 5일 골프 여행상품과 연계해, 태평양을 바라보며 즐기는 라운드와 리조트 휴양, KLPGA 메이저 챔피언과의 만남을 한 번에 경험할 수 있다
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72787
+### KLPGA 메이저 챔피언 박보겸과 함께하는 ‘한겨울 사이판 골프’
+- 매체 1곳 · 비즈월드
+  - 비즈월드: [비즈월드] 매서운 한파가 찾아오는 12월, 푸른 태평양을 배경으로 한국여자프로골프(KLPGA) 메이저 대회 우승자와 직접 샷 대결을 펼치는 이색 겨울 골프 여행 상품이 나왔다. 마리아나관광청은 공식 골프 앰배서더인 박보겸 프로와 함께하는 ‘사이판 겨울 골프 프로모션’을 선보인다고 23
+    https://www.bizwnews.com/news/articleView.html?idxno=152791
 
 ## 하와이
 
@@ -94,7 +94,28 @@
   - vietnam.vn: 2026년 하노이 관광 아오자이 축제에는 2,000명이 넘는 사람들이 호안끼엠 호수 주변에서 퍼레이드를 펼쳤으며, 이는 수도 하노이에서 아오자이 문화와 관광을 기반으로 한 창조 경제 발전을 위한 기회를 열어주었습니다.
     https://www.vietnam.vn/ko/le-hoi-ao-dai-du-lich-ha-noi-2026-mo-co-hoi-kinh-te-sang-tao
 
+## 코타키나발루
+
+### 코타키나발루 수트라하버 리조트, 한국 시장 공략 위한 로드쇼 참가
+- 매체 1곳 · 미래를 보는 창 - 전자신문
+  - 미래를 보는 창 - 전자신문: 말레이시아 코타키나발루의 수트라하버 리조트(Sutera Harbour Resort)가 국내 주요 도시에서 열리는 '사바 로드쇼 코리아 2026(Sabah Roadshow to South Korea 2026)'에 참가해 한국 여행시장 공략에 나선다. 사바
+    https://www.etnews.com/20261125000471
+
 ## 제주
+
+### 재해보험 있으나마나 "농민들 두 번 울린다"
+- 매체 1곳 · 제주일보  ← 여러 곳이 썼다
+  - 제주일보: 지난 10월부터 잦은 비날씨로 곰팡이균 등의 확산으로 농작물 피해가 속출한 가운데 재해보험을 가입해도 보상을 받는 것이 까다로워서 농민들이 울상이다. 제주기상청에 따르면 10월 제주지역 강수량은 275.5㎜로 평년(91.6㎜)보다 약 3배나 많았다.
+    http://www.jejunews.com/news/articleView.html?idxno=2229014
+  - 제주일보: 25일 제주시 삼양일동 소재 도롯가 주변에서 농민들이 궂은 날씨에 말리지 못했던 콩들을 말리는 작업으로 분주하다. 고봉수 기자
+    http://www.jejunews.com/news/articleView.html?idxno=2229050
+
+### 제주관광공사 ‘카름스테이’, SBS 예능 통해 제주 마을 여행·지역 특산품 소개
+- 매체 2곳 · 뉴스로드 · 연합뉴스  ← 여러 곳이 썼다
+  - 뉴스로드: 
+    https://news.google.com/rss/articles/CBMia0FVX3lxTE1xSG5tR0ViQ3JHSEhtdGpsQ2xnM3luYXJ4SjVJQ0s2X3pYMXJYME1sM0xfT3hQX3Jvc1d3OWllMHZRb21iNlZ3Q29hN0hOMUR3NTh3QWpJQWZmaDlGR0MzZkhDUnZDR1JUdEdr0gFvQVVfeXFMUGx1NUJtbVM5MkpFQldFLXhpM2IyQ3hEdG01Vm1oaUlrSkkzY3BfanRkaFpHcjBrV3JOVTBKdElwUENUY2VSQ194WExiX2pSZmVWd1NmbUhyUG9UNzVfNWwxU3l0a0FIc2Z5UkdJb3NF?oc=5
+  - 연합뉴스: (제주=연합뉴스) 박지호 기자 = 제주관광공사는 겨울철 제주를 찾는 관광객들이 제주의 계절을 깊이 있게 경험할 수 있도록 '2026 추천 제주 ...
+    https://www.yna.co.kr/view/AKR20261125115000056
 
 ### 제주 마이스, 세계시장 공략 본격화
 - 매체 1곳 · 트래블데일리
@@ -106,20 +127,10 @@
   - 트래블데일리: 제주 마을의 고유한 매력과 서울 성수동의 문화기획 역량을 결합해 지역관광의 새로운 가능성을 모색하는 교류의 장이 마련됐다. 제주관광공사는 지난 20일 성동문화재단(이사장 박봉주) 임직원들이 제주웰컴센터를 방문해 관광목적지에서의 콘텐츠 경쟁력 강화와 양 기관 간 협력 방안을 논의했다.
     https://www.traveldaily.co.kr/news/articleView.html?idxno=72772
 
-### 사계절 내내 찾고 싶은 제주…관광 패러다임 바꾼다
-- 매체 1곳 · 제주일보
-  - 제주일보: 제주 관광의 오랜 과제 중 하나는 계절에 따른 관광 수요의 편중이다. 여름철 해수욕과 휴가철에 관광객이 집중되는 반면 가을과 겨울에는 상대적으로 방문 동기가 약해지는 계절적 한계가 반복돼 왔다.
-    http://www.jejunews.com/news/articleView.html?idxno=2229053
-
-### 제주 드림타워 개관 6주년…도민 대상 뷔페 최대 20% 할인
-- 매체 1곳 · 제주일보
-  - 제주일보: 제주 드림타워 복합리조트가 개관 6주년을 맞아 연말연시 제주도민을 대상으로 특별 할인 행사를 진행한다. 롯데관광개발은 12월 1일부터 내년 1월 31일까지 두 달간 호텔 내 프리미엄 뷔페 레스토랑 그랜드키친을 이용하는 도민에게 16% 할인 혜택을 제공한다고 25일 밝혔다.
-    http://www.jejunews.com/news/articleView.html?idxno=2229052
-
-### 디에스엠, 기업 단체 수요로 ‘9.81파크 제주’ 평일 가동률 개선…인천공항으로 확장
-- 매체 1곳 · 매일경제
-  - 매일경제: 디에스엠은 자사가 운영하는 ‘9.81파크 제주’의 기업 단체 이용객이 3년 연속 늘어나며 평일 가동률과 수익 구조 개선으로 이어지고 있다고 25일 밝혔다. 제주관광협회에 따르면 올해 1~9월 제주 회의·업무 목적 방문객은 약 33만 2000명으로 전년 동기 대비 5.7% 증가해 전체 입
-    https://www.mk.co.kr/news/stock/12217715
+### 제주 삼양동 유적서 선사문화 시간여행…움집·토기 체험
+- 매체 1곳 · 뉴시스
+  - 뉴시스: [제주=뉴시스] 김수환 기자 = 제주 삼양동 유적에서 움집과 토기 만들기 등 선사시대 생활상을 체험할 수 있는 프로그램이 운영된다. 제주도 세계유산본부는 이달 마지막 주말부터 12월 중순까지 삼양동 유적에서 청동기 문화와 선사 문화를 주제로 체험 행사를 진행한다고 25일 밝혔다.
+    https://www.newsis.com/view/NISX20261125_0003883036
 
 ## 일본
 
@@ -153,10 +164,12 @@
   - 지디넷코리아: 클룩 조사 결과, 연말을 앞두고 일본 온천·설경 명소 11곳의 한국인 호텔 예약이 지난 여름 대비 118.1% 급증한 것으로 나타났다. 25일 클룩에 따르면, 올해 10월 1일부터 11월 15일까지 일본 호텔 예약은 전년 동기 대비 13.9% 증가했다.
     https://zdnet.co.kr/view/?no=20261125090120
 
-### 1955 도쿄 베이 by 호시노 리조트, 2박 3일 체류 플랜 제안
-- 매체 1곳 · 트래블데일리
-  - 트래블데일리: 1955년 미국 빈티지 감성을 담은 호텔 ‘1955 도쿄 베이 by 호시노 리조트’는 11월 10일부터 12월 25일까지 콜라를 테마로 한 겨울 시즌 한정 크리스마스 이벤트 ‘OLDIES COLA HOLIDAY 1955’를 진행하고 테마파크 여행과 홀리데이 무드를 동시에 만끽할 수 있는
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72794
+### 울산경자청, 일본서 투자유치… 항만물류·관광·AI 등 진행
+- 매체 2곳 · KBS 뉴스 · 문화일보  ← 여러 곳이 썼다
+  - 문화일보: 울산=곽시열 기자 울산경제자유구역청(울산경자청)은 오는 27일까지 4일간 일본 도쿄(東京)와 나고야(名古屋)에서 열리는 ‘KFEZ 데이 인 재팬’에서 산업별 맞춤형 투자유치 활동을 펼친다고 24일 밝혔다. 이번 행사는 산업통상부와 대한무역투자진흥공사(KOTRA), 국내
+    https://www.munhwa.com/article/11633624
+  - KBS 뉴스: 
+    https://news.kbs.co.kr/news/pc/view/view.do?ncd=8721898
 
 ## 태국
 
@@ -169,6 +182,13 @@
   - vietnam.vn: 11월 24일 오후, 람동성 투자·무역·관광진흥센터는 베트남공항공사(ACV)와 협력하여 리엔쿠옹 국제공항과 방콕(태국) 간 직항편 개설 및 관광 진흥을 위한 회의를 개최했습니다.
     https://www.vietnam.vn/ko/lam-dong-xuc-tien-du-lich-ket-noi-duong-bay-truc-tiep-den-bangkok
 
+### 모두투어, 6명 단독 운영하는 프리미엄 방콕 여행상품 출시
+- 매체 2곳 · TTL뉴스 · 뉴스트래블  ← 여러 곳이 썼다
+  - 뉴스트래블: [뉴스트래블=박주연 기자] 모두투어가 프리미엄 브랜드 ‘모두시그니처’와 단독여행 브랜드 ‘ONLY 우리만’을 결합한 방콕 여행상품 ‘SA방콕’을 출시했다. 6명 예약을 기준으로 일행 한 팀만 단독 운영하며, 5성급 호텔 3박과 자유일정, 현지 미식·문화 체험을 결합한 것이 특징이다.
+    https://www.newstravel.co.kr/news/article.html?no=28228
+  - TTL뉴스: 모두투어가 ‘모두시그니처’와 단독여행 브랜드 ‘ONLY 우리만’을 결합해 일행끼리 방콕의 문화와 미식, 야경을 즐기는 프라이빗 여행 상품 ‘SA방콕’을 출시했다. 5성급 호텔 연박과 자유일정을 포함해 소규모 프리미엄 여행으로 구성한 상품이다.
+    http://www.ttlnews.com/news/articleView.html?idxno=3166038
+
 ### 태국, 아태지역 MICE 시장 주도권 잡는다
 - 매체 1곳 · 트래블데일리
   - 트래블데일리: 태국이 글로벌 MICE 전문 박람회 ‘IBTM Asia Pacific 2027’ 개최를 통해 아시아·태평양 MICE 시장에서의 영향력 확대에 나선다.
@@ -179,22 +199,17 @@
   - 더파노라마: 태국 푸켓 여행 중 소란스러운 관광지를 벗어나 온전한 쉼에 집중하고 싶다면 남부 케이프 판와 아오욘 해변가에 자리한 '베란다 리조트 푸켓 오토그래프 컬렉션'이 제격이다. 빠통 시내와는 거리가 있어 도보권 상권이나 유흥을 기대하긴 어렵지만, 덕분에 프라이빗 비치에서 한적하게 카약과 패들보
     https://www.ftimes.kr/news/articleView.html?idxno=41336
 
-### 영산대, 태국 의료·웰니스관광협회 등과 다자간 업무협약
-- 매체 1곳 · 부산일보
-  - 부산일보: 와이즈유 영산대학교(총장 부구욱) 웰니스연구원장 정구점 교수가 부산의 신성장 동력인 치유관광(Wellness Tourism) 산업화와 글로벌 인재 양성을. ..
-    https://www.busan.com/view/busan/view.php?code=2026112509504921629
-
-### 다이브인그룹, 방콕서 공간 IP 사업 확장…호텔 객실 기반 글로벌 협력 강화
-- 매체 1곳 · 공감신문
-  - 공감신문: [공감신문] 신선미 기자=호텔 객실을 예술과 브랜드 콘텐츠가 결합된 체험형 공간으로 전환하는 다이브인그룹이 태국 방콕에서 현지 호텔 및 투자사들과 협력 기반을 확대하며 글로벌 호스피탈리티 시장 공략을 강화하고 있다. 호스피탈리티 기반 공간 IP 및 아트스테이 플랫폼 기업 다이브인그룹(대
-    https://www.gokorea.kr/news/articleView.html?idxno=887138
+### 치앙마이 여행이 여전히 선사하는 것들
+- 매체 1곳 · ELLE
+  - ELLE: 강은 오래전부터 이곳에 있었고, 나는 잠시 다녀갈 뿐이다. 란나 왕국의 기억을 품은 치앙마이에서 물을 따라 흘러가본 시간.
+    https://www.elle.co.kr/article/1913602
 
 ## 대만
 
-### 에어로케이, 청주~타이베이 노선 하루 2회로 증편…주 14회 운항
-- 매체 1곳 · 경충일보
-  - 경충일보: 사진은 타이베이 타오위안 공항에 주기되어 있는 에어로케이 항공기 청주국제공항을 거점으로 하는 에어로케이항공(대표 강병호)이 오는 27일부터 청주~타이베이. ..
-    https://www.kcilbo.com/articles/2026112557978
+### 청주서 대만 가는 비행기 ‘하루 두 번’
+- 매체 1곳 · 공뉴스
+  - 공뉴스: 충북 청주국제공항에서 대만 타이베이로 향하는 항공편이 하루 한 차례에서 두 차례로 늘어난다. 오전편에 오후편이 추가되면서 한국과 대만을 오가는 여행객들의 항공편
+    https://www.bzeronews.com/news/articleView.html?idxno=825822
 
 ### 말 안 통해도 통했다…SNS로 한국인 여권 찾아준 대만인
 - 매체 1곳 · 한국경제
@@ -229,6 +244,17 @@
   - 경북신문: 
     https://www.kbsm.net/news/view.php?idx=543081
 
+### 광주문화재단, 순천만습지서 생태·독서문화축제 ‘깃드는 자리’ 개최
+- 매체 4곳 · 광남신문 · 누리일보 · 선데이뉴스신문 · 아시아경제  ← 여러 곳이 썼다
+  - 선데이뉴스신문: 광주문화재단, 순천만습지서 책·생태·예술 잇는 문화축제 &lt;깃드는 자리&gt; 개최 [선데이뉴스신문=윤혜진 기
+    http://newssunday.co.kr/news/view.php?no=256659
+  - 누리일보: (누리일보) 광주문화재단은 오는 11월 28일 오전 10시부터 오후 5시까지 순천만습지 자연생태관 1·2층에서 책과 생태, 예술을 연결하는 문화축제 '깃드는 자리'를 개최한다. 이번 행사는 전남광주특별시 출범 이후, 그간 광주 지역을 중심으로 추진해 온 지역서점 활성화 지원사업을 전남권
+    https://nuriilbo.com/news/article.html?no=948780
+  - 광남신문: 전남광주특별시 출범 이후 광주권에 머물렀던 지역서점 활성화 사업이 전남의 대표 생태 공간인 순천만으로 무대를 넓힌다. 전남광주특별시가 주최하고 광주문화재단과 순천 지역 책방 '심다'가 공동 주관하는 문화축제 ‘깃드는 자리’가 오는 28일 오전 10시부터 오후 5시까지 순천만습지 자연생태
+    https://www.gjdream.com/news/articleView.html?idxno=674649
+  - 아시아경제: 갈대밭과 갯벌이 어우러진 순천만습지의 자연생태관이 오는 28일 거대한 공유 서재이자 예술 무대로 변신한다.
+    https://www.asiae.co.kr/article/2026112514190492081
+
 ### 단양관광공사 송병철 팀장, 관광진흥 공로 충북도지사 표창
 - 매체 4곳 · 국제뉴스 · 금강일보 · 중도일보 · 타임뉴스  ← 여러 곳이 썼다
   - 중도일보: 관광시설의 경쟁력은 새로운 시설을 만드는 것만큼 기존 시설을 안전하고 효율적으로 운영하는 데서도 나온다. 충북 단양의 관광 현장을 18년 가까이 지켜온 송병철 단양관광공사 관광휴양.
@@ -240,14 +266,14 @@
   - 타임뉴스: 
     https://www.timenews.co.kr/article/1763460
 
-### 광주문화재단, 순천만습지서 생태·독서문화축제 ‘깃드는 자리’ 개최
-- 매체 3곳 · 광남신문 · 누리일보 · 선데이뉴스신문  ← 여러 곳이 썼다
-  - 선데이뉴스신문: 광주문화재단, 순천만습지서 책·생태·예술 잇는 문화축제 &lt;깃드는 자리&gt; 개최 [선데이뉴스신문=윤혜진 기
-    http://newssunday.co.kr/news/view.php?no=256659
-  - 누리일보: (누리일보) 광주문화재단은 오는 11월 28일 오전 10시부터 오후 5시까지 순천만습지 자연생태관 1·2층에서 책과 생태, 예술을 연결하는 문화축제 '깃드는 자리'를 개최한다. 이번 행사는 전남광주특별시 출범 이후, 그간 광주 지역을 중심으로 추진해 온 지역서점 활성화 지원사업을 전남권
-    https://nuriilbo.com/news/article.html?no=948780
-  - 광남신문: 전남광주특별시 출범 이후 광주권에 머물렀던 지역서점 활성화 사업이 전남의 대표 생태 공간인 순천만으로 무대를 넓힌다. 전남광주특별시가 주최하고 광주문화재단과 순천 지역 책방 '심다'가 공동 주관하는 문화축제 ‘깃드는 자리’가 오는 28일 오전 10시부터 오후 5시까지 순천만습지 자연생태
-    https://www.gjdream.com/news/articleView.html?idxno=674649
+### 보령노인종합복지관, 어르신 배움 결실 나누는 '은빛축제' 개최
+- 매체 3곳 · 대전일보 · 신아일보 · 충남내포뉴스  ← 여러 곳이 썼다
+  - 신아일보: 충남 보령시 어르신들이 한 해 동안 평생교육 프로그램을 통해 갈고닦은 실력을 선보이며 배움의 성과를 나눴다. 보령노인종합복지관은 지난 24일 복지관에서 평생교육 프
+    https://www.shinailbo.co.kr/news/articleView.html?idxno=5087504
+  - 대전일보: [보령]보령노인종합복지관은 지난 24일 복지관에서 어르신들의 배움과 열정을 나누는 '은빛축제 한마당'을 개최했다. 이번 행사는 복지관 평생교육 프로그램에 참여한 어르신들이 한 해 동안 배우고 익힌 성과를 발표하고, 배움의 즐거움과 성취감을 함께 나누기 위해 마련됐다.
+    https://www.daejonilbo.com/news/articleView.html?idxno=2316197
+  - 충남내포뉴스: 보령노인종합복지관은 지난 24일 복지관에서 어르신들의 배움과 열정을 나누는 '은빛축제 한마당'을 개최했다. 이번 행사는 평생교육 프로그램에 참여한 어르신들이 한 해
+    https://www.naeponews.co.kr/news/articleView.html?idxno=74454
 
 ### 부산 관광의 새로운 매력을 알린다… 「2026 부산국제트래블마트」 개최
 - 매체 3곳 · 가야일보 · 한국경제 · 한국방송뉴스  ← 여러 곳이 썼다
@@ -257,15 +283,6 @@
     https://www.hankyung.com/article/2026112475651
   - 가야일보: 부산시는 부산관광공사와 함께 24일 오전 10시 윈덤 그랜드 부산에서 &#39;2026 부산국제트래블마트&#39;를 열었다. 올해 6회째인 부산국제트래블마트는 부산 관광상품의 해외 판로를 확대하고 글로벌 관광 네트워크를 강화하는 국제 관광교류 행사다.
     http://www.gayailbo.com/news/articleView.html?idxno=16684
-
-### '섬진강여행 여기어때'...광양시, 섬진강권 숙박시설 이용객 2만원 할인 혜택 제공
-- 매체 3곳 · 뉴스1 · 뉴시스 · 파이낸셜뉴스  ← 여러 곳이 썼다
-  - 파이낸셜뉴스: 광양시가 구례·곡성·하동군과 공동으로 섬진강권 숙박시설 이용객에게 2만원의 할인 혜택을 제공하는 '섬진강여행 여기어때' 행사를 운영한다.
-    https://www.fnnews.com/news/202611241359063216
-  - 뉴시스: [광양=뉴시스] 김석훈 기자 = 전남광주 광양시가 구례·곡성·하동과 공동으로 섬진강권 숙박시설 이용객에게 2만원의 할인 혜택을 제공한다. '섬진강여행 여기어때' 행사 운영의 일환으로 12월2일까지 선착순 2850명에게 제공된다.
-    https://www.newsis.com/view/NISX20261124_0003881308
-  - 뉴스1: 
-    https://www.news1.kr/local/gwangju-jeonnam/6364439
 
 ## 여행업계
 
@@ -281,15 +298,15 @@
     https://www.traveltimes.co.kr/news/articleView.html?idxno=500771
 
 ### 관광공사, APEC 개최지 중국 선전서 한국 지역관광 홍보
-- 매체 4곳 · 서울경제 · 숙박매거진 · 아시아투데이 · 연합뉴스  ← 여러 곳이 썼다
+- 매체 5곳 · TTL뉴스 · 서울경제 · 숙박매거진 · 아시아투데이 · 연합뉴스  ← 여러 곳이 썼다
   - 연합뉴스: (서울=연합뉴스) 구정모 기자 = 문화체육관광부와 한국관광공사는 올해 아시아태평양경제협력체(APEC) 정상회의 개최지인 중국 선전에서 지난 21...
     https://www.yna.co.kr/view/AKR20261125032000030
-  - 서울경제: 
-    https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0UE5hUHVhWW81S01mbVEwdlJVYVk1aVdQZzcwWjhLOTJRV3RURm93cXhkYUFxREJNQmx0MzNNb0RIRGVCLUZKLUJELWhCR3ViRUHSAVNBVV95cUxNVTdSOXloMV83TjNXelV2SGNoakRVak54Qk9pZTlXUXdKR2stREpIMXY3NTc5OVItd0tvLXI5WGhPSm95UXhXYTdTRE5wN3NJYTZTYw?oc=5
-  - 숙박매거진: 
-    https://news.google.com/rss/articles/CBMicEFVX3lxTE1EREJQM1VXOFVzcWxVTlhsT1A3RmFGQ015NlFnQ1NwQjNmMWlJT21QU3BHbTdWa0N2SmppdHZWLUFuWk1KcXB2SkstV0xXRG1OVDdUVVp0Mmxrc044UVVOQ3JxUzBiMGR1SlZKWk9FS3Q?oc=5
-  - 아시아투데이: 
-    https://news.google.com/rss/articles/CBMibkFVX3lxTE5CS3RVTFU4MmRTcGRDVm05czJzYzBCQng3V1pzakxfbnJ0b1FYMkZvUXQ5a2RCLTNQVFZEMVBaZmJpS0ozNzkxSmpCcHI3V1NlMWNONndCeUt3aHp2Y2lSOXRBcUV5SHdNY0diOXZ3?oc=5
+  - 서울경제: 한국관광공사가 중국 화남지역의 방한 관광 수요를 국내 지방으로 유도하기 위한 현지 마케팅에 나섰다. 공사는 이달 21일부터 24일까지 올해 아시아태평양경제협력체(APEC) 정상회의가 열린 중국 선전에서 ‘2026 한국 페스티벌’을 개최했다고 25일 밝혔다.
+    https://www.sedaily.com/article/20118715
+  - 숙박매거진: 문화체육관광부와 한국관광공사는 중국 선전에서 지난 21일부터 24일까지 ‘2026 한국 페스티벌’을 열고 한국 지역여행 콘텐츠를 선보였다. 주홍콩한국문화원, 한국농수산식품유통공사, 한국콘텐츠진흥원이 함께한 이번 행사는 2026 APEC 정상회의 이후의 관심을 방한 관광 수요로 연결하려
+    http://www.sukbakmagazine.com/news/articleView.html?idxno=70089
+  - 아시아투데이: 2026 아시아·태평양 경제협력체(APEC )정상회의 개최지인 중국 선전에서 한국 여행을 알리는 행사가 열렸다. 문화체육관광부와 한국관광공사는 지난 21~24일 선전에서 주홍콩한국문화원, 한국농수산식품유통공사, 한국콘텐츠진흥원과 함께 ‘2026 한국 페스티벌’을 개최했.
+    https://www.asiatoday.co.kr/kn/view.php?key=20261125010009755
 
 ### 노랑풍선, 2027년 신혼여행 수요 겨냥 ‘2026 허니문 온라인 박람회’ 운영
 - 매체 3곳 · 뉴스핌 · 디스커버리뉴스(DISCOVERYNEWS) · 트래블데일리  ← 여러 곳이 썼다
@@ -309,14 +326,23 @@
   - 로이슈: 모두투어가 남반구 여름 시즌을 앞두고 호주 퀸즐랜드주의 브리즈번과 골드코스트를 중심으로 여행 상품을 확대했다. 도시 관광과 해변 휴양에 현지 문화·액티비티 체험을 결합한 일정이 특징이다.
     https://www.lawissue.co.kr/view.php?ud=202611241839039059204ead0791_12
 
+### 경기관광공사, 성평등 조직문화 조성 우수기관 선정…장관 표창
+- 매체 3곳 · 뉴스핌 · 아시아경제 · 헤럴드경제  ← 여러 곳이 썼다
+  - 아시아경제: 경기관광공사가 성평등 조직문화 조성 우수기관으로 선정돼 성평등가족부 장관 표창을 받았다.
+    https://www.asiae.co.kr/article/2026112509234517607
+  - 헤럴드경제: [헤럴드경제(수원)=박정규 기자]조원용 경기관광공사 사장은 “모든 구성원이 성별에 구애받지 않고 능력을 발휘하는 조직문화를 위해 꾸준히 노력해 왔다”고 했다. 경기
+    https://biz.heraldcorp.com/article/10948496
+  - 뉴스핌: [수원=뉴스핌] 박승봉 기자 = 경기관광공사는 지난 24일 성평등가족부 주최, 한국양성평등교육진흥원 주관으로 열린 '2026년 성평등 조직문화 조성 성과공유 워크숍'에서 우수 기관으로 선정돼 성평등가족부 장관 표창을 받았다고 25일 밝혔다. 경기관광공사 성평등가
+    https://www.newspim.com/news/view/20261125001032
+
 ### 서울신라호텔, 파리서 한식 선보여…레스토랑 4곳 '라 리스트' 5년 연속 선정
 - 매체 2곳 · 한국면세뉴스 · 헤럴드경제  ← 여러 곳이 썼다
   - 한국면세뉴스: 서울신라호텔이 프랑스 파리에서 열린 한불수교 140주년 기념 행사에서 한국 전통 음식을 선보였다. 세계적인 미식 가이드 '라 리스트 2027'에서는 호텔 내 레스토랑 4곳이 5년 연속 글로벌 1000대 레스토랑에 이름을 올렸다.
     http://www.kdfnews.com/news/articleView.html?idxno=191345
   - 헤럴드경제: 
     https://biz.heraldcorp.com/article/10947091
-  - 헤럴드경제: 
-    https://news.google.com/rss/articles/CBMiV0FVX3lxTFBycFFoVlM1YXI0X3Z1TzdpdllnX21rN2t5eUZfR21tRzUySUxpUWl4UldDc3V4dHN3bTVpWEFPTS1oY1RsampYQ011b1hPSHRWVjhoNVlrSQ?oc=5
+  - 헤럴드경제: 서울신라호텔은 프랑스 파리에서 열린 세계적인 미식 행사 ‘라 리스트 2027’에서 한국 미식을 알렸다고 25일 밝혔다. 서울신라호텔은 지난 23일(현지시간) 프랑스 파리
+    https://mbiz.heraldcorp.com/article/10948722
 
 ### 진에어, 2006~2008년생 대상 항공권 할인 쿠폰팩 제공
 - 매체 3곳 · (주) 서울경제티브이 · BBS 불교방송 · 제민일보  ← 여러 곳이 썼다
@@ -352,14 +378,7 @@
   - 뉴스핌: [서울=뉴스핌] 정태선 기자 = 중국 실크로드를 역사와 문화, 자연이라는 세 가지 시선으로 경험할 수 있는 테마 여행상품이 나왔다. 롯데관광개발은 중국 실크로드의 다양한 매력을 주제별로 즐길 수 있는 &apos;실크로드 컬렉션&apos; 3종을 출시한다고 25일
     https://www.newspim.com/news/view/20261125000431
 
-### 부산관공, ‘올해의 SNS’ 수상
-- 매체 2곳 · 투어코리아 · 트래블데일리  ← 여러 곳이 썼다
-  - 트래블데일리: 부산관광공사는 지난 23일 열린 ‘제12회 2026 올해의 SNS’ 시상식에서 ‘올해의 인스타그램’ 공공기업(공사) 부문 최우수상과 ‘올해의 유튜브’ 최우수상을 수상했다. ‘올해의 SNS’는 기업과 공공기관 등의 SNS 활용 현황과 소통 역량을 종합적으로 평가해 매체별 우수기관을 선정하
-    https://www.traveldaily.co.kr/news/articleView.html?idxno=72791
-  - 투어코리아: [투어코리아=김교환 기자] 울산 북구가 '제12회 2026 올해의 SNS' 기초지자체 자치구 부문에서 인스타그램 대상을 받았다. 이로써 북구는 4년 연속 수상 기록을 세웠다.
-    https://www.tournews21.com/news/articleView.html?idxno=149233
-
-## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 39건)
+## 여행신문 최근 50건 — 하나씩 훑는다 (안 쓴 것 38건)
 
 매일 이 목록을 끝까지 본다. ✅ 는 이미 근거로 쓴 기사다. 여행신문 기자가 직접 취재한
 분석·인터뷰·현장기는 쓰지 않는다 — 기관·기업 발표, 공개 통계, 신상품·취항 소식을 고른다.
@@ -394,7 +413,7 @@
 - [2026-11-24·여행업계] 이 대통령, 문관부 장관 후보자로 강유정 청와대 수석대변인 지명
   이재명 대통령이 11월 23일 문화체육관광부(문관부) 장관 후보자로 강유정 청와대 수석대변인을 지명했다. 영화·문학평론가 출신으로 국회와 청와대에서 활동해 온 강 후보자가 차기 문관부 수장으로 지명되면서 관광정책의 연속성과 향후 정책 방향에도 관심이 쏠린다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500775
-- [2026-11-24·여행업계] 인천공항공사 박남춘 신임 사장 취임…여객 9,000만 명 목표
+- ✅ [2026-11-24·여행업계] 인천공항공사 박남춘 신임 사장 취임…여객 9,000만 명 목표
   인천국제공항공사 제11대 사장으로 박남춘 전 인천광역시장이 11월 23일 취임했다. 박남춘 신임 사장은 취임 일성으로 ‘변화와 혁신’을 강조하고, 임기 내 취항 도시 200개, 연간 여객 9,000만 명 달성을 핵심 목표로 제시했다.
   https://www.traveltimes.co.kr/news/articleView.html?idxno=500771
 - [2026-11-23·여행업계] THE 50 BEST RESTAURANTS LATIN AMERICA 2026, 51~100위 명단 발표
@@ -516,12 +535,23 @@
 
 ## 공연·전시 — category: stage, 하루 두 편 이상
 
+### [stage] 김혜경 여사, 혜광블라인드 오케스트라 공연 관람
+- 매체 3곳 · KBS 뉴스 · 뉴스1 · 연합뉴스
+  - 연합뉴스: (서울=연합뉴스) 김혜경 여사가 25일 인천문화예술회관에서 혜광블라인드 오케스트라 공연을 관람하고 있다. 2026.11.25 [청와대 제공.
+    https://www.yna.co.kr/amp/view/PYH20261125120900013
+  - KBS 뉴스: 김혜경 여사는 오늘(25일) 인천문화예술회관에서 열린 연주자 전원이 시각장애인들로 구성된 혜광블라인드. ..
+    https://news.kbs.co.kr/news/view.do?ncd=8722212
+  - 뉴스1: 
+    https://www.news1.kr/politics/president/6365806
+
 ### [stage] 거제문화예술회관, 크리스마스 특별 무대 발레 ‘호두까기 인형’ 공연
-- 매체 2곳 · 거제신문 · 거제타임즈
+- 매체 3곳 · 거제신문 · 거제타임즈 · 경북매일
   - 거제신문: 연말 크리스마스 시즌을 맞아 온 가족이 함께 겨울 동화의 낭만을 만끽할 수 있는 정통 클래식 발레 무대가 거제를 찾는다. 거제시문화예술재단(이사장 변광용)은 오는 12월24일 오후 7시30분과 25일 오후 2시 거제문화예술회관 대극장에서 전남광주통합특별시립발레단 초청 공연 ‘호두까기 인
     https://www.geojenews.co.kr/news/articleView.html?idxno=97909
   - 거제타임즈: 크리스마스이브에 선물 받은 인형이 살아 움직이고, 소녀는 과자 나라로 모험을 떠난다. 차이콥스키의 음악과 발레로 펼쳐지는 겨울 동화 ‘호두까기 인형’이 거제 관객
     https://www.geojetimes.co.kr/news/articleView.html?idxno=206231
+  - 경북매일: 크리스마스 시즌을 대표하는 클래식 발레 ‘호두까기 인형’이 대구 동구 아양아트센터 무대에 오른다. 특히 이번 공연에는 대구 지역 어린이 무용수들이 전문 발레단과 함께 출연해 의미를 더한다.
+    https://www.kbmaeil.com/article/20261125500484
 
 ### [stage] 꿈의 오케스트라의 다음 무대…청소년 29명, 김대진 지휘로 합주
 - 매체 1곳 · 아주경제
@@ -549,6 +579,13 @@
   - 이트레블뉴스: [이트레블뉴스=양상국 기자] 국가유산청 국립해양유산연구소 태안수중유산박물관은 한국 수중발굴 50주년을 기념해 오는 11월 25일부터 2027년 5월 2일까
     https://www.momonews.com/82089
 
+### [stage] 국립심포니, 문학·오페라 잇는 2027 시즌 〈인스퍼레이션〉 공개
+- 매체 2곳 · 뉴스코리아 NEWS KOREA · 서울문화투데이
+  - 서울문화투데이: [서울문화투데이 진보연 기자] 문학은 작곡가에게 곡의 소재가 되고, 한 작곡가의 음악은 다음 세대의 창작에 영감을 준다. 국립심포니오케스트라는 25일 발표한 2027 시즌 〈인스퍼레이션〉에서 이 두 가지 관계를 레퍼토리로 풀어낸다.
+    https://www.sctoday.co.kr/news/articleView.html?idxno=49120
+  - 뉴스코리아 NEWS KOREA: (뉴스코리아=서울) 박지혜 기자 = 국립심포니오케스트라가 문학과 오페라, 고전음악에서 비롯된 예술적 영감을 새로운 창작과 연주로 연결하는 2027년 시즌을 선보인
+    https://www.newskorea.ne.kr/news/articleView.html?idxno=22057
+
 ### [stage] 국립대구박물관, 특별전 ‘달구벌’ 개막…1,600년 전 대구의 일상을 만나다
 - 매체 1곳 · STN NEWS
   - STN NEWS: [STN뉴스] 도현석 기자┃국립대구박물관이 고대 대구의 역사와 문화를 살펴보는 특별전 ‘달구벌達句伐: 이어진 터전, 펼쳐진 세계’를 11월 24일부터 2027년
@@ -566,21 +603,11 @@
   - 뉴스핌: [서울=뉴스핌] 양진영 기자 = 세종문화회관(사장 안호상)은 오는 11월 28일 세종문화회관 대극장에서 '2026 누구나 꿈나무오케스트라 정기연주회'를 개최한다. '누구나 꿈나무오케스트라'는 장애가 있거나 경제적 여건이 어려운 아동·청소년에게 무상으로 악기를
     https://www.newspim.com/news/view/20261125000185
 
-### [stage] 안동문화예술의전당, `지역 청년·중견 작가 지원전시 개최`
-- 매체 1곳 · 매일신문
-  - 매일신문: 안동문화예술의전당은 12월 4일부터 27일까지 지역 청년작가. ..
-    https://www.imaeil.com/page/view/2026112509461241270
-
-### [stage] 전주역사박물관 기획전 ‘민民, 보통의 기원’ 개막
-- 매체 1곳 · 전북도민일보
-  - 전북도민일보: 
-    http://www.domin.co.kr/news/articleView.html?idxno=1576770
-
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 28개 확인, 사진 줄 4개)
+(자유 이용 사진: 이름 후보 31개 확인, 사진 줄 4개)
 
-### 🔥 화제(매체 60곳) [startrip] 그룹 에이티즈, 미 ‘빌보드 200’ 1위…통산 네 번째 기록
-- 매체 4곳 · 경향신문 · 뉴스핌 · 스포츠월드 · 이투데이  ← 여러 곳이 썼다
+### 🔥 화제(매체 61곳) [startrip] 그룹 에이티즈, 미 ‘빌보드 200’ 1위…통산 네 번째 기록
+- 매체 5곳 · 경향신문 · 뉴스핌 · 데일리굿뉴스 · 스포츠월드 · 이투데이  ← 여러 곳이 썼다
   - 경향신문: 그룹 에이티즈가 새 미니앨범 로 미국 빌보드 메인 앨범 차트 '빌보드 200'에서 그룹 통산 네 번째 1위를 기록했다. 에이티즈가 이 차트에서 1위를 기록한 것은 올해 7월 전작 이후 4개월 만이다.
     https://www.khan.co.kr/article/202611231948015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=culture_news
   - 뉴스핌: [서울=뉴스핌] 이지은 기자 = 그룹 에이티즈가 미국 빌보드 메인 앨범 차트 '빌보드 200'에서 통산 4번째 1위를 차지했다. 미국 음악 전문 매체 빌보드가 22일(현지시간) 공식 홈페이지를 통해 발표한 차트 예고 기사에 따르면, 에이티즈의 미니 15집 '골든
@@ -648,15 +675,17 @@
   - 뉴스핌: [서울=뉴스핌] 정태이 기자 = 윤경호와 김혜윤 주연의 영화 '고딩형사'가 2027년 1월 개봉한다고 24일 밝혔다. [서울=뉴스핌] 정태이 기자 = 영화 고딩형사 포스터 [사진= NEW]2026.11.24 taeyi427@newspim.com'고딩형사'는 또래
     https://www.newspim.com/news/view/20261124000195
 
-### 🔥 화제(매체 3곳) [drama] [TV조선] 쇼트트랙 예능 첫 방송
-- 매체 2곳 · 연합뉴스 · 조선일보  ← 여러 곳이 썼다
-  - 조선일보: TV조선에서 방영하는 쇼트트랙 스포츠 예능 프로그램 스피드퀸은 전 국가대표 선수들이 다시 태극 마크를 달기 위해 도전하는 과정을 그린다. 전이경 감독과 김아랑, 빅토르 안 코치진의 지도 아래 선수들이 혹독한 훈련과 현역 국가대표 최민정과의 대결을 통해 성장해 나가는 치열한 승부의 기록을
-    https://www.chosun.com/entertainments/broadcast/2026/11/25/XXXEY2AZEZFIJLAOM6RC66ABXU/
-  - 연합뉴스: (서울=연합뉴스) 조윤희 기자 = ▲ ENA 관찰 예능 '니돈내산' 내달 20일 첫 방송 = ENA는 신규 예능 프로그램 '니돈내산'을 다음 달. ..
-    https://www.yna.co.kr/view/AKR20261125066700005
+### 🔥 화제(매체 3곳) [startrip] 신장미, 대한민국 문화연예대상 2년 연속 수상
+- 매체 3곳 · BNT뉴스 · iMBC 연예 · 스타뉴스  ← 여러 곳이 썼다
+  - BNT뉴스: 
+    https://www.bntnews.co.kr/article/view/bnt202611250180
+  - 스타뉴스: 한국도핑방지위원회(이하 KADA)가 24일 서울 한국프레스센터에서 열린 2026 대한민국 커뮤니케이션대상에서 국회 행정안전위원장상을 수상했다. 이번 수상에 관해 KADA는 "지난해 소셜네트워크서비스(SNS) 부문 우수상(한국사보협회장상)에 이은 2년 연속 수상이자 수상 훈격 상승이라는 
+    https://www.starnewskorea.com/sports/2026/11/25/2026112514194611382
+  - iMBC 연예: 설운도가 가요대상을 수상했다. 11월 24일 오후 서울 강남구 논현로 엘리에나호텔에서 제 34회 대한민국 문화연예대상 시상식이 열렸다.
+    https://enews.imbc.com/News/RetrieveNewsInfo/526023
 
 ---
-거리 118건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 119건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
@@ -666,64 +695,64 @@
 (검색어 33개 · 고른 영상 15개)
 
 ## NAYEON “BABY ANGEL” M/V
-- 채널 JYP Entertainment · 조회수 15,475,066회 · 5일 전
+- 채널 JYP Entertainment · 조회수 15,629,923회 · 5일 전
 - `@youtube 0JQ9k6kcKVs` · https://www.youtube.com/watch?v=0JQ9k6kcKVs
 
 ## BESTie - Love Options | Suit Dance | Performance | 4K
-- 채널 1theK Originals - 원더케이 오리지널 · 조회수 2,635,877회 · 4일 전
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 2,680,425회 · 4일 전
 - `@youtube FVNI7zBuk-4` · https://www.youtube.com/watch?v=FVNI7zBuk-4
 
 ## [15화 예고] "억울하게 죽은 거잖아 당신 때문에!" 절규하는 김유정😭 구국단과 박진영의 운명은?
-- 채널 tvN DRAMA · 조회수 771,112회 · 2일 전
+- 채널 tvN DRAMA · 조회수 777,783회 · 2일 전
 - `@youtube EbhLvwbcJTs` · https://www.youtube.com/watch?v=EbhLvwbcJTs
 
-## YENA - Sakuranbo｜Beyond the Studio｜LIVE
-- 채널 1theK Live - 원더케이 라이브 · 조회수 760,952회 · 6일 전
-- `@youtube 8wdKPH6_YGc` · https://www.youtube.com/watch?v=8wdKPH6_YGc
+## NAYEON “BABY ANGEL” M/V Teaser 1
+- 채널 JYP Entertainment · 조회수 775,294회 · 7일 전
+- `@youtube KOZ_7ZSO470` · https://www.youtube.com/watch?v=KOZ_7ZSO470
 
 ## HANHAE, Moon Se Yoon - Love Again (feat. ZENA of RESCENE) | Beyond the Studio｜LIVE
-- 채널 1theK Live - 원더케이 라이브 · 조회수 490,543회 · 1일 전
+- 채널 1theK Live - 원더케이 라이브 · 조회수 506,297회 · 1일 전
 - `@youtube mXveasS7ZRY` · https://www.youtube.com/watch?v=mXveasS7ZRY
 
+## MINHO 'Out Of My Hands'｜On the Spot
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 489,566회 · 5일 전
+- `@youtube nsDov52sl-M` · https://www.youtube.com/watch?v=nsDov52sl-M
+
+## [14화 예고] 진선규를 향한 김유정X박진영의 반격 시작🔥 사토VS후쿠다VS김승억 🐶싸움도 시작!
+- 채널 tvN DRAMA · 조회수 405,366회 · 3일 전
+- `@youtube PRfV3IPNddA` · https://www.youtube.com/watch?v=PRfV3IPNddA
+
 ## [라이어 9회 예고] ＂누가 민준호를 죽였을까요?', MBC 261127 방송
-- 채널 MBCdrama · 조회수 313,302회 · 3일 전
+- 채널 MBCdrama · 조회수 315,992회 · 3일 전
 - `@youtube raQmrxZiCtw` · https://www.youtube.com/watch?v=raQmrxZiCtw
 
+## [32화 선공개] 저 아저씨 엄마 만났어요 [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 308,526회 · 4일 전
+- `@youtube Oomy6QlD5ss` · https://www.youtube.com/watch?v=Oomy6QlD5ss
+
 ## [최종화 예고] 의식불명에 빠진 임시완X설인아, 모든 것을 끝내고 두 사람은 서로의 구원이 될 수 있을까❤️‍🩹 #나의유죄인간 EP.12
-- 채널 tvN DRAMA · 조회수 261,938회 · 1일 전
+- 채널 tvN DRAMA · 조회수 262,901회 · 1일 전
 - `@youtube kY7dJB1Rjso` · https://www.youtube.com/watch?v=kY7dJB1Rjso
 
+## [11화 예고] 우리 다음 생에선 그렇게 만날까?💧설인아를 너무나도 사랑해서 이별을 택한 임시완😿 #나의유죄인간 EP.11
+- 채널 tvN DRAMA · 조회수 255,785회 · 7일 전
+- `@youtube U6B7fo8sDTw` · https://www.youtube.com/watch?v=U6B7fo8sDTw
+
 ## ［33회 예고］나 모르겠니 규림아 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 251,116회 · 3일 전
+- 채널 KBS Drama · 조회수 251,728회 · 3일 전
 - `@youtube 1uxginBULlU` · https://www.youtube.com/watch?v=1uxginBULlU
 
 ## ［34회 예고］아저씨가 너무너무 미안해 [사랑이 온다] | KBS 방송
-- 채널 KBS Drama · 조회수 174,576회 · 2일 전
+- 채널 KBS Drama · 조회수 176,539회 · 2일 전
 - `@youtube DrmtMqgE-qw` · https://www.youtube.com/watch?v=DrmtMqgE-qw
 
+## [가족관계증명서 86회 예고] ＂임신 중이었다고요?＂, MBC 261123 방송
+- 채널 MBCdrama · 조회수 160,266회 · 4일 전
+- `@youtube QiTgO2BPXHk` · https://www.youtube.com/watch?v=QiTgO2BPXHk
+
 ## [Playlist] 고작 이별하기 위해 널 사랑한 건 아닌데 (Singing My Blues)
-- 채널 YG ENTERTAINMENT · 조회수 146,807회 · 5일 전
+- 채널 YG ENTERTAINMENT · 조회수 147,597회 · 5일 전
 - `@youtube hyYkvbMt-rE` · https://www.youtube.com/watch?v=hyYkvbMt-rE
-
-## 기프트 | 공식 예고편 | 넷플릭스
-- 채널 Netflix Korea 넷플릭스 코리아 · 조회수 119,041회 · 1일 전
-- `@youtube PRwZMVdfH0E` · https://www.youtube.com/watch?v=PRwZMVdfH0E
-
-## [라이어 8회 예고] ＂이제 정말 끝났네요＂, MBC 261121 방송
-- 채널 MBCdrama · 조회수 118,648회 · 4일 전
-- `@youtube FY1AoOA-iIw` · https://www.youtube.com/watch?v=FY1AoOA-iIw
-
-## [5화 예고] 연개소문은 소문처럼 미친자 더이까 [문무] | KBS 방송
-- 채널 KBS Drama · 조회수 101,081회 · 2일 전
-- `@youtube 9F89mwO3ohw` · https://www.youtube.com/watch?v=9F89mwO3ohw
-
-## [12월 1일 예고] “너무 무서워요” 김우빈, ‘지원군’ 양현민과 함께 쓰는 성장 스토리★
-- 채널 SBS Entertainment · 조회수 81,188회 · 1일 전
-- `@youtube UbBWBLZzpK0` · https://www.youtube.com/watch?v=UbBWBLZzpK0
-
-## [11월 27일 예고] ‘월드스타’ 지수, 이서진×김광규에게 혹독한 장군 훈련 시작 😍💥🤣
-- 채널 SBS Entertainment · 조회수 73,365회 · 1일 전
-- `@youtube SRrVrWonVgk` · https://www.youtube.com/watch?v=SRrVrWonVgk
 
 
 
