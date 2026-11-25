@@ -7,15 +7,17 @@ kind: 해설
 title: '''비짓부산'' AI 여행추천, 대화로 일정 고친다…5개 국어'
 source_name: ''
 source_url: ''
-summary: 부산시와 부산관광공사가 부산 관광포털 '비짓부산'의 AI 여행추천 서비스를 새로 단장했다. 여행자가 대화로 원하는 조건을 말하면 일정을 추천하고 고쳐 준다. 23일부터 운영 중이고 5개 국어를 지원한다.
+summary: 부산시와 부산관광공사가 부산 관광포털 '비짓부산'의 AI 여행추천 서비스를 새로 단장했다. 여행자가 대화로 원하는 조건을 말하면 일정을
+  추천하고 고쳐 준다. 23일부터 운영 중이고 5개 국어를 지원한다.
 sources:
 - http://www.ikld.kr/news/articleView.html?idxno=344792
 - https://www.busan.com/view/busan/view.php?code=2026112515375361886
 - https://traveli.net/traveli/article-1795594128848-786ae74a
 - http://www.bseconomy.com/news/view.php?idx=58355&page=2
-status: approved
+status: published
+published_id: c-d34ceb5cd06873d5e00c2e43a5cbfae214a8f4cc
+published_on: '2026-11-26'
 ---
-
 부산 여행 일정을 AI와 대화로 짤 수 있게 됐다.
 '비짓부산'의 AI 여행추천 서비스가 새로 바뀌었다.
 

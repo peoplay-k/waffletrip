@@ -428,15 +428,16 @@
     },
     {
       "date": "2026-11-26",
-      "collected": 3964,
-      "published": 310,
-      "ours": 8,
+      "collected": 3973,
+      "published": 353,
+      "ours": 18,
       "failed_sources": [
+        "guam_pdn",
         "guam_post",
+        "hawaii_magazine",
         "kr_hotelavia",
         "kr_ktnbm",
         "kr_travelpress",
-        "saipan_tribune",
         "thailand_bangkokpost_travel"
       ]
     }

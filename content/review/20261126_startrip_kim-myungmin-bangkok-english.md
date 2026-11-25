@@ -8,13 +8,15 @@ kind: 해설
 title: 김명민 "하와이 한 달 가족여행 취소…방콕 가서 영어 공부"
 source_name: ''
 source_url: ''
-summary: 배우 김명민이 영화 '슬픈 열대' 합류 뒷이야기를 전하며 여행 계획을 털어놨다. 하와이에서 한 달간 가족여행을 하려던 계획을 취소했다고 했다. 대신 방콕에 가서 영어 공부를 했다고 밝혔다.
+summary: 배우 김명민이 영화 '슬픈 열대' 합류 뒷이야기를 전하며 여행 계획을 털어놨다. 하와이에서 한 달간 가족여행을 하려던 계획을 취소했다고
+  했다. 대신 방콕에 가서 영어 공부를 했다고 밝혔다.
 sources:
 - https://www.starnewskorea.com/movie/2026/11/23/2026112315045433174
 - https://www.maxmovie.com/news/articleView.html?idxno=503167
-status: approved
+status: published
+published_id: c-2fc6ee80bb7f40a1cfba36d4250efcb19c827195
+published_on: '2026-11-26'
 ---
-
 김명민이 인터뷰에서 하와이 대신 방콕으로 간 사연을 밝혔다.
 23일 서울 삼청동에서 열린 영화 '슬픈 열대' 인터뷰에서다.
 

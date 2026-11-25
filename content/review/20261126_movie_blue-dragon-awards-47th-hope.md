@@ -8,7 +8,8 @@ kind: 해설
 title: 청룡영화상 작품상 '호프'…설경구·전도연 주연상, 신인상 박지훈·서수빈
 source_name: ''
 source_url: ''
-summary: 제47회 청룡영화상 최우수작품상은 나홍진 감독의 '호프'에 돌아갔다. 남녀주연상은 설경구와 전도연이 받았고, 설경구는 남우주연상 4회 수상 기록을 세웠다. 신인상은 박지훈('왕과 사는 남자')과 서수빈이 받았다.
+summary: 제47회 청룡영화상 최우수작품상은 나홍진 감독의 '호프'에 돌아갔다. 남녀주연상은 설경구와 전도연이 받았고, 설경구는 남우주연상 4회
+  수상 기록을 세웠다. 신인상은 박지훈('왕과 사는 남자')과 서수빈이 받았다.
 sources:
 - https://www.yna.co.kr/view/AKR20261125187600005
 - https://www.chosun.com/culture-life/culture_general/2026/11/25/EUJITRT7J5FWRC6B7KRHJBJ3IQ/
@@ -17,9 +18,10 @@ sources:
 - https://enews.imbc.com/News/RetrieveNewsInfo/526081
 - https://enews.imbc.com/News/RetrieveNewsInfo/526066
 - https://www.youtube.com/watch?v=jLUDunDtSTY
-status: approved
+status: published
+published_id: c-cca24e31c1978a745863d3ea78801aaac24b134f
+published_on: '2026-11-26'
 ---
-
 올해 청룡영화상의 주인공이 가려졌다.
 제47회 청룡영화상 시상식이 25일 서울 여의도 KBS홀에서 열렸다.
 
