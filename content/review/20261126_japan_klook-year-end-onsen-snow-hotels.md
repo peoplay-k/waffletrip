@@ -4,16 +4,18 @@ channel: travel
 region: japan
 section: data
 kind: 보도자료
-title: "클룩, 연말 일본 온천·설경 명소 호텔 예약 여름보다 118.1% 증가"
+title: 클룩, 연말 일본 온천·설경 명소 호텔 예약 여름보다 118.1% 증가
 source_name: ''
 source_url: ''
-summary: 클룩이 한국인 이용자의 일본 호텔 예약 추이를 내놓았다. 온천·설경 명소 11곳의 연말 예약이 지난여름보다 118.1% 늘었다. 일본 호텔 예약 전체는 전년 동기보다 13.9% 증가했다.
+summary: 클룩이 한국인 이용자의 일본 호텔 예약 추이를 내놓았다. 온천·설경 명소 11곳의 연말 예약이 지난여름보다 118.1% 늘었다. 일본
+  호텔 예약 전체는 전년 동기보다 13.9% 증가했다.
 sources:
-  - https://zdnet.co.kr/view/?no=20261125090120
-  - https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22588
-status: approved
+- https://zdnet.co.kr/view/?no=20261125090120
+- https://www.hotelrestaurant.co.kr/news/articleView.html?idxno=22588
+status: published
+published_id: c-383ae9d0e2e46351248a680c676b54d3e14073c1
+published_on: '2026-11-26'
 ---
-
 연말 일본 여행객이 온천과 설경 명소로 몰리고 있다. 온천·설경 명소 11곳의 호텔 예약은 지난여름과 견줘 118.1% 늘었다.
 
 숙박·교통·액티비티 예약 플랫폼 클룩은 25일 한국인 이용자의 일본 호텔 예약 추이를 분석한 결과를 공개했다. 올해 10월 1일부터 11월 15일까지 일본 호텔 예약은 전년 동기보다 13.9% 늘었다.

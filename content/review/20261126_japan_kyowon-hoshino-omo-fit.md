@@ -4,16 +4,18 @@ channel: travel
 region: japan
 section: news
 kind: 보도자료
-title: "교원투어 여행이지, 호시노 리조트 '오모' 연계 일본 자유여행 상품 출시"
+title: 교원투어 여행이지, 호시노 리조트 '오모' 연계 일본 자유여행 상품 출시
 source_name: ''
 source_url: ''
-summary: 교원투어가 호시노 리조트와 손잡고 일본 자유여행 상품을 내놓았다. 일본 주요 도시의 '오모(OMO)' 호텔에 묵는 구성이다. 개별자유여행 수요를 겨냥한 상품이다.
+summary: 교원투어가 호시노 리조트와 손잡고 일본 자유여행 상품을 내놓았다. 일본 주요 도시의 '오모(OMO)' 호텔에 묵는 구성이다. 개별자유여행
+  수요를 겨냥한 상품이다.
 sources:
-  - https://www.newspim.com/news/view/20261125000252
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72808
-status: approved
+- https://www.newspim.com/news/view/20261125000252
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72808
+status: published
+published_id: c-51658b14fd58b31c1f539c4bf0a33d76b103fb48
+published_on: '2026-11-26'
 ---
-
 교원투어 여행이지가 일본 호시노 리조트와 손잡고 자유여행 상품을 선보였다. 일본 주요 도시에 있는 '오모(OMO)' 호텔에 묵는 구성으로, 개별자유여행 시장을 공략한다.
 
 교원투어는 25일 호시노 리조트와 협업해 이 상품을 출시했다고 밝혔다. 오모는 호시노 리조트의 도시 관광 호텔 브랜드다. 잠자리만 내주는 데 그치지 않고, 호텔이 자리한 지역의 특색과 문화를 여행 경험으로 잇는 것을 내세운다.

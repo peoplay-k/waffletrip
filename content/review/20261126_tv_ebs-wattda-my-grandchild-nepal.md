@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'왔다! 내 손주' 네팔 편, K-민요 할매의 사랑가…26일 밤 EBS1"
+title: '''왔다! 내 손주'' 네팔 편, K-민요 할매의 사랑가…26일 밤 EBS1'
 source_name: ''
 source_url: ''
-summary: EBS '왔다! 내 손주'가 26일 밤 9시 55분 네팔 편을 방송한다. 한국 할머니가 손주의 유치원 다문화 행사에서 민요를 부른다. 사위가 준비한 깜짝 이벤트도 나온다.
+summary: EBS '왔다! 내 손주'가 26일 밤 9시 55분 네팔 편을 방송한다. 한국 할머니가 손주의 유치원 다문화 행사에서 민요를 부른다.
+  사위가 준비한 깜짝 이벤트도 나온다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005669507
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005669507
+status: published
+published_id: c-d6a1631d5ea5a9ff1b44e859c845ef0c85d4a767
+published_on: '2026-11-26'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 왔다! 내 손주
 > 방송 · 2026년 11월 26일(목) 밤 9시 55분
