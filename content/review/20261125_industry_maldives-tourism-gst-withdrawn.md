@@ -4,15 +4,17 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "몰디브, 해외 여행사 대상 관광 부가세 17% 도입 50일 만에 철회"
+title: 몰디브, 해외 여행사 대상 관광 부가세 17% 도입 50일 만에 철회
 source_name: ''
 source_url: ''
-summary: 몰디브가 해외 여행사와 OTA에 확대 적용한 17% 관광 부가세를 철회했다. 도입 50일 만의 번복이다. 이미 낸 세금은 환급하도록 했다.
+summary: 몰디브가 해외 여행사와 OTA에 확대 적용한 17% 관광 부가세를 철회했다. 도입 50일 만의 번복이다. 이미 낸 세금은 환급하도록
+  했다.
 sources:
 - https://www.traveltimes.co.kr/news/articleView.html?idxno=500777
-status: approved
+status: published
+published_id: c-2cacf41fa1a13f6ea66e309932b4e6fda07dcd48
+published_on: '2026-11-25'
 ---
-
 몰디브가 해외 여행사와 온라인 여행사(OTA)에 확대 적용했던 17% 관광 부가세를 거둬들였다. 세금을 도입한 지 50일 만이다.
 
 이번 조치는 과세 방침 자체를 되돌린 것이다. 해외 여행업계의 반발이 이어지자 몰디브 당국이 입장을 바꿨다.
