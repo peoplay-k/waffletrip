@@ -1,36 +1,11 @@
 {
   "guam": [
     {
-      "src": "/Users/peoplay/과미발행/선별_식당/e23_1.jpg",
-      "file": "assets/photos/guam/e23_1.webp",
-      "bytes": 26226,
-      "baked_at": "2026-09-02T06:49:48+09:00",
-      "overrode": "얼굴 1건 검출",
-      "origin": "과미 발행 폴더(자사 촬영본)"
-    },
-    {
-      "src": "/Users/peoplay/과미발행/선별_식당/e23_1_hi.jpg",
-      "file": "assets/photos/guam/e23_1_hi.webp",
-      "bytes": 262986,
-      "baked_at": "2026-09-02T06:49:48+09:00",
-      "overrode": "얼굴 8건 검출",
-      "origin": "과미 발행 폴더(자사 촬영본)"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075644959_03.jpg",
       "file": "assets/photos/guam/KakaoTalk_20250403_075644959_03.webp",
       "bytes": 61994,
       "baked_at": "2026-09-02T10:09:24+09:00",
       "hero": true,
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075807081.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_075807081.webp",
-      "bytes": 83190,
-      "baked_at": "2026-09-02T10:09:29+09:00",
-      "hero": true,
-      "overrode": "얼굴 2건 검출",
       "origin": "NAS"
     },
     {
@@ -43,30 +18,21 @@
       "origin": "NAS"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075807081_03.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_075807081_03.webp",
-      "bytes": 115904,
-      "baked_at": "2026-09-02T10:09:35+09:00",
-      "hero": true,
-      "overrode": "얼굴 1건 검출",
-      "origin": "NAS"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_080636135_01.jpg",
       "file": "assets/photos/guam/KakaoTalk_20250403_080636135_01.webp",
       "bytes": 195710,
       "baked_at": "2026-09-02T10:09:38+09:00",
       "hero": true,
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_085349968_02.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_085349968_02.webp",
-      "bytes": 314914,
-      "baked_at": "2026-09-02T10:09:40+09:00",
-      "hero": true,
-      "overrode": "얼굴 3건 검출",
-      "origin": "NAS"
+      "origin": "NAS",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
     },
     {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_085349968_04.jpg",
@@ -86,28 +52,11 @@
       "origin": "NAS"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086_10.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250404_072316086_10.webp",
-      "bytes": 243388,
-      "baked_at": "2026-09-02T10:09:42+09:00",
-      "hero": true,
-      "overrode": "얼굴 3건 검출",
-      "origin": "NAS"
-    },
-    {
       "src": "/tmp/stage_guam/agana_cathedral_1.JPG",
       "file": "assets/photos/guam/agana_cathedral_1.webp",
       "bytes": 129662,
       "baked_at": "2026-09-09T10:58:19+09:00",
       "overrode": "얼굴 3건 검출",
-      "origin": "NAS #DSLR/#괌 (커밋 77a15b6)"
-    },
-    {
-      "src": "/tmp/stage_guam/agana_cathedral_2.JPG",
-      "file": "assets/photos/guam/agana_cathedral_2.webp",
-      "bytes": 189368,
-      "baked_at": "2026-09-09T10:58:19+09:00",
-      "overrode": "얼굴 6건 검출",
       "origin": "NAS #DSLR/#괌 (커밋 77a15b6)"
     },
     {
@@ -142,14 +91,6 @@
       "origin": "NAS #DSLR/#괌 (커밋 77a15b6)"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어3_투어진행_솔레다드 요새/PEO_3153.JPG",
-      "file": "assets/photos/guam/PEO_3153.webp",
-      "bytes": 115822,
-      "baked_at": "2026-09-14T17:48:38+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "hero": true
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어3_투어진행_솔레다드 요새/PEO_3156.JPG",
       "file": "assets/photos/guam/PEO_3156.webp",
       "bytes": 111714,
@@ -162,14 +103,6 @@
       "file": "assets/photos/guam/PEO_3167.webp",
       "bytes": 145156,
       "baked_at": "2026-09-14T17:48:44+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "hero": true
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어3_투어진행_솔레다드 요새/PEO_3170.JPG",
-      "file": "assets/photos/guam/PEO_3170.webp",
-      "bytes": 87238,
-      "baked_at": "2026-09-14T17:48:46+09:00",
       "origin": "NAS #DSLR/#괌",
       "hero": true
     },
@@ -228,24 +161,6 @@
       "overrode": "얼굴 3건 검출"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/투몬무역센터(핑크 건물)/PEO_3954.JPG",
-      "file": "assets/photos/guam/PEO_3954.webp",
-      "bytes": 93718,
-      "baked_at": "2026-09-16T14:03:12+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "hero": true,
-      "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/투몬무역센터(핑크 건물)/PEO_3956.JPG",
-      "file": "assets/photos/guam/PEO_3956.webp",
-      "bytes": 152318,
-      "baked_at": "2026-09-16T14:03:17+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "hero": true,
-      "overrode": "얼굴 2건 검출"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250418_071410866_03.jpg",
       "file": "assets/photos/guam/KakaoTalk_20250418_071410866_03.webp",
       "bytes": 206360,
@@ -270,97 +185,22 @@
       "hero": true
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/야경/PEO_3546.JPG",
-      "file": "assets/photos/guam/PEO_3546.webp",
-      "bytes": 34816,
-      "baked_at": "2026-10-07T17:54:17+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/야경/PEO_3553.JPG",
-      "file": "assets/photos/guam/PEO_3553.webp",
-      "bytes": 27576,
-      "baked_at": "2026-10-07T17:54:20+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 1건 검출"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/야경/PEO_3555.JPG",
       "file": "assets/photos/guam/PEO_3555.webp",
       "bytes": 22492,
       "baked_at": "2026-10-07T17:54:26+09:00",
       "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 3건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075644959.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_075644959.webp",
-      "bytes": 276766,
-      "baked_at": "2026-10-07T17:59:29+09:00",
-      "origin": "NAS #DSLR/#괌"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075644959_01.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_075644959_01.webp",
-      "bytes": 30564,
-      "baked_at": "2026-10-07T17:59:31+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 2건 검출"
+      "overrode": "얼굴 3건 검출",
+      "theme": [
+        "야경",
+        "밤"
+      ]
     },
     {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075644959_04.jpg",
       "file": "assets/photos/guam/KakaoTalk_20250403_075644959_04.webp",
       "bytes": 78430,
       "baked_at": "2026-10-07T17:59:32+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_075807081_02.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_075807081_02.webp",
-      "bytes": 162696,
-      "baked_at": "2026-10-07T17:59:33+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250403_080636135_03.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250403_080636135_03.webp",
-      "bytes": 135166,
-      "baked_at": "2026-10-07T17:59:40+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250404_072316086.webp",
-      "bytes": 216574,
-      "baked_at": "2026-10-07T17:59:43+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086_02.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250404_072316086_02.webp",
-      "bytes": 169178,
-      "baked_at": "2026-10-07T17:59:46+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 5건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086_06.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250404_072316086_06.webp",
-      "bytes": 279628,
-      "baked_at": "2026-10-07T17:59:48+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 1건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072316086_08.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250404_072316086_08.webp",
-      "bytes": 261112,
-      "baked_at": "2026-10-07T17:59:50+09:00",
       "origin": "NAS #DSLR/#괌",
       "overrode": "얼굴 1건 검출"
     },
@@ -372,28 +212,1541 @@
       "origin": "NAS #DSLR/#괌"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072926245.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250404_072926245.webp",
-      "bytes": 103456,
-      "baked_at": "2026-10-07T17:59:55+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 2건 검출"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072926245_05.jpg",
-      "file": "assets/photos/guam/KakaoTalk_20250404_072926245_05.webp",
-      "bytes": 151312,
-      "baked_at": "2026-10-07T17:59:56+09:00",
-      "origin": "NAS #DSLR/#괌",
-      "overrode": "얼굴 3건 검출"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072926245_07.jpg",
       "file": "assets/photos/guam/KakaoTalk_20250404_072926245_07.webp",
       "bytes": 112428,
       "baked_at": "2026-10-07T17:59:57+09:00",
       "origin": "NAS #DSLR/#괌",
       "overrode": "얼굴 2건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/더 츠바키 타워/더 츠바키 타워_수영장/File4276.jpg",
+      "file": "assets/photos/guam/n_File4276_934ceb.webp",
+      "bytes": 248622,
+      "baked_at": "2026-11-25T17:25:41+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 더 츠바키 타워",
+      "subject": [
+        "츠바키"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/더 츠바키 타워/더 츠바키 타워_수영장/File4296.jpg",
+      "file": "assets/photos/guam/n_File4296_5567b2.webp",
+      "bytes": 353056,
+      "baked_at": "2026-11-25T17:25:41+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 더 츠바키 타워",
+      "subject": [
+        "츠바키"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/더 츠바키 타워/더 츠바키 타워_룸_야외 뷰/File4135.jpg",
+      "file": "assets/photos/guam/n_File4135_f92e2f.webp",
+      "bytes": 99956,
+      "baked_at": "2026-11-25T17:25:42+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 더 츠바키 타워",
+      "subject": [
+        "츠바키"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/더 츠바키 타워/더 츠바키 타워_로비/IMG_2479.JPG",
+      "file": "assets/photos/guam/n_IMG_2479_d9db7b.webp",
+      "bytes": 105170,
+      "baked_at": "2026-11-25T17:25:42+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 더 츠바키 타워",
+      "subject": [
+        "츠바키"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/더 츠바키 타워/더 츠바키 타워_로비/PEO_9730.JPG",
+      "file": "assets/photos/guam/n_PEO_9730_006418.webp",
+      "bytes": 147866,
+      "baked_at": "2026-11-25T17:25:42+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 더 츠바키 타워",
+      "subject": [
+        "츠바키"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/더 츠바키 타워/더 츠바키 타워_룸_야외 뷰/IMG_2692.JPG",
+      "file": "assets/photos/guam/n_IMG_2692_729f47.webp",
+      "bytes": 133040,
+      "baked_at": "2026-11-25T17:25:43+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 더 츠바키 타워",
+      "subject": [
+        "츠바키"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/힐튼 리조트/힐튼 리조트_수영장/PEO_0037.JPG",
+      "file": "assets/photos/guam/n_PEO_0037_ce5e14.webp",
+      "bytes": 252742,
+      "baked_at": "2026-11-25T17:25:43+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 힐튼 리조트",
+      "subject": [
+        "힐튼"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/힐튼 리조트/힐튼 리조트_외관_전경/PEO_1860.JPG",
+      "file": "assets/photos/guam/n_PEO_1860_76b695.webp",
+      "bytes": 205550,
+      "baked_at": "2026-11-25T17:25:43+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 힐튼 리조트",
+      "subject": [
+        "힐튼"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/힐튼 리조트/힐튼 리조트_룸_야외 뷰/PEO_1836.JPG",
+      "file": "assets/photos/guam/n_PEO_1836_7bb433.webp",
+      "bytes": 109764,
+      "baked_at": "2026-11-25T17:25:44+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 힐튼 리조트",
+      "subject": [
+        "힐튼"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/힐튼 리조트/힐튼 리조트_수영장/PEO_0028.JPG",
+      "file": "assets/photos/guam/n_PEO_0028_1b9c4a.webp",
+      "bytes": 240622,
+      "baked_at": "2026-11-25T17:25:44+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 힐튼 리조트",
+      "subject": [
+        "힐튼"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/두짓비치 리조트/두짓비치 리조트_수영장/PEO_0119.JPG",
+      "file": "assets/photos/guam/n_PEO_0119_8ce8a9.webp",
+      "bytes": 282902,
+      "baked_at": "2026-11-25T17:25:44+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓비치 리조트",
+      "subject": [
+        "두짓비치",
+        "두짓 비치"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/두짓비치 리조트/두짓비치 리조트_수영장/PEO_0181.JPG",
+      "file": "assets/photos/guam/n_PEO_0181_fc7711.webp",
+      "bytes": 296796,
+      "baked_at": "2026-11-25T17:25:45+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓비치 리조트",
+      "subject": [
+        "두짓비치",
+        "두짓 비치"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/두짓비치 리조트/두짓비치 리조트_룸_야외 뷰/PEO_9824.JPG",
+      "file": "assets/photos/guam/n_PEO_9824_ecb6c5.webp",
+      "bytes": 391026,
+      "baked_at": "2026-11-25T17:25:45+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓비치 리조트",
+      "subject": [
+        "두짓비치",
+        "두짓 비치"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/두짓비치 리조트/두짓비치 리조트_해변/PEO_3144.JPG",
+      "file": "assets/photos/guam/n_PEO_3144_1bd44b.webp",
+      "bytes": 151852,
+      "baked_at": "2026-11-25T17:25:46+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓비치 리조트",
+      "subject": [
+        "두짓비치",
+        "두짓 비치"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/괌플라자 리조트/괌플라자 리조트_룸_야외 뷰/PEO_0530.JPG",
+      "file": "assets/photos/guam/n_PEO_0530_ae0918.webp",
+      "bytes": 207668,
+      "baked_at": "2026-11-25T17:25:46+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌플라자 리조트",
+      "subject": [
+        "괌플라자",
+        "괌 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/괌플라자 리조트/괌플라자 리조트_건물 외관/PEO_0898.JPG",
+      "file": "assets/photos/guam/n_PEO_0898_6c0f42.webp",
+      "bytes": 150016,
+      "baked_at": "2026-11-25T17:25:46+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌플라자 리조트",
+      "subject": [
+        "괌플라자",
+        "괌 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/괌플라자 리조트/괌플라자 리조트_룸_야외 뷰/PEO_8736.JPG",
+      "file": "assets/photos/guam/n_PEO_8736_10ef0a.webp",
+      "bytes": 246118,
+      "baked_at": "2026-11-25T17:25:47+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌플라자 리조트",
+      "subject": [
+        "괌플라자",
+        "괌 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/괌플라자 리조트/괌플라자 리조트_룸_침대/File4359.jpg",
+      "file": "assets/photos/guam/n_File4359_c15a20.webp",
+      "bytes": 46298,
+      "baked_at": "2026-11-25T17:25:47+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌플라자 리조트",
+      "subject": [
+        "괌플라자",
+        "괌 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/괌 PIC 리조트/괌 PIC 리조트_건물 외관/IMG_2785.JPG",
+      "file": "assets/photos/guam/n_IMG_2785_eb39dd.webp",
+      "bytes": 134516,
+      "baked_at": "2026-11-25T17:25:47+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 PIC 리조트",
+      "subject": [
+        "PIC",
+        "퍼시픽 아일랜드 클럽"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/괌 PIC 리조트/괌 PIC 리조트_ PIC 선셋 바베큐/괌 PIC 리조트_ PIC 선셋 바베큐_인테리어/IMG_2277.JPG",
+      "file": "assets/photos/guam/n_IMG_2277_8fad3b.webp",
+      "bytes": 131692,
+      "baked_at": "2026-11-25T17:25:47+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 PIC 리조트",
+      "subject": [
+        "PIC",
+        "퍼시픽 아일랜드 클럽"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/타노 호텔/타노 호텔_외관_전경/PEO_4536.JPG",
+      "file": "assets/photos/guam/n_PEO_4536_49c21b.webp",
+      "bytes": 93094,
+      "baked_at": "2026-11-25T17:25:48+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 타노 호텔",
+      "subject": [
+        "타노 호텔",
+        "호텔 타노"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/타노 호텔/타노 호텔_로비_리셉션/PEO_2379.JPG",
+      "file": "assets/photos/guam/n_PEO_2379_1a0104.webp",
+      "bytes": 113440,
+      "baked_at": "2026-11-25T17:25:48+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 타노 호텔",
+      "subject": [
+        "타노 호텔",
+        "호텔 타노"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/타노 호텔/타노 호텔_룸_인테리어/PEO_4687.JPG",
+      "file": "assets/photos/guam/n_PEO_4687_a854b3.webp",
+      "bytes": 31326,
+      "baked_at": "2026-11-25T17:25:48+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 타노 호텔",
+      "subject": [
+        "타노 호텔",
+        "호텔 타노"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/웨스틴 리조트/웨스틴 리조트_룸_야외 뷰/PEO_4110.JPG",
+      "file": "assets/photos/guam/n_PEO_4110_c47fd7.webp",
+      "bytes": 206540,
+      "baked_at": "2026-11-25T17:25:49+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 웨스틴 리조트",
+      "subject": [
+        "웨스틴"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/웨스틴 리조트/웨스틴 리조트_룸_침대/PEO_4299.JPG",
+      "file": "assets/photos/guam/n_PEO_4299_06dd13.webp",
+      "bytes": 46572,
+      "baked_at": "2026-11-25T17:25:49+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 웨스틴 리조트",
+      "subject": [
+        "웨스틴"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/웨스틴 리조트/웨스틴 리조트_룸_야외 뷰/PEO_4380.JPG",
+      "file": "assets/photos/guam/n_PEO_4380_a6667d.webp",
+      "bytes": 58640,
+      "baked_at": "2026-11-25T17:25:49+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 웨스틴 리조트",
+      "subject": [
+        "웨스틴"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/두짓타니 호텔/두짓타니 호텔_수영장/PEO_7631.JPG",
+      "file": "assets/photos/guam/n_PEO_7631_57e93f.webp",
+      "bytes": 301910,
+      "baked_at": "2026-11-25T17:25:49+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓타니 호텔",
+      "subject": [
+        "두짓타니",
+        "두짓 타니"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/두짓타니 호텔/두짓타니 호텔_룸_야외 뷰/PEO_3071.JPG",
+      "file": "assets/photos/guam/n_PEO_3071_aa3bd3.webp",
+      "bytes": 351552,
+      "baked_at": "2026-11-25T17:25:50+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓타니 호텔",
+      "subject": [
+        "두짓타니",
+        "두짓 타니"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/두짓타니 호텔/두짓타니 호텔_로비/PEO_2896.JPG",
+      "file": "assets/photos/guam/n_PEO_2896_db6620.webp",
+      "bytes": 76172,
+      "baked_at": "2026-11-25T17:25:50+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓타니 호텔",
+      "subject": [
+        "두짓타니",
+        "두짓 타니"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/두짓타니 호텔/두짓타니 호텔_룸_침대/PEO_3157.JPG",
+      "file": "assets/photos/guam/n_PEO_3157_a506bb.webp",
+      "bytes": 72762,
+      "baked_at": "2026-11-25T17:25:50+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓타니 호텔",
+      "subject": [
+        "두짓타니",
+        "두짓 타니"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/두짓타니 호텔/두짓타니 호텔_룸_야외 뷰/PEO_3062.JPG",
+      "file": "assets/photos/guam/n_PEO_3062_8d6057.webp",
+      "bytes": 64306,
+      "baked_at": "2026-11-25T17:25:50+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓타니 호텔",
+      "subject": [
+        "두짓타니",
+        "두짓 타니"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/하얏트 리젠시 괌/하얏트 리젠시 괌_외관_건물/PEO_3719.JPG",
+      "file": "assets/photos/guam/n_PEO_3719_7bdc6e.webp",
+      "bytes": 311800,
+      "baked_at": "2026-11-25T17:25:51+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "하얏트 리젠시 괌",
+      "subject": [
+        "하얏트"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/하얏트 리젠시 괌/하얏트 리젠시 괌_수영장/PEO_3786.JPG",
+      "file": "assets/photos/guam/n_PEO_3786_643d62.webp",
+      "bytes": 305756,
+      "baked_at": "2026-11-25T17:25:51+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "하얏트 리젠시 괌",
+      "subject": [
+        "하얏트"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/하얏트 리젠시 괌/하얏트 리젠시 괌_수영장/PEO_3739.JPG",
+      "file": "assets/photos/guam/n_PEO_3739_778785.webp",
+      "bytes": 412322,
+      "baked_at": "2026-11-25T17:25:52+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "하얏트 리젠시 괌",
+      "subject": [
+        "하얏트"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/하얏트 리젠시 괌/하얏트 리젠시 괌_외관_건물/PEO_3734.JPG",
+      "file": "assets/photos/guam/n_PEO_3734_b9e379.webp",
+      "bytes": 413430,
+      "baked_at": "2026-11-25T17:25:52+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "하얏트 리젠시 괌",
+      "subject": [
+        "하얏트"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/하얏트 리젠시 괌/하얏트 리젠시 괌_룸_침대/PEO_0587.JPG",
+      "file": "assets/photos/guam/n_PEO_0587_326b5d.webp",
+      "bytes": 70144,
+      "baked_at": "2026-11-25T17:25:53+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "하얏트 리젠시 괌",
+      "subject": [
+        "하얏트"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/베이뷰 호텔/베이뷰 호텔_수영장/PEO_9429.JPG",
+      "file": "assets/photos/guam/n_PEO_9429_e92514.webp",
+      "bytes": 135588,
+      "baked_at": "2026-11-25T17:25:53+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 베이뷰 호텔",
+      "subject": [
+        "베이뷰"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/베이뷰 호텔/베이뷰 호텔_룸_침대/PEO_9297.JPG",
+      "file": "assets/photos/guam/n_PEO_9297_4cccda.webp",
+      "bytes": 71864,
+      "baked_at": "2026-11-25T17:25:53+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 베이뷰 호텔",
+      "subject": [
+        "베이뷰"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/닛코 호텔/닛코 호텔_수영장과 해변/DSC01970.jpg",
+      "file": "assets/photos/guam/n_DSC01970_8821b4.webp",
+      "bytes": 212152,
+      "baked_at": "2026-11-25T17:25:54+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 닛코 호텔",
+      "subject": [
+        "닛코"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/닛코 호텔/닛코 호텔_수영장과 해변/DSC01967.jpg",
+      "file": "assets/photos/guam/n_DSC01967_73dc54.webp",
+      "bytes": 261494,
+      "baked_at": "2026-11-25T17:25:54+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 닛코 호텔",
+      "subject": [
+        "닛코"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/닛코 호텔/닛코 호텔_룸_야외 뷰/PEO_2204.JPG",
+      "file": "assets/photos/guam/n_PEO_2204_6d63e9.webp",
+      "bytes": 137434,
+      "baked_at": "2026-11-25T17:25:54+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 닛코 호텔",
+      "subject": [
+        "닛코"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/닛코 호텔/닛코 호텔_룸_야외 뷰/PEO_6901.JPG",
+      "file": "assets/photos/guam/n_PEO_6901_fc5ef4.webp",
+      "bytes": 152668,
+      "baked_at": "2026-11-25T17:25:55+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 닛코 호텔",
+      "subject": [
+        "닛코"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/닛코 호텔/닛코 호텔_룸_침대/_MG_8782.JPG",
+      "file": "assets/photos/guam/n__MG_8782_9b3179.webp",
+      "bytes": 59346,
+      "baked_at": "2026-11-25T17:25:55+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 닛코 호텔",
+      "subject": [
+        "닛코"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/호시노 리조나레 리조트/호시노 리조나레 리조트_룸_야외 뷰/PEO_0519.JPG",
+      "file": "assets/photos/guam/n_PEO_0519_37713f.webp",
+      "bytes": 168824,
+      "baked_at": "2026-11-25T17:25:55+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "호시노 리조트 리조나레 괌",
+      "subject": [
+        "리조나레"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/호시노 리조나레 리조트/호시노 리조나레 리조트_수영장/PEO_0367.JPG",
+      "file": "assets/photos/guam/n_PEO_0367_96905b.webp",
+      "bytes": 402526,
+      "baked_at": "2026-11-25T17:25:56+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "호시노 리조트 리조나레 괌",
+      "subject": [
+        "리조나레"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/호시노 리조나레 리조트/호시노 리조나레 리조트_룸_야외 뷰/PEO_0513.JPG",
+      "file": "assets/photos/guam/n_PEO_0513_0781dd.webp",
+      "bytes": 334914,
+      "baked_at": "2026-11-25T17:25:56+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "호시노 리조트 리조나레 괌",
+      "subject": [
+        "리조나레"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/호시노 리조나레 리조트/호시노 리조나레 리조트_외관_건물/PEO_1224.JPG",
+      "file": "assets/photos/guam/n_PEO_1224_568592.webp",
+      "bytes": 165108,
+      "baked_at": "2026-11-25T17:25:56+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "호시노 리조트 리조나레 괌",
+      "subject": [
+        "리조나레"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/호시노 리조나레 리조트/호시노 리조나레 리조트_외관_건물/PEO_0327.JPG",
+      "file": "assets/photos/guam/n_PEO_0327_9612a0.webp",
+      "bytes": 159766,
+      "baked_at": "2026-11-25T17:25:57+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "호시노 리조트 리조나레 괌",
+      "subject": [
+        "리조나레"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/호시노 리조나레 리조트/호시노 리조나레 리조트_수영장/PEO_0351.JPG",
+      "file": "assets/photos/guam/n_PEO_0351_61e294.webp",
+      "bytes": 235126,
+      "baked_at": "2026-11-25T17:25:57+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "호시노 리조트 리조나레 괌",
+      "subject": [
+        "리조나레"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/파인이스트 괌 골프&리조트/파인이스트 괌 골프&리조트_골프장/PEO_7270.JPG",
+      "file": "assets/photos/guam/n_PEO_7270_5ca950.webp",
+      "bytes": 255900,
+      "baked_at": "2026-11-25T17:25:57+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "파인이스트 괌 골프&리조트",
+      "subject": [
+        "파인이스트"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/파인이스트 괌 골프&리조트/파인이스트 괌 골프&리조트_골프장/PEO_7286.JPG",
+      "file": "assets/photos/guam/n_PEO_7286_80f381.webp",
+      "bytes": 261594,
+      "baked_at": "2026-11-25T17:25:58+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "파인이스트 괌 골프&리조트",
+      "subject": [
+        "파인이스트"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/파인이스트 괌 골프&리조트/파인이스트 괌 골프&리조트_골프장/PEO_7257.JPG",
+      "file": "assets/photos/guam/n_PEO_7257_5c9f34.webp",
+      "bytes": 159230,
+      "baked_at": "2026-11-25T17:25:58+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "파인이스트 괌 골프&리조트",
+      "subject": [
+        "파인이스트"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/파인이스트 괌 골프&리조트/파인이스트 괌 골프&리조트_골프장/PEO_7010.JPG",
+      "file": "assets/photos/guam/n_PEO_7010_73842a.webp",
+      "bytes": 218986,
+      "baked_at": "2026-11-25T17:25:58+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "파인이스트 괌 골프&리조트",
+      "subject": [
+        "파인이스트"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/롯데 호텔/롯데 호텔_룸_야외 뷰/PEO_2510.JPG",
+      "file": "assets/photos/guam/n_PEO_2510_03d873.webp",
+      "bytes": 123648,
+      "baked_at": "2026-11-25T17:25:59+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 롯데호텔",
+      "subject": [
+        "롯데호텔",
+        "롯데 호텔"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/롯데 호텔/롯데 호텔_수영장/PEO_4767.JPG",
+      "file": "assets/photos/guam/n_PEO_4767_7344e8.webp",
+      "bytes": 331548,
+      "baked_at": "2026-11-25T17:25:59+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 롯데호텔",
+      "subject": [
+        "롯데호텔",
+        "롯데 호텔"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/롯데 호텔/롯데 호텔_해변/PEO_4791.JPG",
+      "file": "assets/photos/guam/n_PEO_4791_72bc9a.webp",
+      "bytes": 175902,
+      "baked_at": "2026-11-25T17:26:00+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 롯데호텔",
+      "subject": [
+        "롯데호텔",
+        "롯데 호텔"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/[단독특가] 크라운플라자/오션_룸_오션뷰/PEO_5343.JPG",
+      "file": "assets/photos/guam/n_PEO_5343_732dec.webp",
+      "bytes": 205886,
+      "baked_at": "2026-11-25T17:26:00+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 크라운플라자",
+      "subject": [
+        "크라운플라자",
+        "크라운 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/[단독특가] 크라운플라자/오션_룸_오션뷰/PEO_5340.JPG",
+      "file": "assets/photos/guam/n_PEO_5340_e5af0e.webp",
+      "bytes": 211388,
+      "baked_at": "2026-11-25T17:26:00+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 크라운플라자",
+      "subject": [
+        "크라운플라자",
+        "크라운 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/[3박 예약 시 1박 무료!] 크라운플라자/크라운 플라자_룸_야외 뷰/PEO_6381.JPG",
+      "file": "assets/photos/guam/n_PEO_6381_16da51.webp",
+      "bytes": 154032,
+      "baked_at": "2026-11-25T17:26:01+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 크라운플라자",
+      "subject": [
+        "크라운플라자",
+        "크라운 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/[단독특가] 크라운플라자/수영장_풍경_오션뷰/PEO_4931.JPG",
+      "file": "assets/photos/guam/n_PEO_4931_54fdff.webp",
+      "bytes": 149500,
+      "baked_at": "2026-11-25T17:26:01+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 크라운플라자",
+      "subject": [
+        "크라운플라자",
+        "크라운 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/[새벽항공 특가] 크라운플라자/오션_룸_내부전경_및_인테리어/PEO_4654.JPG",
+      "file": "assets/photos/guam/n_PEO_4654_1a8dfd.webp",
+      "bytes": 57368,
+      "baked_at": "2026-11-25T17:26:01+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 크라운플라자",
+      "subject": [
+        "크라운플라자",
+        "크라운 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/[새벽항공 특가] 크라운플라자/크라운 플라자_룸_야외 뷰/PEO_7275.JPG",
+      "file": "assets/photos/guam/n_PEO_7275_576f3c.webp",
+      "bytes": 50190,
+      "baked_at": "2026-11-25T17:26:01+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 크라운플라자",
+      "subject": [
+        "크라운플라자",
+        "크라운 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/호텔/[단독특가] 크라운플라자/수영장_앞_바(bar)_테이블/PEO_5434.JPG",
+      "file": "assets/photos/guam/n_PEO_5434_36ddd1.webp",
+      "bytes": 157526,
+      "baked_at": "2026-11-25T17:26:02+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 크라운플라자",
+      "subject": [
+        "크라운플라자",
+        "크라운 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/공항/PEO_0448.JPG",
+      "file": "assets/photos/guam/n_PEO_0448_08632b.webp",
+      "bytes": 114258,
+      "baked_at": "2026-11-25T17:26:02+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 공항",
+      "theme": [
+        "공항",
+        "항공",
+        "노선",
+        "직항",
+        "취항",
+        "증편",
+        "운항",
+        "탑승"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/GPO/GPO_내관/_MG_0515.JPG",
+      "file": "assets/photos/guam/n__MG_0515_e55f25.webp",
+      "bytes": 168244,
+      "baked_at": "2026-11-25T17:26:02+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 프리미어 아울렛",
+      "subject": [
+        "GPO",
+        "프리미어 아울렛"
+      ],
+      "theme": [
+        "쇼핑",
+        "면세",
+        "기념품",
+        "돈키"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/돈돈돈키/돈돈돈키_내관/PEO_2739.JPG",
+      "file": "assets/photos/guam/n_PEO_2739_fad7cb.webp",
+      "bytes": 221322,
+      "baked_at": "2026-11-25T17:26:03+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 돈돈돈키",
+      "subject": [
+        "돈돈돈키"
+      ],
+      "theme": [
+        "쇼핑",
+        "면세",
+        "기념품",
+        "돈키"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/이동편(교통)/렌트카/렌트카 공항픽업1/PEO_0482.JPG",
+      "file": "assets/photos/guam/n_PEO_0482_26ef5b.webp",
+      "bytes": 181324,
+      "baked_at": "2026-11-25T17:26:03+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌",
+      "theme": [
+        "렌터카",
+        "렌트카",
+        "자동차 여행"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/괌 조형물/PEO_9104.JPG",
+      "file": "assets/photos/guam/n_PEO_9104_9648da.webp",
+      "bytes": 217880,
+      "baked_at": "2026-11-25T17:26:03+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 하갓냐"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 시내+중부 택시투어/괌 시내+중부 택시투어2_투어진행_아가냐대성당/PEO_8271.JPG",
+      "file": "assets/photos/guam/n_PEO_8271_96e107.webp",
+      "bytes": 196400,
+      "baked_at": "2026-11-25T17:26:04+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 하갓냐"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250418_071615680_01.jpg",
+      "file": "assets/photos/guam/n_KakaoTalk_20250418_071615680_09b85e.webp",
+      "bytes": 407972,
+      "baked_at": "2026-11-25T17:26:04+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250722_072636999.jpg",
+      "file": "assets/photos/guam/n_KakaoTalk_20250722_072636999_20d108.webp",
+      "bytes": 333226,
+      "baked_at": "2026-11-25T17:26:05+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250404_072926245_08.jpg",
+      "file": "assets/photos/guam/n_KakaoTalk_20250404_072926245_e283fc.webp",
+      "bytes": 201110,
+      "baked_at": "2026-11-25T17:26:05+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/기타/풍경(낮)/KakaoTalk_20250522_072526043_03.jpg",
+      "file": "assets/photos/guam/n_KakaoTalk_20250522_072526043_1f09d5.webp",
+      "bytes": 269278,
+      "baked_at": "2026-11-25T17:26:05+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 시내+중부 택시투어/괌 시내+중부 택시투어1_투어진행_이파오비치/PEO_8238.JPG",
+      "file": "assets/photos/guam/n_PEO_8238_be82f3.webp",
+      "bytes": 148766,
+      "baked_at": "2026-11-25T17:26:06+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 시내+중부 택시투어/괌 시내+중부 택시투어3_투어진행_자유의여신상/PEO_8278.JPG",
+      "file": "assets/photos/guam/n_PEO_8278_8f280d.webp",
+      "bytes": 180482,
+      "baked_at": "2026-11-25T17:26:06+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 하갓냐"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 시내+중부 택시투어/괌 시내+중부 택시투어4_투어진행_사랑의 절벽/PEO_8295.JPG",
+      "file": "assets/photos/guam/n_PEO_8295_bfd6ab.webp",
+      "bytes": 183026,
+      "baked_at": "2026-11-25T17:26:06+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 사랑의 절벽",
+      "subject": [
+        "사랑의 절벽",
+        "러버스"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/리티디안 스타샌드 투어/리티디안 스타샌드 투어4_투어진행_리티디안 비치 풍경/_MG_7097.JPG",
+      "file": "assets/photos/guam/n__MG_7097_4d2624.webp",
+      "bytes": 272790,
+      "baked_at": "2026-11-25T17:26:07+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 리티디안",
+      "subject": [
+        "리티디안"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/BIG 선셋 디너 크루즈/BIG 선셋 디너 크루즈6_투어진행_선셋관람/_MG_7764.JPG",
+      "file": "assets/photos/guam/n__MG_7764_bac2ba.webp",
+      "bytes": 192434,
+      "baked_at": "2026-11-25T17:26:07+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 바다",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/BIG 선셋 디너 크루즈/BIG 선셋 디너 크루즈4_투어진행_공예/_MG_7420.JPG",
+      "file": "assets/photos/guam/n__MG_7420_1e0828.webp",
+      "bytes": 156584,
+      "baked_at": "2026-11-25T17:26:07+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 바다",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/돌핀크루즈(파란)/돌핀크루즈(파란)1_투어시작_항구/_MG_5177.JPG",
+      "file": "assets/photos/guam/n__MG_5177_3eed01.webp",
+      "bytes": 134884,
+      "baked_at": "2026-11-25T17:26:07+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 마리나",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 아웃도어 지프투어+사격/괌 아웃도어 지프투어+사격3_투어진행_프리스풀 정상/PEO_8723.JPG",
+      "file": "assets/photos/guam/n_PEO_8723_bd0231.webp",
+      "bytes": 179656,
+      "baked_at": "2026-11-25T17:26:08+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌",
+      "theme": [
+        "지프",
+        "오프로드",
+        "ATV",
+        "정글",
+        "액티비티"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 아웃도어 지프투어+사격/괌 아웃도어 지프투어+사격3_투어진행_프리스풀 정상/PEO_8560.JPG",
+      "file": "assets/photos/guam/n_PEO_8560_afbcfc.webp",
+      "bytes": 168550,
+      "baked_at": "2026-11-25T17:26:08+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌",
+      "theme": [
+        "지프",
+        "오프로드",
+        "ATV",
+        "정글",
+        "액티비티"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/남부투어(조인)/남부투어(조인)3_투어진행_에메랄드밸리/_MG_1693.JPG",
+      "file": "assets/photos/guam/n__MG_1693_692cda.webp",
+      "bytes": 308490,
+      "baked_at": "2026-11-25T17:26:09+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 남부"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/남부투어(조인)/남부투어(조인)3_투어진행_에메랄드밸리/_MG_1698.JPG",
+      "file": "assets/photos/guam/n__MG_1698_67137a.webp",
+      "bytes": 324072,
+      "baked_at": "2026-11-25T17:26:09+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 남부"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/남부투어(조인)/남부투어(조인)7_투어진행_솔레다드요새/_MG_2068.JPG",
+      "file": "assets/photos/guam/n__MG_2068_dd2292.webp",
+      "bytes": 122716,
+      "baked_at": "2026-11-25T17:26:09+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 남부"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 탈로포포 골프투어/괌 탈로포포 골프투어2_투어진행_골프플레이/PEO_1562 (2).JPG",
+      "file": "assets/photos/guam/n_PEO_15622_e85769.webp",
+      "bytes": 219010,
+      "baked_at": "2026-11-25T17:26:10+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 탈로포포 골프장",
+      "subject": [
+        "탈로포포"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 CCP 골프장/괌 CCP 골프투어_골프장/IMG_3016.JPG",
+      "file": "assets/photos/guam/n_IMG_3016_5fcbc9.webp",
+      "bytes": 170796,
+      "baked_at": "2026-11-25T17:26:10+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 CCP 골프장",
+      "subject": [
+        "CCP"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 CCP 골프장/괌 CCP 골프투어_골프장/IMG_3022.JPG",
+      "file": "assets/photos/guam/n_IMG_3022_2ff937.webp",
+      "bytes": 265976,
+      "baked_at": "2026-11-25T17:26:10+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 CCP 골프장",
+      "subject": [
+        "CCP"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 CCP 골프장/괌 CCP 골프투어_골프장/IMG_3041.JPG",
+      "file": "assets/photos/guam/n_IMG_3041_6e3594.webp",
+      "bytes": 255760,
+      "baked_at": "2026-11-25T17:26:11+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 CCP 골프장",
+      "subject": [
+        "CCP"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/피쉬아이 돌핀크루즈+해중전망대+런치/피쉬아이 돌핀크루즈+해중전망대+런치4_투어진행_해중전망대도착/PEO_0110.JPG",
+      "file": "assets/photos/guam/n_PEO_0110_7d36b7.webp",
+      "bytes": 106488,
+      "baked_at": "2026-11-25T17:26:11+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 피쉬아이 해중전망대",
+      "subject": [
+        "피쉬아이",
+        "해중전망대"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 샌드캐슬 카레라 쇼/괌 샌드캐슬 카레라 쇼3_투어진행_쇼 관람/PEO_5827.JPG",
+      "file": "assets/photos/guam/n_PEO_5827_c2893e.webp",
+      "bytes": 92060,
+      "baked_at": "2026-11-25T17:26:11+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 샌드캐슬",
+      "subject": [
+        "샌드캐슬",
+        "카레라"
+      ],
+      "theme": [
+        "디너쇼",
+        "매직쇼",
+        "공연"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/남스파 두짓비치리조트/남 스파 두짓비치리조트_마사지룸/PEO_0362.JPG",
+      "file": "assets/photos/guam/n_PEO_0362_ec02d9.webp",
+      "bytes": 147994,
+      "baked_at": "2026-11-25T17:26:12+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓비치 남스파",
+      "subject": [
+        "남스파"
+      ],
+      "theme": [
+        "스파",
+        "마사지",
+        "웰니스"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/남스파 두짓비치리조트/남 스파 두짓비치리조트_내부 인테리어/PEO_0269.JPG",
+      "file": "assets/photos/guam/n_PEO_0269_c20620.webp",
+      "bytes": 112186,
+      "baked_at": "2026-11-25T17:26:12+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓비치 남스파",
+      "subject": [
+        "남스파"
+      ],
+      "theme": [
+        "스파",
+        "마사지",
+        "웰니스"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/오션워크 스누바 스노클링 해양액티비티/오션워크 스누바 스노클링 해양액티비티2_투어진행_돌핀 마린 스포츠 풍경/P2061269.JPG",
+      "file": "assets/photos/guam/n_P2061269_86ee56.webp",
+      "bytes": 151852,
+      "baked_at": "2026-11-25T17:26:12+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌",
+      "theme": [
+        "스노클",
+        "해양",
+        "다이빙",
+        "호핑",
+        "액티비티"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/오션워크 스누바 스노클링 해양액티비티/오션워크 스누바 스노클링 해양액티비티2_투어진행_돌핀 마린 스포츠 풍경/PEO_8940.JPG",
+      "file": "assets/photos/guam/n_PEO_8940_f645d0.webp",
+      "bytes": 146598,
+      "baked_at": "2026-11-25T17:26:12+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/패밀리비치 원데이팩/패밀리비치 원데이팩6_투어진행_패밀리비치/PEO_3898.JPG",
+      "file": "assets/photos/guam/n_PEO_3898_d53d9a.webp",
+      "bytes": 204564,
+      "baked_at": "2026-11-25T17:26:13+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 패밀리비치",
+      "subject": [
+        "패밀리비치"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/스파 아유아람 힐튼/스파 아유아람 힐튼_마사지룸/PEO_6878.JPG",
+      "file": "assets/photos/guam/n_PEO_6878_4f97f1.webp",
+      "bytes": 45602,
+      "baked_at": "2026-11-25T17:26:13+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 힐튼 스파",
+      "subject": [
+        "아유아람"
+      ],
+      "theme": [
+        "스파",
+        "마사지",
+        "웰니스"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/두짓타니 호텔 스파/두짓타니 호텔 스파_내부 인테리어/PEO_3290.JPG",
+      "file": "assets/photos/guam/n_PEO_3290_7430bf.webp",
+      "bytes": 87648,
+      "baked_at": "2026-11-25T17:26:13+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 두짓타니 스파",
+      "subject": [
+        "데바라나"
+      ],
+      "theme": [
+        "스파",
+        "마사지",
+        "웰니스"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/트롤링 요트 낚시/트롤링 요트 낚시2_투어진행_승선/PEO_0828.JPG",
+      "file": "assets/photos/guam/n_PEO_0828_b7ad68.webp",
+      "bytes": 128802,
+      "baked_at": "2026-11-25T17:26:14+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 마리나",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/조 제트스키/조 제트스키3_투어진행_제트스키 탑승/P2061255.JPG",
+      "file": "assets/photos/guam/n_P2061255_722916.webp",
+      "bytes": 109790,
+      "baked_at": "2026-11-25T17:26:14+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 바다",
+      "theme": [
+        "스노클",
+        "해양",
+        "다이빙",
+        "호핑",
+        "액티비티",
+        "제트스키"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/조 제트스키/조 제트스키3_투어진행_제트스키 탑승/P2061237.JPG",
+      "file": "assets/photos/guam/n_P2061237_ac3362.webp",
+      "bytes": 217420,
+      "baked_at": "2026-11-25T17:26:14+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 바다",
+      "theme": [
+        "스노클",
+        "해양",
+        "다이빙",
+        "호핑",
+        "액티비티",
+        "제트스키"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/오션브리즈 어드벤처 ATV 정글투어/오션브리즈 어드벤처 ATV 정글투어3_투어진행_라이딩/_MG_0828.JPG",
+      "file": "assets/photos/guam/n__MG_0828_613202.webp",
+      "bytes": 280978,
+      "baked_at": "2026-11-25T17:26:15+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌",
+      "theme": [
+        "지프",
+        "오프로드",
+        "ATV",
+        "정글",
+        "액티비티"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/오션브리즈 어드벤처 ATV 정글투어/오션브리즈 어드벤처 ATV 정글투어3_투어진행_라이딩/PEO_1346.JPG",
+      "file": "assets/photos/guam/n_PEO_1346_b7037b.webp",
+      "bytes": 343994,
+      "baked_at": "2026-11-25T17:26:15+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌",
+      "theme": [
+        "지프",
+        "오프로드",
+        "ATV",
+        "정글",
+        "액티비티"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/앙코르 매직쇼/앙코르 매직쇼1_투어시작_입구/PEO_1166.JPG",
+      "file": "assets/photos/guam/n_PEO_1166_56d8b1.webp",
+      "bytes": 79264,
+      "baked_at": "2026-11-25T17:26:15+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 앙코르 매직쇼",
+      "subject": [
+        "매직쇼"
+      ],
+      "theme": [
+        "디너쇼",
+        "매직쇼",
+        "공연"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/정글 리버 크루즈/정글 리버 크루즈5_투어진행_라테스톤 마을 방문/PEO_6580.JPG",
+      "file": "assets/photos/guam/n_PEO_6580_8dfca1.webp",
+      "bytes": 459936,
+      "baked_at": "2026-11-25T17:26:16+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 정글",
+      "theme": [
+        "지프",
+        "오프로드",
+        "ATV",
+        "정글",
+        "액티비티"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/피쉬아이 디너쇼+해중전망대/피쉬아이 디너쇼+해중전망대2_투어시작_해중전망대풍경/PEO_2013.JPG",
+      "file": "assets/photos/guam/n_PEO_2013_133b17.webp",
+      "bytes": 200966,
+      "baked_at": "2026-11-25T17:26:16+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 피쉬아이 해중전망대",
+      "subject": [
+        "피쉬아이",
+        "해중전망대"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/롯데 뱅텡 스파/롯데 뱅텡 스파_마사지룸/PEO_5548.JPG",
+      "file": "assets/photos/guam/n_PEO_5548_7da6a9.webp",
+      "bytes": 118278,
+      "baked_at": "2026-11-25T17:26:16+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 롯데호텔 스파",
+      "subject": [
+        "뱅텡"
+      ],
+      "theme": [
+        "스파",
+        "마사지",
+        "웰니스"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/마린팩 제트스키 바나나보트 스노클링/마린팩 제트스키 바나나보트 스노클링_투어진행_패밀리비치 풍경/PEO_0951.JPG",
+      "file": "assets/photos/guam/n_PEO_0951_eb8315.webp",
+      "bytes": 331884,
+      "baked_at": "2026-11-25T17:26:17+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌",
+      "theme": [
+        "스노클",
+        "해양",
+        "다이빙",
+        "호핑",
+        "액티비티"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/차모르 야시장 ZEUS 왕복 셔틀/차모르 야시장 ZEUS 왕복 셔틀3_투어진행_차모르 야시장 기념품/_MG_2648.JPG",
+      "file": "assets/photos/guam/n__MG_2648_019eb3.webp",
+      "bytes": 346966,
+      "baked_at": "2026-11-25T17:26:17+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 차모로 야시장",
+      "subject": [
+        "야시장"
+      ],
+      "theme": [
+        "야시장",
+        "재래시장",
+        "전통시장",
+        "먹거리"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/차모르 야시장 ZEUS 왕복 셔틀/차모르 야시장 ZEUS 왕복 셔틀3_투어진행_차모르 야시장 기념품/_MG_2730.JPG",
+      "file": "assets/photos/guam/n__MG_2730_c55a69.webp",
+      "bytes": 145320,
+      "baked_at": "2026-11-25T17:26:18+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 차모로 야시장",
+      "subject": [
+        "야시장"
+      ],
+      "theme": [
+        "야시장",
+        "재래시장",
+        "전통시장",
+        "먹거리"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/파인이스트 괌 골프&리조트_골프장/PEO_7281.JPG",
+      "file": "assets/photos/guam/n_PEO_7281_018a4b.webp",
+      "bytes": 262430,
+      "baked_at": "2026-11-25T17:26:18+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "파인이스트 괌 골프&리조트",
+      "subject": [
+        "파인이스트"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/파인이스트 괌 골프&리조트_골프장/PEO_7284.JPG",
+      "file": "assets/photos/guam/n_PEO_7284_591d52.webp",
+      "bytes": 250562,
+      "baked_at": "2026-11-25T17:26:18+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "파인이스트 괌 골프&리조트",
+      "subject": [
+        "파인이스트"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 별밤카페/괌 별밤카페2_투어진행_카페/PEO_2542.JPG",
+      "file": "assets/photos/guam/n_PEO_2542_14e372.webp",
+      "bytes": 141814,
+      "baked_at": "2026-11-25T17:26:19+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 별밤카페",
+      "subject": [
+        "별밤"
+      ],
+      "theme": [
+        "별빛",
+        "별 보기"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어4_투어진행_피쉬아이마린파크/PEO_3233.JPG",
+      "file": "assets/photos/guam/n_PEO_3233_4b39ce.webp",
+      "bytes": 394292,
+      "baked_at": "2026-11-25T17:26:19+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어6_투어진행_아가냐 대성당/PEO_3345.JPG",
+      "file": "assets/photos/guam/n_PEO_3345_970075.webp",
+      "bytes": 264414,
+      "baked_at": "2026-11-25T17:26:20+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어7_투어진행_이파오비치/PEO_3437.JPG",
+      "file": "assets/photos/guam/n_PEO_3437_8da181.webp",
+      "bytes": 166558,
+      "baked_at": "2026-11-25T17:26:20+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어3_투어진행_솔레다드 요새/PEO_3172.JPG",
+      "file": "assets/photos/guam/n_PEO_3172_93bcc5.webp",
+      "bytes": 173412,
+      "baked_at": "2026-11-25T17:26:20+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 남부 택시투어/괌 남부 택시투어3_투어진행_솔레다드 요새/PEO_3159.JPG",
+      "file": "assets/photos/guam/n_PEO_3159_fdf59d.webp",
+      "bytes": 267442,
+      "baked_at": "2026-11-25T17:26:21+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/별빛네컷+리가로얄 디너뷔페/별빛네컷+리가로얄 디너뷔페7_투어진행_오아시스 클리프/_MG_0964.JPG",
+      "file": "assets/photos/guam/n__MG_0964_b58289.webp",
+      "bytes": 50618,
+      "baked_at": "2026-11-25T17:26:21+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 리가로얄",
+      "subject": [
+        "리가로얄",
+        "리가 로얄"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/별빛네컷+리가로얄 디너뷔페/별빛네컷+리가로얄 디너뷔페9_투어진행_선셋감상/_MG_1087.JPG",
+      "file": "assets/photos/guam/n__MG_1087_90565a.webp",
+      "bytes": 118444,
+      "baked_at": "2026-11-25T17:26:21+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 리가로얄",
+      "subject": [
+        "리가로얄",
+        "리가 로얄"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 망길라오 골프투어/괌 망길라오 골프 투어_골프장/PEO_6120.JPG",
+      "file": "assets/photos/guam/n_PEO_6120_7d80c3.webp",
+      "bytes": 218714,
+      "baked_at": "2026-11-25T17:26:22+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌 망길라오 골프장",
+      "subject": [
+        "망길라오"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/괌 오프로드 지프 투어/괌 오프로드 지프 투어_지프 외관/_MG_3794.JPG",
+      "file": "assets/photos/guam/n__MG_3794_26cfcc.webp",
+      "bytes": 313228,
+      "baked_at": "2026-11-25T17:26:22+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌",
+      "theme": [
+        "지프",
+        "오프로드",
+        "ATV",
+        "정글",
+        "액티비티"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/남부투어 사진/메리조 부두/IMG_2930.JPG",
+      "file": "assets/photos/guam/n_IMG_2930_d81d2f.webp",
+      "bytes": 336420,
+      "baked_at": "2026-11-25T17:26:22+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/남부투어 사진/메리조 부두/IMG_2919.JPG",
+      "file": "assets/photos/guam/n_IMG_2919_453d82.webp",
+      "bytes": 155806,
+      "baked_at": "2026-11-25T17:26:23+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/링컨 리무진 시티투어/링컨 리무진 시티투어7_투어진행_아가냐 대성당+스페인 광장/PEO_0538.JPG",
+      "file": "assets/photos/guam/n_PEO_0538_cbbeb3.webp",
+      "bytes": 174472,
+      "baked_at": "2026-11-25T17:26:23+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#괌/액티비티/링컨 리무진 시티투어/링컨 리무진 시티투어7_투어진행_아가냐 대성당+스페인 광장/PEO_0563.JPG",
+      "file": "assets/photos/guam/n_PEO_0563_f669b3.webp",
+      "bytes": 133478,
+      "baked_at": "2026-11-25T17:26:23+09:00",
+      "origin": "NAS #DSLR/#괌",
+      "place": "괌"
     }
   ],
   "hawaii": [
@@ -560,50 +1913,12 @@
       "origin": "NAS"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250409_105531626_03.jpg",
-      "file": "assets/photos/saipan/KakaoTalk_20250409_105531626_03.webp",
-      "bytes": 180322,
-      "baked_at": "2026-09-02T10:34:58+09:00",
-      "hero": true,
-      "city": "saipan",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250411_134734529.jpg",
-      "file": "assets/photos/saipan/KakaoTalk_20250411_134734529.webp",
-      "bytes": 341478,
-      "baked_at": "2026-09-02T10:34:59+09:00",
-      "hero": true,
-      "overrode": "얼굴 1건 검출",
-      "city": "saipan",
-      "origin": "NAS"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250411_134734529_01.jpg",
       "file": "assets/photos/saipan/KakaoTalk_20250411_134734529_01.webp",
       "bytes": 437778,
       "baked_at": "2026-09-02T10:35:00+09:00",
       "hero": true,
       "overrode": "얼굴 5건 검출",
-      "city": "saipan",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250411_134734529_02.jpg",
-      "file": "assets/photos/saipan/KakaoTalk_20250411_134734529_02.webp",
-      "bytes": 248772,
-      "baked_at": "2026-09-02T10:35:00+09:00",
-      "hero": true,
-      "overrode": "얼굴 7건 검출",
-      "city": "saipan",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/기타/사이판 날씨/KakaoTalk_20250411_134734529_03.jpg",
-      "file": "assets/photos/saipan/KakaoTalk_20250411_134734529_03.webp",
-      "bytes": 198736,
-      "baked_at": "2026-09-02T10:35:00+09:00",
-      "hero": true,
       "city": "saipan",
       "origin": "NAS"
     },
@@ -636,43 +1951,11 @@
       "origin": "NAS"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_마운트카멜 성당 외부/PEO_1950.JPG",
-      "file": "assets/photos/saipan/PEO_1950.webp",
-      "bytes": 119076,
-      "baked_at": "2026-09-10T17:40:43+09:00",
-      "overrode": "얼굴 2건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_마운트카멜 성당 외부/PEO_1963.JPG",
-      "file": "assets/photos/saipan/PEO_1963.webp",
-      "bytes": 141972,
-      "baked_at": "2026-09-10T17:40:44+09:00",
-      "overrode": "얼굴 2건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_마운트카멜 성당 외부/PEO_1968.JPG",
-      "file": "assets/photos/saipan/PEO_1968.webp",
-      "bytes": 135548,
-      "baked_at": "2026-09-10T17:40:45+09:00",
-      "overrode": "얼굴 3건 검출",
-      "origin": "NAS"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_마운트카멜 성당 외부/PEO_1972.JPG",
       "file": "assets/photos/saipan/PEO_1972.webp",
       "bytes": 216614,
       "baked_at": "2026-09-10T17:40:46+09:00",
       "overrode": "얼굴 2건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_마운트카멜 성당 외부/PEO_1974.JPG",
-      "file": "assets/photos/saipan/PEO_1974.webp",
-      "bytes": 208634,
-      "baked_at": "2026-09-10T17:40:47+09:00",
-      "overrode": "얼굴 8건 검출",
       "origin": "NAS"
     },
     {
@@ -692,33 +1975,11 @@
       "origin": "NAS"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_슈가 덕/PEO_1913.JPG",
-      "file": "assets/photos/saipan/PEO_1913.webp",
-      "bytes": 190162,
-      "baked_at": "2026-09-10T17:40:50+09:00",
-      "overrode": "얼굴 1건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_슈가 덕/PEO_1915.JPG",
-      "file": "assets/photos/saipan/PEO_1915.webp",
-      "bytes": 153894,
-      "baked_at": "2026-09-10T17:40:51+09:00",
-      "origin": "NAS"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_슈가 덕/PEO_1916.JPG",
       "file": "assets/photos/saipan/PEO_1916.webp",
       "bytes": 172982,
       "baked_at": "2026-09-10T17:40:52+09:00",
       "overrode": "얼굴 3건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_슈가 덕/PEO_1918.JPG",
-      "file": "assets/photos/saipan/PEO_1918.webp",
-      "bytes": 118762,
-      "baked_at": "2026-09-10T17:40:53+09:00",
       "origin": "NAS"
     },
     {
@@ -730,64 +1991,10 @@
       "origin": "NAS"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_슈가 덕/PEO_9863.JPG",
-      "file": "assets/photos/saipan/PEO_9863.webp",
-      "bytes": 146568,
-      "baked_at": "2026-09-10T17:40:54+09:00",
-      "origin": "NAS"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_슈가 덕/PEO_9865.JPG",
       "file": "assets/photos/saipan/PEO_9865.webp",
       "bytes": 206926,
       "baked_at": "2026-09-10T17:40:55+09:00",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_슈가 덕/PEO_9866.JPG",
-      "file": "assets/photos/saipan/PEO_9866.webp",
-      "bytes": 254830,
-      "baked_at": "2026-09-10T17:40:56+09:00",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_슈가 덕/PEO_9868.JPG",
-      "file": "assets/photos/saipan/PEO_9868.webp",
-      "bytes": 279148,
-      "baked_at": "2026-09-10T17:40:57+09:00",
-      "overrode": "얼굴 2건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_서프 클럽 비치 풍경/PEO_2162.JPG",
-      "file": "assets/photos/saipan/PEO_2162.webp",
-      "bytes": 126300,
-      "baked_at": "2026-09-10T17:40:58+09:00",
-      "overrode": "얼굴 3건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_서프 클럽 비치 풍경/PEO_2168.JPG",
-      "file": "assets/photos/saipan/PEO_2168.webp",
-      "bytes": 167802,
-      "baked_at": "2026-09-10T17:40:58+09:00",
-      "overrode": "얼굴 5건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_서프 클럽 비치 풍경/PEO_2171.JPG",
-      "file": "assets/photos/saipan/PEO_2171.webp",
-      "bytes": 85142,
-      "baked_at": "2026-09-10T17:40:59+09:00",
-      "overrode": "얼굴 2건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_서프 클럽 비치 풍경/PEO_2173.JPG",
-      "file": "assets/photos/saipan/PEO_2173.webp",
-      "bytes": 78998,
-      "baked_at": "2026-09-10T17:41:00+09:00",
-      "overrode": "얼굴 1건 검출",
       "origin": "NAS"
     },
     {
@@ -796,31 +2003,16 @@
       "bytes": 112688,
       "baked_at": "2026-09-10T17:41:01+09:00",
       "overrode": "얼굴 6건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_서프 클럽 비치 풍경/PEO_2192.JPG",
-      "file": "assets/photos/saipan/PEO_2192.webp",
-      "bytes": 115420,
-      "baked_at": "2026-09-10T17:41:01+09:00",
-      "overrode": "얼굴 5건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_서프 클럽 비치 풍경/PEO_2193.JPG",
-      "file": "assets/photos/saipan/PEO_2193.webp",
-      "bytes": 113722,
-      "baked_at": "2026-09-10T17:41:02+09:00",
-      "overrode": "얼굴 7건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_서프 클럽 비치 풍경/PEO_2195.JPG",
-      "file": "assets/photos/saipan/PEO_2195.webp",
-      "bytes": 112878,
-      "baked_at": "2026-09-10T17:41:02+09:00",
-      "overrode": "얼굴 8건 검출",
-      "origin": "NAS"
+      "origin": "NAS",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
     },
     {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_서프 클럽 비치 풍경/PEO_9842.JPG",
@@ -828,31 +2020,16 @@
       "bytes": 165840,
       "baked_at": "2026-09-10T17:41:03+09:00",
       "overrode": "얼굴 1건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_서프 클럽 비치 풍경/PEO_9845.JPG",
-      "file": "assets/photos/saipan/PEO_9845.webp",
-      "bytes": 191020,
-      "baked_at": "2026-09-10T17:41:04+09:00",
-      "overrode": "얼굴 2건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_서프 클럽 비치 풍경/PEO_9847.JPG",
-      "file": "assets/photos/saipan/PEO_9847.webp",
-      "bytes": 171140,
-      "baked_at": "2026-09-10T17:41:04+09:00",
-      "overrode": "얼굴 5건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_서프 클럽 비치 풍경/PEO_9848.JPG",
-      "file": "assets/photos/saipan/PEO_9848.webp",
-      "bytes": 190336,
-      "baked_at": "2026-09-10T17:41:05+09:00",
-      "overrode": "얼굴 5건 검출",
-      "origin": "NAS"
+      "origin": "NAS",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
     },
     {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2077.JPG",
@@ -860,14 +2037,6 @@
       "bytes": 230268,
       "baked_at": "2026-09-10T17:41:06+09:00",
       "overrode": "얼굴 1건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2081.JPG",
-      "file": "assets/photos/saipan/PEO_2081.webp",
-      "bytes": 332060,
-      "baked_at": "2026-09-10T17:41:07+09:00",
-      "overrode": "얼굴 4건 검출",
       "origin": "NAS"
     },
     {
@@ -895,51 +2064,11 @@
       "origin": "NAS"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2088.JPG",
-      "file": "assets/photos/saipan/PEO_2088.webp",
-      "bytes": 156484,
-      "baked_at": "2026-09-10T17:41:10+09:00",
-      "overrode": "얼굴 5건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2091.JPG",
-      "file": "assets/photos/saipan/PEO_2091.webp",
-      "bytes": 121526,
-      "baked_at": "2026-09-10T17:41:11+09:00",
-      "overrode": "얼굴 2건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2093.JPG",
-      "file": "assets/photos/saipan/PEO_2093.webp",
-      "bytes": 213226,
-      "baked_at": "2026-09-10T17:41:12+09:00",
-      "overrode": "얼굴 4건 검출",
-      "origin": "NAS"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2096.JPG",
       "file": "assets/photos/saipan/PEO_2096.webp",
       "bytes": 264282,
       "baked_at": "2026-09-10T17:41:13+09:00",
       "overrode": "얼굴 1건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2098.JPG",
-      "file": "assets/photos/saipan/PEO_2098.webp",
-      "bytes": 316792,
-      "baked_at": "2026-09-10T17:41:13+09:00",
-      "overrode": "얼굴 8건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2100.JPG",
-      "file": "assets/photos/saipan/PEO_2100.webp",
-      "bytes": 362710,
-      "baked_at": "2026-09-10T17:41:14+09:00",
-      "overrode": "얼굴 14건 검출",
       "origin": "NAS"
     },
     {
@@ -951,22 +2080,6 @@
       "origin": "NAS"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2104.JPG",
-      "file": "assets/photos/saipan/PEO_2104.webp",
-      "bytes": 268210,
-      "baked_at": "2026-09-10T17:41:16+09:00",
-      "overrode": "얼굴 1건 검출",
-      "origin": "NAS"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2106.JPG",
-      "file": "assets/photos/saipan/PEO_2106.webp",
-      "bytes": 196308,
-      "baked_at": "2026-09-10T17:41:17+09:00",
-      "overrode": "얼굴 7건 검출",
-      "origin": "NAS"
-    },
-    {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2129.JPG",
       "file": "assets/photos/saipan/PEO_2129.webp",
       "bytes": 171790,
@@ -975,12 +2088,580 @@
       "origin": "NAS"
     },
     {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_래더 비치 풍경/PEO_2130.JPG",
-      "file": "assets/photos/saipan/PEO_2130.webp",
-      "bytes": 162828,
-      "baked_at": "2026-09-10T17:41:18+09:00",
-      "overrode": "얼굴 2건 검출",
-      "origin": "NAS"
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/아쿠아 리조트/아쿠아 리조트_리조트 외부_풍경 3/PEO_8941.JPG",
+      "file": "assets/photos/saipan/n_PEO_8941_da1301.webp",
+      "bytes": 238830,
+      "baked_at": "2026-11-25T17:26:24+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 아쿠아 리조트",
+      "subject": [
+        "아쿠아 리조트"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/아쿠아 리조트/아쿠아 리조트_리조트 외부_수영장 1/PEO_9016.JPG",
+      "file": "assets/photos/saipan/n_PEO_9016_2eb3b0.webp",
+      "bytes": 152472,
+      "baked_at": "2026-11-25T17:26:24+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 아쿠아 리조트",
+      "subject": [
+        "아쿠아 리조트"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/아쿠아 리조트/아쿠아 리조트_리조트 외부_수영장 2/PEO_9013.JPG",
+      "file": "assets/photos/saipan/n_PEO_9013_d8e8ec.webp",
+      "bytes": 211886,
+      "baked_at": "2026-11-25T17:26:24+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 아쿠아 리조트",
+      "subject": [
+        "아쿠아 리조트"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/아쿠아 리조트/아쿠아 리조트_리조트 외부_수영장 3/PEO_9021.JPG",
+      "file": "assets/photos/saipan/n_PEO_9021_c57695.webp",
+      "bytes": 166036,
+      "baked_at": "2026-11-25T17:26:25+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 아쿠아 리조트",
+      "subject": [
+        "아쿠아 리조트"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/아쿠아 리조트/아쿠아 리조트_리조트 외부_풍경 2/PEO_8695.JPG",
+      "file": "assets/photos/saipan/n_PEO_8695_8b2d88.webp",
+      "bytes": 211784,
+      "baked_at": "2026-11-25T17:26:25+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 아쿠아 리조트",
+      "subject": [
+        "아쿠아 리조트"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/크라운 플라자/크라운 플라자_호텔방 테라스 풍경/PEO_9378.JPG",
+      "file": "assets/photos/saipan/n_PEO_9378_247ebc.webp",
+      "bytes": 272346,
+      "baked_at": "2026-11-25T17:26:25+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 크라운플라자",
+      "subject": [
+        "크라운플라자",
+        "크라운 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/크라운 플라자/크라운 플라자_호텔방 테라스 풍경/PEO_1584.JPG",
+      "file": "assets/photos/saipan/n_PEO_1584_7a4784.webp",
+      "bytes": 240070,
+      "baked_at": "2026-11-25T17:26:26+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 크라운플라자",
+      "subject": [
+        "크라운플라자",
+        "크라운 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/크라운 플라자/크라운 플라자_호텔방 테라스 풍경/PEO_1589.JPG",
+      "file": "assets/photos/saipan/n_PEO_1589_589078.webp",
+      "bytes": 246162,
+      "baked_at": "2026-11-25T17:26:26+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 크라운플라자",
+      "subject": [
+        "크라운플라자",
+        "크라운 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/크라운 플라자/크라운 플라자_호텔방 인테리어/PEO_1478.JPG",
+      "file": "assets/photos/saipan/n_PEO_1478_593594.webp",
+      "bytes": 63878,
+      "baked_at": "2026-11-25T17:26:26+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 크라운플라자",
+      "subject": [
+        "크라운플라자",
+        "크라운 플라자"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/사이판PIC/7_수영장/PEO_7013.JPG",
+      "file": "assets/photos/saipan/n_PEO_7013_b62545.webp",
+      "bytes": 173058,
+      "baked_at": "2026-11-25T17:26:27+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 PIC",
+      "subject": [
+        "PIC"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/사이판PIC/5_룸_전경/PEO_6861.JPG",
+      "file": "assets/photos/saipan/n_PEO_6861_2c86df.webp",
+      "bytes": 368642,
+      "baked_at": "2026-11-25T17:26:27+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 PIC",
+      "subject": [
+        "PIC"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/사이판PIC/2_외관/PEO_7106.JPG",
+      "file": "assets/photos/saipan/n_PEO_7106_8b8dfd.webp",
+      "bytes": 241830,
+      "baked_at": "2026-11-25T17:26:28+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 PIC",
+      "subject": [
+        "PIC"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/3 코럴 오션 리조트/코럴 오션 리조트_풀파티_호텔 야외 수영장/IMG_0430.JPG",
+      "file": "assets/photos/saipan/n_IMG_0430_76c422.webp",
+      "bytes": 237532,
+      "baked_at": "2026-11-25T17:26:28+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 코럴 오션 리조트",
+      "subject": [
+        "코럴 오션",
+        "코럴오션"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/3 코럴 오션 리조트/코럴 오션 리조트_호텔외관_건물/IMG_0433.JPG",
+      "file": "assets/photos/saipan/n_IMG_0433_5c4717.webp",
+      "bytes": 183780,
+      "baked_at": "2026-11-25T17:26:28+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 코럴 오션 리조트",
+      "subject": [
+        "코럴 오션",
+        "코럴오션"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/3 코럴 오션 리조트/코럴 오션 리조트_호텔외관_로비입구/PEO_2890.JPG",
+      "file": "assets/photos/saipan/n_PEO_2890_9e16e4.webp",
+      "bytes": 94076,
+      "baked_at": "2026-11-25T17:26:29+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 코럴 오션 리조트",
+      "subject": [
+        "코럴 오션",
+        "코럴오션"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/켄싱턴 호텔/켄싱턴 호텔_호텔 야외 수영장/PEO_2758.JPG",
+      "file": "assets/photos/saipan/n_PEO_2758_e8408c.webp",
+      "bytes": 202770,
+      "baked_at": "2026-11-25T17:26:29+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "켄싱턴호텔 사이판",
+      "subject": [
+        "켄싱턴"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/켄싱턴 호텔/켄싱턴 호텔_호텔 테라스 풍경/PEO_2496.JPG",
+      "file": "assets/photos/saipan/n_PEO_2496_7c1670.webp",
+      "bytes": 116514,
+      "baked_at": "2026-11-25T17:26:29+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "켄싱턴호텔 사이판",
+      "subject": [
+        "켄싱턴"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/켄싱턴 호텔/켄싱턴 호텔_해변 풍경/PEO_2773.JPG",
+      "file": "assets/photos/saipan/n_PEO_2773_2faab0.webp",
+      "bytes": 139052,
+      "baked_at": "2026-11-25T17:26:30+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "켄싱턴호텔 사이판",
+      "subject": [
+        "켄싱턴"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/켄싱턴 호텔/켄싱턴 호텔_호텔방_침대/PEO_2597.JPG",
+      "file": "assets/photos/saipan/n_PEO_2597_8f34a8.webp",
+      "bytes": 76676,
+      "baked_at": "2026-11-25T17:26:30+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "켄싱턴호텔 사이판",
+      "subject": [
+        "켄싱턴"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/호텔/3센츄리 호텔/센츄리 호텔_호텔방_침대/PEO_7910.JPG",
+      "file": "assets/photos/saipan/n_PEO_7910_fbaca1.webp",
+      "bytes": 46732,
+      "baked_at": "2026-11-25T17:26:30+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 센츄리 호텔",
+      "subject": [
+        "센츄리"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/렌트카/렌트카/PEO_5630.JPG",
+      "file": "assets/photos/saipan/n_PEO_5630_adeb3a.webp",
+      "bytes": 90084,
+      "baked_at": "2026-11-25T17:26:30+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판",
+      "theme": [
+        "렌터카",
+        "렌트카",
+        "자동차 여행"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/렌트카/2 렌트카/PEO_3758.JPG",
+      "file": "assets/photos/saipan/n_PEO_3758_dbbd02.webp",
+      "bytes": 126714,
+      "baked_at": "2026-11-25T17:26:30+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 거북이 호핑투어 스노클링/사이판 거북이 호핑투어 스노클링_투어진행_선상낚시/PEO_5874.JPG",
+      "file": "assets/photos/saipan/n_PEO_5874_bed9b6.webp",
+      "bytes": 47866,
+      "baked_at": "2026-11-25T17:26:31+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 바다"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)마나가하섬+거북이 호핑투어/마나가하섬+거북이 호핑투어_투어진행_바다 풍경/PEO_4278.JPG",
+      "file": "assets/photos/saipan/n_PEO_4278_c84ad9.webp",
+      "bytes": 139172,
+      "baked_at": "2026-11-25T17:26:31+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 바다"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 거북이 호핑투어 스노클링/사이판 거북이 호핑투어 스노클링_투어진행_스노클링/PB290617.JPG",
+      "file": "assets/photos/saipan/n_PB290617_a8cd3f.webp",
+      "bytes": 108668,
+      "baked_at": "2026-11-25T17:26:31+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)마나가하섬+패러세일링/마나가하섬+패러세일링_투어진행_마나가하섬 바다 풍경/PEO_3119.JPG",
+      "file": "assets/photos/saipan/n_PEO_3119_797862.webp",
+      "bytes": 132486,
+      "baked_at": "2026-11-25T17:26:32+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)선셋 디너 크루즈/투어진행_크루즈에서 바라본 풍경 1/IMG_9698.JPG",
+      "file": "assets/photos/saipan/n_IMG_9698_5bce05.webp",
+      "bytes": 170424,
+      "baked_at": "2026-11-25T17:26:32+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)마나가하섬+패러세일링/마나가하섬+패러세일링_바다 풍경/PEO_3697.JPG",
+      "file": "assets/photos/saipan/n_PEO_3697_ca2874.webp",
+      "bytes": 138412,
+      "baked_at": "2026-11-25T17:26:32+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)씽씽버기카+그루토/씽씽버기카+그루토_그루토 동굴 내부 도착/IMG_0001.JPG",
+      "file": "assets/photos/saipan/n_IMG_0001_b90891.webp",
+      "bytes": 92856,
+      "baked_at": "2026-11-25T17:26:33+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 그로토",
+      "subject": [
+        "그로토",
+        "그루토"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)그루토 스노클링 & 바베큐/그루토 스노클링 & 바베큐_투어진행_그로토 동굴 스노클링 2/PEO_7380.JPG",
+      "file": "assets/photos/saipan/n_PEO_7380_67a552.webp",
+      "bytes": 323358,
+      "baked_at": "2026-11-25T17:26:33+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 그로토",
+      "subject": [
+        "그로토",
+        "그루토"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)씽씽버기카+그루토/씽씽버기카+그루토_만세절벽 풍경/IMG_0127.JPG",
+      "file": "assets/photos/saipan/n_IMG_0127_3e13f9.webp",
+      "bytes": 139052,
+      "baked_at": "2026-11-25T17:26:33+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 동북부 핵심투어/사이판 동북부 핵심투어_제프리스 비치 풍경/PEO_4180.JPG",
+      "file": "assets/photos/saipan/n_PEO_4180_f85c16.webp",
+      "bytes": 146068,
+      "baked_at": "2026-11-25T17:26:34+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 동북부 핵심투어/사이판 동북부 핵심투어_만세절벽/PEO_3886.JPG",
+      "file": "assets/photos/saipan/n_PEO_3886_930d86.webp",
+      "bytes": 191260,
+      "baked_at": "2026-11-25T17:26:34+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 동북부 핵심투어/사이판 동북부 핵심투어_사이판 사인 관광/PEO_3977.JPG",
+      "file": "assets/photos/saipan/n_PEO_3977_8fec5b.webp",
+      "bytes": 228030,
+      "baked_at": "2026-11-25T17:26:34+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 정글투어/사이판 정글투어_타포차우산 풍경/IMG_1579.JPG",
+      "file": "assets/photos/saipan/n_IMG_1579_68012f.webp",
+      "bytes": 185356,
+      "baked_at": "2026-11-25T17:26:35+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판",
+      "theme": [
+        "지프",
+        "오프로드",
+        "ATV",
+        "정글",
+        "액티비티"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 정글투어/사이판 정글투어_투어진행_산타루테스 성당 성명 및 투어/IMG_1708.JPG",
+      "file": "assets/photos/saipan/n_IMG_1708_f36a91.webp",
+      "bytes": 425258,
+      "baked_at": "2026-11-25T17:26:35+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판",
+      "theme": [
+        "지프",
+        "오프로드",
+        "ATV",
+        "정글",
+        "액티비티"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)코럴오션리조트 골프투어/코럴오션리조트 골프투어_야외 골프장 풍경/IMG_0538.JPG",
+      "file": "assets/photos/saipan/n_IMG_0538_25e784.webp",
+      "bytes": 140148,
+      "baked_at": "2026-11-25T17:26:35+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 코럴 오션 골프장",
+      "subject": [
+        "코럴 오션",
+        "코럴오션"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)코럴오션리조트 골프투어/코럴오션리조트 골프투어_투어진행_골프장전경/IMG_0857.JPG",
+      "file": "assets/photos/saipan/n_IMG_0857_42141e.webp",
+      "bytes": 135160,
+      "baked_at": "2026-11-25T17:26:36+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 코럴 오션 골프장",
+      "subject": [
+        "코럴 오션",
+        "코럴오션"
+      ],
+      "theme": [
+        "골프"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)마나가하섬+패러세일링/마나가하섬+패러세일링_해변 풍경/PB270001.JPG",
+      "file": "assets/photos/saipan/n_PB270001_ee7d7d.webp",
+      "bytes": 339822,
+      "baked_at": "2026-11-25T17:26:36+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 마나가하섬",
+      "subject": [
+        "마나가하"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)로하스 마사지/로하스마사지_투어진행_마사지 룸/PEO_0169.JPG",
+      "file": "assets/photos/saipan/n_PEO_0169_54a00b.webp",
+      "bytes": 119736,
+      "baked_at": "2026-11-25T17:26:36+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 마사지숍",
+      "theme": [
+        "스파",
+        "마사지",
+        "웰니스"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_투어진행_래더 비치 풍경 1/PEO_9714.JPG",
+      "file": "assets/photos/saipan/n_PEO_9714_9e55b2.webp",
+      "bytes": 266248,
+      "baked_at": "2026-11-25T17:26:37+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 남부"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_투어진행_서프 클럽 1/PEO_2141.JPG",
+      "file": "assets/photos/saipan/n_PEO_2141_d08790.webp",
+      "bytes": 79958,
+      "baked_at": "2026-11-25T17:26:37+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 남부"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 남부투어/사이판 남부투어_투어진행_오이얀 비치 풍경 2/PEO_2039.JPG",
+      "file": "assets/photos/saipan/n_PEO_2039_9909ba.webp",
+      "bytes": 153266,
+      "baked_at": "2026-11-25T17:26:37+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 남부"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)티니안 원데이 투어/티니안 원데이 투어_바다 풍경/KakaoTalk_20241206_145744545_06.jpg",
+      "file": "assets/photos/saipan/n_KakaoTalk_20241206_145744545_25d0f7.webp",
+      "bytes": 324338,
+      "baked_at": "2026-11-25T17:26:38+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "티니안",
+      "city": "tinian"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)티니안 원데이 투어/티니안 원데이 투어_바다 풍경/KakaoTalk_20241206_145744545.jpg",
+      "file": "assets/photos/saipan/n_KakaoTalk_20241206_145744545_5a26b4.webp",
+      "bytes": 251158,
+      "baked_at": "2026-11-25T17:26:38+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "티니안",
+      "city": "tinian"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 북부투어/사이판 북부투어_투어진행_일본최후사령부/PEO_6417.JPG",
+      "file": "assets/photos/saipan/n_PEO_6417_d8aae5.webp",
+      "bytes": 233946,
+      "baked_at": "2026-11-25T17:26:39+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)패러세일링+마나가하섬+호핑투어/마나가하섬+패러세일링+호핑투어_마나가하섬 해변/GOPR3629.JPG",
+      "file": "assets/photos/saipan/n_GOPR3629_94f568.webp",
+      "bytes": 361188,
+      "baked_at": "2026-11-25T17:26:40+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 바닷속",
+      "theme": [
+        "스노클",
+        "해양",
+        "다이빙",
+        "호핑",
+        "액티비티"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)패러세일링+마나가하섬+호핑투어/마나가하섬+패러세일링+호핑투어_패러세일링/IMG_2154.JPG",
+      "file": "assets/photos/saipan/n_IMG_2154_5e776a.webp",
+      "bytes": 29000,
+      "baked_at": "2026-11-25T17:26:40+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판",
+      "theme": [
+        "스노클",
+        "해양",
+        "다이빙",
+        "호핑",
+        "액티비티",
+        "패러세일링"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)그로토 스노클링+북부투어/그루토 스노클링 + 북부투어_만세절벽 + 새섬 풍경/PEO_4554.JPG",
+      "file": "assets/photos/saipan/n_PEO_4554_290221.webp",
+      "bytes": 184910,
+      "baked_at": "2026-11-25T17:26:40+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판 만세절벽"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#사이판/액티비티/(완료)사이판 ATV 남부투어/사이판 ATV 남부투어_투어진행_ATV 외관/PEO_5670.JPG",
+      "file": "assets/photos/saipan/n_PEO_5670_310bc5.webp",
+      "bytes": 433956,
+      "baked_at": "2026-11-25T17:26:41+09:00",
+      "origin": "NAS #DSLR/#사이판",
+      "place": "사이판",
+      "theme": [
+        "지프",
+        "오프로드",
+        "ATV",
+        "정글",
+        "액티비티"
+      ]
     }
   ],
   "kota": [
@@ -1234,6 +2915,199 @@
       "baked_at": "2026-10-07T18:02:02+09:00",
       "origin": "NAS #DSLR/#코타키나발루",
       "overrode": "얼굴 10건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/기타/공항내부/PEO_7678.JPG",
+      "file": "assets/photos/kota/n_PEO_7678_c8b3ea.webp",
+      "bytes": 110974,
+      "baked_at": "2026-11-25T17:26:52+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루 공항",
+      "theme": [
+        "공항",
+        "항공",
+        "노선",
+        "직항",
+        "취항",
+        "증편",
+        "운항",
+        "탑승"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/디나완 반딧불 투어(+시티투어포함)/디나완 반딧불 투어(+시티투어포함)_투어장소 도착/3 핑크모스크/PEO_6788.JPG",
+      "file": "assets/photos/kota/n_PEO_6788_77f19f.webp",
+      "bytes": 241702,
+      "baked_at": "2026-11-25T17:26:52+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/디나완 반딧불 투어(+시티투어포함)/디나완 반딧불 투어(+시티투어포함)_투어장소 도착/4 블루모스크/PEO_3958.JPG",
+      "file": "assets/photos/kota/n_PEO_3958_62c9da.webp",
+      "bytes": 213260,
+      "baked_at": "2026-11-25T17:26:52+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/럭셔리 요트 섬투어/6식사/PEO_2302.JPG",
+      "file": "assets/photos/kota/n_PEO_2302_cf5d75.webp",
+      "bytes": 336550,
+      "baked_at": "2026-11-25T17:26:53+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루 섬",
+      "theme": [
+        "스노클",
+        "해양",
+        "다이빙",
+        "호핑",
+        "액티비티",
+        "섬투어",
+        "섬 여행"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/럭셔리 요트 섬투어 2/럭셔리 요트 섬투어_투어진행_가야섬 바다/PEO_3208.JPG",
+      "file": "assets/photos/kota/n_PEO_3208_4a2044.webp",
+      "bytes": 376634,
+      "baked_at": "2026-11-25T17:26:53+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루 섬",
+      "theme": [
+        "스노클",
+        "해양",
+        "다이빙",
+        "호핑",
+        "액티비티",
+        "섬투어",
+        "섬 여행"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/럭셔리 요트 섬투어/3가야섬/PEO_2089.JPG",
+      "file": "assets/photos/kota/n_PEO_2089_35268b.webp",
+      "bytes": 92764,
+      "baked_at": "2026-11-25T17:26:54+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루 섬",
+      "theme": [
+        "스노클",
+        "해양",
+        "다이빙",
+        "호핑",
+        "액티비티",
+        "섬투어",
+        "섬 여행"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/코타신규/마린팩/가야섬/PEO_0628.JPG",
+      "file": "assets/photos/kota/n_PEO_0628_67171e.webp",
+      "bytes": 433484,
+      "baked_at": "2026-11-25T17:26:54+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루 섬",
+      "theme": [
+        "스노클",
+        "해양",
+        "다이빙",
+        "호핑",
+        "액티비티",
+        "섬투어",
+        "섬 여행"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/마린팩/마린팩_투어진행_가야섬 해변/PEO_9665.JPG",
+      "file": "assets/photos/kota/n_PEO_9665_c5eb49.webp",
+      "bytes": 374396,
+      "baked_at": "2026-11-25T17:26:55+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루 섬",
+      "theme": [
+        "스노클",
+        "해양",
+        "다이빙",
+        "호핑",
+        "액티비티",
+        "섬투어",
+        "섬 여행"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/디나완 반딧불 투어(+시티투어포함)/디나완 반딧불 투어(+시티투어포함)_투어진행_맹그로브 숲 투어/맹글로숲 투어/PEO_7213.JPG",
+      "file": "assets/photos/kota/n_PEO_7213_78fd64.webp",
+      "bytes": 346268,
+      "baked_at": "2026-11-25T17:26:55+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루 맹그로브",
+      "theme": [
+        "반딧불",
+        "맹그로브"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/코타키나발루 반딧불 투어/코타키나발루 반딧불 투어_투어진행_맹그로브숲 풍경1/맹그로브 숲_풍경/PEO_4759.JPG",
+      "file": "assets/photos/kota/n_PEO_4759_1c6b82.webp",
+      "bytes": 470608,
+      "baked_at": "2026-11-25T17:26:56+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루 맹그로브",
+      "theme": [
+        "반딧불",
+        "맹그로브"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/마린팩/마린팩_투어진행_씨워킹/PEO_8949.JPG",
+      "file": "assets/photos/kota/n_PEO_8949_972c64.webp",
+      "bytes": 118330,
+      "baked_at": "2026-11-25T17:26:56+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루",
+      "theme": [
+        "크루즈",
+        "요트",
+        "선박",
+        "보트",
+        "낚시",
+        "돌핀",
+        "마리나"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/코콜힐투어 (코콜엘프,코콜해븐)/코콜힐투어 (코콜엘프,코콜헤븐)_투어진행_코콜 엘프 방문/PEO_9294.JPG",
+      "file": "assets/photos/kota/n_PEO_9294_44946e.webp",
+      "bytes": 242698,
+      "baked_at": "2026-11-25T17:26:57+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루 코콜힐",
+      "subject": [
+        "코콜"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/코콜힐투어 (코콜엘프,코콜해븐)/코콜힐투어 (코콜엘프,코콜헤븐)_투어진행_코콜엘프2/PEO_9330.JPG",
+      "file": "assets/photos/kota/n_PEO_9330_bc5492.webp",
+      "bytes": 360672,
+      "baked_at": "2026-11-25T17:26:57+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루 코콜힐",
+      "subject": [
+        "코콜"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#코타키나발루/액티비티/코콜힐투어 (코콜엘프,코콜해븐)/코콜힐투어 (코콜엘프,코콜헤븐)_투어진행_코콜헤븐1/PEO_9590.JPG",
+      "file": "assets/photos/kota/n_PEO_9590_e8c264.webp",
+      "bytes": 317888,
+      "baked_at": "2026-11-25T17:26:58+09:00",
+      "origin": "NAS #DSLR/#코타키나발루",
+      "place": "코타키나발루 코콜힐",
+      "subject": [
+        "코콜"
+      ]
     }
   ],
   "vietnam": [
@@ -1256,372 +3130,6 @@
       "overrode": "얼굴 7건 검출",
       "city": "danang",
       "origin": "NAS"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260904_하노이여행_10번.png",
-      "file": "assets/photos/vietnam/260904_하노이여행_10번.webp",
-      "bytes": 249626,
-      "baked_at": "2026-09-08T18:26:08+09:00",
-      "overrode": "얼굴 1건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260904_하노이여행_13번.png",
-      "file": "assets/photos/vietnam/260904_하노이여행_13번.webp",
-      "bytes": 135118,
-      "baked_at": "2026-09-08T18:26:08+09:00",
-      "overrode": "얼굴 3건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260905_하롱베이크루즈_11번.png",
-      "file": "assets/photos/vietnam/260905_하롱베이크루즈_11번.webp",
-      "bytes": 191644,
-      "baked_at": "2026-09-08T18:26:09+09:00",
-      "overrode": "얼굴 1건 검출",
-      "city": "halong",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260905_하롱베이크루즈_12번.png",
-      "file": "assets/photos/vietnam/260905_하롱베이크루즈_12번.webp",
-      "bytes": 156814,
-      "baked_at": "2026-09-08T18:26:09+09:00",
-      "city": "halong",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260905_하롱베이크루즈_1번.png",
-      "file": "assets/photos/vietnam/260905_하롱베이크루즈_1번.webp",
-      "bytes": 119730,
-      "baked_at": "2026-09-08T18:26:09+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "halong",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260905_하롱베이크루즈_2번.png",
-      "file": "assets/photos/vietnam/260905_하롱베이크루즈_2번.webp",
-      "bytes": 206100,
-      "baked_at": "2026-09-08T18:26:10+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "halong",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260905_하롱베이크루즈_4번.png",
-      "file": "assets/photos/vietnam/260905_하롱베이크루즈_4번.webp",
-      "bytes": 150852,
-      "baked_at": "2026-09-08T18:26:10+09:00",
-      "overrode": "얼굴 4건 검출",
-      "city": "halong",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260905_하롱베이크루즈_5번.png",
-      "file": "assets/photos/vietnam/260905_하롱베이크루즈_5번.webp",
-      "bytes": 178476,
-      "baked_at": "2026-09-08T18:26:11+09:00",
-      "overrode": "얼굴 1건 검출",
-      "city": "halong",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260906_하노이호텔_16번.png",
-      "file": "assets/photos/vietnam/260906_하노이호텔_16번.webp",
-      "bytes": 84768,
-      "baked_at": "2026-09-08T18:26:11+09:00",
-      "overrode": "얼굴 3건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260906_하노이호텔_2번.png",
-      "file": "assets/photos/vietnam/260906_하노이호텔_2번.webp",
-      "bytes": 164174,
-      "baked_at": "2026-09-08T18:26:12+09:00",
-      "overrode": "얼굴 6건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260906_하노이호텔_4번.png",
-      "file": "assets/photos/vietnam/260906_하노이호텔_4번.webp",
-      "bytes": 146442,
-      "baked_at": "2026-09-08T18:26:12+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260906_하노이호텔_5번.png",
-      "file": "assets/photos/vietnam/260906_하노이호텔_5번.webp",
-      "bytes": 173028,
-      "baked_at": "2026-09-08T18:26:13+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260906_하노이호텔_6번.png",
-      "file": "assets/photos/vietnam/260906_하노이호텔_6번.webp",
-      "bytes": 107398,
-      "baked_at": "2026-09-08T18:26:13+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260906_하노이호텔_8번.png",
-      "file": "assets/photos/vietnam/260906_하노이호텔_8번.webp",
-      "bytes": 132648,
-      "baked_at": "2026-09-08T18:26:13+09:00",
-      "overrode": "얼굴 6건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260908_하노이 자유여행 일정_12번.png",
-      "file": "assets/photos/vietnam/260908_하노이자유여행일정_12번.webp",
-      "bytes": 244078,
-      "baked_at": "2026-09-08T18:26:14+09:00",
-      "overrode": "얼굴 4건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260908_하노이 자유여행 일정_1번.png",
-      "file": "assets/photos/vietnam/260908_하노이자유여행일정_1번.webp",
-      "bytes": 90228,
-      "baked_at": "2026-09-08T18:26:14+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260908_하노이 자유여행 일정_2번.png",
-      "file": "assets/photos/vietnam/260908_하노이자유여행일정_2번.webp",
-      "bytes": 236062,
-      "baked_at": "2026-09-08T18:26:15+09:00",
-      "overrode": "얼굴 4건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260908_하노이 자유여행 일정_4번.png",
-      "file": "assets/photos/vietnam/260908_하노이자유여행일정_4번.webp",
-      "bytes": 107268,
-      "baked_at": "2026-09-08T18:26:15+09:00",
-      "overrode": "얼굴 3건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260908_하노이 자유여행 일정_6번.png",
-      "file": "assets/photos/vietnam/260908_하노이자유여행일정_6번.webp",
-      "bytes": 141204,
-      "baked_at": "2026-09-08T18:26:16+09:00",
-      "overrode": "얼굴 1건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260908_하노이 자유여행 일정_7번.png",
-      "file": "assets/photos/vietnam/260908_하노이자유여행일정_7번.webp",
-      "bytes": 217866,
-      "baked_at": "2026-09-08T18:26:16+09:00",
-      "overrode": "얼굴 7건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260908_하노이 자유여행 일정_8번.png",
-      "file": "assets/photos/vietnam/260908_하노이자유여행일정_8번.webp",
-      "bytes": 141636,
-      "baked_at": "2026-09-08T18:26:16+09:00",
-      "overrode": "얼굴 3건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260910_하노이닌빈여행_12번.png",
-      "file": "assets/photos/vietnam/260910_하노이닌빈여행_12번.webp",
-      "bytes": 168302,
-      "baked_at": "2026-09-08T18:26:16+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "ninhbinh",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260910_하노이닌빈여행_1번.png",
-      "file": "assets/photos/vietnam/260910_하노이닌빈여행_1번.webp",
-      "bytes": 166712,
-      "baked_at": "2026-09-08T18:26:17+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "ninhbinh",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260910_하노이닌빈여행_6번.png",
-      "file": "assets/photos/vietnam/260910_하노이닌빈여행_6번.webp",
-      "bytes": 145272,
-      "baked_at": "2026-09-08T18:26:17+09:00",
-      "overrode": "얼굴 3건 검출",
-      "city": "ninhbinh",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260910_하노이닌빈여행_7번.png",
-      "file": "assets/photos/vietnam/260910_하노이닌빈여행_7번.webp",
-      "bytes": 244984,
-      "baked_at": "2026-09-08T18:26:17+09:00",
-      "overrode": "얼굴 4건 검출",
-      "city": "ninhbinh",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260910_하노이닌빈여행_8번.png",
-      "file": "assets/photos/vietnam/260910_하노이닌빈여행_8번.webp",
-      "bytes": 277522,
-      "baked_at": "2026-09-08T18:26:18+09:00",
-      "city": "ninhbinh",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260910_하노이닌빈여행_9번.png",
-      "file": "assets/photos/vietnam/260910_하노이닌빈여행_9번.webp",
-      "bytes": 219304,
-      "baked_at": "2026-09-08T18:26:18+09:00",
-      "overrode": "얼굴 1건 검출",
-      "city": "ninhbinh",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_10번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_10번.webp",
-      "bytes": 117412,
-      "baked_at": "2026-09-08T18:26:18+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_11번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_11번.webp",
-      "bytes": 162192,
-      "baked_at": "2026-09-08T18:26:19+09:00",
-      "overrode": "얼굴 7건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_12번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_12번.webp",
-      "bytes": 215504,
-      "baked_at": "2026-09-08T18:26:19+09:00",
-      "overrode": "얼굴 5건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_13번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_13번.webp",
-      "bytes": 158580,
-      "baked_at": "2026-09-08T18:26:19+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_1번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_1번.webp",
-      "bytes": 145802,
-      "baked_at": "2026-09-08T18:26:19+09:00",
-      "overrode": "얼굴 7건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_2번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_2번.webp",
-      "bytes": 156392,
-      "baked_at": "2026-09-08T18:26:20+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_3번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_3번.webp",
-      "bytes": 179492,
-      "baked_at": "2026-09-08T18:26:20+09:00",
-      "overrode": "얼굴 2건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_4번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_4번.webp",
-      "bytes": 244122,
-      "baked_at": "2026-09-08T18:26:21+09:00",
-      "overrode": "얼굴 3건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_5번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_5번.webp",
-      "bytes": 185532,
-      "baked_at": "2026-09-08T18:26:21+09:00",
-      "overrode": "얼굴 6건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_6번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_6번.webp",
-      "bytes": 247472,
-      "baked_at": "2026-09-08T18:26:21+09:00",
-      "overrode": "얼굴 1건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_7번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_7번.webp",
-      "bytes": 185088,
-      "baked_at": "2026-09-08T18:26:22+09:00",
-      "overrode": "얼굴 1건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/tmp/stage_hanoi/260912_하노이 여행지_9번.png",
-      "file": "assets/photos/vietnam/260912_하노이여행지_9번.webp",
-      "bytes": 146904,
-      "baked_at": "2026-09-08T18:26:22+09:00",
-      "overrode": "얼굴 4건 검출",
-      "city": "hanoi",
-      "origin": "NAS #DSLR/#하노이 (커밋 7901099)"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/다낭 바닷가/PEO_2796.JPG",
-      "file": "assets/photos/vietnam/PEO_2796.webp",
-      "bytes": 205048,
-      "baked_at": "2026-10-07T18:05:53+09:00",
-      "origin": "NAS #DSLR/#다낭",
-      "city": "danang"
-    },
-    {
-      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/다낭 바닷가/PEO_2798.JPG",
-      "file": "assets/photos/vietnam/PEO_2798.webp",
-      "bytes": 112812,
-      "baked_at": "2026-10-07T18:05:57+09:00",
-      "origin": "NAS #DSLR/#다낭",
-      "city": "danang",
-      "overrode": "얼굴 1건 검출"
     },
     {
       "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3317.JPG",
@@ -1658,6 +3166,410 @@
       "origin": "NAS #DSLR/#다낭",
       "city": "danang",
       "overrode": "얼굴 6건 검출"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/기타_다낭공항_입국/PEO_0005.JPG",
+      "file": "assets/photos/vietnam/n_PEO_0005_0a1de2.webp",
+      "bytes": 133152,
+      "baked_at": "2026-11-25T17:26:41+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭공항",
+      "theme": [
+        "공항",
+        "항공",
+        "노선",
+        "직항",
+        "취항",
+        "증편",
+        "운항",
+        "탑승"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/기타_다낭공항_입국/PEO_0010.JPG",
+      "file": "assets/photos/vietnam/n_PEO_0010_fcfbb9.webp",
+      "bytes": 86984,
+      "baked_at": "2026-11-25T17:26:41+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭공항",
+      "theme": [
+        "공항",
+        "항공",
+        "노선",
+        "직항",
+        "취항",
+        "증편",
+        "운항",
+        "탑승"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/기타_다낭공항_입국/PEO_0018.JPG",
+      "file": "assets/photos/vietnam/n_PEO_0018_260e6c.webp",
+      "bytes": 112024,
+      "baked_at": "2026-11-25T17:26:42+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭공항",
+      "theme": [
+        "공항",
+        "항공",
+        "노선",
+        "직항",
+        "취항",
+        "증편",
+        "운항",
+        "탑승"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/2하롱시장/PEO_7427.JPG",
+      "file": "assets/photos/vietnam/n_PEO_7427_dd47cc.webp",
+      "bytes": 134704,
+      "baked_at": "2026-11-25T17:26:42+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "하롱시장",
+      "city": "halong",
+      "theme": [
+        "야시장",
+        "재래시장",
+        "전통시장",
+        "쇼핑"
+      ]
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/다낭 한시장_시장 내부/PEO_1575.JPG",
+      "file": "assets/photos/vietnam/n_PEO_1575_660196.webp",
+      "bytes": 288602,
+      "baked_at": "2026-11-25T17:26:42+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 한시장",
+      "subject": [
+        "한시장"
+      ],
+      "theme": [
+        "쇼핑",
+        "면세",
+        "기념품",
+        "돈키",
+        "야시장",
+        "재래시장",
+        "전통시장",
+        "먹거리"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/다낭 한시장_시장 내부/PEO_1568.JPG",
+      "file": "assets/photos/vietnam/n_PEO_1568_6380d3.webp",
+      "bytes": 264564,
+      "baked_at": "2026-11-25T17:26:43+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 한시장",
+      "subject": [
+        "한시장"
+      ],
+      "theme": [
+        "쇼핑",
+        "면세",
+        "기념품",
+        "돈키",
+        "야시장",
+        "재래시장",
+        "전통시장",
+        "먹거리"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/하롱바다/PEO_6570.JPG",
+      "file": "assets/photos/vietnam/n_PEO_6570_3563b8.webp",
+      "bytes": 324066,
+      "baked_at": "2026-11-25T17:26:43+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "하롱",
+      "city": "halong"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/하롱바다/PEO_6585.JPG",
+      "file": "assets/photos/vietnam/n_PEO_6585_ff8ec7.webp",
+      "bytes": 51272,
+      "baked_at": "2026-11-25T17:26:43+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "하롱",
+      "city": "halong"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/하롱바다/PEO_6574.JPG",
+      "file": "assets/photos/vietnam/n_PEO_6574_a57e72.webp",
+      "bytes": 75528,
+      "baked_at": "2026-11-25T17:26:44+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "하롱",
+      "city": "halong"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3425.JPG",
+      "file": "assets/photos/vietnam/n_PEO_3425_ce9bf2.webp",
+      "bytes": 299724,
+      "baked_at": "2026-11-25T17:26:44+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "호이안",
+      "theme": [
+        "호이안",
+        "등불"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3445.JPG",
+      "file": "assets/photos/vietnam/n_PEO_3445_9e6365.webp",
+      "bytes": 172866,
+      "baked_at": "2026-11-25T17:26:45+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "호이안",
+      "theme": [
+        "호이안",
+        "등불"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3436.JPG",
+      "file": "assets/photos/vietnam/n_PEO_3436_ad8152.webp",
+      "bytes": 206130,
+      "baked_at": "2026-11-25T17:26:45+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "호이안",
+      "theme": [
+        "호이안",
+        "등불"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/5호이안/PEO_3312.JPG",
+      "file": "assets/photos/vietnam/n_PEO_3312_121a60.webp",
+      "bytes": 376078,
+      "baked_at": "2026-11-25T17:26:45+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "호이안",
+      "theme": [
+        "호이안",
+        "등불"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/다낭 바닷가/PEO_2833.JPG",
+      "file": "assets/photos/vietnam/n_PEO_2833_171db2.webp",
+      "bytes": 42568,
+      "baked_at": "2026-11-25T17:26:46+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 바닷가",
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/기타/4기찻길/PEO_7109.JPG",
+      "file": "assets/photos/vietnam/n_PEO_7109_f136ec.webp",
+      "bytes": 216736,
+      "baked_at": "2026-11-25T17:26:46+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "하노이 기찻길",
+      "city": "hanoi"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/호텔/노보텔 다낭 프리미어 한 리버/기타/PEO_2572.JPG",
+      "file": "assets/photos/vietnam/n_PEO_2572_76cbff.webp",
+      "bytes": 166298,
+      "baked_at": "2026-11-25T17:26:46+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 한강",
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/호텔/멜리아 빈펄 다낭 리버프론트/로얄 스윗/PEO_1949.JPG",
+      "file": "assets/photos/vietnam/n_PEO_1949_b28eee.webp",
+      "bytes": 176606,
+      "baked_at": "2026-11-25T17:26:47+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 한강",
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/호텔/멜리아 빈펄 다낭 리버프론트/멜리아 빈펄 다낭 리버프론트_호텔방_풍경/PEO_0203.JPG",
+      "file": "assets/photos/vietnam/n_PEO_0203_26fc42.webp",
+      "bytes": 162434,
+      "baked_at": "2026-11-25T17:26:47+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 한강",
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/호텔/노보텔 다낭 프리미어 한 리버/기타/노보텔/PEO_4504.JPG",
+      "file": "assets/photos/vietnam/n_PEO_4504_f9abf6.webp",
+      "bytes": 114756,
+      "baked_at": "2026-11-25T17:26:47+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "노보텔 다낭",
+      "subject": [
+        "노보텔"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/호텔/코이 리조트 & 스파 호이안/코이 리조트 & 스파 호이안_풀빌라 외부/PEO_1787.JPG",
+      "file": "assets/photos/vietnam/n_PEO_1787_2bd868.webp",
+      "bytes": 455482,
+      "baked_at": "2026-11-25T17:26:48+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "코이 리조트 호이안",
+      "subject": [
+        "코이 리조트"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/호텔/코이 리조트 & 스파 호이안/코이 리조트 & 스파 호이안_객실 외부/PEO_1445.JPG",
+      "file": "assets/photos/vietnam/n_PEO_1445_8a9de1.webp",
+      "bytes": 357286,
+      "baked_at": "2026-11-25T17:26:48+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "코이 리조트 호이안",
+      "subject": [
+        "코이 리조트"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/호텔/코이 리조트 & 스파 호이안/코이 리조트 & 스파 호이안_풀빌라 외부/_MG_3485.JPG",
+      "file": "assets/photos/vietnam/n__MG_3485_dcae95.webp",
+      "bytes": 196820,
+      "baked_at": "2026-11-25T17:26:49+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "코이 리조트 호이안",
+      "subject": [
+        "코이 리조트"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/호텔/코이 리조트 & 스파 호이안/상품페이지/Originals/PEO_1469.JPG",
+      "file": "assets/photos/vietnam/n_PEO_1469_4ca82c.webp",
+      "bytes": 124232,
+      "baked_at": "2026-11-25T17:26:49+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "코이 리조트 호이안",
+      "subject": [
+        "코이 리조트"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/호텔/피비텔 다낭/기타/피비텔 옥상 헬스장 수영장/PEO_0454.JPG",
+      "file": "assets/photos/vietnam/n_PEO_0454_b9a271.webp",
+      "bytes": 180068,
+      "baked_at": "2026-11-25T17:26:49+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 피비텔",
+      "subject": [
+        "피비텔"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/호텔/멜리아 빈펄 다낭 리버프론트/멜리아 빈펄 다낭 리버프론트_호텔방_풍경/PEO_0581.JPG",
+      "file": "assets/photos/vietnam/n_PEO_0581_bf4145.webp",
+      "bytes": 54226,
+      "baked_at": "2026-11-25T17:26:49+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "멜리아 빈펄 다낭",
+      "subject": [
+        "멜리아 빈펄",
+        "멜리아빈펄"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/액티비티/다낭 몽고메리 골프 클럽 CC/다낭 몽고메리 골프 클럽 CC_투어진행_골프장 풍경 3/_MG_5856.JPG",
+      "file": "assets/photos/vietnam/n__MG_5856_5e3cd8.webp",
+      "bytes": 186956,
+      "baked_at": "2026-11-25T17:26:50+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 몽고메리 골프클럽",
+      "subject": [
+        "몽고메리"
+      ],
+      "theme": [
+        "골프"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/액티비티/다낭 몽고메리 골프 클럽 CC/다낭 몽고메리 골프 클럽 CC_투어진행_골프장 풍경 2/IMG_8563.jpg",
+      "file": "assets/photos/vietnam/n_IMG_8563_de5f1f.webp",
+      "bytes": 397596,
+      "baked_at": "2026-11-25T17:26:50+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 몽고메리 골프클럽",
+      "subject": [
+        "몽고메리"
+      ],
+      "theme": [
+        "골프"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/액티비티/다낭 몽고메리 골프 클럽 CC/다낭 몽고메리 골프 클럽 CC_투어시작_골프카트/_MG_9218.JPG",
+      "file": "assets/photos/vietnam/n__MG_9218_a35e03.webp",
+      "bytes": 135090,
+      "baked_at": "2026-11-25T17:26:50+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 몽고메리 골프클럽",
+      "subject": [
+        "몽고메리"
+      ],
+      "theme": [
+        "골프"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/액티비티/알라만다 스파/알라만다 스파_마사지룸/_MG_9671.JPG",
+      "file": "assets/photos/vietnam/n__MG_9671_8a9ab5.webp",
+      "bytes": 371194,
+      "baked_at": "2026-11-25T17:26:51+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 알라만다 스파",
+      "subject": [
+        "알라만다"
+      ],
+      "theme": [
+        "스파",
+        "마사지",
+        "웰니스"
+      ],
+      "city": "danang"
+    },
+    {
+      "src": "/Volumes/GUAMPLAY/네이버 블로그/#DSLR/#다낭/액티비티/알라만다 스파/알라만다 스파_스파 야외 정원/_MG_9693.JPG",
+      "file": "assets/photos/vietnam/n__MG_9693_7a8129.webp",
+      "bytes": 438482,
+      "baked_at": "2026-11-25T17:26:51+09:00",
+      "origin": "NAS #DSLR/#다낭",
+      "place": "다낭 알라만다 스파",
+      "subject": [
+        "알라만다"
+      ],
+      "theme": [
+        "스파",
+        "마사지",
+        "웰니스"
+      ],
+      "city": "danang"
     }
   ],
   "jeju": [

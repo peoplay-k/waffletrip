@@ -6,7 +6,7 @@ import os
 
 import pytest
 
-from src.photos import copy_into, load_manifest, photos_for, pick, web_path
+from src.photos import assign, copy_into, load_manifest, photos_for, pick, web_path
 
 
 def _manifest(tmp_path, data):
@@ -608,3 +608,59 @@ def test_테스트는_진짜_사진_사용기록을_건드리지_않는다(tmp_p
     assert photos.USED != "data/photos/used.json"
     photos.save_used({"/img/guam/x.webp": "n0"})
     assert photos.load_used() == {"/img/guam/x.webp": "n0"}
+
+
+class _기사:
+    def __init__(self, id, title, summary=""):
+        self.id, self.title, self.summary, self.title_orig = id, title, summary, ""
+
+
+def _괌(*rows):
+    return {"guam": [{"file": f"assets/photos/guam/{n}.webp", "src": f"/{n}/{n}.JPG", **k} for n, k in rows]}
+
+
+def test_이름이_나오는_기사는_그곳_사진을_받는다():
+    """2026-11-25 사장님: "츠바키인데 왜 배 사진이 들어가"."""
+    m = _괌(("sea", {"hero": True}), ("boat", {"theme": ["크루즈"]}), ("tsu", {"subject": ["츠바키"]}))
+    got = assign(m, "guam", [_기사("a", "괌 츠바키 타워, 새 계단")], {})
+    assert got["a"] == "/img/guam/tsu.webp"
+
+
+def test_이름_주제가_다른_사진은_붙지_않는다():
+    m = _괌(("boat", {"theme": ["크루즈"]}), ("tsu", {"subject": ["츠바키"]}))
+    assert assign(m, "guam", [_기사("a", "괌 롯데호텔 겨울 특가")], {}) == {}
+    got = assign(m, "guam", [_기사("b", "괌 선셋 크루즈 새로 뜬다")], {})
+    assert got["b"] == "/img/guam/boat.webp"
+
+
+def test_다른_이름을_부르는_기사에_주제만_맞는_사진을_주지_않는다():
+    m = _괌(("pine", {"subject": ["파인이스트"], "theme": ["골프"]}),
+           ("mang", {"subject": ["망길라오"], "theme": ["골프"]}))
+    used = {"/img/guam/mang.webp": "old"}
+    assert assign(m, "guam", [_기사("a", "망길라오 골프 특가")], used) == {}
+
+
+def test_붙어_있던_풍경보다_맞는_사진이_생기면_바꿔_준다():
+    m = _괌(("sea", {}), ("tsu", {"subject": ["츠바키"]}))
+    used = {"/img/guam/sea.webp": "a"}
+    got = assign(m, "guam", [_기사("a", "괌 츠바키 타워, 새 계단")], used)
+    assert got["a"] == "/img/guam/tsu.webp"
+    again = assign(m, "guam", [_기사("a", "괌 츠바키 타워, 새 계단")], used)
+    assert again == got, "다음 빌드에서 또 바뀌면 안 된다"
+
+
+def test_사람이_만든_정사각_가공본은_지면에_없다():
+    """1024×1024 는 블로그 AI 가공본 규격이다. '직접 촬영'을 달면 거짓이 된다."""
+    import json
+    from PIL import Image
+    manifest = json.load(open("assets/photos/manifest.json", encoding="utf-8"))
+    bad = [e["file"] for rows in manifest.values() for e in rows
+           if not e.get("free") and os.path.exists(e["file"])
+           and Image.open(e["file"]).size in ((1024, 1024), (1376, 768))]
+    assert bad == []
+
+
+def test_업체_사진은_요약에_주제가_나왔다고_붙지_않는다():
+    m = _괌(("spa", {"subject": ["알라만다"], "theme": ["스파"]}))
+    assert assign(m, "guam", [_기사("a", "메리어트 연말 행사", "트리 점등과 스파 할인")], {}) == {}
+    assert assign(m, "guam", [_기사("b", "괌 스파 할인")], {})["b"] == "/img/guam/spa.webp"

@@ -84,6 +84,14 @@ PLACE_WORDS: dict[str, tuple[str, ...]] = {
     "halong": ("하롱베이", "하롱"),
     "ninhbinh": ("닌빈", "짱안", "항무아"),
     "wulai": ("우라이",),
+    # 2026-11-25 실측: 달랏 꽃축제·롱탄공항 기사에 닌빈 사진이 붙어 있었다. 이 도시들을
+    # 못 읽어 '도시를 안 가리키는 기사'로 보였기 때문이다.
+    "dalat": ("달랏", "람동", "럼동"),
+    "haiphong": ("하이퐁",),
+    "quynhon": ("꾸이년", "퀴논"),
+    "longthanh": ("롱탄",),
+    "thainguyen": ("타이응우옌",),
+    "hue": ("후에 유적", "후에~", "~후에", "후에시"),
 }
 PLACE_NAMES: dict[str, str] = {"halong": "하롱베이", "ninhbinh": "닌빈", "wulai": "우라이",
                                "hue": "후에", "kota": "코타키나발루", "jeju": "제주",
@@ -180,6 +188,59 @@ def place_names() -> dict[str, str]:
     return {**CITY_NAMES, **PLACE_NAMES}
 
 
+# ── 무엇을 찍은 사진인가 ─────────────────────────────────────────────
+#
+# 2026-11-25 사장님: "츠바키인데 왜 배사진이 들어가 이런 건 아니잖아". 매니페스트에
+# 지역·도시만 있고 **무엇을 찍었는지**가 없어 괌 기사면 아무 괌 사진이나 붙었다.
+#
+#   subject  고유명사(더 츠바키 타워, 리조나레…). 그 이름이 나오는 기사에만 붙는다.
+#   theme    주제 낱말(골프·크루즈·공항…). 그 낱말이 나오는 기사에만 붙는다.
+#   둘 다 없음  풍경. 어느 기사에나 어울리지만 이름·주제가 맞는 사진이 먼저다.
+def _hit(words, text: str) -> bool:
+    lowered = text.lower()
+    return any(_word_in(w.lower(), lowered) for w in words or ())
+
+
+def _texts(item) -> tuple[str, str]:
+    title = f"{getattr(item, 'title', '') or ''} {getattr(item, 'title_orig', '') or ''}"
+    return title, f"{title} {getattr(item, 'summary', '') or ''}"
+
+
+def fit_of(entry: dict, title: str, text: str, named: set | None = None) -> int | None:
+    """사진이 기사에 맞는 정도. 0 이름이 맞음 · 1 주제가 맞음 · 2 풍경 · None 붙이면 안 됨.
+
+    named 는 기사가 이름을 부른 대상들이다. 츠바키 기사에 롯데호텔 골프 사진이
+    '골프'라는 주제만으로 붙지 않게 한다.
+    """
+    subject, theme = entry.get("subject") or (), entry.get("theme") or ()
+    if not subject and not theme:
+        return 2
+    named = named or set()
+    if subject and _hit(subject, title):
+        return 0
+    if subject and _hit(subject, text) and not (named and not named & set(subject)):
+        return 0
+    # 다른 이름을 부르는 기사에는 주제만 맞는 사진을 주지 않는다
+    # 업체 사진(이름이 있는 사진)은 제목이 그 주제일 때만 주제로 쓴다. 요약에 '스파'가 한 번
+    # 나왔다고 메리어트 기사에 다른 업체 스파 사진이 붙으면 안 된다(2026-11-25 실측).
+    if theme and not named and _hit(theme, title if subject else text):
+        return 1
+    return None
+
+
+def named_subjects(entries: list, title: str, text: str) -> set[str]:
+    """기사가 이름으로 부른 대상. 제목에 있으면 제목 것만 본다(요약은 배경이다)."""
+    words = {w for e in entries if isinstance(e, dict) for w in (e.get("subject") or ())}
+    hit = {w for w in words if _hit((w,), title)}
+    hit = hit or {w for w in words if _hit((w,), text)}
+    # 같은 사진에 붙은 다른 이름(더 츠바키·츠바키타워)도 한 대상이다
+    out = set(hit)
+    for e in entries:
+        if isinstance(e, dict) and hit & set(e.get("subject") or ()):
+            out |= set(e["subject"])
+    return out
+
+
 def photo_places(manifest: dict) -> dict[str, str]:
     """웹 경로 → 장소 표시 이름. 캡션에 쓴다. 태그 없는 사진은 빈 문자열."""
     names = place_names()
@@ -268,11 +329,32 @@ def assign(manifest: dict, region: str, seeds: list,
     city_of = _entry_city(manifest, region)
     place_of = _entry_place(manifest, region)
     heroes = set(hero_photos(manifest, region))
+    entries = [e for e in (manifest.get(region) or [])
+               if isinstance(e, dict) and e.get("file")]
+    entry_of = {web_path(e["file"]): e for e in entries}
+    order = {p: i for i, p in enumerate(pool)}
+    fit_cache: dict[tuple, int | None] = {}
+
+    def fit(photo: str, item) -> int | None:
+        if isinstance(item, str):
+            return 2
+        key = (photo, sid(item))
+        if key not in fit_cache:
+            title, text = _texts(item)
+            nkey = ("named", sid(item))
+            if nkey not in named_cache:
+                named_cache[nkey] = named_subjects(entries, title, text)
+            fit_cache[key] = fit_of(entry_of.get(photo, {}), title, text, named_cache[nkey])
+        return fit_cache[key]
+
+    named_cache: dict[tuple, set] = {}
 
     def sid(x):
         return x if isinstance(x, str) else x.id
 
     def allowed(photo: str, item) -> bool:
+        if fit(photo, item) is None:
+            return False                      # 이름·주제가 다른 사진
         places = places_of(item)
         if not places:
             return True                       # 도시 없는 기사는 아무 사진이나
@@ -301,8 +383,10 @@ def assign(manifest: dict, region: str, seeds: list,
         # 장소가 같은 것은 같은 사진이 아니다 — 성당 전경과 안내판은 다르다.
         again = 1 if (place_of.get(photo) and
                       place_of[photo] in taken_places) else 0
-        return (repeat, again, same, 0 if photo in heroes else 1,
-                pool.index(photo))
+        # 이름이 맞는 사진(0)과 주제가 맞는 사진(1)은 그 무엇보다 앞이다. 츠바키 기사에
+        # 츠바키 사진이 두 번째 컷이라도, 장면이 겹치지 않는 배 사진보다 낫다.
+        return (fit(photo, item) or 0, repeat, again, same,
+                0 if photo in heroes else 1, order[photo])
 
     out: dict[str, str] = {}
     # ① 이미 이 기사에 배정된 사진은 규칙에 맞는 한 그대로 둔다.
@@ -325,7 +409,11 @@ def assign(manifest: dict, region: str, seeds: list,
             ok = (allowed(prev, item) and prev in pool
                   and scene_of(prev) not in taken_scenes
                   and not (place_of.get(prev) and
-                           place_of[prev] in taken_places))
+                           place_of[prev] in taken_places
+                           and fit(prev, item) != 0)
+                  # 더 잘 맞는 새 사진이 있으면 바꿔 준다(풍경 → 그 호텔 사진)
+                  and not any(p not in used and allowed(p, item)
+                              and fit(p, item) < fit(prev, item) for p in pool))
             if ok and keep is None:
                 keep = prev
             else:

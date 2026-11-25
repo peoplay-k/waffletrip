@@ -436,15 +436,27 @@ def assign_photos(scenes: list[dict]) -> None:
     from photo_history import fresh_first
     taken = set((scenes[0].get("cover") or {}).get("photos") or []) if scenes else set()
     pool: list[str] = []
+    region = ""
     for sc in scenes:
         if sc["kind"] == "section":
+            region = sc["region"]
             try:
                 pool = [p for p in fresh_first(region_photos(sc["region"])) if p not in taken]
             except Exception:
                 pool = []
         elif sc["kind"] != "story":
-            pool = []
+            pool, region = [], ""
             continue
+        elif region:                      # 그 소식이 부르는 곳의 사진이 있으면 그것부터
+            try:
+                own = [p for p in fresh_first(region_photos(region, text=sc.get("headline", "")))
+                       if p not in taken] if sc.get("headline") else []
+            except Exception:
+                own = []
+            if own:
+                sc["photo"] = own[0]
+                taken.add(own[0])
+                continue
         if pool:
             sc["photo"] = pool.pop(0)
             taken.add(sc["photo"])

@@ -59,7 +59,7 @@ MAX_FACTS = 4
 # 사진은 **화면을 꽉 채우고**, 글자는 그 위에 얹는다. 읽히게 하려고
 # 아래쪽에 어둠을 깐다. 사진이 없는 지역은 영상을 아예 만들지 않는다 —
 # 글자만 있는 영상을 내느니 안 내는 편이 낫다.
-def region_photos(region: str, city: str = "") -> list[str]:
+def region_photos(region: str, city: str = "", text: str = "") -> list[str]:
     """그 지역 사진의 실제 파일 경로. 같은 장소가 몰리지 않게 섞는다.
 
     **도시가 맞는 사진을 먼저 쓴다.** 베트남 41장을 한 덩어리로 쓰면 다낭
@@ -79,6 +79,14 @@ def region_photos(region: str, city: str = "") -> list[str]:
         else:
             # 그 도시 사진이 한 장도 없으면 태그 없는 것만 쓴다
             entries = [e for e in entries if not (e.get("city") or "")]
+    # 업체·주제 사진은 그 이름이 나오는 장면에만 쓴다(2026-11-25 사장님 "츠바키인데
+    # 왜 배 사진이"). text 를 주면 그 글에 이름·주제가 맞는 사진만, 안 주면 풍경만.
+    from src.photos import fit_of, named_subjects
+    if text:
+        named = named_subjects(entries, text, text)
+        entries = [e for e in entries if fit_of(e, text, text, named) in (0, 1)]
+    else:
+        entries = [e for e in entries if not e.get("subject") and not e.get("theme")]
     if not entries:
         return []
     # 원본 폴더가 곧 장소다. 폴더를 돌아가며 뽑아야 한 장소만 반복되지 않는다
@@ -356,8 +364,17 @@ def build(city: str) -> list[dict]:
         "narration": "피플로드는 매일 아침 여덟 시에 여행 뉴스를 정리해 올립니다.",
     })
 
+    taken: set[str] = set()
     for i, sc in enumerate(scenes):
-        sc["photo"] = photos[i % len(photos)]
+        sc["photo"] = None
+        if sc["kind"] == "fact":          # 그 소식이 부르는 곳의 사진이 있으면 그것부터
+            own = [p for p in fresh_first(region_photos(region, city, sc["headline"]))
+                   if p not in taken]
+            sc["photo"] = own[0] if own else None
+        if not sc["photo"]:
+            rest = [p for p in photos if p not in taken] or photos
+            sc["photo"] = rest[0] if rest is not photos else photos[i % len(photos)]
+        taken.add(sc["photo"])
     # 표지(첫 화면·썸네일)에 걸 한 줄 — 첫 소식의 제목. 지어내지 않는다.
     facts_sc = [sc for sc in scenes if sc["kind"] == "fact"]
     if facts_sc:
