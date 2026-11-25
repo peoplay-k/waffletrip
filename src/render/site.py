@@ -658,11 +658,14 @@ def render_site(items: list[Item], out_dir: str, today: str) -> list[str]:
         # 걸렸다가 영영 못 쓰게 된다. 인용이 잡고 있던 사진도 여기서 풀어 준다.
         by_region: dict[str, list] = {}
         for item in items:
-            if not item.photo and item.grade == "C" and not is_ent(item):
+            # 자동 데이터 글(열 지역 날씨·환율)은 괌 소속이지만 괌 기사가 아니다. 날마다
+            # 괌 사진을 한 장씩 가져가 바닥냈다(2026-11-25 실측, 태국 기온 글에 괌 사진).
+            if not item.photo and item.grade == "C" and not is_ent(item) \
+                    and item.section != "data":
                 by_region.setdefault(item.region, []).append(item)
         # 사용 이력을 이어받는다. 한 번 쓴 사진은 다시 배정되지 않는다.
         used = load_used()
-        quoted = {i.id for i in items if i.grade == "B"}
+        quoted = {i.id for i in items if i.grade == "B" or i.section == "data"}
         for photo in [p for p, aid in used.items() if aid in quoted]:
             del used[photo]
         for region, group in by_region.items():
