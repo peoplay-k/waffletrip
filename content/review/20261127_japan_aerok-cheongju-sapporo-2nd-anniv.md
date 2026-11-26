@@ -4,17 +4,19 @@ channel: travel
 region: japan
 section: flight
 kind: 해설
-title: "에어로케이, 청주~삿포로 취항 2주년…누적 이용객 32만 명 넘었다"
+title: 에어로케이, 청주~삿포로 취항 2주년…누적 이용객 32만 명 넘었다
 source_name: ''
 source_url: ''
-summary: 에어로케이 청주~삿포로 노선이 28일 취항 2주년을 맞는다. 2년 만에 누적 이용객이 32만 명을 넘었다. 겨울 성수기에는 하루 최대 4회 운항한다.
+summary: 에어로케이 청주~삿포로 노선이 28일 취항 2주년을 맞는다. 2년 만에 누적 이용객이 32만 명을 넘었다. 겨울 성수기에는 하루 최대
+  4회 운항한다.
 sources:
-  - https://www.sj-ccnews.com/news/articleViewAmp.html?idxno=63935
-  - https://www.econovill.com/news/articleView.html?idxno=758649
-  - https://m.megaeconomy.co.kr/news/amp.html?ncode=1065602115825137
-status: approved
+- https://www.sj-ccnews.com/news/articleViewAmp.html?idxno=63935
+- https://www.econovill.com/news/articleView.html?idxno=758649
+- https://m.megaeconomy.co.kr/news/amp.html?ncode=1065602115825137
+status: published
+published_id: c-c97994151d7c89c9ee87d2ddbfb33a60573de90a
+published_on: '2026-11-27'
 ---
-
 청주국제공항을 거점으로 하는 에어로케이항공의 청주~삿포로 노선이 취항 2년 만에 누적 이용객 32만 명을 넘어섰다. 겨울 시즌에는 하루 최대 4회까지 띄운다.
 
 에어로케이는 28일 청주~삿포로(신치토세) 노선 취항 2주년을 맞는다. 이 노선은 청주발 홋카이도 하늘길로 자리 잡았다.

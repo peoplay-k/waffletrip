@@ -15,7 +15,7 @@
       ],
       "count": 18,
       "photos": [
-        "assets/photos/vietnam/PEO_3322.webp",
+        "assets/photos/vietnam/n_PEO_2833_171db2.webp",
         "assets/photos/jeju/DSC01484.webp"
       ]
     }
@@ -73,6 +73,15 @@
     "kind": "story",
     "n": 1,
     "total": 3,
+    "headline": "에어로케이, 청주~삿포로 취항 2주년…누적 이용객 32만 명 넘었다",
+    "summary": "에어로케이 청주~삿포로 노선이 28일 취항 2주년을 맞는다. 2년 만에 누적 이용객이 32만 명을 넘었다. 겨울 성수기에는 하루 최대 4회 운항한다",
+    "outlet": "",
+    "narration": "에어로케이 청주~삿포로 노선이 28일 취항 2주년을 맞는다. 2년 만에 누적 이용객이 32만 명을 넘었다."
+  },
+  {
+    "kind": "story",
+    "n": 2,
+    "total": 3,
     "headline": "초겨울 해외여행 근거리 쏠림…항공권 검색 일본이 47%",
     "summary": "11월 중순~12월 중순 여행 기준 한국인 항공권 검색에서 근거리 여행지 비중이 81%로 올랐다. 호텔스컴바인·카약의 검색 데이터 분석 결과다. 일본 비중은 40%에서 47%로 늘어 전체의 절반에 가까워졌다",
     "outlet": "",
@@ -80,7 +89,7 @@
   },
   {
     "kind": "story",
-    "n": 2,
+    "n": 3,
     "total": 3,
     "headline": "교원투어 여행이지, 호시노 리조트 '오모' 연계 일본 자유여행 상품 출시",
     "summary": "교원투어가 호시노 리조트와 손잡고 일본 자유여행 상품을 내놓았다. 일본 주요 도시의 '오모(OMO)' 호텔에 묵는 구성이다. 개별자유여행 수요를 겨냥한 상품이다",
@@ -88,21 +97,12 @@
     "narration": "교원투어가 호시노 리조트와 손잡고 일본 자유여행 상품을 내놓았다. 일본 주요 도시의 '오모(OMO)' 호텔에 묵는 구성이다."
   },
   {
-    "kind": "story",
-    "n": 3,
-    "total": 3,
-    "headline": "한국인 일본 숙박, 절반 넘게 도쿄·오사카·나고야 밖에서",
-    "summary": "지난해 한국인 여행객이 일본에서 보낸 숙박일수의 절반 이상이 3대 도시권 밖이었다. 도쿄·오사카·나고야를 벗어나 지방으로 가는 여행이 늘었다는 뜻이다. 일본 호텔들은 한국발 직항이 어느 도시로 뜨는지에 더 주목하고 있다",
-    "outlet": "",
-    "narration": "지난해 한국인 여행객이 일본에서 보낸 숙박일수의 절반 이상이 3대 도시권 밖이었다. 도쿄·오사카·나고야를 벗어나 지방으로 가는 여행이 늘었다는 뜻이다."
-  },
-  {
     "kind": "section",
     "name": "베트남",
     "region": "vietnam",
     "count": 3,
     "narration": "베트남 소식입니다.",
-    "photo": "assets/photos/vietnam/PEO_3327.webp"
+    "photo": "assets/photos/vietnam/n_PEO_1949_b28eee.webp"
   },
   {
     "kind": "story",
@@ -132,7 +132,7 @@
     "summary": "후에~다낭 증기기관차 승객은 후에 고대 수도 유적지 입장료를 50% 할인받는다. 후에시가 관광 활성화 정책으로 내놓은 규정이다. 고대 수도 단지 안 유적지 입장료가 대상이다",
     "outlet": "",
     "narration": "후에~다낭 증기기관차 승객은 후에 고대 수도 유적지 입장료를 50% 할인받는다. 후에시가 관광 활성화 정책으로 내놓은 규정이다.",
-    "photo": "assets/photos/vietnam/n_PEO_7109_f136ec.webp"
+    "photo": "assets/photos/vietnam/n_PEO_0203_26fc42.webp"
   },
   {
     "kind": "section",
@@ -242,7 +242,7 @@
     "region": "guam",
     "count": 3,
     "narration": "괌 소식입니다.",
-    "photo": "assets/photos/guam/KakaoTalk_20250421_083202906.webp"
+    "photo": "assets/photos/guam/agana_cathedral_1.webp"
   },
   {
     "kind": "story",
@@ -252,7 +252,7 @@
     "summary": "투어비스가 괌정부관광청과 겨울 괌 기획전을 열었다. 수능을 마친 수험생과 학부모를 겨냥한 테마형 프로모션이다. 연말과 겨울방학 가족 휴양 수요를 반영해 짰다",
     "outlet": "",
     "narration": "투어비스가 괌정부관광청과 겨울 괌 기획전을 열었다. 수능을 마친 수험생과 학부모를 겨냥한 테마형 프로모션이다.",
-    "photo": "assets/photos/guam/KakaoTalk_20250403_075644959_04.webp"
+    "photo": "assets/photos/guam/PEO_3276.webp"
   },
   {
     "kind": "story",
@@ -262,7 +262,7 @@
     "summary": "괌 더 츠바키 타워가 호텔 인피니티풀과 투몬베이를 잇는 투숙객 전용 계단을 새로 열었다. 수영장에서 해변으로 곧장 내려갈 수 있다. 괌 호텔들의 겨울 프로모션과 함께 23일 소개됐다",
     "outlet": "",
     "narration": "괌 더 츠바키 타워가 호텔 인피니티풀과 투몬베이를 잇는 투숙객 전용 계단을 새로 열었다. 수영장에서 해변으로 곧장 내려갈 수 있다.",
-    "photo": "assets/photos/guam/n_File4135_f92e2f.webp"
+    "photo": "assets/photos/guam/n_File4276_934ceb.webp"
   },
   {
     "kind": "story",
@@ -272,7 +272,7 @@
     "summary": "호시노 리조트 리조나레 괌이 11월 1일 하갓냐만 해변에 비치클럽을 열었다. 괌 리조트 업계에서 본격적인 콘셉트형 비치클럽은 처음이다. 8월 문을 연 올데이 다이닝 'CHOCHO'와 함께 차모로 문화를 내세운다",
     "outlet": "",
     "narration": "호시노 리조트 리조나레 괌이 11월 1일 하갓냐만 해변에 비치클럽을 열었다. 괌 리조트 업계에서 본격적인 콘셉트형 비치클럽은 처음이다.",
-    "photo": "assets/photos/guam/n_PEO_0367_96905b.webp"
+    "photo": "assets/photos/guam/n_PEO_1224_568592.webp"
   },
   {
     "kind": "title",

@@ -5,17 +5,18 @@ category: movie
 region: ''
 section: news
 kind: 해설
-title: "'폭설' 8일 연속 박스오피스 1위…개봉 8일 만에 54만 관객"
+title: '''폭설'' 8일 연속 박스오피스 1위…개봉 8일 만에 54만 관객'
 source_name: ''
 source_url: ''
-summary: 영화 '폭설'이 25일 4만3877명을 모아 8일 연속 1위를 지켰다. 누적 관객은 54만3625명으로 개봉 8일 만에 50만 명을 넘었다. 개봉 첫 주 주간 집계에서도 41만9000여 명으로 1위였다.
+summary: 영화 '폭설'이 25일 4만3877명을 모아 8일 연속 1위를 지켰다. 누적 관객은 54만3625명으로 개봉 8일 만에 50만 명을
+  넘었다. 개봉 첫 주 주간 집계에서도 41만9000여 명으로 1위였다.
 sources:
-  - https://www.econovill.com/news/articleView.html?idxno=758581
-  - https://www.gangneungnews.kr/news/articleView.html?idxno=70407
-  - https://www.econovill.com/news/articleView.html?idxno=758444
-status: approved
+- https://www.econovill.com/news/articleView.html?idxno=758581
+- https://www.gangneungnews.kr/news/articleView.html?idxno=70407
+- https://www.econovill.com/news/articleView.html?idxno=758444
+status: duplicate
+duplicate_of: 20261125_movie_boxoffice-heavysnow-7days.md
 ---
-
 김윤석·구교환 주연 영화 '폭설'이 8일 연속 박스오피스 1위를 지켰다. 누적 관객 수는 54만 명을 넘어섰다.
 
 영화진흥위원회 통합전산망 집계로 '폭설'은 25일 하루 4만3877명을 모았다. 누적 관객은 54만3625명이다. 개봉 8일 만에 50만 명을 돌파했다.

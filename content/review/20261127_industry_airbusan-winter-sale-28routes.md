@@ -4,17 +4,19 @@ channel: travel
 region: industry
 section: news
 kind: 보도자료
-title: "에어부산, 국제선 28개 노선 '겨울맞이 특가'…일본 편도 8만6900원부터"
+title: 에어부산, 국제선 28개 노선 '겨울맞이 특가'…일본 편도 8만6900원부터
 source_name: ''
 source_url: ''
-summary: 에어부산이 국제선 28개 노선 항공권을 닷새간 특가로 판다. 판매는 26일 오전 11시부터 30일까지다. 편도 총액 기준 8만6900원부터 시작한다.
+summary: 에어부산이 국제선 28개 노선 항공권을 닷새간 특가로 판다. 판매는 26일 오전 11시부터 30일까지다. 편도 총액 기준 8만6900원부터
+  시작한다.
 sources:
-  - https://www.sedaily.com/article/20118564
-  - http://www.hansbiz.co.kr/news/articleView.html?idxno=886990
-  - https://news.bbsi.co.kr/news/articleView.html?idxno=4120775
-status: approved
+- https://www.sedaily.com/article/20118564
+- http://www.hansbiz.co.kr/news/articleView.html?idxno=886990
+- https://news.bbsi.co.kr/news/articleView.html?idxno=4120775
+status: published
+published_id: c-e53a3d9159b1b6f653de4ad12bec3f9906168af7
+published_on: '2026-11-27'
 ---
-
 에어부산이 겨울과 내년 봄 여행 수요를 겨냥해 국제선 28개 노선 특가 항공권을 판매한다. 판매 기간은 닷새로, 일본 노선은 편도 8만6900원부터 시작한다.
 
 에어부산은 '겨울맞이 국제선 특가' 프로모션을 26일 오전 11시부터 30일까지 진행한다고 밝혔다. 동계 시즌 여행객과 내년 봄 여행을 미리 준비하는 수요를 겨냥했다.
