@@ -4,18 +4,20 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "대한항공, 조종사·객실승무원 대상 스마트폰 수면무호흡 선별검사 도입"
+title: 대한항공, 조종사·객실승무원 대상 스마트폰 수면무호흡 선별검사 도입
 source_name: ''
 source_url: ''
-summary: "대한항공이 임직원 수면건강 관리를 위해 디지털 수면검사 체계를 갖췄다. 식약처 허가를 받은 스마트폰 기반 수면무호흡 선별 의료기기를 쓴다. 조종사와 객실승무원, 정비 인력이 대상이다."
+summary: 대한항공이 임직원 수면건강 관리를 위해 디지털 수면검사 체계를 갖췄다. 식약처 허가를 받은 스마트폰 기반 수면무호흡 선별 의료기기를
+  쓴다. 조종사와 객실승무원, 정비 인력이 대상이다.
 sources:
-  - http://www.ttlnews.com/news/articleView.html?idxno=3166514
-  - https://www.yna.co.kr/view/AKR20261126035400003
-  - https://www.hani.co.kr/arti/economy/economy_general/1289251
-  - http://businessnews.chosun.com/site/data/html_dir/2026/11/26/2026112680082.html
-status: approved
+- http://www.ttlnews.com/news/articleView.html?idxno=3166514
+- https://www.yna.co.kr/view/AKR20261126035400003
+- https://www.hani.co.kr/arti/economy/economy_general/1289251
+- http://businessnews.chosun.com/site/data/html_dir/2026/11/26/2026112680082.html
+status: published
+published_id: c-8de3e7882a66660e88c5b90036f82daa075a0b80
+published_on: '2026-11-27'
 ---
-
 대한항공이 조종사와 객실승무원의 수면건강을 관리하기 위해 스마트폰 기반 디지털 수면검사를 도입했다. 항공업계에서 처음으로 식품의약품안전처 허가를 받은 수면무호흡 선별 의료기기를 활용한다.
 
 대한항공은 26일 조종사와 객실승무원, 정비 인력 등 임직원의 수면건강을 체계적으로 관리하기 위한 디지털 수면검사 체계를 구축했다고 밝혔다. 운항 안전의 핵심인 인적 피로도를 관리하겠다는 취지다.

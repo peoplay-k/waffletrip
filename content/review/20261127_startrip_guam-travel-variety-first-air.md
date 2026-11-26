@@ -5,17 +5,19 @@ category: startrip
 region: ''
 section: news
 kind: 보도자료
-title: "최미나수·프니엘·인탁·휴닝바히에, 괌 여행 예능 '여행하기 딱 좋은 괌' 27일 첫 방송"
+title: 최미나수·프니엘·인탁·휴닝바히에, 괌 여행 예능 '여행하기 딱 좋은 괌' 27일 첫 방송
 source_name: ''
 source_url: ''
-summary: "SBS 미디어넷이 새 여행 리얼리티 '여행하기 딱 좋은 괌'을 27일 처음 방송한다. 방송인 최미나수가 여행 리더로 나선다. 비투비 프니엘, 피원하모니 인탁, 케플러 휴닝바히에가 각자 취향대로 괌을 여행한다."
+summary: SBS 미디어넷이 새 여행 리얼리티 '여행하기 딱 좋은 괌'을 27일 처음 방송한다. 방송인 최미나수가 여행 리더로 나선다. 비투비
+  프니엘, 피원하모니 인탁, 케플러 휴닝바히에가 각자 취향대로 괌을 여행한다.
 sources:
-  - https://www.viva100.com/article/20261126500216
-  - https://www.yna.co.kr/view/AKR20261126169800005
-  - https://www.bntnews.co.kr/article/view/bnt202611260119
-status: approved
+- https://www.viva100.com/article/20261126500216
+- https://www.yna.co.kr/view/AKR20261126169800005
+- https://www.bntnews.co.kr/article/view/bnt202611260119
+status: published
+published_id: c-ebd757f025c307c59c92cd4e5272e613b6e724db
+published_on: '2026-11-27'
 ---
-
 새 여행 리얼리티 예능 '여행하기 딱 좋은 괌'이 27일 첫 방송된다. 방송인 최미나수와 가수 세 명이 괌에서 각자의 취향에 맞춘 여행을 선보인다.
 
 SBS 미디어넷(SBS NEX)은 이 프로그램에 방송인 최미나수, 그룹 비투비의 프니엘, 피원하모니의 인탁, 케플러의 휴닝바히에가 출연한다고 밝혔다. 최미나수는 여행 리더를 맡는다. 제작진은 이 프로그램을 새 여행 리얼리티 예능으로 소개했다. 가수 세 명은 각각 비투비, 피원하모니, 케플러 소속이다.

@@ -4,19 +4,20 @@ channel: travel
 region: saipan
 section: news
 kind: 보도자료
-title: "마리아나관광청, 박보겸 프로와 함께하는 사이판 겨울 골프 상품 선보여"
+title: 마리아나관광청, 박보겸 프로와 함께하는 사이판 겨울 골프 상품 선보여
 source_name: ''
 source_url: ''
-summary: "마리아나관광청이 공식 골프 앰배서더 박보겸 프로와 '사이판 겨울 골프 프로모션'을 선보인다. 12월 3일과 4일 출발하는 4박 5일 일정이다. 현지 골프장에서 박 프로와 맞붙는 이벤트와 사인회가 열린다."
+summary: 마리아나관광청이 공식 골프 앰배서더 박보겸 프로와 '사이판 겨울 골프 프로모션'을 선보인다. 12월 3일과 4일 출발하는 4박 5일
+  일정이다. 현지 골프장에서 박 프로와 맞붙는 이벤트와 사인회가 열린다.
 sources:
-  - https://www.yna.co.kr/view/AKR20261123109000805
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72787
-  - https://www.job-post.co.kr/news/articleViewAmp.html?idxno=240295
-  - http://www.ttlnews.com/news/articleView.html?idxno=3165225
-  - https://www.bizwnews.com/news/articleView.html?idxno=152791
-status: approved
+- https://www.yna.co.kr/view/AKR20261123109000805
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72787
+- https://www.job-post.co.kr/news/articleViewAmp.html?idxno=240295
+- http://www.ttlnews.com/news/articleView.html?idxno=3165225
+- https://www.bizwnews.com/news/articleView.html?idxno=152791
+status: duplicate
+duplicate_of: 20261124_saipan_marianas-golf-park-bogyeom-dec.md
 ---
-
 마리아나관광청이 공식 골프 앰배서더인 박보겸 프로와 손잡고 사이판 겨울 골프 상품을 내놨다. 12월 3일과 4일 두 차례 출발하는 4박 5일 일정이다.
 
 마리아나관광청은 23일 '사이판 겨울 골프 프로모션'을 선보인다고 밝혔다. 박보겸 프로는 한국여자프로골프(KLPGA) 투어 메이저 대회 우승자다. 관광청은 한파가 시작되는 12월에도 따뜻한 마리아나의 기후를 앞세워 겨울 골프 수요를 겨냥했다.

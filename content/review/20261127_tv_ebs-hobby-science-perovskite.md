@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'취미는 과학' 태양전지, 페로브스카이트로 한국이 승리하나"
+title: '''취미는 과학'' 태양전지, 페로브스카이트로 한국이 승리하나'
 source_name: ''
 source_url: ''
-summary: "EBS1 '취미는 과학'이 27일 밤 10시 50분 차세대 태양전지 페로브스카이트를 다룬다. MC 데프콘과 교수진이 출연한다. 중국과의 상용화 경쟁도 짚는다."
+summary: EBS1 '취미는 과학'이 27일 밤 10시 50분 차세대 태양전지 페로브스카이트를 다룬다. MC 데프콘과 교수진이 출연한다. 중국과의
+  상용화 경쟁도 짚는다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005677448
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005677448
+status: published
+published_id: c-82c6de0c0c4a3d6651171da82ebaa0b2866f3359
+published_on: '2026-11-27'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 취미는 과학
 > 방송 · 2026년 11월 27일(금) 밤 10시 50분

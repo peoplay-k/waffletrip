@@ -4,19 +4,21 @@ channel: travel
 region: industry
 section: news
 kind: 해설
-title: "하나투어 '제우스월드', 세계 메이저 골프 대회 관람 상품 3종 출시"
+title: 하나투어 '제우스월드', 세계 메이저 골프 대회 관람 상품 3종 출시
 source_name: ''
 source_url: ''
-summary: "하나투어의 하이엔드 브랜드 '제우스월드'가 골프 여행 상품 3종을 내놨다. 세계 주요 대회 관람과 명문 코스 라운드를 묶었다. 상품은 미국 9일, 스위스·프랑스 9일, 영국 10일 일정이다."
+summary: 하나투어의 하이엔드 브랜드 '제우스월드'가 골프 여행 상품 3종을 내놨다. 세계 주요 대회 관람과 명문 코스 라운드를 묶었다. 상품은
+  미국 9일, 스위스·프랑스 9일, 영국 10일 일정이다.
 sources:
-  - https://www.newspim.com/news/view/20261125000345
-  - https://daily.hankooki.com/news/articleView.html?idxno=1428750
-  - http://www.ttlnews.com/news/articleView.html?idxno=3166146
-  - http://www.enewstoday.co.kr/news/articleView.html?idxno=2497152
-  - https://www.tournews21.com/news/articleView.html?idxno=149337
-status: approved
+- https://www.newspim.com/news/view/20261125000345
+- https://daily.hankooki.com/news/articleView.html?idxno=1428750
+- http://www.ttlnews.com/news/articleView.html?idxno=3166146
+- http://www.enewstoday.co.kr/news/articleView.html?idxno=2497152
+- https://www.tournews21.com/news/articleView.html?idxno=149337
+status: published
+published_id: c-b3ead498a5ce213eb26be372fd85facf3ec7db48
+published_on: '2026-11-27'
 ---
-
 하나투어가 하이엔드 여행 브랜드 '제우스월드'를 통해 세계 주요 골프 대회 관람과 명문 코스 라운드를 결합한 상품 3종을 선보였다. 대회 현장 관람에 현지 미식과 문화 체험을 더한 테마형 라인업이다.
 
 하나투어는 25일 세계 4대 메이저 골프 대회가 열리는 개최지의 특색을 살린 상품을 공개했다고 밝혔다. 이번 상품은 대회 직관, 코스 라운드, 현지 문화 체험을 한 일정에 담았다.

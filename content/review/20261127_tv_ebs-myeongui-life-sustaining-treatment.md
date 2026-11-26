@@ -5,15 +5,17 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'명의' 연명 치료와 사전연명의료의향서, 가정형 호스피스까지"
+title: '''명의'' 연명 치료와 사전연명의료의향서, 가정형 호스피스까지'
 source_name: ''
 source_url: ''
-summary: "EBS1 '명의'가 27일 밤 9시 55분 연명 치료를 다룬다. 사전연명의료의향서 작성법과 가정형 호스피스를 소개한다. 의향서 작성자는 성인 인구의 7% 안팎이다."
+summary: EBS1 '명의'가 27일 밤 9시 55분 연명 치료를 다룬다. 사전연명의료의향서 작성법과 가정형 호스피스를 소개한다. 의향서 작성자는
+  성인 인구의 7% 안팎이다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005673414
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005673414
+status: published
+published_id: c-62201d96d748e2ca1d53db440453f99e86da7f55
+published_on: '2026-11-27'
 ---
-
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 명의
 > 방송 · 2026년 11월 27일(금) 밤 9시 55분
