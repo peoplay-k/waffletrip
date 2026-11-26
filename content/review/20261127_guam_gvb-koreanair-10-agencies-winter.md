@@ -7,14 +7,16 @@ kind: 해설
 title: 괌정부관광청·대한항공, 여행사 10곳과 겨울 괌 공동 프로모션
 source_name: ''
 source_url: ''
-summary: 괌정부관광청이 대한항공, 국내 주요 여행사 10곳과 함께 겨울 괌 여행 공동 프로모션을 연다. 연말 성수기와 겨울방학을 겨냥했다. 인천~괌 노선의 탑승률을 끌어올리는 것이 목표다.
+summary: 괌정부관광청이 대한항공, 국내 주요 여행사 10곳과 함께 겨울 괌 여행 공동 프로모션을 연다. 연말 성수기와 겨울방학을 겨냥했다.
+  인천~괌 노선의 탑승률을 끌어올리는 것이 목표다.
 sources:
 - https://www.etnews.com/20261126000514
 - http://www.newsroad.co.kr/news/articleView.html?idxno=68535
 - http://www.ttlnews.com/news/articleView.html?idxno=3166699
-status: approved
+status: published
+published_id: c-0f65670fc3d97b37795bdcc8d37993d88362f110
+published_on: '2026-11-27'
 ---
-
 겨울방학 괌 여행 혜택이 여러 여행사에서 한꺼번에 나온다.
 괌정부관광청이 대한항공, 여행사 10곳과 손잡았다.
 

@@ -7,12 +7,14 @@ kind: 해설
 title: 개그맨 황제성, 코리아둘레길 홍보대사 됐다
 source_name: ''
 source_url: ''
-summary: 한국관광공사가 개그맨 황제성을 코리아둘레길 홍보대사로 위촉한다. 황제성은 2007년 MBC 공채 개그맨으로 데뷔했다. '코미디빅리그'로 큰 인기를 얻었다.
+summary: 한국관광공사가 개그맨 황제성을 코리아둘레길 홍보대사로 위촉한다. 황제성은 2007년 MBC 공채 개그맨으로 데뷔했다. '코미디빅리그'로
+  큰 인기를 얻었다.
 sources:
 - https://www.traveldaily.co.kr/news/articleView.html?idxno=72790
-status: approved
+status: published
+published_id: c-8271f369e2b6faf7c4ed94444f50f7a92aad6a78
+published_on: '2026-11-27'
 ---
-
 코리아둘레길에 새 얼굴이 생겼다.
 한국관광공사가 개그맨 황제성을 홍보대사로 위촉한다.
 

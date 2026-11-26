@@ -7,13 +7,15 @@ kind: 해설
 title: 거제 남부관광단지 조성계획 승인…7년 만에 본궤도
 source_name: ''
 source_url: ''
-summary: 경남도가 26일 거제 남부관광단지 조성계획을 승인하고 고시했다. 거제 남부면 탑포리와 동부면 율포리 일원에 들어설 대규모 복합 관광단지다. 10년 가까이 표류하던 사업이 행정 절차의 고비를 넘었다.
+summary: 경남도가 26일 거제 남부관광단지 조성계획을 승인하고 고시했다. 거제 남부면 탑포리와 동부면 율포리 일원에 들어설 대규모 복합 관광단지다.
+  10년 가까이 표류하던 사업이 행정 절차의 고비를 넘었다.
 sources:
 - https://www.geojenews.co.kr/news/articleView.html?idxno=97947
 - https://www.newsgn.com/news/articleView.html?idxno=588427
-status: approved
+status: published
+published_id: c-1b5f3947d2e155962991428279defaff97a0852a
+published_on: '2026-11-27'
 ---
-
 오래 멈춰 있던 거제 남부관광단지 사업이 움직인다.
 경남도가 26일 조성계획을 승인해 고시했다.
 

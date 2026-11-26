@@ -7,13 +7,15 @@ kind: 해설
 title: 하노이 지하철 5개 노선, 채권으로 돈 마련…설계는 한국 유신이 맡는다
 source_name: ''
 source_url: ''
-summary: 하노이시가 도시철도 5개 노선을 짓기 위해 최대 121조 7천억 동 규모의 채권을 발행할 계획이다. 빈그룹이 주도하는 약 49조 원 규모 사업의 기본설계는 한국 기업 유신이 총괄한다. 발행 규모와 시기는 자금 수요와 시장 상황을 보고 정한다.
+summary: 하노이시가 도시철도 5개 노선을 짓기 위해 최대 121조 7천억 동 규모의 채권을 발행할 계획이다. 빈그룹이 주도하는 약 49조 원
+  규모 사업의 기본설계는 한국 기업 유신이 총괄한다. 발행 규모와 시기는 자금 수요와 시장 상황을 보고 정한다.
 sources:
 - https://www.vietnam.vn/ko/ha-noi-du-kien-phat-hanh-trai-phieu-xay-dung-5-tuyen-duong-sat-do-thi
 - https://www.creditnews.kr/news/articleView.html?idxno=32967
-status: approved
+status: published
+published_id: c-1750908e5a6215fb010a5904eff57a9cbc03ffa8
+published_on: '2026-11-27'
 ---
-
 하노이 지하철 5개 노선 사업이 한 걸음 더 나아갔다.
 돈을 마련할 방법과 설계를 맡을 회사가 정해졌다.
 

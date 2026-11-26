@@ -8,12 +8,14 @@ kind: 해설
 title: KBS2 '욕망의 덫' 67회, 영훈 떠보는 석진…미란과 정면충돌한 은설
 source_name: ''
 source_url: ''
-summary: KBS2 일일드라마 '욕망의 덫' 67회가 27일 저녁 7시 50분 방송된다. 석진은 영훈을 떠보며 아버지의 죽음에 얽힌 의문에 다가선다. 은설은 장학사업의 위기를 막으려다 미란과 정면으로 부딪친다.
+summary: KBS2 일일드라마 '욕망의 덫' 67회가 27일 저녁 7시 50분 방송된다. 석진은 영훈을 떠보며 아버지의 죽음에 얽힌 의문에 다가선다.
+  은설은 장학사업의 위기를 막으려다 미란과 정면으로 부딪친다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/yokmang
-status: approved
+status: published
+published_id: c-5f1e5afb717d58f2ea5a20d18cf7fe43f38d93de
+published_on: '2026-11-27'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 욕망의 덫 | 회차 · 67회
 > 방송 · 2026년 11월 27일(금) 저녁 7시 50분
