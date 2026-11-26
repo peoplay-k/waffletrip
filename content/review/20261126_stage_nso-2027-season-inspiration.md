@@ -5,18 +5,19 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "국립심포니오케스트라, 2027 시즌 '인스퍼레이션' 공개"
+title: 국립심포니오케스트라, 2027 시즌 '인스퍼레이션' 공개
 source_name: ''
 source_url: ''
-summary: 국립심포니오케스트라가 25일 2027 시즌 '인스퍼레이션'을 공개했다. 2027년 1월 20일 오프닝 콘서트로 문을 연다. 12월 3일 '베토벤에게 바치는 헌사'로 한 해를 닫는다.
+summary: 국립심포니오케스트라가 25일 2027 시즌 '인스퍼레이션'을 공개했다. 2027년 1월 20일 오프닝 콘서트로 문을 연다. 12월
+  3일 '베토벤에게 바치는 헌사'로 한 해를 닫는다.
 sources:
-  - https://www.sctoday.co.kr/news/articleView.html?idxno=49120
-  - https://www.newskorea.ne.kr/news/articleView.html?idxno=22057
-  - https://www.cbdaily.co.kr/news/article.html?no=64764
-  - https://www.d-art.co.kr/news/articleView.html?idxno=6741
-status: approved
+- https://www.sctoday.co.kr/news/articleView.html?idxno=49120
+- https://www.newskorea.ne.kr/news/articleView.html?idxno=22057
+- https://www.cbdaily.co.kr/news/article.html?no=64764
+- https://www.d-art.co.kr/news/articleView.html?idxno=6741
+status: duplicate
+duplicate_of: 20261125_stage_nso-2027-season-inspiration.md
 ---
-
 국립심포니오케스트라가 문학과 오페라, 고전음악에서 얻은 영감을 연주로 잇는 2027 시즌 '인스퍼레이션'을 선보인다. 시즌은 2027년 1월 20일 오프닝 콘서트로 시작해 12월 3일 '베토벤에게 바치는 헌사'로 끝난다.
 
 국립심포니오케스트라는 25일 이 시즌 프로그램을 공개했다. 음악감독 로베르토 아바도와 함께하는 두 번째 시즌이다. 대표이사는 유미정이다.
