@@ -433,8 +433,8 @@
     },
     {
       "date": "2026-11-27",
-      "collected": 3889,
-      "published": 376,
+      "collected": 3853,
+      "published": 628,
       "ours": 20,
       "failed_sources": [
         "guam_pdn",
@@ -442,6 +442,7 @@
         "kr_hotelavia",
         "kr_ktnbm",
         "kr_travelpress",
+        "saipan_tribune",
         "thailand_bangkokpost_travel"
       ]
     }
