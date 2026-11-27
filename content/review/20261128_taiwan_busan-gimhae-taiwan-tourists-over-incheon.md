@@ -4,14 +4,17 @@ channel: travel
 region: taiwan
 section: data
 kind: 해설
-title: "대만 관광객, 7~9월 인천보다 김해공항 입국 더 많았다"
+title: 대만 관광객, 7~9월 인천보다 김해공항 입국 더 많았다
 source_name: ''
 source_url: ''
-summary: 올해 7~9월 대만 관광객은 인천공항보다 김해공항으로 더 많이 입국했다. 3개월 연속이다. 대만 항공사들이 부산~타이베이 노선 공급을 늘린다.
+summary: 올해 7~9월 대만 관광객은 인천공항보다 김해공항으로 더 많이 입국했다. 3개월 연속이다. 대만 항공사들이 부산~타이베이 노선 공급을
+  늘린다.
 sources:
-  - https://www.newsis.com/view/NISX20261127_0003886166
-  - https://www.viva100.com/article/20261127500640
-status: approved
+- https://www.newsis.com/view/NISX20261127_0003886166
+- https://www.viva100.com/article/20261127500640
+status: published
+published_id: c-5087b0e21bf042fbe5f1a19bb5add874ab9fb922
+published_on: '2026-11-28'
 ---
 대만 관광객이 인천이 아닌 부산으로 먼저 들어오고 있다.
 올해 7월부터 9월까지 대만 관광객은 인천공항보다 김해공항으로 더 많이 입국했다.

@@ -4,15 +4,18 @@ channel: travel
 region: korea
 section: news
 kind: 보도자료
-title: "강릉 '경포 달빛 아트쇼', 12월 1일부터 지역 상점 연계 체험으로 개편"
+title: 강릉 '경포 달빛 아트쇼', 12월 1일부터 지역 상점 연계 체험으로 개편
 source_name: ''
 source_url: ''
-summary: 강릉의 야간 관광 콘텐츠 '경포 달빛 아트쇼, 나의 달'이 12월 1일부터 운영 방식을 바꾼다. 달 조형물 체험은 지역 상점 이용과 연계한다. 상점 QR 인증이 필요하다.
+summary: 강릉의 야간 관광 콘텐츠 '경포 달빛 아트쇼, 나의 달'이 12월 1일부터 운영 방식을 바꾼다. 달 조형물 체험은 지역 상점 이용과
+  연계한다. 상점 QR 인증이 필요하다.
 sources:
-  - https://www.yna.co.kr/amp/view/AKR20261126056800062
-  - https://www.newstnt.com/news/articleView.html?idxno=730679
-  - https://www.gnnettv.co.kr/news/articleView.html?idxno=5615
-status: approved
+- https://www.yna.co.kr/amp/view/AKR20261126056800062
+- https://www.newstnt.com/news/articleView.html?idxno=730679
+- https://www.gnnettv.co.kr/news/articleView.html?idxno=5615
+status: published
+published_id: c-4371b3d34bf97dadd041fd67b7fadfd158f98b4d
+published_on: '2026-11-28'
 ---
 강릉의 대표 야간 관광 콘텐츠 '경포 달빛 아트쇼, 나의 달'이 12월 1일부터 운영 방식을 바꾼다.
 달 조형물 체험을 지역 상권과 연결한다.

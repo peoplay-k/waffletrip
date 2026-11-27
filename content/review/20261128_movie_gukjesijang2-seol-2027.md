@@ -5,16 +5,19 @@ category: movie
 region: ''
 section: news
 kind: 보도자료
-title: "'국제시장2', 2027년 설 연휴 개봉 확정…'국제시장' 12년 만의 속편"
+title: '''국제시장2'', 2027년 설 연휴 개봉 확정…''국제시장'' 12년 만의 속편'
 source_name: ''
 source_url: ''
-summary: 배급사 CJ ENM이 26일 '국제시장2'의 2027년 설 개봉을 확정했다. 1,400만 관객을 모은 '국제시장'의 12년 만의 속편이다. 론칭 포스터와 영상도 공개했다.
+summary: 배급사 CJ ENM이 26일 '국제시장2'의 2027년 설 개봉을 확정했다. 1,400만 관객을 모은 '국제시장'의 12년 만의 속편이다.
+  론칭 포스터와 영상도 공개했다.
 sources:
-  - https://news.sbs.co.kr/news/endPage.do?news_id=N1008865906
-  - https://www.ize.co.kr/news/articleView.html?idxno=83012
-  - https://www.specialtimes.co.kr/news/articleView.html?idxno=490399
-  - https://ent.sbs.co.kr/news/article.do?article_id=E10010325200
-status: approved
+- https://news.sbs.co.kr/news/endPage.do?news_id=N1008865906
+- https://www.ize.co.kr/news/articleView.html?idxno=83012
+- https://www.specialtimes.co.kr/news/articleView.html?idxno=490399
+- https://ent.sbs.co.kr/news/article.do?article_id=E10010325200
+status: published
+published_id: c-b68000edb5d1aefcfed334411edee6947faf9d15
+published_on: '2026-11-28'
 ---
 2014년 1,400만 관객을 모은 '국제시장'이 12년 만에 속편으로 돌아온다.
 '국제시장2'는 2027년 설 연휴에 극장에 걸린다.

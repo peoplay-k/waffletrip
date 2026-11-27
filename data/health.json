@@ -1,16 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-10-28",
-      "collected": 1441,
-      "published": 595,
-      "ours": 18,
-      "failed_sources": [
-        "guam_pdn",
-        "guam_post"
-      ]
-    },
-    {
       "date": "2026-10-29",
       "collected": 1425,
       "published": 447,
@@ -437,6 +427,20 @@
       "published": 845,
       "ours": 24,
       "failed_sources": [
+        "guam_post",
+        "kr_hotelavia",
+        "kr_ktnbm",
+        "kr_travelpress",
+        "thailand_bangkokpost_travel"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "collected": 3931,
+      "published": 132,
+      "ours": 5,
+      "failed_sources": [
+        "guam_pdn",
         "guam_post",
         "kr_hotelavia",
         "kr_ktnbm",
