@@ -7,12 +7,14 @@ kind: 해설
 title: LCC, 방한 외국인·환승객 잡기 총력전
 source_name: ''
 source_url: ''
-summary: 국내 저비용항공사들이 외국인 여객 확보에 적극 나서고 있다. 내국인 해외여행 수요가 크게 늘지 않는 반면, K컬처를 타고 한국을 찾는 외국인은 늘고 있다. 방한객과 환승객을 새 성장 동력으로 삼으려는 것이다.
+summary: 국내 저비용항공사들이 외국인 여객 확보에 적극 나서고 있다. 내국인 해외여행 수요가 크게 늘지 않는 반면, K컬처를 타고 한국을 찾는
+  외국인은 늘고 있다. 방한객과 환승객을 새 성장 동력으로 삼으려는 것이다.
 sources:
 - https://www.joongangenews.com/news/articleView.html?idxno=567162
-status: approved
+status: published
+published_id: c-78a2aae67dee5319c78e8ee4e111478558306b3b
+published_on: '2026-11-28'
 ---
-
 저비용항공사의 눈이 외국인 승객으로 향하고 있다.
 
 ## 왜 외국인인가

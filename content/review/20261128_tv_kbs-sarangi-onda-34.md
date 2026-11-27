@@ -8,12 +8,14 @@ kind: 해설
 title: KBS2 '사랑이 온다' 34회, 해정에 분노한 무진…한결의 출생 비밀 안 옥선
 source_name: ''
 source_url: ''
-summary: KBS2 주말드라마 '사랑이 온다' 34회가 28일 밤 8시 방송된다. 무진은 레스토랑까지 찾아온 해정의 무례한 태도에 분노한다. 한결의 출생에 얽힌 비밀을 알게 된 옥선은 무진에게 따져 묻는다.
+summary: KBS2 주말드라마 '사랑이 온다' 34회가 28일 밤 8시 방송된다. 무진은 레스토랑까지 찾아온 해정의 무례한 태도에 분노한다.
+  한결의 출생에 얽힌 비밀을 알게 된 옥선은 무진에게 따져 묻는다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/loveonthemenu
-status: approved
+status: published
+published_id: c-92d830243078dac09898cd855a5829e504ebe605
+published_on: '2026-11-28'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 사랑이 온다 | 회차 · 34회
 > 방송 · 2026년 11월 28일(토) 밤 8시

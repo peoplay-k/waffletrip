@@ -7,12 +7,14 @@ kind: 해설
 title: 도쿄 숙박세 바뀐다…1박 2만 엔이면 올겨울 200엔, 내년 4월부터 600엔
 source_name: ''
 source_url: ''
-summary: 도쿄도의 숙박세 계산법이 2027년 4월 1일 숙박분부터 바뀐다. 1인 1박 과세 숙박요금이 2만 엔이면 올겨울 숙박세는 200엔이다. 내년 4월부터는 같은 요금에 600엔을 낸다.
+summary: 도쿄도의 숙박세 계산법이 2027년 4월 1일 숙박분부터 바뀐다. 1인 1박 과세 숙박요금이 2만 엔이면 올겨울 숙박세는 200엔이다.
+  내년 4월부터는 같은 요금에 600엔을 낸다.
 sources:
 - https://www.thetrippick.com/news/articleView.html?idxno=4655
-status: approved
+status: published
+published_id: c-d8fc84930fa53caacfa15fcc9207ccabb290b1d4
+published_on: '2026-11-28'
 ---
-
 도쿄 호텔에 묵을 때 내는 세금이 오른다.
 도쿄도가 숙박세 새 기준을 발표했다.
 

@@ -8,12 +8,14 @@ kind: 해설
 title: tvN '두번째 시그널' 무전기 티저…"침묵을 깬 무전 신호"
 source_name: ''
 source_url: ''
-summary: tvN '두번째 시그널'의 무전기 티저가 tvN DRAMA 공식 채널에 공개됐다. 침묵을 깬 무전 신호와 함께 바뀐 과거, 다시 흐르기 시작한 현재의 시간을 예고했다. 티저는 나흘 만에 조회수 30만 회를 넘었다.
+summary: tvN '두번째 시그널'의 무전기 티저가 tvN DRAMA 공식 채널에 공개됐다. 침묵을 깬 무전 신호와 함께 바뀐 과거, 다시 흐르기
+  시작한 현재의 시간을 예고했다. 티저는 나흘 만에 조회수 30만 회를 넘었다.
 sources:
 - https://www.youtube.com/watch?v=8l0kW8eDyvo
-status: approved
+status: published
+published_id: c-71a7f3caad0b837251286438766ba8b685d73a97
+published_on: '2026-11-28'
 ---
-
 '시그널'의 무전기가 다시 울린다.
 tvN이 '두번째 시그널'의 무전기 티저를 공개했다.
 

@@ -7,14 +7,16 @@ kind: 해설
 title: 하노이, 노이바이 환승객을 관광객으로…12월 1일 세미나
 source_name: ''
 source_url: ''
-summary: 노이바이 공항 환승객이 크게 늘자 하노이가 이들을 관광객으로 끌어들일 방법을 찾는다. 하노이시 국회 대표단이 12월 1일 관련 세미나를 연다. 환승 대기 시간에 맞춘 편리한 체험 상품이 필요하다는 목소리가 나온다.
+summary: 노이바이 공항 환승객이 크게 늘자 하노이가 이들을 관광객으로 끌어들일 방법을 찾는다. 하노이시 국회 대표단이 12월 1일 관련 세미나를
+  연다. 환승 대기 시간에 맞춘 편리한 체험 상품이 필요하다는 목소리가 나온다.
 sources:
 - https://www.vietnam.vn/ko/ha-noi-tim-dong-luc-tang-truong-moi-tu-dong-khach-trung-chuyen-hang-khong
 - https://www.vietnam.vn/ko/ha-noi-can-bien-loi-the-trung-chuyen-hang-khong-thanh-dong-luc-phat-trien-du-lich
 - https://www.vietnam.vn/ko/ha-noi-phat-huy-loi-the-trung-chuyen-hang-khong-mo-rong-co-hoi-phat-trien-du-lich
-status: approved
+status: published
+published_id: c-30cba086aee0be8e9da4cc17ed8259535d4514fb
+published_on: '2026-11-28'
 ---
-
 하노이를 거쳐 가는 사람이 늘고 있다.
 하노이는 이 환승객을 관광 손님으로 바꾸려 한다.
 

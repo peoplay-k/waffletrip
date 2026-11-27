@@ -8,13 +8,15 @@ kind: 해설
 title: KBS2 대하드라마 '문무' 5회 '나라를 건 승부'…연금된 춘추, 회의에 빠진 법민
 source_name: ''
 source_url: ''
-summary: KBS2 대하드라마 '문무'가 28일 밤 9시 20분 5회 '나라를 건 승부'를 방송한다. 연개소문에게서 도망쳐 온 춘추는 진골들의 정치 공세로 연금된다. 전장의 법민은 무리한 공격으로 죽어 가는 병사들을 보며 회의에 빠진다.
+summary: KBS2 대하드라마 '문무'가 28일 밤 9시 20분 5회 '나라를 건 승부'를 방송한다. 연개소문에게서 도망쳐 온 춘추는 진골들의
+  정치 공세로 연금된다. 전장의 법민은 무리한 공격으로 죽어 가는 병사들을 보며 회의에 빠진다.
 sources:
 - https://program.kbs.co.kr/2tv/drama/munmu
 - https://www.youtube.com/watch?v=D67Mc2yLNvs
-status: approved
+status: published
+published_id: c-1461b6ad37931279b5e0132788382e4a04aa54fe
+published_on: '2026-11-28'
 ---
-
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 문무 | 회차 · 5회
 > 방송 · 2026년 11월 28일(토) 밤 9시 20분
