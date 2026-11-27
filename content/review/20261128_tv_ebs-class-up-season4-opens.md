@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS '클래스 업! 교실을 깨워라' 시즌 4 첫 방송, 목포 덕인고 '질문' 수업"
+title: EBS '클래스 업! 교실을 깨워라' 시즌 4 첫 방송, 목포 덕인고 '질문' 수업
 source_name: ''
 source_url: ''
-summary: EBS1 '클래스 업! 교실을 깨워라' 시즌 4가 28일 오후 2시 10분 첫 방송된다. 서경석이 3년째 진행을 맡는다. 첫 회는 목포 덕인고등학교의 질문 수업을 다룬다.
+summary: EBS1 '클래스 업! 교실을 깨워라' 시즌 4가 28일 오후 2시 10분 첫 방송된다. 서경석이 3년째 진행을 맡는다. 첫 회는
+  목포 덕인고등학교의 질문 수업을 다룬다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005680524
-status: approved
+status: published
+published_id: c-a91bcc13490b0ee613ce1fe7df1912495e48ba93
+published_on: '2026-11-28'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 클래스 업! 교실을 깨워라 시즌 4

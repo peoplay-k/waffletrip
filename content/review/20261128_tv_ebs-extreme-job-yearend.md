@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS1 '극한직업' 연말을 준비하는 사람들, 평창 배추밭부터 20m 트리까지"
+title: EBS1 '극한직업' 연말을 준비하는 사람들, 평창 배추밭부터 20m 트리까지
 source_name: ''
 source_url: ''
-summary: EBS1 '극한직업'이 28일 밤 9시 5분 연말을 준비하는 사람들을 찾아간다. 평창 고랭지 배추 수확장과 서울광장 대형 트리 설치 현장이 나온다. 하루 300개를 굽는 케이크 공방도 만난다.
+summary: EBS1 '극한직업'이 28일 밤 9시 5분 연말을 준비하는 사람들을 찾아간다. 평창 고랭지 배추 수확장과 서울광장 대형 트리 설치
+  현장이 나온다. 하루 300개를 굽는 케이크 공방도 만난다.
 sources:
 - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005680539
-status: approved
+status: published
+published_id: c-45f51512f638f903a278634261a3fb3ca5661207
+published_on: '2026-11-28'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · 극한직업

@@ -14,6 +14,13 @@
 
 ## 하와이
 
+### Maui church serves more than 400 Thanksgiving meals
+- 매체 2곳 · Hawaii News Now · Maui Now  ← 여러 곳이 썼다
+  - Hawaii News Now: Dozens of volunteers on Maui spent their Thanksgiving holiday serving free hot meals at St. Theresa Catholic Church in Kihei.
+    https://www.hawaiinewsnow.com/2026/11/27/maui-church-serves-more-than-400-thanksgiving-meals/
+  - Maui Now: More than 400 meals were served on Thanksgiving Day at Hale Kau Kau, Advisory Board President Barry Rosenfeld announced.
+    https://mauinow.com/2026/11/27/volunteer-team-serves-400-thanksgiving-meals-at-hale-kau-kau/
+
 ### Weather delay will cost $700,000 for Hawaii All-Star band performing at Macy's Thanksgiving Day parade
 - 매체 2곳 · Hawaii News Now · KHON2  ← 여러 곳이 썼다
   - KHON2: A Hawaii-based all-star band and hula halau face significant costs and logistical challenges after the centennial Macy's Thanksgiving Day parade was postponed t
@@ -30,6 +37,13 @@
 
 ## 베트남
 
+### 하노이는 항공 환승 허브로서의 이점을 관광 개발의 원동력으로 전환해야 합니다.
+- 매체 1곳 · vietnam.vn  ← 여러 곳이 썼다
+  - vietnam.vn: ANTD.VN - 하노이시 국회 대표단은 12월 1일 "베트남 환승객 활용 - 하노이 수도를 위한 기회와 해결책"이라는 주제로 세미나를 개최할 예정입니다. 응우옌 반 퐁 하노이시 당위원회 부서기는 이 중요한 세미나에 앞서 언론과 간담회를 가졌습니다.
+    https://www.vietnam.vn/ko/ha-noi-can-bien-loi-the-trung-chuyen-hang-khong-thanh-dong-luc-phat-trien-du-lich
+  - vietnam.vn: 끊임없이 확장되는 항공 네트워크, 급증하는 환승 승객 수, 그리고 독특한 유산, 문화, 음식까지 갖춘 하노이는 대기 시간을 목적지를 경험하고 탐험할 기회로 바꿀 수 있는 많은 장점을 제공합니다.
+    https://www.vietnam.vn/ko/ha-noi-phat-huy-loi-the-trung-chuyen-hang-khong-mo-rong-co-hoi-phat-trien-du-lich
+
 ### 유신, 49조원 하노이 메트로 5개 노선 기본설계 수주
 - 매체 2곳 · 글로벌이코노믹 · 한국신용신문  ← 여러 곳이 썼다
   - 한국신용신문: 유신이 베트남 최대 민간기업 빈그룹(Vingroup)이 주도하는 약 49조원 규모의 하노이 도시철도(메트로) 구축 사업에서 초기 설계를 총괄한다. 한국 기업이 베
@@ -42,22 +56,33 @@
   - 트래비: 뉴월드 호텔 & 리조트가 연말연시를 맞아 다이닝을 중심으로 한 시즌 캠페인 ‘리유니언 테이블(The Reunion Table)’을 선보인다. 다가오는 연말, 함께 식사하고 이야기를 나누는 시간을 통해 가족과 친구, 세대와 지역을 잇는다는 취지다.
     https://www.travie.com/news/articleView.html?idxno=56251
 
-### 하노이는 항공 환승 허브로서의 이점을 관광 개발의 원동력으로 전환해야 합니다.
+### 다낭 공항에서 잊고 있던 소지품을 되찾은 승객들은 매우 기뻐했습니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: ANTD.VN - 하노이시 국회 대표단은 12월 1일 "베트남 환승객 활용 - 하노이 수도를 위한 기회와 해결책"이라는 주제로 세미나를 개최할 예정입니다. 응우옌 반 퐁 하노이시 당위원회 부서기는 이 중요한 세미나에 앞서 언론과 간담회를 가졌습니다.
-    https://www.vietnam.vn/ko/ha-noi-can-bien-loi-the-trung-chuyen-hang-khong-thanh-dong-luc-phat-trien-du-lich
+  - vietnam.vn: TPO - 하이퐁에서 온 한 관광객은 다낭 공항에 6천만 VND가 넘는 현금과 여러 서류가 들어 있는 핸드백을 두고 내렸는데, 경찰이 그것을 찾아 무사히 돌려주자 매우 기뻐했습니다.
+    https://www.vietnam.vn/ko/khach-vo-oa-nhan-tai-san-bo-quen-o-san-bay-da-nang
 
-### 다낭과 ​​람동은 베트남 중부 및 중부 고원 지역의 관광 개발을 위한 연계를 촉진합니다.
+### 하노이는 항공 환승객을 새로운 성장 동력으로 삼고자 합니다.
 - 매체 1곳 · vietnam.vn
-  - vietnam.vn: 11월 27일 오후, 다낭에서 람동성 문화체육관광국은 다낭시 문화체육관광국과 공동으로 람동성과 다낭시, 그리고 후에, 꽝응아이, 자라이, 닥락 등 다른 성 및 도시 간의 관광 개발 협력 및 연계를 증진하기 위한 컨퍼런스를 "람동: 목적지 연결, 개발을 위한 파트너십"이라는 주제로 개최했
-    https://www.vietnam.vn/ko/da-nang-va-lam-dong-thuc-day-lien-ket-phat-trien-du-lich-mien-trung-tay-nguyen
+  - vietnam.vn: 노이바이 공항을 이용하는 환승객 수가 급증함에 따라 하노이는 항공 환승 허브로서의 이점을 관광 및 서비스 개발의 원동력으로 전환할 수 있는 기회를 맞았습니다. 그러나 이러한 관광객 유입을 유치하기 위해서는 수도 하노이에 효율적인 환승 시간을 보장하는 적절하고 편리한 체험 상품이 필요합니
+    https://www.vietnam.vn/ko/ha-noi-tim-dong-luc-tang-truong-moi-tu-dong-khach-trung-chuyen-hang-khong
 
-### 호치민시에서 여러 주요 문화, 음식 및 스포츠 행사가 개최될 예정입니다.
-- 매체 1곳 · vietnam.vn
-  - vietnam.vn: 호치민시의 2026년 연말부터 2027년 설날까지의 경기 부양책인 '활기찬 호치민시(Vibrant HCMC)'의 지원을 받아 다양한 문화, 스포츠, 음식, 쇼핑 행사가 개최될 예정이며, 이는 많은 시민과 관광객을 유치할 것으로 기대됩니다.
-    https://www.vietnam.vn/ko/nhieu-su-kien-van-hoa-am-thuc-the-thao-lon-sap-dien-ra-tai-thanh-pho-ho-chi-minh
+## 코타키나발루
+
+### Sabah tourism worth RM14 billion last year
+- 매체 2곳 · Citizens Journal - Malaysia's Citizen Journalism Platform · Daily Express Malaysia  ← 여러 곳이 썼다
+  - Daily Express Malaysia: 
+    https://www.dailyexpress.com.my/news/292250/sabah-tourism-worth-rm14-billion-last-year/
+  - Citizens Journal - Malaysia's Citizen Journalism Platform: Sabah tourism now employs 415,100 people, nearly one in four workers, and added RM14.4 billion in 2025. See the spending split and CJ.MY's own checks.
+    https://cj.my/162611/sabah-tourism-jobs-reach-415100-as-industry-hits-rm14-4-billion/
 
 ## 제주
+
+### 조류인플루엔자 인체감염증 국내 유입 대비 제주공항 검역 현장 점검(11.27.금)
+- 매체 2곳 · 뉴스핌 · 대한민국 정책브리핑  ← 여러 곳이 썼다
+  - 대한민국 정책브리핑: 조류인플루엔자 인체감염증 국내 유입 대비 제주공항 검역 현장 점검 - 질병관리청장, 국립제주검역소 제주공항지소 방문해 해외 감염병 유입 차단을 위한 검역 대응체계 점검 - 현장 - 정책브리핑 | 브리핑룸 | 보도자료
+    https://www.korea.kr/briefing/pressReleaseView.do?newsId=156791123&pWise=sub&pWiseSub=C3
+  - 뉴스핌: [세종=뉴스핌] 신도경 기자 = 임승관 질병관리청장이 항공기 중 중국발 노선이 63.6%를 차지하는 제주공항의 해외 감염병 유입 차단 태세를 점검하기 위해 현장 점검에 나섰다. 임 청장은 27일 국립제주검역소 제주공항지소를 방문해 조류인플루엔자(AI) 인체감염증의 국내
+    https://www.newspim.com/news/view/20261127001147
 
 ### 관광 넘어 우주·AI로…제주 신산업 판 키우는 '지산학연 원팀' 출범
 - 매체 1곳 · 뉴시스
@@ -78,11 +103,6 @@
 - 매체 1곳 · 뉴시스
   - 뉴시스: [제주=뉴시스] 우장호 기자 = 제주 관광 시장이 특정 계절에만 방문객이 집중되는 구조적 한계를 벗어나 사계절 고른 방문을 유도하는 방향으로 무게중심을 옮기고 있다. 그동안 여름 성수기와 봄철 수학여행 및 꽃구경 시즌에 여행객이 몰리면서 비수기 도내 관광업계의 침체와 도심 및 주요 관광
     https://www.newsis.com/view/NISX20261126_0003885363
-
-### [날씨] 주말 제주 기온 6~8도 ‘뚝↓’…비·눈에 강한 바람
-- 매체 1곳 · 제주의소리
-  - 제주의소리: 주말 제주는 곳곳에 비 또는 눈이 내리고 기온이 떨어지겠다. 바람도 강하게 불어 체감온도는 더욱 낮겠다.
-    https://www.jejusori.net/news/articleView.html?idxno=508765
 
 ## 일본
 
@@ -119,6 +139,11 @@
 
 ## 태국
 
+### 무옹로에서 태국 문화적 정체성을 관광 상품으로 만들기 위해.
+- 매체 1곳 · vietnam.vn
+  - vietnam.vn: VHO - 11월 25일부터 27일까지, 라오까이성 투자·무역·관광진흥센터는 응이아로 지역에서 특색 있는 관광 상품 개발 및 운영 기술 교육 과정을 개최했습니다. 이 프로그램은 지역 문화의 가치를 효과적으로 활용하고 서비스 품질을 향상시켜, 므엉로 지역만의 독특한 특징을 지닌 관광 상품
+    https://www.vietnam.vn/ko/de-ban-sac-van-hoa-thai-tro-thanh-suc-hut-cho-du-lich-muong-lo
+
 ### 촛불 밝힌 태국의 밤, 세계를 매혹시키다… 러이 끄라통 2026 성료
 - 매체 1곳 · 트래블바이크뉴스
   - 트래블바이크뉴스: [트래블바이크뉴스=김효설 기자] 태국의 밤하늘과 강물이 촛불과 등불로 물들었다. 물에 대한 감사와 소망을 담은 작은 바구니가 강물 위를 떠다니고, 수백 개의 불빛이 밤하늘을 수놓으며 태국의 대표적인 전통 축제 '러이 끄라통(Loi Krathong) 2026'이 국내외 관광객들에게 특별한
@@ -129,24 +154,22 @@
   - 뉴스케이: 2026년 11월 26일(목)자 태국 현지 뉴스와 한인 관련 소식방콕 코리아타운, 안전한 관광명소로··· 대사관-태국관광경찰국, 관광안전 캠페인 전개https://newsk.net/asia/?bmode=view&idx=175958744<태국현지뉴스>-태국 방콕 프라카농구 수쿰빗 소이 6
     https://newsk.net/th/?idx=175998848&bmode=view
 
+### 태국 방콕 정유공장 폭발·화재…7명 부상·주민 대피
+- 매체 1곳 · KBS 뉴스
+  - KBS 뉴스: 태국 수도 방콕의 대형 정유공장에서 현지 시각 26일 강력한 폭발과 화재가 발생해 7명이 다치고 인근 주민. ..
+    https://news.kbs.co.kr/news/view.do?ncd=8723663
+
 ### 태국은 연말 여행 시즌을 맞아 베트남 관광객 유치를 위한 노력을 강화하고 있다.
 - 매체 1곳 · vietnam.vn
   - vietnam.vn: 베트남은 태국이 연말 관광 성수기에 집중적으로 공략하는 시장 중 하나이며, 태국은 겨울 캠페인과 항공편 증편을 통해 이를 추진하고 있습니다.
     https://www.vietnam.vn/ko/thai-lan-tang-toc-hut-khach-viet-trong-mua-du-lich-cuoi-nam
 
-### 치앙마이여행 최적기 5월 우기 날씨와 옷차림 꿀팁 | 다빛의 다 빛나는 순간
-- 매체 1곳 · 뷰타임즈
-  - 뷰타임즈: 
-    https://view.mk.co.kr/trip-food/article/301855/
-
-### Norse Atlantic grounds all flights as bankruptcy looms, threatening Bangkok and Phuket services
-- 매체 2곳 · The Thaiger · nationthailand  ← 여러 곳이 썼다
-  - nationthailand: Norwegian budget airline Norse Atlantic Airways suspends flights and warns of possible bankruptcy amid soaring fuel costs, putting its Thailand winter expansion
-    https://www.nationthailand.com/news/world/40073984
-  - The Thaiger: The Norwegian budget long-haul airline has cancelled flights to and from Bangkok and Phuket and says it will file for bankruptcy unless it finds urgent financin
-    https://thethaiger.com/news/world/aviation/norse-atlantic-halts-flights-passengers-stranded-thailand
-
 ## 대만
+
+### 대만 야시장부터 싱가포르 리조트까지⋯BTS가 바꾼 글로벌 관광지도
+- 매체 1곳 · 이투데이
+  - 이투데이: 가오슝, 공연 관람객에 야시장 쿠폰멤버 영상 따라 야시장 찾은 팬들싱가포르, 12월 한 달 간 팬 행사공연장 밖으로 넓어진 K-팝 관광▲방탄소년단(BTS
+    https://www.etoday.co.kr/news/view/2651782?trc=main_newsflash
 
 ### 홍콩 국제관광박람회 2027, 참가업체와 구매력 높은 대만구 바이어 및 여행객 연결한다
 - 매체 1곳 · 뉴시스
@@ -186,6 +209,13 @@
   - 뉴스타운: 올해 부산을 방문한 외국인 관광객이 9월까지 393만 명을 기록하며 지난해 연간 실적을 이미 뛰어넘었다. 특히 한국을 방문한 대만 관광객 가운데 43.9%가 부산을 찾았으며, 대만인의 김해국제공항 입국 비중은 7월부터 9월까지 석 달 연속 인천국제공항을 앞질렀다.
     https://www.newstown.co.kr/news/articleView.html?idxno=723717
 
+### 거제해양관광개발공사, 중장년 1인 가구 돌봄 활동으로 복지부 장관상
+- 매체 2곳 · 거제뉴스광장 · 새거제신문  ← 여러 곳이 썼다
+  - 새거제신문: 거제해양관광개발공사가 고독사 위험이 있는 중장년 1인 가구를 대상으로 한 돌봄 활동 성과로 보건복지부 장관상을 받았다. 공사 임직원으로 구성된 사랑나눔봉사단은 한국
+    https://www.saegeoje.com/news/articleView.html?idxno=311263
+  - 거제뉴스광장: 거제해양관광개발공사가 고독사 위험이 있는 중장년 1인 가구를 대상으로 추진한 돌봄 활동 성과를 인정받아 정부 포상을 받았다. 거제해양관광개발공사(사장 지영배)는 임
+    https://www.gjnewsplaza.com/news/articleView.html?idxno=33479
+
 ### 노을 지면 꽃불이 내린다…부산 장림포구 낙화축제
 - 매체 2곳 · 금강일보 · 뉴스후플러스  ← 여러 곳이 썼다
   - 뉴스후플러스: 늦가을 노을과 전통 낙화놀이를 함께 감상할 수 있는 문화축제가 부산 사하구 장림포구에서 열린다. 부산시는 오는 28일부터 29일까지 이틀간 ‘2026년 부네치아 낙낙데이’를 개최한다.
@@ -199,13 +229,6 @@
     https://www.news1.kr/photos/8235348
   - 아시아경제: 신세계 센텀시티가 크리스마스 마켓을 열고 연말 분위기를 백화점 밖 부산 도심으로 넓힌다.
     https://www.asiae.co.kr/article/2026112714324665807
-
-### '대흥란 이식 가능' 판단에…거제남부관광단지 조성계획 승인
-- 매체 2곳 · 거제뉴스광장 · 어반톡  ← 여러 곳이 썼다
-  - 어반톡: 경남도, 거제 남부관광단지 조성 승인…멸종위기 대흥란 이식 거제 노자산 대흥란 시범이식이 '이식 가능'으로 판정되면서 거제남부관광단지 조성사업이 경남도의 승인을 받았다. 2년 넘게 사업의 발목을 잡았던 멸종위기 야생식물 문제가 행정 절차상으로는 일단락된 것이다.
-    https://urban-talk.com/View.aspx?No=4332204
-  - 거제뉴스광장: 경남도가 거제남부관광단지 조성계획을 승인·고시한 가운데 노자산지키기시민행동이 강하게 반발하고 나섰다. 노자산지키기시민행동은 27일 논평을 내고 경남도가 전날인 26
-    https://www.gjnewsplaza.com/news/articleView.html?idxno=33474
 
 ## 여행업계
 
@@ -451,6 +474,13 @@
   - 위클리피플 인물지식가이드저널: 국립심포니오케스트라, 2027년 시즌 공개…문학과 음악을 잇는 클래식 무대
     https://www.weeklypeople.net/view.do?seq=23865
 
+### [stage] ‘명일방주’ TV 애니메이션 시리즈 오케스트라 콘서트 ‘FILM ON ORCHESTRA’ 서울 개최 확정
+- 매체 2곳 · IT타임스 · 아이러브PC방
+  - 아이러브PC방: 명일방주 TV 애니메이션 시리즈 오케스트라 콘서트 ‘FILM ON ORCHESTRA’-서울 공연이 내년 2월 13일 서울 광운대학교 동해문화예술관에서 낮과 저녁
+    https://www.ilovepcbang.com/news/articleView.html?idxno=203763
+  - IT타임스: 글로벌 인기 애니메이션 '명일방주'의 주요 장면과 음악을 라이브로 즐길 수 있는 오케스트라 필름 콘서트가 서울을 찾는다. OGN은 '명일방주' TV 애니메이션 시리즈 오케스트라 콘서트 'FILM ON ORCHESTRA' 서울 공연을 2027년 2월 13일 광운대학교 동해문화예술관에서 낮
+    https://www.ittimes.com/news/articleView.html?idxno=88205
+
 ### [stage] 슈베르트가 전하는 겨울의 서정
 - 매체 2곳 · 누리일보 · 서프라이즈뉴스
   - 서프라이즈뉴스: [서프라이즈뉴스] 경남문화예술회관은 오는 12월 2일 오후 7시 30분 대공연장에서 올해 마지막 기획공연인‘베이스 연광철“겨울 나그네”’를 개최한다. 세계 오페라 무대에서 활약해 온 베이스 연광철이 슈베르트의 대표적인 연가곡‘겨울 나그네’로 경남 관객과 만난다.
@@ -499,13 +529,8 @@
   - 세종포스트: [세종포스트 변상섭 기자] 객석이 오케스트라 연주자들 사이로 뒤바뀌었다. 파격적인 클래식 공연이다.
     http://www.sjpost.co.kr/news/articleView.html?idxno=75510
 
-### [stage] 유물로 본 ‘고대 대구인’의 삶과 죽음의 이야기…국립대구박물관 특별전 ‘달구벌’ 개막
-- 매체 1곳 · 대구일보
-  - 대구일보: 1천600년 전 달구벌에서 터 잡고 살았던 고대 대구인의 삶부터 죽음까지 이야기를 한자리에 펼쳐 놓은 국립대구박물관의 특별전 ‘달구벌(達句伐): 이어진 터전, 펼쳐진 세계’가 24일부터 시작됐다. 전시는 그동안 큰 무덤과 화려한 부장품 위주로 조명해 온 고대 대구 문화를 ‘일상의 삶-
-    https://www.idaegu.com/news/articleView.html?idxno=667223
-
 ## 연예 — 매체 수가 많은 순, 🔥 화제부터
-(자유 이용 사진: 이름 후보 39개 확인, 사진 줄 0개)
+(자유 이용 사진: 이름 후보 39개 확인, 사진 줄 3개)
 
 ### 🔥 화제(매체 18곳) [movie] ‘폭설’ 9일 연속 1위…누적 관객 60만명 눈앞 [11월 26일 영화 박스오피스]
 - 매체 1곳 · ER 이코노믹리뷰  ← 여러 곳이 썼다
@@ -519,6 +544,15 @@
   - 현대불교: 대해 스님의 두 번째 장편 불교 영화 이 관객들을 만났다. 대해 스님은 전작 으로 UN 본부 상영과 세계 유수 영화제 23관왕을 기록한 바 있다.
     https://www.hyunbulnews.com/news/articleView.html?idxno=506626
 
+### 🔥 화제(매체 5곳) [startrip] '폭설', 캐나다서 리메이크…홍의정 감독 직접 연출
+- 매체 3곳 · SBS연예뉴스 · 연합뉴스 · 연합뉴스TV  ← 여러 곳이 썼다
+  - SBS연예뉴스: 영화 '폭설'이 캐나다에서 리메이크된다. 이번 리메이크는 홍의정 감독이 직접 연출을 맡아 더욱 기대를 모은다.
+    https://ent.sbs.co.kr/news/article.do?article_id=E10010325229
+  - 연합뉴스TV: 김윤석·구교환 주연의 한국 영화 ’폭설’이 캐나다에서 영어 영화로 리메이크됩니다. 배급사 쇼박스는 오늘(27일) 국내 제작사 루이스픽쳐스와 캐나다 제작사 롬버스 미디어가 ’폭설’ 리메이크에 나선다고 밝혔습니다.
+    https://www.yonhapnewstv.co.kr/news/AKR202611271409479nc
+  - 연합뉴스: (서울=연합뉴스) 박원희 기자 = 김윤석·구교환 주연의 한국 영화 '폭설'이 캐나다에서 영어 영화로 리메이크된다.
+    https://www.yna.co.kr/view/AKR20261127045100005
+
 ### 🔥 화제(매체 5곳) [movie] 천만 영화 '국제시장' 후속작 나온다…내년 설 연휴 개봉
 - 매체 1곳 · SBS 뉴스
   - SBS 뉴스: 2014년 1천400만 관객을 모은 영화 '국제시장'의 속편이 내년 설 연휴 개봉합니다. '국제시장2'는 부산 국제시장을 터전으로 살아온 가장 진만과 아버지의 기대와는 다른 삶을 살아온 아들 세주를 중심으로 그려낸 한 가족의 이야기입니다.
@@ -529,13 +563,6 @@
   - 시사줌뉴스: 
     http://www.sisazoom.co.kr/123316
 
-### 🔥 화제(매체 4곳) [startrip] '폭설', 캐나다서 리메이크…홍의정 감독 직접 연출
-- 매체 2곳 · SBS연예뉴스 · 연합뉴스TV  ← 여러 곳이 썼다
-  - SBS연예뉴스: 영화 '폭설'이 캐나다에서 리메이크된다. 이번 리메이크는 홍의정 감독이 직접 연출을 맡아 더욱 기대를 모은다.
-    https://ent.sbs.co.kr/news/article.do?article_id=E10010325229
-  - 연합뉴스TV: 김윤석·구교환 주연의 한국 영화 ’폭설’이 캐나다에서 영어 영화로 리메이크됩니다. 배급사 쇼박스는 오늘(27일) 국내 제작사 루이스픽쳐스와 캐나다 제작사 롬버스 미디어가 ’폭설’ 리메이크에 나선다고 밝혔습니다.
-    https://www.yonhapnewstv.co.kr/news/AKR202611271409479nc
-
 ### 🔥 화제(매체 3곳) [movie] iM뱅크, ‘어벤져스: 둠스데이’ 개봉일 고객 초청 CGV 시사회 이벤트 진행
 - 매체 1곳 · 대경일보
   - 대경일보: iM뱅크가 연말을 맞아 영화 ‘어벤져스: 둠스데이’ 개봉일 고객 초청 시사회 이벤트를 진행한다. 27일 iM뱅크에 따르면 이번 이벤트는 CGV와 협업해 오는 12월 16일 영화 개봉 당일 오후 7시 서울 CGV용산아이파크몰과 대구 CGV대구에서 동시 개최된다.
@@ -543,6 +570,8 @@
 
 ### 🔥 화제(매체 3곳) [drama] '신의 구슬', 스페셜 포스터 공개…안보현·이성민·하윤경 등 호송대 총출동
 - 매체 2곳 · iMBC 연예 · 스타데일리뉴스  ← 여러 곳이 썼다
+- 사진(자유 이용, 이성민): `![이성민 · 사진 NewsInStar · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/a/ae/%EC%9D%B4%EC%84%B1%EB%AF%BC2020tvN%E3%80%8A%EB%A8%B8%EB%8B%88%EA%B2%8C%EC%9E%84%E3%80%8B%EC%A0%9C%EC%9E%91%EB%B0%9C%ED%91%9C%ED%9A%8C.png)`
+- 사진(자유 이용, 하윤경): `![하윤경 · 사진 K-POPIT 케이팝잇 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/b/b8/HYK2022.png)`
   - 스타데일리뉴스: [스타데일리뉴스=조수현 기자] JTBC 새 토일드라마 '신의 구슬'이 호송대원들의 모습을 담은 스페셜 포스터를 공개했다. 오는 12월 5일 첫 방송되는 '신의 구슬
     https://www.stardailynews.co.kr/news/articleView.html?idxno=603301
   - iMBC 연예: '신의 구슬'이 목숨을 건 임무에 나선 호송대의 압도적인 전투를 예고했다. 오는 12월 5일 첫 방송되는 JTBC 새 토일드라마 '신의 구슬'(극본 정현민, 연출 정대윤)이 적들에게 포위된 호송대의 모습을 담은 스페셜 포스터를 공개했다.
@@ -560,18 +589,79 @@
 
 ### [movie] 강원이 품은 영화, 결국 청룡 품었다…‘경주기행’ 김미조 감독 신인감독상 쾌거
 - 매체 1곳 · 엔사이드
+- 사진(자유 이용, 강원): `![강원 · 사진 KIYOUNG KIM · CC BY 2.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/8/84/Kang_Won.jpg)`
   - 엔사이드: 강원문화재단이 지원한 영화 ‘경주기행’의 김미조 감독이 제47회 청룡영화제 신인감독상을 수상하며 강원 영상산업의 저력을 다시 한번 입증했다. ‘경주기행’은 강원영상
     https://www.reporternside.com/news/articleView.html?idxno=438651
 
 ---
-거리 112건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
+거리 115건. 쓸 만한 것만 고른다 — 억지로 채우지 않는다.
 
 
 # 공식 채널 인기 영상 — 조회수 1만 이상, 최근 일주일
 
 관광청·방송사·소속사·배급사 공식 유튜브만 모았다. 영상 제목·설명의 사실로 기사를 쓰고,
 본문 첫 문단 아래에 `@youtube <id>` 줄을 그대로 둔다. 설명에 없는 내용은 쓰지 않는다.
-(검색어 34개 · 고른 영상 0개)
+(검색어 34개 · 고른 영상 15개)
+
+## BESTie - Love Options | Suit Dance | Performance | 4K
+- 채널 1theK Originals - 원더케이 오리지널 · 조회수 3,534,695회 · 7일 전
+- `@youtube FVNI7zBuk-4` · https://www.youtube.com/watch?v=FVNI7zBuk-4
+
+## [15화 예고] "억울하게 죽은 거잖아 당신 때문에!" 절규하는 김유정😭 구국단과 박진영의 운명은?
+- 채널 tvN DRAMA · 조회수 942,965회 · 5일 전
+- `@youtube EbhLvwbcJTs` · https://www.youtube.com/watch?v=EbhLvwbcJTs
+
+## HANHAE, Moon Se Yoon - Love Again (feat. ZENA of RESCENE) | Beyond the Studio｜LIVE
+- 채널 1theK Live - 원더케이 라이브 · 조회수 708,107회 · 4일 전
+- `@youtube mXveasS7ZRY` · https://www.youtube.com/watch?v=mXveasS7ZRY
+
+## [14화 예고] 진선규를 향한 김유정X박진영의 반격 시작🔥 사토VS후쿠다VS김승억 🐶싸움도 시작!
+- 채널 tvN DRAMA · 조회수 438,466회 · 6일 전
+- `@youtube PRfV3IPNddA` · https://www.youtube.com/watch?v=PRfV3IPNddA
+
+## [라이어 9회 예고] ＂누가 민준호를 죽였을까요?', MBC 261127 방송
+- 채널 MBCdrama · 조회수 346,687회 · 6일 전
+- `@youtube raQmrxZiCtw` · https://www.youtube.com/watch?v=raQmrxZiCtw
+
+## [무전기 티저] 침묵을 깬 무전 신호📻 모든 것이 바뀐 과거, 그리고 현재의 시간이 다시 흐르기 시작했다 #두번째시그널 EP.0
+- 채널 tvN DRAMA · 조회수 306,320회 · 4일 전
+- `@youtube 8l0kW8eDyvo` · https://www.youtube.com/watch?v=8l0kW8eDyvo
+
+## [최종화 예고] 의식불명에 빠진 임시완X설인아, 모든 것을 끝내고 두 사람은 서로의 구원이 될 수 있을까❤️‍🩹 #나의유죄인간 EP.12
+- 채널 tvN DRAMA · 조회수 270,225회 · 4일 전
+- `@youtube kY7dJB1Rjso` · https://www.youtube.com/watch?v=kY7dJB1Rjso
+
+## ［33회 예고］나 모르겠니 규림아 [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 262,442회 · 6일 전
+- `@youtube 1uxginBULlU` · https://www.youtube.com/watch?v=1uxginBULlU
+
+## [주필산 전투 스페셜 예고] 너를 살려줄 수 있는 건 저 하늘이 아니라 연개소문이다 [문무] | KBS 방송
+- 채널 KBS Drama · 조회수 212,728회 · 1일 전
+- `@youtube D67Mc2yLNvs` · https://www.youtube.com/watch?v=D67Mc2yLNvs
+
+## ［34회 예고］아저씨가 너무너무 미안해 [사랑이 온다] | KBS 방송
+- 채널 KBS Drama · 조회수 210,050회 · 5일 전
+- `@youtube DrmtMqgE-qw` · https://www.youtube.com/watch?v=DrmtMqgE-qw
+
+## [가족관계증명서 86회 예고] ＂임신 중이었다고요?＂, MBC 261123 방송
+- 채널 MBCdrama · 조회수 167,462회 · 7일 전
+- `@youtube QiTgO2BPXHk` · https://www.youtube.com/watch?v=QiTgO2BPXHk
+
+## [5화 예고] 연개소문은 소문처럼 미친자 더이까 [문무] | KBS 방송
+- 채널 KBS Drama · 조회수 133,847회 · 5일 전
+- `@youtube 9F89mwO3ohw` · https://www.youtube.com/watch?v=9F89mwO3ohw
+
+## [66화 예고] 정말 내 친엄마라고? [욕망의 덫] | KBS 방송
+- 채널 KBS Drama · 조회수 127,455회 · 2일 전
+- `@youtube k9bmhcoG0TM` · https://www.youtube.com/watch?v=k9bmhcoG0TM
+
+## [라이어 8회 예고] ＂이제 정말 끝났네요＂, MBC 261121 방송
+- 채널 MBCdrama · 조회수 120,138회 · 7일 전
+- `@youtube FY1AoOA-iIw` · https://www.youtube.com/watch?v=FY1AoOA-iIw
+
+## [가족관계증명서 90회 예고] ＂절대 들키지 마라~＂, MBC 261127 방송
+- 채널 MBCdrama · 조회수 106,457회 · 1일 전
+- `@youtube -DCuXlERHcE` · https://www.youtube.com/watch?v=-DCuXlERHcE
 
 
 
@@ -579,6 +669,20 @@
 
 방송사 보도자료다. **문장을 옮기지 말고** 사실만 가져다 우리 문장으로 쓴다.
 사진은 쓰지 않는다 — 빌드가 프로그램 카드를 그린다.
+
+## MBC 인생도 각본이 필요해 — 11/28 08:10 방송
+- 출처: MBC 보도자료 · https://with.mbc.co.kr/pr/press/view.html?idx=37005
+- 보도자료 제목: [인생도 각본이 필요해] 최고 시청률 34.9% 신드롬 <내 딸, 금사월>, 쉴 틈 없이 달려온 우리 관절의 비밀은?
+
+* 방송 : 11월 28일(토) 오전 8시 10분
+MBC <인생도 각본이 필요해(진행: 송일국, 박지민)>가 다섯 번째 이야기로 김순옥 작가의 대표작 <내 딸, 금사월>을 통해 일상을 위협하는 관절 건강의 비밀을 살펴본다.
+<인생도 각본이 필요해>는 오랫동안 시청자의 기억에 남은 MBC 명작 드라마를 매개로 건강 이슈를 자연스럽게 풀어내는 새로운 형식의 건강 교양 프로그램이다.
+2015년 방영된 <내 딸, 금사월>은 보육원 앞에 버려진 두 아기의 운명이 뒤바뀌면서 시작된다. 재벌가의 친딸이면서도 고아로 자란 금사월(백진희)과 오랜 세월 비밀을 품은 채 복수를 준비해 온 신득예(전인화)의 이야기는 출생의 비밀과 배신, 복수가 숨 돌릴 틈 없이 몰아치며 최고 시청률 34.9%(닐슨코리아 전국 기준)까지 올랐다.
+이번 방송에서는 <내 딸, 금사월>을 향한 시청자의 뜨거운 반응과 그 뒤에 숨은 뒷이야기도 공개된다. '가족 스릴러 시트콤'으로 출발한 작품이 끝까지 시청자를 붙잡을 수 있었던 비결부터 손창민의 즉흥 연기에서 탄생한 명장면까지 촬영장의 뒷이야기가 공개된다.
+극 중 신득예는 한시도 편히 쉬지 못했다. 폭우 속 교통사고를 겪었고, 무너지는 건물 잔해 속에서 사투를 벌였다. 그 고단했던 몸을 다시 들여다보면 평소 의식하지 못했던 관절의 모습이 보이기 시작한다.
+이어서 이번 회차는 <내 딸, 금사월> 속 신득예를 통해 걷고, 앉고, 일어서는 평범한 하루를 지탱하는 관절의 이야기를 다룬다. 일상 속 어떤 동작이 무릎에 가장 큰 부담을 주는지, 통증이 없어도 관절이 조용히 닳아가고 있을 수 있다는 이야기까지, 관절의 숨은 비밀을 파헤친다. 이뿐만 아니라 겨울철 날씨가 추워지면 유독 무릎이 시큰거리는 이유와 함께 관절 건강을 지키는 방법도 함께 소개한다.
+정형외과 이준형 전문의는 겉으로는 가만히 있는 듯 보이는 자세에서도 무릎 안에는 체중의 7배가 넘는 힘이 실릴 수 있다고 설명한다. 그 힘을 고스란히 받아내는 것이 바로 연골이다. 방송에서는 한국인에게 유독 관절 문제가 흔한 이유를 짚고, 나이가 들수록 줄어드는 연골 성분을 어떻게 지킬 수 있을지 콘드로이친을 중심으로 살펴본다. 한국인을 대상으로 한 연구 결과를 바탕으로 콘드로이친이 연골 건강에 어떤 도움을 줄 수 있는지도 확인해 본다.
+MBC <인생도 각본이 필요해> 시즌2 5회는 11월 28일 토요일 오전 8시 10분에 방송된다.
 
 ## KBS1 동행 — 11/28 18:00 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/1tv/culture/accompany
@@ -610,6 +714,22 @@
 - 사진(자유 이용, 출연자 박유나): `![박유나 · 사진 WIP엔터테인먼트 · CC BY 3.0 · 위키미디어 공용](https://upload.wikimedia.org/wikipedia/commons/7/73/Parkyoona2019.png)`
 
 34회 레스토랑까지 찾아온 해정(최우정)의 무례하고 뻔뻔한 태도에 무진(하석진)은 분노를 참지 못한다.한편, 한결(윤하빈)을 만나러 갔다가 그의 출생에 얽힌 비밀을 알게 된 옥선(진경)은 충격과 분노에 휩싸여 무진에게 따져 묻는데...규오(배윤규)를 직접 만나본 희나(정보민)의 엄마는 예상과 다른 그의 모습에 마음이 움직이기 시작한다.
+
+## MBC 생방송 행복드림 로또 6/45 — 11/28 20:35 방송
+- 출처: MBC 보도자료 · https://with.mbc.co.kr/pr/press/view.html?idx=37006
+- 보도자료 제목: [생방송 행복드림 로또 6/45] - <2026 대국민 로또 추첨 공개 생방송! 따뜻한 정을 노래하고 나누는 가수 신유 황금손 출연>
+
+MBC [생방송 행복드림 로또 6/45] - <2026 대국민 로또 추첨 공개 생방송! 따뜻한 정을 노래하고 나누는 가수 신유 황금손 출연>
+* 방송 : 내일(28일) 토요일 저녁 8시 35분
+MBC <생방송 행복드림 로또 6/45>가 11월 28일, 80명의 대국민 참관인단과 함께 특별한 추첨 생방송을 진행한다.
+매주 로또·연금 추첨 생방송은 일반인 신청자 중 20명을 선정해 생방송을 참관해 왔는데, 이번 <645데이 대국민 로또 추첨 공개 생방송>은 지난 6개월간 방청 경험이 없는 19세 이상 일반인 신청자 중 추첨을 통해 80명의 참관인을 선정해 참여의 기회를 대폭 확대했다. 참가 모집을 진행한 결과 총 1,064명이 지원하며 뜨거운 관심과 참여 열기를 모았다.
+초청된 참관인들은 추첨 방송 참관에 앞서 가수 신유, 김용필, 이영은 아나운서가 함께하는 <복권기금 골든벨-따뜻한 동행> 참여 후, 추첨 준비 과정부터 추첨 생방송까지의 모든 과정을 함께한다.
+특별한 추첨 현장에 황금손으로 초대된 스타는 따뜻한 정을 노래하고 나누는 가수 신유다. 2008년 데뷔 앨범 ‘Luxury Trot’으로 가요계에 첫발을 내디딘 신유는 이후 ‘잠자는 공주’, ‘시계바늘’, ‘꽃물’ 등 다수의 히트곡을 발표하며 폭넓은 세대의 사랑을 받아왔다.
+신유는 화려한 무대 뒤에서도 이웃을 향한 따뜻한 나눔 행보를 꾸준히 이어왔다. 과거 대형 산불 피해로 실의에 빠진 경북 안동시를 직접 방문해 고향사랑기부금과 쌀을 기탁하며 피해 주민들을 위로한 바 있다. 뿐만 아니라 ‘어깨동무 연예인 봉사단’과 함께 자선 콘서트 무대에 올라 재능 기부로 지역사회에 훈훈한 온기를 보탰다.
+로또 ‘황금손’ 출연을 앞두고 신유는 “나눔을 한마디로 표현하자면 사람과 사람 사이에 오가는 따뜻한 ‘정’이라고 생각한다”며 “제 노래를 듣고 기뻐해 주시는 분들을 볼 때 가수로서 가장 큰 보람을 느끼는 만큼, 앞으로도 기회가 주어질 때마다 작은 나눔으로 이웃과 온정을 나누고 싶다”고 진심 어린 소감을 전했다.
+MBC <생방송 행복드림 로또 6/45>는 매주 좋은 활동으로 선한 영향력을 펼치는 인물을 ‘황금손’으로 초대해 로또 복권 추첨을 진행하고 있으며 복권기금이 지원되는 다양한 공익사업과 복지사업을 소개해 복권기금의 순기능을 알리고 있다.
+MBC <생방송 행복드림 로또 6/45>와 신유가 전하는 따뜻한 동행은 11월 28일 토요일 저녁 8시 35분에 생방송으로 확인할 수 있다.
+한편, MBC <생방송 행복드림 로또 6/45>는 자체 유튜브 채널 <알아볼권리>를 통해 추첨 과정이 담긴 리허설과 본방송을 실시간으로 확인할 수 있으며, 황금손 추첨 후기도 만나볼 수 있다. <연금복권 720+> 리허설 역시 유튜브 채널 <알아볼권리>에서 확인할 수 있다. 로또와 연금복권 추첨 라이브를 만나러 가는 길, 유튜브 채널 <알아볼권리>와 MBC Life와 함께.
 
 ## KBS2 대하드라마 문무 · 5회 — 11/28 21:20 방송
 - 출처: KBS 미리보기 · https://program.kbs.co.kr/2tv/drama/munmu
@@ -823,5 +943,3 @@ EBS <AI 드라마 - 부활수업> '카이사르‘ 편,
 역사를 뒤흔든 정복자들, 그 세 번째 이야기
 <AI 드라마 - 부활수업>은 차세대 제작 프로세스로, 역사적 인물을 AI 디지털 복원 기술로 되살려 그들이 남겼을 법한 영상 메시지를 구현하는 프로그램이다. 그 가운데 '정복자들'은 역사를 뒤흔든 정복 군주들을 차례로 조명하는 기획으로, 앞서 방송된 알렉산드로스 대왕과 광개토대왕에 이어 세 번째 인물로 로마의 율리
 
----
-수집 실패: MBC 목록: timed out
