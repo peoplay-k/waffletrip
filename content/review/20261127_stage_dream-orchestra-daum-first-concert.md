@@ -5,16 +5,18 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "'꿈의 오케스트라 다음' 30일 첫 연주회, 청소년 단원 29명이 무대에"
+title: '''꿈의 오케스트라 다음'' 30일 첫 연주회, 청소년 단원 29명이 무대에'
 source_name: ''
 source_url: ''
-summary: "꿈의 오케스트라 심화 과정 '다음'이 30일 첫 연주회를 연다. 청소년 단원 29명이 디토 오케스트라와 함께 선다. 장소는 서울아트센터 도암홀, 시작은 오후 7시 30분이다."
+summary: 꿈의 오케스트라 심화 과정 '다음'이 30일 첫 연주회를 연다. 청소년 단원 29명이 디토 오케스트라와 함께 선다. 장소는 서울아트센터
+  도암홀, 시작은 오후 7시 30분이다.
 sources:
-  - https://www.sctoday.co.kr/news/articleView.html?idxno=49097
-  - https://www.ajunews.com/view/20261123170152045
-  - https://www.fnnews.com/news/202611270855573718
-  - https://www.hankyung.com/article/202611261638i
-status: approved
+- https://www.sctoday.co.kr/news/articleView.html?idxno=49097
+- https://www.ajunews.com/view/20261123170152045
+- https://www.fnnews.com/news/202611270855573718
+- https://www.hankyung.com/article/202611261638i
+status: duplicate
+duplicate_of: 20261124_stage_dream-orchestra-next-dito-1130.md
 ---
 문화체육관광부와 한국문화예술교육진흥원이 '꿈의 오케스트라' 심화 과정 '다음'의 첫 연주회를 연다. 청소년 단원 29명이 전문 연주자들과 한 무대에 오른다.
 

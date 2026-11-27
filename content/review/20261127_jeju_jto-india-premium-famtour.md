@@ -4,14 +4,17 @@ channel: travel
 region: jeju
 section: news
 kind: 보도자료
-title: "제주관광공사, 한·인도 합작영화 연계 인도 여행사 초청 팸투어"
+title: 제주관광공사, 한·인도 합작영화 연계 인도 여행사 초청 팸투어
 source_name: ''
 source_url: ''
-summary: 제주관광공사가 25일부터 27일까지 인도 주요 여행사 5곳을 초청해 제주 팸투어를 열었다. 한국관광공사 뉴델리지사와 함께 했다. 한·인도 합작영화 '제주올레' 촬영지를 상품으로 만드는 일도 추진한다.
+summary: 제주관광공사가 25일부터 27일까지 인도 주요 여행사 5곳을 초청해 제주 팸투어를 열었다. 한국관광공사 뉴델리지사와 함께 했다. 한·인도
+  합작영화 '제주올레' 촬영지를 상품으로 만드는 일도 추진한다.
 sources:
-  - https://news.bbsi.co.kr/news/articleView.html?idxno=4121352
-  - https://www.headlinejeju.co.kr/news/articleView.html?idxno=602868
-status: approved
+- https://news.bbsi.co.kr/news/articleView.html?idxno=4121352
+- https://www.headlinejeju.co.kr/news/articleView.html?idxno=602868
+status: published
+published_id: c-43c84b9ba9d5399163484458bae78e489db84d38
+published_on: '2026-11-27'
 ---
 제주가 한국·인도 합작영화를 발판으로 인도 프리미엄 관광시장 공략에 나섰다. 외래 관광시장을 넓히려는 행보다.
 

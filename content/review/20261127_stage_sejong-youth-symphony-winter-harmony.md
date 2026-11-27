@@ -5,16 +5,19 @@ category: stage
 region: ''
 section: news
 kind: 보도자료
-title: "세종시립청소년교향악단, 12월 12일 '윈터 하모니, 온' 정기연주회"
+title: 세종시립청소년교향악단, 12월 12일 '윈터 하모니, 온' 정기연주회
 source_name: ''
 source_url: ''
-summary: "세종시립청소년교향악단이 12월 12일 제8회 정기연주회를 연다. 공연은 오후 5시 세종예술의전당에서 열린다. 입장은 무료이고 예매는 27일부터 시작한다."
+summary: 세종시립청소년교향악단이 12월 12일 제8회 정기연주회를 연다. 공연은 오후 5시 세종예술의전당에서 열린다. 입장은 무료이고 예매는
+  27일부터 시작한다.
 sources:
-  - https://www.news-home.co.kr/news/articleView.html?idxno=80548
-  - https://cc.newdaily.co.kr/site/data/html/2026/11/26/2026112650022.html
-  - https://www.abcn.kr/news/articleView.html?idxno=95059
-  - http://daejeonpress.co.kr/news/71559
-status: approved
+- https://www.news-home.co.kr/news/articleView.html?idxno=80548
+- https://cc.newdaily.co.kr/site/data/html/2026/11/26/2026112650022.html
+- https://www.abcn.kr/news/articleView.html?idxno=95059
+- http://daejeonpress.co.kr/news/71559
+status: published
+published_id: c-3b6263570201da978a5e10f32edc785f67248ade
+published_on: '2026-11-27'
 ---
 세종시립청소년교향악단이 12월 12일 오후 5시 세종예술의전당에서 제8회 정기연주회 '윈터 하모니, 온(ON:溫)'을 연다. 연말을 맞아 시민에게 따뜻한 음악을 전하려는 무대다.
 

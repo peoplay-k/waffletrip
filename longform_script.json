@@ -15,7 +15,7 @@
       ],
       "count": 18,
       "photos": [
-        "assets/photos/vietnam/PEO_3327.webp",
+        "assets/photos/vietnam/n_PEO_1949_b28eee.webp",
         "assets/photos/jeju/DSC01484.webp"
       ]
     }
@@ -102,7 +102,7 @@
     "region": "vietnam",
     "count": 3,
     "narration": "베트남 소식입니다.",
-    "photo": "assets/photos/vietnam/n_PEO_7109_f136ec.webp"
+    "photo": "assets/photos/vietnam/n_PEO_0203_26fc42.webp"
   },
   {
     "kind": "story",
@@ -213,6 +213,15 @@
     "kind": "story",
     "n": 1,
     "total": 3,
+    "headline": "제주관광공사, 한·인도 합작영화 연계 인도 여행사 초청 팸투어",
+    "summary": "제주관광공사가 25일부터 27일까지 인도 주요 여행사 5곳을 초청해 제주 팸투어를 열었다. 한국관광공사 뉴델리지사와 함께 했다. 한·인도 합작영화 '제주올레' 촬영지를 상품으로 만드는 일도 추진한다",
+    "outlet": "",
+    "narration": "제주관광공사가 25일부터 27일까지 인도 주요 여행사 5곳을 초청해 제주 팸투어를 열었다. 한국관광공사 뉴델리지사와 함께 했다."
+  },
+  {
+    "kind": "story",
+    "n": 2,
+    "total": 3,
     "headline": "제주관광공사, 제주 직항 항공사들과 협력 사업 논의",
     "summary": "제주관광공사가 제주 직항을 운영하는 항공사들과 협력 방안을 찾기 시작했다. 24일 제주웰컴센터에서 제주 항공운영위원회(AOC) 소속 항공사들과 만났다. 항공 접근성을 높이고 국내외 관광 수요를 늘리는 것이 목표다",
     "outlet": "",
@@ -220,7 +229,7 @@
   },
   {
     "kind": "story",
-    "n": 2,
+    "n": 3,
     "total": 3,
     "headline": "제주관광공사, 겨울 추천 여행 '제철 제주 겨울' 공개",
     "summary": "제주관광공사가 겨울 제주를 깊이 즐길 수 있는 추천 관광 콘텐츠를 내놨다. 이름은 '제철 제주 겨울'이다. 계절마다 내놓는 '2026 추천 제주 관광'의 겨울 편이다",
@@ -228,21 +237,12 @@
     "narration": "제주관광공사가 겨울 제주를 깊이 즐길 수 있는 추천 관광 콘텐츠를 내놨다. 이름은 '제철 제주 겨울'이다."
   },
   {
-    "kind": "story",
-    "n": 3,
-    "total": 3,
-    "headline": "제주도 세계유산본부, 삼양동 유적서 움집·토기 만들기 체험 운영",
-    "summary": "제주도 세계유산본부가 삼양동 유적에서 선사시대 체험 행사를 연다. 이달 마지막 주말부터 12월 중순까지 이어진다. 움집과 토기 만들기로 청동기 생활상을 소개한다",
-    "outlet": "",
-    "narration": "제주도 세계유산본부가 삼양동 유적에서 선사시대 체험 행사를 연다. 이달 마지막 주말부터 12월 중순까지 이어진다."
-  },
-  {
     "kind": "section",
     "name": "괌",
     "region": "guam",
     "count": 3,
     "narration": "괌 소식입니다.",
-    "photo": "assets/photos/guam/PEO_3913.webp"
+    "photo": "assets/photos/guam/KakaoTalk_20250404_072926245_07.webp"
   },
   {
     "kind": "story",
@@ -262,7 +262,7 @@
     "summary": "투어비스가 괌정부관광청과 겨울 괌 기획전을 열었다. 수능을 마친 수험생과 학부모를 겨냥한 테마형 프로모션이다. 연말과 겨울방학 가족 휴양 수요를 반영해 짰다",
     "outlet": "",
     "narration": "투어비스가 괌정부관광청과 겨울 괌 기획전을 열었다. 수능을 마친 수험생과 학부모를 겨냥한 테마형 프로모션이다.",
-    "photo": "assets/photos/guam/KakaoTalk_20250403_075644959_03.webp"
+    "photo": "assets/photos/guam/PEO_3156.webp"
   },
   {
     "kind": "story",
@@ -272,7 +272,7 @@
     "summary": "괌 더 츠바키 타워가 호텔 인피니티풀과 투몬베이를 잇는 투숙객 전용 계단을 새로 열었다. 수영장에서 해변으로 곧장 내려갈 수 있다. 괌 호텔들의 겨울 프로모션과 함께 23일 소개됐다",
     "outlet": "",
     "narration": "괌 더 츠바키 타워가 호텔 인피니티풀과 투몬베이를 잇는 투숙객 전용 계단을 새로 열었다. 수영장에서 해변으로 곧장 내려갈 수 있다.",
-    "photo": "assets/photos/guam/n_IMG_2692_729f47.webp"
+    "photo": "assets/photos/guam/n_File4296_5567b2.webp"
   },
   {
     "kind": "title",

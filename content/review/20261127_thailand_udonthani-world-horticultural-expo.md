@@ -4,15 +4,17 @@ channel: travel
 region: thailand
 section: news
 kind: 보도자료
-title: "태국관광청, '우돈타니 세계원예박람회 2026' 방문객 초청"
+title: 태국관광청, '우돈타니 세계원예박람회 2026' 방문객 초청
 source_name: ''
 source_url: ''
-summary: 태국관광청이 우돈타니 세계원예박람회 2026에 국내외 방문객을 초청했다. 100만 그루 넘는 화훼·관상식물과 17개국 정원을 볼 수 있다. 박람회는 134일간 이어진다.
+summary: 태국관광청이 우돈타니 세계원예박람회 2026에 국내외 방문객을 초청했다. 100만 그루 넘는 화훼·관상식물과 17개국 정원을 볼 수
+  있다. 박람회는 134일간 이어진다.
 sources:
-  - https://www.traveldaily.co.kr/news/articleView.html?idxno=72779
-  - http://www.travelnbike.com/news/articleView.html?idxno=92907
-  - https://www.tournews21.com/news/articleView.html?idxno=149220
-status: approved
+- https://www.traveldaily.co.kr/news/articleView.html?idxno=72779
+- http://www.travelnbike.com/news/articleView.html?idxno=92907
+- https://www.tournews21.com/news/articleView.html?idxno=149220
+status: duplicate
+duplicate_of: 20261124_thailand_udonthani-horticultural-expo-2026.md
 ---
 태국관광청이 북동부 우돈타니에서 열리는 '우돈타니 세계원예박람회 2026'에 국내외 방문객을 초청했다. 세계 각국의 정원과 식물 전시를 한자리에서 보는 국제 원예박람회다.
 
