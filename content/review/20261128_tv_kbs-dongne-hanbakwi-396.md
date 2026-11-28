@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'동네 한 바퀴' 396화, 우이천 물길 따라 서울 강북구 걷는다"
+title: '''동네 한 바퀴'' 396화, 우이천 물길 따라 서울 강북구 걷는다'
 source_name: ''
 source_url: ''
-summary: KBS1 '동네 한 바퀴' 396화가 28일 오후 7시 10분 방송된다. 이번 여정은 북한산이 감싼 서울 강북구 우이천 일대다. 물고기 병원 의사와 백년시장 상인을 만난다.
+summary: KBS1 '동네 한 바퀴' 396화가 28일 오후 7시 10분 방송된다. 이번 여정은 북한산이 감싼 서울 강북구 우이천 일대다. 물고기
+  병원 의사와 백년시장 상인을 만난다.
 sources:
-  - https://program.kbs.co.kr/1tv/culture/town2
-status: approved
+- https://program.kbs.co.kr/1tv/culture/town2
+status: published
+published_id: c-dc97d112b2cf8acfb01a21c9c92c7c72b8e79dc4
+published_on: '2026-11-28'
 ---
 > **방송 정보**
 > 채널 · KBS1 | 프로그램 · 동네 한 바퀴 | 회차 · 396화

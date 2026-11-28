@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "'불후의 명곡' 크라잉넛 편, 잔나비·클릭비·소란 등 밴드 무대 총출동"
+title: '''불후의 명곡'' 크라잉넛 편, 잔나비·클릭비·소란 등 밴드 무대 총출동'
 source_name: ''
 source_url: ''
-summary: KBS2 '불후의 명곡'이 28일 오후 6시 5분 크라잉넛 편을 방송한다. 잔나비와 클릭비, 소란X드래곤포니 등이 크라잉넛의 곡을 새로 풀어낸다. 크라잉넛은 오프닝 무대도 직접 꾸민다.
+summary: KBS2 '불후의 명곡'이 28일 오후 6시 5분 크라잉넛 편을 방송한다. 잔나비와 클릭비, 소란X드래곤포니 등이 크라잉넛의 곡을
+  새로 풀어낸다. 크라잉넛은 오프닝 무대도 직접 꾸민다.
 sources:
-  - https://program.kbs.co.kr/2tv/enter/satfreedom
-status: approved
+- https://program.kbs.co.kr/2tv/enter/satfreedom
+status: published
+published_id: c-869a9fd591315fd2f82b9d1e10f2152bcca9c881
+published_on: '2026-11-28'
 ---
 > **방송 정보**
 > 채널 · KBS2 | 프로그램 · 불후의 명곡 | 회차 · 아티스트 크라잉넛 편

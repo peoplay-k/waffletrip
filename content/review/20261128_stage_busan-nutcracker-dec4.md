@@ -5,14 +5,17 @@ category: stage
 region: ''
 section: news
 kind: 해설
-title: "부산시민회관, 12월 4일 발레 '호두까기 인형' 공연"
+title: 부산시민회관, 12월 4일 발레 '호두까기 인형' 공연
 source_name: ''
 source_url: ''
-summary: 부산문화회관이 12월 4일 오후 7시 30분 부산시민회관 대극장에서 발레 '호두까기 인형'을 올린다. 전남광주통합특별시립발레단이 무대에 선다. 크리스마스 시즌 기획공연이다.
+summary: 부산문화회관이 12월 4일 오후 7시 30분 부산시민회관 대극장에서 발레 '호두까기 인형'을 올린다. 전남광주통합특별시립발레단이 무대에
+  선다. 크리스마스 시즌 기획공연이다.
 sources:
-  - https://www.viva100.com/article/20261127500583
-  - http://www.mediatoday.asia/sub_read.html?uid=1898486&section=sc65&section2=%EB%B6%80%EC%82%B0
-status: approved
+- https://www.viva100.com/article/20261127500583
+- http://www.mediatoday.asia/sub_read.html?uid=1898486&section=sc65&section2=%EB%B6%80%EC%82%B0
+status: published
+published_id: c-d829a4fdea1a3e6257635255853205da232751cf
+published_on: '2026-11-28'
 ---
 부산문화회관이 크리스마스 시즌을 앞두고 고전 발레 '호두까기 인형'을 무대에 올린다.
 공연은 12월 4일 오후 7시 30분 부산시민회관 대극장에서 열린다.
