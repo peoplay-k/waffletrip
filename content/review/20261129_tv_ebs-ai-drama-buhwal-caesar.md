@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "EBS 'AI 드라마 - 부활수업' 카이사르 편, 루비콘 강 앞 하룻밤"
+title: EBS 'AI 드라마 - 부활수업' 카이사르 편, 루비콘 강 앞 하룻밤
 source_name: ''
 source_url: ''
-summary: "EBS1이 29일 밤 11시 'AI 드라마 - 부활수업' 카이사르 편을 방송한다. '정복자들' 시리즈의 세 번째 인물로, 기원전 49년 루비콘 강 앞의 밤을 다룬다. 대사는 고전 사료를 토대로 재구성하고 전문가 자문과 그리스어 감수를 거쳤다."
+summary: EBS1이 29일 밤 11시 'AI 드라마 - 부활수업' 카이사르 편을 방송한다. '정복자들' 시리즈의 세 번째 인물로, 기원전 49년
+  루비콘 강 앞의 밤을 다룬다. 대사는 고전 사료를 토대로 재구성하고 전문가 자문과 그리스어 감수를 거쳤다.
 sources:
-  - https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005674062
-status: approved
+- https://about.ebs.co.kr/board/bbs?boardTypeId=1&boardId=31&cmd=view&postId=30005674062
+status: published
+published_id: c-168f7f938f23f853bc582e5e42dcecd2a1a990ca
+published_on: '2026-11-29'
 ---
 > **방송 정보**
 > 채널 · EBS1 | 프로그램 · AI 드라마 - 부활수업 | 편 · 카이사르

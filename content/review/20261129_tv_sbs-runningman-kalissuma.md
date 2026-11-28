@@ -5,13 +5,16 @@ category: tv
 region: ''
 section: news
 kind: 보도자료
-title: "SBS '런닝맨' 제1회 '칼있으마 선발전', 양세찬 과거 사진에 조작 의혹"
+title: SBS '런닝맨' 제1회 '칼있으마 선발전', 양세찬 과거 사진에 조작 의혹
 source_name: ''
 source_url: ''
-summary: "SBS '런닝맨'이 29일 오후 6시 10분 '제1회 칼있으마 선발전'을 방송한다. 멤버들은 셰프·무사·해적 등 칼과 인연 있는 직업으로 변신해 모인다. 상대의 통아저씨를 찾아 칼을 꽂고 자기 통아저씨는 지키는 레이스다."
+summary: SBS '런닝맨'이 29일 오후 6시 10분 '제1회 칼있으마 선발전'을 방송한다. 멤버들은 셰프·무사·해적 등 칼과 인연 있는 직업으로
+  변신해 모인다. 상대의 통아저씨를 찾아 칼을 꽂고 자기 통아저씨는 지키는 레이스다.
 sources:
-  - https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9451
-status: approved
+- https://programs.sbs.co.kr/special/sbspr/board/65175?cmd=view&board_no=9451
+status: published
+published_id: c-189db23943ed4eb853a99e9fd2b59bd28fd4536e
+published_on: '2026-11-29'
 ---
 > **방송 정보**
 > 채널 · SBS | 프로그램 · 런닝맨
